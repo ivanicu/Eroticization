@@ -124,6 +124,13 @@ CONFIRMED**.
 
 ---
 
+## Within-block vs cross-domain
+
+**[RETRACTIONS #59]** Two largely independent contributions, 87% additive, both against two exactly-null
+controls: **cross-block factors +0.0409** (fitted on 31 *other* blocks) and **within-block structure
++0.0290**, combined **+0.0606**. The aggregate cross-domain signal is the *larger* — pairwise block→block
+is ~0 (#49), and it accumulates across blocks.
+
 ## The item margin
 
 **[RETRACTIONS #57]** Fifty-seven rounds measured structure over PEOPLE. The ITEM side, measured once:

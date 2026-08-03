@@ -1760,3 +1760,47 @@ the first time it has landed on the number a round was designed to produce.
 ratio 4.8, well resolvable) and it was dismissed as "empty" by a broken comparison two rounds ago.
 What it was not, is *new*. **The structure this project has been describing from the person side is
 the structure — the other margin is a second view of it, not a second half of it.**
+
+---
+
+## Entry 59, added by `E01·A01·R21` — the aggregate cross-domain signal is larger than block-internal structure, and my verdict label confused largeness with sameness
+
+`#58` closed on an apparent contradiction: within-block structure predicts at ratio 12 while `#49`
+found cross-domain transfer carries no predictable variance. **Reading the code resolved half of it
+immediately** — `R19`/`R20` fit the SVD *inside* each block, so their "person margin" was always
+block-internal, never cross-block. I had quoted two different objects in one breath.
+
+The decomposition, with cross-block factors fitted on **other blocks only**:
+
+| model | out-of-sample R² | **increment** | seed spread |
+|---|---:|---:|---:|
+| base + within-block reconstruction | +0.3421 | **+0.0290** | 0.0034 |
+| **base + cross-block factors** | +0.3540 | **+0.0409** | 0.0034 |
+| **base + both** | **+0.3736** | **+0.0606** | 0.0032 |
+| base + cross-block, person labels permuted *(neg. control)* | +0.3131 | **+0.0000** | 0.0042 |
+| base + random neighbours *(neg. control)* | +0.3131 | **+0.0000** | 0.0042 |
+
+Both nulls land at **exactly 0.0000**, which is the cleanest control pair in the project.
+
+**The aggregate cross-domain signal is 141% of block-internal structure.** Factors built from 31
+*other* blocks predict a person's endorsements in a held-out block **better than that block's own
+low-rank structure does**. This is not in tension with `#49` — it is the reconciliation `#49` itself
+proposed: pairwise block→block is ~0, and the signal **accumulates across blocks**. Now quantified:
+one block gives nothing, thirty-one give +0.0409.
+
+**And my verdict label was wrong.** The gate fired "ONE STRUCTURE" because cross-block exceeded 50%
+of within-block — but **largeness is not sameness**. The overlap test is combined against the sum:
+0.0290 + 0.0409 = 0.0699, combined = **0.0606**, so they are **87% additive** — two *largely
+independent* contributions with ~13% shared. Seventh time a threshold has measured one thing and
+labelled another (`#28` was the same error: comparing a component to another component instead of to
+its own null).
+
+| # | Claim | Verdict |
+|---|---|---|
+| 59 | **within-block vs cross-domain structure** | **TWO LARGELY INDEPENDENT CONTRIBUTIONS**, 87% additive, and the cross-domain one is the **larger** (+0.0409 vs +0.0290). The apparent contradiction with `#49` was a pairwise-vs-aggregate confusion in my own quoting, not in the data |
+
+**This is the first round in the project where the cross-domain claim comes out stronger than
+expected.** Forty-nine entries have shrunk, scoped or withdrawn it — thin direction, K-dependent
+count, unresolvable modality, one-point coverage law. Measured as an *aggregate* against a
+*marginals* base with two exactly-null controls, it is the largest single structural increment
+recorded here.
