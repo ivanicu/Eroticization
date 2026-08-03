@@ -46,7 +46,7 @@ coordinates entirely.
 | shared maturational schedule, share of people following it | **[0.747, 0.860]** | **[CONFIRMED — RETRACTIONS #31]** 72-cell specification curve; null stays 0.479–0.506 in every cell; positive control 0.993. The published 74.7% was the most conservative cell |
 | coordinate-similarity predicting acquisition timing | **t=−0.46 → +1.26** | **[CONFIRMED — RETRACTIONS #43]** null survives rebuilding COORD from the validated person factors, at 344 pairs vs the original 153; TEMPO reproduces at t=+4.36 |
 | breadth's coordinate diversity vs a size-matched base-rate set | **UNVERIFIED** | **[RETRACTIONS #46]** the measure cannot separate a synthetically concentrated population (−1.67%) from a base-rate one (−1.62%), and −0.88% is inside its own Jensen bias |
-| breadth's nestedness | **24.2%** of chance→perfect | excess +0.0660 over a 0.7278 base-rate null |
+| breadth's nestedness | **24.0%** of chance→perfect | **[CONFIRMED — RETRACTIONS #47]** validated with known-answer populations: nested synthetic recovers 100%, base-rate synthetic −0.0001 |
 | θ vs non-sexual variables, reliability-corrected | **r_true ≈ 0.10** | **[RESTATED ×3 — RETRACTIONS #17, #23]** adversity 0.105, mental illness 0.099, openness 0.090; null controls 0.000/0.010. ~1% of variance each |
 | consumption → coordinates | **UNRESOLVABLE at triple matching** (0.036, ratio 1.40); reportable as 0.072–0.090 at looser matching. **[RETRACTIONS #45]** | **[RESTATED — RETRACTIONS #19]** modality is larger (+0.0546); both clear a known-null pool (p95 0.0216); the neuroticism reference was itself null |
 | self-reported porn-induced fetish acquisition, timing | **0.5 yr, uniform** | 1 yr excluded; concentration null at 8.8× power |

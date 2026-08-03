@@ -1276,3 +1276,40 @@ error visible in the code, and `#36` already established that reading the file t
 number is the cheapest instrument here. I ran a K sweep to find a K artifact and found an
 arithmetic one instead — which is the second time an audit has caught something other than what it
 was aimed at (`#35` found accuracy while checking precision).
+
+---
+
+## Entry 47, added by `E01·A05·R13` — the same control that killed one measure validates the other, and unity means opposite things in the two rounds
+
+`#46` killed the concentration measure with synthetic populations of known answer. Nestedness is now
+one of `A05`'s three remaining supports and had never had the same treatment. I predicted it would
+pass — its null is **one draw per pair**, not an average of six, so the Jensen mechanism that broke
+the concentration measure should not apply. **This round tests that reasoning rather than assuming
+it.**
+
+| population | containment | null | excess | % of chance→perfect | seed spread |
+|---|---:|---:|---:|---:|---:|
+| **NESTED** *(positive control — sets are prefixes of the popularity ordering)* | **1.0000** | 0.7268 | **+0.2732** | **100.0%** | 0.0025 |
+| **base-rate** *(negative control — no nestedness by construction)* | 0.7273 | 0.7275 | **−0.0001** | −0.02% | 0.0017 |
+| **real** | 0.7934 | 0.7283 | **+0.0655** | **24.0%** | 0.0022 |
+
+**MEASURE SOUND.** The negative control lands at **−0.0001** — four orders of magnitude better than
+the concentration measure's −0.016 — and the positive control recovers exactly 100% of the gap. The
+real value reproduces the published +0.0660 / 24.2%.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 47 | **breadth sets are 24.2% of the way from chance to perfect nesting** | **CONFIRMED with known-answer controls.** `A05`'s decision now stands on three validated supports (nestedness, reliability 0.557, the induction link at 85%) and one withdrawn (`#46`) |
+
+**Unity means opposite things in `#37` and here, and the difference is whether it was built in.**
+`#37`'s positive control returned exactly 1.0000 and that was a **red flag** — a block split against
+itself, where row-centring forces the result. This round's positive control also returns exactly
+1.0000 and that is a **pass** — the population was *constructed* as perfect prefixes, so unity is
+the definition, not an artifact. **The test is not "is it 1.0" but "did I build the 1.0 or did the
+geometry hand it to me."**
+
+**And the reason this round was worth running even though it passed:** `#46` and `#47` used the same
+control on two measures from the same arc, built in the same week, and one was broken while the
+other was clean. **A measure's soundness is not inherited from its neighbours**, and the only way I
+found out which was which was to generate populations whose answer I already knew — which cost less
+than either of the original rounds did.
