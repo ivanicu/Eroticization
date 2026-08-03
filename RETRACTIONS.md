@@ -2828,3 +2828,40 @@ same restricted budget:
 *"budget-matched general spectrum has no knee, so `#83c` stands"* — a confirmation, published, from
 an instrument that had just been shown blind. That is `P5`'s star rule: **a `not found` is
 inadmissible until the same instrument has passed a positive control**, and here it did not.
+
+---
+
+## Entry 85, added by `E01·A10·R13` — the three components are the same size, and "11.7×" was three raw numbers against one corrected one
+
+`#82` inverted `#71` by referring both sides to their own nulls. The audit that followed reached the
+README's **first** row, which still read *"item +0.222 vs person +0.085 vs interaction +0.019"* —
+raw against raw, the exact comparison `#82` had just killed one row below.
+
+Every component given the null that destroys **it** and preserves everything else, in one run:
+
+| component | its null | invariant asserted | real → null |
+|---|---|---|---|
+| `I` item | within-person shuffle | row sums exact | **+0.2041 → −0.0004** |
+| `P` person | within-column shuffle | column sums exact | **+0.0928 → −0.0525** |
+| `W` within-block | fixed-margin curveball | **both** margins exact | −0.0536 → −0.1938 |
+| `C` cross-block | person-permutation | — | +0.0063 → −0.0006 |
+
+| K | `I` raw | **`I_c`** | `P` raw | **`P_c`** | `W` raw | **`W_c`** | **`C_c`** | interaction raw | **interaction corrected** | ratio raw | **ratio corrected** |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 0.2081 | **0.2084** | 0.0864 | 0.1482 | 0.0168 | 0.0853 | 0.0030 | 0.0196 | **0.0883** | 10.6× | **2.36×** |
+| 2 | 0.2054 | 0.2058 | 0.0914 | 0.1479 | −0.0087 | 0.1253 | 0.0040 | −0.0049 | 0.1293 | −41.7× | **1.59×** |
+| 3 | 0.2034 | 0.2038 | 0.0936 | 0.1454 | −0.0325 | 0.1600 | 0.0056 | −0.0274 | 0.1656 | −7.4× | **1.23×** |
+| **5** | 0.2003 | 0.2006 | 0.0969 | 0.1432 | −0.0924 | **0.1906** | 0.0084 | −0.0848 | **0.1989** | −2.4× | **1.01×** |
+| 8 | 0.2034 | 0.2037 | 0.0958 | 0.1419 | −0.1513 | 0.1396 | 0.0135 | −0.1392 | 0.1531 | −1.5× | **1.33×** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 85a | **"the item effect is 11.7× / 3.5× the interaction" (`#68`, README row ①)** | **WITHDRAWN.** Corrected, the ratio is **1.0×–2.4× across the whole rank sweep** and **1.05× at each side's own best rank**. The 11.7× was a corrected item effect against an uncorrected interaction carrying a −0.19 estimator bias |
+| 85b | **the three components, symmetrically** | **THE SAME SIZE.** `I_c` **+0.208** · interaction `+0.199` · `P_c` **+0.148**. The person effect was also under-reported raw (0.093 → 0.148); only the item effect needed no correction, which is exactly what a main effect a margin-preserving null cannot touch should do |
+| 85c | **`#68c`, "the best case for the epoch title is *both, equally*"** | **PROMOTED from adversarial edge case to CENTRAL ESTIMATE.** It was reached there by choosing the rank most generous to the rival; it is reached here by giving every component its own null and its own best rank — a symmetric procedure, not a generous one |
+| 85d | **the per-block split, published because the aggregate hides it** | **item larger in 12/23, interaction larger in 7/23, tied in 4/23.** Median gap **+0.049** against a 2× spread of 0.020 — so the *typical* block does favour the item, while the *mean* is a tie, and **7 blocks go the other way**. "Tied" is the aggregate; the distribution is a genuine split |
+| 85e | **what the epoch question now answers to** | Neither *"a value, not a category"* nor its converse. **Content and individualised valuation contribute equally**, with person breadth close behind. `A09`'s reversal of the epoch title stands as *"not larger"*; it never licensed *"much smaller"*, and for eighteen entries this project reported that it did |
+
+**The N/A that makes this conservative toward the item.** No null destroys `I` while preserving the
+interaction — a within-person shuffle kills both. So `I_c` is an **upper** estimate of the item
+effect's uniquely-attributable part, and the true ratio is **at most** what is reported here.
