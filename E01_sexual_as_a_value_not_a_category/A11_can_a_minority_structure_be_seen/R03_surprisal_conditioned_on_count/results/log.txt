@@ -1,0 +1,27 @@
+targets 23  people 15379
+  seed 1  n=11,627
+  seed 2  n=11,627
+  seed 3  n=11,627
+  seed 4  n=11,627
+  seed 5  n=11,627
+  seed 6  n=11,627
+
+=== GRADED POSITIVE CONTROL: 5% of people given extra picks on the 3 rarest options ===
+  strength 0.0:  p95 diff +0.0496 (2xsp 0.0040) FIRES   p99 diff +0.0678 (2xsp 0.0060) FIRES
+  strength 0.3:  p95 diff +0.0443 (2xsp 0.0032) FIRES   p99 diff +0.0640 (2xsp 0.0090) FIRES
+  strength 0.6:  p95 diff +0.0407 (2xsp 0.0046) FIRES   p99 diff +0.0594 (2xsp 0.0084) FIRES
+
+=== REAL vs FIXED-MARGIN NULL (6 seeds) ===
+  mean  real 0.7064  null 0.7077  diff -0.0013  2xspread 0.0007  RESOLVABLE
+  p50   real 0.6988  null 0.7043  diff -0.0056  2xspread 0.0007  RESOLVABLE
+  p75   real 0.8076  null 0.7930  diff +0.0146  2xspread 0.0026  RESOLVABLE
+  p90   real 0.9105  null 0.8772  diff +0.0333  2xspread 0.0022  RESOLVABLE
+  p95   real 0.9792  null 0.9298  diff +0.0494  2xspread 0.0041  RESOLVABLE
+  p99   real 1.1018  null 1.0320  diff +0.0698  2xspread 0.0053  RESOLVABLE
+
+  CONDITIONAL KILL -- gates first
+   (a) control does NOT fire at strength 0 : FAIL (+0.0496 vs 0.0040)
+   (b) control FIRES at strength 0.6       : PASS (+0.0407 vs 0.0046)
+   -> UNVERIFIED, and that is not an acquittal.
+
+artifact sha1 b0584f9b0a4f

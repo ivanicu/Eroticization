@@ -1,0 +1,25 @@
+  seed 1  n=11,627
+  seed 2  n=11,627
+  seed 3  n=11,627
+  seed 4  n=11,627
+  seed 5  n=11,627
+  seed 6  n=11,627
+
+=== GRADED SWAP CONTROL (5% carriers, count preserved, fixed reference) ===
+  0 swaps: p95 diff +0.0499 (2xsp 0.0027) FIRES   p99 diff +0.0695 (2xsp 0.0069) FIRES
+  1 swaps: p95 diff +0.0463 (2xsp 0.0041) FIRES   p99 diff +0.0703 (2xsp 0.0065) FIRES
+  2 swaps: p95 diff +0.0484 (2xsp 0.0053) FIRES   p99 diff +0.0703 (2xsp 0.0093) FIRES
+
+=== REAL vs FIXED-MARGIN NULL ===
+  p50 real 0.6988  null 0.7039  diff -0.0051  2xspread 0.0014  RESOLVABLE
+  p75 real 0.8076  null 0.7931  diff +0.0146  2xspread 0.0017  RESOLVABLE
+  p90 real 0.9105  null 0.8770  diff +0.0336  2xspread 0.0034  RESOLVABLE
+  p95 real 0.9792  null 0.9289  diff +0.0503  2xspread 0.0017  RESOLVABLE
+  p99 real 1.1018  null 1.0313  diff +0.0704  2xspread 0.0049  RESOLVABLE
+
+  CONDITIONAL KILL -- gates first
+   (a) 0-swap arm matches the real comparison (it IS a no-op): PASS (+0.0499 vs real +0.0503)
+   (b) 2 swaps raises the effect above 0 swaps                : FAIL (+0.0484 vs +0.0499, 2xsp 0.0027)
+   -> UNVERIFIED: the control cannot show the statistic responds to planted rare-option preference.
+
+artifact sha1 17752ef23077

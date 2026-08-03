@@ -3158,3 +3158,40 @@ pick count**. Given that a person picked *k* options, are those *k* unusually co
 ones? A surprisal score `S_i = −Σ log(base rate of each picked option)` is exactly that — it is
 invariant to *how many* were picked and sensitive to *which*, and fixed-margin randomisation is its
 natural and correct null. That is the design `#91` was reaching for and neither `#92` nor `#93` built.
+
+---
+
+## Entry 94, added by `E01·A11·R03`+`R04` — the most promising signal in the project, and a positive control that has failed to license it three times
+
+`#93b` showed the per-person misfit statistic is confounded with the pick count, and named the
+statistic that isn't: **mean surprisal** `S_i = mean over picked options of −log(base rate)` —
+invariant to *how many* were picked, sensitive to *which*, and with fixed-margin randomisation as its
+exactly-matched null.
+
+**Real vs fixed-margin null, 6 seeds, base rates as a fixed external reference:**
+
+| | real | null | diff | 2× spread | ratio |
+|---|---:|---:|---:|---:|---:|
+| p50 | 0.6988 | 0.7039 | **−0.0051** | 0.0014 | **3.6× — real picks MORE COMMON options** |
+| p75 | 0.8076 | 0.7931 | +0.0146 | 0.0017 | 8.6× |
+| p90 | 0.9105 | 0.8770 | +0.0336 | 0.0034 | 9.9× |
+| **p95** | 0.9792 | 0.9289 | **+0.0503** | 0.0017 | **30×** |
+| **p99** | 1.1018 | 1.0313 | **+0.0704** | 0.0049 | **14×** |
+
+**The shape is the fetish signature**: the median person picks options **more common** than a
+margin-preserving reassignment would give them, while the upper tail picks **rarer** ones. Bimodal,
+in exactly the direction `#91` said the old toolkit could not see.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 94a | **the signal** | **PROVISIONAL — resolvable at 3.6–30× its own seed spread against an exactly-matched null**, with the pipeline self-consistent (the no-op arm reproduces the real comparison to +0.0499 vs +0.0503). It is the most promising positive result this project has produced |
+| 94b | **…and it is NOT licensed, because the positive control has failed three times** | `R03` strength-0 arm **was the real data** (twentieth mis-specified design element) · `R03`'s plant was **self-cancelling** — adding picks to rare options raises their base rates and lowers their surprisal, so a *stronger* plant gave a *smaller* effect (+0.0496 → +0.0407) · `R04`'s swap plant is **below its own MDE**: 5% of people × 2 swaps, against ~35 pooled picks each, moves p95 by −0.0015 |
+| 94c | **the pattern across three entries** | **Every one of these failures is a plant below the magnitude the design can detect** — the same fault as `#88`'s gate (b), which I diagnosed there and reproduced twice more here. **I keep choosing plant strengths by intuition instead of deriving them from the statistic's own resolution.** A plant magnitude should be computed, not guessed: it is the effect size that shifts the target quantile by more than 2× its seed spread |
+| 94d | **what the failures do NOT do** | They do not weaken `94a`. A control that is too weak to fire says nothing about whether the real effect is real — it says the control was mis-sized. `UNVERIFIED`, and not an acquittal in either direction |
+
+**The fix, derived rather than guessed.** p95 has a 2× spread of 0.0017 and the real effect is
++0.0503, so a control must plant an effect ≥ 0.0017 at p95 to be informative and ideally ≈ 0.05 to be
+comparable. With ~35 pooled picks per person, a carrier needs their surprisal to move by ≈ 0.05 × 35
+≈ **1.75 nats**, i.e. roughly **two swaps from a median-prevalence option to one ~6× rarer, in every
+block they enter** — not two swaps in one block. That is the next round, and its magnitude is now a
+calculation instead of a guess.
