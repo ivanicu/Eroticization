@@ -1804,3 +1804,49 @@ expected.** Forty-nine entries have shrunk, scoped or withdrawn it — thin dire
 count, unresolvable modality, one-point coverage law. Measured as an *aggregate* against a
 *marginals* base with two exactly-null controls, it is the largest single structural increment
 recorded here.
+
+---
+
+## Entry 60, added by `E01·A01·R22` — the accumulation is √n, and that is the mechanism as well as the curve
+
+`#59` showed pairwise block→block prediction is ~0 while 31 blocks give +0.0409, so the signal
+accumulates. The curve had never been measured, and it is the one quantity a phase-1 collection
+would need to size itself.
+
+| source domains | increment | permuted-label null |
+|---:|---:|---:|
+| 1 | +0.0066 | 0.0000 |
+| 2 | +0.0102 | 0.0000 |
+| 4 | +0.0135 | 0.0000 |
+| 8 | +0.0225 | 0.0000 |
+| 16 | +0.0297 | 0.0000 |
+| 31 | **+0.0415** | 0.0000 |
+
+Gate passes both ways: n=31 reproduces `#59`'s +0.0409, and the permuted-label null is **exactly
+0.0000 at every n** — a control that holds at one n is not a control, and this one holds at six.
+
+**The functional form is √n, and it is not close:**
+
+| fit | coefficient of variation across the six points |
+|---|---:|
+| **increment ∝ √n** | **6.4%** |
+| increment ∝ log₂(n+1) | 11.2% |
+| increment ∝ n | 51.9% |
+
+**increment = 0.00723 × √(source domains).**
+
+**The form is the mechanism, not just a curve.** √n is the signature of **one shared latent measured
+with independent per-block noise**: averaging n noisy estimates cuts the noise by √n, so recoverable
+signal grows as √n. That reconciles `#49` and `#59` exactly — a single block's estimate is buried in
+its own noise (pairwise ≈ 0), and the latent emerges only as blocks accumulate. **The project spent
+fifty rounds arguing about whether the shared structure was real; its accumulation exponent says
+what kind of thing it is.**
+
+| # | Claim | Verdict |
+|---|---|---|
+| 60 | **the cross-block signal accumulates as √n**, coefficient 0.00723 | **MEASURED.** Not saturated at 31 — still rising 40% from n=16 to n=31 — so this release cannot show a ceiling and I am not claiming one |
+
+**What it costs to go further, stated as arithmetic rather than ambition:** reaching an increment of
+0.06 needs **69** source domains, 0.08 needs **122**, 0.10 needs **191**. That is the price list for a
+phase-1 collection, and it comes from a law fitted over n=1–31. **Extrapolating it to 122 assumes
+the law holds four times beyond its measured range, which is an assumption, not a finding.**

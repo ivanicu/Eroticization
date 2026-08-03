@@ -124,6 +124,14 @@ CONFIRMED**.
 
 ---
 
+## How the shared signal accumulates
+
+**[RETRACTIONS #60]** `increment = 0.00723 × √(source domains)` — CV **6.4%** across n=1…31, against 11.2%
+for log and 51.9% for linear, with a permuted-label null of exactly 0.0000 at every n. √n is the signature
+of **one shared latent measured with independent per-block noise**, which is why a single block predicts
+nothing (#49) and thirty-one predict the project's largest increment (#59). Price list for new collection:
+0.06 needs 69 domains, 0.08 needs 122, 0.10 needs 191 — extrapolated beyond the measured range.
+
 ## Within-block vs cross-domain
 
 **[RETRACTIONS #59]** Two largely independent contributions, 87% additive, both against two exactly-null
