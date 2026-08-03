@@ -3008,3 +3008,40 @@ an estimator with a **selection-consistent** penalty (a rank-aware information c
 cross-validation over *both* rank and shrinkage), or blocks with enough options that the noise
 spectrum is not near-full-rank. This release has 10–24 options per block, and that is the binding
 constraint on every rank question the project has asked.
+
+---
+
+## Entry 90, added by `E01·A10·R17` — on the probability scale the three components are the same size, and the item effect wins every skill measure because it is estimated 179× better
+
+Every number in this project has been held-out skill — a quantity whose meaning depends on the
+estimator, which is what `#86`–`#89` spent four entries discovering. This round inverts the plant:
+**what per-cell probability perturbation, passed through the same estimator, reproduces the real
+data's skill?**
+
+| | percentage points |
+|---|---:|
+| option base rate — observed 22.6, binomial noise 0.7 | **± 22.6 pp** |
+| person overall rate — observed 19.8, binomial noise **10.4** | **± 16.3 pp** |
+| person × option interaction — inverted plant, family CV **16%** | **± 23.7 pp** |
+
+**And the reconciliation, which is the entry.** Observations behind each estimate: **item n = 3,228 ·
+person m = 18 — a 179× difference.** So:
+
+| | magnitude (pp) | held-out skill (`#88`) |
+|---|---:|---:|
+| item | ±22.6 | **+0.217** |
+| person | ±16.3 | +0.103 |
+| interaction | **±23.7** | **+0.039** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 90a | **the epoch question, answered on a scale that does not depend on an estimator** | **Content and individualised valuation move endorsement probability by the SAME AMOUNT** — ±22.6 pp vs ±23.7 pp. `#88`'s 5.6× skill advantage for the item effect is **entirely a learnability difference**, not a size difference: a base rate is estimated from 3,228 observations, a person's deviation from 18 |
+| 90b | **what this makes of eleven entries of reversals** | **They were measuring predictability and calling it composition.** `#68` (item-dominant), `#85` (tied), `#88` (item-dominant) were all correct *about skill* and all silent about magnitude. **The interaction is the largest source of variation in this data and the smallest source of predictable variation**, and both halves of that sentence are measured |
+| 90c | **my magnitude accounting, first pass** | **WRONG — the seventeenth mis-specified statistic.** I reported the planted perturbation's sd **before** clipping to [0.02, 0.98], overstating it by 5–56% depending on scale (at rank 10, scale 0.30: 94.6 pp pre-clip vs 41.7 pp realized). Corrected, the implied interaction falls from ±30.8 to **±23.7 pp** — and the family's CV **improves** from 22.4% to 15.9%, so the corrected quantity is also the better-identified one |
+| 90d | **the person effect's noise share, which nobody had priced** | **18% of the observed person spread is binomial noise** (10.4 pp of 19.8). That is the same fact `#86` found as a 12.7% shrinkage recovery, now in interpretable units, and it is why the person component behaves differently from the item one in every round of this arc |
+
+**Scope, and it is a shape assumption.** The inversion assumes the real interaction has the same
+**Gaussian low-rank** shape as the plant. A sparser structure — a few people with strong specific
+tastes rather than everyone deviating a little — would produce the same skill at a different sd.
+Item and person spreads are **measured directly**; the interaction's is **inferred through a model**,
+and that asymmetry is not removable here.

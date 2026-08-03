@@ -1,0 +1,67 @@
+targets 23
+  1/23
+  2/23
+  3/23
+  4/23
+  5/23
+  6/23
+  7/23
+  8/23
+  9/23
+  10/23
+  11/23
+  12/23
+  13/23
+  14/23
+  15/23
+  16/23
+  17/23
+  18/23
+  19/23
+  20/23
+  21/23
+  22/23
+  23/23
+
+=== real W skill +0.0362   fixed-margin -0.0101 ===
+
+=== PLANT LADDER: skill and the per-cell probability sd actually planted ===
+             skill  planted_pp
+rank scale                    
+2.0  0.05  -0.0119      7.1710
+     0.08  -0.0071     11.4736
+     0.12   0.0073     17.2104
+     0.20   0.0549     28.6840
+     0.30   0.1246     43.0260
+5.0  0.05  -0.0108     11.3674
+     0.08  -0.0003     18.1879
+     0.12   0.0253     27.2818
+     0.20   0.0917     45.4697
+     0.30   0.1604     68.2046
+10.0 0.05  -0.0090     15.7649
+     0.08   0.0059     25.2238
+     0.12   0.0360     37.8358
+     0.20   0.0912     63.0596
+     0.30   0.1304     94.5894
+
+=== INVERSION: which planted magnitude reproduces the real skill? ===
+ rank  scale  implied_pp
+    2  0.169      24.176
+    5  0.133      30.273
+   10  0.120      37.916
+
+  CONDITIONAL KILL -- gates first
+   (a) fixed-margin world inverts to ~0 : PASS (-0.0101)
+   (b) real skill inside the ladder for >=2 ranks : PASS
+
+   implied per-cell probability sd along the family: [24.18, 30.27, 37.92] pp   CV 22.4%
+
+   THE THREE COMPONENTS IN PERCENTAGE POINTS
+     option base rates differ by      +/- 21.5 pp  (sd of column means)
+     people differ in overall rate by +/- 20.1 pp  (sd of row means)
+     person x option interaction      +/- 30.8 pp  (inverted plant)
+
+   -> IDENTIFIED. The implied magnitude varies only 22% across ranks 2-10, so the
+      percentage-point statement holds even though rank and scale separately do not.
+
+artifact sha1 c761e1468ffa
