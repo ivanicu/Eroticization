@@ -1347,3 +1347,50 @@ quantity that matters is the ratio *where the correction is large*, and there it
 `#33` compared unmatched to matched values, this one divided noise by noise). Each time the raw
 per-unit numbers were printed directly above the summary that misread them. **The aggregation is
 where the error lives, not the measurement** — and a four-row table needs no aggregation at all.
+
+---
+
+## Entry 49, added by `E01·A01·R17` — the shared grammar is real, graded, and carries almost no predictable variance
+
+No outside challenger has ever run against this project; this session forbids dispatching one, so
+every ledger row stays **`[unchallenged]`**, not "clean". The available substitute is not another
+reviewer but another **framing** — `realstat` §2.5: three independent designs test the framing,
+where a re-implementation only tests the code, and most retractions here were framing errors that
+correct code would have preserved.
+
+**Published framing:** held-out canonical correlation between two blocks' residuals, max over 3
+components, median across 306 pairs → **0.269 raw / 0.198 adjusted**.
+**This framing:** held-out *prediction* — fit block A's residuals → block B's residuals on 70% of
+shared people, score R² on the other 30%.
+
+| tier | prediction R² raw | adjusted | null |
+|---|---:|---:|---:|
+| precum ↔ ejaculate | **0.4327** | 0.3480 | −0.0075 |
+| within fluid family | **0.1060** | 0.0693 | −0.0129 |
+| fluid ↔ non-fluid | 0.0108 | −0.0117 | −0.0102 |
+| **all other pairs** | **0.0105** | **−0.0006** | −0.0111 |
+| **overall median** | **+0.0111** | **−0.0022** | −0.0110 |
+
+**The tier ordering reproduces exactly** (0.433 > 0.106 > 0.011), so this framing measures the same
+thing `#38` graded. **And the magnitude disagrees by two orders of magnitude: CCA says 0.198,
+prediction says −0.0022.**
+
+**Both are correct, and the reconciliation is the finding.** CCA maximises over projections — it
+finds the *best* linear combination in each block. Prediction must reproduce block B's *actual*
+residuals. So there **is** a shared direction, it **is** graded by known similarity, and it carries
+**almost none of B's variance**. A high canonical correlation in a low-variance direction.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 49 | **"a shared cross-domain grammar", 0.269/0.198** | **RESTATED, and the restatement is sharper than the claim.** Cross-domain structure **exists** — CCA 0.198, tier-ordered, above every null. Cross-domain structure **predicts essentially nothing** — pairwise block→block R² is −0.002 against a −0.011 null, everywhere except inside the fluid family (0.35 / 0.07), which `#39` already showed is isolated |
+
+**And it reconciles with `#25`/`#40` rather than contradicting them.** Those used factors from **31
+blocks** to predict a held-out block and got **+0.017 to +0.037, 31/32 positive**. Pairwise
+block→block gives ~0. Both are true: **the shared signal is too thin to survive one block's noise
+and accumulates across many.** Three measurements, one structure — thin per pair, real in aggregate,
+and a correlation that exists in a direction almost nothing travels along.
+
+**This is the largest single correction in the ledger and it came from changing the framing, not
+from finding an error.** Every number in the CCA framing was correct. The framing simply answered
+"is there a shared direction" while I had been reading it as "does domain A tell you about domain
+B" — and those diverge by two orders of magnitude in exactly this kind of data.

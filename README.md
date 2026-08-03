@@ -29,9 +29,13 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 Everything measured is consistent with one expression, and it is B:
 
 ```
-E_i(s)  ~  theta_i  x  population-shared ordering   +   ~4 individual coordinates
-           (scalar gain)                                (role and relation)
+E_i(s)  ~  theta_i  x  population-shared ordering   +   a THIN shared subspace
+           (scalar gain)                                (real, graded, predicts ~nothing per pair)
 ```
+
+**[RESTATED — RETRACTIONS #49]** The shared cross-domain direction exists (CCA 0.198, tier-ordered)
+but carries almost no predictable variance: pairwise block→block prediction R² is −0.002. It becomes
+predictive only when aggregated over ~31 blocks (+0.017–0.037). The coordinate count is withdrawn (#18).
 
 with a **third, orthogonal** organisation — *when* an interest arrives — that ignores the
 coordinates entirely.
