@@ -3302,3 +3302,33 @@ on rare options". `#97d` says the word **minority** may be wrong — the same st
 they imply different mechanisms, and the discriminating design is a **mixture plant vs a gradient
 plant**, matched on (mean, sd) and compared on the **shape of the whole distribution** rather than one
 tail quantile.
+
+---
+
+## Entry 98, added by `E01·A11·R10` — neither family fits, and the two failures bracket the answer from opposite sides
+
+`#97d` opened the fork: is the rare-option signal a **distinct minority** or a **gradient across
+everyone**? Both families tuned to reproduce the real p50 and p95, then tested on the held-out shape.
+Uncertainty from a **bootstrap over people** (`#97c`), which is tiny at n ≈ 12,000: sd(p50) = 0.0018,
+sd(p95) = 0.0035.
+
+**Elevation above the fixed-margin null, by quantile:**
+
+| | p50 | p90 | p95 | p99 |
+|---|---:|---:|---:|---:|
+| null | 0.7011 | 0.8549 | 0.8990 | 0.9859 |
+| **real** | **0.6999** | 0.8893 | 0.9520 | 1.0706 |
+| **real − null** | **−0.0012 (AT the null)** | **+0.034** | **+0.053** | **+0.085** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 98a | **the GRADIENT family** | **EXCLUDED, decisively.** Its weakest setting misses the real (p50, p95) by **44 bootstrap sd**. A trait spread across everyone necessarily **lifts the median** — and the real median sits **exactly at the null** (−0.0012, well inside 1 sd). Whatever this is, **the typical person does not have it** |
+| 98b | **the sharp MIXTURE family** | **ALSO EXCLUDED.** Its best member (3% of people, 4 swaps) matches p50 and p95 to 3.7 sd — genuinely close — and then **overshoots the held-out tail shape by 4×**: s99 = **6.21** against the real **1.87**. A 3% carrier group produces nothing until p97 and then a cliff; the real data is **already elevated at p90** |
+| 98c | **what the two failures bracket** | **A BROAD, MILD minority.** The elevation is **zero at the median**, appears by **p75–p90**, and grows smoothly to +0.085 at p99. Too broad to be 3% of people; too concentrated to be everyone. `#95`'s word *minority* survives `98a`; its implied narrowness does not survive `98b` |
+| 98d | **the shape, stated so it is not over-read** | The real profile `(s90, s95, s99) = (0.958, 1.275, 1.875)` sits very close to the **null's** `(0.933, 1.200, 1.727)`. The distribution is only **mildly** heavier-tailed than chance in shape; the signal is in the **location of the upper quantiles**, not in a dramatic change of form |
+| 98e | **gate (a)'s failure, which is correct and not a nuisance** | With n ≈ 12,000 the bootstrap sd is 0.002–0.004, so a 3-sd tolerance is **0.6% relative**. Neither family reaches it. **That is the design working**: a tolerance set by the data's own precision refuses models that are merely close, and both models here are merely close |
+
+**The bracketing is the finding, and it names the next sweep exactly.** Carrier fraction between 3%
+and 100%, intensity at the low end (1 swap), tuned so that **p50 stays at the null while p90 lifts by
++0.034** — those two constraints together pin the fraction, because a larger fraction at lower
+intensity trades off along exactly that axis.
