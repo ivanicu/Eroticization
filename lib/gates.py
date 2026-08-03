@@ -38,6 +38,25 @@ Usage:
 """
 import numpy as np
 
+# #80d / #93d / #117e -- 三次写下这条规则,三次违反它。名单不再是散文,是可执行的检查。
+BANNED_COLUMN_NAMES = frozenset("""
+T shift mode item count size min max sum mean std var rank pop all any abs where mask
+first last div pow add sub mul truediv floordiv apply map filter head tail index values
+dtypes shape loc iloc at iat name axes empty ndim
+""".split())
+
+
+def check_columns(df, where=""):
+    """#117e: 一个与 DataFrame 方法同名的列,取用时静默返回方法对象而不是数据。
+    这在本项目里发生了五次(shift #74, mode #77, item #80, T #93, shift #117)。
+    在任何 groupby/agg 之前调用一次,它就再也不能发生。"""
+    bad = sorted(set(map(str, df.columns)) & BANNED_COLUMN_NAMES)
+    if bad:
+        raise ValueError(
+            f"列名与 pandas 方法撞名{(' in '+where) if where else ''}: {bad}. "
+            f"改名(例如 v_{bad[0]}),否则 df.{bad[0]} 返回的是方法不是数据。")
+    return df
+
 
 class Gate:
     def __init__(self, question):

@@ -1,0 +1,24 @@
+  15 pairs
+  30 pairs
+  45 pairs
+
+=== 第一件:零修对之后 ===
+             k       e      se
+arm                           
+real        48  0.0159  0.0026
+null_synth  48  0.0023  0.0025
+null_perm   48  0.0096  0.0028
+
+  CONDITIONAL KILL -- #116e 修正后的零
+   PASS  修正零 eff(y_synth)  |+0.0023| < 0.5*|+0.0159| = 0.0080   (null is 14% of the effect)
+   PASS  真实效应              |+0.0159| > 2*0.0026 = 0.0052   (6.1x its own spread)
+   => ALL GATES PASS
+  旧零 eff(y_置换) +0.0096 = 效应的 60%
+  新零 eff(y_synth) +0.0023 = 效应的 14%
+
+=== 第二件(DESCRIPTION,不做因果主张):先来的把人往哪边拉 ===
+Traceback (most recent call last):
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_as_a_value_not_a_category/A12_does_order_of_acquisition_reshape/R13_fix_the_null_and_name_the_direction/run.py", line 129, in <module>
+    sh=G.shift.values; nl=G.shift_null.values
+       ^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'values'
