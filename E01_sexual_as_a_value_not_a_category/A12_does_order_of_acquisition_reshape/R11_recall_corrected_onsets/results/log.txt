@@ -1,0 +1,24 @@
+可校正类别 26   校正量 0.2 年/评分SD   corr(V, VC) = 0.9992
+
+=== 早-A 组 减 晚-A 组,四臂 ===
+             k       n    diff      se   early    late      dy
+arm                                                           
+raw         24  2613.0  0.0181  0.0087  0.0619  0.0438  0.0000
+corr        24  2816.0  0.0154  0.0076  0.0647  0.0493  0.0000
+meanrating  24  2613.0  0.0019  0.0106  0.2192  0.2173  0.0000
+both        24  2816.0  0.0079  0.0092  0.2301  0.2222  0.0000
+shuf_both   24  2849.0 -0.0025  0.0079  0.2262  0.2287  0.0000
+plant_both  24  2812.0  0.0513  0.0095  0.2736  0.2222  0.0156
+
+  CONDITIONAL KILL -- #114e 回忆偏差校正后,#112a 还在吗?
+   PASS  评分匹配在 both 臂成立  |Δ评分| 0.0000   (asserted in code, not in prose)
+   PASS  打乱标签(both 臂)    |-0.0025| < 0.5*|+0.0079| = 0.0040   (null is 32% of the effect)
+   PASS  种植在 both 臂仍被测出  +0.0513 > floor -0.0025 + 2*0.0095 = +0.0165   (headroom +0.0348)
+   FAIL  both 臂的效应       |+0.0079| > 2*0.0092 = 0.0185   (0.9x its own spread)
+   => UNVERIFIED, and that is not an acquittal
+
+  raw +0.0181 -> 仅校正起始 +0.0154 -> 仅加人均评分 +0.0019 -> both +0.0079
+  both 保留 44%
+  -> #112a 必须撤回或改写
+
+artifact sha1 42cdf5677869
