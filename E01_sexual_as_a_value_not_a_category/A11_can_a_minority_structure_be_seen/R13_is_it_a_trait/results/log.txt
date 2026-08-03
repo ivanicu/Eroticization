@@ -1,0 +1,17 @@
+  seed 1
+  seed 2
+  seed 3
+
+=== SPLIT-HALF RELIABILITY OF PER-PERSON SURPRISAL ===
+            n  r_half  r_half_sd     rel  r_resid  rel_resid  r_vs_picks
+world                                                                   
+cb     7316.0  0.3657     0.0061  0.5356  -0.0108    -0.0219      0.7192
+plant  7316.0  0.7264     0.0037  0.8415   0.7118     0.8317      0.2422
+real   7316.0  0.4807     0.0048  0.6493   0.2753     0.4317      0.6083
+
+  CONDITIONAL KILL -- gates first
+   (a) a PLANTED trait is recovered reliably : PASS (rel 0.842)
+   (b) the fixed-margin null is unreliable   : FAIL (rel 0.536)
+   -> UNVERIFIED, and that is not an acquittal.
+
+artifact sha1 6a5cdf74dabc

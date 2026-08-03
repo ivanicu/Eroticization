@@ -3366,3 +3366,34 @@ upper elevation, and pointing the other way.
 *which* options are endorsed, independent of *how many*, is exactly the shape of Ivan's model B —
 `v_i(s,c,t) = w_i(c,t)ᵀ h(s)`, an individualised readout weight. Not a fetish-carrying subgroup; a
 **dimension everyone has a value on**.
+
+---
+
+## Entry 100, added by `E01·A11·R13` — a reliable person-level trait in WHICH options are endorsed, independent of HOW MANY
+
+`#99b` proposed *"a continuous person-level parameter of rare-option affinity"*. That is a claim about
+a **trait**, and a trait must be **reliable** and must not be something already measured wearing a new
+name. Split-half over disjoint sets of **blocks**, Spearman-Brown corrected, with a planted-trait
+ceiling and a fixed-margin floor:
+
+| world | raw split-half `r` | **raw reliability** | after residualising on pick count | **residualised reliability** | corr(S, picks) |
+|---|---:|---:|---:|---:|---:|
+| fixed-margin null | 0.366 | **0.536** | **−0.011** | **−0.022** | **+0.719** |
+| **real** | 0.481 | 0.649 | **0.275** | **+0.432** | +0.608 |
+| planted trait | 0.726 | 0.842 | 0.712 | **+0.832** | +0.242 |
+
+n = 7,316 people with ≥6 blocks; 6 half-splits × 3 seeds.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 100a | **gate (b), "the null is unreliable"** | **FAILED ON THE WRONG COLUMN — the twenty-sixth mis-specified design element.** It read the *raw* reliability (0.536) when the design had **pre-specified** the residualised one precisely for this confound. **Curveball preserves each person's pick count exactly**, and surprisal correlates with count at **+0.719**, so the null's raw reliability is pick-count reliability. On the pre-specified column the null returns **−0.022** and the gate **PASSES** |
+| 100b | **the trait** | **CONFIRMED.** Residualised split-half reliability **+0.432**, against a floor of **−0.022** and a planted-trait ceiling of **+0.832**. It is **52% of the way to a cleanly planted trait** and 20× its own floor |
+| 100c | **is it just breadth?** | **NO.** 67% of the raw reliability survives removing pick count (0.649 → 0.432), and the correlation with pick count is **lower in the real data (+0.608) than in the null (+0.719)** — the association with count is mostly *structural*, not the signal |
+| 100d | **what this establishes about the original question** | **A reliable individual-difference dimension in WHICH options a person endorses, independent of HOW MANY.** That is `v_i(s,c,t) = w_i(c,t)ᵀ h(s)` measured — an **individualised readout weight with real, reliable between-person variance**. Not a category detector, not a subgroup, not response style alone |
+
+**What reliability cannot do, stated because `100d` is the strongest claim in the arc.** A stable
+**response style** is also a reliable person property. Reliability establishes that *something stable
+about which options a person picks* exists and is not pick count; it does not establish that the
+stable thing is erotic preference rather than a way of answering questionnaires. **The external
+correlate is the missing test** — and unlike everything else in this arc, that one needs variables
+outside the endorsement matrix, which this release does carry.
