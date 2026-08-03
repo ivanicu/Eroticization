@@ -106,11 +106,8 @@ negligible. Sets are **24.2%** of the way from chance to perfect nesting. Breadt
 one trait (Spearman–Brown 0.557) and **9–13% response style**, measured on the survey's own
 non-category Likert items.
 
-**[R08 · what theta is](R08_what_theta_is)** — Nearly domain-encapsulated. All 15 non-sexual
-variables jointly: **R² = 0.012**. Childhood adversity, adult sexual assault, corporal
-punishment and sexual repressiveness of upbringing are all bounded under **0.09 disattenuated**,
-at a sample size where 0.023 would have been visible. The family of theories rooting broad or
-unusual sexuality in adversity gets essentially no support here.
+**[E01·R05 · is breadth the object](E01_sexual_as_a_value_not_a_category/R05_is_breadth_a_nuisance_or_the_object)** — Nearly domain-encapsulated. All 15 non-sexual
+variables jointly: **R² = 0.012**. **[PARTLY RETRACTED — see RETRACTIONS #17]** That held only with survey progression controlled and a *gated* outcome. On the ungated `totalfetishcategory` with acquiescence controlled, childhood adversity → breadth is **r = +0.059, effect/floor 7.5** — real and small, matching the published d=0.151. Adult sexual assault, corporal punishment and upbringing remain near zero.
 
 **[R09 · consumption](R09_consumption)** — Consumption touches both terms: it correlates with θ
 (rho 0.17) *and* independently with the coordinates (**0.0439** after matching coverage, breadth
@@ -137,7 +134,11 @@ CONFIRMED**.
 
 ## Layout
 
-Ten campaigns, 52 rounds. Each round is a directory with `run.py`, `README.md` and `results/`.
+**E · R · r** — epoch (the ontology shifted) contains big rounds (a decision became safe) contains
+sub-rounds (one belief update). One epoch, six big rounds, 54 sub-rounds. Every count is discovered,
+never chosen; see `~/.claude/CLAUDE.md` §P16.
+
+Previously described as ten campaigns, 52 rounds. Each round is a directory with `run.py`, `README.md` and `results/`.
 `lib/rounds.py` maps a round name to its path, because several rounds reuse an earlier round's
 loaders and that dependency is made explicit rather than hidden. Environment is a self-contained
 `.venv` (system python 3.14 has no `ensurepip`; pip was bootstrapped).

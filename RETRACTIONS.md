@@ -85,3 +85,21 @@ which is the one piece of calibration this file can report in its own favour.
 
 **And the honest tail:** four of the fifteen published analyses bear on live claims and have not
 been read line by line. Those claims are `[unchecked]`, which is not `[clean]`.
+
+---
+
+## Entry 17, added by `E01·R06·r02` — the one where the other analysis was right and I was wrong
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 17 | **"θ is nearly domain-encapsulated. All 15 non-sexual variables jointly R² = 0.012. Childhood adversity, adult sexual assault, corporal punishment and sexual repressiveness of upbringing are all bounded under 0.09 disattenuated — the family of theories rooting broad or unusual sexuality in adversity gets essentially no support here."** (`R05·r06`, and it was stated at a sample size where 0.023 would have been visible, which made it sound decisive) | A full `realstat` round built to adjudicate it against `12-multivariate` Test 7, which reported the opposite (**Any 10.665 vs None 9.750, d=0.151, survives demographic controls, verdict REAL**). Two errors on my side, and they compound: **(a)** my breadth was a count over the 68 gated rating columns, so survey progression sits between adversity and the outcome — but `totalfetishcategory` is asked of **everyone, 0% missing**, and on an ungated outcome progression is not a mediator to control, it is over-control. **(b)** The 24-cell specification grid shows exactly this: every cell with progression controlled is near zero (0.021 / 0.018 / −0.008), every cell without it is not. Headline cell — ungated outcome, demographics + acquiescence controlled, Pearson: **r = +0.0590**, effect/floor **7.5**, sham 0.006, placebo 0.028, positive control recovers biomale→(receivepain−givepain) at r = −0.407. Pre-registered kill fired: **world B refuted** | The acquiescence correction, which is mine and still stands (0.070 → 0.059 unadjusted → adjusted). And the narrower true statement: adversity's association with erotic breadth is **real and small**, r ≈ 0.06, about 0.35% of variance — not "essentially no support", and not large either. My error was reporting a specification-dependent near-zero as a property of the world |
+
+**Why this one is different from 1–16.** Every earlier entry is a later round of mine killing an
+earlier round of mine. This is the first where **someone else's analysis was right and mine was
+wrong**, and I found it only because `R06·r01` went looking for prior art after 52 sub-rounds. The
+disagreement was sitting in a public file the whole time, and my own specification grid already
+contained the answer — 0.016 / 0.050 / 0.088 across three specs — which I reported and then
+summarised by picking the one that agreed with the conclusion I had already written.
+
+**That is the failure mode with no entry above it: publishing the specification curve and then
+narrating the cell you liked.** The grid is not a robustness appendix. It is the result.
