@@ -3230,3 +3230,35 @@ options together, not that any particular person does.
 valuation move endorsement probability by about the same amount (`#90`), the item effect dominates
 every *predictability* measure only because it is estimated 179× better (`#90b`), and **a minority
 concentrating on uncommon options exists and was invisible to every method used before this arc**.
+
+---
+
+## Entry 96, added by `E01·A11·R06` — the separator is right, the execution was not mean-matched, and the two normalisations disagree
+
+`#95` named its own limit: surprisal cannot distinguish an idiosyncratic attachment from a careless
+responder. But the two make different predictions about **shape across blocks** — careless is **flat**
+(high everywhere), attachment is **spiky** (high in a few blocks, ordinary elsewhere) — and that is
+testable here. Both plants built, both run against their own fixed-margin nulls.
+
+| world | mean S | between-block sd | **sd / mean** |
+|---|---:|---:|---:|
+| fixed-margin null, top-5% | 0.9567 | 0.2586 | 0.270 |
+| **real, top-5%** | **1.0277** | **0.3004** | **0.292** |
+| **flat** plant (careless) | 1.0815 | 0.3084 | **0.285** |
+| **spiky** plant (attachment) | 0.7934 | 0.3339 | **0.421** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 96a | **gate (a), "the two plants separate at comparable mean"** | **THE LABEL IS FALSE — the twenty-first mis-specified design element.** The plants differ in mean S by **36%** (1.08 vs 0.79). I wrote "at comparable mean" into the gate's text and never checked it. The gate passed on the sd gap alone, which is the quantity the mean confounds |
+| 96b | **the verdict the round printed, `SPIKY`** | **NOT LICENSED.** On **raw sd** the real top-5% sits +0.0419 above chance and reads spiky. On **sd/mean** — the natural normalisation, since sd scales with mean — the real value **0.292 sits beside the FLAT plant's 0.285** and nowhere near the spiky plant's 0.421. **Two defensible normalisations, opposite answers** |
+| 96c | **what is actually established** | **The design separates**: flat and spiky plants do produce different sd/mean (0.285 vs 0.421, a 48% gap). The instrument works. **The execution did not match means**, so the real data cannot be placed between them |
+| 96d | **`#95` itself** | **UNAFFECTED.** `#95` licensed the *existence* of a rare-option minority against an exactly-matched null with a plant that fired monotonically. This round was about *what it is*, and it answers nothing |
+
+**The fix is specific and cheap:** tune the two plants' swap counts until their **mean S matches**
+(fewer swaps in the flat arm, more carriers or more blocks in the spiky arm), then compare sd at
+equal mean. The 48% sd/mean gap between the plants says there is plenty of signal to read once the
+confound is removed.
+
+**Twenty-one mis-specified design elements now**, and this one is a new species: not a wrong
+threshold, not a leaky arm, but **a gate whose prose asserted a condition the code never tested.**
+The sentence "at comparable mean" was doing the work of a check.

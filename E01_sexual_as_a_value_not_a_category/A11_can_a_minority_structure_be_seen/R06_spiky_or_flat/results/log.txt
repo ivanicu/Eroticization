@@ -1,0 +1,28 @@
+  seed 1  n=9,175
+  seed 2  n=9,175
+  seed 3  n=9,175
+  seed 4  n=9,175
+  seed 5  n=9,175
+  seed 6  n=9,175
+
+=== BETWEEN-BLOCK SD OF SURPRISAL, top-5% by mean S ===
+       mean_hi   sd_hi  mean_car  sd_car
+world                                   
+cb      0.9567  0.2586    0.6991  0.2064
+flat    1.1444  0.3432    1.0815  0.3084
+real    1.0277  0.3004    0.7038  0.2119
+spiky   1.0404  0.3362    0.7934  0.3339
+
+  CONDITIONAL KILL -- gates first
+   carriers under FLAT  plant: mean S 1.0815  between-block sd 0.3084
+   carriers under SPIKY plant: mean S 0.7934  between-block sd 0.3339
+   (a) the two plants SEPARATE on sd at comparable mean: PASS (gap 0.0255, 2x spread 0.0152)
+
+   real top-5%: mean S 1.0277  sd 0.3004
+   null top-5%: mean S 0.9567  sd 0.2586   (high by chance -- the reference)
+   real sd sits +0.0419 above the chance reference; the spiky-minus-flat gap is +0.0255
+
+   -> SPIKY. The real high-surprisal minority is concentrated in a FEW blocks, which
+      is the attachment signature and not the carelessness one.
+
+artifact sha1 1cc2324c99d5
