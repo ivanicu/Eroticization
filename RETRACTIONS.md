@@ -912,3 +912,41 @@ ejaculate, which correlate at 0.729 on their role scores (`A02·R21`) — should
 **sub-unity** canonical correlation. Unity is the signature of a constraint, not of a strong effect,
 and any control that returns exactly 1.0000 should be assumed broken before it is assumed
 impressive.
+
+---
+
+## Entry 38, added by `E01·A08·R04` — a graded control, and the pipeline reproduces a similarity ordering it was never told
+
+`#37` reproduced the headline and found it resolvable, but its positive control returned exactly
+1.0000 because row-centring forces `sum(half₁) = −sum(half₂)`. A binary control ("must be high")
+cannot distinguish detection from constraint anyway, so this one is **graded**: block pairs sorted
+by independently known similarity, and the pipeline must reproduce the *ordering*.
+
+| tier | pairs | median CCA | max | permuted floor |
+|---|---:|---:|---:|---:|
+| **1** precum ↔ ejaculate — same template, same source class, role scores r=0.729 (`A02·R21`) | 4 | **0.8603** | 0.8697 | 0.067 |
+| **2** within the fluid family — same template, different substance | 36 | **0.4943** | 0.691 | 0.063 |
+| **4** all other pairs — the population the headline is a median over | 968 | **0.2723** | 0.724 | 0.048 |
+| **3** fluid ↔ non-fluid — different template | 216 | 0.2032 | 0.594 | 0.057 |
+| floor | person-permuted | **0.0499** | — | — |
+
+**Strictly ordered 0.860 > 0.494 > 0.272 > 0.050, and nothing reaches unity.** The most similar
+pair in the release lands at 0.86 — high, and *not* 1.0, which is what separates a detector from a
+constraint. **Control VALID; `#37`'s resolvability verdict is now gated on a working positive
+control rather than on two of three.**
+
+**Secondary observation, unplanned.** Tier 3 (fluid ↔ non-fluid, **0.2032**) sits *below* tier 4
+(all other pairs, **0.2723**). Cross-template pairs transfer *less* than ordinary pairs do, so the
+seven fluid blocks are partially isolated from the rest of the corpus rather than merely internally
+similar. That is consistent with `A02·R21`'s finding that the role feature crosses substance
+boundaries freely inside the family, and it means the headline median (0.2686) is carried by the
+non-fluid bulk, not by the family that produced most of this project's role results.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 38 | **cross-domain CCA 0.269 ± 0.014 raw / 0.198 ± 0.017 adjusted, resolvable** | **CONFIRMED on all three controls.** Positive: graded tiers reproduce a known ordering without hitting unity. Negative: permuted floor 0.050, a fifth of the adjusted value. Precision: ratios 19.6 and 11.7 |
+
+**Why the graded form mattered more than the fix.** The degenerate control in `#37` would have been
+repaired by any pair that returned something under 1.0 — but a single "high" number still cannot
+tell you whether the pipeline is *measuring* similarity or merely *responding* to it. Four tiers in
+a known order is a much stronger statement than one tier above a bar, and it cost the same compute.
