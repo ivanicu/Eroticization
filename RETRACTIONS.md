@@ -632,3 +632,44 @@ choices; `R21` then produced a single-specification number and I called it the s
 project in the same commit. **A specification curve is not a step you run on suspicious results — it
 is the unit in which a result is stated**, and thirty entries in I am still writing point estimates
 first and curves second.
+
+---
+
+## Entry 31, added by `E01·A03·R10` — the first curve that came back robust, and the published cell was the most conservative one by accident
+
+Applying #30's correction rather than regretting it: every surviving README number gets a
+specification curve or is withdrawn. Two had never had one. This is the load-bearing one — `A03`'s
+decision (model acquisition and valuation as two systems) rests on it.
+
+**72 cells**: 3 bin→number mappings × 4 minimum-onset thresholds × 3 category sets × 2 rank
+statistics. All reported.
+
+| | |
+|---|---|
+| share of people agreeing with the population ordering | **[0.776, 0.860]** across all 72 cells |
+| within-person permutation null, **recomputed in every cell** | 0.479 – 0.506 (gate passes) |
+| positive control: synthetic exact-followers + noise | **0.993** |
+| sham: population ordering replaced by a random ordering | 0.568 |
+
+**ROBUST.** The mapping choice moves it by 0.005, the minimum-onset threshold by 0.01, and the
+category set by 0.06 — the largest single lever, and still nowhere near the null.
+
+**But the published figure was 0.747, below the entire swept range**, and that needed explaining
+rather than waving at. It reproduces **exactly** — 0.747, mean ρ +0.232, n=6,810 — on the **27
+matched onset/rating categories**, against 0.848 / +0.350 / n=10,076 on all 31.
+
+**And nothing chose those 27 for this question.** `A03·R09` obtained its data by `exec`-ing the RSA
+round's loader, which filters onset columns down to those with a matching *arousal-rating* column —
+a filter that exists because the RSA needed to pair onset with preference. The schedule question
+needs no such pairing. **A category filter travelled into an analysis it had nothing to do with,
+through the loader-reuse pattern I formalised in `lib/rounds.py` during the restructure.** The
+explicit dependency map made the reuse visible; it did not make the *inherited assumptions* visible.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 31 | **"A population-shared maturational schedule; 74.7% of people follow it, d=0.69"** | **CONFIRMED and widened.** The full range including the published cell is **[0.747, 0.860]**, every cell far above a null that never leaves 0.48–0.51. The published number was, by accident, the most conservative cell on the grid |
+
+**Worth stating plainly after thirty entries of the opposite:** this is the first specification
+curve in the project that came back clean, and the accidental choice went *against* the finding
+rather than for it. Both directions of accident exist; only one of them gets noticed by an author
+checking their own work.
