@@ -1,0 +1,27 @@
+能对上评分列的类别 26
+长表 96,401 行  12,456 人  24 类别
+
+=== 时间表偏离 对 评分 的斜率(负 = 心爱的被报告得更早) ===
+                            arm   slope     se
+                           real -0.2000 0.0101
+rating shuffled within category -0.0004 0.0096
+
+=== 正对照:人为把高评分项往前拉 g 年 ===
+  g   slope     se
+0.0 -0.2000 0.0100
+0.3 -0.2804 0.0100
+0.8 -0.4147 0.0101
+
+  CONDITIONAL KILL -- 记忆会不会把心爱的东西往前拉?
+   PASS  偏离已去掉早熟度(残差与早熟度不相关)    corr(dev, precocity) = +0.0227   (asserted in code, not in prose)
+   PASS  评分在同类别内打乱              |-0.0004| < 0.5*|-0.2000| = 0.1000   (null is 0% of the effect)
+   FAIL  种植阶梯(拉前 g 年 -> 斜率应更负)  signs CROSS ZERO   ([-0.0, 0.0804, 0.2148])
+   PASS  种植 0.8 年被测出            +0.2148 > floor +0.0000 + 2*0.0101 = +0.0203   (headroom +0.1945)
+   PASS  真实斜率                   |-0.2000| > 2*0.0101 = 0.0202   (19.8x its own spread)
+   => UNVERIFIED, and that is not an acquittal
+
+  真实斜率 -0.2000 年/评分标准差   种植 0.8 年给 -0.2148
+  -> 相当于把高评分项往前拉了约 0.74 年
+  -> 回忆偏差侧:心爱的确实被报告得更早
+
+artifact sha1 434282a4d8ae
