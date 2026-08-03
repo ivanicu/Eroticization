@@ -1892,3 +1892,37 @@ NEXT line written after that lesson that turned out to be both falsifiable and f
 subsample large blocks down to small-block size, so n rises while total N is held fixed. If the
 increment still grows as √n, the per-block-latent reading survives. If it tracks √(total N), the
 structure is one pooled estimate and block boundaries are incidental to it.
+
+---
+
+## Entry 62, added by `E01·A03·R18` — three levels of sub-global structure tested, all three below resolution
+
+`#52` showed one global ordering saturates what any global ordering can do. `#55` found the
+**individual** component is +0.88 against a 1.04 spread — unresolvable. Between "one for everyone"
+and "one per person" sits the level never tested: **groups**, which should be far more detectable
+because a group ordering is estimated from thousands of people.
+
+| grouping | own-group ordering | other-group ordering | difference | seed spread | ratio |
+|---|---:|---:|---:|---:|---:|
+| **sex** | 67.47% | 65.96% | **+1.51** | 3.77 | **0.40** |
+| **breadth** (median split) | 67.67% | 67.53% | **+0.14** | 5.56 | **0.02** |
+| random ordering *(neg. control)* | 49.77–49.81% | — | — | ~3 | — |
+
+Gates pass: own-group beats random by **>17 points** in every group, and the random ordering sits at
+chance.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 62 | **group-specific acquisition schedules** | **NOT DETECTED, and this is a LOW-POWER null.** Within-group test sets are smaller, so seed spreads are 3.8–5.6 points and the MDE is roughly **7.5 points**. The observed sex difference is +1.5. **A difference of five points would have been invisible here**, and I am not reporting "one schedule" as though the design could have said otherwise |
+
+**Three levels, three sub-resolution results:** individual (+0.88, ratio 0.85), group-by-sex (+1.51,
+ratio 0.40), group-by-breadth (+0.14, ratio 0.02). **Everything below the global schedule lands
+under this design's resolution**, and the global schedule itself sits 16.6 points above chance with
+a ratio of 22.
+
+**The honest shape of that.** It is not "acquisition order is global" — it is **"acquisition order is
+global at the only resolution this release supports, and every finer structure tested has been
+smaller than the noise of testing it"**. Those differ in what they license: the first invites a
+mechanism, the second invites a better instrument. Given `#34`, `#52`, `#55` and now this, the
+project has repeatedly found the same shape — one large well-measured global effect, and a fringe of
+sub-resolution structure underneath it that a finer-binned release would be needed to see.
