@@ -2793,3 +2793,38 @@ low-rank, general is not"* is partly a statement about **how many dimensions wer
 each**. A knee at 5 out of ≤24 and no knee at 32 out of ~500 are not like-for-like. Settling it
 needs the cross-block sweep re-run at the *same* dimensional budget — that is the residual gap, and
 it is named here rather than left for a reader to notice.
+
+---
+
+## Entry 84, added by `E01·A10·R12` — the confound `#83c` named cannot be settled here, and the control is what says so
+
+`#83c` claimed the within-block spectrum knees at 5 while the cross-block one does not, and named its
+own confound: the two estimators search spaces of very different size (m = 10–24 columns vs ~500).
+This round matched the budget — cross-block scores built from a **random subset of exactly m**
+other-block columns, three independent subsets per block.
+
+**The gate fired before the answer.** A synthetic world with a **known shared rank of 5**, run at the
+same restricted budget:
+
+| | per-dimension gains |
+|---|---|
+| known rank-5, **wide** basis (`#83`, within-block analogue) | 0.1359, 0.1122, 0.0544, **−0.0352** ← sign change at 5 |
+| known rank-5, **budget-matched** basis (here) | 0.0288, 0.0234, 0.0126, 0.0063, 0.0038, 0.0001 — **no sign change at all** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 84a | **the budget-matched comparison** | **UNIDENTIFIED, and that is not an acquittal.** At m columns the estimator cannot count rank even when the rank is known and equal to 5. An n × 18 SVD cannot separate 5 true factors from noise, so each added dimension recovers a fraction of the truth instead of exhausting it. **The instrument needs the wide basis to count, and with the wide basis the budgets are unmatched** |
+| 84b | **`#83c`, "the two levels are different kinds of object"** | **DOWNGRADED from "the sharpest structural statement this project has made" to a contrast whose confound is now known to be UNRESOLVABLE ON THIS RELEASE.** It is not refuted; it is unsupported in a way I cannot fix here |
+| 84c | **what the matched run does show, stated at the size it supports** | The real budget-matched curve rises monotonically (+0.0006 → +0.0097 over ranks 1→16) with **no sign change**, and so does the known-rank-5 control (+0.0445 → +0.1565). **At equal budget the real cross-block spectrum is shape-indistinguishable from a true-rank-5 world** — 16× smaller in magnitude, identical in the only feature the knee reads. That is weak evidence *against* `#83c`, and it is weak precisely because the instrument is blind here |
+| 84d | **subset stability, published rather than averaged** | Knees per subset: **16, 16, 8**. Subset 2 disagrees, and its disagreement comes from a single noisy increment (−0.00006 at rank 12). One draw in three flips a knee, which is itself a reason not to read a knee off this arm |
+
+**What would settle it** — the register entry, since `#83c` cannot be closed here:
+- a release with **more options per block**, so the within-block estimator has a comparable budget; or
+- **many more blocks**, so a matched subset is still large enough to resolve rank; or
+- a within-block estimator that borrows strength across blocks without borrowing structure — which is
+  the same identification problem in a different place.
+
+**The round's real product is the control.** Without the known-rank-5 arm this would have read as
+*"budget-matched general spectrum has no knee, so `#83c` stands"* — a confirmation, published, from
+an instrument that had just been shown blind. That is `P5`'s star rule: **a `not found` is
+inadmissible until the same instrument has passed a positive control**, and here it did not.
