@@ -133,3 +133,43 @@ direction CORRECT, mechanism WRONG.** The count is unstable, and the option floo
 with it. I predicted the right casualty for the wrong reason, which is worth less than it looks:
 had I swept only what I predicted, I would have found the floor inert and concluded the count was
 robust.
+
+---
+
+## Entry 19, added by `E01·A07·R01` — the one K I picked was the only K where the ordering came out the way I reported it
+
+`R14`–`R15` proved the CCA machinery is monotone in K. Three surviving headlines used the same
+machinery at a fixed, never-swept **K=5**. Swept over K ∈ {2,3,5,8,12,16} × 3 seeds, with a
+**known-null pool** added for the first time — a coin-flip sham and a row-parity placebo, 36 cells,
+p95 = 0.0216 — against a measured ceiling sd of 0.0133.
+
+| split | reported | median over K | range | vs null p95 | effect/floor |
+|---|---:|---:|---|---|---:|
+| sex | 0.0927 | **+0.1437** | .081–.206 | ABOVE | 10.8 |
+| modality written/visual | 0.0334 | **+0.0546** | .017–.157 | ABOVE | 4.1 |
+| consumption (pornhabit) | 0.0439 | **+0.0398** | −.012–.103 | ABOVE | 3.0 |
+| neuroticism *(my reference)* | 0.0121 | **+0.0126** | −.020–.054 | **INSIDE THE NULL** | 1.0 |
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 19 | **"Consumption reorganises the grammar at 0.0439, 3.6× the neuroticism reference"** and **"modality is typical, ranking 6th of 9, matched deficit 0.0334"** — reported two rounds apart and used together to argue consumption matters and modality does not | The K sweep. **K=5 is the only value at which consumption outranks modality**; at K ∈ {2,3,8,12,16} the order is sex > modality > consumption. Decomposed: modality at K=5 is **0.0326 against 0.0670 at every other K — ratio 0.49**, so my K halved it; consumption at K=5 is **0.0463 against 0.0372 — ratio 1.24**, so my K inflated it. The single arbitrary choice moved the two claims in opposite directions, which is exactly what it takes to flip an ordering | Both effects, restated and reversed. **Modality is the larger of the two** (0.0546 vs 0.0398) and both clear the known-null p95 with effect/floor 4.1 and 3.0. Sex is robustly largest at every K, effect/floor 10.8 — the positive control held throughout |
+
+**The reference was noise.** I validated consumption by saying it was "3.6× the neuroticism
+reference measured the same way". Neuroticism's median deficit is **+0.0126, inside the known-null
+pool, effect/floor 1.0.** So the argument was *3.6× nothing*. Consumption clears the null on its
+own, so the conclusion survives — but the sentence that made it sound established was comparing
+against a quantity I had never checked was non-null.
+
+**And the reason this was findable only now: I had never run a placebo.** Fifty-plus rounds of
+congruence comparisons, a nine-variable "reference class" in `A04` — and every single one of those
+nine was a *real* variable. Not one was known-null. A reference class of real variables tells you
+where a new variable ranks; it cannot tell you whether the bottom of the class is above zero.
+**The first time I split on row-index parity, the bottom of my reference class turned out to be
+sitting in it.**
+
+**Correction made in flight, recorded because the near-miss is the point:** on first reading the
+rank table I concluded modality was *inside* the placebo range, because the placebo's max (0.0374)
+exceeds modality's K=5 value (0.0326). That comparison is wrong — a max against a single cell.
+Against medians and the null p95, modality is comfortably above. I nearly retracted a real finding
+by attacking it with a cheaper statistic than the one that produced it, which `realstat` §3 names
+as the most expensive kind of error.
