@@ -950,3 +950,40 @@ non-fluid bulk, not by the family that produced most of this project's role resu
 repaired by any pair that returned something under 1.0 — but a single "high" number still cannot
 tell you whether the pipeline is *measuring* similarity or merely *responding* to it. Four tiers in
 a known order is a much stronger statement than one tier above a bar, and it cost the same compute.
+
+---
+
+## Entry 39, added by `E01·A02·R23` — the SUBSTANCE axis does not exist outside the seven blocks it was built in
+
+`#38` found the fluid family partially isolated (fluid↔non-fluid pairs transfer at 0.203 against
+0.272 for ordinary pairs). Most of this project's role findings live in that family, so the question
+is whether the coordinate built there reaches the rest of the release. The self/other contrast only
+exists as paired options inside those blocks, so generality can only be tested by asking whether the
+coordinate **predicts** elsewhere.
+
+| target | gain from SUBSTANCE | gain from **placebo** (fluid endorsement rate, no role content) | permuted null |
+|---|---:|---:|---:|
+| **fluid blocks** (5) — where it is defined | **+0.09339** | +0.01860 | −0.00043 |
+| **non-fluid blocks** (24) | **−0.00012** | **+0.00235** | −0.00143 |
+
+**Gate passes both ways**: SUBSTANCE predicts its own family at 200× its null, and the permuted null
+outside is −0.0014. So this is a real null, not a blind test.
+
+**Outside the family, SUBSTANCE explains nothing — and a role-free placebo built from the same
+blocks and the same people does twenty times better.** Whatever carries a little signal across the
+boundary is the person's fluid-block endorsement rate, which contains no role content at all.
+
+| # | The claim | Verdict |
+|---|---|---|
+| 39 | **the SUBSTANCE axis, and everything built on it** — the third role coordinate (`#24`), the source-gender transfer structure (`#29`, `#30`), the additivity tests (`#28`), and `A02`'s "receiving vs giving" coordinate | **SUBGRAPH-LOCAL.** All of it is scoped to the seven fluid blocks. There is no evidence in this release that the coordinate exists elsewhere, and the appropriate scope line is now attached in `README` |
+
+**What this does and does not touch.** POWER was built from *non-fluid* items and `A02·R01`–`R02`
+showed it predicts option endorsement wherever the option set varies in role — that finding stands.
+What falls is the generality of SUBSTANCE, which means the **three-axis picture is one axis measured
+release-wide, one (GAZE) unmeasurable, and one confined to 3% of the corpus.**
+
+**The check that would have caught this costs one round and I ran it forty rounds late.** "Does the
+coordinate predict outside the blocks that defined it" is the first question to ask of any construct
+built from a subset, and I built four rounds of findings on SUBSTANCE before asking it. The reason
+is legible in the ledger: the fluid family was the only place the contrast was *available*, and
+availability quietly became representativeness.

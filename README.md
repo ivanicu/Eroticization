@@ -42,7 +42,7 @@ coordinates entirely.
 | …surviving sex/age/personality/orientation removal | **0.200** | pairwise-block CCA, max over 3 components, median of 321 pairs. **[#35 withdrawn by #36]** the 0.149 figure was a different estimand (half-split factor CCA), not a discrepancy |
 | coordinates surviving a block split-half | **WITHDRAWN — see RETRACTIONS #18** | count tracks K (4→4, 24→16, non-saturating); what survives is the profile's height above floor, 30–50× |
 | correlation of those coordinates with the folk top/bottom axis | **≤0.159** | six coordinates, n=6,717 |
-| POWER vs SUBSTANCE, ladder-disattenuated | **+0.605** | **[RESTATED — RETRACTIONS #24]** 37% shared variance, not 5%; positive control recovers 1.018 for a measure against itself; GAZE unmeasurable here; "2.95 of 3" withdrawn |
+| POWER vs SUBSTANCE, ladder-disattenuated | **+0.605** ⚠ **[SCOPED — RETRACTIONS #39]** SUBSTANCE predicts nothing outside its 7 defining blocks (−0.0001 vs a role-free placebo's +0.0024) | **[RESTATED — RETRACTIONS #24]** 37% shared variance, not 5%; positive control recovers 1.018 for a measure against itself; GAZE unmeasurable here; "2.95 of 3" withdrawn |
 | shared maturational schedule, share of people following it | **[0.747, 0.860]** | **[CONFIRMED — RETRACTIONS #31]** 72-cell specification curve; null stays 0.479–0.506 in every cell; positive control 0.993. The published 74.7% was the most conservative cell |
 | coordinate-similarity predicting acquisition timing | **ΔR² +0.0008, t=−0.46** | absent, not hidden (predictors correlate −0.028) |
 | breadth's coordinate diversity vs a size-matched base-rate set | **−0.88%** | out-of-sample loadings, 10 null draws each, n=1,189 |
