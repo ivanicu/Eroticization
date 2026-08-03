@@ -1,0 +1,6 @@
+,observed,person_permuted_null,sham_nonrole_options
+person,0.1937,0.0601,0.3831
+substance,0.0105,0.0105,0.1427
+act,0.026,0.026,0.0
+person_x_substance,0.2105,0.2007,0.5106
+person_x_act,0.1986,0.1797,0.0246

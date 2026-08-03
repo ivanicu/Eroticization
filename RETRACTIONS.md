@@ -501,3 +501,51 @@ because its content cancelled, this one because sex and age had already done all
 twenty-six entries of being wrong in one direction, the risk shifts: **suspecting every control
 equally is not calibration, it is a different way of not looking.** The two audits cost real
 compute and returned "fine", which is a legitimate result and worth the same shelf space as a kill.
+
+---
+
+## Entry 28, added by `E01·A02·R20` — the third automated kill I have had to override, and they all fail the same way
+
+Additivity is the mathematical core of Ivan's model B: `v_i = w_i^T φ(s)` requires that a person's
+weight on a feature does not depend on the scene. `A02·R11`–`R13` reported PLAUSIBLE on 3–4
+decisive substance pairs. The fluid template is really **4 acts × 7 substances**, so the same
+question is a variance decomposition over 31,541 cells from 1,953 people.
+
+| component | observed | person-permuted null | sham (non-role options) |
+|---|---:|---:|---:|
+| person main effect | **0.1937** | 0.0601 | 0.3831 |
+| substance | 0.0105 | 0.0105 | 0.1427 |
+| act | 0.0260 | 0.0260 | 0.0000 |
+| **person × substance** | **0.2105** | **0.2007** | 0.5106 |
+| person × act | 0.1986 | 0.1797 | 0.0246 |
+
+**The automated kill fired — "interaction is 109% of the main effect, additivity refuted" — and it
+is wrong.** The interaction sits **at its own null**: 0.2105 observed against 0.2007 permuted.
+Interaction terms in a sparse crossed design absorb residual noise by construction, and my kill
+compared the interaction to the *main effect* instead of to *itself under permutation*. The person
+main effect is real (3.2× its null); the interaction is not distinguishable from noise.
+
+**And the sham says the design is unfit anyway.** A meaningless contrast — two random halves of the
+same blocks' *non-role* options — produces a **larger** person main effect (0.3831) than the real
+self/other contrast (0.1937). Whatever the person component is capturing, a contrast with no role
+content captures more of it. The decomposition is picking up person-level scale, not role.
+
+| # | The claim | Verdict |
+|---|---|---|
+| 28 | **"Additivity refuted in the folk basis; the A_i interaction term is required"** — the automated verdict of this very round | **OVERRIDDEN and UNVERIFIED.** The interaction is at its permutation null and the sham exceeds the signal. `R11`–`R13`'s PLAUSIBLE is neither upgraded nor refuted; additivity remains untested at this scale |
+
+**Three overrides, one failure mode.** #21, #26, and now #28: every kill I have had to override was
+**a threshold on an observed quantity that presupposed the quantity was real**. "z < 2", "|corr| >
+0.30", "interaction > 50% of main effect" — none was conditioned on its control passing first.
+
+**Standing correction, and it belongs next to #25's:** *a pre-registered kill must be written as a
+conditional — evaluate the threshold **only if** the positive control fires and the negative control
+returns null. A kill that can fire on a broken instrument is not a commitment, it is an automated
+way to publish an artifact.* The controls were present and correct in all three rounds; they simply
+were not in the kill's own logic, so the script printed a verdict the controls forbade.
+
+**What the round did surface, unplanned.** Person residuals across source classes: male–female
+**−0.706**, male–neutral −0.486, female–neutral −0.263. Removing a person mean over 3 classes
+induces roughly −0.5 mechanically, so male–female is *more* opposed than the constraint requires and
+female–neutral *less*. That asymmetry is not explained by the arithmetic and is the one thing here
+worth another round — with a design whose sham does not beat its signal.
