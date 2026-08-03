@@ -1,0 +1,52 @@
+eligible 12,459  categories 31
+  capped done
+  uncapped done
+
+=== DID THE SPREAD SHRINK? (positive control for #74's measurement) ===
+            pairs  n_people
+arm                        
+capped    20000.0    6230.0
+uncapped  35438.0    6230.0
+          population  oracle  random  prevalence  onset_minus_prev
+arm                                                               
+capped         0.289   0.488   4.790       0.428             0.218
+uncapped       0.191   0.344   3.178       0.325             0.363
+  median sd ratio capped/uncapped = 1.42x  -> PASS, the cap was binding here
+
+=== NEGATIVE CONTROL: random ordering, both arms, every stratum ===
+           mean   std
+arm                  
+capped    50.03  4.18
+uncapped  50.21  5.01
+
+=== R14 / R15 HEADLINES, capped vs uncapped ===
+        quantity      arm   mean    sd  vs_chance  ratio  resolvable
+      population   capped 66.885 0.289     16.885 58.338        True
+      population uncapped 66.852 0.191     16.852 88.320        True
+          oracle   capped 66.779 0.488     16.779 34.389        True
+          oracle uncapped 66.694 0.344     16.694 48.459        True
+      prevalence   capped 60.551 0.428     10.551 24.633        True
+      prevalence uncapped 60.457 0.325     10.457 32.138        True
+onset_minus_prev   capped 65.717 0.218     15.717 72.223        True
+onset_minus_prev uncapped 65.880 0.363     15.880 43.690        True
+
+=== R16: onset vs prevalence WITHIN onset bands (the censoring test) ===
+       band      arm        n  onset  prevalence   gap    sd  ratio  resolvable
+ onset 0-11   capped  261.125 55.685      51.780 3.905 1.911  2.044        True
+ onset 0-11 uncapped  261.125 55.867      51.561 4.305 1.639  2.626        True
+onset 11-14   capped 1524.750 63.712      58.069 5.643 1.177  4.796        True
+onset 11-14 uncapped 1524.750 63.899      57.978 5.921 0.717  8.257        True
+onset 14-18   capped 2903.500 67.372      60.990 6.382 0.378 16.886        True
+onset 14-18 uncapped 2903.500 67.741      61.062 6.679 0.532 12.556        True
+onset 18-99   capped 1540.625 70.267      64.206 6.061 0.202 30.015        True
+onset 18-99 uncapped 1540.625 70.464      64.049 6.415 0.790  8.118        True
+
+  CONDITIONAL KILL -- gate first
+   (a) spread shrinks when uncapped : PASS (1.42x)
+   (b) random ordering at chance     : PASS (50.12)
+
+   verdicts that FLIP from unresolvable to resolvable when uncapped: 0
+   -> CONSERVATIVE-ONLY. The cap cost precision and cost NO verdict. Every
+      unresolvable call in R14/R15/R16 was unresolvable for a reason other than the cap.
+
+artifact sha1 7a280ea80b0f

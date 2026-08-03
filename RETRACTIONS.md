@@ -2463,3 +2463,41 @@ this is a re-pricing rather than a retraction.
 **The lesson, and it is the one `#73` was about:** an entry written to record an unpriced assumption
 contained a fresh unpriced assumption in its own second sentence. Auditing a class of bug is not the
 same as measuring each member of the class.
+
+---
+
+## Entry 75, added by `E01·A03·R22` — CLOSURE: the cap cost precision and cost no verdict
+
+Labelled **Closure**, not Frontier: it protects an existing conclusion rather than separating worlds.
+`#74` measured that the cap bound in R14/R15/R16. This re-prices them.
+
+**The cap was binding here** — 20,000 pairs against 35,438 uncapped, over the same 6,230 people —
+and the spread shrank **1.42×**, confirming `#74`'s measurement (the positive control this round
+needed, and the one R18 could not provide).
+
+| quantity | capped | uncapped | shift | sd capped → uncapped |
+|---|---:|---:|---:|---|
+| population ordering (**the 66.5% headline**) | 66.885 | **66.852** | −0.033 | 0.289 → **0.191** |
+| oracle (best global ordering) | 66.779 | 66.694 | −0.085 | 0.488 → 0.344 |
+| prevalence ordering | 60.551 | 60.457 | −0.094 | 0.428 → 0.325 |
+| onset with prevalence projected out | 65.717 | 65.880 | +0.163 | 0.218 → 0.363 |
+
+R16's censoring test, all four onset bands, onset vs prevalence:
+
+| band | n | onset | prevalence | gap | ratio (uncapped) |
+|---|---:|---:|---:|---:|---:|
+| 0–11 | 261 | 55.87 | 51.56 | +4.31 | 2.63 |
+| 11–14 | 1,525 | 63.90 | 57.98 | +5.92 | 8.26 |
+| 14–18 | 2,904 | 67.74 | 61.06 | +6.68 | 12.56 |
+| 18–99 | 1,541 | 70.46 | 64.05 | +6.42 | 8.12 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 75a | **verdicts flipped by the cap** | **ZERO of 12.** Every comparison in R14/R15/R16 was resolvable in *both* arms. The unresolvable calls elsewhere in this project were unresolvable for reasons other than the cap |
+| 75b | **the schedule headline** | **CONFIRMED at 66.852 ± 0.191** (8 seeds, 35,438 pairs, 6,230 people). `#63`'s bounds [60.5%, 66.5%] stand; the upper bound is now measured with a spread 1.4× tighter |
+| 75c | **onset's information is not prevalence** | **CONFIRMED.** Projecting prevalence out of the onset ordering costs **0.97 points** (66.85 → 65.88), and onset beats prevalence in **all four censoring bands** by +4.3 to +6.7, resolvable in every band |
+
+**Why this was worth running even though nothing moved.** `#73` and `#74` established that a cap I
+wrote had silently truncated four designs. Leaving that unpriced would have meant every downstream
+number carried an unquantified doubt — and an unquantified doubt is indistinguishable from a real
+one. It cost 0.03 points of location and bought back 1.4× of precision.
