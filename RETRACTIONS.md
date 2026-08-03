@@ -1516,3 +1516,42 @@ forty-eight retractions.
 are tied by the 2-year binning and are excluded rather than scored as half-credit. The 66.7% is
 accuracy *on pairs the release can order at all* — a release with finer bins would score a different
 number on a larger pool, and I do not know in which direction.
+
+---
+
+## Entry 53, added by `E01·A03·R15` — the schedule is developmental, and rarity is a real but separate ordering
+
+`#52` made the maturational schedule the strongest surviving claim — a population ordering predicts
+held-out pairwise acquisition order at 66.71%, saturating what any global ordering can do. It had
+never been asked its most obvious rival: **rare interests are reported later**, so the "schedule"
+might be a prevalence ordering wearing a developmental name.
+
+| ordering used to predict held-out pairs | accuracy | seed spread |
+|---|---:|---:|
+| oracle (best single global ordering, in-sample) | 66.50% | 0.78 |
+| **onset ordering** | **66.75%** | 0.48 |
+| **onset ordering, prevalence partialled out** | **65.59%** | 0.80 |
+| **prevalence ordering alone** | **60.75%** | 0.83 |
+| sham — block option count | 54.41% | 1.02 |
+| random ordering | 53.33% | **7.68** |
+
+`corr(prevalence, mean onset) = −0.219` — rarer categories do arrive later, weakly.
+
+**DEVELOPMENTAL. Removing prevalence from the onset ordering costs 1.16 points** (66.75 → 65.59),
+while prevalence alone reaches only 60.75%. The two orderings are largely **independent**
+contributions rather than one masquerading as the other.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 53 | **the maturational schedule** | **SURVIVES its rival.** Not a rarity artifact: the ordering retains 65.6% with prevalence removed. **Rarity is separately real** — 60.75% on its own, well above the sham and the random band — which is a finding in its own right and was never reported |
+
+**A limitation I created and should not have.** The random control has a seed spread of **7.68
+points** — one random permutation per seed, and a single permutation is a very noisy estimate of
+chance. The other rows have spreads of 0.5–1.0. **The chance baseline is the least precisely
+measured quantity in the table**, which is backwards: it is the one every other row is compared
+against. Many permutations would cost almost nothing and I ran five.
+
+**What this leaves standing.** The schedule is now the only claim in the project that has passed a
+specification curve (`#31`, 72 cells), a predictable-variance test (`#52`, at ceiling), and a rival
+explanation (`#53`). It is also the claim that needed the fewest rounds to establish — which
+`#52` already noted is not a coincidence.
