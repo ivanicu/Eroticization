@@ -458,3 +458,46 @@ and a kill that passes feels like clearance for everything you did not test.**
 **Unfreeze condition** for the response-style question: balanced-keyed items, where the same
 construct is asked in both directions so agreement and content can be separated. This release has
 none, so no amount of further computation on it will resolve this.
+
+---
+
+## Entry 27, added by `E01·A01·R14` — the erotic covariates do nothing, and neither does personality
+
+The other half of #26. Two of the eight CCA covariates are erotic items with no cancelling twin —
+*"I find it erotic when two people of the opposite gender to me sexually interact"* and the
+gender-identity attraction item — so the same audit was expected to come out differently. **It did
+not.** Prediction recorded before running, refuted after.
+
+Nested covariate ladder, held-out cross-domain CCA, K ∈ {3,5,8} × 3 seeds, monotone across nested
+rungs as a positive control requires:
+
+| covariate set | K=5 | share of total adjustment |
+|---|---:|---:|
+| none | 0.4122 | — |
+| + sex, age | 0.2898 | **95%** |
+| + personality (6 vars) | 0.2854 | 3% |
+| **+ 2 erotic (published spec)** | **0.2832** | **2%** |
+| sham: + 2 non-erotic Likert instead | 0.2861 | — |
+| negative control: + 8 random columns instead | 0.2879 | — |
+
+| # | The claim | Verdict |
+|---|---|---|
+| 27 | **"73% of the cross-domain transfer is not demographic"** | **STANDS**, and is now decomposed: **the entire adjustment is sex and age.** Personality and the two erotic covariates together carry 5%, and the erotic pair specifically carries 2% — less than eight *random* numeric columns remove (0.2879 vs 0.2832). My suspicion was wrong |
+
+**The finding I was not looking for.** Eight random columns remove about as much as personality
+plus the erotic pair. **So the "personality adjustment" present in every round of this project is
+not distinguishable from a degrees-of-freedom effect** — any covariate set of that size removes
+roughly that much by consuming df. Every time I wrote "personality partialled out" I was describing
+an operation that did approximately nothing beyond arithmetic.
+
+**Units note, stated because the numbers look wrong against the published ones.** This round reports
+the **maximum** canonical correlation; the published 0.273/0.200 are the **mean** across components.
+The decomposition is what this round is for and the share is stable across both, but 0.4122 and
+0.2832 must not be read as replacing 0.273 and 0.200.
+
+**Calibration, since two consecutive rounds refuted my own alarm.** #26 and #27 were both "this
+control is secretly the thing being measured", and both came back negative — the acquiescence index
+because its content cancelled, this one because sex and age had already done all the work. After
+twenty-six entries of being wrong in one direction, the risk shifts: **suspecting every control
+equally is not calibration, it is a different way of not looking.** The two audits cost real
+compute and returned "fine", which is a legitimate result and worth the same shelf space as a kill.
