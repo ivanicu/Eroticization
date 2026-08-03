@@ -253,3 +253,48 @@ touch** — which is the proxy ledger exactly: a null is sound for a *statistic*
 **Forecast scoring.** #4 CORRECT on the residual test, WRONG on the RSA — the first partial. Three
 of seven now scored: #2 direction-only, #3 fully correct, #4 half. **None of the three was scored
 in my favour by me — each was checked by running the thing it predicted.**
+
+---
+
+## Entry 22, added by `E01·A03·R09` — the first UNVERIFIED to be resolved, and it went the way the original round said
+
+#21 left "onset carries structure preference does not" untestable: the pair-level null was
+anticonservative, the label-permutation null was degenerate, and **both were cheaper than the
+correct one**. `realstat` G2 — *a permutation null answers "did the pairing matter", never "why";
+name the world it must exclude and build it* — so the rival world was built at the person level
+instead of permuted at the matrix level.
+
+**Rival world, specified in full before running:** onset similarity is *entirely* preference
+similarity plus noise. Synthetic person-level onset data generated with the observed preference
+covariance, pushed through the same 2-year binning, the same missingness mask, and the same
+residualisation.
+
+| | top residual eigenvalue |
+|---|---:|
+| **observed** | **0.959** |
+| rival world, noise 0.3 | 0.455 ± 0.041, 95% [0.385, 0.535] |
+| rival world, noise 0.5 *(matched)* | 0.441 ± 0.040, 95% [0.372, **0.532**] |
+| rival world, noise 0.7 | 0.429 ± 0.040, 95% [0.362, 0.515] |
+
+Observed is **1.8× the rival world's upper bound** and above it at every noise level.
+
+**The controls that make this reportable, unlike #21's:**
+- **positive** — injecting person-level rank-2 structure: amplitude 0.0 → 0.441, *not detected*
+  (identical to the rival world, so the test does not fire on nothing); 0.3 → 1.321, detected;
+  0.6 → 3.263, detected. **It sees what is there and stays silent on what is not.**
+- **sham** — synthetic onset with identity covariance, no preference coupling at all: 0.418 against
+  0.441 coupled. Nearly equal, which is the correct behaviour: after residualising on preference,
+  what is left should not care whether preference was in the generator.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 22 | **"Onset similarity carries structure that preference similarity does not"** — `A03·R04`, left UNVERIFIED by #21 | **CONFIRMED.** Resolved in favour of the original round, against a purpose-built rival world with a working positive control. **Scope, narrowed:** this confirms the *existence* of residual structure. The headline number attached to it — "80% of the sd" — is a descriptive ratio (0.076/0.094), not a tested quantity, and remains descriptive |
+
+**What this entry is for.** Twenty-one entries of this file are things I got wrong. This one is a
+claim that two bad instruments had put in limbo and a good instrument recovered — and the good
+instrument cost roughly ten times the compute of either bad one. **The cheap nulls were unfit in
+*opposite* directions**: pair permutation inflated the z, label permutation made it undefined.
+Averaging them, or trusting whichever ran first, would have landed anywhere.
+
+**UNVERIFIED is the verdict that obliges a re-run**, and this is the first time in the project that
+obligation has been discharged rather than deferred.
