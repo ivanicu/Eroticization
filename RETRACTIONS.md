@@ -1926,3 +1926,39 @@ smaller than the noise of testing it"**. Those differ in what they license: the 
 mechanism, the second invites a better instrument. Given `#34`, `#52`, `#55` and now this, the
 project has repeatedly found the same shape — one large well-measured global effect, and a fringe of
 sub-resolution structure underneath it that a finer-binned release would be needed to see.
+
+---
+
+## Entry 63, added by `E01·A03·R19` — 66.7% was accuracy on the pairs the release can order; over all pairs it is bounded [60.5, 66.5]
+
+`#52` reported the schedule at 66.71% and flagged, honestly but without quantifying it, that **36.3%
+of within-person pairs are tied** by the 2-year binning and were excluded. Excluded pairs are not a
+random third — a tie means both onsets fell in the same bin, so **ties are the pairs with the
+smallest true gaps**, the hard ones.
+
+| true onset gap | accuracy | random | share of all pairs |
+|---|---:|---:|---:|
+| **0 (tied — excluded)** | — | — | **36.3%** |
+| 0.1 – 2.5 yr | **61.85%** | 50.39% | 25.0% |
+| 2.5 – 4.5 yr | 66.68% | 50.82% | 16.9% |
+| 4.5 – 8.5 yr | 70.85% | 51.81% | 15.5% |
+| 8.5+ yr | **73.81%** | 49.74% | 6.4% |
+
+Gates pass: every non-tied bin is above chance (min 61.9%) and the random ordering sits at chance in
+all of them. **Accuracy is gap-driven — 12 points from the narrowest to the widest bin.**
+
+| # | Claim | Verdict |
+|---|---|---|
+| 63 | **the schedule predicts held-out acquisition order at 66.7%** | **RESTATED AS BOUNDS: [60.5%, 66.5%].** The published figure is accuracy on the **63.7%** of pairs the binning can order. Scoring ties at half credit — what a predictor earns when it cannot break them — gives **60.52%** over all pairs |
+
+**Why bounds and not a point.** A tie means both onsets landed in the same 2-year bin, but the true
+order may still exist beneath the binning. If the ordering does better than chance on those sub-bin
+gaps, the truth is above 60.5%; if the bins hide genuine simultaneity, it is near 60.5%. **66.5% is
+the upper bound (ties don't count), 60.5% the lower (ties count as coin flips), and this release
+cannot narrow the interval** — the information needed is exactly what the binning destroyed.
+
+**The finding survives the restatement, and is smaller than advertised.** Every gap bin beats
+chance, the gradient is orderly, and the schedule remains the strongest claim in the project. But
+the number that has been quoted for eleven entries was measured on the subset where the measurement
+is easiest, and I flagged the tie share in `#52` without ever asking what it cost. **A caveat noted
+and not quantified is a caveat that has been filed, not paid.**

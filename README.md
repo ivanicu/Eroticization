@@ -27,7 +27,7 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 ## Headline
 
 **Every surviving claim is sorted by whether it carries predictable variance ([RETRACTIONS #51](RETRACTIONS.md)):**
-onset RSA **31%** of its ceiling · nestedness **25%** · sex deficit **9%** · cross-domain CCA **~0%** (a direction, not an amount) · maturational schedule **101%** — at the ceiling a global ordering can reach (66.7% held-out pairwise accuracy vs 66.5% oracle, 49.0% random) [#52].
+onset RSA **31%** of its ceiling · nestedness **25%** · sex deficit **9%** · cross-domain CCA **~0%** (a direction, not an amount) · maturational schedule **101%** — at the ceiling a global ordering can reach. **[#63]** accuracy is **[60.5%, 66.5%]**: 66.5% on the 63.7% of pairs the 2-year binning can order, 60.5% over all pairs with ties at half credit.
 
 
 Everything measured is consistent with one expression, and it is B:
