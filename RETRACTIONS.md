@@ -673,3 +673,45 @@ explicit dependency map made the reuse visible; it did not make the *inherited a
 curve in the project that came back clean, and the accidental choice went *against* the finding
 rather than for it. Both directions of accident exist; only one of them gets noticed by an author
 checking their own work.
+
+---
+
+## Entry 32, added by `E01·A03·R11` — the exec graph, and the first time the gate made me fix an instrument instead of override a verdict
+
+#31 found that A03's rounds inherit their data from the RSA round's loader, which filters onset
+columns to the 27 with a matching arousal-rating column. **Mapping the `exec` graph across the whole
+project: 30 of 57 rounds inherit a loader, in two clusters.**
+
+| loader | rounds inheriting it | the filter they did not choose |
+|---|---:|---|
+| `16_dimensionality` | **20** | block inclusion at n≥1200, n_options≥10, mean_picks>1.5, option floor 20 |
+| `24_attack_rsa` | **6** | the 27 matched onset/rating categories |
+| `49/50_additivity`, `33_induction_timing`, `45_theta_nonsexual` | 4 | fluid-blocks-only, porn-onset excluded, etc. |
+
+Cluster 2 feeds six `A03` rounds **including `R09`, which produced one of only two CONFIRMED claims
+in the project.** So it was re-run on the widest category set the estimand admits.
+
+| category set | observed | rival world (noise 0.3/0.5/0.7) | above p97.5 |
+|---|---:|---|---|
+| matched-27, as published | 0.959 | 0.461 / 0.445 / 0.435 | 3/3 |
+| matched-28 | 0.975 | 0.461 / 0.451 / 0.436 | 3/3 |
+
+Positive control: injection 0.3 → **1.355 / 1.393**, detected in both sets; injection 0.0 → **0.439 /
+0.454** against a reference of 0.439 / 0.449, **not** detected. Both gates pass.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 32 | **"Onset carries structure preference does not"** (#22, CONFIRMED) | **CONFIRMED and filter-free.** Above the rival world in all six cells. **Scope, stated honestly: the widening is only 27→28**, because the residualisation *requires* an onset column to have an arousal-rating twin. Unlike the schedule in #31, this filter is defensible here — it follows from the estimand rather than from a loader. That makes this a weak widening, and I am not claiming more |
+
+**The new thing is what happened to the gate.** On the first run it **failed**: the zero-injection
+control read as "detected" (0.452 against a reference p97.5 of 0.407). That was not the finding —
+it was my control, drawing its reference from a *different RNG stream* with only 30 samples, so seed
+noise alone decided it. Drawing the reference once from a shared stream and testing both injections
+against it fixed it, and the verdict then came out clean.
+
+**Three times before this (#21, #26, #28) a kill fired and I had to override it by hand.** This time
+the conditional gate refused *before* printing a verdict, and the correct response was to **repair
+the instrument, not to override the gate**. That is the rule doing the job it was added for, one
+round after being added — and the difference between the two situations is worth naming: **an
+override is a judgment I make about a machine, a refusal is the machine declining to make one for
+me.** Only the second is reproducible by someone who is not me.
