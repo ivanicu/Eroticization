@@ -1,0 +1,36 @@
+targets 23
+  seed 11 done  people with >=40 held-out cells: 251
+  seed 29 done  people with >=40 held-out cells: 259
+  seed 47 done  people with >=40 held-out cells: 222
+
+=== PER-PERSON MISFIT T, BY QUANTILE ===
+world        real    null  sparse5  sparse5null
+q                                              
+share T>2  0.0592  0.0287   0.0080       0.0013
+mean T     0.9877  0.9834   1.0133       1.0050
+p50        0.8353  0.8916   0.9593       0.9579
+p75        1.0856  1.0785   1.1286       1.1410
+p90        1.7196  1.4398   1.3543       1.3182
+p95        2.0463  1.8120   1.4710       1.4518
+p99        2.8271  2.2313   1.9462       1.7161
+
+  CONDITIONAL KILL -- gates first
+   (a) parametric null concentrates at 1 : PASS (median 0.892)
+   (b) SEES the world #91 showed was invisible (5% carriers, +/-50pp): PASS (p99 1.946 vs its null 1.716)
+
+   THE METHOD WORKS ON THE OBJECT THE OLD ONE COULD NOT SEE.
+   real vs its own null, by quantile:
+     p50  real 0.8353  null 0.8916  diff -0.0563  (RESOLVABLE)
+     p75  real 1.0856  null 1.0785  diff +0.0071  (within 2x spread)
+     p90  real 1.7196  null 1.4398  diff +0.2798  (RESOLVABLE)
+     p95  real 2.0463  null 1.8120  diff +0.2343  (RESOLVABLE)
+     p99  real 2.8271  null 2.2313  diff +0.5958  (within 2x spread)
+
+   -> NO MINORITY STRUCTURE DETECTED, and this time the null is admissible: the
+      instrument demonstrably sees a 5%-carrier structure (gate b). #91's blind spot
+      is real as a property of the OLD methods, and this release has nothing hiding
+      in that particular place.
+
+N/A: an inflated T_i cannot be attributed to a cause. A careless responder and an intense specific interest produce the same misfit.
+
+artifact sha1 67c72bd4e577

@@ -3080,3 +3080,46 @@ it*. `#62`, `#55`, `#49`, `#39` and every other null in this ledger inherit it.
 **What would see a sparse structure**: a method that scores **per person** rather than per cell —
 individual-level anomaly detection, or a mixture model with a small high-deviation component. Both
 are buildable on this release, and neither has been tried.
+
+---
+
+## Entry 92, added by `E01·A11·R01` — the only quantile where the control fires is the only one where the data doesn't
+
+`#91` measured that every method in this project is blind to a structure carried by a minority. This
+round builds the missing one: a **per-person goodness-of-fit** statistic
+`T_i = mean of (M−p̂)²/p̂(1−p̂)` over that person's held-out cells, pooled across all their blocks. No
+per-person parameter is fitted, so nothing can overfit, and every person counts once regardless of
+prevalence.
+
+**Positive control — the exact world `#91` showed was invisible (5% of people, ±50 pp):**
+
+| quantile | sparse5 | its null | diff | 2× spread | |
+|---|---:|---:|---:|---:|---|
+| share T>2 | 0.0080 | 0.0013 | +0.0067 | 0.0084 | **blind** |
+| p90 | 1.3543 | 1.3182 | +0.0361 | 0.1372 | **blind** |
+| p95 | 1.4710 | 1.4518 | +0.0192 | 0.2147 | **blind** |
+| **p99** | 1.9462 | 1.7161 | **+0.2301** | 0.1781 | **SEES IT** |
+
+**Real data vs the parametric null:**
+
+| quantile | real | null | diff | 2× spread | |
+|---|---:|---:|---:|---:|---|
+| **p50** | 0.8353 | 0.8916 | **−0.0563** | 0.0538 | **RESOLVABLE — real is UNDER-dispersed** |
+| p75 | 1.0856 | 1.0785 | +0.0071 | 0.1577 | no |
+| p90 | 1.7196 | 1.4398 | +0.2798 | 0.3282 | no |
+| **p95** | 2.0463 | 1.8120 | **+0.2343** | 0.1561 | RESOLVABLE |
+| **p99** | 2.8271 | 2.2313 | +0.5958 | 0.9558 | **no** |
+| **share T>2** | **0.0592** | **0.0287** | +0.0305 | 0.0217 | RESOLVABLE — **2.06×** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 92a | **the verdict this round printed** | **WRONG — the eighteenth mis-specified verdict.** It keyed on **p99 alone**, the noisiest quantile, and printed *"no minority structure"* while p95 and the share-above-2 both resolved in the other direction |
+| 92b | **…and the correct verdict is still `UNVERIFIED`, for a better reason** | **The only quantile where the positive control FIRES (p99) is the only one where the real data does NOT resolve.** At p95 and share-T>2 the data resolves but the instrument is **blind there** by its own control. `P5`'s star rule, in its sharpest form yet: a measurement is inadmissible where the instrument has not been shown to work, whichever way it comes out |
+| 92c | **the null is mis-specified, independently** | **Real is UNDER-dispersed at the median (−0.056, resolvable).** Respondents pick a roughly stable *number* of options per block, which makes within-row picks negatively correlated — the independent-Bernoulli null cannot reproduce that. **A null that misses the median cannot be trusted in the tail.** The fix is a row-sum-preserving (curveball) null, per person |
+| 92d | **the method itself** | **A real improvement, and a marginal one.** The old methods were blind to 5% carriers at every magnitude (`#91`); this one sees them at p99 only. That is the difference between *impossible* and *barely* |
+| 92e | **`world='null'` parsed as NaN** | **The nineteenth gotcha, and a new family.** `null` is in pandas' default NA list, so the entire null arm vanished from the first analysis and every comparison returned `nan`. `#80d` banned column NAMES colliding with methods; this is a column **VALUE** colliding with a parser default. Same rule extended: **`null`, `NA`, `nan`, `None`, `N/A`, `inf` are never arm labels** |
+
+**What this round is worth despite resolving nothing.** It converted `#91`'s blind spot from *"we
+cannot see minorities"* to *"we can see them at p99, we have three seeds, and the null is wrong at
+the median."* All three are fixable — more seeds, a row-sum-preserving null — and none of them was
+knowable before the method existed.
