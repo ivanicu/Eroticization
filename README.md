@@ -87,8 +87,7 @@ same time. But the organising variable is arrival time, not coordinate membershi
 **Any group comparison on this release must be block-count matched or it partly measures survey
 coverage**: corr(congruence deficit, coverage gap) = **+0.815** across nine splits. This is the
 transferable methodological result and it is not documented anywhere I have read about this
-dataset. Drawn-vs-live-action consumers — whose content contains no real bodies — differ by
-**0.0204 ± 0.0265**, bounded below sex-sized (0.093). That is a real, bounded constraint on A.
+dataset. Drawn-vs-live-action consumers — whose content contains no real bodies — differ by **0.0204 ± 0.0265**, bounded below sex-sized (0.093). **[UNVERIFIED — RETRACTIONS #34]** the written-vs-visual deficit is unresolvable at 5 seeds (0 of 9 corpus cuts have effect > 2× seed spread, while sex is resolvable in 9/9); ~44 seeds per cell would be needed. That is a real, bounded constraint on A.
 
 **[R06 · induction](A06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn
 induced ones that would not otherwise exist. That claim carries **no acquisition timing

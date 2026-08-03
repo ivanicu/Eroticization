@@ -758,3 +758,44 @@ conditional, every one of these would have produced a number.** The second error
 one: a pre-registered condition can be *wrong* rather than merely unmet, and when it is, the honest
 move is to report UNVERIFIED and rebuild — not to relax the condition until it passes, which is
 exactly what pre-registration exists to prevent me doing.
+
+---
+
+## Entry 34, added by `E01·A07·R04` — the modality deficit is smaller than the noise of the only instrument that can measure it
+
+`#33` failed three ways and I rebuilt for all three: block-matched inside every cell, gate written
+for *that* matching level, 5 seeds, and the two corpus axes swept separately. The resolvability
+criterion — a cell counts only if its effect exceeds **2× its own seed spread** — was added
+specifically because of `#33`'s error 3.
+
+**Positive control passes: sex deficit 0.065–0.109 in all 9 cells, resolvable in 9/9** (seed spread
+0.004–0.021 against effects of 0.07–0.11).
+**Negative control passes: placebo |≤0.0082| everywhere.**
+**Resolvability fails: 0 of 9 modality cells are resolvable** — median 0.022–0.039 against seed
+spreads of 0.020–0.073.
+
+| corpus cut (median modality deficit) | resp≥600 | resp≥1200 | resp≥2000 |
+|---|---:|---:|---:|
+| options ≥8 | 0.0266 | 0.0223 | 0.0385 |
+| options ≥10 | 0.0296 | 0.0274 | 0.0267 |
+| options ≥12 | 0.0285 | 0.0225 | 0.0220 |
+
+| # | The claim | Verdict |
+|---|---|---|
+| 34a | **"modality swings 5.5× with which blocks are admitted"** — `#33`'s own observation, one round old | **WITHDRAWN. That was 2-seed noise.** At 5 seeds the cell medians span 0.022–0.039, a factor of 1.8, and the pattern `#33` read as corpus-dependence does not survive its own seed count |
+| 34b | **"modality deficit +0.0546"** (`#19`) | **UNVERIFIED with a stated precision limit.** The point estimate is somewhere near 0.02–0.04 and the published 0.0546 sits above the entire grid, but **no cell is resolvable at 5 seeds** and no verdict is licensed |
+
+**The contrast is what makes this interpretable rather than a shrug.** Same pipeline, same cells,
+same seeds: sex is resolvable in 9/9, modality in 0/9. The instrument is not noisy in general — the
+modality effect is simply small relative to the noise this instrument carries.
+
+**Unfreeze condition, quantified.** Seed spread scales roughly as 1/√n. To bring the spread below
+half the effect (~0.0135 against ~0.027) needs about **5 × (0.040/0.0135)² ≈ 44 seeds** per cell,
+against the 5 run here. That is arithmetic, not aspiration, and it prices the question: resolving
+the modality deficit costs roughly an order of magnitude more compute than has been spent on it,
+and until that is paid the number does not exist.
+
+**Two rounds in a row the gate has refused, and both refusals were correct.** `#33` caught three of
+my design errors; this round caught a precision limit that no amount of care in design would have
+removed. The difference matters: the first is a fixable mistake, the second is a property of the
+measurement, and only a gate that checks resolvability separates them.
