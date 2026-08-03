@@ -2865,3 +2865,37 @@ Every component given the null that destroys **it** and preserves everything els
 **The N/A that makes this conservative toward the item.** No null destroys `I` while preserving the
 interaction — a within-person shuffle kills both. So `I_c` is an **upper** estimate of the item
 effect's uniquely-attributable part, and the true ratio is **at most** what is reported here.
+
+---
+
+## Entry 86, added by `E01·A05·R14` — a null correction credits a component with the DAMAGE its estimator does, and 87% of the person effect's correction was that
+
+`#85b` reported the person main effect at **+0.148** corrected against **+0.093** raw, and explained
+the gap as estimator noise: item effects are estimated from 1,200–15,000 observations per column,
+person effects from 10–24 per row. **That explanation is testable — if it is noise, a shrunken
+estimator should deliver the gap directly, with no correction at all.**
+
+| world | raw row mean | James-Stein | empirical Bayes | shrink factor |
+|---|---:|---:|---:|---:|
+| **planted** person effect | **−0.0072** | **+0.0234** | +0.0210 | 0.536 |
+| **no** person effect (within-column shuffle) | **−0.0642** | −0.0008 | **−0.0018** | 0.091 |
+| **real** | +0.0866 | **+0.0959** | +0.0945 | 0.743 |
+
+**Both gates pass, and the planted arm is stark: the raw row mean scores −0.0072 on a world
+containing a genuine person effect** — worse than not using it — while shrinkage finds it. And on a
+world with none, shrinkage returns −0.002 where the raw estimator returns −0.064.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 86a | **`#85b`'s "person +0.148"** | **OVERSTATED.** Shrinkage recovers only **12.7%** of the +0.0616 gap. The best point estimate is the **shrunken** one, **+0.0959**, and the honest report is the interval **[0.087, 0.148]** weighted toward its low end |
+| 86b | **what a null correction actually measures** | **Skill PLUS the damage a misfit estimator does.** In the no-person world the raw estimator scores −0.064 — that is not a floor the component clears, it is a hole the *estimator* digs. Subtracting it credits the component with 0.064 it never earned. **87% of `#85b`'s person correction was that** |
+| 86c | **the alarm, and it is not small** | **The same critique applies to `W` and `C`.** `W`'s fixed-margin floor is **−0.19** — an estimator digging the same hole — and `#82`, `#83` and `#85` all rest on `W_c = W_real − W_null`. If a *shrunken* low-rank estimator recovers only ~13% of that gap too, then `#82`'s inversion, `#83`'s knee and `#85`'s "three components are equal" all move, and the interaction's magnitude is far below **+0.199** |
+| 86d | **`#85`'s comparison in the meantime** | **FLAGGED, not withdrawn.** Item +0.208 needs no correction (its null is −0.0004, so its estimator digs no hole). The interaction's +0.199 is the number now in doubt. **The direction of the doubt favours the item**, which is the opposite of the direction the last four entries moved |
+
+**Why this was findable.** `#85` explained its own correction with a mechanism — *"person effects are
+estimated from 18 observations"* — and a mechanism is a prediction. The prediction was that
+shrinkage would close the gap. It closed 13% of it. **An entry that explains itself can be attacked
+through its explanation; one that only reports a number cannot.**
+
+**N/A:** separating breadth from acquiescence needs a reverse-keyed or forced-choice item. This
+release has none, so nothing here distinguishes *"wants more"* from *"ticks more"*.
