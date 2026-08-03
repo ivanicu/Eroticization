@@ -549,3 +549,46 @@ were not in the kill's own logic, so the script printed a verdict the controls f
 induces roughly −0.5 mechanically, so male–female is *more* opposed than the constraint requires and
 female–neutral *less*. That asymmetry is not explained by the arithmetic and is the one thing here
 worth another round — with a design whose sham does not beat its signal.
+
+---
+
+## Entry 29, added by `E01·A02·R21` — my own "not explained by the arithmetic" flag was 78% arithmetic
+
+`R20` reported person residuals across source classes at male–female **−0.706** and I flagged it as
+not explained by the centring. That flag was unchecked: removing a person mean over three classes
+*forces* negative residual correlations, and the induced value depends on each person's cell counts,
+so comparing it to a nominal −0.5 by eye proves nothing.
+
+Both fixes in one round — an **uncentred** estimate with no induced component, and the centred one
+against a null that permutes persons *within (substance, act)*, preserving every cell count and the
+entire centring operation.
+
+**Gate first, per the conditional-kill rule.** Positive control: within-source-class correlations
+precum–ejaculate **+0.729**, saliva–urine **+0.522**, squirt–breastmilk **+0.348** — the score
+measures something reproducible. Negative control: uncentred permutation null **+0.005 ± 0.027**.
+Both pass, so the thresholds are binding.
+
+| source pair | **uncentred** | its null | centred | geometry-preserving null | sham (non-role) |
+|---|---:|---:|---:|---:|---:|
+| male–neutral | **+0.479** | +0.001 | −0.496 | −0.581 | +0.219 |
+| female–neutral | **+0.296** | +0.001 | −0.328 | −0.467 | +0.190 |
+| **male–female** | **+0.063** | +0.005 | −0.725 | **−0.569** | +0.266 |
+
+| # | The claim | Verdict |
+|---|---|---|
+| 29 | **"male–female residual correlation −0.706, more opposed than the arithmetic requires"** — `R20`'s unplanned finding, flagged by me as worth another round | **WITHDRAWN. 78% of it is the induced geometry** (−0.569 under a null that has no person structure at all). The excess is real but small, and the *uncentred* estimate — which has no induced component — is **+0.063**, not negative. There is no opposition |
+
+**What replaces it is better than what it replaces.** The role feature transfers strongly between
+male-source and neutral substances (+0.479), moderately between female and neutral (+0.296), and
+**not at all across the male–female boundary (+0.063)**. So the structure is not *opposition*, it is
+**absence of transfer** — and the boundary is specifically male↔female, with neutral substances
+bridging to both, asymmetrically.
+
+**And the sham makes the last cell sharper than a null does.** A meaningless non-role contrast
+transfers at **+0.266** across the male–female boundary. The role feature transfers at **+0.063**.
+**Across that one boundary the role feature transfers less than a meaningless contrast does** — it
+is not merely absent, it is below the floor that arbitrary shared variance provides.
+
+Conditional kill returns **UNVERIFIED** on the opposition question as posed (+0.063 sits between the
+0.05 and 0.15 thresholds). The *contrast* between +0.479 and +0.063, both measured against a
++0.005 null, is what this round actually establishes.
