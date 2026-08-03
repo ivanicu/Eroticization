@@ -2423,3 +2423,43 @@ years**.
 This one is different and worse: **a sampling cap that made the design blind, written by me, never
 priced, and reported as a property of the world.** A null that comes from an unexamined `break` is
 the exact shape of `L11` — untested is not the same as null-survives.
+
+---
+
+## Entry 74, added by `E01·A03·R21` — the cap bound in four rounds and not the fifth, and I had already generalised it to all five
+
+`#73` found `cap=20000` with a `break` that exits the person loop, traced it to five rounds, and
+wrote *"every one of them therefore ran on roughly 2,000 of 12,459 eligible people."* That sentence
+was a generalisation from one round to four others **without measuring any of them**.
+
+**Measured.** Realized pairs are fewer than attempted pairs, because `acc()` skips tied pairs — and
+`#63` measured the tie rate at 36.3%:
+
+| design | held-out people | attempted pairs | realized (×0.64) | cap binds? |
+|---|---:|---:|---:|---|
+| R14 / R15 / R16 / R17 — full pool | 6,229 | 55,537 | ~35,500 | **YES, ~43% of pairs dropped** |
+| R18 — sex group A | 3,187 | 28,275 | ~18,100 | **no** |
+| R18 — sex group B | 3,042 | 26,892 | ~17,200 | **no** |
+| R18 — breadth high | 3,734 | 36,462 | ~23,300 | marginal |
+| R18 — breadth low | 2,495 | 19,154 | ~12,300 | **no** |
+
+The run confirms it directly: **both arms scored 16,903 vs 17,793 pairs over the same 3,115 people**,
+and for the sex grouping the capped and uncapped numbers are **identical to three decimals** — shift
+0.000, sd ratio 1.000.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 74a | **`#73`'s "every one of them ran on ~2,000 people"** | **OVERSTATED.** It bound in the four full-pool rounds (R14/R15/R16/R17) and **not** in R18, whose group halves are too small to reach the ceiling. I generalised a measured fact about one design to four I never checked — in an entry whose whole subject was an unpriced assumption about my own code |
+| 74b | **`#62`, the group-level null** | **STANDS, and is not a cap artifact.** Re-run uncapped with 6 seeds: sex own−other **+1.183, spread 1.232, ratio 0.96**; breadth **+0.310, spread 0.825, ratio 0.38**. Still below 2× spread. Its low power comes from **small group sizes**, which no amount of uncapping fixes |
+| 74c | **my own pair-count estimator, written in this round** | **WRONG by the tie rate.** It counted *attempts*, not *realized* pairs, and over-predicted by 1.57× — precisely `#63`'s 36.3% tie exclusion, a number this project had already measured and I did not apply |
+| 74d | **the gate returning `UNVERIFIED`** | **CORRECT.** It required uncapping to shrink the spread, and on R18's design there was nothing to shrink. A gate that refuses when its premise is absent is working |
+
+**What still needs re-pricing:** R14 (the 66.5% schedule headline), R15 (schedule or rarity), R16
+(rarity or censoring). Their point estimates are unaffected — the truncation is a random subset, so
+location is unbiased — but their **seed spreads are inflated**, which makes every resolvability
+verdict in them **conservative**, not permissive. That is the safe direction, and it is the reason
+this is a re-pricing rather than a retraction.
+
+**The lesson, and it is the one `#73` was about:** an entry written to record an unpriced assumption
+contained a fresh unpriced assumption in its own second sentence. Auditing a class of bug is not the
+same as measuring each member of the class.

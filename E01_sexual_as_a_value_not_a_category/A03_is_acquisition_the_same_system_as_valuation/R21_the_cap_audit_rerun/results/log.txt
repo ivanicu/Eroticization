@@ -1,0 +1,45 @@
+eligible people 12,459   sex groups 6,375/6,084
+  capped done
+  uncapped done
+
+=== DID THE CAP EVEN BIND? pairs each round's design generates, vs the 20,000 ceiling ===
+  R14/R15/R16/R17  full pool held-out people  6,229   pairs ~ 55,537   cap binds: YES  (64% of people dropped)
+  R18  sex group A         held-out people  3,187   pairs ~ 28,275   cap binds: YES  (29% of people dropped)
+  R18  sex group B         held-out people  3,042   pairs ~ 26,892   cap binds: YES  (26% of people dropped)
+  R18  breadth hi          held-out people  3,734   pairs ~ 36,462   cap binds: YES  (45% of people dropped)
+  R18  breadth lo          held-out people  2,495   pairs ~ 19,154   cap binds: no
+
+=== HOW MUCH OF THE POPULATION EACH ARM ACTUALLY SCORED ===
+          n_pairs  n_people
+arm                        
+capped    16903.0    3115.0
+uncapped  17793.0    3115.0
+
+=== NEGATIVE CONTROL: a random ordering must sit at chance in BOTH arms ===
+            mean    std
+arm                    
+capped    49.388  4.895
+uncapped  49.660  4.867
+
+=== LOCATION AND SPREAD, capped vs uncapped, matched seeds ===
+grouping quantity  cap_mean  unc_mean  loc_shift  cap_sd  unc_sd  sd_ratio  biased
+     sex      own    67.151    67.151      0.000   1.316   1.316     1.000   False
+     sex    other    65.968    65.968      0.000   0.414   0.414     1.000   False
+     sex     glob    66.882    66.882      0.000   1.052   1.052     1.000   False
+ breadth      own    67.400    67.574      0.174   1.523   1.639     0.929   False
+ breadth    other    67.041    67.265      0.224   2.470   2.236     1.104   False
+ breadth     glob    67.392    67.504      0.112   2.010   1.794     1.120   False
+
+=== #62 RE-PRICED: own-group vs other-group ordering ===
+grouping      arm  diff  spread  ratio    own  other  resolvable
+     sex   capped 1.183   1.232  0.960 67.151 65.968       False
+     sex uncapped 1.183   1.232  0.960 67.151 65.968       False
+ breadth   capped 0.360   1.030  0.349 67.400 67.041       False
+ breadth uncapped 0.310   0.825  0.376 67.574 67.265       False
+
+  CONDITIONAL KILL -- gates first
+   (a) random ordering at chance in both arms : PASS (49.52)
+   (b) uncapping shrinks the spread           : FAIL -- the cap was not binding (median sd ratio 1.00x)
+   -> UNVERIFIED.
+
+artifact sha1 8ca87a164dee
