@@ -1,0 +1,61 @@
+targets 23  people 15415  blocks 32  entry counts 1-26 (median 7)
+pattern strata >=20 people: 44   people with no usable stratum: 13,154 (85.3%)
+  1/23
+  2/23
+  3/23
+  4/23
+  5/23
+  6/23
+  7/23
+  8/23
+  9/23
+  10/23
+  11/23
+  12/23
+  13/23
+  14/23
+  15/23
+  16/23
+  17/23
+  18/23
+  19/23
+  20/23
+  21/23
+  22/23
+  23/23
+
+=== POSITIVE CONTROL: is the projection vacuous? ===
+  variance of the person scores removed by projecting out entry pattern + demographics: median 17.3%  range [15.8%, 17.5%]
+  max residual correlation with any entry indicator: 3.57e-16  -> orthogonal, PASS
+
+=== C BY SCORE TYPE AND NULL (mean over 23 blocks x 3 seeds) ===
+arm           real  perm_free  perm_count  perm_pattern
+gate_free                                              
+False      0.03785   -0.00218    -0.00065      -0.00170
+True       0.01708   -0.00195    -0.00181      -0.00179
+
+=== PER-BLOCK: does C beat each null by >2x the pooled seed spread? ===
+ gate_free         null       C   null_C     gap  spread2  beats  n
+     False    perm_free 0.02901 -0.00150 0.03085  0.00419     23 23
+     False   perm_count 0.02901 -0.00083 0.03046  0.00386     23 23
+     False perm_pattern 0.02901 -0.00136 0.03127  0.00438     23 23
+      True    perm_free 0.01146 -0.00127 0.01492  0.00317     22 23
+      True   perm_count 0.01146 -0.00142 0.01421  0.00351     22 23
+      True perm_pattern 0.01146 -0.00136 0.01428  0.00399     22 23
+
+  CONDITIONAL KILL -- gates first
+   (a) projection is exact (orthogonal residual) : PASS
+   (b) projection is not vacuous                 : PASS (17.3% of score variance removed)
+
+   OLD claim (raw scores vs free permutation) : C +0.02901, beats null in 23/23 blocks
+   STRICTEST (gate-free scores vs pattern-matched permutation): C +0.01146, beats null in 22/23 blocks
+   C shrinks 60.5% from the loosest to the strictest specification
+
+   -> THE FORECAST IS WRONG AND C SURVIVES. The transfer is not the gate. My own
+      p=0.70 self-overturn fails, which is the outcome that costs the most to
+      report and the one worth the most: #70/#71/#72 stand, at 40% of the
+      magnitude originally reported.
+
+  people with no usable pattern stratum: 13,154 (85.3%) -- they are permuted freely in the pattern arm, which makes that arm LENIENT, not strict, by exactly that fraction.
+
+artifact sha1 ebd794480e67

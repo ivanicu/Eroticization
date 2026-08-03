@@ -2501,3 +2501,41 @@ R16's censoring test, all four onset bands, onset vs prevalence:
 wrote had silently truncated four designs. Leaving that unpriced would have meant every downstream
 number carried an unquantified doubt — and an unquantified doubt is indistinguishable from a real
 one. It cost 0.03 points of location and bought back 1.4× of precision.
+
+---
+
+## Entry 76, added by `E01·A10·R05` — my own p=0.70 self-overturn fails on survival and lands on magnitude, and no permutation could have caught it
+
+`ADVERSARY_FORECAST.md` block 2, prediction #1 at **p = 0.70**: *the cross-block transfer `C` is
+partly the gate, not the person.* Two independent attacks, because a permutation and a projection
+fail differently.
+
+| score type | real | perm (free) | perm (count-matched) | perm (pattern-matched) |
+|---|---:|---:|---:|---:|
+| **raw** | **+0.0290** | −0.0022 | −0.0007 | −0.0017 |
+| **gate-free** (entry pattern + demographics projected out) | **+0.0115** | −0.0020 | −0.0018 | −0.0018 |
+
+Projection verified non-vacuous: **17.3%** of person-score variance removed, residual orthogonal to
+every entry indicator to **3.6 × 10⁻¹⁶**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 76a | **my forecast, "`C` is the gate"** | **WRONG on survival.** `C` beats the strictest null in **22 of 23 blocks** at +0.0115. `#70`, `#71`, `#72` stand |
+| 76b | **…and RIGHT on magnitude** | **`C` shrinks 60.5%** — +0.0290 → +0.0115 — once entry pattern and demographics are projected out. `#70`'s +0.0244 and `#72`'s +0.0635 are **inflated by ~60%** and are restated as **≈+0.010 and ≈+0.025** |
+| 76c | **the permutation ladder — the control I actually forecast** | **TOOTHLESS.** Free, count-matched and pattern-matched nulls all return ≈ −0.002. Stratifying the permutation changed **nothing**. The entire correction came from the projection. This is `realstat` §G2 exactly: **a permutation null answers *did the pairing matter*, never *why*** — and I had forecast a permutation as the fix |
+| 76d | **the pattern-matched arm's strictness** | **OVERSTATED BY ME, in the lenient direction.** **85.3% of people (13,154)** have no entry pattern shared with ≥20 others, so they are permuted freely. That arm is *mostly* the free permutation wearing a stricter name |
+
+**The removed subspace was disproportionately the predictive part** — 17.3% of score variance
+carried 60.5% of the transfer. That is not a nuisance being trimmed; it is a large fraction of what
+`C` was measuring.
+
+**The ambiguity this round does not resolve, and it changes what `76b` means.** The projection
+bundles **entry indicators with demographics** (sex, age, five personality scales, powerlessness).
+The A02-era loader always projected demographics out; the `A09`/`A10` scores did **not**. So the 60%
+may be survey structure, may be ordinary demographic variance, and this design cannot say which.
+Those are very different claims — *"the transfer is confounded with who answers which block"* versus
+*"the transfer is partly sex and age"* — and separating them is one more projection.
+
+**What it cost to run.** This was my own highest-probability prediction of self-overturn, named in a
+file, with the control specified. Leaving it written down and unrun would have been `#57`'s pattern:
+the reason a claim must fail, filed where nobody re-reads it.
