@@ -2979,3 +2979,32 @@ item-dominant. Every step was driven by a methodological fix, not new data, and 
 agree while the reasoning in between was wrong in both directions.** That is worth more than the
 number: the project's error was never the direction, it was **comparing quantities whose estimators
 fail differently**, and it took `#80`, `#82`, `#84`, `#86` and `#87` to name it.
+
+---
+
+## Entry 89, added by `E01·A10·R16` — the estimator with the honest floor cannot count dimensions, and the one that can count has a dishonest floor
+
+`#88` showed hard rank truncation digs a −0.09 hole on a structureless world while soft thresholding
+digs −0.02. The natural follow-up was to re-ask `#72`/`#83`'s dimensionality question on the better
+estimator, where rank is not swept but **emerges** as the number of singular values surviving the
+training-tuned threshold.
+
+| world | tuned λ | **effective rank** | rank sd | skill |
+|---|---:|---:|---:|---:|
+| **no structure** (fixed-margin) | 3.32 | **16.10** | 4.40 | −0.011 |
+| **known rank 2** | 4.04 | **15.80** | 4.59 | +0.127 |
+| **known rank 5** | 4.30 | **15.78** | 4.57 | +0.166 |
+| **real** | 3.33 | **16.00** | 4.51 | +0.035 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 89a | **effective rank as a dimensionality estimator here** | **DEAD.** It reads ~16 on a rank-2 world, ~16 on a rank-5 world, and **~16 on a world with no structure at all**. Blocks have m = 10–24 columns, so this is near-full-rank everywhere: the count above λ is set by the **noise spectrum of the completed matrix**, not by the signal. Both gates fail, and they fail in the way that says the statistic is uninformative rather than the data is |
+| 89b | **`#72` and `#83`, measured with hard truncation** | **NOT overturned by this.** Their knee was **calibrated** — a rank-2 world kneed at 2, a rank-5 world at 5, real at 5 — and `#88` showed hard truncation's **magnitude** is biased, not its **rank ordering**. A biased scale can still locate where added dimensions stop paying |
+| 89c | **the resulting standoff, which is the finding** | **The two estimators are complementary and neither is sufficient.** Hard truncation can locate a knee and cannot be trusted on magnitude; soft thresholding is trustworthy on magnitude and carries no rank information. **Every dimensionality claim in this project rests on the estimator that `#88` disqualified for size**, and no estimator available here does both |
+| 89d | **the skill column, which is a separate reading** | Real within-block skill at the tuned λ is **+0.035**, against **+0.127** for a planted rank-2 world and **+0.166** for rank-5 (both at loading scale 0.30). Whatever within-block structure exists is **far weaker than either control** — consistent with `#88`'s +0.031 and inconsistent with the +0.19 the correction machinery reported |
+
+**What would settle dimensionality here** — the register entry, since `89c` closes no door quietly:
+an estimator with a **selection-consistent** penalty (a rank-aware information criterion tuned by
+cross-validation over *both* rank and shrinkage), or blocks with enough options that the noise
+spectrum is not near-full-rank. This release has 10–24 options per block, and that is the binding
+constraint on every rank question the project has asked.

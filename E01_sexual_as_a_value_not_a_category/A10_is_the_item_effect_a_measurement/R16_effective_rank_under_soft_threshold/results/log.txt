@@ -1,0 +1,52 @@
+targets 23
+  1/23
+  2/23
+  3/23
+  4/23
+  5/23
+  6/23
+  7/23
+  8/23
+  9/23
+  10/23
+  11/23
+  12/23
+  13/23
+  14/23
+  15/23
+  16/23
+  17/23
+  18/23
+  19/23
+  20/23
+  21/23
+  22/23
+  23/23
+
+=== SKILL AND EFFECTIVE RANK ACROSS THE LAMBDA CURVE ===
+       skill                      eff_rank                        
+world margin     r2     r5   real   margin      r2      r5    real
+lam                                                               
+0.5   -0.001  0.055  0.068  0.020   16.348  16.348  16.348  16.348
+1.0   -0.004  0.084  0.106  0.029   16.348  16.348  16.348  16.348
+2.0   -0.008  0.110  0.141  0.034   16.333  16.348  16.348  16.333
+3.0   -0.009  0.121  0.157  0.037   16.014  16.087  16.101  15.942
+4.0   -0.008  0.129  0.166  0.040   15.638  15.725  15.855  15.580
+6.0   -0.004  0.139  0.178  0.044   15.304  15.435  15.435  15.246
+8.0   -0.002  0.145  0.185  0.047   15.058  15.377  15.391  14.870
+12.0   0.000  0.149  0.188  0.044   13.768  14.174  13.986  12.667
+
+=== AT THE TRAINING-TUNED LAMBDA (validation MSE minimised, never held-out) ===
+          lam  eff_rank  rank_sd  skill
+world                                  
+margin  3.319    16.101    4.403 -0.011
+r2      4.043    15.797    4.591  0.127
+r5      4.304    15.783    4.566  0.166
+real    3.333    16.000    4.508  0.035
+
+  CONDITIONAL KILL -- gates first
+   (a) effective rank monotone in TRUE rank : FAIL (r2 15.80, r5 15.78)
+   (b) collapses on the structureless world : FAIL (16.10)
+   -> UNVERIFIED, and that is not an acquittal.
+
+artifact sha1 682598206d81
