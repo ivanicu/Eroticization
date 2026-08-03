@@ -1,48 +1,15 @@
-> ⚠ **THE EPOCH TITLE IS FALSE AS STATED [#67].** `E01_sexual_as_a_value_not_a_category` names the
-> SMALLER of the two components. Against a fixed-margin null with exact margins, the ITEM main effect is
-> **+0.222** held-out R² and the bias-corrected interaction is **+0.067 (K=1) / +0.114 (K=2)** — a gap of
-> 1.9–3.3×, at 5–7× the seed spread. The interaction is REAL (positive in 23/23 identified blocks) but it
-> is not the larger half. Every round before `A09` ran on `R = M − M.mean(0) − M.mean(1)`, i.e. on the
-> interaction, **after the larger component was deleted on line 1 of the loader.** Those findings stand as
-> findings about the interaction; none of them may claim it is what this survey is mostly made of.
->
-> **[#68] The full rank sweep closes the escape route.** With K=0 in the grid, the best-predicting model
-> contains **no interaction term at all for 6 of 23 blocks**. The corrected interaction peaks at K=6
-> (+0.193) and turns over. At the pre-registered rank the item effect is **11.7× (prediction) / 3.5×
-> (detection)** the interaction, at 16–21× the seed spread; at the rank chosen adversarially to favour the
-> rival it is a **tie (0.193 vs 0.200)**. There is no rank, estimand or selection rule under which the
-> interaction is larger. The best case for the epoch title is **"both, equally"**.
->
-> **[#69, #70] — and then the contrast itself turned out to be the wrong one.** The item main effect is a
-> **DERIVATION** from prevalence dispersion (R² = 0.994, slope 0.988) and is blind to prevalence *shape* in
-> 23/23 blocks: within a block, *base rate* and *content* are **the same number**, so that contrast cannot
-> adjudicate A vs B. Across blocks it can — no option is shared, so the item side contributes **0 by
-> construction**, and the measured person-side transfer is **+0.0244, resolvable in 23/23 blocks** against a
-> −0.0009 permutation null. **The epoch title is two questions:** as a variance claim it is FALSE
-> (prevalence is 9× larger); as a claim about what is domain-general it is SUPPORTED (only the person-side
-> readout crosses domains). Both are true at once.
->
-> **[#73] The acquisition schedule is not purely global.** `#55`'s null was a power failure caused by a
-> `cap=20000` in my own code whose `break` exited the person loop (~2,000 of 12,459 people). With the cap
-> lifted: **77,329 pairs from 6,230 people**, neighbour−global **+0.90** at seed spread **0.29** (ratio 3.1),
-> resolvable in 8/12 cells, random-neighbour control clean in 12/12, MDE **0.5 years**. The point estimate
-> was unchanged from `#55` (+0.88 → +0.90) — only the noise moved. Individual variation is **~6% of the
-> orderable signal**, and it is predicted from **preference space**, so acquisition and valuation are
-> *mostly* separable but not *strictly* separable.
-
 # The Eroticization Operator
 
 **Is "sexual" a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** Fifty-two self-attacking rounds against a public dataset, asking what
-can be settled before anyone collects anything new.
+world-representations?** 115 self-attacking rounds against a public dataset, asking what can be
+settled before anyone collects anything new. **75 ledger entries, almost all self-inflicted
+retractions** — [RETRACTIONS.md](RETRACTIONS.md) is the real product.
 
 Private curiosity project. Not written for publication and not seeking any.
 
 Object: the **Big Kink Survey** public subsample — [Zenodo 10.5281/zenodo.18625141](https://zenodo.org/records/18625141),
 15,503 respondents × 365 columns, aggressively binned, demographically stripped and noise-injected.
-Data is not committed; `01_object_and_structure/R01_schema/run.py` re-downloads it.
-
----
+Data is not committed; `E01…/A01…/R01_schema/run.py` re-downloads it.
 
 ## The three models being separated
 
@@ -56,40 +23,45 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 
 ---
 
-## Headline
+## Where this stands — the A-vs-B answer, and why it took a re-framing
 
-**Every surviving claim is sorted by whether it carries predictable variance ([RETRACTIONS #51](RETRACTIONS.md)):**
-onset RSA **31%** of its ceiling · nestedness **25%** · sex deficit **9%** · cross-domain CCA **~0%** (a direction, not an amount) · maturational schedule **101%** — at the ceiling a global ordering can reach. **[#63]** accuracy is **[60.5%, 66.5%]**: 66.5% on the 63.7% of pairs the 2-year binning can order, 60.5% over all pairs with ties at half credit.
+**The question splits in two, and the answer differs between them [#70].** Everything before arc
+`A09` was measured on `R = M − M.mean(0) − M.mean(1)` — the loader deletes the item main effect on
+line 1 — so 105 rounds described one half without ever measuring the other.
 
+| question | answer | evidence |
+|---|---|---|
+| **① Variance composition** — what is this survey mostly made of? | **Option prevalence**, by a wide margin. Item +0.222 held-out R² vs person breadth +0.085 vs interaction +0.019 (prediction) / +0.063 (detection) | `#67` `#68` |
+| …and is that a *content* finding? | **No — it is a DERIVATION.** The item effect is forced by prevalence dispersion (R² = 0.994, slope 0.988) and is blind to prevalence *shape* in 23/23 blocks. **Within a block, base rate and content are the same number**, so this contrast cannot adjudicate A vs B at all | `#69` |
+| **② Domain-generality** — what crosses content domains? | **Only the person-side readout.** No option is shared between blocks, so the item side contributes **0 by construction**; the measured person-side transfer is **+0.0635 at rank 32**, resolvable in 23/23 blocks against a −0.002 permutation null | `#70` `#72` |
+| …is it domain-general or a pile of domain-specific tastes? | **General.** Across a 12-cell grid: **186/276 comparisons favour cross-block over within-block**, 32 favour within, 58 tie — and the cross-block model spends **22–800× fewer parameters** on the target. Within-block structure is exhausted at rank 1 and goes negative at rank 2 | `#71` |
+| …how many coordinates does it have? | **The question presupposes a cliff the object does not have.** A calibrated estimator finds knees at exactly 2 and 5 in known-rank worlds, with a **141–147× drop**. On real data the sharpest drop anywhere is **1.8×** — a smoothly decaying spectrum, still gaining at rank 32 | `#72` |
 
-Everything measured is consistent with one expression, and it is B:
+**So: model B is what survives, but not as "sexual is not a category."** The honest statement is
+that *content* explains the most variance and explains it **block by block with no transfer**, while
+the *individualised readout* explains far less and is **the only thing that crosses domains**. Both
+are true simultaneously. The epoch's own title asserted one and sounded like it asserted both.
 
-```
-E_i(s)  ~  theta_i  x  population-shared ordering   +   a THIN shared subspace
-           (scalar gain)                                (real, graded, predicts ~nothing per pair)
-```
+### The third organisation — *when* an interest arrives
 
-**[RESTATED — RETRACTIONS #49]** The shared cross-domain direction exists (CCA 0.198, tier-ordered)
-but carries almost no predictable variance: pairwise block→block prediction R² is −0.002. It becomes
-predictive only when aggregated over ~31 blocks (+0.017–0.037). The coordinate count is withdrawn (#18).
-
-with a **third, orthogonal** organisation — *when* an interest arrives — that ignores the
-coordinates entirely.
-
-| what | number | scope |
+| | number | scope |
 |---|---:|---|
-| shared cross-domain grammar, held-out CCA | **0.269 ± 0.014** vs 0.051 floor | 306 block pairs, ≥600 common people, 6 seeds. **[RESOLVABLE — RETRACTIONS #37]** ratio 19.6 |
-| …surviving sex/age/personality/orientation removal | **0.200** | pairwise-block CCA, max over 3 components, median of 321 pairs. **[#35 withdrawn by #36]** the 0.149 figure was a different estimand (half-split factor CCA), not a discrepancy |
-| coordinates surviving a block split-half | **WITHDRAWN — see RETRACTIONS #18** | count tracks K (4→4, 24→16, non-saturating); what survives is the profile's height above floor, 30–50× |
-| correlation of those coordinates with the folk top/bottom axis | **≤0.159** | six coordinates, n=6,717 |
-| POWER vs SUBSTANCE, ladder-disattenuated | **+0.605** ⚠ **[SCOPED — RETRACTIONS #39]** SUBSTANCE predicts nothing outside its 7 defining blocks (−0.0001 vs a role-free placebo's +0.0024) | **[RESTATED — RETRACTIONS #24]** 37% shared variance, not 5%; positive control recovers 1.018 for a measure against itself; GAZE unmeasurable here; "2.95 of 3" withdrawn |
-| shared maturational schedule, share of people following it | **[0.747, 0.860]** | **[CONFIRMED — RETRACTIONS #31]** 72-cell specification curve; null stays 0.479–0.506 in every cell; positive control 0.993. The published 74.7% was the most conservative cell |
-| coordinate-similarity predicting acquisition timing | **t=−0.46 → +1.26** | **[CONFIRMED — RETRACTIONS #43]** null survives rebuilding COORD from the validated person factors, at 344 pairs vs the original 153; TEMPO reproduces at t=+4.36 |
-| breadth's coordinate diversity vs a size-matched base-rate set | **UNVERIFIED** | **[RETRACTIONS #46]** the measure cannot separate a synthetically concentrated population (−1.67%) from a base-rate one (−1.62%), and −0.88% is inside its own Jensen bias |
-| breadth's nestedness | **24.0%** of chance→perfect | **[CONFIRMED — RETRACTIONS #47]** validated with known-answer populations: nested synthetic recovers 100%, base-rate synthetic −0.0001 |
-| θ vs non-sexual variables, reliability-corrected | **r_true ≈ 0.10** | **[RESTATED ×3 — RETRACTIONS #17, #23]** adversity 0.105, mental illness 0.099, openness 0.090; null controls 0.000/0.010. ~1% of variance each |
-| consumption → coordinates | **UNRESOLVABLE at triple matching** (0.036, ratio 1.40); reportable as 0.072–0.090 at looser matching. **[RETRACTIONS #45]** | **[RESTATED — RETRACTIONS #19]** modality is larger (+0.0546); both clear a known-null pool (p95 0.0216); the neuroticism reference was itself null |
-| self-reported porn-induced fetish acquisition, timing | **0.5 yr, uniform** | 1 yr excluded; concentration null at 8.8× power |
+| population-shared ordering, held-out pairwise accuracy | **66.85 ± 0.19** | `#75`, 8 seeds, 35,438 pairs, 6,230 people; at 101% of the ceiling a *global* ordering can reach |
+| …bounded for the 36.3% of pairs 2-year binning cannot order | **[60.5%, 66.5%]** | `#63` |
+| onset with prevalence projected out | **65.88** | `#75` — onset's information is not prevalence; it beats prevalence in all 4 censoring bands by +4.3 to +6.7 |
+| **individual** deviation from that schedule | **+0.90 ± 0.29** (ratio 3.1) | `#73` — resolvable in 8/12 cells, MDE 0.5 years. ~6% of the orderable signal, predicted from **preference space** |
+| share of people following the shared schedule | **[0.747, 0.860]** | `#31`, 72-cell specification curve |
+
+**`#73` is why `A03`'s "two systems" is downgraded**: the individual component of *acquisition* is
+predicted from *valuation* space, so the two are **mostly** separable, not **strictly** separable.
+
+### Standing methodological state
+
+- **Eleven mis-specified gates** caught by reading the table rather than the verdict line (`#21`
+  `#26` `#28` `#33` `#40` `#41` `#50` `#59` `#65b` `#65c` `#72d`), plus **one sampling cap** that
+  made four designs blind (`#73`, scoped by `#74`).
+- **No outside challenger has ever run.** Every row is `[unchallenged]`, never "clean".
+- `ADVERSARY_FORECAST.md` remains partly unscored — forecasts #2, #3, #4, #6 scored; #1, #5, #7 not.
 
 ---
 
