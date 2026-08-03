@@ -3195,3 +3195,38 @@ comparable. With ~35 pooled picks per person, a carrier needs their surprisal to
 ≈ **1.75 nats**, i.e. roughly **two swaps from a median-prevalence option to one ~6× rarer, in every
 block they enter** — not two swaps in one block. That is the next round, and its magnitude is now a
 calculation instead of a guess.
+
+---
+
+## Entry 95, added by `E01·A11·R05` — LICENSED: a minority whose picks concentrate on rare options, seen by the first statistic in this project whose null preserves exactly what it conditions on
+
+`#94b` withheld the surprisal signal because three positive controls had failed, all by planting
+below the detectable magnitude. `#94`'s closing paragraph derived the magnitude instead of guessing
+it. Run at that magnitude:
+
+| plant | achieved per-carrier shift | p95 real−null | 2× spread |
+|---|---:|---:|---:|
+| **0 swaps/block** (a genuine no-op on a separate matrix) | — | **+0.0494** | 0.0020 |
+| 1 swap/block | +0.310 (12.9 nats) | **+0.0815** | 0.0065 |
+| 2 swaps/block | +0.590 (24.4 nats) | **+0.1808** | 0.0119 |
+
+**Both gates pass.** The 0-swap arm reproduces the real comparison (+0.0494 vs +0.0503). The plant
+achieves a shift far above the threshold and **fires**: p95 effect **+0.1314** against a 2× spread of
+0.0238.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 95a | **`#94a`, the surprisal signal** | **LICENSED.** The real data's upper tail picks **rarer options than a margin-preserving reassignment allows**: p95 **+0.0503 at 37× its own seed spread**, p99 +0.0704, p90 +0.0336 — and the median goes the **other way** (−0.0051), so the typical person picks *more common* options than chance. **Bimodal, and in the direction `#91` said was invisible** |
+| 95b | **the magnitude, calibrated against the plant** | The real excess is equivalent to **≈1.5 median→rare swaps per block in 5% of people** — or proportionally more people making fewer swaps. Same one-to-many family as `#90`'s (rank, scale); the **product** is what is identified, not the split |
+| 95c | **what this adds to eleven arcs of variance-explained methods** | **A component every one of them was structurally blind to.** `#91` measured that blindness (5% carriers undetectable at ±50 pp); this is the same release, the same people, and a statistic that conditions on the pick count instead of absorbing it |
+| 95d | **my derived MDE, which was wrong in the safe direction** | I computed that a carrier needed ≈1.75 nats of shift. One swap per block delivers **12.9 nats — 7× more than needed.** The instrument is far more sensitive than my derivation, so the true MDE is well below one swap per block. Deriving the magnitude worked; **my arithmetic for it was off by an order of magnitude**, and only the achieved-shift column revealed that |
+
+**What this is NOT, and the limits are real.** Surprisal cannot be attributed to a cause — an
+idiosyncratic erotic attachment, a careless responder, and someone answering a block they barely
+relate to all raise `S`. And this is a **population-tail** statement: it says a minority picks rare
+options together, not that any particular person does.
+
+**The one-sentence version of the whole project, now that this exists:** content and individualised
+valuation move endorsement probability by about the same amount (`#90`), the item effect dominates
+every *predictability* measure only because it is estimated 179× better (`#90b`), and **a minority
+concentrating on uncommon options exists and was invisible to every method used before this arc**.

@@ -1,0 +1,29 @@
+  seed 1  n=11,627  carriers=590
+  seed 2  n=11,627  carriers=586
+  seed 3  n=11,627  carriers=565
+  seed 4  n=11,627  carriers=587
+  seed 5  n=11,627  carriers=590
+  seed 6  n=11,627  carriers=587
+
+=== ACHIEVED PER-CARRIER SHIFT (target from #94: ~1.75 nats, ~0.05 in mean surprisal) ===
+     achieved  achieved_nats
+nsw                         
+1      0.3102        12.8825
+2      0.5898        24.4461
+
+=== PLANT vs NO-PLANT, at p95 and p99 ===
+  0 swaps/block: p95 real-vs-null +0.0494 (2xsp 0.0020)   p99 +0.0711 (2xsp 0.0047)
+  1 swaps/block: p95 real-vs-null +0.0815 (2xsp 0.0065)   p99 +0.1169 (2xsp 0.0099)
+  2 swaps/block: p95 real-vs-null +0.1808 (2xsp 0.0119)   p99 +0.3478 (2xsp 0.0289)
+
+  CONDITIONAL KILL -- gates first
+   (a) 0-swap arm is a genuine no-op        : PASS (+0.0494 vs real +0.0503)
+   (b) the plant ACHIEVED a detectable shift: PASS (+0.5898 in mean surprisal vs the 0.0017 needed)
+
+   plant effect on p95: +0.1314   2x spread 0.0238  -> FIRES
+
+   -> #94a IS LICENSED. The statistic responds to a planted rare-option minority at a
+      magnitude computed to be detectable, and the real data shows the same signature
+      at p95 (+0.0503, 37x its own spread).
+
+artifact sha1 a04beb04142b

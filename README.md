@@ -31,6 +31,15 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 > is, phenomenologically — is exactly the object this toolkit cannot see.** Every "no structure found"
 > in this ledger means *none among the ≥30% who share it*. Untried and buildable: a method that scores
 > **per person** rather than per cell.
+>
+> ✅ **[#95] That method was built, and it found something.** Per-person mean surprisal
+> `S = mean over picked options of −log(base rate)` — invariant to *how many* options were picked,
+> sensitive to *which*, with fixed-margin randomisation as its exactly-matched null. The real upper
+> tail picks **rarer options than a margin-preserving reassignment allows**: p95 **+0.0503 at 37× its
+> seed spread**, p99 +0.0704 — while the **median goes the other way** (−0.0051). Bimodal. Licensed by
+> a graded plant that fires monotonically (+0.049 → +0.082 → +0.181). Magnitude: equivalent to **≈1.5
+> median→rare swaps per block in 5% of people**. **A component every variance-explained method in the
+> preceding eleven arcs was structurally blind to.**
 
 ## Where this stands — the A-vs-B answer, and why it took a re-framing
 
