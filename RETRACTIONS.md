@@ -1685,3 +1685,38 @@ file and reading what the predictors actually contain.
 
 **Forty rounds of delay, and the margin is still dark.** That is the honest state: the person side
 has been measured exhaustively and the item side has never been measured once.
+
+---
+
+## Entry 57, added by `E01·A01·R19` — the item margin is real, carries 71% of the person margin, and was never measured in fifty-seven rounds
+
+Third attempt, built the way the first two should have been: **cell-level** masking so every feature
+is computed from unmasked cells only, and all four models **nested on the same base and jointly
+fitted** on training cells, scored on identical held-out cells.
+
+| model | out-of-sample R² | seed spread | **increment over base** | resolvability |
+|---|---:|---:|---:|---:|
+| base — item marginal + person rate | +0.3131 | 0.0024 | — | — |
+| **person factors** *(positive control)* | +0.3420 | 0.0024 | **+0.0289** | ratio 12 |
+| **item neighbours** | +0.3336 | 0.0048 | **+0.0206** | ratio 4.3 |
+| random neighbours *(negative control)* | +0.3137 | 0.0030 | +0.0006 | — |
+
+**Both gates pass**: the established person margin reproduces (+0.0289), and random neighbours sit
+at +0.0006. **578,989 held-out cells.**
+
+| # | Claim | Verdict |
+|---|---|---|
+| 57 | **the item margin** | **REAL, at 71% of the person margin.** Both increments are resolvable by `#34`'s criterion. `#56`'s attempt-1 verdict of **"EMPTY"** was badly wrong — it came from a handicapped comparison, and the margin it dismissed is nearly three-quarters the size of the one this project spent fifty-seven rounds measuring |
+
+**What is measured and what is not.** Each margin was tested **separately against the base**, so
+71% means "item alone recovers 71% of what person alone recovers". It does **not** mean the item
+margin adds 71% *on top of* the person margin — two margins can each be large and be the same
+structure seen from two sides. **Fitting them jointly is the obvious next measurement and this round
+did not do it**, so the redundancy question is open and I am not implying an answer.
+
+**The cost of the delay is the entry.** `aea8476` flagged this margin forty rounds ago; the
+restructure interrupted it; two later attempts failed on design rather than on data. In the interim
+the person margin was swept for K, for block inclusion, for seeds, for coverage matching, for
+framings — **five kinds of audit on the measured margin while the unmeasured one sat untouched.**
+`#39` named this failure mode as *availability becoming representativeness*; this is the same error
+one level up, where **the margin I had tooling for became the margin that existed.**

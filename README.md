@@ -124,6 +124,13 @@ CONFIRMED**.
 
 ---
 
+## The item margin
+
+**[RETRACTIONS #57]** Fifty-seven rounds measured structure over PEOPLE. The ITEM side, measured once:
+item-neighbour structure recovers **+0.0206** held-out R² over a marginals base, against the person
+factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of the person margin**, on
+578,989 held-out cells. Whether the two are the same structure is untested.
+
 ## Governance
 
 | file | what it holds |
