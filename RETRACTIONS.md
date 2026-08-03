@@ -2931,3 +2931,51 @@ already visible in `87b`, which does not depend on the flaw.
 two components: **subtracting a null does not correct an estimator, it credits the estimator's
 failure to the thing being estimated.** The fix is not a better null — it is a better estimator,
 whose null is zero because it does not overfit in the first place.
+
+---
+
+## Entry 88, added by `E01·A10·R15` — with nothing subtracted anywhere, the item effect is 3.5–5.6× the interaction, and `#85`'s tie was the correction machinery
+
+`#86` and `#87` established that subtracting a null credits the estimator's failure to the component.
+This round removes the machinery entirely: **shrunk column means · empirical-Bayes shrunk row means ·
+per-column ridge on external scores · soft singular-value thresholding**, every hyperparameter chosen
+on a validation split carved out of the **training** cells.
+
+**Negative controls — each regularised component in the world that destroys it:**
+
+| | value |
+|---|---:|
+| `I` under within-person shuffle | **−0.0000** |
+| `P` under within-column shuffle | **−0.0002** |
+| `C` under person-permutation | **−0.0021** |
+| `W` under fixed-margin curveball | **−0.0219** ← the one that misses |
+
+**`#87a` SETTLED — soft vs hard, both tuned honestly on training cells:**
+
+| world | soft | hard |
+|---|---:|---:|
+| real | **+0.0273** | −0.0091 |
+| no-interaction | **−0.0219** | **−0.0945** |
+
+**The decomposition, no correction applied anywhere:**
+
+| `I` | `P` | `C` | `W` | interaction (C+W) | **item : interaction** |
+|---:|---:|---:|---:|---:|---:|
+| **+0.2173** | +0.1034 | +0.0092 | +0.0306 | +0.0388 | **5.59×** |
+
+Per block: **item larger in 21/23**, interaction larger in 1, tied 1. Median gap +0.178 against a 2×
+spread of 0.014. Chosen hyperparameters: λ = 4.87, ridge α = 90.4.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 88a | **gate (b), "planted world recovers I, P and W"** | **FAILED ON MY PLANT, NOT THE ESTIMATOR.** I planted a person effect of sd 0.08. The graded ladder shows recovered `P` = −0.0002 / +0.0106 / +0.0571 / +0.2229 at sd 0/0.08/0.15/0.30 — monotone, silent at zero, and **my plant sat below its own MDE**. The real `P` of +0.1034 corresponds to a planted sd of ≈ 0.19. **Gate (b) PASSES when run above the magnitude it can detect** |
+| 88b | **gate (a), `W` in the no-interaction world** | **FAILS by 0.0019** against a threshold I chose. A residual hole of −0.022 remains — 4.3× smaller than hard truncation's −0.0945, but not zero. **Its direction UNDER-reports the interaction**, so correcting it gives `W` ≈ +0.053, interaction ≈ +0.062, ratio **3.5×**. The conclusion survives the flaw in the direction that matters |
+| 88c | **`#85`'s "the three components are the same size, 1.05×"** | **WITHDRAWN.** It was the correction machinery. On estimators that need no correction the ratio is **3.5×–5.6×** and the item is larger in **21 of 23 blocks**, not 12 |
+| 88d | **`#82`'s inversion (`W` > `C`)** | **DIRECTION SURVIVES, MAGNITUDE DOES NOT.** Regularised: `W` +0.031 vs `C` +0.009 — **3.3×**, not the 7–26× `#82` reported. The domain-specific part is still the larger of the two person-side components, and both are small next to the item effect |
+| 88e | **`A09`'s original direction** | **REINSTATED, on evidence it did not have at the time.** `#67`/`#68` said the item effect is the larger component and got there through an uncorrected comparison that happened to point the right way; `#85` overturned it with a correction that credited estimator damage; this round reaches it with **nothing subtracted at all** |
+
+**Three reversals on one question in eleven entries** — `#68` item-dominant → `#85` tied → `#88`
+item-dominant. Every step was driven by a methodological fix, not new data, and the **first and last
+agree while the reasoning in between was wrong in both directions.** That is worth more than the
+number: the project's error was never the direction, it was **comparing quantities whose estimators
+fail differently**, and it took `#80`, `#82`, `#84`, `#86` and `#87` to name it.
