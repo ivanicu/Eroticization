@@ -1,0 +1,27 @@
+具体类 12  关系类 14  偏好项 68
+  25 pairs
+  50 pairs
+  75 pairs
+  100 pairs
+  125 pairs
+
+=== 140 对   跨类 78  同类 62 ===
+            n     bal     gap  eff_base  eff_type     pos   k
+kind                                                         
+cross  1321.0  0.3299  4.8095    0.0221    0.0005  0.8333  78
+same   1336.5  0.3489  4.6816    0.0289    0.0236  0.8871  62
+
+=== 正对照:两类各自的种植阶梯 ===
+g        0.00    0.25
+kind                 
+cross  0.0081  0.0181
+same   0.0251  0.0230
+
+  CONDITIONAL KILL -- 是稳定类型,还是表征重塑?
+   FAIL  种植在同类对里能被检测       +0.0230 > floor +0.0251 + 2*0.0033 = +0.0317   (headroom -0.0087)
+   PASS  种植在跨类对里能被检测       +0.0181 > floor +0.0081 + 2*0.0030 = +0.0141   (headroom +0.0040)
+   PASS  同类对的效应(基线协变量)     |+0.0289| > 2*0.0033 = 0.0066   (8.7x its own spread)
+   PASS  同类对的效应(加入类型协变量后)  |+0.0236| > 2*0.0035 = 0.0069   (6.8x its own spread)
+   => UNVERIFIED, and that is not an acquittal
+
+artifact sha1 9a3055441278
