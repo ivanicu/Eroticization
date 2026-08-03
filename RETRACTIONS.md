@@ -1850,3 +1850,45 @@ what kind of thing it is.**
 0.06 needs **69** source domains, 0.08 needs **122**, 0.10 needs **191**. That is the price list for a
 phase-1 collection, and it comes from a law fitted over n=1–31. **Extrapolating it to 122 assumes
 the law holds four times beyond its measured range, which is an assumption, not a finding.**
+
+---
+
+## Entry 61, added by `E01·A01·R23` — blocks are not interchangeable, so √n does not mean what I said it meant one round ago
+
+`#60` fitted `increment = 0.00723 × √n` at CV 6.4% and read √n as **the signature of one shared
+latent measured with independent per-block noise** — "the form is the mechanism, not just a curve".
+That reading makes a prediction inside this release: if every block is an independent noisy estimate
+of the same thing, **blocks are interchangeable** and only *how many* matters, not *which*.
+
+Fourteen random subsets of n=8, three seeds each. Both gates pass — the mean reproduces `#60`'s
+n=8 value (+0.0222 vs +0.0225) and the permuted-label null is −0.00000 everywhere.
+
+| | |
+|---|---:|
+| SD **across** subsets (which blocks) | **0.00376** |
+| SD **within** a subset, across seeds | **0.00049** |
+| **variance ratio** | **57.9×** |
+
+**NOT INTERCHANGEABLE**, by a factor of 58. And the property that predicts which subsets do better
+is not subtle:
+
+| subset property | correlation with its increment |
+|---|---:|
+| **mean respondent count of the source blocks** | **+0.816** |
+| mean option count | +0.103 |
+| fluid-family share | +0.000 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 61 | **"√n is the signature of one shared latent with independent per-block noise"** — `#60`'s mechanism reading, one round old | **UNSUPPORTED.** Blocks differ 58× more than seeds do, and **block size predicts subset quality at r = +0.816**. `#60` sampled subsets at random, so total respondents grew with n — **√(block count) and √(total sample) were perfectly confounded in that design**, and the same curve is produced by "more data helps". The √n **fit** stands as a description; the **mechanism** does not |
+
+**The prediction I wrote was the right one and it cost one round to run.** `#60` closed by naming
+exactly this test — *"any block subset that beats its own n would falsify the independence
+assumption"* — and it did, immediately. **The difference between that and `#54`'s parting prediction
+(bounded by an oracle, impossible to fail) is the difference `#55` was about**, and this is the first
+NEXT line written after that lesson that turned out to be both falsifiable and false.
+
+**What would settle the mechanism:** vary block count and total respondents *independently* — e.g.
+subsample large blocks down to small-block size, so n rises while total N is held fixed. If the
+increment still grows as √n, the per-block-latent reading survives. If it tracks √(total N), the
+structure is one pooled estimate and block boundaries are incidental to it.
