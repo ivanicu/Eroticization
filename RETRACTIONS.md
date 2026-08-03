@@ -173,3 +173,48 @@ exceeds modality's K=5 value (0.0326). That comparison is wrong — a max agains
 Against medians and the null p95, modality is comfortably above. I nearly retracted a real finding
 by attacking it with a cheaper statistic than the one that produced it, which `realstat` §3 names
 as the most expensive kind of error.
+
+---
+
+## Entry 20, added by `E01·A07·R02` — the coverage law was one point, and the point was 7.6× the rest of the range
+
+After #15 conceded the coverage *hazard* to the explorer's own `14-missingness`, the only novel
+claim this project still had was the quantification: **corr(congruence deficit, coverage gap) =
++0.815**, and the matched correction built on it.
+
+`ADVERSARY_FORECAST` #3, written before this round, p=0.55: *"nine splits, and PORNHABIT sits far
+out on both axes. Without it the correlation is much weaker, and the methodological claim rests on
+a single influential observation."*
+
+**The coverage gaps, printed for the first time:**
+
+| split | coverage gap | deficit @K5 |
+|---|---:|---:|
+| pornhabit | **2.435** | +0.0463 |
+| neuroticism | 0.321 | +0.0148 |
+| sex | 0.130 | **+0.0838** |
+| placebo (row parity) | 0.108 | +0.0002 |
+| sham (coin flip) | 0.079 | −0.0105 |
+| modality | 0.069 | +0.0326 |
+
+**pornhabit's gap is 7.6× the next largest.** And the two points that most contradict a coverage
+law are the two strongest real effects: **sex has the second-largest deficit with the third-*smallest*
+gap**, and modality has a real deficit at the smallest gap of all.
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 20 | **"corr(deficit, coverage gap) = +0.815 across nine splits. Any group comparison on this release must be block-count matched or it partly measures survey coverage"** — carried as the project's transferable methodological result, and after #15 its only novel one | Influence analysis with the known-null splits added to the class. **Median r over K ∈ {3,5,8,12} = +0.127. Worst leave-one-out = −0.294, and the point whose removal does it is pornhabit at 6 of 8 specifications.** The permutation null at this n is enormous — **|r| p95 = 0.820 at n=6 splits** — so at this many units a correlation has to clear 0.82 to carry information, and +0.815 never did. Positive control passed (gap vs itself 1.000; a synthetic deficit built as f(coverage) recovered at 1.000), so this is a real null and not broken plumbing | **The correction, not the law.** Block-count matching moved pornhabit's deficit 0.2285 → 0.0871 → 0.0439 by *direct measurement on that split*, and that is unaffected — it never depended on the correlation. What dies is the general claim that deficit tracks coverage across splits. It does not: sex and modality both have large deficits at near-zero coverage gaps |
+
+**What the correlation actually was.** One split with a coverage gap 7.6× everything else, which
+also happened to have a large deficit for its own reasons. With n=9 units and a null p95 near 0.82,
+that is a two-point line. **I published a law computed over nine units without ever asking what a
+correlation is worth at n=9** — and the answer, measured here, is: nothing below 0.82.
+
+**The unit was never people.** Every one of the 15,503 respondents appears in every split, which is
+why the sample felt enormous. But the *estimand* is a correlation over splits, and there are six of
+them. `realstat` G1 says name the estimand before the method; I named the method (correlate the
+deficits) and inherited an n of nine by accident.
+
+**Forecast scoring.** #3 predicted the mechanism exactly — pornhabit far out on both axes, one
+influential point — at p=0.55. **CORRECT, mechanism included**, unlike #2 last round where only the
+direction was right. Two of three forecasts now scored, both hits.

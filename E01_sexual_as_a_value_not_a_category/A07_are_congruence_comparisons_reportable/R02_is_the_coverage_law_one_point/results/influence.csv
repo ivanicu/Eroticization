@@ -1,0 +1,9 @@
+K,estimator,n_splits,r,loo_min,loo_max,dropped_worst
+3,pearson,6,-0.087,-0.294,0.119,pornhabit
+3,spearman,6,-0.086,-0.3,0.3,placebo_rowparity
+5,pearson,6,0.262,-0.001,0.72,pornhabit
+5,spearman,6,0.429,0.2,0.7,pornhabit
+8,pearson,6,0.331,-0.063,0.535,pornhabit
+8,spearman,6,0.143,-0.1,0.7,placebo_rowparity
+12,pearson,6,-0.008,-0.162,0.398,placebo_rowparity
+12,spearman,6,-0.086,-0.3,0.3,placebo_rowparity
