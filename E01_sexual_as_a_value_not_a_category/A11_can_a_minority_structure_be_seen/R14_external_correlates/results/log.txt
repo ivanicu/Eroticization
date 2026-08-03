@@ -1,0 +1,20 @@
+
+=== CORRELATION WITH EXTERNAL VARIABLES ===
+measure         affinity  breadth  null_affinity     n  aff_sd  aff_disattenuated
+var                                                                              
+age              -0.0043   0.0416         0.0010  7316  0.0121            -0.0066
+agreeable        -0.0741   0.0001        -0.0517  7316  0.0130            -0.1127
+biomale           0.0558   0.1141        -0.0316  7316  0.0111             0.0849
+conscientious    -0.0454  -0.0124        -0.0135  7316  0.0118            -0.0690
+extroversion     -0.0345   0.0176        -0.0020  7316  0.0117            -0.0524
+mean_onset_age   -0.0932  -0.1596        -0.0483  7316  0.0116            -0.1417
+neuroticism      -0.0233  -0.0055        -0.0028  7316  0.0120            -0.0355
+openness          0.0109   0.0712        -0.0050  7316  0.0115             0.0166
+powerlessness     0.0076   0.0205         0.0222  7316  0.0124             0.0116
+
+  CONDITIONAL KILL -- gates first
+   (a) the NULL affinity correlates with nothing : FAIL (max |r| 0.0517)
+   (b) BREADTH reproduces known correlations     : FAIL (mean |r| with personality 0.0212; #17/#23 measured ~0.10 disattenuated)
+   -> UNVERIFIED, and that is not an acquittal.
+
+artifact sha1 f9e18f65cb59

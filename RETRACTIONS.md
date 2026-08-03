@@ -3397,3 +3397,48 @@ about which options a person picks* exists and is not pick count; it does not es
 stable thing is erotic preference rather than a way of answering questionnaires. **The external
 correlate is the missing test** — and unlike everything else in this arc, that one needs variables
 outside the endorsement matrix, which this release does carry.
+
+---
+
+## Entry 101, added by `E01·A11·R14`+`R15` — the trait tracks WHEN interests were acquired, more than it tracks personality
+
+`#100` confirmed a reliable person-level trait in *which* options are endorsed and named what
+reliability cannot settle: a stable **response style** is also a reliable person property. The two
+readings make opposite predictions about variables **outside** the endorsement matrix.
+
+`R14` ran it and both gates failed **on my errors**, both worth recording:
+
+| # | error | class |
+|---|---|---|
+| 101a | the null's residualised affinity still correlated with agreeableness (−0.052) and onset (−0.048). Residualising on `picks + log(picks)` is **linear**; the leftover is non-linear and still tracks count | **27th mis-specified design element** |
+| 101b | I compared **raw** breadth correlations (0.021 mean) against `#17`/`#23`'s **disattenuated** ~0.10. Different scales. On the same scale breadth–openness is **+0.0712 raw**, which matches — the gate failed on my arithmetic | **28th** |
+
+`R15`'s fix is not a better regression: **curveball preserves each person's pick count exactly**
+(asserted), so `affinity = S_real − mean(S_null)` is count-matched **per person, by construction**.
+
+**Both gates now pass** — null-minus-null max |r| = **0.0187**; breadth reproduces `#17`/`#23` on the
+same scale (**0.0712** vs ~0.075 implied).
+
+| variable | affinity `r` | z | breadth `r` | null−null |
+|---|---:|---:|---:|---:|
+| **biomale** | **+0.0930** | **8.4** | +0.1141 | −0.008 |
+| **mean onset age** | **−0.0838** | **7.1** | −0.1596 | +0.001 |
+| agreeable | −0.0555 | 4.9 | +0.0001 | −0.013 |
+| conscientious | −0.0470 | 4.2 | −0.0124 | −0.007 |
+| extroversion | −0.0357 | 2.9 | +0.0176 | +0.011 |
+| neuroticism | −0.0318 | 2.7 | −0.0055 | +0.019 |
+| openness | +0.0234 | 2.0 | +0.0712 | −0.014 |
+| age | −0.0157 | 1.4 | +0.0416 | +0.008 |
+| powerlessness | −0.0058 | 0.5 | +0.0205 | −0.001 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 101c | **the fork, `#100`'s open question** | **LEANS EROTIC, and only leans.** Onset age |r| = 0.0838 against a personality-block **mean** of 0.0332 (**2.5×**) — but against the **largest** personality correlate (agreeable, 0.0555) it is **1.5×**. A mean-versus-single comparison flatters the conclusion; the honest number is 1.5× |
+| 101d | **the direction, which is interpretable** | **Higher rare-option affinity ↔ EARLIER acquisition** (r = −0.084; disattenuated −0.127). People whose endorsements concentrate on uncommon options report acquiring their interests younger. This is the first link between arc `A11` and the fifteen rounds `A03` spent on the acquisition schedule |
+| 101e | **the largest correlate overall** | **Sex: +0.0930** (disattenuated +0.141) — men's endorsements concentrate on rarer options. Larger than onset and larger than anything in the personality block |
+| 101f | **the size, so it is not over-read** | Every correlation here is |r| ≤ 0.093, i.e. **under 1% of variance**, and the *breadth* nuisance this project projects out everywhere has a **larger** correlation with onset (−0.160) than the trait does (−0.084). **The trait has an external anchor; it is not a strong one** |
+
+**What is settled and what is not.** Settled: the trait is not pick count (`#100c`), it has external
+correlates that a matched null does not (`101` gates), and its largest non-demographic correlate is
+acquisition age rather than personality. **Not settled**: 1.5× is a lean, not a separation, and a
+response style that happens to track onset age would produce the same table.
