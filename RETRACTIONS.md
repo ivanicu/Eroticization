@@ -1022,3 +1022,44 @@ control becomes "is the null *stable* across blocks" (sd 0.0087, passes).
 **The contrast is the point.** The same one-round check scoped SUBSTANCE to 3% of the corpus and
 cleared the person factors. **A check that only ever confirms is not a check** — and after `#39` I
 went into this expecting a second local construct, and got the opposite.
+
+---
+
+## Entry 41, added by `E01·A02·R24` — I set a gate threshold above the published magnitude of the thing I was gating on
+
+`#39` scoped SUBSTANCE, `#40` cleared the person factors. POWER was the last role axis claimed to
+hold release-wide, and `A02`'s basis decision rests on it. Same check: does it predict in blocks
+that did not contribute to its construction?
+
+| | effect (gain − permuted null) |
+|---|---:|
+| contributing blocks (6 of 32) — *positive control* | **+0.00150** |
+| **non-contributing blocks (26)** | **+0.00245** |
+| placebo there (endorsement rate, no role content) | +0.00063 |
+
+**Gate FAILED** — the positive control needed >0.002 and returned 0.0015. **But `A02·R01`
+published POWER's median held-out gain as +0.0006**, so I set a threshold three times above the
+known magnitude of the quantity I was gating on, then failed my own round with it. Fourth
+mis-specified gate (`#33` twice, `#40` once, now this), and the pattern is finally legible: **I set
+thresholds from intuition instead of from the published magnitude.**
+
+**Standing correction, joining the conditional-kill rule:** *a gate threshold must be derived from
+a measured quantity — the published effect, its null, or its seed spread — never chosen. If no such
+quantity exists yet, the round's first job is to measure it, not to guess a bar.*
+
+| # | Claim | Verdict |
+|---|---|---|
+| 41 | **POWER is a release-wide role axis** — `A02`'s surviving basis after `#39` | **UNVERIFIED by the gate, and the descriptive pattern is unflattering.** POWER's effect is ~0.0015–0.0025 **in both sets**, marginally *larger* outside its home blocks than inside. It is not local like SUBSTANCE — it is uniformly weak. Against a placebo of 0.0006 it is real but tiny, which matches `A02·R01`'s original finding that POWER only bites where the option set varies in role |
+
+**Where this leaves `A02`'s decision.** Its "SAFE" statement was: don't use the folk basis; the three
+role axes are near-orthogonal; cross role with source. Since then: `#24` restated POWER–SUBSTANCE
+from 0.233 to 0.605; `#39` scoped SUBSTANCE to 3% of the corpus; GAZE was never measurable; and now
+POWER is confirmed weak everywhere rather than strong somewhere. **A02 has no strong release-wide
+role coordinate, and its decision should be re-closed on that basis rather than on the three-axis
+picture that has since dissolved.**
+
+**The one thing that survives intact from A02** is the conditional finding, not the coordinate: role
+predicts endorsement **wherever the option set varies in role** (`A02·R01`–`R02`, r=+0.752 between
+option-set role variance and predictive gain, 21× between varying and non-varying blocks). That is a
+statement about *when* a role coordinate applies, and it never depended on any axis being globally
+strong.
