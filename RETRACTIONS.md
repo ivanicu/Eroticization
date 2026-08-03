@@ -987,3 +987,38 @@ coordinate predict outside the blocks that defined it" is the first question to 
 built from a subset, and I built four rounds of findings on SUBSTANCE before asking it. The reason
 is legible in the ledger: the fluid family was the only place the contrast was *available*, and
 availability quietly became representativeness.
+
+---
+
+## Entry 40, added by `E01·A01·R15` — the same check that scoped SUBSTANCE clears the central claim
+
+`#39` scoped the SUBSTANCE axis to seven blocks by asking whether it predicts outside the blocks
+that defined it. The same question had never been asked of the construct carrying this project's
+central claim: the person factors are built from **32 blocks out of 101**, selected by a filter that
+20 rounds inherited and none chose.
+
+| | held-out effect (gain − permuted null) |
+|---|---:|
+| **included blocks** *(positive control, leave-one-out)* | **+0.0390** |
+| **excluded blocks** — never part of the construction, n≥300 | **+0.0178** (46% of included) |
+| excluded blocks, **placebo** (endorsement rate, no coordinate content) | +0.0064 |
+
+**REACHES.** The factors predict in blocks the filter discarded, at 46% of the included effect and
+**2.8× a placebo** built from the same source with no coordinate content. 20 of 25 excluded blocks
+show a positive gain. The 46% attenuation is expected — excluded blocks are smaller, so their
+profiles are less reliable, which attenuates any prediction into them.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 40 | **the shared cross-domain grammar** — the project's central claim, built on 32 of 101 blocks | **GENERALISES.** It is not a property of the large blocks. It predicts in blocks it was never fitted on, including ones the inherited filter removed |
+
+**A gate correction inside the round, and it is the same class as `#33`'s error 2.** The first pass
+failed its negative control: permuted factors gave **−0.0064** on excluded blocks rather than ~0. That
+is not contamination — excluded blocks are smaller, so six permuted columns cost held-out R² **by
+degrees of freedom alone**. Requiring `|null| < 0.005` was a condition that does not fit a design
+with varying n. **The null *is* the df price**, so the effect is `gain − null` and the negative
+control becomes "is the null *stable* across blocks" (sd 0.0087, passes).
+
+**The contrast is the point.** The same one-round check scoped SUBSTANCE to 3% of the corpus and
+cleared the person factors. **A check that only ever confirms is not a check** — and after `#39` I
+went into this expecting a second local construct, and got the opposite.
