@@ -8,7 +8,7 @@ Private curiosity project. Not written for publication and not seeking any.
 
 Object: the **Big Kink Survey** public subsample — [Zenodo 10.5281/zenodo.18625141](https://zenodo.org/records/18625141),
 15,503 respondents × 365 columns, aggressively binned, demographically stripped and noise-injected.
-Data is not committed; `01_object_and_structure/r01_schema/run.py` re-downloads it.
+Data is not committed; `01_object_and_structure/R01_schema/run.py` re-downloads it.
 
 ---
 
@@ -40,7 +40,7 @@ coordinates entirely.
 |---|---:|---|
 | shared cross-domain grammar, held-out CCA | **0.272** vs 0.055 floor | 321 block pairs, ≥600 common people |
 | …surviving sex/age/personality/orientation removal | **0.200** vs 0.055 | 73% of the transfer is not demographic |
-| coordinates surviving a block split-half | **4** practically (7 above 3× floor) | held-out canonical r .357 / .290 / .193 / .130 |
+| coordinates surviving a block split-half | **WITHDRAWN — see RETRACTIONS #18** | count tracks K (4→4, 24→16, non-saturating); what survives is the profile's height above floor, 30–50× |
 | correlation of those coordinates with the folk top/bottom axis | **≤0.159** | six coordinates, n=6,717 |
 | three role axes' mutual correlation, disattenuated | **≤0.362** | effective dimensionality 2.95 of 3, n=3,890 |
 | shared maturational schedule, per-person rank agreement | **+0.232** | 74.7% of 9,691 positive vs 48.9% null, d=0.69 |
@@ -55,19 +55,19 @@ coordinates entirely.
 
 ## What each big round established (R = one iteration, one belief update, one commit)
 
-**[R01 · the object](R01_object_and_structure)** — The item-level data is not the 68 category
+**[R01 · the object](A01_object_and_structure)** — The item-level data is not the 68 category
 ratings; it is 101 multiselect columns exploding to **1,332 options over 15,468 people**. Entry
 to every block is gated on a parent rating: **P(enter | parent > 0) = 0.99**. This is
 undocumented and it constrains every design downstream — naive cross-block holdout is
 conditioned on liking the parent category. Person-profile split-half reliability **0.727**;
 item base-rate reliability **0.999**. The noise injection did not destroy individual signal.
 
-**[R02 · is there a shared grammar](R02_is_there_a_shared_grammar)** — Yes, and the first two
+**[R02 · is there a shared grammar](A02_is_there_a_shared_grammar)** — Yes, and the first two
 instruments could not see it. PC1-vs-PC1 gave 0.064 (retraction #2); held-out CCA gave 0.272 vs a
 0.055 floor; leave-one-block-out gave **32/32 blocks positive**, median gain +0.0340 against a
 −0.0029 floor. Factors learned from 31 domains predict a domain they never saw.
 
-**[R03 · naming the coordinates](R03_naming_the_coordinates)** — Four coordinates survive a
+**[R03 · naming the coordinates](A03_naming_the_coordinates)** — Four coordinates survive a
 **block** split-half (not a person split-half — the question is whether a coordinate is
 recoverable from either half of the *domains*). Naming failed twice before succeeding. The
 surviving three: *light restraint/toys ↔ insertive extremity and confinement* · *abjection and
@@ -76,7 +76,7 @@ filth ↔ blood, burning, weapons* (two **opposed** extremities, not one intensi
 three near-independent coordinates**: who submits, who is seen, who receives — disattenuated
 mutual r ≤ 0.362, effective dimensionality 2.95 of 3.
 
-**[R04 · acquisition and time](R04_acquisition_and_time)** — Interests arrive on a
+**[R04 · acquisition and time](A04_acquisition_and_time)** — Interests arrive on a
 population-shared schedule (content-like early: appearance 14.0, body parts 14.4, clothing 14.7;
 relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). Within-person
 "acquired together" tracks "liked together" at RSA **+0.599** after stripping intensity leakage
@@ -85,14 +85,14 @@ relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). Wit
 not explained by preference** — interests a person does *not* like together were acquired at the
 same time. But the organising variable is arrival time, not coordinate membership (retraction #9).
 
-**[R05 · group differences and the instrument](R05_group_differences_and_the_instrument)** —
+**[R05 · group differences and the instrument](A05_group_differences_and_the_instrument)** —
 **Any group comparison on this release must be block-count matched or it partly measures survey
 coverage**: corr(congruence deficit, coverage gap) = **+0.815** across nine splits. This is the
 transferable methodological result and it is not documented anywhere I have read about this
 dataset. Drawn-vs-live-action consumers — whose content contains no real bodies — differ by
 **0.0204 ± 0.0265**, bounded below sex-sized (0.093). That is a real, bounded constraint on A.
 
-**[R06 · induction](R06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn
+**[R06 · induction](A06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn
 induced ones that would not otherwise exist. That claim carries **no acquisition timing
 signature** (a uniform 0.5-year shift of *all* their onsets; a 1-year shift is excluded; the
 concentration discriminator is null at 8.8× the power needed for a single-interest induction)
@@ -100,21 +100,21 @@ and **no structural signature** (misfit < 0.1 sd, extremity < 10%). It tracks **
 (rho +0.2515, 85% surviving response-style control). Design consequence: retrospective
 self-report of induction is unusable as an outcome measure. Phase 3 must be prospective.
 
-**[R07 · breadth](R07_breadth)** — Quantity without shape. A person's set is **0.88%** more
+**[R07 · breadth](A07_breadth)** — Quantity without shape. A person's set is **0.88%** more
 concentrated in coordinate space than a size-matched base-rate set — real (t=−15.5) and
 negligible. Sets are **24.2%** of the way from chance to perfect nesting. Breadth is moderately
 one trait (Spearman–Brown 0.557) and **9–13% response style**, measured on the survey's own
 non-category Likert items.
 
-**[E01·R05 · is breadth the object](E01_sexual_as_a_value_not_a_category/R05_is_breadth_a_nuisance_or_the_object)** — Nearly domain-encapsulated. All 15 non-sexual
+**[E01·R05 · is breadth the object](E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object)** — Nearly domain-encapsulated. All 15 non-sexual
 variables jointly: **R² = 0.012**. **[PARTLY RETRACTED — see RETRACTIONS #17]** That held only with survey progression controlled and a *gated* outcome. On the ungated `totalfetishcategory` with acquiescence controlled, childhood adversity → breadth is **r = +0.059, effect/floor 7.5** — real and small, matching the published d=0.151. Adult sexual assault, corporal punishment and upbringing remain near zero.
 
-**[R09 · consumption](R09_consumption)** — Consumption touches both terms: it correlates with θ
+**[R09 · consumption](A09_consumption)** — Consumption touches both terms: it correlates with θ
 (rho 0.17) *and* independently with the coordinates (**0.0439** after matching coverage, breadth
 and sex — 3.6× the neuroticism reference). Direction is unavailable; this is exactly what a
 prospective design would resolve.
 
-**[R10 · additivity](R10_additivity)** — Ivan's model B requires it. The feature crosses every
+**[R10 · additivity](A10_additivity)** — Ivan's model B requires it. The feature crosses every
 substance boundary it meets (+0.24 to +0.58) **except source gender, where it is +0.017**.
 Additivity is basis-dependent: in the folk basis (self/other) it fails; in a basis crossing role
 with source gender it may hold. Small n on the decisive cells (3–4 pairs) — **PLAUSIBLE, not

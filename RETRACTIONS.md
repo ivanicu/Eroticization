@@ -103,3 +103,33 @@ summarised by picking the one that agreed with the conclusion I had already writ
 
 **That is the failure mode with no entry above it: publishing the specification curve and then
 narrating the cell you liked.** The grid is not a robustness appendix. It is the result.
+
+---
+
+## Entry 18, added by `E01·A02·R14`–`R15` — the count was a property of how many I asked for
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 18 | **"Four coordinates survive a block split-half (7 above 3× floor); practically the grammar is ~4-dimensional"** — reported with held-out canonical r .357 / .290 / .193 / .130 and carried as a headline through nine subsequent rounds | A specification curve I had pre-registered against myself. **`R14`, 60 cells (option floor 5/10/20/40/80 × K 4/6/8/10 × 3 seeds):** the option floor is *completely inert* — every row identical, 32 blocks entering at every floor — while the count tracks **K** almost 1:1 (K=4→4, 6→5, 8→7, 10→8). **`R15`, sweeping K to 24:** count = 10 at K=12 and **16 at K=24**, +6, non-saturating. The pre-registered kill fired. Positive control held throughout — the permutation floor stayed flat at 0.008–0.011 across all cells, so this is a moving count against a fixed floor, not a moving floor | **The transfer, not its dimensionality.** Every retained coordinate sits 30–50× its own permutation floor, and the profile falls steeply (0.461 · 0.450 · 0.321 · 0.311 · 0.256 · 0.228 · 0.201 · 0.159 · 0.125 · 0.104 …). Cross-domain structure is real and large. **How much of it there is is not identified by this procedure**, and "~4-dimensional" is withdrawn as a number rather than replaced by a bigger one |
+
+**And the replacement failed in the same round, which is the part worth keeping.** `R15`
+pre-registered the magnitude profile as the K-free object that would survive if the count did not.
+It is not K-free: the top canonical correlation itself rises from **0.304 at K=4 to 0.461 at K=24**,
+because CCA with more components finds better-aligned combinations of the same halves. So the
+procedure is monotone in K *everywhere* — in the count and in the magnitudes — and neither is
+identified without fixing K on grounds outside the data. **I proposed the fallback in the same
+docstring as the test, and the test killed both.** That is what a pre-registered replacement is
+for; had I chosen it afterwards it would have looked like a finding.
+
+**What this does NOT touch**, stated because a retraction that quietly widens is its own failure:
+the three role axes (`A02`) come from *named indicators* — POWER, GAZE, SUBSTANCE — not from the
+K-dependent CCA, and their mutual disattenuated r ≤ 0.362 at fixed n stands. The leave-one-block-out
+result (32/32 blocks, median gain +0.0340) is a prediction into held-out domains and carries no K.
+
+**Forecast scoring**, since `ADVERSARY_FORECAST.md` exists to be graded rather than admired.
+Prediction #2, written before any of this: *"The four-coordinate count is unstable to the option
+floor. `n≥20` was chosen once and never swept. A challenger sweeping it finds 3 or 6."* — **p=0.65,
+direction CORRECT, mechanism WRONG.** The count is unstable, and the option floor has nothing to do
+with it. I predicted the right casualty for the wrong reason, which is worth less than it looks:
+had I swept only what I predicted, I would have found the floor inert and concluded the count was
+robust.

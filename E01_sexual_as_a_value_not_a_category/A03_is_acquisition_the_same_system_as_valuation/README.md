@@ -6,14 +6,14 @@
 
 **7 sub-rounds**, each one belief update.
 
-| r | directory |
+| R | directory |
 |---|---|
-| `r01` | [`r01_onset_census`](r01_onset_census) |
-| `r02` | [`r02_acquired_vs_liked`](r02_acquired_vs_liked) |
-| `r03` | [`r03_intensity_leakage`](r03_intensity_leakage) |
-| `r04` | [`r04_onset_beyond_preference`](r04_onset_beyond_preference) |
-| `r05` | [`r05_unit_vs_tempo`](r05_unit_vs_tempo) |
-| `r06` | [`r06_binning_null`](r06_binning_null) |
-| `r07` | [`r07_shared_schedule`](r07_shared_schedule) |
+| `r01` | [`R01_onset_census`](R01_onset_census) |
+| `r02` | [`R02_acquired_vs_liked`](R02_acquired_vs_liked) |
+| `r03` | [`R03_intensity_leakage`](R03_intensity_leakage) |
+| `r04` | [`R04_onset_beyond_preference`](R04_onset_beyond_preference) |
+| `r05` | [`R05_unit_vs_tempo`](R05_unit_vs_tempo) |
+| `r06` | [`R06_binning_null`](R06_binning_null) |
+| `r07` | [`R07_shared_schedule`](R07_shared_schedule) |
 
 Numbers and intervals live in the top-level [`README.md`](../../README.md).
