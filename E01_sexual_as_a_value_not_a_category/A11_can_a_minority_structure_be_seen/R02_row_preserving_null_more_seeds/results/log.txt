@@ -1,0 +1,56 @@
+targets 23  people 15379
+  seed 1  n=238
+  seed 2  n=247
+  seed 3  n=248
+  seed 4  n=266
+  seed 5  n=232
+  seed 6  n=238
+  seed 7  n=232
+  seed 8  n=192
+
+=== REAL vs FIXED-MARGIN NULL (8 seeds) -- only p99 is interpreted ===
+Traceback (most recent call last):
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R02_row_preserving_null_more_seeds/run.py", line 112, in <module>
+    r,n,d,s=cmp('real','cb',qv)
+            ~~~^^^^^^^^^^^^^^^^
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R02_row_preserving_null_more_seeds/run.py", line 108, in cmp
+    return r.mean(),n.mean(),r.mean()-n.mean(),2*np.sqrt(r.std()**2+n.std()**2)
+           ~~~~~~^^
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/util/_decorators.py", line 336, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 14475, in mean
+    result = super().mean(
+        axis=axis, skipna=skipna, numeric_only=numeric_only, **kwargs
+    )
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/generic.py", line 11819, in mean
+    return self._stat_function(
+           ~~~~~~~~~~~~~~~~~~~^
+        "mean", nanops.nanmean, axis, skipna, numeric_only, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/generic.py", line 11773, in _stat_function
+    return self._reduce(
+           ~~~~~~~~~~~~^
+        func, name=name, axis=axis, skipna=skipna, numeric_only=numeric_only
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 13635, in _reduce
+    res = df._mgr.reduce(blk_func)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/internals/managers.py", line 1694, in reduce
+    res_blocks = [blk.reduce(func) for blk in self.blocks]
+                  ~~~~~~~~~~^^^^^^
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/internals/blocks.py", line 358, in reduce
+    result = func(self.values)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 13565, in blk_func
+    return op(values, axis=axis, skipna=skipna, **kwds)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/nanops.py", line 149, in f
+    result = alt(values, axis=axis, skipna=skipna, **kwds)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/nanops.py", line 408, in new_func
+    result = func(values, axis=axis, skipna=skipna, mask=mask, **kwargs)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/nanops.py", line 713, in nanmean
+    the_sum = values.sum(axis, dtype=dtype_sum)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/numpy/_core/_methods.py", line 49, in _sum
+    return umr_sum(a, axis, dtype, out, keepdims, initial, where)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'

@@ -3123,3 +3123,38 @@ prevalence.
 cannot see minorities"* to *"we can see them at p99, we have three seeds, and the null is wrong at
 the median."* All three are fixable — more seeds, a row-sum-preserving null — and none of them was
 knowable before the method existed.
+
+---
+
+## Entry 93, added by `E01·A11·R02` — with the right null the apparent tail vanishes, and so does the instrument's ability to see anything
+
+`#92` left one admissible quantile and two fixable faults. Both are fixed here: the null becomes
+**fixed-margin (curveball)**, reproducing the response format instead of mistaking it for signal, and
+the seeds go from 3 to 8.
+
+**Real vs fixed-margin null, 8 seeds — every quantile:**
+
+| | real | null | diff | 2× spread | |
+|---|---:|---:|---:|---:|---|
+| share T>2 | 0.0590 | **0.0495** | +0.0095 | 0.0406 | no |
+| p50 | 0.8373 | 0.8471 | −0.0099 | 0.0667 | no — **`#92c`'s fault is fixed** |
+| p75 | 1.1338 | 1.0775 | +0.0562 | 0.1579 | no |
+| p90 | 1.7796 | 1.7381 | +0.0415 | 0.2876 | no |
+| p95 | 2.0558 | 2.0130 | +0.0428 | 0.3093 | no |
+| **p99** | 2.6429 | 2.6350 | **+0.0079** | 0.8566 | no |
+
+**Positive control — 5% carriers against its own fixed-margin null: blind at every quantile**, and
+at p99 the null is *higher* than the plant (2.1673 vs 1.9208).
+
+| # | Claim | Verdict |
+|---|---|---|
+| 93a | **`#92`'s apparent tail excess (p95 +0.234, share T>2 at 2.06×)** | **WAS THE NULL.** Against a null that reproduces the response format, the share above T=2 goes from 2.06× to **1.19×** and every quantile difference falls inside its own spread. `#92c` diagnosed the parametric null as mis-specified at the median; it was mis-specified in the tail too, and that is where the apparent finding lived |
+| 93b | **the per-person misfit statistic itself** | **UNIDENTIFIED, and this is the real result.** `T_i` and the **row sum are confounded**: a person with strong specific structure picks a different *number* of options, the fitted person effect absorbs it, and a null that preserves row sums removes the signal along with the artifact. **Against the correct null the instrument is blind to the very world it was built to see** |
+| 93c | **the verdict** | **UNVERIFIED, and emphatically not an acquittal.** Gate (a) passes, gate (b) fails, and the two together say: *the only null that is admissible is one this statistic cannot work against.* `#92`'s "we can see them at p99" is withdrawn one entry after it was written |
+| 93d | **`D[...].T`** | **FOURTH accessor collision — and `T` is on the banned list I wrote in `#80d` two entries ago.** Writing the rule did not prevent the next violation of it. The rule needs to be enforced by something that is not me: a linter, or a naming convention with a prefix (`v_T`, `v_mode`) that cannot collide |
+
+**What would actually work**, and it follows directly from `93b`: a statistic that **conditions on the
+pick count**. Given that a person picked *k* options, are those *k* unusually concentrated on **rare**
+ones? A surprisal score `S_i = −Σ log(base rate of each picked option)` is exactly that — it is
+invariant to *how many* were picked and sensitive to *which*, and fixed-margin randomisation is its
+natural and correct null. That is the design `#91` was reaching for and neither `#92` nor `#93` built.
