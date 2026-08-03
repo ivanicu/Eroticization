@@ -799,3 +799,39 @@ and until that is paid the number does not exist.
 my design errors; this round caught a precision limit that no amount of care in design would have
 removed. The difference matters: the first is a fixable mistake, the second is a property of the
 measurement, and only a gate that checks resolvability separates them.
+
+---
+
+## Entry 35, added by `E01·A08·R01` — the resolvability criterion applied backwards, and modality turns out to be the exception
+
+`#34` killed the modality deficit by resolvability rather than by falsity: its effect was smaller
+than its own seed spread in 9 cells of 9. Most of this project's numbers were produced at 1–3 seeds
+and had never been asked the same question. Re-run at **6 seeds**, criterion `|effect| > 2 × spread`:
+
+| quantity | median | seed spread | ratio | resolvable |
+|---|---:|---:|---:|:--:|
+| **sex deficit** *(positive control)* | 0.0847 | 0.0137 | **6.18** | ✅ |
+| **placebo deficit** *(negative control)* | 0.0002 | 0.0076 | **0.02** | ❌ *(as it must be)* |
+| consumption deficit | 0.0951 | 0.0235 | 4.05 | ✅ |
+| cross-domain CCA (mean) | 0.1491 | 0.0155 | 9.63 | ✅ |
+| breadth nestedness excess | 0.0657 | 0.0036 | **18.38** | ✅ |
+
+Gate passes — one resolvable, one not, so the criterion discriminates here. **0% of the audited
+headlines are unresolvable.** Modality was the exception, not the rule, and the surviving numbers
+clear the bar by factors of 4 to 18.
+
+**Not audited, with the price stated instead of the row omitted:** the onset rival world (#22/#32)
+at ~40 pipeline rebuilds per seed, ~240 for six; the POWER–SUBSTANCE ladder (#24) at 216 composite
+refits; the θ reliability ladder (#23). Those three remain at their original seed counts and are
+**NOT AUDITED**, which is not the same as passing.
+
+**New flag, found by the audit rather than sought.** The cross-domain CCA re-runs at **0.1491**
+against a published **0.200** — a gap of 0.051, which is **3.3 seed spreads** and therefore not seed
+noise. The published figure came from a 12-split average and this from 6; whether that alone
+explains a 25% difference is unresolved, and I am recording it as an open discrepancy rather than
+guessing at a cause. **The audit's job was to check precision and it found an accuracy problem
+instead** — which is the ordinary way a control earns its cost.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 35 | **cross-domain CCA = 0.200** | **DISCREPANT.** Re-run gives 0.1491 ± 0.0155 at 6 seeds. Both are above every floor this project has measured, so the *existence* of cross-domain transfer is untouched; the *value* needs reconciling before it is quoted again |
