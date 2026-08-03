@@ -1,0 +1,30 @@
+onset categories 31  preference items 68  people 15,503
+  20 pairs
+  40 pairs
+  60 pairs
+  80 pairs
+  100 pairs
+
+=== 120 category pairs, median n = 1184 ===
+  covariates-only AUC          : 0.5617
+  + all other preferences      : 0.5671
+  INCREMENT                    : +0.0054   (sd over pairs 0.0246)
+  stratified permutation null  : -0.0200
+  pairs with increment > 0     : 60.0%
+
+=== POSITIVE CONTROL: planted order effect ===
+   g     inc
+0.00 -0.0065
+0.10 -0.0001
+0.25  0.0190
+
+  CONDITIONAL KILL -- does acquisition ORDER leave a trace in the rest of the profile?
+   FAIL  stratified permutation       |-0.0200| < 0.5*|+0.0054| = 0.0027   (null is 373% of the effect)
+   PASS  planted order effect g=0.25  +0.0190 > floor -0.0065 + 2*0.0022 = -0.0020   (headroom +0.0209)
+   PASS  planted ladder monotone      [-0.0065, -0.0001, 0.019]   (asserted in code, not in prose)
+   PASS  increment over covariates    |+0.0054| > 2*0.0022 = 0.0045   (2.4x its own spread)
+   => UNVERIFIED, and that is not an acquittal
+
+  -> NOT ESTABLISHED. increment +0.0054 vs null -0.0200
+
+artifact sha1 0d1dc1fa414b

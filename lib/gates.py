@@ -78,6 +78,23 @@ class Gate:
                           ok, f"headroom {planted-need:+.4f}"))
         return ok
 
+    def offset_control(self, name, effect, offset, spread):
+        """#106: a null that is a systematic BASELINE OFFSET, not a nuisance to be small.
+
+        When the two arms differ in model capacity, the null carries the overfitting penalty and is
+        systematically NEGATIVE. negative_control() is the wrong shape there -- it asks |null| to be
+        small, and a large negative null makes it FAIL on a real effect. The right statistic is the
+        DIFFERENCE, judged against its own spread.
+
+        Choose by asking: SHOULD the null be zero? Yes -> negative_control. No, it has a known
+        systematic direction -> offset_control."""
+        if self._degenerate(name, effect, offset, spread): return False
+        corrected = effect - offset
+        ok = abs(corrected) > 2 * abs(spread)
+        self.rows.append((name, f"({effect:+.4f}) - ({offset:+.4f}) = {corrected:+.4f} vs 2*{abs(spread):.4f}",
+                          ok, f"{abs(corrected)/max(abs(spread),1e-12):.1f}x its own spread"))
+        return ok
+
     def same_scale(self, name, mine, theirs, scale):
         """#101b: a reference comparison must DECLARE its scale, in the call, as a string.
 
