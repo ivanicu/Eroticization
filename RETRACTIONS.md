@@ -1472,3 +1472,47 @@ legitimate and they answer different questions — the mistake was never computi
 one as the other for forty-eight entries. **Every claim in this ledger that survived to the end
 survived as a statement about a direction, and only two of them are also statements about an
 amount.**
+
+---
+
+## Entry 52, added by `E01·A03·R14` — the sort completes, and the claim that carries the most is the one that was hardest to break
+
+`#51` sorted every surviving headline by predictable variance except the maturational schedule,
+whose statistic is a within-person rank agreement. Its proper analogue is a **ranking task**, built
+here: for a held-out person and a pair of their categories, predict which they acquired first, using
+only the population ordering.
+
+| | accuracy | seed spread |
+|---|---:|---:|
+| **population ordering** (fitted on training people, applied to held-out) | **66.71%** | 0.72 |
+| **oracle** — the best a single global ordering can do, fitted *on the held-out half itself* | **66.53%** | 0.42 |
+| random ordering *(negative control)* | **48.98%** | 11.95 |
+| tied pairs excluded | 36.3% of all within-person pairs | |
+
+**The population ordering reaches 101% of the oracle's margin over chance.** A global ordering
+fitted on people it has never seen performs as well as one fitted on the very people it is scored
+on. **There is no better global ordering to find** — the schedule is not merely generalisable, it is
+saturated.
+
+**The completed sort:**
+
+| claim | published statistic | % of its own ceiling | class |
+|---|---:|---:|---|
+| **maturational schedule** | 0.747–0.860 | **101%** | **carries — at ceiling** |
+| onset RSA | 0.599 | 31% | carries |
+| nestedness | 24.0% of gap | 25% | carries, borderline |
+| sex deficit | 0.093 | 9% | partial |
+| cross-domain CCA | 0.198 | ~0% | thin direction |
+
+**The ordering is almost the inverse of how hard each claim was to establish.** The schedule cost
+one 72-cell specification curve (`#31`) and came back clean on the first attempt — the only headline
+in the project that did. The cross-domain grammar consumed roughly a dozen rounds, three
+retractions, and a framing swap, and carries no predictable variance at all. **What survived
+scrutiny best is what needed the least of it**, which is not a coincidence: the schedule is a large
+effect in a well-measured quantity, and large effects in well-measured quantities do not generate
+forty-eight retractions.
+
+**And the 36.3% tie share is the honest limit.** More than a third of within-person category pairs
+are tied by the 2-year binning and are excluded rather than scored as half-credit. The 66.7% is
+accuracy *on pairs the release can order at all* — a release with finer bins would score a different
+number on a larger pool, and I do not know in which direction.
