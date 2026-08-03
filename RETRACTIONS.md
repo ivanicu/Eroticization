@@ -835,3 +835,44 @@ instead** — which is the ordinary way a control earns its cost.
 | # | Claim | Verdict |
 |---|---|---|
 | 35 | **cross-domain CCA = 0.200** | **DISCREPANT.** Re-run gives 0.1491 ± 0.0155 at 6 seeds. Both are above every floor this project has measured, so the *existence* of cross-domain transfer is untouched; the *value* needs reconciling before it is quoted again |
+
+---
+
+## Entry 36, added by `E01·A08·R02` — the audit that flagged a discrepancy was measuring a different quantity, and two ledger entries were wrong
+
+`#35` flagged the cross-domain CCA re-running at 0.1491 against a published 0.200 and recorded it as
+an open discrepancy. Reconciling it required reading three rounds' code rather than one, and the
+answer corrects **two** earlier entries of this ledger.
+
+**Split count is not the cause.** Both statistics are flat across 4–24 half-splits (drift +3% and
++5%), nulls collapse to 0.017 and 0.009:
+
+| half-splits | max over components | mean over components |
+|---:|---:|---:|
+| 4 | 0.3244 | 0.1472 |
+| 12 | 0.3265 | 0.1470 |
+| 24 | 0.3308 | 0.1514 |
+
+**Correction 1 — `#27`'s units note is backwards.** It says *"this round reports the maximum
+canonical correlation; the published 0.273/0.200 are the mean across components."* Both published
+rounds return the **max**: `A01·R09` uses `np.nanmax(cv)`, `A02·R01`'s `cvcca` returns
+`max(abs(corr))`. The note had it exactly reversed and has been sitting in the ledger since.
+
+**Correction 2, and the larger one — `#35` was not a discrepancy at all.** The published 0.273/0.200
+come from CCA between **pairs of individual blocks** (`nc=3`, median over 321 block pairs). The
+`A08` audit computed CCA between **two half-splits of the whole block set** (`K=5`). Those are
+different estimands, not two statistics of one fit — which is why neither 0.332 nor 0.151 lands on
+0.200. **My resolvability audit audited a quantity that was never published.**
+
+| # | Entry | Correction |
+|---|---|---|
+| 36a | `#27`'s units note | **Reversed.** Published values are the max, not the mean |
+| 36b | `#35`'s "cross-domain CCA is DISCREPANT" | **WITHDRAWN.** Two different estimands compared. The published pairwise-block value (0.273 raw / 0.200 demographics-removed) stands; the half-split factor CCA is a separate quantity at max 0.332 / mean 0.151, also far above its null |
+
+**`realstat` G1 is *estimand before method*, and my own audit round broke it.** `#35` set out to
+check precision, reached for the CCA machinery that was nearest to hand, and never asked whether
+that machinery computed the published quantity. The resolvability numbers it produced are still
+valid — as statements about the half-split factor CCA, which is what they measured.
+
+**Both corrections were found by reading code, not by running anything.** Thirty-six entries in,
+the cheapest instrument in this project remains opening the file that produced the number.

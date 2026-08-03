@@ -39,7 +39,7 @@ coordinates entirely.
 | what | number | scope |
 |---|---:|---|
 | shared cross-domain grammar, held-out CCA | **0.272** vs 0.055 floor | 321 block pairs, ≥600 common people |
-| …surviving sex/age/personality/orientation removal | **0.149–0.200** | **[DISCREPANT — RETRACTIONS #35]** 6-seed re-run gives 0.1491 ± 0.0155 against a published 0.200 (3.3 seed spreads apart); transfer exists at every floor measured, the value needs reconciling |
+| …surviving sex/age/personality/orientation removal | **0.200** | pairwise-block CCA, max over 3 components, median of 321 pairs. **[#35 withdrawn by #36]** the 0.149 figure was a different estimand (half-split factor CCA), not a discrepancy |
 | coordinates surviving a block split-half | **WITHDRAWN — see RETRACTIONS #18** | count tracks K (4→4, 24→16, non-saturating); what survives is the profile's height above floor, 30–50× |
 | correlation of those coordinates with the folk top/bottom axis | **≤0.159** | six coordinates, n=6,717 |
 | POWER vs SUBSTANCE, ladder-disattenuated | **+0.605** | **[RESTATED — RETRACTIONS #24]** 37% shared variance, not 5%; positive control recovers 1.018 for a measure against itself; GAZE unmeasurable here; "2.95 of 3" withdrawn |
