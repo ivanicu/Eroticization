@@ -43,11 +43,23 @@ class Gate:
 
     # ---- the three comparisons that failed, each now requiring its second argument ----
 
+    def _degenerate(self, name, *vals):
+        """#105e: a comparison whose inputs are all exactly zero passes vacuously. Refuse it.
+
+        The library exists to stop a gate that cannot fail; a gate evaluated on a degenerate input
+        is exactly that, and it printed 3 PASS on a run where every number was 0.00."""
+        if all(abs(v) < 1e-12 for v in vals):
+            self.rows.append((name, f"inputs {[round(v,12) for v in vals]}", False,
+                              "DEGENERATE -- all inputs are exactly zero; the comparison is vacuous"))
+            return True
+        return False
+
     def negative_control(self, name, null, effect, ratio=0.5):
         """#102a: a null is judged against the EFFECT, never against a constant.
 
         Passes when |null| < ratio * |effect|. There is no absolute threshold, because an absolute
         threshold is what let a null equal to 91% of its effect print PASS."""
+        if self._degenerate(name, null, effect): return False
         ok = abs(null) < ratio * abs(effect)
         self.rows.append((name, f"|{null:+.4f}| < {ratio}*|{effect:+.4f}| = {ratio*abs(effect):.4f}",
                           ok, f"null is {100*abs(null)/max(abs(effect),1e-12):.0f}% of the effect"))
@@ -59,6 +71,7 @@ class Gate:
         Passes when planted > floor + 2*spread. It must also be POSSIBLE: if the instrument is known
         to violate the criterion, the gate cannot pass and this will say so rather than fail
         silently."""
+        if self._degenerate(name, planted, floor, spread): return False
         need = floor + 2 * abs(spread)
         ok = planted > need
         self.rows.append((name, f"{planted:+.4f} > floor {floor:+.4f} + 2*{abs(spread):.4f} = {need:+.4f}",
@@ -92,6 +105,7 @@ class Gate:
     def no_sign_crossing(self, name, series):
         """#83d/#79f: never take a ratio or a sum across a sign change."""
         s = np.asarray(series, dtype=float)
+        if self._degenerate(name, *s): return False
         ok = np.all(s > 0) or np.all(s < 0)
         self.rows.append((name, f"signs {'consistent' if ok else 'CROSS ZERO'}", ok,
                           f"{np.round(s,4).tolist()}"))
