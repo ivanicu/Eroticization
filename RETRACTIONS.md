@@ -715,3 +715,46 @@ the instrument, not to override the gate**. That is the rule doing the job it wa
 round after being added — and the difference between the two situations is worth naming: **an
 override is a judgment I make about a machine, a refusal is the machine declining to make one for
 me.** Only the second is reproducible by someone who is not me.
+
+---
+
+## Entry 33, added by `E01·A07·R03` — three design errors in one round, and the gate caught all three
+
+The block-inclusion threshold (`n_respondents ≥ 1200`) is inherited by **20 of 57 rounds**, decides
+which blocks exist at all, and sits under the modality, consumption, coverage and θ results
+simultaneously. Sweeping it was the largest unexamined choice left in the project.
+
+**Error 1.** First run compared *unmatched* deficits against *matched* published values. #11 and #25
+established that any group comparison on this release must be block-count matched or it measures
+survey coverage; I built the sweep and did not carry that forward. Gate failed. Matching added.
+
+**Error 2.** With matching, the gate failed again — the pre-registered condition was "sex must be
+the largest deficit in every cell", and consumption exceeds it. But #11's own chain says consumption
+is **0.0871 at block-only matching** and only falls to 0.0439 after θ and sex matching. **My gate
+encoded an expectation that belongs to a different matching level than the one the sweep runs at.**
+The gate is mis-specified, not the instrument.
+
+**Error 3, the one worth keeping.** Seed spread reaches **0.0437** — larger than modality's entire
+deficit in most cells. I ran 2 seeds and said so in the IMPOSSIBLE register, but a 2-seed design
+cannot resolve a quantity whose seed noise exceeds it, and I did not check that before choosing 2.
+
+**Block-count-matched deficits across the sweep** (10 threshold combinations, 26–48 blocks admitted):
+
+| split | range | verdict |
+|---|---|---|
+| sex | 0.083 – 0.102 | stable, ±10% |
+| consumption | 0.082 – 0.112 | stable, ±15%, and consistent with #11's 0.0871 at this matching level |
+| **modality** | **0.009 – 0.050** | **5.5× range** |
+| placebo (row parity) | −0.005 – +0.003 | clean at every threshold |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 33 | **"modality deficit +0.0546"** (`#19`) | **UNVERIFIED, and flagged.** The pre-registered gate was mis-specified so no verdict is licensed, but the observed pattern is that modality swings 5.5× with which blocks are admitted while sex and consumption move under 15%. It needs a properly-gated round with ≥5 seeds before anything is claimed |
+
+**What the round actually demonstrates is about the gate, not about modality.** Three independent
+design errors — a missing control, a mis-specified threshold, an under-powered seed count — and the
+conditional gate refused on all three rather than printing a verdict on any. **Before #28 added the
+conditional, every one of these would have produced a number.** The second error is the interesting
+one: a pre-registered condition can be *wrong* rather than merely unmet, and when it is, the honest
+move is to report UNVERIFIED and rebuild — not to relax the condition until it passes, which is
+exactly what pre-registration exists to prevent me doing.
