@@ -1063,3 +1063,49 @@ predicts endorsement **wherever the option set varies in role** (`A02·R01`–`R
 option-set role variance and predictive gain, 21× between varying and non-varying blocks). That is a
 statement about *when* a role coordinate applies, and it never depended on any axis being globally
 strong.
+
+---
+
+## Entry 42, added by `E01·A02·R25` — the last A02 survivor passes every statistical attack and is unidentifiable anyway
+
+After `#24`, `#39` and `#41`, the only `A02` claim left was the **conditional** one: role predicts
+endorsement wherever the option set itself varies in role — `r = +0.752`, 21× between varying and
+non-varying blocks. `#30` had noted its role-varying cells are 4 blocks; `#39` had since shown the
+fluid family is subgraph-local. It looked structurally identical to the coverage law `#20` killed.
+
+**It is not, and it passes:**
+
+| | |
+|---|---|
+| observed r | **+0.752** |
+| leave-one-out range | **+0.672 … +0.830** — never near collapse |
+| permutation null at n=28 | mean −0.002, sd 0.191, **\|r\| p95 = 0.357** |
+| sham (x permuted) | \|r\| p95 0.357 |
+| positive control (gain planted as f(role variance)) | **+1.000** |
+
+Unlike the coverage law — LOO floor −0.294 against a null p95 of 0.820 at n=6 — this sits at
+**2.1× its null** with a leave-one-out floor of +0.67. **Statistically it is the most robust
+correlation in the project.**
+
+**And it cannot be identified, which the influence analysis printed as a `nan`.** Removing the fluid
+family returns **`nan`, because `role_var` has standard deviation 0.0000 among non-fluid blocks.**
+All four role-varying blocks are fluid blocks. So `role_var > 0` and `fluid-family membership` are
+**the same indicator** in this release, and the correlation is equally well read as *"POWER predicts
+better in fluid blocks"* — a family `#39` has already shown does not represent the corpus.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 42 | **"role predicts endorsement wherever the option set varies in role"** — `A02`'s last survivor | **ROBUST BUT UNIDENTIFIED.** Survives leave-one-out, its null, and a sham. The treatment variable has **zero variance outside one family**, so no design on this release can separate *role variance* from *fluid-family membership*. Not withdrawn — it is a real regularity — but it cannot be stated as a claim about role |
+
+**`A02` is now re-closed, and the decision has inverted.** Its original SAFE statement was "not the
+folk basis; three near-orthogonal role axes; cross role with source." What actually survives is:
+**this release cannot settle what basis the ontology should use.** One axis is confined to 3% of the
+corpus, one was never measurable, one is uniformly weak, and the conditional finding that would have
+rescued them is perfectly confounded with the same 3%. **The honest decision is not a basis but a
+requirement: a phase-1 collection must instantiate the role contrast in blocks that are not all one
+family**, which is a design constraint on new data rather than a finding in this one.
+
+**Zero variance in the treatment outside one stratum is a stronger objection than any p-value**, and
+it was visible from the first round that computed `role_var` — 24 of 28 blocks at exactly 0.000,
+printed in `A02·R02`'s own output table. I read that column as "the contrast is rare" and not as
+"the contrast is confounded", and those are the same table.
