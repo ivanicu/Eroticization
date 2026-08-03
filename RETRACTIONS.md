@@ -1313,3 +1313,37 @@ control on two measures from the same arc, built in the same week, and one was b
 other was clean. **A measure's soundness is not inherited from its neighbours**, and the only way I
 found out which was which was to generate populations whose answer I already knew — which cost less
 than either of the original rounds did.
+
+---
+
+## Entry 48, added by `E01·A04·R12` — matching corrects where there is something to correct, and my summary statistic divided noise by noise everywhere else
+
+`A04`'s rule — "group comparisons must be coverage-matched" — stood on the `+0.815` law that `#20`
+withdrew, plus `#45`'s finding that matching can spend an effect below resolvability. Tested
+directly, with a **placebo match** that discards the same people while correcting nothing:
+
+| split | coverage gap | unmatched | coverage-matched | **real change** | **placebo change** |
+|---|---:|---:|---:|---:|---:|
+| **pornhabit** *(pos. control)* | **2.435** | 0.2254 | 0.0959 | **0.1295** | **0.0069** |
+| sex | 0.130 | 0.0975 | 0.0852 | 0.0123 | 0.0042 |
+| neuroticism | 0.321 | 0.0344 | 0.0387 | 0.0043 | 0.0001 |
+| **modality** *(neg. control)* | 0.069 | 0.0355 | 0.0327 | 0.0028 | **0.0047** |
+
+**Where there is a coverage gap, matching corrects and the placebo does 5% of the work**
+(pornhabit: 0.225 → 0.096, placebo 0.007). **Where there is no gap, both changes are noise** —
+modality's placebo change (0.0047) *exceeds* its real change (0.0028), which is exactly what
+"nothing to correct" looks like.
+
+**My pre-registered summary was the wrong aggregation and returned UNVERIFIED.** I took the *median
+of the ratio* `placebo change / real change` across four splits — 0.54 — but for the two splits with
+negligible coverage gaps that ratio is **noise divided by noise**, and it dominated the median. The
+quantity that matters is the ratio *where the correction is large*, and there it is **0.05**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 48 | **"group comparisons must be coverage-matched"** (`A04`'s rule) | **RESTATED, not withdrawn.** Match **when the coverage gap is large** — there the correction is real and demonstrably not subsampling (placebo does 5%). Where the gap is small, matching changes almost nothing and `#45`'s resolvability cost dominates, so **matching should be conditioned on the gap rather than applied by default.** The general "change ∝ gap" law still cannot be established: n=4 splits with one dominant point, the same structure `#20` killed |
+
+**Third time a summary statistic has hidden its own table** (`#30` narrated one cell of a curve,
+`#33` compared unmatched to matched values, this one divided noise by noise). Each time the raw
+per-unit numbers were printed directly above the summary that misread them. **The aggregation is
+where the error lives, not the measurement** — and a four-row table needs no aggregation at all.
