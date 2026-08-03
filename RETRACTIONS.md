@@ -2064,3 +2064,46 @@ the bias is demonstrably shape-dependent. What is licensed today:
 
 The fix is cheap and specific: **a per-block additive synthetic control**, so every block is read
 against a floor built from its own marginals and its own shape. That is `R02`.
+
+---
+
+## Entry 66, added by `E01·A09·R02` — the floor was built from a world nothing like the data, and the identification gate caught it
+
+`R01` could not deliver a verdict because the interaction estimator's negative bias is
+shape-dependent. `R02` gave every block its own floor, built from its own marginals — and then
+**refused to report a verdict for any of the 32 blocks**, because the nuisance-matching check
+failed everywhere.
+
+| check | result |
+|---|---|
+| dose recovery (planted interaction recovered) | **32/32 PASS** |
+| nuisance match (synthetic reproduces the block's own main effects) | **0/32 PASS** |
+
+**Why.** The synthetic drew Bernoulli cells from an additive probability model. That world is far
+**weaker** than the data on both main effects:
+
+- item effect **0.157 lower** than real (median; range 0.031–0.396)
+- person effect **0.0258 vs 0.0893 — 0.3× the real one**
+
+A floor built from a world unlike the data is not a floor. Bernoulli-from-marginals cannot
+reproduce real breadth clustering, and clipping probabilities to [0.02, 0.98] compresses the item
+effect further.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 66 | **"a per-block additive synthetic gives each block its own floor"** | **UNIDENTIFIED — the synthetic is not the same world.** The correction `X_c = X_real − X_synth` is only meaningful if the two worlds differ *in the interaction and nothing else*. Here they differed in both main effects by more than the entire quantity being estimated |
+
+**What this round is worth anyway.** The gate fired for a real reason, not as a formality, and it
+fired *before* a verdict was published. `R02`'s uncorrected table shows the gap `X_c − I` negative
+in **29 of 32 blocks** at K=1 — which, had the gate been a formality, would have been reported as
+world A. **It may still be world A. It is not yet allowed to be.**
+
+Also fixed here: `R01`'s placebo, re-run with the direction corrected. A permuted person component
+contributes **−0.142**, which is `≤ 0` and therefore **PASS** — and its size is itself evidence that
+the person effect is person-specific rather than a generic offset.
+
+**The fix, and it is the right one for binary data:** fixed-margin randomisation (curveball)
+preserves every row sum and every column sum **exactly**, so both main effects are matched *by
+construction* rather than in expectation, and it destroys the interaction and nothing else. It also
+buys a graded control `R02` could not have — running only a *fraction* of the mixing trades gives a
+dose axis with exact margins at every point. That is `R03`.
