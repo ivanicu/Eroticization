@@ -23,6 +23,15 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 
 ---
 
+> ⚠ **THE BLIND SPOT THAT SCOPES EVERY NULL IN THIS PROJECT [#91].** A person×option structure carried
+> by **5% of people is undetectable at ±50 percentage points** — the skill never leaves its floor.
+> At 15% it is barely detectable; detection needs **≈30% of people or more**. Every method used here
+> (factor analysis, CCA, low-rank completion, held-out skill) is a **variance-explained** method, and
+> those weight by prevalence. **A minority with intense specific attachments — which is what a fetish
+> is, phenomenologically — is exactly the object this toolkit cannot see.** Every "no structure found"
+> in this ledger means *none among the ≥30% who share it*. Untried and buildable: a method that scores
+> **per person** rather than per cell.
+
 ## Where this stands — the A-vs-B answer, and why it took a re-framing
 
 **The question splits in two, and the answer differs between them [#70].** Everything before arc

@@ -3045,3 +3045,38 @@ person m = 18 — a 179× difference.** So:
 tastes rather than everyone deviating a little — would produce the same skill at a different sd.
 Item and person spreads are **measured directly**; the interaction's is **inferred through a model**,
 and that asymmetry is not removable here.
+
+---
+
+## Entry 91, added by `E01·A10·R18` — a structure carried by 5% of people is invisible at ANY strength, and that is what a fetish looks like
+
+`#90` named its own shape assumption: the ±23.7 pp inversion assumed a **dense** structure, and a
+sparse one — a few people with strong specific tastes — might imply a different magnitude. This
+round planted sparse structures to find out. **It could not, and the reason is the finding.**
+
+| carriers | scale 0.08 | 0.12 | 0.20 | 0.30 | **0.50** | per-carrier sd at 0.50 |
+|---|---:|---:|---:|---:|---:|---:|
+| **5%** | −0.013 | −0.013 | −0.012 | −0.012 | **−0.012** | **±50.4 pp** |
+| **15%** | −0.010 | −0.007 | −0.003 | −0.001 | +0.002 | ±48.8 pp |
+| **30%** | −0.007 | +0.001 | +0.014 | +0.024 | +0.033 | ±47.1 pp |
+| **100%** | −0.002 | +0.024 | +0.089 | +0.158 | **+0.239** | ±42.5 pp |
+
+The estimator's floor is **−0.012**. **At 5% carriers the skill never leaves the floor**, even when
+those carriers' endorsement probabilities are moved by **±50 percentage points**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 91a | **the shape test as designed** | **UNRUNNABLE — gate (b) fails.** Only the dense arm brackets the real skill of +0.036; no sparse arm reaches it at any magnitude in the ladder. The inversion cannot be compared across shapes because three of the four shapes cannot produce the observation at all |
+| 91b | **the capability boundary, which is what the failure measures** | **This estimator — and every estimator used in this project — is BLIND to interaction structure carried by a minority.** 5% carriers: undetectable at ±50 pp. 15%: barely (+0.002 against a −0.012 floor). Detection needs **≈30% of people or more** |
+| 91c | **what that does to `#90a`** | **STRENGTHENS the dense reading and bounds it at the same time.** Since sparse shapes cannot reproduce +0.036, the observed interaction **must** have a dense component — the shape assumption was not arbitrary. But a sparse structure could coexist **entirely invisibly**, and nothing in this project would show it |
+| 91d | **the consequence for the project's own subject matter, and it is not a technicality** | **A minority of people with intense, specific attachments is precisely what a fetish is, phenomenologically.** Every method in these eleven arcs — factor analysis, CCA, low-rank completion, held-out skill — is a **variance-explained** method, and variance-explained methods weight by prevalence. **The eroticization operator, if it works the way kink actually presents, is exactly the object this entire toolkit cannot see** |
+| 91e | **the dense arm as a replication check** | **PASSES.** It returns **±23.5 pp** against `#90`'s ±23.7 pp, on a separately-written pipeline. `#90`'s number replicates |
+
+**This is a capability-boundary update, not a claim update.** Nothing measured so far becomes wrong.
+What changes is the **scope of every negative result in the project**: 105 rounds of "no structure
+found" now carry a quantified blind spot — *no structure found among the ≥30% of people who share
+it*. `#62`, `#55`, `#49`, `#39` and every other null in this ledger inherit it.
+
+**What would see a sparse structure**: a method that scores **per person** rather than per cell —
+individual-level anomaly detection, or a mixture model with a small high-deviation component. Both
+are buildable on this release, and neither has been tried.
