@@ -3473,3 +3473,47 @@ Split-half (affinity from half the blocks vs onset from the other half of the ca
 (`#100`, floor-controlled, 20× its floor). Its **only** external correlate that has survived a matched
 null is **sex**. The onset link — the one finding that connected this arc to the rest of the project
 — **is withdrawn pending a design where the null is compared to the effect.**
+
+---
+
+## Entry 103 — `lib/gates.py`: the comparison rules as code, validated by replaying every failure it was written for
+
+`#102e` named the class behind twenty-nine mis-specified design elements: **every gate in this project
+compares two numbers, and every failure was in HOW, not in WHAT.** Nine of the ten catalogued cases
+are a comparison taking the **wrong second argument**. That is infrastructure, not a thirtieth patch
+(`P7`).
+
+`lib/gates.py` makes the second argument **required**:
+
+| method | the failure it forecloses |
+|---|---|
+| `negative_control(name, null, effect=…)` | **`#102a`** — no absolute threshold exists; a null is judged against the effect it must be smaller than |
+| `positive_control(name, planted, floor=…, spread=…)` | **`#88a`** (planted below its own MDE, 3×), **`#78c`** (a criterion the instrument was known to violate) |
+| `same_scale(name, mine, theirs, scale=…)` | **`#101b`** — `scale` is a required string with no default; a comparison whose scale nobody wrote down is the one that compared raw to disattenuated |
+| `resolvable(name, effect, spread)` | **`#97c`** — refuses a spread that is zero or non-finite, and says to bootstrap over units rather than seeds |
+| `no_sign_crossing(name, series)` | **`#83d`** (a ratio across a sign change → 1.7 × 10¹⁰), **`#79f`** (a threshold on a sum that hides a sign) |
+| `covers_every_arm(name, checked, arms)` | **`#79e`** — a control that examined one arm of a two-arm design and passed |
+| `asserted(name, condition, detail)` | **`#96a`** — a condition stated in prose must be a boolean here, or it was never tested |
+
+**Validated the only way infrastructure can be**: every historical failure replayed through it with
+its real numbers.
+
+| case | originally printed | library returns |
+|---|---|---|
+| `#102a` null 91% of the effect | **PASS** (|null| < 0.03) | **FAIL** — "null is 91% of the effect" |
+| `#79e` one arm of two checked | **PASS** | **FAIL** — "MISSING ['logit']" |
+| `#83d` cliff ratio across a sign change | **PASS** (1.7e10) | **FAIL** — "signs CROSS ZERO" |
+| `#96a` "at comparable mean" in prose | **PASS** | **FAIL** — means differ by 0.2881 |
+| `#97c` tolerance from a zero spread | verdict from a 0 tolerance | **FAIL** — "STRUCTURALLY ZERO" |
+| `#78c` criterion the instrument violates | FAIL, undiagnosed | **FAIL** — "headroom −0.0497" |
+| `#79f` threshold on a sign-crossing sum | FAIL, wrong reason | **FAIL** — "signs CROSS ZERO" |
+| **`#101b`** raw vs disattenuated | **FAIL** (my arithmetic) | **PASS** — correct once the scale is declared |
+
+**7 of 8 flipped to FAIL; the eighth flipped to PASS, and that is also correct** — `#101b`'s original
+failure was mine, not the data's, and declaring the scale resolves it. A library that only ever said
+FAIL would be a library that cannot be wrong, which is the failure mode this project has catalogued
+twenty-nine times.
+
+**What it does not fix.** It cannot know whether a control is the *right* control — `#101a`'s
+residualisation was linear where the confound was not, and no signature check catches that. It
+forecloses the comparison errors, which are nine of ten; **the tenth is still mine**.
