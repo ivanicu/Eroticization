@@ -71,3 +71,30 @@ it did not.
 Whether the two-question split in `#70` is the right decomposition at all, or whether a challenger
 will say both halves are asking something a survey of endorsements cannot address in either
 direction. That is the meta-separator, and I cannot forecast my own ontology from inside it.
+
+---
+
+## Scoring block 2 — prediction #1, the only one run so far
+
+**Prediction (p = 0.70):** *"The cross-block transfer `C` is partly the gate, not the person… The
+right control is a **gate-matched permutation** — permute only within strata of identical
+block-entry patterns — and I have not run it."*
+
+Run as `A10·R05` and `A10·R06`. Scored on three separate things, because a forecast graded only on
+its headline verb is graded badly:
+
+| what was predicted | outcome | score |
+|---|---|---|
+| **the mechanism** — gate exposure inflates `C` | **RIGHT.** Projecting the entry pattern out removes **43.4%** of the transfer, against demographics' 24.8% (`#77`) | ✅ |
+| **the consequence** — `C` is *the* gate, so `#70`/`#71`/`#72` fall | **WRONG.** `C` survives in **22/23** blocks at 45% of its published magnitude (`#76a`) | ❌ |
+| **the control** — a gate-matched permutation is what finds it | **WRONG, and instructively so.** Free, count-matched and pattern-matched permutations all returned ≈ −0.002; stratifying changed **nothing**. Only the *projection* found it. I forecast the correct confound and the wrong instrument for it (`#76c`) | ❌ |
+
+**Calibration note.** At p = 0.70 I predicted an overturn and got a **halving**. The direction was
+right and the magnitude of my own confidence was not — I was 70% sure of a claim whose correct form
+was "inflated by about half", not "wrong". The specific error is worth naming: **I named a
+permutation as the control for a confound that no permutation can see**, because every permuted
+person is still drawn from the same gate-passing population. That is the third time in this project
+a permutation null has been asked a question it structurally cannot answer.
+
+**Still unrun from block 2:** predictions #2 through #7. #4 (the parameter-count accounting in `#71`)
+is now the largest, because `#77` left `#71`'s ordering claim standing and #4 attacks exactly that.
