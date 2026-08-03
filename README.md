@@ -41,6 +41,13 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 > median→rare swaps per block in 5% of people**. **A component every variance-explained method in the
 > preceding eleven arcs was structurally blind to.**
 
+> **[A12 · 获取顺序] 立住两条,撤回一条。**
+> ✅ **`#114a` 记忆把心爱的性兴趣往前拉约 0.74 年**(19.8× SE,留一人时间表基准,同类别内打乱零 = 效应的 0%)。
+> 这是本数据集第一个被直接量出来的回忆偏差,而 A03 的整个时间表就建立在它之上。
+> ✅ **`#107`/`#110`/`#116` 同类兴趣之间,先获得哪一个预示其余轮廓** —— +0.0171,6.4× 展布,
+> 在减掉对内两项评分与人均评分之后仍保留 70%。**成对设计对作答水平结构上免疫**。
+> ❌ **`#112a` "越早进入版图越在中心" 撤回** —— 加入人均评分后只剩 10%;那不是时间,是"什么都给高分的人"。
+
 ## Where this stands — the A-vs-B answer, and why it took a re-framing
 
 **The question splits in two, and the answer differs between them [#70].** Everything before arc
