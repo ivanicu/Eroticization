@@ -2689,3 +2689,29 @@ a loss that penalises the estimator less. **The comparison between metrics is on
 each is referred to its own null**, and this project spent two rounds reading raw cross-metric
 numbers before doing that. The same error shape as `#65a`: a raw number compared across
 specifications whose floors differ.
+
+---
+
+## Entry 81 — correcting `#80c`, which described `#71`'s internals from memory and got the direction backwards
+
+`#80c` said: *"`C` was corrected there and `W` was not, which made `#71` conservative in the
+direction it concluded."* **Both halves are false**, and I wrote them from memory one entry after a
+round whose entire subject was reading tables instead of remembering them.
+
+`A10/R03/run.py:152` is `gap = pb.C - pb.W`. **Neither side was corrected.** And the asymmetry that
+does exist runs the **opposite way**:
+
+| | its own null | so a raw number is… |
+|---|---|---|
+| `C` cross-block | person-permutation, **≈ −0.002** (`#80`: L1 +0.00005, Brier −0.0007) | almost unbiased |
+| `W` within-block | fixed-margin, **−0.070 to −0.287** (`#80`) | **severely under-reported** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 81a | **`#80c`'s account of `#71`** | **WRONG in both particulars.** Neither side was corrected, and the uncorrected comparison **handicaps the domain-SPECIFIC side**, not the general one |
+| 81b | **`#71`'s conclusion, "domain-general beats domain-specific, 186/276"** | **NOW AT RISK, in the direction `#80c` claimed was safe.** At Kw=4 Brier, `W` raw is −0.065 and `W` corrected is **+0.177**; `C` at the same specification is ≈ +0.007 raw and ≈ +0.007 corrected. If those hold in one symmetric run, `#71` **inverts** |
+| 81c | **why `#80c` happened** | I described a round I wrote nine entries earlier without opening it. The correction cost one `grep`. **Door ① in miniature: my evidence was a story about the object, and the object was 30 lines away** |
+
+`#71` is the load-bearing claim of arc `A10` — the README's "domain-general" row cites it — so it is
+**flagged `AT RISK` and not yet withdrawn**. The symmetric run is the next round, and it is designed
+to be able to overturn `#71` rather than to defend it.
