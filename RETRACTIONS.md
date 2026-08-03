@@ -1595,3 +1595,50 @@ round two rounds ago, discharged, which is the only reason it was not simply for
 *acquired* later (a cumulative exposure process — common things first) or *noticed* later (rare
 interests take longer to recognise). Censoring is dead; those two are not separable retrospectively,
 and telling them apart is a prospective-measurement problem, not an analysis one.
+
+---
+
+## Entry 55, added by `E01·A03·R17` — I wrote a prediction that was analytically impossible, and the question underneath it had a real answer
+
+`#54` closed with: *"if the two ordering principles are separate, an ordering using both should beat
+either alone, by roughly the sum of their independent contributions — sharp enough to be wrong."*
+
+**It is wrong by construction and I should have seen it before writing it.** Onset and prevalence
+are both **global** orderings. The oracle is *by definition* the best global ordering. Onset already
+reaches 101% of it. **No combination of global orderings can exceed the best global ordering** — the
+prediction was not sharp, it was impossible, and I dressed a tautology as a falsifiable claim.
+
+The bound is the useful part: it says prevalence adds nothing **on top of** onset despite predicting
+60% alone, so its information is a *subset*. And it exposes the question the schedule line had never
+asked — **how much of acquisition order is global at all?**
+
+| ordering | accuracy | seed spread |
+|---|---:|---:|
+| global oracle (best single global ordering) | 66.97% | 1.13 |
+| global ordering (fitted on training people) | 66.56% | 0.75 |
+| **neighbour-fitted** — 400 nearest people in *preference* space, never onset | **67.44%** | 1.04 |
+| random-neighbour *(negative control, same fitting-set size)* | 66.67% | 0.88 |
+| prevalence | 60.46% | 1.20 |
+
+The neighbour ordering beats the global one by **+0.88**, against a random-neighbour control of
+**+0.11** — 8× the control, and it exceeds even the *global oracle*, which it is allowed to do
+because the oracle bounds global orderings only.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 55a | **"a combined ordering should beat either alone"** (`#54`'s parting prediction) | **WITHDRAWN as analytically impossible.** Bounded by the oracle |
+| 55b | **individual variation in acquisition order** | **PRESENT BUT UNRESOLVABLE.** +0.88 points against a seed spread of 1.04 → ratio **0.85**, below `#34`'s threshold of 2. Real by the control comparison, unmeasurable by my own criterion |
+
+**The decomposition, with each part labelled by its own resolvability:**
+
+- **global schedule: +16.56 points over chance**, seed spread 0.75, ratio **22** — RESOLVABLE
+- **individual component: +0.88 points**, seed spread 1.04, ratio **0.85** — UNRESOLVABLE
+
+**So acquisition order is global to within this design's resolution, and any individual component is
+below it.** That is a sharper statement than "≈95% global", which is the number the table invites
+and which I am not entitled to write, because the 5% is exactly the part I cannot measure.
+
+**Applying `#34`'s criterion to a number I had just produced and liked** is the only reason this
+entry says "unresolvable" instead of "small but real". The criterion was built in a round that
+killed someone else's headline — mine, four weeks of rounds ago — and this is the first time it has
+been turned on a result while it was still warm.
