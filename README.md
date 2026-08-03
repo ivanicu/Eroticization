@@ -26,6 +26,10 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 
 ## Headline
 
+**Every surviving claim is sorted by whether it carries predictable variance ([RETRACTIONS #51](RETRACTIONS.md)):**
+onset RSA **31%** of its ceiling · nestedness **25%** · sex deficit **9%** · cross-domain CCA **~0%** (a direction, not an amount) · maturational schedule **unsorted** (rank agreement, not commensurable).
+
+
 Everything measured is consistent with one expression, and it is B:
 
 ```

@@ -1436,3 +1436,39 @@ warns about exactly that. The threshold was **unsatisfiable by construction**: n
 design can exceed a ceiling of 0.0436, so demanding 0.05 asks the pipeline to beat itself. The
 verdict stands on the ratio to the *null* and to the *measured ceiling*, both of which were
 pre-registered in spirit and neither of which I wrote down as the operative comparison.
+
+---
+
+## Entry 51, added by `E01·A08·R05` — the published statistics rank the claims in a different order than predictable variance does
+
+`#49` and `#50` created two classes: correlations that carry predictable variance and correlations
+that do not. Every remaining headline is a correlation or a congruence and none had been sorted.
+Common pipeline, **ceiling computed first** per `#50`'s procedural fix, everything expressed as a
+fraction of it:
+
+| claim | published statistic | held-out prediction | its own ceiling | **% of ceiling** | class |
+|---|---:|---:|---:|---:|---|
+| onset RSA (`#50`) | 0.599 | +0.0136 | 0.0436 | **31%** | carries variance |
+| **nestedness** | 24.0% of gap | **+0.0766** | 0.3107 | **25%** | carries, borderline |
+| **sex deficit** | 0.093 | **+0.0289** | 0.3157 | **9%** | partial |
+| cross-domain CCA (`#49`) | 0.198 | −0.0022 | — | **~0%** | **thin direction** |
+
+Both new ceilings clear their nulls by 170–200×, so both claims are sortable rather than merely
+unmeasured.
+
+**The ordering flips for the largest published number.** The cross-domain CCA has a *larger*
+published statistic than the sex deficit — **0.198 against 0.093** — and carries **an order of
+magnitude less predictable variance**. Ranking the project's claims by the numbers I published gives
+a different order than ranking them by how much of the outcome they actually explain, and the
+disagreement is worst exactly where the published number is biggest.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 51 | the surviving headline set | **SORTED.** Two carry predictable variance (onset RSA 31%, nestedness 25%), one is partial (sex 9%), one is a thin direction (cross-domain CCA ~0%). **The maturational schedule is UNSORTED** — its statistic is a within-person rank agreement whose predictive analogue is a ranking task, not an R², so forcing it through this pipeline would be a category error. Listed rather than assigned |
+
+**What the two-class split is really measuring.** A correlation asks *"is there a direction along
+which these agree"*; predictable variance asks *"how much of the thing is that direction"*. Both are
+legitimate and they answer different questions — the mistake was never computing one, it was reading
+one as the other for forty-eight entries. **Every claim in this ledger that survived to the end
+survived as a statement about a direction, and only two of them are also statements about an
+amount.**
