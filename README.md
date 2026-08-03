@@ -127,9 +127,10 @@ CONFIRMED**.
 ## How the shared signal accumulates
 
 **[RETRACTIONS #60]** `increment = 0.00723 × √(source domains)` — CV **6.4%** across n=1…31, against 11.2%
-for log and 51.9% for linear, with a permuted-label null of exactly 0.0000 at every n. **[MECHANISM UNSUPPORTED — #61]** blocks are *not* interchangeable (subset variance 58× seed variance; block
-size predicts subset quality at r=+0.816), so √(block count) and √(total sample) are confounded in that fit.
-The curve stands as a description; what produces it is untested. Price list for new collection:
+for log and 51.9% for linear, with a permuted-label null of exactly 0.0000 at every n. **[MECHANISM REVERSED — #61, #64]** blocks are *not* interchangeable (subset variance 58× seed variance), and at
+**fixed total respondent-rows more blocks is worse**: n=8 gives 0.0042, n=16 gives 0.0028, n=31 gives 0.0025.
+The accumulation tracks **total sample**, not block count — the √ shape is ordinary √N. Block boundaries are a
+tax on the estimate, not a source of it. Price list for new collection:
 0.06 needs 69 domains, 0.08 needs 122, 0.10 needs 191 — extrapolated beyond the measured range.
 
 ## Within-block vs cross-domain

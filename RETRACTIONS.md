@@ -1962,3 +1962,49 @@ chance, the gradient is orderly, and the schedule remains the strongest claim in
 the number that has been quoted for eleven entries was measured on the subset where the measurement
 is easiest, and I flagged the tie share in `#52` without ever asking what it cost. **A caveat noted
 and not quantified is a caveat that has been filed, not paid.**
+
+---
+
+## Entry 64, added by `E01·A01·R24` — at equal data, fragmenting it across more blocks makes the signal worse, so the accumulation was never about blocks
+
+`#60` fitted `increment = 0.00723 × √n_sources` and read it as one shared latent measured with
+independent per-block noise. `#61` falsified the interchangeability that reading requires (subset
+variance 58× seed variance; block size predicts subset quality at r=+0.816) and identified the
+confound: random subsets grow in **total respondents** as n grows, so √(block count) and √(total
+sample) were never separated.
+
+The confound is removable by subsampling. **Hold total respondent-rows fixed; vary how many blocks
+they are spread over.**
+
+| budget (total rows) | n=8 | n=16 | n=31 |
+|---:|---:|---:|---:|
+| 2,000 | 0.0015 | — | — |
+| 4,000 | 0.0025 | — | — |
+| **≈6,400** | **0.0042** | **0.0028** | **0.0025** |
+
+**Positive control passes** — at fixed n=8 the increment rises monotonically with budget
+(0.0015 → 0.0025 → 0.0042). **Negative control passes** — permuted-label null ≤ |0.00001| in every
+cell.
+
+**At equal budget, MORE BLOCKS IS WORSE.** n=31 delivers **60%** of what n=8 delivers from the same
+number of respondent-rows.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 64 | **"the cross-block signal accumulates with the number of source domains"** — the reading behind `#60`'s √n law | **REVERSED.** Accumulation tracks **total sample**, and block count is not merely incidental (`#61`'s hypothesis) but **actively costly**: fragmenting fixed data across more blocks degrades the estimate by 40%. The structure is **one pooled estimate**, and block boundaries are a tax on measuring it |
+
+**What `#60`'s curve actually was.** Random subsets of n blocks contain ≈n × (mean block size)
+respondents, so its x-axis was total sample in disguise. The √ shape is the ordinary √N of an
+estimate from N observations — **the most common scaling law there is, and I read it as a statement
+about latent structure.**
+
+**Eighth verdict-label failure, and this one is mechanical:** the script printed `partial: nanx`
+because budget 6,386 (n=31 × 206 rows) did not align with 6,400 in the pivot, so the ratio was
+computed across an empty intersection. **A one-cell rounding mismatch, and the automated verdict
+came out as `nan` while the table it was computed from is unambiguous.** Read the table, not the
+verdict — for the eighth time.
+
+**Scope, and it is real.** These increments (0.0042 at best) are an order of magnitude below the
+full-data +0.0415, because every source is capped at ≤800 rows. The comparison at fixed budget is
+internally valid; whether the same ordering holds at full scale is **not tested**, and the release
+cannot test it — at full block sizes, n and total sample cannot be varied independently.
