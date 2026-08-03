@@ -2204,3 +2204,56 @@ estimand, or selection rule in this grid under which the interaction is the larg
 **The sentence I can no longer write, in its last surviving form:** *"the interaction is at least as
 large as the item effect somewhere in the rank sweep."* At its own maximum it reaches parity, and
 that maximum costs 44% of the model's held-out R² (0.175 at K=6 vs 0.312 at K=1) to buy.
+
+---
+
+## Entry 69, added by `E01·A10·R01` — the item main effect is 1+1=2, and the algebra was checkable in one line
+
+`A09` established the item main effect at 3.5–11.7× the interaction. Before that becomes a claim
+about a **content category** it has to survive the arithmetic trap — *could this number have come
+out otherwise?*
+
+**ATTACK 1 (arithmetic).** For a binary matrix the held-out R² of column means has a closed form:
+`I_hat = Var(p_j) / (E[p_j(1−p_j)] + Var(p_j))`. Regressing the **measured** `I` on it across the
+23 identified blocks:
+
+| | |
+|---|---:|
+| slope | **0.9878** |
+| intercept | +0.0025 |
+| **R²** | **0.9939** |
+| median \|residual\| | 0.0031 |
+
+**ATTACK 2 (gauge).** Replace each block's prevalences with a surrogate of the **same dispersion,
+different shape** (dispersion matched to 0.0011). `I` is unchanged in **23 of 23 blocks** — median
+|Δ| = 0.0074 against a 2× spread of 0.0260. **`I` cannot see which options are popular. It sees
+only how spread out the prevalences are.**
+
+| # | Claim | Verdict |
+|---|---|---|
+| 69a | **"the ITEM main effect is the larger component" (`#67b`, `#68b`)** | **NUMERICALLY INTACT, SEMANTICALLY REWORDED.** It is a **DERIVATION**, not a measurement — forced by prevalence dispersion at R² = 0.994, and blind to prevalence shape in 23/23 blocks. It must be stated as *"option base rates vary more than people vary around them"* |
+| 69b | **the reading "there is a sexual-content category the survey detects"** | **UNSUPPORTED, and it always was.** In binary endorsement data, *base rate* and *content* are **the same number**. Nothing here distinguishes a content detector from the fact that some options are ticked more often. Model A was never tested by this arc; it was defined into it |
+| 69c | **does this rescue the epoch title?** | **NO.** The comparison is unchanged — both quantities are still held-out R² on the same cells, and the item side still wins by 16–21× the spread. What changed is what the winning side *means* |
+
+**What is actually established, stated at the size the evidence supports:** knowing **which option**
+it is tells you far more about whether it is endorsed than knowing **who the person** is, once their
+overall breadth is accounted for. That is a real and non-trivial answer to the A-vs-B question — and
+it is a statement about *magnitude*, not about a mechanism.
+
+**ATTACK 3 (presentation-order primacy) — and my tenth mis-specified gate.** The release
+**alphabetises** multi-select answers (order-consistency 1.0000 across 119 pairs), so display order
+is destroyed and this test only works under the unverifiable assumption *display == alphabetical*.
+
+The round printed **`positive control FAIL — test is blind`**, and that was **my error, not the
+test's**: I compared the planted effect against the **between-block SD (0.2828)** where the
+**standard error of the mean (0.0590)** belongs. Corrected: the control at g=0.15 moves ρ to −0.314
+vs a threshold of 0.229 → **FIRES**. The instrument is not blind.
+
+Corrected reading of the observation: **ρ = −0.111, SE 0.059, |t| = 1.88** — *below* the 2-SE bar,
+so **not resolvable**, but the point estimate has **exactly the sign primacy would produce** and sits
+just inside the floor. This is **not a clean null**, and it is recorded as a residual threat with
+what it would require: **the survey instrument's option order**, which this release does not carry.
+
+**The sentence I can no longer write:** *"the survey shows sexual interest is organised by content
+category."* It shows options differ in prevalence — and in this data that sentence and the previous
+one are the same sentence.
