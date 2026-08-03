@@ -55,3 +55,43 @@ vs exterior*, or *contamination vs injury* cannot be decided from option text.
 
 **Unfreeze:** a stimulus set built to vary those three contrasts orthogonally — which is a
 collection problem, not an analysis problem.
+
+## 5. Discriminant validity of the three role axes — `A02·R16`, `R17`, `R18`
+
+**What it was trying to identify.** Whether POWER, GAZE and SUBSTANCE are three constructs or one
+measured three ways — *without* the disattenuation that `ADVERSARY_FORECAST` #5 (p=0.40) correctly
+flagged as fragile (GAZE's alpha is 0.163, and dividing by √0.163 is unstable exactly where it
+matters).
+
+**Why it cannot separate — and it took three rounds to find out.**
+
+| round | what happened |
+|---|---|
+| `R16` | profile correlations against a 14-variable battery. Pre-registered kill fired ("101% of ceiling → one construct"). **Negative control returned 0.55–0.62 for a pure-noise axis**, so the verdict was inadmissible |
+| `R17` | diagnosed it as battery intercorrelation pulling every profile toward the first PC; whitened the battery. **Gate failed again at 0.41–0.44.** So that diagnosis was wrong |
+| `R18` | sampled the noise control 300 times instead of once. **Null is unbiased — mean −0.019 — with sd 0.356**, against a theoretical 1/√(14−3) = 0.302. The single draw R16/R17 relied on was the 90th percentile of that null |
+
+**The instrument was never biased. It is unbiased and enormous.** A profile is 14 numbers, so the
+correlation between two profiles has a 95% null band of **[−0.65, +0.66]** — and I twice read a
+single draw from that band as a property of the design.
+
+**What the design can still say, stated with its bound.** It detects profile similarity above
+≈0.66 and nothing below:
+
+| pair | profile r | p vs sampled null | verdict |
+|---|---:|---:|---|
+| POWER–SUBSTANCE | 0.934 | 0.000 | shares an external profile |
+| GAZE–SUBSTANCE | 0.825 | 0.003 | shares an external profile |
+| POWER–GAZE | 0.639 | 0.067 | indistinguishable from noise |
+
+**And that is compatible with distinctness rather than against it.** Profile similarity is
+necessary but not sufficient for identity: two orthogonal directions can share an external profile
+by both loading on sex and age. POWER–SUBSTANCE sit at profile r 0.93 while their *direct*
+correlation is 0.112 — which reads as **distinct axes sharing a demographic embedding**, not as one
+construct. Deciding between those two readings is what this design cannot do.
+
+**Unfreeze condition.** A battery of roughly **102 external variables** would bring the null sd
+below 0.10; this release has **14**. Alternatively, abandon profile similarity and test
+discriminance by incremental prediction — does each axis add held-out variance to a criterion the
+other two already predict — which needs a criterion this release does not carry. Either way the
+requirement is a different site, not more compute.
