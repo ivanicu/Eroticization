@@ -2539,3 +2539,43 @@ Those are very different claims — *"the transfer is confounded with who answer
 **What it cost to run.** This was my own highest-probability prediction of self-overturn, named in a
 file, with the control specified. Leaving it written down and unrun would have been `#57`'s pattern:
 the reason a claim must fail, filed where nobody re-reads it.
+
+---
+
+## Entry 77, added by `E01·A10·R06` — the confound is the survey's own shape, not who answers it
+
+`#76` shrank `C` by projecting out entry pattern **and** demographics together, and could not say
+which mattered. Four arms, identical cells and masks, one variable changed at a time:
+
+| projection | variance removed | `C` (mean) | shrinkage | beats free permutation |
+|---|---:|---:|---:|---:|
+| **none** — the `#70`/`#72` specification | 0% | +0.03785 | — | **23/23** |
+| **demographics only** — sex, age, 5 personality scales, powerlessness | 5.9% | +0.02848 | 24.8% | **23/23** |
+| **gate only** — entry indicators for the other 31 blocks | 14.1% | +0.02141 | **43.4%** | **22/23** |
+| **both** — the `#76` specification | 17.3% | +0.01708 | 54.9% | **22/23** |
+
+All residuals orthogonal to their design matrix to machine precision.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 77a | **`#76b`'s ambiguity, resolved: gate or demographics?** | **STRUCTURAL.** The gate alone removes **43.4%** of the transfer against demographics' **24.8%** — 1.75× more transfer from 2.4× more variance. Bounds, since the two are collinear and no split is identified: **gate [30.1%, 43.4%], demographics [11.5%, 24.8%]**, overlap 13.3% |
+| 77b | **what that means for `#70`/`#71`/`#72`** | **A caveat they must now carry.** Part of what read as a shared cross-domain readout is **shared exposure to the same entry conditions** — people appear together in blocks because they cleared the same parent ratings, and that alone makes their residuals covary. `C` survives it (22/23 blocks) but at **45% of the published magnitude** |
+| 77c | **the demographic share** | **Not a threat, but an inconsistency of mine.** The A02-era loader always projected demographics out; the `A09`/`A10` scores did not, so those rounds silently readmitted a nuisance the project had already decided to remove. 24.8% of `C` was that |
+
+**Restated magnitudes, gate-and-demographics-free:**
+
+| was | is |
+|---|---|
+| `#70` cross-block transfer **+0.0244** | **≈ +0.011** |
+| `#72` at rank 32, **+0.0635** | **≈ +0.029** |
+| `#72` "75% of the person-breadth effect" | **≈ 34%** |
+
+**The ordering claims are unaffected.** `#71`'s domain-general-beats-domain-specific comparison used
+the same scores on both sides, and `#72`'s no-cliff result is about the *shape* of the spectrum, not
+its height. What shrinks is the size of the transfer, and the size was never what those entries
+turned on.
+
+**Third mis-specified accessor in three rounds** — `D.mode` resolves to `DataFrame.mode()`, so the
+per-block table crashed after the main result had printed. Same family as `T.shift` in `#74`: a
+column name that collides with a pandas method fails *loudly* here, which is the lucky case. The
+unlucky case is a column named `count` or `size` silently returning a method and being truthy.

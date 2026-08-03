@@ -1,0 +1,64 @@
+targets 23  people 15415  blocks 32  entry counts 1-26 (median 7)
+pattern strata >=20 people: 44   people with no usable stratum: 13,154 (85.3%)
+  1/23
+  2/23
+  3/23
+  4/23
+  5/23
+  6/23
+  7/23
+  8/23
+  9/23
+  10/23
+  11/23
+  12/23
+  13/23
+  14/23
+  15/23
+  16/23
+  17/23
+  18/23
+  19/23
+  20/23
+  21/23
+  22/23
+  23/23
+
+=== POSITIVE CONTROL: every projection exact and non-vacuous ===
+      var_removed  max_orth
+mode                       
+both     0.172970       0.0
+demo     0.058652       0.0
+gate     0.140983       0.0
+none     0.000000       NaN
+  all residuals orthogonal: PASS
+
+=== C BY PROJECTION (mean over 23 blocks x 3 seeds) ===
+arm      perm     real  shrinkage
+mode                             
+none -0.00218  0.03785    0.00000
+gate -0.00198  0.02141    0.43425
+demo -0.00212  0.02848    0.24754
+both -0.00195  0.01708    0.54880
+
+=== PER-BLOCK survival against the free permutation ===
+Traceback (most recent call last):
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 583, in pandas._libs.index.StringObjectEngine._check_type
+KeyError: False
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R06_gate_or_demographics/run.py", line 166, in <module>
+    d=D[D.mode==m]; r=d[d.arm=='real'].groupby('q').C; nn=d[d.arm=='perm'].groupby('q').C
+      ~^^^^^^^^^^^
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/.venv/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: False
