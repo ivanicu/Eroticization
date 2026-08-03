@@ -1149,3 +1149,48 @@ answer was that the original round was right for reasons better than the ones it
 
 **A03 stays closed.** It is now the only arc in `E01` whose decision has survived every attack made
 on the evidence beneath it.
+
+---
+
+## Entry 44, added by `E01·A01·R16` — a second string-derived proxy beaten by its own sham
+
+`A01`'s decision says this release cannot separate **A** (a dedicated sexual-content system) from
+**B** (valuation of ordinary representation), because `#13` showed a dedicated module can be
+compositional. `#13` did not consider **developmental structure**, so this round tried it:
+
+> **B predicts** erotic interests inherit the maturation order of the ordinary representations they
+> are built on — person-perception matures features before relations, so relational categories
+> should arrive later. **A predicts** no such ordering.
+
+Relationality measured by a **pre-registered string rule** over each category's own option texts
+(share of options referring to another person), not by hand-coding — which would be an answer key.
+
+| | r with mean onset age |
+|---|---:|
+| raw | −0.120 (p=0.63, n=19) |
+| + word count, option count, prevalence partialled | **−0.379** |
+| **SHAM — share of options containing a COLOUR word** | **−0.629** |
+| permutation null at n=19 | mean 0.000, sd 0.235, **\|r\| p95 = 0.450** |
+| positive control (onset planted as f(relationality)) | +0.802 |
+
+**The sham beats the signal.** A content-free token class predicts acquisition age *better* than the
+person-reference measure, and both sit inside a null band of ±0.450. **UNVERIFIED**, and the design
+is unfit rather than merely negative.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 44 | **"relational categories are acquired later"** — a developmental A-vs-B separator | **UNVERIFIED and the instrument is unfit.** MDE at n=19 categories is \|r\| ≈ 0.45; the relationality proxy is beaten by a colour-word sham |
+
+**The pattern, and it is the second instance.** `#28`'s additivity variance decomposition was also
+beaten by its sham, and that measure was also derived from option text. **String-derived proxies
+over option text carry generic text structure — length, register, specificity — that an arbitrary
+token class captures just as well.** Any such proxy needs its sham run *before* the estimand, not
+after, because the sham is what tells you whether the rule measures its concept or its corpus.
+
+**`A01` is re-closed unchanged, and that is now a tested statement rather than an inherited one.**
+Its SAFE was "usable for compositionality and cross-domain transfer; NOT usable for A-vs-B." Since
+closure: `#25` bounded the foundation at [+0.017, +0.037] with the sign decisive at 31/32, `#40`
+showed the factors generalise to blocks the filter discarded, `#37`/`#38` confirmed the headline is
+resolvable against a graded control. **The compositionality half is better supported than at
+closure. The A-vs-B half has now survived a second attempt to break it, this one from a direction
+`#13` never considered.**
