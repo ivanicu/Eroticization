@@ -2899,3 +2899,35 @@ through its explanation; one that only reports a number cannot.**
 
 **N/A:** separating breadth from acquiescence needs a reverse-keyed or forced-choice item. This
 release has none, so nothing here distinguishes *"wants more"* from *"ticks more"*.
+
+---
+
+## Entry 87, added by `E01·A10·R14` — the −0.19 floor is an estimator artifact, and my own comparison let one arm peek at the test set
+
+`#86c` predicted that if the interaction's null correction is crediting **damage** rather than
+**noise**, a properly regularised estimator would recover only ~13% of the gap directly — and that
+`#82`, `#83` and `#85` would then all move.
+
+| world | best-rank **hard** truncation | tuned **soft** thresholding | λ |
+|---|---:|---:|---:|
+| fixed-margin (no interaction) | **−0.0615** | **+0.0032** | 3.45 |
+| planted rank-5 | +0.2596 | +0.1884 | 3.97 |
+| **real** | +0.0258 | **+0.0502** | 3.57 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 87a | **my own gate (a)** | **FAILED, and the flaw is mine — the sixteenth mis-specified design element.** The hard arm takes `max over K of held-out skill`, i.e. **selects its rank on the test cells**, while the soft arm tunes λ on a validation split carved out of training cells. One arm peeked. The planted-world comparison is therefore void |
+| 87b | **the fixed-margin floor, which survives the flaw** | **THE −0.06 HOLE IS AN ESTIMATOR ARTIFACT.** Hard truncation scores −0.0615 on a world with **no interaction at all**; soft thresholding scores **+0.0032**. Oracle rank-selection can only *help* hard, so its hole is real and not a selection artifact. **A regularised estimator has a floor of ≈ 0** |
+| 87c | **the real-world comparison, which also survives** | **Soft beats oracle-selected hard: +0.0502 vs +0.0258.** A fortiori, since the loser had the unfair advantage |
+| 87d | **`#86c`'s alarm** | **CONFIRMED in direction and magnitude.** Recovery = (0.0502 − 0.0258)/(0.1906 − 0.0258) = **14.8%**, against the person effect's 12.7%. The correction in `#82`/`#83`/`#85` was **crediting the interaction with the hole hard truncation digs** |
+| 87e | **the interaction's honest magnitude** | **≈ +0.050**, not +0.199 — a **4× reduction** — measured with an estimator whose own null is ≈ 0 and therefore needs no correction at all. Against the item effect's **+0.208**, that is **≈ 4×**, not the 1.05× tie `#85` reported |
+
+**`#82`, `#83`, `#85` are all FLAGGED `AT RISK`, not withdrawn.** `87a` means this round cannot
+carry a retraction on its own: the honest comparison needs the hard arm to select K on training
+cells like the soft arm does. That is one line, and it is the next round. But the direction is
+already visible in `87b`, which does not depend on the flaw.
+
+**The shape of the error, now seen twice in two entries.** `#86` and `#87` are the same finding at
+two components: **subtracting a null does not correct an estimator, it credits the estimator's
+failure to the thing being estimated.** The fix is not a better null — it is a better estimator,
+whose null is zero because it does not overfit in the first place.
