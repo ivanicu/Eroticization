@@ -3442,3 +3442,34 @@ same scale (**0.0712** vs ~0.075 implied).
 correlates that a matched null does not (`101` gates), and its largest non-demographic correlate is
 acquisition age rather than personality. **Not settled**: 1.5× is a lean, not a separation, and a
 response style that happens to track onset age would produce the same table.
+
+---
+
+## Entry 102, added by `E01·A11·R16` — the onset link does not survive its own matched null, and my gate checked the null against a number instead of against the effect
+
+`#101d` reported that rare-option affinity tracks earlier acquisition at **r = −0.0838, z = 7.1**, and
+called it the first link between arc `A11` and `A03`'s fifteen rounds on the schedule. This round
+tested it against the nuisance `#101f` flagged, on a population restricted to people with **≥6 onset
+entries as well as ≥6 blocks**.
+
+| measure | raw | bootstrap sd | partial (picks, log picks, answer count) |
+|---|---:|---:|---:|
+| **affinity** | **−0.0302** | 0.0132 | −0.0292 |
+| breadth | +0.0111 | 0.0128 | +0.0118 |
+| **null − null** | **−0.0275** | 0.0139 | −0.0272 |
+
+Split-half (affinity from half the blocks vs onset from the other half of the categories):
+**−0.0205**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 102a | **the verdict this round printed, `SURVIVES`** | **WRONG — the twenty-ninth mis-specified design element, and the worst kind.** Gate (a) asked whether the null-minus-null correlation was **below an absolute 0.03**. It was, by 0.0025. **A negative control must be compared to the EFFECT it is supposed to be smaller than, never to a number I chose.** Against the effect it is **91% of it** |
+| 102b | **`#101d`'s onset link** | **DOWNGRADED to `UNVERIFIED`.** At −0.0302 against a matched null of −0.0275 with overlapping bootstrap intervals, the effect and its own control are **not distinguishable** |
+| 102c | **why `#101` got −0.0838 and this got −0.0302** | `#101` included everyone with ≥6 **blocks**, computing mean onset over however many onset entries they had — **including people with one or two**, whose mean onset is both noisy and confounded with how much they answered. Restricting to ≥6 onset entries **cuts the correlation to 36% of its size**. `#101`'s null−null was +0.0007 on that looser population and −0.0275 here, so the restricted estimate is the better-controlled one and the looser one was inflated |
+| 102d | **what survives from `#101`** | `#100`'s **reliability** result is untouched (0.432 residualised, floor −0.022) — it uses no external variable. `#101e`'s **sex** correlate (+0.0930, z 8.4) is 3× the onset one and was not tested here. What falls is specifically **the onset link and the "erotic-parameter side" reading built on it** |
+| 102e | **the pattern across `#101a`, `#101b`, `102a`** | **Three gate failures in two rounds, all in the comparison rather than the computation.** A control residualised on the wrong functional form; a reference compared across scales; a null compared against a constant. **The measurements were right every time and the comparisons were wrong every time** |
+
+**The arc's honest state.** A reliable person-level trait in *which* options are endorsed exists
+(`#100`, floor-controlled, 20× its floor). Its **only** external correlate that has survived a matched
+null is **sex**. The onset link — the one finding that connected this arc to the rest of the project
+— **is withdrawn pending a design where the null is compared to the effect.**

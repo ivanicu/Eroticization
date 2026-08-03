@@ -1,0 +1,24 @@
+people with >=6 blocks and >=6 onset entries: 5,937
+
+=== corr(measure, mean onset age) ===
+        measure     raw  raw_sd  partial
+       affinity -0.0302  0.0132  -0.0292
+        breadth  0.0111  0.0128   0.0118
+null_minus_null -0.0275  0.0139  -0.0272
+
+  corr(affinity, picks) = +0.0047  (count-matched by construction -- checked, not assumed)
+
+=== SPLIT-HALF: affinity from HALF the blocks vs onset from the OTHER HALF of categories ===
+  r = -0.0205  (sd over 6 splits 0.0074)
+
+  CONDITIONAL KILL -- gates first
+   (a) null-minus-null ~0 raw and partial : PASS (-0.0275, -0.0272)
+   (b) breadth's own link survives the partial (not over-controlling): PASS (+0.0111 -> +0.0118)
+
+   affinity-onset  raw -0.0302  partial -0.0292  split-half -0.0205
+
+   -> SURVIVES. 97% of the raw link remains after controlling for
+      pick count and answer count, and it reproduces with DISJOINT measurement.
+      #101d is a person-level fact, not a shared-measurement artifact.
+
+artifact sha1 20d94b199e9e
