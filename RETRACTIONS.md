@@ -1234,3 +1234,45 @@ necessary, and never noticed that the last one spent the effect.
 > (`#34`, 0 of 9 cells). The placebo correctly never qualifies. **Below ~0.07 this instrument cannot
 > distinguish an effect from its own seed noise**, and no amount of better matching helps — matching
 > makes it worse.
+
+---
+
+## Entry 46, added by `E01·A05·R12` — the measure cannot tell a concentrated population from a random one, and its published value is smaller than its own bias
+
+`A05`'s decision — model the scalar gain as the object rather than control it away — rests in part
+on breadth being **quantity without shape**: a person's set is only **0.88% more concentrated** in
+coordinate space than a size-matched base-rate set. Computed at K=6 and never swept, in a project
+where `#18`/`#19` showed K moves everything.
+
+| population | K=2 | K=4 | K=6 | K=10 | K=16 |
+|---|---:|---:|---:|---:|---:|
+| **real** | −0.01% | −0.13% | **−0.29%** | −1.67% | −2.56% |
+| **CONCENTRATED** *(positive control — sets drawn from one direction)* | −0.43% | −0.98% | **−1.67%** | −2.28% | −2.63% |
+| **base-rate** *(negative control — sets drawn from base rates, no shape by construction)* | +0.04% | **−1.69%** | **−1.62%** | −1.25% | −1.19% |
+
+**Both controls fail, and they fail into each other.**
+
+- The **negative** control should be 0 by construction and is **−1.2% to −1.7% at K≥4**. The cause is
+  arithmetic: the observed value is *one* realisation while the null is an *average of six*, and the
+  participation ratio is nonlinear, so Jensen's inequality manufactures a gap where none exists.
+- The **positive** control, a population built to be concentrated, gives **−1.67% at K=6 —
+  indistinguishable from the base-rate control's −1.62%**. **The measure cannot separate a genuinely
+  concentrated population from a random one.**
+- And the published **−0.88% is smaller than the measure's own bias**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 46 | **"breadth is quantity without shape" — 0.88% concentration, out-of-sample** | **UNVERIFIED, instrument unfit.** It cannot distinguish concentration from randomness, and its published value sits inside its own Jensen bias. Not "no shape found" — **no shape *detectable*, by this measure, at any K** |
+
+**What this does to `A05`'s decision.** Its SAFE rested on four supports: breadth is the dominant
+axis of individual variation, it is **quantity without shape**, sets are 24% nested, and it carries
+the induction report. **The second is now gone.** The others stand — nestedness is resolvable at
+ratio 18.4 (`#35`), the reliability is 0.557 (`#23`), and the induction link survives response-style
+control at 85% (`#26`). **The decision holds on three of four supports, and I am recording which one
+fell rather than leaving the count unchanged.**
+
+**The bias was findable without any of this.** Comparing one draw against a mean of six is a Jensen
+error visible in the code, and `#36` already established that reading the file that produced a
+number is the cheapest instrument here. I ran a K sweep to find a K artifact and found an
+arithmetic one instead — which is the second time an audit has caught something other than what it
+was aimed at (`#35` found accuracy while checking precision).
