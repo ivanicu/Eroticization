@@ -1,0 +1,26 @@
+  CONDITIONAL KILL -- #95  is the rare-option signal licensed?
+   PASS  no-op arm == the real comparison    |+0.0494 - +0.0503| = 0.0010 < 0.0027   (asserted in code, not in prose)
+   PASS  plant at 2 swaps/block              +0.1808 > floor +0.0494 + 2*0.0010 = +0.0514   (headroom +0.1293)
+   PASS  plant ladder monotone & one-signed  signs consistent   ([0.0494, 0.0815, 0.1808])
+   PASS  real effect at p95                  |+0.0503| > 2*0.0013 = 0.0027   (37.5x its own spread)
+   => ALL GATES PASS
+
+  CONDITIONAL KILL -- #99  is the widening symmetric?
+   PASS  upper elevation (p90+p95)    |+0.0865| > 2*0.0049 = 0.0097   (17.8x its own spread)
+   PASS  lower depression (p5+p10)    |+0.0683| > 2*0.0041 = 0.0081   (16.8x its own spread)
+   PASS  median unmoved               |+0.0003| < 0.0038   (asserted in code, not in prose)
+   PASS  ratio within 2x of symmetry  up/dn = 1.27   (asserted in code, not in prose)
+   => ALL GATES PASS
+
+  CONDITIONAL KILL -- #100  is the trait reliable, and is it pick count?
+   PASS  null reliability (residualised)                   |-0.0219| < 0.5*|+0.4317| = 0.2159   (null is 5% of the effect)
+   PASS  planted trait recovered                           +0.8317 > floor -0.0219 + 2*0.0037 = -0.0146   (headroom +0.8462)
+   PASS  real residualised reliability                     |+0.4317| > 2*0.0048 = 0.0095   (90.5x its own spread)
+   PASS  every arm read on the SAME column                 arms checked ['cb', 'plant', 'real'] of ['cb', 'plant', 'real']   (complete)
+   PASS  not pick count: >50% of raw reliability survives  0.4317 > 0.5*0.6493   (asserted in code, not in prose)
+   => ALL GATES PASS
+
+==============================================================================
+  #95  licensed signal       SURVIVES the instrument built from my own failures
+  #99  symmetric widening    SURVIVES the instrument built from my own failures
+  #100 reliable trait        SURVIVES the instrument built from my own failures

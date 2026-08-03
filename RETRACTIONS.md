@@ -3517,3 +3517,55 @@ twenty-nine times.
 **What it does not fix.** It cannot know whether a control is the *right* control — `#101a`'s
 residualisation was linear where the confound was not, and no signature check catches that. It
 forecloses the comparison errors, which are nine of ten; **the tenth is still mine**.
+
+---
+
+## Entry 104, added by `E01·A11·R17` — CLOSURE: the arc's three surviving claims re-read through the instrument built from its own failures
+
+Labelled **Closure** (`P0`): it protects existing conclusions rather than separating worlds. Its value
+is that the protection is performed by `lib/gates.py`, which `#103` validated by catching **7 of 8**
+historical failures I had passed by hand. Read from the committed artifacts — no recomputation, so
+nothing can drift.
+
+**`#95` — is the rare-option signal licensed?**
+
+| gate | result |
+|---|---|
+| no-op arm reproduces the real comparison | **PASS** — \|+0.0494 − 0.0503\| = 0.0010 < 0.0027 |
+| plant at 2 swaps/block clears the floor | **PASS** — +0.1808 > +0.0514, headroom +0.1293 |
+| plant ladder monotone and one-signed | **PASS** — [0.0494, 0.0815, 0.1808] |
+| real effect resolvable at p95 | **PASS** — **37.5× its own spread** |
+
+**`#99` — is the widening symmetric?**
+
+| gate | result |
+|---|---|
+| upper elevation (p90+p95) | **PASS** — +0.0865, **17.8×** its spread |
+| lower depression (p5+p10) | **PASS** — +0.0683, **16.8×** its spread |
+| median unmoved | **PASS** — \|+0.0003\| < 0.0038 |
+| ratio within 2× of symmetry | **PASS** — up/dn = **1.27** |
+
+**`#100` — is the trait reliable, and is it pick count?**
+
+| gate | result |
+|---|---|
+| null reliability vs the effect | **PASS** — null is **5%** of the effect (not "below 0.15", which is what `#102a` taught) |
+| planted trait recovered | **PASS** — +0.8317, headroom +0.8462 |
+| real residualised reliability | **PASS** — +0.4317, **90.5×** its own spread |
+| every arm read on the same column | **PASS** — the `#100a` failure, now structural |
+| >50% of raw reliability survives removing picks | **PASS** — 0.4317 > 0.3247 |
+
+**All three survive.** And they survive under the *corrected* comparison rules, not the ones I wrote
+by hand: `#100`'s null is now judged against its effect (`#102a`'s lesson) rather than against a
+threshold, and its arms are checked for completeness (`#79e`'s).
+
+**Arc `A11`, final state:**
+
+| claim | status |
+|---|---|
+| a rare-option signal exists that a margin-preserving null cannot produce | **LICENSED** (`#95`, `#104`) |
+| it is a **symmetric widening**, not a minority — both tails move, median unmoved | **CONFIRMED** (`#99`, `#104`) |
+| it is a **reliable person-level trait**, and it is not pick count | **CONFIRMED** (`#100`, `#104`) |
+| its only external correlate surviving a matched null | **sex, +0.093** |
+| it tracks acquisition age | **WITHDRAWN** (`#102`) |
+| a *minority* structure carried by ≤30% of people | **still invisible to every variance-explained method** (`#91`) |
