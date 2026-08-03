@@ -1642,3 +1642,46 @@ and which I am not entitled to write, because the 5% is exactly the part I canno
 entry says "unresolvable" instead of "small but real". The criterion was built in a round that
 killed someone else's headline — mine, four weeks of rounds ago — and this is the first time it has
 been turned on a result while it was still warm.
+
+---
+
+## Entry 56, added by `E01·A01·R18` — the item margin is still untested after forty rounds and two attempts, and the gate caught both
+
+`#55` established that every `NEXT` line should be checked for analytic possibility before being
+acted on. **All 45 audited**: nearly every one was an audit of an existing claim and was executed.
+**One opened a new margin, was falsifiable, and was abandoned** when the restructure interrupted it
+— `aea8476`, forty rounds ago: *"ten iterations have all measured structure over PEOPLE. The other
+margin has never been touched — the ITEMS."*
+
+It is sharper now than when written, because `#49` showed the person-side cross-domain structure is
+a thin direction. So: is there **item-side** structure the person side missed?
+
+**Attempt 1 — not information-matched.** I compared a bare item-neighbour average (0.234) against a
+baseline already carrying *both* the item marginal and the person rate (0.403), and the script
+printed **"EMPTY: the item margin adds nothing"**. It was handicapped, not tested. Without reading
+the predictor definitions I would have published that the item margin is empty.
+
+**Attempt 2 — nested without fitting.** I added each candidate's residual to the common base as an
+*unweighted* term. Full-magnitude additions overshoot, and the **positive control fell below its own
+baseline** (person 0.3673 against 0.4034). **The gate refused** rather than reporting.
+
+| | attempt 1 | attempt 2 |
+|---|---:|---:|
+| baseline (item marginal + person rate) | 0.4034 | 0.4034 |
+| person factors *(positive control)* | 0.4164 | **0.3673** ← below baseline |
+| item neighbours | 0.2344 | 0.1441 |
+| random items *(negative control)* | 0.0187 | 0.1160 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 56 | **the item margin** | **UNTESTED.** Two designs, two errors, no measurement. The correct design fits base and candidate **jointly** on training cells and scores the increment out-of-sample; neither attempt did that |
+
+**What the round actually demonstrates is the gate, for the third time** (`#33`, `#34`, now this).
+Attempt 1's failure was invisible to the gate — it passed, and only reading the predictor
+definitions caught it. Attempt 2's failure was **exactly** what a positive control is for, and the
+gate stopped it cold. **A gate catches broken instruments; it does not catch mismatched
+comparisons**, and those need the thing `#36` named as the cheapest instrument here — opening the
+file and reading what the predictors actually contain.
+
+**Forty rounds of delay, and the margin is still dark.** That is the honest state: the person side
+has been measured exhaustively and the item side has never been measured once.
