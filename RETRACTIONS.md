@@ -422,3 +422,39 @@ the matching in #12. Each time I reached for the control first and asked what it
 accident: before entering any variable as a control, state whether the treatment could cause it.
 If it could, the controlled estimate is a lower bound and must be reported as one half of an
 interval, never as the answer.**
+
+---
+
+## Entry 26, added by `E01·A05·R11` — a pre-registered kill that passed while the real problem sat next to it
+
+Reading the control sets rather than trusting their names, per #25's standing correction:
+**21 of the 22 items in my "acquiescence" index are explicit erotic content**, including *"I am
+aroused by being dominant in sexual interactions"* and *"I am aroused by being submissive"* — the
+POWER axis itself. I pre-registered the kill: if `|corr(index, POWER)| > 0.30` the index is erotic
+content and three published quantities get republished.
+
+**It did not fire — 0.024 — and the reason is worth keeping.** The two power items sit in the mean
+with **opposite signs** (dominant −0.355, submissive +0.350) and cancel. With mixed-valence items,
+content cancels in a mean and response style survives; that is what an acquiescence index is
+*supposed* to do, and mine was accidentally well constructed. A random 22-column sham scores +0.029
+against POWER — indistinguishable from the index, which is the right comparison.
+
+| | vs POWER | vs breadth |
+|---|---:|---:|
+| full 22-item index | **+0.024** | **+0.385** |
+| sham, 22 random numeric columns | +0.029 | — |
+| the single content-free item | −0.112 | +0.055 |
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 26 | **"9–13% of breadth is response style"** and **"85% of the induction→breadth link survives response-style control"** | Not the check I pre-registered — that one passed. The index is orthogonal to POWER and behaves like an arbitrary composite. **But it correlates +0.385 with breadth**, which is the outcome, so calling it a nuisance is the mediator problem for the fourth time. Whether it measures agreeing-in-general or endorsing-erotic-things-in-general cannot be separated in this release: the items are all erotic and none is reverse-keyed by design | The magnitudes, which barely move. induction→breadth is **+0.2922** uncontrolled, **+0.2523** with the full index (86%, matching the published 85%), **+0.2924** with the one content-free item. **"9–13% is response style" is downgraded to UNVERIFIED** — the shared variance is real, its interpretation is not identified |
+
+**The lesson is about pre-registration, not about acquiescence.** I noticed two power items, wrote a
+kill aimed at POWER, and it passed — while the dangerous overlap, index-with-outcome at 0.385, sat
+one column away and was never in the kill condition. **Pre-registration stops you picking a
+threshold after seeing the result. It does not stop you pointing the test at the wrong quantity,
+and a kill that passes feels like clearance for everything you did not test.**
+
+**Unfreeze condition** for the response-style question: balanced-keyed items, where the same
+construct is asked in both directions so agreement and content can be separated. This release has
+none, so no amount of further computation on it will resolve this.

@@ -100,9 +100,7 @@ self-report of induction is unusable as an outcome measure. Phase 3 must be pros
 
 **[R07 · breadth](A07_breadth)** — Quantity without shape. A person's set is **0.88%** more
 concentrated in coordinate space than a size-matched base-rate set — real (t=−15.5) and
-negligible. Sets are **24.2%** of the way from chance to perfect nesting. Breadth is moderately
-one trait (Spearman–Brown 0.557) and **9–13% response style**, measured on the survey's own
-non-category Likert items.
+negligible. Sets are **24.2%** of the way from chance to perfect nesting. Breadth is moderately one trait (Spearman–Brown 0.557). **[UNVERIFIED — RETRACTIONS #26]** the '9–13% response style' figure comes from an index that is orthogonal to the POWER axis (+0.024) but correlates +0.385 with breadth itself; response style and erotic endorsement cannot be separated without balanced-keyed items, which this release lacks.
 
 **[E01·R05 · is breadth the object](E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object)** — Nearly domain-encapsulated. All 15 non-sexual
 variables jointly: **R² = 0.012**. **[PARTLY RETRACTED — see RETRACTIONS #17]** That held only with survey progression controlled and a *gated* outcome. On the ungated `totalfetishcategory` with acquiescence controlled, childhood adversity → breadth is **r = +0.059, effect/floor 7.5** — real and small, matching the published d=0.151. Adult sexual assault, corporal punishment and upbringing remain near zero.
