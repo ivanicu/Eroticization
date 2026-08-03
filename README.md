@@ -48,7 +48,7 @@ coordinates entirely.
 | breadth's coordinate diversity vs a size-matched base-rate set | **−0.88%** | out-of-sample loadings, 10 null draws each, n=1,189 |
 | breadth's nestedness | **24.2%** of chance→perfect | excess +0.0660 over a 0.7278 base-rate null |
 | θ vs non-sexual variables, reliability-corrected | **r_true ≈ 0.10** | **[RESTATED ×3 — RETRACTIONS #17, #23]** adversity 0.105, mental illness 0.099, openness 0.090; null controls 0.000/0.010. ~1% of variance each |
-| consumption → coordinates | **+0.0398** median over K | **[RESTATED — RETRACTIONS #19]** modality is larger (+0.0546); both clear a known-null pool (p95 0.0216); the neuroticism reference was itself null |
+| consumption → coordinates | **UNRESOLVABLE at triple matching** (0.036, ratio 1.40); reportable as 0.072–0.090 at looser matching. **[RETRACTIONS #45]** | **[RESTATED — RETRACTIONS #19]** modality is larger (+0.0546); both clear a known-null pool (p95 0.0216); the neuroticism reference was itself null |
 | self-reported porn-induced fetish acquisition, timing | **0.5 yr, uniform** | 1 yr excluded; concentration null at 8.8× power |
 
 ---

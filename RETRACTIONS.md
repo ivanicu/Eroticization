@@ -1194,3 +1194,43 @@ showed the factors generalise to blocks the filter discarded, `#37`/`#38` confir
 resolvable against a graded control. **The compositionality half is better supported than at
 closure. The A-vs-B half has now survived a second attempt to break it, this one from a direction
 `#13` never considered.**
+
+---
+
+## Entry 45, added by `E01·A07·R05` — matching buys identification and spends resolvability, and the published number is on the wrong side of the trade
+
+`A07` was opened mid-project with rounds but **no decision statement**, which the E/A/R structure
+forbids. The missing measurement: `#11` published consumption→coordinates at **0.0439, triple-matched**
+(block count + θ + sex), while `#35` only ever measured resolvability at the **block-only** value
+of 0.0951 — twice the size, and half the size is exactly where `#34` found modality failing.
+
+| split | matching level | deficit | seed spread | ratio | resolvable |
+|---|---|---:|---:|---:|:--:|
+| **consumption** | block | 0.0900 | 0.0347 | 2.60 | ✅ |
+| **consumption** | block + θ | 0.0719 | 0.0277 | 2.59 | ✅ |
+| **consumption** | **triple — as published** | **0.0357** | **0.0255** | **1.40** | ❌ |
+| sex *(pos. control)* | block | 0.0866 | 0.0176 | 4.93 | ✅ |
+| sex *(pos. control)* | block + θ | 0.0877 | 0.0284 | 3.08 | ✅ |
+| placebo *(neg. control)* | all three | ≤0.003 | — | ≤0.61 | ❌ |
+
+Gates pass both ways. **The published consumption headline is unresolvable at the matching level it
+was published at**, and joins modality.
+
+**The trade-off is the finding.** Each matching level removes more confound and shrinks the effect —
+0.090 → 0.072 → 0.036 — while the seed spread barely moves (0.035 → 0.028 → 0.026). **Matching buys
+identification with resolvability**, and there is a level past which the estimate is cleaner and no
+longer measurable. I applied three levels of matching because `#11` and `#25` established each was
+necessary, and never noticed that the last one spent the effect.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 45 | **consumption → coordinates = 0.0439** (`#11`, triple-matched) | **UNRESOLVABLE at that matching level** (ratio 1.40). Reportable at block or block+θ matching as **0.072–0.090**, where it is confounded with sex composition by roughly 31% (`#11`'s decomposition). Neither version is both clean and measurable |
+
+**`A07` now has its decision, and it closes:**
+
+> **Which congruence comparisons are reportable?** Only those whose effect exceeds roughly **0.07**
+> at this design's precision. **Sex qualifies at every matching level** (ratio 3–5). **Consumption
+> qualifies only at looser matching**, where it is not fully identified. **Modality never qualifies**
+> (`#34`, 0 of 9 cells). The placebo correctly never qualifies. **Below ~0.07 this instrument cannot
+> distinguish an effect from its own seed noise**, and no amount of better matching helps — matching
+> makes it worse.
