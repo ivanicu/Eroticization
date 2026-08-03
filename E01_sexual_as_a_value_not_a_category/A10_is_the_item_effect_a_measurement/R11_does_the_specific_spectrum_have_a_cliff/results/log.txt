@@ -1,0 +1,75 @@
+targets 23
+  [real] 1/23
+  [real] 2/23
+  [real] 3/23
+  [real] 4/23
+  [real] 5/23
+  [real] 6/23
+  [real] 7/23
+  [real] 8/23
+  [real] 9/23
+  [real] 10/23
+  [real] 11/23
+  [real] 12/23
+  [real] 13/23
+  [real] 14/23
+  [real] 15/23
+  [real] 16/23
+  [real] 17/23
+  [real] 18/23
+  [real] 19/23
+  [real] 20/23
+  [real] 21/23
+  [real] 22/23
+  [real] 23/23
+  [r2] 1/8
+  [r2] 2/8
+  [r2] 3/8
+  [r2] 4/8
+  [r2] 5/8
+  [r2] 6/8
+  [r2] 7/8
+  [r2] 8/8
+  [r5] 1/8
+  [r5] 2/8
+  [r5] 3/8
+  [r5] 4/8
+  [r5] 5/8
+  [r5] 6/8
+  [r5] 7/8
+  [r5] 8/8
+
+=== CORRECTED WITHIN-BLOCK SKILL BY RANK ===
+    real_corrected  ctrl_r2  ctrl_r5  seed_spread
+Kw                                               
+1           0.0917   0.2193   0.1833       0.0057
+2           0.1327   0.3331   0.3192       0.0071
+3           0.1658   0.3371   0.4314       0.0082
+5           0.1995   0.3308   0.5402       0.0100
+8           0.1444   0.2178   0.4347       0.0110
+12          0.0785   0.1468   0.2603       0.0066
+16          0.0294   0.0730   0.1297       0.0041
+24          0.0000  -0.0000  -0.0000       0.0000
+
+=== GAIN PER DIMENSION, and the knee ===
+  ctrl r=2  knee= 2   [0.11388, 0.00396, -0.00317, -0.03766, -0.01775, -0.01845, -0.00912]
+  ctrl r=5  knee= 5   [0.13592, 0.11223, 0.05439, -0.03517, -0.04361, -0.03265, -0.01621]
+  real      knee= 5   [0.04097, 0.03319, 0.01681, -0.01837, -0.01648, -0.01227, -0.00367]
+  ctrl r=2  sharpest single drop 3962826741.4x  at rank 2
+  ctrl r=5  sharpest single drop 54388325949.8x  at rank 3
+  real      sharpest single drop 16810718364.8x  at rank 3
+
+  CONDITIONAL KILL -- gates first
+   (a) dose-response in the true rank (r5 knees later than r2) : PASS (2 vs 5)
+   (b) controls knee before the sweep ends                     : PASS
+   (c) controls produce a CLIFF (>20x) at their true rank      : PASS (3962826741x, 54388325950x)
+
+   real: knee at rank 5, sharpest drop 16810718364.8x at rank 3
+   corrected skill at rank 1 +0.0917 -> at rank 24 +0.0000
+
+   -> THE WITHIN-BLOCK SPECTRUM HAS A CLIFF at rank 3 (16810718365x), and #72 measured
+      that the cross-block one does not (1.8x). The operator is a SMALL NUMBER OF
+      DOMAIN-SPECIFIC READOUTS plus a diffuse general residue -- a sharper statement
+      than either arc has made.
+
+artifact sha1 900ef17fd834

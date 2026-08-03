@@ -2753,3 +2753,43 @@ correction manufactures signal by subtracting a too-negative floor.
 the direction it concluded; one `grep` showed the opposite; the round that followed overturned `#71`
 outright. **A memory-sourced sentence about my own prior work was the only thing standing between
 this project and a false headline it would have kept.**
+
+---
+
+## Entry 83, added by `E01·A10·R11` — the domain-specific spectrum has a knee at 5; the domain-general one has none
+
+`#72` swept the cross-block rank and found no cliff. `#82` then showed the cross-block part is the
+**thin** one, so `#72` characterised a residual. Same question, asked of the structure that carries
+the mass, with the same known-rank discipline — **synthetic worlds whose within-block rank is 2 and 5**.
+
+| Kw | **real, corrected** | ctrl r=2 | ctrl r=5 | seed spread |
+|---:|---:|---:|---:|---:|
+| 1 | 0.0917 | 0.2193 | 0.1833 | 0.0057 |
+| 2 | 0.1327 | **0.3331** | 0.3192 | 0.0071 |
+| 3 | 0.1658 | 0.3371 | 0.4314 | 0.0082 |
+| **5** | **0.1995 ← peak** | 0.3308 | **0.5402 ← peak** | 0.0100 |
+| 8 | 0.1444 | 0.2178 | 0.4347 | 0.0110 |
+| 16 | 0.0294 | 0.0730 | 0.1297 | 0.0041 |
+
+**Gain per dimension**, which is where the knee lives:
+
+| world | knee | increments |
+|---|---:|---|
+| ctrl **r=2** | **2** | 0.1139, 0.0040, −0.0032, −0.0377, … |
+| ctrl **r=5** | **5** | 0.1359, 0.1122, 0.0544, −0.0352, … |
+| **real** | **5** | 0.0410, 0.0332, 0.0168, −0.0184, … |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 83a | **the estimator counts within-block rank** | **CONFIRMED by dose-response.** Knee at 2 for a rank-2 world, 5 for a rank-5 world, both with the gain going **negative** immediately after |
+| 83b | **the domain-specific spectrum** | **KNEE AT 5, and the shape is indistinguishable from a true-rank-5 world.** Corrected skill peaks at +0.1995 and the per-dimension gain **changes sign** between rank 3 and 5 — exactly where the r=5 control's does |
+| 83c | **the structural statement, which is the sharpest this project has made** | **The person-side readout is ~5 domain-specific factors per block, plus a general part with no rank limit** (`#72`: cross-block gain still positive and declining smoothly at rank 32, never changing sign). Two levels, two different kinds of object |
+| 83d | **my cliff-ratio statistic** | **MIS-SPECIFIED — the fifteenth.** It divides consecutive per-dimension gains, and the denominator **changes sign** at the knee, so it returned 1.7 × 10¹⁰ and printed a "cliff at rank 3" that does not exist. Same family as `#79f` — an operator applied across a sign boundary. The **knee** is the correct statistic and it is calibrated; the ratio is discarded |
+| 83e | **the top of the sweep** | **DEGENERATE, and I should have excluded it by design.** Blocks have m = 10–24 options, so rank 24 *is* full rank: the approximation reconstructs the observed residual exactly and real and null both return **0.0000**. Ranks above ~16 carry no information here |
+
+**The confound `83c` must carry, and it is not small.** The within-block sweep lives in a space of at
+most **m ≈ 10–24** dimensions; the cross-block sweep of `#72` lived in ~**500**. So *"specific is
+low-rank, general is not"* is partly a statement about **how many dimensions were available to
+each**. A knee at 5 out of ≤24 and no knee at 32 out of ~500 are not like-for-like. Settling it
+needs the cross-block sweep re-run at the *same* dimensional budget — that is the residual gap, and
+it is named here rather than left for a reader to notice.
