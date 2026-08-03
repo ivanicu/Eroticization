@@ -2008,3 +2008,59 @@ verdict — for the eighth time.
 full-data +0.0415, because every source is capped at ≤800 rows. The comparison at fixed budget is
 internally valid; whether the same ordering holds at full scale is **not tested**, and the release
 cannot test it — at full block sizes, n and total sample cannot be varied independently.
+
+---
+
+## Entry 65, added by `E01·A09·R01` — the epoch is named after a quantity the loader deletes on line 1
+
+The epoch is `E01_sexual_as_a_value_not_a_category`. That title is a claim about the **relative
+size** of the ITEM main effect (content is content) and the PERSON×ITEM interaction (the same
+content carries different value for different people). **105 rounds were run inside this epoch and
+none of them measured it**, because the shared loader's first two lines are
+
+```python
+R = M - M.mean(0, keepdims=True)     # <- the ITEM main effect, deleted
+R = R - R.mean(1, keepdims=True)
+```
+
+**Every claim in this project is a claim about the interaction, made after its rival had been
+removed from the data.** This round is the first to touch the raw uncentred matrix.
+
+Held-out cell masking (15%, 3 seeds), Shapley decomposition over all 6 orderings, 32 blocks:
+
+| K | ITEM | PERSON | INTERACTION | full R² |
+|---|---:|---:|---:|---:|
+| 1 | +0.1990 | +0.0893 | **+0.0169** | 0.314 |
+| 2 | +0.1964 | +0.0924 | −0.0022 | 0.289 |
+| 4 | +0.1934 | +0.0969 | −0.0584 | 0.230 |
+| 8 | +0.1986 | +0.0984 | −0.1402 | 0.145 |
+
+**The item main effect is real and it is the largest single component.** The within-person shuffle
+kills it (share −0.008), so it is not row sums in disguise. It is also flat in K, as a main effect
+must be.
+
+**Two of my own gates were mis-specified, and one of them inverts the reading.**
+
+| # | Claim | Verdict |
+|---|---|---|
+| 65a | **"the interaction contributes nothing (share −0.22 at K=4)"** | **WRONG, and the graded control is what says so.** The estimator carries a large negative bias: in a *purely additive* synthetic world with **no interaction at all**, the pipeline returns X_share = **−0.629**. Real data returns −0.22. Read against the dose curve (g=0 → −0.629, 0.25 → −0.552, 0.5 → −0.364, 1.0 → +0.058) the real data sits near **g ≈ 0.75**. A raw negative number here means a *substantial* interaction |
+| 65b | **gate (b), "positive control fails at g=0"** — coded as `FLOOR < 0.02` | **A CHECK THAT CANNOT FAIL.** A floor of −0.629 satisfies `< 0.02` trivially. The intent was "returns ~zero at g=0"; what was written passes for any negative number, however large. Built 5×, caught 5× |
+| 65c | **gate (d), the placebo** — coded as `abs(contribution) < 0.002` | **WRONG DIRECTION.** A permuted person component is not inert, it is *actively wrong*, so adding it must **hurt**. It contributed −0.136. A placebo *component* passes when its contribution is **≤ 0**, not when it is ≈ 0. Ninth verdict-label failure. The −0.136 is itself evidence: the person effect is genuinely person-specific, not a generic offset |
+
+**Why the bias exists, measured not assumed.** X falls monotonically with K (+0.017 → −0.140) and
+correlates with cells-per-parameter at **r = +0.517** across blocks. Rank-K soft-impute on masked
+binary cells overfits, and the overfit scales with how few cells each parameter sees. Block 17
+(1,367 × 10) returns X = −1.46; block 51 returns +0.38.
+
+**Verdict on the epoch title: `UNVERIFIED`, and that is not an acquittal.** The A-vs-B comparison
+requires the interaction on the same scale as the item effect, and the only calibration available
+here is **one reference block's** dose curve applied to 32 blocks of wildly different shape — when
+the bias is demonstrably shape-dependent. What is licensed today:
+
+- **ITEM main effect: +0.199 held-out R², ~2/3 of everything explained, negative-control clean.**
+- **PERSON main effect: +0.089, and person-specific (permuting it costs 0.136).**
+- **INTERACTION: present** (real data is far above the additive floor) **but its magnitude is not
+  yet on a comparable scale.**
+
+The fix is cheap and specific: **a per-block additive synthetic control**, so every block is read
+against a floor built from its own marginals and its own shape. That is `R02`.

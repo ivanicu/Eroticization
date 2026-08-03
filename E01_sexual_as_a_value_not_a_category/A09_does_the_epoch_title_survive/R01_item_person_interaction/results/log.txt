@@ -1,0 +1,92 @@
+blocks 32   raw (uncentred) matrices, shapes 1260-15250 x 10-24
+
+=== POSITIVE CONTROL (graded): synthetic worlds on the reference block's marginals ===
+reference block 85  shape 2190x22   K=4
+           I       P       X  X_share
+g                                    
+0.00  0.2246  0.0998 -0.2040  -0.6289
+0.25  0.2207  0.0937 -0.1735  -0.5521
+0.50  0.2015  0.0841 -0.1051  -0.3644
+1.00  0.1595  0.0609  0.0226   0.0584
+
+additive-world interaction share (the FLOOR)  -0.6289  seed sd 0.0238
+monotone in g: True   [-0.6289, -0.5521, -0.3644, 0.0584]
+fails at g=0 (share below 2x its own sd): True
+
+=== NEGATIVE CONTROL: option labels shuffled within each person ===
+ seed       I      P       X  I_share
+   11 -0.0009 0.0866 -0.2253  -0.0100
+   29 -0.0006 0.0764 -0.2422  -0.0083
+   47 -0.0004 0.0646 -0.2231  -0.0060
+item share after within-person shuffle: -0.0081 (was the item effect real? YES)
+
+=== PLACEBO: person component built from a permuted person index ===
+contribution of a permuted person effect: -0.13582 (must be ~0, is it? NO)
+
+=== THE GRID: 32 blocks x K in {1,2,4,8} x 3 seeds ===
+
+held-out R2 of the full model, and the three shares, by K (mean over 32 blocks x 3 seeds)
+     full  I_share  P_share  X_share
+K                                   
+1  0.3129   0.6407   0.2694   0.0482
+2  0.2900   0.6504   0.2932  -0.0244
+4  0.2354   0.6667   0.3183  -0.2208
+8  0.1546   0.6710   0.3151  -0.5216
+
+per-block at K=4, sorted by interaction share (ALL blocks, none dropped)
+        n   m    full       I       P       X     Xsd
+q                                                    
+17   1367  10 -0.0886  0.9368  0.0353 -1.4641  0.3166
+67   5415  16  0.1372  0.5737  0.4263 -0.5108  0.0142
+8    1468  10  0.1394  0.4552  0.5448 -0.4725  0.0821
+79   9249  11  0.1685  0.9498  0.0502 -0.3608  0.0113
+81   1655  19  0.1323  0.7495  0.2505 -0.3572  0.0892
+63   5007  18  0.1938  0.6972  0.3028 -0.3455  0.0231
+39   1703  12  0.1247  0.6068  0.3932 -0.3435  0.0652
+7    1289  10  0.1484  0.3941  0.6059 -0.3253  0.0654
+55   5034  17  0.2254  0.7153  0.2847 -0.3142  0.0028
+92   3593  18  0.1906  0.6404  0.3596 -0.3011  0.0451
+1   15250  16  0.2340  0.7235  0.2765 -0.2954  0.0073
+9    2358  10  0.2158  0.6077  0.3923 -0.2874  0.1044
+11   1324  10  0.2137  0.5683  0.4317 -0.2812  0.0617
+83   1604  10  0.1334  0.4987  0.5013 -0.2458  0.1141
+48   2915  10  0.2128  0.7865  0.2135 -0.2381  0.0334
+62   3398  21  0.2070  0.6635  0.3365 -0.2368  0.0006
+13   8648  19  0.3497  0.7201  0.2799 -0.1917  0.0087
+20   4988  10  0.3471  0.8326  0.1674 -0.1314  0.0116
+77   5045  21  0.3392  0.7022  0.2978 -0.1148  0.0091
+90   3701  10  0.3536  0.8069  0.1931 -0.1121  0.0228
+19   3805  19  0.2492  0.5412  0.4588 -0.1078  0.0340
+91   1322  19  0.2766  0.6021  0.3979 -0.1064  0.0574
+4    2897  14  0.2671  0.8519  0.1481 -0.1058  0.0464
+36   2859  24  0.2224  0.5570  0.4430 -0.0847  0.0173
+73   2386  20  0.3153  0.7031  0.2969 -0.0455  0.0279
+53   2881  22  0.3406  0.6804  0.3196 -0.0445  0.0252
+29   5388  22  0.2844  0.6771  0.3229 -0.0395  0.0124
+96   2342  19  0.2575  0.4861  0.5139 -0.0342  0.0320
+93   3228  21  0.3482  0.6620  0.3374 -0.0147  0.0143
+85   2190  22  0.3652  0.7045  0.2904  0.0030  0.0110
+42   1665  18  0.2535  0.6216  0.3154  0.0630  0.0361
+51   1260  22  0.3764  0.6199 -0.0035  0.3801  0.0281
+
+PATH DEPENDENCE -- marginal contribution of each component by ordering (K=4, all blocks)
+            I       P       X
+order                        
+IPX    0.2059  0.0842 -0.0546
+IXP    0.2059  0.1097 -0.0801
+PIX    0.2207  0.0693 -0.0546
+PXI    0.1901  0.0693 -0.0240
+XIP    0.1887  0.1097 -0.0629
+XPI    0.1901  0.1083 -0.0629
+item marginal ranges [0.1887, 0.2207] across orderings -- this is why a single decomposition number is not reportable
+
+========================================================================
+CONDITIONAL KILL -- gates first, threshold only if they pass
+  (a) positive control monotone in g      : PASS
+  (b) positive control fails at g=0       : PASS (floor -0.6289)
+  (c) negative control kills item share   : PASS (-0.0081)
+  (d) placebo returns zero                : FAIL
+
+  -> gates failed. UNVERIFIED, and that is not an acquittal.
+
+artifact sha1 add29f943bff
