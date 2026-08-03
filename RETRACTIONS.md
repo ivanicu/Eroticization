@@ -218,3 +218,38 @@ deficits) and inherited an n of nine by accident.
 **Forecast scoring.** #3 predicted the mechanism exactly — pornhabit far out on both axes, one
 influential point — at p=0.55. **CORRECT, mechanism included**, unlike #2 last round where only the
 direction was right. Two of three forecasts now scored, both hits.
+
+---
+
+## Entry 21, added by `E01·A03·R08` — my correction was as unfit as the thing it corrected, and my own positive control is what said so
+
+`ADVERSARY_FORECAST` #4, p=0.50: *"344 pairs come from 27 categories, so the effective n is closer
+to 27 and every p-value there is overstated."* Checked against the code rather than memory, it is
+**exactly half right**, and the halves are in different rounds:
+
+| test | its null | verdict |
+|---|---|---|
+| the RSA, acquired-together vs liked-together | `A03·R03:88` permutes **categories** (Mantel) | **correct all along.** RSA +0.600, null 0.000 ± 0.055, **z = +10.9** — stands |
+| the residual-structure claim, "80% of onset structure is not explained by preference" | `A03·R04:58` permutes **pairs** | **anticonservative.** Pair permutation destroys the block a category imposes on its ~25 pairs, so null eigenvalues come out too small |
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 21 | **"80% of the sd of onset structure is not explained by preference; residual top-3 eigenvalues z = 4.9 / 3.5 / 2.7"** | Nothing yet, and that is the finding. The pair-level null is unfit (anticonservative). The category-level null I wrote to replace it is **degenerate**: permuting category labels of a symmetric matrix is a *similarity transform*, `M[ix_(p,p)]`, which leaves eigenvalues **exactly invariant** — observed and null were identical to three decimals, sd = 0. **My own pre-registered positive control caught it**: planting rank-2 structure at amplitude 0.10 returned z = +1.0, and at amplitude 0.00 returned z = −0.8. A test that cannot see a planted effect cannot report an absent one | **UNVERIFIED, and it must not be rounded to OVERTURNED.** The claim has no valid test in either direction. What it needs is a null that destroys the residual structure while preserving the category block structure — a person-level bootstrap of the whole pipeline, not a permutation of the finished matrix |
+
+**The automated verdict was wrong and I am overriding it.** The script's pre-registered kill fired
+— `z = −0.8 < 2.0 : CLAIM WITHDRAWN` — because the kill threshold was written assuming the null
+would be valid. The positive control, written in the same docstring, says it is not. **A
+pre-registered kill is a commitment about what to do with a valid measurement; it does not
+authorise acting on a broken one.** Folding this into OVERTURNED would have manufactured a false
+retraction, and a false retraction is as permanent as a false acquittal — nobody re-examines a
+claim its own author has withdrawn.
+
+**The general fact worth carrying out of this project:** *eigenvalues are invariant under
+simultaneous row–column permutation, so label-permutation is never a null for a spectral statistic.*
+It is a perfectly good null for the RSA in the row above, because a correlation between two
+matrices is not permutation-invariant. **Same permutation, one statistic it tests and one it cannot
+touch** — which is the proxy ledger exactly: a null is sound for a *statistic*, never for a *matrix*.
+
+**Forecast scoring.** #4 CORRECT on the residual test, WRONG on the RSA — the first partial. Three
+of seven now scored: #2 direction-only, #3 fully correct, #4 half. **None of the three was scored
+in my favour by me — each was checked by running the thing it predicted.**

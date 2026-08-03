@@ -81,8 +81,9 @@ population-shared schedule (content-like early: appearance 14.0, body parts 14.4
 relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). Within-person
 "acquired together" tracks "liked together" at RSA **+0.599** after stripping intensity leakage
 (−0.126 — **[VERIFICATION — see RETRACTIONS #16]**, published as `01-age-onset` Finding 1) and recall anchoring, and after near-synonymy is excluded (0.594 for
-280 pairs sharing no content word vs 0.646 for 64 that do). **80% of the sd of onset structure is
-not explained by preference** — interests a person does *not* like together were acquired at the
+280 pairs sharing no content word vs 0.646 for 64 that do). **[UNVERIFIED — RETRACTIONS #21]** ~80% of the sd of onset structure appeared not to be
+explained by preference, but neither the original pair-level null nor its category-level
+replacement is a fit test for a spectral statistic — interests a person does *not* like together were acquired at the
 same time. But the organising variable is arrival time, not coordinate membership (retraction #9).
 
 **[R05 · group differences and the instrument](A05_group_differences_and_the_instrument)** —
