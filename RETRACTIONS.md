@@ -1720,3 +1720,43 @@ the person margin was swept for K, for block inclusion, for seeds, for coverage 
 framings — **five kinds of audit on the measured margin while the unmeasured one sat untouched.**
 `#39` named this failure mode as *availability becoming representativeness*; this is the same error
 one level up, where **the margin I had tooling for became the margin that existed.**
+
+---
+
+## Entry 58, added by `E01·A01·R20` — two-thirds the same structure, and the third that is not is below resolution
+
+`#57` measured the item margin for the first time and left the decisive question open: does it add
+anything **on top of** the person margin, or is it the same structure seen from the other side? Both
+outcomes were possible here — unlike `#54`'s parting prediction, which an oracle bound made
+impossible.
+
+| model | out-of-sample R² | increment over base | seed spread |
+|---|---:|---:|---:|
+| base + **person** | +0.3422 | **+0.0293** | 0.0034 |
+| base + **item** | +0.3331 | **+0.0202** | 0.0042 |
+| **base + both** | **+0.3488** | **+0.0359** | 0.0040 |
+| base + random neighbours *(neg. control)* | +0.3130 | +0.0001 | 0.0033 |
+| base + person + random *(second neg. control)* | +0.3423 | +0.0294 | 0.0034 |
+
+All three gates pass, including the second negative control: adding random neighbours **to the
+person margin** changes nothing (+0.0294 vs +0.0293), so the joint fit is not inflating.
+
+**PARTIAL OVERLAP — 67% shared.** Combined **+0.0359** = the larger margin **+0.0293** plus
+**+0.0066**, where the item margin alone is +0.0202. **The item side contributes a third of itself
+on top of the person side; two-thirds of it is the same structure.**
+
+| # | Claim | Verdict |
+|---|---|---|
+| 58 | **person and item margins** | **SUBSTANTIALLY ONE STRUCTURE.** 67% of the item margin's explained variance is already in the person margin. **The unique item contribution is +0.0066 against a combined seed spread of 0.0040 — ratio 1.65, below `#34`'s threshold of 2, therefore UNRESOLVABLE.** So: mostly the same thing, and whatever is genuinely new on the item side is too small for this design to see |
+
+**Applying `#34` to the number the whole round turns on.** It would have been easy to report
+"+0.0066 unique item contribution" as the finding — it is positive, it survived three gates, and it
+answers a question I had chased for forty rounds. It is also **1.65 seed spreads**, and the
+criterion that killed the modality deficit does not become optional when the result is mine and
+recent. **Third time the criterion has been turned on a warm result** (`#52`, `#55`, now this), and
+the first time it has landed on the number a round was designed to produce.
+
+**What the forty-round detour bought.** The item margin was worth opening: it is real (+0.0202,
+ratio 4.8, well resolvable) and it was dismissed as "empty" by a broken comparison two rounds ago.
+What it was not, is *new*. **The structure this project has been describing from the person side is
+the structure — the other margin is a second view of it, not a second half of it.**
