@@ -5,6 +5,13 @@
 > is not the larger half. Every round before `A09` ran on `R = M − M.mean(0) − M.mean(1)`, i.e. on the
 > interaction, **after the larger component was deleted on line 1 of the loader.** Those findings stand as
 > findings about the interaction; none of them may claim it is what this survey is mostly made of.
+>
+> **[#68] The full rank sweep closes the escape route.** With K=0 in the grid, the best-predicting model
+> contains **no interaction term at all for 6 of 23 blocks**. The corrected interaction peaks at K=6
+> (+0.193) and turns over. At the pre-registered rank the item effect is **11.7× (prediction) / 3.5×
+> (detection)** the interaction, at 16–21× the seed spread; at the rank chosen adversarially to favour the
+> rival it is a **tie (0.193 vs 0.200)**. There is no rank, estimand or selection rule under which the
+> interaction is larger. The best case for the epoch title is **"both, equally"**.
 
 # The Eroticization Operator
 

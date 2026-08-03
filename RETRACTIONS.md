@@ -2156,3 +2156,51 @@ conservative: it removes noisy blocks, never adds favourable ones.
 
 **The sentence I can no longer write:** *"in this data, sexual interest is a value assigned to
 ordinary content rather than a content category"* — the content category is the bigger half.
+
+---
+
+## Entry 68, added by `E01·A09·R04` — the K-trend turns over, and the epoch title is false under every reading except a tie
+
+`#67` left the ordering resting on two ranks with the corrected interaction still rising. The full
+sweep, with **K=0 in the grid** so that "no interaction term at all" could win:
+
+| K | full R² | ITEM | PERSON | INTERACTION | `X_null` | `X_c` |
+|---:|---:|---:|---:|---:|---:|---:|
+| 0 | 0.2911 | 0.2118 | 0.0793 | 0.0000 | 0.0000 | 0.0000 |
+| **1** | **0.3124** | 0.2077 | 0.0871 | **+0.0177** | −0.0695 | 0.0872 |
+| 2 | 0.2901 | 0.2050 | 0.0919 | −0.0069 | −0.1374 | 0.1305 |
+| 3 | 0.2661 | 0.2031 | 0.0939 | −0.0309 | −0.1943 | 0.1634 |
+| 4 | 0.2315 | 0.2014 | 0.0952 | −0.0651 | −0.2489 | 0.1838 |
+| **6** | 0.1753 | 0.1997 | 0.0976 | −0.1220 | −0.3153 | **0.1932 ← peak** |
+| 8 | 0.1415 | 0.2024 | 0.0953 | −0.1563 | −0.3041 | 0.1478 |
+| 12 | 0.1164 | 0.2055 | 0.0862 | −0.1754 | −0.2591 | 0.0837 |
+
+**`X_c` peaks at K=6 and turns over.** The extrapolation that threatened `#67` does not happen: the
+corrected interaction never runs away, and its maximum over the entire sweep is **+0.1932**.
+
+**Rank selected by held-out prediction** (rule fixed before the sweep was read): K\*=0 for **6 of 23
+blocks** — for those, the best-predicting model contains **no interaction term at all**. K\*=1 for
+13, and 4 blocks pick K ≥ 2.
+
+| estimand | ITEM | INTERACTION | ratio | gap | 2× spread |
+|---|---:|---:|---:|---:|---:|
+| **PREDICTION** — what it delivers out of sample | +0.2223 | **+0.0189** | **11.7×** | −0.1969 | 0.0092 |
+| **DETECTION** — structure present, bias-corrected | +0.2223 | **+0.0629** | **3.5×** | −0.1496 | 0.0092 |
+
+Both gaps are **16–21× the seed spread**, and they agree. `#67`'s asymmetry (a raw item effect
+against a corrected interaction) is now resolved by reporting both, and the verdict is the same
+either way.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 68a | **`X_c` rises with K and may cross the item effect** — the live threat `#67` flagged | **DEAD.** `X_c` peaks at K=6 (+0.1932) and falls thereafter. It never exceeds the item main effect at any rank tested |
+| 68b | **`E01_sexual_as_a_value_not_a_category`** | **FALSE AS STATED, under both estimands, at the pre-registered rank.** Item is 3.5–11.7× the interaction |
+| 68c | **the most generous possible reading, chosen adversarially in the rival's favour** | at **K=6**, the rank that *maximises* the corrected interaction, the two are **+0.1932 vs +0.1997 — a tie.** Even here the title does not survive: the best case for "a value, **not** a category" is **"both, equally"** |
+
+**The specification curve of the verdict itself.** Under the pre-registered rule: world A by
+16–21× the spread. Under the rule most favourable to the epoch title: a tie. **There is no rank,
+estimand, or selection rule in this grid under which the interaction is the larger component.**
+
+**The sentence I can no longer write, in its last surviving form:** *"the interaction is at least as
+large as the item effect somewhere in the rank sweep."* At its own maximum it reaches parity, and
+that maximum costs 44% of the model's held-out R² (0.175 at K=6 vs 0.312 at K=1) to buy.
