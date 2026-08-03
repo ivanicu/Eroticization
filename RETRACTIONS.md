@@ -2340,3 +2340,39 @@ parameters there.
 **What is still not sayable:** how many cross-block dimensions there are. `C` is still rising at
 Kc=8 and the sweep stops there. That is the same non-saturation `#18` and `#49` hit from other
 directions, and it is now the arc's residual gap.
+
+---
+
+## Entry 72, added by `E01·A10·R04` — there is no coordinate count, and that is why two rounds failed to find one
+
+`#18` and `#49` both tried to settle how many domain-general coordinates exist, from *within* the
+shared space, and both failed. This round asks by prediction instead: a dimension counts only if it
+predicts held-out cells in a block whose data never touched its estimation. And the curve is read
+**only against synthetic worlds of known rank**.
+
+**The estimator counts, and it counts exactly.** Gain per dimension:
+
+| world | knee | per-dimension increments |
+|---|---:|---|
+| control, **true rank 2** | **2** | **0.1277**, 0.0009, 0.0017, 0.0006, 0.0005, 0.0003, 0.0002, 0.00003 |
+| control, **true rank 5** | **5** | 0.0753, 0.0721, **0.0774**, 0.0006, 0.0007, 0.0005, −0.0000, 0.00003 |
+| **real data** | — | 0.0070, 0.0056, 0.0031, 0.0022, 0.0017, 0.0014, 0.0009, 0.0006 |
+
+**The cliff ratio is the whole result.** At its true rank the r=2 control drops **147×** in one step
+and the r=5 control drops **141×**. The sharpest drop anywhere in the real curve is **1.8×**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 72a | **the estimator can count dimensions** | **CONFIRMED by dose-response.** Knee at 2 for a rank-2 world, at 5 for a rank-5 world, with a 141–147× cliff in both. This is the positive control `#18` and `#49` never had |
+| 72b | **"how many domain-general coordinates are there?"** | **THE QUESTION PRESUPPOSES A CLIFF THAT DOES NOT EXIST.** The real spectrum decays smoothly — a factor of 12 across 32 dimensions with no step exceeding 1.8×. It is not *r factors plus noise*. `#18` and `#49` did not fail from weak instruments; **they were asking for a number the object does not have** |
+| 72c | **`#70`'s cross-block magnitude, +0.0244** | **UNDERESTIMATED 2.6×.** It was measured at rank 4. Corrected `C` reaches **+0.0635 at Kc=32** and is still gaining at 1.45× the seed spread. That is **75% of the person-breadth effect (0.085)** and **29% of the item effect (0.222)** — the gap `#70` reported as 9× is nearer **3.5×** |
+| 72d | **my saturation criterion** | **MIS-SPECIFIED — the eleventh.** `sat()` used *remaining gain as a fraction of total*, which returned Kc=5 for **both** controls and printed `FAIL — the estimator cannot count`. The correct statistic is gain **per dimension**, since the rank grid is uneven (…3, 5, 8, 12…). The table was unambiguous while the automated verdict was wrong, for the eleventh time |
+
+**The ontology shift.** The project has spent rounds asking *which* coordinates and *how many*. The
+object is a **slowly-decaying spectrum**, not a small basis — so "name the axes" was never going to
+converge, and the several failures to name them (`#18` K-dependence, `#39` subgraph locality, `#49`
+thin direction) are one fact seen three times, not three separate defeats.
+
+**The sentence I can no longer write:** *"the domain-general readout has K coordinates for some
+modest K."* Every K up to 32 buys real held-out prediction, and nothing in the sweep says where it
+stops.
