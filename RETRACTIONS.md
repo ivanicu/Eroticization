@@ -1394,3 +1394,45 @@ and a correlation that exists in a direction almost nothing travels along.
 from finding an error.** Every number in the CCA framing was correct. The framing simply answered
 "is there a shared direction" while I had been reading it as "does domain A tell you about domain
 B" — and those diverge by two orders of magnitude in exactly this kind of data.
+
+---
+
+## Entry 50, added by `E01·A03·R13` — the onset RSA survives the framing swap that broke the central claim, and my fifth mis-specified gate nearly hid it
+
+`#49` broke the central claim by swapping framings: the cross-domain grammar exists as a
+correlation (CCA 0.198) and carries no predictable variance (pairwise R² −0.002). The onset RSA has
+the same structure — a correlation between two similarity matrices, +0.599 — and had never been
+asked the same question.
+
+**Person-level prediction, 6,615 people with ≥8 onsets and ≥8 preferences, 5 seeds:**
+
+| | held-out R² | seed spread |
+|---|---:|---:|
+| **preference half → preference half** *(the ceiling this pipeline can reach)* | **+0.0436** | 0.0182 |
+| onset half → onset half | +0.0510 | 0.0239 |
+| **onset → preference** | **+0.0136** | 0.0039 |
+| permuted-person null | −0.0043 | 0.0036 |
+
+**Onset predicts preference at +0.0136 against a −0.0043 null — 4.5 seed spreads above it, and 31%
+of the same-domain ceiling.** Unlike `#49`, this correlation *does* carry predictable variance.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 50 | **"acquired together tracks liked together", RSA +0.599** | **SURVIVES THE FRAMING SWAP.** Person-level prediction reaches 31% of what preference achieves predicting *itself*. `A03`'s evidence is not the thin-direction artifact `#49` exposed in `A01` |
+
+**And the gate failed anyway, for the fifth time, in the way `#41` already named.** I required the
+positive control to exceed **0.05**; it returned **0.0436** — because 0.0436 *is* the ceiling of
+this pipeline, measured **inside the same round**. `#41`'s standing correction said to derive
+thresholds from a measured quantity rather than choose them, and here the measurement was three
+lines above the threshold that ignored it.
+
+**Sharper procedural fix, since the general form of the rule was not enough:** *compute the positive
+control **first**, then set every threshold as a fraction of it.* A ceiling measured in the same
+round and then ignored is worse than one never measured, because the round contains its own refutation
+and prints it before the verdict.
+
+**This is not relaxing a failed threshold to rescue a finding** — the distinction matters and `#33`
+warns about exactly that. The threshold was **unsatisfiable by construction**: no quantity in this
+design can exceed a ceiling of 0.0436, so demanding 0.05 asks the pipeline to beat itself. The
+verdict stands on the ratio to the *null* and to the *measured ceiling*, both of which were
+pre-registered in spirit and neither of which I wrote down as the operative comparison.

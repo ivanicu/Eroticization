@@ -81,8 +81,7 @@ mutual r ≤ 0.362, effective dimensionality 2.95 of 3.
 
 **[R04 · acquisition and time](A04_acquisition_and_time)** — Interests arrive on a
 population-shared schedule (content-like early: appearance 14.0, body parts 14.4, clothing 14.7;
-relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). Within-person
-"acquired together" tracks "liked together" at RSA **+0.599** after stripping intensity leakage
+relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). **[SURVIVES FRAMING SWAP — RETRACTIONS #50]** Within-person "acquired together" tracks "liked together" at RSA **+0.599**, and unlike the cross-domain grammar (#49) it carries predictable variance: person-level onset→preference R² = +0.0136 against a −0.0043 null, 31% of the same-domain ceiling after stripping intensity leakage
 (−0.126 — **[VERIFICATION — see RETRACTIONS #16]**, published as `01-age-onset` Finding 1) and recall anchoring, and after near-synonymy is excluded (0.594 for
 280 pairs sharing no content word vs 0.646 for 64 that do). **[CONFIRMED — RETRACTIONS #22]** onset carries structure preference does not: observed top residual eigenvalue 0.959 against a purpose-built rival world at 0.441 ± 0.040 (95% upper 0.532), positive control fires at injection 0.3 and stays silent at 0.0. The attached '80% of the sd' is descriptive, not tested — interests a person does *not* like together were acquired at the
 same time. But the organising variable is arrival time, not coordinate membership (retraction #9).
