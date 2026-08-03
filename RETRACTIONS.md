@@ -2579,3 +2579,34 @@ turned on.
 per-block table crashed after the main result had printed. Same family as `T.shift` in `#74`: a
 column name that collides with a pandas method fails *loudly* here, which is the lucky case. The
 unlucky case is a column named `count` or `size` silently returning a method and being truthy.
+
+---
+
+## Entry 78, added by `E01·A10·R07` — a random basis of identical rank and identical cost gets nothing, which is what an accounting argument cannot see
+
+`ADVERSARY_FORECAST` block 2, prediction #4 (p=0.50): *"`#71`'s parameter-count argument is a bad
+accounting. `C`'s person scores are called free because they are estimated elsewhere — but they are
+estimated on **the same people**."*
+
+The forecast asks for an accounting. An accounting is the wrong instrument, and `#76` had just cost
+a round for exactly that — reaching for a proxy when the direct measurement exists. The direct
+question: **does `C` survive when the people it is evaluated on are disjoint from the people whose
+data built the basis?**
+
+| arm | `C` (per-block median) | `C` > 0 | `W` | eval n |
+|---|---:|---:|---:|---:|
+| **raw** — the `#71` specification | +0.00870 | 20/23 | −0.038 | 3,908 |
+| **person-holdout** — basis from fit-half only, eval-half scores by projection | **+0.00701** | **19/23** | −0.040 | 1,956 |
+| **shuffled basis** — same rank, same parameter count, no structure | **+0.00027** | **3/23** | −0.052 | 1,956 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 78a | **forecast #4, "the shared basis is unbilled"** | **WRONG.** `C` retains **81%** under person-holdout (+0.00870 → +0.00701) with every evaluation person disjoint from the basis. "Free" was the right accounting for the only reason that matters: **those parameters cannot overfit cells they were never near** |
+| 78b | **the control that actually answers it** | **A random orthonormal basis of identical rank and identical parameter count gets +0.00027, positive in 3/23 blocks.** An accounting argument cannot distinguish it from the real basis — they cost the same. A prediction test separates them by **26×**. This is why the forecast's own framing was unanswerable in its own terms |
+| 78c | **my pre-registered positive control** | **MIS-SPECIFIED — the twelfth, and this one could not PASS.** It demanded `W > 0` at K=4, and `#71`/`#72` had already measured `W` negative at every K ≥ 2. I wrote a gate whose criterion the instrument was *known* to violate. The mirror of a check that cannot fail, and equally useless |
+| 78d | **the corrected control, run rather than asserted** | `W` at **rank 1** on the same eval halves: mean **+0.0214**, positive in **15/23** blocks, resolvable in **12/23**. The eval half **can** fit within-block structure, so the holdout arm is not blind — but at **65% of blocks**, not the 70% I had set, so this is `CONFIRMED at reduced power`, not clean |
+
+**Scope, stated because `78d` requires it.** The person-holdout arm halves the evaluation sample
+(3,908 → 1,956). `C` survives that halving; `W` at rank 1 survives it in two-thirds of blocks. A
+challenger who wants to break `78a` should attack the power of the holdout arm, not its logic —
+and that is a cheaper attack than the one I ran.
