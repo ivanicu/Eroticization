@@ -53,21 +53,21 @@ coordinates entirely.
 
 ---
 
-## What each campaign established
+## What each big round established (R = one iteration, one belief update, one commit)
 
-**[01 · the object](01_object_and_structure)** — The item-level data is not the 68 category
+**[R01 · the object](R01_object_and_structure)** — The item-level data is not the 68 category
 ratings; it is 101 multiselect columns exploding to **1,332 options over 15,468 people**. Entry
 to every block is gated on a parent rating: **P(enter | parent > 0) = 0.99**. This is
 undocumented and it constrains every design downstream — naive cross-block holdout is
 conditioned on liking the parent category. Person-profile split-half reliability **0.727**;
 item base-rate reliability **0.999**. The noise injection did not destroy individual signal.
 
-**[02 · is there a shared grammar](02_is_there_a_shared_grammar)** — Yes, and the first two
+**[R02 · is there a shared grammar](R02_is_there_a_shared_grammar)** — Yes, and the first two
 instruments could not see it. PC1-vs-PC1 gave 0.064 (retraction #2); held-out CCA gave 0.272 vs a
 0.055 floor; leave-one-block-out gave **32/32 blocks positive**, median gain +0.0340 against a
 −0.0029 floor. Factors learned from 31 domains predict a domain they never saw.
 
-**[03 · naming the coordinates](03_naming_the_coordinates)** — Four coordinates survive a
+**[R03 · naming the coordinates](R03_naming_the_coordinates)** — Four coordinates survive a
 **block** split-half (not a person split-half — the question is whether a coordinate is
 recoverable from either half of the *domains*). Naming failed twice before succeeding. The
 surviving three: *light restraint/toys ↔ insertive extremity and confinement* · *abjection and
@@ -76,7 +76,7 @@ filth ↔ blood, burning, weapons* (two **opposed** extremities, not one intensi
 three near-independent coordinates**: who submits, who is seen, who receives — disattenuated
 mutual r ≤ 0.362, effective dimensionality 2.95 of 3.
 
-**[04 · acquisition and time](04_acquisition_and_time)** — Interests arrive on a
+**[R04 · acquisition and time](R04_acquisition_and_time)** — Interests arrive on a
 population-shared schedule (content-like early: appearance 14.0, body parts 14.4, clothing 14.7;
 relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). Within-person
 "acquired together" tracks "liked together" at RSA **+0.599** after stripping intensity leakage
@@ -85,14 +85,14 @@ relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). Wit
 not explained by preference** — interests a person does *not* like together were acquired at the
 same time. But the organising variable is arrival time, not coordinate membership (retraction #9).
 
-**[05 · group differences and the instrument](05_group_differences_and_the_instrument)** —
+**[R05 · group differences and the instrument](R05_group_differences_and_the_instrument)** —
 **Any group comparison on this release must be block-count matched or it partly measures survey
 coverage**: corr(congruence deficit, coverage gap) = **+0.815** across nine splits. This is the
 transferable methodological result and it is not documented anywhere I have read about this
 dataset. Drawn-vs-live-action consumers — whose content contains no real bodies — differ by
 **0.0204 ± 0.0265**, bounded below sex-sized (0.093). That is a real, bounded constraint on A.
 
-**[06 · induction](06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn
+**[R06 · induction](R06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn
 induced ones that would not otherwise exist. That claim carries **no acquisition timing
 signature** (a uniform 0.5-year shift of *all* their onsets; a 1-year shift is excluded; the
 concentration discriminator is null at 8.8× the power needed for a single-interest induction)
@@ -100,24 +100,24 @@ and **no structural signature** (misfit < 0.1 sd, extremity < 10%). It tracks **
 (rho +0.2515, 85% surviving response-style control). Design consequence: retrospective
 self-report of induction is unusable as an outcome measure. Phase 3 must be prospective.
 
-**[07 · breadth](07_breadth)** — Quantity without shape. A person's set is **0.88%** more
+**[R07 · breadth](R07_breadth)** — Quantity without shape. A person's set is **0.88%** more
 concentrated in coordinate space than a size-matched base-rate set — real (t=−15.5) and
 negligible. Sets are **24.2%** of the way from chance to perfect nesting. Breadth is moderately
 one trait (Spearman–Brown 0.557) and **9–13% response style**, measured on the survey's own
 non-category Likert items.
 
-**[08 · what theta is](08_what_theta_is)** — Nearly domain-encapsulated. All 15 non-sexual
+**[R08 · what theta is](R08_what_theta_is)** — Nearly domain-encapsulated. All 15 non-sexual
 variables jointly: **R² = 0.012**. Childhood adversity, adult sexual assault, corporal
 punishment and sexual repressiveness of upbringing are all bounded under **0.09 disattenuated**,
 at a sample size where 0.023 would have been visible. The family of theories rooting broad or
 unusual sexuality in adversity gets essentially no support here.
 
-**[09 · consumption](09_consumption)** — Consumption touches both terms: it correlates with θ
+**[R09 · consumption](R09_consumption)** — Consumption touches both terms: it correlates with θ
 (rho 0.17) *and* independently with the coordinates (**0.0439** after matching coverage, breadth
 and sex — 3.6× the neuroticism reference). Direction is unavailable; this is exactly what a
 prospective design would resolve.
 
-**[10 · additivity](10_additivity)** — Ivan's model B requires it. The feature crosses every
+**[R10 · additivity](R10_additivity)** — Ivan's model B requires it. The feature crosses every
 substance boundary it meets (+0.24 to +0.58) **except source gender, where it is +0.017**.
 Additivity is basis-dependent: in the folk basis (self/other) it fails; in a basis crossing role
 with source gender it may hold. Small n on the decisive cells (3–4 pairs) — **PLAUSIBLE, not
