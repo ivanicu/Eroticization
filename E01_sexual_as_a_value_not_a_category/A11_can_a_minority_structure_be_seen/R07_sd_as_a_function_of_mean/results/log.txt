@@ -1,0 +1,28 @@
+  seed 1
+  seed 2
+  seed 3
+  seed 4
+  seed 5
+
+=== (mean, sd) OF THE TOP-5% BY MEAN SURPRISAL, EVERY ARM ===
+         mean      sd  mean_e    sd_e
+world                                
+cb     0.9565  0.2603  0.0030  0.0057
+real   1.0277  0.3004  0.0000  0.0000
+F0.25  1.0392  0.3195  0.0015  0.0034
+F0.5   1.0635  0.3424  0.0009  0.0036
+F1.0   1.1616  0.3533  0.0064  0.0077
+S2     1.0353  0.3178  0.0012  0.0013
+S4     1.0395  0.3339  0.0016  0.0048
+S6     1.0407  0.3415  0.0016  0.0072
+S10    1.0412  0.3418  0.0014  0.0069
+
+  overlapping mean range of the two families: [1.0392, 1.0412]   real mean 1.0277
+
+  CONDITIONAL KILL -- gates first
+   (a) each family monotone in its own intensity : flat PASS, spiky PASS
+   (b) the real mean lies in the overlapping range: FAIL
+   -> UNVERIFIED: the real mean 1.0277 is outside where the families overlap, so no
+      interpolated comparison is licensed. Extend the ladders until it is inside.
+
+artifact sha1 7f72738a22fa

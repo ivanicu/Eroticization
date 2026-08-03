@@ -1,0 +1,32 @@
+  seed 1
+  seed 2
+  seed 3
+  seed 4
+  seed 5
+
+=== ONE FAMILY: (mean, sd) OF THE TOP-5% vs BREADTH b (blocks elevated per carrier) ===
+         mean      sd  mean_e    sd_e
+world                                
+cb     0.9556  0.2570  0.0025  0.0051
+b0     0.9556  0.2570  0.0025  0.0051
+b1     0.9613  0.2764  0.0027  0.0062
+b2     0.9714  0.3046  0.0026  0.0088
+b3     0.9839  0.3309  0.0028  0.0080
+b5     1.0199  0.3904  0.0039  0.0100
+b8     1.0954  0.4653  0.0093  0.0082
+b13    1.2608  0.5519  0.0071  0.0089
+b23    1.6490  0.4593  0.0076  0.0042
+real   1.0277  0.3004  0.0000  0.0000
+
+  CONDITIONAL KILL -- gates first
+   (a) b=0 reproduces the null exactly : PASS
+   (b) mean is monotone in b           : PASS  [0.9556, 0.9613, 0.9714, 0.9839, 1.0199, 1.0954, 1.2608, 1.649]
+   (c) the real mean is inside the range: PASS (real 1.0277, range [0.9556, 1.6490])
+
+   implied breadth b_hat = 5.31 of 23 blocks (23% of a carrier's domains)
+   sd predicted by the family at that mean: 0.3981   real sd 0.3004  (2x real spread 0.0000)
+   the real point LIES ON the family: NO -- real sd is off the curve
+   -> the real minority is not a uniform-intensity structure at ANY breadth; its sd
+      does not match what this family produces at its own mean.
+
+artifact sha1 28565562660c

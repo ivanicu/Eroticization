@@ -3262,3 +3262,43 @@ confound is removed.
 **Twenty-one mis-specified design elements now**, and this one is a new species: not a wrong
 threshold, not a leaky arm, but **a gate whose prose asserted a condition the code never tested.**
 The sentence "at comparable mean" was doing the work of a check.
+
+---
+
+## Entry 97, added by `E01·A11·R07`+`R08`+`R09` — the real minority is elevated more EVENLY than any discrete-carrier plant, and that is a different hypothesis than either of the two I was testing
+
+`#96` left the attachment-vs-carelessness question open because the two plants were not mean-matched.
+Three rounds to fix it, each caught by its own gate:
+
+| round | what its gate caught |
+|---|---|
+| `R07` | plants were built by **adding to the real matrix**, so every arm has mean ≥ real by construction and the real point can never lie on a curve. **22nd mis-specified design element** |
+| `R08` | rebased on the null — and the **spiky family saturates in mean at 0.976** (S2 0.9659 → S10 0.9759), because there are only 3 rare options per block and a carrier holding all of them cannot get more surprising. **I had parameterised the spiky arm on the axis that saturates. 23rd** |
+| `R09` | reparameterised on **breadth**, which does not saturate, turning two ladders that could never meet into one family |
+
+**One family, breadth `b` = blocks elevated per carrier, fixed intensity — all three gates pass:**
+
+| b | mean | sd |
+|---:|---:|---:|
+| 0 (= the null, exactly) | 0.9556 | 0.2570 |
+| 1 | 0.9613 | 0.2764 |
+| 2 | 0.9714 | **0.3046** |
+| 3 | 0.9839 | 0.3309 |
+| 5 | 1.0199 | 0.3904 |
+| 8 | 1.0954 | 0.4653 |
+| 23 (all) | 1.6490 | 0.4593 |
+| **real** | **1.0277** | **0.3004** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 97a | **the implied breadth by mean-matching** | **b̂ = 5.31 of 23 blocks (23%)** |
+| 97b | **…but the real point is OFF the curve** | At that mean the family predicts sd **0.3981**; the real sd is **0.3004** — short by 0.098, about **10× the family arms' own seed spread**. **The real minority has the MEAN of a b≈5 structure and the SD of a b≈2 one**: its elevation is spread far more evenly across a carrier's blocks than any uniform-intensity discrete-carrier plant produces |
+| 97c | **my "lies on the family" tolerance** | **MIS-SPECIFIED — the twenty-fourth.** It compared against the *real arm's* seed spread, which is **structurally zero**: the real matrix does not vary with the seed, so nothing in that arm can have spread. A tolerance of 0 makes every point "off the curve" and every point "resolvable". The legitimate uncertainty for a fixed dataset is a **bootstrap over people**, not a spread over seeds |
+| 97d | **the hypothesis this actually points at, which is neither of the two I was testing** | **A CONTINUUM, not a mixture.** In the plants the top-5% *is* the carrier group — a discrete subpopulation with block-specific elevation, hence high between-block sd. In the real data the top-5% is the **tail of a continuous distribution**, and selecting on the mean averages block-specific spikes away. Low sd at that mean is what a **gradient** looks like, not what a **distinct minority** looks like |
+
+**The fork this opens is ontological and it is the right one.** `#95` licensed "a minority concentrating
+on rare options". `#97d` says the word **minority** may be wrong — the same statistic is produced by a
+*continuum of rare-option affinity* with no distinct subgroup at all. Those are different objects,
+they imply different mechanisms, and the discriminating design is a **mixture plant vs a gradient
+plant**, matched on (mean, sd) and compared on the **shape of the whole distribution** rather than one
+tail quantile.
