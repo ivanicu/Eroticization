@@ -1,0 +1,19 @@
+targets 23  people 15379
+
+=== DIRECT INTERACTION MAGNITUDE (no estimator, no plant, no inversion) ===
+  real  - fixed-margin null : sigma_int = 0.00 pp
+  null  - fixed-margin null : 0.00 pp     <- must be ~0
+
+=== POSITIVE CONTROL: planted interactions of KNOWN realized sd ===
+  scale 0.05:  planted 10.68 pp   recovered  0.00 pp   ratio 0.00
+  scale 0.10:  planted 19.50 pp   recovered  0.00 pp   ratio 0.00
+  scale 0.20:  planted 30.88 pp   recovered  0.00 pp   ratio 0.00
+
+  CONDITIONAL KILL -- is #90's +/-23.7 pp validated by a direct measurement?
+   PASS  null minus null                             |+0.0000| < 0.5*|+0.0000| = 0.0000   (null is 0% of the effect)
+   PASS  recovery ratio across the plant ladder      signs consistent   ([0.0, 0.0, 0.0])
+   PASS  plant ladder monotone in planted magnitude  recovered [np.float64(0.0), np.float64(0.0), np.float64(0.0)]   (asserted in code, not in prose)
+   FAIL  direct sigma_int                            |+0.0000| > 2*0.0000 = 0.0000   (1.5x its own spread)
+   => UNVERIFIED, and that is not an acquittal
+
+artifact sha1 678bf3460e98

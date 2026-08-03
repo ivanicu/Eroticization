@@ -3569,3 +3569,40 @@ threshold, and its arms are checked for completeness (`#79e`'s).
 | its only external correlate surviving a matched null | **sex, +0.093** |
 | it tracks acquisition age | **WITHDRAWN** (`#102`) |
 | a *minority* structure carried by ≤30% of people | **still invisible to every variance-explained method** (`#91`) |
+
+---
+
+## Entry 105, added by `E01·A10·R19` — the direct measurement is algebraically impossible, which is why `#90` had to be indirect
+
+`#90`'s **±23.7 pp** is the top row of the README and the only number in the standing table that is
+**inferred through a model** rather than measured. `#90` named that asymmetry in its own scope
+paragraph. This step attacked it with what looked like a direct route: binomial noise is independent
+across cells, and curveball preserves **both** margins exactly, so `mean r²(real) − mean r²(null)`
+should cancel the noise and the person-estimation error and leave the interaction variance.
+
+**It returned exactly 0.00 pp — including on a planted world carrying 30.9 pp of interaction.**
+
+The reason is an identity, not a weak instrument. For a binary matrix with `p_j` the column mean and
+`b_i` an out-of-block person effect:
+
+| term of `mean_ij (M_ij − p_j − b_i)²` | fixed by |
+|---|---|
+| `mean(M²) = mean(M)` (M is 0/1) | margins |
+| `−(2/nm) Σ_j p_j · (column sum)_j` | **column sums** |
+| `−(2/nm) Σ_i b_i · (row sum)_i` | **row sums** |
+| `mean((p_j + b_i)²)` — contains no `M` | margins |
+
+**Every term is a function of the margins alone.** Verified numerically: three trials with
+31–35 pp of planted interaction, real MSR and null MSR agree to **machine precision, difference
+exactly 0.000e+00**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 105a | **this round's design** | **A DERIVATION, not a measurement — the `realstat` arithmetic trap, fired on my own step.** *Could this have come out otherwise?* No: the algebra forces it. Same class as `#69`, where the item main effect turned out to be forced by prevalence dispersion at R² = 0.994 |
+| 105b | **`#90`'s indirectness** | **VINDICATED, and upgraded from a caveat to a theorem.** `#90` did not use plant inversion out of convenience — **a margin-cancelling direct route provably does not exist.** The scope paragraph should now read *"inferred because direct estimation is algebraically impossible"*, not *"inferred, and that asymmetry is not removable here"* |
+| 105c | **the general law, which is worth more than the round** | **Any statistic that is a function of the margins alone is invisible to a margin-preserving null, at any interaction magnitude.** First moments of residuals are such statistics. Only statistics that are **not** margin-determined can see the interaction: a low-rank **fit** (`#88`), or the **distribution** of a per-person score across people (`#95`) — *its quantiles, never its mean* |
+| 105d | **what `105c` retroactively explains** | Why `#93`'s per-person misfit `T` died against the correct null (its mean is margin-determined); why `#95` had to read **p90/p95/p99** rather than the mean surprisal; why every early round that compared averages against a permutation null found nothing. **Three separate dead ends in this project were one theorem** |
+| 105e | **the gate library's report** | `lib/gates.py` printed 3 PASS and 1 FAIL on a run where every number was zero. `negative_control(0, effect=0)` passes vacuously, and `no_sign_crossing([0,0,0])` passes. **A degenerate-input guard is missing** — the library needs to refuse a comparison whose effect is exactly zero rather than evaluate it |
+
+**The sentence I can no longer write:** *"the interaction magnitude is inferred rather than measured,
+and a direct measurement would settle it."* **There is no direct measurement to run.**
