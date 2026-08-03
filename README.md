@@ -21,6 +21,14 @@
 > −0.0009 permutation null. **The epoch title is two questions:** as a variance claim it is FALSE
 > (prevalence is 9× larger); as a claim about what is domain-general it is SUPPORTED (only the person-side
 > readout crosses domains). Both are true at once.
+>
+> **[#73] The acquisition schedule is not purely global.** `#55`'s null was a power failure caused by a
+> `cap=20000` in my own code whose `break` exited the person loop (~2,000 of 12,459 people). With the cap
+> lifted: **77,329 pairs from 6,230 people**, neighbour−global **+0.90** at seed spread **0.29** (ratio 3.1),
+> resolvable in 8/12 cells, random-neighbour control clean in 12/12, MDE **0.5 years**. The point estimate
+> was unchanged from `#55` (+0.88 → +0.90) — only the noise moved. Individual variation is **~6% of the
+> orderable signal**, and it is predicted from **preference space**, so acquisition and valuation are
+> *mostly* separable but not *strictly* separable.
 
 # The Eroticization Operator
 

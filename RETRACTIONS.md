@@ -2376,3 +2376,50 @@ thin direction) are one fact seen three times, not three separate defeats.
 **The sentence I can no longer write:** *"the domain-general readout has K coordinates for some
 modest K."* Every K up to 32 buys real held-out prediction, and nothing in the sweep says where it
 stops.
+
+---
+
+## Entry 73, added by `E01·A03·R20` — the effect estimate never moved; the noise did, and it was a cap I wrote myself
+
+`#55` reported individual variation in acquisition order at **+0.88 points, seed spread 1.03, ratio
+0.85** and logged it as a low-power null. `#72` then showed the 8-dimensional person embedding it
+used discards most of the available signal. Re-running with the embedding widened and — the larger
+fault — **the pair cap removed**:
+
+`#55`'s accuracy function carried `cap=20000` with `if tot>=cap: break`, and that `break` exits the
+**person** loop. At ~10 pairs per person it stopped after roughly 2,000 of the available people.
+
+| | `#55` | `#73` |
+|---|---:|---:|
+| held-out pairs | 20,000 | **77,329** |
+| held-out people | ~2,000 | **6,230** |
+| neighbour − global | +0.88 | **+0.90** (median over 12 cells) |
+| seed spread | 1.03 | **0.29** |
+| ratio | 0.85 — unresolvable | **3.1 — resolvable** |
+
+**The point estimate is the same to two decimals.** `#55` measured the effect correctly and could
+not see it.
+
+| dim | k=400 | k=1000 | k=2500 |
+|---:|---:|---:|---:|
+| 8 | +0.730 | +0.849 | +0.598 |
+| 32 | **+1.015** | +1.007 | +0.698 |
+| 64 | +0.977 | +1.007 | +0.667 |
+| 68 (all) | +0.964 | +0.954 | +0.641 |
+
+**Controls.** Random-neighbour gap is clean in **12/12 cells** (−0.13 to −0.46, all inside their own
+spread). The graded positive control is monotone — a planted person-specific shift of 0.5 / 1 / 2
+years produces gaps of +2.81 / +5.03 / +9.14 — **does not fire at g=0**, and gives an **MDE of 0.5
+years**.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 73a | **`#55` "individual variation in acquisition order is not detectable"** | **OVERTURNED — it was a power failure, not a fact**, and the power was destroyed by a cap in my own code that silently truncated the person loop |
+| 73b | **`#62`/`#55`'s reading, "one global acquisition schedule"** | **WITHDRAWN.** A neighbour-fitted ordering beats the global one by **+0.90 points** in 8 of 12 specifications with clean controls throughout. Acquisition order is *mostly* global but **not purely** |
+| 73c | **the size, stated so it cannot be over-read** | Global ordering beats chance by **16.4 points** (50 → 66.4). The individual component adds **1.0 more** — about **6% of the orderable signal**, and equivalent to **under 0.3 years** of person-specific shift on the planted scale. Real, resolvable, and small |
+| 73d | **`A03`'s "acquisition and valuation are two systems"** | **DOWNGRADED, not overturned.** The individual component is predicted from **preference space** — the valuation side — so the two are not independent. What survives is that they are *mostly* separable; what does not is *strictly* separable |
+
+**Fourth instance of the same failure mode.** `#21`, `#26`, `#40`, `#50` were thresholds mis-set.
+This one is different and worse: **a sampling cap that made the design blind, written by me, never
+priced, and reported as a property of the world.** A null that comes from an unexamined `break` is
+the exact shape of `L11` — untested is not the same as null-survives.

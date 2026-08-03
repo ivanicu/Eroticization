@@ -1,0 +1,51 @@
+people >=6 onsets 12,459   categories 31   embedding pool 68
+  real dim=8 done
+  real dim=32 done
+  real dim=64 done
+  real dim=128 done
+  planted g=0.5 done
+  planted g=1.0 done
+  planted g=2.0 done
+
+=== POWER: 77,329 pairs from 6,230 held-out people (#55 used a cap of 20,000 pairs, ~2,000 people) ===
+
+=== THE GRID (5 seeds each) ===
+            glob      nb     rnd    gap  gap_sd   ctrl  ctrl_sd  resolvable  ctrl_clean
+dim k                                                                                  
+8   400   66.423  67.153  66.071  0.730   0.365 -0.353    0.882       False        True
+    1000  66.423  67.273  65.963  0.849   0.330 -0.461    0.475        True        True
+    2500  66.423  67.022  66.298  0.598   0.367 -0.126    0.339       False        True
+32  400   66.423  67.439  66.071  1.015   0.332 -0.353    0.882        True        True
+    1000  66.423  67.430  65.963  1.007   0.320 -0.461    0.475        True        True
+    2500  66.423  67.122  66.298  0.698   0.346 -0.126    0.339        True        True
+64  400   66.423  67.400  66.071  0.977   0.330 -0.353    0.882        True        True
+    1000  66.423  67.430  65.963  1.007   0.284 -0.461    0.475        True        True
+    2500  66.423  67.090  66.298  0.667   0.348 -0.126    0.339       False        True
+128 400   66.423  67.388  66.071  0.964   0.334 -0.353    0.882        True        True
+    1000  66.423  67.377  65.963  0.954   0.263 -0.461    0.475        True        True
+    2500  66.423  67.065  66.298  0.641   0.347 -0.126    0.339       False        True
+
+=== GRADED POSITIVE CONTROL (planted individual shift, in YEARS) ===
+       gap     sd   ctrl  fires
+g                              
+0.0  1.007  0.284 -0.461  False
+0.5  2.809  0.431 -0.191   True
+1.0  5.028  0.466 -0.020   True
+2.0  9.141  0.698  0.187   True
+
+  monotone in g: [1.007, 2.809, 5.028, 9.141]
+  MDE = 0.5 years of individual shift  (at dim=64, k=1000)
+
+  CONDITIONAL KILL -- gates first
+   (a) control does NOT fire at g=0        : PASS
+   (b) control fires at some planted shift : PASS
+   (c) random-neighbour control clean      : 12/12 cells
+
+   cells where the neighbour gap is resolvable AND the control is clean: 8/12
+   median gap over the whole grid: +0.902 points (2x seed spread 0.666)
+   best cell: +1.015 at (np.int64(32), np.int64(400))
+
+   -> INDIVIDUAL VARIATION DETECTED in 8 cells. #55's null was a POWER
+      failure, not a fact, and the 'one global schedule' reading must be withdrawn.
+
+artifact sha1 2ad321460270
