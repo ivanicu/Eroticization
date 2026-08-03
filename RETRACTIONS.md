@@ -3332,3 +3332,37 @@ sd(p95) = 0.0035.
 and 100%, intensity at the low end (1 swap), tuned so that **p50 stays at the null while p90 lifts by
 +0.034** — those two constraints together pin the fraction, because a larger fraction at lower
 intensity trades off along exactly that axis.
+
+---
+
+## Entry 99, added by `E01·A11·R12` — the check eleven rounds never ran: the distribution is symmetrically WIDER, not one-sidedly elevated
+
+Every round in this arc measured **p50 and upward**. `#94`/`#95` licensed *"a minority picks rarer
+options"*; `#98` bracketed its size; `#R11` found no carrier model fits, because every random-carrier
+plant lifts the median while the real p50 sits at zero. **A much simpler world produces all of that,
+and measuring it costs one line: what does the LOWER tail do?**
+
+**Real elevation above the fixed-margin null, across the whole range:**
+
+| p1 | p5 | p10 | p25 | **p50** | p75 | p90 | p95 | p99 |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **−0.0425** | **−0.0356** | **−0.0327** | **−0.0166** | **+0.0003** | +0.0160 | +0.0339 | +0.0527 | +0.0851 |
+
+Bootstrap sd (300 resamples over people): 0.0048 · 0.0027 · 0.0031 · 0.0022 · 0.0019 · 0.0019 ·
+0.0032 · 0.0037 · 0.0097. **The lower-tail depression is 11–13× its own sd** — as resolvable as the
+upper elevation, and pointing the other way.
+
+**Symmetry ratio (upper elevation ÷ lower depression) = +1.27.**
+
+| # | Claim | Verdict |
+|---|---|---|
+| 99a | **`#95`'s "a minority concentrating on rare options"** | **WITHDRAWN AS WORDED.** The distribution is **symmetrically wider** than its null: the top picks rarer options *and the bottom picks commoner ones*, by comparable amounts, with the median exactly unmoved. That is **a person-level trait with variance in both directions**, not a subgroup |
+| 99b | **what survives, and it is not smaller** | **A continuous person-level parameter of rare-option affinity, with real spread.** Some people systematically pick uncommon options; others systematically pick common ones; the fixed-margin null has neither. `#95`'s *existence* claim stands — the null cannot produce this — only the word *minority* fails |
+| 99c | **why eleven rounds missed it** | **The statistic was designed to find a tail, so every round looked at a tail.** `#91` framed the target as a minority invisible to variance-explained methods, `#92`–`#98` inherited that frame, and none of them printed a quantile below the median. **The frame chose the measurement, and the measurement could only confirm the frame** |
+| 99d | **my two controls in this round** | **BOTH BROKEN — the twenty-fifth mis-specified design element.** They selected a **random** quarter of people rather than a *ranked* one, so both lifted every quantile including p1 (+0.0105); and the width control's down-swap needed carriers to *hold* rare picks to give up, which people in a curveball null mostly do not. Gates (a) and (b) both fail, correctly |
+| 99e | **…and why `99a` stands anyway** | **The symmetry is a DIRECT MEASUREMENT of the real data against its own null — no model is fitted and no control is needed to read it.** What the broken controls forbid is the *formal* comparison of 1.27 against a calibrated pure-width prediction of 1.0. What they do not touch is that both sides moved, by 11–13× their bootstrap sd, in opposite directions |
+
+**And this lands on the project's original question.** A continuous person-level parameter governing
+*which* options are endorsed, independent of *how many*, is exactly the shape of Ivan's model B —
+`v_i(s,c,t) = w_i(c,t)ᵀ h(s)`, an individualised readout weight. Not a fetish-carrying subgroup; a
+**dimension everyone has a value on**.

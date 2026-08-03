@@ -1,0 +1,45 @@
+targets 23  people 15379
+  seed 1
+  seed 2
+  seed 3
+  seed 4
+
+=== BOOTSTRAP SD OF THE REAL QUANTILES (200 resamples over people) ===
+  p50 0.0018   p75 0.0019   p90 0.0032   p95 0.0036   p99 0.0102
+
+=== THE GRID, as ELEVATION ABOVE THE NULL ===
+               p50     p75     p90     p95     p99
+world                                             
+f0.0c0.25   0.0000  0.0000  0.0000  0.0000  0.0000
+f0.0c0.5    0.0000  0.0000  0.0000  0.0000  0.0000
+f0.0c1.0    0.0000  0.0000  0.0000  0.0000  0.0000
+f0.15c0.25  0.0131  0.0184  0.0262  0.0319  0.0538
+f0.15c0.5   0.0214  0.0371  0.0633  0.0879  0.1457
+f0.15c1.0   0.0268  0.0612  0.1968  0.2457  0.3591
+f0.1c0.25   0.0083  0.0122  0.0175  0.0208  0.0319
+f0.1c0.5    0.0139  0.0228  0.0408  0.0616  0.1103
+f0.1c1.0    0.0170  0.0346  0.1172  0.1998  0.3104
+f0.22c0.25  0.0193  0.0266  0.0360  0.0436  0.0719
+f0.22c0.5   0.0332  0.0574  0.0908  0.1163  0.1798
+f0.22c1.0   0.0426  0.1167  0.2498  0.2898  0.4057
+f0.32c0.25  0.0290  0.0410  0.0519  0.0607  0.0883
+f0.32c0.5   0.0521  0.0867  0.1238  0.1464  0.2166
+f0.32c1.0   0.0747  0.2325  0.2967  0.3388  0.4632
+f0.45c0.25  0.0423  0.0560  0.0666  0.0754  0.1120
+f0.45c0.5   0.0821  0.1227  0.1539  0.1756  0.2523
+f0.45c1.0   0.1491  0.2947  0.3355  0.3834  0.5015
+real       -0.0006  0.0166  0.0349  0.0537  0.0804
+REAL       -0.0006  0.0166  0.0349  0.0537  0.0804
+
+  best anchor match: f0.1c0.5  -> fraction 10% of people, elevated in 50% of their blocks
+     anchors (p50,p90) off by 9.8 bootstrap sd; HELD-OUT (p95,p99) off by 5.1
+
+  CONDITIONAL KILL -- gates first
+   (a) f=0 reproduces the null exactly     : PASS
+   (b) the grid separates on f (via p50)   : PASS (72.6 sd)
+   (c) the grid separates on c (via p90)   : PASS (66.8 sd)
+
+   -> NO FIT: the best (f,c) still misses the anchors by 9.8 sd. The
+      one-swap carrier model is wrong in SHAPE, not merely in size, and that is the finding.
+
+artifact sha1 ca341e00709b

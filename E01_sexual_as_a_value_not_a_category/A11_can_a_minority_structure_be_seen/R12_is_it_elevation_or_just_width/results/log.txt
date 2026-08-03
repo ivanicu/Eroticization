@@ -1,0 +1,25 @@
+  seed 1
+  seed 2
+  seed 3
+  seed 4
+
+=== ELEVATION ABOVE THE NULL ACROSS THE WHOLE QUANTILE RANGE ===
+             p1      p5     p10     p25     p50     p75     p90     p95     p99
+world                                                                          
+ONESIDE  0.0105  0.0167  0.0209  0.0310  0.0526  0.1549  0.2613  0.2975  0.4319
+WIDTH    0.0076  0.0117  0.0144  0.0225  0.0434  0.1504  0.2611  0.2972  0.4319
+real    -0.0425 -0.0356 -0.0327 -0.0166  0.0003  0.0160  0.0339  0.0527  0.0851
+
+  bootstrap sd: p1 0.0048  p5 0.0027  p10 0.0031  p25 0.0022  p50 0.0019  p75 0.0019  p90 0.0032  p95 0.0037  p99 0.0097
+
+=== SYMMETRY RATIO  (upper elevation) / (lower depression) ===
+  WIDTH    -21.34
+  ONESIDE  -14.86
+  real     +1.27
+
+  CONDITIONAL KILL -- gates first
+   (a) the PURE-WIDTH control returns ratio ~1  : FAIL (-21.34)
+   (b) the ONE-SIDED control returns ratio >> 1 : FAIL (-14.86)
+   -> UNVERIFIED, and that is not an acquittal.
+
+artifact sha1 82d64a8b477c
