@@ -2302,3 +2302,41 @@ epoch title asserted only one of them while sounding like it asserted both.
 the A-vs-B question** and the wrong object for a variance claim. `#67c` said their findings stand as
 findings about the interaction; `#70` upgrades that: **the interaction is the part of this data that
 distinguishes the two models at all.**
+
+---
+
+## Entry 71, added by `E01·A10·R03` — the domain-general structure keeps buying signal; the domain-specific one is one dimension deep and then noise
+
+`#70` refused the ordering `C > W` because `C` used 4 factors and `W` used 1. The fix is not a rank
+match but a **parameter count**, and here they are not the same thing:
+
+- `C` at rank k fits **k×m** loadings on the target block. **The person scores are free** — they
+  come entirely from the other 31 blocks and no target cell estimates them.
+- `W` at rank k fits **k×(n+m)** parameters on the target, both scores and loadings.
+
+Median across blocks: `df_C` = 18–144, `df_W` = 3,249–12,996. **`W` costs 22–800× more.**
+
+| | Kw=0 | Kw=1 | Kw=2 | Kw=4 |
+|---|---:|---:|---:|---:|
+| **C** at Kc=1 | 0.0132 | 0.0086 | 0.0081 | 0.0086 |
+| **C** at Kc=4 | 0.0288 | 0.0194 | 0.0183 | 0.0190 |
+| **C** at Kc=8 | **0.0359** | 0.0253 | 0.0237 | 0.0242 |
+| **W** (any Kc) | 0 | **+0.0078…+0.0138** | **−0.011…−0.018** | **−0.063…−0.070** |
+
+**`C` corrected against the person-permutation null, and it does not saturate:** 0.0133 (Kc=1) →
+0.0199 → 0.0296 → **0.0380 (Kc=8)**, with the null at −0.0001…−0.0021.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 71a | **domain-general exceeds domain-specific** | **CONFIRMED across the grid: 186 of 276 comparisons (67.4%) general, 32 (11.6%) specific, 58 (21.0%) not distinguishable** — every cell declared only above 2× its own seed spread |
+| 71b | **the cell that disagrees, published rather than buried** | at **Kc=1, Kw=1 — the RANK-matched cell — `W` wins**: +0.0152 vs +0.0075, 8 blocks specific against 6 general. **A rank match is the one comparison that favours `W`, and it is the comparison `#70` was about to make.** It buys that win with 200× the parameters |
+| 71c | **the shape of the difference, which is the actual finding** | **`W` is exhausted at rank 1 and goes negative at rank 2** (−0.011 → −0.070). **`C` grows monotonically to rank 8 and has not saturated.** The domain-general structure is multi-dimensional; the domain-specific structure is roughly one dimension deep and then noise |
+
+**What is now sayable:** the person-side readout is **not assembled per domain**. A single
+cross-domain structure, estimated without ever seeing the target block, predicts that block's cells
+better than a structure fit on the block itself — while spending two orders of magnitude fewer
+parameters there.
+
+**What is still not sayable:** how many cross-block dimensions there are. `C` is still rising at
+Kc=8 and the sweep stops there. That is the same non-saturation `#18` and `#49` hit from other
+directions, and it is now the arc's residual gap.
