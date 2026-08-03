@@ -2107,3 +2107,52 @@ preserves every row sum and every column sum **exactly**, so both main effects a
 construction* rather than in expectation, and it destroys the interaction and nothing else. It also
 buys a graded control `R02` could not have — running only a *fraction* of the mixing trades gives a
 dose axis with exact margins at every point. That is `R03`.
+
+---
+
+## Entry 67, added by `E01·A09·R03` — the epoch is named after the smaller of the two components, and the loader deleted the larger one first
+
+Fixed-margin randomisation (curveball) preserves **every row sum and every column sum exactly**
+(asserted per draw, not assumed), so both main effects are matched *by construction* and only the
+person×item interaction is destroyed. Running a *fraction* of the mixing trades gives a graded
+control with exact margins at every dose.
+
+**All gates pass, for the first time in this arc.**
+
+| gate | K=1 | K=2 |
+|---|---|---|
+| graded control monotone in dose | **PASS** `[+0.021, +0.004, −0.010, −0.029, −0.069]` | **PASS** `[−0.003, −0.029, −0.053, −0.080, −0.132]` |
+| not already at the floor at f=0 | **PASS** | **PASS** |
+| margins matched, per block (\|dI\| ≤ 0.01) | **23/32** | **23/32** |
+| median \|I_real − I_null\| | **0.0049** | **0.0061** |
+| median \|P_real − P_null\| | **0.0022** | **0.0034** |
+
+| | K=1 | K=2 |
+|---|---:|---:|
+| ITEM main effect `I` | **+0.2223** | **+0.2217** |
+| interaction, bias-corrected `X_c` | **+0.0671** | **+0.1137** |
+| ratio `X_c / I` | 0.302 | 0.513 |
+| gap `X_c − I` | **−0.1366** | **−0.1029** |
+| 2× seed spread | 0.0184 | 0.0242 |
+| blocks with `X_c > 0` | **23/23** | **23/23** |
+| blocks with `X_c > I` | 2/23 | 6/23 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 67a | **the interaction is real** | **CONFIRMED and resolvable.** `X_c > 0` in **23 of 23** identified blocks, and the gap from the fixed-margin floor is 3.6–5.6× its own seed spread. The naive negative numbers in `R01` were estimator bias, exactly as `#65a` said |
+| 67b | **`E01_sexual_as_a_value_not_a_category` — the epoch's own title** | **FALSE AS STATED.** The item main effect exceeds the bias-corrected interaction by −0.137 (K=1, **3.3×**) and −0.103 (K=2, **1.9×**), both **5–7× the seed spread**. It is not "a value, *not* a category". It is **both, with the category component the larger one** |
+| 67c | **the 105 rounds preceding this arc** | **SCOPED, not retracted.** Every one of them ran on `R = M − M.mean(0) − M.mean(1)`, i.e. on the smaller component, after the larger had been deleted on line 1. Their findings stand *as findings about the interaction*. What none of them may claim is that the interaction is what this survey is mostly made of |
+
+**The honest limit, and it is the live threat.** `X_c` is **K-dependent and rising** (0.067 → 0.114
+from K=1 to K=2) because the estimator's overfit penalty grows faster on the null than on the real
+matrix. The ordering holds at both K tested, by 4–7× the spread — but **an extrapolation to higher
+K is not licensed by two points**, and if `X_c` kept rising at that rate it would cross `I` near
+K≈4. That is not a caveat to file; it is the next round.
+
+**Why 9 blocks fail the margin match when curveball preserves margins exactly.** They do not — the
+per-draw assertion on row and column sums passed for all 32. `dI` is **sampling noise in the
+masked-cell estimate** of the column means, and it is larger in small blocks. Dropping those 9 is
+conservative: it removes noisy blocks, never adds favourable ones.
+
+**The sentence I can no longer write:** *"in this data, sexual interest is a value assigned to
+ordinary content rather than a content category"* — the content category is the bigger half.

@@ -1,3 +1,11 @@
+> ⚠ **THE EPOCH TITLE IS FALSE AS STATED [#67].** `E01_sexual_as_a_value_not_a_category` names the
+> SMALLER of the two components. Against a fixed-margin null with exact margins, the ITEM main effect is
+> **+0.222** held-out R² and the bias-corrected interaction is **+0.067 (K=1) / +0.114 (K=2)** — a gap of
+> 1.9–3.3×, at 5–7× the seed spread. The interaction is REAL (positive in 23/23 identified blocks) but it
+> is not the larger half. Every round before `A09` ran on `R = M − M.mean(0) − M.mean(1)`, i.e. on the
+> interaction, **after the larger component was deleted on line 1 of the loader.** Those findings stand as
+> findings about the interaction; none of them may claim it is what this survey is mostly made of.
+
 # The Eroticization Operator
 
 **Is "sexual" a content category the brain detects, or a value the brain assigns to ordinary
