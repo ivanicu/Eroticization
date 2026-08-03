@@ -298,3 +298,44 @@ Averaging them, or trusting whichever ran first, would have landed anywhere.
 
 **UNVERIFIED is the verdict that obliges a re-run**, and this is the first time in the project that
 obligation has been discharged rather than deferred.
+
+---
+
+## Entry 23, added by `E01·A05·R10` — the ceiling was real, the number behind it was not what I forecast
+
+`ADVERSARY_FORECAST` #6, p=0.35: *"breadth's 0.557 reliability makes θ's 'no external correlate'
+partly a ceiling, and a better-measured θ would show the adversity correlations at 0.15 rather than
+under 0.09."*
+
+Tested by building θ on a **measured reliability ladder** (composites of 1–6 breadth indicators,
+reliability 0.62–0.89) rather than dividing once by a single alpha. Classical test theory predicts
+`r_obs = r_true · √rel`, so **`r_obs/√rel` must be flat if a ceiling is operating**.
+
+**It is flat — drift −7% from the lowest to the highest reliability rung.** The measurement model
+holds, so the disattenuated values are estimates rather than extrapolations off a single point:
+
+| target | r_true (= r_obs/√rel) | previously reported |
+|---|---:|---|
+| pornhabit **(positive control)** | **0.22** | r rises 0.180 → 0.217 across rungs exactly as √rel predicts |
+| childhood adversity | **0.105** | "bounded under 0.09 disattenuated" |
+| mental illness | **0.099** | 0.054 |
+| openness | **0.090** | *"sign flips across specifications, unreportable"* |
+| spanked as a child | 0.037 | −0.000 |
+| adult sexual assault | 0.033 | 0.020 |
+| **NULL row-parity** | **0.000** | — |
+| **NULL coin-flip** | **0.010** | — |
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 23 | **"θ is nearly domain-encapsulated; all 15 non-sexual variables jointly R² = 0.012; adversity bounded under 0.09 disattenuated"** — already partly retracted by #17, which showed the gated outcome and the progression control were doing the work | The reliability ladder. A ceiling *was* operating, and it was worth roughly a factor of two: adversity 0.105, mental illness 0.099, openness 0.090. The negative controls confirm the ladder is not simply inflating everything — row-parity sits at **0.000** and coin-flip at **0.010** across all six rungs | **The size, restated once more and now pinned rather than bounded.** These are ~1% of variance each. "Essentially no support" was wrong; "large" would also be wrong. Three rounds have now moved this quantity — 0.016 (over-controlled) → 0.059 (ungated, #17) → **0.105 (reliability-corrected)** — and each move was a measurement error of mine, not new data |
+
+**Openness is the one I owe most.** In `A05` I wrote that its sign flipped across specifications
+and was therefore unreportable. With θ measured properly it is a stable **+0.090** at every rung.
+The instability was in my θ, not in openness — **I attributed my own measurement noise to the
+variable I was measuring against**, which is the same error as blaming a scale for a wobbly table.
+
+**Forecast scoring.** #6: **CORRECT on mechanism** — a reliability ceiling was operating and I had
+said so at p=0.35 — **WRONG on magnitude**, 0.105 against the 0.15 predicted. Four of seven now
+scored: #2 direction-only, #3 fully correct, #4 half, #6 mechanism-only. **The forecast file has
+been right about *what* would break every time and wrong about *how much* three times out of four**,
+which is itself a calibration fact worth more than any single entry.
