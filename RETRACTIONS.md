@@ -2651,3 +2651,41 @@ person-specific readout would differ from a base rate."*
 **Two mis-specified gates in one round, both from bundling.** `79e` bundled two estimators into one
 check; `79f` bundled two components into one threshold. Neither threshold was wrong about its own
 quantity — both were applied to a **sum that hides a sign**.
+
+---
+
+## Entry 80, added by `E01·A10·R09` — the metric that flatters the interaction before bias correction is the one that flatters it least after
+
+`#79c` named its own weakest specification and sent this round at it: **L1 is the only loss under
+which the within-block interaction `W` is positive**, so if the item-vs-interaction ordering flips
+anywhere, it flips there. Rank swept under L1 with a **per-block fixed-margin (curveball) floor**,
+margins asserted exact per draw.
+
+| Kw | `W` L1 | L1 floor | **L1 corrected** | `W` Brier | Brier floor | **Brier corrected** |
+|---:|---:|---:|---:|---:|---:|---:|
+| 1 | +0.0551 | +0.0005 | +0.0546 | +0.0149 | −0.0696 | +0.0845 |
+| 2 | +0.0710 | −0.0017 | +0.0727 | −0.0101 | −0.1322 | +0.1221 |
+| **4** | **+0.0833** | −0.0126 | **+0.0959** | −0.0648 | −0.2412 | **+0.1765** |
+| 8 | +0.0519 | −0.0267 | +0.0786 | −0.1501 | −0.2866 | +0.1365 |
+
+| loss | Kw | item | interaction | gap | blocks item / interaction / tied |
+|---|---:|---:|---:|---:|---|
+| Brier | 1 | +0.2192 | +0.0206 | +0.2155 | 21 / 1 / 1 |
+| Brier | 8 | +0.2146 | −0.1484 | +0.3474 | 23 / 0 / 0 |
+| L1 | 1 | +0.1968 | +0.0557 | +0.1525 | 21 / 2 / 0 |
+| **L1** | **4** | **+0.1917** | **+0.0931** | **+0.1080** | **20 / 3 / 0** |
+| L1 | 8 | +0.1873 | +0.0547 | +0.1244 | 22 / 0 / 1 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 80a | **`#79b`, "the ordering is scale-free"** | **STANDS, now with the rank axis crossed against the loss axis.** The item effect wins at **every rank under both losses**. Its narrowest margin anywhere in this project is **L1 at Kw=4: 2.06×, and that gap is still 21.3× its own seed spread**, with 20 of 23 blocks on the item side |
+| 80b | **`#79c`, "L1 is the loss most favourable to the interaction"** | **TRUE OF RAW NUMBERS, FALSE AFTER CORRECTION — and this reverses one round after I wrote it.** L1's fixed-margin floor sits near zero (+0.0005 to −0.027) while Brier's is strongly negative (−0.070 to −0.287). Corrected, **Brier reports 1.8× MORE within-block interaction than L1** (+0.1765 vs +0.0959). L1 looked favourable only because it barely penalises the estimator's overfit, so its raw number needed almost no correction |
+| 80c | **`W`, the within-block interaction, itself** | **REAL at every rank under both losses.** It clears its own fixed-margin floor in all 8 cells. `#71`'s "exhausted at rank 1 and negative at rank 2" was a statement about the **uncorrected** Brier number; corrected, `W` peaks at **Kw=4** under both losses. The *ordering* in `#71` is unaffected — `C` was corrected there and `W` was not, which made `#71` conservative in the direction it concluded |
+| 80d | **`worst.item` → `Series.item()`** | **THIRD pandas accessor collision** after `T.shift` (`#74`) and `D.mode` (`#77`). By `P7`, three of the same bug is infrastructure, not a third patch: **no column in this project may be named after a DataFrame or Series method.** `item`, `mode`, `shift`, `count`, `size`, `min`, `max`, `sum`, `mean`, `std`, `rank`, `pop`, `all`, `any`, `abs`, `where`, `mask`, `first`, `last`, `div`, `pow`, `T` |
+
+**The general lesson in `80b`, which is worth more than the L1 result.** A loss that reports a
+*larger raw* effect for a component is not a loss that is *more sensitive* to it — it may simply be
+a loss that penalises the estimator less. **The comparison between metrics is only meaningful after
+each is referred to its own null**, and this project spent two rounds reading raw cross-metric
+numbers before doing that. The same error shape as `#65a`: a raw number compared across
+specifications whose floors differ.

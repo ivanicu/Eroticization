@@ -1,0 +1,62 @@
+targets 23
+  1/23
+  2/23
+  3/23
+  4/23
+  5/23
+  6/23
+  7/23
+  8/23
+  9/23
+  10/23
+  11/23
+  12/23
+  13/23
+  14/23
+  15/23
+  16/23
+  17/23
+  18/23
+  19/23
+  20/23
+  21/23
+  22/23
+  23/23
+
+=== W AND ITS FIXED-MARGIN FLOOR, BY RANK AND LOSS ===
+      W_l1  W_l1_null  W_brier  W_brier_null    I_l1    C_l1  W_l1_corrected  W_brier_corrected
+Kw                                                                                             
+1   0.0551     0.0005   0.0149       -0.0696  0.1908  0.0084          0.0546             0.0845
+2   0.0710    -0.0017  -0.0101       -0.1322  0.1900  0.0080          0.0727             0.1221
+4   0.0833    -0.0126  -0.0648       -0.2412  0.1867  0.0076          0.0959             0.1765
+8   0.0519    -0.0267  -0.1501       -0.2866  0.1809  0.0078          0.0786             0.1365
+
+=== NEGATIVE CONTROL: person-permuted C, both losses ===
+       l1_C  brier_C
+Kw                  
+1   0.00005 -0.00072
+2   0.00003 -0.00069
+4   0.00003 -0.00057
+8   0.00007 -0.00058
+
+=== THE ORDERING PER (rank, loss), 2x that cell's own seed spread ===
+ loss  Kw      I       X    gap  spread2  item  inter  tied
+brier   1 0.2192  0.0206 0.2155   0.0138    21      1     1
+brier   2 0.2183  0.0030 0.2204   0.0187    23      0     0
+brier   4 0.2091 -0.0554 0.2588   0.0175    23      0     0
+brier   8 0.2146 -0.1484 0.3474   0.0254    23      0     0
+   l1   1 0.1968  0.0557 0.1525   0.0083    21      2     0
+   l1   2 0.1967  0.0769 0.1313   0.0105    20      2     1
+   l1   4 0.1917  0.0931 0.1080   0.0101    20      3     0
+   l1   8 0.1873  0.0547 0.1244   0.0139    22      0     1
+
+  CONDITIONAL KILL -- gates first
+   (a) W exceeds its own fixed-margin floor under L1 somewhere : PASS (max corrected +0.0959 at Kw=4)
+   (b) person-permuted C ~0 under both losses                   : PASS (l1 +0.00004, brier -0.00064)
+
+   L1, worst cell for the item effect: Kw=4  I +0.1917 vs interaction +0.0931, gap +0.1080 (2x spread 0.0101)
+Traceback (most recent call last):
+  File "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R09_rank_sweep_under_l1/run.py", line 199, in <module>
+    print(f"   blocks: item {int(worst.item)} / interaction {int(worst.inter)} / tied {int(worst.tied)}")
+                             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'method'
