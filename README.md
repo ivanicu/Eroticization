@@ -38,7 +38,7 @@ coordinates entirely.
 
 | what | number | scope |
 |---|---:|---|
-| shared cross-domain grammar, held-out CCA | **0.272** vs 0.055 floor | 321 block pairs, ≥600 common people |
+| shared cross-domain grammar, held-out CCA | **0.269 ± 0.014** vs 0.051 floor | 306 block pairs, ≥600 common people, 6 seeds. **[RESOLVABLE — RETRACTIONS #37]** ratio 19.6 |
 | …surviving sex/age/personality/orientation removal | **0.200** | pairwise-block CCA, max over 3 components, median of 321 pairs. **[#35 withdrawn by #36]** the 0.149 figure was a different estimand (half-split factor CCA), not a discrepancy |
 | coordinates surviving a block split-half | **WITHDRAWN — see RETRACTIONS #18** | count tracks K (4→4, 24→16, non-saturating); what survives is the profile's height above floor, 30–50× |
 | correlation of those coordinates with the folk top/bottom axis | **≤0.159** | six coordinates, n=6,717 |

@@ -876,3 +876,39 @@ valid — as statements about the half-split factor CCA, which is what they meas
 
 **Both corrections were found by reading code, not by running anything.** Thirty-six entries in,
 the cheapest instrument in this project remains opening the file that produced the number.
+
+---
+
+## Entry 37, added by `E01·A08·R03` — the headline reproduces and is resolvable; the positive control I wrote for it is degenerate
+
+`#36` established that the resolvability audit had measured a quantity nobody published. Redone on
+the estimand that actually carries the headline — pairwise-block CCA, `nc=min(3,…)`, max over
+components, median across 306 pairs — at **6 seeds**:
+
+| | median | seed spread | ratio | published |
+|---|---:|---:|---:|---:|
+| raw | **0.2686** | 0.0137 | **19.6** | 0.273 |
+| demographics-removed | **0.1980** | 0.0169 | **11.7** | 0.200 |
+| permuted null | 0.0509 | 0.0015 | — | 0.055 |
+
+**Both headline values reproduce inside their own seed spread**, the null lands where it was
+published, and both are **RESOLVABLE** by `#34`'s criterion at ratios of 12–20 — an order of
+magnitude clear of the bar that modality failed.
+
+**But the positive control is degenerate, and I am recording that rather than banking a pass.** I
+split a block against itself — two halves of its own options — and it returned **exactly 1.0000**.
+That is not the pipeline detecting alignment: the block residual matrix is **row-centred**, so each
+person's option values sum to zero, which forces `sum(half₁) = −sum(half₂)`. A linear combination of
+one half predicts a combination of the other *by construction*, and CCA finds it. **Same failure as
+`#21`** — a control whose value is fixed by the centring geometry rather than by the data — and I
+built it two weeks of rounds after writing that lesson down.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 37 | **cross-domain CCA 0.273 raw / 0.200 adjusted** | **RESOLVABLE and reproduced**, with seed spreads of ±0.014 and ±0.017 now attached. The verdict rests on the seed-spread measurement and the permuted null (0.051, a quarter of the adjusted value), **not** on the positive control, which is uninformative |
+
+**What a real positive control here would be:** two blocks known to be near-duplicates — precum and
+ejaculate, which correlate at 0.729 on their role scores (`A02·R21`) — should return a high but
+**sub-unity** canonical correlation. Unity is the signature of a constraint, not of a strong effect,
+and any control that returns exactly 1.0000 should be assumed broken before it is assumed
+impressive.
