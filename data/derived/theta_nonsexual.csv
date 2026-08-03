@@ -1,0 +1,16 @@
+variable,n,rho,p,var_pct
+pornhabit,15503,0.0756,4.5e-21,0.57
+monogamous,15500,-0.0353,1.1e-05,0.12
+powerlessness,15503,0.0268,8.6e-04,0.07
+has any mental illness,15503,0.0226,4.9e-03,0.05
+conscientiousness,15503,-0.0203,1.1e-02,0.04
+childhood gender tolerance,15492,0.0198,1.4e-02,0.04
+openness,15503,-0.0192,1.7e-02,0.04
+any childhood adversity,15503,0.0163,4.2e-02,0.03
+extroversion,15503,-0.0125,1.2e-01,0.02
+agreeableness,15503,-0.0116,1.5e-01,0.01
+lifetime partner count,15263,0.0113,1.6e-01,0.01
+neuroticism,15503,-0.0035,6.6e-01,0.0
+upbringing liberated,15496,-0.003,7.1e-01,0.0
+adult sexual assault victim,15500,0.0005,9.5e-01,0.0
+spanked as a child,15496,-0.0003,9.7e-01,0.0
