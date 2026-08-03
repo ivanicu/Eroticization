@@ -34,7 +34,7 @@ line 1 — so 105 rounds described one half without ever measuring the other.
 | **① Variance composition** — what is this survey mostly made of? | **Option prevalence**, by a wide margin. Item +0.222 held-out R² vs person breadth +0.085 vs interaction +0.019 (prediction) / +0.063 (detection) | `#67` `#68` |
 | …and is that a *content* finding? | **No — it is a DERIVATION.** The item effect is forced by prevalence dispersion (R² = 0.994, slope 0.988) and is blind to prevalence *shape* in 23/23 blocks. **Within a block, base rate and content are the same number**, so this contrast cannot adjudicate A vs B at all | `#69` |
 | **② Domain-generality** — what crosses content domains? | **Only the person-side readout.** No option is shared between blocks, so the item side contributes **0 by construction**; the measured person-side transfer is **+0.029 at rank 32** — restated down from +0.0635 by `#77`, which showed **43% of it was the gated survey tree** and 25% ordinary demographics — resolvable in **22/23 blocks** against a −0.002 permutation null | `#70` `#72` `#76` `#77` |
-| …is it domain-general or a pile of domain-specific tastes? | **General.** Across a 12-cell grid: **186/276 comparisons favour cross-block over within-block**, 32 favour within, 58 tie — and the cross-block model spends **22–800× fewer parameters** on the target. Within-block structure is exhausted at rank 1 and goes negative at rank 2 | `#71` |
+| …is it domain-general or a pile of domain-specific tastes? | **MOSTLY DOMAIN-SPECIFIC [#82 — `#71` inverted].** Referred to their own nulls in one run, within-block structure is **0.064–0.163** against cross-block **0.002–0.012** — **7–26× larger**, in **201/207** comparisons, none the other way. `#71`'s 186/276 was the **−0.135 handicap** it gave the specific side by leaving it uncorrected. The cross-block part is far more **parameter-efficient** (18–144 vs 3,249–12,996) but far **smaller**, and `#71` asserted the second on evidence for the first | `#71` `#81` `#82` |
 | …how many coordinates does it have? | **The question presupposes a cliff the object does not have.** A calibrated estimator finds knees at exactly 2 and 5 in known-rank worlds, with a **141–147× drop**. On real data the sharpest drop anywhere is **1.8×** — a smoothly decaying spectrum, still gaining at rank 32 | `#72` |
 
 > **The standing caveat on ② [#77].** People appear together in blocks because they cleared the same
@@ -44,7 +44,7 @@ line 1 — so 105 rounds described one half without ever measuring the other.
 > *ordering* results (`#71`, `#72`) are unaffected — they use the same scores on both sides, and the
 > no-cliff result is about the spectrum's shape, not its height.
 
-**So: model B is what survives, but not as "sexual is not a category."** The honest statement is
+**So: model B is what survives, but not as "sexual is not a category" and not as a domain-general operator.** The honest statement is
 that *content* explains the most variance and explains it **block by block with no transfer**, while
 the *individualised readout* explains far less and is **the only thing that crosses domains**. Both
 are true simultaneously. The epoch's own title asserted one and sounded like it asserted both.

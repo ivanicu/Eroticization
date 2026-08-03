@@ -2715,3 +2715,41 @@ does exist runs the **opposite way**:
 `#71` is the load-bearing claim of arc `A10` — the README's "domain-general" row cites it — so it is
 **flagged `AT RISK` and not yet withdrawn**. The symmetric run is the next round, and it is designed
 to be able to overturn `#71` rather than to defend it.
+
+---
+
+## Entry 82, added by `E01·A10·R10` — #71 inverts: the person-side readout is mostly assembled PER DOMAIN
+
+`#81` flagged `#71` `AT RISK` because it compared a nearly-unbiased `C` against a severely
+under-reported `W`. Symmetric run, both sides referred to their own nulls in the same run, same
+`Kc × Kw` grid:
+
+| Kc | Kw | `C` raw | `C` null | **`C` corrected** | `W` raw | `W` null | **`W` corrected** | gap raw | **gap corrected** |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 1 | 0.0028 | −0.0001 | **0.0030** | 0.0168 | −0.0681 | **0.0849** | −0.014 | **−0.082** |
+| 4 | 2 | 0.0061 | −0.0007 | **0.0068** | −0.0101 | −0.1347 | **0.1246** | +0.016 | **−0.118** |
+| 8 | 4 | 0.0103 | −0.0014 | **0.0117** | −0.0666 | −0.2429 | **0.1763** | +0.077 | **−0.165** |
+
+**Both gates pass.** Each null moves its own quantity (|ΔC| = 0.0073, |ΔW| = 0.1287); margins
+asserted exact on every curveball draw. And the **doubly-destroyed world** — fixed-margin randomised
+*and* person-permuted — returns **corrected C = −0.0003 and corrected W = +0.0001**, so neither
+correction manufactures signal by subtracting a too-negative floor.
+
+| | `#71` as published | `#82` symmetric |
+|---|---|---|
+| domain-**general** larger | **186** (67.4%) | **0** (0.0%) |
+| domain-**specific** larger | 32 (11.6%) | **201** (97.1%) |
+| not distinguishable | 58 | 6 |
+| median gap | +0.016 | **−0.118** |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 82a | **`#71`, "domain-general beats domain-specific, 186/276"** | **WITHDRAWN, AND INVERTED.** Corrected, the within-block structure is **0.064–0.163** against cross-block **0.002–0.012** — **7× to 26× larger**, in **201 of 207** comparisons, none the other way. The 186/276 margin was entirely the **−0.135 handicap** `#71` handed the specific side |
+| 82b | **`#71`'s parameter argument, which is not what was wrong with it** | **STILL TRUE, and now clearly a different claim.** `C` spends 18–144 target parameters to `W`'s 3,249–12,996. So the cross-block structure is far more **parameter-efficient** while being far **smaller**. `#71` asserted the second on evidence for the first — *efficient* and *larger* are not the same word |
+| 82c | **the A-vs-B reading this changes** | **The person-side readout is mostly assembled PER DOMAIN.** `#70` said only the person side crosses blocks — still true, the item side is 0 there by construction. But the transferable part is **a small fraction of the person-side structure**, not its bulk. "A general eroticization operator" is substantially weaker than arc `A10` had been reporting |
+| 82d | **what is NOT affected** | `#72`'s no-cliff result (about `C` alone, and `C` is corrected there) · `#69`'s derivation finding · `#79b`/`#80a`'s scale-freeness of the item-vs-interaction ordering · `#70`'s two-question split. Only the **general-vs-specific ranking** falls |
+
+**This retraction exists because `#81` corrected `#80c`.** `#80c` asserted `#71` was conservative in
+the direction it concluded; one `grep` showed the opposite; the round that followed overturned `#71`
+outright. **A memory-sourced sentence about my own prior work was the only thing standing between
+this project and a false headline it would have kept.**
