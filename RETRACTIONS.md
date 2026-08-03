@@ -380,3 +380,45 @@ passed.
 **What this costs.** Every previous retraction here moved a peripheral number. This one moves the
 sentence I would have led with. Two of the three axes share more than a third of their variance,
 and the third cannot be measured well enough in this release to place at all.
+
+---
+
+## Entry 25, added by `E01·A01·R13` — the foundation, attacked for the first time, survives at half size
+
+Everything in this project descends from the leave-one-block-out result: person factors fitted on
+31 domains predict which options a person endorses in a domain the factors never saw, **32/32
+blocks positive, median gain +0.0340**. Its only control had been a permuted-factor null, which
+`R08` taught is precisely the sort of null that can be unfit.
+
+**The confound, written before running.** The factors mean-impute every block a person did not
+enter, so a person's factor vector partly encodes **which blocks they entered** — their coverage
+pattern — and coverage correlates with breadth, which correlates with within-block profile shape.
+The factors could win with no cross-domain grammar at all, carrying only the gating tree's shadow.
+
+| baseline | median gain | blocks positive | permuted floor |
+|---|---:|---:|---:|
+| propensity *(as originally reported)* | **+0.0373** | 97.9% | −0.0025 |
+| + n_blocks | +0.0336 | 97.9% | −0.0027 |
+| + coverage principal components | +0.0237 | 97.9% | −0.0025 |
+| **+ full coverage, all 32 indicators** | **+0.0170** | **31/32** | −0.0023 |
+
+**Positive control:** hand a block its *own* factors and the gain is **+0.7915** — the instrument
+detects grammar decisively when grammar is present, so a small number here is a small effect and
+not a blind test.
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 25 | **"Person factors from 31 domains predict a domain they never saw, 32/32 blocks, median gain +0.0340"** — the foundation | Coverage. Putting all 32 block-entry indicators in the baseline removes **54%** of the gain. My pre-registered kill lands mid-band (0.010 < 0.0170 < 0.020) → **UNVERIFIED on magnitude** | **The sign, decisively.** 31 of 32 blocks stay positive against a floor of −0.0023; under a null of 50% that is p ≈ 1e-8. The effect is real and roughly half what I reported |
+
+**And the correct output is a bound, not a point — for the same reason as #17.** Coverage is not
+purely a confound: *which blocks you enter is itself an expression of what you like*, so putting
+all 32 indicators in the baseline removes real grammar along with the artifact. That makes
+**+0.0170 a lower bound and +0.0373 an upper bound**, and the truth is somewhere between depending
+on how much of coverage is mediator rather than nuisance. **This is the third time in this project
+that a control has turned out to be a mediator** — #17 (survey progression), #25 (coverage), and
+the matching in #12. Each time I reached for the control first and asked what it was second.
+
+**Standing correction to my own practice, since three instances is a pattern rather than an
+accident: before entering any variable as a control, state whether the treatment could cause it.
+If it could, the controlled estimate is a lower bound and must be reported as one half of an
+interval, never as the answer.**

@@ -64,8 +64,7 @@ item base-rate reliability **0.999**. The noise injection did not destroy indivi
 
 **[R02 · is there a shared grammar](A02_is_there_a_shared_grammar)** — Yes, and the first two
 instruments could not see it. PC1-vs-PC1 gave 0.064 (retraction #2); held-out CCA gave 0.272 vs a
-0.055 floor; leave-one-block-out gave **32/32 blocks positive**, median gain +0.0340 against a
-−0.0029 floor. Factors learned from 31 domains predict a domain they never saw.
+0.055 floor; leave-one-block-out gave **32/32 blocks positive**, median gain +0.0340 against a −0.0029 floor. **[BOUNDED — RETRACTIONS #25]** with all 32 coverage indicators in the baseline the gain is +0.0170 and 31/32 blocks stay positive; coverage is partly a mediator, so the honest statement is a bound of **[+0.017, +0.037]**. Factors learned from 31 domains predict a domain they never saw.
 
 **[R03 · naming the coordinates](A03_naming_the_coordinates)** — Four coordinates survive a
 **block** split-half (not a person split-half — the question is whether a coordinate is
