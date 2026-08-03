@@ -592,3 +592,43 @@ is not merely absent, it is below the floor that arbitrary shared variance provi
 Conditional kill returns **UNVERIFIED** on the opposition question as posed (+0.063 sits between the
 0.05 and 0.15 thresholds). The *contrast* between +0.479 and +0.063, both measured against a
 +0.005 null, is what this round actually establishes.
+
+---
+
+## Entry 30, added by `E01·A02·R22` — the sharpest fact in the project was one cell of a specification curve
+
+`R21` established, as the project's cleanest structural result: the role feature transfers
+male↔neutral at +0.479 and male↔female at +0.063, below even a non-role sham (+0.266). I named
+orientation as the rival. The blunter rival I had missed: **"ejaculating myself" requires a penis,
+"squirting myself" requires a vulva** — so on gendered substances the self-pole is gated by the
+respondent's own body, in opposite directions for the two classes, with no role content involved.
+Neutral substances have no such gate, which is exactly why they bridge both sides.
+
+Two orthogonal fixes, gate passed first (male–neutral stays >0.20 under every fix, min +0.350; all
+permutation nulls ≤ |0.014|):
+
+| specification | **male–female** | male–neutral | female–neutral | n | null |
+|---|---:|---:|---:|---:|---:|
+| all, as `R21` | **+0.063** | +0.479 | +0.296 | 1,457 | +0.004 |
+| men only | **+0.233** | +0.506 | +0.393 | 769 | +0.011 |
+| women only | **+0.097** | +0.350 | +0.218 | 688 | −0.014 |
+| drop the *produce* act | **−0.204** | +0.484 | +0.184 | 1,457 | +0.000 |
+| men only, drop *produce* | **+0.082** | +0.528 | +0.335 | 769 | −0.001 |
+
+| # | The claim | Verdict |
+|---|---|---|
+| 30 | **"male–female transfer is +0.063, below the sham"** — `R21`'s headline, called the sharpest surviving structural fact one round earlier | **NOT IDENTIFIED.** The quantity ranges **−0.204 to +0.233** across five defensible specifications. The two fixes push in *opposite* directions — sex-stratifying raises it, dropping the body-gated act reverses its sign — and their combination lands back near the original. +0.063 was one cell of a curve I had not run |
+
+**What survives, and it is the comparison rather than the point.** Across all five specifications
+the role feature transfers **male↔neutral at +0.35 to +0.53**, against a sham that sits at +0.24–0.27
+and barely moves. So:
+
+- **male↔neutral: role beats sham by 2× in every specification** — robust
+- **male↔female: role never beats sham in any specification** (+0.233 vs +0.242 at closest) — also robust, and it is a statement about a *contrast*, not a coefficient
+
+**The lesson is that I promoted a number one round after building the tooling that would have caught
+it.** `R14`–`R15` established that this project's headline quantities move with unswept analyst
+choices; `R21` then produced a single-specification number and I called it the sharpest fact in the
+project in the same commit. **A specification curve is not a step you run on suspicious results — it
+is the unit in which a result is stated**, and thirty entries in I am still writing point estimates
+first and curves second.
