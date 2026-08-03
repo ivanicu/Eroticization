@@ -1,0 +1,35 @@
+  25 pairs
+  50 pairs
+  75 pairs
+  100 pairs
+  125 pairs
+  150 pairs
+
+=== 150 对   同类 67  跨类 83 ===
+            n     gap    first       e      se
+kind                                          
+cross  1385.0  4.7959  13.0838 -0.0188  0.0019
+same   1319.0  4.6870  13.1371  0.0058  0.0035
+
+=== 对间剂量斜率(已含 log n 作协变量) ===
+ kind  dose   slope     sd   ratio
+ same   gap -0.0061 0.0036 -1.6852
+ same first  0.0109 0.0029  3.7874
+cross   gap -0.0033 0.0017 -1.9951
+cross first  0.0027 0.0016  1.7148
+
+=== 正对照 ===
+  种剂量: 斜率 +0.0117 ± 0.0050 (2.3x)   平种植: 斜率 +0.0052 ± 0.0045 (1.2x)
+
+  CONDITIONAL KILL -- #108e 对间剂量:顺序效应随间隔/早发而增强吗?
+   PASS  种植的对间剂量被测出        |+0.0117| > 2*0.0050 = 0.0100   (2.3x its own spread)
+   PASS  平种植不产生假斜率         |+0.0052| < 0.0090   (asserted in code, not in prose)
+   FAIL  同类效应在本轮仍为正(功率前提)  +0.0058 vs 2*SE 0.0070   (asserted in code, not in prose)
+   FAIL  同类·间隔斜率           |-0.0061| > 2*0.0036 = 0.0073   (1.7x its own spread)
+   PASS  同类·首获年龄斜率         |+0.0109| > 2*0.0029 = 0.0058   (3.8x its own spread)
+   => UNVERIFIED, and that is not an acquittal
+
+  伪影检查:同类间隔斜率 -0.0061   跨类间隔斜率 -0.0033
+  (可靠性伪影两臂应相同;重塑只应同类臂更强)
+
+artifact sha1 d41ac6ffac1f

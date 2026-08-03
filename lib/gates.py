@@ -18,6 +18,9 @@ The catalogue of how, each with its entry:
   #101a  a control residualised on the wrong FUNCTIONAL FORM, leaving the confound behind
   #101b  a reference compared across SCALES (raw vs disattenuated)
   #102a  a negative control compared to A CONSTANT I CHOSE instead of to the effect
+  #109c  THE NULL'S TYPE SILENTLY CHANGED BETWEEN ROUNDS during a refactor. A stratified
+         permutation and a plain one look identical in code (one line) and differ by 85% of the
+         claimed effect. Anything that computes a null must NAME which null it is.
 
 Nine of those ten are a comparison taking the wrong second argument. So every function here REQUIRES
 the thing being compared against, and none accepts a bare threshold.
@@ -78,7 +81,17 @@ class Gate:
                           ok, f"headroom {planted-need:+.4f}"))
         return ok
 
-    def offset_control(self, name, effect, offset, spread):
+    def offset_control(self, name, effect, offset, spread, null_kind):
+        """#106: a null that is a systematic BASELINE OFFSET, not a nuisance to be small.
+
+        #109c: null_kind is REQUIRED and has no default. A stratified permutation and a plain one
+        are ONE LINE apart in code and differed by 85% of a claimed effect; naming it in the call
+        is the only thing that makes a silent swap visible in the output.
+
+        When the two arms differ in model capacity, the null carries the overfitting penalty and is
+        systematically NEGATIVE. negative_control() is the wrong shape there.
+        Choose by asking: SHOULD the null be zero? Yes -> negative_control. No -> offset_control."""
+        assert isinstance(null_kind,str) and null_kind, "name the null (#109c): e.g. 'stratified permutation'"
         """#106: a null that is a systematic BASELINE OFFSET, not a nuisance to be small.
 
         When the two arms differ in model capacity, the null carries the overfitting penalty and is
@@ -91,7 +104,8 @@ class Gate:
         if self._degenerate(name, effect, offset, spread): return False
         corrected = effect - offset
         ok = abs(corrected) > 2 * abs(spread)
-        self.rows.append((name, f"({effect:+.4f}) - ({offset:+.4f}) = {corrected:+.4f} vs 2*{abs(spread):.4f}",
+        self.rows.append((f"{name} [null: {null_kind}]",
+                          f"({effect:+.4f}) - ({offset:+.4f}) = {corrected:+.4f} vs 2*{abs(spread):.4f}",
                           ok, f"{abs(corrected)/max(abs(spread),1e-12):.1f}x its own spread"))
         return ok
 
