@@ -1555,3 +1555,43 @@ against. Many permutations would cost almost nothing and I ran five.
 specification curve (`#31`, 72 cells), a predictable-variance test (`#52`, at ceiling), and a rival
 explanation (`#53`). It is also the claim that needed the fewest rounds to establish — which
 `#52` already noted is not a coincidence.
+
+---
+
+## Entry 54, added by `E01·A03·R16` — rarity is a second ordering principle, and it is not the age window
+
+`#53` found prevalence ordering predicts held-out pairwise acquisition order at **60.75%**, largely
+independent of the developmental ordering, and flagged it as an unreported finding sitting in a
+control column. The alternative that would manufacture it for free: **censoring**. In an 18–32
+sample a late-acquired category is held by fewer people simply because some have not reached it yet,
+so "rare" and "late" would be mechanically linked by the age window.
+
+**Censoring is an age effect and must decay as acquisition completes.** Tested within age bands,
+each using its *own* prevalence so the predictor is never imported across bands:
+
+| respondent age | onset ordering | **prevalence ordering** | random (40 perms) | n |
+|---|---:|---:|---:|---:|
+| 14–17 | 65.51% | **59.65%** | 50.15% | 2,364 |
+| 18–20 | 65.92% | **59.77%** | 49.98% | 2,011 |
+| 21–24 | 66.20% | **59.57%** | 49.19% | 2,605 |
+| 25–28 | 67.71% | **59.50%** | 50.60% | 2,719 |
+| 29–32 | 67.52% | **60.24%** | 49.76% | 2,760 |
+
+**NOT CENSORING.** The rarity ordering is flat across the entire window — **+0.59 points from
+youngest to oldest**, where censoring predicts decay.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 54 | **rarity predicts acquisition order** — the finding `#53` left in a control column | **CONFIRMED and not an age artifact.** ~60% against a 50% baseline in every band, stable. **This release now carries two independent ordering principles for acquisition: a developmental schedule (65.5–67.7%) and rarity (≈60%), contributing largely separately (`#53`: removing prevalence costs the schedule 1.16 points)** |
+
+**Two secondary observations worth the space.** The onset ordering *improves* with respondent age —
+65.5% → 67.5% — consistent with older respondents having completed more of their acquisition, so
+their orderings are more fully expressed. And I fixed the limitation `#53` raised against itself:
+the random baseline is now averaged over **40 permutations per seed** rather than one, giving a
+standard error near 0.7 instead of a 7.68-point seed spread. **A complaint I filed against my own
+round two rounds ago, discharged, which is the only reason it was not simply forgotten.**
+
+**What remains unresolved, and it needs data this release cannot provide.** Rarity could mean
+*acquired* later (a cumulative exposure process — common things first) or *noticed* later (rare
+interests take longer to recognise). Censoring is dead; those two are not separable retrospectively,
+and telling them apart is a prospective-measurement problem, not an analysis one.
