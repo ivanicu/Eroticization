@@ -1109,3 +1109,43 @@ family**, which is a design constraint on new data rather than a finding in this
 it was visible from the first round that computed `role_var` — 24 of 28 blocks at exactly 0.000,
 printed in `A02·R02`'s own output table. I read that column as "the contrast is rare" and not as
 "the contrast is confounded", and those are the same table.
+
+---
+
+## Entry 43, added by `E01·A03·R12` — the null that survived having its instrument replaced
+
+`A03`'s decision — model acquisition and valuation as **two systems** — rests on `#9`: TEMPO
+predicts within-person onset similarity at t=+4.59 while COORD (coordinate-loading similarity) gives
+t=−0.46. Since then every coordinate COORD was built from has been damaged: `#39` scoped SUBSTANCE
+to 3% of the corpus, `#41` found POWER uniformly weak, `#18`/`#19` withdrew the coordinate count as
+K-dependent. **A null from a measure that has since failed its own validation is silence, not
+absence.**
+
+Rebuilt COORD from the **person factors** — the one construct in this project that passed a
+generalisation check (`#40`: predicts blocks the filter discarded at 46% of the included effect,
+2.8× a placebo).
+
+| | b | t |
+|---|---:|---:|
+| **COORD, from validated person factors** | +0.0191 | **+1.26** |
+| TEMPO *(positive control, published +4.59)* | +0.0282 | **+4.36** |
+| permuted-COORD null | — | mean +0.10, sd 0.98, \|t\| p95 **1.92** |
+| sham (gaussian) | — | \|t\| p95 1.86 |
+
+**COORD sits inside its own null band.** And the re-test is *better* powered than the original, not
+worse: all **27** categories carry a person-factor profile against only **18** mappable to GCCA
+blocks, giving **344 pairs against 153**. So the original null was not an underpowered accident
+either.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 43 | **acquisition and valuation are two systems** (`A03`'s decision) | **CONFIRMED with the instrument replaced.** COORD is null on a validated coordinate construct at nearly twice the pair count, while TEMPO reproduces at t=+4.36 |
+
+**This is the first time in the project that replacing a damaged instrument has left a conclusion
+standing.** Everywhere else — `#21`, `#28`, `#37` — swapping the instrument changed the verdict or
+revealed the old one was unsupported. Here the worry was legitimate and specific (P6: a null is
+inadmissible from an instrument that has failed validation elsewhere), the check was cheap, and the
+answer was that the original round was right for reasons better than the ones it had.
+
+**A03 stays closed.** It is now the only arc in `E01` whose decision has survived every attack made
+on the evidence beneath it.

@@ -44,7 +44,7 @@ coordinates entirely.
 | correlation of those coordinates with the folk top/bottom axis | **≤0.159** | six coordinates, n=6,717 |
 | POWER vs SUBSTANCE, ladder-disattenuated | **+0.605** ⚠ **[SCOPED — RETRACTIONS #39]** SUBSTANCE predicts nothing outside its 7 defining blocks (−0.0001 vs a role-free placebo's +0.0024) | **[RESTATED — RETRACTIONS #24]** 37% shared variance, not 5%; positive control recovers 1.018 for a measure against itself; GAZE unmeasurable here; "2.95 of 3" withdrawn |
 | shared maturational schedule, share of people following it | **[0.747, 0.860]** | **[CONFIRMED — RETRACTIONS #31]** 72-cell specification curve; null stays 0.479–0.506 in every cell; positive control 0.993. The published 74.7% was the most conservative cell |
-| coordinate-similarity predicting acquisition timing | **ΔR² +0.0008, t=−0.46** | absent, not hidden (predictors correlate −0.028) |
+| coordinate-similarity predicting acquisition timing | **t=−0.46 → +1.26** | **[CONFIRMED — RETRACTIONS #43]** null survives rebuilding COORD from the validated person factors, at 344 pairs vs the original 153; TEMPO reproduces at t=+4.36 |
 | breadth's coordinate diversity vs a size-matched base-rate set | **−0.88%** | out-of-sample loadings, 10 null draws each, n=1,189 |
 | breadth's nestedness | **24.2%** of chance→perfect | excess +0.0660 over a 0.7278 base-rate null |
 | θ vs non-sexual variables, reliability-corrected | **r_true ≈ 0.10** | **[RESTATED ×3 — RETRACTIONS #17, #23]** adversity 0.105, mental illness 0.099, openness 0.090; null controls 0.000/0.010. ~1% of variance each |
