@@ -42,7 +42,7 @@ coordinates entirely.
 | …surviving sex/age/personality/orientation removal | **0.200** vs 0.055 | 73% of the transfer is not demographic |
 | coordinates surviving a block split-half | **WITHDRAWN — see RETRACTIONS #18** | count tracks K (4→4, 24→16, non-saturating); what survives is the profile's height above floor, 30–50× |
 | correlation of those coordinates with the folk top/bottom axis | **≤0.159** | six coordinates, n=6,717 |
-| three role axes' mutual correlation, disattenuated | **≤0.362** | effective dimensionality 2.95 of 3, n=3,890 |
+| POWER vs SUBSTANCE, ladder-disattenuated | **+0.605** | **[RESTATED — RETRACTIONS #24]** 37% shared variance, not 5%; positive control recovers 1.018 for a measure against itself; GAZE unmeasurable here; "2.95 of 3" withdrawn |
 | shared maturational schedule, per-person rank agreement | **+0.232** | 74.7% of 9,691 positive vs 48.9% null, d=0.69 |
 | coordinate-similarity predicting acquisition timing | **ΔR² +0.0008, t=−0.46** | absent, not hidden (predictors correlate −0.028) |
 | breadth's coordinate diversity vs a size-matched base-rate set | **−0.88%** | out-of-sample loadings, 10 null draws each, n=1,189 |

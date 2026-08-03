@@ -339,3 +339,44 @@ said so at p=0.35 — **WRONG on magnitude**, 0.105 against the 0.15 predicted. 
 scored: #2 direction-only, #3 fully correct, #4 half, #6 mechanism-only. **The forecast file has
 been right about *what* would break every time and wrong about *how much* three times out of four**,
 which is itself a calibration fact worth more than any single entry.
+
+---
+
+## Entry 24, added by `E01·A02·R19` — the flagship claim, measured with a validated ruler instead of a guessed one
+
+The headline of this project has been **"top/bottom is one word over three near-independent
+coordinates"**: POWER, GAZE, SUBSTANCE, observed mutual |r| ≤ 0.112, disattenuated ≤ 0.362,
+effective dimensionality 2.95 of 3. `ADVERSARY_FORECAST` #5 flagged the disattenuation as fragile.
+`R16`–`R18` tried to bypass it and froze — underpowered by construction.
+
+So: settle the pair that *can* be settled. GAZE has only 4 indicators in this release (the
+option-level search returned regex false positives — *Wetlook*, *Video game characters*), but
+POWER has 3 and SUBSTANCE has 7, and the ladder method already validated on θ in `A05·R10`.
+
+**The control that makes this reportable:** SUBSTANCE split against *itself*, two disjoint halves
+of its own 7 indicators, through the identical pipeline. **r_true = +1.018.** A disattenuation
+that could not recover 1.0 for a measure against itself could not be trusted to report anything
+else; this one does. Sham (POWER against a 7-indicator non-role personality composite): **+0.023**.
+
+| | r_obs, low → high reliability | r_true |
+|---|---|---:|
+| SUBSTANCE vs itself *(positive control)* | 0.393 → 0.516 → 0.516 | **+1.018** |
+| **POWER vs SUBSTANCE** | **0.298 → 0.341 → 0.381** | **+0.605** |
+| POWER vs sham *(non-role)* | 0.002 → 0.026 | +0.023 |
+
+`r_obs` rises with reliability exactly as `r_true·√rel` requires, and `r_true` drifts only −15%
+across terciles — the measurement model holds.
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 24 | **"Three near-independent role axes; max disattenuated r = 0.362; effective dimensionality 2.95 of 3"** — carried as the project's most interesting finding since `A02` | The ladder. **POWER–SUBSTANCE r_true = +0.605, not 0.233** — they share **37% of variance**, not 5%. My earlier figure divided the observed 0.112 by √(0.686 × 0.337), and that 0.337 was a *block split-half of a GCCA coordinate*, which is not the reliability of the composite I actually correlated. **I disattenuated with a reliability belonging to a different measure.** The pre-registered kill lands in the middle band: 0.45 < 0.605 < 0.70 → **UNVERIFIED**, neither one construct nor confirmed distinct | Not identity either — 0.605 is a long way from 1.0, and the sham sits at 0.023. **The honest statement is that POWER and SUBSTANCE are substantially correlated but not the same**, and that "2.95 of 3" is withdrawn, since it was computed from attenuated observed correlations and no longer follows |
+
+**Gap in this round, stated rather than left to be found:** the noise-vs-noise negative control
+produced no admissible rungs, because pure-noise composites have reliability ≈ 0 and my own
+admissibility filter (`rel > 0.02`) excluded them. The sham does the same job and returns 0.023,
+but the control I *pre-registered* did not run, and a control that cannot run is not a control that
+passed.
+
+**What this costs.** Every previous retraction here moved a peripheral number. This one moves the
+sentence I would have led with. Two of the three axes share more than a third of their variance,
+and the third cannot be measured well enough in this release to place at all.
