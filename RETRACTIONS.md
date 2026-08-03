@@ -66,3 +66,22 @@ ordering.
 confound deleted the effect. Match for a *shape* question, never for a *breadth* question, and
 say which is being asked before matching. The same procedure is a control in one round and a
 destroyer of evidence in the next.
+
+---
+
+## Entries 15–16, added by `R13·r01` — prior art, which the forecast predicted at p=0.75
+
+| # | The claim | What killed or scoped it | What survived |
+|---|---|---|---|
+| 15 | **"Any group comparison on this release must be block-count matched or it partly measures survey coverage. Nothing I read about this dataset says so."** — `R06`, and the sentence was in `README.md` as the transferable methodological result | The explorer's own `analysis/swarm/14-missingness.md`, dated **2026-02-13**, five months earlier: *"if missingness differs systematically by gender, orientation, or politics, then group comparisons on gated columns are comparing different subpopulations, not the full sample"*, with per-column missingness by gender, orientation and politics, responder-vs-non-responder Cohen's d > 0.7 on 17 of 18 columns, and *"any 'gender difference' in these kinks is partially an artifact of who answered"* | The **hazard is theirs**. What is mine is narrower and still stands: `corr(subspace-congruence deficit, between-group coverage gap) = +0.815` over nine splits, and the matched correction that took pornhabit from 0.2285 to 0.0871 to 0.0439 and reversed its ordering against sex. A quantification of a documented hazard is not a discovery of it, and the sentence claiming nothing documented it is simply false |
+| 16 | **"Onset is a proxy for intensity"** presented as a confound I found and controlled (`R04`, corr(residual onset, residual preference) = −0.126) | `analysis/swarm/01-age-onset.md` **Finding 1**, same date: *"Earlier onset predicts higher current intensity"*, r = −0.12 to −0.17 across nine kinks, n up to 8,741 | The control, not the number. Stripping it and finding RSA 0.621 → 0.600 is still the right move and still holds. But I reported discovering a relationship that is the first published finding in the release's own analysis directory |
+
+**What this pair actually costs.** Not much numerically — no interval moves. It costs the claim to
+novelty on the one methodological result I had been treating as the project's most transferable
+output, and it reproduces the CoVal failure exactly: **fifty-two sub-rounds against an object
+whose own analysis directory was one `git ls-tree` away.** The forecast in
+`ADVERSARY_FORECAST.md` put this at p=0.75 and named the coverage artifact as a likely casualty,
+which is the one piece of calibration this file can report in its own favour.
+
+**And the honest tail:** four of the fifteen published analyses bear on live claims and have not
+been read line by line. Those claims are `[unchecked]`, which is not `[clean]`.

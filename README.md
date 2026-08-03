@@ -80,7 +80,7 @@ mutual r ≤ 0.362, effective dimensionality 2.95 of 3.
 population-shared schedule (content-like early: appearance 14.0, body parts 14.4, clothing 14.7;
 relational late: power dynamics 16.8, bondage 16.9, mental alteration 17.0). Within-person
 "acquired together" tracks "liked together" at RSA **+0.599** after stripping intensity leakage
-(a real confound, −0.126) and recall anchoring, and after near-synonymy is excluded (0.594 for
+(−0.126 — **[VERIFICATION — see RETRACTIONS #16]**, published as `01-age-onset` Finding 1) and recall anchoring, and after near-synonymy is excluded (0.594 for
 280 pairs sharing no content word vs 0.646 for 64 that do). **80% of the sd of onset structure is
 not explained by preference** — interests a person does *not* like together were acquired at the
 same time. But the organising variable is arrival time, not coordinate membership (retraction #9).
