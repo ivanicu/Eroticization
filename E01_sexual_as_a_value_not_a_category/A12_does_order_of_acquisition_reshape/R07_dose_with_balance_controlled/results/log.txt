@@ -1,0 +1,36 @@
+  20 pairs
+  40 pairs
+  60 pairs
+  80 pairs
+  100 pairs
+  120 pairs
+
+=== 130 对   同类 60  跨类 70 ===
+            n     gap    first       e      se  e_null
+kind                                                  
+cross  1362.0  4.8187  13.0445  0.0068  0.0014  0.0081
+same   1336.5  4.6753  13.1215  0.0285  0.0033  0.0079
+
+=== 对间剂量斜率(含 log n) ===
+ kind  dose   slope     sd
+ same   gap -0.0056 0.0040
+ same first  0.0072 0.0030
+cross   gap -0.0014 0.0022
+cross first  0.0025 0.0014
+
+=== 正对照 ===
+  种剂量 斜率 +0.0101 ± 0.0045   平种植 斜率 +0.0050 ± 0.0045
+  (上一轮:假斜率 +0.0079 vs 首获年龄斜率 +0.0080 —— 一模一样,什么都读不了)
+
+  CONDITIONAL KILL -- #109f 剂量,在对的零上
+   PASS  纯置换 y 的效应(合成偏移是否有偏)              |+0.0079| < 0.5*|+0.0285| = 0.0143   (null is 28% of the effect)
+   PASS  种植的对间剂量被测出                       |+0.0101| > 2*0.0045 = 0.0091   (2.2x its own spread)
+   FAIL  平种植的假斜率 < 观测斜率的一半 (#110c 的前置条件)  假斜率 |+0.0050| vs 观测斜率一半 0.0036   (asserted in code, not in prose)
+   PASS  同类效应本轮为正(功率前提)                   +0.0285 vs 2*SE 0.0066   (asserted in code, not in prose)
+   FAIL  同类·间隔斜率                          |-0.0056| > 2*0.0040 = 0.0080   (1.4x its own spread)
+   PASS  同类·首获年龄斜率                        |+0.0072| > 2*0.0030 = 0.0060   (2.4x its own spread)
+   => UNVERIFIED, and that is not an acquittal
+
+  伪影检查:同类间隔斜率 -0.0056   跨类间隔斜率 -0.0014
+
+artifact sha1 db9781c64863
