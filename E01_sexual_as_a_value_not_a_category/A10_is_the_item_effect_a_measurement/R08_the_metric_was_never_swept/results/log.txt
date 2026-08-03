@@ -1,0 +1,88 @@
+targets 23
+  1/23
+  2/23
+  3/23
+  4/23
+  5/23
+  6/23
+  7/23
+  8/23
+  9/23
+  10/23
+  11/23
+  12/23
+  13/23
+  14/23
+  15/23
+  16/23
+  17/23
+  18/23
+  19/23
+  20/23
+  21/23
+  22/23
+  23/23
+  [ctrl] 1/8
+  [ctrl] 2/8
+  [ctrl] 3/8
+  [ctrl] 4/8
+  [ctrl] 5/8
+  [ctrl] 6/8
+  [ctrl] 7/8
+  [ctrl] 8/8
+
+=== POSITIVE CONTROL: a planted rank-5 interaction, seen by each metric ===
+est            ls
+brier_I    0.0565
+brier_P   -0.0513
+brier_C    0.2029
+brier_W    0.0664
+logloss_I  0.0658
+logloss_P -0.0657
+logloss_C  0.1539
+logloss_W -0.1928
+l1_I       0.0449
+l1_P      -0.0070
+l1_C       0.1844
+l1_W       0.2087
+
+=== NEGATIVE CONTROL: person-permutation, C under each metric ===
+       brier_C  logloss_C     l1_C
+est                               
+logit  0.04223    0.03411  0.04303
+ls    -0.00061   -0.00073 -0.00003
+
+=== THE DECOMPOSITION UNDER EACH LOSS (mean over 23 blocks x 3 seeds) ===
+
+  estimator = ls
+       brier  logloss      l1
+I     0.2013   0.1972  0.1863
+P     0.0958   0.0775  0.1084
+C     0.0065   0.0025  0.0075
+W    -0.0662  -0.3545  0.0822
+full  0.2374  -0.0774  0.3844
+  item : interaction  brier 201341203.5x   logloss 197162339.0x   l1    2.1x
+
+  estimator = logit
+       brier  logloss      l1
+I     0.1798   0.1552  0.1731
+P     0.0786   0.0636  0.1090
+C     0.0529   0.0434  0.0524
+full  0.3113   0.2622  0.3344
+  item : interaction  brier    3.4x   logloss    3.6x   l1    3.3x
+
+=== THE ORDERING, per (estimator, loss), declared above 2x its own seed spread ===
+  est    loss      I       X    gap  spread2  item_wins  inter_wins  tied
+   ls   brier 0.2064 -0.0582 0.2560   0.0142         23           0     0
+   ls logloss 0.2066 -0.3577 0.5495   0.0178         23           0     0
+   ls      l1 0.1936  0.0949 0.1069   0.0074         19           3     1
+logit   brier 0.1862  0.0515 0.1362   0.0160         23           0     0
+logit logloss 0.1621  0.0426 0.1221   0.0136         23           0     0
+logit      l1 0.1815  0.0502 0.1331   0.0071         23           0     0
+
+  CONDITIONAL KILL -- gates first
+   (a) every metric sees a planted rank-5 interaction : FAIL
+   (b) person-permutation ~0 under every metric        : PASS
+   -> UNVERIFIED, and that is not an acquittal.
+
+artifact sha1 efe6fd0e4645

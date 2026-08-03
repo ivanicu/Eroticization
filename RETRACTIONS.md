@@ -2610,3 +2610,44 @@ data built the basis?**
 (3,908 → 1,956). `C` survives that halving; `W` at rank 1 survives it in two-thirds of blocks. A
 challenger who wants to break `78a` should attack the power of the holdout arm, not its logic —
 and that is a cheaper attack than the one I ran.
+
+---
+
+## Entry 79, added by `E01·A10·R08` — the loss was never swept, and log-loss punishes the interaction rather than rescuing it
+
+`A09`/`A10` swept rank, estimand, null, block, ordering, projection and score type. Every number in
+both arcs is **squared error on a binary cell** — an axis `realstat` §G4 requires and this project
+had none of.
+
+`ADVERSARY_FORECAST` block 2, prediction #3 (p=0.55): *"under log-loss the interaction's share rises,
+because squared error under-weights confident-and-wrong predictions, which is exactly where a
+person-specific readout would differ from a base rate."*
+
+**Least-squares estimator, three losses, 23 blocks × 3 seeds:**
+
+| component | Brier | log-loss | L1 |
+|---|---:|---:|---:|
+| `I` item | **+0.2013** | **+0.1972** | **+0.1863** |
+| `P` person | +0.0958 | +0.0775 | +0.1084 |
+| `C` cross-block | +0.0065 | +0.0025 | +0.0075 |
+| `W` within-block | −0.0662 | **−0.3545** | **+0.0822** |
+| full model | +0.2374 | −0.0774 | +0.3844 |
+
+| estimator × loss | item wins | interaction wins | tied |
+|---|---:|---:|---:|
+| LS × Brier | **23/23** | 0 | 0 |
+| LS × log-loss | **23/23** | 0 | 0 |
+| LS × L1 | **19/23** | **3** | 1 |
+
+| # | Claim | Verdict |
+|---|---|---|
+| 79a | **forecast #3, "log-loss raises the interaction's share"** | **WRONG, and wrong in its DIRECTION.** Under log-loss the interaction collapses to **−0.355** while the item effect barely moves (0.201 → 0.197). The *mechanism* the forecast named is real — log-loss punishes confident-and-wrong hardest — but **the overconfident predictor is the low-rank interaction estimator, not the base rate.** A base rate is never confident |
+| 79b | **`A09`/`A10`'s ordering** | **SCALE-FREE across the losses tested.** Item wins 23/23 under Brier and log-loss. `#67`, `#68`, `#70` are not artefacts of squared error |
+| 79c | **the loss most favourable to the interaction, published because it disagrees** | **L1.** Under absolute error `W` turns **positive (+0.082)**, the item:interaction ratio falls to **2.1×**, and **3 of 23 blocks flip to the interaction**. L1 down-weights exactly the confident-wrong cases log-loss magnifies. The ordering survives, but it is **least secure under L1**, and that is the cell a challenger should attack |
+| 79d | **my logistic-estimator arm** | **INVALID, killed by its own negative control.** Person-permuted `C` returns **+0.042** under the logit estimator against −0.0006 under least squares — i.e. **80% of its apparent `C` (+0.053) is null**. The one-step IRLS lets the cross-block term absorb variance through the working weights regardless of what `U` contains. The whole arm is discarded; nothing in `79a`–`79c` uses it |
+| 79e | **gate (b), the negative control** | **MIS-SPECIFIED — the thirteenth.** Written as `N[N.est=='ls']`, it checked **one of the two estimator arms** and printed `PASS` while the other arm's null was seven times its own effect. A control that examines part of the design is `#04`'s empty-population failure in miniature |
+| 79f | **gate (a), the positive control** | **MIS-SPECIFIED — the fourteenth.** It required `C + W > 0.01` under every loss, bundling `W` — a component `#71`/`#72` had already measured as overfitting at K ≥ 2. Under log-loss `W` = −0.193 dragged the sum negative and the gate printed `FAIL`. **`C` alone is +0.154 to +0.203 in the planted world under all three losses**, so every metric can in fact see an interaction |
+
+**Two mis-specified gates in one round, both from bundling.** `79e` bundled two estimators into one
+check; `79f` bundled two components into one threshold. Neither threshold was wrong about its own
+quantity — both were applied to a **sum that hides a sign**.
