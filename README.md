@@ -12,6 +12,15 @@
 > (detection)** the interaction, at 16–21× the seed spread; at the rank chosen adversarially to favour the
 > rival it is a **tie (0.193 vs 0.200)**. There is no rank, estimand or selection rule under which the
 > interaction is larger. The best case for the epoch title is **"both, equally"**.
+>
+> **[#69, #70] — and then the contrast itself turned out to be the wrong one.** The item main effect is a
+> **DERIVATION** from prevalence dispersion (R² = 0.994, slope 0.988) and is blind to prevalence *shape* in
+> 23/23 blocks: within a block, *base rate* and *content* are **the same number**, so that contrast cannot
+> adjudicate A vs B. Across blocks it can — no option is shared, so the item side contributes **0 by
+> construction**, and the measured person-side transfer is **+0.0244, resolvable in 23/23 blocks** against a
+> −0.0009 permutation null. **The epoch title is two questions:** as a variance claim it is FALSE
+> (prevalence is 9× larger); as a claim about what is domain-general it is SUPPORTED (only the person-side
+> readout crosses domains). Both are true at once.
 
 # The Eroticization Operator
 

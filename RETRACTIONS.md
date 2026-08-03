@@ -2257,3 +2257,48 @@ what it would require: **the survey instrument's option order**, which this rele
 **The sentence I can no longer write:** *"the survey shows sexual interest is organised by content
 category."* It shows options differ in prevalence — and in this data that sentence and the previous
 one are the same sentence.
+
+---
+
+## Entry 70, added by `E01·A10·R02` — the epoch title was two questions wearing one sentence, and the answer differs between them
+
+`#69` showed the within-block contrast cannot adjudicate model A vs model B, because within a block
+*base rate* and *content* are the same number. The level where they differ is **across** blocks:
+base rates are block-local — an option in block 1 and an option in block 2 are different options —
+so **no item-level quantity can transfer**, while a person-side readout weight can.
+
+Four components, one scale, the same held-out cells, Shapley over all 24 orderings:
+
+| component | K_within=0 | K_within=1 |
+|---|---:|---:|
+| `I` item prevalence — block-local, a **derivation** (`#69`) | **+0.2248** | +0.2222 |
+| `P` person breadth — block-local | +0.0850 | +0.0898 |
+| `C` **cross-block, person-side** (factors fit only on the other 31 blocks) | **+0.0222** | +0.0172 |
+| `W` within-block interaction | 0 by design | +0.0078 |
+| `C` corrected against the person-permutation null | **+0.0244** | +0.0176 |
+
+**Gates.** Person-permutation null at **−0.0009**; `C` exceeds it by more than 2× seed spread in
+**23 of 23 blocks** (median 2× spread 0.0048). Placebo passes: `I` and `P` move by |0.0006| and
+|0.0013| under the permutation, as they must, since neither uses `C`.
+
+| # | Claim | Verdict |
+|---|---|---|
+| 70a | **a person's deviation from prevalence transfers across content domains** | **CONFIRMED, 23/23 blocks**, at +0.0244 held-out R² with a clean permutation null. This is the *only* quantity in the release that cannot be a base rate |
+| 70b | **`E01_sexual_as_a_value_not_a_category`** | **THE TITLE IS TWO QUESTIONS.** As a *variance* claim it is **FALSE** — prevalence dispersion is 9× the cross-block person signal (`#67`, `#68`, `#69`). As a claim about *what is domain-general* it is **SUPPORTED** — at the cross-block level the item side contributes nothing and the entire transferable signal is person-side |
+| 70c | **"the item contributes 0 across blocks"** | **A DERIVATION, and labelled as one.** It is 0 because no option is shared between blocks, not because it was tested. A content-property route would give the item side a cross-block channel; that needs per-option content annotations, which this release does not carry and which `#28`/`#44` showed string proxies cannot substitute for |
+
+**Not compute-matched, and it matters.** `C` uses 4 cross-block factors, `W` uses 1 within-block
+factor. The apparent ordering `C (+0.0172) > W (+0.0078)` at K_within=1 is therefore **not
+licensed** — it compares 4 parameters against 1. What *is* licensed is that `C` survives the
+addition of `W` (0.0244 → 0.0176, a 28% overlap, not an absorption).
+
+**The ontology shift.** The A-vs-B question was never *which is bigger*. Content explains the most
+variance and explains it **block by block with no transfer**; the individualised readout explains
+far less and is **the only thing that crosses domains**. Both facts are true simultaneously and the
+epoch title asserted only one of them while sounding like it asserted both.
+
+**What this means for the 105 rounds.** They ran on the double-centred residual — i.e. on `C` and
+`W`, the domain-general and domain-specific person-side structure. That was the **right object for
+the A-vs-B question** and the wrong object for a variance claim. `#67c` said their findings stand as
+findings about the interaction; `#70` upgrades that: **the interaction is the part of this data that
+distinguishes the two models at all.**
