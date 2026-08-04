@@ -522,6 +522,38 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def apply_reached_the_test_set(self, name, finite_counts, n_train, n_all, labels=None):
+        """#302b:**在任何「训练估计 / 应用到测试」的重构里,应用那一步最常见的失败是它压根没发生。**
+
+        `#302a` 的嵌套 CV 把训练掩码加在了**留一块剖面**上 —— 而那是一个**人内**量
+        (这个人自己的其它块),根本不是从别人身上估的。加掩码没有防住任何泄漏,
+        它只是把测试集的剖面整片抹成了 NaN。结果:四个坐标的有限数**恰好等于 |训练集|**,
+        `nested_r2` 对 29 个结局全返回 NaN,`DataFrame` 连列都没有。
+
+        > **告密者是可机检的:一个「应用到所有人」的量,它的有限数等于 |训练集|。**
+        > 相等不是巧合 —— 它是「应用这一步没有发生」的签名。
+
+        用法:把每个坐标/特征的有限计数交给它,并给出 |训练集| 与总人数。
+        任何一个等于 |训练集| -> FAIL。(等于总人数是正常的;介于两者之间也正常。)
+        """
+        try: cs = [int(c) for c in finite_counts]
+        except Exception:
+            r = (name, f"{finite_counts!r} 不是计数列表", False, "必须给出每个应用量的有限计数(#302b)")
+            self.rows.append(r); return False
+        if not cs:
+            r = (name, "空的计数列表", False, "没有量被检查 = 没有检查(#302b)")
+        else:
+            hit = [i for i, c in enumerate(cs) if c == int(n_train)]
+            nm = (lambda i: labels[i] if labels and i < len(labels) else f"#{i}")
+            if hit:
+                r = (name, f"{[nm(i) for i in hit]} 的有限数 = |训练集| {n_train}", False,
+                     f"**应用那一步没有发生** —— 这些量只在训练集上有值;"
+                     f"检查是不是把训练掩码加在了一个**人内**量上(#302b)")
+            else:
+                r = (name, f"有限计数 {cs} vs |训练集| {n_train} / 全体 {n_all}", True,
+                     "没有一个等于 |训练集| —— 应用步确实跑到了测试集")
+        self.rows.append(r); return r[2]
+
     def bounded_statistic_out_of_range(self, name, value, lo, hi, what=""):
         """#296b:**一个有定义域的统计量落在定义域外,是仪器坏了,不是效果极强。**
 

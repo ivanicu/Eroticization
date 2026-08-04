@@ -23,7 +23,7 @@ Data is not committed — neither the raw release nor the person-level derived t
 > explainability**. ⚠ And note the ordering: the *least reliable* standing dimension (position, 0.432)
 > contributes the *largest* incremental R² (0.715%). **Reliability and explanatory power are different
 > things — a quantity can stably measure something that hardly moves anything.**
-> ⚠ **`#301`: that 1.4% is in-sample.** Held out — 5-fold person-level cross-validation, six coordinates held fixed — the same pipeline reaches a median of **1.087%**, and ridge-CV **1.056%**; on 2 of the 29 outcomes the cross-validated R² is **negative**. The estimator is the **largest single knob** found so far (**0.33pp**, against 0.18pp for every analysis knob in [`CALIBER.md`](CALIBER.md)), and 1.087% is itself an **upper bound**, because the coordinates were estimated on all respondents rather than re-fit inside each fold. Read the headline as **in-sample 1.4% / out-of-sample ≤1.09%**.
+> ⚠ **`#301` `#302`:**in-sample 1.4% / out-of-sample 0.87%**. Held out — 5-fold person-level cross-validation with the six coordinates **re-estimated inside every fold** — the same pipeline delivers a median of **0.869%**; with the coordinates held fixed it is 1.087%, and ridge-CV 1.056%. On 2 of the 29 outcomes the held-out R² is **negative**. **Over a third of the published number is fit.** The estimator is the largest single knob in [`CALIBER.md`](CALIBER.md) (**0.52pp**, against 0.18pp for every analysis knob). Both numbers are legitimate and they answer different questions — 1.390% is what these coordinates explain **in the people they were built from**, 0.869% is what they deliver **on people they have never seen**.
 
 ## The three models being separated
 
