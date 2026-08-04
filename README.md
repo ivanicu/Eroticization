@@ -1,14 +1,14 @@
 # The Eroticization Operator
 
-**Is "sexual" a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 115 self-attacking rounds against a public dataset, asking what can be
-settled before anyone collects anything new. **75 ledger entries, almost all self-inflicted
-retractions** — [RETRACTIONS.md](RETRACTIONS.md) is the real product.
+**"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
+world-representations?** 166 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **122 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
 
 Object: the **Big Kink Survey** public subsample — [Zenodo 10.5281/zenodo.18625141](https://zenodo.org/records/18625141),
-15,503 respondents × 365 columns, aggressively binned, demographically stripped and noise-injected.
+15,503 respondents × 365 columns, aggressively binned, demographically stripped, noise-injected.
 Data is not committed; `E01…/A01…/R01_schema/run.py` re-downloads it.
 
 ## The three models being separated
@@ -23,78 +23,59 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 
 ---
 
-> ⚠ **THE BLIND SPOT THAT SCOPES EVERY NULL IN THIS PROJECT [#91].** A person×option structure carried
-> by **5% of people is undetectable at ±50 percentage points** — the skill never leaves its floor.
-> At 15% it is barely detectable; detection needs **≈30% of people or more**. Every method used here
-> (factor analysis, CCA, low-rank completion, held-out skill) is a **variance-explained** method, and
-> those weight by prevalence. **A minority with intense specific attachments — which is what a fetish
-> is, phenomenologically — is exactly the object this toolkit cannot see.** Every "no structure found"
-> in this ledger means *none among the ≥30% who share it*. Untried and buildable: a method that scores
-> **per person** rather than per cell.
->
-> ✅ **[#95] That method was built, and it found something.** Per-person mean surprisal
-> `S = mean over picked options of −log(base rate)` — invariant to *how many* options were picked,
-> sensitive to *which*, with fixed-margin randomisation as its exactly-matched null. The real upper
-> tail picks **rarer options than a margin-preserving reassignment allows**: p95 **+0.0503 at 37× its
-> seed spread**, p99 +0.0704 — while the **median goes the other way** (−0.0051). Bimodal. Licensed by
-> a graded plant that fires monotonically (+0.049 → +0.082 → +0.181). Magnitude: equivalent to **≈1.5
-> median→rare swaps per block in 5% of people**. **A component every variance-explained method in the
-> preceding eleven arcs was structurally blind to.**
+---
 
-> **[A12 · 获取顺序] 立住两条,撤回一条。**
-> ✅ **`#114a` 记忆把心爱的性兴趣往前拉约 0.74 年**(19.8× SE,留一人时间表基准,同类别内打乱零 = 效应的 0%)。
-> 这是本数据集第一个被直接量出来的回忆偏差,而 A03 的整个时间表就建立在它之上。
-> ✅ **`#107`/`#110`/`#116` 同类兴趣之间,先获得哪一个预示其余轮廓** —— +0.0171,6.4× 展布,
-> 在减掉对内两项评分与人均评分之后仍保留 70%。**成对设计对作答水平结构上免疫**。
-> ❌ **`#112a` "越早进入版图越在中心" 撤回** —— 加入人均评分后只剩 10%;那不是时间,是"什么都给高分的人"。
+# What this says about people
 
-## Where this stands — the A-vs-B answer, and why it took a re-framing
+Each row is one sentence about people, at the strength it was actually measured. The ledger entry is
+the receipt.
 
-**The question splits in two, and the answer differs between them [#70].** Everything before arc
-`A09` was measured on `R = M − M.mean(0) − M.mean(1)` — the loader deletes the item main effect on
-line 1 — so 105 rounds described one half without ever measuring the other.
-
-| question | answer | evidence |
+| | | strength |
 |---|---|---|
-| **⓪ Magnitude, on a scale independent of any estimator [#90]** | **All three components are the same size.** Option base rate **±22.6 pp** · person overall rate **±16.3 pp** (noise-corrected from 19.8; 18% of the observed spread is binomial) · person×option interaction **±23.7 pp** (plant inversion, family CV 16%). **Content and individualised valuation move endorsement probability by the same amount.** | `#90` |
-| **① Predictability** — what can you predict a held-out cell from? | **The item effect, by 3.5–5.6× [#88]** — and `#90` shows this is a **learnability** gap, not a size gap: item effects are estimated from **3,228** observations, person deviations from **18**. Measured on estimators that need no correction at all — shrunk column means, EB-shrunk row means, ridge, soft singular-value thresholding, every hyperparameter tuned on training cells: item **+0.217**, person **+0.103**, interaction **+0.039** (within +0.031, cross +0.009). Item larger in **21/23 blocks**. `#85`'s "all three equal, 1.05×" is **withdrawn** — it subtracted nulls, and `#86`/`#87` showed a null correction credits a component with the *damage its estimator does* | `#85` `#86` `#87` `#88` |
-| …and is that a *content* finding? | **No — it is a DERIVATION.** The item effect is forced by prevalence dispersion (R² = 0.994, slope 0.988) and is blind to prevalence *shape* in 23/23 blocks. **Within a block, base rate and content are the same number**, so this contrast cannot adjudicate A vs B at all | `#69` |
-| **② Domain-generality** — what crosses content domains? | **Only the person-side readout.** No option is shared between blocks, so the item side contributes **0 by construction**; the measured person-side transfer is **+0.029 at rank 32** — restated down from +0.0635 by `#77`, which showed **43% of it was the gated survey tree** and 25% ordinary demographics — resolvable in **22/23 blocks** against a −0.002 permutation null | `#70` `#72` `#76` `#77` |
-| …is it domain-general or a pile of domain-specific tastes? | **MOSTLY DOMAIN-SPECIFIC [#82 — `#71` inverted].** Referred to their own nulls in one run, within-block structure is **0.064–0.163** against cross-block **0.002–0.012** — **7–26× larger**, in **201/207** comparisons, none the other way. `#71`'s 186/276 was the **−0.135 handicap** it gave the specific side by leaving it uncorrected. The cross-block part is far more **parameter-efficient** (18–144 vs 3,249–12,996) but far **smaller**, and `#71` asserted the second on evidence for the first | `#71` `#81` `#82` |
-| …how many coordinates does the DOMAIN-GENERAL part have? | **The question presupposes a cliff the object does not have.** A calibrated estimator finds knees at exactly 2 and 5 in known-rank worlds, with a **141–147× drop**. On real data the sharpest drop anywhere is **1.8×** — a smoothly decaying spectrum, still gaining at rank 32 | `#72` `#84` |
+| **性欲有一个发育顺序,先具体后关系,差 2–3 年** | 外观 14.0 · 身体部位 14.4 · 衣物 14.7 → 权力动态 16.8 · 束缚 16.9 · 精神改变 17.0。用它猜任意两个兴趣谁先谁后达 **66.852 ± 0.191**,而"全人群共享一个顺序"的理论上限是 66.5% —— 这个时间表几乎榨干了共享顺序能提供的全部信息 | `#75` 8 seeds · 35,438 对 · 6,230 人;全体对上界定 **[60.5%, 66.5%]** `#63` |
+| **内容与个体化估值,对认可概率的影响一样大** | 选项基率 **±22.6 pp** · 人整体率 **±16.3 pp** · 人×选项交互 **±23.7 pp**。内容在每一个"可预测性"指标上碾压(3.5–5.6×),**纯粹因为它被估计得好 179 倍**(3,228 次观测 vs 18) | `#88` `#90` |
+| **"这是性内容"在问卷里问不出来** | 二元认可矩阵里,一个选项的**基率**和它的**内容**是同一个数。题目主效应有闭式解,实测 R² = **0.994**、斜率 0.988,且对基率**形状**在 23/23 块中完全不敏感 | `#69` |
+| **稀有偏好是一条所有人都在上面的连续维度,不是一群特殊的人** | 分布对称加宽:上尾挑更罕见的,下尾挑更常见的,**中位数纹丝不动**,两侧各 11–13× 自身自助 sd | `#99` |
+| **它是一个可靠的人格维度,而且不是"你勾了多少"** | 跨不相交块集的分半信度 **+0.432**(地板 −0.022,种植天花板 +0.832);移除勾选数后存活 **67%**,而且它与勾选数的相关(+0.608)**低于**零的(+0.719) | `#100` `#104` |
+| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023** —— 它不是一般性的求新 | `#101` `#102` |
+| **人把最爱的性兴趣记得更早,约九个月** | −0.2000 年/评分标准差(**19.8× SE**),同类别内打乱零 = 效应的 **0%**,种植阶梯单调。**这是本数据集第一个被直接量出来的回忆偏差,而整个成熟时间表建立在它之上** | `#114` |
+| **而且这个记忆畸变随时间加深,十五年里几乎翻倍** | 15 岁组 −0.0505 → 30 岁组 −0.0917,年龄趋势 **3.5×**;残余伪影**符号相反**,校正只会放大。**它不是在回答问卷那一刻生成的** | `#119` |
+| **同类兴趣之间,先获得哪一个,预示你其余的整个偏好轮廓** | **+0.0159,6.1× 展布**,在减掉两项各自评分、它们的差、以及人均评分之后。**成对设计对"作答水平"结构上免疫** —— 它的兄弟命题("越早越在中心")正是死在这个混淆上 | `#107` `#110` `#116` `#117` |
+| **而其余偏好被拉向先来的那一个** | 位移 **+0.0339,3.1×**,68 对里 46 对为正,生成式正对照单调开火 | `#118`,标 DESCRIPTION:方向不判别因果 |
+| **"上/下"一个词盖着三件近乎不相关的事** | 谁服从 · 谁被看 · 谁接受,去衰减互相关 ≤ 0.362,有效维度 2.95/3 | A02 |
+| **"极端"不是一条轴,是两个互斥的方向** | 卑贱污秽 ↔ 血/烧灼/武器 —— 喜欢一端的人系统性地不喜欢另一端 | A02 |
+| **82.7% 说"色情给了我这个癖好",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < 0.1 sd,极端度差 < 10%)· 它**追踪这个人整体勾了多少**(rho **+0.2922**)。⚠ 但"其中 85% 是作答风格"这一步 `#26` 已降级为 **UNVERIFIED** —— 全部题项都是情欲内容且无反向计分,"泛泛同意"与"泛泛认可情欲事物"在本 release 分不开 | A06 · `#26` |
 
-> **The standing caveat on ② [#77].** People appear together in blocks because they cleared the same
-> parent ratings (`P(enter|parent>0)=0.99`), so part of any cross-block covariance is **shared exposure
-> to the same gate**, not a shared readout. Projecting the entry pattern out costs **43%** of the
-> transfer; it survives at **22/23 blocks** and **45% of the originally published magnitude**. The
-> *ordering* results (`#71`, `#72`) are unaffected — they use the same scores on both sides, and the
-> no-cliff result is about the spectrum's shape, not its height.
+---
 
-**So: model B is what survives, but not as "sexual is not a category" and not as a domain-general operator.** The honest statement is
-that *content* explains the most variance and explains it **block by block with no transfer**, while
-the *individualised readout* explains far less and is **the only thing that crosses domains**. Both
-are true simultaneously. The epoch's own title asserted one and sounded like it asserted both.
+# 被撤回的(留在这里,因为它们曾经被我报告过)
 
-### The third organisation — *when* an interest arrives
+| 曾经的说法 | 现在 | 为什么 |
+|---|---|---|
+| "性是一个价值,不是一个类别"(epoch 标题) | **假,而且问题本身是两个** | 加载器第 1 行就删掉了对手;而块内基率≡内容,那个对比根本无法裁决 `#67` `#69` `#70` |
+| "域一般胜过域特异,186/276" | **反转:0 一般 / 201 特异** | 那 186 是我给域特异侧的 −0.135 估计器坑 `#82` |
+| "三个成分一样大(可预测性上),1.05×" | **撤回** | 减零不修正估计器,它把估计器的失败记在被估计量头上 `#86` `#87` `#88` |
+| "少数人集中于稀有选项" | **措辞撤回,存在性保留** | 是对称加宽,不是子群 `#99` |
+| "越早进入版图的东西越在中心" | **撤回,只剩 10%** | 那不是时间,是"什么都给高分的人" `#115` |
+| "特质追踪更早的获取年龄" | **撤回** | −0.030 对零 −0.028,零是效应的 91% `#102` |
+| "跨块累积的 √n 反映潜结构" | **反转** | 等预算下块越多越差;那是普通的 √N `#64` |
 
-| | number | scope |
-|---|---:|---|
-| population-shared ordering, held-out pairwise accuracy | **66.85 ± 0.19** | `#75`, 8 seeds, 35,438 pairs, 6,230 people; at 101% of the ceiling a *global* ordering can reach |
-| …bounded for the 36.3% of pairs 2-year binning cannot order | **[60.5%, 66.5%]** | `#63` |
-| onset with prevalence projected out | **65.88** | `#75` — onset's information is not prevalence; it beats prevalence in all 4 censoring bands by +4.3 to +6.7 |
-| **individual** deviation from that schedule | **+0.90 ± 0.29** (ratio 3.1) | `#73` — resolvable in 8/12 cells, MDE 0.5 years. ~6% of the orderable signal, predicted from **preference space** |
-| share of people following the shared schedule | **[0.747, 0.860]** | `#31`, 72-cell specification curve |
+---
 
-**`#73` is why `A03`'s "two systems" is downgraded**: the individual component of *acquisition* is
-predicted from *valuation* space, so the two are **mostly** separable, not **strictly** separable.
+# 这套数据做不到的(每条都量过,不是猜的)
 
-### Standing methodological state
+| 做不到 | 量出来的边界 |
+|---|---|
+| 看见 ≤30% 人携带的结构(方差解释法) | 5% 携带者在 **±50 pp** 下技能不离地板;需 ≈30% `#91` |
+| 区分"一小群对某几样异常强烈"与"一条重尾连续谱" | 保边际的集中/弥散种植在 3000 交换/块下都在零抖动内;**出路是外部锚,不是更强的种植** `#122` |
+| 区分记忆变模糊与故事被讲实 | 真实曲率 **0.3×**,推到 2× 需约 **48 倍**样本 `#120` |
+| 直接测量交互幅度(不经模型) | **代数上不可能** —— 残差一阶矩是边际决定量,保边际零下恒等于零 `#105` |
+| 数出维度 | 有诚实地板的估计器数不了;能数的地板是伪影 `#89` |
+| 呈现顺序首因 | release **按字母序**导出多选答案(119 对一致性 1.0000),显示顺序已毁 `#69` |
+| 区分广度与默许 | 需反向计分或强制选择题项,本 release 没有 |
+| 因果方向 | 横断面,剥离过的 release |
 
-- **Eleven mis-specified gates** caught by reading the table rather than the verdict line (`#21`
-  `#26` `#28` `#33` `#40` `#41` `#50` `#59` `#65b` `#65c` `#72d`), plus **one sampling cap** that
-  made four designs blind (`#73`, scoped by `#74`).
-- **No outside challenger has ever run.** Every row is `[unchallenged]`, never "clean".
-- `ADVERSARY_FORECAST.md` remains partly unscored — forecasts #2, #3, #4, #6 scored; #1, #5, #7 not.
+**并且这是一条可迁移的方法学结论,不只对这个数据集**:任何在这个 release 上的分组比较,若没有按**块数**匹配,有一大半在测**问卷覆盖度**而不是性癖差异(`corr = +0.815`,9 次切分)。我没在任何已发表分析里见过有人提这一条。
 
 ---
 
