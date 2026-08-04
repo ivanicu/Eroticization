@@ -213,3 +213,70 @@ def report_numbers_that_left(rev='HEAD~1', **kw):
     print("\n⚠ SAFE SIDE(#P6):只在**离开**方向可读。一个数可以被**改写**而不是删除 ——"
           "\n   命中项必须逐条人工判「被删了,还是换了说法」。没有离开 ≠ 去重是对的。")
     return D
+
+
+# ============================================================================
+# #173:被删掉的是限定语,还是数字
+# ----------------------------------------------------------------------------
+# `#172` 自己的「结构上做不到」写着:一句被删掉的**限定语**不带数字,这道闸看不见。
+# 而 §2 的 η 规则说,`#167`-`#171` 这一整串的病根就是**限定语** ——
+# 「a number reported without the scope over which it holds」。
+#
+# P6 代理账:
+#   PROPERTY    一次改动没有把某个数的限定语剥掉
+#   PROXY       某个被删除的行同时含**限定语标记**与**一个数量**,而那个数量在改后**仍然存在**
+#   IMPLICATION 命中 => 数活着、限定它的那句话死了(**命中方向可读**)
+#   WITNESS     限定语可以被**改写到别处**(移到表头、移到脚注)——
+#               所以命中项必须人工确认「它是没了,还是搬家了」
+#   SAFE SIDE   只在**命中**方向判。没有命中 != 限定语都还在:
+#               一句不含数字的限定语(「这是上界」「仪器无法逐轮判定」)这条规则也看不见。
+# ============================================================================
+_QUAL = _re.compile(
+    r'UNVERIFIED|bounded|upper bound|at most|only|not resolvable|cannot|structurally|'
+    r'未估|不可分辨|上界|下界|保守|单切分|假阳性|结构上|不能|无法|仅|只在|方向可读|'
+    r'\bn\s?=|p95|±|scope|instrument|population|噪声带|自身展布', _re.I)
+
+def qualifiers_stripped_texts(old, new):
+    """纯文本版:同一段判定逻辑,不碰 git。**正对照就跑这一支** ——
+    否则对照要穿过 git/cwd/文件名三层,任何一层出错都会让对照静默失败,
+    而一个失败的正对照会把仪器的零读成无罪(P5 ★)。"""
+    import pandas as pd
+    norm=lambda m: m.strip().replace(' ','').replace('倍','×').replace('−','-')
+    newset=new.split('\n'); out=[]
+    for ln in set(old.split('\n'))-set(newset):
+        if not _QUAL.search(ln): continue
+        nums=[norm(m) for m in _MAGNUM.findall(ln)]
+        naked=[]
+        for t in nums:
+            homes=[l for l in newset if t in norm(l) or t in l]
+            if not homes: continue
+            if not any(_QUAL.search(h) for h in homes): naked.append(t)
+        if naked: out.append(dict(surviving=', '.join(sorted(set(naked))[:6]),deleted_line=ln[:150]))
+    return pd.DataFrame(out)
+
+
+def qualifiers_stripped(rev_from, rev_to='WORKTREE', files=('README.md','README_zh.md')):
+    """git 版:只负责**取文本**,判定一律交给 `qualifiers_stripped_texts`。
+
+    #173c:第一版两条路各写一份逻辑,于是正对照走的是 git 路、**失败在管道上**,
+    而我差点把它读成「逻辑不成立」。**一份逻辑,一个家。**
+    返回 (DataFrame, plumbing) —— plumbing 记每个文件读到多少字符,供管道对照用。
+    """
+    import subprocess, pathlib as _pl, pandas as pd
+    def read(rev, f):
+        if rev == 'WORKTREE':
+            try: return _pl.Path(f).read_text()
+            except FileNotFoundError: return ''
+        r = subprocess.run(['git','show',f'{rev}:{f}'], capture_output=True, text=True)
+        return r.stdout if r.returncode == 0 else ''
+    # 「新家」跨两份 README 找(#173b):`63e03b7` 把 README.md 从中文换成英文。
+    new_all = '\n'.join(read(rev_to, g) for g in files)
+    frames = []; plumbing = {}
+    for f in files:
+        old = read(rev_from, f); plumbing[f] = (len(old), len(new_all))
+        if not old: continue
+        D = qualifiers_stripped_texts(old, new_all)
+        if len(D): frames.append(D.assign(file=f, rev_from=rev_from))
+    out = pd.concat(frames, ignore_index=True) if frames else \
+          pd.DataFrame(columns=['surviving','deleted_line','file','rev_from'])
+    return out, plumbing
