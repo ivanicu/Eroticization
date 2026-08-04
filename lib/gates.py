@@ -391,6 +391,16 @@ class Gate:
         else:
             own = (after - before) / before if before else float('inf')
             com = (after_common - before_common) / before_common if before_common else float('inf')
+            # #244b:守卫 12 第二次使用就在**近零退化**上报了一个假阳。
+            #   `#289` 实测 own = −0.4%、com = −3.7% —— 两个都几乎是零,而**两个近零数的比值由噪声主导**,
+            #   于是「相差 9 倍」被读成「样本变了」。真实情况是**控制两边都没动**。
+            #   判据因此分两段:先问「控制到底动了没有」,只有动了才比两个样本上的动幅。
+            if abs(own) < 0.10 and abs(com) < 0.10:
+                r = (name,
+                     f"各自样本 {100*own:+.1f}% vs 交集样本(n={n_common:,}) {100*com:+.1f}%"
+                     f" —— **两边都 <10%,控制没动它**",
+                     True, "近零区:比值不稳,按「控制无实质影响」读(#244b)")
+                self.rows.append(r); return True
             bad = (abs(own) > tol_ratio*abs(com)) or (abs(com) > tol_ratio*abs(own)) or (own*com < 0)
             r = (name,
                  f"各自样本 {100*own:+.1f}% vs 交集样本(n={n_common:,}) {100*com:+.1f}%",
