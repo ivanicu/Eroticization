@@ -46,6 +46,26 @@ dtypes shape loc iloc at iat name axes empty ndim
 """.split())
 
 
+def check_coverage(processed, available, where="", tol=0.02):
+    """#118c: 第六次,一个我自己写的静默 cap 改变了结论(#73 #74 #118)。
+
+    任何在单位上循环的轮次都必须报出它跳过了多少。截断本身可以是合法的(成本),
+    但**沉默的截断**会把分母伪装成完整,而分母是每一个 SE 的分母。
+
+    processed: 实际进入统计量的单位数
+    available: 满足纳入标准的单位总数
+    截断超过 tol 就抛错,除非调用方显式把 tol 调大 —— 那时它至少写在代码里了。"""
+    if available <= 0:
+        raise ValueError(f"没有单位可用{(' in '+where) if where else ''} —— 空分母(#04)")
+    frac = 1.0 - processed / available
+    if frac > tol:
+        raise ValueError(
+            f"静默截断{(' in '+where) if where else ''}: 用了 {processed}/{available} "
+            f"({100*frac:.0f}% 被跳过). 若这是有意的成本控制,显式传 tol={frac+0.01:.2f} "
+            f"并把跳过量写进轮次的输出里(#118c)。")
+    return processed
+
+
 def check_columns(df, where=""):
     """#117e: 一个与 DataFrame 方法同名的列,取用时静默返回方法对象而不是数据。
     这在本项目里发生了五次(shift #74, mode #77, item #80, T #93, shift #117)。
