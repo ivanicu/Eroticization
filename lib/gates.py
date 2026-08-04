@@ -410,6 +410,49 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def plant_direction_from_sweep(self, name, sweep, baseline, baseline_spread=None,
+                                   half_of=None):
+        """#248c:预注册一个**方向**,和预注册一个**阈值**,不是同一件事。
+
+        阈值我算得出来;**方向我算不出来,我是在猜** —— 而我已经猜错四次:
+        `#132b`(审查)· `#134f`(剂量)· `#146e`(罕见度)· `#248c`(跨半种入)。
+        **四次都是扫描纠正了我,没有一次是我读表读对的。**
+
+        所以这个守卫**不接受调用者给的方向**。它只接受一条扫描
+        `sweep = [(g0, stat0), (g1, stat1), ...]`(`g` 递增,`g0` 应为 0),自己判:
+            ① `g=0` 必须落在 `baseline` 上(若给了 `baseline_spread`,按 2× 展布判)
+            ② 扫描必须**单调**(方向由数据给出,不由调用者给出)
+            ③ 报出**灵敏度**:最小的 `g` 使 |stat − stat(0)| 超过 `half_of`
+               (默认 = |baseline| 的一半)——「这个设计能看见多小的效应」
+
+        **调用者只提供扫描,不提供期望 —— 于是「方向写反」在结构上不可能发生。**
+        """
+        if len(sweep) < 3:
+            r = (name, f"只有 {len(sweep)} 个点", False, "扫描至少要 3 点才谈得上单调")
+            self.rows.append(r); return False
+        gs = [float(g) for g, _ in sweep]; ys = [float(y) for _, y in sweep]
+        if baseline_spread is not None and baseline_spread > 0:
+            ok0 = abs(ys[0] - baseline) <= 2*baseline_spread
+        else:
+            ok0 = abs(ys[0] - baseline) <= max(0.05*max(abs(baseline), 1e-9), 0.02)
+        up = all(ys[i] <= ys[i+1] + 1e-9 for i in range(len(ys)-1))
+        dn = all(ys[i] >= ys[i+1] - 1e-9 for i in range(len(ys)-1))
+        thr = half_of if half_of is not None else abs(baseline)/2
+        sens = next((gs[i] for i in range(1, len(ys)) if abs(ys[i]-ys[0]) > thr), None)
+        direction = '上升' if (up and not dn) else ('下降' if (dn and not up) else '平/非单调')
+        ok = ok0 and (up or dn) and (sens is not None)
+        why = []
+        if not ok0: why.append(f"g=0 未落在基线上({ys[0]:+.4f} vs {baseline:+.4f})")
+        if not (up or dn): why.append("扫描**非单调** —— 种入很可能干扰了它本该保持不变的变量(#248c①)")
+        if sens is None: why.append(f"扫描全程未越过 {thr:.4f} —— **灵敏度未证明**")
+        r = (name,
+             f"方向由数据给出:**{direction}**;灵敏度 g={sens if sens is not None else '未达到'};"
+             f"g=0 {ys[0]:+.4f} · g={gs[-1]:g} {ys[-1]:+.4f}",
+             ok,
+             "扫描自证:单调 + g=0 落基线 + 灵敏度达到" if ok else ' · '.join(why))
+        self.rows.append(r)
+        return ok
+
     def no_sign_crossing(self, name, series):
         """#83d/#79f: never take a ratio or a sum across a sign change."""
         s = np.asarray(series, dtype=float)

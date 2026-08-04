@@ -1,0 +1,6 @@
+v_round,two_ended,text
+R250_pairwise_block_pc_correlations,False,"正对照:把同一因子种进全部 32 块,平均 |r| 必须明显上升"
+R266_delta_inside_the_residual,False,正对照:种强 Δ 后 Δ 方向占比必须明显上升
+R267_the_second_item_direction,False,"正对照:种一个已知第二方向,残差复现必须上升"
+R271_content_structure_by_position_tertile,False,正对照:高 S 层种更强内容信号 -> 梯度必须被测到
+R273_does_breadth_have_block_level_structure,False,正对照(第二段):种入人×块特异的宽度 -> 剖面复现必须随强度上升
