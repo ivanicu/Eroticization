@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 309 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **264 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 329 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **283 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.md)** — English is canonical; corrections land here first.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -65,12 +65,20 @@ across a dozen ledger entries; this is all of them in one place. **Every number 
 | Breadth type c2 | **+0.5778** | blocks | untested | `UNCOMPUTED` | 11 → **6 after control, read as 4–8** (`#257`) | **pick count · sex · position S all controlled** (`#252`) |
 | **Breadth type c3 — *where you spend your openness*** | **+0.5631** | blocks | **name verified** on the disjoint onset instrument (`#258`: +0.1815 with its transgressive half, **−0.1086** with its ordinary half, gap 18.6×) | **+0.1286** | 21 → **19 after control, read as 17–21** (`#257`) | correlates only +0.2036 with position; both survive jointly; total category count controlled — the gap **grows** to +0.4905 |
 | **rho_i** — whether your rare interests come first or last | **+0.5316** | onset ages (31 categories) | n/a (blocks carry no time) | `UNCOMPUTED` | 11/31 | current age controlled (+0.0226) · recall bias controlled (`#289`) · 56% survives a cross-half split |
+| **`form_i` — what "opened by drawn things" and "opened by written things" share** | **+0.3382** (two items) | blocks (the residual of `animated`/`written` after all six coordinates) | **verified** — +0.0799 on the disjoint onset instrument, 3.9× its permutation spread (`#277`) | **+0.0454**, but its increment over the six is **+0.21 ± 0.13pp — indistinguishable** (`#278`) | **9–11 of 27** (its own two items excluded) | the six coordinates are removed by construction; its correlation with `c3⊥D` is an **identity**, not evidence (`#277`); it shares only +0.1212 of profile with `rate⊥rho` on the disjoint instrument (`#283`) |
 | ~~Accumulation rate~~ | +0.6931 | onset ages | n/a | `UNCOMPUTED` | 6/31 | **withdrawn as a dimension** — its profile sits at the ceiling against rho_i (−0.8499 vs 0.8779) |
 
 **Read the reliability column first.** The three breadth types (0.56–0.72) are the most reliable person-level
 quantities in this release, and they were the last to be found. The position score (0.432), which carries the
 project's oldest and most-cited claim, is the least reliable of the ones still standing.
 ---
+
+> ⚠ **`form_i` is the only standing dimension that does *not* reach shame** (`#278`). Everything else in
+> this project ends up pointing at it — position +0.1185, breadth-type c3 +0.1286, the between-block
+> contrast on the disjoint instrument +0.1384 — and this one does not: its correlation with shame is
+> +0.0454, but its **increment over the six coordinates is +0.21 ± 0.13pp, indistinguishable from zero.**
+> **When every quantity in a project points at the same outcome, the informative one is the quantity that
+> doesn't.**
 
 > ⚠ **These six columns are not six independent measurements** (`#270`). They are all built from the
 > *same* option split, so they share measurement error. Two independent splits let that error be
