@@ -522,6 +522,34 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def bounded_statistic_out_of_range(self, name, value, lo, hi, what=""):
+        """#296b:**一个有定义域的统计量落在定义域外,是仪器坏了,不是效果极强。**
+
+        `#296a` 的正对照算「收回比例」= 偏出后的掉幅 ÷ 原样的掉幅。两个掉幅**都是负的**,
+        而我写的是 `rec = (hi_par-base_par) / max(hi_raw-base_raw, 1e-9)` ——
+        `max(...)` 是给正量写的,它把 **−0.3614 夹成了 1e-9**,于是 rec = −4.3e8,
+        「收回」印成 **42842376318%**,而门槛 `(1-rec) > 0.40` **欣然通过**。
+
+        > **单侧门槛分不清「非常好」和「坏掉了」。**
+        > 真实的收回是 **−18.5%** —— 偏出让人为的信度差**更大**,正对照其实是 FAIL。
+
+        所以:任何**有天然上下界**的统计量(比例、份额、收回率、相关、保留百分比)
+        在进入任何判据之前,**必须先被它自己的定义域挡一道**。
+        越界 -> 仪器失败(UNVERIFIED),**永远不读成极端的成功**。
+        """
+        try: v = float(value)
+        except Exception:
+            r = (name, f"{value!r} 不是数", False, "有界统计量必须是数(#296b)"); self.rows.append(r); return False
+        if not np.isfinite(v):
+            r = (name, f"{v}", False, "非有限值 —— 仪器失败,不是极端效果(#296b)")
+        elif v < lo or v > hi:
+            r = (name, f"**{v:.4g}** 落在 [{lo}, {hi}] 之外", False,
+                 f"**{what or '这个量'}越界 -> 仪器坏了,不是效果极强**;"
+                 f"`#296a` 印出 4.28e10% 并通过了一个 `>0.40` 的单侧门槛(#296b)")
+        else:
+            r = (name, f"{v:.4g} ∈ [{lo}, {hi}]", True, "在定义域内 —— 可以进入判据")
+        self.rows.append(r); return r[2]
+
     def component_difference_is_not_mechanism(self, name, whole_before, whole_after,
                                               spread, component, retain_ceiling=0.50):
         """#294b:**一个零件在两组间不同,不等于它就是整体差异的机制。**
