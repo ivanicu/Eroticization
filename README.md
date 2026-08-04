@@ -32,6 +32,31 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 > **The A/B/C decomposition does not cut this data at its joints.** That is a claim about the
 > decomposition's completeness, not a refutation of A.
 
+
+---
+
+## The person-level dimensions this release actually supports
+
+`#234c` found that the A/B/C decomposition does not cut this data at its joints: all three ask what makes a
+*thing* sexual, while the most reliable structure here is about the *person*. Those dimensions were scattered
+across a dozen ledger entries; this is all of them in one place. **Every number below appears verbatim in
+`RETRACTIONS.md` — the round that built this table (`#251`) fails if one does not.** Empty cells say
+`UNCOMPUTED`; they are the honest part.
+
+| Dimension | split-half | instrument | cross-instrument | ↔ shame | outcomes cleared | strongest rival |
+|---|---:|---|---|---:|---:|---|
+| **Position S** — how uncommon the options you pick are | **+0.432** | blocks (32 multi-select) | untested | **+0.1185** | 9/20 | pick count controlled (+0.1155) · sex · content score |
+| **Between-block contrast D** — which domains you open in | **+0.6785** | blocks | **verified** (onset instrument, +0.1384) | +0.0830 | ~8–10/31 | pick count near-absent on the onset instrument (+0.0428) |
+| **Breadth profile** — the shape you open in | **+0.4290** | blocks | **verified** (≥2 dimensions; onset k=2 replicates at 0.9379) | `UNCOMPUTED` | `UNCOMPUTED` | pick count controlled · block-level property ruled out (`#228b`) |
+| Breadth type c1 | **+0.6429** | blocks | untested | `UNCOMPUTED` | 13 | `UNCOMPUTED` |
+| Breadth type c2 | **+0.5778** | blocks | untested | `UNCOMPUTED` | 11 | `UNCOMPUTED` |
+| **Breadth type c3** | **+0.5631** | blocks | untested | **+0.1286** | 21 | correlates only +0.2036 with position; both survive jointly |
+| **rho_i** — whether your rare interests come first or last | **+0.5316** | onset ages (31 categories) | n/a (blocks carry no time) | `UNCOMPUTED` | 11/31 | current age controlled (+0.0226) · recall bias controlled (`#289`) · 56% survives a cross-half split |
+| ~~Accumulation rate~~ | +0.6931 | onset ages | n/a | `UNCOMPUTED` | 6/31 | **withdrawn as a dimension** — its profile sits at the ceiling against rho_i (−0.8499 vs 0.8779) |
+
+**Read the reliability column first.** The three breadth types (0.56–0.72) are the most reliable person-level
+quantities in this release, and they were the last to be found. The position score (0.432), which carries the
+project's oldest and most-cited claim, is the least reliable of the ones still standing.
 ---
 
 ---
