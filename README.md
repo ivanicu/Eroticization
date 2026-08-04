@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 184 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **139 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 185 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **140 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -40,7 +40,7 @@ the receipt.
 | **一个人自己那些别人很少有的兴趣,排在他自己那些大家都有的兴趣前面** | 扣掉人群共享的时间表和这个人整体的早熟之后,人内「起始年龄残差 × 类别稀有度」= **−0.0328**,题内跨人置换零 +0.0018,**8.8×**。**离散版本(最早一格 vs 他自己的曲目库)独立复现:扣掉时间表后 +0.0767,14.5×**。`#114` 的回忆偏差实际只贡献 **4%**,且对主量符号相反 | `#128` `#130` |
 | **版图真正的主分界线不是"先来后到",是"物件 vs 叙事"** | 6 个连贯分割 × 11 个非性变量的整格,最大统计量零给出全族阈值 0.0560。**PC4 点亮 6 个变量,最强一格 9.0×**:一侧是衣物·性别扮演·体液·角色·脏污·变形·玩具,另一侧是年龄·惊悚·非自愿·生物·乱伦·温柔·残暴·怀孕·神话。**五个锚在性别内部仍成立**(开放性 +0.083 · 外向性 +0.088 · 神经质 −0.064 · 无力感 −0.059,两性方向一致)。⚠ 命名是我对载荷的读法(D5);标度小(0.033–0.088)。⚠ **模型方向已撤回**:不依赖命名的结构检验(`#139`)显示 PC4 两侧**并不比别的分割更不同构**(0.8×),所以这条线与模型 A、B 都相容 | `#138` `#139` |
 | **性别锚住的是"性"本身,不是其中某一族** | 早族 +0.0706 vs 晚族 +0.0816,差 **0.7×**。而开放性(+0.0593,4.1×)与无力感(−0.0441,2.8×)确实只锚住晚族 —— **但那个差不是这两族特有的**:同一矩阵的另外五个同样连贯的分割给出 0.0702–0.2106,**早/晚这条线是六个里最弱的一个**。两族在组织度与到达方式上不同,在**外部成因**上不是两样东西 | `#137` |
-| **关系族同时到达,却装着好几个独立的维度** | 早/晚这条线的**结构不对称是六个连贯分割里最大的**(5.73,3.0×):晚族有效维度**多 2.42 个**、分半信度**低 0.35**、单因子占比**低 0.14**。**它在时间上是一个包,在偏好结构上不是一个东西** —— 而具体族相反:分散地到达,却更像单一的一个东西 | `#139` |
+| **关系族同时到达,却装着好几个独立的维度** | 早/晚这条线的**结构不对称是六个连贯分割里最大的**(5.73,3.0×):晚族有效维度**多 2.42 个**、分半信度**低 0.35**、单因子占比**低 0.14**。**它在时间上是一个包,在偏好结构上不是一个东西** —— 而具体族相反:分散地到达,却更像单一的一个东西(拉平题目数后有效维度 7.64 vs 5.30)。**而它装的就是 `A02` 早就命名过的三条轴**(谁服从·谁被看·谁接受,留出相关 0.81/0.81/0.91,随机载荷地板 0.349)—— 关系族是三条近乎独立的轴的**交汇处** | `#139` `#140` |
 | **早来的东西是散的,晚来的东西是一整套** | 人内置换零下的三个块:早×早 **−0.01272(27.9×)** · **晚×晚 +0.02103(23.1×)** · 晚×早 −0.00484(15.2×)。晚到的是关系族(权力动态·束缚·施虐受虐·精神改变·感官,26–31% 在 19 岁后),早到的是具体族(外观 8.6%·衣物 10.9%·身体部位 11.1%)。题目层:晚族彼此 **+0.0674**,早族彼此 −0.0075。**而且"一整套"是字面意义的**:关系族的获得年龄比同样多个随机挑的**靠拢 9.4%**(17.7×,在扣掉人群时间表之后),具体族反而**分散 9.0%**(12.1×)。**发育不是同一种东西按顺序到达,是两种不同组织度的东西以不同方式到达** —— 这是 `#75` 的时间表没有的维度。⚠ 连通度**没有拐点**(1.6×),所以"17 岁关上"只对类别数成立 | `#135` `#136` |
 | **三分之一的人,版图在 17 岁就关上了;剩下的人,它是向外开的** | 29–32 岁档里 **33.3% 报告 17 岁后一个新兴趣都没有**。而在有晚期条目的人身上,晚获得的类别与他早期那些**更不相连**,配对层剥掉稀有度后保留 89%,`#114` 符号相反,**五个年龄档全部同号(5.3–10.9×)且无年龄梯度**(所以不是叙事整理)。**扩张,不是深化** —— 模型 C 不能被定域为"重排既有权重"。⚠ **只报方向,不报量级**:切点从 13.5 到 17.5 give −0.0165 → −0.0069(差 2.4 倍),且**人内中位数分割不可分辨(1.0×)—— 现象绑在绝对年龄上,不是"你序列里靠后的"** | `#133` `#134` |
 | **性版图在青春期结束时就基本定型** | 29–32 岁的人,自己报告的性兴趣有 **68.4% 是 17 岁前获得的**,最晚的那一个平均在 **22.6 岁**(人内测量,不依赖横断面假设)。横断面上 15 年里类别数只从 12.4 长到 12.9(+4.5%,队列混淆,较弱)。**这给模型 C 划了时间边界:递归重塑若存在,作用窗口主要在青春期内** | `#132` |
@@ -178,7 +178,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **139 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **140 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |

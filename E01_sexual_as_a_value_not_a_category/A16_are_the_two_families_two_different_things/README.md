@@ -1,12 +1,10 @@
 # A16 · 两族是两样东西吗
 
-**这个弧要让哪个决定变安全:**`#135`/`#136` 发现性版图由两族构成 —— 组织度不同
-(题目层彼此 +0.0674 vs −0.0075),到达方式不同(一起 vs 一个一个)。
-那它们是**两样东西**,还是同一样东西的两种组织方式?
-
-这压在 Ivan 三个模型的分界线上:**模型 A(专用性内容系统)预测一个统一的检测器**,
-而不是两个有不同外部成因的族。
+**弧的答案:不是两样东西,而且"两族"这条线本身不是版图的主轴。**
 
 | 子轮 | 目录 | 信念更新 |
 |---|---|---|
-| R01 | [`R01_do_they_have_different_external_anchors`](R01_do_they_have_different_external_anchors) | 不是两样东西:早/晚这个分割在外部锚上是**六个连贯分割里最弱的一个** |
+| R01 | [`R01_do_they_have_different_external_anchors`](R01_do_they_have_different_external_anchors) | 早/晚这条线在外部锚上是六个连贯分割里**最弱**的 |
+| R02 | [`R02_which_line_is_the_real_one`](R02_which_line_is_the_real_one) | 外部锚最强的是 PC4:**物件与装扮 ↔ 情境与叙事**(9.0× 全族阈值) |
+| R03 | [`R03_are_the_two_sides_isomorphic`](R03_are_the_two_sides_isomorphic) | 但 PC4 两侧**结构同构**(0.8×);真正结构不对称的是早/晚那条(3.0×) |
+| R04 | [`R04_what_are_the_extra_dimensions`](R04_what_are_the_extra_dimensions) | 关系族装的就是 `A02` 那三条轴;第四个成分**在随机地板上** |
