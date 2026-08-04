@@ -9,7 +9,7 @@ Private curiosity project. Not written for publication and not seeking any.
 
 Object: the **Big Kink Survey** public subsample — [Zenodo 10.5281/zenodo.18625141](https://zenodo.org/records/18625141),
 15,503 respondents × 365 columns, aggressively binned, demographically stripped, noise-injected.
-Data is not committed — neither the raw release nor the person-level derived tables; `E01…/A01…/R01_schema/run.py` re-downloads and rebuilds them. **[CORRECTED before publication]** 24 derived `data/derived/*.csv` files, two of them with one row per respondent, were tracked until now, so this sentence was false; they are untracked and gitignored as of this commit. They remain in the commit history.
+Data is not committed — neither the raw release nor the person-level derived tables; `E01…/A01…/R001_schema/run.py` re-downloads and rebuilds them. **[CORRECTED before publication]** 24 derived `data/derived/*.csv` files, two of them with one row per respondent, were tracked until now, so this sentence was false; they are untracked and gitignored as of this commit. They remain in the commit history.
 
 ## The three models being separated
 

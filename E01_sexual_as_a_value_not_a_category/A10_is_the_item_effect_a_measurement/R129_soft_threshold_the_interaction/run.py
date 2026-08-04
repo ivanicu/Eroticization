@@ -47,7 +47,7 @@ for _,q in keep.iterrows():
     M=np.zeros((len(ppl),len(opt))); M[s.person.map(pi).values,s.option.map(oi).values]=1
     RAW[q.qi]=M
 P3=pd.read_csv('E01_sexual_as_a_value_not_a_category/A09_does_the_epoch_title_survive/'
-               'R03_fixed_margin_null/results/grid.csv')
+               'R114_fixed_margin_null/results/grid.csv')
 d1=P3[P3.K==1].groupby(['q','f']).I.mean().unstack('f')
 IDENT=sorted(d1.index[(d1[0.]-d1[5.]).abs()<=0.01])
 MASK=0.15; SEEDS=[11,29,47]; LAMS=[0.,.25,.5,1.,2.,4.,8.]

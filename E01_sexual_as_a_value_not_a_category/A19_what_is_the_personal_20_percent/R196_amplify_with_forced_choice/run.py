@@ -39,7 +39,7 @@ warnings.filterwarnings('ignore')
 from lib.gates import Gate, check_disjoint_items
 
 _SRC=(ROOT/'E01_sexual_as_a_value_not_a_category/A14_is_rare_affinity_a_start_or_a_destination'
-          /'R01_does_the_map_radiate_outward'/'run.py').read_text()
+          /'R173_does_the_map_radiate_outward'/'run.py').read_text()
 exec(_SRC.split('"""',2)[2].split('# ---- beta_i')[0])   # 跨轮依赖显式声明(P16)
 
 FC=inv[inv['kind']=='FORCED_CHOICE_MOST']['col'].tolist()

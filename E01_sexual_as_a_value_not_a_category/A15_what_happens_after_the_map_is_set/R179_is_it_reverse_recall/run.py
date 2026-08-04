@@ -42,7 +42,7 @@ warnings.filterwarnings('ignore')
 from lib.gates import Gate, check_residualized, check_coverage
 
 _SRC=(ROOT/'E01_sexual_as_a_value_not_a_category/A14_is_rare_affinity_a_start_or_a_destination'
-          /'R01_does_the_map_radiate_outward'/'run.py').read_text()
+          /'R173_does_the_map_radiate_outward'/'run.py').read_text()
 exec(_SRC.split('"""',2)[2].split('# ---- beta_i')[0])   # 跨轮依赖显式声明(P16)
 
 Ob=obs.astype(float); pj=Ob.mean(0); Cm=(Ob.T@Ob)/len(Ob)

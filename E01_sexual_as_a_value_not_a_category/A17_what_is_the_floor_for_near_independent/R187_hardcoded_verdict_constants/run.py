@@ -43,7 +43,7 @@ hits=gl.report_thresholds(paths,'(现存声明背后的 %d 轮)'%len(paths))
 print("\n=== 把命中处的距离量出来(以观测值自己的自助展布计)===")
 rows=[]
 G=pd.read_csv('E01_sexual_as_a_value_not_a_category/A12_does_order_of_acquisition_reshape'
-              '/R14_direction_at_double_n/results/grid.csv')
+              '/R170_direction_at_double_n/results/grid.csv')
 rb=np.random.default_rng(1)
 for t,g in G[G.arm=='real'].groupby('thresh'):
     v=g.v_shift.values

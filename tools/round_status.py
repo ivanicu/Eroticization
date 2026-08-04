@@ -22,7 +22,7 @@ import re,sys,pathlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 SUP=('取代','supersede','superseded','修法','已作废','撤回','降级','WITHDRAWN','retract',
      'RETRACTED','的修法','不再','改用','换成')
-RID=re.compile(r'E01[·.]?(A\d{2})[·.]?(R\d{2})')
+RID=re.compile(r'E01[·.]?(A\d{2})[·.]?(R\d{2,3})')
 HEAD=re.compile(r'^## Entry (\d+),\s*added by\s*(.+)$')
 
 def index(ledger='RETRACTIONS.md'):
@@ -35,14 +35,14 @@ def index(ledger='RETRACTIONS.md'):
             for a,r in RID.findall(h.group(2)):
                 added.setdefault(f"{a}/{r}",[]).append(cur)
             # 头里的 `+`R15`` 形式
-            for r in re.findall(r'\+\s*`?(R\d{2})`?',h.group(2)):
+            for r in re.findall(r'\+\s*`?(R\d{2,3})`?',h.group(2)):
                 for a,_ in RID.findall(h.group(2)):
                     added.setdefault(f"{a}/{r}",[]).append(cur)
             continue
         if cur is None: continue
         for a,r in RID.findall(l):
             cited.setdefault(f"{a}/{r}",[]).append((cur,i,l.strip()))
-        for r in re.findall(r'`(R\d{2})[_`]',l):
+        for r in re.findall(r'`(R\d{2,3})[_`]',l):
             pass
     return added,cited,lines
 
@@ -66,7 +66,7 @@ def sibling_supersession(rd,ent,lines,B):
     a,b=B[ent]; me=rd.split('/')[1]
     hits=[]
     for l in lines[a:b]:
-        sibs=set(_re.findall(r'`?(R\d{2})`?',l))-{me}
+        sibs=set(_re.findall(r'`?(R\d{2,3})`?',l))-{me}
         if sibs and any(w in l for w in SUP+('fix','failed','replacement','instead')):
             hits.append((sorted(sibs),l.strip()[:150]))
     return hits or None

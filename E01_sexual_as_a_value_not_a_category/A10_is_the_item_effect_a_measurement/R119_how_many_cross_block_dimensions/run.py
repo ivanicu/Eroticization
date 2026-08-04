@@ -54,7 +54,7 @@ for _,q in keep.iterrows():
     M=np.zeros((len(ppl),len(opt))); M[s.person.map(pi).values,s.option.map(oi).values]=1
     RAW[q.qi]=dict(M=M,ppl=ppl)
 P3=pd.read_csv('E01_sexual_as_a_value_not_a_category/A09_does_the_epoch_title_survive/'
-               'R03_fixed_margin_null/results/grid.csv')
+               'R114_fixed_margin_null/results/grid.csv')
 d1=P3[P3.K==1].groupby(['q','f']).I.mean().unstack('f')
 IDENT=sorted(d1.index[(d1[0.]-d1[5.]).abs()<=0.01])
 ALLP=np.unique(np.concatenate([RAW[q]['ppl'] for q in RAW])); PM={p:i for i,p in enumerate(ALLP)}
