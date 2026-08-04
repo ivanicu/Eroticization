@@ -18,3 +18,4 @@
 | R227 | [`R227_within_person_slope`](R227_within_person_slope) | 换估计量复现:**截距** +0.0270(2.9×,n=10,567);两个 9× 是 `r=−0.97` 的共线抑制 |
 | R228 | [`R228_is_it_recall_distance`](R228_is_it_recall_distance) | 年龄对手死了(`corr(截距,年龄)=+0.006`,控制后纹丝不动);而注册的 kill 按字面会造成**假撤回** |
 | R229 | [`R229_discriminant_panel`](R229_discriminant_panel) | ⚠ **降级 `#180`/`#182`/`#183`**:截距↔羞耻没越过全族阈值(0.0278 vs 0.0307),而 `highenergy` 更大;**`#179` 的 S 站住并排第 1/20** |
+| R230 | [`R230_is_it_shame_or_a_general_factor`](R230_is_it_shame_or_a_general_factor) | 没有广义因子可归咎:PC1 只解释 23%、羞耻载荷 −0.013;控制它 S↔羞耻 保留 **100%** |
