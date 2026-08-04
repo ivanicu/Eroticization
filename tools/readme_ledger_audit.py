@@ -140,9 +140,15 @@ def named_defects(readmes=('README.md','README_zh.md'), ledger='RETRACTIONS.md')
             toks=set(_re.findall(r'`([^`\n]{3,40})`',seg))|set(_re.findall(r'[+−-]\d\.\d{3,4}|\b\d{1,3}\.\d%',seg))
             for tk in toks:
                 if tk.startswith('#') or tk.startswith('tools/') or len(tk)<4: continue
+                # ⚠ #179b:`tk in ln` 是**无边界的子串匹配** —— `+0.093`(性别锚)
+                #   会匹配进 `+0.0937`(疗愈),于是一条新增声明凭空造出两个"未修"。
+                #   同一个串两个所指(`#170b`)的第二种形态:**前缀包含**。
+                #   数字型 token 必须要求右侧不是数字。
+                import re as _r2
+                pat=(_r2.escape(tk)+r'(?!\d)') if _r2.search(r'\d$',tk) else _r2.escape(tk)
                 for f,txt in cur.items():
                     for ln_no,ln in enumerate(txt.split('\n'),1):
-                        if tk in ln:
+                        if _r2.search(pat,ln):
                             out.append(dict(entry=n,token=tk,file=f,line=ln_no,
                                             marked=bool(_MARK.search(ln)),excerpt=ln[:100]))
     import pandas as pd
