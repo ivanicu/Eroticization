@@ -48,9 +48,9 @@ across a dozen ledger entries; this is all of them in one place. **Every number 
 | **Position S** — how uncommon the options you pick are | **+0.432** | blocks (32 multi-select) | untested | **+0.1185** | 9/20 | pick count controlled (+0.1155) · sex · content score |
 | **Between-block contrast D** — which domains you open in | **+0.6785** | blocks | **verified** (onset instrument, +0.1384) | +0.0830 | ~8–10/31 | pick count near-absent on the onset instrument (+0.0428) |
 | **Breadth profile** — the shape you open in | **+0.4290** | blocks | **verified** (≥2 dimensions; onset k=2 replicates at 0.9379) | its per-person **clarity** gives +0.0148 ± 0.0116 (1.3×, one seed) | **8 of 29, read as 3–13** across six option-split seeds (`#255` — ⚠ `#254`'s "predicts nothing" is **withdrawn**: that reading came from one unlucky seed) | pick count controlled · block-level property ruled out (`#228b`) |
-| Breadth type c1 | **+0.6429** | blocks | untested | `UNCOMPUTED` | 13 → **8–10 after control** | **pick count · sex · position S all controlled** (`#252`) |
-| Breadth type c2 | **+0.5778** | blocks | untested | `UNCOMPUTED` | 11 → **6 after control** | **pick count · sex · position S all controlled** (`#252`) |
-| **Breadth type c3** | **+0.5631** | blocks | untested | **+0.1286** | 21 | correlates only +0.2036 with position; both survive jointly |
+| Breadth type c1 | **+0.6429** | blocks | untested | `UNCOMPUTED` | 13 → **9 after control, read as 6–12** (`#257`) | **pick count · sex · position S all controlled** (`#252`) |
+| Breadth type c2 | **+0.5778** | blocks | untested | `UNCOMPUTED` | 11 → **6 after control, read as 4–8** (`#257`) | **pick count · sex · position S all controlled** (`#252`) |
+| **Breadth type c3** | **+0.5631** | blocks | untested | **+0.1286** | 21 → **19 after control, read as 17–21** (`#257`) | correlates only +0.2036 with position; both survive jointly |
 | **rho_i** — whether your rare interests come first or last | **+0.5316** | onset ages (31 categories) | n/a (blocks carry no time) | `UNCOMPUTED` | 11/31 | current age controlled (+0.0226) · recall bias controlled (`#289`) · 56% survives a cross-half split |
 | ~~Accumulation rate~~ | +0.6931 | onset ages | n/a | `UNCOMPUTED` | 6/31 | **withdrawn as a dimension** — its profile sits at the ceiling against rho_i (−0.8499 vs 0.8779) |
 
