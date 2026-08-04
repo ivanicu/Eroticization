@@ -167,3 +167,46 @@ def report_named_defects(**kw):
     print("\n⚠ SAFE SIDE(#P6):只在**命中且无标记**方向判「未修」。"
           "\n   未命中 ≠ 已修(措辞可能变了);带标记 = 已改写,不是未修。")
     return D
+
+
+# ============================================================================
+# #171:去重删掉的是重复,还是内容
+# ----------------------------------------------------------------------------
+# #170c 排出三层(守卫没调用 / 输出没人读 / 记了没人修),第四层没查:**修得对不对。**
+# `#170a` 把 R06 正文段的数字删掉只留指针 —— 而没有任何检查能证明删掉的那些数
+# 与声明表里留下的那些数是**同一批**。删错一个,读者会看到一个表里没有、正文也没有的洞。
+#
+# P6 代理账:
+#   PROPERTY    一次去重只删掉了重复,没有删掉内容
+#   PROXY       修前 README 里出现过的**数量**,修后在整份文件里**一次都不出现**
+#   IMPLICATION 修前有、修后全无 => 那个数离开了这一页(**命中方向可读**)
+#   WITNESS     一个数可以被**改写**而不是删除(0.2285 → "the correction" 这种改写),
+#               所以命中项必须逐条人工判「它是被删了,还是被换了说法」
+#   SAFE SIDE   只在**离开**方向判。没有离开 != 去重是对的(可能删的是内容、留的是重复)。
+# ============================================================================
+_MAGNUM = _re.compile(r'[+−-]\s?\d\.\d{2,4}|\b\d{1,3}(?:\.\d+)?\s?%|\b\d+(?:\.\d+)?\s?[×倍]')
+
+def numbers_that_left(rev='HEAD~1', files=('README.md','README_zh.md')):
+    import subprocess, pathlib, pandas as pd
+    out=[]
+    for f in files:
+        try: old=subprocess.run(['git','show',f'{rev}:{f}'],capture_output=True,text=True,check=True).stdout
+        except subprocess.CalledProcessError: continue
+        new=pathlib.Path(f).read_text()
+        o=set(m.strip() for m in _MAGNUM.findall(old)); n=set(m.strip() for m in _MAGNUM.findall(new))
+        for tk in sorted(o-n):
+            ctx=[l for l in old.split('\n') if tk in l]
+            out.append(dict(file=f,token=tk,n_old_lines=len(ctx),
+                            old_excerpt=(ctx[0][:120] if ctx else '')))
+    return pd.DataFrame(out)
+
+def report_numbers_that_left(rev='HEAD~1', **kw):
+    D=numbers_that_left(rev=rev, **kw)
+    if D.empty:
+        print(f"\n对比 {rev} → 工作区:没有数量离开这一页"); return D
+    print(f"\n对比 {rev} → 工作区:**{len(D)} 个数量离开了这一页**")
+    for _,r in D.iterrows():
+        print(f"  {r.file}  `{r.token}`  (修前出现在 {r.n_old_lines} 行)\n      {r.old_excerpt}")
+    print("\n⚠ SAFE SIDE(#P6):只在**离开**方向可读。一个数可以被**改写**而不是删除 ——"
+          "\n   命中项必须逐条人工判「被删了,还是换了说法」。没有离开 ≠ 去重是对的。")
+    return D
