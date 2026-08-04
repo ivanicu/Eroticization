@@ -203,7 +203,7 @@ gap**, and modality has a real deficit at the smallest gap of all.
 
 | # | The claim | What killed or scoped it | What survived |
 |---|---|---|---|
-| 20 | **"corr(deficit, coverage gap) = +0.815 across nine splits. Any group comparison on this release must be block-count matched or it partly measures survey coverage"** — carried as the project's transferable methodological result, and after #15 its only novel one | Influence analysis with the known-null splits added to the class. **Median r over K ∈ {3,5,8,12} = +0.127. Worst leave-one-out = −0.294, and the point whose removal does it is pornhabit at 6 of 8 specifications.** The permutation null at this n is enormous — **|r| p95 = 0.820 at n=6 splits** — so at this many units a correlation has to clear 0.82 to carry information, and +0.815 never did. Positive control passed (gap vs itself 1.000; a synthetic deficit built as f(coverage) recovered at 1.000), so this is a real null and not broken plumbing | **The correction, not the law.** Block-count matching moved pornhabit's deficit 0.2285 → 0.0871 → 0.0439 by *direct measurement on that split*, and that is unaffected — it never depended on the correlation. What dies is the general claim that deficit tracks coverage across splits. It does not: sex and modality both have large deficits at near-zero coverage gaps |
+| 20 | **"corr(deficit, coverage gap) = +0.815 across nine splits. Any group comparison on this release must be block-count matched or it partly measures survey coverage"** — carried as the project's transferable methodological result, and after #15 its only novel one | Influence analysis with the known-null splits added to the class. **Median r over K ∈ {3,5,8,12} = +0.127. Worst leave-one-out = −0.294, and the point whose removal does it is pornhabit at 6 of 8 specifications.** The permutation null at this n is enormous — **\|r\| p95 = 0.820 at n=6 splits** — so at this many units a correlation has to clear 0.82 to carry information, and +0.815 never did. Positive control passed (gap vs itself 1.000; a synthetic deficit built as f(coverage) recovered at 1.000), so this is a real null and not broken plumbing | **The correction, not the law.** Block-count matching moved pornhabit's deficit 0.2285 → 0.0871 → 0.0439 by *direct measurement on that split*, and that is unaffected — it never depended on the correlation. What dies is the general claim that deficit tracks coverage across splits. It does not: sex and modality both have large deficits at near-zero coverage gaps |
 
 **What the correlation actually was.** One split with a coverage gap 7.6× everything else, which
 also happened to have a large deficit for its own reasons. With n=9 units and a null p95 near 0.82,
@@ -3433,10 +3433,10 @@ same scale (**0.0712** vs ~0.075 implied).
 
 | # | Claim | Verdict |
 |---|---|---|
-| 101c | **the fork, `#100`'s open question** | **LEANS EROTIC, and only leans.** Onset age |r| = 0.0838 against a personality-block **mean** of 0.0332 (**2.5×**) — but against the **largest** personality correlate (agreeable, 0.0555) it is **1.5×**. A mean-versus-single comparison flatters the conclusion; the honest number is 1.5× |
+| 101c | **the fork, `#100`'s open question** | **LEANS EROTIC, and only leans.** Onset age \|r\| = 0.0838 against a personality-block **mean** of 0.0332 (**2.5×**) — but against the **largest** personality correlate (agreeable, 0.0555) it is **1.5×**. A mean-versus-single comparison flatters the conclusion; the honest number is 1.5× |
 | 101d | **the direction, which is interpretable** | **Higher rare-option affinity ↔ EARLIER acquisition** (r = −0.084; disattenuated −0.127). People whose endorsements concentrate on uncommon options report acquiring their interests younger. This is the first link between arc `A11` and the fifteen rounds `A03` spent on the acquisition schedule |
 | 101e | **the largest correlate overall** | **Sex: +0.0930** (disattenuated +0.141) — men's endorsements concentrate on rarer options. Larger than onset and larger than anything in the personality block |
-| 101f | **the size, so it is not over-read** | Every correlation here is |r| ≤ 0.093, i.e. **under 1% of variance**, and the *breadth* nuisance this project projects out everywhere has a **larger** correlation with onset (−0.160) than the trait does (−0.084). **The trait has an external anchor; it is not a strong one** |
+| 101f | **the size, so it is not over-read** | Every correlation here is \|r\| ≤ 0.093, i.e. **under 1% of variance**, and the *breadth* nuisance this project projects out everywhere has a **larger** correlation with onset (−0.160) than the trait does (−0.084). **The trait has an external anchor; it is not a strong one** |
 
 **What is settled and what is not.** Settled: the trait is not pick count (`#100c`), it has external
 correlates that a matched null does not (`101` gates), and its largest non-demographic correlate is
@@ -3500,7 +3500,7 @@ its real numbers.
 
 | case | originally printed | library returns |
 |---|---|---|
-| `#102a` null 91% of the effect | **PASS** (|null| < 0.03) | **FAIL** — "null is 91% of the effect" |
+| `#102a` null 91% of the effect | **PASS** (\|null\| < 0.03) | **FAIL** — "null is 91% of the effect" |
 | `#79e` one arm of two checked | **PASS** | **FAIL** — "MISSING ['logit']" |
 | `#83d` cliff ratio across a sign change | **PASS** (1.7e10) | **FAIL** — "signs CROSS ZERO" |
 | `#96a` "at comparable mean" in prose | **PASS** | **FAIL** — means differ by 0.2881 |
@@ -4052,7 +4052,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 | 119a | **畸变随年龄增强** | **确认,3.5×。** 从 15 岁组的 −0.0505 到 30 岁组的 −0.0917,**十五年里几乎翻倍** |
 | 119b | **伪影现在指向相反方向** | 层内标准化把平种植的假趋势从 **−0.0691** 压到 **+0.0070**,而且**符号与真实效应相反** —— 校正只会让效应**更大**(−0.0192),不会更小 |
 | 119c | **但判别范围比我框的窄,必须收口** | 我把它框成"记忆重构 vs 当下叙事"。实际判别的是**时间依赖 vs 时间无关**:纯粹的报告时刻建构被排除了,但"叙事在多年里被反复复述而固化"同样随时间增长,**它没被排除**。结论应写成:**这个畸变是随时间累积的,不是在回答问卷的那一刻凭空生成的** |
-| 119d | **"伪影是否为零"一直是错的问题 —— 第三十五个** | 我用 `asserted(|伪影| < 2·SE)` 去判,它以 **0.0001** 之差 FAIL(0.0070 vs 阈值 0.0069)。而那个伪影**符号与效应相反**,校正只会放大效应。正确的问题不是"它是不是零",是"**它能不能造出这个效应**"。库里加了 `artifact_cannot_explain(artifact, effect, spread)`:符号相反 → 过;同号但小于效应一半 → 过;同号且同量级 → FAIL。**回放 `#110c`(伪影 +0.0079 vs 效应 +0.0080)→ 正确地 FAIL** |
+| 119d | **"伪影是否为零"一直是错的问题 —— 第三十五个** | 我用 `asserted(\|伪影\| < 2·SE)` 去判,它以 **0.0001** 之差 FAIL(0.0070 vs 阈值 0.0069)。而那个伪影**符号与效应相反**,校正只会放大效应。正确的问题不是"它是不是零",是"**它能不能造出这个效应**"。库里加了 `artifact_cannot_explain(artifact, effect, spread)`:符号相反 → 过;同号但小于效应一半 → 过;同号且同量级 → FAIL。**回放 `#110c`(伪影 +0.0079 vs 效应 +0.0080)→ 正确地 FAIL** |
 | 119e | **`check_coverage` 第一次真实使用就开火** | 24/26 类别(2 个 n<400)。这是合法纳入标准不是成本控制,但守卫要求**声明**,于是轮次输出里现在有"纳入 24/26 类别"这一行。**上一轮刚做的工具,这一轮就改变了输出** |
 
 **心理学上的一句话**:
@@ -4213,7 +4213,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 | 124b | **这是 `#61` 第一次拿到免于作答风格的确认** | `#61` 说那句自述"只追踪这个人整体勾了多少",`#26` 反对说"分不开泛泛同意与泛泛认可情欲"。**强制单选让这个反对失效** —— 在这个仪器上,"什么都说是"没有着力点,而结果是零 |
 | 124c | **零的强度可以量化** | 种植 g=0.10 给 +0.0170 = 2× MDE。所以这个零许可到 **约 5% 的诱导标签由选择决定**的水平 —— 不是"没测到",是"如果有 5% 我会看到" |
 | 124d | **覆盖率守卫第一次拦下一个真结论** | 第一次跑只有 **1/10** 个题通过纳入标准,`check_coverage` 抛错。诊断:五分层匹配后广度残差 **+0.58~+0.72**(诱导与广度 rho +0.29 而分层太粗)。**如果没有那个守卫,我会拿 1 个题的结果去回答一个 10 题的问题** |
-| 124e | **修法同时修掉一个常数阈值** | 改成**卡尺 1:1 匹配**(每个 No 配广度最近的 Yes,卡尺 = 0.25 sd),容差从"|Δ| ≤ 0.5"改成"≤ 0.05 × 广度自身 sd"。覆盖率 1/10 → **9/10**。残差 −0.457(系统性地 Yes < No)—— **方向对零有利,是保守的** |
+| 124e | **修法同时修掉一个常数阈值** | 改成**卡尺 1:1 匹配**(每个 No 配广度最近的 Yes,卡尺 = 0.25 sd),容差从"\|Δ\| ≤ 0.5"改成"≤ 0.05 × 广度自身 sd"。覆盖率 1/10 → **9/10**。残差 −0.457(系统性地 Yes < No)—— **方向对零有利,是保守的** |
 | 124f | **第四十个:我断言两个不同种子算出的量精确相等** | gate 里写 `g=0 必须精确等于真实臂`,实测 +0.0061 vs +0.0044。原因:两臂用了**不同的随机种子**(seed=5 vs seed=1),掩码不同。**退化种植的正确写法是复用同一个种子**,否则那条断言测的是种子不是设计 |
 
 **心理学上的一句话**:
@@ -4591,7 +4591,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 | # | 结论 | 判定 |
 |---|---|---|
 | 133a | **EXPAND,不是 DEEPEN** | 晚获得的类别与这个人早期那些**更不相连**。`#114` 在两条连通性线上都**符号相反**,校正只会放大 |
-| 133b | **不是稀有度的影子** | 在**配对层**把 `rar_a+rar_b`、`rar_a·rar_b`、`|rar_a−rar_b|` 回归掉后保留 **89%**,`check_residualized` 断言残差与稀有度和正交 |
+| 133b | **不是稀有度的影子** | 在**配对层**把 `rar_a+rar_b`、`rar_a·rar_b`、`\|rar_a−rar_b\|` 回归掉后保留 **89%**,`check_residualized` 断言残差与稀有度和正交 |
 | 133c | ⚠ **评分那条线是脏的,而且我在跑之前就写下了它会脏** | `#114` 的实际贡献是效应的 **248%**。预注册里写的是「评分这条证据线天生是脏的,而坐标位置那条不是:`#114` 说的是"多喜欢",不是"喜欢哪个"」。**这是本项目第一次预注册一条证据线会失败,然后它按预注册失败了** |
 | 133d | **稀有度那条是复述,不是第三条证据** | 「晚获得的更罕见」与 `#130a`「最早一格更常见」是同一个原始年龄事实的两种测法。标 CONFIRMATORY,不进 README 当独立发现 |
 | 133e | **标度写清楚:小,但准** | 连通性基线 +0.1398,效应 −0.0047 —— 比人内随机低约 **3.4%**。6.5–6.7× 自身展布。**不要说成大效应** |
@@ -4975,8 +4975,8 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 | # | 结论 | 判定 |
 |---|---|---|
 | 146a | **内容线不解释它** | 六个分割的两侧都差很多(2.7–9.4×),而 **PC4 超出其余中位数只有 0.2×**。「最早那一格更常见」**不是**关于"哪种东西先被认成性的" |
-| 146b | **第四个死掉的机制:稀有度离散度** | `corr(|Δ|, sd(该侧稀有度)) = +0.191`,归一化后离散系数纹丝不动(0.55 → 0.55)。前三个:左尾 `#130d` 死 · 中位数时间表 `#131c` 被削弱 · 审查 `#132a` UNVERIFIED |
-| 146c | **而真正在动的东西找到了** | `corr(|Δ|, 合格者的平均类别数) = **+0.661**`;`corr(|Δ|, log 合格人数) = −0.570`。**\|Δ\| 在 12 个侧格上从 0.0154 到 0.4168 —— 27 倍**,而合格者的平均类别数从 17.5 到 27.0 |
+| 146b | **第四个死掉的机制:稀有度离散度** | `corr(\|Δ\|, sd(该侧稀有度)) = +0.191`,归一化后离散系数纹丝不动(0.55 → 0.55)。前三个:左尾 `#130d` 死 · 中位数时间表 `#131c` 被削弱 · 审查 `#132a` UNVERIFIED |
+| 146c | **而真正在动的东西找到了** | `corr(\|Δ\|, 合格者的平均类别数) = **+0.661**`;`corr(\|Δ\|, log 合格人数) = −0.570`。**\|Δ\| 在 12 个侧格上从 0.0154 到 0.4168 —— 27 倍**,而合格者的平均类别数从 17.5 到 27.0 |
 | 146d | ⚠ **所以 `#130a` 的范围陈述要改** | **Δ = −0.2345 不是一个常数,是一个关于特定纳入规则所选出的人群的数。** 一句关于人的话:**「最早报告的那批兴趣更常见」不是普遍规律 —— 口味越广的人,他最早的那批越集中在大家都有的东西上** |
 | 146e | ⚠ **我预注册的种植方向,第三次反了** | 把该侧**最罕见**的搬进最早一格,Δ 应当**更不负**。实测 −0.3632 → −0.2132 → −0.0049。种植是对的,错的是我写的期望(`#132b` 审查 · `#134f` 剂量 · 本轮)。**三次都是模拟/扫描纠正了我,没有一次是我读表读对的** |
 | 146f | **一个必须记的缺陷** | `PC1` 的 B 侧只有 **45** 个合格者,人内置换零 **−0.037**(其余 11 格都在 ±0.023 内)。**小 n 的格子零不干净,那一行不可读** |
@@ -5108,7 +5108,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 | 150a | **预注册的点预测命中** | 预测 **+0.0404**,实测 **+0.0370**,判别量 `corr(z,S)+corr(ρ,S)` = **−0.0034**(**0.2×** 自身展布)。两臂的类别数残差都是 0.003 sd;正对照符号相反且都被拉动(−0.3442 / +0.4982);负对照(按人置换 S)+0.0078 / +0.0030 |
 | 150b | ⚠ **但"一致"不等于"证明了相同"** | 判别量的 **95% 上界是 0.0317**,而效应本身只有 **0.0370** —— **这个设计只能排除大于效应 86% 的差异**。判定 **CONSISTENT,不是 PROVEN**。接缝没裂,也没被焊死 |
 | 150c | ⚠ **我又用反了一个门,而这次错得有结构** | 假设本身是**「两者相同」**,而 `require_resolvable_first` 是为**「我要它非零」**设计的 —— 它把**想要的结果报成 FAIL**,并把整族标 MOOT。**一个为"证伪零"造的门,不能用来"证实等价"** |
-| 150d | **第九个守卫:`equivalent_within`** | 等价界(TOST 式):`|diff| + 2*spread <= margin`,**margin 必须在跑之前指定**。它把 `150b` 那句话变成一个门能自己说出来的判决,而不是我事后加的一段散文 |
+| 150d | **第九个守卫:`equivalent_within`** | 等价界(TOST 式):`\|diff\| + 2*spread <= margin`,**margin 必须在跑之前指定**。它把 `150b` 那句话变成一个门能自己说出来的判决,而不是我事后加的一段散文 |
 | 150e | **立住的那句话** | **「口味越罕见的人,他偏离共享时间表的方向越朝罕见」不依赖我用哪个统计量。** 用"他最早那个有多罕见"测,和用"他整体上罕见的来得多早"测,对同一个人格特质给出一致的答案。`#129e` 的读法不变,而它现在有了第二个独立测量 |
 
 **按 §0.2 结账**:一条现存声明拿到第二个独立测量,并且是**预注册点预测**命中(**产出**);
