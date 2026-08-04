@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 174 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **130 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 175 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **131 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -38,7 +38,7 @@ the receipt.
 | **稀有偏好是一条所有人都在上面的连续维度,不是一群特殊的人** | 分布对称加宽:上尾挑更罕见的,下尾挑更常见的,**中位数纹丝不动**,两侧各 11–13× 自身自助 sd | `#99` |
 | **它是一个可靠的人格维度,而且不是"你勾了多少"** | 跨不相交块集的分半信度 **+0.432**(地板 −0.022,种植天花板 +0.832);移除勾选数后存活 **67%**,而且它与勾选数的相关(+0.608)**低于**零的(+0.719) | `#100` `#104` |
 | **一个人自己那些别人很少有的兴趣,排在他自己那些大家都有的兴趣前面** | 扣掉人群共享的时间表和这个人整体的早熟之后,人内「起始年龄残差 × 类别稀有度」= **−0.0328**,题内跨人置换零 +0.0018,**8.8×**。**离散版本(最早一格 vs 他自己的曲目库)独立复现:扣掉时间表后 +0.0767,14.5×**。`#114` 的回忆偏差实际只贡献 **4%**,且对主量符号相反 | `#128` `#130` |
-| **人群层面,版图确实从大家都有的东西开始** | 一个人最早报告的那批兴趣,在他自己曲目库里按罕见度排落在**第 33 百分位**(49.4×);题目层 Spearman(稀有度, 起始年龄**中位数**)= **+0.437(p=0.014, n=31)**。⚠ 同一批题目在**均值**上是 +0.011(p=0.954)—— 汇总统计量的选择在这里改变结论 | `#130` |
+| **人群层面,版图确实从大家都有的东西开始** | 一个人最早报告的那批兴趣,在他自己曲目库里按罕见度排落在**第 33 百分位**(49.4×);⚠ **机制 UNVERIFIED**:题目层 Spearman(稀有度, 起始年龄**中位数**)= +0.437,但中位数是一个**更差的时间表**(留出成对顺序 63.30% vs 均值 66.70%),而均值序与稀有度无关(+0.011)。左尾解释已死(−0.091)。**效应稳,机制未定** | `#130` `#131` |
 | **越是最终口味罕见的人,这个提前量越大** | −0.0459;**按答题类别数卡钳 1:1 匹配后 −0.0417(3.1×,保留 91%)**,三个匹配规格 85–100% 一致,置换零 17%,种植正对照 +0.5878。`#114` 的回忆偏差实际贡献 39%。**换成离散统计量后复现:匹配后 +0.0532,5.1×** | `#128` `#129` `#130` |
 | **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023** —— 它不是一般性的求新 | `#101` `#102` |
 | **人把最爱的性兴趣记得更早,约九个月** | −0.2000 年/评分标准差(**19.8× SE**),同类别内打乱零 = 效应的 **0%**,种植阶梯单调。**这是本数据集第一个被直接量出来的回忆偏差,而整个成熟时间表建立在它之上** | `#114` |
@@ -172,7 +172,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **130 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **131 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
