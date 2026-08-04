@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 204 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **159 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 205 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **160 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -32,6 +32,7 @@ the receipt.
 
 | | | strength |
 |---|---|---|
+| **性偏好的「什么」是个人的,「何时」不是** | 同一批人、同一种劈分、同一个单位数 k:**「你喜欢多罕见的东西」分半信度 0.57–0.67**,**「你的罕见兴趣比时间表早多少」只有 0.055–0.108** —— **差 5.8–10.4 倍**(平均差 +0.5321,**26.6×**,四个 k 符号一致)。**而这不是仪器不行**:往「何时」里种一个人特异信号,同一个仪器把信度推到 **0.67** | `#159` `#160` |
 | **性欲有一个发育顺序,先具体后关系,差 2–3 年** | 外观 14.0 · 身体部位 14.4 · 衣物 14.7 → 权力动态 16.8 · 束缚 16.9 · 精神改变 17.0。用它猜任意两个兴趣谁先谁后达 **66.852 ± 0.191**,而"全人群共享一个顺序"的理论上限是 66.5% —— 这个时间表几乎榨干了共享顺序能提供的全部信息 | `#75` 8 seeds · 35,438 对 · 6,230 人;全体对上界定 **[60.5%, 66.5%]** `#63` |
 | **内容与个体化估值,对认可概率的影响一样大** | 选项基率 **±21.5 pp**(账本记 ±22.6,**5% 漂移未解释**,`#157e`)· 人整体率 **±16.7 pp** · 人×选项交互 **±23.7 pp**(`#157` 把两条只写在账本散文里的校正装进了代码,交互逐位复现)。内容在每一个"可预测性"指标上碾压(3.5–5.6×),**纯粹因为它被估计得好 179 倍**(3,228 次观测 vs 18) | `#88` `#90` |
 | **"这是性内容"在问卷里问不出来** | 二元认可矩阵里,一个选项的**基率**和它的**内容**是同一个数。题目主效应有闭式解,实测 R² = **0.994**、斜率 0.988,且对基率**形状**在 23/23 块中完全不敏感 | `#69` |
@@ -186,7 +187,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **159 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **160 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
