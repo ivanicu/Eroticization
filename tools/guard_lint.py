@@ -58,3 +58,45 @@ def standing(paths):
         t=p.read_text(errors='ignore')
         miss=[n for n,trig,call,_ in RULES if re.search(trig,t) and not re.search(call,t)]
         print(f"  {'OK ' if not miss else 'FLAG'} {rel.split('/')[1][:34]:<34} {rel.split('/')[2][:30]:<30} {','.join(miss) or '-'}")
+
+
+# ---------------------------------------------------------------------------
+# #142:写死的判定常数扫描(由 #141c 触发)
+#
+# A02/R10 的 `mx < 0.4 -> "still three axes"` 是一个**选定**的阈值,而 #141 证明
+# 它的自助区间跨过它 30.2% 的时间 —— 也就是说,一个字面常数在源码里决定了一条
+# 现存声明的判定,而没有人问过那个常数是量出来的还是选出来的。
+#
+# ⚠ P6 代理账:
+#   PROPERTY   这个判定的阈值有没有对过一个**测量出来的**参照
+#   PROXY      源码里"与字面浮点常数比较"的行,且该比较驱动一个结论字符串或 PASS/FAIL
+#   IMPLICATION 只有一个方向可靠:**命中 -> 确实有一个字面常数在做判定**(可靠)。
+#              反过来"没命中 -> 阈值是量出来的"**不可靠** —— 阈值可能来自一个变量,
+#              而那个变量本身也可能是选的。
+#   SAFE SIDE  只在**命中**方向下结论;未命中报"未标记",不报"已对过地板"。
+#
+# 白名单:与自身展布比较(`2*spread`、`boot`、`sd`、`null`)不是选定阈值,那正是正确做法。
+VERDICT_WORDS = ('PASS','FAIL','still','collapse','UNVERIFIED','CONFIRMED','->','判定','结论')
+MEASURED_HINTS = ('boot','spread','sd','std','null','thr','floor','perc','quantile','展布','地板','零')
+
+def hardcoded_thresholds(paths=None):
+    import re
+    rounds = sorted(ROOT.glob('E01*/A*/R*/run.py')) if paths is None else [ROOT/p for p in paths]
+    hits=[]
+    for p in rounds:
+        for i,line in enumerate(p.read_text(errors='ignore').splitlines(),1):
+            s=line.strip()
+            if s.startswith('#') or not re.search(r'[<>]=?\s*-?\d*\.\d+|[<>]=?\s*-?\d+\b', s): continue
+            if not any(w in s for w in VERDICT_WORDS): continue
+            if any(h in s.lower() for h in MEASURED_HINTS): continue      # 与自身展布比 = 正确做法
+            hits.append((str(p.relative_to(ROOT)), i, s[:104]))
+    return hits
+
+def report_thresholds(paths=None, title=''):
+    hits=hardcoded_thresholds(paths)
+    print(f"\n=== 写死的判定常数{title}:{len(hits)} 处 ===")
+    for rel,i,s in hits:
+        parts=rel.split('/')
+        print(f"  {parts[1][:26]:<26} {parts[2][:26]:<26} :{i:<4} {s}")
+    print("\n⚠ SAFE SIDE(#P6):只在**命中**方向可读。未命中 = 未被标记,**不等于**阈值是量出来的。")
+    return hits

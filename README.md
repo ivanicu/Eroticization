@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 186 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **141 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 187 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **142 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -50,7 +50,7 @@ the receipt.
 | **人把最爱的性兴趣记得更早,约九个月** | −0.2000 年/评分标准差(**19.8× SE**),同类别内打乱零 = 效应的 **0%**,种植阶梯单调。**这是本数据集第一个被直接量出来的回忆偏差,而整个成熟时间表建立在它之上** | `#114` |
 | **而且这个记忆畸变随时间加深,十五年里几乎翻倍** | 15 岁组 −0.0505 → 30 岁组 −0.0917,年龄趋势 **3.5×**;残余伪影**符号相反**,校正只会放大。**它不是在回答问卷那一刻生成的** | `#119` |
 | **同类兴趣之间,先获得哪一个,预示你其余的整个偏好轮廓** | **+0.0159,6.1× 展布**,在减掉两项各自评分、它们的差、以及人均评分之后。**成对设计对"作答水平"结构上免疫** —— 它的兄弟命题("越早越在中心")正是死在这个混淆上 | `#107` `#110` `#116` `#117` |
-| **而其余偏好被拉向先来的那一个** | 位移 **+0.0339,3.1×**,68 对里 46 对为正,生成式正对照单调开火 | `#118`,标 DESCRIPTION:方向不判别因果 |
+| **而其余偏好被拉向先来的那一个** | 位移 **+0.0339,3.1×**,68 对里 46 对为正,生成式正对照单调开火。⚠ **加倍样本并没有加强它**(3.093 → 3.048),而源码里那句"加强成功"已撤回;强度的一位小数本身在自助噪声内(20 个种子:3.023–3.163) | `#118` `#142`,标 DESCRIPTION:方向不判别因果 |
 | **"上/下"一个词盖着三件近乎不相关的事** | 谁服从 · 谁被看 · 谁接受。**原始互相关 ≤ 0.112(95% 上界全部 < 0.15)**,有效维度 2.95/3。⚠ 原先引用的「去衰减 ≤ 0.362」**已换掉** —— 它的自助区间是 [0.259, 0.528],30.2% 的重抽跨过 A02 源码里写死的 0.4,而不稳定性全部来自一个 2 题量表的 alpha=0.163 | A02 · `#141` |
 | **"极端"不是一条轴,是两个互斥的方向** | 卑贱污秽 ↔ 血/烧灼/武器 —— 喜欢一端的人系统性地不喜欢另一端 | A02 |
 | **82.7% 说"色情给了我这个癖好",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < 0.1 sd,极端度差 < 10%)· 它**追踪这个人整体勾了多少**(rho **+0.2922**)。⚠ 但"其中 85% 是作答风格"这一步 `#26` 已降级为 **UNVERIFIED** —— 全部题项都是情欲内容且无反向计分,"泛泛同意"与"泛泛认可情欲事物"在本 release 分不开 | A06 · `#26` |
@@ -178,7 +178,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **141 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **142 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
