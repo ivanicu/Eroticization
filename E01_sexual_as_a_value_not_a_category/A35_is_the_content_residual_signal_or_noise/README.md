@@ -10,3 +10,4 @@
 | 子轮 | 目录 | 信念更新 |
 |---|---|---|
 | R232 | [`R232_content_residual_against_shame`](R232_content_residual_against_shame) | 降为 **NULL**:同一条管道在 S 上 9.9×,在内容残差上 1.8×(打乱零是它的 53%) |
+| R233 | [`R233_ten_outcomes_three_terms`](R233_ten_outcomes_three_terms) | ⚠ **收窄 `#187`**:内容残差预测 **6/20** 结局(`animated` −0.106,8.7×)—— 它不是噪声,只是不预测羞耻 |
