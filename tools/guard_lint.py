@@ -165,3 +165,50 @@ def report_error_bars(root='.'):
     print("\n⚠ SAFE SIDE(#P6):只在**缺失**方向可读。UNVERIFIED **不等于**有误差棒 ——"
           "\n   R147 带着 r_half_sd 列却仍然没有 rel_resid 的误差棒(#167a)。")
     return T
+
+
+# ============================================================================
+# #178:打印出来的"事实"里,有多少是手写的
+# ----------------------------------------------------------------------------
+# `#177d`:`hardcoded_thresholds` 只扫**判定阈值**(驱动 verdict 字符串的字面量),
+# 不扫 `print` 里那些**看起来像测量结果**的数字。
+# 而 R222 的报告里 "只认反引号 -> 0" 就是硬编码的:我一补出处,那个 0 当场变成假话,
+# **而没有任何检查会抓到它。一个印在报告里的常量,是一条不会被任何检查抓到的声明。**
+#
+# P6 代理账:
+#   PROPERTY    这一行打印的数字是从数据算出来的
+#   PROXY       它出现在 f-string 的**静态文本**里(不在 `{}` 表达式内),且形如一个量值
+#               (带符号小数 ≥2 位 · 百分比 · 比值)
+#   IMPLICATION 命中 => 这个数**没有**经过本次运行的计算(**命中方向可读**)
+#   WITNESS     一个静态数字可以是**引用**(「注册阈值 20%」「#118a 的 +0.0339」)而非结果 ——
+#               所以命中项必须人工分诊「它是在陈述本次结果,还是在引用别处」
+#   SAFE SIDE   只在**命中**方向判。没命中 != 打印的都是算出来的:
+#               一个从别处 import 的常量、一个上一轮抄下来的变量,这条规则都看不见。
+# ============================================================================
+import ast as _ast
+_PRINTNUM = _re.compile(r'[+−-]\s?\d\.\d{2,4}|\b\d{1,3}(?:\.\d+)?\s?%|\b\d+(?:\.\d+)?\s?[×倍]')
+
+def printed_literals(paths=None, root='.'):
+    """扫 run.py 的 print(...),找 f-string **静态文本**里的量值字面量。"""
+    import pathlib, pandas as pd
+    if paths is None:
+        paths=sorted(pathlib.Path(root).glob('E01_*/A*/R*/run.py'))
+    out=[]
+    for p in paths:
+        try: tree=_ast.parse(pathlib.Path(p).read_text())
+        except SyntaxError: 
+            out.append(dict(path=str(p),line=0,literal='<SyntaxError>',text='')); continue
+        for node in _ast.walk(tree):
+            if not (isinstance(node,_ast.Call) and getattr(node.func,'id',None)=='print'): continue
+            for a in node.args:
+                pieces=[]
+                if isinstance(a,_ast.JoinedStr):
+                    pieces=[v.value for v in a.values if isinstance(v,_ast.Constant)
+                            and isinstance(v.value,str)]
+                elif isinstance(a,_ast.Constant) and isinstance(a.value,str):
+                    pieces=[a.value]
+                for s in pieces:
+                    for m in _PRINTNUM.findall(s):
+                        out.append(dict(path=str(p),line=getattr(node,'lineno',0),
+                                        literal=m.strip(),text=s.strip()[:100]))
+    return pd.DataFrame(out)

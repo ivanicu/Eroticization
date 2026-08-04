@@ -1,0 +1,75 @@
+path,line,literal,text
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R010_joint_factorisation/run.py,61,80%,"held-out cell R2 (rank 8, trained on 80% of cells) :"
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R014_erotic_covariates/run.py,111,40%,"% (>40%) : republish as a decomposition, not a single percentage"
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R014_erotic_covariates/run.py,112,20%,% (<20%) : the original 73% figure stands
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R014_erotic_covariates/run.py,112,73%,% (<20%) : the original 73% figure stands
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R022_accumulation_curve/run.py,98,+0.0409,(a) n=31 reproduces #59's +0.0409 :
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R023_are_blocks_interchangeable/run.py,116,+0.0225,(a) n=8 mean reproduces #60's +0.0225 :
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R040_discriminant_validity/run.py,133,50%,-> all pairs below 50% of ceiling (max
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R041_whitened_discriminant/run.py,90,50%,-> all pairs below 50% (max
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R042_why_the_gate_failed/run.py,44,95%,95% band [
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R042_why_the_gate_failed/run.py,45,+0.44,the single draw R16/R17 relied on was +0.44 = the
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R044_additivity_variance_decomposition/run.py,118,50%,% of the main effect (>50%) : ADDITIVITY REFUTED in the folk basis; A_i required
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R044_additivity_variance_decomposition/run.py,119,20%,"% (<20%) : ADDITIVITY HOLDS, R11-R13 upgraded from PLAUSIBLE"
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R052_intensity_leakage/run.py,92,+0.621,raw (previous iteration)                        : +0.621
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R058_synthetic_rival_world/run.py,98,95%,95% [
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R058_synthetic_rival_world/run.py,119,95%,inside 95% [
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R059_schedule_specification_curve/run.py,91,-0.55,negative control in every cell within 0.45-0.55 :
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R061_coord_with_a_validated_measure/run.py,104,+4.59,TEMPO reproduces t>4 (published +4.59) :
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R062_onset_rsa_framing_swap/run.py,72,+0.599,"published RSA framing: corr(onset-similarity, preference-similarity) = +0.599, z about 11"
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R068_the_tie_bias/run.py,85,66.7%,points): 66.7% generalises
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R077_timing_mde/run.py,54,+0.0151,OBSERVED concentration rho = +0.0151 (p=0.15)
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R077_timing_mde/run.py,40,35%,yr in 35% of a 'totally different' person's interests -> rho =
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R078_single_interest_power/run.py,36,+0.0151,OBSERVED                     +0.0151 (p=0.15)     +0.0614
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R078_single_interest_power/run.py,36,+0.0614,OBSERVED                     +0.0151 (p=0.15)     +0.0614
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R086_out_of_sample_concentration/run.py,50,-0.0520,in-sample version gave       : -0.0520  (-1.13%)
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R086_out_of_sample_concentration/run.py,50,-1.13,in-sample version gave       : -0.0520  (-1.13%)
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R090_specification_grid/run.py,39,80%,", 80% power, two-sided .05 : |rho| ="
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R093_reliability_ceiling/run.py,129,30%,-> declines >30% : WORLD A REFUTED. Forecast #6 scored WRONG; the effect is really small.
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R093_reliability_ceiling/run.py,131,30%,-> flat within 30% but extrapolates to
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R095_concentration_k_sweep/run.py,98,-0.88,%  (published -0.88% at K=6)
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R096_nestedness_synthetic_controls/run.py,86,+0.0660,(published +0.0660) stands
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R097_shrink_the_person_effect/run.py,136,+0.1482,"#85's corrected P was +0.1482, so the gap to close was"
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R097_shrink_the_person_effect/run.py,146,+0.1482,"-> BIAS. Shrinkage recovers almost nothing, so #85's +0.1482 is crediting P with"
+E01_sexual_as_a_value_not_a_category/A07_are_congruence_comparisons_reportable/R104_block_inclusion_sweep/run.py,135,50%,-> STABLE : within +/-50% of published across the whole grid
+E01_sexual_as_a_value_not_a_category/A08_resolvability_audit/R111_predictable_variance_sort/run.py,81,-0.0022,cross-domain CCA (#49)   published 0.198   prediction -0.0022 vs null -0.0110   THIN DIRECTION
+E01_sexual_as_a_value_not_a_category/A08_resolvability_audit/R111_predictable_variance_sort/run.py,81,-0.0110,cross-domain CCA (#49)   published 0.198   prediction -0.0022 vs null -0.0110   THIN DIRECTION
+E01_sexual_as_a_value_not_a_category/A08_resolvability_audit/R111_predictable_variance_sort/run.py,82,+0.0136,"onset RSA        (#50)   published 0.599   prediction +0.0136, 31% of ceiling   CARRIES VARIANCE"
+E01_sexual_as_a_value_not_a_category/A08_resolvability_audit/R111_predictable_variance_sort/run.py,82,31%,"onset RSA        (#50)   published 0.599   prediction +0.0136, 31% of ceiling   CARRIES VARIANCE"
+E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R119_how_many_cross_block_dimensions/run.py,150,95%,=== CONTROL CALIBRATION (saturation rank at 95% of total gain) ===
+E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R125_symmetric_correction/run.py,207,67.4%,"#71 reported, UNCORRECTED : general 186 / specific 32 / tied 58  (67.4% general)"
+E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R129_soft_threshold_the_interaction/run.py,142,+0.1906,#83/#85's corrected W was +0.1906; gap to close
+E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R133_is_the_magnitude_shape_robust/run.py,120,5%,pp holds whether 5% of people carry
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R135_per_person_misfit/run.py,112,5%,"(b) SEES the world #91 showed was invisible (5% carriers, +/-50pp):"
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R135_per_person_misfit/run.py,128,5%,instrument demonstrably sees a 5%-carrier structure (gate b). #91's blind spot
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R136_row_preserving_null_more_seeds/run.py,115,5%,=== POSITIVE CONTROL: 5% carriers vs its own fixed-margin null (4 seeds) ===
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R136_row_preserving_null_more_seeds/run.py,133,+0.5958,(#92 had diff +0.5958 against a 2x spread of 0.9558)
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R136_row_preserving_null_more_seeds/run.py,139,5%,on a 5%-carrier world and the null reproduces the median. The strongest negative
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R137_surprisal_conditioned_on_count/run.py,113,5%,=== GRADED POSITIVE CONTROL: 5% of people given extra picks on the 3 rarest options ===
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R138_surprisal_fixed_reference/run.py,95,5%,"=== GRADED SWAP CONTROL (5% carriers, count preserved, fixed reference) ==="
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R138_surprisal_fixed_reference/run.py,118,5%,for 2 swaps in 5% of people)
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R140_spiky_or_flat/run.py,109,5%,"=== BETWEEN-BLOCK SD OF SURPRISAL, top-5% by mean S ==="
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R140_spiky_or_flat/run.py,125,5%,real top-5%: mean S
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R140_spiky_or_flat/run.py,126,5%,null top-5%: mean S
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R141_sd_as_a_function_of_mean/run.py,110,5%,"=== (mean, sd) OF THE TOP-5% BY MEAN SURPRISAL, EVERY ARM ==="
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R142_plants_rebased_on_the_null/run.py,103,5%,"=== (mean, sd) OF THE TOP-5% BY MEAN SURPRISAL, EVERY ARM ==="
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R143_one_family_from_spiky_to_flat/run.py,105,5%,"=== ONE FAMILY: (mean, sd) OF THE TOP-5% vs BREADTH b (blocks elevated per carrier) ==="
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R154_rare_affinity_on_forced_choice/run.py,64,+0.608,(#100c 测得 +0.608)
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R155_rare_affinity_leave_block_out/run.py,98,+0.1822,=== 留出块 S -> 选中选项冷门程度(R20 未留出时是 +0.1822) ===
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R155_rare_affinity_leave_block_out/run.py,103,50%,重叠<50% 的
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R155_rare_affinity_leave_block_out/run.py,103,50%,重叠>=50% 的
+E01_sexual_as_a_value_not_a_category/A12_does_order_of_acquisition_reshape/R163_dose_with_balance_controlled/run.py,126,+0.0079,"(上一轮:假斜率 +0.0079 vs 首获年龄斜率 +0.0080 —— 一模一样,什么都读不了)"
+E01_sexual_as_a_value_not_a_category/A12_does_order_of_acquisition_reshape/R163_dose_with_balance_controlled/run.py,126,+0.0080,"(上一轮:假斜率 +0.0079 vs 首获年龄斜率 +0.0080 —— 一模一样,什么都读不了)"
+E01_sexual_as_a_value_not_a_category/A14_is_rare_affinity_a_start_or_a_destination/R173_does_the_map_radiate_outward/run.py,256,-0.2000,"=== 混淆:#114 的回忆偏差(-0.2000 年/评分 sd),"
+E01_sexual_as_a_value_not_a_category/A18_is_the_first_bin_law_about_time_or_about_content/R191_split_delta_by_the_content_line/run.py,161,27 倍,—— **27 倍**
+E01_sexual_as_a_value_not_a_category/A19_what_is_the_personal_20_percent/R196_amplify_with_forced_choice/run.py,133,95%,;95% 上界
+E01_sexual_as_a_value_not_a_category/A19_what_is_the_personal_20_percent/R197_does_the_80_percent_depend_on_the_summary/run.py,69,−0.4462,"×,#148 测得 −0.4462)"
+E01_sexual_as_a_value_not_a_category/A19_what_is_the_personal_20_percent/R197_does_the_80_percent_depend_on_the_summary/run.py,120,20.0×,"×),而不是 44 个百分点 20.0×"
+E01_sexual_as_a_value_not_a_category/A20_how_many_standing_claims_rest_on_one_draw/R198_redraw_114_and_101/run.py,82,−0.2000,"×;#114 报 −0.2000,19.8×)"
+E01_sexual_as_a_value_not_a_category/A20_how_many_standing_claims_rest_on_one_draw/R198_redraw_114_and_101/run.py,82,19.8×,"×;#114 报 −0.2000,19.8×)"
+E01_sexual_as_a_value_not_a_category/A20_how_many_standing_claims_rest_on_one_draw/R199_redraw_the_curveball_null/run.py,107,+0.093,(报 +0.093)
+E01_sexual_as_a_value_not_a_category/A21_who_owns_the_personal_20_percent/R207_is_the_recall_bias_personal/run.py,76,−0.2000,人群层斜率(复现 #114 的 −0.2000):
+E01_sexual_as_a_value_not_a_category/A24_which_denominator_is_each_claim_answering/R212_two_denominators_for_three_headline_claims/run.py,132,−0.022,"=> `#100` 的正确写法是 **0.432 ± 0.016(人层自助)**,而不是 0.432(地板 −0.022)"
+E01_sexual_as_a_value_not_a_category/A28_does_editing_the_readme_need_a_gate/R217_backtest_the_gate/run.py,70,20%,%**   (注册阈值 20%)
+E01_sexual_as_a_value_not_a_category/A30_is_the_public_face_missing_evidence_or_only_transport/R221_is_it_its_own_home/run.py,75,70%,%**  (注册阈值 70%)
+E01_sexual_as_a_value_not_a_category/A32_are_there_handwritten_numbers_in_the_outputs/R223_literals_printed_as_results/run.py,51,16.7%,· 正 `16.7%` 形 ->

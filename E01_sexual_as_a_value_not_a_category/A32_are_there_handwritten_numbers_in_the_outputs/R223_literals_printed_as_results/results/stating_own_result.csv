@@ -1,0 +1,46 @@
+path,line,literal,text,is_reference
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R014_erotic_covariates/run.py,111,40%,"% (>40%) : republish as a decomposition, not a single percentage",False
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R014_erotic_covariates/run.py,112,20%,% (<20%) : the original 73% figure stands,False
+E01_sexual_as_a_value_not_a_category/A01_can_this_release_answer_the_question/R014_erotic_covariates/run.py,112,73%,% (<20%) : the original 73% figure stands,False
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R040_discriminant_validity/run.py,133,50%,-> all pairs below 50% of ceiling (max,False
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R041_whitened_discriminant/run.py,90,50%,-> all pairs below 50% (max,False
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R042_why_the_gate_failed/run.py,44,95%,95% band [,False
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R042_why_the_gate_failed/run.py,45,+0.44,the single draw R16/R17 relied on was +0.44 = the,False
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R044_additivity_variance_decomposition/run.py,118,50%,% of the main effect (>50%) : ADDITIVITY REFUTED in the folk basis; A_i required,False
+E01_sexual_as_a_value_not_a_category/A02_what_basis_should_the_ontology_be_written_in/R044_additivity_variance_decomposition/run.py,119,20%,"% (<20%) : ADDITIVITY HOLDS, R11-R13 upgraded from PLAUSIBLE",False
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R052_intensity_leakage/run.py,92,+0.621,raw (previous iteration)                        : +0.621,False
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R058_synthetic_rival_world/run.py,98,95%,95% [,False
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R058_synthetic_rival_world/run.py,119,95%,inside 95% [,False
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R059_schedule_specification_curve/run.py,91,-0.55,negative control in every cell within 0.45-0.55 :,False
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R062_onset_rsa_framing_swap/run.py,72,+0.599,"published RSA framing: corr(onset-similarity, preference-similarity) = +0.599, z about 11",False
+E01_sexual_as_a_value_not_a_category/A03_is_acquisition_the_same_system_as_valuation/R068_the_tie_bias/run.py,85,66.7%,points): 66.7% generalises,False
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R077_timing_mde/run.py,54,+0.0151,OBSERVED concentration rho = +0.0151 (p=0.15),False
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R077_timing_mde/run.py,40,35%,yr in 35% of a 'totally different' person's interests -> rho =,False
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R078_single_interest_power/run.py,36,+0.0151,OBSERVED                     +0.0151 (p=0.15)     +0.0614,False
+E01_sexual_as_a_value_not_a_category/A04_what_may_never_be_used_as_a_measure/R078_single_interest_power/run.py,36,+0.0614,OBSERVED                     +0.0151 (p=0.15)     +0.0614,False
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R086_out_of_sample_concentration/run.py,50,-0.0520,in-sample version gave       : -0.0520  (-1.13%),False
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R086_out_of_sample_concentration/run.py,50,-1.13,in-sample version gave       : -0.0520  (-1.13%),False
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R090_specification_grid/run.py,39,80%,", 80% power, two-sided .05 : |rho| =",False
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R093_reliability_ceiling/run.py,131,30%,-> flat within 30% but extrapolates to,False
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R095_concentration_k_sweep/run.py,98,-0.88,%  (published -0.88% at K=6),False
+E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_or_the_object/R096_nestedness_synthetic_controls/run.py,86,+0.0660,(published +0.0660) stands,False
+E01_sexual_as_a_value_not_a_category/A07_are_congruence_comparisons_reportable/R104_block_inclusion_sweep/run.py,135,50%,-> STABLE : within +/-50% of published across the whole grid,False
+E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R119_how_many_cross_block_dimensions/run.py,150,95%,=== CONTROL CALIBRATION (saturation rank at 95% of total gain) ===,False
+E01_sexual_as_a_value_not_a_category/A10_is_the_item_effect_a_measurement/R133_is_the_magnitude_shape_robust/run.py,120,5%,pp holds whether 5% of people carry,False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R136_row_preserving_null_more_seeds/run.py,115,5%,=== POSITIVE CONTROL: 5% carriers vs its own fixed-margin null (4 seeds) ===,False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R137_surprisal_conditioned_on_count/run.py,113,5%,=== GRADED POSITIVE CONTROL: 5% of people given extra picks on the 3 rarest options ===,False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R138_surprisal_fixed_reference/run.py,95,5%,"=== GRADED SWAP CONTROL (5% carriers, count preserved, fixed reference) ===",False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R138_surprisal_fixed_reference/run.py,118,5%,for 2 swaps in 5% of people),False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R140_spiky_or_flat/run.py,109,5%,"=== BETWEEN-BLOCK SD OF SURPRISAL, top-5% by mean S ===",False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R140_spiky_or_flat/run.py,125,5%,real top-5%: mean S,False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R140_spiky_or_flat/run.py,126,5%,null top-5%: mean S,False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R141_sd_as_a_function_of_mean/run.py,110,5%,"=== (mean, sd) OF THE TOP-5% BY MEAN SURPRISAL, EVERY ARM ===",False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R142_plants_rebased_on_the_null/run.py,103,5%,"=== (mean, sd) OF THE TOP-5% BY MEAN SURPRISAL, EVERY ARM ===",False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R155_rare_affinity_leave_block_out/run.py,98,+0.1822,=== 留出块 S -> 选中选项冷门程度(R20 未留出时是 +0.1822) ===,False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R155_rare_affinity_leave_block_out/run.py,103,50%,重叠<50% 的,False
+E01_sexual_as_a_value_not_a_category/A11_can_a_minority_structure_be_seen/R155_rare_affinity_leave_block_out/run.py,103,50%,重叠>=50% 的,False
+E01_sexual_as_a_value_not_a_category/A18_is_the_first_bin_law_about_time_or_about_content/R191_split_delta_by_the_content_line/run.py,161,27 倍,—— **27 倍**,False
+E01_sexual_as_a_value_not_a_category/A19_what_is_the_personal_20_percent/R196_amplify_with_forced_choice/run.py,133,95%,;95% 上界,False
+E01_sexual_as_a_value_not_a_category/A19_what_is_the_personal_20_percent/R197_does_the_80_percent_depend_on_the_summary/run.py,120,20.0×,"×),而不是 44 个百分点 20.0×",False
+E01_sexual_as_a_value_not_a_category/A20_how_many_standing_claims_rest_on_one_draw/R199_redraw_the_curveball_null/run.py,107,+0.093,(报 +0.093),False
+E01_sexual_as_a_value_not_a_category/A32_are_there_handwritten_numbers_in_the_outputs/R223_literals_printed_as_results/run.py,51,16.7%,· 正 `16.7%` 形 ->,False
