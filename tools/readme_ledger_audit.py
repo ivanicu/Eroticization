@@ -103,3 +103,67 @@ if __name__=='__main__' and '--internal' in __import__('sys').argv:
     print(f"\n=== 带数字但**不带出处**的行:{len(un)} 行(对任何基于引用的审计都不可见)===")
     for i,ns,s in un: print(f"  行{i:>4}  {ns}\n        {s}")
     print("\n⚠ 一个不带出处的数字,是一个**无法被撤回**的数字。#143 的那个真错误就在这类行里。")
+
+
+# ============================================================================
+# #170:账本点名过的 README 缺陷,现在修好了没有
+# ----------------------------------------------------------------------------
+# #169c:边跑了、输出了、没有人读。`#144d` 早就记过「两套并行叙述」,而 `+0.815`
+# 的第二处断言仍活到 149 条条目之后。**一条被记进账本的 README 缺陷,和一条被修好的
+# README 缺陷,在账本里长得一模一样。**
+#
+# P6 代理账:
+#   PROPERTY    账本点名的那处 README 缺陷已经修好
+#   PROXY       被点名的字符串在当前 README 里**仍能原样命中**,且附近没有撤回标记
+#   IMPLICATION 仍原样命中且无标记 => 未修(**命中方向可读**)
+#   WITNESS     ① 一处缺陷可以在改写后仍保留同一个数字(`+0.815` 现在活在删除线里,
+#                  带 `KILLED — #20`)—— 所以**必须查邻近的撤回标记**,否则修好的也被判未修。
+#               ② **同一个字符串可以有两个所指**:`+0.023` 在行 50 是开放性相关,
+#                  在行 111 是信度阶梯里的 sham 值。代理按**字符串**匹配,不按**所指**匹配 ——
+#                  所以「同文件内重复」的判定必须人工确认所指相同(#170b)。
+#   SAFE SIDE   只在**命中且无标记**方向判「未修」。未命中 != 已修(措辞可能变了)。
+# ============================================================================
+_MARK = _re.compile(r'~~|KILLED|CORRECTED|Withdrawn|Inverted|撤回|已杀|反转|未修|scope stated')
+_NAMES = _re.compile(r'README[^\n]{0,400}')
+
+def named_defects(readmes=('README.md','README_zh.md'), ledger='RETRACTIONS.md'):
+    import pathlib
+    L=pathlib.Path(ledger).read_text()
+    cur={f:pathlib.Path(f).read_text() for f in readmes}
+    out=[]
+    for e in _re.split(r'\n## Entry ',L)[1:]:
+        m=_re.match(r'(\d+)',e)
+        if not m: continue
+        n=int(m.group(1))
+        for seg in _NAMES.findall(e):
+            # 被点名的具体串:反引号里的东西,或一个带符号的数量
+            toks=set(_re.findall(r'`([^`\n]{3,40})`',seg))|set(_re.findall(r'[+−-]\d\.\d{3,4}|\b\d{1,3}\.\d%',seg))
+            for tk in toks:
+                if tk.startswith('#') or tk.startswith('tools/') or len(tk)<4: continue
+                for f,txt in cur.items():
+                    for ln_no,ln in enumerate(txt.split('\n'),1):
+                        if tk in ln:
+                            out.append(dict(entry=n,token=tk,file=f,line=ln_no,
+                                            marked=bool(_MARK.search(ln)),excerpt=ln[:100]))
+    import pandas as pd
+    D=pd.DataFrame(out)
+    return D.drop_duplicates(['entry','token','file','line']) if len(D) else D
+
+def report_named_defects(**kw):
+    D=named_defects(**kw)
+    if D.empty: print('没有可判的点名'); return D
+    live=D[~D.marked]
+    # #170a:同一个数在**同一份文件里出现两次** = 并行叙述(缺陷);
+    #        中英各一次 = 镜像(正常)。这是 `#144d` 那条缺陷的精确形状。
+    dup=live.groupby(['entry','token','file']).size().reset_index(name='n')
+    dup=dup[dup.n>1]
+    print(f"\n账本点名 × 当前 README 命中 {len(D)} 处,无撤回标记 {len(live)} 处,"
+          f"**同一文件内重复(= 并行叙述){len(dup)} 处**")
+    for _,r in dup.iterrows():
+        where=live[(live.entry==r.entry)&(live.token==r.token)&(live.file==r.file)]
+        print(f"  #{r.entry} 点名 `{r.token}` -> {r.file} 的 " +
+              ', '.join(str(x) for x in where.line) + " 行各写了一遍")
+    if dup.empty: print("  (无:每个被点名的数在每份文件里只有一个家)")
+    print("\n⚠ SAFE SIDE(#P6):只在**命中且无标记**方向判「未修」。"
+          "\n   未命中 ≠ 已修(措辞可能变了);带标记 = 已改写,不是未修。")
+    return D

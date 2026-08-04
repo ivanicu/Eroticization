@@ -124,18 +124,7 @@ read about this dataset" — **is false**: the explorer's own `analysis/swarm/14
 months earlier, states that group comparisons on gated columns compare different subpopulations.
 **The hazard is theirs; one correction on one split is mine; the law was nobody's (`#20`).** Drawn-vs-live-action consumers — whose content contains no real bodies — differ by **0.0204 ± 0.0265**, bounded below sex-sized (0.093). **[UNVERIFIED — RETRACTIONS #34]** the written-vs-visual deficit is unresolvable at 5 seeds (0 of 9 corpus cuts have effect > 2× seed spread, while sex is resolvable in 9/9); ~44 seeds per cell would be needed. That is a real, bounded constraint on A.
 
-**[R06 · induction](A06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn
-induced ones that would not otherwise exist. That claim carries **no acquisition timing
-signature** (a uniform 0.5-year shift of *all* their onsets; a 1-year shift is excluded; the
-concentration discriminator is null at 8.8× the power needed for a single-interest induction)
-and **no structural signature** (misfit < 0.1 sd, extremity < 10%). It tracks **breadth**
-— **[CORRECTED — RETRACTIONS #26, caught by #144]** the previously stated "rho +0.2515, 85%
-surviving response-style control" **does not appear anywhere in the ledger**; it came from a
-pre-A09 draft of this page. Measured: **rho +0.2922 uncontrolled, +0.2523 with all indicators**,
-and the "85% is response style" step is **UNVERIFIED** — every item is erotic content with no
-reverse-keying, so general agreeableness and general erotic endorsement are not separable in this
-release. Design consequence: retrospective self-report of induction is unusable as an outcome
-measure. Phase 3 must be prospective.
+**[R06 · induction](A06_induction)** — the retrospective induction claim, its two absent signatures and the breadth it actually tracks are stated once in the standing-claims table above; this section adds only what the table does not carry. **[CORRECTED — RETRACTIONS #26, caught by #144]** an earlier version of this page reported "rho +0.2515, 85% surviving response-style control" — that pair **appears nowhere in the ledger** and came from a pre-A09 draft of this page. The "85% is response style" step is **UNVERIFIED**: every item is erotic content with no reverse-keying, so general agreeableness and general erotic endorsement are not separable in this release. **Design consequence**: retrospective self-report of induction is unusable as an outcome measure — phase 3 must be prospective.
 
 **[R07 · breadth](A07_breadth)** — Quantity without shape. A person's set is **0.88%** more
 concentrated in coordinate space than a size-matched base-rate set — real (t=−15.5) and

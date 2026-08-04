@@ -1,0 +1,26 @@
+entry,token,file,line,marked,excerpt
+123,+0.2922,README.md,57,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+123,+0.2922,README.md,134,False,"pre-A09 draft of this page. Measured: **rho +0.2922 uncontrolled, +0.2523 with all indicators**,"
+123,+0.2922,README_zh.md,57,False,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+123,+0.2523,README.md,134,False,"pre-A09 draft of this page. Measured: **rho +0.2922 uncontrolled, +0.2523 with all indicators**,"
+143,Entry 24,README.md,55,True,"| ~~**""Top/bottom"" is one word over three near-unrelated things**~~ **downgraded to: the three role "
+143,Entry 24,README_zh.md,55,True,"| ~~**""上/下""一个词盖着三件近乎不相关的事**~~ **降级为:三条角色轴之间相关很强但不是同一个** | **`Entry 24` 早已撤回""三条近乎独立""与""有效维度 2.95/3""**。"
+144,+0.2922,README.md,57,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+144,+0.2922,README.md,134,False,"pre-A09 draft of this page. Measured: **rho +0.2922 uncontrolled, +0.2523 with all indicators**,"
+144,+0.2922,README_zh.md,57,False,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+144,+0.2523,README.md,134,False,"pre-A09 draft of this page. Measured: **rho +0.2922 uncontrolled, +0.2523 with all indicators**,"
+144,+0.815,README.md,88,True,**And a transferable methodological result — but a much smaller one than I first published.** Block-
+144,+0.815,README.md,121,True,**One split's group comparison on this release was partly measuring survey coverage**: block-count m
+144,+0.815,README_zh.md,88,True,"**并且这里有一条可迁移的方法学结论 —— 但比我最初发表的那条小得多。**按块数匹配把 pornhabit 的一致性缺口从 0.2285 压到 0.0871 再到 0.0439,**并使它与性别的排"
+144,82.7%,README.md,57,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+144,82.7%,README.md,127,False,"**[R06 · induction](A06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn"
+144,82.7%,README_zh.md,57,False,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+154,+0.093,README.md,50,False,| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\|
+154,+0.093,README_zh.md,50,False,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023** —— 它不是一般性的求新。**零的强度已"
+154,+0.023,README.md,50,False,| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\|
+154,+0.023,README.md,55,True,"| ~~**""Top/bottom"" is one word over three near-unrelated things**~~ **downgraded to: the three role "
+154,+0.023,README.md,111,False,"**[DOWNGRADED — RETRACTIONS #24, re-affirmed #143]** ""three near-independent axes / effective dimens"
+154,+0.023,README_zh.md,50,False,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023** —— 它不是一般性的求新。**零的强度已"
+154,+0.023,README_zh.md,55,True,"| ~~**""上/下""一个词盖着三件近乎不相关的事**~~ **降级为:三条角色轴之间相关很强但不是同一个** | **`Entry 24` 早已撤回""三条近乎独立""与""有效维度 2.95/3""**。"
+167,−0.022,README.md,40,False,"| **It is a reliable personality dimension, and it is not ""how many boxes you ticked""** | Split-half"
+167,−0.022,README_zh.md,40,False,"| **它是一个可靠的人格维度,而且不是""你勾了多少""** | 跨不相交块集的分半信度 **+0.432 ± 0.016**(人层自助,n=7,316,400 次 —— 这个误差棒是它八轮之后才有的,"
