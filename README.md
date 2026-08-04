@@ -73,6 +73,17 @@ quantities in this release, and they were the last to be found. The position sco
 project's oldest and most-cited claim, is the least reliable of the ones still standing.
 ---
 
+> ⚠ **This table is built on the pooled sample, and the six coordinates are not the same thing in the two
+> sexes** (`#285` `#286`). Rebuilt independently in each group (n = 3,232 / 3,485): the block-level
+> loading subspace replicates at **0.7695** across the sex split against **0.8385 ± 0.0263** across a
+> random split of the same sizes (**2.6×**), and — the sharper test — the *joint R² curve over all 29
+> outcomes* correlates **+0.6667** across the sex split against **+0.8728 ± 0.0161** across a random one
+> (**12.8×**). Both ends of the positive control behave (a sex-driven synthetic quantity gives −0.2553;
+> `agreeableness`, which correlates −0.0749 with sex, gives −0.0016). The three outcomes that differ
+> most: `I sometimes find peop…` **1.9% vs 5.0%**, `I find the thought of…` **3.2% vs 0.6%**, `animated`
+> **6.4% vs 8.9%**. ⚠ This does **not** say any column is wrong — every one was controlled for sex. It
+> says **the table is an average, and that average hides a resolvable disagreement.**
+
 > ⚠ **`form_i` is the only standing dimension that does *not* reach shame** (`#278`). Everything else in
 > this project ends up pointing at it — position +0.1185, breadth-type c3 +0.1286, the between-block
 > contrast on the disjoint instrument +0.1384 — and this one does not: its correlation with shame is
