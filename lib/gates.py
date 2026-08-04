@@ -96,15 +96,34 @@ class Gate:
             return True
         return False
 
-    def negative_control(self, name, null, effect, ratio=0.5):
+    def negative_control(self, name, null, effect, ratio=0.5, null_spread=None):
         """#102a: a null is judged against the EFFECT, never against a constant.
 
-        Passes when |null| < ratio * |effect|. There is no absolute threshold, because an absolute
-        threshold is what let a null equal to 91% of its effect print PASS."""
+        #125: ...but when the EFFECT is small, `|null| < 0.5*|effect|` is a bar the null can fail
+        while being indistinguishable from zero on its own spread. A05R15: null -0.00147 +/- 0.00140
+        (1.1x, i.e. zero) failed against an effect of +0.00173. Both questions must be asked:
+            (a) is the null small relative to the effect?   -- #102a
+            (b) is the null itself already indistinguishable from zero?  -- #125
+        Passing either is enough; pass null_spread to enable (b). Without it only (a) is asked, and
+        the row says so, so a missing spread can never be mistaken for a passed check."""
         if self._degenerate(name, null, effect): return False
         ok = abs(null) < ratio * abs(effect)
+        # #125 的豁免只在零**帮不上忙**时成立:与效应异号,或已小于效应的一半。
+        # 否则 #102a(零 -0.0275、效应 -0.0302、同号、91%)会从这个口子溜过去 ——
+        # 而那正是这个库存在的起因。回归测试当场抓到了这个洞。
+        helps = (null * effect) > 0 and abs(null) >= 0.5 * abs(effect)
+        if not ok and not helps and null_spread is not None and abs(null) < 2 * abs(null_spread):
+            self.rows.append((name, f"|{null:+.5f}| < 2*{abs(null_spread):.5f} (自身展布)", True,
+                              f"零本身与零无法区分 ({abs(null)/max(abs(null_spread),1e-12):.1f}x);"
+                              f" 相对效应是 {100*abs(null)/max(abs(effect),1e-12):.0f}% (#125)"))
+            return True
+        if null_spread is None:
+            ratio_note = " [未给 null_spread,只问了「相对效应」这一半 (#125)]"
+        else:
+            ratio_note = ""
         self.rows.append((name, f"|{null:+.4f}| < {ratio}*|{effect:+.4f}| = {ratio*abs(effect):.4f}",
-                          ok, f"null is {100*abs(null)/max(abs(effect),1e-12):.0f}% of the effect"))
+                          ok, f"null is {100*abs(null)/max(abs(effect),1e-12):.0f}% of the effect"
+                              + ratio_note))
         return ok
 
     def positive_control(self, name, planted, floor, spread):
@@ -214,6 +233,19 @@ class Gate:
         return ok
 
     # ---- output ----
+
+    def degenerate_matches_reference(self, name, degenerate, reference, tol=1e-12):
+        """#124f: 退化臂(强度=0 的种植)必须**精确**复现它要复现的那个臂。
+
+        A06R03 里 g=0 的种植给 +0.0061 而真实臂给 +0.0044,因为两臂用了不同的随机种子
+        (seed=5 vs seed=1),掩码不同。那条断言于是测的是**种子**,不是设计。
+        退化臂的正确写法是复用参照臂的种子;这个方法在它没被复用时说出原因。"""
+        d = abs(degenerate - reference)
+        ok = d <= tol
+        note = "精确复现" if ok else \
+               f"差 {d:.6f} —— 退化臂几乎总是因为**没有复用参照臂的种子**(#124f)"
+        self.rows.append((name, f"退化 {degenerate:+.6f} vs 参照 {reference:+.6f}", ok, note))
+        return ok
 
     def require_resolvable_first(self, name, effect, spread):
         """#120: gate 之间是有顺序的,而我一直平铺着写。
