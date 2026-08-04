@@ -162,7 +162,7 @@ class Gate:
             return True
         return False
 
-    def negative_control(self, name, null, effect, ratio=0.5, null_spread=None):
+    def negative_control(self, name, null, effect, ratio=0.5, null_spread=None, null_kind=None):
         """#102a: a null is judged against the EFFECT, never against a constant.
 
         #125: ...but when the EFFECT is small, `|null| < 0.5*|effect|` is a bar the null can fail
@@ -187,6 +187,15 @@ class Gate:
             ratio_note = " [未给 null_spread,只问了「相对效应」这一半 (#125)]"
         else:
             ratio_note = ""
+        # #217a:这个项目至少有两种置换零(题内跨人 · 人内),而它们在同一个量上
+        #        给出**符号相反**的值(`#216c`:−0.0792 vs +0.1309)。
+        #        所以"净值"离开了它的零就没有意义。`offset_control` 一直强制命名零的种类,
+        #        而 `negative_control` 没有 —— 现在补上,但用**标注**而不是报错,
+        #        以免让二百多个既有轮次一次全红(#197a 收紧名单时的同一个权衡)。
+        if null_kind is None:
+            ratio_note += " ⚠[未命名零的方案 —— 题内跨人?人内?两者在同一量上可反号 (#217a)]"
+        else:
+            ratio_note += f" [零的方案: {null_kind}]"
         self.rows.append((name, f"|{null:+.4f}| < {ratio}*|{effect:+.4f}| = {ratio*abs(effect):.4f}",
                           ok, f"null is {100*abs(null)/max(abs(effect),1e-12):.0f}% of the effect"
                               + ratio_note))

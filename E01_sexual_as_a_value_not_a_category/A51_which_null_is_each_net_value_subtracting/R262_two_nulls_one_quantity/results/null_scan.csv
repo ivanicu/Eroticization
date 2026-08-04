@@ -1,0 +1,64 @@
+rnd,kinds,n_kinds
+R007_residual_spectrum,curveball / 固定边际,1
+R010_joint_factorisation,人内打乱(按人重排自己的值),1
+R065_rarity_or_censoring,人内打乱(按人重排自己的值),1
+R114_fixed_margin_null,curveball / 固定边际,1
+R115_rank_selected_by_prediction,curveball / 固定边际,1
+R124_rank_sweep_under_l1,curveball / 固定边际,1
+R125_symmetric_correction,curveball / 固定边际,1
+R126_does_the_specific_spectrum_have_a_cliff,curveball / 固定边际,1
+R128_every_component_against_its_own_null,curveball / 固定边际,1
+R129_soft_threshold_the_interaction,curveball / 固定边际,1
+R130_regularised_throughout,curveball / 固定边际,1
+R131_effective_rank_under_soft_threshold,curveball / 固定边际,1
+R132_magnitude_in_percentage_points,curveball / 固定边际,1
+R134_direct_interaction_variance,curveball / 固定边际,1
+R136_row_preserving_null_more_seeds,curveball / 固定边际,1
+R137_surprisal_conditioned_on_count,curveball / 固定边际,1
+R138_surprisal_fixed_reference,curveball / 固定边际,1
+R139_control_at_the_derived_magnitude,curveball / 固定边际,1
+R140_spiky_or_flat,curveball / 固定边际,1
+R141_sd_as_a_function_of_mean,curveball / 固定边际,1
+R142_plants_rebased_on_the_null,curveball / 固定边际,1
+R143_one_family_from_spiky_to_flat,curveball / 固定边际,1
+R144_mixture_or_gradient,curveball / 固定边际,1
+R145_how_broad_is_the_minority,curveball / 固定边际,1
+R146_is_it_elevation_or_just_width,curveball / 固定边际,1
+R147_is_it_a_trait,curveball / 固定边际,1
+R148_external_correlates,curveball / 固定边际,1
+R149_matched_difference_correlates,curveball / 固定边际,1
+R150_does_the_onset_link_survive_breadth,curveball / 固定边际,1
+R152_diffuse_or_concentrated,curveball / 固定边际,1
+R153_paired_swap_diffuse,curveball / 固定边际,1
+R156_disjointness_audit,curveball / 固定边际,1
+R173_does_the_map_radiate_outward,题内跨人(perm_null); 人内打乱(按人重排自己的值),2
+R174_is_the_trait_link_just_coverage,题内跨人(perm_null); 人内打乱(按人重排自己的值),2
+R192_is_the_breadth_link_an_arithmetic_bound,人内打乱(按人重排自己的值),1
+R198_redraw_114_and_101,curveball / 固定边际,1
+R199_redraw_the_curveball_null,curveball / 固定边际,1
+R212_two_denominators_for_three_headline_cla,curveball / 固定边际,1
+R225_early_half_or_late_half,人内打乱(按人重排自己的值),1
+R226_developmental_window_or_sequence_positi,人内打乱(按人重排自己的值),1
+R227_within_person_slope,人内打乱(按人重排自己的值),1
+R229_discriminant_panel,跨人打乱结局(y[bi]=permutation),1
+R233_ten_outcomes_three_terms,跨人打乱结局(y[bi]=permutation),1
+R234_two_loading_vectors,标签打乱(组/稀有度),1
+R235_raw_content_or_algebra,跨人打乱结局(y[bi]=permutation),1
+R236_desex_the_content_score,跨人打乱结局(y[bi]=permutation),1
+R238_breadth_as_a_subject,跨人打乱结局(y[bi]=permutation),1
+R241_per_category_decomposition,题内跨人(perm_null),1
+R243_the_distribution_of_rho_i,题内跨人(perm_null),1
+R244_rho_i_against_twenty_outcomes,题内跨人(perm_null); 跨人打乱结局(y[bi]=permutation),2
+R247_representation_or_live,人内打乱(按人重排自己的值); 标签打乱(组/稀有度),2
+R251_non_likert_panel,跨人打乱结局(y[bi]=permutation),1
+R252_rho_panel_controlling_age,跨人打乱结局(y[bi]=permutation),1
+R253_early_half_or_late_half_slope,人内打乱(按人重排自己的值),1
+R254_category_drift_across_age_bands,标签打乱(组/稀有度),1
+R255_rerun_with_the_original_code,题内跨人(perm_null); 人内打乱(按人重排自己的值),2
+R256_delta_dose_curve_over_censoring,题内跨人(perm_null),1
+R257_within_person_split_at_14,人内打乱(按人重排自己的值),1
+R258_where_is_the_turning_point,人内打乱(按人重排自己的值),1
+R259_bootstrap_the_whole_curve,题内跨人(perm_null); 人内打乱(按人重排自己的值),2
+R260_which_categories_carry_the_late_half,人内打乱(按人重排自己的值),1
+R261_is_it_just_item_count,人内打乱(按人重排自己的值),1
+R262_two_nulls_one_quantity,题内跨人(perm_null); 人内打乱(按人重排自己的值); curveball / 固定边际; 标签打乱(组/稀有度),4
