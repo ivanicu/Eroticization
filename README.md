@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 192 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **147 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 193 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **148 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -44,7 +44,7 @@ the receipt.
 | **早来的东西是散的,晚来的东西是一整套** | 人内置换零下的三个块:早×早 **−0.01272(27.9×)** · **晚×晚 +0.02103(23.1×)** · 晚×早 −0.00484(15.2×)。晚到的是关系族(权力动态·束缚·施虐受虐·精神改变·感官,26–31% 在 19 岁后),早到的是具体族(外观 8.6%·衣物 10.9%·身体部位 11.1%)。题目层:晚族彼此 **+0.0674**,早族彼此 −0.0075。**而且"一整套"是字面意义的**:关系族的获得年龄比同样多个随机挑的**靠拢 9.4%**(17.7×,在扣掉人群时间表之后),具体族反而**分散 9.0%**(12.1×)。**发育不是同一种东西按顺序到达,是两种不同组织度的东西以不同方式到达** —— 这是 `#75` 的时间表没有的维度。⚠ 连通度**没有拐点**(1.6×),所以"17 岁关上"只对类别数成立 | `#135` `#136` |
 | **三分之一的人,版图在 17 岁就关上了;剩下的人,它是向外开的** | 29–32 岁档里 **33.3% 报告 17 岁后一个新兴趣都没有**。而在有晚期条目的人身上,晚获得的类别与他早期那些**更不相连**,配对层剥掉稀有度后保留 89%,`#114` 符号相反,**五个年龄档全部同号(5.3–10.9×)且无年龄梯度**(所以不是叙事整理)。**扩张,不是深化** —— 模型 C 不能被定域为"重排既有权重"。⚠ **只报方向,不报量级**:切点从 13.5 到 17.5 give −0.0165 → −0.0069(差 2.4 倍),且**人内中位数分割不可分辨(1.0×)—— 现象绑在绝对年龄上,不是"你序列里靠后的"** | `#133` `#134` |
 | **性版图在青春期结束时就基本定型** | 29–32 岁的人,自己报告的性兴趣有 **68.4% 是 17 岁前获得的**,最晚的那一个平均在 **22.6 岁**(人内测量,不依赖横断面假设)。横断面上 15 年里类别数只从 12.4 长到 12.9(+4.5%,队列混淆,较弱)。**这给模型 C 划了时间边界:递归重塑若存在,作用窗口主要在青春期内** | `#132` |
-| **人群层面,版图确实从大家都有的东西开始** | 一个人最早报告的那批兴趣,在他自己曲目库里按罕见度排落在**第 33 百分位**(49.4×)。**以每人自己的置换零展布为单位是 z = −0.5515**,而**五个广度层每一层都可分辨为负(17.5–27.3×)—— 这个效应是普遍的,与他喜欢多少东西无关**(`#147`)。⚠ `#146` 那条「口味越广越明显」已撤回:原始 Δ 的 27 倍变化是 `(k−m)/k` 的算术界,归一化后的残余梯度比一个**按构造与广度无关**的种植效应还小。内容线也不解释它(PC4 只 0.2×),稀有度离散度也不(+0.191)。**效应普遍且稳,机制仍空**。⚠ **机制 UNVERIFIED**:题目层 Spearman(稀有度, 起始年龄**中位数**)= +0.437,但中位数是一个**更差的时间表**(留出成对顺序 63.30% vs 均值 66.70%),而均值序与稀有度无关(+0.011)。左尾解释已死(−0.091)。**效应稳,机制未定** | `#130` `#131` |
+| **人群层面,版图确实从大家都有的东西开始** | 一个人最早报告的那批兴趣,在他自己曲目库里按罕见度排落在**第 33 百分位**(49.4×)。**以每人自己的置换零展布为单位是 z = −0.5515**,而**五个广度层每一层都可分辨为负(17.5–27.3×)—— 这个效应是普遍的,与他喜欢多少东西无关**(`#147`)。⚠ `#146` 那条「口味越广越明显」已撤回:原始 Δ 的 27 倍变化是 `(k−m)/k` 的算术界,归一化后的残余梯度比一个**按构造与广度无关**的种植效应还小。内容线也不解释它(PC4 只 0.2×),稀有度离散度也不(+0.191)。**机制已定位**(`#148`):**它是那张所有人共享的发育时间表投影到每个人身上的样子** —— 扣掉 `#75` 的题目均值解释掉 **80%**,而方差匹配的随机题目向量只解释 36%(差 44 个百分点,20.0×)。剩下的 **9.4×** 才是个人的。⚠ **机制 UNVERIFIED**:题目层 Spearman(稀有度, 起始年龄**中位数**)= +0.437,但中位数是一个**更差的时间表**(留出成对顺序 63.30% vs 均值 66.70%),而均值序与稀有度无关(+0.011)。左尾解释已死(−0.091)。**效应稳,机制未定** | `#130` `#131` |
 | **越是最终口味罕见的人,这个提前量越大** | −0.0459;**按答题类别数卡钳 1:1 匹配后 −0.0417(3.1×,保留 91%)**,三个匹配规格 85–100% 一致,置换零 17%,种植正对照 +0.5878。`#114` 的回忆偏差实际贡献 39%。**换成离散统计量后复现:匹配后 +0.0532,5.1×** | `#128` `#129` `#130` |
 | **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023** —— 它不是一般性的求新 | `#101` `#102` |
 | **人把最爱的性兴趣记得更早,约九个月** | −0.2000 年/评分标准差(**19.8× SE**),同类别内打乱零 = 效应的 **0%**,种植阶梯单调。**这是本数据集第一个被直接量出来的回忆偏差,而整个成熟时间表建立在它之上** | `#114` |
@@ -186,7 +186,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **147 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **148 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
