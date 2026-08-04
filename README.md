@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 176 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **132 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 177 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **133 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -38,6 +38,7 @@ the receipt.
 | **稀有偏好是一条所有人都在上面的连续维度,不是一群特殊的人** | 分布对称加宽:上尾挑更罕见的,下尾挑更常见的,**中位数纹丝不动**,两侧各 11–13× 自身自助 sd | `#99` |
 | **它是一个可靠的人格维度,而且不是"你勾了多少"** | 跨不相交块集的分半信度 **+0.432**(地板 −0.022,种植天花板 +0.832);移除勾选数后存活 **67%**,而且它与勾选数的相关(+0.608)**低于**零的(+0.719) | `#100` `#104` |
 | **一个人自己那些别人很少有的兴趣,排在他自己那些大家都有的兴趣前面** | 扣掉人群共享的时间表和这个人整体的早熟之后,人内「起始年龄残差 × 类别稀有度」= **−0.0328**,题内跨人置换零 +0.0018,**8.8×**。**离散版本(最早一格 vs 他自己的曲目库)独立复现:扣掉时间表后 +0.0767,14.5×**。`#114` 的回忆偏差实际只贡献 **4%**,且对主量符号相反 | `#128` `#130` |
+| **三分之一的人,版图在 17 岁就关上了;剩下的人,它是向外开的** | 29–32 岁档里 **33.3% 报告 17 岁后一个新兴趣都没有**。而在有晚期条目的人身上,晚获得的类别与他早期那些**更不相连**(−0.0042,**6.5×**,配对层剥掉稀有度后保留 89%),`#114` 符号相反。**扩张,不是深化** —— 模型 C 不能被定域为"重排既有权重"。⚠ 效应小:比人内随机低约 3.4% | `#133` |
 | **性版图在青春期结束时就基本定型** | 29–32 岁的人,自己报告的性兴趣有 **68.4% 是 17 岁前获得的**,最晚的那一个平均在 **22.6 岁**(人内测量,不依赖横断面假设)。横断面上 15 年里类别数只从 12.4 长到 12.9(+4.5%,队列混淆,较弱)。**这给模型 C 划了时间边界:递归重塑若存在,作用窗口主要在青春期内** | `#132` |
 | **人群层面,版图确实从大家都有的东西开始** | 一个人最早报告的那批兴趣,在他自己曲目库里按罕见度排落在**第 33 百分位**(49.4×);⚠ **机制 UNVERIFIED**:题目层 Spearman(稀有度, 起始年龄**中位数**)= +0.437,但中位数是一个**更差的时间表**(留出成对顺序 63.30% vs 均值 66.70%),而均值序与稀有度无关(+0.011)。左尾解释已死(−0.091)。**效应稳,机制未定** | `#130` `#131` |
 | **越是最终口味罕见的人,这个提前量越大** | −0.0459;**按答题类别数卡钳 1:1 匹配后 −0.0417(3.1×,保留 91%)**,三个匹配规格 85–100% 一致,置换零 17%,种植正对照 +0.5878。`#114` 的回忆偏差实际贡献 39%。**换成离散统计量后复现:匹配后 +0.0532,5.1×** | `#128` `#129` `#130` |
@@ -173,7 +174,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **132 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **133 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
