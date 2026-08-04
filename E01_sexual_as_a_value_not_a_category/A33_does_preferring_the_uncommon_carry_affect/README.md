@@ -15,3 +15,4 @@
 | R224 | [`R224_shame_and_the_position`](R224_shame_and_the_position) | **B 被杀**:控制内容后位置仍预测羞耻 **+0.113(9.0×)**;而疗愈一控制勾选数就塌掉 |
 | R225 | [`R225_early_half_or_late_half`](R225_early_half_or_late_half) | 羞耻贴**早半**更紧(+0.0282,2.3×,去衰减后更大)—— 但落在预注册的三个世界之外 |
 | R226 | [`R226_developmental_window_or_sequence_position`](R226_developmental_window_or_sequence_position) | 「早」是发育窗口还是序列位置:**本设计分不开**,绝对劈分的臂欠功效而点估计更大 |
+| R227 | [`R227_within_person_slope`](R227_within_person_slope) | 换估计量复现:**截距** +0.0270(2.9×,n=10,567);两个 9× 是 `r=−0.97` 的共线抑制 |
