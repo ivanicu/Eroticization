@@ -361,6 +361,45 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def control_kept_the_sample(self, name, before, after, n_before, n_after,
+                                before_common=None, after_common=None, n_common=None,
+                                tol_ratio=2.0):
+        """#239a:前 11 个守卫全在防**假肯定**;这一个防**假否定**,而它的成本更高。
+
+        一个改变了纳入条件的控制,改变的是**估计目标本身**。
+        `#284` 实测:同一个残差化控制,在**各自的可用样本**上算,效应只剩 **2.8%**;
+        在**同一批人**上算,保留 **70.2%**。那个 2.8% 完全是样本从 2,740 变成 6,301 造成的。
+
+        > **「控制之后效应消失了」与「控制之后我在量另一批人」长得一模一样。**
+
+        而前者会让人做一次**撤回** —— 撤回是永久的,因为**没人会重审一条自己撤掉的主张**。
+
+        用法:
+            g.control_kept_the_sample('审查控制', before=.1532, after=-.0741,
+                                      n_before=9944, n_after=2806,
+                                      before_common=.0830, after_common=-.0741, n_common=2806)
+        规则:
+            n_before == n_after                      -> PASS(纳入没变)
+            n 变了但没给交集样本上的重比               -> **FAIL**(这个比较不可读)
+            两个保留率相差超过 tol_ratio 倍            -> **FAIL**,并指出样本变了
+        """
+        if n_before == n_after:
+            r = (name, f"n 未变({n_before:,})", True, "纳入条件没被控制改动")
+        elif before_common is None or after_common is None:
+            r = (name, f"n {n_before:,} -> {n_after:,},**未给交集样本重比**", False,
+                 "改变纳入的控制必须在交集样本上再报一次(#239a);否则读不出是效应变了还是人变了")
+        else:
+            own = (after - before) / before if before else float('inf')
+            com = (after_common - before_common) / before_common if before_common else float('inf')
+            bad = (abs(own) > tol_ratio*abs(com)) or (abs(com) > tol_ratio*abs(own)) or (own*com < 0)
+            r = (name,
+                 f"各自样本 {100*own:+.1f}% vs 交集样本(n={n_common:,}) {100*com:+.1f}%",
+                 not bad,
+                 ("两者一致,可以按效应读" if not bad else
+                  "**两者相差超过 %gx —— 样本变了,不是效应变了(#239a)**" % tol_ratio))
+        self.rows.append(r)
+        return r[2]
+
     def no_sign_crossing(self, name, series):
         """#83d/#79f: never take a ratio or a sum across a sign change."""
         s = np.asarray(series, dtype=float)
