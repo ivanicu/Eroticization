@@ -522,6 +522,39 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def component_difference_is_not_mechanism(self, name, whole_before, whole_after,
+                                              spread, component, retain_ceiling=0.50):
+        """#294b:**一个零件在两组间不同,不等于它就是整体差异的机制。**
+
+        `#293a` 测到两组的 `rar`(什么算冷门)在块内流行度上明显不同 —— **148.6 个展布**,
+        正对照完美。我据此在同一小时里往两个公开 README 写下「**而机制在尺子本身**」。
+        `#294a` 把尺子换成**组内**的重测:整体差从 **−0.2061** 变成 **−0.2270**,
+        **保留 110.2%** —— 修好那个零件,整体差**一点没动**。
+
+        > **零件差是一个测量;机制是一个因果断言。**
+        > 二者之间隔着一次**把零件换掉再测整体**的实验,而那次实验是可以做的、便宜的,
+        > 并且**恰恰是我在注册 NEXT 时自己写下要做的那一步**。
+
+        所以:任何形如「A 与 B 在 X 上不同,**因此** X 是 A/B 整体差异的机制」的句子,
+        必须携带**修好 X 之后重测的整体差**。没有它 -> 这是 η 过大(frontier §2),
+        不是发现。
+        """
+        if whole_before is None or whole_after is None:
+            r = (name, "缺少「修好零件前/后的整体差」", False,
+                 f"要把 `{component}` 叫作机制,必须把它换掉再测一次整体(#294b)")
+        else:
+            keep = abs(whole_after) / max(abs(whole_before), 1e-12)
+            ok = abs(whole_after) < abs(whole_before) - (spread or 0.0) and keep <= retain_ceiling
+            r = (name,
+                 f"整体差 **{whole_before:+.4f}** -> 修好 `{component}` 后 **{whole_after:+.4f}**"
+                 f"(保留 **{100*keep:.1f}%**)",
+                 ok,
+                 ("修好零件后整体差确实塌了 —— 可以按机制读"
+                  if ok else
+                  f"**修好 `{component}` 后整体差保留了 {100*keep:.1f}% —— 它不是机制,只是同时存在的另一个差异**;"
+                  f"`#294a` 保留 110.2%(#294b)"))
+        self.rows.append(r); return r[2]
+
     def profile_similarity_is_not_identity(self, name, profile_r, score_r,
                                            profile_floor=0.60, score_floor=0.30):
         """#279b:**剖面相似作为「是不是同一个东西」的证据,力量为零。**
