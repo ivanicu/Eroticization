@@ -29,6 +29,8 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 
 Each row is one sentence about people, at the strength it was actually measured. The ledger entry is
 the receipt.
+> ⚠ **Every "N of M" count on this page is an interval, not an exact number** (`#233`). The family-wise threshold is estimated by resampling the permutation null, so the count moves with it. Measured over 25 independent resamplings: the position score reads **19–21** of 31, the between-block contrast **6–12**, breadth component 1 **10–12**, component 3 **18–22**. Width is driven by **how many outcomes sit near the threshold**, not by how strong the score is (`corr(borderline count, sd(N)) = +0.9078`; a pure-noise score and a deliberately overpowering one are both pinned).
+
 
 | | | receipt |
 |---|---|---|

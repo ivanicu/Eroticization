@@ -315,6 +315,52 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def count_needs_interval(self, name, n_pass, n_total, spread, spread_source, n_resamples=None):
+        """#232d:一个**计数**看起来比一个相关更硬,所以它更容易被当成确定值写出去。
+
+        「31 个结局里越过全族阈值的有 19 个」读起来像在数东西 —— 数出来的数怎么会有误差棒?
+        但那个阈值是**重抽样估出来的**:`#232d` 实测,同一个分数、同一次运行里,
+        越阈个数两次算出 **10 和 8**,只因为最大统计量的零抽样取到了不同的随机流。
+        本项目此前把 `N/M` 写成确定值的地方(`#223a` `#230a` `#270` 与两个 README)
+        都因此高估了自己的精度。
+
+        与 `#167b` 的 `has_error_bar` 完全同构,但它管的是**计数**而不是**点值**,
+        因为计数的展布有一个额外的、专属的来源:**阈值本身的抽样**。
+
+            'threshold_resample_阈值重抽样'  重抽零 -> 重估阈值 -> 重数(这一族的默认)
+            'bootstrap_人层'                 重抽人 —— 同时动了相关与阈值
+            'seed_跨种子'                    换种子重跑整条管道
+            'null_零臂'                      **直接 FAIL** —— 地板不是误差棒(#167b 同款)
+            'analytic_解析'                  公式
+        """
+        ok = {'threshold_resample_阈值重抽样','bootstrap_人层','seed_跨种子','analytic_解析'}
+        allowed = sorted(ok | {'null_零臂'})
+        base = f"{n_pass}/{n_total}"
+        if spread_source == 'null_零臂':
+            r = (name, f"{base} 来源=零臂", False,
+                 "展布来源是**零臂** —— 那是地板不是误差棒(#167b/#232d),精度仍然未知")
+        elif spread_source not in ok:
+            r = (name, f"{base} 来源='{spread_source}'", False, f"不在名录里:{allowed}")
+        elif spread is None:
+            r = (name, f"{base} 展布=None", False,
+                 "没有展布 —— 阈值没有被重抽过(#232d)")
+        elif spread == 0 and (n_resamples or 0) >= 10:
+            # #233b:守卫自己的正对照在**第一次使用**时就报了一个假阳。
+            # 纯噪声分数的计数钉死在 0/31,展布**真的是 0**,而 25 次重抽都给了同一个数。
+            # 「展布为 0」有两个完全不同的成因:**没重抽**(未知),与**重抽了而它不动**(已知且窄)。
+            # 把两者折成同一个 FAIL,就是 P6 的三值塌成两值 —— 一个已知的窄区间被当成未知。
+            r = (name, f"**{base} 钉死**(重抽 {n_resamples} 次,展布恰为 0)", True,
+                 f"来源 {spread_source};计数在边界上被钉住 —— 这是**已测得的窄**,不是未测")
+        elif not (spread > 0):
+            r = (name, f"{base} 展布={spread}", False,
+                 "负展布或未重抽 —— 一个计数没有抖动来源(#232d)")
+        else:
+            lo, hi = n_pass - 2*spread, n_pass + 2*spread
+            r = (name, f"**{base} 应读作 {lo:.0f}–{hi:.0f}** (±{spread:.2f})", True,
+                 f"来源 {spread_source};一个计数不是一个确定值")
+        self.rows.append(r)
+        return r[2]
+
     def no_sign_crossing(self, name, series):
         """#83d/#79f: never take a ratio or a sum across a sign change."""
         s = np.asarray(series, dtype=float)
