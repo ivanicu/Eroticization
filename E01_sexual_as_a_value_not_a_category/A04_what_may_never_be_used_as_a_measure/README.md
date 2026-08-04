@@ -8,16 +8,16 @@
 
 | R | directory |
 |---|---|
-| `r01` | [`R01_modality_invariance`](R01_modality_invariance) |
-| `r02` | [`R02_deficit_reference_class`](R02_deficit_reference_class) |
-| `r03` | [`R03_coverage_confound`](R03_coverage_confound) |
-| `r04` | [`R04_matched_modality`](R04_matched_modality) |
-| `r05` | [`R05_induction_timing`](R05_induction_timing) |
-| `r06` | [`R06_timing_mde`](R06_timing_mde) |
-| `r07` | [`R07_single_interest_power`](R07_single_interest_power) |
-| `r08` | [`R08_off_manifold`](R08_off_manifold) |
-| `r09` | [`R09_manifold_mde`](R09_manifold_mde) |
-| `r10` | [`R10_matching_removed_it`](R10_matching_removed_it) |
-| `r11` | [`R11_breadth_or_attribution`](R11_breadth_or_attribution) |
+| `r01` | [`R072_modality_invariance`](R072_modality_invariance) |
+| `r02` | [`R073_deficit_reference_class`](R073_deficit_reference_class) |
+| `r03` | [`R074_coverage_confound`](R074_coverage_confound) |
+| `r04` | [`R075_matched_modality`](R075_matched_modality) |
+| `r05` | [`R076_induction_timing`](R076_induction_timing) |
+| `r06` | [`R077_timing_mde`](R077_timing_mde) |
+| `r07` | [`R078_single_interest_power`](R078_single_interest_power) |
+| `r08` | [`R079_off_manifold`](R079_off_manifold) |
+| `r09` | [`R080_manifold_mde`](R080_manifold_mde) |
+| `r10` | [`R081_matching_removed_it`](R081_matching_removed_it) |
+| `r11` | [`R082_breadth_or_attribution`](R082_breadth_or_attribution) |
 
 Numbers and intervals live in the top-level [`README.md`](../../README.md).

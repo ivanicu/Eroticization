@@ -106,7 +106,7 @@ narrating the cell you liked.** The grid is not a robustness appendix. It is the
 
 ---
 
-## Entry 18, added by `E01·A02·R14`–`R15` — the count was a property of how many I asked for
+## Entry 18, added by `E01·A02·R038`–`R15` — the count was a property of how many I asked for
 
 | # | The claim | What killed or scoped it | What survived |
 |---|---|---|---|
@@ -136,7 +136,7 @@ robust.
 
 ---
 
-## Entry 19, added by `E01·A07·R01` — the one K I picked was the only K where the ordering came out the way I reported it
+## Entry 19, added by `E01·A07·R102` — the one K I picked was the only K where the ordering came out the way I reported it
 
 `R14`–`R15` proved the CCA machinery is monotone in K. Three surviving headlines used the same
 machinery at a fixed, never-swept **K=5**. Swept over K ∈ {2,3,5,8,12,16} × 3 seeds, with a
@@ -176,7 +176,7 @@ as the most expensive kind of error.
 
 ---
 
-## Entry 20, added by `E01·A07·R02` — the coverage law was one point, and the point was 7.6× the rest of the range
+## Entry 20, added by `E01·A07·R103` — the coverage law was one point, and the point was 7.6× the rest of the range
 
 After #15 conceded the coverage *hazard* to the explorer's own `14-missingness`, the only novel
 claim this project still had was the quantification: **corr(congruence deficit, coverage gap) =
@@ -221,7 +221,7 @@ direction was right. Two of three forecasts now scored, both hits.
 
 ---
 
-## Entry 21, added by `E01·A03·R08` — my correction was as unfit as the thing it corrected, and my own positive control is what said so
+## Entry 21, added by `E01·A03·R057` — my correction was as unfit as the thing it corrected, and my own positive control is what said so
 
 `ADVERSARY_FORECAST` #4, p=0.50: *"344 pairs come from 27 categories, so the effective n is closer
 to 27 and every p-value there is overstated."* Checked against the code rather than memory, it is
@@ -256,7 +256,7 @@ in my favour by me — each was checked by running the thing it predicted.**
 
 ---
 
-## Entry 22, added by `E01·A03·R09` — the first UNVERIFIED to be resolved, and it went the way the original round said
+## Entry 22, added by `E01·A03·R058` — the first UNVERIFIED to be resolved, and it went the way the original round said
 
 #21 left "onset carries structure preference does not" untestable: the pair-level null was
 anticonservative, the label-permutation null was degenerate, and **both were cheaper than the
@@ -301,7 +301,7 @@ obligation has been discharged rather than deferred.
 
 ---
 
-## Entry 23, added by `E01·A05·R10` — the ceiling was real, the number behind it was not what I forecast
+## Entry 23, added by `E01·A05·R093` — the ceiling was real, the number behind it was not what I forecast
 
 `ADVERSARY_FORECAST` #6, p=0.35: *"breadth's 0.557 reliability makes θ's 'no external correlate'
 partly a ceiling, and a better-measured θ would show the adversity correlations at 0.15 rather than
@@ -342,7 +342,7 @@ which is itself a calibration fact worth more than any single entry.
 
 ---
 
-## Entry 24, added by `E01·A02·R19` — the flagship claim, measured with a validated ruler instead of a guessed one
+## Entry 24, added by `E01·A02·R043` — the flagship claim, measured with a validated ruler instead of a guessed one
 
 The headline of this project has been **"top/bottom is one word over three near-independent
 coordinates"**: POWER, GAZE, SUBSTANCE, observed mutual |r| ≤ 0.112, disattenuated ≤ 0.362,
@@ -383,7 +383,7 @@ and the third cannot be measured well enough in this release to place at all.
 
 ---
 
-## Entry 25, added by `E01·A01·R13` — the foundation, attacked for the first time, survives at half size
+## Entry 25, added by `E01·A01·R013` — the foundation, attacked for the first time, survives at half size
 
 Everything in this project descends from the leave-one-block-out result: person factors fitted on
 31 domains predict which options a person endorses in a domain the factors never saw, **32/32
@@ -425,7 +425,7 @@ interval, never as the answer.**
 
 ---
 
-## Entry 26, added by `E01·A05·R11` — a pre-registered kill that passed while the real problem sat next to it
+## Entry 26, added by `E01·A05·R094` — a pre-registered kill that passed while the real problem sat next to it
 
 Reading the control sets rather than trusting their names, per #25's standing correction:
 **21 of the 22 items in my "acquiescence" index are explicit erotic content**, including *"I am
@@ -461,7 +461,7 @@ none, so no amount of further computation on it will resolve this.
 
 ---
 
-## Entry 27, added by `E01·A01·R14` — the erotic covariates do nothing, and neither does personality
+## Entry 27, added by `E01·A01·R014` — the erotic covariates do nothing, and neither does personality
 
 The other half of #26. Two of the eight CCA covariates are erotic items with no cancelling twin —
 *"I find it erotic when two people of the opposite gender to me sexually interact"* and the
@@ -504,7 +504,7 @@ compute and returned "fine", which is a legitimate result and worth the same she
 
 ---
 
-## Entry 28, added by `E01·A02·R20` — the third automated kill I have had to override, and they all fail the same way
+## Entry 28, added by `E01·A02·R044` — the third automated kill I have had to override, and they all fail the same way
 
 Additivity is the mathematical core of Ivan's model B: `v_i = w_i^T φ(s)` requires that a person's
 weight on a feature does not depend on the scene. `A02·R11`–`R13` reported PLAUSIBLE on 3–4
@@ -552,7 +552,7 @@ worth another round — with a design whose sham does not beat its signal.
 
 ---
 
-## Entry 29, added by `E01·A02·R21` — my own "not explained by the arithmetic" flag was 78% arithmetic
+## Entry 29, added by `E01·A02·R045` — my own "not explained by the arithmetic" flag was 78% arithmetic
 
 `R20` reported person residuals across source classes at male–female **−0.706** and I flagged it as
 not explained by the centring. That flag was unchecked: removing a person mean over three classes
@@ -595,7 +595,7 @@ Conditional kill returns **UNVERIFIED** on the opposition question as posed (+0.
 
 ---
 
-## Entry 30, added by `E01·A02·R22` — the sharpest fact in the project was one cell of a specification curve
+## Entry 30, added by `E01·A02·R046` — the sharpest fact in the project was one cell of a specification curve
 
 `R21` established, as the project's cleanest structural result: the role feature transfers
 male↔neutral at +0.479 and male↔female at +0.063, below even a non-role sham (+0.266). I named
@@ -635,7 +635,7 @@ first and curves second.
 
 ---
 
-## Entry 31, added by `E01·A03·R10` — the first curve that came back robust, and the published cell was the most conservative one by accident
+## Entry 31, added by `E01·A03·R059` — the first curve that came back robust, and the published cell was the most conservative one by accident
 
 Applying #30's correction rather than regretting it: every surviving README number gets a
 specification curve or is withdrawn. Two had never had one. This is the load-bearing one — `A03`'s
@@ -676,7 +676,7 @@ checking their own work.
 
 ---
 
-## Entry 32, added by `E01·A03·R11` — the exec graph, and the first time the gate made me fix an instrument instead of override a verdict
+## Entry 32, added by `E01·A03·R060` — the exec graph, and the first time the gate made me fix an instrument instead of override a verdict
 
 #31 found that A03's rounds inherit their data from the RSA round's loader, which filters onset
 columns to the 27 with a matching arousal-rating column. **Mapping the `exec` graph across the whole
@@ -718,7 +718,7 @@ me.** Only the second is reproducible by someone who is not me.
 
 ---
 
-## Entry 33, added by `E01·A07·R03` — three design errors in one round, and the gate caught all three
+## Entry 33, added by `E01·A07·R104` — three design errors in one round, and the gate caught all three
 
 The block-inclusion threshold (`n_respondents ≥ 1200`) is inherited by **20 of 57 rounds**, decides
 which blocks exist at all, and sits under the modality, consumption, coverage and θ results
@@ -761,7 +761,7 @@ exactly what pre-registration exists to prevent me doing.
 
 ---
 
-## Entry 34, added by `E01·A07·R04` — the modality deficit is smaller than the noise of the only instrument that can measure it
+## Entry 34, added by `E01·A07·R105` — the modality deficit is smaller than the noise of the only instrument that can measure it
 
 `#33` failed three ways and I rebuilt for all three: block-matched inside every cell, gate written
 for *that* matching level, 5 seeds, and the two corpus axes swept separately. The resolvability
@@ -802,7 +802,7 @@ measurement, and only a gate that checks resolvability separates them.
 
 ---
 
-## Entry 35, added by `E01·A08·R01` — the resolvability criterion applied backwards, and modality turns out to be the exception
+## Entry 35, added by `E01·A08·R107` — the resolvability criterion applied backwards, and modality turns out to be the exception
 
 `#34` killed the modality deficit by resolvability rather than by falsity: its effect was smaller
 than its own seed spread in 9 cells of 9. Most of this project's numbers were produced at 1–3 seeds
@@ -838,7 +838,7 @@ instead** — which is the ordinary way a control earns its cost.
 
 ---
 
-## Entry 36, added by `E01·A08·R02` — the audit that flagged a discrepancy was measuring a different quantity, and two ledger entries were wrong
+## Entry 36, added by `E01·A08·R108` — the audit that flagged a discrepancy was measuring a different quantity, and two ledger entries were wrong
 
 `#35` flagged the cross-domain CCA re-running at 0.1491 against a published 0.200 and recorded it as
 an open discrepancy. Reconciling it required reading three rounds' code rather than one, and the
@@ -879,7 +879,7 @@ the cheapest instrument in this project remains opening the file that produced t
 
 ---
 
-## Entry 37, added by `E01·A08·R03` — the headline reproduces and is resolvable; the positive control I wrote for it is degenerate
+## Entry 37, added by `E01·A08·R109` — the headline reproduces and is resolvable; the positive control I wrote for it is degenerate
 
 `#36` established that the resolvability audit had measured a quantity nobody published. Redone on
 the estimand that actually carries the headline — pairwise-block CCA, `nc=min(3,…)`, max over
@@ -915,7 +915,7 @@ impressive.
 
 ---
 
-## Entry 38, added by `E01·A08·R04` — a graded control, and the pipeline reproduces a similarity ordering it was never told
+## Entry 38, added by `E01·A08·R110` — a graded control, and the pipeline reproduces a similarity ordering it was never told
 
 `#37` reproduced the headline and found it resolvable, but its positive control returned exactly
 1.0000 because row-centring forces `sum(half₁) = −sum(half₂)`. A binary control ("must be high")
@@ -953,7 +953,7 @@ a known order is a much stronger statement than one tier above a bar, and it cos
 
 ---
 
-## Entry 39, added by `E01·A02·R23` — the SUBSTANCE axis does not exist outside the seven blocks it was built in
+## Entry 39, added by `E01·A02·R047` — the SUBSTANCE axis does not exist outside the seven blocks it was built in
 
 `#38` found the fluid family partially isolated (fluid↔non-fluid pairs transfer at 0.203 against
 0.272 for ordinary pairs). Most of this project's role findings live in that family, so the question
@@ -990,7 +990,7 @@ availability quietly became representativeness.
 
 ---
 
-## Entry 40, added by `E01·A01·R15` — the same check that scoped SUBSTANCE clears the central claim
+## Entry 40, added by `E01·A01·R015` — the same check that scoped SUBSTANCE clears the central claim
 
 `#39` scoped the SUBSTANCE axis to seven blocks by asking whether it predicts outside the blocks
 that defined it. The same question had never been asked of the construct carrying this project's
@@ -1025,7 +1025,7 @@ went into this expecting a second local construct, and got the opposite.
 
 ---
 
-## Entry 41, added by `E01·A02·R24` — I set a gate threshold above the published magnitude of the thing I was gating on
+## Entry 41, added by `E01·A02·R048` — I set a gate threshold above the published magnitude of the thing I was gating on
 
 `#39` scoped SUBSTANCE, `#40` cleared the person factors. POWER was the last role axis claimed to
 hold release-wide, and `A02`'s basis decision rests on it. Same check: does it predict in blocks
@@ -1066,7 +1066,7 @@ strong.
 
 ---
 
-## Entry 42, added by `E01·A02·R25` — the last A02 survivor passes every statistical attack and is unidentifiable anyway
+## Entry 42, added by `E01·A02·R049` — the last A02 survivor passes every statistical attack and is unidentifiable anyway
 
 After `#24`, `#39` and `#41`, the only `A02` claim left was the **conditional** one: role predicts
 endorsement wherever the option set itself varies in role — `r = +0.752`, 21× between varying and
@@ -1112,7 +1112,7 @@ printed in `A02·R02`'s own output table. I read that column as "the contrast is
 
 ---
 
-## Entry 43, added by `E01·A03·R12` — the null that survived having its instrument replaced
+## Entry 43, added by `E01·A03·R061` — the null that survived having its instrument replaced
 
 `A03`'s decision — model acquisition and valuation as **two systems** — rests on `#9`: TEMPO
 predicts within-person onset similarity at t=+4.59 while COORD (coordinate-loading similarity) gives
@@ -1152,7 +1152,7 @@ on the evidence beneath it.
 
 ---
 
-## Entry 44, added by `E01·A01·R16` — a second string-derived proxy beaten by its own sham
+## Entry 44, added by `E01·A01·R016` — a second string-derived proxy beaten by its own sham
 
 `A01`'s decision says this release cannot separate **A** (a dedicated sexual-content system) from
 **B** (valuation of ordinary representation), because `#13` showed a dedicated module can be
@@ -1197,7 +1197,7 @@ closure. The A-vs-B half has now survived a second attempt to break it, this one
 
 ---
 
-## Entry 45, added by `E01·A07·R05` — matching buys identification and spends resolvability, and the published number is on the wrong side of the trade
+## Entry 45, added by `E01·A07·R106` — matching buys identification and spends resolvability, and the published number is on the wrong side of the trade
 
 `A07` was opened mid-project with rounds but **no decision statement**, which the E/A/R structure
 forbids. The missing measurement: `#11` published consumption→coordinates at **0.0439, triple-matched**
@@ -1237,7 +1237,7 @@ necessary, and never noticed that the last one spent the effect.
 
 ---
 
-## Entry 46, added by `E01·A05·R12` — the measure cannot tell a concentrated population from a random one, and its published value is smaller than its own bias
+## Entry 46, added by `E01·A05·R095` — the measure cannot tell a concentrated population from a random one, and its published value is smaller than its own bias
 
 `A05`'s decision — model the scalar gain as the object rather than control it away — rests in part
 on breadth being **quantity without shape**: a person's set is only **0.88% more concentrated** in
@@ -1279,7 +1279,7 @@ was aimed at (`#35` found accuracy while checking precision).
 
 ---
 
-## Entry 47, added by `E01·A05·R13` — the same control that killed one measure validates the other, and unity means opposite things in the two rounds
+## Entry 47, added by `E01·A05·R096` — the same control that killed one measure validates the other, and unity means opposite things in the two rounds
 
 `#46` killed the concentration measure with synthetic populations of known answer. Nestedness is now
 one of `A05`'s three remaining supports and had never had the same treatment. I predicted it would
@@ -1316,7 +1316,7 @@ than either of the original rounds did.
 
 ---
 
-## Entry 48, added by `E01·A04·R12` — matching corrects where there is something to correct, and my summary statistic divided noise by noise everywhere else
+## Entry 48, added by `E01·A04·R083` — matching corrects where there is something to correct, and my summary statistic divided noise by noise everywhere else
 
 `A04`'s rule — "group comparisons must be coverage-matched" — stood on the `+0.815` law that `#20`
 withdrew, plus `#45`'s finding that matching can spend an effect below resolvability. Tested
@@ -1350,7 +1350,7 @@ where the error lives, not the measurement** — and a four-row table needs no a
 
 ---
 
-## Entry 49, added by `E01·A01·R17` — the shared grammar is real, graded, and carries almost no predictable variance
+## Entry 49, added by `E01·A01·R017` — the shared grammar is real, graded, and carries almost no predictable variance
 
 No outside challenger has ever run against this project; this session forbids dispatching one, so
 every ledger row stays **`[unchallenged]`**, not "clean". The available substitute is not another
@@ -1397,7 +1397,7 @@ B" — and those diverge by two orders of magnitude in exactly this kind of data
 
 ---
 
-## Entry 50, added by `E01·A03·R13` — the onset RSA survives the framing swap that broke the central claim, and my fifth mis-specified gate nearly hid it
+## Entry 50, added by `E01·A03·R062` — the onset RSA survives the framing swap that broke the central claim, and my fifth mis-specified gate nearly hid it
 
 `#49` broke the central claim by swapping framings: the cross-domain grammar exists as a
 correlation (CCA 0.198) and carries no predictable variance (pairwise R² −0.002). The onset RSA has
@@ -1439,7 +1439,7 @@ pre-registered in spirit and neither of which I wrote down as the operative comp
 
 ---
 
-## Entry 51, added by `E01·A08·R05` — the published statistics rank the claims in a different order than predictable variance does
+## Entry 51, added by `E01·A08·R111` — the published statistics rank the claims in a different order than predictable variance does
 
 `#49` and `#50` created two classes: correlations that carry predictable variance and correlations
 that do not. Every remaining headline is a correlation or a congruence and none had been sorted.
@@ -1475,7 +1475,7 @@ amount.**
 
 ---
 
-## Entry 52, added by `E01·A03·R14` — the sort completes, and the claim that carries the most is the one that was hardest to break
+## Entry 52, added by `E01·A03·R063` — the sort completes, and the claim that carries the most is the one that was hardest to break
 
 `#51` sorted every surviving headline by predictable variance except the maturational schedule,
 whose statistic is a within-person rank agreement. Its proper analogue is a **ranking task**, built
@@ -1519,7 +1519,7 @@ number on a larger pool, and I do not know in which direction.
 
 ---
 
-## Entry 53, added by `E01·A03·R15` — the schedule is developmental, and rarity is a real but separate ordering
+## Entry 53, added by `E01·A03·R064` — the schedule is developmental, and rarity is a real but separate ordering
 
 `#52` made the maturational schedule the strongest surviving claim — a population ordering predicts
 held-out pairwise acquisition order at 66.71%, saturating what any global ordering can do. It had
@@ -1558,7 +1558,7 @@ explanation (`#53`). It is also the claim that needed the fewest rounds to estab
 
 ---
 
-## Entry 54, added by `E01·A03·R16` — rarity is a second ordering principle, and it is not the age window
+## Entry 54, added by `E01·A03·R065` — rarity is a second ordering principle, and it is not the age window
 
 `#53` found prevalence ordering predicts held-out pairwise acquisition order at **60.75%**, largely
 independent of the developmental ordering, and flagged it as an unreported finding sitting in a
@@ -1598,7 +1598,7 @@ and telling them apart is a prospective-measurement problem, not an analysis one
 
 ---
 
-## Entry 55, added by `E01·A03·R17` — I wrote a prediction that was analytically impossible, and the question underneath it had a real answer
+## Entry 55, added by `E01·A03·R066` — I wrote a prediction that was analytically impossible, and the question underneath it had a real answer
 
 `#54` closed with: *"if the two ordering principles are separate, an ordering using both should beat
 either alone, by roughly the sum of their independent contributions — sharp enough to be wrong."*
@@ -1645,7 +1645,7 @@ been turned on a result while it was still warm.
 
 ---
 
-## Entry 56, added by `E01·A01·R18` — the item margin is still untested after forty rounds and two attempts, and the gate caught both
+## Entry 56, added by `E01·A01·R018` — the item margin is still untested after forty rounds and two attempts, and the gate caught both
 
 `#55` established that every `NEXT` line should be checked for analytic possibility before being
 acted on. **All 45 audited**: nearly every one was an audit of an existing claim and was executed.
@@ -1688,7 +1688,7 @@ has been measured exhaustively and the item side has never been measured once.
 
 ---
 
-## Entry 57, added by `E01·A01·R19` — the item margin is real, carries 71% of the person margin, and was never measured in fifty-seven rounds
+## Entry 57, added by `E01·A01·R019` — the item margin is real, carries 71% of the person margin, and was never measured in fifty-seven rounds
 
 Third attempt, built the way the first two should have been: **cell-level** masking so every feature
 is computed from unmasked cells only, and all four models **nested on the same base and jointly
@@ -1723,7 +1723,7 @@ one level up, where **the margin I had tooling for became the margin that existe
 
 ---
 
-## Entry 58, added by `E01·A01·R20` — two-thirds the same structure, and the third that is not is below resolution
+## Entry 58, added by `E01·A01·R020` — two-thirds the same structure, and the third that is not is below resolution
 
 `#57` measured the item margin for the first time and left the decisive question open: does it add
 anything **on top of** the person margin, or is it the same structure seen from the other side? Both
@@ -1763,7 +1763,7 @@ the structure — the other margin is a second view of it, not a second half of 
 
 ---
 
-## Entry 59, added by `E01·A01·R21` — the aggregate cross-domain signal is larger than block-internal structure, and my verdict label confused largeness with sameness
+## Entry 59, added by `E01·A01·R021` — the aggregate cross-domain signal is larger than block-internal structure, and my verdict label confused largeness with sameness
 
 `#58` closed on an apparent contradiction: within-block structure predicts at ratio 12 while `#49`
 found cross-domain transfer carries no predictable variance. **Reading the code resolved half of it
@@ -1807,7 +1807,7 @@ recorded here.
 
 ---
 
-## Entry 60, added by `E01·A01·R22` — the accumulation is √n, and that is the mechanism as well as the curve
+## Entry 60, added by `E01·A01·R022` — the accumulation is √n, and that is the mechanism as well as the curve
 
 `#59` showed pairwise block→block prediction is ~0 while 31 blocks give +0.0409, so the signal
 accumulates. The curve had never been measured, and it is the one quantity a phase-1 collection
@@ -1853,7 +1853,7 @@ the law holds four times beyond its measured range, which is an assumption, not 
 
 ---
 
-## Entry 61, added by `E01·A01·R23` — blocks are not interchangeable, so √n does not mean what I said it meant one round ago
+## Entry 61, added by `E01·A01·R023` — blocks are not interchangeable, so √n does not mean what I said it meant one round ago
 
 `#60` fitted `increment = 0.00723 × √n` at CV 6.4% and read √n as **the signature of one shared
 latent measured with independent per-block noise** — "the form is the mechanism, not just a curve".
@@ -1895,7 +1895,7 @@ structure is one pooled estimate and block boundaries are incidental to it.
 
 ---
 
-## Entry 62, added by `E01·A03·R18` — three levels of sub-global structure tested, all three below resolution
+## Entry 62, added by `E01·A03·R067` — three levels of sub-global structure tested, all three below resolution
 
 `#52` showed one global ordering saturates what any global ordering can do. `#55` found the
 **individual** component is +0.88 against a 1.04 spread — unresolvable. Between "one for everyone"
@@ -1929,7 +1929,7 @@ sub-resolution structure underneath it that a finer-binned release would be need
 
 ---
 
-## Entry 63, added by `E01·A03·R19` — 66.7% was accuracy on the pairs the release can order; over all pairs it is bounded [60.5, 66.5]
+## Entry 63, added by `E01·A03·R068` — 66.7% was accuracy on the pairs the release can order; over all pairs it is bounded [60.5, 66.5]
 
 `#52` reported the schedule at 66.71% and flagged, honestly but without quantifying it, that **36.3%
 of within-person pairs are tied** by the 2-year binning and were excluded. Excluded pairs are not a
@@ -1965,7 +1965,7 @@ and not quantified is a caveat that has been filed, not paid.**
 
 ---
 
-## Entry 64, added by `E01·A01·R24` — at equal data, fragmenting it across more blocks makes the signal worse, so the accumulation was never about blocks
+## Entry 64, added by `E01·A01·R024` — at equal data, fragmenting it across more blocks makes the signal worse, so the accumulation was never about blocks
 
 `#60` fitted `increment = 0.00723 × √n_sources` and read it as one shared latent measured with
 independent per-block noise. `#61` falsified the interchangeability that reading requires (subset
@@ -2011,7 +2011,7 @@ cannot test it — at full block sizes, n and total sample cannot be varied inde
 
 ---
 
-## Entry 65, added by `E01·A09·R01` — the epoch is named after a quantity the loader deletes on line 1
+## Entry 65, added by `E01·A09·R112` — the epoch is named after a quantity the loader deletes on line 1
 
 The epoch is `E01_sexual_as_a_value_not_a_category`. That title is a claim about the **relative
 size** of the ITEM main effect (content is content) and the PERSON×ITEM interaction (the same
@@ -2067,7 +2067,7 @@ against a floor built from its own marginals and its own shape. That is `R02`.
 
 ---
 
-## Entry 66, added by `E01·A09·R02` — the floor was built from a world nothing like the data, and the identification gate caught it
+## Entry 66, added by `E01·A09·R113` — the floor was built from a world nothing like the data, and the identification gate caught it
 
 `R01` could not deliver a verdict because the interaction estimator's negative bias is
 shape-dependent. `R02` gave every block its own floor, built from its own marginals — and then
@@ -2110,7 +2110,7 @@ dose axis with exact margins at every point. That is `R03`.
 
 ---
 
-## Entry 67, added by `E01·A09·R03` — the epoch is named after the smaller of the two components, and the loader deleted the larger one first
+## Entry 67, added by `E01·A09·R114` — the epoch is named after the smaller of the two components, and the loader deleted the larger one first
 
 Fixed-margin randomisation (curveball) preserves **every row sum and every column sum exactly**
 (asserted per draw, not assumed), so both main effects are matched *by construction* and only the
@@ -2159,7 +2159,7 @@ ordinary content rather than a content category"* — the content category is th
 
 ---
 
-## Entry 68, added by `E01·A09·R04` — the K-trend turns over, and the epoch title is false under every reading except a tie
+## Entry 68, added by `E01·A09·R115` — the K-trend turns over, and the epoch title is false under every reading except a tie
 
 `#67` left the ordering resting on two ranks with the corrected interaction still rising. The full
 sweep, with **K=0 in the grid** so that "no interaction term at all" could win:
@@ -2207,7 +2207,7 @@ that maximum costs 44% of the model's held-out R² (0.175 at K=6 vs 0.312 at K=1
 
 ---
 
-## Entry 69, added by `E01·A10·R01` — the item main effect is 1+1=2, and the algebra was checkable in one line
+## Entry 69, added by `E01·A10·R116` — the item main effect is 1+1=2, and the algebra was checkable in one line
 
 `A09` established the item main effect at 3.5–11.7× the interaction. Before that becomes a claim
 about a **content category** it has to survive the arithmetic trap — *could this number have come
@@ -2260,7 +2260,7 @@ one are the same sentence.
 
 ---
 
-## Entry 70, added by `E01·A10·R02` — the epoch title was two questions wearing one sentence, and the answer differs between them
+## Entry 70, added by `E01·A10·R117` — the epoch title was two questions wearing one sentence, and the answer differs between them
 
 `#69` showed the within-block contrast cannot adjudicate model A vs model B, because within a block
 *base rate* and *content* are the same number. The level where they differ is **across** blocks:
@@ -2305,7 +2305,7 @@ distinguishes the two models at all.**
 
 ---
 
-## Entry 71, added by `E01·A10·R03` — the domain-general structure keeps buying signal; the domain-specific one is one dimension deep and then noise
+## Entry 71, added by `E01·A10·R118` — the domain-general structure keeps buying signal; the domain-specific one is one dimension deep and then noise
 
 `#70` refused the ordering `C > W` because `C` used 4 factors and `W` used 1. The fix is not a rank
 match but a **parameter count**, and here they are not the same thing:
@@ -2343,7 +2343,7 @@ directions, and it is now the arc's residual gap.
 
 ---
 
-## Entry 72, added by `E01·A10·R04` — there is no coordinate count, and that is why two rounds failed to find one
+## Entry 72, added by `E01·A10·R119` — there is no coordinate count, and that is why two rounds failed to find one
 
 `#18` and `#49` both tried to settle how many domain-general coordinates exist, from *within* the
 shared space, and both failed. This round asks by prediction instead: a dimension counts only if it
@@ -2379,7 +2379,7 @@ stops.
 
 ---
 
-## Entry 73, added by `E01·A03·R20` — the effect estimate never moved; the noise did, and it was a cap I wrote myself
+## Entry 73, added by `E01·A03·R069` — the effect estimate never moved; the noise did, and it was a cap I wrote myself
 
 `#55` reported individual variation in acquisition order at **+0.88 points, seed spread 1.03, ratio
 0.85** and logged it as a low-power null. `#72` then showed the 8-dimensional person embedding it
@@ -2426,7 +2426,7 @@ the exact shape of `L11` — untested is not the same as null-survives.
 
 ---
 
-## Entry 74, added by `E01·A03·R21` — the cap bound in four rounds and not the fifth, and I had already generalised it to all five
+## Entry 74, added by `E01·A03·R070` — the cap bound in four rounds and not the fifth, and I had already generalised it to all five
 
 `#73` found `cap=20000` with a `break` that exits the person loop, traced it to five rounds, and
 wrote *"every one of them therefore ran on roughly 2,000 of 12,459 eligible people."* That sentence
@@ -2466,7 +2466,7 @@ same as measuring each member of the class.
 
 ---
 
-## Entry 75, added by `E01·A03·R22` — CLOSURE: the cap cost precision and cost no verdict
+## Entry 75, added by `E01·A03·R071` — CLOSURE: the cap cost precision and cost no verdict
 
 Labelled **Closure**, not Frontier: it protects an existing conclusion rather than separating worlds.
 `#74` measured that the cap bound in R14/R15/R16. This re-prices them.
@@ -2504,7 +2504,7 @@ one. It cost 0.03 points of location and bought back 1.4× of precision.
 
 ---
 
-## Entry 76, added by `E01·A10·R05` — my own p=0.70 self-overturn fails on survival and lands on magnitude, and no permutation could have caught it
+## Entry 76, added by `E01·A10·R120` — my own p=0.70 self-overturn fails on survival and lands on magnitude, and no permutation could have caught it
 
 `ADVERSARY_FORECAST.md` block 2, prediction #1 at **p = 0.70**: *the cross-block transfer `C` is
 partly the gate, not the person.* Two independent attacks, because a permutation and a projection
@@ -2542,7 +2542,7 @@ the reason a claim must fail, filed where nobody re-reads it.
 
 ---
 
-## Entry 77, added by `E01·A10·R06` — the confound is the survey's own shape, not who answers it
+## Entry 77, added by `E01·A10·R121` — the confound is the survey's own shape, not who answers it
 
 `#76` shrank `C` by projecting out entry pattern **and** demographics together, and could not say
 which mattered. Four arms, identical cells and masks, one variable changed at a time:
@@ -2582,7 +2582,7 @@ unlucky case is a column named `count` or `size` silently returning a method and
 
 ---
 
-## Entry 78, added by `E01·A10·R07` — a random basis of identical rank and identical cost gets nothing, which is what an accounting argument cannot see
+## Entry 78, added by `E01·A10·R122` — a random basis of identical rank and identical cost gets nothing, which is what an accounting argument cannot see
 
 `ADVERSARY_FORECAST` block 2, prediction #4 (p=0.50): *"`#71`'s parameter-count argument is a bad
 accounting. `C`'s person scores are called free because they are estimated elsewhere — but they are
@@ -2613,7 +2613,7 @@ and that is a cheaper attack than the one I ran.
 
 ---
 
-## Entry 79, added by `E01·A10·R08` — the loss was never swept, and log-loss punishes the interaction rather than rescuing it
+## Entry 79, added by `E01·A10·R123` — the loss was never swept, and log-loss punishes the interaction rather than rescuing it
 
 `A09`/`A10` swept rank, estimand, null, block, ordering, projection and score type. Every number in
 both arcs is **squared error on a binary cell** — an axis `realstat` §G4 requires and this project
@@ -2654,7 +2654,7 @@ quantity — both were applied to a **sum that hides a sign**.
 
 ---
 
-## Entry 80, added by `E01·A10·R09` — the metric that flatters the interaction before bias correction is the one that flatters it least after
+## Entry 80, added by `E01·A10·R124` — the metric that flatters the interaction before bias correction is the one that flatters it least after
 
 `#79c` named its own weakest specification and sent this round at it: **L1 is the only loss under
 which the within-block interaction `W` is positive**, so if the item-vs-interaction ordering flips
@@ -2698,7 +2698,7 @@ specifications whose floors differ.
 direction it concluded."* **Both halves are false**, and I wrote them from memory one entry after a
 round whose entire subject was reading tables instead of remembering them.
 
-`A10/R03/run.py:152` is `gap = pb.C - pb.W`. **Neither side was corrected.** And the asymmetry that
+`A10/R118/run.py:152` is `gap = pb.C - pb.W`. **Neither side was corrected.** And the asymmetry that
 does exist runs the **opposite way**:
 
 | | its own null | so a raw number is… |
@@ -2718,7 +2718,7 @@ to be able to overturn `#71` rather than to defend it.
 
 ---
 
-## Entry 82, added by `E01·A10·R10` — #71 inverts: the person-side readout is mostly assembled PER DOMAIN
+## Entry 82, added by `E01·A10·R125` — #71 inverts: the person-side readout is mostly assembled PER DOMAIN
 
 `#81` flagged `#71` `AT RISK` because it compared a nearly-unbiased `C` against a severely
 under-reported `W`. Symmetric run, both sides referred to their own nulls in the same run, same
@@ -2756,7 +2756,7 @@ this project and a false headline it would have kept.**
 
 ---
 
-## Entry 83, added by `E01·A10·R11` — the domain-specific spectrum has a knee at 5; the domain-general one has none
+## Entry 83, added by `E01·A10·R126` — the domain-specific spectrum has a knee at 5; the domain-general one has none
 
 `#72` swept the cross-block rank and found no cliff. `#82` then showed the cross-block part is the
 **thin** one, so `#72` characterised a residual. Same question, asked of the structure that carries
@@ -2796,7 +2796,7 @@ it is named here rather than left for a reader to notice.
 
 ---
 
-## Entry 84, added by `E01·A10·R12` — the confound `#83c` named cannot be settled here, and the control is what says so
+## Entry 84, added by `E01·A10·R127` — the confound `#83c` named cannot be settled here, and the control is what says so
 
 `#83c` claimed the within-block spectrum knees at 5 while the cross-block one does not, and named its
 own confound: the two estimators search spaces of very different size (m = 10–24 columns vs ~500).
@@ -2831,7 +2831,7 @@ inadmissible until the same instrument has passed a positive control**, and here
 
 ---
 
-## Entry 85, added by `E01·A10·R13` — the three components are the same size, and "11.7×" was three raw numbers against one corrected one
+## Entry 85, added by `E01·A10·R128` — the three components are the same size, and "11.7×" was three raw numbers against one corrected one
 
 `#82` inverted `#71` by referring both sides to their own nulls. The audit that followed reached the
 README's **first** row, which still read *"item +0.222 vs person +0.085 vs interaction +0.019"* —
@@ -2868,7 +2868,7 @@ effect's uniquely-attributable part, and the true ratio is **at most** what is r
 
 ---
 
-## Entry 86, added by `E01·A05·R14` — a null correction credits a component with the DAMAGE its estimator does, and 87% of the person effect's correction was that
+## Entry 86, added by `E01·A05·R097` — a null correction credits a component with the DAMAGE its estimator does, and 87% of the person effect's correction was that
 
 `#85b` reported the person main effect at **+0.148** corrected against **+0.093** raw, and explained
 the gap as estimator noise: item effects are estimated from 1,200–15,000 observations per column,
@@ -2902,7 +2902,7 @@ release has none, so nothing here distinguishes *"wants more"* from *"ticks more
 
 ---
 
-## Entry 87, added by `E01·A10·R14` — the −0.19 floor is an estimator artifact, and my own comparison let one arm peek at the test set
+## Entry 87, added by `E01·A10·R129` — the −0.19 floor is an estimator artifact, and my own comparison let one arm peek at the test set
 
 `#86c` predicted that if the interaction's null correction is crediting **damage** rather than
 **noise**, a properly regularised estimator would recover only ~13% of the gap directly — and that
@@ -2934,7 +2934,7 @@ whose null is zero because it does not overfit in the first place.
 
 ---
 
-## Entry 88, added by `E01·A10·R15` — with nothing subtracted anywhere, the item effect is 3.5–5.6× the interaction, and `#85`'s tie was the correction machinery
+## Entry 88, added by `E01·A10·R130` — with nothing subtracted anywhere, the item effect is 3.5–5.6× the interaction, and `#85`'s tie was the correction machinery
 
 `#86` and `#87` established that subtracting a null credits the estimator's failure to the component.
 This round removes the machinery entirely: **shrunk column means · empirical-Bayes shrunk row means ·
@@ -2982,7 +2982,7 @@ fail differently**, and it took `#80`, `#82`, `#84`, `#86` and `#87` to name it.
 
 ---
 
-## Entry 89, added by `E01·A10·R16` — the estimator with the honest floor cannot count dimensions, and the one that can count has a dishonest floor
+## Entry 89, added by `E01·A10·R131` — the estimator with the honest floor cannot count dimensions, and the one that can count has a dishonest floor
 
 `#88` showed hard rank truncation digs a −0.09 hole on a structureless world while soft thresholding
 digs −0.02. The natural follow-up was to re-ask `#72`/`#83`'s dimensionality question on the better
@@ -3011,7 +3011,7 @@ constraint on every rank question the project has asked.
 
 ---
 
-## Entry 90, added by `E01·A10·R17` — on the probability scale the three components are the same size, and the item effect wins every skill measure because it is estimated 179× better
+## Entry 90, added by `E01·A10·R132` — on the probability scale the three components are the same size, and the item effect wins every skill measure because it is estimated 179× better
 
 Every number in this project has been held-out skill — a quantity whose meaning depends on the
 estimator, which is what `#86`–`#89` spent four entries discovering. This round inverts the plant:
@@ -3048,7 +3048,7 @@ and that asymmetry is not removable here.
 
 ---
 
-## Entry 91, added by `E01·A10·R18` — a structure carried by 5% of people is invisible at ANY strength, and that is what a fetish looks like
+## Entry 91, added by `E01·A10·R133` — a structure carried by 5% of people is invisible at ANY strength, and that is what a fetish looks like
 
 `#90` named its own shape assumption: the ±23.7 pp inversion assumed a **dense** structure, and a
 sparse one — a few people with strong specific tastes — might imply a different magnitude. This
@@ -3083,7 +3083,7 @@ are buildable on this release, and neither has been tried.
 
 ---
 
-## Entry 92, added by `E01·A11·R01` — the only quantile where the control fires is the only one where the data doesn't
+## Entry 92, added by `E01·A11·R135` — the only quantile where the control fires is the only one where the data doesn't
 
 `#91` measured that every method in this project is blind to a structure carried by a minority. This
 round builds the missing one: a **per-person goodness-of-fit** statistic
@@ -3126,7 +3126,7 @@ knowable before the method existed.
 
 ---
 
-## Entry 93, added by `E01·A11·R02` — with the right null the apparent tail vanishes, and so does the instrument's ability to see anything
+## Entry 93, added by `E01·A11·R136` — with the right null the apparent tail vanishes, and so does the instrument's ability to see anything
 
 `#92` left one admissible quantile and two fixable faults. Both are fixed here: the null becomes
 **fixed-margin (curveball)**, reproducing the response format instead of mistaking it for signal, and
@@ -3161,7 +3161,7 @@ natural and correct null. That is the design `#91` was reaching for and neither 
 
 ---
 
-## Entry 94, added by `E01·A11·R03`+`R04` — the most promising signal in the project, and a positive control that has failed to license it three times
+## Entry 94, added by `E01·A11·R137`+`R04` — the most promising signal in the project, and a positive control that has failed to license it three times
 
 `#93b` showed the per-person misfit statistic is confounded with the pick count, and named the
 statistic that isn't: **mean surprisal** `S_i = mean over picked options of −log(base rate)` —
@@ -3198,7 +3198,7 @@ calculation instead of a guess.
 
 ---
 
-## Entry 95, added by `E01·A11·R05` — LICENSED: a minority whose picks concentrate on rare options, seen by the first statistic in this project whose null preserves exactly what it conditions on
+## Entry 95, added by `E01·A11·R139` — LICENSED: a minority whose picks concentrate on rare options, seen by the first statistic in this project whose null preserves exactly what it conditions on
 
 `#94b` withheld the surprisal signal because three positive controls had failed, all by planting
 below the detectable magnitude. `#94`'s closing paragraph derived the magnitude instead of guessing
@@ -3233,7 +3233,7 @@ concentrating on uncommon options exists and was invisible to every method used 
 
 ---
 
-## Entry 96, added by `E01·A11·R06` — the separator is right, the execution was not mean-matched, and the two normalisations disagree
+## Entry 96, added by `E01·A11·R140` — the separator is right, the execution was not mean-matched, and the two normalisations disagree
 
 `#95` named its own limit: surprisal cannot distinguish an idiosyncratic attachment from a careless
 responder. But the two make different predictions about **shape across blocks** — careless is **flat**
@@ -3265,7 +3265,7 @@ The sentence "at comparable mean" was doing the work of a check.
 
 ---
 
-## Entry 97, added by `E01·A11·R07`+`R08`+`R09` — the real minority is elevated more EVENLY than any discrete-carrier plant, and that is a different hypothesis than either of the two I was testing
+## Entry 97, added by `E01·A11·R141`+`R08`+`R09` — the real minority is elevated more EVENLY than any discrete-carrier plant, and that is a different hypothesis than either of the two I was testing
 
 `#96` left the attachment-vs-carelessness question open because the two plants were not mean-matched.
 Three rounds to fix it, each caught by its own gate:
@@ -3305,7 +3305,7 @@ tail quantile.
 
 ---
 
-## Entry 98, added by `E01·A11·R10` — neither family fits, and the two failures bracket the answer from opposite sides
+## Entry 98, added by `E01·A11·R144` — neither family fits, and the two failures bracket the answer from opposite sides
 
 `#97d` opened the fork: is the rare-option signal a **distinct minority** or a **gradient across
 everyone**? Both families tuned to reproduce the real p50 and p95, then tested on the held-out shape.
@@ -3335,7 +3335,7 @@ intensity trades off along exactly that axis.
 
 ---
 
-## Entry 99, added by `E01·A11·R12` — the check eleven rounds never ran: the distribution is symmetrically WIDER, not one-sidedly elevated
+## Entry 99, added by `E01·A11·R146` — the check eleven rounds never ran: the distribution is symmetrically WIDER, not one-sidedly elevated
 
 Every round in this arc measured **p50 and upward**. `#94`/`#95` licensed *"a minority picks rarer
 options"*; `#98` bracketed its size; `#R11` found no carrier model fits, because every random-carrier
@@ -3369,7 +3369,7 @@ upper elevation, and pointing the other way.
 
 ---
 
-## Entry 100, added by `E01·A11·R13` — a reliable person-level trait in WHICH options are endorsed, independent of HOW MANY
+## Entry 100, added by `E01·A11·R147` — a reliable person-level trait in WHICH options are endorsed, independent of HOW MANY
 
 `#99b` proposed *"a continuous person-level parameter of rare-option affinity"*. That is a claim about
 a **trait**, and a trait must be **reliable** and must not be something already measured wearing a new
@@ -3400,7 +3400,7 @@ outside the endorsement matrix, which this release does carry.
 
 ---
 
-## Entry 101, added by `E01·A11·R14`+`R15` — the trait tracks WHEN interests were acquired, more than it tracks personality
+## Entry 101, added by `E01·A11·R148`+`R15` — the trait tracks WHEN interests were acquired, more than it tracks personality
 
 `#100` confirmed a reliable person-level trait in *which* options are endorsed and named what
 reliability cannot settle: a stable **response style** is also a reliable person property. The two
@@ -3445,7 +3445,7 @@ response style that happens to track onset age would produce the same table.
 
 ---
 
-## Entry 102, added by `E01·A11·R16` — the onset link does not survive its own matched null, and my gate checked the null against a number instead of against the effect
+## Entry 102, added by `E01·A11·R150` — the onset link does not survive its own matched null, and my gate checked the null against a number instead of against the effect
 
 `#101d` reported that rare-option affinity tracks earlier acquisition at **r = −0.0838, z = 7.1**, and
 called it the first link between arc `A11` and `A03`'s fifteen rounds on the schedule. This round
@@ -3520,7 +3520,7 @@ forecloses the comparison errors, which are nine of ten; **the tenth is still mi
 
 ---
 
-## Entry 104, added by `E01·A11·R17` — CLOSURE: the arc's three surviving claims re-read through the instrument built from its own failures
+## Entry 104, added by `E01·A11·R151` — CLOSURE: the arc's three surviving claims re-read through the instrument built from its own failures
 
 Labelled **Closure** (`P0`): it protects existing conclusions rather than separating worlds. Its value
 is that the protection is performed by `lib/gates.py`, which `#103` validated by catching **7 of 8**
@@ -3572,7 +3572,7 @@ threshold, and its arms are checked for completeness (`#79e`'s).
 
 ---
 
-## Entry 105, added by `E01·A10·R19` — the direct measurement is algebraically impossible, which is why `#90` had to be indirect
+## Entry 105, added by `E01·A10·R134` — the direct measurement is algebraically impossible, which is why `#90` had to be indirect
 
 `#90`'s **±23.7 pp** is the top row of the README and the only number in the standing table that is
 **inferred through a model** rather than measured. `#90` named that asymmetry in its own scope
@@ -3609,7 +3609,7 @@ and a direct measurement would settle it."* **There is no direct measurement to 
 
 ---
 
-## Entry 106, added by `E01·A12·R01` — 获取顺序留下了痕迹:两个最后都喜欢 A 和 B 的人,会因为「先得到哪个」而在其他方面不同
+## Entry 106, added by `E01·A12·R157` — 获取顺序留下了痕迹:两个最后都喜欢 A 和 B 的人,会因为「先得到哪个」而在其他方面不同
 
 Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递归性表征重构`。项目测了前两步,第三步被归档成"需要纵向数据"就再没碰过。**那个归档是错的** —— 递归有横断面签名,而且它是心理学问句不是统计问句:
 
@@ -3640,7 +3640,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 107, added by `E01·A12·R02` — 顺序的痕迹不是「你是哪一类人」:跨类对的效应被类型吸收殆尽,同类对的存活
+## Entry 107, added by `E01·A12·R158` — 顺序的痕迹不是「你是哪一类人」:跨类对的效应被类型吸收殆尽,同类对的存活
 
 `#106d` 在跑之前就写下了唯一严肃的替代解释:**一个稳定的类型同时驱动顺序和内容**。偏关系型的人既更晚获得关系性兴趣,也有关系性偏好。`#106e` 给了分离器,这一轮跑了它 —— 而且是两个分离器同时跑。
 
@@ -3669,7 +3669,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 108, added by `E01·A12·R03` — 剂量测不出来,而且原因是分层本身:随机砍掉 2/3 的人就能杀死这个效应
+## Entry 108, added by `E01·A12·R159` — 剂量测不出来,而且原因是分层本身:随机砍掉 2/3 的人就能杀死这个效应
 
 `#107e` 留下最后一个对手:一个作用在比"具体/关系"更细层次上的共因。这一轮不用更细的分类学,用**剂量** —— 共因不做的那个预测:
 
@@ -3704,7 +3704,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 109, added by `E01·A12·R05` — 效应"缩小"是因为我在两轮之间悄悄换掉了零的种类,而换掉的那个是错的
+## Entry 109, added by `E01·A12·R161` — 效应"缩小"是因为我在两轮之间悄悄换掉了零的种类,而换掉的那个是错的
 
 同一个量,我自己重估三次,一路缩小:`#107` **+0.0236** → `#108` **+0.0121** → `#109` **+0.0058**。
 
@@ -3740,7 +3740,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 110, added by `E01·A12·R06` — 顺序效应在对的零上是 +0.0285(8.6× SE);剂量再次被自己的对照挡下,而这次机制查清了
+## Entry 110, added by `E01·A12·R162` — 顺序效应在对的零上是 +0.0285(8.6× SE);剂量再次被自己的对照挡下,而这次机制查清了
 
 `#109f` 把剂量问题打回完全未测(`#108`/`#109` 都用了错零)。这一轮用 `#109e` 认定的真值偏移 ——
 **合成无信号世界**:把 `y` 回归到协变量上生成 `y_synth`(保留 COV→y,毁掉 P→y),在它上面直接量 `full − base`。
@@ -3763,7 +3763,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 111, added by `E01·A12·R07` — 剂量在这套数据上问不出来,这是能力边界不是零;而我为了追它偏离了自己写下的 NEXT 三轮
+## Entry 111, added by `E01·A12·R163` — 剂量在这套数据上问不出来,这是能力边界不是零;而我为了追它偏离了自己写下的 NEXT 三轮
 
 `#110e` 说把类别平衡度放进对间回归就能修伪影。做了,机制确认了,但不够:
 
@@ -3789,7 +3789,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 112, added by `E01·A12·R08` — 一个兴趣来得越早,它与这个人其余偏好结合得越紧;而且不是"喜欢得更强"
+## Entry 112, added by `E01·A12·R164` — 一个兴趣来得越早,它与这个人其余偏好结合得越紧;而且不是"喜欢得更强"
 
 `#111c` 承认我为了追剂量偏离了 `#107` 自己写下的 NEXT 三轮。回到那一个,而且它是一个完全不同的设计 —— **没有间隔,没有类别平衡度**,所以 `#110d`/`#111a` 的伪影结构上不存在。
 
@@ -3828,7 +3828,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 113, added by `E01·A12·R09` — "早"不是"相对更爱";而绑定只在真正在乎的兴趣上发生
+## Entry 113, added by `E01·A12·R165` — "早"不是"相对更爱";而绑定只在真正在乎的兴趣上发生
 
 `#112e` 留下唯一对手:**回忆偏差** —— 一个人把 X 当作核心,既报告更早的起始年龄,也让轮廓围绕 X 组织。两个分离器同跑。
 
@@ -3868,7 +3868,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 114, added by `E01·A12·R10` — 记忆把心爱的兴趣往前拉,约 0.74 年;这是这个数据集里第一个被直接量出来的回忆偏差
+## Entry 114, added by `E01·A12·R166` — 记忆把心爱的兴趣往前拉,约 0.74 年;这是这个数据集里第一个被直接量出来的回忆偏差
 
 `#113c` 承认我上一轮的"判别式"不判别(两个世界做同一个预测)。这一轮的分离器**不碰绑定统计量**,直接量**起始年龄报告本身**,而且两个世界做**相反**的预测:
 
@@ -3902,7 +3902,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 115, added by `E01·A12·R11` — `#112a` 撤回:那不是"早到来的东西在中心",是"什么都给高分的人"
+## Entry 115, added by `E01·A12·R167` — `#112a` 撤回:那不是"早到来的东西在中心",是"什么都给高分的人"
 
 `#114c` 预测了一条通路,`#114e` 说可以直接测。测了,而且**结论与我上一轮提交的相反**。
 
@@ -3930,7 +3930,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 116, added by `E01·A12·R12` — 顺序效应挺过了杀死它兄弟的那个混淆,而且原因是设计结构上的
+## Entry 116, added by `E01·A12·R168` — 顺序效应挺过了杀死它兄弟的那个混淆,而且原因是设计结构上的
 
 `#115e` 把 `#107`/`#110` 的顺序对设计放到同一条通路下受审:`y = (起始A < 起始B)` 经由回忆偏差依赖 `评分A − 评分B`,而轮廓预测评分,协变量里从没有过人均评分。
 
@@ -3961,7 +3961,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 117, added by `E01·A12·R13` — 零修对后效应站得更稳;而"先来的把其余偏好拉向自己"刚过线
+## Entry 117, added by `E01·A12·R169` — 零修对后效应站得更稳;而"先来的把其余偏好拉向自己"刚过线
 
 ### 第一件:`#116e` 的零修好了
 
@@ -3999,7 +3999,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 118, added by `E01·A12·R14` — 方向命题从 2.1× 升到 3.1×,但不是因为我预测的理由;而它原来的正对照是一个恒等式
+## Entry 118, added by `E01·A12·R170` — 方向命题从 2.1× 升到 3.1×,但不是因为我预测的理由;而它原来的正对照是一个恒等式
 
 `#117` 的 NEXT 预先承诺:双倍 n 若不过 3× 就按 2.1× 引用并停止。跑了,过了 —— 但**两个诊断都跟我的预测无关**。
 
@@ -4025,7 +4025,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 119, added by `E01·A13·R01` — 回忆畸变随年龄增强,所以它不是纯粹的"报告时刻建构";而"伪影是否为零"一直是错的问题
+## Entry 119, added by `E01·A13·R171` — 回忆畸变随年龄增强,所以它不是纯粹的"报告时刻建构";而"伪影是否为零"一直是错的问题
 
 新 arc。`#114a` 量出的回忆偏差(心爱的被报告早约 0.74 年)我一直只当干扰用。它本身是个心理学对象,而且两个机制做**相反**的预测:
 
@@ -4061,7 +4061,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 120, added by `E01·A13·R02` — 机制分不开,而且原因是真实曲率根本不可分辨;我的两个 gate 又各错了一次
+## Entry 120, added by `E01·A13·R172` — 机制分不开,而且原因是真实曲率根本不可分辨;我的两个 gate 又各错了一次
 
 `#119c` 留下残余:"随时间累积"对**记忆衰退**和**叙事固化**都成立。分离器是**形状** —— 固化只拉最爱的那些(顶端,凸),衰退沿评分整体变陡(线性)。
 
@@ -4088,7 +4088,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 121, added by `E01·A11·R18` — 条件于平均意外度,会把恋物子群的签名一起条件掉;而我的弥散对照不保边际,所以对比不成立
+## Entry 121, added by `E01·A11·R152` — 条件于平均意外度,会把恋物子群的签名一起条件掉;而我的弥散对照不保边际,所以对比不成立
 
 `#120` 的 NEXT 指向 `#104` 的"勾选数分层内的意外度秩"。重读 `#99` 后改问了一个更锋利的问题 —— **`#99` 测的是 S 的水平,没测它的形状,而恋物在现象学上不是"整体偏好罕见",是"对某一样异常强烈"**:
 
@@ -4116,7 +4116,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 122, added by `E01·A11·R19` — 保边际的两个种植都太弱,问题停在能力边界;而尾部超出本身是真的
+## Entry 122, added by `E01·A11·R153` — 保边际的两个种植都太弱,问题停在能力边界;而尾部超出本身是真的
 
 `#121e` 指定的修法做了:**成对交换** —— A 得稀有失常见、B 反向,行和列和都精确不变(每块每次抽样都断言)。两个世界**交换总数相同**(3000/块),只改分配给多少人:集中 = 5% 的人承担,弥散 = 60% 的人承担。
 
@@ -4186,7 +4186,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 124, added by `E01·A06·R03` — 自称"色情诱导了我"的人,在强制单选里选的东西和别人一模一样
+## Entry 124, added by `E01·A06·R101` — 自称"色情诱导了我"的人,在强制单选里选的东西和别人一模一样
 
 `#123b` 找到了 `#26` 说本 release 没有的那个仪器:**强制单选按构造消除作答水平**(必须且只能选一个,"什么都说是"无处施力),实测各选项人群的平均给分极差 0.324–0.506 < 0.73 sd,**而 166 轮里只用过 2 轮**。
 
@@ -4222,7 +4222,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 125, added by `E01·A05·R15` — 广度携带内容,但只有一点点;而我给库开的口子当场被自己的回归测试堵回去
+## Entry 125, added by `E01·A05·R098` — 广度携带内容,但只有一点点;而我给库开的口子当场被自己的回归测试堵回去
 
 `#124` 的 NEXT 两件事:把 `#124f` 落地成代码,再用强制单选打 `#26` 自己那条 UNVERIFIED。
 
@@ -4275,7 +4275,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 126, added by `E01·A11·R20`+`R21` — 稀有偏好特质搬到另一个仪器上仍然在;而口味广的人恰恰选得更常见
+## Entry 126, added by `E01·A11·R154`+`R21` — 稀有偏好特质搬到另一个仪器上仍然在;而口味广的人恰恰选得更常见
 
 `#125` 的 NEXT 指向跨题变异,设计时看到一个更锋利的版本 —— 它同时回答本项目最发达那条声明的最大弱点:
 
@@ -4306,7 +4306,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 127, added by `E01·A11·R22` — 两个现存声明在共享-item 守卫下都站住;而审计自己的正对照抓到了审计自己的 bug
+## Entry 127, added by `E01·A11·R156` — 两个现存声明在共享-item 守卫下都站住;而审计自己的正对照抓到了审计自己的 bug
 
 `#126c` 是本项目第一个**在设计时被漏掉**的混淆(前四十一个都是写下了但写错了)。守卫 `check_disjoint_items` 已落地并回放验证。`#126` 的 NEXT:回头查同样组合 item 派生量的两个声明。
 
@@ -4342,7 +4342,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 128, added by `E01·A14·R01` — 不寻常的东西一开始就在那里;而一遍双向去均值把这个结论的符号弄反了
+## Entry 128, added by `E01·A14·R173` — 不寻常的东西一开始就在那里;而一遍双向去均值把这个结论的符号弄反了
 
 `#127` 的 NEXT 是给六个守卫写一个 linter。写了,跑了,**然后必须给它降级**:171 个轮次里有 146
 个早于 `lib/gates.py` 存在本身,所以 94% 的"缺失率"是剧场。有判别力的只有现存声明那 19 轮,
@@ -4405,7 +4405,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 129, added by `E01·A14·R02` — 特质链接不是覆盖度;而一次尺度不匹配的残差化,把两轮的 `corr(·,S)` 变成了负的勾选数
+## Entry 129, added by `E01·A14·R174` — 特质链接不是覆盖度;而一次尺度不匹配的残差化,把两轮的 `corr(·,S)` 变成了负的勾选数
 
 `#128` 的 NEXT:`corr(ρ,S)` 扣掉年龄与类别数就掉一半,而这两个都是**仪器量**。按 `#5` 的
 覆盖度定律,`128c` 进 README 之前必须做**块数匹配**——在设计上关掉这条通路,不靠回归假设线性。
@@ -4459,7 +4459,7 @@ S[ok] = z(S[ok]) - np.polyval(np.polyfit(z(PK[ok]), z(S[ok]), 1), z(PK[ok]))   #
 
 ---
 
-## Entry 130, added by `E01·A14·R03` — 人群从常见处开始,而每个人都在共享曲线上提前了自己那一份
+## Entry 130, added by `E01·A14·R175` — 人群从常见处开始,而每个人都在共享曲线上提前了自己那一份
 
 `#129` 的 NEXT:把「罕见的来得更早」做成**离散版本** —— 一个人最早报告的那批兴趣,是不是
 比从他**自己的曲目库**里随机抽的更罕见?零是他自己的库,所以这个检验对去均值的做法、
@@ -4512,7 +4512,7 @@ S[ok] = z(S[ok]) - np.polyval(np.polyfit(z(PK[ok]), z(S[ok]), 1), z(PK[ok]))   #
 
 ---
 
-## Entry 131, added by `E01·A14·R04` — 66.852% 保住了;而"跳过排不出来的对"值 12.9 个百分点
+## Entry 131, added by `E01·A14·R176` — 66.852% 保住了;而"跳过排不出来的对"值 12.9 个百分点
 
 **【CLOSURE,明确标注】** `#130` 的 NEXT。不开新战线,保护本项目最老也最大的数字。
 
@@ -4537,7 +4537,7 @@ S[ok] = z(S[ok]) - np.polyval(np.polyfit(z(PK[ok]), z(S[ok]), 1), z(PK[ok]))   #
 
 ---
 
-## Entry 132, added by `E01·A14·R05` — 审查解释不掉 Δ;而性版图在青春期结束时就基本定型了
+## Entry 132, added by `E01·A14·R177` — 审查解释不掉 Δ;而性版图在青春期结束时就基本定型了
 
 `#131` 的 NEXT。Δ = −0.2345 是本弧最大的效应,两个候选机制已死,测最便宜的第三个:审查。
 
@@ -4575,7 +4575,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 133, added by `E01·A15·R01` — 成年后加进来的不是旁边那一块,是别处;而三分之一的人版图在 17 岁就关上了
+## Entry 133, added by `E01·A15·R178` — 成年后加进来的不是旁边那一块,是别处;而三分之一的人版图在 17 岁就关上了
 
 `#132` 的 NEXT,新弧 A15。`#132f` 用「68.4% 在 17 岁前」给模型 C 划了时间边界;这一轮问那条
 边界之后进来的东西是**深化**还是**扩张**。零是**人内置换早/晚标签**,所以对"他喜欢多少
@@ -4614,7 +4614,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 134, added by `E01·A15·R02` — 反向回忆的印记不存在;但那个效应绑在绝对年龄上,而它的量级要降级
+## Entry 134, added by `E01·A15·R179` — 反向回忆的印记不存在;但那个效应绑在绝对年龄上,而它的量级要降级
 
 `#133` 的 NEXT。`#133` 自己写下的残余缺口 ——「这个东西跟我其余的不搭,所以它一定是后来才
 有的」,即连通性低**导致**被报成晚。这条通路是**回忆过程**的性质,所以印记是年龄梯度,
@@ -4651,7 +4651,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 135, added by `E01·A15·R03` — 没有边界,但有两族:早来的东西是散的,晚来的东西是一整套
+## Entry 135, added by `E01·A15·R180` — 没有边界,但有两族:早来的东西是散的,晚来的东西是一整套
 
 `#134` 的 NEXT。绕开被分箱卡死的切点扫描,直接画「连通度 ~ 获得年龄」的曲线。
 
@@ -4682,7 +4682,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 136, added by `E01·A15·R04` — 「一整套」是字面意义的:关系族一起到,具体族一个一个到
+## Entry 136, added by `E01·A15·R181` — 「一整套」是字面意义的:关系族一起到,具体族一个一个到
 
 `#135` 的 NEXT。`#135d` 证明的是人的晚期集合**富集**于关系族,没证明它们**同时**到达。
 
@@ -4716,7 +4716,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 137, added by `E01·A16·R01` — 两族不是两样东西:早/晚这条线在外部锚上是六个里最弱的
+## Entry 137, added by `E01·A16·R182` — 两族不是两样东西:早/晚这条线在外部锚上是六个里最弱的
 
 `#136` 的 NEXT,新弧 A16。`#135`/`#136` 的两族在**组织度**与**到达方式**上都不同 ——
 那它们在**外部成因**上也不同吗?这压在模型 A(专用性内容系统预测一个统一检测器)上。
@@ -4745,7 +4745,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 138, added by `E01·A16·R02` — 版图的主分界线不是"先来后到",是"物件 vs 叙事"
+## Entry 138, added by `E01·A16·R183` — 版图的主分界线不是"先来后到",是"物件 vs 叙事"
 
 `#137` 的 NEXT。6 个特征向量分割 × 11 个非性变量的整格,多重性由**最大统计量零**
 (把非性变量在人之间打乱,重算整格,取 |最大差|,200 次 → 95 分位 = 0.0560)一次性控制。
@@ -4772,7 +4772,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 139, added by `E01·A16·R03` — `#138f` 降级;真正结构不对称的是早/晚那条线
+## Entry 139, added by `E01·A16·R184` — `#138f` 降级;真正结构不对称的是早/晚那条线
 
 `#138` 的 NEXT。把命名拿掉,只看结构:四个量(分半信度 · 有效维度 · 第一因子占比 ·
 与广度的相关),每个分割两侧各一份,**下采样到 k=9** 以拉平题目个数,评分用成对删除。
@@ -4800,7 +4800,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 140, added by `E01·A16·R04` — 关系族装的就是 A02 那三条轴;而那个"零"是 0.349,不是 0
+## Entry 140, added by `E01·A16·R185` — 关系族装的就是 A02 那三条轴;而那个"零"是 0.349,不是 0
 
 `#139` 的 NEXT。`#139c` 说关系族"同时到达却装着好几个独立维度"—— 是哪几个?
 `A02` 已在**全部**类别上命名过三条(谁服从 · 谁被看 · 谁接受)。
@@ -4827,7 +4827,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 141, added by `E01·A17·R01` — A02 的结论站得住,但它引用错了自己的证据;而我的路标前提是错的
+## Entry 141, added by `E01·A17·R186` — A02 的结论站得住,但它引用错了自己的证据;而我的路标前提是错的
 
 `#140` 的 NEXT。新弧 A17。
 
@@ -4846,21 +4846,21 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 写下的路标前提被撤回(**成本回收**);一次"没定向的 alpha"被抓住(**成本回收**)。
 
 **NEXT**:`141c` 打开的洞比它自己大 —— **本项目还有多少条现存声明,其判定阈值是写死在源码里
-的一个选定数字?** `A02/R10` 的 `mx<0.4` 是被 `#141` 逮到的第一个,而 `tools/guard_lint.py`
+的一个选定数字?** `A02/R034` 的 `mx<0.4` 是被 `#141` 逮到的第一个,而 `tools/guard_lint.py`
 (`#128a`)已经能扫全部 185 个 `run.py`。做法:给 linter 加一条规则 —— **任何与一个字面
 常数比较并据此打印结论字符串的行**,都标出来;然后对**现存声明**那 20 来轮逐个看那个常数
 是量出来的还是选出来的。这是 Closure,但 `#141c` 证明了它能翻结论。
 
 ---
 
-## Entry 142, added by `E01·A17·R02` — `#118` 宣布的"加强"没有发生,而它的判定压在一个落进噪声带的常数上
+## Entry 142, added by `E01·A17·R187` — `#118` 宣布的"加强"没有发生,而它的判定压在一个落进噪声带的常数上
 
 `#141` 的 NEXT。`tools/guard_lint.py` 新增 `hardcoded_thresholds()`:找**与字面常数比较、
 且该比较驱动结论字符串**的行;与自身展布比较(`2*spread`/`boot`/`sd`/`null`)白名单放行。
 
 | # | 结论 | 判定 |
 |---|---|---|
-| 142a | **扫描落地:现存声明背后的 21 轮,12 处命中,5 处真的在用字面常数打判定** | `A03/R22` `ratio>1.3` · `A12/R12` `kr>0.5` · **`A12/R14` `r250>=3`** · `A02/R16` 与 `A02/R17` 各一个 `mx<50`(与 `#141` 的 `mx<0.4` 同一族) |
+| 142a | **扫描落地:现存声明背后的 21 轮,12 处命中,5 处真的在用字面常数打判定** | `A03/R071` `ratio>1.3` · `A12/R168` `kr>0.5` · **`A12/R170` `r250>=3`** · `A02/R040` 与 `A02/R041` 各一个 `mx<50`(与 `#141` 的 `mx<0.4` 同一族) |
 | 142b | ⚠ **`#118` 宣布的"加强"没有发生** | 加倍样本后强度 **3.0928 → 3.0484**,略微**下降**。而源码打印的是「加强成功,按新强度引用」。**那句话是假的** |
 | 142c | ⚠ **而那个判定压在门槛上方 1.6%** | 写死 `r250>=3`,实测 **3.0484** |
 | 142d | **更要紧的是:一位小数的精度本身就在噪声里** | 20 个不同的自助重抽种子给出 **3.023–3.163(sd 0.035)**。**一个设在 3 的门槛落在这个噪声带内** —— 所以这个预注册判定的输出由重抽种子决定,而不是由数据决定 |
@@ -4876,21 +4876,21 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 **任何预注册阈值,都必须先证明它离开了被比较量自身的噪声带。** `lib/gates.py` 现有的
 `resolvable`/`require_resolvable_first` 检查的是"效应 vs 零",不检查"效应 vs 阈值"。
 加一个 `threshold_outside_noise(name, value, threshold, spread)`,并回头把
-`142a` 命中的另外 4 处(`A03/R22` 的 1.3 · `A12/R12` 的 0.5 · `A02/R16`/`R17` 的 50)
+`142a` 命中的另外 4 处(`A03/R071` 的 1.3 · `A12/R168` 的 0.5 · `A02/R040`/`R17` 的 50)
 各量一次距离。**`#118` 已证明这类检查能翻掉一句已写下的结论。**
 
 ---
 
-## Entry 143, added by `E01·A17·R03` — `#141` 整条撤回:我审计的是一个 118 条之前就已作废的版本
+## Entry 143, added by `E01·A17·R188` — `#141` 整条撤回:我审计的是一个 118 条之前就已作废的版本
 
-`#142` 的 NEXT 是给另外四处写死的常数各量距离。量到 `A02/R16` 的 `mx<50` 时看到实测是
+`#142` 的 NEXT 是给另外四处写死的常数各量距离。量到 `A02/R040` 的 `mx<50` 时看到实测是
 **101% / 86%**,而它的预注册判定写着 `mx>=80 → ONE CONSTRUCT`。**顺着读下去,那不是发现,
 是我上一轮的错误。**
 
 | # | 结论 | 判定 |
 |---|---|---|
 | 143a | **`R16`/`R17` 的判定早已被 `R18` 作废,`Entry 24` 已经 settled 了整条线** | `R18` 诊断出 profile-profile 相关在 14 变量电池上零分布 sd ≈ 0.30 —— **仪器在构造上欠功效**,线被冻结。`Entry 24`(`A02·R19`)用验证过的信度阶梯(正对照 SUBSTANCE 对自身 **r_true = +1.018**,sham +0.023)测得 **POWER–SUBSTANCE r_true = +0.605**,共享 **37% 方差,不是 5%**;预注册判定落在中带 → **UNVERIFIED**;**「2.95 of 3」withdrawn** |
-| 143b | ⚠ **`#141` 整条撤回** | 它重跑 `A02/R10`、自助它的去衰减值、发现 30.2% 跨过写死的 0.4 —— **这些计算本身没错**,但它审计的是一个**已经作废的版本**,而且它**把已撤回的「有效维度 2.95/3」写回了 README** |
+| 143b | ⚠ **`#141` 整条撤回** | 它重跑 `A02/R034`、自助它的去衰减值、发现 30.2% 跨过写死的 0.4 —— **这些计算本身没错**,但它审计的是一个**已经作废的版本**,而且它**把已撤回的「有效维度 2.95/3」写回了 README** |
 | 143c | ⚠ **`#141e` 的方向是反的** | 它推荐"改引**原始**相关(≤0.112),因为那个稳"。**原始相关正是被衰减压平的那个。** `Entry 24` 的全部要点就是:一把**验证过的**去衰减给出 +0.605,而 `R10` 的 0.362 之所以错,是因为它**用了属于另一个测量的信度**(GCCA 坐标的块分半,去除一个手工复合量表) |
 | 143d | **失败模式,写成一句可迁移的话** | **我用重跑那一轮的方式去审计一条声明,而没有读那条声明后来的账本条目。一个轮次自己的输出不是那条声明的当前状态;账本才是。** 这是 `feedback_false_self_retraction` 的镜像 —— **假的自我确认**:我"重新定价"到一个 118 条之前就被撤回的数 |
 | 143e | **而真正的洞比 `#141` 大:README 从 `Entry 24` 起就没被改过** | 它带着「去衰减 ≤ 0.362,有效维度 2.95/3」又走了 **118 条**。**一条账本里的撤回,从来没有走到前页。** 这不是某一轮的错,是**两个文件之间没有任何机械连接** |
@@ -4911,7 +4911,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 144, added by `E01·A17·R04` — 一个不带出处的数字,是一个无法被撤回的数字
+## Entry 144, added by `E01·A17·R189` — 一个不带出处的数字,是一个无法被撤回的数字
 
 `#143` 的 NEXT:把 `readme_ledger_audit.py` 的 **29 个命中**逐个分诊。
 
@@ -4939,7 +4939,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 145, added by `E01·A17·R05` — 盲区被我高估了 14 倍;而剩下的那一个,挂在一句账本说是假的话上
+## Entry 145, added by `E01·A17·R190` — 盲区被我高估了 14 倍;而剩下的那一个,挂在一句账本说是假的话上
 
 `#144` 的 NEXT:把前页那 14 个不带出处的数字逐个接上账本或删掉。
 
@@ -4968,7 +4968,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 146, added by `E01·A18·R01` — Δ 的量级由"谁够格进入分析"决定,而那就是广度
+## Entry 146, added by `E01·A18·R191` — Δ 的量级由"谁够格进入分析"决定,而那就是广度
 
 `#145` 的 NEXT。把 `#130a` 的 Δ(−0.2345,49×)按 `#138` 的内容线切开。
 
@@ -4995,7 +4995,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 147, added by `E01·A18·R02` — `#130a` 得救而且是普遍的;而 `#146` 的广度联系是一条算术界
+## Entry 147, added by `E01·A18·R192` — `#130a` 得救而且是普遍的;而 `#146` 的广度联系是一条算术界
 
 `#146` 的 NEXT 写的是「在广度上做卡钳 1:1 匹配」。**先纠正我自己的路标:那是错的工具** ——
 匹配比较两个组,而 Δ 没有组(它的零是人内的,`E[Δ_i|null]` 恰好为 0)。广度不能让 Δ_i
@@ -5033,7 +5033,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 148, added by `E01·A18·R03` — 机制找到了:那不是关于个人的,是共享时间表投影到每个人身上的样子
+## Entry 148, added by `E01·A18·R193` — 机制找到了:那不是关于个人的,是共享时间表投影到每个人身上的样子
 
 `#147` 的 NEXT。跑之前先查:**`#130b` 当年就测过这一步**(扣掉时间表后 Δ 从 −0.2345 翻成
 +0.0767)。这一轮把它钉在 `#147` 的可比单位上,并加一个当年没有的对照。
@@ -5065,7 +5065,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 149, added by `E01·A19·R01` — 那 20% 是真的,但它不是一个特质
+## Entry 149, added by `E01·A19·R194` — 那 20% 是真的,但它不是一个特质
 
 `#148` 的 NEXT。两个候选:`#148b` 的 **z_resid** 与 `#128b` 的 **ρ**,符号一致。
 
@@ -5098,7 +5098,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 150, added by `E01·A19·R02` — 预注册的点预测命中了;而"一致"仍然不等于"证明了相同"
+## Entry 150, added by `E01·A19·R195` — 预注册的点预测命中了;而"一致"仍然不等于"证明了相同"
 
 `#149` 的 NEXT。跑之前写死:既然 `corr(z, ρ) = −0.5718` 是负的,`corr(z_resid, S)` 应当与
 `#129e` 的 `corr(ρ, S) = −0.0404` **符号相反、量级相当**。
@@ -5124,7 +5124,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 151, added by `E01·A19·R03` — 强制选择没放大效应,它更吵;而"更干净"不等于"更好"
+## Entry 151, added by `E01·A19·R196` — 强制选择没放大效应,它更吵;而"更干净"不等于"更好"
 
 `#150` 的 NEXT:用 `#126` 的强制选择块重建 S 来放大效应,把接缝的等价边界压下去。
 先处理重叠:10 个强制选择块里有 **8 个就是起始年龄的类别**,所以 z/ρ 在剔除后的 **23 个**
@@ -5157,7 +5157,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 152, added by `E01·A19·R04` — 方向立住,量级撤回:`#148a` 的分母错了,比值被高估 14 倍
+## Entry 152, added by `E01·A19·R197` — 方向立住,量级撤回:`#148a` 的分母错了,比值被高估 14 倍
 
 `#151` 的 NEXT。用五个汇总量重跑 `#148` 的分解,并把稀释基准从一次抽样改成 20 次。
 
@@ -5189,7 +5189,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 153, added by `E01·A20·R01` — 单次抽样的零不自动致命;伤害 = 零的实现 sd ÷ 效应
+## Entry 153, added by `E01·A20·R198` — 单次抽样的零不自动致命;伤害 = 零的实现 sd ÷ 效应
 
 `#152` 的 NEXT。扫 139 个持久化结果文件:**53 个含零臂,17 个的零臂没有 seed 列**。
 分诊后,两个支撑现存声明的零确认是单次抽样:**`#114`**(`default_rng(9)`,一次同类别内
@@ -5216,15 +5216,15 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 154, added by `E01·A20·R02` — 我重抽的是一个已被取代的轮次;而那 10 抽仍然证明了 `R15` 的三次平均是必要的
+## Entry 154, added by `E01·A20·R199` — 我重抽的是一个已被取代的轮次;而那 10 抽仍然证明了 `R15` 的三次平均是必要的
 
-`#153e` 的路标指向 `A11/R14` 的单抽 curveball 零。
+`#153e` 的路标指向 `A11/R148` 的单抽 curveball 零。
 
 | # | 结论 | 判定 |
 |---|---|---|
-| 154a | ⚠ **正对照当场开火:我复现不出 README 的数** | 我的真实臂给性别 **+0.0558**、agreeable **−0.0741**,而 README 写 +0.093、五因素 ≤0.056。**跑 `A11/R14` 本身:我的复现是精确的** —— 它自己就输出这些数,**而且它自己的判定是 UNVERIFIED,两个门 FAIL** |
+| 154a | ⚠ **正对照当场开火:我复现不出 README 的数** | 我的真实臂给性别 **+0.0558**、agreeable **−0.0741**,而 README 写 +0.093、五因素 ≤0.056。**跑 `A11/R148` 本身:我的复现是精确的** —— 它自己就输出这些数,**而且它自己的判定是 UNVERIFIED,两个门 FAIL** |
 | 154b | **读账本settled了它** | `Entry 101`:`R14` 的两个门失败**是我的错**(`101a` 线性残差化、`101b` 原始比去衰减);**`R15` 的修法**是 `affinity = S_real − mean(S_null)`,**三次** curveball 平均,**两个门都过**。README 的 +0.093 / ≤0.056 / 开放性 +0.023 全部出自 **R15**。**声明没有问题** |
-| 154c | ⚠ **第三次「去看轮次而不是去读账本」** | `#143`(重跑 `A02/R10` 审计一个 118 条前已作废的声明)· `#148e`(两轮找一个账本已定位的机制)· 本轮。**而 `#153d` 刚写下「没有 seed 列不等于单次抽样」,我写了那句话,然后走过去了**(`feedback_confession_is_never_audited` 的同一形态) |
+| 154c | ⚠ **第三次「去看轮次而不是去读账本」** | `#143`(重跑 `A02/R034` 审计一个 118 条前已作废的声明)· `#148e`(两轮找一个账本已定位的机制)· 本轮。**而 `#153d` 刚写下「没有 seed 列不等于单次抽样」,我写了那句话,然后走过去了**(`feedback_confession_is_never_audited` 的同一形态) |
 | 154d | **但那 10 抽仍然回答了本来的问题,而且答案是"平均是必要的"** | curveball 零臂的人格 max\|r\| 在 10 次独立实现上跨 **0.0320–0.0543**,实现 sd **0.0068**。**一次**零自己就能产生高到 **0.054** 的人格相关。`R15` 平均三次 → 残余 ≈ 0.004,而效应 +0.0930 → **23 倍余量** |
 | 154e | **所以这条声明安全,而它安全的原因是设计而不是运气** | **用一次抽样的零,「人格五因素全部 ≤0.056」这句话会与零分不开**(零自己能到 0.054)。`R15` 的三次平均正是把它救出来的东西 |
 
@@ -5242,15 +5242,15 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 155, added by `E01·A20·R03` — 犯三次之后,由工具防:轮次 → 账本的反向索引
+## Entry 155, added by `E01·A20·R200` — 犯三次之后,由工具防:轮次 → 账本的反向索引
 
 `#154` 的 NEXT。本会话三次「去看轮次而不是读账本」(`#143` · `#148e` · `#154`)。
 
 | # | 结论 | 判定 |
 |---|---|---|
-| 155a | **`tools/round_status.py` 落地** | 轮次 → 账本,顶出**最后一条提到它的条目**。关键是**兄弟轮次检测**,而它是照着骗过我的那一格调的:`Entry 101` 正文写的是**裸 `R15`**,按引用格式匹配抓不到 —— 改成扫**这一轮自己那条条目的正文**找兄弟轮次 + 取代类词汇。**现在查 `A11/R14` 直接打出「Entry 101 正文提到兄弟轮次 R15」** |
+| 155a | **`tools/round_status.py` 落地** | 轮次 → 账本,顶出**最后一条提到它的条目**。关键是**兄弟轮次检测**,而它是照着骗过我的那一格调的:`Entry 101` 正文写的是**裸 `R15`**,按引用格式匹配抓不到 —— 改成扫**这一轮自己那条条目的正文**找兄弟轮次 + 取代类词汇。**现在查 `A11/R148` 直接打出「Entry 101 正文提到兄弟轮次 R15」** |
 | 155b | **全量扫描:139 个轮次进过账本,11 个带取代提示** | 特异性够(不是一片红) |
-| 155c | **压在带标记轮次上的现存声明只有 1 个** | `#101` → `A11/R14`,**而 `#154` 上一轮已经解决了它**(README 的数出自 `R15`)。**其余 16 条现存声明都不压在带标记的轮次上** |
+| 155c | **压在带标记轮次上的现存声明只有 1 个** | `#101` → `A11/R148`,**而 `#154` 上一轮已经解决了它**(README 的数出自 `R15`)。**其余 16 条现存声明都不压在带标记的轮次上** |
 | 155d | **盘上 195 个轮次,账本里从未出现过 59 个** | **但没有一个支撑现存声明**。它们是走过又没有留下信念更新的路 —— 记录,不处理 |
 | 155e | **范围(`P6` 安全侧)** | 只在**命中**方向可读。**没有取代提示不等于这一轮是现行的**;输出是**必读清单**,不是判决 |
 
@@ -5260,23 +5260,23 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 **NEXT**:三个工具现在覆盖三条边 —— `readme_ledger_audit`(README → 账本)·
 `round_status`(轮次 → 账本)· `guard_lint`(轮次 → 守卫)。**缺的第四条是 账本 → 轮次**:
-**一条账本条目声称的东西,那一轮的代码现在还跑得出来吗?** `#154a` 正是靠"跑一遍 `A11/R14`
+**一条账本条目声称的东西,那一轮的代码现在还跑得出来吗?** `#154a` 正是靠"跑一遍 `A11/R148`
 本身"才发现我复现的是对的、README 才是错的 —— 那一步是手工的。做法:对**现存声明的 17 轮**
 逐个重跑,把 stdout 与账本条目里引用的数字比对,报不一致。**`#141`、`#154` 都是在这一步上
 被绊住的,而它现在完全没有自动化。**
 
 ---
 
-## Entry 156, added by `E01·A20·R04` — `#117` 的轮次从写下那天起一直在崩,而崩的正是它自己记录的那个 bug
+## Entry 156, added by `E01·A20·R201` — `#117` 的轮次从写下那天起一直在崩,而崩的正是它自己记录的那个 bug
 
 `#155` 的 NEXT:第四条边,**账本 → 轮次**。`tools/repro_audit.py` 重跑一轮,把账本条目里的
 可辨识数字与新 stdout 比对(容差 2%)。**17 条现存声明,16 条跑通,1 条崩溃。**
 
 | # | 结论 | 判定 |
 |---|---|---|
-| 156a | ⚠ **`#117` 的轮次 `rc=1`** | `A12/R13` 崩在 `sh=G.shift.values` → `AttributeError: 'function' object has no attribute 'values'`。**`shift` 是 pandas 的 DataFrame 方法** |
+| 156a | ⚠ **`#117` 的轮次 `rc=1`** | `A12/R169` 崩在 `sh=G.shift.values` → `AttributeError: 'function' object has no attribute 'values'`。**`shift` 是 pandas 的 DataFrame 方法** |
 | 156b | ⚠ **而那正是 `#117e` 自己记录的 bug** | `#117e` 原文:「**第五次 pandas 访问器撞名,而这次撞的是我自己禁用名单上的第一个词**… **写下规则第三次没有阻止我违反它**」。**我诊断了它、为它写了 `check_columns` 守卫、把结论记进账本 —— 却没有把那一行改掉。** 轮次从那时起一直崩,而崩溃在**结论打印之后**,所以退出码没人看 |
-| 156c | **两个工具在同一个具体缺陷上会合** | `guard_lint`(`#128a`)早就把 `A12/R13` 标为缺 `check_columns`;`repro_audit` 显示它**确实**崩在那一类 bug 上。**四个工具第一次相互印证** |
+| 156c | **两个工具在同一个具体缺陷上会合** | `guard_lint`(`#128a`)早就把 `A12/R169` 标为缺 `check_columns`;`repro_audit` 显示它**确实**崩在那一类 bug 上。**四个工具第一次相互印证** |
 | 156d | **而声明本身完好** | 修好两处并**把守卫装上**后,那个从没跑到过的段落给出位移 **+0.0266 ± 0.0127**、零 **+0.0067**(25%)、**29/45**、**2.1×** —— 与 `Entry 117` **逐字相同**。**代码卫生的缺陷,不是声明的缺陷** |
 | 156e | **"对不上"是必读清单,不是判决** | 账本条目会引用**前面条目**的数字、散文里的数字、以及本轮没跑到的臂。`#101` 的 21 个就是这样(条目覆盖 `R14`+`R15`,我只跑了 `R15`)。`#63` 是 **0/10**,`#116`/`#69`/`#100` 各 2 —— **多数轮次复现得很干净** |
 | 156f | **顺带:59 个从未进账本的轮次,几乎全在早期弧** | A01 12/24 · A02 17/25 · A04 11/12 · A05 9/15,而 **A07 往后 100 来轮里只有 2 个**。**账本纪律是从 A07 开始的** —— 那不是"走过没留下更新",是**那时还没有记更新的做法** |
@@ -5294,7 +5294,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 157, added by `E01·A20·R05` — 一条只写在账本散文里的校正,不会到达仪器(两轮之内第二例)
+## Entry 157, added by `E01·A20·R202` — 一条只写在账本散文里的校正,不会到达仪器(两轮之内第二例)
 
 `#156` 的 NEXT 指向 `#88`。查下去,真正的问题在 **`#90`** —— README 头条
 「±22.6 / ±16.3 / ±23.7 pp」的出处。
@@ -5322,7 +5322,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 158, added by `E01·A20·R06` — 反向检验落地,并且它先证明了上一轮的修复
+## Entry 158, added by `E01·A20·R203` — 反向检验落地,并且它先证明了上一轮的修复
 
 **【CLOSURE,明确标注】** `#157` 的 NEXT:`repro_audit` 的方向是反的 —— 只查「账本的数在不在
 新输出里」,所以对 `#90` 的 ±30.8 无感,**而那个数本该消失**。
@@ -5349,7 +5349,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 159, added by `E01·A21·R01` — 那 20% 几乎不是关于人的,它是关于东西的
+## Entry 159, added by `E01·A21·R204` — 那 20% 几乎不是关于人的,它是关于东西的
 
 `#158` 的 NEXT,换回人。`#149d` 只证明了个人成分**不稳**,没问**为什么**。
 双向去均值后两个边际都为零,所以"是不是关于东西的"只能是:**交互是不是集中在特定类别上**。
@@ -5381,7 +5381,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 160, added by `E01·A21·R02` — 性偏好的「什么」是个人的,「何时」不是
+## Entry 160, added by `E01·A21·R205` — 性偏好的「什么」是个人的,「何时」不是
 
 `#159` 的 NEXT:把 `#100` 的 S(0.4611)与 `#159a` 的 z(0.105)放进**同一个设计**,
 确认那 4.4 倍不是两套口径的产物。⚠ 先处理**单位数**:S 用 32 个块、z 用 ~13 个类别,
@@ -5415,7 +5415,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 161, added by `E01·A21·R03` — 关于「何时」,两个完全不同的问法给出同一个小数字
+## Entry 161, added by `E01·A21·R206` — 关于「何时」,两个完全不同的问法给出同一个小数字
 
 `#160` 的 NEXT。账本里已有第三个可比的数:**`Entry 8`** 把「时间表贴合度是一种个人特质」
 杀掉,SB = **0.214**。三个量放进**同一台机器**(同一批人、同一种劈分、同一个 k、同一个 SB)。

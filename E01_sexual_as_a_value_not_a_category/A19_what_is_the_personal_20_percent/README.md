@@ -5,4 +5,4 @@
 
 | 子轮 | 目录 | 信念更新 |
 |---|---|---|
-| R01 | [`R01_are_the_two_lines_one_quantity`](R01_are_the_two_lines_one_quantity) | 它是真的,但**不是一个特质** —— 换到这个人的另一半兴趣上就只剩六分之一 |
+| R01 | [`R194_are_the_two_lines_one_quantity`](R194_are_the_two_lines_one_quantity) | 它是真的,但**不是一个特质** —— 换到这个人的另一半兴趣上就只剩六分之一 |

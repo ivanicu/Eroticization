@@ -8,7 +8,7 @@
 
 | 子轮 | 目录 | 信念更新 |
 |---|---|---|
-| R01 | [`R01_expansion_or_deepening`](R01_expansion_or_deepening) | 扩张不是深化;35% 的人 17 岁后一个新兴趣都没有 |
-| R02 | [`R02_is_it_reverse_recall`](R02_is_it_reverse_recall) | 反向回忆的年龄印记不存在;效应绑在**绝对年龄**上,量级只报方向 |
-| R03 | [`R03_is_there_a_boundary_at_all`](R03_is_there_a_boundary_at_all) | 连通度**没有边界**,但有两族:早来的散、晚来的成套 |
-| R04 | [`R04_does_it_arrive_as_a_package`](R04_does_it_arrive_as_a_package) | 「一整套」是**字面**意义的:关系族一起到,具体族一个一个到 |
+| R01 | [`R178_expansion_or_deepening`](R178_expansion_or_deepening) | 扩张不是深化;35% 的人 17 岁后一个新兴趣都没有 |
+| R02 | [`R179_is_it_reverse_recall`](R179_is_it_reverse_recall) | 反向回忆的年龄印记不存在;效应绑在**绝对年龄**上,量级只报方向 |
+| R03 | [`R180_is_there_a_boundary_at_all`](R180_is_there_a_boundary_at_all) | 连通度**没有边界**,但有两族:早来的散、晚来的成套 |
+| R04 | [`R181_does_it_arrive_as_a_package`](R181_does_it_arrive_as_a_package) | 「一整套」是**字面**意义的:关系族一起到,具体族一个一个到 |

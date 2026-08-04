@@ -8,14 +8,14 @@
 
 | R | directory |
 |---|---|
-| `r01` | [`R01_breadth_has_no_shape`](R01_breadth_has_no_shape) |
-| `r02` | [`R02_acquiescence_attack`](R02_acquiescence_attack) |
-| `r03` | [`R03_out_of_sample_concentration`](R03_out_of_sample_concentration) |
-| `r04` | [`R04_nestedness`](R04_nestedness) |
-| `r05` | [`R05_correlate_scan`](R05_correlate_scan) |
-| `r06` | [`R06_non_sexual_variables`](R06_non_sexual_variables) |
-| `r07` | [`R07_specification_grid`](R07_specification_grid) |
-| `r08` | [`R08_theta_or_coordinates`](R08_theta_or_coordinates) |
-| `r09` | [`R09_escalating_match`](R09_escalating_match) |
+| `r01` | [`R084_breadth_has_no_shape`](R084_breadth_has_no_shape) |
+| `r02` | [`R085_acquiescence_attack`](R085_acquiescence_attack) |
+| `r03` | [`R086_out_of_sample_concentration`](R086_out_of_sample_concentration) |
+| `r04` | [`R087_nestedness`](R087_nestedness) |
+| `r05` | [`R088_correlate_scan`](R088_correlate_scan) |
+| `r06` | [`R089_non_sexual_variables`](R089_non_sexual_variables) |
+| `r07` | [`R090_specification_grid`](R090_specification_grid) |
+| `r08` | [`R091_theta_or_coordinates`](R091_theta_or_coordinates) |
+| `r09` | [`R092_escalating_match`](R092_escalating_match) |
 
 Numbers and intervals live in the top-level [`README.md`](../../README.md).

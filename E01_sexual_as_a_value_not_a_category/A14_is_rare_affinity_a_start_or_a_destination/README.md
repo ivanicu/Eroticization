@@ -8,4 +8,4 @@
 
 | 子轮 | 目录 | 信念更新 |
 |---|---|---|
-| R01 | [`R01_does_the_map_radiate_outward`](R01_does_the_map_radiate_outward) | 罕见的兴趣来得**更早**,不是更晚;世界 C(行程分歧)死,世界 B(起点分歧)活 |
+| R01 | [`R173_does_the_map_radiate_outward`](R173_does_the_map_radiate_outward) | 罕见的兴趣来得**更早**,不是更晚;世界 C(行程分歧)死,世界 B(起点分歧)活 |

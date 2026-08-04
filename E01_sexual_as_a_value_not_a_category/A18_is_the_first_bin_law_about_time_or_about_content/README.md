@@ -5,4 +5,4 @@
 
 | 子轮 | 目录 | 信念更新 |
 |---|---|---|
-| R01 | [`R01_split_delta_by_the_content_line`](R01_split_delta_by_the_content_line) | 都不是。Δ 的量级由**谁够格进入分析**决定 —— 而那就是广度 |
+| R01 | [`R191_split_delta_by_the_content_line`](R191_split_delta_by_the_content_line) | 都不是。Δ 的量级由**谁够格进入分析**决定 —— 而那就是广度 |
