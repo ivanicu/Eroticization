@@ -296,6 +296,26 @@ class Gate:
         self.rows.append((name, f"退化 {degenerate:+.6f} vs 参照 {reference:+.6f}", ok, note))
         return ok
 
+    def threshold_outside_noise(self, name, value, threshold, spread):
+        """#142d: 一个预注册阈值,必须先证明它离开了被比较量**自身的噪声带**。
+
+        `resolvable` 检查的是"效应 vs 零";这一条检查的是"效应 vs 阈值"。
+        A12/R14 的预注册判定是 `r250 >= 3`,实测 3.0484 —— 高出 1.6%,而那个比值
+        自身在 20 个重抽种子上是 3.023–3.163(sd 0.035)。**门槛落在噪声带里,
+        所以那个判定的输出由重抽种子决定,不由数据决定**,而它印出来的话是
+        「加强成功,按新强度引用」。
+
+        通过条件:|value - threshold| > 2 * spread。否则判定是 UNVERIFIED,
+        **不是**"未达标",也**不是**"达标"。"""
+        if self._degenerate(name, value - threshold, spread):
+            return False
+        gap = abs(value - threshold)
+        ok = gap > 2 * spread
+        self.rows.append((name, f"|{value:+.4f} - {threshold:+.4f}| = {gap:.4f} vs 2*{spread:.4f}", ok,
+                          f"{gap/max(spread,1e-12):.1f}x 自身噪声" if ok else
+                          f"阈值落在噪声带内({gap/max(spread,1e-12):.1f}x)—— 判定由重抽种子决定,UNVERIFIED"))
+        return ok
+
     def require_resolvable_first(self, name, effect, spread, family="default"):
         """#120d: 门有顺序。对一个未分辨的量问形状,后面的比较全是 MOOT。
 
