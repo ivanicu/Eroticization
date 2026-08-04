@@ -522,6 +522,47 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def null_claim_uses_null_criteria(self, name, claim_kind, perm_quantile=None,
+                                      mde=None, sensitivity_shown=None, meaningful=None):
+        """#312a:**为「有效应」设计的判据,用在「没有效应」的结论上会系统性地误报。**
+
+        本项目两次撞上同一件事,而两次我都是**事后用散文解释**为什么那个 FAIL 不算数:
+            `#308c`  规格曲线「符号一致」FAIL —— 而**真零的签名就是符号乱走**
+            `#311d`  `negative_control` FAIL(零大于效应)—— 而**结论本身就是一个零**
+        **散文不是执行**(P9)。所以:一轮的结论是 `NULL` 时,它必须自带**零的判据**。
+
+        `claim_kind='EFFECT'` -> 本守卫不干预,直接 PASS(它只管 NULL 那一支)。
+        `claim_kind='NULL'`  -> 三样必须同时在场,三缺一 FAIL:
+            ① **perm_quantile** —— 置换零里 ≥ 观测的比例(读「观测落在零的哪里」,
+               而不是「零相对效应多大」——后者在没有效应时没有意义);
+            ② **mde**(或 CI 宽度)—— 这个设计**能**看见的最小效应;
+            ③ **sensitivity_shown** —— 正对照**实际**证明过的灵敏度(不是算出来的,是种进去看见的)。
+        再加一条内容性检查:给了 `meaningful`(一个「有意义的效应量」)时,
+        **`mde` 必须小于它** —— 否则这个零没有内容,只是「我看不见」。
+        `#310a` 正是这样:MDE 55% 而一个 30% 的缓冲有意义 -> 那个零**不可发布**。
+        """
+        k = str(claim_kind).upper()
+        if k == 'EFFECT':
+            r = (name, "claim_kind=EFFECT", True, "本守卫只管 NULL 那一支 —— 不干预")
+        elif k != 'NULL':
+            r = (name, f"claim_kind={claim_kind!r}", False,
+                 "必须显式声明 'EFFECT' 或 'NULL' —— 不声明就没有判据(#312a)")
+        else:
+            miss = [n for n, v in (('置换分位数', perm_quantile), ('MDE/CI 宽度', mde),
+                                   ('正对照证明的灵敏度', sensitivity_shown)) if v is None]
+            if miss:
+                r = (name, f"NULL 结论缺少:{' · '.join(miss)}", False,
+                     "零的三件套必须同时在场:置换分位数 · MDE · 正对照灵敏度(#312a)")
+            elif meaningful is not None and float(mde) >= float(meaningful):
+                r = (name, f"MDE **{mde}** ≥ 有意义的效应量 **{meaningful}**", False,
+                     f"**这个零没有内容 —— 它只说明我看不见**;`#310a` 的 MDE 55% 对一个 30% 的"
+                     f"缓冲就是这样,那个零不可发布(#312a)")
+            else:
+                r = (name, f"分位数 {perm_quantile} · MDE {mde} · 灵敏度 {sensitivity_shown}"
+                           + (f" · 有意义量 {meaningful}" if meaningful is not None else ""),
+                     True, "零的三件套齐全,且 MDE 小于有意义的效应量 —— 这个零可以发布")
+        self.rows.append(r); return r[2]
+
     def sign_flip_needs_direction_change(self, name, cos_with_ref, corr_ref, corr_new,
                                          cos_floor=0.50):
         """#306b:**方向没变,派生量却翻号 —— 这两件事不可能同时为真。翻的是特征向量的符号。**
