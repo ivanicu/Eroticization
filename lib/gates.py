@@ -148,6 +148,24 @@ class Gate:
                           ok, f"{abs(corrected)/max(abs(spread),1e-12):.1f}x its own spread"))
         return ok
 
+    def artifact_cannot_explain(self, name, artifact, effect, spread):
+        """#119: 一个伪影不必为零 —— 它只需要**不能解释效应**。
+
+        我在 A13R01 用 asserted(|artifact| < 2*SE) 判了一个伪影,它 FAIL 了 0.0001,
+        而那个伪影的**符号与效应相反**(+0.0070 vs -0.0122),即校正只会让效应更大。
+        "是否为零"是错的问题;正确的问题是"它能不能造出这个效应"。
+
+        通过条件:符号相反(伪影帮不了忙),或同号但小于效应的一半。"""
+        if self._degenerate(name, artifact, effect, spread): return False
+        opposite = (artifact * effect) < 0
+        small = abs(artifact) < 0.5 * abs(effect)
+        ok = opposite or small
+        why = "符号相反,校正只会放大效应" if opposite else \
+              (f"同号但仅为效应的 {100*abs(artifact)/max(abs(effect),1e-12):.0f}%" if small
+               else f"同号且为效应的 {100*abs(artifact)/max(abs(effect),1e-12):.0f}% —— 可能就是它")
+        self.rows.append((name, f"伪影 {artifact:+.4f} vs 效应 {effect:+.4f}", ok, why))
+        return ok
+
     def same_scale(self, name, mine, theirs, scale):
         """#101b: a reference comparison must DECLARE its scale, in the call, as a string.
 
