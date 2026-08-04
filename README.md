@@ -72,6 +72,19 @@ quantities in this release, and they were the last to be found. The position sco
 project's oldest and most-cited claim, is the least reliable of the ones still standing.
 ---
 
+> ⚠ **These six columns are not six independent measurements** (`#270`). They are all built from the
+> *same* option split, so they share measurement error. Two independent splits let that error be
+> measured directly (same-split cross-name minus cross-split cross-name): **5 of 30 off-diagonal cells
+> exceed twice the cross-split spread**, and they cluster — **c1↔c2 |0.416|**, c3↔c2 |0.255|, D↔c2
+> |0.191| — while position S and profile clarity stay clean (max 0.064). **c2 is the hub.** This follows
+> from their construction: c1/c2/c3 are *adjacent eigenvectors of the same matrix*, and adjacent
+> eigenvectors' estimation errors rotate into each other. **Two adjacent columns agreeing may only mean
+> they wobbled together.** ⚠ This does not overturn any column's own result (each was controlled and
+> scoped separately); it overturns reading the six as six independent coordinates.
+> ⚠ **Caliber of the 1.4%** (`#264`, `#271`): old S + least squares; the alternative caliber (S varying
+> with block subset) gives **1.21%**. Both sit in 1.2–1.4%. The knobs that move this number are listed
+> and measured in [`CALIBER.md`](CALIBER.md) — **which states that it is incomplete.**
+
 ---
 
 # What this says about people
