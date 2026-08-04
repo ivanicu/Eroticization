@@ -95,7 +95,8 @@ print(f"正对照(只种 3 类,Δ {D0:+.4f}->{Dp:+.4f}):留一前 3 名{'命中'
 print(f"负对照(均匀种,Δ {D0:+.4f}->{Du:+.4f}):留一 |ΔΔ| 最大/中位 = {np.abs(Lu).max()/max(np.median(np.abs(Lu)),1e-12):.1f}"
       f"  vs 正对照 {np.abs(Lp).max()/max(np.median(np.abs(Lp)),1e-12):.1f}")
 
-T=pd.DataFrame(dict(cat=[str(ons[j])[:52] for j in range(M_CAT)],rarity=_rar_full,
+# ⚠ #197b:`cat` 是 pandas 的 `.cat` accessor —— 收紧后的 check_columns 立刻抓到了这个潜伏 bug
+T=pd.DataFrame(dict(category_q=[str(ons[j])[:52] for j in range(M_CAT)],rarity=_rar_full,
                     n_people=_obs_full.sum(0),loo_delta=L))
 check_columns(T,'R241'); T.to_csv(pathlib.Path(__file__).parent/'results'/'loo.csv',index=False)
 g=Gate('Δ 是通则还是几个类别的性质')

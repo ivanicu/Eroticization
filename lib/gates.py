@@ -39,11 +39,26 @@ Usage:
 import numpy as np
 
 # #80d / #93d / #117e -- 三次写下这条规则,三次违反它。名单不再是散文,是可执行的检查。
-BANNED_COLUMN_NAMES = frozenset("""
+# ⚠ #197a:这份名单原本是**手写的 45 个**,而 pandas 实际公开 232 个属性 —— **漏掉 189 个**,
+#   其中包括 `cov`(`#166c` 咬过我,我改了列名却从没把它加进名单)、`diff`(`#197` 又咬一次)、
+#   `corr` · `unique` · `round` · `sample` · `describe` …
+#   **一个手写的、关于第三方库 API 的名单,保证会漂。** 改成从 pandas 自己取。
+#   保留手写集作为**下界**(防止 pandas 某天改名后名单缩水)。
+_HANDWRITTEN = frozenset("""
 T shift mode item count size min max sum mean std var rank pop all any abs where mask
 first last div pow add sub mul truediv floordiv apply map filter head tail index values
 dtypes shape loc iloc at iat name axes empty ndim
 """.split())
+
+def _pandas_attrs():
+    try:
+        import pandas as _pd
+        return {a for a in (set(dir(_pd.DataFrame)) | set(dir(_pd.Series)))
+                if not a.startswith('_')}
+    except Exception:
+        return set()
+
+BANNED_COLUMN_NAMES = frozenset(_HANDWRITTEN | _pandas_attrs())
 
 
 def check_coverage(processed, available, where="", tol=0.02):
@@ -117,7 +132,9 @@ def check_disjoint_items(pred_items, outcome_items, where="", tol=0.0):
 
 def check_columns(df, where=""):
     """#117e: 一个与 DataFrame 方法同名的列,取用时静默返回方法对象而不是数据。
-    这在本项目里发生了五次(shift #74, mode #77, item #80, T #93, shift #117)。
+    这在本项目里发生了**八次**:shift #74 · mode #77 · item #80 · T #93 · shift #117 ·
+    **cov #166c** · **item #184a** · **diff #197a** —— 后三次都在守卫存在之后,
+    因为名单是**手写的**,漏掉了它们(见 #197a)。名单现在从 pandas 自己取。
     在任何 groupby/agg 之前调用一次,它就再也不能发生。"""
     bad = sorted(set(map(str, df.columns)) & BANNED_COLUMN_NAMES)
     if bad:
