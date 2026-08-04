@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 206 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **164 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 309 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **264 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.md)** — English is canonical; corrections land here first.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -10,6 +10,19 @@ Private curiosity project. Not written for publication and not seeking any.
 Object: the **Big Kink Survey** public subsample — [Zenodo 10.5281/zenodo.18625141](https://zenodo.org/records/18625141),
 15,503 respondents × 365 columns, aggressively binned, demographically stripped, noise-injected.
 Data is not committed — neither the raw release nor the person-level derived tables; `E01…/A01…/R001_schema/run.py` re-downloads and rebuilds them. **[CORRECTED before publication]** 24 derived `data/derived/*.csv` files, two of them with one row per respondent, were tracked until now, so this sentence was false; they are untracked and gitignored as of this commit. They remain in the commit history.
+
+> ### How big is any of this? (`#264`, read this before anything else)
+> Every person-level dimension this project established, **entered together** against the same 29
+> outcomes, explains a **median of 1.4%** of the variance — **7.8% at its best** (`animated`), **2.8%**
+> for shame. The degrees-of-freedom floor is **0.14%**, and the same pipeline reaches **49%** when a
+> deliberately strong predictor is added, so the machinery is not blind and the dimensions are not
+> noise: they are real, replicable, cross-instrument, controlled — **and they are small**.
+> **Two readings this does not license.** It does *not* mean the findings are empty (the floor is
+> 0.14%, and every dimension clears its own family-wise threshold). It does *not* mean sexual
+> preference is mostly random — **1.4% is the reach of *these six coordinates*, not a ceiling on
+> explainability**. ⚠ And note the ordering: the *least reliable* standing dimension (position, 0.432)
+> contributes the *largest* incremental R² (0.715%). **Reliability and explanatory power are different
+> things — a quantity can stably measure something that hardly moves anything.**
 
 ## The three models being separated
 
