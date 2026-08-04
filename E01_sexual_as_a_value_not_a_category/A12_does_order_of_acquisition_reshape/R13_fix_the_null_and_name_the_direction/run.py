@@ -28,7 +28,7 @@ IMPOSSIBLE      (2) 的因果方向 —— 见上面的判别检查
 """
 import pandas as pd, numpy as np, warnings, hashlib, itertools, re
 sys.path.insert(0,str(ROOT))
-from lib.gates import Gate
+from lib.gates import Gate, check_columns
 warnings.filterwarnings('ignore')
 df=pd.read_csv('data/raw/BKSPublic.csv',low_memory=False); inv=pd.read_csv('data/derived/inventory.csv')
 BIN={'0-4yo':2,'5-6yo':5.5,'7-8yo':7.5,'9-10yo':9.5,'11-12yo':11.5,'13-14yo':13.5,
@@ -115,6 +115,11 @@ for a,b in pairs:
     if len(dirs)%15==0: print(f"  {len(dirs)} pairs",flush=True)
     if len(dirs)>=45: break
 D=pd.DataFrame(rows); G=pd.DataFrame(dirs)
+# ⚠ #156:装上守卫本身,而不只是修症状。`check_columns` 正是为 `#117e` 的
+#   `shift` 撞名写的,而这一轮从来没调用过它 —— 于是它在打印完 `#117` 的结论
+#   之后崩掉,两处,没人发现。
+try: check_columns(G,'A12/R13 方向表')
+except Exception as _e: print(f'  ⚠ check_columns: {_e}',flush=True)
 OUT=pathlib.Path(__file__).parent/'results'; D.to_csv(OUT/'grid.csv',index=False); G.to_csv(OUT/'dirs.csv',index=False)
 S=D.groupby('arm').e.agg(['size','mean',lambda s:s.std()/np.sqrt(len(s))]); S.columns=['k','e','se']
 print("\n=== 第一件:零修对之后 ===")
@@ -126,7 +131,11 @@ print(); print(g)
 print(f"  旧零 eff(y_置换) {S.loc['null_perm','e']:+.4f} = 效应的 {100*S.loc['null_perm','e']/S.loc['real','e']:.0f}%")
 print(f"  新零 eff(y_synth) {S.loc['null_synth','e']:+.4f} = 效应的 {100*S.loc['null_synth','e']/S.loc['real','e']:.0f}%")
 print("\n=== 第二件(DESCRIPTION,不做因果主张):先来的把人往哪边拉 ===")
-sh=G.shift.values; nl=G.shift_null.values
+# ⚠ #156:`shift` 是 pandas 的 DataFrame **方法**,`G.shift` 返回方法不是列 ——
+#   这正是 `#117e` 自己记录的第 5 次访问器撞名,而 `check_columns` 就是为它写的。
+#   这一轮从来没调用过那个守卫(`guard_lint` #128a 早就标了它缺 columns),
+#   所以它在打印完 `#117` 的结论之后**崩在这里**,而没人发现。
+sh=G['shift'].values; nl=G['shift_null'].values
 se=lambda v: np.std(v)/np.sqrt(len(v))
 print(f"  A 先组 减 B 先组,在「A 向 − B 向」方向上的标准化位移(已残差化掉两项评分与协变量)")
 print(f"    真实 {sh.mean():+.4f} ± {se(sh):.4f}   分层置换零 {nl.mean():+.4f} ± {se(nl):.4f}   "
@@ -136,7 +145,7 @@ g2=Gate("先来的那个,把其余偏好拉向自己吗?(DESCRIPTION)")
 g2.negative_control("顺序标签在分层内打乱", null=nl.mean(), effect=sh.mean())
 g2.resolvable("方向位移", effect=sh.mean(), spread=se(sh))
 print(); print(g2)
-G['d']=G.shift-G.shift_null
+G['d']=G['shift']-G['shift_null']
 print("\n  位移最大的 6 对(先来的那个 -> 其余偏好被拉向它):")
 for _,r in G.reindex(G.d.abs().sort_values(ascending=False).index).head(6).iterrows():
     who=r.na if r.d>0 else r.nb
