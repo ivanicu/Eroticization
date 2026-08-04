@@ -73,7 +73,7 @@ quantities in this release, and they were the last to be found. The position sco
 project's oldest and most-cited claim, is the least reliable of the ones still standing.
 ---
 
-> ⚠ **This table is built on the pooled sample, and the six coordinates are not the same thing in the two
+> ⚠ **This table is built on the pooled sample, and the six coordinates are not the same thing in the two ⚠ **`#288`: dropping every item that mentions male/female/gender halves this but does not remove it** — on the 24 non-gender-referential outcomes the gap is **−0.1229**, and on the 22 that remain after excluding the two cells already seen it is **−0.1172, still 3.0× its own spread**. **Roughly half the non-invariance comes from a few gendered items; the other half does not.** ⚠ The gender-referential subset itself is only 5 outcomes — too few for a correlation, so it is `UNCOMPUTED`, not zero, and the "half" is a subtraction (`D5`), not a measurement.
 > sexes** (`#285` `#286`). Rebuilt independently in each group (n = 3,232 / 3,485): the block-level
 > loading subspace replicates at **0.7695** across the sex split against **0.8385 ± 0.0263** across a
 > random split of the same sizes (**2.6×**), and — the sharper test — the *joint R² curve over all 29
