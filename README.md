@@ -20,6 +20,17 @@ Ivan's framing, kept verbatim because the whole repository is scoped by it:
 | **A** dedicated sexual-content system | `Y_i(s) = f_i(h_sex(s))` — "sexual" is a content category like *face* in vision |
 | **B** erotic valuation of ordinary representation | `v_i(s,c,t) = w_i(c,t)^T h(s)` — ordinary scene, a readout applied to it |
 | **C** recursive mix | value re-enters and reshapes the representation it acted on |
+> ### Where the three models stand (`#234c`)
+> **B is dead** (`#179`: position is not a stance-free coordinate — it comes with shame).
+> **C's one distinguishing prediction is unsupported** (`#234a`: stratify by shame, match pick count,
+> and the breadth profile's split-half replication is **0.4672 / 0.4611 / 0.4718** — flat, in a design
+> whose positive control fires at a gradient **7.4× smaller** than the one C predicts).
+> **But the honest reading is not "A wins."** The most reliable person-level structure in this release —
+> split-half **0.56–0.72**, against the position score's 0.432 — is *which domains a person opens in and
+> in what shape* (`#229`–`#232`). **None of A, B or C predicts it**, because all three ask what makes a
+> thing sexual, and this is a fact about the **person**, not the stimulus.
+> **The A/B/C decomposition does not cut this data at its joints.** That is a claim about the
+> decomposition's completeness, not a refutation of A.
 
 ---
 
