@@ -79,13 +79,16 @@ def uncited_numbers(readme='README.md'):
     #143 的那个真错误(行 131 的 rho +0.2515 与 "85% surviving response-style control")
     正是这样一行:账本明说「账本里根本没有这个数」,而它活了下来,**因为没有任何东西
     把它连回账本**。一个不带出处的数字,是一个无法被撤回的数字。"""
-    lines=(ROOT/readme).read_text().splitlines()
-    out=[]
-    for i,l in enumerate(lines,1):
-        if not _re.search(r'(?<![\w.])\d+\.\d{2,4}(?![\w])',l): continue
-        if _re.search(r'#\d{1,3}\b|RETRACTIONS|Entry \d|\bA\d{2}\b',l): continue
-        if l.strip().startswith('|') and l.count('|')>3: continue      # 表格里的行另有出处列
-        out.append((i,_re.findall(r'(?<![\w.])\d+\.\d{2,4}(?![\w])',l),l.strip()[:110]))
+    # ⚠ #145:第一版**按行**判,而引用往往在同一**段**的别处 —— 它把盲区高估了 14 倍
+    #   (17 行 vs 实际 2 段,其中一段是 python 版本号)。检查的单位必须与"出处"的单位一致。
+    txt=(ROOT/readme).read_text(); paras=_re.split(r'\n\s*\n',txt)
+    off=1; out=[]
+    for para in paras:
+        n=para.count('\n')+2
+        ns=_re.findall(r'(?<![\w.])\d+\.\d{2,4}(?![\w])',para)
+        if ns and not _re.search(r'#\d{1,3}\b|RETRACTIONS|Entry \d|\bA\d{2}\b|\bR\d{2}\b',para):
+            out.append((off,ns,para.strip().replace('\n',' ')[:110]))
+        off+=n
     return out
 
 if __name__=='__main__' and '--internal' in __import__('sys').argv:

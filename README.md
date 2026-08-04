@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 189 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **144 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 190 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **145 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -84,7 +84,7 @@ the receipt.
 | 区分广度与默许 | 需反向计分或强制选择题项,本 release 没有 |
 | 因果方向 | 横断面,剥离过的 release |
 
-**并且这是一条可迁移的方法学结论,不只对这个数据集**:任何在这个 release 上的分组比较,若没有按**块数**匹配,有一大半在测**问卷覆盖度**而不是性癖差异(`corr = +0.815`,9 次切分)。我没在任何已发表分析里见过有人提这一条。
+**并且这是一条可迁移的方法学结论,不只对这个数据集**:任何在这个 release 上的分组比较,若没有按**块数**匹配,有一大半在测**问卷覆盖度**而不是性癖差异(`corr = +0.815`,9 次切分;配对校正把 pornhabit 从 0.2285 压到 0.0871 再到 0.0439,**并使它与性别的排序反转**)。⚠ **但"没人提过这一条"是假的,`Entry 15` 已经杀掉它** —— 数据发布者自己的 `analysis/swarm/14-missingness.md`(**早五个月**)已写明:门控列上的分组比较是在比不同的子人群。**危害是他们记录的;我做的只是把它量化。**(`#11` `#15`)
 
 ---
 
@@ -119,9 +119,12 @@ same time. But the organising variable is arrival time, not coordinate membershi
 
 **[R05 · group differences and the instrument](A05_group_differences_and_the_instrument)** —
 **Any group comparison on this release must be block-count matched or it partly measures survey
-coverage**: corr(congruence deficit, coverage gap) = **+0.815** across nine splits. This is the
-transferable methodological result and it is not documented anywhere I have read about this
-dataset. Drawn-vs-live-action consumers — whose content contains no real bodies — differ by **0.0204 ± 0.0265**, bounded below sex-sized (0.093). **[UNVERIFIED — RETRACTIONS #34]** the written-vs-visual deficit is unresolvable at 5 seeds (0 of 9 corpus cuts have effect > 2× seed spread, while sex is resolvable in 9/9); ~44 seeds per cell would be needed. That is a real, bounded constraint on A.
+coverage**: corr(congruence deficit, coverage gap) = **+0.815** across nine splits, and the matched
+correction took pornhabit from 0.2285 → 0.0871 → 0.0439 and **reversed its ordering against sex**.
+**[CORRECTED — RETRACTIONS #15]** the sentence that used to follow — "not documented anywhere I have
+read about this dataset" — **is false**: the explorer's own `analysis/swarm/14-missingness.md`, five
+months earlier, states that group comparisons on gated columns compare different subpopulations.
+**The hazard is theirs; the quantification is mine.** Drawn-vs-live-action consumers — whose content contains no real bodies — differ by **0.0204 ± 0.0265**, bounded below sex-sized (0.093). **[UNVERIFIED — RETRACTIONS #34]** the written-vs-visual deficit is unresolvable at 5 seeds (0 of 9 corpus cuts have effect > 2× seed spread, while sex is resolvable in 9/9); ~44 seeds per cell would be needed. That is a real, bounded constraint on A.
 
 **[R06 · induction](A06_induction)** — 82.7% of the 13,530 respondents with fetishes say porn
 induced ones that would not otherwise exist. That claim carries **no acquisition timing
@@ -183,7 +186,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **144 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **145 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
