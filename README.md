@@ -78,7 +78,7 @@ the receipt.
 |---|---|
 | See structure carried by ≤30% of people (variance-explained methods) | 5% carriers at **±50 pp** leave skill on the floor; ≈30% is required `#91` |
 | Distinguish "a small group unusually intense about a few things" from "one heavy-tailed continuum" | Margin-preserving concentrated/diffuse plants all sit inside seed jitter at 3000 swaps per block; **the way out is an external anchor, not a stronger plant** `#122` |
-| Distinguish memory becoming blurry from a story becoming settled | Real curvature **0.3×**; pushing it to 2× needs about **48× the sample** `#120` |
+| Distinguish memory becoming blurry from a story becoming settled | Real curvature is **0.3× its own spread** — it never cleared resolvability at all, so this is a **capability boundary, not a null**; pushing it to 2× needs about **48× the sample** `#120` |
 | Measure the interaction magnitude directly, without a model | **Algebraically impossible** — the residual's first moment is margin-determined and identically zero under a margin-preserving null `#105` |
 | Count dimensions | An estimator with an honest floor cannot count; the one that can count has a floor that is an artefact `#89` |
 | Recover presentation-order primacy | The release exports multiselect answers **alphabetically** (119 pairs, agreement 1.0000); display order is destroyed `#69` |
@@ -126,7 +126,7 @@ months earlier, states that group comparisons on gated columns compare different
 
 **[R06 · induction](A06_induction)** — the retrospective induction claim, its two absent signatures and the breadth it actually tracks are stated once in the standing-claims table above; this section adds only what the table does not carry. **[CORRECTED — RETRACTIONS #26, caught by #144]** an earlier version of this page reported "rho +0.2515, 85% surviving response-style control" — that pair **appears nowhere in the ledger** and came from a pre-A09 draft of this page. The "85% is response style" step is **UNVERIFIED**: every item is erotic content with no reverse-keying, so general agreeableness and general erotic endorsement are not separable in this release. **Design consequence**: retrospective self-report of induction is unusable as an outcome measure — phase 3 must be prospective.
 
-**[R07 · breadth](A07_breadth)** — Quantity without shape. A person's set is **0.88%** more
+**[R07 · breadth](A07_breadth)** — Quantity without shape. A person's set is only **0.88%** more
 concentrated in coordinate space than a size-matched base-rate set — real (t=−15.5) and
 negligible. Sets are **24.2%** of the way from chance to perfect nesting. Breadth is moderately one trait (Spearman–Brown 0.557). **[UNVERIFIED — RETRACTIONS #26]** the '9–13% response style' figure comes from an index that is orthogonal to the POWER axis (+0.024) but correlates +0.385 with breadth itself; response style and erotic endorsement cannot be separated without balanced-keyed items, which this release lacks.
 
