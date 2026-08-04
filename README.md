@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 188 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **143 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 189 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **144 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -128,8 +128,13 @@ induced ones that would not otherwise exist. That claim carries **no acquisition
 signature** (a uniform 0.5-year shift of *all* their onsets; a 1-year shift is excluded; the
 concentration discriminator is null at 8.8× the power needed for a single-interest induction)
 and **no structural signature** (misfit < 0.1 sd, extremity < 10%). It tracks **breadth**
-(rho +0.2515, 85% surviving response-style control). Design consequence: retrospective
-self-report of induction is unusable as an outcome measure. Phase 3 must be prospective.
+— **[CORRECTED — RETRACTIONS #26, caught by #144]** the previously stated "rho +0.2515, 85%
+surviving response-style control" **does not appear anywhere in the ledger**; it came from a
+pre-A09 draft of this page. Measured: **rho +0.2922 uncontrolled, +0.2523 with all indicators**,
+and the "85% is response style" step is **UNVERIFIED** — every item is erotic content with no
+reverse-keying, so general agreeableness and general erotic endorsement are not separable in this
+release. Design consequence: retrospective self-report of induction is unusable as an outcome
+measure. Phase 3 must be prospective.
 
 **[R07 · breadth](A07_breadth)** — Quantity without shape. A person's set is **0.88%** more
 concentrated in coordinate space than a size-matched base-rate set — real (t=−15.5) and
@@ -178,7 +183,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **143 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **144 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
