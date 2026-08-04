@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 179 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **135 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 180 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **136 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -38,7 +38,7 @@ the receipt.
 | **稀有偏好是一条所有人都在上面的连续维度,不是一群特殊的人** | 分布对称加宽:上尾挑更罕见的,下尾挑更常见的,**中位数纹丝不动**,两侧各 11–13× 自身自助 sd | `#99` |
 | **它是一个可靠的人格维度,而且不是"你勾了多少"** | 跨不相交块集的分半信度 **+0.432**(地板 −0.022,种植天花板 +0.832);移除勾选数后存活 **67%**,而且它与勾选数的相关(+0.608)**低于**零的(+0.719) | `#100` `#104` |
 | **一个人自己那些别人很少有的兴趣,排在他自己那些大家都有的兴趣前面** | 扣掉人群共享的时间表和这个人整体的早熟之后,人内「起始年龄残差 × 类别稀有度」= **−0.0328**,题内跨人置换零 +0.0018,**8.8×**。**离散版本(最早一格 vs 他自己的曲目库)独立复现:扣掉时间表后 +0.0767,14.5×**。`#114` 的回忆偏差实际只贡献 **4%**,且对主量符号相反 | `#128` `#130` |
-| **早来的东西是散的,晚来的东西是一整套** | 人内置换零下的三个块:早×早 **−0.01272(27.9×)** · **晚×晚 +0.02103(23.1×)** · 晚×早 −0.00484(15.2×)。晚到的是关系族(权力动态·束缚·施虐受虐·精神改变·感官,26–31% 在 19 岁后),早到的是具体族(外观 8.6%·衣物 10.9%·身体部位 11.1%)。题目层:晚族彼此 **+0.0674**,早族彼此 −0.0075。**发育不是同一种东西按顺序到达,是两种不同组织度的东西先后到达** —— 这是 `#75` 的时间表没有的维度。⚠ 连通度**没有拐点**(1.6×),所以"17 岁关上"只对类别数成立 | `#135` |
+| **早来的东西是散的,晚来的东西是一整套** | 人内置换零下的三个块:早×早 **−0.01272(27.9×)** · **晚×晚 +0.02103(23.1×)** · 晚×早 −0.00484(15.2×)。晚到的是关系族(权力动态·束缚·施虐受虐·精神改变·感官,26–31% 在 19 岁后),早到的是具体族(外观 8.6%·衣物 10.9%·身体部位 11.1%)。题目层:晚族彼此 **+0.0674**,早族彼此 −0.0075。**而且"一整套"是字面意义的**:关系族的获得年龄比同样多个随机挑的**靠拢 9.4%**(17.7×,在扣掉人群时间表之后),具体族反而**分散 9.0%**(12.1×)。**发育不是同一种东西按顺序到达,是两种不同组织度的东西以不同方式到达** —— 这是 `#75` 的时间表没有的维度。⚠ 连通度**没有拐点**(1.6×),所以"17 岁关上"只对类别数成立 | `#135` `#136` |
 | **三分之一的人,版图在 17 岁就关上了;剩下的人,它是向外开的** | 29–32 岁档里 **33.3% 报告 17 岁后一个新兴趣都没有**。而在有晚期条目的人身上,晚获得的类别与他早期那些**更不相连**,配对层剥掉稀有度后保留 89%,`#114` 符号相反,**五个年龄档全部同号(5.3–10.9×)且无年龄梯度**(所以不是叙事整理)。**扩张,不是深化** —— 模型 C 不能被定域为"重排既有权重"。⚠ **只报方向,不报量级**:切点从 13.5 到 17.5 give −0.0165 → −0.0069(差 2.4 倍),且**人内中位数分割不可分辨(1.0×)—— 现象绑在绝对年龄上,不是"你序列里靠后的"** | `#133` `#134` |
 | **性版图在青春期结束时就基本定型** | 29–32 岁的人,自己报告的性兴趣有 **68.4% 是 17 岁前获得的**,最晚的那一个平均在 **22.6 岁**(人内测量,不依赖横断面假设)。横断面上 15 年里类别数只从 12.4 长到 12.9(+4.5%,队列混淆,较弱)。**这给模型 C 划了时间边界:递归重塑若存在,作用窗口主要在青春期内** | `#132` |
 | **人群层面,版图确实从大家都有的东西开始** | 一个人最早报告的那批兴趣,在他自己曲目库里按罕见度排落在**第 33 百分位**(49.4×);⚠ **机制 UNVERIFIED**:题目层 Spearman(稀有度, 起始年龄**中位数**)= +0.437,但中位数是一个**更差的时间表**(留出成对顺序 63.30% vs 均值 66.70%),而均值序与稀有度无关(+0.011)。左尾解释已死(−0.091)。**效应稳,机制未定** | `#130` `#131` |
@@ -175,7 +175,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **135 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **136 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
