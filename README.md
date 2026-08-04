@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 166 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **122 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 172 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **128 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -37,6 +37,8 @@ the receipt.
 | **"这是性内容"在问卷里问不出来** | 二元认可矩阵里,一个选项的**基率**和它的**内容**是同一个数。题目主效应有闭式解,实测 R² = **0.994**、斜率 0.988,且对基率**形状**在 23/23 块中完全不敏感 | `#69` |
 | **稀有偏好是一条所有人都在上面的连续维度,不是一群特殊的人** | 分布对称加宽:上尾挑更罕见的,下尾挑更常见的,**中位数纹丝不动**,两侧各 11–13× 自身自助 sd | `#99` |
 | **它是一个可靠的人格维度,而且不是"你勾了多少"** | 跨不相交块集的分半信度 **+0.432**(地板 −0.022,种植天花板 +0.832);移除勾选数后存活 **67%**,而且它与勾选数的相关(+0.608)**低于**零的(+0.719) | `#100` `#104` |
+| **一个人自己那些别人很少有的兴趣,排在他自己那些大家都有的兴趣前面** | 扣掉人群共享的时间表和这个人整体的早熟之后,人内「起始年龄残差 × 类别稀有度」= **−0.0328**,题内跨人置换零 +0.0018,**8.8×**。人群层的题目回归几乎为零(r = +0.064,n=31)—— **这是纯人层效应**。`#114` 的回忆偏差实际只贡献 **4%**,且对主量符号相反 | `#128` |
+| **越是最终口味罕见的人,这个提前量越大** ⚠ | −0.0502;**去掉年龄与答题覆盖度后 −0.0244(2.7×,保留 49%)**。⚠ 掉的那一半由**仪器量**携带,`#128` 的 NEXT 正在判它能不能留在这张表上 | `#128`,标 PROVISIONAL |
 | **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023** —— 它不是一般性的求新 | `#101` `#102` |
 | **人把最爱的性兴趣记得更早,约九个月** | −0.2000 年/评分标准差(**19.8× SE**),同类别内打乱零 = 效应的 **0%**,种植阶梯单调。**这是本数据集第一个被直接量出来的回忆偏差,而整个成熟时间表建立在它之上** | `#114` |
 | **而且这个记忆畸变随时间加深,十五年里几乎翻倍** | 15 岁组 −0.0505 → 30 岁组 −0.0917,年龄趋势 **3.5×**;残余伪影**符号相反**,校正只会放大。**它不是在回答问卷那一刻生成的** | `#119` |
@@ -169,7 +171,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **14 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **128 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
