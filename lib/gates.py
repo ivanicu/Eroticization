@@ -66,6 +66,33 @@ def check_coverage(processed, available, where="", tol=0.02):
     return processed
 
 
+def check_residualized(residual, covariate, where="", tol=0.02):
+    """#129: 一个残差与它所回归掉的协变量的相关**在构造上恒等于 0**。不是 0 -> 那不是残差。
+
+    A14R01 写的是 `z(S - polyval(fit_on_z, z(PK)))` 而不是 `z(S) - polyval(...)` ——
+    把一个 z 尺度的预测值从**原始尺度**的变量里减掉。原始 S 的 sd 远小于预测值的 sd,
+    所以结果几乎就是 -z(PK) 本身:corr(所谓残差, PK) = **-0.9654**。
+    整整两轮的 corr(., S) 测的是负的勾选数,不是稀有亲和特质。
+
+    这个错的可怕之处在于它**看起来完全正常** —— 变量还叫 S,还被 z 标准化过,
+    数值范围也对,而且它产生的相关是**显著的**。唯一的破绽是这一行断言。
+    单位不匹配的代数不会抛异常;它会安静地把协变量还给你,冠上被解释量的名字。"""
+    import numpy as _np
+    r = _np.asarray(residual, dtype=float); c = _np.asarray(covariate, dtype=float)
+    m = _np.isfinite(r) & _np.isfinite(c)
+    if m.sum() < 3:
+        raise AssertionError(f"check_residualized({where}): 只有 {int(m.sum())} 个有限值,无法检验")
+    if _np.std(r[m]) < 1e-12 or _np.std(c[m]) < 1e-12:
+        raise AssertionError(f"check_residualized({where}): 一侧是常数,比较是退化的(#105e)")
+    rr = float(_np.corrcoef(r[m], c[m])[0, 1])
+    if abs(rr) > tol:
+        raise AssertionError(
+            f"check_residualized({where}): corr(残差, 协变量) = {rr:+.4f},超过 {tol}。"
+            f"残差与被回归掉的协变量必须正交。检查两侧是否在同一尺度上 —— "
+            f"把 z 尺度的预测值从原始尺度的变量里减掉,返回的是协变量本身(#129)。")
+    return rr
+
+
 def check_disjoint_items(pred_items, outcome_items, where="", tol=0.0):
     """#126c: 预测量与结局都由 item 级数据构造时,两边的 item 集必须不相交。
 

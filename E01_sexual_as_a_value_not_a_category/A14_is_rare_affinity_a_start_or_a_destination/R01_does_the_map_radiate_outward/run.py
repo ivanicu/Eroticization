@@ -47,7 +47,8 @@ IMPOSSIBLE      因果方向。横断面数据无法区分"先有稀有亲和所
 """
 import pandas as pd, numpy as np, warnings, hashlib, re
 warnings.filterwarnings('ignore')
-from lib.gates import Gate, check_columns, check_coverage, check_disjoint_items
+from lib.gates import (Gate, check_columns, check_coverage, check_disjoint_items,
+                       check_residualized)
 
 df=pd.read_csv('data/raw/BKSPublic.csv',low_memory=False); inv=pd.read_csv('data/derived/inventory.csv')
 BIN={'0-4yo':2,'5-6yo':5.5,'7-8yo':7.5,'9-10yo':9.5,'11-12yo':11.5,'13-14yo':13.5,
@@ -97,7 +98,11 @@ for p,c in Scnt.items():
     if c>=5: S[p]=Ssum[p]/c; PK[p]=picks[p]
 ok=np.isfinite(S)
 z=lambda a: (a-np.nanmean(a))/np.nanstd(a)
-S[ok]=z(S[ok]-np.polyval(np.polyfit(z(PK[ok]),z(S[ok]),1),z(PK[ok])))   # 去掉"勾了多少"(#104)
+# ⚠ 两侧必须在同一尺度上。`z(S - polyval(fit_on_z, z(PK)))` 会把 z 尺度的预测值从原始尺度的
+# S 里减掉,返回的几乎就是 -z(PK) 本身(#129,corr = -0.9654)。
+S[ok]=z(S[ok])-np.polyval(np.polyfit(z(PK[ok]),z(S[ok]),1),z(PK[ok]))   # 去掉"勾了多少"(#104)
+S[ok]=z(S[ok])
+check_residualized(S[ok],PK[ok],"S 对勾选数")
 print(f"S 来自 {nblk} 个多选块,{ok.sum():,} 人;与起始年龄题目零重叠",flush=True)
 check_disjoint_items(set(ons),set(str(x) for x in lg.option.unique()),"S vs onset")
 
