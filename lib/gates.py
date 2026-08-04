@@ -296,20 +296,24 @@ class Gate:
         self.rows.append((name, f"退化 {degenerate:+.6f} vs 参照 {reference:+.6f}", ok, note))
         return ok
 
-    def require_resolvable_first(self, name, effect, spread):
-        """#120: gate 之间是有顺序的,而我一直平铺着写。
+    def require_resolvable_first(self, name, effect, spread, family="default"):
+        """#120d: 门有顺序。对一个未分辨的量问形状,后面的比较全是 MOOT。
 
-        A13R02 里我对一个 0.3x 的量跑了 negative_control 和形状比较 —— 那两个比较问的是
-        "零能不能解释它"和"它像哪个形状",但**一个还没证明自己非零的量,没有形状可言**。
-        这个方法把顺序写进代码:它不通过时,后续的 rows 全部标成 MOOT 而不是 PASS/FAIL,
-        因为对一个未分辨的效应说"零很小"是一个假的通过。"""
+        #130: ...但 MOOT 必须**限定在它自己的族里**。一个 Gate 里放两个独立的量时,
+        Gate 级的 `_moot` 会让其中一个未分辨的量把另一个也判成 MOOT ——
+        A14R03 的原始年龄 corr(Delta,S) 是 1.1x,于是它把扣掉时间表后 5.1x 的
+        同名量一起标黑了。**一个未分辨的量只让依赖它的行 MOOT,不让别人的行 MOOT。**
+        `family` 是依赖关系的名字;不传就是所有行共用一族(旧行为)。"""
         ok = self.resolvable(name, effect, spread)
         if not ok:
-            self._moot = True
+            if not hasattr(self, "_moot_fams"):
+                self._moot_fams = set()
+            self._moot_fams.add(family)
+        self._fam_of_row = family
         return ok
 
     def verdict(self):
-        if getattr(self, "_moot", False):
+        if getattr(self, "_moot", False) or getattr(self, "_moot_fams", set()):
             return False
         return all(r[2] for r in self.rows)
 
@@ -321,5 +325,8 @@ class Gate:
         if getattr(self, "_moot", False):
             out.append("   ⚠ 效应本身未通过可分辨性 —— 其后的比较全部 MOOT(#120):"
                        "一个未分辨的量没有形状,也不需要零来解释")
+        for fam in sorted(getattr(self, "_moot_fams", set())):
+            out.append(f"   ⚠ 族 `{fam}` 的效应未通过可分辨性 —— **该族内**其后的比较 MOOT(#120/#130)。"
+                       "其它族不受影响。")
         out.append(f"   => {'ALL GATES PASS' if self.verdict() else 'UNVERIFIED, and that is not an acquittal'}")
         return "\n".join(out)
