@@ -316,6 +316,26 @@ class Gate:
                           f"阈值落在噪声带内({gap/max(spread,1e-12):.1f}x)—— 判定由重抽种子决定,UNVERIFIED"))
         return ok
 
+    def equivalent_within(self, name, diff, spread, margin):
+        """#150: 等价检验。`resolvable`/`require_resolvable_first` 是为"我要它非零"设计的;
+        当假设本身是**"两者相同"**时,用它们会把想要的结果报成 FAIL,并且把整族标 MOOT。
+
+        正确的形式是**等价界**(TOST 式):差的置信区间必须**落在**预先指定的边界内。
+        A19R02 的判别量 `corr(z,S)+corr(ρ,S)` = −0.0034,展布 0.0142 —— 0.2× 看似完美,
+        但它的 95% 上界是 0.0318,而效应本身只有 0.037,**所以这个设计只能排除
+        大于效应 80% 的差异**。不报这个边界,"两者相同"就是一句没有分辨率的话。
+
+        通过条件:|diff| + 2*spread <= margin。**margin 必须在跑之前指定。**"""
+        if self._degenerate(name, diff, spread):
+            return False
+        hi = abs(diff) + 2 * spread
+        ok = hi <= margin
+        self.rows.append((name, f"|{diff:+.4f}| + 2*{spread:.4f} = {hi:.4f} vs 边界 {margin:.4f}", ok,
+                          f"差被界在 {hi:.4f} 内,小于预设边界" if ok else
+                          f"只能把差界在 {hi:.4f},而边界是 {margin:.4f} —— "
+                          f"设计的分辨率不够,'两者相同'未被证明"))
+        return ok
+
     def require_resolvable_first(self, name, effect, spread, family="default"):
         """#120d: 门有顺序。对一个未分辨的量问形状,后面的比较全是 MOOT。
 
