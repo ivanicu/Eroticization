@@ -483,6 +483,45 @@ class Gate:
         self.rows.append(r)
         return ok
 
+    def could_have_come_out_otherwise(self, name, fn, perturbations, tol=1e-12):
+        """#267b/#267c:一个由**代数或构造**决定、不可能变的数,被当成了测量结果。
+
+        本项目此前有 13 个守卫,**没有一个问「这个数有没有可能是别的值」**。
+        `#312` 同一轮里出现了两个:
+          ③ 把每个预测量除以 √信度再算 R² —— **线性重缩放,R² 对它不变**,
+            于是 `1.31% → 1.31%` 被报成一个干净的零,而它是一个**恒等式**;
+          位置分 S 的「半块信度」恒为 **1.000 ± 0.000** —— 因为 S 根本不随块子集变化,
+            **一个恒为 1 的信度不是高信度,是没有被测量。**
+
+        > **`+0.00` 与一个干净的零长得一模一样。**
+
+        用法:`fn` 接受一个扰动标签并返回一个数;`perturbations` 是**不该让结论成立、
+        但应当让这个数动一动**的一组扰动(换种子、打乱输入、改一个无关参数)。
+        守卫**实际执行**它们并检查输出**是否真的变了**。
+
+            全部扰动下逐位相同(在 tol 内)-> **FAIL**「这个数不可能是别的值」
+            至少一个扰动让它变了              -> 放行,并报出**最小与最大**的变动幅度
+        """
+        vals = []
+        for p_ in perturbations:
+            try: vals.append(float(fn(p_)))
+            except Exception as e:
+                vals.append(float('nan'))
+        base = vals[0] if vals else float('nan')
+        deltas = [abs(v - base) for v in vals[1:] if v == v]
+        moved = [dd for dd in deltas if dd > tol]
+        if not deltas:
+            r = (name, "扰动全部报错或只给了一个扰动", False, "至少要有两个能跑通的扰动")
+        elif not moved:
+            r = (name, f"**{len(deltas)} 个扰动下逐位相同**(base={base:+.6g})", False,
+                 "**这个数不可能是别的值** —— 它由代数或构造决定,不由数据决定(#267b)")
+        else:
+            r = (name, f"{len(moved)}/{len(deltas)} 个扰动让它变了;"
+                       f"变动 {min(moved):.3g} … {max(moved):.3g}(base={base:+.6g})", True,
+                 "它有可能是别的值 —— 可以当成测量结果读")
+        self.rows.append(r)
+        return r[2]
+
     def no_sign_crossing(self, name, series):
         """#83d/#79f: never take a ratio or a sum across a sign change."""
         s = np.asarray(series, dtype=float)
