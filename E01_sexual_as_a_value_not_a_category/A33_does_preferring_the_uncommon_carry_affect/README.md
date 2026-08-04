@@ -16,3 +16,4 @@
 | R225 | [`R225_early_half_or_late_half`](R225_early_half_or_late_half) | 羞耻贴**早半**更紧(+0.0282,2.3×,去衰减后更大)—— 但落在预注册的三个世界之外 |
 | R226 | [`R226_developmental_window_or_sequence_position`](R226_developmental_window_or_sequence_position) | 「早」是发育窗口还是序列位置:**本设计分不开**,绝对劈分的臂欠功效而点估计更大 |
 | R227 | [`R227_within_person_slope`](R227_within_person_slope) | 换估计量复现:**截距** +0.0270(2.9×,n=10,567);两个 9× 是 `r=−0.97` 的共线抑制 |
+| R228 | [`R228_is_it_recall_distance`](R228_is_it_recall_distance) | 年龄对手死了(`corr(截距,年龄)=+0.006`,控制后纹丝不动);而注册的 kill 按字面会造成**假撤回** |
