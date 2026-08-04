@@ -522,6 +522,41 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def sign_flip_needs_direction_change(self, name, cos_with_ref, corr_ref, corr_new,
+                                         cos_floor=0.50):
+        """#306b:**方向没变,派生量却翻号 —— 这两件事不可能同时为真。翻的是特征向量的符号。**
+
+        `#306a` 第一版:门槛 400 下 `c3` 与发布版的 **|cos| = 0.9466**(方向 95% 一致),
+        而 `c3 ↔ 羞耻` 从 **−0.1278 翻成 +0.1218**。印出来是「跨门槛符号翻转,极差 0.2497」——
+        一个看起来极强的发现。**而它通过了全部门。**
+        真相:`np.linalg.eigh` 的特征向量**符号是任意的**,`|cos|` 又取了绝对值,
+        所以「方向一致」与「投影反号」被同时报了出来。对齐符号后极差是 **0.0425**,
+        而在方向还认得出来的区间(|cos| ≥ 0.95)只有 **0.0060**。
+
+        > **|cos| 高而派生相关翻号,是「符号没对齐」的签名,不是一个发现。**
+        > 这是本项目第三次撞上特征向量符号(`R210:73` · 这里)。
+
+        用法:任何用**特征向量/主成分/SVD 分量**算出来的派生量,在与参照版本比较时,
+        把 `|cos|` 与两个版本的派生量一起交给它。
+        `|cos| > cos_floor` 而两者异号 -> FAIL。
+        """
+        try:
+            c = abs(float(cos_with_ref)); a = float(corr_ref); b = float(corr_new)
+        except Exception:
+            r = (name, "参数不是数", False, "需要 |cos| 与两个版本的派生量(#306b)")
+            self.rows.append(r); return False
+        if c > cos_floor and (a * b) < 0:
+            r = (name, f"|cos| = **{c:.4f}** 而派生量 {a:+.4f} -> {b:+.4f}(**异号**)", False,
+                 f"**方向 {c:.0%} 一致却翻号 —— 这是特征向量符号没对齐的签名,不是发现**;"
+                 f"先把 V[:,k] 对齐到参照版再重读(#306b)")
+        elif c <= cos_floor:
+            r = (name, f"|cos| = {c:.4f} ≤ {cos_floor}", True,
+                 "方向本身已经不一致 —— 翻号可以是真的,但这时该报的是方向变了")
+        else:
+            r = (name, f"|cos| = {c:.4f},派生量 {a:+.4f} -> {b:+.4f}(同号)", True,
+                 "方向一致且同号 —— 没有符号问题")
+        self.rows.append(r); return r[2]
+
     def heldout_drop_needs_a_plant(self, name, observed_drop, plant_drop, what=""):
         """#303b:**一个「留出后掉了多少」的读数,分不清「声明有乐观」和「潜变量不稳」——
         只有把一个**已知为真**的效应种进去、看它掉多少,才分得清。**
