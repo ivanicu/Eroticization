@@ -100,7 +100,7 @@ the receipt.
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | 在外部挑战者到来之前,我预测他会推翻什么 |
 | [`STANDARD_AUDIT.md`](STANDARD_AUDIT.md) | 这些轮次对着标准打分,包括它们不合格的每一条 |
 
-## 工具:五条边
+## 工具:六条边
 
 | 工具 | 查的是 |
 |---|---|
@@ -108,6 +108,8 @@ the receipt.
 | `tools/round_status.py` | 轮次 → 账本(这一轮支撑的声明当前状态;它是不是已被兄弟轮次取代) |
 | `tools/guard_lint.py` | 轮次 → 守卫(该用的守卫用了没有;判定阈值是不是写死的字面常数) |
 | `tools/repro_audit.py` | 账本 → 轮次(账本的数字现在还跑得出来吗;**账本判为错的旧值还在不在输出里**) |
+| `guard_lint.error_bar_scan()` | artifact → 精度(**真实臂到底有没有抖动来源**,`#168`) |
+| `lib/gates.py` | 10 条守卫 + 每轮用来攻自己的 `Gate` 比较规则 |
 
 每个工具都带自己的 `P6` 代理账:**只在命中方向可读,输出是必读清单不是判决。**
 

@@ -258,6 +258,37 @@ class Gate:
                           f"{abs(effect)/spread:.1f}x its own spread"))
         return ok
 
+    def has_error_bar(self, name, value, spread, spread_source):
+        """#167b:一个**地板**不是一个**误差棒**,而它们长得一模一样。
+
+        两者都写成 `点值 ± 某个数`,都由同一段代码产出,都让读者觉得这个数被界住了。
+        但零假设地板答的是**存在性**(「这不可能是无结构造出来的」),
+        误差棒答的是**精度**(「换一批人还会是这个数吗」)。
+        `#100` 的 0.432 挂着 curveball 地板 −0.022 走了八轮,而它的真实臂在 8 个种子上
+        逐字节相同 —— 它从来没有过误差棒。
+
+        所以调用者必须**命名展布的来源**,而不是只递一个数字:
+            'bootstrap_人层'  重抽人 —— 唯一能答"换一批人还会是这个数吗"的那一种
+            'split_跨劈分'    换劈分 —— 答"换一种分法还会是这个数吗"
+            'seed_跨种子'     换种子 —— 只在种子真的驱动真实臂时才有意义
+            'null_零臂'       **直接 FAIL** —— 这是地板,不是误差棒
+            'analytic_解析'   公式(如相关系数的 delta 法)—— 记下公式名
+        """
+        ok = {'bootstrap_人层','split_跨劈分','seed_跨种子','analytic_解析'}
+        allowed = sorted(ok | {'null_零臂'})
+        if spread_source == 'null_零臂':
+            r = (name, f"来源=零臂, {value:+.4f}", False,
+                 "展布来源是**零臂** —— 那是地板不是误差棒(#167b),精度仍然未知")
+        elif spread_source not in ok:
+            r = (name, f"来源='{spread_source}'", False, f"不在名录里:{allowed}")
+        elif not (spread > 0):
+            r = (name, f"来源={spread_source}, 展布={spread}", False,
+                 "零展布 —— 真实臂没有抖动来源,这不是误差棒")
+        else:
+            r = (name, f"{value:+.4f} ± {spread:.4f}", True, f"来源 {spread_source}")
+        self.rows.append(r)
+        return r[2]
+
     def no_sign_crossing(self, name, series):
         """#83d/#79f: never take a ratio or a sum across a sign change."""
         s = np.asarray(series, dtype=float)

@@ -182,11 +182,25 @@ item-neighbour structure recovers **+0.0206** held-out R² over a marginals base
 factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of the person margin**, on
 578,989 held-out cells. **[#58]** Fitted jointly, the two are **67% the same structure**: combined increment +0.0359 against the person margin's +0.0293, so the item side's unique contribution is +0.0066 — ratio 1.65, **below resolution**.
 
+## Tools: six edges
+
+| tool | what it checks |
+|---|---|
+| `tools/readme_ledger_audit.py` | README → ledger (has a number here been withdrawn by a later entry; is any number uncited) |
+| `tools/round_status.py` | round → ledger (current status of the claims this round supports; has a sibling round superseded it) |
+| `tools/guard_lint.py` | round → guards (were the applicable guards called; is a verdict threshold a hard-coded literal) |
+| `tools/repro_audit.py` | ledger → round (does the ledger's number still come out; **is a value the ledger condemned still being printed**) |
+| `guard_lint.error_bar_scan()` | artifact → precision (**does the real arm have any source of jitter at all**, `#168`) |
+| `lib/gates.py` | 10 guards + the `Gate` comparison rules every round attacks itself with |
+
+Each tool carries its own `P6` proxy ledger: **readable in the hit direction only; the output is a
+must-read list, not a verdict.**
+
 ## Governance
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **164 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **167 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
@@ -194,11 +208,12 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 ## Layout
 
-**E · R · r** — epoch (the ontology shifted) contains big rounds (a decision became safe) contains
-sub-rounds (one belief update). One epoch, six big rounds, 54 sub-rounds. Every count is discovered,
-never chosen; see `~/.claude/CLAUDE.md` §P16.
+**E · A · R** — an *epoch* closes when the ontology shifts (the object turned out to be a different
+object), an *arc* closes when a decision becomes safe, a *round* closes on one belief update.
+**One epoch, 25 arcs, 213 rounds.** `R` is numbered consecutively across the whole project, not
+restarted per arc. Every count is discovered, never chosen; see `~/.claude/CLAUDE.md` §P16.
 
-Previously described as ten campaigns, 52 rounds. Each round is a directory with `run.py`, `README.md` and `results/`.
+Each round is a directory with `run.py`, `README.md` and `results/`.
 `lib/rounds.py` maps a round name to its path, because several rounds reuse an earlier round's
 loaders and that dependency is made explicit rather than hidden. Environment is a self-contained
 `.venv` (system python 3.14 has no `ensurepip`; pip was bootstrapped).

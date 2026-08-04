@@ -100,3 +100,68 @@ def report_thresholds(paths=None, title=''):
         print(f"  {parts[1][:26]:<26} {parts[2][:26]:<26} :{i:<4} {s}")
     print("\n⚠ SAFE SIDE(#P6):只在**命中**方向可读。未命中 = 未被标记,**不等于**阈值是量出来的。")
     return hits
+
+
+# ============================================================================
+# #168:哪些轮次的头条数字**没有误差棒**
+# ----------------------------------------------------------------------------
+# #167b 给出了可机械查的形状:如果一个数的"不确定度"只在零臂里出现,
+# 而真实臂本身没有任何抖动来源,那它没有误差棒。
+#
+# P6 代理账:
+#   PROPERTY    这一轮的头条数字有一个精度估计
+#   PROXY       真实臂在持久化结果里出现 >=2 次且**取值不同**
+#   IMPLICATION 真实臂只出现一次,或多次但逐行相同 => 该 artifact 里没有实现展布(**缺失方向可读**)
+#   WITNESS     R147/grid.csv 带着 `r_half_sd` 列(有展布!)而它发表的是 `rel_resid`,
+#               后者在 3 个 seed 上逐字节相同 —— **一个轮次可以带展布列却仍然没有误差棒**
+#   SAFE SIDE   只在**缺失**方向判。带展布列 != 头条数字有误差棒 -> UNVERIFIED,永不判"有"。
+# ============================================================================
+import re as _re
+_ARM  = _re.compile(r'real|真实|actual|observed|obs', _re.I)
+_SEED = _re.compile(r'^(seed|sd_?|rep|draw|split|iter)\w*$', _re.I)
+_SPRD = _re.compile(r'(_sd|_se|sd_|se_|std|spread|ci_|_err|_ci)', _re.I)
+
+def error_bar_scan(root='.'):
+    import pandas as pd, pathlib
+    out=[]
+    for csv in sorted(pathlib.Path(root).glob('E01_*/A*/R*/results/*.csv')):
+        try: df=pd.read_csv(csv)
+        except Exception: continue
+        if df.empty: continue
+        rnd=csv.parents[1].name
+        armcol=next((c for c in df.columns if df[c].dtype==object
+                     and df[c].astype(str).str.match(_ARM).any()), None)
+        seedcol=next((c for c in df.columns if _SEED.match(str(c))), None)
+        has_sp=[c for c in df.columns if _SPRD.search(str(c))]
+        num=[c for c in df.columns if pd.api.types.is_numeric_dtype(df[c])
+             and c!=seedcol and not _SPRD.search(str(c))]
+        sub=df[df[armcol].astype(str).str.match(_ARM)] if armcol else df
+        if len(sub)==0: continue
+        if len(sub)==1:
+            verdict,why='NO_SPREAD','真实臂在 artifact 里只有一行 —— 没有实现展布'
+        elif seedcol and sub[seedcol].nunique()>1 and num and \
+             all(sub.groupby(seedcol)[c].first().nunique()==1 for c in num):
+            verdict,why='SEED_IS_FAKE',(f'真实臂在 {sub[seedcol].nunique()} 个 {seedcol} 上'
+                                        f'**逐行相同** —— 种子不驱动真实臂(#167a 的形状)')
+        else:
+            verdict,why='UNVERIFIED','有多行且取值不同 —— 但"有展布"不等于"头条数字有误差棒"'
+        out.append(dict(round=rnd,artifact=csv.name,rows=len(sub),arm_col=armcol or '-',
+                        seed_col=seedcol or '-',spread_cols=','.join(has_sp) or '-',
+                        verdict=verdict,why=why))
+    return pd.DataFrame(out)
+
+def report_error_bars(root='.'):
+    import pandas as pd
+    T=error_bar_scan(root)
+    if T.empty: print('没有可扫描的 results/*.csv'); return T
+    print(f"\n扫描 {len(T)} 个 artifact,覆盖 {T['round'].nunique()} 个轮次")
+    print(T.verdict.value_counts().to_string())
+    for v in ['SEED_IS_FAKE','NO_SPREAD']:
+        S=T[T.verdict==v]
+        if len(S):
+            print(f"\n── {v} ({len(S)}) ──")
+            for _,r in S.iterrows():
+                print(f"  {r['round'][:52]:<54}{r.artifact:<28}{r.why}")
+    print("\n⚠ SAFE SIDE(#P6):只在**缺失**方向可读。UNVERIFIED **不等于**有误差棒 ——"
+          "\n   R147 带着 r_half_sd 列却仍然没有 rel_resid 的误差棒(#167a)。")
+    return T
