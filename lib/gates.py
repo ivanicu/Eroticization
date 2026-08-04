@@ -315,7 +315,8 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
-    def count_needs_interval(self, name, n_pass, n_total, spread, spread_source, n_resamples=None):
+    def count_needs_interval(self, name, n_pass, n_total, spread, spread_source, n_resamples=None,
+                             seed_spread=None):
         """#232d:一个**计数**看起来比一个相关更硬,所以它更容易被当成确定值写出去。
 
         「31 个结局里越过全族阈值的有 19 个」读起来像在数东西 —— 数出来的数怎么会有误差棒?
@@ -336,6 +337,20 @@ class Gate:
         ok = {'threshold_resample_阈值重抽样','bootstrap_人层','seed_跨种子','analytic_解析'}
         allowed = sorted(ok | {'null_零臂'})
         base = f"{n_pass}/{n_total}"
+        # #255c:`#233` 只量了**阈值重抽样**那一层,而 `#300` 实测**数据劈分种子**那一层
+        #   可以比它大 40%(±2.5 vs ±1.8),并且正是它让 `#254a` 得出了一个错的结论。
+        #   ⚠ 我注册的做法是「降级为 WARN」,这里改成 **FAIL** —— 严于注册,方向安全:
+        #   一个未被测量的**主导**不确定性来源,等于精度未知,而不是精度尚可。
+        if spread_source == 'threshold_resample_阈值重抽样' and seed_spread is None:
+            r = (name, f"{base} ±{spread if spread is not None else '?'}(仅阈值重抽样)", False,
+                 "**这一族的主导不确定性来源是【数据劈分种子】,不是阈值**(#255c) —— "
+                 "未给 `seed_spread`,精度未知;`#300` 实测种子层可比阈值层大 40%")
+            self.rows.append(r); return False
+        if seed_spread is not None and spread is not None and seed_spread > 0:
+            r = (name, f"**{base} 应读作 {n_pass-2*seed_spread:.0f}–{n_pass+2*seed_spread:.0f}**"
+                       f"(种子 ±{seed_spread:.2f} · 阈值 ±{spread:.2f})", True,
+                 "两层不确定性都已量:取较大的那一层作为区间(#255c)")
+            self.rows.append(r); return True
         if spread_source == 'null_零臂':
             r = (name, f"{base} 来源=零臂", False,
                  "展布来源是**零臂** —— 那是地板不是误差棒(#167b/#232d),精度仍然未知")
