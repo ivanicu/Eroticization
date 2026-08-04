@@ -66,6 +66,28 @@ def check_coverage(processed, available, where="", tol=0.02):
     return processed
 
 
+def check_disjoint_items(pred_items, outcome_items, where="", tol=0.0):
+    """#126c: 预测量与结局都由 item 级数据构造时,两边的 item 集必须不相交。
+
+    A11R20 里强制单选的选项与多选块的选项重叠 89-100%,于是「稀有亲和 S」与「选中选项的
+    冷门程度」共享同一批勾选 —— 那是恒等式不是测量。**这是本项目第一个在设计时被漏掉、
+    而不是写错的混淆**(前四十一个都是写下了但写错了),抓住它的只是一个临时检查。
+
+    机械可查,所以不该再靠想起来。tol>0 表示显式接受一定重叠(那时它至少写在源码里)。"""
+    a, b = set(pred_items), set(outcome_items)
+    if not a or not b:
+        raise ValueError(f"item 集为空{(' in '+where) if where else ''} —— 空分母(#04)")
+    ov = a & b
+    frac = len(ov) / min(len(a), len(b))
+    if frac > tol:
+        ex = sorted(map(str, ov))[:3]
+        raise ValueError(
+            f"预测量与结局共享 item{(' in '+where) if where else ''}: "
+            f"{len(ov)}/{min(len(a),len(b))} ({frac:.0%}) 重叠,例如 {ex}。"
+            f"若无法避免,显式传 tol={min(frac+0.01,1.0):.2f} 并在轮次输出里报出重叠率(#126c)。")
+    return True
+
+
 def check_columns(df, where=""):
     """#117e: 一个与 DataFrame 方法同名的列,取用时静默返回方法对象而不是数据。
     这在本项目里发生了五次(shift #74, mode #77, item #80, T #93, shift #117)。
