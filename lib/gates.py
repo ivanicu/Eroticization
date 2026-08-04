@@ -411,7 +411,7 @@ class Gate:
         return r[2]
 
     def plant_direction_from_sweep(self, name, sweep, baseline, baseline_spread=None,
-                                   half_of=None):
+                                   half_of=None, identity=None, identity_floor=0.90):
         """#248c:预注册一个**方向**,和预注册一个**阈值**,不是同一件事。
 
         阈值我算得出来;**方向我算不出来,我是在猜** —— 而我已经猜错四次:
@@ -431,6 +431,21 @@ class Gate:
             r = (name, f"只有 {len(sweep)} 个点", False, "扫描至少要 3 点才谈得上单调")
             self.rows.append(r); return False
         gs = [float(g) for g, _ in sweep]; ys = [float(y) for _, y in sweep]
+        # #252c:一个由**数据定义**的量(特征向量、聚类中心、主成分),
+        #   种得够强时**种入本身会重新定义它** —— 于是扫描中途换了被测对象。
+        #   `#297` 实测:c1 的扫描非单调,不是噪声,是 c1 在 g 变大时变成了「被种入的那个方向」。
+        #   `identity[i]` = 第 i 个 g 上被测量与 `g=0` 时的**身份指纹**(1 = 同一个对象)。
+        #   有身份漂移时,**先报漂移**:它比「非单调」具体得多,而且单调也救不了它。
+        if identity is not None:
+            idv = [float(x) for x in identity]
+            drift = next((gs[i] for i in range(1, len(idv)) if idv[i] < identity_floor), None)
+            if drift is not None:
+                r = (name,
+                     f"**被测对象在 g={drift:g} 处被替换**(身份指纹 {idv[0]:.2f} → {min(idv):.2f}"
+                     f" < {identity_floor})",
+                     False,
+                     "由数据定义的量,种入参与了它的重新定义 —— 这条扫描测的不是同一个东西(#252c)")
+                self.rows.append(r); return False
         if baseline_spread is not None and baseline_spread > 0:
             ok0 = abs(ys[0] - baseline) <= 2*baseline_spread
         else:
