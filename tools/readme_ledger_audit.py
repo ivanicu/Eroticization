@@ -193,7 +193,10 @@ def numbers_that_left(rev='HEAD~1', files=('README.md','README_zh.md')):
         try: old=subprocess.run(['git','show',f'{rev}:{f}'],capture_output=True,text=True,check=True).stdout
         except subprocess.CalledProcessError: continue
         new=pathlib.Path(f).read_text()
-        o=set(m.strip() for m in _MAGNUM.findall(old)); n=set(m.strip() for m in _MAGNUM.findall(new))
+        # ⚠ #172a:英文写 `10.4×`、中文写 `10.4 倍` —— 字符串不同,于是**每一次翻译
+        #   都会被判成删除**(`63e03b7` 一次假报 7 个)。差集之前必须归一化。
+        norm=lambda m: m.strip().replace(' ','').replace('倍','×').replace('−','-')
+        o=set(norm(m) for m in _MAGNUM.findall(old)); n=set(norm(m) for m in _MAGNUM.findall(new))
         for tk in sorted(o-n):
             ctx=[l for l in old.split('\n') if tk in l]
             out.append(dict(file=f,token=tk,n_old_lines=len(ctx),

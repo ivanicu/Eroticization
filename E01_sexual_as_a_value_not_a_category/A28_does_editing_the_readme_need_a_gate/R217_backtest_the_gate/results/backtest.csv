@@ -1,0 +1,31 @@
+commit,blocked,d_named_defects,d_numbers_that_left,d_uncited_numbers,d_internal_consistency,subject
+77645a9,False,0,-1,0,0,"[act.research.eroticization-operator.rho.D8+] 一次修复也不是一次验收:上一轮的去重删掉的是内容,不是重"
+7b1951f,True,-3,1,0,0,"[act.research.eroticization-operator.rho.D8+] 一份记录不是一次修复:账本点名过的缺陷,25 条条目之后"
+88b0993,False,-1,0,0,0,"[act.research.eroticization-operator.rho.D8+] 撤回写进账本,不等于撤回到达读者"
+57c9f16,False,0,0,0,0,"[act.research.eroticization-operator.sigma.D8+] 说""这不是噪声造的""和说""这有多准""是两句话,而它们"
+ae2f949,False,0,0,0,0,"[act.research.eroticization-operator.rho.D8+] 一个""地板""不是一个""误差棒"",而它们长得一模一样"
+7adc234,False,0,0,0,0,"[act.research.eroticization-operator.Omega.D8+] 你偏爱多冷门,比你具体偏爱什么,更是你自己"
+b806952,False,0,0,0,0,"[act.research.eroticization-operator.Omega.D8+] 「偏爱冷门」是这个人自己的口味,不是他的性别"
+75384c5,False,0,0,0,0,[memory.research.eroticization-operator.mu.D8+] 两份 README 补上 #163:名字本身第一次被
+ab3b8e1,False,0,-2,0,0,[act.research.eroticization-operator.Omega.D8+] 回忆偏差是所有人共有的;而它的效应比它自己零的噪声还
+63e03b7,True,1,2,0,0,"[memory.research.eroticization-operator.sigma.D8+] README 拆成全英文 + 中文镜像,英文为"
+bd72001,False,0,0,0,0,"[fix.research.eroticization-operator.rho.D8+] 改名之后两处坏了:路径被拆在两个字面量里,工具正则只认两"
+deb7788,False,0,0,0,0,"[memory.research.eroticization-operator.sigma.D8+] R 改成全局连续编号:R01 在每个弧里重来,"
+2a3397e,False,0,0,0,0,"[guard.research.eroticization-operator.rho.D8+] 发布前的清洗:README 说""数据没有提交"",而两"
+9651eb6,False,0,0,0,0,"[act.research.eroticization-operator.Omega.D8+] 关于「何时」,两个完全不同的问法给出同一个小数字"
+ab8c60b,False,0,0,0,0,"[act.research.eroticization-operator.Omega.D8+] 性偏好的「什么」是个人的,「何时」不是"
+76a2101,False,0,0,0,0,"[act.research.eroticization-operator.Omega.D8+] 那 20% 几乎不是关于人的,它是关于东西的"
+a6cbc20,False,0,0,0,0,"[guard.research.eroticization-operator.lambda.D8+] 反向检验落地,并且它先证明了上一轮的修复"
+ea98c8e,False,0,0,0,0,"[fix.research.eroticization-operator.sigma.D8+] 一条只写在账本散文里的校正,不会到达仪器(两轮之内第"
+8584c35,False,0,0,0,0,"[fix.research.eroticization-operator.rho.D8+] #117 的轮次从写下那天起一直在崩,而崩的正是它自己记"
+ac8aa68,False,0,0,0,0,"[guard.research.eroticization-operator.lambda.D8+] 犯三次之后,由工具防:轮次 → 账本的反向索引"
+ca771fe,True,1,-1,0,0,[fix.research.eroticization-operator.rho.D8+] 我重抽的是一个已被取代的轮次;而那 10 抽仍然证明了 
+7fe3e18,False,0,0,0,0,[guard.research.eroticization-operator.lambda.D8+] 单次抽样的零不自动致命;伤害 = 零的实现 s
+37d193a,True,0,1,0,0,"[fix.research.eroticization-operator.rho.D8+] 方向立住,量级撤回:#148a 的分母错了,比值被高估 "
+65b255b,False,0,0,0,0,"[act.research.eroticization-operator.rho.D8+] 强制选择没放大效应,它更吵;而""更干净""不等于""更好"""
+0a660c0,False,0,0,0,0,"[act.research.eroticization-operator.rho.D8+] 预注册的点预测命中了;而""一致""仍然不等于""证明了相同"""
+4712608,False,0,0,0,0,"[act.research.eroticization-operator.Omega.D8+] 那 20% 是真的,但它不是一个特质"
+4587991,False,0,-1,0,0,"[act.research.eroticization-operator.Omega.D8+] 机制找到了:那不是关于个人的,是共享时间表投影到每个"
+9439552,True,0,1,0,0,[act.research.eroticization-operator.Omega.D8+] #130a 得救而且是普遍的;而 #146 的广度联
+04c4dba,False,0,0,0,0,"[act.research.eroticization-operator.rho.D8+] Δ 的量级由""谁够格进入分析""决定,而那就是广度"
+c0794b8,False,-1,0,0,0,"[fix.research.eroticization-operator.sigma.D8+] 盲区被我高估了 14 倍;而剩下的那一个,挂在一句账"
