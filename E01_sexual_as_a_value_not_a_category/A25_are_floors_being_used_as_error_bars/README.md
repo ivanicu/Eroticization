@@ -8,3 +8,4 @@
 | 子轮 | 目录 | 信念更新 |
 |---|---|---|
 | R213 | [`R213_the_tenth_guard_and_a_census`](R213_the_tenth_guard_and_a_census) | 不是一处:整个 A11 弧十轮同一形状;账本 **57.5%** 的条目不作任何精度陈述 |
+| R214 | [`R214_does_the_public_face_promise_precision`](R214_does_the_public_face_promise_precision) | 公开面收窄后 **0** 行承诺未证明的精度;但撞出 `+0.815` —— 一条 `#20` 已杀的定律还挂在两份 README 上 |

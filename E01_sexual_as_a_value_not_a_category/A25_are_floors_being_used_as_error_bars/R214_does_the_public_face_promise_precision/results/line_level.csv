@@ -1,0 +1,49 @@
+file,line,n_mag,cites,any_cite_has_precision,text,line_has_precision,withdrawn
+README.md,35,1,"161,159,160,161",True,"| **The ""what"" of a sexual preference is personal. The ""when"" is not.** | Same people, same split procedure, s",True,False
+README.md,36,3,"75,63",True,"| **Sexual interests arrive on a shared developmental schedule — concrete first, relational 2–3 years later** ",True,False
+README.md,37,1,"157,157,88,90",True,| **Content and individualised valuation move endorsement probability by the same amount** | option base rate ,True,False
+README.md,40,14,"167,163,164,165,100,104,165",True,"| **It is a reliable personality dimension, and it is not ""how many boxes you ticked""** | Split-half across di",True,False
+README.md,41,4,"114,128,130",True,| **A person's own uncommon interests sit ahead of their own common ones** | After removing the population-sha,True,False
+README.md,42,4,"139,138,139",False,"| **The map's strongest psychologically-anchored dividing line is not ""early vs late"" — it is ""objects vs scen",True,False
+README.md,43,4,137,False,"| **Sex anchors ""the sexual"" itself, not one family within it** | early family +0.0706 vs late family +0.0816,",True,False
+README.md,45,11,"75,135,136",True,| **What arrives early is scattered; what arrives late is a set** | Three blocks against a within-person permu,True,False
+README.md,46,4,"114,133,134",True,"| **For a third of people the map closed at 17; for the rest it opens outward** | In the 29–32 band, **33.3% r",True,False
+README.md,47,2,132,True,"| **The sexual map is largely fixed by the end of adolescence** | Among 29–32 year olds, **68.4% of their own ",False,False
+README.md,48,15,"147,146,148,152,148,159,149,100,130,131",True,| **At the population level the map really does start from what everyone has** | The batch of interests a pers,True,False
+README.md,49,11,"114,150,151,128,129,130,150,151",True,"| **The rarer a person's eventual taste, the larger that head start** | −0.0459; **after 1:1 caliper matching ",True,False
+README.md,50,3,"154,101,102,154",False,"| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\| ≤ 0.056, ",True,False
+README.md,51,3,"153,162,114,162",True,| **People remember their most-loved sexual interests as arriving about nine months earlier** | −0.2000 years ,True,False
+README.md,52,2,119,True,"| **And that memory distortion deepens with time, nearly doubling over fifteen years** | the 15-year-old band ",True,False
+README.md,53,1,"107,110,116,117",True,"| **Among interests of the same kind, which one came first predicts your whole remaining preference profile** ",True,False
+README.md,54,1,"118,142",True,"| **And the remaining preferences are pulled toward whichever came first** | displacement **+0.0339, 3.1×**, p",True,False
+README.md,55,5,"141,143",True,"| ~~**""Top/bottom"" is one word over three near-unrelated things**~~ **downgraded to: the three role axes are s",False,False
+README.md,57,4,"26,26",False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their preference struc",True,False
+README.md,66,1,82,False,"| ""Domain-general beats domain-specific, 186/276"" | **Inverted: 0 general / 201 specific** | The 186 was a −0.",False,True
+README.md,69,1,115,True,"| ""The earlier something enters the map, the more central it is"" | **Withdrawn, 10% remains** | That was not t",False,False
+README.md,70,3,102,False,"| ""The trait tracks earlier acquisition age"" | **Withdrawn** | −0.030 against a null of −0.028; the null is 91",False,True
+README.md,79,3,91,True,| See structure carried by ≤30% of people (variance-explained methods) | 5% carriers at **±50 pp** leave skill,False,False
+README.md,88,4,"169,20,11,15,20",False,**And a transferable methodological result — but a much smaller one than I first published.** Block-count matc,False,False
+README_zh.md,35,1,"161,159,160,161",True,"| **性偏好的「什么」是个人的,「何时」不是** | 同一批人、同一种劈分、同一个单位数 k:**「你喜欢多罕见的东西」分半信度 0.57–0.67**,**「你的罕见兴趣比时间表早多少」只有 0.055–0.108*",True,False
+README_zh.md,36,3,"75,63",True,"| **性欲有一个发育顺序,先具体后关系,差 2–3 年** | 外观 14.0 · 身体部位 14.4 · 衣物 14.7 → 权力动态 16.8 · 束缚 16.9 · 精神改变 17.0。用它猜任意两个兴趣谁先谁后",True,False
+README_zh.md,37,1,"157,157,88,90",True,"| **内容与个体化估值,对认可概率的影响一样大** | 选项基率 **±21.5 pp**(账本记 ±22.6,**5% 漂移未解释**,`#157e`)· 人整体率 **±16.7 pp** · 人×选项交互 **±",True,False
+README_zh.md,40,14,"167,163,164,165,100,104,165",True,"| **它是一个可靠的人格维度,而且不是""你勾了多少""** | 跨不相交块集的分半信度 **+0.432 ± 0.016**(人层自助,n=7,316,400 次 —— 这个误差棒是它八轮之后才有的,`#167`;原来挂",True,False
+README_zh.md,41,4,"114,128,130",True,"| **一个人自己那些别人很少有的兴趣,排在他自己那些大家都有的兴趣前面** | 扣掉人群共享的时间表和这个人整体的早熟之后,人内「起始年龄残差 × 类别稀有度」= **−0.0328**,题内跨人置换零 +0.0018",True,False
+README_zh.md,42,4,"139,138,139",False,"| **版图真正的主分界线不是""先来后到"",是""物件 vs 叙事""** | 6 个连贯分割 × 11 个非性变量的整格,最大统计量零给出全族阈值 0.0560。**PC4 点亮 6 个变量,最强一格 9.0×**:一侧是",True,True
+README_zh.md,43,4,137,False,"| **性别锚住的是""性""本身,不是其中某一族** | 早族 +0.0706 vs 晚族 +0.0816,差 **0.7×**。而开放性(+0.0593,4.1×)与无力感(−0.0441,2.8×)确实只锚住晚族 ——",True,False
+README_zh.md,45,11,"75,135,136",True,"| **早来的东西是散的,晚来的东西是一整套** | 人内置换零下的三个块:早×早 **−0.01272(27.9×)** · **晚×晚 +0.02103(23.1×)** · 晚×早 −0.00484(15.2×)。",True,False
+README_zh.md,46,4,"114,133,134",True,"| **三分之一的人,版图在 17 岁就关上了;剩下的人,它是向外开的** | 29–32 岁档里 **33.3% 报告 17 岁后一个新兴趣都没有**。而在有晚期条目的人身上,晚获得的类别与他早期那些**更不相连**,",True,False
+README_zh.md,47,2,132,True,"| **性版图在青春期结束时就基本定型** | 29–32 岁的人,自己报告的性兴趣有 **68.4% 是 17 岁前获得的**,最晚的那一个平均在 **22.6 岁**(人内测量,不依赖横断面假设)。横断面上 15 年",False,False
+README_zh.md,48,15,"147,146,148,152,148,159,149,100,130,131",True,"| **人群层面,版图确实从大家都有的东西开始** | 一个人最早报告的那批兴趣,在他自己曲目库里按罕见度排落在**第 33 百分位**(49.4×)。**以每人自己的置换零展布为单位是 z = −0.5515**,而*",True,True
+README_zh.md,49,11,"114,150,151,128,129,130,150,151",True,"| **越是最终口味罕见的人,这个提前量越大** | −0.0459;**按答题类别数卡钳 1:1 匹配后 −0.0417(3.1×,保留 91%)**,三个匹配规格 85–100% 一致,置换零 17%,种植正对照 +",True,False
+README_zh.md,50,3,"154,101,102,154",False,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023** —— 它不是一般性的求新。**零的强度已量化**(`#154",True,False
+README_zh.md,51,3,"153,162,114,162",True,"| **人把最爱的性兴趣记得更早,约九个月** | −0.2000 年/评分标准差(**19.8× SE**),同类别内打乱零 = 效应的 **0–11%**(`#153`:原轮只抽了**一次**,那一抽是 20 抽里最",True,False
+README_zh.md,52,2,119,True,"| **而且这个记忆畸变随时间加深,十五年里几乎翻倍** | 15 岁组 −0.0505 → 30 岁组 −0.0917,年龄趋势 **3.5×**;残余伪影**符号相反**,校正只会放大。**它不是在回答问卷那一刻生成",True,False
+README_zh.md,53,1,"107,110,116,117",True,"| **同类兴趣之间,先获得哪一个,预示你其余的整个偏好轮廓** | **+0.0159,6.1× 展布**,在减掉两项各自评分、它们的差、以及人均评分之后。**成对设计对""作答水平""结构上免疫** —— 它的兄弟命题(",True,False
+README_zh.md,54,1,"118,142",True,"| **而其余偏好被拉向先来的那一个** | 位移 **+0.0339,3.1×**,68 对里 46 对为正,生成式正对照单调开火。⚠ **加倍样本并没有加强它**(3.093 → 3.048),而源码里那句""加强成功",True,True
+README_zh.md,55,5,"141,143",True,"| ~~**""上/下""一个词盖着三件近乎不相关的事**~~ **降级为:三条角色轴之间相关很强但不是同一个** | **`Entry 24` 早已撤回""三条近乎独立""与""有效维度 2.95/3""**。用验证过的信度阶梯(",False,True
+README_zh.md,57,4,"26,26",False,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < 0.1 sd,极端度",True,False
+README_zh.md,66,1,82,False,"| ""域一般胜过域特异,186/276"" | **反转:0 一般 / 201 特异** | 那 186 是我给域特异侧的 −0.135 估计器坑 `#82` |",False,True
+README_zh.md,69,1,115,True,"| ""越早进入版图的东西越在中心"" | **撤回,只剩 10%** | 那不是时间,是""什么都给高分的人"" `#115` |",False,False
+README_zh.md,70,3,102,False,"| ""特质追踪更早的获取年龄"" | **撤回** | −0.030 对零 −0.028,零是效应的 91% `#102` |",False,True
+README_zh.md,79,3,91,True,| 看见 ≤30% 人携带的结构(方差解释法) | 5% 携带者在 **±50 pp** 下技能不离地板;需 ≈30% `#91` |,False,False
+README_zh.md,88,4,"169,20,11,15,20",False,"**并且这里有一条可迁移的方法学结论 —— 但比我最初发表的那条小得多。**按块数匹配把 pornhabit 的一致性缺口从 0.2285 压到 0.0871 再到 0.0439,**并使它与性别的排序反转** —— 这",False,False
