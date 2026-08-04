@@ -215,7 +215,21 @@ class Gate:
 
     # ---- output ----
 
+    def require_resolvable_first(self, name, effect, spread):
+        """#120: gate 之间是有顺序的,而我一直平铺着写。
+
+        A13R02 里我对一个 0.3x 的量跑了 negative_control 和形状比较 —— 那两个比较问的是
+        "零能不能解释它"和"它像哪个形状",但**一个还没证明自己非零的量,没有形状可言**。
+        这个方法把顺序写进代码:它不通过时,后续的 rows 全部标成 MOOT 而不是 PASS/FAIL,
+        因为对一个未分辨的效应说"零很小"是一个假的通过。"""
+        ok = self.resolvable(name, effect, spread)
+        if not ok:
+            self._moot = True
+        return ok
+
     def verdict(self):
+        if getattr(self, "_moot", False):
+            return False
         return all(r[2] for r in self.rows)
 
     def __str__(self):
@@ -223,5 +237,8 @@ class Gate:
         out = [f"  CONDITIONAL KILL -- {self.question}"]
         for nm, test, ok, note in self.rows:
             out.append(f"   {'PASS' if ok else 'FAIL'}  {nm:<{w}}  {test}   ({note})")
+        if getattr(self, "_moot", False):
+            out.append("   ⚠ 效应本身未通过可分辨性 —— 其后的比较全部 MOOT(#120):"
+                       "一个未分辨的量没有形状,也不需要零来解释")
         out.append(f"   => {'ALL GATES PASS' if self.verdict() else 'UNVERIFIED, and that is not an acquittal'}")
         return "\n".join(out)
