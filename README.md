@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 202 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **157 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 203 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **158 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -186,7 +186,7 @@ factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of t
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **157 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **158 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
