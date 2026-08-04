@@ -75,8 +75,13 @@ def curveball(M,rng,per_row=5.):
 def plant(M,r,sc,rng):
     n,m=M.shape; F=rng.normal(size=(n,r)); L=rng.normal(size=(r,m))*sc
     dev=F@L
-    p=np.clip(M.mean(0)[None,:]+dev,0.02,0.98)
-    return (rng.random((n,m))<p).astype(float), float(dev.std())
+    base=M.mean(0)[None,:]
+    p=np.clip(base+dev,0.02,0.98)
+    # ⚠ #157:第一版返回 `dev.std()` —— **clip 之前**的种植扰动 sd。
+    #   `#90c` 已经把它判为「第十七个 mis-specified statistic」,并把校正后的数
+    #   (交互 ±30.8 -> ±23.7 pp,族 CV 22.4% -> 15.9%)写进了账本 —— **但代码从没改**。
+    #   于是这一轮至今仍在打印被自己账本判为错的那一版,而且**静默地**(exit 0)。
+    return (rng.random((n,m))<p).astype(float), float((p-base).std())
 def wskill(M,seed):
     rng=np.random.default_rng(seed); obs=rng.random(M.shape)>=MASK; he=~obs
     val=(rng.random(M.shape)<0.2)&obs; fit=obs&~val
@@ -101,17 +106,20 @@ for i,t in enumerate(IDENT):
     for sd in SEEDS:
         rows.append(dict(q=t,world='real',rank=np.nan,scale=np.nan,seed=sd,
                          skill=wskill(M,sd),planted_sd=np.nan,
-                         item_pp=100*M.mean(0).std(),person_pp=100*M.mean(1).std()))
+                         item_pp=100*M.mean(0).std(),person_pp=100*M.mean(1).std(),
+                         # #157:同一循环里记下二项噪声,#90d 的校正才有可用的分母
+                         person_noise_pp=100*float(np.sqrt(np.mean(
+                             M.mean(1)*(1-M.mean(1))/M.shape[1])))))
         rg=np.random.default_rng(3300+sd)
         rows.append(dict(q=t,world='margin',rank=np.nan,scale=np.nan,seed=sd,
                          skill=wskill(curveball(M,rg),sd),planted_sd=0.,
-                         item_pp=np.nan,person_pp=np.nan))
+                         item_pp=np.nan,person_pp=np.nan,person_noise_pp=np.nan))
         for r in RANKS:
             for sc in SCALES:
                 Mw,psd=plant(M,r,sc,np.random.default_rng(4400+sd))
                 rows.append(dict(q=t,world='plant',rank=r,scale=sc,seed=sd,
                                  skill=wskill(Mw,sd),planted_sd=psd,
-                                 item_pp=np.nan,person_pp=np.nan))
+                                 item_pp=np.nan,person_pp=np.nan,person_noise_pp=np.nan))
     print(f"  {i+1}/{len(IDENT)}",flush=True)
 D=pd.DataFrame(rows)
 OUT=pathlib.Path(__file__).parent/'results'; D.to_csv(OUT/'grid.csv',index=False)
@@ -141,7 +149,13 @@ else:
     cv=F.implied_pp.std()/F.implied_pp.mean()
     print(f"\n   implied per-cell probability sd along the family: "
           f"{F.implied_pp.round(2).tolist()} pp   CV {cv:.1%}")
-    ip=D[D.world=='real'].item_pp.mean(); pp=D[D.world=='real'].person_pp.mean()
+    ip=D[D.world=='real'].item_pp.mean(); pp_raw=D[D.world=='real'].person_pp.mean()
+    # ⚠ #157:`#90d` 的校正也只活在账本散文里 —— 观测到的人层展布里有一部分是二项噪声,
+    #   校正量 = sqrt(观测^2 - 噪声^2)。代码一直打印**未校正**的那个。
+    noise=float(D[D.world=='real'].person_noise_pp.mean())
+    pp=float(np.sqrt(max(pp_raw**2-noise**2,0.)))
+    print(f"\n   人层展布的二项噪声校正(#90d):观测 {pp_raw:.1f} pp,噪声 {noise:.1f} pp "
+          f"-> 校正后 {pp:.1f} pp")
     print(f"\n   THE THREE COMPONENTS IN PERCENTAGE POINTS")
     print(f"     option base rates differ by      +/- {ip:.1f} pp  (sd of column means)")
     print(f"     people differ in overall rate by +/- {pp:.1f} pp  (sd of row means)")

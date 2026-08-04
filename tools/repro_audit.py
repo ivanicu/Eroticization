@@ -20,7 +20,10 @@ tools/repro_audit.py -- 账本条目声称的数字,那一轮的代码现在还�
 import re,sys,subprocess,pathlib,json
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 PY=str(ROOT/'.venv/bin/python')
-NUM=re.compile(r'(?<![\w.])[-+]?\d+\.\d{2,4}(?![\w])')
+# ⚠ #157:第一版要求 **>=2 位小数**,于是它看不见 `22.6` / `16.3` / `23.7` ——
+#   而那正是 README 头条(「±22.6 / ±16.3 / ±23.7 pp」)用的格式。
+#   **一个检查看不见它被造出来要检查的那种格式。** 放宽到 >=1 位。
+NUM=re.compile(r'(?<![\w.])[-+]?\d+\.\d{1,4}(?![\w])')
 
 def ledger_numbers(entry:int,ledger='RETRACTIONS.md'):
     L=(ROOT/ledger).read_text().splitlines()
