@@ -522,6 +522,37 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def profile_similarity_is_not_identity(self, name, profile_r, score_r,
+                                           profile_floor=0.60, score_floor=0.30):
+        """#279b:**剖面相似作为「是不是同一个东西」的证据,力量为零。**
+
+        这个项目三次撞上同一个分离,而第三次是**代数上保证**的:
+            `#259a`  分数 **+0.1589** / 剖面 **+0.7826**
+            `#263a`  分数 **−0.1010** / 剖面 **+0.7091**   ← 符号都相反
+            `#324`   分数 **恰好 0**(`form_i` 是六坐标残差,D 是六坐标之一)/ 剖面 **+0.7105**
+
+        **两个相关恰好为零的量,可以在 27 个结局上给出几乎同一张脸。**
+        所以任何以**剖面相关**下「同一构念」结论的地方,**必须同时给出分数层相关**;
+        剖面高而分数低 -> 这两个量**不是**同一个东西,无论剖面多像。
+
+        (反过来是允许的:剖面**低**是「不是同一个东西」的有效证据 ——
+        这个守卫只挡「剖面高 ⇒ 同一」这一个方向。)
+        """
+        if profile_r is None or score_r is None:
+            r = (name, "缺少剖面相关或分数相关", False, "两个都必须给出(#279b)")
+        elif abs(profile_r) > profile_floor and abs(score_r) < score_floor:
+            r = (name, f"剖面 **{profile_r:+.4f}** 而分数 **{score_r:+.4f}**", False,
+                 f"**剖面高({profile_floor})而分数低({score_floor})—— 这不是同一个构念**;"
+                 f"`#324` 有一个分数层恰好为零、剖面仍 +0.71 的代数反例(#279b)")
+        elif abs(profile_r) <= profile_floor:
+            r = (name, f"剖面 {profile_r:+.4f} ≤ {profile_floor}", True,
+                 "剖面低 —— 「不是同一个东西」是有效结论,这个方向不受限制")
+        else:
+            r = (name, f"剖面 {profile_r:+.4f} 且分数 {score_r:+.4f}", True,
+                 "剖面与分数同时高 —— 可以按「同一构念」读")
+        self.rows.append(r)
+        return r[2]
+
     def no_sign_crossing(self, name, series):
         """#83d/#79f: never take a ratio or a sum across a sign change."""
         s = np.asarray(series, dtype=float)
