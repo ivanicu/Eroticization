@@ -1,0 +1,38 @@
+{
+ "verdict": "NOTHING_CLEARS",
+ "cleared": [],
+ "readable": [],
+ "rows": [
+  {
+   "variable": "openness",
+   "clears": false,
+   "best": 0.0753819809184828,
+   "best_anchor": "\u6027\u4f34\u6570\u5206\u6863",
+   "prior": "\u5f31\u6b63(\u5f00\u653e\u6027\u6db5\u76d6\u5174\u8da3\u5e7f\u5ea6)\u2014\u2014 \u53ef\u8fa9\u62a4\u4f46\u5f31"
+  },
+  {
+   "variable": "consciensiousness",
+   "clears": false,
+   "best": 0.06890109751289995,
+   "best_anchor": "\u6027\u4f34\u6570\u5206\u6863",
+   "prior": "**\u65e0\u53ef\u8fa9\u62a4\u5148\u9a8c**(\u8dd1\u4e4b\u524d\u5df2\u5199\u4e0b)"
+  },
+  {
+   "variable": "neuroticism",
+   "clears": false,
+   "best": 0.051908864459435024,
+   "best_anchor": "pornhabit",
+   "prior": "**\u65e0\u53ef\u8fa9\u62a4\u5148\u9a8c**(\u8dd1\u4e4b\u524d\u5df2\u5199\u4e0b)"
+  },
+  {
+   "variable": "agreeableness",
+   "clears": false,
+   "best": 0.03089870612750116,
+   "best_anchor": "pornhabit",
+   "prior": "**\u65e0\u53ef\u8fa9\u62a4\u5148\u9a8c**(\u8dd1\u4e4b\u524d\u5df2\u5199\u4e0b)"
+  }
+ ],
+ "powerlessness_best": 0.17384015837889857,
+ "passing_kills": 0,
+ "without_floor": 0
+}
