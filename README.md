@@ -272,6 +272,16 @@ one; that version is retracted. ⚠ This is **not** the rarity-position coordina
 this page: it measures how strict you are, not how unusual your tastes are. NSFG has no shame item, so
 "position → shame" cannot be replicated there at all.
 
+**And that strictness coordinate is not one ruler but two.** Splitting the eight norms into three about
+sexual conduct and five about marriage and childrearing, and entering both counts together, the
+coefficient for each behaviour is carried by its **own** domain: same-sex contact by sexual strictness
+(−0.036 vs −0.012 cross-domain), non-marital cohabitation by family strictness (−0.051 vs **+0.002**),
+non-marital birth likewise (−0.052 vs **+0.016**). Three of five behaviours show the same-domain count
+at least twice the cross-domain one; the other two (early first sex, divorce) do not separate. ⚠ The
+two counts correlate at **+0.54**, which widens both standard errors and therefore pushes toward "cannot
+tell" rather than toward either answer; and the split into domains is mine, so a different carving
+could give a different answer.
+
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
 with societies as the unit. For **female premarital sex** they travel together very tightly
