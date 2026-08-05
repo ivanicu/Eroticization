@@ -89,3 +89,55 @@ def share_controls():
     ok1,v1,*_ = share(0.05, bad,  name="bad ")
     ok2,v2,*_ = share(0.05, good, name="good ")
     return (ok1 is False), (ok2 is True), (v1 is None)
+
+
+# ---------------------------------------------------------------- #456:中介的事前上界
+def mediation_headroom(x, y1, y2, mask, min_move=0.05, name=""):
+    """**在跑中介之前**算出「控制 `y2` 最多能把 `x -> y1` 的系数移动多少」。
+
+    `#456b`:`R500` 的中介检验「通过」了,而它几乎是**被逼出来**的 ——
+    两个结局彼此相关只有 −0.0022,所以控制其中任何一个,本来就拿不走另一个的任何东西。
+    **一个通过得太轻松的检验,和一个不可能失败的检验,只差一点点。**
+    而分辨两者只需要**三个相关系数**,不需要跑那一轮。
+
+    在标准化下,OLS 的恒等式是 `c = c' + a·b`,而
+        a = r(x, y2)
+        b = (r(y1,y2) − r(y1,x)·r(x,y2)) / (1 − r(x,y2)²)
+    所以 **间接项 a·b 完全由三个相关决定**,可以事前算出。
+    `r(y1,y2) ≈ 0` ⇒ `a·b ≈ −r(x,y2)²·r(y1,x)/(1−r(x,y2)²)` ⇒ 二阶小量 ⇒ **无空间可拿**。
+
+    返回 `(ok, indirect, share, why)`;`ok=False` 时 **`indirect` 是 None** ——
+    调用方**拿不到那个数**,而不是拿到之后被提醒它没有意义(与 `share()` 同一形状)。
+    `min_move` = 相对于总效应 `c` 的最小可辨移动比例。
+    """
+    import numpy as _np
+    m=_np.asarray(mask,dtype=bool)
+    def rr(u,v):
+        g=m&_np.isfinite(u)&_np.isfinite(v)
+        return float(_np.corrcoef(_np.asarray(u)[g],_np.asarray(v)[g])[0,1])
+    r_x_y2=rr(x,y2); r_y1_y2=rr(y1,y2); r_y1_x=rr(y1,x)
+    den=1.0-r_x_y2**2
+    if abs(den)<1e-9:
+        return (False, None, _np.nan, f"{name}x 与 y2 共线(r={r_x_y2:+.4f})")
+    a=r_x_y2; b=(r_y1_y2-r_y1_x*r_x_y2)/den
+    ind=a*b; c=r_y1_x
+    share=ind/c if abs(c)>1e-9 else _np.nan
+    if abs(c)<1e-9:
+        return (False, None, _np.nan, f"{name}总效应贴零(r={c:+.4g})-> 占比无意义")
+    if abs(share)<min_move:
+        return (False, None, share,
+                f"{name}**事前上界只有总效应的 {abs(share):.2%}**(< {min_move:.0%}) -> "
+                f"这个中介检验**跑不出信息**:r(y1,y2)={r_y1_y2:+.4f}")
+    return (True, float(ind), float(share), "")
+
+def headroom_controls():
+    """三个自检:正交结局被拒 · 真中介放行 · 拒绝时不返回数值。"""
+    import numpy as _np
+    rng=_np.random.default_rng(9); n=4000; m=_np.ones(n,dtype=bool)
+    x=rng.normal(size=n)
+    y2=0.3*x+rng.normal(size=n)                     # 与 x 相关
+    y1_orth=rng.normal(size=n)+0.3*x                # 与 y2 几乎无关
+    y1_med =0.5*y2+rng.normal(size=n)               # 真的经 y2
+    ok1,v1,_,_=mediation_headroom(x,y1_orth,y2,m,name="orth ")
+    ok2,v2,_,_=mediation_headroom(x,y1_med ,y2,m,name="med ")
+    return (ok1 is False), (ok2 is True), (v1 is None)

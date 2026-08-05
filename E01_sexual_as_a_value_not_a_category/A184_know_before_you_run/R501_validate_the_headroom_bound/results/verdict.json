@@ -1,0 +1,37 @@
+{
+ "verdict": "BOUND_WORKS",
+ "rows": [
+  {
+   "case": "**\u8d1f\u5bf9\u7167** `#500` \u8d77\u59cb\u2192\u80fd\u4e0d\u80fd\u6539(\u63a7\u7f9e\u803b)",
+   "expect": "\u65e0\u7a7a\u95f4",
+   "room": "\u65e0",
+   "indirect": NaN,
+   "share": -0.0074300400047039574,
+   "why": "**\u4e8b\u524d\u4e0a\u754c\u53ea\u6709\u603b\u6548\u5e94\u7684 0.74%**(< 5%) -> \u8fd9\u4e2a\u4e2d\u4ecb\u68c0\u9a8c**\u8dd1\u4e0d\u51fa\u4fe1\u606f**:r(y1,y2)=-0.00"
+  },
+  {
+   "case": "**\u8d1f\u5bf9\u7167** `#500` \u8d77\u59cb\u2192\u7f9e\u803b(\u63a7\u80fd\u4e0d\u80fd\u6539)",
+   "expect": "\u65e0\u7a7a\u95f4",
+   "room": "\u65e0",
+   "indirect": NaN,
+   "share": -0.0035763291178020325,
+   "why": "**\u4e8b\u524d\u4e0a\u754c\u53ea\u6709\u603b\u6548\u5e94\u7684 0.36%**(< 5%) -> \u8fd9\u4e2a\u4e2d\u4ecb\u68c0\u9a8c**\u8dd1\u4e0d\u51fa\u4fe1\u606f**:r(y1,y2)=-0.00"
+  },
+  {
+   "case": "**\u6b63\u5bf9\u7167** `#434` \u7528\u91cf\u2192\u5b9e\u8df5(\u63a7\u7f9e\u803b)",
+   "expect": "\u6709\u7a7a\u95f4",
+   "room": "\u6709",
+   "indirect": -0.006111913051238402,
+   "share": -0.2019212391774887,
+   "why": ""
+  }
+ ],
+ "bound": [
+  0.0074300400047039574,
+  0.0035763291178020325
+ ],
+ "observed": [
+  0.007,
+  0.005
+ ]
+}
