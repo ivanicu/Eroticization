@@ -1,0 +1,26 @@
+{
+ "verdict": "NOT_A_COPY_BUT_ANCHORABLE",
+ "best": 0.17384015837889857,
+ "best_vs": "extroversion",
+ "top_ref": 0.3731080577362279,
+ "rows": [
+  {
+   "vs": "pornhabit",
+   "r": 0.02368118438690782,
+   "abs": 0.02368118438690782
+  },
+  {
+   "vs": "bondageaverage",
+   "r": 0.04154291497698127,
+   "abs": 0.04154291497698127
+  },
+  {
+   "vs": "extroversion",
+   "r": -0.17384015837889857,
+   "abs": 0.17384015837889857
+  }
+ ],
+ "anchorable_via_extroversion": true,
+ "passing_kills": 0,
+ "without_floor": 0
+}
