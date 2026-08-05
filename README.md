@@ -279,8 +279,7 @@ coefficient for each behaviour is carried by its **own** domain: same-sex contac
 non-marital birth likewise (−0.052 vs **+0.016**). Three of five behaviours show the same-domain count
 at least twice the cross-domain one; the other two (early first sex, divorce) do not separate. ⚠ The
 two counts correlate at **+0.54**, which widens both standard errors and therefore pushes toward "cannot
-tell" rather than toward either answer; and the split into domains is mine, so a different carving
-could give a different answer.
+tell" rather than toward either answer; and the split into domains is mine. Letting the data carve instead — two principal components over the eight strictness indicators — agrees with my split on only **6 of 8** items, and the two it moves are exactly the two anomalous cells above: it groups *same-sex relations* with the family norms and *divorce* with the sexual ones. Its own second axis looks less like "sex vs family" than like "**when** it is all right" (ages, divorce) versus "**what counts as a family**". So the domain result holds **as I carved it**, and the carving is not the data's.
 
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
