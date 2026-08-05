@@ -1,0 +1,76 @@
+{
+ "ledger_numbers": 10073,
+ "rows": [
+  {
+   "file": "README.md",
+   "total": 1397,
+   "match": 1392,
+   "nomatch": 5,
+   "misses": [
+    "10.5281",
+    "\u221212.4",
+    "\u22124.8",
+    "0.4489",
+    "\u221215.5"
+   ]
+  },
+  {
+   "file": "README_zh.md",
+   "total": 1397,
+   "match": 1392,
+   "nomatch": 5,
+   "misses": [
+    "10.5281",
+    "\u221212.4",
+    "\u22124.8",
+    "0.4489",
+    "\u221215.5"
+   ]
+  }
+ ],
+ "n_nomatch": 10,
+ "nomatch": [
+  {
+   "file": "README.md",
+   "token": "10.5281"
+  },
+  {
+   "file": "README.md",
+   "token": "\u221212.4"
+  },
+  {
+   "file": "README.md",
+   "token": "\u22124.8"
+  },
+  {
+   "file": "README.md",
+   "token": "0.4489"
+  },
+  {
+   "file": "README.md",
+   "token": "\u221215.5"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "10.5281"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "\u221212.4"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "\u22124.8"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "0.4489"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "\u221215.5"
+  }
+ ],
+ "verdict": "**10 \u4e2a NO-MATCH -> \u5b83\u4eec\u662f\u4e0b\u4e00\u6279\u5fc5\u987b\u67e5\u7684\u4e1c\u897f**",
+ "unchallenged": true
+}
