@@ -1,0 +1,78 @@
+{
+ "scopes": [
+  {
+   "scope": "within_community",
+   "order": 0,
+   "rho": 0.4575757575757576,
+   "n": 55,
+   "null_sd": 0.11640801582942999,
+   "null_q95": 0.4873520923520922,
+   "seed_spread": 0.00041661020593447627
+  },
+  {
+   "scope": "within_ethnic",
+   "order": 1,
+   "rho": 0.4823373876255949,
+   "n": 61,
+   "null_sd": 0.11351691553897521,
+   "null_q95": 0.33240437158469943,
+   "seed_spread": 0.0005190942832714829
+  },
+  {
+   "scope": "between_ethnic",
+   "order": 2,
+   "rho": 0.5566254513622935,
+   "n": 38,
+   "null_sd": 0.12514656603691857,
+   "null_q95": 0.4811284969179706,
+   "seed_spread": 0.0015698618662944083
+  }
+ ],
+ "grid": {
+  "within_community|within_community": 0.4575757575757576,
+  "within_community|within_ethnic": 0.3301136363636364,
+  "within_community|between_ethnic": 0.25196099541665384,
+  "within_ethnic|within_community": 0.09040723981900453,
+  "within_ethnic|within_ethnic": 0.4823373876255949,
+  "within_ethnic|between_ethnic": 0.07683982683982683,
+  "between_ethnic|within_community": 0.03555718475073314,
+  "between_ethnic|within_ethnic": 0.03977485928705441,
+  "between_ethnic|between_ethnic": 0.5566254513622935
+ },
+ "grid_n": {
+  "within_community|within_community": 55,
+  "within_community|within_ethnic": 65,
+  "within_community|between_ethnic": 58,
+  "within_ethnic|within_community": 51,
+  "within_ethnic|within_ethnic": 61,
+  "within_ethnic|between_ethnic": 55,
+  "between_ethnic|within_community": 32,
+  "between_ethnic|within_ethnic": 40,
+  "between_ethnic|between_ethnic": 38
+ },
+ "diag_mean": 0.4988461988545487,
+ "off_mean": 0.1374422904128182,
+ "slope": 0.049524846893268026,
+ "slope_null_sd": 0.08480681008584132,
+ "positive": {
+  "rho": 0.3761398176291793,
+  "n": 48,
+  "ok": false
+ },
+ "negative": {
+  "rho": 0.2678758741258741,
+  "n": 65,
+  "ok": false
+ },
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u9f50(pos=False neg=False),\u9884\u6ce8\u518c\u7981\u6b62\u8bc4\u5224",
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "source": "lang1998conan",
+ "sentinel_excluded": [
+  88.0
+ ],
+ "unchallenged": true
+}
