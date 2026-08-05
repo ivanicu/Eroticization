@@ -1,0 +1,9 @@
+{
+ "verdict": "FLUID_RIDES_THE_FRAGILE_ONE",
+ "z_stable": 1.7812574851523544,
+ "z_fragile": 4.345642856874575,
+ "pw_stable": 0.8593406949451017,
+ "pw_fragile": 0.8585715544533521,
+ "null_p95": 0.33799087053935484,
+ "prediction": "A"
+}
