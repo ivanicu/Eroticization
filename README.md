@@ -1,8 +1,8 @@
 # The Eroticization Operator
 
 **"Sexual" — is it a content category the brain detects, or a value the brain assigns to ordinary
-world-representations?** 329 self-attacking rounds against one public dataset, asking what can be
-settled before anyone collects anything new. **283 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
+world-representations?** 531 self-attacking rounds against one public dataset, asking what can be
+settled before anyone collects anything new. **486 numbered ledger entries** — [RETRACTIONS.md](RETRACTIONS.md)
 carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.md)** — English is canonical; corrections land here first.
 
 Private curiosity project. Not written for publication and not seeking any.
@@ -174,6 +174,44 @@ the receipt.
 
 ---
 
+# A second instrument, and one thing it settles
+
+Everything above is one survey. Two public datasets were added 2026-08-05 so that a claim can be
+asked of an instrument that does not share this one's method: **the GSS** (US probability samples,
+1972–2024) and **the SCCS** (186 ethnographically coded societies). Neither can be pushed; both were
+read as they are.
+
+**In the US, condemnation of pornography collapsed and the gap it marks did not move.** Among adults
+aged 25–54, the share saying pornography should be illegal for everyone fell **0.38 → 0.18** across
+30 surveys. The log-odds gap between condemners and non-condemners in *reporting* having seen an
+X-rated film in the past year was **−1.34** in 1973–1988 and **−1.44** in 2006–2024:
+**Δ = −0.10, 95% CI [−0.29, +0.09]**, against a **minimum detectable effect of 0.27** — so a shift
+of the size that would matter (0.5) would have been seen, and was not. Across a 36-cell grid
+(3 age bands × 3 era widths × 2 statistics × with/without the 2021+ mode change) **35 of 36 cells
+carry the same sign and 3 exceed the MDE, all of them in the 35–64 band**, in the direction of the
+gap getting slightly *wider*.
+
+**What that rules out, and what it does not.** It rules out the simplest version of "shame suppresses
+the report": if the collapse of condemnation had been releasing a concealed population, the gap would
+have narrowed, and at this resolution it would have been visible. ⚠ It does **not** rule out
+concealment in general — **exposure opportunity was not held fixed**. Availability of the material
+changed enormously over the same 51 years, and if that change was asymmetric between condemners and
+non-condemners, a real narrowing could be masked by it. The claim is about **the era contrast at
+fixed life stage in this instrument**, not about concealment as such.
+
+**Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
+frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
+with societies as the unit. For **female premarital sex** they travel together very tightly
+(ρ = **+0.797**, n = 97); for **homosexuality** (−0.371, n = 34) and **rape** (−0.519, n = 17) the
+sign is the other way, and neither clears the family-wise permutation null. ⚠ The premarital figure
+is **not a mechanism claim**: attitude and frequency were coded by the same team from the same
+ethnographies, so a single sentence can produce both numbers. That confound is now **bounded rather
+than merely named** — inside the same publication, the typical coupling between any two of its
+variables is **|ρ| median 0.217**, and the only three pairs tighter than the headline are **the same
+question asked of men and of women**. It remains downgraded.
+
+---
+
 # What was retracted (kept here because I once reported it)
 
 | What I said | Now | Why |
@@ -304,7 +342,7 @@ must-read list, not a verdict.**
 
 | file | what it holds |
 |---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **167 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
+| [`RETRACTIONS.md`](RETRACTIONS.md) | **486 entries.** Every claim killed, scoped or corrected, with what killed it. Twelve are a later round of mine destroying an earlier round of mine |
 | [`FROZEN.md`](FROZEN.md) | Lines where further computation cannot identify what it is measuring, each with its unfreeze condition |
 | [`PREREGISTRATION.md`](PREREGISTRATION.md) | What the next rounds will test, with thresholds fixed in advance. Rounds r01–r52 were **not** preregistered and are labelled exploratory throughout |
 | [`ADVERSARY_FORECAST.md`](ADVERSARY_FORECAST.md) | What I expect an outside challenger to overturn, written before one arrives |
