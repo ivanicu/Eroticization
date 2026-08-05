@@ -977,6 +977,52 @@ class Gate:
                           "still enforces the narrow rule (a control variable defined only there?)"))
         return ok
 
+    def positive_control_at_the_contested_magnitude(self, name, plant_effect, contested_effect,
+                                                    plant_passed, what=""):
+        """#382a (guard 26) -- a positive control planted BIGGER than the thing in dispute is silence.
+
+        P5* says a zero from an instrument that has never returned non-zero is silence, not an
+        acquittal. R425 found the sharper version: in the same model and the same run, a SYNTHETIC
+        positive control planted at 0.25 passed at |t| 6.82 while the REAL reference `EARLY` --
+        known from #380 to be genuinely different -- reached only |t| 1.73 and failed. The synthetic
+        control would have licensed "S shows no sex difference". **An instrument that returns
+        non-zero only at magnitudes LARGER than the contested one is still silent.**
+
+        So the failure this catches is not "the positive control failed". It is the far more
+        dangerous **"the positive control passed, but it was planted above the contested
+        magnitude"** -- an instrument that looks validated and is not. Checks fail toward PASS,
+        and this is that failure wearing a control's clothes.
+
+        plant_effect      magnitude actually planted (same units as contested_effect)
+        contested_effect  magnitude of the thing being claimed absent/present
+        plant_passed      did the planted control clear its threshold
+        PASS requires: the control passed AND was planted at or below the contested magnitude.
+        Either input missing/non-finite -> UNVERIFIED-style FAIL, never a silent pass.
+        """
+        try:
+            pe = abs(float(plant_effect)); ce = abs(float(contested_effect))
+        except (TypeError, ValueError):
+            self.rows.append((name, "magnitudes unavailable", False,
+                              "cannot compare -- an uncomparable control is UNVERIFIED, not a pass"))
+            return False
+        if not (pe == pe and ce == ce) or ce <= 0:
+            self.rows.append((name, f"plant {pe:.4g} vs contested {ce:.4g}", False,
+                              "degenerate: contested magnitude is zero or non-finite -- "
+                              "there is nothing for the control to be calibrated against"))
+            return False
+        ok = bool(plant_passed) and pe <= ce
+        if not plant_passed:
+            note = "the control did not fire at all -- the instrument is silent (P5*)"
+        elif pe > ce:
+            note = (f"CONTROL PLANTED {pe/ce:.1f}x ABOVE THE CONTESTED MAGNITUDE -- it proves the "
+                    "instrument works at a size nobody is arguing about, and says nothing about "
+                    "the size in dispute (#381c)")
+        else:
+            note = "fired at or below the contested magnitude -- the instrument is calibrated where it matters"
+        self.rows.append((name, f"plant {pe:.4g} vs contested {ce:.4g}"
+                          + (f", {what}" if what else ""), ok, note))
+        return ok
+
     def three_valued(self):
         """#366e (guard 23) -- P6 says verdicts are CONFIRMED / OVERTURNED / UNVERIFIED.
 
