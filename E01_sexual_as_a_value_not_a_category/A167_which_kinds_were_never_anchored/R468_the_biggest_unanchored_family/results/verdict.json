@@ -1,0 +1,12 @@
+{
+ "verdict": "ONE_DIRECTION",
+ "n_all": 68,
+ "n_binary_excluded": 1,
+ "n_entered": 67,
+ "K": 134,
+ "thr": 3.5280639307880675,
+ "n_pos": 122,
+ "n_neg": 0,
+ "n_minority": 0,
+ "control": true
+}
