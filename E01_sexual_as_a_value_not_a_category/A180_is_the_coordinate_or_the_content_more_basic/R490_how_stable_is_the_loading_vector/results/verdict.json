@@ -1,0 +1,10 @@
+{
+ "verdict": "CONTENT_MORE_BASIC_THAN_COORDINATE",
+ "pw_median": 0.8590169160014254,
+ "pw_lo": -0.176043439816329,
+ "pw_hi": 0.9743857543788047,
+ "null_lo": -0.3505903654828834,
+ "null_hi": 0.3429073016979551,
+ "r_to_full_median": 0.9293565017420693,
+ "r_to_full_min": 0.12431835887506404
+}
