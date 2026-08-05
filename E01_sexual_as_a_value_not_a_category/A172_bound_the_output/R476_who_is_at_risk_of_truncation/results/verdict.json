@@ -1,0 +1,14 @@
+{
+ "verdict": "STRUCTURAL",
+ "n_rounds": 459,
+ "n_at_risk": 347,
+ "frac": 0.7559912854030502,
+ "this_session_at_risk": 8,
+ "this_session": 10,
+ "controls": [
+  true,
+  true,
+  true,
+  true
+ ]
+}
