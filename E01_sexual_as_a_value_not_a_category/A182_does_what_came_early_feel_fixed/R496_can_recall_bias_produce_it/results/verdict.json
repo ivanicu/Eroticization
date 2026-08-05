@@ -1,0 +1,11 @@
+{
+ "verdict": "SURVIVES",
+ "b_before": 0.05018820890374313,
+ "b_after": 0.047656786358526194,
+ "thr_before": 0.0222204034420095,
+ "thr_after": 0.022245260343832982,
+ "r_prec_early": 0.9932487180448386,
+ "r_tilt_early": 0.27333326138500846,
+ "n": 6715,
+ "citation_fix": "page cited #289 for recall bias; the real work is #114 (R166)"
+}
