@@ -213,6 +213,18 @@ self-report in the same questionnaire, their **agreement licenses nothing** — 
 **12 of 12 cells put the gap on the same side**, and it widens monotonically as the cut moves toward
 heavy use (−1.57 at *several times a year* to −2.19 at *every week*).
 
+**And the same shape survives a different institution, a different topic, and a different way of
+being asked.** The NSFG is run by a different agency, on a different sample, with its sensitive items
+**self-administered on a computer rather than spoken to an interviewer** — the one thing GSS could not
+vary. It carries the same pair: *"sexual relations between two same-sex adults is all right"*
+(agree/disagree) and whether the respondent has ever had same-sex contact. Among women in 2017–2019,
+**log-odds = −1.22, 95% CI [−1.41, −1.05]** (n = 5,895), against **−1.42** for the GSS pornography
+pair. Across both waves, both definitions of condemning and both definitions of the behaviour,
+**8 of 8 cells carry the same sign** (range −1.41 to −0.41). ⚠ The topic changed too, so "the same
+size" could be two different topics happening to land nearby; and the weaker cells are the
+*last-12-months* ones, which come from a filtered question (n ≈ 1,260 of 6,141) and may be attenuated
+by that selection rather than by anything real.
+
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
 with societies as the unit. For **female premarital sex** they travel together very tightly
