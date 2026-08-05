@@ -995,7 +995,8 @@ class Gate:
             pass          # a ledger that breaks a round is worse than a missing ledger
 
     def positive_control_at_the_contested_magnitude(self, name, plant_effect, contested_effect,
-                                                    plant_passed, what="", branch=None):
+                                                    plant_passed, what="", branch=None,
+                                                    main_quantity=None, sweep_detection=None):
         """(#402a) `branch` makes the commonest misuse impossible instead of merely remembered.
 
         Three times now the wrong `contested_effect` was passed (#372c, #384d, #402a): a NULL
@@ -1010,6 +1011,30 @@ class Gate:
         """
         if branch is not None and branch not in ("null", "non_null"):
             raise ValueError(f"branch must be 'null' or 'non_null', got {branch!r}")
+        if main_quantity is not None and main_quantity not in ("continuous", "discrete_count"):
+            raise ValueError("main_quantity must be 'continuous' or 'discrete_count', "
+                             f"got {main_quantity!r}")
+        # #407a: a DISCRETE main quantity (sign counts, cell counts, threshold-crossing counts)
+        # has almost no dynamic range -- any uniform nudge flips every near-zero term at once and
+        # the sweep saturates, so its "MDE" reads tiny when it is really UNMEASURABLE (#406b).
+        # R451 tried to find such rounds retrospectively by regex and failed its own negative
+        # control on the third try, because "what the main quantity is" is written nowhere in the
+        # code. So the fix is #383a's: make the caller declare it, and refuse the calibration
+        # outright when the sweep saturates.
+        if main_quantity == "discrete_count":
+            det = list(sweep_detection or [])
+            if not det:
+                self.rows.append((name, f"discrete main quantity, no sweep supplied", False,
+                                  "a discrete count needs its sweep's detection rates so "
+                                  "saturation can be ruled out -- MDE alone is not admissible"))
+                return False
+            if all(abs(float(x) - 1.0) < 1e-9 for x in det):
+                self.rows.append((name, f"discrete main quantity, sweep detection {det}", False,
+                                  "SWEEP SATURATED at every level -- this design's MDE is "
+                                  "UNMEASURABLE, not small; the calibration carries no information "
+                                  "(#406b)"))
+                return False
+            what = (what + " · " if what else "") + f"discrete, sweep {det} (not saturated)"
         if branch is not None:
             what = (f"[{branch}] " + what) if what else f"[{branch}]"
         return self._pcacm(name, plant_effect, contested_effect, plant_passed, what)
