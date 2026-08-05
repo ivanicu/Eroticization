@@ -48,3 +48,44 @@ def controls():
         written        = out[0][1].exists() and out[1][1].exists()
         same_len       = len(pd.read_csv(out[0][1]))==30 and len(pd.read_csv(out[1][1]))==5
     return trunc_reported, full_no_lie, written, same_len
+
+
+# ---------------------------------------------------------------- #436:比值的守门
+def share(num, den_boot, num_boot=None, name=""):
+    """把一个「占比」变成**可以拒绝发布**的东西。
+
+    `#435c`:`pornhabit` 的间接效应稳(越零阈、自身区间不含 0),而它的**占比**
+    `a·b / c` 的自助区间是 `[−3.59, +2.16]` —— 因为分母 `c = 0.0122` 贴着零。
+    **一个效应可以是稳的,而它的占比同时是不可估的,因为占比的分母是另一个量。**
+
+    `#436`:扫描抓不到这件事 —— 页面上写的是**比值**,分母的区间从来不在句子里。
+    所以修法不是审计,是**让分母的区间成为计算占比的前提**(`#383a`:改接口)。
+
+    返回 `(ok, value, lo, hi, reason)`;`ok=False` 时 **`value` 是 None** ——
+    调用方拿不到那个数,而不是拿到之后被提醒不要用。
+    """
+    import numpy as _np
+    d=_np.asarray(den_boot,dtype=float); d=d[_np.isfinite(d)]
+    if d.size < 20:
+        return (False, None, _np.nan, _np.nan, f"{name}分母自助样本太少({d.size})")
+    dlo,dhi=_np.percentile(d,[2.5,97.5])
+    if dlo<=0<=dhi:
+        return (False, None, dlo, dhi,
+                f"{name}**分母的区间含零** [{dlo:+.4g}, {dhi:+.4g}] -> 占比不可估")
+    if num_boot is not None:
+        n_=_np.asarray(num_boot,dtype=float)
+        k=min(len(n_),len(d)); r=n_[:k]/d[:k]
+        lo,hi=_np.percentile(r,[2.5,97.5])
+    else:
+        lo,hi=_np.nan,_np.nan
+    return (True, float(num)/float(_np.median(d)), lo, hi, "")
+
+def share_controls():
+    """三个对照:近零分母被拒 · 远离零的分母通过 · 拒绝时不返回数值。"""
+    import numpy as _np
+    rng=_np.random.default_rng(3)
+    bad =rng.normal(0.0,0.02,400)          # 分母贴着零
+    good=rng.normal(0.50,0.02,400)         # 分母远离零
+    ok1,v1,*_ = share(0.05, bad,  name="bad ")
+    ok2,v2,*_ = share(0.05, good, name="good ")
+    return (ok1 is False), (ok2 is True), (v1 is None)
