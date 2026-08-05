@@ -810,10 +810,21 @@ class Gate:
                           "complete" if ok else f"MISSING {missing}"))
         return ok
 
-    def asserted(self, name, condition, detail):
-        """#96a: a condition stated in prose must be a boolean here, or it was never tested."""
+    def asserted(self, name, condition, detail, kind="kill"):
+        """#96a: a condition stated in prose must be a boolean here, or it was never tested.
+
+        `kind` (#366e, guard 23):
+          "control" -- an instrument check (positive/negative/offset control).
+          "kill"    -- the pre-registered threshold itself.
+        Declaring it is what lets `__str__` tell **OVERTURNED** from **UNVERIFIED**.
+        Rounds that never pass `kind` keep the old two-valued output byte-for-byte.
+        """
+        if kind not in ("kill", "control"):
+            raise ValueError(f"kind must be 'kill' or 'control', got {kind!r}")
         ok = bool(condition)
         self.rows.append((name, detail, ok, "asserted in code, not in prose"))
+        if kind == "control":
+            self._control_rows = getattr(self, "_control_rows", set()) | {len(self.rows) - 1}
         return ok
 
     # ---- output ----
@@ -903,5 +914,33 @@ class Gate:
         for fam in sorted(getattr(self, "_moot_fams", set())):
             out.append(f"   ⚠ 族 `{fam}` 的效应未通过可分辨性 —— **该族内**其后的比较 MOOT(#120/#130)。"
                        "其它族不受影响。")
-        out.append(f"   => {'ALL GATES PASS' if self.verdict() else 'UNVERIFIED, and that is not an acquittal'}")
+        out.append(f"   => {self.three_valued()}")
         return "\n".join(out)
+
+    def three_valued(self):
+        """#366e (guard 23) -- P6 says verdicts are CONFIRMED / OVERTURNED / UNVERIFIED.
+
+        This class had **two** exits, so a pre-registered kill that FIRED (controls sound,
+        threshold crossed against me) printed as `UNVERIFIED`. That is P6's error mirrored:
+        folding UNVERIFIED into OVERTURNED manufactures false **pardons**; folding OVERTURNED
+        into UNVERIFIED manufactures false **doubt** -- and doubt gets retried while a
+        refutation gets abandoned. In a project whose basin rule is "same question UNVERIFIED
+        twice -> change direction", that mislabel corrupts the basin detector itself.
+
+        Back-compatible: with no row declared `kind="control"` the two old strings are returned.
+        """
+        ctrl = getattr(self, "_control_rows", set())
+        if getattr(self, "_moot", False) or getattr(self, "_moot_fams", set()):
+            return "UNVERIFIED, and that is not an acquittal"
+        if not ctrl:
+            return "ALL GATES PASS" if self.verdict() else "UNVERIFIED, and that is not an acquittal"
+        bad_ctrl = [self.rows[i][0] for i in sorted(ctrl) if not self.rows[i][2]]
+        if bad_ctrl:
+            return ("UNVERIFIED, and that is not an acquittal "
+                    f"-- the instrument failed its own control ({', '.join(bad_ctrl)})")
+        bad_kill = [r[0] for i, r in enumerate(self.rows) if i not in ctrl and not r[2]]
+        if not bad_kill:
+            return "ALL GATES PASS"
+        return ("OVERTURNED -- controls sound, and the pre-registered threshold fired "
+                f"AGAINST the expectation ({', '.join(bad_kill)}). "
+                "This is a refutation, NOT an unverified round (#366e).")
