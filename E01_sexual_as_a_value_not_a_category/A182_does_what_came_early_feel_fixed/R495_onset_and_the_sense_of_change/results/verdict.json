@@ -1,0 +1,29 @@
+{
+ "verdict": "EARLY_FEELS_FIXED",
+ "n": 6715,
+ "thr": 0.03140373676530917,
+ "mde": 0.01445428069461047,
+ "rows": [
+  {
+   "outcome": "\u7f9e\u803b",
+   "b": -0.06033436585847032,
+   "sig": true
+  },
+  {
+   "outcome": "\u80fd\u4e0d\u80fd\u6539",
+   "b": 0.05018820890374313,
+   "sig": true
+  },
+  {
+   "outcome": "\u6cbb\u7597\u6027",
+   "b": -0.012682346355092309,
+   "sig": false
+  },
+  {
+   "outcome": "\u5b9e\u8df5\u4e86\u591a\u5c11",
+   "b": -0.03122367439627543,
+   "sig": false
+  }
+ ],
+ "prediction": "A"
+}
