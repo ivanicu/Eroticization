@@ -273,6 +273,8 @@ question asked of men and of women**. It remains downgraded.
 
 ---
 
+| A conjecture born here cannot be tested here | The six topics split three-down / three-up under a threshold sweep (`#494a`), which suggested that the gap widens where the behaviour leaves a third-party-visible trace. That conjecture was generated from those six slopes, so it cannot be tested on them. Screening every attitude item in both surveys for a usable partner gave **0 of 6** eligible new topics with a matching *own-behaviour* variable — beliefs, other people's rights, and attitudes with no behavioural counterpart. It is frozen, untested, and needs a questionnaire that asks "have you done this", not another pass over these two. |
+
 # What was retracted (kept here because I once reported it)
 
 | What I said | Now | Why |
