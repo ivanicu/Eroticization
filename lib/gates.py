@@ -522,6 +522,39 @@ class Gate:
         self.rows.append(r)
         return r[2]
 
+    def curve_has_enough_points(self, name, xs, ys=None, min_points=3, what=""):
+        """#362a:**一条只有一个点的曲线,会让下游每一个判据都通过。**
+
+        `#361b`:`R405` 的设计在第一步就死了(950 个人里只有 1 个块是他们都答过的),
+        于是 `k` 只能取 1,曲线只有**一个点**,全距 **0.0000**。
+        而注册的 kill(「全距 > MDE?」)判**「平」**,guard 21(三件套齐)判**「这个零可以发布」**——
+        **两个判据都对着一个点开火,而没有一个问「曲线有几个点」。**
+
+        > **`#296b` 挡的是一个**数**越出定义域;这一条挡的是一个**设计**退化成一个点。**
+        > **全距、单调性、剂量-反应、规格曲线 —— 每一个都以「有一条曲线」为前提,而那个前提要先被检。**
+
+        用法:任何以**曲线 / 扫描 / 剂量-反应 / 规格曲线**作证据的判据之前调用它,
+        传入 x(扫描的自变量)与可选的 y。
+        **不同 x 的个数 < min_points -> FAIL(设计退化)**,不要让下游判据去开火。
+        """
+        try:
+            xv = [float(x) for x in xs]
+        except Exception:
+            r = (name, f"{xs!r} 不是可比较的 x 列表", False, "曲线的自变量必须给出(#362a)")
+            self.rows.append(r); return False
+        if ys is not None and len(ys) != len(xv):
+            r = (name, f"x 有 {len(xv)} 个而 y 有 {len(ys)} 个", False, "长度不一致 —— 这不是一条曲线(#362a)")
+            self.rows.append(r); return False
+        uniq = len({round(x, 12) for x in xv})
+        if uniq < int(min_points):
+            r = (name, f"不同 x 只有 **{uniq}** 个(共 {len(xv)} 点,要求 ≥ {min_points})", False,
+                 f"**设计退化 —— {what or '这条曲线'}不足以支撑任何全距/单调性/剂量-反应判据**;"
+                 f"`#361b` 里两个判据都在一个点上通过了(#362a)")
+        else:
+            r = (name, f"不同 x **{uniq}** 个(共 {len(xv)} 点)", True,
+                 "曲线有足够的点 —— 下游的全距 / 单调性判据可以读")
+        self.rows.append(r); return r[2]
+
     def null_claim_uses_null_criteria(self, name, claim_kind, perm_quantile=None,
                                       mde=None, sensitivity_shown=None, meaningful=None):
         """#312a:**为「有效应」设计的判据,用在「没有效应」的结论上会系统性地误报。**
