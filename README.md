@@ -245,6 +245,17 @@ condemnation share does not order the gaps monotonically, but that is an observa
 ⚠ And a wide interval favours "they overlap", so a disjoint pair is found in the conservative
 direction.
 
+**And it is not carried by how many people condemn.** Across the six topics, the gap does track the
+share who condemn — slope **+0.60, 95% CI [+0.27, +0.93]**. But that association is confounded: the
+share and the topic vary together. Holding the topic and the behaviour fixed and moving only the
+threshold for counting as a condemner (strongly disagree / disagree / mildly-or-worse) gives a
+within-topic slope of **−0.18, CI [−0.39, +0.01]**, against an **MDE of 0.28** — a design that could
+comfortably have seen +0.60 and did not. **So the across-topic relation is carried by the topics, not
+by the headcount.** ⚠ Moving the threshold changes the *intensity* of the condemning group as well as
+its size, so "size does not matter" is entangled with "intensity does not matter"; and the pooled
+within-topic slope averages topic-specific slopes that disagree in sign (cohabitation −0.9, divorce
++0.5).
+
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
 with societies as the unit. For **female premarital sex** they travel together very tightly
