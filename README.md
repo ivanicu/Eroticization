@@ -199,6 +199,20 @@ changed enormously over the same 51 years, and if that change was asymmetric bet
 non-condemners, a real narrowing could be masked by it. The claim is about **the era contrast at
 fixed life stage in this instrument**, not about concealment as such.
 
+**And the item it was measured with is not the only one the survey uses.** In 2022 and 2024 the GSS
+split its sample at random between two behaviour questions — *"seen an x-rated movie in the last
+year"* (yes/no) and *"seen pornography in the past year"* (a ten-point frequency scale). The arms are
+balanced (max |z| = 1.95 over five demographics). They do not report the same thing: **0.320 vs
+0.425 positive, Δ = +0.105, 95% CI [+0.079, +0.135]** — a tenth of the population moves in or out of
+"has seen any" depending on which question they were handed. The **condemnation gap itself**, though,
+is not distinguishable between the arms: **Δ log-odds = −0.27, 95% CI [−0.61, +0.08]**, against an
+MDE of **0.50**. ⚠ Two things vary together between the arms (the object named, and the answer
+format), so that difference cannot be attributed to either alone; and because both arms are
+self-report in the same questionnaire, their **agreement licenses nothing** — only the bound
+**|Δ| < 0.50** is reportable. Across the frequency scale's eight cut points and four subgroups,
+**12 of 12 cells put the gap on the same side**, and it widens monotonically as the cut moves toward
+heavy use (−1.57 at *several times a year* to −2.19 at *every week*).
+
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
 with societies as the unit. For **female premarital sex** they travel together very tightly

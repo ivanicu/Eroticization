@@ -1,0 +1,154 @@
+{
+ "balance": [
+  {
+   "var": "age",
+   "mean_xmovie": 50.17326502095948,
+   "mean_xmoviey": 50.56465942744324,
+   "z": -0.7058245466826739
+  },
+  {
+   "var": "sex",
+   "mean_xmovie": 1.559390407888839,
+   "mean_xmoviey": 1.5477676428228517,
+   "z": 0.7672054205780251
+  },
+  {
+   "var": "degree",
+   "mean_xmovie": 1.8424810352521195,
+   "mean_xmoviey": 1.8414517669531996,
+   "z": 0.026838326205337652
+  },
+  {
+   "var": "attend",
+   "mean_xmovie": 2.696179775280899,
+   "mean_xmoviey": 2.857280153772225,
+   "z": -1.9467022108118655
+  },
+  {
+   "var": "polviews",
+   "mean_xmovie": 4.022109626900046,
+   "mean_xmoviey": 4.112759643916914,
+   "z": -1.9411825685492687
+  }
+ ],
+ "n_arms": {
+  "xmovie": 2242,
+  "xmoviey": 2095
+ },
+ "base_xmovie": 0.3198037466547725,
+ "base_xmoviey": 0.42482100238663484,
+ "base_delta": 0.1049524855279658,
+ "base_delta_ci": [
+  0.07861374518574661,
+  0.13452590914607016
+ ],
+ "lnor_xmovie": -1.418282176005722,
+ "lnor_xmoviey": -1.6864075828519705,
+ "delta": -0.2681254068462484,
+ "ci": [
+  -0.6114518034492719,
+  0.0819217202767181
+ ],
+ "se": 0.1774387318956168,
+ "MDE": 0.49682844930772696,
+ "meaningful": 0.5,
+ "spec": [
+  {
+   "kind": "cut",
+   "cut": 1,
+   "label": "never",
+   "lnor_B": -1.6864075828519705,
+   "delta": -0.2681254068462484
+  },
+  {
+   "kind": "cut",
+   "cut": 2,
+   "label": "less than once a year",
+   "lnor_B": -1.7028820187318512,
+   "delta": -0.28459984272612915
+  },
+  {
+   "kind": "cut",
+   "cut": 3,
+   "label": "about once or twice a year",
+   "lnor_B": -1.672433177103945,
+   "delta": -0.25415100109822286
+  },
+  {
+   "kind": "cut",
+   "cut": 4,
+   "label": "several times a year",
+   "lnor_B": -1.5653558988461125,
+   "delta": -0.14707372284039044
+  },
+  {
+   "kind": "cut",
+   "cut": 5,
+   "label": "about once a month",
+   "lnor_B": -1.6211310909956156,
+   "delta": -0.20284891498989355
+  },
+  {
+   "kind": "cut",
+   "cut": 6,
+   "label": "2-3 times a month",
+   "lnor_B": -1.8858000879643337,
+   "delta": -0.4675179119586117
+  },
+  {
+   "kind": "cut",
+   "cut": 7,
+   "label": "nearly every week",
+   "lnor_B": -2.0994521433902915,
+   "delta": -0.6811699673845695
+  },
+  {
+   "kind": "cut",
+   "cut": 8,
+   "label": "every week",
+   "lnor_B": -2.1924732094283352,
+   "delta": -0.7741910334226132
+  },
+  {
+   "kind": "subgroup",
+   "name": "age<50",
+   "lnor_A": -1.2732796968548776,
+   "lnor_B": -1.3808135896259204,
+   "delta": -0.10753389277104275
+  },
+  {
+   "kind": "subgroup",
+   "name": "age>=50",
+   "lnor_A": -1.4459156094415413,
+   "lnor_B": -1.7818048317333999,
+   "delta": -0.3358892222918586
+  },
+  {
+   "kind": "subgroup",
+   "name": "HS+",
+   "lnor_A": -1.4881818973806884,
+   "lnor_B": -1.637119495905076,
+   "delta": -0.1489375985243877
+  },
+  {
+   "kind": "subgroup",
+   "name": "attend_lo",
+   "lnor_A": -1.0842561675339568,
+   "lnor_B": -1.671341167223229,
+   "delta": -0.5870849996892722
+  }
+ ],
+ "controls": {
+  "pos_xmovie": true,
+  "plac_xmovie": true,
+  "pos_xmoviey": true,
+  "plac_xmoviey": true
+ },
+ "verdict": "|\u0394|=0.2681 < MDE=0.4968,CI \u542b 0 -> \u26a0 **\u4e0d\u6388\u6743 W-PERSON**(\u4e24\u81c2\u5171\u4eab\u81ea\u62a5\u65b9\u6cd5);\u53ea\u62a5\u4e00\u4e2a\u4e0a\u754c |\u0394| < 0.497",
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "unchallenged": true
+}
