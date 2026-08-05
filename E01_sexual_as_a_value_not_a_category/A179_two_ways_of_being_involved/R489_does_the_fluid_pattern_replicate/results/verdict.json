@@ -1,0 +1,9 @@
+{
+ "verdict": "REPLICATES",
+ "rate": 1.0,
+ "gap_full": 0.35390717652138215,
+ "gap_median": 0.31337677812644016,
+ "mde_median": 0.15796224272280918,
+ "all_positive": true,
+ "n_splits": 20
+}
