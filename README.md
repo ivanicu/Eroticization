@@ -225,6 +225,14 @@ size" could be two different topics happening to land nearby; and the weaker cel
 *last-12-months* ones, which come from a filtered question (n ≈ 1,260 of 6,141) and may be attenuated
 by that selection rather than by anything real.
 
+⚠ **How close is close?** A later round (`#490`) put three attitude/behaviour pairs side by side
+*inside one NSFG questionnaire, one sample, one mode* — same-sex relations, unmarried childbearing,
+and unmarried cohabitation. Their log-odds were **−1.22, −0.73 and −0.31**, mutually non-overlapping,
+a spread of **0.90**. That is **4.5× the 0.20 that separates the GSS and NSFG numbers above.** ⚠ That
+round is UNVERIFIED — one of its three positive controls failed — so this is a reason to withhold the
+reading, not a finding. But it means the sentence "the same size" has **no established scale behind
+it**, and should not be read as agreement until one exists.
+
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
 with societies as the unit. For **female premarital sex** they travel together very tightly
