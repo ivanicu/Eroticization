@@ -1,0 +1,30 @@
+{
+ "verdict": "ANCHORED",
+ "n_powered": 1,
+ "n_main": 1,
+ "control_ok": true,
+ "rows": [
+  {
+   "trait": "extroversionvariable",
+   "anchor": "sexcount",
+   "expect": "+",
+   "n": 15263,
+   "r": 0.14576314367636992,
+   "null_sd": 0.00898447954502971,
+   "z": 16.2238828577452,
+   "powered": true,
+   "implied": "as-coded"
+  },
+  {
+   "trait": "pornhabit",
+   "anchor": "Totalsexacts",
+   "expect": "+",
+   "n": 15253,
+   "r": 0.18094272663926517,
+   "null_sd": 0.008633116371461327,
+   "z": 20.959143703589046,
+   "powered": true,
+   "implied": "as-coded"
+  }
+ ]
+}
