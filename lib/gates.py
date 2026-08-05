@@ -995,7 +995,27 @@ class Gate:
             pass          # a ledger that breaks a round is worse than a missing ledger
 
     def positive_control_at_the_contested_magnitude(self, name, plant_effect, contested_effect,
-                                                    plant_passed, what=""):
+                                                    plant_passed, what="", branch=None):
+        """(#402a) `branch` makes the commonest misuse impossible instead of merely remembered.
+
+        Three times now the wrong `contested_effect` was passed (#372c, #384d, #402a): a NULL
+        result's contested magnitude is the MEANINGFUL effect size (what you would have wanted to
+        see), while a NON-NULL result's is the OBSERVED effect (prove the instrument works at the
+        size actually found). Passing the null's number on a firing result makes the gate reject a
+        real finding; passing the observed number on a null makes it wave through a blind design.
+
+        `branch` must be "null" or "non_null" when given; it does not change the arithmetic, it
+        forces the caller to say which quantity `contested_effect` is -- the #383a move of changing
+        the interface rather than strengthening the reader.
+        """
+        if branch is not None and branch not in ("null", "non_null"):
+            raise ValueError(f"branch must be 'null' or 'non_null', got {branch!r}")
+        if branch is not None:
+            what = (f"[{branch}] " + what) if what else f"[{branch}]"
+        return self._pcacm(name, plant_effect, contested_effect, plant_passed, what)
+
+    def _pcacm(self, name, plant_effect, contested_effect,
+               plant_passed, what=""):
         """#382a (guard 26) -- a positive control planted BIGGER than the thing in dispute is silence.
 
         P5* says a zero from an instrument that has never returned non-zero is silence, not an
