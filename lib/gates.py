@@ -977,6 +977,23 @@ class Gate:
                           "still enforces the narrow rule (a control variable defined only there?)"))
         return ok
 
+    def _record_call(self, **kw):
+        """#383b: record EVERY call, including the ones that could not be compared.
+
+        The first version recorded only the comparable path, so a control that was
+        UNCOMPARABLE vanished from the audit -- which is exactly the failure R426 named
+        about its own regex scan: what cannot be extracted is not "fine", it is "unlooked-at".
+        A ledger that drops its own hard cases flatters the thing it audits.
+        """
+        self.calls = getattr(self, "calls", [])
+        self.calls.append(kw)
+        try:
+            import json, pathlib as _pl
+            with _pl.Path("lib/_gate_calls.jsonl").open("a") as fh:
+                fh.write(json.dumps(kw, ensure_ascii=False) + "\n")
+        except Exception:
+            pass          # a ledger that breaks a round is worse than a missing ledger
+
     def positive_control_at_the_contested_magnitude(self, name, plant_effect, contested_effect,
                                                     plant_passed, what=""):
         """#382a (guard 26) -- a positive control planted BIGGER than the thing in dispute is silence.
@@ -1004,11 +1021,17 @@ class Gate:
         except (TypeError, ValueError):
             self.rows.append((name, "magnitudes unavailable", False,
                               "cannot compare -- an uncomparable control is UNVERIFIED, not a pass"))
+            self._record_call(kind="positive_control", name=name, plant=None, contested=None,
+                              passed=bool(plant_passed), ok=False, what=what,
+                              status="UNCOMPARABLE_bad_input")
             return False
         if not (pe == pe and ce == ce) or ce <= 0:
             self.rows.append((name, f"plant {pe:.4g} vs contested {ce:.4g}", False,
                               "degenerate: contested magnitude is zero or non-finite -- "
                               "there is nothing for the control to be calibrated against"))
+            self._record_call(kind="positive_control", name=name, plant=pe, contested=None,
+                              passed=bool(plant_passed), ok=False, what=what,
+                              status="UNCOMPARABLE_degenerate_contested")
             return False
         ok = bool(plant_passed) and pe <= ce
         if not plant_passed:
@@ -1021,6 +1044,12 @@ class Gate:
             note = "fired at or below the contested magnitude -- the instrument is calibrated where it matters"
         self.rows.append((name, f"plant {pe:.4g} vs contested {ce:.4g}"
                           + (f", {what}" if what else ""), ok, note))
+        # #383a: the audit reads THIS, not the source code. R426 could machine-read only
+        # 1.9% of 212 rounds because planted magnitudes are written a dozen different ways
+        # in code. Writing a stronger regex is the path #374b and #377c both showed fails.
+        # Recording the parameters at the call site makes extraction exact by construction.
+        self._record_call(kind="positive_control", name=name, plant=pe, contested=ce,
+                          passed=bool(plant_passed), ok=ok, what=what, status="COMPARABLE")
         return ok
 
     def three_valued(self):

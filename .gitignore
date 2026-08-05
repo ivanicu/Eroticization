@@ -8,3 +8,4 @@ data/derived/*.npy
 __pycache__/
 data/external/
 data/card/
+lib/_gate_calls.jsonl
