@@ -1,0 +1,13 @@
+case,variable,anchorable,best
+#428c 全样本,openness,False,0.0753819809184828
+#428c 全样本,conscientiousness,False,0.06890109751289995
+#428c 全样本,extroversion,True,0.14576314367636992
+#428c 全样本,neuroticism,False,0.03550124246553011
+#428c 全样本,agreeableness,False,0.016268917725823395
+#428c 全样本,powerlessness,False,0.07391703784206874
+#428c 全样本,pornhabit,True,0.19578530214488146
+#428c 全样本,bondageaverage,True,0.24733162222727934
+#461 全样本,powerlessness,False,0.07391703784206874
+#442b 块掩码,c1,True,0.13068224753313393
+#442b 块掩码,c2,True,0.3763770098509979
+#442b 块掩码,c3,True,0.459997664952553

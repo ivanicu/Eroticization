@@ -141,3 +141,63 @@ def headroom_controls():
     ok1,v1,_,_=mediation_headroom(x,y1_orth,y2,m,name="orth ")
     ok2,v2,_,_=mediation_headroom(x,y1_med ,y2,m,name="med ")
     return (ok1 is False), (ok2 is True), (v1 is None)
+
+
+# ---------------------------------------------------------------- #461:判据必须自带正对照
+class PositiveControlFailed(RuntimeError):
+    """判据的正对照没过 -> 不返回任何候选的判定。"""
+
+def anchor_rule(candidates, anchors, known_direction, mask, bar=0.10):
+    """方向锚定的判据,**要求调用方交出正对照,并在正对照失败时抛错**。
+
+    `#442b`:我写的「单锚 ≥0.10」把方向**已确立**的 `pornhabit` 判成锚不住。
+    `#461b`:修成「两个计数锚」之后,它又把 `extroversion` 判成锚不住 ——
+    因为 `#429c` 锚住它靠的是**第三个**锚(分档性伴数)。
+    **两次都是同一批正对照拦下来的,而两次我都是在它失败之后才补上它。**
+
+    ⇒ 所以这里**不允许**只传候选:`known_direction` 是必需参数,
+    **先在它们身上跑一遍**;有任何一个不过杠 -> **抛 `PositiveControlFailed`**,
+    调用方**拿不到任何候选的判定**(与 `share()`/`mediation_headroom()` 同一形状)。
+
+    `candidates` / `known_direction`:`{名字: 向量}`;`anchors`:`{名字: 方向由构造固定的向量}`。
+    返回 `{名字: (anchorable, best_abs_r, {锚名: r})}`。
+    """
+    import numpy as _np
+    m=_np.asarray(mask,dtype=bool)
+    def _r(u,v):
+        g=m&_np.isfinite(u)&_np.isfinite(v)
+        if g.sum()<200: return float('nan')
+        return float(_np.corrcoef(_np.asarray(u)[g],_np.asarray(v)[g])[0,1])
+    def _eval(d):
+        out={}
+        for k,v in d.items():
+            rs={an:_r(v,a) for an,a in anchors.items()}
+            best=max((abs(x) for x in rs.values() if x==x), default=float('nan'))
+            out[k]=(bool(best>=bar), best, rs)
+        return out
+    pc=_eval(known_direction)
+    bad=[k for k,(ok,_,_) in pc.items() if not ok]
+    if bad:
+        raise PositiveControlFailed(
+            f"正对照未过杠 {bad} —— 判据本身太窄,**不返回任何候选的判定**。"
+            f"(best |r|: "+", ".join(f"{k}={pc[k][1]:.3f}" for k in bad)+f"; bar={bar})")
+    return _eval(candidates), pc
+
+def anchor_rule_controls():
+    """三个自检:正对照失败必抛错 · 正对照通过则放行 · 抛错时不产出任何判定。"""
+    import numpy as _np
+    rng=_np.random.default_rng(5); n=3000; m=_np.ones(n,dtype=bool)
+    a1=rng.normal(size=n)
+    good=0.4*a1+rng.normal(size=n)          # 与锚强相关 -> 正对照该过
+    weak=0.02*a1+rng.normal(size=n)         # 与锚几乎无关
+    cand={'c':rng.normal(size=n)}
+    raised=False; got=None
+    try:
+        anchor_rule(cand,{'a1':a1},{'weak_pc':weak},m)
+    except PositiveControlFailed:
+        raised=True
+    try:
+        got,_=anchor_rule(cand,{'a1':a1},{'good_pc':good},m)
+    except PositiveControlFailed:
+        got=None
+    return raised, (got is not None), (raised and got is not None)

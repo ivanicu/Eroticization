@@ -1,0 +1,79 @@
+{
+ "verdict": "HISTORY_STANDS",
+ "n_diff": 0,
+ "diff": [],
+ "rows": [
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "openness",
+   "anchorable": false,
+   "best": 0.0753819809184828
+  },
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "conscientiousness",
+   "anchorable": false,
+   "best": 0.06890109751289995
+  },
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "extroversion",
+   "anchorable": true,
+   "best": 0.14576314367636992
+  },
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "neuroticism",
+   "anchorable": false,
+   "best": 0.03550124246553011
+  },
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "agreeableness",
+   "anchorable": false,
+   "best": 0.016268917725823395
+  },
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "powerlessness",
+   "anchorable": false,
+   "best": 0.07391703784206874
+  },
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "pornhabit",
+   "anchorable": true,
+   "best": 0.19578530214488146
+  },
+  {
+   "case": "#428c \u5168\u6837\u672c",
+   "variable": "bondageaverage",
+   "anchorable": true,
+   "best": 0.24733162222727934
+  },
+  {
+   "case": "#461 \u5168\u6837\u672c",
+   "variable": "powerlessness",
+   "anchorable": false,
+   "best": 0.07391703784206874
+  },
+  {
+   "case": "#442b \u5757\u63a9\u7801",
+   "variable": "c1",
+   "anchorable": true,
+   "best": 0.13068224753313393
+  },
+  {
+   "case": "#442b \u5757\u63a9\u7801",
+   "variable": "c2",
+   "anchorable": true,
+   "best": 0.3763770098509979
+  },
+  {
+   "case": "#442b \u5757\u63a9\u7801",
+   "variable": "c3",
+   "anchorable": true,
+   "best": 0.459997664952553
+  }
+ ]
+}
