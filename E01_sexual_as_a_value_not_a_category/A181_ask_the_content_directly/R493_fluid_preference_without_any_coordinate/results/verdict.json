@@ -1,0 +1,30 @@
+{
+ "verdict": "NOTHING",
+ "n": 2490,
+ "thr": 0.050025733265144305,
+ "r_with_c3": 0.48088996921415034,
+ "nsig": 0,
+ "sham_clear": 7,
+ "rows": [
+  {
+   "outcome": "\u7f9e\u803b",
+   "b": 0.04788115114415106,
+   "sig": false
+  },
+  {
+   "outcome": "\u80fd\u4e0d\u80fd\u6539",
+   "b": -0.04974698689226106,
+   "sig": false
+  },
+  {
+   "outcome": "\u6cbb\u7597\u6027",
+   "b": 0.013972358256663658,
+   "sig": false
+  },
+  {
+   "outcome": "\u5b9e\u8df5\u4e86\u591a\u5c11",
+   "b": 0.004059725903783795,
+   "sig": false
+  }
+ ]
+}
