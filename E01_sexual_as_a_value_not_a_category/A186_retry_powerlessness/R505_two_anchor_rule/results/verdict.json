@@ -1,0 +1,42 @@
+{
+ "verdict": "NO_ANCHOR",
+ "rows": [
+  {
+   "variable": "powerlessness",
+   "r_sexacts": -0.03269648989613029,
+   "r_fetish": 0.02591863736213361,
+   "r_partners": -0.07391703784206874,
+   "n": 15503,
+   "anchorable_2rule": false,
+   "best": 0.07391703784206874
+  },
+  {
+   "variable": "**\u6b63\u5bf9\u7167** pornhabit",
+   "r_sexacts": 0.18094272663926517,
+   "r_fetish": 0.19578530214488146,
+   "r_partners": 0.027400090181233815,
+   "n": 15503,
+   "anchorable_2rule": true,
+   "best": 0.19578530214488146
+  },
+  {
+   "variable": "**\u6b63\u5bf9\u7167** bondageaverage",
+   "r_sexacts": 0.24733162222727934,
+   "r_fetish": 0.20805778170914718,
+   "r_partners": 0.0801846341180854,
+   "n": 8701,
+   "anchorable_2rule": true,
+   "best": 0.24733162222727934
+  },
+  {
+   "variable": "**\u6b63\u5bf9\u7167** extroversion",
+   "r_sexacts": 0.08336325035342598,
+   "r_fetish": 0.00015725083032856778,
+   "r_partners": 0.14576314367636992,
+   "n": 15503,
+   "anchorable_2rule": true,
+   "best": 0.14576314367636992
+  }
+ ],
+ "sign_prior_exists": false
+}
