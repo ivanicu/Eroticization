@@ -1,0 +1,83 @@
+{
+ "verdict": "INSENSITIVE",
+ "detected": {
+  "10": -0.1,
+  "12": null
+ },
+ "rows": [
+  {
+   "k": 10,
+   "delta": 0.0,
+   "n": 4443,
+   "slope": 0.03982790382999671,
+   "thr": 0.028332310171834643,
+   "clears": true,
+   "reports_negative": false
+  },
+  {
+   "k": 10,
+   "delta": -0.02,
+   "n": 4443,
+   "slope": 0.019827903829996687,
+   "thr": 0.028397557495129566,
+   "clears": false,
+   "reports_negative": false
+  },
+  {
+   "k": 10,
+   "delta": -0.05,
+   "n": 4443,
+   "slope": -0.010172096170003373,
+   "thr": 0.028937716815436047,
+   "clears": false,
+   "reports_negative": false
+  },
+  {
+   "k": 10,
+   "delta": -0.1,
+   "n": 4443,
+   "slope": -0.06017209617000345,
+   "thr": 0.03054761833307192,
+   "clears": true,
+   "reports_negative": true
+  },
+  {
+   "k": 12,
+   "delta": 0.0,
+   "n": 5605,
+   "slope": 0.07551745021183921,
+   "thr": 0.025821851732345417,
+   "clears": true,
+   "reports_negative": false
+  },
+  {
+   "k": 12,
+   "delta": -0.02,
+   "n": 5605,
+   "slope": 0.055517450211839216,
+   "thr": 0.025868651678521155,
+   "clears": true,
+   "reports_negative": false
+  },
+  {
+   "k": 12,
+   "delta": -0.05,
+   "n": 5605,
+   "slope": 0.025517450211839227,
+   "thr": 0.025761213676039885,
+   "clears": false,
+   "reports_negative": false
+  },
+  {
+   "k": 12,
+   "delta": -0.1,
+   "n": 5605,
+   "slope": -0.024482549788160796,
+   "thr": 0.026103688223607334,
+   "clears": false,
+   "reports_negative": false
+  }
+ ],
+ "passing_kills": 0,
+ "without_floor": 0
+}
