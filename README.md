@@ -233,6 +233,18 @@ round is UNVERIFIED — one of its three positive controls failed — so this is
 reading, not a finding. But it means the sentence "the same size" has **no established scale behind
 it**, and should not be read as agreement until one exists.
 
+**Is "the gap" one number?** No — and the sharpest case differs by a single word. Inside one NSFG
+questionnaire, one sample, one mode, six attitude/behaviour pairs give log-odds from **−0.47 to
+−1.33**. Three of them were specified before being computed: *divorce is the best solution*
+(−0.77), *all right for unmarried **18**-year-olds to have sex* (−0.52), *all right for unmarried
+**16**-year-olds* (−1.07). **The last two are asked of the same people about the same behaviour —
+first intercourse at 16 or younger — and differ only in the age printed in the question.** Their
+intervals do not overlap ([−0.64, −0.41] vs [−1.25, −0.90]). ⚠ The share who condemn also differs
+sharply (43% vs 85%), so who counts as a "condemner" is not held fixed; across all six pairs the
+condemnation share does not order the gaps monotonically, but that is an observation, not a test.
+⚠ And a wide interval favours "they overlap", so a disjoint pair is found in the conservative
+direction.
+
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
 with societies as the unit. For **female premarital sex** they travel together very tightly
