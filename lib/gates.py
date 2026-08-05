@@ -1124,3 +1124,33 @@ class Gate:
         return ("OVERTURNED -- controls sound, and the pre-registered threshold fired "
                 f"AGAINST the expectation ({', '.join(bad_kill)}). "
                 "This is a refutation, NOT an unverified round (#366e).")
+
+
+    # ------------------------------------------------------------ #477:通过了的 KILL 也要被审
+    def passing_kill_audit(self, floors=None):
+        """`#477b`:本项目对**零**很严(MDE·功率·正对照),对**通过了的 KILL** 却几乎不审。
+
+        证据:本会话七条被我自己抓住的错门,**间隔全部为 0** —— 每一条都在写下它的同一轮被发现,
+        因为它的错**当场就显形**(4/4 全过、判决与对照矛盾、一个不可能的数)。
+        **⇒ 我抓得住的是「错得显眼」的门,抓不住「错得像真的」的门。**
+        而「更宽」的门恰恰更容易错得像真的(它只是让本来该失败的东西通过),
+        **所以已发布的主张里,带着一个未被发现的**宽**门的概率,高于带着一个未被发现的**严**门。**
+
+        `floors`:`{门名: "什么样的结果会让它失败"}`。
+        对每一个**通过了的 KILL**,若调用方没给出这句话,就喊出来 —— 与 `零需要 MDE` 对称。
+        """
+        floors = floors or {}
+        ctl = getattr(self, "_control_rows", set())
+        out = []
+        for i, (name, detail, ok, _) in enumerate(self.rows):
+            if i in ctl or not ok:
+                continue
+            out.append((name, floors.get(name)))
+        miss = [n for n, f in out if not f]
+        for n, f in out:
+            print(f"   {'✅' if f else '⚠ '} 通过的 KILL:{n[:64]}"
+                  + (f"\n        会让它失败的:{f}" if f else "  <- **没说什么会让它失败**"))
+        if miss:
+            print(f"   ⚠ **{len(miss)}/{len(out)} 个通过的 KILL 没有说明什么会让它失败** —— "
+                  f"这与「一个零必须报 MDE」是同一条要求的另一半。")
+        return len(out), len(miss)

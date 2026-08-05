@@ -1,0 +1,56 @@
+{
+ "all_delays_zero": true,
+ "n_passing_kills": 0,
+ "n_without_floor": 0,
+ "rows": [
+  {
+   "gate": "#433a",
+   "written_in": "R477",
+   "caught_in": "R477",
+   "delay_rounds": 0,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#439d",
+   "written_in": "R483",
+   "caught_in": "R483",
+   "delay_rounds": 0,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#440b",
+   "written_in": "R484",
+   "caught_in": "R484",
+   "delay_rounds": 0,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#444a",
+   "written_in": "R488",
+   "caught_in": "R488",
+   "delay_rounds": 0,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#451b",
+   "written_in": "R495",
+   "caught_in": "R495",
+   "delay_rounds": 0,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#455b",
+   "written_in": "R499",
+   "caught_in": "R499",
+   "delay_rounds": 0,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#475c",
+   "written_in": "R519",
+   "caught_in": "R519",
+   "delay_rounds": 0,
+   "visible_at_once": true
+  }
+ ]
+}
