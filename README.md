@@ -296,6 +296,8 @@ question asked of men and of women**. It remains downgraded.
 
 | A conjecture born here cannot be tested here | The six topics split three-down / three-up under a threshold sweep (`#494a`), which suggested that the gap widens where the behaviour leaves a third-party-visible trace. That conjecture was generated from those six slopes, so it cannot be tested on them. Screening every attitude item in both surveys for a usable partner gave **0 of 6** eligible new topics with a matching *own-behaviour* variable — beliefs, other people's rights, and attitudes with no behavioural counterpart. It is frozen, untested, and needs a questionnaire that asks "have you done this", not another pass over these two. |
 
+| "Domain" has no stable referent here | Strictness attitudes predict behaviour better when grouped my way (sexual vs family, 3 of 5 behaviours) than when grouped by how the attitudes correlate (1 of 5). But letting the *behaviour* carve the groups — fitting the carving on one random half and scoring it on the other — gives **three different carvings from three random splits**, agreeing with my split on 6, 4 and 5 of 8 items, and scoring 2 of 5 on held-out data, exactly what my own split scores there. So the grouping that looked like a finding **has no stable referent in this data**: it is a distinction I imposed, it beats a correlational carving, and it cannot be recovered from the behaviour itself. |
+
 # What was retracted (kept here because I once reported it)
 
 | What I said | Now | Why |
