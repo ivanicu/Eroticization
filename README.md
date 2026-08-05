@@ -228,10 +228,13 @@ by that selection rather than by anything real.
 ⚠ **How close is close?** A later round (`#490`) put three attitude/behaviour pairs side by side
 *inside one NSFG questionnaire, one sample, one mode* — same-sex relations, unmarried childbearing,
 and unmarried cohabitation. Their log-odds were **−1.22, −0.73 and −0.31**, mutually non-overlapping,
-a spread of **0.90**. That is **4.5× the 0.20 that separates the GSS and NSFG numbers above.** ⚠ That
-round is UNVERIFIED — one of its three positive controls failed — so this is a reason to withhold the
-reading, not a finding. But it means the sentence "the same size" has **no established scale behind
-it**, and should not be read as agreement until one exists.
+a spread of **0.90**. That is **4.5× the 0.20 that separates the GSS and NSFG numbers above.** That round was
+UNVERIFIED at the time — one of its three positive controls failed — but a later, pre-registered run on
+topics whose slopes had never been computed put two of them **0.55 apart with disjoint intervals**,
+differing only in the age printed in the question. So the scale now exists, and on it the GSS–NSFG gap
+of 0.20 is between a fifth and a quarter of what changing the topic does inside a single
+questionnaire. **The "same size" therefore carries no information at all**: it is smaller than the
+noise that swapping one word introduces, and it should not be read as cross-instrument agreement.
 
 **Is "the gap" one number?** No — and the sharpest case differs by a single word. Inside one NSFG
 questionnaire, one sample, one mode, six attitude/behaviour pairs give log-odds from **−0.47 to
