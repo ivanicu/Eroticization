@@ -17,8 +17,24 @@
 """
 import pathlib as _p
 
+def _warn_attr_collisions(df):
+    """#471:列名撞上 DataFrame 的属性 -> `df.col` 会安静地取到**方法**,不是列。
+
+    本会话第五次踩它(`dtype` `#429b` · `b.round` `#431e` · `r.sub` `#453d` ·
+    `mid.diff` `#469a` · `L.shift` 本轮)。**五次就不是失手,是一个类** ——
+    所以它变成一句在每次 `show()` 时都会喊出来的话(`#383a`:改接口,不是记更牢)。
+    这只是**警告**,不是拒绝:列名有时就该叫 `diff`,该改的是取用方式(`df['diff']`)。
+    """
+    import pandas as _pd
+    bad=[c for c in map(str, getattr(df,'columns',[])) if hasattr(_pd.DataFrame, c)]
+    if bad:
+        print(f"   ⚠ **列名撞 DataFrame 属性**:{bad} —— 用 `df['名'"+"]`,别用 `df.名`"
+              f"(`df.名` 会取到方法,而且不报错)")
+    return bad
+
 def show(df, path, n=12, sort=None, ascending=False, label=""):
     """打印至多 n 行,同时把整张表写到 `path`。返回写出的路径。"""
+    _warn_attr_collisions(df)
     path=_p.Path(path); path.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(path, index=False)
     d = df.sort_values(sort, ascending=ascending) if sort else df

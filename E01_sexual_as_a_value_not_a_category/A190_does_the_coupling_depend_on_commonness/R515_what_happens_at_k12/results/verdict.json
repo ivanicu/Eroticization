@@ -1,0 +1,43 @@
+{
+ "verdict": "RANDOM_WALK",
+ "base": 0.02018580233398351,
+ "max_shift": 0.031220915071731893,
+ "thr": 0.0741041954812678,
+ "steps": [
+  {
+   "k": 10,
+   "n": 3699,
+   "diff": 0.05813320914926603,
+   "new_uncommon": "\u2014",
+   "new_common": "\u2014"
+  },
+  {
+   "k": 11,
+   "n": 4164,
+   "diff": 0.04354924165553423,
+   "new_uncommon": "Which of the following nonconsent scenarios do",
+   "new_common": "Which of the following roles are erotic?"
+  },
+  {
+   "k": 12,
+   "n": 5140,
+   "diff": 0.02018580233398351,
+   "new_uncommon": "Of these options, which one is the most erotic",
+   "new_common": "Which of the following do you find erotic, in "
+  },
+  {
+   "k": 13,
+   "n": 5400,
+   "diff": 0.05362202329128646,
+   "new_uncommon": "Which of the following types of sadomasochism ",
+   "new_common": "For saliva, which of the following do you find"
+  },
+  {
+   "k": 14,
+   "n": 5890,
+   "diff": 0.060992502575508006,
+   "new_uncommon": "Which of the following do you find erotic? (vq",
+   "new_common": "Which of the following do you find erotic? (88"
+  }
+ ]
+}
