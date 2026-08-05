@@ -1,0 +1,56 @@
+{
+ "verdict": "CLOSED",
+ "total_rounds": 499,
+ "candidates": 8,
+ "gaps": [],
+ "rows": [
+  {
+   "round": "R174_is_the_trait_link_just_coverage",
+   "verdict": "\u4e0d\u5728\u8303\u56f4\u5185",
+   "outcomes_in_code": 0,
+   "why": "\u5757\u6570\u53ea\u7528\u4f5c**\u5361\u94b3\u5339\u914d**\u7684\u534f\u53d8\u91cf,\u4e0d\u662f\u88ab\u6bd4\u8f83\u7684\u4e24\u7ec4"
+  },
+  {
+   "round": "R445_shame_and_healing",
+   "verdict": "\u4e0d\u5728\u8303\u56f4\u5185",
+   "outcomes_in_code": 0,
+   "why": "\u4e3b\u91cf\u662f**\u4eba\u5c42**\u7f9e\u803b\u00d7\u6cbb\u7597\u6027\u7684\u8054\u5408\u5206\u5e03,\u4e0d\u662f\u5757\u5206\u4e24\u7ec4"
+  },
+  {
+   "round": "R453_split_S_in_two",
+   "verdict": "\u5728\u8303\u56f4\u5185 \u00b7 \u5df2\u8986\u76d6",
+   "outcomes_in_code": 0,
+   "why": "\u628a\u5757\u62c6\u6210\u8d8a\u8f68/\u666e\u901a\u4e24\u534a,\u800c\u4e3b\u91cf**\u672c\u8eab\u8de8 29 \u4e2a\u7ed3\u5c40** -> \u53c2\u7167\u81c2\u95ee\u9898\u4e0d\u9002\u7528"
+  },
+  {
+   "round": "R513_rarity_shame_by_domain_commonness",
+   "verdict": "\u5728\u8303\u56f4\u5185 \u00b7 \u4e8b\u540e\u8986\u76d6",
+   "outcomes_in_code": 1,
+   "why": "\u5f53\u65f6\u53ea\u8dd1\u7f9e\u803b;**`R516` \u7528\u540c\u4e00\u8bbe\u8ba1\u8dd1\u4e86\u7b2c\u4e8c\u4e2a\u7ed3\u5c40**,\u5e76\u7ed9\u51fa\u5206\u79bb"
+  },
+  {
+   "round": "R514_equal_sized_groups",
+   "verdict": "\u5728\u8303\u56f4\u5185 \u00b7 \u4e8b\u540e\u8986\u76d6",
+   "outcomes_in_code": 1,
+   "why": "\u540c\u4e0a,`R516` \u7684 k \u626b\u63cf\u8986\u76d6\u4e86\u5b83"
+  },
+  {
+   "round": "R515_what_happens_at_k12",
+   "verdict": "\u4e0d\u5728\u8303\u56f4\u5185",
+   "outcomes_in_code": 1,
+   "why": "\u8bca\u65ad\u8f6e:\u95ee\u7684\u662f k=12 \u90a3\u4e00\u683c\u7684\u6765\u6e90,\u4e0d\u4f5c\u7ed3\u5c40\u4e3b\u5f20"
+  },
+  {
+   "round": "R516_same_design_other_outcome",
+   "verdict": "\u5728\u8303\u56f4\u5185 \u00b7 **\u81ea\u5e26**",
+   "outcomes_in_code": 2,
+   "why": "\u5b83**\u5c31\u662f**\u53c2\u7167\u81c2\u90a3\u4e00\u8f6e"
+  },
+  {
+   "round": "R517_is_the_other_path_moderated",
+   "verdict": "\u5728\u8303\u56f4\u5185 \u00b7 **\u81ea\u5e26**",
+   "outcomes_in_code": 2,
+   "why": "\u53c2\u7167\u81c2\u6b63\u662f\u5b83\u5426\u6389\u81ea\u5df1\u7684\u95e8\u7684\u90a3\u4e2a\u4e1c\u897f"
+  }
+ ]
+}

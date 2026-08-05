@@ -1,0 +1,9 @@
+round,verdict,outcomes_in_code,why
+R174_is_the_trait_link_just_coverage,不在范围内,0,"块数只用作**卡钳匹配**的协变量,不是被比较的两组"
+R445_shame_and_healing,不在范围内,0,"主量是**人层**羞耻×治疗性的联合分布,不是块分两组"
+R453_split_S_in_two,在范围内 · 已覆盖,0,"把块拆成越轨/普通两半,而主量**本身跨 29 个结局** -> 参照臂问题不适用"
+R513_rarity_shame_by_domain_commonness,在范围内 · 事后覆盖,1,"当时只跑羞耻;**`R516` 用同一设计跑了第二个结局**,并给出分离"
+R514_equal_sized_groups,在范围内 · 事后覆盖,1,"同上,`R516` 的 k 扫描覆盖了它"
+R515_what_happens_at_k12,不在范围内,1,"诊断轮:问的是 k=12 那一格的来源,不作结局主张"
+R516_same_design_other_outcome,在范围内 · **自带**,2,它**就是**参照臂那一轮
+R517_is_the_other_path_moderated,在范围内 · **自带**,2,参照臂正是它否掉自己的门的那个东西
