@@ -917,6 +917,45 @@ class Gate:
         out.append(f"   => {self.three_valued()}")
         return "\n".join(out)
 
+    def eigenvector_is_anchored(self, name, vec_scores, reference, ref_name="", min_abs=0.02):
+        """#368a (guard 24) -- an eigenvector's SIGN is arbitrary; a label written off it is a coin flip.
+
+        `np.linalg.eigh` / `svd` return a direction, not an orientation. Every quantity this project
+        reads off a component -- R^2, commonality, retention, |cos| -- is sign-INVARIANT, so the bug
+        never shows up in a gate. It shows up in the PROSE: "high PC1 = younger, fewer partners,
+        more anxious" was written straight off an unanchored eigenvector and was exactly backwards
+        (mean shame ran 1.179 at the low end down to 0.266 at the high end, i.e. the opposite of
+        what the label claimed).
+
+        Fourth occurrence in this project (R210:73, #306b, #361, here). Guard 20 catches a sign
+        FLIP across thresholds; it cannot see a single run whose one orientation is simply wrong.
+
+        Pass the component scores and the reference the label is written against. FAIL unless
+        corr(scores, reference) > +min_abs -- i.e. the component has been oriented, not merely
+        computed. A near-zero correlation FAILS too: an orientation that cannot be anchored is
+        not an orientation, and its label must be dropped rather than guessed.
+        """
+        import numpy as _np
+        v = _np.asarray(vec_scores, dtype=float); r = _np.asarray(reference, dtype=float)
+        g = _np.isfinite(v) & _np.isfinite(r)
+        if g.sum() < 30 or v[g].std() < 1e-12 or r[g].std() < 1e-12:
+            ok, c = False, float("nan")
+            note = "too few finite pairs / degenerate -- cannot anchor, so the label may not be written"
+        else:
+            c = float(_np.corrcoef(v[g], r[g])[0, 1])
+            # #368b: an ABSOLUTE floor lets pure noise pass -- at n=500 the sampling se is ~0.045,
+            # so min_abs=0.02 acquitted an unrelated component on the first attack pass.
+            # The floor must be priced at its own level: 3 standard errors of a null correlation.
+            need = max(float(min_abs), 3.0 / _np.sqrt(int(g.sum())))
+            ok = c > need
+            note = ("anchored" if ok else
+                    ("SIGN IS BACKWARDS -- flip the component before writing any label"
+                     if c < -need else
+                     f"|corr| <= {need:.4f} (3 se at n={int(g.sum())}) -- unanchorable, "
+                     "the label must be dropped, not guessed"))
+        self.rows.append((name, f"corr(component, {ref_name or 'reference'}) = {c:+.4f}", ok, note))
+        return ok
+
     def three_valued(self):
         """#366e (guard 23) -- P6 says verdicts are CONFIRMED / OVERTURNED / UNVERIFIED.
 
