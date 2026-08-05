@@ -1,0 +1,55 @@
+round,lesson,mechanical,ok,detail
+R466_find_the_unnamed,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R466_find_the_unnamed,#392e 新变量进主量前打印值集,1,1.0,未引入新族
+R466_find_the_unnamed,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R466_find_the_unnamed,#398d 从 results/ 读数,0,,**不可机械检查**
+R466_find_the_unnamed,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R466_find_the_unnamed,#374b 过度指控要打印原文,1,1.0,非扫描轮
+R467_the_mirror_fib,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R467_the_mirror_fib,#392e 新变量进主量前打印值集,1,1.0,引入新族且打印了值集
+R467_the_mirror_fib,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R467_the_mirror_fib,#398d 从 results/ 读数,0,,**不可机械检查**
+R467_the_mirror_fib,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R467_the_mirror_fib,#374b 过度指控要打印原文,1,0.0,**扫描但没打印原文**
+R468_the_biggest_unanchored_family,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R468_the_biggest_unanchored_family,#392e 新变量进主量前打印值集,1,1.0,引入新族且打印了值集
+R468_the_biggest_unanchored_family,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R468_the_biggest_unanchored_family,#398d 从 results/ 读数,0,,**不可机械检查**
+R468_the_biggest_unanchored_family,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R468_the_biggest_unanchored_family,#374b 过度指控要打印原文,1,1.0,非扫描轮
+R469_is_zero_negatives_just_the_shared_factor,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R469_is_zero_negatives_just_the_shared_factor,#392e 新变量进主量前打印值集,1,1.0,引入新族且打印了值集
+R469_is_zero_negatives_just_the_shared_factor,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R469_is_zero_negatives_just_the_shared_factor,#398d 从 results/ 读数,0,,**不可机械检查**
+R469_is_zero_negatives_just_the_shared_factor,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R469_is_zero_negatives_just_the_shared_factor,#374b 过度指控要打印原文,1,1.0,非扫描轮
+R470_find_the_percolumn_nulls,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R470_find_the_percolumn_nulls,#392e 新变量进主量前打印值集,1,1.0,未引入新族
+R470_find_the_percolumn_nulls,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R470_find_the_percolumn_nulls,#398d 从 results/ 读数,0,,**不可机械检查**
+R470_find_the_percolumn_nulls,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R470_find_the_percolumn_nulls,#374b 过度指控要打印原文,1,0.0,**扫描但没打印原文**
+R471_refit_the_one_that_was_wrong,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R471_refit_the_one_that_was_wrong,#392e 新变量进主量前打印值集,1,1.0,未引入新族
+R471_refit_the_one_that_was_wrong,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R471_refit_the_one_that_was_wrong,#398d 从 results/ 读数,0,,**不可机械检查**
+R471_refit_the_one_that_was_wrong,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R471_refit_the_one_that_was_wrong,#374b 过度指控要打印原文,1,1.0,非扫描轮
+R472_the_last_unanchored_cell,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R472_the_last_unanchored_cell,#392e 新变量进主量前打印值集,1,1.0,引入新族且打印了值集
+R472_the_last_unanchored_cell,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R472_the_last_unanchored_cell,#398d 从 results/ 读数,0,,**不可机械检查**
+R472_the_last_unanchored_cell,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R472_the_last_unanchored_cell,#374b 过度指控要打印原文,1,0.0,**扫描但没打印原文**
+R473_anchor_or_say_unverified,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R473_anchor_or_say_unverified,#392e 新变量进主量前打印值集,1,1.0,未引入新族
+R473_anchor_or_say_unverified,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R473_anchor_or_say_unverified,#398d 从 results/ 读数,0,,**不可机械检查**
+R473_anchor_or_say_unverified,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R473_anchor_or_say_unverified,#374b 过度指控要打印原文,1,1.0,非扫描轮
+R474_which_columns_partially_parse,#385c 含 NaN 的数组不得整体打乱,1,1.0,0 处直接打乱数据数组
+R474_which_columns_partially_parse,#392e 新变量进主量前打印值集,1,1.0,未引入新族
+R474_which_columns_partially_parse,#379c 门必须标 branch,1,1.0,0/0 带 branch
+R474_which_columns_partially_parse,#398d 从 results/ 读数,0,,**不可机械检查**
+R474_which_columns_partially_parse,#383a 改接口而不是记更牢,0,,**不可机械检查**
+R474_which_columns_partially_parse,#374b 过度指控要打印原文,1,0.0,**扫描但没打印原文**

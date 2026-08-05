@@ -1,0 +1,8 @@
+{
+ "verdict": "TWO_CLASSES",
+ "n_rounds": 9,
+ "n_lessons": 6,
+ "n_mechanical": 4,
+ "n_not_mechanical": 2,
+ "n_violations": 4
+}
