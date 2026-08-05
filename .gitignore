@@ -6,3 +6,5 @@ data/derived/*.parquet
 data/derived/*.pkl
 data/derived/*.npy
 __pycache__/
+data/external/
+data/card/
