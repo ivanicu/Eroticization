@@ -83,7 +83,33 @@ for t in range(20):
 NG=np.array(NG)
 o2,l2=float('nan'),float(NG.mean())
 print(f"负对照(**与 `ncat` 无关**的纯噪声结局,20 次):共同性 **{NG.mean():+.4f} ± {NG.std():.4f}pp**")
+# ⚠ #300a:上页面前发明一个旋钮 —— **换一个广度代理**。
+#    若「渗漏」只是那一个变量的性质,换成**块覆盖数**就该消失;若它是「广度」的性质,就该还在。
+cov2=np.zeros(NN)
+for M2,ppl2 in MB: cov2[ppl2]+=1
+rows2=[]
+for nm,y in OUT:
+    m2=base&np.isfinite(y)&np.isfinite(cov2)
+    if m2.sum()<300: continue
+    n2=int(m2.sum()); z2=lambda v:(v[m2]-v[m2].mean())/max(v[m2].std(),1e-12)
+    Z2=[z2(q_) for q_ in CO]; zc2=z2(cov2); yy2=z2(y)
+    def r2b(cols):
+        X=np.column_stack([np.ones(n2)]+cols); b,*_=np.linalg.lstsq(X,yy2,rcond=None)
+        r=yy2-X@b; return 1-float(r@r)/float(((yy2-yy2.mean())**2).sum())
+    only2=r2b([zc2]); six2=r2b(Z2); both2=r2b(Z2+[zc2])
+    rows2.append(dict(leak=100*(only2-(both2-six2)),six=100*six2))
+T2=pd.DataFrame(rows2)
+r2c=float(np.corrcoef(T2.leak,T2.six)[0,1])
+print(f"\n发明的旋钮 · 换广度代理(**块覆盖数**而非起始类别数):")
+print(f"   共同性 中位 **{T2.leak.median():.3f}pp** · 为正 **{int((T2.leak>0).sum())}/{len(T2)}** · "
+      f"`corr(共同性, 六坐标 R²)` **{r2c:+.4f}**")
+print(f"   两个代理的共同性向量相关 **{np.corrcoef(T.leak.values[:len(T2)],T2.leak.values)[0,1]:+.4f}**")
+
 gg=Gate('六个坐标带着多少报告广度')
+gg.asserted('★ 发明的旋钮:换成**块覆盖数**做广度代理,渗漏还在不在',
+            (T2.leak>0).mean()>0.5 and r2c>0.3,
+            f"中位 {T2.leak.median():.3f}pp · 为正 {int((T2.leak>0).sum())}/{len(T2)} · "
+            f"corr {r2c:+.4f}(起始类别数版:{T.leak.median():.3f}pp · {int((T.leak>0).sum())}/{len(T)} · {r:+.4f})")
 gg.asserted('★ 正对照(改正后):只由类别数驱动 -> 共同性必须明显为正(> 1pp)',l1>1.0,
             f"共同性 {l1:.3f}pp(只类别数 R² {o1:.3f}%)—— "
             f"⚠ 第一版的门槛「占比 > 50%」问的是一个不由它决定的比例,是我设计错了")
