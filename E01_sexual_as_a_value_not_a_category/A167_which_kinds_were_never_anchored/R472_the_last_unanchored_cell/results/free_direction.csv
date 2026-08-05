@@ -1,0 +1,7 @@
+col,nuniq,n,ordered,used,construction,vals
+opennessvariable,13,15503,1,1,0,"[np.float64(-6.0), np.float64(-5.0), np.float64(-4.0), np.float64(-3.0), np.float64(-2.0), np.float64(-1.0)]"
+consciensiousnessvariable,13,15503,1,1,0,"[np.float64(-6.0), np.float64(-5.0), np.float64(-4.0), np.float64(-3.0), np.float64(-2.0), np.float64(-1.0)]"
+extroversionvariable,13,15503,1,1,0,"[np.float64(-6.0), np.float64(-5.0), np.float64(-4.0), np.float64(-3.0), np.float64(-2.0), np.float64(-1.0)]"
+agreeablenessvariable,13,15503,1,1,0,"[np.float64(-6.0), np.float64(-5.0), np.float64(-4.0), np.float64(-3.0), np.float64(-2.0), np.float64(-1.0)]"
+powerlessnessvariable,19,15503,1,1,0,"[np.float64(-9.0), np.float64(-8.0), np.float64(-7.0), np.float64(-6.0), np.float64(-5.0), np.float64(-4.0)]"
+pornhabit,10,15503,1,1,0,"[np.float64(0.0), np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0)]"

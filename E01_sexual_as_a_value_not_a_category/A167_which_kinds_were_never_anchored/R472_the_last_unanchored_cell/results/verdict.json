@@ -1,0 +1,10 @@
+{
+ "verdict": "NEXT_392_FOUND",
+ "n_other": 83,
+ "n_ordered": 14,
+ "n_used": 22,
+ "n_inscope": 8,
+ "n_construction": 2,
+ "n_free": 6,
+ "control": false
+}
