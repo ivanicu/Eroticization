@@ -956,6 +956,27 @@ class Gate:
         self.rows.append((name, f"corr(component, {ref_name or 'reference'}) = {c:+.4f}", ok, note))
         return ok
 
+    def relaxation_reached_the_population(self, name, n_narrow, n_wide, min_growth=1.15, what=""):
+        """#371a (guard 25) -- relaxing an inclusion rule that does not move n never happened.
+
+        Sibling of guard 18 (`apply_reached_the_test_set`). There the tell was a finite-count equal
+        to |train|; here it is **n barely moving**. R415 relaxed block coverage from >=8 to >=4 and
+        the arm grew by 70 people (6,473 -> 6,543) instead of the ~1,700 the knob should deliver --
+        because a control variable in the same mask (`S`) is itself only defined at coverage >=8,
+        so `isfinite(S)` re-imposed the narrow rule downstream of the knob.
+
+        A caliber arm that did not widen is not a replication in a different population; it is the
+        SAME population reported under a wider label, which is a scope claim in the flattering
+        direction. FAIL unless n_wide >= min_growth * n_narrow.
+        """
+        ok = float(n_wide) >= float(min_growth) * float(n_narrow)
+        grew = (float(n_wide) / max(float(n_narrow), 1.0) - 1.0) * 100.0
+        self.rows.append((name, f"n {int(n_narrow):,} -> {int(n_wide):,} ({grew:+.1f}%{', ' + what if what else ''})",
+                          ok, "the relaxation reached the population" if ok else
+                          f"RELAXATION BLOCKED -- needs >= {min_growth:g}x; something downstream "
+                          "still enforces the narrow rule (a control variable defined only there?)"))
+        return ok
+
     def three_valued(self):
         """#366e (guard 23) -- P6 says verdicts are CONFIRMED / OVERTURNED / UNVERIFIED.
 
