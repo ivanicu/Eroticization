@@ -1,0 +1,64 @@
+{
+ "verdict": "TWO_COMPONENTS_TWO_PATHS",
+ "n": 6715,
+ "thr": 0.034103400841467145,
+ "r_anchor": -0.13068224753313393,
+ "rows": [
+  {
+   "quantity": "**`c1\u207a` \u604b\u7269\u5e7f\u5ea6**",
+   "b_\u7f9e\u803b": 0.017256732472665806,
+   "b_\u80fd\u4e0d\u80fd\u6539": -0.04712508232510276,
+   "sig_\u7f9e\u803b": false,
+   "sig_\u80fd\u4e0d\u80fd\u6539": true,
+   "pushes": "\u53ea\u63a8\u80fd\u4e0d\u80fd\u6539"
+  },
+  {
+   "quantity": "\u51b7\u95e8\u7a0b\u5ea6 S",
+   "b_\u7f9e\u803b": 0.07550887509970453,
+   "b_\u80fd\u4e0d\u80fd\u6539": -0.07708810547304687,
+   "sig_\u7f9e\u803b": true,
+   "sig_\u80fd\u4e0d\u80fd\u6539": true,
+   "pushes": "\u4e24\u4e2a"
+  },
+  {
+   "quantity": "\u5e7f\u5ea6\u578b c3\u207b",
+   "b_\u7f9e\u803b": 0.07835606954525169,
+   "b_\u80fd\u4e0d\u80fd\u6539": -0.018802390161994746,
+   "sig_\u7f9e\u803b": true,
+   "sig_\u80fd\u4e0d\u80fd\u6539": false,
+   "pushes": "\u53ea\u63a8\u7f9e\u803b"
+  },
+  {
+   "quantity": "\u5e38\u89c4\u4e5f\u7ba1\u7528(\u2212\u4e94\u9898)",
+   "b_\u7f9e\u803b": -0.06566956849784567,
+   "b_\u80fd\u4e0d\u80fd\u6539": -0.12762884150927367,
+   "sig_\u7f9e\u803b": true,
+   "sig_\u80fd\u4e0d\u80fd\u6539": true,
+   "pushes": "\u4e24\u4e2a"
+  },
+  {
+   "quantity": "\u7b54\u9898\u7c7b\u522b\u6570",
+   "b_\u7f9e\u803b": 0.008601005763178711,
+   "b_\u80fd\u4e0d\u80fd\u6539": -0.031084806775741824,
+   "sig_\u7f9e\u803b": false,
+   "sig_\u80fd\u4e0d\u80fd\u6539": false,
+   "pushes": "\u90fd\u4e0d\u63a8"
+  },
+  {
+   "quantity": "\u8272\u60c5\u4f7f\u7528\u91cf",
+   "b_\u7f9e\u803b": 0.06017399118830385,
+   "b_\u80fd\u4e0d\u80fd\u6539": -0.018797392168687168,
+   "sig_\u7f9e\u803b": true,
+   "sig_\u80fd\u4e0d\u80fd\u6539": false,
+   "pushes": "\u53ea\u63a8\u7f9e\u803b"
+  },
+  {
+   "quantity": "\u8d77\u59cb\u5e74\u9f84(\u665a)",
+   "b_\u7f9e\u803b": -0.05823859760334663,
+   "b_\u80fd\u4e0d\u80fd\u6539": 0.049621147795548944,
+   "sig_\u7f9e\u803b": true,
+   "sig_\u80fd\u4e0d\u80fd\u6539": true,
+   "pushes": "\u4e24\u4e2a"
+  }
+ ]
+}
