@@ -260,6 +260,18 @@ p = 0.001**, and no single topic drives it (leave-one-out Q stays at 12.7–21.9
 does not matter" holds only on average, and on average is not the same as everywhere.** ⚠ Q's own
 resampling precision is UNCOMPUTED.
 
+**One person-level coordinate does travel across topics — but it is strictness, not position.** In the
+NSFG, counting how many of eight sexual/family norms a woman takes the *strict* side on gives a number
+that predicts, for each of five behaviours, whether she has done it — **after** controlling for her
+attitude on that very norm and for how many norms she answered. Per additional strict position the
+probability falls by about **0.019–0.027** (four of five behaviours, each beyond its own MDE), and a
+sham coordinate built from extreme-response style alone is weaker in four of five. ⚠ An earlier
+version of this coordinate counted "minority side" rather than "strict side" and was **incoherent** —
+on seven of eleven items the minority side *was* the strict side, on the rest it was the permissive
+one; that version is retracted. ⚠ This is **not** the rarity-position coordinate of the first half of
+this page: it measures how strict you are, not how unusual your tastes are. NSFG has no shame item, so
+"position → shame" cannot be replicated there at all.
+
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
 with societies as the unit. For **female premarital sex** they travel together very tightly
