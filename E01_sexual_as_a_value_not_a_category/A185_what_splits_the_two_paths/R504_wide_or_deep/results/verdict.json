@@ -1,0 +1,22 @@
+{
+ "verdict": "WIDTH_ONLY",
+ "n": 6715,
+ "thr": 0.030413310079302102,
+ "corr_wide_deep": 0.4110263162049901,
+ "rows": [
+  {
+   "quantity": "\u8fdb\u5f97\u5e7f ncat",
+   "b_\u7f9e\u803b": 0.013434499070583908,
+   "b_\u80fd\u4e0d\u80fd\u6539": -0.035959508457789634,
+   "sig_\u7f9e\u803b": false,
+   "sig_\u80fd\u4e0d\u80fd\u6539": true
+  },
+  {
+   "quantity": "\u8fdb\u5f97\u6df1 PICKS/ncat",
+   "b_\u7f9e\u803b": -0.02323682219690517,
+   "b_\u80fd\u4e0d\u80fd\u6539": 0.004153756201594073,
+   "sig_\u7f9e\u803b": false,
+   "sig_\u80fd\u4e0d\u80fd\u6539": false
+  }
+ ]
+}
