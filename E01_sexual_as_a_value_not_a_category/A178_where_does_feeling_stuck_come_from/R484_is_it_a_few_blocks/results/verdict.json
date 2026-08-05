@@ -1,0 +1,11 @@
+{
+ "verdict": "COORDINATE_LEVEL",
+ "base": -0.03553520358444614,
+ "boot_sd": 0.010436498792463379,
+ "worst_shift_sd": 1.8550222704985169,
+ "null_of_max_95": 2.2363962214826074,
+ "kill_as_preregistered": true,
+ "r_pipeline": 1.0,
+ "NB": 32,
+ "n": 6715
+}
