@@ -298,6 +298,8 @@ question asked of men and of women**. It remains downgraded.
 
 | "Domain" has no stable referent here | Strictness attitudes predict behaviour better when grouped my way (sexual vs family, 3 of 5 behaviours) than when grouped by how the attitudes correlate (1 of 5). But letting the *behaviour* carve the groups — fitting the carving on one random half and scoring it on the other — gives **three different carvings from three random splits**, agreeing with my split on 6, 4 and 5 of 8 items, and scoring 2 of 5 on held-out data, exactly what my own split scores there. So the grouping that looked like a finding **has no stable referent in this data**: it is a distinction I imposed, it beats a correlational carving, and it cannot be recovered from the behaviour itself. |
 
+| `c3` survives the split-half test that killed a later grouping | Five attempts to name the `c3` direction failed. A later round built a criterion — *do three random half-splits give the same answer* — and used it to retire a grouping elsewhere on this page. Applied back to `c3`: its 32-block sign pattern is **the same answer all three times** (28 of 32 signs agree in every split), against `c1`'s 30 of 32; |cos| between halves is 0.81–0.89. ⚠ The shuffled floor was estimated from only three draws and ranges 0.50–0.84, so "above the floor" is not established at any useful precision — but the positive fact, that the signature repeats exactly, does not depend on the floor. **So the five failed namings are not explained by an unstable direction.** |
+
 # What was retracted (kept here because I once reported it)
 
 | What I said | Now | Why |
