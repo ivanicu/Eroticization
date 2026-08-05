@@ -252,9 +252,13 @@ threshold for counting as a condemner (strongly disagree / disagree / mildly-or-
 within-topic slope of **−0.18, CI [−0.39, +0.01]**, against an **MDE of 0.28** — a design that could
 comfortably have seen +0.60 and did not. **So the across-topic relation is carried by the topics, not
 by the headcount.** ⚠ Moving the threshold changes the *intensity* of the condemning group as well as
-its size, so "size does not matter" is entangled with "intensity does not matter"; and the pooled
-within-topic slope averages topic-specific slopes that disagree in sign (cohabitation −0.9, divorce
-+0.5).
+its size, so "size does not matter" is entangled with "intensity does not matter"; and — this is the larger caveat — **that pooled slope is an average over topics that genuinely
+disagree**. Fitting one slope per topic gives **−0.61, −0.68, −0.35** for same-sex relations,
+cohabitation and 18-year-olds, against **+0.43, +0.23, +0.01** for divorce, unmarried childbearing and
+16-year-olds; a heterogeneity test against a null in which all six share one slope gives **Q = 22.3,
+p = 0.001**, and no single topic drives it (leave-one-out Q stays at 12.7–21.9). **So "the threshold
+does not matter" holds only on average, and on average is not the same as everywhere.** ⚠ Q's own
+resampling precision is UNCOMPUTED.
 
 **Across societies, the same coupling is not one fact but several.** In the SCCS, attitude and
 frequency of the *same* practice were coded separately, so condemnation and rarity can be compared
