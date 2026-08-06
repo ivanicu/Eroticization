@@ -1,0 +1,10 @@
+{
+ "total": 24,
+ "pairable": 7,
+ "no_json": 11,
+ "json_without_null": 6,
+ "pct": 29,
+ "positive_control": true,
+ "annotated": 17,
+ "unchallenged": true
+}
