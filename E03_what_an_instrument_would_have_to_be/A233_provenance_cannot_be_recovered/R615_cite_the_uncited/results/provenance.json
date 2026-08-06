@@ -1,0 +1,19 @@
+{"action":"CLOSURE(清 uncited_numbers)+ 一次 #568 遗漏的更正",
+ "rollback_point":"f500dc5",
+ "mechanical_recovery":{
+   "by_numbers":"失败 —— 页面四舍五入(0.797)而账本不(+0.7966);加舍入容差后每个数都能在账本里找到,但候选条目噪声极大(行263 给出 #17/#24/#34)",
+   "by_topic_keywords":"失败 —— 主题词过松,『18』+『16』命中 183 条;只有 1 段收敛到唯一条目(行275 -> #523)",
+   "conclusion":"出处无法从页面机械恢复 —— 这正是这条规则命名的缺陷本身"},
+ "hand_verified":[[275,523,"人工读 #523 首段确认"],[200,487,"人工读 #487 首段确认"],[214,489,"人工读 #489 首段确认"]],
+ "missed_correction":{"where":"README 段 214 / README_zh 段 186",
+   "what":"明写 NSFG 敏感题『self-administered on a computer rather than spoken to an interviewer』",
+   "why_it_survived":"#568 的更正范围列了 #536/#539/#540/#567,漏了 #489 —— 而 #489 的标题本身就是『换施测模式』,是这个错的源头",
+   "fixed":"两版页面已改为『跨机构复制,不是跨模式复制』"},
+ "rule_conflict":{
+   "uncited_numbers":"段里有数就必须有 #nnn",
+   "internal_consistency":"同一 #nnn 在两处带不同数字集合 -> 命中",
+   "dangling_anchors":"#nnn「短语」的短语必须全本唯一且在该条目内",
+   "implication":"一个条目实际上只能被**一个段落**引用,或被数字集合相同的段落引用;而账本引用自己的标题会撞坏页面上的短语锚"},
+ "gate":{"before":{"uncited":11,"internal":3,"dangling":0},
+         "after":{"uncited":9,"internal":3,"dangling":2,"note":"dangling 的 2 处是 #571 本身,条目写入后归零"}},
+ "unchallenged": true}
