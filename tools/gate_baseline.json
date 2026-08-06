@@ -1,6 +1,6 @@
 {
- "note": "#622 重冻(账本写完之后,#605c)。",
- "frozen_at": "E02·A12·R658",
+ "note": "#623 修:#622 把 dangling 0->2 冻进了基线(与 #605 同型的拧松),页面锚短语与账本标题不一致 —— 已对齐,基线恢复到 dangling=0。",
+ "frozen_at": "E02·A12·R658(修)",
  "prev": {
   "uncited_numbers": 17,
   "frozen_at": "E03·A262·R645",
@@ -30,7 +30,7 @@
   "numbers_that_left": 0,
   "uncited_numbers": 1,
   "internal_consistency": 4,
-  "dangling_anchors": 2,
+  "dangling_anchors": 0,
   "claims_without_anchor": 0
  }
 }
