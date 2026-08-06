@@ -1,0 +1,110 @@
+{
+ "bivariate": 0.6401092876212154,
+ "loadings": {
+  "Achievement": -0.3287479302858181,
+  "Aggression": 0.1342497692551193,
+  "Competitiveness": -0.16183051193967238,
+  "Fortitude": -0.2544635983246415,
+  "Industry": -0.4892082185587519,
+  "Obedience": -0.39196870884525503,
+  "Responsibility": -0.45938543804086096,
+  "Self-reliance": -0.08009208220619202,
+  "Self-restraint": -0.41538787679155603
+ },
+ "groupA": [
+  "Aggression"
+ ],
+ "groupB": [
+  "Achievement",
+  "Competitiveness",
+  "Fortitude",
+  "Industry",
+  "Obedience",
+  "Responsibility",
+  "Self-reliance",
+  "Self-restraint"
+ ],
+ "specs": {
+  "文献 compliance(责任+服从)": {
+   "name": "文献 compliance(责任+服从)",
+   "n": 104,
+   "partial": 0.5651588883607015,
+   "mde": 0.19379885073651318,
+   "cols": [
+    "Responsibility",
+    "Obedience"
+   ]
+  },
+  "文献 assertion(成就+自立)": {
+   "name": "文献 assertion(成就+自立)",
+   "n": 107,
+   "partial": 0.6298645087535298,
+   "mde": 0.19297575172169454,
+   "cols": [
+    "Achievement",
+    "Self-reliance"
+   ]
+  },
+  "只服从": {
+   "name": "只服从",
+   "n": 112,
+   "partial": 0.5617633496689104,
+   "mde": 0.18409157612153157,
+   "cols": [
+    "Obedience"
+   ]
+  },
+  "只责任": {
+   "name": "只责任",
+   "n": 110,
+   "partial": 0.635495843420513,
+   "mde": 0.1835138943503467,
+   "cols": [
+    "Responsibility"
+   ]
+  },
+  "盲因子 组A": {
+   "name": "盲因子 组A",
+   "n": 105,
+   "partial": 0.6808902350924364,
+   "mde": 0.19361632937146622,
+   "cols": [
+    "Aggression"
+   ]
+  },
+  "盲因子 组B": {
+   "name": "盲因子 组B",
+   "n": 63,
+   "partial": 0.5211042263041771,
+   "mde": 0.26554391541188366,
+   "cols": [
+    "Achievement",
+    "Competitiveness",
+    "Fortitude",
+    "Industry",
+    "Obedience",
+    "Responsibility",
+    "Self-reliance",
+    "Self-restraint"
+   ]
+  },
+  "全部九个": {
+   "name": "全部九个",
+   "n": 59,
+   "partial": 0.5503556453659566,
+   "mde": 0.2803840744179752,
+   "cols": [
+    "Achievement",
+    "Aggression",
+    "Competitiveness",
+    "Fortitude",
+    "Industry",
+    "Obedience",
+    "Responsibility",
+    "Self-reliance",
+    "Self-restraint"
+   ]
+  }
+ },
+ "verdict": "**W-B:服从单独的代价 +0.0783 > 整个 compliance 组的 +0.0750 ⇒ **对上的是「服从」本身,不是一个族** —— 跨层的族故事在社会层**不**成立,成立的是「服从」这一个品格**"
+}
