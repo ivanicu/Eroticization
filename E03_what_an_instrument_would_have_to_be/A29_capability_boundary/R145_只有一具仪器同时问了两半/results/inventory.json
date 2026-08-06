@@ -1,0 +1,37 @@
+{
+ "inventory": {
+  "GSS": {
+   "condemn": 6,
+   "behaviour": 4,
+   "matched_pairs": 3
+  },
+  "YRBS": {
+   "condemn": 0,
+   "behaviour": 270,
+   "matched_pairs": 0
+  },
+  "NSFG": {
+   "condemn": 1,
+   "behaviour": "many",
+   "matched_pairs": 0
+  },
+  "MFQ": {
+   "condemn": 34,
+   "behaviour": 0,
+   "matched_pairs": 0
+  },
+  "RWAS": {
+   "condemn": 22,
+   "behaviour": 0,
+   "matched_pairs": 0
+  },
+  "BKS (E01 的那具)": {
+   "condemn": 68,
+   "behaviour": 68,
+   "matched_pairs": 68
+  }
+ },
+ "best_non_bks": 3,
+ "verdict": "**没有第二具仪器:除 BKS 外最多只有 3 对(GSS),而 E01 那具有 68 对 ⇒ E01 的关系在本站点无法跨仪器检验**",
+ "unchallenged": true
+}
