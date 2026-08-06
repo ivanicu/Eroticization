@@ -1,0 +1,12 @@
+{"action":"PRODUCTION — 记录两个结构性阻断,不分离世界",
+ "question":"#536/#539 的「性是更紧的领域」全来自同一家机构;换一个来源与招募方式完全不同的仪器,还成立吗?",
+ "MSSCQ":{"n_items":100,"n_sexual":100,"n_reference":0,
+   "block":"全部 100 题都是「my sexual life」句式 -> 没有非性参照 -> 跨领域对比在此仪器上不存在",
+   "evidence":"codebook.txt 逐题读过,Q1-Q100 全部含 sexual/sex"},
+ "RWAS":{"n_items":22,"item_texts_present":false,
+   "block":"codebook.txt 只写 'Q1 - Q22 (question numbers match to items in Altemeyer 2007)' —— 无题目文本",
+   "why_fatal":"要判定哪几题是性道德条目,只能靠我对该量表的记忆 -> 整个估计量将建立在 D2 记忆分类上 -> 门①禁止",
+   "evidence":"grep 全文件 87 行,唯一含 sex 的是人口学题 orientation"},
+ "usable_pivot":"MSSCQ 的 100 题构成 10 个子面(焦虑/自尊/动机/外控/恐惧…) -> 可问一个不同的对象:性自我概念内部是否分裂成子面",
+ "inclusion":["openpsych/MSSCQ/MSSCQ/codebook.txt 全文","openpsych/RWAS/RWAS/codebook.txt 全文"],
+ "unchallenged": true}
