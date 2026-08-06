@@ -306,6 +306,32 @@ question asked of men and of women**. It remains downgraded.
 
 | The headline cannot be replicated anywhere, and the reason is the same everywhere | The first half of this page rests on one pairing: *how uncommon what arouses you is* against *how ashamed you are of it*. Four large public instruments were checked for that pairing. **The GSS, the NSFG and the SCCS carry neither side.** The NSFG's 3,091 variables contain exactly one embarrassment item, and it is about discussing condoms. The Multidimensional Sexual Self-Concept Questionnaire (n = 17,685) carries the *shame* side well — nine of its hundred items are anxiety, depression, blame or fear about one's own sexuality — and **zero of its hundred items ask what the respondent is aroused by**. So of four instruments, one asks about preferences, one asks about shame, and **not one of them asks both**. The claim is not contradicted elsewhere; it is unaskable elsewhere. |
 
+# What the second half was for
+
+The first half of this page is one survey asked once. The second half asked whether any of it survives
+an instrument that does not share its method — forty rounds against the GSS (1972–2024), the NSFG
+(two ACASI waves), the SCCS (186 ethnographically coded societies) and one psychometric scale
+(n = 17,685). What it produced, in one place:
+
+- **A null with content.** In the US, the share saying pornography should be illegal for everyone fell
+  0.38 → 0.18 across thirty surveys, and the log-odds gap between condemners and non-condemners in
+  reporting having watched it did not move: **Δ = −0.10, CI [−0.29, +0.09], MDE 0.27**.
+- **A number that is an artefact of the question.** Randomly split halves of the same sample, asked
+  two differently-worded behaviour questions, answer **0.320 vs 0.425** — **Δ = +0.105, CI [+0.079,
+  +0.135]**.
+- **A gap that survives a different institution and a different mode**, at **−1.22, CI [−1.41,
+  −1.05]**, across four admissible cells spanning −1.22 to −1.41.
+- **And a scale that shows the previous line proves less than it looks.** Two questions differing only
+  in an age — 18 versus 16 — move the same gap from **−0.52 to −1.07** with disjoint intervals, so a
+  cross-instrument agreement of 0.20 is a fifth of what one word does.
+- **Strictness is a person-level coordinate, and it is two rulers, not one.** Per additional strict
+  position on eight norms, the probability of having done the corresponding thing falls about
+  **0.019–0.027**, and the effect is carried by the same domain as the behaviour (three of five).
+- **Four things it established cannot be done at all**, listed below.
+
+Nothing here rescues the first half; the fourth item is a reason to trust it less, and the last
+"cannot do" says why no external instrument can settle it either.
+
 # What was retracted (kept here because I once reported it)
 
 | What I said | Now | Why |
