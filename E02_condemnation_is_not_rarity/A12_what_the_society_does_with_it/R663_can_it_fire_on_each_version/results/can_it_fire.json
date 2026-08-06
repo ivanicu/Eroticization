@@ -1,0 +1,120 @@
+{
+ "table": [
+  {
+   "rule": "uncited_numbers",
+   "page": "README.md",
+   "c0": 1.0,
+   "c_bad": 2.0,
+   "c_good": 1.0,
+   "fired": true,
+   "g0_clean": true,
+   "verdict": "✅ 该版有效",
+   "why": NaN
+  },
+  {
+   "rule": "uncited_numbers",
+   "page": "README_zh.md",
+   "c0": 0.0,
+   "c_bad": 1.0,
+   "c_good": 0.0,
+   "fired": true,
+   "g0_clean": true,
+   "verdict": "✅ 该版有效",
+   "why": NaN
+  },
+  {
+   "rule": "internal_consistency",
+   "page": "README.md",
+   "c0": 4.0,
+   "c_bad": 5.0,
+   "c_good": 4.0,
+   "fired": true,
+   "g0_clean": true,
+   "verdict": "✅ 该版有效",
+   "why": NaN
+  },
+  {
+   "rule": "internal_consistency",
+   "page": "README_zh.md",
+   "c0": 0.0,
+   "c_bad": 1.0,
+   "c_good": 0.0,
+   "fired": true,
+   "g0_clean": true,
+   "verdict": "✅ 该版有效",
+   "why": NaN
+  },
+  {
+   "rule": "dangling_anchors",
+   "page": "README.md",
+   "c0": 0.0,
+   "c_bad": 1.0,
+   "c_good": 0.0,
+   "fired": true,
+   "g0_clean": true,
+   "verdict": "✅ 该版有效",
+   "why": NaN
+  },
+  {
+   "rule": "dangling_anchors",
+   "page": "README_zh.md",
+   "c0": 0.0,
+   "c_bad": 1.0,
+   "c_good": 0.0,
+   "fired": true,
+   "g0_clean": true,
+   "verdict": "✅ 该版有效",
+   "why": NaN
+  },
+  {
+   "rule": "named_defects",
+   "page": "—",
+   "c0": NaN,
+   "c_bad": NaN,
+   "c_good": NaN,
+   "fired": NaN,
+   "g0_clean": NaN,
+   "verdict": "UNCOMPUTED",
+   "why": "缺陷 = 「账本点名过的缺陷仍在页面上原样活着」⇒ 需要同时伪造账本条目与页面残留,不是单版注入"
+  },
+  {
+   "rule": "numbers_that_left",
+   "page": "—",
+   "c0": NaN,
+   "c_bad": NaN,
+   "c_good": NaN,
+   "fired": NaN,
+   "g0_clean": NaN,
+   "verdict": "UNCOMPUTED",
+   "why": "缺陷 = 「与上一版相比某个数离开了页面」⇒ 需要伪造一次提交,不是单版注入"
+  },
+  {
+   "rule": "claims_without_anchor",
+   "page": "—",
+   "c0": NaN,
+   "c_bad": NaN,
+   "c_good": NaN,
+   "fired": NaN,
+   "g0_clean": NaN,
+   "verdict": "UNCOMPUTED",
+   "why": "缺陷 = 「账本条目没有锚」⇒ 它住在账本里,不住在任何一版页面里"
+  },
+  {
+   "rule": "qualifiers_stripped(未接入)",
+   "page": "—",
+   "c0": NaN,
+   "c_bad": NaN,
+   "c_good": NaN,
+   "fired": NaN,
+   "g0_clean": NaN,
+   "verdict": "UNCOMPUTED",
+   "why": "仍未接入闸门(`#624a` 第三次);且它的缺陷跨版本比较,不是单版注入"
+  }
+ ],
+ "n_testable": 6,
+ "n_effective": 6,
+ "n_blind": 0,
+ "n_uncomputed": 4,
+ "verdict": "可测 6 格:有效 6 · 失明 0 ⇒ 无失明格",
+ "unchallenged": true
+}
