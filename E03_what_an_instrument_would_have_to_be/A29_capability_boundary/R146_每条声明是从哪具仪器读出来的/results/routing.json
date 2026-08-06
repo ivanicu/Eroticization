@@ -1,0 +1,100 @@
+{
+ "route": {
+  "639": [],
+  "640": [],
+  "641": [
+   "SCCS"
+  ],
+  "642": [
+   "SCCS"
+  ],
+  "643": [],
+  "648": [
+   "GSS",
+   "MFQ"
+  ],
+  "650": [
+   "MFQ",
+   "NSFG"
+  ],
+  "653": [
+   "GSS",
+   "SCCS",
+   "MFQ",
+   "NSFG"
+  ],
+  "675": [
+   "GSS",
+   "MFQ"
+  ],
+  "676": [
+   "MFQ"
+  ],
+  "677": [
+   "MFQ"
+  ],
+  "678": [
+   "GSS",
+   "MFQ"
+  ],
+  "679": [
+   "GSS",
+   "MFQ"
+  ],
+  "680": [
+   "MFQ"
+  ],
+  "682": [
+   "MFQ"
+  ],
+  "683": [
+   "GSS",
+   "MFQ"
+  ],
+  "686": [
+   "MFQ"
+  ],
+  "688": [
+   "MFQ"
+  ],
+  "689": [
+   "GSS",
+   "MFQ",
+   "NSFG"
+  ],
+  "690": [
+   "GSS",
+   "MFQ",
+   "RWAS"
+  ],
+  "697": [
+   "SCCS"
+  ],
+  "699": [
+   "SCCS"
+  ],
+  "700": [
+   "SCCS"
+  ],
+  "701": [
+   "SCCS"
+  ]
+ },
+ "archive_clusters": {
+  "?": 3,
+  "SCCS": 6,
+  "GSS+MFQ": 5,
+  "MFQ+NSFG": 1,
+  "GSS+SCCS+MFQ+NSFG": 1,
+  "MFQ": 6,
+  "GSS+MFQ+NSFG": 1,
+  "GSS+MFQ+RWAS": 1
+ },
+ "largest_single": 6,
+ "n_entries": 24,
+ "cross_broad": 9,
+ "cross_strict": 4,
+ "tagged_rows": 27,
+ "verdict": "**没有单一仪器主导:最大单具簇 6/24 = 25% ≤ 一半;而跨具宽读 9 条、严读只有 4 条,两个都报**",
+ "unchallenged": true
+}
