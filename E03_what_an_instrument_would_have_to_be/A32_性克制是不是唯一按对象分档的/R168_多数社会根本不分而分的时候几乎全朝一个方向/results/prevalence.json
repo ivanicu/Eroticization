@@ -1,0 +1,247 @@
+{
+ "cells": {
+  "Fortitude|early": {
+   "n": 130,
+   "n_diff": 25,
+   "prev": 0.19230769230769232,
+   "pos": 1,
+   "neg": 24,
+   "p_girl": 0.04,
+   "binom_p": 1.5497207641601562e-06,
+   "usable": false,
+   "med_abs_diff": 1.0
+  },
+  "Fortitude|late": {
+   "n": 143,
+   "n_diff": 44,
+   "prev": 0.3076923076923077,
+   "pos": 2,
+   "neg": 42,
+   "p_girl": 0.045454545454545456,
+   "binom_p": 1.1266365618212149e-10,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Aggression|early": {
+   "n": 117,
+   "n_diff": 25,
+   "prev": 0.21367521367521367,
+   "pos": 3,
+   "neg": 22,
+   "p_girl": 0.12,
+   "binom_p": 0.00015652179718017578,
+   "usable": false,
+   "med_abs_diff": 1.0
+  },
+  "Aggression|late": {
+   "n": 127,
+   "n_diff": 36,
+   "prev": 0.28346456692913385,
+   "pos": 4,
+   "neg": 32,
+   "p_girl": 0.1111111111111111,
+   "binom_p": 1.941574737429619e-06,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Competitiveness|early": {
+   "n": 105,
+   "n_diff": 4,
+   "prev": 0.0380952380952381,
+   "pos": 0,
+   "neg": 4,
+   "p_girl": 0.0,
+   "binom_p": 0.125,
+   "usable": false,
+   "med_abs_diff": 2.5
+  },
+  "Competitiveness|late": {
+   "n": 125,
+   "n_diff": 14,
+   "prev": 0.112,
+   "pos": 1,
+   "neg": 13,
+   "p_girl": 0.07142857142857142,
+   "binom_p": 0.0018310546875,
+   "usable": false,
+   "med_abs_diff": 3.0
+  },
+  "Self-reliance|early": {
+   "n": 152,
+   "n_diff": 40,
+   "prev": 0.2631578947368421,
+   "pos": 3,
+   "neg": 37,
+   "p_girl": 0.075,
+   "binom_p": 1.946500560734421e-08,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Self-reliance|late": {
+   "n": 152,
+   "n_diff": 70,
+   "prev": 0.4605263157894737,
+   "pos": 3,
+   "neg": 67,
+   "p_girl": 0.04285714285714286,
+   "binom_p": 9.694461487914918e-17,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Achievement|early": {
+   "n": 135,
+   "n_diff": 23,
+   "prev": 0.17037037037037037,
+   "pos": 10,
+   "neg": 13,
+   "p_girl": 0.43478260869565216,
+   "binom_p": 0.6776394844055176,
+   "usable": false,
+   "med_abs_diff": 1.0
+  },
+  "Achievement|late": {
+   "n": 151,
+   "n_diff": 47,
+   "prev": 0.31125827814569534,
+   "pos": 24,
+   "neg": 23,
+   "p_girl": 0.5106382978723404,
+   "binom_p": 1.0,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Industry|early": {
+   "n": 163,
+   "n_diff": 56,
+   "prev": 0.34355828220858897,
+   "pos": 53,
+   "neg": 3,
+   "p_girl": 0.9464285714285714,
+   "binom_p": 8.137102103233929e-13,
+   "usable": true,
+   "med_abs_diff": 1.0
+  },
+  "Industry|late": {
+   "n": 173,
+   "n_diff": 91,
+   "prev": 0.5260115606936416,
+   "pos": 84,
+   "neg": 7,
+   "p_girl": 0.9230769230769231,
+   "binom_p": 7.11654571984409e-18,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Responsibility|early": {
+   "n": 147,
+   "n_diff": 39,
+   "prev": 0.2653061224489796,
+   "pos": 35,
+   "neg": 4,
+   "p_girl": 0.8974358974358975,
+   "binom_p": 3.353161446284503e-07,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Responsibility|late": {
+   "n": 156,
+   "n_diff": 69,
+   "prev": 0.4423076923076923,
+   "pos": 58,
+   "neg": 11,
+   "p_girl": 0.8405797101449275,
+   "binom_p": 7.555829742748269e-09,
+   "usable": true,
+   "med_abs_diff": 2.0
+  },
+  "Obedience|early": {
+   "n": 159,
+   "n_diff": 25,
+   "prev": 0.15723270440251572,
+   "pos": 23,
+   "neg": 2,
+   "p_girl": 0.92,
+   "binom_p": 1.9431114196777344e-05,
+   "usable": false,
+   "med_abs_diff": 1.0
+  },
+  "Obedience|late": {
+   "n": 159,
+   "n_diff": 27,
+   "prev": 0.16981132075471697,
+   "pos": 25,
+   "neg": 2,
+   "p_girl": 0.9259259259259259,
+   "binom_p": 5.647540092468262e-06,
+   "usable": false,
+   "med_abs_diff": 2.0
+  },
+  "Self-restraint|early": {
+   "n": 133,
+   "n_diff": 18,
+   "prev": 0.13533834586466165,
+   "pos": 13,
+   "neg": 5,
+   "p_girl": 0.7222222222222222,
+   "binom_p": 0.09625244140625,
+   "usable": false,
+   "med_abs_diff": 1.5
+  },
+  "Self-restraint|late": {
+   "n": 131,
+   "n_diff": 27,
+   "prev": 0.20610687022900764,
+   "pos": 14,
+   "neg": 13,
+   "p_girl": 0.5185185185185185,
+   "binom_p": 1.0,
+   "usable": false,
+   "med_abs_diff": 2.0
+  },
+  "Sexual Restraint|early": {
+   "n": 153,
+   "n_diff": 37,
+   "prev": 0.24183006535947713,
+   "pos": 35,
+   "neg": 2,
+   "p_girl": 0.9459459459459459,
+   "binom_p": 1.0244548320770264e-08,
+   "usable": true,
+   "med_abs_diff": 1.0
+  },
+  "Sexual Restraint|late": {
+   "n": 160,
+   "n_diff": 76,
+   "prev": 0.475,
+   "pos": 72,
+   "neg": 4,
+   "p_girl": 0.9473684210526315,
+   "binom_p": 3.589836803538052e-17,
+   "usable": true,
+   "med_abs_diff": 2.0
+  }
+ },
+ "ranks": {
+  "early|prev": [
+   4,
+   4
+  ],
+  "early|p_girl": [
+   2,
+   4
+  ],
+  "late|prev": [
+   2,
+   7
+  ],
+  "late|p_girl": [
+   1,
+   7
+  ]
+ },
+ "agg_positive_control": false,
+ "floor": 30,
+ "verdict": "**UNVERIFIED:正对照没过**",
+ "r167_defect": "逐社会差的中位在 53–84% 并列于零的分布上恒等于零 —— 统计量失明,非仪器失明",
+ "unchallenged": true
+}
