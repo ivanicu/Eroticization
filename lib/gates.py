@@ -165,6 +165,13 @@ class Gate:
     def negative_control(self, name, null, effect, ratio=0.5, null_spread=None, null_kind=None):
         """#102a: a null is judged against the EFFECT, never against a constant.
 
+        ⚠ #713:**`null` 位收到的,必须与 `null_kind` 描述的是同一个量。**
+        实测 33 处调用里,这个位置收到过**四种不同的东西**:安慰剂的观测值 11 处、
+        零分布的中位 8 处、零分布的 95% 分位 6 处、其他常数 8 处 ——
+        **而本函数对它们一视同仁,于是同一句 `null < 0.5*effect` 意味着三种不同的强度。**
+        `null_kind` 挡住了「不说零是什么」,**挡不住「说了做法却塞进另一种量」。**
+        **调用者自己负责让这两者对齐;本函数不能替你检查。**
+
         #125: ...but when the EFFECT is small, `|null| < 0.5*|effect|` is a bar the null can fail
         while being indistinguishable from zero on its own spread. A05R15: null -0.00147 +/- 0.00140
         (1.1x, i.e. zero) failed against an effect of +0.00173. Both questions must be asked:
