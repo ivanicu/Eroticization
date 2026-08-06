@@ -1,0 +1,44 @@
+{
+ "n": 734,
+ "years": [
+  1991,
+  1998
+ ],
+ "rel_G": 0.7030585734430792,
+ "rel_S": 0.6767432340070776,
+ "rho_SG": 0.13174253816955334,
+ "rho_SG_disatt": 0.19099337839898842,
+ "before": {
+  "premarsx×xmarsex": 0.3325571830387472,
+  "premarsx×homosex": 0.42662180229635155,
+  "premarsx×teensex": 0.4379132757313597,
+  "xmarsex×homosex": 0.30886908280743985,
+  "xmarsex×teensex": 0.3475182289456747,
+  "homosex×teensex": 0.28317517387448066
+ },
+ "after": {
+  "premarsx×xmarsex": 0.3261470147470631,
+  "premarsx×homosex": 0.4280955217252205,
+  "premarsx×teensex": 0.428851551415338,
+  "xmarsex×homosex": 0.30884519691242834,
+  "xmarsex×teensex": 0.3406446246205081,
+  "homosex×teensex": 0.28397168809408185
+ },
+ "corrected": {
+  "premarsx×xmarsex": 0.3233999842265962,
+  "premarsx×homosex": 0.428730786024225,
+  "premarsx×teensex": 0.42493520423649644,
+  "xmarsex×homosex": 0.3088361034847754,
+  "xmarsex×teensex": 0.3376924395676454,
+  "homosex×teensex": 0.28431960853581684
+ },
+ "med_before": 0.34003770599221095,
+ "med_after": 0.3333958196837856,
+ "med_corrected": 0.3305462118971208,
+ "null_ci": [
+  0.3378775379493724,
+  0.3421431823231918
+ ],
+ "pos_control": 0.3395929931295505,
+ "verdict": "**W1:即使假设 G 完美可靠,四题性彼此仍保留 97.2%(中位数 +0.3305,零上界 +0.3421) ⇒ 人这个单位上性也自成一条线**"
+}
