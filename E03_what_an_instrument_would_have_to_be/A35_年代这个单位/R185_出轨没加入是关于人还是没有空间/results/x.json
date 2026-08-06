@@ -1,0 +1,19 @@
+{
+ "raw": {
+  "premarsx×homosex": 0.006716511024671557,
+  "xmarsex×homosex": 0.0007528802681787745,
+  "teensex×homosex": 0.003811806081248604
+ },
+ "norm": {
+  "premarsx×homosex": 0.005814856650469296,
+  "xmarsex×homosex": 0.0057371656708315785,
+  "teensex×homosex": 0.006879768196621569
+ },
+ "share": 0.9866392270166373,
+ "null_ci": [
+  -0.0015326882568838397,
+  0.0015653437497261152
+ ],
+ "verdict": "**W_b:归一后 `xmarsex×homosex` 占 99% ⇒ 「出轨没加入」撤回 —— 那是天花板说的**",
+ "unchallenged": true
+}
