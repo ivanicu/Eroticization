@@ -1,0 +1,392 @@
+{
+ "rows": [
+  {
+   "cut": "\u6700\u4e25 {1}",
+   "pair": "homosex\u00d7premarsx",
+   "n_years": 25,
+   "n_diff": 24,
+   "min_n": 868,
+   "rho_level": 0.8960175097398777,
+   "rho_diff": 0.3893280374752992,
+   "reliability": [
+    0.7548,
+    0.2218
+   ],
+   "rho_diff_disattenuated": 0.9514773347226082,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 25 \u4e2a",
+    "\u6700\u4e25 {1}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u4e25 {1}",
+   "pair": "homosex\u00d7xmarsex",
+   "n_years": 30,
+   "n_diff": 29,
+   "min_n": 868,
+   "rho_level": 0.1941246947951567,
+   "rho_diff": 0.4487166320098607,
+   "reliability": [
+    0.7372,
+    0.7998
+   ],
+   "rho_diff_disattenuated": 0.5843698841260946,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 30 \u4e2a",
+    "\u6700\u4e25 {1}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u4e25 {1}",
+   "pair": "homosex\u00d7teensex",
+   "n_years": 21,
+   "n_diff": 20,
+   "min_n": 868,
+   "rho_level": 0.7532909244234758,
+   "rho_diff": 0.37499668253125956,
+   "reliability": [
+    0.7584,
+    0.7528
+   ],
+   "rho_diff_disattenuated": 0.49628012529840826,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 21 \u4e2a",
+    "\u6700\u4e25 {1}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u4e25 {1}",
+   "pair": "premarsx\u00d7xmarsex",
+   "n_years": 25,
+   "n_diff": 24,
+   "min_n": 883,
+   "rho_level": 0.5381873881513808,
+   "rho_diff": 0.27648144777802197,
+   "reliability": [
+    0.2218,
+    0.754
+   ],
+   "rho_diff_disattenuated": 0.6760446698535159,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 25 \u4e2a",
+    "\u6700\u4e25 {1}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u4e25 {1}",
+   "pair": "premarsx\u00d7teensex",
+   "n_years": 22,
+   "n_diff": 21,
+   "min_n": 883,
+   "rho_level": 0.9017061907891847,
+   "rho_diff": 0.5419082527022405,
+   "reliability": [
+    0.2677,
+    0.7506
+   ],
+   "rho_diff_disattenuated": 1.208987884793938,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 22 \u4e2a",
+    "\u6700\u4e25 {1}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u4e25 {1}",
+   "pair": "xmarsex\u00d7teensex",
+   "n_years": 21,
+   "n_diff": 20,
+   "min_n": 887,
+   "rho_level": 0.9594500522462733,
+   "rho_diff": 0.8440726413149381,
+   "reliability": [
+    0.7692,
+    0.7528
+   ],
+   "rho_diff_disattenuated": 1.1092026596615898,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 21 \u4e2a",
+    "\u6700\u4e25 {1}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u4e2d {1,2}",
+   "pair": "homosex\u00d7premarsx",
+   "n_years": 25,
+   "n_diff": 24,
+   "min_n": 868,
+   "rho_level": 0.9255021625232722,
+   "rho_diff": 0.4252847461562875,
+   "reliability": [
+    0.7448,
+    0.2905
+   ],
+   "rho_diff_disattenuated": 0.9143485942000266,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 25 \u4e2a",
+    "\u4e2d {1,2}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u4e2d {1,2}",
+   "pair": "homosex\u00d7xmarsex",
+   "n_years": 30,
+   "n_diff": 29,
+   "min_n": 868,
+   "rho_level": 0.005826322996796451,
+   "rho_diff": 0.002338373627109878,
+   "reliability": [
+    0.7272,
+    0.5906
+   ],
+   "rho_diff_disattenuated": 0.003568199200494133,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 30 \u4e2a",
+    "\u4e2d {1,2}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u4e2d {1,2}",
+   "pair": "homosex\u00d7teensex",
+   "n_years": 21,
+   "n_diff": 20,
+   "min_n": 868,
+   "rho_level": 0.8113655366256435,
+   "rho_diff": 0.35038717241848716,
+   "reliability": [
+    0.7433,
+    0.6918
+   ],
+   "rho_diff_disattenuated": 0.488626316389911,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 21 \u4e2a",
+    "\u4e2d {1,2}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u4e2d {1,2}",
+   "pair": "premarsx\u00d7xmarsex",
+   "n_years": 25,
+   "n_diff": 24,
+   "min_n": 883,
+   "rho_level": 0.2966572980027942,
+   "rho_diff": 0.018056107236776076,
+   "reliability": [
+    0.2905,
+    0.6039
+   ],
+   "rho_diff_disattenuated": 0.0431143141307327,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 25 \u4e2a",
+    "\u4e2d {1,2}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u4e2d {1,2}",
+   "pair": "premarsx\u00d7teensex",
+   "n_years": 22,
+   "n_diff": 21,
+   "min_n": 883,
+   "rho_level": 0.9223827694386906,
+   "rho_diff": 0.5377894329270494,
+   "reliability": [
+    0.1978,
+    0.6765
+   ],
+   "rho_diff_disattenuated": 1.4702452975544797,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 22 \u4e2a",
+    "\u4e2d {1,2}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u4e2d {1,2}",
+   "pair": "xmarsex\u00d7teensex",
+   "n_years": 21,
+   "n_diff": 20,
+   "min_n": 887,
+   "rho_level": 0.9168403214751801,
+   "rho_diff": 0.4397657835419702,
+   "reliability": [
+    0.5381,
+    0.6918
+   ],
+   "rho_diff_disattenuated": 0.7208318902782953,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 21 \u4e2a",
+    "\u4e2d {1,2}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u5bbd {1,2,3}",
+   "pair": "homosex\u00d7premarsx",
+   "n_years": 25,
+   "n_diff": 24,
+   "min_n": 868,
+   "rho_level": 0.9456481465488541,
+   "rho_diff": 0.3496486987594395,
+   "reliability": [
+    0.7065,
+    0.5617
+   ],
+   "rho_diff_disattenuated": 0.5550543190366783,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 25 \u4e2a",
+    "\u6700\u5bbd {1,2,3}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u5bbd {1,2,3}",
+   "pair": "homosex\u00d7xmarsex",
+   "n_years": 30,
+   "n_diff": 29,
+   "min_n": 868,
+   "rho_level": 0.022378205697148917,
+   "rho_diff": 0.04175523911691602,
+   "reliability": [
+    0.6968,
+    0.5294
+   ],
+   "rho_diff_disattenuated": 0.06874434410358271,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 30 \u4e2a",
+    "\u6700\u5bbd {1,2,3}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u5bbd {1,2,3}",
+   "pair": "homosex\u00d7teensex",
+   "n_years": 21,
+   "n_diff": 20,
+   "min_n": 868,
+   "rho_level": 0.8231945893963228,
+   "rho_diff": 0.37654205510010275,
+   "reliability": [
+    0.708,
+    0.7876
+   ],
+   "rho_diff_disattenuated": 0.5042367733445047,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 21 \u4e2a",
+    "\u6700\u5bbd {1,2,3}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u5bbd {1,2,3}",
+   "pair": "premarsx\u00d7xmarsex",
+   "n_years": 25,
+   "n_diff": 24,
+   "min_n": 883,
+   "rho_level": 0.341402360463468,
+   "rho_diff": 0.16618103813395002,
+   "reliability": [
+    0.5617,
+    0.3959
+   ],
+   "rho_diff_disattenuated": 0.3524175394321009,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 25 \u4e2a",
+    "\u6700\u5bbd {1,2,3}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u5bbd {1,2,3}",
+   "pair": "premarsx\u00d7teensex",
+   "n_years": 22,
+   "n_diff": 21,
+   "min_n": 883,
+   "rho_level": 0.8994559028137508,
+   "rho_diff": 0.4277480447452591,
+   "reliability": [
+    0.4396,
+    0.7807
+   ],
+   "rho_diff_disattenuated": 0.7301028261208388,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 22 \u4e2a",
+    "\u6700\u5bbd {1,2,3}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  },
+  {
+   "cut": "\u6700\u5bbd {1,2,3}",
+   "pair": "xmarsex\u00d7teensex",
+   "n_years": 21,
+   "n_diff": 20,
+   "min_n": 887,
+   "rho_level": 0.7780695895158709,
+   "rho_diff": 0.6240394410138258,
+   "reliability": [
+    0.4563,
+    0.7876
+   ],
+   "rho_diff_disattenuated": 1.0409493135811614,
+   "inclusion": [
+    "\u4e24\u9898\u5171\u540c\u8c03\u67e5\u5e74 21 \u4e2a",
+    "\u6700\u5bbd {1,2,3}",
+    "\u0394 \u53d6\u76f8\u90bb\u5171\u540c\u5e74\u4e4b\u5dee",
+    "\u566a\u58f0\u5730\u677f = \u4e8c\u9879 SE"
+   ]
+  }
+ ],
+ "level_median": 0.8172800630109831,
+ "diff_median": 0.382935046287701,
+ "world": "UNVERIFIED",
+ "verdict": "\u63a7\u5236\u672a\u9f50",
+ "positive_control": {
+  "per_item": [
+   0.6606539043749554,
+   0.1412232789865479,
+   0.16447176887898507,
+   0.5530731116610479
+  ],
+  "median": 0.3587724402700165
+ },
+ "placebo_median": 0.14089916890079157,
+ "placebo_q95": 0.39793234580100617,
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "instrument": "GSS 1972-2024,\u540c\u4e00\u4efd\u95ee\u5377\u540c\u4e00\u6279\u53d7\u8bbf\u8005",
+ "impossible": [
+  "\u4e00\u56fd\u4e00\u4eea\u5668\u65e0\u8de8\u56fd\u590d\u5236",
+  "\u89c2\u5bdf\u6027\u975e\u56e0\u679c",
+  "\u5171\u540c\u5e74\u4efd<=30 \u70b9",
+  "\u5171\u540c\u65b9\u6cd5\u65b9\u5dee\u62ac\u9ad8 rho_diff,\u5bf9 W-CLIMATE \u4e0d\u4fdd\u5b88"
+ ],
+ "unchallenged": true
+}
