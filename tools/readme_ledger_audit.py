@@ -227,8 +227,16 @@ def numbers_that_left(rev='HEAD~1', files=('README.md','README_zh.md')):
             if src and NP:
                 best=max(NP,key=lambda q:_ov(src[0],q))
                 if _ov(src[0],best)>=0.50:
-                    cand=[norm(m) for m in _MAGNUM.findall(best) if norm(m) in newcomers]
-                    rep,kind=(cand[0],'替换') if cand else (None,'拿走')
+                    cand=sorted({norm(m) for m in _MAGNUM.findall(best) if norm(m) in newcomers})
+                    # #631:第一版写 `cand[0]` —— 一段里同时走两个来两个时,
+                    #   它把**同一个**新数指派给两个离开的数,而另一个候选从头到尾没被提过。
+                    #   **那不是任选其一,那是一个连方向都不成立的对应。**
+                    #   ⇒ 第四值 `多候选`,把**全部**候选写出来。
+                    #   ⚠ 「哪一个换了哪一个」在没有语义的前提下**不可判定**;
+                    #     这个修法是**如实列出全部**,不是解决它。
+                    if not cand: rep,kind=None,'拿走'
+                    elif len(cand)==1: rep,kind=cand[0],'替换'
+                    else: rep,kind=' | '.join(cand),'多候选'
             out.append(dict(file=f,token=tk,n_old_lines=len(ctx),
                             kind=kind,replaced_by=rep,
                             old_excerpt=(ctx[0][:120] if ctx else '')))
