@@ -1249,3 +1249,34 @@ class Gate:
             detail += " ⚠ 通过不证明映射对:一个反号且基础率≈0.5 的列,本守卫抓不到"
         self.rows.append((name, f"rate={rate:.4f}", ok, detail))
         return ok
+
+
+def calibrated_tolerance(null_samples, k=1.0, q=0.95):
+    """#711/#712:容差必须从零里取,而不是每次手写一个数。
+
+    **由同一个毛病第三次触发**:`#691` 的比值区间 `[0.5,2]`、`#710` 的分诊门槛 `1.5`、
+    `#711` 的复现容差 `0.02` —— 三次都是我选了一个数当门槛,而三次都是那个数在决定裁决。
+
+    参数
+    ----
+    null_samples : 该量自己的零分布样本(一维)
+    k            : 余量系数,默认 1.0 = 恰好取零的分位,不再额外加宽
+    q            : 分位,默认 0.95
+
+    返回零分布的 `q` 分位 × `k`。**这是 `positive_control` 的 `spread`/`floor`、
+    `offset_control` 的 `spread` 应当取的值。**
+
+    ⚠ **本函数默认不被三个 control 调用,这是刻意的。**
+    `#712` 量过:把三个 control 改接校准容差,会让本页面 **4 条**已有裁决翻,
+    而 `#712` ⑤ 预注册的停止条件是「>2 就不合入」⇒ **停在这里。**
+    ⚠ 而四条翻的方向**全部是「手写不过 → 校准通过」** ——
+    **我的手写门槛系统性地比数据支持的更严,即我一直在少报,不是多报。**
+    **但少报是安全的那一侧,而「改一个门槛就翻四条裁决」正是棘轮要防的事** ⇒
+    **旧裁决一律不动,新轮次用本函数取容差。前向生效,不追溯。**
+    """
+    import numpy as _np
+    a = _np.abs(_np.asarray(null_samples, dtype=float))
+    a = a[_np.isfinite(a)]
+    if a.size == 0:
+        return float("nan")
+    return float(_np.quantile(a, q) * k)

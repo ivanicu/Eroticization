@@ -186,7 +186,7 @@ folder, with its scripts flat inside.**
 **Closing condition: cross-instrument** — a round does not close until the same question has been asked on
 ≥2 instruments; enforced by `tools/readme_gate.py`, **which blocked its own author on its first live round.**
 
-[`RETRACTIONS.md`](RETRACTIONS.md) — **695 entries**, every retraction and narrowing with the thing that
+[`RETRACTIONS.md`](RETRACTIONS.md) — **696 entries**, every retraction and narrowing with the thing that
 killed it.
 
 ---
