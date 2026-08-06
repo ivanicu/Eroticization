@@ -327,7 +327,10 @@ an instrument that does not share its method — forty rounds against the GSS (1
 - **Strictness is a person-level coordinate, and it is two rulers, not one.** Per additional strict
   position on eight norms, the probability of having done the corresponding thing falls about
   **0.019–0.027**, and the effect is carried by the same domain as the behaviour (three of five) `[#500, #501]`.
-- **Four things it established cannot be done at all**, listed below `[#498, #516, #521, #522]`.
+- **Four things it established cannot be done at all**, listed below
+  `[#498 "这条线按它自己写下的规则关闭", #516 "结构上就是不可能的", #521 "零个第二性域", #522 "没有第二个人问过同一个问题"]`.
+
+Every claim above carries the ledger entry it came from. A check verifies that the anchored entry actually contains the number or phrase cited; it is deliberately breakable and reports an error when an anchor is altered. ⚠ How much a passing anchor is worth was then measured, and the two kinds of anchor are not alike. Over the 509 ledger entries, a **number** anchor is weak — `0.20` appears in **13.4% of the ledger**, so a wrong entry passes that check about one time in seven — while each of the four **phrase** anchors above appears in exactly one entry and collides with **none** of the other 508. So the number anchors were replaced by phrase anchors. ⚠ Neither kind verifies: the check confirms that the cited text is there, never that the entry is *about* this claim, and an anchor pointing at an entry that merely happens to contain the sentence would pass. **Semantic correctness is not machine-checkable here, and this round did not fix that — it put a number on it** `[#526]`.
 
 Nothing here rescues the first half; the fourth item is a reason to trust it less, and the last
 "cannot do" says why no external instrument can settle it either.

@@ -1,0 +1,4 @@
+{"action":"CLOSURE — 弧的重切(#525)","merged":[["A195","A201"],["A204","A203"],["A208","A207"],["A206","A205"]],
+ "after":{"A200":4,"A201":6,"A203":4,"A205":4},"arcs_total":217,"arcs_with_one_R":79,
+ "colliding_A_numbers":[190,191,192,193,194,196,197,198],
+ "inclusion":["全项目 E0*/A*/R* 目录"],"unchallenged":true}
