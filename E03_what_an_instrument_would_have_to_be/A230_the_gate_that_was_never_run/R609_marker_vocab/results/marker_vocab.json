@@ -1,0 +1,12 @@
+{"action":"PRODUCTION — 补标记词表,并报前后差值(可审)",
+ "added_words":["DOWNGRADED","降级"],
+ "reason":"README.md:411 写着 [DOWNGRADED — RETRACTIONS #24, re-affirmed #143],是带条目指针的范围声明,而词表不认识这个词",
+ "delta":{"before":6,"after":6,"note":"差值为 0 —— 补词表一处也没放松这道检查"},
+ "page_word_counts":{"DOWNGRADED":1,"降级":5,"RETRACTED":1,"superseded":2,"取代":5,"作废":0},
+ "groups_now":[["#154","+0.023","README.md",2],["#154","+0.023","README_zh.md",3],
+               ["#346","+0.1185","README.md",6],["#346","+0.1185","README_zh.md",3],
+               ["#564","+0.023","README.md",2],["#564","+0.023","README_zh.md",3]],
+ "self_contamination":"#563 时是 4,现在是 6;新增的两组是 #564 —— 为分诊 +0.023 写的账本条目引用了那个数,于是又铸出一组",
+ "instrument_limit":"named_defects 数的是 (提到某数的条目) × (页面重复该数) 的组数,不是缺陷数;写一条讨论某数的条目会增加它",
+ "inclusion":["README.md 与 README_zh.md 全文","RETRACTIONS.md 全部条目"],
+ "unchallenged": true}

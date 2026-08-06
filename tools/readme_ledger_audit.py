@@ -123,7 +123,12 @@ if __name__=='__main__' and '--internal' in __import__('sys').argv:
 #                  所以「同文件内重复」的判定必须人工确认所指相同(#170b)。
 #   SAFE SIDE   只在**命中且无标记**方向判「未修」。未命中 != 已修(措辞可能变了)。
 # ============================================================================
-_MARK = _re.compile(r'~~|KILLED|CORRECTED|Withdrawn|Inverted|撤回|已杀|反转|未修|scope stated')
+# ⚠ `#565`:页面上实际在用、而这张词表里**没有**的标记词 —— `DOWNGRADED` 与 `降级`。
+#   `README.md:411` 写着 `[DOWNGRADED — RETRACTIONS #24, re-affirmed #143]`,
+#   那是一句**带条目指针的范围声明**,而检查因为不认识这个词把它报成「未标记」。
+#   ⚠ 补词表会让这道检查**变松**,所以补的同时必须报**前后差值**(见 `#565b`),
+#   否则这就是「为了让闸门说是而放松它」——`#564d` 刚写过的那件事的另一面。
+_MARK = _re.compile(r'~~|KILLED|CORRECTED|Withdrawn|Inverted|DOWNGRADED|撤回|已杀|反转|未修|降级|scope stated')
 _NAMES = _re.compile(r'README[^\n]{0,400}')
 
 def named_defects(readmes=('README.md','README_zh.md'), ledger='RETRACTIONS.md'):
