@@ -1,0 +1,11 @@
+{"action":"PRODUCTION — 给仪器规格表加第七行(面板),并先验证本地确实没有面板结构",
+ "verification":{"method":"不靠关键词(#489a):按构造验",
+  "keyword_scan":"含 panel/wave/reinterview/longitudinal 的变量:0(唯一命中 lasers 是误配)",
+  "structural":"(year,id) 组合数 = 75,699 = 总行数 ⇒ id 是年内编号;且 id=1 的 age 逐年为 23·54·21·38·56,随机跳动",
+  "conclusion":"GSS 累积文件纯横断面,无人标识,无面板"},
+ "row":{"cannot":"这条线最后停下来的原因,是没有任何一个人被问过两次",
+  "spec":"同一批人、同一批题、至少两个时点;并公开人标识以便配对",
+  "closest":"本收藏里没有 —— GSS 累积文件按构造验证为纯横断面",
+  "gap":"整个面板维度"},
+ "minimum_requirement":"任何声称区分「人变了」与「人换了」的设计,必须先报它的两个边际斜率与各自的分段极差(#594a 实测:A 0.000549 敏感 · B 0.000391 不承重)",
+ "unchallenged": true}
