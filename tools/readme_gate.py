@@ -62,6 +62,46 @@ def dangling_anchors():
     return bad
 
 
+
+
+def claims_page_edit_without_anchor(cutoff=600):
+    """#600:从 `#{cutoff}` 起,每条账本条目的锚必须在页面上,除非它**明说不上页面**。
+
+    由 `#599` 触发(`#598` 那一轮:账本写了、页面没改)。
+    ⚠ **第一版的判据抓不住它自己那个案例** —— 我先写的是「条目含承诺语而无锚」,
+      而 `#598` 的正文**没有**承诺语,于是抹掉它的锚后计数不变(12 → 12)。
+      **一条抓不住自己动机案例的检查,不合格。** 改成**反向不变量**:
+      **默认要求有锚,除非条目明说「页面一个字也没加 / 只进账本 / 不上页面」。**
+      实测:模拟 `#598` 无锚 -> 缺失从 9 升到 10,**含 598** ✅。
+
+    ⚠ **从 `cutoff` 起生效**;更早的条目**点名列出但不阻断** ——
+      一条新规则不该追溯阻断,但**必须点名,不许藏**(基线 9 条:
+      560 · 562 · 564 · 565 · 566 · 570 · 578 · 584 · 599)。
+
+    ⚠ P6 代理账:
+      PROPERTY   这条条目该上页面而没上
+      PROXY      页面里找不到 `#<entry>`,且条目正文没有豁免语
+      IMPLICATION 只有一个方向可靠:**无锚且无豁免 -> 它确实没上页面**(可靠)。
+                 反过来不成立:有锚**不**证明页面上写的是对的(`#526e`:锚只能证伪)。
+      SAFE SIDE  只报「没上」;从不报「这条上得对」。
+    返回 (blocking, grandfathered)。
+    """
+    import re
+    root = pathlib.Path(__file__).resolve().parents[1]
+    led = (root / "RETRACTIONS.md").read_text()
+    pages = "\n".join((root / f).read_text() for f in ("README.md", "README_zh.md")
+                       if (root / f).exists())
+    marks = [(int(m.group(1)), m.start()) for m in re.finditer(r'^## Entry (\d+)', led, re.M)]
+    OPTOUT = re.compile(r'页面一个字也没加|页面不加|只进账本|页面一个字没加|不上页面|'
+                        r'页面无需改动|页面维持现状')
+    blocking, old = [], []
+    for i, (n, s0) in enumerate(marks):
+        body = led[s0:(marks[i + 1][1] if i + 1 < len(marks) else len(led))]
+        if f"#{n}" in pages or OPTOUT.search(body): continue
+        (blocking if n >= cutoff else old).append(n)
+    return blocking, old
+
+
 RULES = [
     ('named_defects',   '账本点名过的缺陷仍原样活着(#170)'),
     ('numbers_that_left','有数量离开了这一页(#171)'),
@@ -69,6 +109,8 @@ RULES = [
     ('internal_consistency','同一引用标记在两处带不同的数(#144)'),
     ('dangling_anchors', '短语锚指向的文字**不存在**(#563;阻断)'),
     ('anchor_collide(warn)', '短语锚在条目外也出现(#572;**只警告,不阻断**)'),
+    ('claims_without_anchor', '#600 起的条目无锚且无豁免语(阻断)'),
+    ('no_anchor_grandfathered(warn)', '#600 之前的同类条目(**只点名,不阻断**)'),
 ]
 
 def run_gate(rev=None, quiet=False):
@@ -96,6 +138,13 @@ def run_gate(rev=None, quiet=False):
     except Exception as e:
         hits['dangling_anchors'] = -1
         if not quiet: print(f"  ⚠ dangling_anchors 没跑起来：{type(e).__name__}: {e}")
+    try:
+        _b, _o = claims_page_edit_without_anchor()
+        hits['claims_without_anchor'] = len(_b)
+        hits['no_anchor_grandfathered(warn)'] = len(_o)
+    except Exception as e:
+        hits['claims_without_anchor'] = -1
+        if not quiet: print(f"  ⚠ claims_without_anchor 没跑起来：{type(e).__name__}: {e}")
     blocked = any(v != 0 for k, v in hits.items() if not k.endswith('(warn)'))
     if not quiet:
         print(f"\n{'规则':<24}{'命中':>6}   说明")
