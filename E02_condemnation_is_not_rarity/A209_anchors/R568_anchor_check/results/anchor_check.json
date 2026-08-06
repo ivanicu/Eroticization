@@ -1,0 +1,88 @@
+{
+ "tamper_detected": true,
+ "rows": [
+  {
+   "idx": 0,
+   "anchors": [
+    486
+   ],
+   "nums": [
+    "0.38",
+    "0.18",
+    "-0.10",
+    "-0.29"
+   ],
+   "ok": true
+  },
+  {
+   "idx": 1,
+   "anchors": [
+    487
+   ],
+   "nums": [
+    "0.320",
+    "0.425",
+    "+0.105",
+    "+0.079"
+   ],
+   "ok": true
+  },
+  {
+   "idx": 2,
+   "anchors": [
+    489,
+    517
+   ],
+   "nums": [
+    "-1.22",
+    "-1.41",
+    "-1.05",
+    "-1.22"
+   ],
+   "ok": true
+  },
+  {
+   "idx": 3,
+   "anchors": [
+    492,
+    511
+   ],
+   "nums": [
+    "-0.52",
+    "-1.07",
+    "0.20"
+   ],
+   "ok": true
+  },
+  {
+   "idx": 4,
+   "anchors": [
+    500,
+    501
+   ],
+   "nums": [
+    "0.019",
+    "0.027"
+   ],
+   "ok": true
+  },
+  {
+   "idx": 5,
+   "anchors": [
+    498,
+    516,
+    521,
+    522
+   ],
+   "nums": [],
+   "ok": null
+  }
+ ],
+ "n_fail": 0,
+ "verdict": "**\u951a\u53ef\u7528**:\u7be1\u6539\u80fd\u88ab\u6293,\u771f\u5b9e\u516d\u6761\u5168\u90e8\u6307\u5f97\u5230 -> \u53ef\u9010\u6bb5\u63a8\u5e7f",
+ "inclusion": [
+  "README.md \u7684\u300e\u4e0b\u534a\u573a\u662f\u4e3a\u4e86\u4ec0\u4e48\u300f\u5c0f\u8282",
+  "\u4ec5\u5e26 `[#NNN]` \u951a\u7684\u6761\u76ee"
+ ],
+ "unchallenged": true
+}

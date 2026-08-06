@@ -315,19 +315,19 @@ an instrument that does not share its method — forty rounds against the GSS (1
 
 - **A null with content.** In the US, the share saying pornography should be illegal for everyone fell
   0.38 → 0.18 across thirty surveys, and the log-odds gap between condemners and non-condemners in
-  reporting having watched it did not move: **Δ = −0.10, CI [−0.29, +0.09], MDE 0.27**.
+  reporting having watched it did not move: **Δ = −0.10, CI [−0.29, +0.09], MDE 0.27** `[#486]`.
 - **A number that is an artefact of the question.** Randomly split halves of the same sample, asked
   two differently-worded behaviour questions, answer **0.320 vs 0.425** — **Δ = +0.105, CI [+0.079,
-  +0.135]**.
+  +0.135]** `[#487]`.
 - **A gap that survives a different institution and a different mode**, at **−1.22, CI [−1.41,
-  −1.05]**, across four admissible cells spanning −1.22 to −1.41.
+  −1.05]**, across four admissible cells spanning −1.22 to −1.41 `[#489, #517]`.
 - **And a scale that shows the previous line proves less than it looks.** Two questions differing only
   in an age — 18 versus 16 — move the same gap from **−0.52 to −1.07** with disjoint intervals, so a
-  cross-instrument agreement of 0.20 is a fifth of what one word does.
+  cross-instrument agreement of 0.20 is a fifth of what one word does `[#492, #511]`.
 - **Strictness is a person-level coordinate, and it is two rulers, not one.** Per additional strict
   position on eight norms, the probability of having done the corresponding thing falls about
-  **0.019–0.027**, and the effect is carried by the same domain as the behaviour (three of five).
-- **Four things it established cannot be done at all**, listed below.
+  **0.019–0.027**, and the effect is carried by the same domain as the behaviour (three of five) `[#500, #501]`.
+- **Four things it established cannot be done at all**, listed below `[#498, #516, #521, #522]`.
 
 Nothing here rescues the first half; the fourth item is a reason to trust it less, and the last
 "cannot do" says why no external instrument can settle it either.
