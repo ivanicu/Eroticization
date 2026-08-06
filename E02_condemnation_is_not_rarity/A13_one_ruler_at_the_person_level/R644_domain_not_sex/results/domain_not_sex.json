@@ -1,0 +1,112 @@
+{
+ "instrument": "GrahamHaidtNosek 2009 JPSP Study 3 (MFQ)",
+ "n": 8193,
+ "domains": [
+  {
+   "domain": "AUTHORITY",
+   "k": 15,
+   "within": 0.32572749075505275,
+   "same_part": 0.37238499051284735,
+   "cross_part": 0.30081202128156376
+  },
+  {
+   "domain": "FAIRNESS",
+   "k": 15,
+   "within": 0.28007378500912333,
+   "same_part": 0.30039475673533184,
+   "cross_part": 0.28007378500912333
+  },
+  {
+   "domain": "HARM",
+   "k": 15,
+   "within": 0.31576181900480027,
+   "same_part": 0.37537844756057837,
+   "cross_part": 0.2537622580854167
+  },
+  {
+   "domain": "INGROUP",
+   "k": 15,
+   "within": 0.24053303131443274,
+   "same_part": 0.29127405186900057,
+   "cross_part": 0.24053303131443274
+  },
+  {
+   "domain": "PURITY",
+   "k": 15,
+   "within": 0.4993372129668429,
+   "same_part": 0.49328126605374356,
+   "cross_part": 0.5118531900869842
+  }
+ ],
+ "cross": 0.13605202370982683,
+ "cross_same_part": 0.15740290419469433,
+ "cross_cross_part": 0.1088598230929652,
+ "purity": 0.4993372129668429,
+ "other_max": 0.32572749075505275,
+ "within_median": 0.31576181900480027,
+ "within_range": 0.25880418165241015,
+ "spread": 0.009515363712599605,
+ "shuffle_null": -0.01314607489287594,
+ "shuffle_sd": 0.026269731640412727,
+ "catch_median": 0.049708772039411854,
+ "format_same": 0.37238499051284735,
+ "format_cross": 0.28007378500912333,
+ "spec_curve": [
+  {
+   "spec": "全样本",
+   "n": 6741,
+   "within": 0.31576181900480027,
+   "cross": 0.13605202370982683,
+   "purity": 0.4993372129668429,
+   "rng": 0.25880418165241015
+  },
+  {
+   "spec": "剔除 MFQ_failed",
+   "n": 6476,
+   "within": 0.3124969933474589,
+   "cross": 0.13691229455453888,
+   "purity": 0.49474884853107726,
+   "rng": 0.25359280958474517
+  }
+ ],
+ "verdict": "W-A:**纯洁/性域确实特殊**",
+ "seeds": [
+  20260806,
+  7,
+  991
+ ],
+ "religion_confound": {
+  "rel_var": "Religion_attend_num",
+  "n": 6429,
+  "before": {
+   "AUTHORITY": 0.32632454045446385,
+   "FAIRNESS": 0.2823288271909529,
+   "HARM": 0.31137322187930494,
+   "INGROUP": 0.23718979765192025,
+   "PURITY": 0.497160528242572
+  },
+  "after": {
+   "AUTHORITY": 0.305422407176804,
+   "FAIRNESS": 0.2770399582784786,
+   "HARM": 0.31958589506909413,
+   "INGROUP": 0.2187872855854711,
+   "PURITY": 0.40642298178340325
+  },
+  "gap_before": 0.17083598778810816,
+  "gap_after": 0.08683708671430912,
+  "gap_retain": 0.5083067557288642,
+  "placebo_age_retain": 1.0298021893113014,
+  "placebo_n": 6429
+ },
+ "excluded_no_official_text": [
+  "harm",
+  "dominate",
+  "yourgroup",
+  "duties",
+  "desires",
+  "victim",
+  "shutup",
+  "temples"
+ ],
+ "unchallenged": true
+}
