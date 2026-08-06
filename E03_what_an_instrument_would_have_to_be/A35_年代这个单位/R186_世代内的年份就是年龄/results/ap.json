@@ -1,0 +1,14 @@
+{
+ "slope_within_cohort": 0.006716511024671557,
+ "slope_within_age": 0.006404171824595575,
+ "share": 0.9534968082493015,
+ "slope_placebo_sex": 0.006097491228049229,
+ "slope_age_x_educ": NaN,
+ "null_ci": [
+  -0.0008191657360407582,
+  0.000791934664737746
+ ],
+ "verdict": "**W1:年龄段内仍有世代内斜率的 95% ⇒ 排除纯年龄,两刀合起来剩下年代**",
+ "identification": "APC 不可识别:本轮只排除纯年龄与纯队列,不估年代系数",
+ "unchallenged": true
+}
