@@ -1,0 +1,51 @@
+{
+ "table": {
+  "#686 人内压缩(GSS 原始)": {
+   "effect": 0.168,
+   "null": 0.0091,
+   "ratio": 18.461538461538463,
+   "replication": false
+  },
+  "#690 三具之一(RWAS 复制)": {
+   "effect": 0.1069,
+   "null": 0.0183,
+   "ratio": 5.841530054644808,
+   "replication": true
+  },
+  "#678 结构不动(GSS)": {
+   "effect": 0.2189,
+   "null": 0.072,
+   "ratio": 3.0402777777777783,
+   "replication": false
+  },
+  "#699 施加轴(SCCS)": {
+   "effect": 0.3243,
+   "null": 0.1231,
+   "ratio": 2.6344435418359056,
+   "replication": false
+  },
+  "#698 跨手段(SCCS)": {
+   "effect": 0.3241,
+   "null": 0.1684,
+   "ratio": 1.92458432304038,
+   "replication": false
+  },
+  "#689 二具之一(MFQ 复制)": {
+   "effect": 0.0542,
+   "null": 0.0328,
+   "ratio": 1.6524390243902438,
+   "replication": true
+  },
+  "#700 轴×谴责(SCCS)": {
+   "effect": 0.3631,
+   "null": 0.2381,
+   "ratio": 1.5249895002099956,
+   "replication": false
+  }
+ },
+ "null_levels": 21,
+ "n_combinations": 21,
+ "p_floor": 0.047619047619047616,
+ "verdict": "UNVERIFIED — 预注册估计量不合用(G1)",
+ "unchallenged": true
+}
