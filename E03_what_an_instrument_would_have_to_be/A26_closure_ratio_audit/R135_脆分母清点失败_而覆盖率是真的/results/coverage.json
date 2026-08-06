@@ -1,0 +1,10 @@
+{
+ "n_entries": 93,
+ "strict": 13,
+ "loose": 20,
+ "strict_pct": 14.0,
+ "loose_pct": 21.5,
+ "instrument_ok": true,
+ "fragility_list": "UNVERIFIED — positive control failed",
+ "unchallenged": true
+}
