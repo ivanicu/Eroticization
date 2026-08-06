@@ -502,6 +502,8 @@ the instrument was built. Written as specifications rather than complaints, they
 | The one battery with a matched comparison lost eight of its ten items in the following wave | Keep the same items across waves, or publish which were cut and why | NSFG 2011–13 → 2017–19 | Item stability across waves |
 | Attitudes over decades rest on one source | A second series: same question, fresh sample, fixed interval, twenty years or more, public microdata | The General Social Survey, 1972–2024 | A second series like it |
 
+One of those five rows was then attacked with the data already here, on the theory that the ethnographies' focal years could stand in for the missing second set of coders: if the coding recorded *when the observer wrote* rather than what the society did, the codes would track that year. They do not, and more importantly **nothing does**: once latitude and longitude are partialled out, the development variables that must depend on era correlate with the focal year at 0.110, and the median variable in the whole dataset correlates at 0.111 `[#561「偏掉地理之后,正对照掉到参照之下」]`. **The era signal is not weak here, it is absent** — in a sample where societies cluster in space and space is entangled with who visited when, geography and history cannot be separated at all. So that row of the specification stands: it needs a second set of coders, and no rearrangement of the existing codes substitutes for them.
+
 **Nothing in that table is expensive to describe and every row is expensive to build**, which is the actual
 finding of the second half: the limit on this question is not what has been analysed, it is what was ever
 collected, and by whom, and whether anyone kept asking.
