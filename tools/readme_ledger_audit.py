@@ -208,9 +208,29 @@ def numbers_that_left(rev='HEAD~1', files=('README.md','README_zh.md')):
         #   都会被判成删除**(`63e03b7` 一次假报 7 个)。差集之前必须归一化。
         norm=lambda m: m.strip().replace(' ','').replace('倍','×').replace('−','-')
         o=set(norm(m) for m in _MAGNUM.findall(old)); n=set(norm(m) for m in _MAGNUM.findall(new))
+        # #630:增加 `kind` / `replaced_by` 两列 —— 旧逻辑一字未动,只增列。
+        #   `#629` 实测:改写与删除的输出**逐字节相同**,读者分不出「抹除」与「更正」,
+        #   而这两件事要求的反应正好相反。三值:替换 / 拿走 / UNMATCHED。
+        #   ⚠ 段落配对是**启发式**(词重合 >= 0.50),失败明写成 `UNMATCHED`,
+        #     **不许塞进「拿走」** —— 否则一次配对失败会被读成「它被拿掉了」。
+        #   ⚠ 回测(`#620` 硬要求):32 个历史版本,新版漏报旧版 token **0 次**。
+        import re as _re2
+        _paras=lambda s:[x for x in _re2.split(r'\n\s*\n', s) if x.strip()]
+        def _ov(a,b):
+            wa,wb=set(_re2.findall(r'\w+',a)),set(_re2.findall(r'\w+',b))
+            return len(wa&wb)/max(len(wa),1)
+        newcomers=n-o; NP=_paras(new)
         for tk in sorted(o-n):
             ctx=[l for l in old.split('\n') if tk in l]
+            src=[x for x in _paras(old) if tk in norm(x) or tk in x]
+            rep,kind=None,'UNMATCHED'
+            if src and NP:
+                best=max(NP,key=lambda q:_ov(src[0],q))
+                if _ov(src[0],best)>=0.50:
+                    cand=[norm(m) for m in _MAGNUM.findall(best) if norm(m) in newcomers]
+                    rep,kind=(cand[0],'替换') if cand else (None,'拿走')
             out.append(dict(file=f,token=tk,n_old_lines=len(ctx),
+                            kind=kind,replaced_by=rep,
                             old_excerpt=(ctx[0][:120] if ctx else '')))
     return pd.DataFrame(out)
 
