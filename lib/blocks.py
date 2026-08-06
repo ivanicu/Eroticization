@@ -161,3 +161,44 @@ def aligned(categories_by_col, high_means):
         pole = label_pole(cats)          # 认不出就在这里 raise
         if pole != high_means: flip.add(col)
     return flip
+
+
+# ============================================================================
+# #766 · 缺失码 —— 笼统过滤会静默删掉最大的一档
+# ============================================================================
+# ⚠ 动机(`#765`,代价是一个已发表的数):`.where(x>0)` 是我加的笼统缺失过滤,
+#   而 GSS 的 `.dta` **本来就把 DK/NA 设成缺失了** —— 于是它删掉的是真数据:
+#   `attend` 码 0 = "never",**n=14,883,最大的一档**,整档消失,而那正是宗教分析的参照组。
+#
+# ⚠ 与 `#755` 那个被否掉的 lint 的差别,这一条是它能成立的原因:
+#   **真值来源是可机读的**(值标签),而不是我的意图。`#755` 要判「判词比错了对象」——语义,造不出来。
+#
+# ⚠ P6 代理账:
+#   PROPERTY   我保留的码集合 == 这一列真正有效的码集合
+#   PROXY      被排除的码里,有没有**带标签且样本量可观**的
+#   IMPLICATION 只有一个方向可靠:**排除了一个带标签的大档 -> 我确实删了真数据**(可靠)。
+#              反过来不成立:**没排除大档不证明我的码集合对** —— 小档同样可能是真数据。
+#   SAFE SIDE  只报「你删掉了带标签的档」;**从不认证「这个范围是对的」。**
+
+def labelled_codes(dta_path, col, encoding="latin1"):
+    """读出一列**带标签的码**与各自的 n。真值来源是值标签,不是我的记忆。"""
+    import pandas as pd
+    num = pd.read_stata(dta_path, columns=[col], convert_categoricals=False)[col]
+    lab = pd.read_stata(dta_path, columns=[col], convert_categoricals=True)[col]
+    j = pd.DataFrame({"code": pd.to_numeric(num, errors="coerce"), "label": lab.astype(str)}).dropna()
+    g = j.groupby(["code", "label"]).size().reset_index(name="n").sort_values("code")
+    return [(float(r.code), str(r.label), int(r.n)) for r in g.itertuples()]
+
+def check_kept_codes(dta_path, col, keep, min_share=0.01, encoding="latin1"):
+    """`keep` 是一个判定函数或 (lo,hi);报出**被排除的带标签档**及其占比。
+
+    返回 (dropped, total) —— `dropped` 是 [(码, 标签, n, 占比)],按 n 降序。
+    ⚠ 不 raise、不改数据:**它只把「你正在删什么」摆到面前**,决定权在调用者。
+      理由与 `#759` 的 `aligned()` 相同 —— `#734`/`#765` 的教训都是**我没看见**,不是我看错。
+    ⚠ `min_share` 只影响**打印时的醒目程度**,不影响返回值;默认 1%。
+    """
+    rows = labelled_codes(dta_path, col, encoding)
+    total = sum(n for _, _, n in rows)
+    pred = keep if callable(keep) else (lambda c, lo=keep[0], hi=keep[1]: lo <= c <= hi)
+    dropped = [(c, l, n, n / total) for c, l, n in rows if not pred(c)]
+    return sorted(dropped, key=lambda t: -t[2]), total
