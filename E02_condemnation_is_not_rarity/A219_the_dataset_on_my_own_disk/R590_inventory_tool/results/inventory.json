@@ -1,0 +1,159 @@
+{
+ "rows": [
+  {
+   "source": "gss",
+   "path": "data/external/gss",
+   "file_present": true,
+   "semantics_present": true,
+   "evidence": "2 \u6570\u636e\u6587\u4ef6 \u00b7 \u65e0\u65c1\u6302\u7801\u672c,\u4f46 gss7224_r3a.dta \u5185\u5d4c 4879 \u4e2a >30 \u5b57\u7b26\u7684\u6807\u7b7e"
+  },
+  {
+   "source": "nsfg",
+   "path": "data/external/nsfg",
+   "file_present": true,
+   "semantics_present": true,
+   "evidence": "15 \u6570\u636e\u6587\u4ef6 \u00b7 \u7801\u672c 4 \u4e2a \u00b7 \u6700\u957f\u8005\u542b 3094 \u6761\u7f16\u53f7\u6761\u76ee(2011_2013_FemRespSetup.dct)"
+  },
+  {
+   "source": "dplace",
+   "path": "data/external/dplace",
+   "file_present": true,
+   "semantics_present": true,
+   "evidence": "224 \u6570\u636e\u6587\u4ef6 \u00b7 \u65e0\u65c1\u6302\u7801\u672c,\u4f46 variables.csv \u542b 31 \u6761 >30 \u5b57\u7b26\u7684\u5b9a\u4e49"
+  },
+  {
+   "source": "yrbs",
+   "path": "data/external/yrbs",
+   "file_present": true,
+   "semantics_present": false,
+   "evidence": "9 \u6570\u636e\u6587\u4ef6 \u00b7 \u7801\u672c 2 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee \u00b7 \u65e0 csv \u5b9a\u4e49 \u00b7 \u65e0\u5185\u5d4c\u6807\u7b7e(None)"
+  },
+  {
+   "source": "brfss",
+   "path": "data/external/brfss",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "1 \u6570\u636e\u6587\u4ef6,0 \u4e2a\u65c1\u6302\u7801\u672c,\u5185\u5d4c\u5143\u6570\u636e\u4e5f\u672a\u8bfb\u5230 -> **\u5224\u4e0d\u4e86,\u4e0d\u5224 False**(P6:\u65c1\u6302\u4e0d\u5728 \u21cf \u8bed\u4e49\u4e0d\u5728)"
+  },
+  {
+   "source": "openpsych/MSSCQ",
+   "path": "data/external/openpsych/MSSCQ",
+   "file_present": true,
+   "semantics_present": true,
+   "evidence": "1 \u6570\u636e\u6587\u4ef6 \u00b7 \u7801\u672c 1 \u4e2a \u00b7 \u6700\u957f\u8005\u542b 99 \u6761\u7f16\u53f7\u6761\u76ee(codebook.txt)"
+  },
+  {
+   "source": "openpsych/RWAS",
+   "path": "data/external/openpsych/RWAS",
+   "file_present": true,
+   "semantics_present": false,
+   "evidence": "1 \u6570\u636e\u6587\u4ef6 \u00b7 \u7801\u672c 1 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee \u00b7 \u65e0 csv \u5b9a\u4e49 \u00b7 \u65e0\u5185\u5d4c\u6807\u7b7e(None)"
+  },
+  {
+   "source": "openpsych/HEXACO.zip",
+   "path": "data/external/openpsych/HEXACO.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "2 \u6210\u5458 \u00b7 \u6587\u672c\u6210\u5458 1 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee -> **\u5224\u4e0d\u4e86**"
+  },
+  {
+   "source": "openpsych/SD3.zip",
+   "path": "data/external/openpsych/SD3.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "2 \u6210\u5458 \u00b7 \u6587\u672c\u6210\u5458 1 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee -> **\u5224\u4e0d\u4e86**"
+  },
+  {
+   "source": "openpsych/ECR.zip",
+   "path": "data/external/openpsych/ECR-data-1March2018.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "3 \u6210\u5458,0 \u4e2a\u6587\u672c\u6210\u5458 -> **\u5224\u4e0d\u4e86**(\u6210\u5458\u53ef\u80fd\u5185\u5d4c\u6807\u7b7e,\u672a\u89e3\u538b)"
+  },
+  {
+   "source": "openpsych/SCS.zip",
+   "path": "data/external/openpsych/SCS.zip",
+   "file_present": true,
+   "semantics_present": true,
+   "evidence": "2 \u6210\u5458 \u00b7 \u6587\u672c\u6210\u5458 1 \u4e2a \u00b7 \u6700\u957f\u8005 10 \u6761\u7f16\u53f7\u6761\u76ee"
+  },
+  {
+   "source": "openpsych/EQSQ.zip",
+   "path": "data/external/openpsych/EQSQ.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "2 \u6210\u5458 \u00b7 \u6587\u672c\u6210\u5458 1 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee -> **\u5224\u4e0d\u4e86**"
+  },
+  {
+   "source": "openpsych/MIES.zip",
+   "path": "data/external/openpsych/MIES_Dev_Data.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "3 \u6210\u5458 \u00b7 \u6587\u672c\u6210\u5458 1 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee -> **\u5224\u4e0d\u4e86**"
+  },
+  {
+   "source": "dataverse/mfq",
+   "path": "data/external/dataverse/mfq",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "4 \u6570\u636e\u6587\u4ef6,0 \u4e2a\u65c1\u6302\u7801\u672c,\u5185\u5d4c\u5143\u6570\u636e\u4e5f\u672a\u8bfb\u5230 -> **\u5224\u4e0d\u4e86,\u4e0d\u5224 False**(P6:\u65c1\u6302\u4e0d\u5728 \u21cf \u8bed\u4e49\u4e0d\u5728)"
+  },
+  {
+   "source": "ngram",
+   "path": "data/external/ngram",
+   "file_present": false,
+   "semantics_present": null,
+   "evidence": "\u76ee\u5f55\u5185\u65e0\u6570\u636e\u6587\u4ef6"
+  },
+  {
+   "source": "dataverse/10.7910_DVN_C56WMI",
+   "path": "data/external/dataverse/10.7910_DVN_C56WMI.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "15 \u6210\u5458 \u00b7 \u6587\u672c\u6210\u5458 7 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee -> **\u5224\u4e0d\u4e86**"
+  },
+  {
+   "source": "dataverse/10.7910_DVN_LQOADH",
+   "path": "data/external/dataverse/10.7910_DVN_LQOADH.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "1 \u6210\u5458,0 \u4e2a\u6587\u672c\u6210\u5458 -> **\u5224\u4e0d\u4e86**(\u6210\u5458\u53ef\u80fd\u5185\u5d4c\u6807\u7b7e,\u672a\u89e3\u538b)"
+  },
+  {
+   "source": "dataverse/10.7910_DVN_PY1O34",
+   "path": "data/external/dataverse/10.7910_DVN_PY1O34.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "1 \u6210\u5458,0 \u4e2a\u6587\u672c\u6210\u5458 -> **\u5224\u4e0d\u4e86**(\u6210\u5458\u53ef\u80fd\u5185\u5d4c\u6807\u7b7e,\u672a\u89e3\u538b)"
+  },
+  {
+   "source": "dataverse/10.7910_DVN_SJTRBI",
+   "path": "data/external/dataverse/10.7910_DVN_SJTRBI.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "4 \u6210\u5458,0 \u4e2a\u6587\u672c\u6210\u5458 -> **\u5224\u4e0d\u4e86**(\u6210\u5458\u53ef\u80fd\u5185\u5d4c\u6807\u7b7e,\u672a\u89e3\u538b)"
+  },
+  {
+   "source": "dataverse/10.7910_DVN_YMCHMU",
+   "path": "data/external/dataverse/10.7910_DVN_YMCHMU.zip",
+   "file_present": true,
+   "semantics_present": null,
+   "evidence": "4 \u6210\u5458 \u00b7 \u6587\u672c\u6210\u5458 2 \u4e2a \u00b7 0 \u6761\u7f16\u53f7\u6761\u76ee -> **\u5224\u4e0d\u4e86**"
+  }
+ ],
+ "criterion": "\u5b58\u5728 >=5 \u884c\u957f\u5ea6 >30 \u5b57\u7b26\u7684\u6807\u7b7e/\u9898\u76ee\u6587\u672c",
+ "controls": {
+  "positive": "MSSCQ -> True",
+  "negative": "RWAS -> False",
+  "passed": true
+ },
+ "totals": {
+  "n": 20,
+  "file_present": 19,
+  "semantics": 5,
+  "no_semantics": 2,
+  "undecidable": 13
+ },
+ "note": "\u300c\u6587\u4ef6\u5728\u300d\u4e0e\u300c\u8bed\u4e49\u5728\u300d\u662f\u4e24\u5217\u72ec\u7acb\u5e03\u5c14,\u4e0d\u5408\u5e76\u6210\u4e00\u4e2a\u300c\u53ef\u7528\u300d\u6807\u7b7e",
+ "unchallenged": true
+}
