@@ -601,7 +601,7 @@ must-read list, not a verdict.**
 
 **E · A · R** — an *epoch* closes when the ontology shifts (the object turned out to be a different
 object), an *arc* closes when a decision becomes safe, a *round* closes on one belief update.
-**Three epochs, 16 arcs, 672 round directories** — numbered R001–R679, of which **seven numbers (385, 389, 392, 395, 396, 555, 557) exist in the ledger but have no directory**, which is this project's own *one round, one directory* rule broken seven times and recorded rather than tidied away. `R` is numbered consecutively across the whole project, not
+**3 epochs, 18 arcs, 100 rounds** — one round is one claim on this page, and the scripts that produced it sit flat inside its folder (635 of them across the project). Rounds were regrouped from 685 one-script folders on 2026-08-06; the count is discovered, not chosen.
 restarted per arc. Every count is discovered, never chosen; see `~/.claude/CLAUDE.md` §P16.
 
 Each round is a directory with `run.py`, `README.md` and `results/`.

@@ -106,7 +106,7 @@ narrating the cell you liked.** The grid is not a robustness appendix. It is the
 
 ---
 
-## Entry 18, added by `E01·A02·R038`–`R15` — the count was a property of how many I asked for
+## Entry 18, added by `E01·A01·R001`–`R15` — the count was a property of how many I asked for
 
 | # | The claim | What killed or scoped it | What survived |
 |---|---|---|---|
@@ -136,7 +136,7 @@ robust.
 
 ---
 
-## Entry 19, added by `E01·A07·R102` — the one K I picked was the only K where the ordering came out the way I reported it
+## Entry 19, added by `E01·A02·R002` — the one K I picked was the only K where the ordering came out the way I reported it
 
 `R14`–`R15` proved the CCA machinery is monotone in K. Three surviving headlines used the same
 machinery at a fixed, never-swept **K=5**. Swept over K ∈ {2,3,5,8,12,16} × 3 seeds, with a
@@ -176,7 +176,7 @@ as the most expensive kind of error.
 
 ---
 
-## Entry 20, added by `E01·A07·R103` — the coverage law was one point, and the point was 7.6× the rest of the range
+## Entry 20, added by `E01·A02·R002` — the coverage law was one point, and the point was 7.6× the rest of the range
 
 After #15 conceded the coverage *hazard* to the explorer's own `14-missingness`, the only novel
 claim this project still had was the quantification: **corr(congruence deficit, coverage gap) =
@@ -221,7 +221,7 @@ direction was right. Two of three forecasts now scored, both hits.
 
 ---
 
-## Entry 21, added by `E01·A03·R057` — my correction was as unfit as the thing it corrected, and my own positive control is what said so
+## Entry 21, added by `E01·A01·R001` — my correction was as unfit as the thing it corrected, and my own positive control is what said so
 
 `ADVERSARY_FORECAST` #4, p=0.50: *"344 pairs come from 27 categories, so the effective n is closer
 to 27 and every p-value there is overstated."* Checked against the code rather than memory, it is
@@ -256,7 +256,7 @@ in my favour by me — each was checked by running the thing it predicted.**
 
 ---
 
-## Entry 22, added by `E01·A03·R058` — the first UNVERIFIED to be resolved, and it went the way the original round said
+## Entry 22, added by `E01·A01·R001` — the first UNVERIFIED to be resolved, and it went the way the original round said
 
 #21 left "onset carries structure preference does not" untestable: the pair-level null was
 anticonservative, the label-permutation null was degenerate, and **both were cheaper than the
@@ -301,7 +301,7 @@ obligation has been discharged rather than deferred.
 
 ---
 
-## Entry 23, added by `E01·A05·R093` — the ceiling was real, the number behind it was not what I forecast
+## Entry 23, added by `E01·A01·R001` — the ceiling was real, the number behind it was not what I forecast
 
 `ADVERSARY_FORECAST` #6, p=0.35: *"breadth's 0.557 reliability makes θ's 'no external correlate'
 partly a ceiling, and a better-measured θ would show the adversity correlations at 0.15 rather than
@@ -342,7 +342,7 @@ which is itself a calibration fact worth more than any single entry.
 
 ---
 
-## Entry 24, added by `E01·A02·R043` — the flagship claim, measured with a validated ruler instead of a guessed one
+## Entry 24, added by `E01·A01·R001` — the flagship claim, measured with a validated ruler instead of a guessed one
 
 The headline of this project has been **"top/bottom is one word over three near-independent
 coordinates"**: POWER, GAZE, SUBSTANCE, observed mutual |r| ≤ 0.112, disattenuated ≤ 0.362,
@@ -392,7 +392,7 @@ and the third cannot be measured well enough in this release to place at all.
 > POWER 与 SUBSTANCE 共享 31–43% 的方差。**
 > ⚠ `#321` 引的是 `#143`/`R043`,**不是本条**,所以任何按引用图找「前向解决」的自动方法
 > 都会漏掉它(`#323a` 的正对照就是这样失败的)。**这条指针是手读出来的。**
-## Entry 25, added by `E01·A01·R013` — the foundation, attacked for the first time, survives at half size
+## Entry 25, added by `E01·A01·R001` — the foundation, attacked for the first time, survives at half size
 
 Everything in this project descends from the leave-one-block-out result: person factors fitted on
 31 domains predict which options a person endorses in a domain the factors never saw, **32/32
@@ -434,7 +434,7 @@ interval, never as the answer.**
 
 ---
 
-## Entry 26, added by `E01·A05·R094` — a pre-registered kill that passed while the real problem sat next to it
+## Entry 26, added by `E01·A01·R001` — a pre-registered kill that passed while the real problem sat next to it
 
 Reading the control sets rather than trusting their names, per #25's standing correction:
 **21 of the 22 items in my "acquiescence" index are explicit erotic content**, including *"I am
@@ -470,7 +470,7 @@ none, so no amount of further computation on it will resolve this.
 
 ---
 
-## Entry 27, added by `E01·A01·R014` — the erotic covariates do nothing, and neither does personality
+## Entry 27, added by `E01·A01·R001` — the erotic covariates do nothing, and neither does personality
 
 The other half of #26. Two of the eight CCA covariates are erotic items with no cancelling twin —
 *"I find it erotic when two people of the opposite gender to me sexually interact"* and the
@@ -513,7 +513,7 @@ compute and returned "fine", which is a legitimate result and worth the same she
 
 ---
 
-## Entry 28, added by `E01·A02·R044` — the third automated kill I have had to override, and they all fail the same way
+## Entry 28, added by `E01·A01·R001` — the third automated kill I have had to override, and they all fail the same way
 
 Additivity is the mathematical core of Ivan's model B: `v_i = w_i^T φ(s)` requires that a person's
 weight on a feature does not depend on the scene. `A02·R11`–`R13` reported PLAUSIBLE on 3–4
@@ -561,7 +561,7 @@ worth another round — with a design whose sham does not beat its signal.
 
 ---
 
-## Entry 29, added by `E01·A02·R045` — my own "not explained by the arithmetic" flag was 78% arithmetic
+## Entry 29, added by `E01·A01·R001` — my own "not explained by the arithmetic" flag was 78% arithmetic
 
 `R20` reported person residuals across source classes at male–female **−0.706** and I flagged it as
 not explained by the centring. That flag was unchecked: removing a person mean over three classes
@@ -604,7 +604,7 @@ Conditional kill returns **UNVERIFIED** on the opposition question as posed (+0.
 
 ---
 
-## Entry 30, added by `E01·A02·R046` — the sharpest fact in the project was one cell of a specification curve
+## Entry 30, added by `E01·A01·R001` — the sharpest fact in the project was one cell of a specification curve
 
 `R21` established, as the project's cleanest structural result: the role feature transfers
 male↔neutral at +0.479 and male↔female at +0.063, below even a non-role sham (+0.266). I named
@@ -644,7 +644,7 @@ first and curves second.
 
 ---
 
-## Entry 31, added by `E01·A03·R059` — the first curve that came back robust, and the published cell was the most conservative one by accident
+## Entry 31, added by `E01·A01·R001` — the first curve that came back robust, and the published cell was the most conservative one by accident
 
 Applying #30's correction rather than regretting it: every surviving README number gets a
 specification curve or is withdrawn. Two had never had one. This is the load-bearing one — `A03`'s
@@ -685,7 +685,7 @@ checking their own work.
 
 ---
 
-## Entry 32, added by `E01·A03·R060` — the exec graph, and the first time the gate made me fix an instrument instead of override a verdict
+## Entry 32, added by `E01·A01·R001` — the exec graph, and the first time the gate made me fix an instrument instead of override a verdict
 
 #31 found that A03's rounds inherit their data from the RSA round's loader, which filters onset
 columns to the 27 with a matching arousal-rating column. **Mapping the `exec` graph across the whole
@@ -727,7 +727,7 @@ me.** Only the second is reproducible by someone who is not me.
 
 ---
 
-## Entry 33, added by `E01·A07·R104` — three design errors in one round, and the gate caught all three
+## Entry 33, added by `E01·A02·R002` — three design errors in one round, and the gate caught all three
 
 The block-inclusion threshold (`n_respondents ≥ 1200`) is inherited by **20 of 57 rounds**, decides
 which blocks exist at all, and sits under the modality, consumption, coverage and θ results
@@ -770,7 +770,7 @@ exactly what pre-registration exists to prevent me doing.
 
 ---
 
-## Entry 34, added by `E01·A07·R105` — the modality deficit is smaller than the noise of the only instrument that can measure it
+## Entry 34, added by `E01·A02·R002` — the modality deficit is smaller than the noise of the only instrument that can measure it
 
 `#33` failed three ways and I rebuilt for all three: block-matched inside every cell, gate written
 for *that* matching level, 5 seeds, and the two corpus axes swept separately. The resolvability
@@ -811,7 +811,7 @@ measurement, and only a gate that checks resolvability separates them.
 
 ---
 
-## Entry 35, added by `E01·A08·R107` — the resolvability criterion applied backwards, and modality turns out to be the exception
+## Entry 35, added by `E01·A02·R002` — the resolvability criterion applied backwards, and modality turns out to be the exception
 
 `#34` killed the modality deficit by resolvability rather than by falsity: its effect was smaller
 than its own seed spread in 9 cells of 9. Most of this project's numbers were produced at 1–3 seeds
@@ -847,7 +847,7 @@ instead** — which is the ordinary way a control earns its cost.
 
 ---
 
-## Entry 36, added by `E01·A08·R108` — the audit that flagged a discrepancy was measuring a different quantity, and two ledger entries were wrong
+## Entry 36, added by `E01·A02·R002` — the audit that flagged a discrepancy was measuring a different quantity, and two ledger entries were wrong
 
 `#35` flagged the cross-domain CCA re-running at 0.1491 against a published 0.200 and recorded it as
 an open discrepancy. Reconciling it required reading three rounds' code rather than one, and the
@@ -888,7 +888,7 @@ the cheapest instrument in this project remains opening the file that produced t
 
 ---
 
-## Entry 37, added by `E01·A08·R109` — the headline reproduces and is resolvable; the positive control I wrote for it is degenerate
+## Entry 37, added by `E01·A02·R002` — the headline reproduces and is resolvable; the positive control I wrote for it is degenerate
 
 `#36` established that the resolvability audit had measured a quantity nobody published. Redone on
 the estimand that actually carries the headline — pairwise-block CCA, `nc=min(3,…)`, max over
@@ -924,7 +924,7 @@ impressive.
 
 ---
 
-## Entry 38, added by `E01·A08·R110` — a graded control, and the pipeline reproduces a similarity ordering it was never told
+## Entry 38, added by `E01·A02·R002` — a graded control, and the pipeline reproduces a similarity ordering it was never told
 
 `#37` reproduced the headline and found it resolvable, but its positive control returned exactly
 1.0000 because row-centring forces `sum(half₁) = −sum(half₂)`. A binary control ("must be high")
@@ -962,7 +962,7 @@ a known order is a much stronger statement than one tier above a bar, and it cos
 
 ---
 
-## Entry 39, added by `E01·A02·R047` — the SUBSTANCE axis does not exist outside the seven blocks it was built in
+## Entry 39, added by `E01·A01·R001` — the SUBSTANCE axis does not exist outside the seven blocks it was built in
 
 `#38` found the fluid family partially isolated (fluid↔non-fluid pairs transfer at 0.203 against
 0.272 for ordinary pairs). Most of this project's role findings live in that family, so the question
@@ -999,7 +999,7 @@ availability quietly became representativeness.
 
 ---
 
-## Entry 40, added by `E01·A01·R015` — the same check that scoped SUBSTANCE clears the central claim
+## Entry 40, added by `E01·A01·R001` — the same check that scoped SUBSTANCE clears the central claim
 
 `#39` scoped the SUBSTANCE axis to seven blocks by asking whether it predicts outside the blocks
 that defined it. The same question had never been asked of the construct carrying this project's
@@ -1034,7 +1034,7 @@ went into this expecting a second local construct, and got the opposite.
 
 ---
 
-## Entry 41, added by `E01·A02·R048` — I set a gate threshold above the published magnitude of the thing I was gating on
+## Entry 41, added by `E01·A01·R001` — I set a gate threshold above the published magnitude of the thing I was gating on
 
 `#39` scoped SUBSTANCE, `#40` cleared the person factors. POWER was the last role axis claimed to
 hold release-wide, and `A02`'s basis decision rests on it. Same check: does it predict in blocks
@@ -1075,7 +1075,7 @@ strong.
 
 ---
 
-## Entry 42, added by `E01·A02·R049` — the last A02 survivor passes every statistical attack and is unidentifiable anyway
+## Entry 42, added by `E01·A01·R001` — the last A02 survivor passes every statistical attack and is unidentifiable anyway
 
 After `#24`, `#39` and `#41`, the only `A02` claim left was the **conditional** one: role predicts
 endorsement wherever the option set itself varies in role — `r = +0.752`, 21× between varying and
@@ -1121,7 +1121,7 @@ printed in `A02·R02`'s own output table. I read that column as "the contrast is
 
 ---
 
-## Entry 43, added by `E01·A03·R061` — the null that survived having its instrument replaced
+## Entry 43, added by `E01·A01·R001` — the null that survived having its instrument replaced
 
 `A03`'s decision — model acquisition and valuation as **two systems** — rests on `#9`: TEMPO
 predicts within-person onset similarity at t=+4.59 while COORD (coordinate-loading similarity) gives
@@ -1161,7 +1161,7 @@ on the evidence beneath it.
 
 ---
 
-## Entry 44, added by `E01·A01·R016` — a second string-derived proxy beaten by its own sham
+## Entry 44, added by `E01·A01·R001` — a second string-derived proxy beaten by its own sham
 
 `A01`'s decision says this release cannot separate **A** (a dedicated sexual-content system) from
 **B** (valuation of ordinary representation), because `#13` showed a dedicated module can be
@@ -1206,7 +1206,7 @@ closure. The A-vs-B half has now survived a second attempt to break it, this one
 
 ---
 
-## Entry 45, added by `E01·A07·R106` — matching buys identification and spends resolvability, and the published number is on the wrong side of the trade
+## Entry 45, added by `E01·A02·R002` — matching buys identification and spends resolvability, and the published number is on the wrong side of the trade
 
 `A07` was opened mid-project with rounds but **no decision statement**, which the E/A/R structure
 forbids. The missing measurement: `#11` published consumption→coordinates at **0.0439, triple-matched**
@@ -1246,7 +1246,7 @@ necessary, and never noticed that the last one spent the effect.
 
 ---
 
-## Entry 46, added by `E01·A05·R095` — the measure cannot tell a concentrated population from a random one, and its published value is smaller than its own bias
+## Entry 46, added by `E01·A01·R001` — the measure cannot tell a concentrated population from a random one, and its published value is smaller than its own bias
 
 `A05`'s decision — model the scalar gain as the object rather than control it away — rests in part
 on breadth being **quantity without shape**: a person's set is only **0.88% more concentrated** in
@@ -1288,7 +1288,7 @@ was aimed at (`#35` found accuracy while checking precision).
 
 ---
 
-## Entry 47, added by `E01·A05·R096` — the same control that killed one measure validates the other, and unity means opposite things in the two rounds
+## Entry 47, added by `E01·A01·R001` — the same control that killed one measure validates the other, and unity means opposite things in the two rounds
 
 `#46` killed the concentration measure with synthetic populations of known answer. Nestedness is now
 one of `A05`'s three remaining supports and had never had the same treatment. I predicted it would
@@ -1325,7 +1325,7 @@ than either of the original rounds did.
 
 ---
 
-## Entry 48, added by `E01·A04·R083` — matching corrects where there is something to correct, and my summary statistic divided noise by noise everywhere else
+## Entry 48, added by `E01·A01·R001` — matching corrects where there is something to correct, and my summary statistic divided noise by noise everywhere else
 
 `A04`'s rule — "group comparisons must be coverage-matched" — stood on the `+0.815` law that `#20`
 withdrew, plus `#45`'s finding that matching can spend an effect below resolvability. Tested
@@ -1359,7 +1359,7 @@ where the error lives, not the measurement** — and a four-row table needs no a
 
 ---
 
-## Entry 49, added by `E01·A01·R017` — the shared grammar is real, graded, and carries almost no predictable variance
+## Entry 49, added by `E01·A01·R001` — the shared grammar is real, graded, and carries almost no predictable variance
 
 No outside challenger has ever run against this project; this session forbids dispatching one, so
 every ledger row stays **`[unchallenged]`**, not "clean". The available substitute is not another
@@ -1406,7 +1406,7 @@ B" — and those diverge by two orders of magnitude in exactly this kind of data
 
 ---
 
-## Entry 50, added by `E01·A03·R062` — the onset RSA survives the framing swap that broke the central claim, and my fifth mis-specified gate nearly hid it
+## Entry 50, added by `E01·A01·R001` — the onset RSA survives the framing swap that broke the central claim, and my fifth mis-specified gate nearly hid it
 
 `#49` broke the central claim by swapping framings: the cross-domain grammar exists as a
 correlation (CCA 0.198) and carries no predictable variance (pairwise R² −0.002). The onset RSA has
@@ -1448,7 +1448,7 @@ pre-registered in spirit and neither of which I wrote down as the operative comp
 
 ---
 
-## Entry 51, added by `E01·A08·R111` — the published statistics rank the claims in a different order than predictable variance does
+## Entry 51, added by `E01·A02·R002` — the published statistics rank the claims in a different order than predictable variance does
 
 `#49` and `#50` created two classes: correlations that carry predictable variance and correlations
 that do not. Every remaining headline is a correlation or a congruence and none had been sorted.
@@ -1484,7 +1484,7 @@ amount.**
 
 ---
 
-## Entry 52, added by `E01·A03·R063` — the sort completes, and the claim that carries the most is the one that was hardest to break
+## Entry 52, added by `E01·A01·R001` — the sort completes, and the claim that carries the most is the one that was hardest to break
 
 `#51` sorted every surviving headline by predictable variance except the maturational schedule,
 whose statistic is a within-person rank agreement. Its proper analogue is a **ranking task**, built
@@ -1528,7 +1528,7 @@ number on a larger pool, and I do not know in which direction.
 
 ---
 
-## Entry 53, added by `E01·A03·R064` — the schedule is developmental, and rarity is a real but separate ordering
+## Entry 53, added by `E01·A01·R001` — the schedule is developmental, and rarity is a real but separate ordering
 
 `#52` made the maturational schedule the strongest surviving claim — a population ordering predicts
 held-out pairwise acquisition order at 66.71%, saturating what any global ordering can do. It had
@@ -1567,7 +1567,7 @@ explanation (`#53`). It is also the claim that needed the fewest rounds to estab
 
 ---
 
-## Entry 54, added by `E01·A03·R065` — rarity is a second ordering principle, and it is not the age window
+## Entry 54, added by `E01·A01·R001` — rarity is a second ordering principle, and it is not the age window
 
 `#53` found prevalence ordering predicts held-out pairwise acquisition order at **60.75%**, largely
 independent of the developmental ordering, and flagged it as an unreported finding sitting in a
@@ -1607,7 +1607,7 @@ and telling them apart is a prospective-measurement problem, not an analysis one
 
 ---
 
-## Entry 55, added by `E01·A03·R066` — I wrote a prediction that was analytically impossible, and the question underneath it had a real answer
+## Entry 55, added by `E01·A01·R001` — I wrote a prediction that was analytically impossible, and the question underneath it had a real answer
 
 `#54` closed with: *"if the two ordering principles are separate, an ordering using both should beat
 either alone, by roughly the sum of their independent contributions — sharp enough to be wrong."*
@@ -1654,7 +1654,7 @@ been turned on a result while it was still warm.
 
 ---
 
-## Entry 56, added by `E01·A01·R018` — the item margin is still untested after forty rounds and two attempts, and the gate caught both
+## Entry 56, added by `E01·A01·R001` — the item margin is still untested after forty rounds and two attempts, and the gate caught both
 
 `#55` established that every `NEXT` line should be checked for analytic possibility before being
 acted on. **All 45 audited**: nearly every one was an audit of an existing claim and was executed.
@@ -1697,7 +1697,7 @@ has been measured exhaustively and the item side has never been measured once.
 
 ---
 
-## Entry 57, added by `E01·A01·R019` — the item margin is real, carries 71% of the person margin, and was never measured in fifty-seven rounds
+## Entry 57, added by `E01·A01·R001` — the item margin is real, carries 71% of the person margin, and was never measured in fifty-seven rounds
 
 Third attempt, built the way the first two should have been: **cell-level** masking so every feature
 is computed from unmasked cells only, and all four models **nested on the same base and jointly
@@ -1732,7 +1732,7 @@ one level up, where **the margin I had tooling for became the margin that existe
 
 ---
 
-## Entry 58, added by `E01·A01·R020` — two-thirds the same structure, and the third that is not is below resolution
+## Entry 58, added by `E01·A01·R001` — two-thirds the same structure, and the third that is not is below resolution
 
 `#57` measured the item margin for the first time and left the decisive question open: does it add
 anything **on top of** the person margin, or is it the same structure seen from the other side? Both
@@ -1772,7 +1772,7 @@ the structure — the other margin is a second view of it, not a second half of 
 
 ---
 
-## Entry 59, added by `E01·A01·R021` — the aggregate cross-domain signal is larger than block-internal structure, and my verdict label confused largeness with sameness
+## Entry 59, added by `E01·A01·R001` — the aggregate cross-domain signal is larger than block-internal structure, and my verdict label confused largeness with sameness
 
 `#58` closed on an apparent contradiction: within-block structure predicts at ratio 12 while `#49`
 found cross-domain transfer carries no predictable variance. **Reading the code resolved half of it
@@ -1816,7 +1816,7 @@ recorded here.
 
 ---
 
-## Entry 60, added by `E01·A01·R022` — the accumulation is √n, and that is the mechanism as well as the curve
+## Entry 60, added by `E01·A01·R001` — the accumulation is √n, and that is the mechanism as well as the curve
 
 `#59` showed pairwise block→block prediction is ~0 while 31 blocks give +0.0409, so the signal
 accumulates. The curve had never been measured, and it is the one quantity a phase-1 collection
@@ -1862,7 +1862,7 @@ the law holds four times beyond its measured range, which is an assumption, not 
 
 ---
 
-## Entry 61, added by `E01·A01·R023` — blocks are not interchangeable, so √n does not mean what I said it meant one round ago
+## Entry 61, added by `E01·A01·R001` — blocks are not interchangeable, so √n does not mean what I said it meant one round ago
 
 `#60` fitted `increment = 0.00723 × √n` at CV 6.4% and read √n as **the signature of one shared
 latent measured with independent per-block noise** — "the form is the mechanism, not just a curve".
@@ -1904,7 +1904,7 @@ structure is one pooled estimate and block boundaries are incidental to it.
 
 ---
 
-## Entry 62, added by `E01·A03·R067` — three levels of sub-global structure tested, all three below resolution
+## Entry 62, added by `E01·A01·R001` — three levels of sub-global structure tested, all three below resolution
 
 `#52` showed one global ordering saturates what any global ordering can do. `#55` found the
 **individual** component is +0.88 against a 1.04 spread — unresolvable. Between "one for everyone"
@@ -1938,7 +1938,7 @@ sub-resolution structure underneath it that a finer-binned release would be need
 
 ---
 
-## Entry 63, added by `E01·A03·R068` — 66.7% was accuracy on the pairs the release can order; over all pairs it is bounded [60.5, 66.5]
+## Entry 63, added by `E01·A01·R001` — 66.7% was accuracy on the pairs the release can order; over all pairs it is bounded [60.5, 66.5]
 
 `#52` reported the schedule at 66.71% and flagged, honestly but without quantifying it, that **36.3%
 of within-person pairs are tied** by the 2-year binning and were excluded. Excluded pairs are not a
@@ -1974,7 +1974,7 @@ and not quantified is a caveat that has been filed, not paid.**
 
 ---
 
-## Entry 64, added by `E01·A01·R024` — at equal data, fragmenting it across more blocks makes the signal worse, so the accumulation was never about blocks
+## Entry 64, added by `E01·A01·R001` — at equal data, fragmenting it across more blocks makes the signal worse, so the accumulation was never about blocks
 
 `#60` fitted `increment = 0.00723 × √n_sources` and read it as one shared latent measured with
 independent per-block noise. `#61` falsified the interchangeability that reading requires (subset
@@ -2020,7 +2020,7 @@ cannot test it — at full block sizes, n and total sample cannot be varied inde
 
 ---
 
-## Entry 65, added by `E01·A09·R112` — the epoch is named after a quantity the loader deletes on line 1
+## Entry 65, added by `E01·A02·R002` — the epoch is named after a quantity the loader deletes on line 1
 
 The epoch is `E01_sexual_as_a_value_not_a_category`. That title is a claim about the **relative
 size** of the ITEM main effect (content is content) and the PERSON×ITEM interaction (the same
@@ -2076,7 +2076,7 @@ against a floor built from its own marginals and its own shape. That is `R02`.
 
 ---
 
-## Entry 66, added by `E01·A09·R113` — the floor was built from a world nothing like the data, and the identification gate caught it
+## Entry 66, added by `E01·A02·R002` — the floor was built from a world nothing like the data, and the identification gate caught it
 
 `R01` could not deliver a verdict because the interaction estimator's negative bias is
 shape-dependent. `R02` gave every block its own floor, built from its own marginals — and then
@@ -2119,7 +2119,7 @@ dose axis with exact margins at every point. That is `R03`.
 
 ---
 
-## Entry 67, added by `E01·A09·R114` — the epoch is named after the smaller of the two components, and the loader deleted the larger one first
+## Entry 67, added by `E01·A02·R002` — the epoch is named after the smaller of the two components, and the loader deleted the larger one first
 
 Fixed-margin randomisation (curveball) preserves **every row sum and every column sum exactly**
 (asserted per draw, not assumed), so both main effects are matched *by construction* and only the
@@ -2168,7 +2168,7 @@ ordinary content rather than a content category"* — the content category is th
 
 ---
 
-## Entry 68, added by `E01·A09·R115` — the K-trend turns over, and the epoch title is false under every reading except a tie
+## Entry 68, added by `E01·A02·R002` — the K-trend turns over, and the epoch title is false under every reading except a tie
 
 `#67` left the ordering resting on two ranks with the corrected interaction still rising. The full
 sweep, with **K=0 in the grid** so that "no interaction term at all" could win:
@@ -2216,7 +2216,7 @@ that maximum costs 44% of the model's held-out R² (0.175 at K=6 vs 0.312 at K=1
 
 ---
 
-## Entry 69, added by `E01·A10·R116` — the item main effect is 1+1=2, and the algebra was checkable in one line
+## Entry 69, added by `E01·A03·R003` — the item main effect is 1+1=2, and the algebra was checkable in one line
 
 `A09` established the item main effect at 3.5–11.7× the interaction. Before that becomes a claim
 about a **content category** it has to survive the arithmetic trap — *could this number have come
@@ -2269,7 +2269,7 @@ one are the same sentence.
 
 ---
 
-## Entry 70, added by `E01·A10·R117` — the epoch title was two questions wearing one sentence, and the answer differs between them
+## Entry 70, added by `E01·A03·R003` — the epoch title was two questions wearing one sentence, and the answer differs between them
 
 `#69` showed the within-block contrast cannot adjudicate model A vs model B, because within a block
 *base rate* and *content* are the same number. The level where they differ is **across** blocks:
@@ -2314,7 +2314,7 @@ distinguishes the two models at all.**
 
 ---
 
-## Entry 71, added by `E01·A10·R118` — the domain-general structure keeps buying signal; the domain-specific one is one dimension deep and then noise
+## Entry 71, added by `E01·A03·R003` — the domain-general structure keeps buying signal; the domain-specific one is one dimension deep and then noise
 
 `#70` refused the ordering `C > W` because `C` used 4 factors and `W` used 1. The fix is not a rank
 match but a **parameter count**, and here they are not the same thing:
@@ -2352,7 +2352,7 @@ directions, and it is now the arc's residual gap.
 
 ---
 
-## Entry 72, added by `E01·A10·R119` — there is no coordinate count, and that is why two rounds failed to find one
+## Entry 72, added by `E01·A03·R003` — there is no coordinate count, and that is why two rounds failed to find one
 
 `#18` and `#49` both tried to settle how many domain-general coordinates exist, from *within* the
 shared space, and both failed. This round asks by prediction instead: a dimension counts only if it
@@ -2388,7 +2388,7 @@ stops.
 
 ---
 
-## Entry 73, added by `E01·A03·R069` — the effect estimate never moved; the noise did, and it was a cap I wrote myself
+## Entry 73, added by `E01·A01·R001` — the effect estimate never moved; the noise did, and it was a cap I wrote myself
 
 `#55` reported individual variation in acquisition order at **+0.88 points, seed spread 1.03, ratio
 0.85** and logged it as a low-power null. `#72` then showed the 8-dimensional person embedding it
@@ -2435,7 +2435,7 @@ the exact shape of `L11` — untested is not the same as null-survives.
 
 ---
 
-## Entry 74, added by `E01·A03·R070` — the cap bound in four rounds and not the fifth, and I had already generalised it to all five
+## Entry 74, added by `E01·A01·R001` — the cap bound in four rounds and not the fifth, and I had already generalised it to all five
 
 `#73` found `cap=20000` with a `break` that exits the person loop, traced it to five rounds, and
 wrote *"every one of them therefore ran on roughly 2,000 of 12,459 eligible people."* That sentence
@@ -2475,7 +2475,7 @@ same as measuring each member of the class.
 
 ---
 
-## Entry 75, added by `E01·A03·R071` — CLOSURE: the cap cost precision and cost no verdict
+## Entry 75, added by `E01·A01·R001` — CLOSURE: the cap cost precision and cost no verdict
 
 Labelled **Closure**, not Frontier: it protects an existing conclusion rather than separating worlds.
 `#74` measured that the cap bound in R14/R15/R16. This re-prices them.
@@ -2513,7 +2513,7 @@ one. It cost 0.03 points of location and bought back 1.4× of precision.
 
 ---
 
-## Entry 76, added by `E01·A10·R120` — my own p=0.70 self-overturn fails on survival and lands on magnitude, and no permutation could have caught it
+## Entry 76, added by `E01·A03·R003` — my own p=0.70 self-overturn fails on survival and lands on magnitude, and no permutation could have caught it
 
 `ADVERSARY_FORECAST.md` block 2, prediction #1 at **p = 0.70**: *the cross-block transfer `C` is
 partly the gate, not the person.* Two independent attacks, because a permutation and a projection
@@ -2551,7 +2551,7 @@ the reason a claim must fail, filed where nobody re-reads it.
 
 ---
 
-## Entry 77, added by `E01·A10·R121` — the confound is the survey's own shape, not who answers it
+## Entry 77, added by `E01·A03·R003` — the confound is the survey's own shape, not who answers it
 
 `#76` shrank `C` by projecting out entry pattern **and** demographics together, and could not say
 which mattered. Four arms, identical cells and masks, one variable changed at a time:
@@ -2591,7 +2591,7 @@ unlucky case is a column named `count` or `size` silently returning a method and
 
 ---
 
-## Entry 78, added by `E01·A10·R122` — a random basis of identical rank and identical cost gets nothing, which is what an accounting argument cannot see
+## Entry 78, added by `E01·A03·R003` — a random basis of identical rank and identical cost gets nothing, which is what an accounting argument cannot see
 
 `ADVERSARY_FORECAST` block 2, prediction #4 (p=0.50): *"`#71`'s parameter-count argument is a bad
 accounting. `C`'s person scores are called free because they are estimated elsewhere — but they are
@@ -2622,7 +2622,7 @@ and that is a cheaper attack than the one I ran.
 
 ---
 
-## Entry 79, added by `E01·A10·R123` — the loss was never swept, and log-loss punishes the interaction rather than rescuing it
+## Entry 79, added by `E01·A03·R003` — the loss was never swept, and log-loss punishes the interaction rather than rescuing it
 
 `A09`/`A10` swept rank, estimand, null, block, ordering, projection and score type. Every number in
 both arcs is **squared error on a binary cell** — an axis `realstat` §G4 requires and this project
@@ -2663,7 +2663,7 @@ quantity — both were applied to a **sum that hides a sign**.
 
 ---
 
-## Entry 80, added by `E01·A10·R124` — the metric that flatters the interaction before bias correction is the one that flatters it least after
+## Entry 80, added by `E01·A03·R003` — the metric that flatters the interaction before bias correction is the one that flatters it least after
 
 `#79c` named its own weakest specification and sent this round at it: **L1 is the only loss under
 which the within-block interaction `W` is positive**, so if the item-vs-interaction ordering flips
@@ -2727,7 +2727,7 @@ to be able to overturn `#71` rather than to defend it.
 
 ---
 
-## Entry 82, added by `E01·A10·R125` — #71 inverts: the person-side readout is mostly assembled PER DOMAIN
+## Entry 82, added by `E01·A03·R003` — #71 inverts: the person-side readout is mostly assembled PER DOMAIN
 
 `#81` flagged `#71` `AT RISK` because it compared a nearly-unbiased `C` against a severely
 under-reported `W`. Symmetric run, both sides referred to their own nulls in the same run, same
@@ -2765,7 +2765,7 @@ this project and a false headline it would have kept.**
 
 ---
 
-## Entry 83, added by `E01·A10·R126` — the domain-specific spectrum has a knee at 5; the domain-general one has none
+## Entry 83, added by `E01·A03·R003` — the domain-specific spectrum has a knee at 5; the domain-general one has none
 
 `#72` swept the cross-block rank and found no cliff. `#82` then showed the cross-block part is the
 **thin** one, so `#72` characterised a residual. Same question, asked of the structure that carries
@@ -2805,7 +2805,7 @@ it is named here rather than left for a reader to notice.
 
 ---
 
-## Entry 84, added by `E01·A10·R127` — the confound `#83c` named cannot be settled here, and the control is what says so
+## Entry 84, added by `E01·A03·R003` — the confound `#83c` named cannot be settled here, and the control is what says so
 
 `#83c` claimed the within-block spectrum knees at 5 while the cross-block one does not, and named its
 own confound: the two estimators search spaces of very different size (m = 10–24 columns vs ~500).
@@ -2840,7 +2840,7 @@ inadmissible until the same instrument has passed a positive control**, and here
 
 ---
 
-## Entry 85, added by `E01·A10·R128` — the three components are the same size, and "11.7×" was three raw numbers against one corrected one
+## Entry 85, added by `E01·A03·R003` — the three components are the same size, and "11.7×" was three raw numbers against one corrected one
 
 `#82` inverted `#71` by referring both sides to their own nulls. The audit that followed reached the
 README's **first** row, which still read *"item +0.222 vs person +0.085 vs interaction +0.019"* —
@@ -2877,7 +2877,7 @@ effect's uniquely-attributable part, and the true ratio is **at most** what is r
 
 ---
 
-## Entry 86, added by `E01·A05·R097` — a null correction credits a component with the DAMAGE its estimator does, and 87% of the person effect's correction was that
+## Entry 86, added by `E01·A01·R001` — a null correction credits a component with the DAMAGE its estimator does, and 87% of the person effect's correction was that
 
 `#85b` reported the person main effect at **+0.148** corrected against **+0.093** raw, and explained
 the gap as estimator noise: item effects are estimated from 1,200–15,000 observations per column,
@@ -2911,7 +2911,7 @@ release has none, so nothing here distinguishes *"wants more"* from *"ticks more
 
 ---
 
-## Entry 87, added by `E01·A10·R129` — the −0.19 floor is an estimator artifact, and my own comparison let one arm peek at the test set
+## Entry 87, added by `E01·A03·R003` — the −0.19 floor is an estimator artifact, and my own comparison let one arm peek at the test set
 
 `#86c` predicted that if the interaction's null correction is crediting **damage** rather than
 **noise**, a properly regularised estimator would recover only ~13% of the gap directly — and that
@@ -2943,7 +2943,7 @@ whose null is zero because it does not overfit in the first place.
 
 ---
 
-## Entry 88, added by `E01·A10·R130` — with nothing subtracted anywhere, the item effect is 3.5–5.6× the interaction, and `#85`'s tie was the correction machinery
+## Entry 88, added by `E01·A03·R003` — with nothing subtracted anywhere, the item effect is 3.5–5.6× the interaction, and `#85`'s tie was the correction machinery
 
 `#86` and `#87` established that subtracting a null credits the estimator's failure to the component.
 This round removes the machinery entirely: **shrunk column means · empirical-Bayes shrunk row means ·
@@ -2991,7 +2991,7 @@ fail differently**, and it took `#80`, `#82`, `#84`, `#86` and `#87` to name it.
 
 ---
 
-## Entry 89, added by `E01·A10·R131` — the estimator with the honest floor cannot count dimensions, and the one that can count has a dishonest floor
+## Entry 89, added by `E01·A03·R003` — the estimator with the honest floor cannot count dimensions, and the one that can count has a dishonest floor
 
 `#88` showed hard rank truncation digs a −0.09 hole on a structureless world while soft thresholding
 digs −0.02. The natural follow-up was to re-ask `#72`/`#83`'s dimensionality question on the better
@@ -3020,7 +3020,7 @@ constraint on every rank question the project has asked.
 
 ---
 
-## Entry 90, added by `E01·A10·R132` — on the probability scale the three components are the same size, and the item effect wins every skill measure because it is estimated 179× better
+## Entry 90, added by `E01·A03·R003` — on the probability scale the three components are the same size, and the item effect wins every skill measure because it is estimated 179× better
 
 Every number in this project has been held-out skill — a quantity whose meaning depends on the
 estimator, which is what `#86`–`#89` spent four entries discovering. This round inverts the plant:
@@ -3057,7 +3057,7 @@ and that asymmetry is not removable here.
 
 ---
 
-## Entry 91, added by `E01·A10·R133` — a structure carried by 5% of people is invisible at ANY strength, and that is what a fetish looks like
+## Entry 91, added by `E01·A03·R003` — a structure carried by 5% of people is invisible at ANY strength, and that is what a fetish looks like
 
 `#90` named its own shape assumption: the ±23.7 pp inversion assumed a **dense** structure, and a
 sparse one — a few people with strong specific tastes — might imply a different magnitude. This
@@ -3092,7 +3092,7 @@ are buildable on this release, and neither has been tried.
 
 ---
 
-## Entry 92, added by `E01·A11·R135` — the only quantile where the control fires is the only one where the data doesn't
+## Entry 92, added by `E01·A03·R003` — the only quantile where the control fires is the only one where the data doesn't
 
 `#91` measured that every method in this project is blind to a structure carried by a minority. This
 round builds the missing one: a **per-person goodness-of-fit** statistic
@@ -3135,7 +3135,7 @@ knowable before the method existed.
 
 ---
 
-## Entry 93, added by `E01·A11·R136` — with the right null the apparent tail vanishes, and so does the instrument's ability to see anything
+## Entry 93, added by `E01·A03·R003` — with the right null the apparent tail vanishes, and so does the instrument's ability to see anything
 
 `#92` left one admissible quantile and two fixable faults. Both are fixed here: the null becomes
 **fixed-margin (curveball)**, reproducing the response format instead of mistaking it for signal, and
@@ -3170,7 +3170,7 @@ natural and correct null. That is the design `#91` was reaching for and neither 
 
 ---
 
-## Entry 94, added by `E01·A11·R137`+`R04` — the most promising signal in the project, and a positive control that has failed to license it three times
+## Entry 94, added by `E01·A03·R003`+`R04` — the most promising signal in the project, and a positive control that has failed to license it three times
 
 `#93b` showed the per-person misfit statistic is confounded with the pick count, and named the
 statistic that isn't: **mean surprisal** `S_i = mean over picked options of −log(base rate)` —
@@ -3207,7 +3207,7 @@ calculation instead of a guess.
 
 ---
 
-## Entry 95, added by `E01·A11·R139` — LICENSED: a minority whose picks concentrate on rare options, seen by the first statistic in this project whose null preserves exactly what it conditions on
+## Entry 95, added by `E01·A03·R003` — LICENSED: a minority whose picks concentrate on rare options, seen by the first statistic in this project whose null preserves exactly what it conditions on
 
 `#94b` withheld the surprisal signal because three positive controls had failed, all by planting
 below the detectable magnitude. `#94`'s closing paragraph derived the magnitude instead of guessing
@@ -3242,7 +3242,7 @@ concentrating on uncommon options exists and was invisible to every method used 
 
 ---
 
-## Entry 96, added by `E01·A11·R140` — the separator is right, the execution was not mean-matched, and the two normalisations disagree
+## Entry 96, added by `E01·A03·R003` — the separator is right, the execution was not mean-matched, and the two normalisations disagree
 
 `#95` named its own limit: surprisal cannot distinguish an idiosyncratic attachment from a careless
 responder. But the two make different predictions about **shape across blocks** — careless is **flat**
@@ -3274,7 +3274,7 @@ The sentence "at comparable mean" was doing the work of a check.
 
 ---
 
-## Entry 97, added by `E01·A11·R141`+`R08`+`R09` — the real minority is elevated more EVENLY than any discrete-carrier plant, and that is a different hypothesis than either of the two I was testing
+## Entry 97, added by `E01·A03·R003`+`R08`+`R09` — the real minority is elevated more EVENLY than any discrete-carrier plant, and that is a different hypothesis than either of the two I was testing
 
 `#96` left the attachment-vs-carelessness question open because the two plants were not mean-matched.
 Three rounds to fix it, each caught by its own gate:
@@ -3314,7 +3314,7 @@ tail quantile.
 
 ---
 
-## Entry 98, added by `E01·A11·R144` — neither family fits, and the two failures bracket the answer from opposite sides
+## Entry 98, added by `E01·A03·R003` — neither family fits, and the two failures bracket the answer from opposite sides
 
 `#97d` opened the fork: is the rare-option signal a **distinct minority** or a **gradient across
 everyone**? Both families tuned to reproduce the real p50 and p95, then tested on the held-out shape.
@@ -3344,7 +3344,7 @@ intensity trades off along exactly that axis.
 
 ---
 
-## Entry 99, added by `E01·A11·R146` — the check eleven rounds never ran: the distribution is symmetrically WIDER, not one-sidedly elevated
+## Entry 99, added by `E01·A03·R003` — the check eleven rounds never ran: the distribution is symmetrically WIDER, not one-sidedly elevated
 
 Every round in this arc measured **p50 and upward**. `#94`/`#95` licensed *"a minority picks rarer
 options"*; `#98` bracketed its size; `#R11` found no carrier model fits, because every random-carrier
@@ -3378,7 +3378,7 @@ upper elevation, and pointing the other way.
 
 ---
 
-## Entry 100, added by `E01·A11·R147` — a reliable person-level trait in WHICH options are endorsed, independent of HOW MANY
+## Entry 100, added by `E01·A03·R003` — a reliable person-level trait in WHICH options are endorsed, independent of HOW MANY
 
 `#99b` proposed *"a continuous person-level parameter of rare-option affinity"*. That is a claim about
 a **trait**, and a trait must be **reliable** and must not be something already measured wearing a new
@@ -3409,7 +3409,7 @@ outside the endorsement matrix, which this release does carry.
 
 ---
 
-## Entry 101, added by `E01·A11·R148`+`R15` — the trait tracks WHEN interests were acquired, more than it tracks personality
+## Entry 101, added by `E01·A03·R003`+`R15` — the trait tracks WHEN interests were acquired, more than it tracks personality
 
 `#100` confirmed a reliable person-level trait in *which* options are endorsed and named what
 reliability cannot settle: a stable **response style** is also a reliable person property. The two
@@ -3454,7 +3454,7 @@ response style that happens to track onset age would produce the same table.
 
 ---
 
-## Entry 102, added by `E01·A11·R150` — the onset link does not survive its own matched null, and my gate checked the null against a number instead of against the effect
+## Entry 102, added by `E01·A03·R003` — the onset link does not survive its own matched null, and my gate checked the null against a number instead of against the effect
 
 `#101d` reported that rare-option affinity tracks earlier acquisition at **r = −0.0838, z = 7.1**, and
 called it the first link between arc `A11` and `A03`'s fifteen rounds on the schedule. This round
@@ -3529,7 +3529,7 @@ forecloses the comparison errors, which are nine of ten; **the tenth is still mi
 
 ---
 
-## Entry 104, added by `E01·A11·R151` — CLOSURE: the arc's three surviving claims re-read through the instrument built from its own failures
+## Entry 104, added by `E01·A03·R003` — CLOSURE: the arc's three surviving claims re-read through the instrument built from its own failures
 
 Labelled **Closure** (`P0`): it protects existing conclusions rather than separating worlds. Its value
 is that the protection is performed by `lib/gates.py`, which `#103` validated by catching **7 of 8**
@@ -3581,7 +3581,7 @@ threshold, and its arms are checked for completeness (`#79e`'s).
 
 ---
 
-## Entry 105, added by `E01·A10·R134` — the direct measurement is algebraically impossible, which is why `#90` had to be indirect
+## Entry 105, added by `E01·A03·R003` — the direct measurement is algebraically impossible, which is why `#90` had to be indirect
 
 `#90`'s **±23.7 pp** is the top row of the README and the only number in the standing table that is
 **inferred through a model** rather than measured. `#90` named that asymmetry in its own scope
@@ -3618,7 +3618,7 @@ and a direct measurement would settle it."* **There is no direct measurement to 
 
 ---
 
-## Entry 106, added by `E01·A12·R157` — 获取顺序留下了痕迹:两个最后都喜欢 A 和 B 的人,会因为「先得到哪个」而在其他方面不同
+## Entry 106, added by `E01·A03·R003` — 获取顺序留下了痕迹:两个最后都喜欢 A 和 B 的人,会因为「先得到哪个」而在其他方面不同
 
 Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递归性表征重构`。项目测了前两步,第三步被归档成"需要纵向数据"就再没碰过。**那个归档是错的** —— 递归有横断面签名,而且它是心理学问句不是统计问句:
 
@@ -3649,7 +3649,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 107, added by `E01·A12·R158` — 顺序的痕迹不是「你是哪一类人」:跨类对的效应被类型吸收殆尽,同类对的存活
+## Entry 107, added by `E01·A03·R003` — 顺序的痕迹不是「你是哪一类人」:跨类对的效应被类型吸收殆尽,同类对的存活
 
 `#106d` 在跑之前就写下了唯一严肃的替代解释:**一个稳定的类型同时驱动顺序和内容**。偏关系型的人既更晚获得关系性兴趣,也有关系性偏好。`#106e` 给了分离器,这一轮跑了它 —— 而且是两个分离器同时跑。
 
@@ -3678,7 +3678,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 108, added by `E01·A12·R159` — 剂量测不出来,而且原因是分层本身:随机砍掉 2/3 的人就能杀死这个效应
+## Entry 108, added by `E01·A03·R003` — 剂量测不出来,而且原因是分层本身:随机砍掉 2/3 的人就能杀死这个效应
 
 `#107e` 留下最后一个对手:一个作用在比"具体/关系"更细层次上的共因。这一轮不用更细的分类学,用**剂量** —— 共因不做的那个预测:
 
@@ -3713,7 +3713,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 109, added by `E01·A12·R161` — 效应"缩小"是因为我在两轮之间悄悄换掉了零的种类,而换掉的那个是错的
+## Entry 109, added by `E01·A03·R003` — 效应"缩小"是因为我在两轮之间悄悄换掉了零的种类,而换掉的那个是错的
 
 同一个量,我自己重估三次,一路缩小:`#107` **+0.0236** → `#108` **+0.0121** → `#109` **+0.0058**。
 
@@ -3749,7 +3749,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 110, added by `E01·A12·R162` — 顺序效应在对的零上是 +0.0285(8.6× SE);剂量再次被自己的对照挡下,而这次机制查清了
+## Entry 110, added by `E01·A03·R003` — 顺序效应在对的零上是 +0.0285(8.6× SE);剂量再次被自己的对照挡下,而这次机制查清了
 
 `#109f` 把剂量问题打回完全未测(`#108`/`#109` 都用了错零)。这一轮用 `#109e` 认定的真值偏移 ——
 **合成无信号世界**:把 `y` 回归到协变量上生成 `y_synth`(保留 COV→y,毁掉 P→y),在它上面直接量 `full − base`。
@@ -3772,7 +3772,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 111, added by `E01·A12·R163` — 剂量在这套数据上问不出来,这是能力边界不是零;而我为了追它偏离了自己写下的 NEXT 三轮
+## Entry 111, added by `E01·A03·R003` — 剂量在这套数据上问不出来,这是能力边界不是零;而我为了追它偏离了自己写下的 NEXT 三轮
 
 `#110e` 说把类别平衡度放进对间回归就能修伪影。做了,机制确认了,但不够:
 
@@ -3798,7 +3798,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 112, added by `E01·A12·R164` — 一个兴趣来得越早,它与这个人其余偏好结合得越紧;而且不是"喜欢得更强"
+## Entry 112, added by `E01·A03·R003` — 一个兴趣来得越早,它与这个人其余偏好结合得越紧;而且不是"喜欢得更强"
 
 `#111c` 承认我为了追剂量偏离了 `#107` 自己写下的 NEXT 三轮。回到那一个,而且它是一个完全不同的设计 —— **没有间隔,没有类别平衡度**,所以 `#110d`/`#111a` 的伪影结构上不存在。
 
@@ -3837,7 +3837,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 113, added by `E01·A12·R165` — "早"不是"相对更爱";而绑定只在真正在乎的兴趣上发生
+## Entry 113, added by `E01·A03·R003` — "早"不是"相对更爱";而绑定只在真正在乎的兴趣上发生
 
 `#112e` 留下唯一对手:**回忆偏差** —— 一个人把 X 当作核心,既报告更早的起始年龄,也让轮廓围绕 X 组织。两个分离器同跑。
 
@@ -3877,7 +3877,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 114, added by `E01·A12·R166` — 记忆把心爱的兴趣往前拉,约 0.74 年;这是这个数据集里第一个被直接量出来的回忆偏差
+## Entry 114, added by `E01·A03·R003` — 记忆把心爱的兴趣往前拉,约 0.74 年;这是这个数据集里第一个被直接量出来的回忆偏差
 
 `#113c` 承认我上一轮的"判别式"不判别(两个世界做同一个预测)。这一轮的分离器**不碰绑定统计量**,直接量**起始年龄报告本身**,而且两个世界做**相反**的预测:
 
@@ -3911,7 +3911,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 115, added by `E01·A12·R167` — `#112a` 撤回:那不是"早到来的东西在中心",是"什么都给高分的人"
+## Entry 115, added by `E01·A03·R003` — `#112a` 撤回:那不是"早到来的东西在中心",是"什么都给高分的人"
 
 `#114c` 预测了一条通路,`#114e` 说可以直接测。测了,而且**结论与我上一轮提交的相反**。
 
@@ -3939,7 +3939,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 116, added by `E01·A12·R168` — 顺序效应挺过了杀死它兄弟的那个混淆,而且原因是设计结构上的
+## Entry 116, added by `E01·A03·R003` — 顺序效应挺过了杀死它兄弟的那个混淆,而且原因是设计结构上的
 
 `#115e` 把 `#107`/`#110` 的顺序对设计放到同一条通路下受审:`y = (起始A < 起始B)` 经由回忆偏差依赖 `评分A − 评分B`,而轮廓预测评分,协变量里从没有过人均评分。
 
@@ -3970,7 +3970,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 117, added by `E01·A12·R169` — 零修对后效应站得更稳;而"先来的把其余偏好拉向自己"刚过线
+## Entry 117, added by `E01·A03·R003` — 零修对后效应站得更稳;而"先来的把其余偏好拉向自己"刚过线
 
 ### 第一件:`#116e` 的零修好了
 
@@ -4008,7 +4008,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 118, added by `E01·A12·R170` — 方向命题从 2.1× 升到 3.1×,但不是因为我预测的理由;而它原来的正对照是一个恒等式
+## Entry 118, added by `E01·A03·R003` — 方向命题从 2.1× 升到 3.1×,但不是因为我预测的理由;而它原来的正对照是一个恒等式
 
 `#117` 的 NEXT 预先承诺:双倍 n 若不过 3× 就按 2.1× 引用并停止。跑了,过了 —— 但**两个诊断都跟我的预测无关**。
 
@@ -4034,7 +4034,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 119, added by `E01·A13·R171` — 回忆畸变随年龄增强,所以它不是纯粹的"报告时刻建构";而"伪影是否为零"一直是错的问题
+## Entry 119, added by `E01·A03·R003` — 回忆畸变随年龄增强,所以它不是纯粹的"报告时刻建构";而"伪影是否为零"一直是错的问题
 
 新 arc。`#114a` 量出的回忆偏差(心爱的被报告早约 0.74 年)我一直只当干扰用。它本身是个心理学对象,而且两个机制做**相反**的预测:
 
@@ -4070,7 +4070,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 120, added by `E01·A13·R172` — 机制分不开,而且原因是真实曲率根本不可分辨;我的两个 gate 又各错了一次
+## Entry 120, added by `E01·A03·R003` — 机制分不开,而且原因是真实曲率根本不可分辨;我的两个 gate 又各错了一次
 
 `#119c` 留下残余:"随时间累积"对**记忆衰退**和**叙事固化**都成立。分离器是**形状** —— 固化只拉最爱的那些(顶端,凸),衰退沿评分整体变陡(线性)。
 
@@ -4097,7 +4097,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 121, added by `E01·A11·R152` — 条件于平均意外度,会把恋物子群的签名一起条件掉;而我的弥散对照不保边际,所以对比不成立
+## Entry 121, added by `E01·A03·R003` — 条件于平均意外度,会把恋物子群的签名一起条件掉;而我的弥散对照不保边际,所以对比不成立
 
 `#120` 的 NEXT 指向 `#104` 的"勾选数分层内的意外度秩"。重读 `#99` 后改问了一个更锋利的问题 —— **`#99` 测的是 S 的水平,没测它的形状,而恋物在现象学上不是"整体偏好罕见",是"对某一样异常强烈"**:
 
@@ -4125,7 +4125,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 122, added by `E01·A11·R153` — 保边际的两个种植都太弱,问题停在能力边界;而尾部超出本身是真的
+## Entry 122, added by `E01·A03·R003` — 保边际的两个种植都太弱,问题停在能力边界;而尾部超出本身是真的
 
 `#121e` 指定的修法做了:**成对交换** —— A 得稀有失常见、B 反向,行和列和都精确不变(每块每次抽样都断言)。两个世界**交换总数相同**(3000/块),只改分配给多少人:集中 = 5% 的人承担,弥散 = 60% 的人承担。
 
@@ -4195,7 +4195,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 124, added by `E01·A06·R101` — 自称"色情诱导了我"的人,在强制单选里选的东西和别人一模一样
+## Entry 124, added by `E01·A02·R002` — 自称"色情诱导了我"的人,在强制单选里选的东西和别人一模一样
 
 `#123b` 找到了 `#26` 说本 release 没有的那个仪器:**强制单选按构造消除作答水平**(必须且只能选一个,"什么都说是"无处施力),实测各选项人群的平均给分极差 0.324–0.506 < 0.73 sd,**而 166 轮里只用过 2 轮**。
 
@@ -4231,7 +4231,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 125, added by `E01·A05·R098` — 广度携带内容,但只有一点点;而我给库开的口子当场被自己的回归测试堵回去
+## Entry 125, added by `E01·A01·R001` — 广度携带内容,但只有一点点;而我给库开的口子当场被自己的回归测试堵回去
 
 `#124` 的 NEXT 两件事:把 `#124f` 落地成代码,再用强制单选打 `#26` 自己那条 UNVERIFIED。
 
@@ -4284,7 +4284,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 126, added by `E01·A11·R154`+`R21` — 稀有偏好特质搬到另一个仪器上仍然在;而口味广的人恰恰选得更常见
+## Entry 126, added by `E01·A03·R003`+`R21` — 稀有偏好特质搬到另一个仪器上仍然在;而口味广的人恰恰选得更常见
 
 `#125` 的 NEXT 指向跨题变异,设计时看到一个更锋利的版本 —— 它同时回答本项目最发达那条声明的最大弱点:
 
@@ -4315,7 +4315,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 127, added by `E01·A11·R156` — 两个现存声明在共享-item 守卫下都站住;而审计自己的正对照抓到了审计自己的 bug
+## Entry 127, added by `E01·A03·R003` — 两个现存声明在共享-item 守卫下都站住;而审计自己的正对照抓到了审计自己的 bug
 
 `#126c` 是本项目第一个**在设计时被漏掉**的混淆(前四十一个都是写下了但写错了)。守卫 `check_disjoint_items` 已落地并回放验证。`#126` 的 NEXT:回头查同样组合 item 派生量的两个声明。
 
@@ -4351,7 +4351,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 128, added by `E01·A14·R173` — 不寻常的东西一开始就在那里;而一遍双向去均值把这个结论的符号弄反了
+## Entry 128, added by `E01·A03·R003` — 不寻常的东西一开始就在那里;而一遍双向去均值把这个结论的符号弄反了
 
 `#127` 的 NEXT 是给六个守卫写一个 linter。写了,跑了,**然后必须给它降级**:171 个轮次里有 146
 个早于 `lib/gates.py` 存在本身,所以 94% 的"缺失率"是剧场。有判别力的只有现存声明那 19 轮,
@@ -4414,7 +4414,7 @@ Ivan 最初的先验有三步:`普通表征 → 个体化性价值读出 → 递
 
 ---
 
-## Entry 129, added by `E01·A14·R174` — 特质链接不是覆盖度;而一次尺度不匹配的残差化,把两轮的 `corr(·,S)` 变成了负的勾选数
+## Entry 129, added by `E01·A03·R003` — 特质链接不是覆盖度;而一次尺度不匹配的残差化,把两轮的 `corr(·,S)` 变成了负的勾选数
 
 `#128` 的 NEXT:`corr(ρ,S)` 扣掉年龄与类别数就掉一半,而这两个都是**仪器量**。按 `#5` 的
 覆盖度定律,`128c` 进 README 之前必须做**块数匹配**——在设计上关掉这条通路,不靠回归假设线性。
@@ -4468,7 +4468,7 @@ S[ok] = z(S[ok]) - np.polyval(np.polyfit(z(PK[ok]), z(S[ok]), 1), z(PK[ok]))   #
 
 ---
 
-## Entry 130, added by `E01·A14·R175` — 人群从常见处开始,而每个人都在共享曲线上提前了自己那一份
+## Entry 130, added by `E01·A03·R003` — 人群从常见处开始,而每个人都在共享曲线上提前了自己那一份
 
 `#129` 的 NEXT:把「罕见的来得更早」做成**离散版本** —— 一个人最早报告的那批兴趣,是不是
 比从他**自己的曲目库**里随机抽的更罕见?零是他自己的库,所以这个检验对去均值的做法、
@@ -4521,7 +4521,7 @@ S[ok] = z(S[ok]) - np.polyval(np.polyfit(z(PK[ok]), z(S[ok]), 1), z(PK[ok]))   #
 
 ---
 
-## Entry 131, added by `E01·A14·R176` — 66.852% 保住了;而"跳过排不出来的对"值 12.9 个百分点
+## Entry 131, added by `E01·A03·R003` — 66.852% 保住了;而"跳过排不出来的对"值 12.9 个百分点
 
 **【CLOSURE,明确标注】** `#130` 的 NEXT。不开新战线,保护本项目最老也最大的数字。
 
@@ -4546,7 +4546,7 @@ S[ok] = z(S[ok]) - np.polyval(np.polyfit(z(PK[ok]), z(S[ok]), 1), z(PK[ok]))   #
 
 ---
 
-## Entry 132, added by `E01·A14·R177` — 审查解释不掉 Δ;而性版图在青春期结束时就基本定型了
+## Entry 132, added by `E01·A03·R003` — 审查解释不掉 Δ;而性版图在青春期结束时就基本定型了
 
 `#131` 的 NEXT。Δ = −0.2345 是本弧最大的效应,两个候选机制已死,测最便宜的第三个:审查。
 
@@ -4584,7 +4584,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 133, added by `E01·A15·R178` — 成年后加进来的不是旁边那一块,是别处;而三分之一的人版图在 17 岁就关上了
+## Entry 133, added by `E01·A03·R003` — 成年后加进来的不是旁边那一块,是别处;而三分之一的人版图在 17 岁就关上了
 
 `#132` 的 NEXT,新弧 A15。`#132f` 用「68.4% 在 17 岁前」给模型 C 划了时间边界;这一轮问那条
 边界之后进来的东西是**深化**还是**扩张**。零是**人内置换早/晚标签**,所以对"他喜欢多少
@@ -4623,7 +4623,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 134, added by `E01·A15·R179` — 反向回忆的印记不存在;但那个效应绑在绝对年龄上,而它的量级要降级
+## Entry 134, added by `E01·A03·R003` — 反向回忆的印记不存在;但那个效应绑在绝对年龄上,而它的量级要降级
 
 `#133` 的 NEXT。`#133` 自己写下的残余缺口 ——「这个东西跟我其余的不搭,所以它一定是后来才
 有的」,即连通性低**导致**被报成晚。这条通路是**回忆过程**的性质,所以印记是年龄梯度,
@@ -4660,7 +4660,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 135, added by `E01·A15·R180` — 没有边界,但有两族:早来的东西是散的,晚来的东西是一整套
+## Entry 135, added by `E01·A03·R003` — 没有边界,但有两族:早来的东西是散的,晚来的东西是一整套
 
 `#134` 的 NEXT。绕开被分箱卡死的切点扫描,直接画「连通度 ~ 获得年龄」的曲线。
 
@@ -4691,7 +4691,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 136, added by `E01·A15·R181` — 「一整套」是字面意义的:关系族一起到,具体族一个一个到
+## Entry 136, added by `E01·A03·R003` — 「一整套」是字面意义的:关系族一起到,具体族一个一个到
 
 `#135` 的 NEXT。`#135d` 证明的是人的晚期集合**富集**于关系族,没证明它们**同时**到达。
 
@@ -4725,7 +4725,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 137, added by `E01·A16·R182` — 两族不是两样东西:早/晚这条线在外部锚上是六个里最弱的
+## Entry 137, added by `E01·A03·R003` — 两族不是两样东西:早/晚这条线在外部锚上是六个里最弱的
 
 `#136` 的 NEXT,新弧 A16。`#135`/`#136` 的两族在**组织度**与**到达方式**上都不同 ——
 那它们在**外部成因**上也不同吗?这压在模型 A(专用性内容系统预测一个统一检测器)上。
@@ -4754,7 +4754,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 138, added by `E01·A16·R183` — 版图的主分界线不是"先来后到",是"物件 vs 叙事"
+## Entry 138, added by `E01·A03·R003` — 版图的主分界线不是"先来后到",是"物件 vs 叙事"
 
 `#137` 的 NEXT。6 个特征向量分割 × 11 个非性变量的整格,多重性由**最大统计量零**
 (把非性变量在人之间打乱,重算整格,取 |最大差|,200 次 → 95 分位 = 0.0560)一次性控制。
@@ -4781,7 +4781,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 139, added by `E01·A16·R184` — `#138f` 降级;真正结构不对称的是早/晚那条线
+## Entry 139, added by `E01·A03·R003` — `#138f` 降级;真正结构不对称的是早/晚那条线
 
 `#138` 的 NEXT。把命名拿掉,只看结构:四个量(分半信度 · 有效维度 · 第一因子占比 ·
 与广度的相关),每个分割两侧各一份,**下采样到 k=9** 以拉平题目个数,评分用成对删除。
@@ -4809,7 +4809,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 140, added by `E01·A16·R185` — 关系族装的就是 A02 那三条轴;而那个"零"是 0.349,不是 0
+## Entry 140, added by `E01·A03·R003` — 关系族装的就是 A02 那三条轴;而那个"零"是 0.349,不是 0
 
 `#139` 的 NEXT。`#139c` 说关系族"同时到达却装着好几个独立维度"—— 是哪几个?
 `A02` 已在**全部**类别上命名过三条(谁服从 · 谁被看 · 谁接受)。
@@ -4836,7 +4836,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 141, added by `E01·A17·R186` — A02 的结论站得住,但它引用错了自己的证据;而我的路标前提是错的
+## Entry 141, added by `E01·A03·R003` — A02 的结论站得住,但它引用错了自己的证据;而我的路标前提是错的
 
 `#140` 的 NEXT。新弧 A17。
 
@@ -4862,7 +4862,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 142, added by `E01·A17·R187` — `#118` 宣布的"加强"没有发生,而它的判定压在一个落进噪声带的常数上
+## Entry 142, added by `E01·A03·R003` — `#118` 宣布的"加强"没有发生,而它的判定压在一个落进噪声带的常数上
 
 `#141` 的 NEXT。`tools/guard_lint.py` 新增 `hardcoded_thresholds()`:找**与字面常数比较、
 且该比较驱动结论字符串**的行;与自身展布比较(`2*spread`/`boot`/`sd`/`null`)白名单放行。
@@ -4890,7 +4890,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 143, added by `E01·A17·R188` — `#141` 整条撤回:我审计的是一个 118 条之前就已作废的版本
+## Entry 143, added by `E01·A03·R003` — `#141` 整条撤回:我审计的是一个 118 条之前就已作废的版本
 
 `#142` 的 NEXT 是给另外四处写死的常数各量距离。量到 `A02/R040` 的 `mx<50` 时看到实测是
 **101% / 86%**,而它的预注册判定写着 `mx>=80 → ONE CONSTRUCT`。**顺着读下去,那不是发现,
@@ -4920,7 +4920,7 @@ release 里有两个 17 岁后仍在变的量 —— 每个类别的**评分**(�
 
 ---
 
-## Entry 144, added by `E01·A17·R189` — 一个不带出处的数字,是一个无法被撤回的数字
+## Entry 144, added by `E01·A03·R003` — 一个不带出处的数字,是一个无法被撤回的数字
 
 `#143` 的 NEXT:把 `readme_ledger_audit.py` 的 **29 个命中**逐个分诊。
 
@@ -4948,7 +4948,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 145, added by `E01·A17·R190` — 盲区被我高估了 14 倍;而剩下的那一个,挂在一句账本说是假的话上
+## Entry 145, added by `E01·A03·R003` — 盲区被我高估了 14 倍;而剩下的那一个,挂在一句账本说是假的话上
 
 `#144` 的 NEXT:把前页那 14 个不带出处的数字逐个接上账本或删掉。
 
@@ -4977,7 +4977,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 146, added by `E01·A18·R191` — Δ 的量级由"谁够格进入分析"决定,而那就是广度
+## Entry 146, added by `E01·A03·R003` — Δ 的量级由"谁够格进入分析"决定,而那就是广度
 
 `#145` 的 NEXT。把 `#130a` 的 Δ(−0.2345,49×)按 `#138` 的内容线切开。
 
@@ -5004,7 +5004,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 147, added by `E01·A18·R192` — `#130a` 得救而且是普遍的;而 `#146` 的广度联系是一条算术界
+## Entry 147, added by `E01·A03·R003` — `#130a` 得救而且是普遍的;而 `#146` 的广度联系是一条算术界
 
 `#146` 的 NEXT 写的是「在广度上做卡钳 1:1 匹配」。**先纠正我自己的路标:那是错的工具** ——
 匹配比较两个组,而 Δ 没有组(它的零是人内的,`E[Δ_i|null]` 恰好为 0)。广度不能让 Δ_i
@@ -5042,7 +5042,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 148, added by `E01·A18·R193` — 机制找到了:那不是关于个人的,是共享时间表投影到每个人身上的样子
+## Entry 148, added by `E01·A03·R003` — 机制找到了:那不是关于个人的,是共享时间表投影到每个人身上的样子
 
 `#147` 的 NEXT。跑之前先查:**`#130b` 当年就测过这一步**(扣掉时间表后 Δ 从 −0.2345 翻成
 +0.0767)。这一轮把它钉在 `#147` 的可比单位上,并加一个当年没有的对照。
@@ -5074,7 +5074,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 149, added by `E01·A19·R194` — 那 20% 是真的,但它不是一个特质
+## Entry 149, added by `E01·A03·R003` — 那 20% 是真的,但它不是一个特质
 
 `#148` 的 NEXT。两个候选:`#148b` 的 **z_resid** 与 `#128b` 的 **ρ**,符号一致。
 
@@ -5107,7 +5107,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 150, added by `E01·A19·R195` — 预注册的点预测命中了;而"一致"仍然不等于"证明了相同"
+## Entry 150, added by `E01·A03·R003` — 预注册的点预测命中了;而"一致"仍然不等于"证明了相同"
 
 `#149` 的 NEXT。跑之前写死:既然 `corr(z, ρ) = −0.5718` 是负的,`corr(z_resid, S)` 应当与
 `#129e` 的 `corr(ρ, S) = −0.0404` **符号相反、量级相当**。
@@ -5133,7 +5133,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 151, added by `E01·A19·R196` — 强制选择没放大效应,它更吵;而"更干净"不等于"更好"
+## Entry 151, added by `E01·A03·R003` — 强制选择没放大效应,它更吵;而"更干净"不等于"更好"
 
 `#150` 的 NEXT:用 `#126` 的强制选择块重建 S 来放大效应,把接缝的等价边界压下去。
 先处理重叠:10 个强制选择块里有 **8 个就是起始年龄的类别**,所以 z/ρ 在剔除后的 **23 个**
@@ -5166,7 +5166,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 152, added by `E01·A19·R197` — 方向立住,量级撤回:`#148a` 的分母错了,比值被高估 14 倍
+## Entry 152, added by `E01·A03·R003` — 方向立住,量级撤回:`#148a` 的分母错了,比值被高估 14 倍
 
 `#151` 的 NEXT。用五个汇总量重跑 `#148` 的分解,并把稀释基准从一次抽样改成 20 次。
 
@@ -5198,7 +5198,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 153, added by `E01·A20·R198` — 单次抽样的零不自动致命;伤害 = 零的实现 sd ÷ 效应
+## Entry 153, added by `E01·A03·R003` — 单次抽样的零不自动致命;伤害 = 零的实现 sd ÷ 效应
 
 `#152` 的 NEXT。扫 139 个持久化结果文件:**53 个含零臂,17 个的零臂没有 seed 列**。
 分诊后,两个支撑现存声明的零确认是单次抽样:**`#114`**(`default_rng(9)`,一次同类别内
@@ -5225,7 +5225,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 154, added by `E01·A20·R199` — 我重抽的是一个已被取代的轮次;而那 10 抽仍然证明了 `R15` 的三次平均是必要的
+## Entry 154, added by `E01·A03·R003` — 我重抽的是一个已被取代的轮次;而那 10 抽仍然证明了 `R15` 的三次平均是必要的
 
 `#153e` 的路标指向 `A11/R148` 的单抽 curveball 零。
 
@@ -5251,7 +5251,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 155, added by `E01·A20·R200` — 犯三次之后,由工具防:轮次 → 账本的反向索引
+## Entry 155, added by `E01·A03·R003` — 犯三次之后,由工具防:轮次 → 账本的反向索引
 
 `#154` 的 NEXT。本会话三次「去看轮次而不是读账本」(`#143` · `#148e` · `#154`)。
 
@@ -5276,7 +5276,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 156, added by `E01·A20·R201` — `#117` 的轮次从写下那天起一直在崩,而崩的正是它自己记录的那个 bug
+## Entry 156, added by `E01·A03·R003` — `#117` 的轮次从写下那天起一直在崩,而崩的正是它自己记录的那个 bug
 
 `#155` 的 NEXT:第四条边,**账本 → 轮次**。`tools/repro_audit.py` 重跑一轮,把账本条目里的
 可辨识数字与新 stdout 比对(容差 2%)。**17 条现存声明,16 条跑通,1 条崩溃。**
@@ -5303,7 +5303,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 157, added by `E01·A20·R202` — 一条只写在账本散文里的校正,不会到达仪器(两轮之内第二例)
+## Entry 157, added by `E01·A03·R003` — 一条只写在账本散文里的校正,不会到达仪器(两轮之内第二例)
 
 `#156` 的 NEXT 指向 `#88`。查下去,真正的问题在 **`#90`** —— README 头条
 「±22.6 / ±16.3 / ±23.7 pp」的出处。
@@ -5331,7 +5331,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 158, added by `E01·A20·R203` — 反向检验落地,并且它先证明了上一轮的修复
+## Entry 158, added by `E01·A03·R003` — 反向检验落地,并且它先证明了上一轮的修复
 
 **【CLOSURE,明确标注】** `#157` 的 NEXT:`repro_audit` 的方向是反的 —— 只查「账本的数在不在
 新输出里」,所以对 `#90` 的 ±30.8 无感,**而那个数本该消失**。
@@ -5358,7 +5358,7 @@ README 的双叙述结构被识别并量化(**产出**);审计的**盲区大小*
 
 ---
 
-## Entry 159, added by `E01·A21·R204` — 那 20% 几乎不是关于人的,它是关于东西的
+## Entry 159, added by `E01·A03·R003` — 那 20% 几乎不是关于人的,它是关于东西的
 
 `#158` 的 NEXT,换回人。`#149d` 只证明了个人成分**不稳**,没问**为什么**。
 双向去均值后两个边际都为零,所以"是不是关于东西的"只能是:**交互是不是集中在特定类别上**。
@@ -5390,7 +5390,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 160, added by `E01·A21·R205` — 性偏好的「什么」是个人的,「何时」不是
+## Entry 160, added by `E01·A03·R003` — 性偏好的「什么」是个人的,「何时」不是
 
 `#159` 的 NEXT:把 `#100` 的 S(0.4611)与 `#159a` 的 z(0.105)放进**同一个设计**,
 确认那 4.4 倍不是两套口径的产物。⚠ 先处理**单位数**:S 用 32 个块、z 用 ~13 个类别,
@@ -5424,7 +5424,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 161, added by `E01·A21·R206` — 关于「何时」,两个完全不同的问法给出同一个小数字
+## Entry 161, added by `E01·A03·R003` — 关于「何时」,两个完全不同的问法给出同一个小数字
 
 `#160` 的 NEXT。账本里已有第三个可比的数:**`Entry 8`** 把「时间表贴合度是一种个人特质」
 杀掉,SB = **0.214**。三个量放进**同一台机器**(同一批人、同一种劈分、同一个 k、同一个 SB)。
@@ -5458,7 +5458,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 162, added by `E01·A21·R207` — 回忆偏差是所有人共有的;而它的效应比它自己零的噪声还小
+## Entry 162, added by `E01·A03·R003` — 回忆偏差是所有人共有的;而它的效应比它自己零的噪声还小
 
 `#161` 的 NEXT。`b_i` = 这个人**人内**的「起始年龄残差 ~ 该类别评分」斜率,量它的分半信度,
 放进 `#160`/`#161` 的同一台机器。
@@ -5493,7 +5493,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 163, added by `E01·A22·R208` — 「偏爱冷门」是一个真的口味位置,不是"喜欢某一类恰好冷门的东西"
+## Entry 163, added by `E01·A03·R003` — 「偏爱冷门」是一个真的口味位置,不是"喜欢某一类恰好冷门的东西"
 
 `#162` 的 NEXT:`#100` 的 S 同时含**内容**与**位置**,而它的名字从没被检验过。
 分离器:**把块按内容相似度分到最不像的两端**,看倾向能不能传过去。
@@ -5527,7 +5527,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 164, added by `E01·A22·R209` — 「偏爱冷门」是这个人自己的口味,不是他的性别
+## Entry 164, added by `E01·A03·R003` — 「偏爱冷门」是这个人自己的口味,不是他的性别
 
 `#163` 的 NEXT。`#163a` 立住的是一个**位置**倾向,而性别本身也是一个"跨话题都成立"的位置变量
 —— 男性若在**每个**块上都挑更冷门的,就会造出一个完美可迁移的位置倾向。
@@ -5562,7 +5562,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 165, added by `E01·A22·R210` — 位置不是内容的投影;而「有没有内容」这个问题被泄漏底噪吃掉了
+## Entry 165, added by `E01·A03·R003` — 位置不是内容的投影;而「有没有内容」这个问题被泄漏底噪吃掉了
 
 `#164` 的 NEXT 问的是**还没被问过的第三件事**:一直在测的「位置」(偏爱多冷门),会不会只是一个
 更大的「内容」(勾了哪些具体选项)的投影?可测版本:在每半块的**选项矩阵**上取主成分给人打分,
@@ -5631,7 +5631,7 @@ Spearman-Brown),确认那 4.4 倍不是两套口径的产物。**若确认,本�
 
 ---
 
-## Entry 166, added by `E01·A23·R211` — 泄漏是泛函不匹配,不是噪声;而「平均安全」与「这一次安全」是两个不同的问题
+## Entry 166, added by `E01·A04·R004` — 泄漏是泛函不匹配,不是噪声;而「平均安全」与「这一次安全」是两个不同的问题
 
 `#165` 的 NEXT 担心:本项目所有「去掉 X 之后还保留 Y%」用的都是同一个有噪声的回归残差,
 只有 `#165` 量过泄漏底噪 —— `#164` 的 102% 与 `#104` 的 67% 分母里可能都带着衰减残留。
@@ -5685,7 +5685,7 @@ SE 尺度 4.5× 可分辨),平均为零,而单次担保不了。**不把 Q1 的 
 
 ---
 
-## Entry 167, added by `E01·A24·R212` — 注册的 kill 没开火;而项目最老的那条声明,八轮以来没有过误差棒
+## Entry 167, added by `E01·A04·R004` — 注册的 kill 没开火;而项目最老的那条声明,八轮以来没有过误差棒
 
 `#166b` 的 NEXT 担心:本项目几乎每条声明都是**一次**分析的读数,却几乎全用跨种子展布当分母 ——
 即全在答 Q2,而 README 上的读法是 Q1。注册的 kill:三条头部声明里 **≥2 条在 Q1 尺度上掉出来
@@ -5739,7 +5739,7 @@ k∈{4,5,6} 的**平均**(82.2/83.1/88.4)。跑对了才是同一个对象。前
 
 ---
 
-## Entry 168, added by `E01·A25·R213` — 不是 `#100` 一处:整个 A11 弧十轮都没有误差棒,而账本 57.5% 的条目不作任何精度陈述
+## Entry 168, added by `E01·A04·R004` — 不是 `#100` 一处:整个 A11 弧十轮都没有误差棒,而账本 57.5% 的条目不作任何精度陈述
 
 `#167` 注册:加守卫 `has_error_bar`,扫全部轮次,**若超过三分之一的现行声明展布来源是零臂
 → 不是 `#100` 一处的问题。**
@@ -5807,7 +5807,7 @@ k∈{4,5,6} 的**平均**(82.2/83.1/88.4)。跑对了才是同一个对象。前
 
 ---
 
-## Entry 169, added by `E01·A25·R214` — 公开面收窄后是干净的;而收窄途中撞出一条 `#20` 已经杀掉、却还挂在两份 README 上的定律
+## Entry 169, added by `E01·A04·R004` — 公开面收窄后是干净的;而收窄途中撞出一条 `#20` 已经杀掉、却还挂在两份 README 上的定律
 
 `#168` 的 NEXT:那 96 条无精度陈述的条目里,取**当前仍挂在 README 上**的子集逐条判来源,
 **若任何一条的来源是零臂 → 公开面在承诺它没有证明的东西。**
@@ -5862,7 +5862,7 @@ n=6 切分时置换零 **|r| p95 = 0.820** —— **`+0.815` 从未越过它自�
 
 ---
 
-## Entry 170, added by `E01·A26·R215` — 账本确实在扮演修复的替身:`#144d` 点名的并行叙述,25 条条目之后仍有三处未修
+## Entry 170, added by `E01·A04·R004` — 账本确实在扮演修复的替身:`#144d` 点名的并行叙述,25 条条目之后仍有三处未修
 
 `#169` 的 NEXT:给 `readme_ledger_audit.py` 加一条规则 —— 凡账本正文里**点名 README 某处有缺陷**
 的条目,把被点名的**具体串**抽出来在当前 README 里 grep,**仍原样命中且邻近无撤回标记 = 未修**。
@@ -5912,7 +5912,7 @@ n=6 切分时置换零 **|r| p95 = 0.820** —— **`+0.815` 从未越过它自�
 
 ---
 
-## Entry 171, added by `E01·A27·R216` — 第四层:上一轮那次「按一个事实一个家去重」,删掉的是内容
+## Entry 171, added by `E01·A04·R004` — 第四层:上一轮那次「按一个事实一个家去重」,删掉的是内容
 
 `#170` 的 NEXT:三层已各有规则(守卫没调用 / 输出没人读 / 记了没人修),**第四层没查 —— 修得对不对。**
 `#170a` 把 R06 正文段的数字删掉只留指针,而没有任何检查能证明删掉的与表里留下的是同一批。
@@ -5952,7 +5952,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 172, added by `E01·A28·R217` — 那道闸会拦下 1/6 的 README 改动,而它拦下的第一个就是我自己造的
+## Entry 172, added by `E01·A04·R004` — 那道闸会拦下 1/6 的 README 改动,而它拦下的第一个就是我自己造的
 
 `#171` 的 NEXT:把四条规则接成单一入口 `tools/readme_gate.py`,**用 git 历史回测**,
 **拦截率 > 20% → 「改 README」一直缺一道闸,而不是偶尔出错。**
@@ -5993,7 +5993,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 173, added by `E01·A29·R218` — 限定语没有被剥离;流失的是数字,而一半的数从来就没有过限定语
+## Entry 173, added by `E01·A04·R004` — 限定语没有被剥离;流失的是数字,而一半的数从来就没有过限定语
 
 `#172` 的 NEXT,基于 §2 的 η 规则(*a number reported without the scope over which it holds*):
 **抽出被删除行里的限定语标记,数出「删掉了限定语而没有同时删掉它所限定的数」的提交。
@@ -6038,7 +6038,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 174, added by `E01·A30·R219` — 那 40 个裸数,三分之二在账本里已经有一个带限定语的家
+## Entry 174, added by `E01·A04·R004` — 那 40 个裸数,三分之二在账本里已经有一个带限定语的家
 
 `#173` 的 NEXT:对 `#173` 列出的 40 个裸数行逐行判,它的数在账本里有没有**带限定语的家**。
 **注册的 kill:① 搬运缺口 > 15 行 → 公开面缺的不是证据,只是搬运。**
@@ -6081,7 +6081,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 175, added by `E01·A30·R220` — 证据缺口是我窗口太窄造出来的:公开面上每一个裸数,账本里都已经有一个带限定语的家
+## Entry 175, added by `E01·A04·R004` — 证据缺口是我窗口太窄造出来的:公开面上每一个裸数,账本里都已经有一个带限定语的家
 
 `#174` 的 NEXT:把匹配窗口从**同一行**放宽到**同一条条目**,重跑分类。
 **注册的 kill:② 掉到 5 行以下 → "证据缺口"基本上是窗口造出来的,剩下的全部工作就是搬字。**
@@ -6130,7 +6130,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 176, added by `E01·A30·R221` — 那些"家"里有四分之一不是它自己的家;而差点让我信 80% 的,是第三次截断副本
+## Entry 176, added by `E01·A04·R004` — 那些"家"里有四分之一不是它自己的家;而差点让我信 80% 的,是第三次截断副本
 
 `#175` 的 NEXT:给清单加所指校验 —— 证据句**所在条目号** ∈ README 那一行**引用的条目号集合**。
 **注册的 kill:通过率 < 70% → 清单不能作为搬运依据,`#175b` 的 100% 要降级。**
@@ -6171,7 +6171,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 177, added by `E01·A31·R222` — 公开面上没有一个无法追溯的数字;而「17 行无出处」本身是记法造成的
+## Entry 177, added by `E01·A04·R004` — 公开面上没有一个无法追溯的数字;而「17 行无出处」本身是记法造成的
 
 `#176` 的 NEXT:把那 17 行逐条判三类。**注册的 kill:③（真的没有出处）不为空 →
 公开面上存在无法追溯到任何一轮的数字。**
@@ -6216,7 +6216,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 178, added by `E01·A32·R223` — 轮次的输出里有一批手写量值,界在 [28, 45],而它们不在任何复现检查的视野里
+## Entry 178, added by `E01·A04·R004` — 轮次的输出里有一批手写量值,界在 [28, 45],而它们不在任何复现检查的视野里
 
 `#177` 的 NEXT:扩展 `hardcoded_thresholds`,扫 f-string 里**直接内联的数字字面量**,
 对全部轮次跑一遍。**注册的 kill:> 20 处 → 输出里混着一批永远不会被复现检查发现的手写数。**
@@ -6256,7 +6256,7 @@ README;然后**用 git 历史回测**:对最近 20 个改动过 README 的提交
 
 ---
 
-## Entry 179, added by `E01·A33·R224` — 「偏爱冷门」不是一个不带立场的坐标:控制内容之后,它仍然预测羞耻
+## Entry 179, added by `E01·A05·R005` — 「偏爱冷门」不是一个不带立场的坐标:控制内容之后,它仍然预测羞耻
 
 **方向变更,先说这个。** `#167`–`#178` 连着十二轮都在查我自己的仪器。
 §0.2 说:**当最可引用的句子变成关于我的严谨、而不是关于对象时,报告就是关于我的。**
@@ -6311,7 +6311,7 @@ frontier §3 说:**N 轮连着确认同一个故事 = 盆地。** 两条都亮�
 
 ---
 
-## Entry 180, added by `E01·A33·R225` — 羞耻贴早来的那一半更紧;而这个结果落在我预注册的三个世界之外
+## Entry 180, added by `E01·A05·R005` — 羞耻贴早来的那一半更紧;而这个结果落在我预注册的三个世界之外
 
 `#179` 的 NEXT:用起始年龄把兴趣分早/晚两半,比 `r(早半, 羞耻)` 与 `r(晚半, 羞耻)`。
 **整轮完全在起始年龄那一侧内部做**,绕开了 `#159` 的零 item 重叠问题 ——
@@ -6357,7 +6357,7 @@ frontier §3 说:**N 轮连着确认同一个故事 = 盆地。** 两条都亮�
 
 ---
 
-## Entry 181, added by `E01·A33·R226` — 「早」是发育窗口还是序列位置:本设计分不开,而我的脚本差点替我判了
+## Entry 181, added by `E01·A05·R005` — 「早」是发育窗口还是序列位置:本设计分不开,而我的脚本差点替我判了
 
 `#180` 的 NEXT:把同一个配对差按**绝对年龄**重算,与**相对**劈分并排发表。
 **注册的 kill:绝对下消失而相对下还在 → 序列位置;反之 → 发育窗口;两者都在 → 分不开,明说。**
@@ -6401,7 +6401,7 @@ frontier §3 说:**N 轮连着确认同一个故事 = 盆地。** 两条都亮�
 
 ---
 
-## Entry 182, added by `E01·A33·R227` — 截距复现了 `#180` 的方向;而两个 9× 是同一个共线抑制的两面
+## Entry 182, added by `E01·A05·R005` — 截距复现了 `#180` 的方向;而两个 9× 是同一个共线抑制的两面
 
 `#181` 的 NEXT:换估计量 —— 人内回归 `稀有度 ~ 获得年龄`,用上全部 **10,567** 人
 (绝对劈分只有 1,089–3,854)。
@@ -6447,7 +6447,7 @@ frontier §3 说:**N 轮连着确认同一个故事 = 盆地。** 两条都亮�
 
 ---
 
-## Entry 183, added by `E01·A33·R228` — 年龄这个对手死了;而注册的 kill 写坏了,是设计时补的那一句救了它
+## Entry 183, added by `E01·A05·R005` — 年龄这个对手死了;而注册的 kill 写坏了,是设计时补的那一句救了它
 
 `#182` 的 NEXT:把**当前年龄**加进控制并按年龄段分层重跑 raw 截距—羞耻。
 
@@ -6493,7 +6493,7 @@ frontier §3 说:**N 轮连着确认同一个故事 = 盆地。** 两条都亮�
 
 ---
 
-## Entry 184, added by `E01·A33·R229` — ⚠ 降级 `#180`/`#182`/`#183`:截距↔羞耻没越过全族阈值,而一个非性的一般特质与它一样大
+## Entry 184, added by `E01·A05·R005` — ⚠ 降级 `#180`/`#182`/`#183`:截距↔羞耻没越过全族阈值,而一个非性的一般特质与它一样大
 
 `#183` 的 NEXT:找 2–3 个**非性的负性自我评价**题跑同一条管道。
 **这个检验做不了** —— 本 release 的 −3..+3 Likert 只有 20 道,逐条读过,
@@ -6541,7 +6541,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 185, added by `E01·A33·R230` — 没有广义因子可归咎:kill 的前提为假,而 S↔羞耻 保留 100%
+## Entry 185, added by `E01·A05·R005` — 没有广义因子可归咎:kill 的前提为假,而 S↔羞耻 保留 100%
 
 `#184` 的 NEXT:对 S 面板里越阈值的 10 道题做主成分,判 **控制 PC1 后 S↔羞耻 还剩多少**。
 **注册的 kill:掉到 2× 以下 → `#179` 的措辞要从「羞耻」改成那个因子。**
@@ -6584,7 +6584,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 186, added by `E01·A34·R231` — `#179` 的 +0.116 是一个下界;而单题信度在本 release 上不可估
+## Entry 186, added by `E01·A05·R005` — `#179` 的 +0.116 是一个下界;而单题信度在本 release 上不可估
 
 `#185` 的 NEXT:羞耻是**一道题**不是一个量表,它的信度从未被估计过。
 
@@ -6625,7 +6625,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 187, added by `E01·A35·R232` — ⚠ `#165` 的内容残差从 UNVERIFIED 降为 NULL:它对一个外部结局毫无预测
+## Entry 187, added by `E01·A05·R005` — ⚠ `#165` 的内容残差从 UNVERIFIED 降为 NULL:它对一个外部结局毫无预测
 
 `#186` 的 NEXT:`#165` 留下「去掉位置之后内容侧还剩不剩东西」= **+0.187,1.6× → UNVERIFIED**,
 而 `#165` 自己写着"本设计答不了"。**`#179`–`#186` 造出了当时没有的工具:一个与块零 item 重叠的
@@ -6666,7 +6666,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 188, added by `E01·A35·R233` — ⚠ 收窄 `#187`:内容残差不是噪声,它只是不预测羞耻 —— 它预测媒介与性别身份
+## Entry 188, added by `E01·A05·R005` — ⚠ 收窄 `#187`:内容残差不是噪声,它只是不预测羞耻 —— 它预测媒介与性别身份
 
 `#187` 的 NEXT:那 10 道越阈值的题逐个跑三项分解。
 **注册的 kill:若存在任何一道被内容残差(控制 S 后)以 >2× 预测 →
@@ -6714,7 +6714,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 189, added by `E01·A36·R234` — 那个 −0.41 的「结局层耦合」是我自己用残差化造出来的,而四道闸全绿
+## Entry 189, added by `E01·A05·R005` — 那个 −0.41 的「结局层耦合」是我自己用残差化造出来的,而四道闸全绿
 
 `#188` 的 NEXT:两个维度在人层正交是**构造**的,没检验的是**两条外部相关向量是否也独立**。
 判据:`a_j = r(S, y_j)`、`b_j = r(Cres, y_j)`,跨 20 道结局算 `corr(a, b)`。
@@ -6764,7 +6764,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 190, added by `E01·A36·R235` — `#188` 的六道全部 GENUINE:内容侧确实预测媒介与性别身份,不是代数
+## Entry 190, added by `E01·A05·R005` — `#188` 的六道全部 GENUINE:内容侧确实预测媒介与性别身份,不是代数
 
 `#189` 的 NEXT:`#188` 的 6/20 全部是 `b_j = r(Cres,·)`,而 `#189b` 证明 `b_j` 会被
 `−ρ_CS·a_j` 项推动。**判据换成未残差化的 `c_j = r(C,·)`。**
@@ -6815,7 +6815,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 191, added by `E01·A37·R236` — 内容维度不是性别的影子;而正对照第一次读到的是"符号翻转",不是"塌掉"
+## Entry 191, added by `E01·A05·R005` — 内容维度不是性别的影子;而正对照第一次读到的是"符号翻转",不是"塌掉"
 
 `#190` 的 NEXT:把 `biomale` 从**每一个块层内容分**里回归掉(`#164` 同款),重跑那六道。
 **注册的 kill:`animated`/`written` 掉到全族阈值以下 → 内容维度很大程度上就是性别。**
@@ -6864,7 +6864,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 192, added by `E01·A37·R237` — 同一把尺下内容侧确实更受性别影响;而 `#188` 的分工图有一部分是控制勾选数造的
+## Entry 192, added by `E01·A05·R005` — 同一把尺下内容侧确实更受性别影响;而 `#188` 的分工图有一部分是控制勾选数造的
 
 `#191c` 的 NEXT:用**同一个条件集**把两侧各跑一次。本轮两侧都用「**只去性别 + 边际评估**」——
 条件集与残差化一致(`#191a` 的教训直接落地)。
@@ -6907,7 +6907,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 193, added by `E01·A38·R238` — 勾选数预测 18/20 道结局,而羞耻是它最弱的一格
+## Entry 193, added by `E01·A05·R005` — 勾选数预测 18/20 道结局,而羞耻是它最弱的一格
 
 `#192` 的 NEXT:把勾选数 K 当**主变量**跑 20 道面板。
 **注册的 kill:K 自己越全族阈值且达到 S 的一半以上 → 「位置↔羞耻」要重新分解。**
@@ -6951,7 +6951,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 194, added by `E01·A38·R239` — ⚠ 收回 `#193c` 的「作答风格因子」:那是一个我没检验过的测量断言,而检验它的筛子被自己的正对照否掉了
+## Entry 194, added by `E01·A05·R005` — ⚠ 收回 `#193c` 的「作答风格因子」:那是一个我没检验过的测量断言,而检验它的筛子被自己的正对照否掉了
 
 `#193` 的 NEXT:`#193c` 把勾选数称作「近乎普适的**作答风格**因子」——
 **那是关于测量的断言,而我没检验过它。** `#184` 已证 20 道**没有反向计分题**,
@@ -6996,7 +6996,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 195, added by `E01·A39·R240` — 画像尺没校准,两个对照都失败;而这已是构念问题连续第二轮 UNVERIFIED —— 换方向
+## Entry 195, added by `E01·A05·R005` — 画像尺没校准,两个对照都失败;而这已是构念问题连续第二轮 UNVERIFIED —— 换方向
 
 `#194` 的 NEXT:`allrollidentity` 与羞耻共不共享法则网络画像。
 **注册的 kill:画像相关 > 0.60 → `#179` 的构念名要重估。**
@@ -7041,7 +7041,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 196, added by `E01·A40·R241` — 没有单个类别扛得动 Δ 的一半;而三次种植失败各自是一条结构事实
+## Entry 196, added by `E01·A05·R005` — 没有单个类别扛得动 Δ 的一半;而三次种植失败各自是一条结构事实
 
 **换方向**(`#195c`)。回到 `#128` 的 Δ = `mean_i rho_i` = **−0.0328** ——
 最中心、机制至今开放、**且完全不依赖 Likert 结局**的一条。
@@ -7088,7 +7088,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 197, added by `E01·A40·R242` — 那个问题不是一个问题;而守卫的名单是手写的,漏了 189 个
+## Entry 197, added by `E01·A05·R005` — 那个问题不是一个问题;而守卫的名单是手写的,漏了 189 个
 
 `#196` 的 NEXT:把 31 个类别的 `|ΔΔ|` 对 **n** 与 **稀有度**同时回归,看哪个解释得多。
 
@@ -7136,7 +7136,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 198, added by `E01·A41·R243` — Δ 不是「每个人都有的一点点」:人层展布是均值的 5.4 倍,约 43% 的人方向相反
+## Entry 198, added by `E01·A05·R005` — Δ 不是「每个人都有的一点点」:人层展布是均值的 5.4 倍,约 43% 的人方向相反
 
 `#197` 的 NEXT:`#128` 的 Δ 是一个**人层平均**,而**从没人看过 `rho_i` 的分布**。
 参照是**置换零**(题内跨人置换,保留缺失模式与每题值分布)—— 它带着**完全相同的人内噪声**,
@@ -7182,7 +7182,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 199, added by `E01·A42·R244` — 「何时」的人际差异不是「什么」的影子:它自己越阈值 7/20,是第三个人层维度
+## Entry 199, added by `E01·A05·R005` — 「何时」的人际差异不是「什么」的影子:它自己越阈值 7/20,是第三个人层维度
 
 `#198` 的 NEXT:把 `rho_i` 当主变量跑 20 道 Likert 面板,并报它与 S 的相关。
 **注册的 kill:越阈值题数 == 0 → SHADOW;> 0 → THIRD。**
@@ -7231,7 +7231,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 200, added by `E01·A43·R245` — 三方汇合点是 `animated`,不是我预期的那道题
+## Entry 200, added by `E01·A05·R005` — 三方汇合点是 `animated`,不是我预期的那道题
 
 `#199` 的 NEXT:把「性成熟未成年」当结局,同时放入 S · Cres · rho_i,报三个偏相关与总 R²;
 并与羞耻、`animated` 做对照分解。**注册的 kill:三个里 ≥2 个掉到 2× 以下 → RELAY。**
@@ -7276,7 +7276,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 201, added by `E01·A43·R246` — ⚠ 撤回「媒介偏好」这个名字:`animated` 与 `written` 相关 +0.25,不是二选一
+## Entry 201, added by `E01·A05·R005` — ⚠ 撤回「媒介偏好」这个名字:`animated` 与 `written` 相关 +0.25,不是二选一
 
 `#200` 的 NEXT:`#188` 起**六轮**把 `animated`/`written` 读成「媒介偏好」(画的 vs 写的),
 **而从没量过它们是不是一条轴的两端**。`#237` 已给过警号:去性别后 `animated` 保留 80%、
@@ -7322,7 +7322,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 202, added by `E01·A44·R247` — 不是「表征 vs 实况」的轴;而这一轮的价值在于上一轮没有把名字说出口
+## Entry 202, added by `E01·A05·R005` — 不是「表征 vs 实况」的轴;而这一轮的价值在于上一轮没有把名字说出口
 
 `#201` 的 NEXT:那个东西**可以被检验而不需要发明名字** ——
 内容维度对 `animated`/`written` 的预测,与它对「具体他人影像」类结局的预测,方向相反吗?
@@ -7366,7 +7366,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 203, added by `E01·A44·R248` — 去看了物体本身:高端是动物 · 体液 · 所有权 · 宗教形象,低端是标准器具与常规场景
+## Entry 203, added by `E01·A05·R005` — 去看了物体本身:高端是动物 · 体液 · 所有权 · 宗教形象,低端是标准器具与常规场景
 
 `#202` 的 NEXT:名字撑不住可能因为我一直在**结局侧**找它 —— 六道结局是它的**影子**。
 **这一轮不做统计,只做展示**(door ①)。
@@ -7413,7 +7413,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 204, added by `E01·A44·R249` — 那张载荷表高度可复现(|r| = 0.97 vs 零 0.42);而这一轮替代了注册的 NEXT
+## Entry 204, added by `E01·A05·R005` — 那张载荷表高度可复现(|r| = 0.97 vs 零 0.42);而这一轮替代了注册的 NEXT
 
 **`#204a` ⚠ 先说替代。** `#203c` 注册的 NEXT 要求一个**干净上下文的独立编码者**
 (我已看过载荷,自己写的编码会顺着它走 —— `#194c` 的形状)。
@@ -7453,7 +7453,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 205, added by `E01·A45·R250` — 它确实是一个维度:432 对块里 99.1% 同号 —— 而这一条本该在 `#188` 就做
+## Entry 205, added by `E01·A05·R005` — 它确实是一个维度:432 对块里 99.1% 同号 —— 而这一条本该在 `#188` 就做
 
 `#204` 的 NEXT:`Cres` 一直是 32 个块 PC 分数的**和**,而"和"只有在它们彼此相关时才是一个维度。
 **注册的 kill:真实平均 |r| 不明显高于零 → 不是一个维度,`#188` 起所有"内容侧"结论都要重新表述。**
@@ -7498,7 +7498,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 206, added by `E01·A46·R251` — 三个维度都够得着情色题之外;而整张表最大的一格是 `rho_i × age = +0.156`
+## Entry 206, added by `E01·A05·R005` — 三个维度都够得着情色题之外;而整张表最大的一格是 `rho_i × age = +0.156`
 
 `#205` 的 NEXT:那个无名维度能不能预测**它自己之外**的行为?
 11 个**非 Likert、非情色**字段(人口学 · 大五 · 无力感 · 管教史 · 关系风格 · 自评吸引力 ·
@@ -7539,7 +7539,7 @@ S↔羞耻 = **+0.1155**,全族阈值 **0.0393**,越过它 **6.3× 自身噪声,
 
 ---
 
-## Entry 207, added by `E01·A47·R252` — 第三个维度不是年龄:控制后越阈值 7 → 6
+## Entry 207, added by `E01·A05·R005` — 第三个维度不是年龄:控制后越阈值 7 → 6
 
 `#206b` 的债:`rho_i × age = +0.1563` 是整张非情色面板最大的一格,
 而 `#199` 的整条面板从没控过年龄。
@@ -7587,7 +7587,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 208, added by `E01·A48·R253` — 发育 vs 回忆窗口:本设计答不了,而它差点打出一个 DEVELOPMENT
+## Entry 208, added by `E01·A05·R005` — 发育 vs 回忆窗口:本设计答不了,而它差点打出一个 DEVELOPMENT
 
 `#207` 的 NEXT:把 `rho_i` 拆成人内早/晚两半的斜率,判 age 与哪一半绑得更紧。
 **注册:晚半明显更强 → DEVELOPMENT;两半不可分辨 → RECALL,`#207c` 降级。**
@@ -7635,7 +7635,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 209, added by `E01·A48·R254` — 那个"年龄漂移"整个是截断;而 `#207c` 在去掉截断后反号
+## Entry 209, added by `E01·A05·R005` — 那个"年龄漂移"整个是截断;而 `#207c` 在去掉截断后反号
 
 `#208` 的 NEXT:不劈半的问法 —— 每个类别的平均起始年龄随受访者年龄怎么漂,
 判漂移量是否与稀有度相关。单位是类别 × 年龄段(30 × 5)。
@@ -7684,7 +7684,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 210, added by `E01·A48·R255` — ⚠ 撤回 `#206b`/`#207c`:「年纪越大,自己罕见的兴趣来得越晚」是截断假象
+## Entry 210, added by `E01·A05·R005` — ⚠ 撤回 `#206b`/`#207c`:「年纪越大,自己罕见的兴趣来得越晚」是截断假象
 
 `#209c` 欠的债:重实现的反例只能证伪"这个现象",**不能证伪"那个数"**。
 本轮载入 `R173` 的 `betas`/`demean_conv`(与 `#207` **同一条管道**),
@@ -7733,7 +7733,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 211, added by `E01·A49·R256` — ⚠ `#128` 的 Δ 只由 14 岁之后的起始年龄扛着:三个受限档全部不可分辨
+## Entry 211, added by `E01·A05·R005` — ⚠ `#128` 的 Δ 只由 14 岁之后的起始年龄扛着:三个受限档全部不可分辨
 
 `#210` 的 NEXT:截断机制对整条起始年龄线都成立,而 `#128` 的 Δ 也是在**全部**起始年龄上算的。
 用 `R173` **自己的管道**,只改 `V -> where(V ≤ cap)`,cap ∈ {14,16,18,∞}。
@@ -7786,7 +7786,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 212, added by `E01·A49·R257` — 分开了:是发育窗口,不是截断假象 —— 这件事发生在十四岁之后
+## Entry 212, added by `E01·A05·R005` — 分开了:是发育窗口,不是截断假象 —— 这件事发生在十四岁之后
 
 `#211d` 的 NEXT:两种读法可以被分开 —— **人内劈分不需要跨人比较,所以不受截断影响。**
 `#208b`③ 的教训烤进前提:**两半的信度必须都 ≥ 下限**,不能只要求"可比"。
@@ -7833,7 +7833,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 213, added by `E01·A49·R258` — 没有十四岁这个门槛:曲线是单调的,「越晚的那一段越强」
+## Entry 213, added by `E01·A05·R005` — 没有十四岁这个门槛:曲线是单调的,「越晚的那一段越强」
 
 `#212` 的 NEXT:**14 是我从截断需要里挑的刻度**,不是数据给的。把切点在 10–20 岁上扫一遍。
 **注册的 kill:曲线平滑单调无拐点 → 措辞要从「十四岁之后才有」改成「越晚的那部分越强」。**
@@ -7871,7 +7871,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 214, added by `E01·A49·R259` — 陡峭部分站得住:c=18 的区间够不着 c=16,净值仍是 2.7 倍
+## Entry 214, added by `E01·A05·R005` — 陡峭部分站得住:c=18 的区间够不着 c=16,净值仍是 2.7 倍
 
 `#213` 的 NEXT:对 5 个真实切点各做**人层 bootstrap 的曲线**,报**曲线族**;
 **注册的 kill:`c=18` 的重抽区间覆盖 `c=16` 的点值 → 陡峭部分不可分辨,措辞要再退一步。**
@@ -7916,7 +7916,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 215, added by `E01·A50·R260` — 晚来的那一半不是几个类别扛起来的;而我的负对照动不了那个统计量
+## Entry 215, added by `E01·A05·R005` — 晚来的那一半不是几个类别扛起来的;而我的负对照动不了那个统计量
 
 `#214` 的 NEXT:`c=18` 半只有 1,944 人参与,若他们贡献的条目集中在少数几个类别上,
 那么 `−0.224` 描述的是**那几个类别**,不是"晚来的东西"。
@@ -7957,7 +7957,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 216, added by `E01·A50·R261` — 条目数不是解释;而两条置换零符号相反,因为它们问的是两个问题
+## Entry 216, added by `E01·A05·R005` — 条目数不是解释;而两条置换零符号相反,因为它们问的是两个问题
 
 `#215` 的 NEXT:Δ 是人内相关,条目越少 |rho| 期望绝对值越大 —— 陡峭部分会不会只是"晚半条目少"?
 
@@ -8004,7 +8004,7 @@ n 小则 |r| 的抽样噪声大,固定阈值会被更多地越过。**
 
 ---
 
-## Entry 217, added by `E01·A51·R262` — 主 Δ 上两种零一致;`#216c` 的分歧是局部的
+## Entry 217, added by `E01·A05·R005` — 主 Δ 上两种零一致;`#216c` 的分歧是局部的
 
 `#216` 的 NEXT:扫全项目的零方案,并对 `#128` 的主 Δ **同时报两种零下的净值**。
 **注册的 kill:两种零的净值差 > 2× 自身展布 → 账本里所有"净 Δ"都必须补上零的种类。**
@@ -8051,7 +8051,7 @@ curveball 34 · 人内打乱 17 · 题内跨人 9 · 跨人打乱结局 8 · 标
 
 ---
 
-## Entry 218, added by `E01·A51·R263` — ⚠ 晚半有多强没有唯一的数;而在项目最常用的那个零下,负对照直接失败
+## Entry 218, added by `E01·A05·R005` — ⚠ 晚半有多强没有唯一的数;而在项目最常用的那个零下,负对照直接失败
 
 `#217` 的 NEXT:在 `>18` 半上用**三种零**跑同一个 Δ,包括本项目用得最多的 **curveball 固定边际**(34 轮)。
 **注册的 kill:三个净值极差 > 2× Δ 自身展布 → 只能报区间,`#214`/`#216` 的措辞都要改。**
@@ -8094,7 +8094,7 @@ curveball 34 · 人内打乱 17 · 题内跨人 9 · 跨人打乱结局 8 · 标
 
 ---
 
-## Entry 219, added by `E01·A51·R264` — 固定边际的零吃掉主 Δ 的 75%;⚠ 而我在 `#218` 里把这个零叫错了
+## Entry 219, added by `E01·A05·R005` — 固定边际的零吃掉主 Δ 的 75%;⚠ 而我在 `#218` 里把这个零叫错了
 
 `#218` 的 NEXT:那个最严的零在**主 Δ** 上吃掉多少。
 
@@ -8144,7 +8144,7 @@ curveball 34 · 人内打乱 17 · 题内跨人 9 · 跨人打乱结局 8 · 标
 
 ---
 
-## Entry 220, added by `E01·A52·R265` — 那个"恰好只毁配对"的零造不出来:它在结构上不可能有正对照
+## Entry 220, added by `E01·A05·R005` — 那个"恰好只毁配对"的零造不出来:它在结构上不可能有正对照
 
 `#219` 的 NEXT:造一个 **人内多重集固定 + 题内边际固定** 的重排,
 **注册的判定:净值接近 A/B → `#219b` 的 75% 全来自"换掉了自变量";接近 C → `#128` 要重估。**
@@ -8190,7 +8190,7 @@ curveball 34 · 人内打乱 17 · 题内跨人 9 · 跨人打乱结局 8 · 标
 
 ---
 
-## Entry 221, added by `E01·A53·R266` — Δ 不是残差里的次要方向:稀有度拿到最佳轴超额解释力的 40%
+## Entry 221, added by `E01·A05·R005` — Δ 不是残差里的次要方向:稀有度拿到最佳轴超额解释力的 40%
 
 `#220` 的 NEXT:Δ 是两侧去均值之后的量 —— **它到底还剩下什么不是边际,有多大。**
 **注册的 kill:Δ 方向占比 < 最佳秩一的 1/5 → 它是残差里一个次要方向,必须写进每一次陈述。**
@@ -8232,7 +8232,7 @@ curveball 34 · 人内打乱 17 · 题内跨人 9 · 跨人打乱结局 8 · 标
 
 ---
 
-## Entry 222, added by `E01·A53·R267` — 第二个题目维度:UNVERIFIED;而正对照失败是因为我注册了一个不可能达到的阈值
+## Entry 222, added by `E01·A05·R005` — 第二个题目维度:UNVERIFIED;而正对照失败是因为我注册了一个不可能达到的阈值
 
 `#221` 的 NEXT:最佳秩一方向六成不是稀有度 —— **那个残差方向在两半人上复不复现。**
 **注册的 kill:复现 → 起始年龄矩阵里存在第二个稳定的题目维度。**
@@ -8276,7 +8276,7 @@ curveball 34 · 人内打乱 17 · 题内跨人 9 · 跨人打乱结局 8 · 标
 
 ---
 
-## Entry 223, added by `E01·A54·R268` — `u_i` 不是第二个人层维度,是同一个的更好测量 —— 而本项目一直用的是那个更差的
+## Entry 223, added by `E01·A06·R006` — `u_i` 不是第二个人层维度,是同一个的更好测量 —— 而本项目一直用的是那个更差的
 
 `#222` 的 NEXT:ALS 同时给出每个人的载荷 `u_i`,而它**从没被拿去对过任何外部变量**。
 **注册的 kill:`u_i` 与 `rho_i` 越阈值的题交集 ≤2 → 两个人层维度。**
@@ -8320,7 +8320,7 @@ curveball 34 · 人内打乱 17 · 题内跨人 9 · 跨人打乱结局 8 · 标
 
 ---
 
-## Entry 224, added by `E01·A54·R269` — `#210` 的撤回被复现;但它的「反号」措辞是仪器特有的,应改成「塌到零」
+## Entry 224, added by `E01·A06·R006` — `#210` 的撤回被复现;但它的「反号」措辞是仪器特有的,应改成「塌到零」
 
 `#223` 的 NEXT:`#210` 是**用 `rho_i`** 判定「年龄关系是截断假象」的,而 `u_i` 在同一关系上大 18%。
 **注册的 kill:受限臂在 `u_i` 上不再反号 → 重开 `#210`。**
@@ -8366,7 +8366,7 @@ ALS 要从数据里估 31 个权重,样本一小它先垮。
 
 ---
 
-## Entry 225, added by `E01·A54·R270` — 优势对"人少"稳健;而 `#224c` 我把"更准"读成了"更钝"
+## Entry 225, added by `E01·A06·R006` — 优势对"人少"稳健;而 `#224c` 我把"更准"读成了"更钝"
 
 `#224` 的 NEXT:`u_i` 的优势是不是只存在于大样本。
 **注册的 kill:半样本上优势消失(≤1)→ `#223b`「一直在用更钝的刀」要收窄。**
@@ -8413,7 +8413,7 @@ B 的位置是一个不回流的坐标)。
 若三层相同,C 在这份数据上没有支持,而 `#179` 杀掉 B 之后剩下的就只有 A。**
 
 
-## Entry 226 · `E01·A55·R271` — C 的第一个正面检验,和它撞上的那把没装对的尺子
+## Entry 226 · `E01·A06·R006` — C 的第一个正面检验,和它撞上的那把没装对的尺子
 
 **`#226a` 换方向后的第一轮:C 的正面预测在这份数据上没跑出来,`UNVERIFIED`。**
 按 `S` 分三层各算内容分半信度,净信度 **低 0.0452 · 中 0.1470 · 高 0.0382**(匹配后),
@@ -8456,7 +8456,7 @@ B 的位置是一个不回流的坐标)。
 **只有尺子装对了,C 的那个交互才值得再问一次。**
 
 
-## Entry 227 · `E01·A56·R272` — 尺子装对之后:第三个维度的正名是 breadth,而 `#189` 的三个方向活着
+## Entry 227 · `E01·A06·R006` — 尺子装对之后:第三个维度的正名是 breadth,而 `#189` 的三个方向活着
 
 **`#227a` 对齐翻了 32 个块里的 15 个 —— 缺陷是真的,不是洁癖。**
 共识法**留一**对齐(⚠ 留一是必须的:共识分若含块 i 自己,块 i 与它必然正相关,
@@ -8508,7 +8508,7 @@ B 的位置是一个不回流的坐标)。
 若载荷谱有结构且跨人分半复现 -> 真的更宽,它是一个真的人格维度,只是名字一直是错的。**
 正对照:种入一个只在一半块上更宽的人,载荷谱必须把那一半认出来。
 
-## Entry 228 · `E01·A57·R273` — 「对什么都说是」的人,其实不是对什么都说是
+## Entry 228 · `E01·A06·R007` — 「对什么都说是」的人,其实不是对什么都说是
 
 **`#228a` ★ breadth 有可靠的领域结构 —— 它不只是一个单一的全局回答风格。**
 把每个块**内部的选项**劈成两半(对同一个人×块格子的两次独立测量,块层属性对两半相同、
@@ -8568,7 +8568,7 @@ B 的位置是一个不回流的坐标)。
 而且它会是这份数据里第一个能被命名的人格结构。**
 ⚠ 正对照按 `#228d`:种入强度必须**扫描**,且增量对着**实测基线**定价,不是对着零。
 
-## Entry 229 · `E01·A57·R274` — 宽度有形状,而它的第一个名字是「体液」
+## Entry 229 · `E01·A06·R008` — 宽度有形状,而它的第一个名字是「体液」
 
 **`#229a` ★ 宽度剖面是多维的 —— 不是一个幅度,是一个有形状的东西。**
 跨人半样本的**子空间复现**(1.0 = 完全复现;偶然 = k/32):
@@ -8626,7 +8626,7 @@ k=1 **0.8414 ± 0.0852** · k=2 **0.8805 ± 0.0132** · k=3 **0.8554 ± 0.0220**
 **不是**与零比(`#229c` 的教训:先问这个零应该是零吗 —— 这里不应该)。
 ⚠ 正对照强度必须扫描,增量对着实测基线定价(`#228d`)。
 
-## Entry 230 · `E01·A57·R275` — 通向羞耻的路不止一条,而新的那条略强一点
+## Entry 230 · `E01·A06·R006` — 通向羞耻的路不止一条,而新的那条略强一点
 
 **`#230a` ★ 三个宽度类型预测的是不同的东西 —— 全门通过。**
 三个成分的人层得分分半信度 **+0.6429 / +0.5778 / +0.5631**
@@ -8677,7 +8677,7 @@ k=1 **0.8414 ± 0.0852** · k=2 **0.8805 ± 0.0132** · k=3 **0.8554 ± 0.0220**
 残差已把全局宽度扣掉),所以这里用 `negative_control`,零的方案 = **块层置换载荷**。
 ⚠ 正对照:构造一个已知按边际排序的假载荷向量,同一条管道必须测出来。
 
-## Entry 231 · `E01·A58·R276` — 在人人都去的地方敞开的人,羞耻更少
+## Entry 231 · `E01·A06·R006` — 在人人都去的地方敞开的人,羞耻更少
 
 **`#231a` ★★ 两半的符号是相反的 —— 名字挣到了,而且比我原来的读法更强。**
 把 32 个块按**自身平均勾选率**(一个与 c3 构造无关的外部量)切成两半:
@@ -8742,7 +8742,7 @@ c3 的载荷我在 `R274` 已经打印过高低端,所以
 ⚠ 并在同一轮内做一个共同因子的检验:取两者的第一主成分,看它能吸收多少各自对羞耻的效应;
 **若残差效应都塌到展布以内 -> 一个机制;若至少一个残差效应存活 -> 两个机制。**
 
-## Entry 232 · `E01·A59·R277` — 两条完全不同的路,通向同一种感觉
+## Entry 232 · `E01·A06·R008` — 两条完全不同的路,通向同一种感觉
 
 **`#232a` ★ 罕见的两个层次不是同一件事的两次读数 —— 剖面低于上限 170 个展布。**
 `S`(块内位置,信度 **+0.7282**)与 `D`(跨块对比 = 越轨半 − 普通半,信度 **+0.6785**),
@@ -8794,7 +8794,7 @@ D 残差 **−0.0333 ± 0.0236**)。**它们正好是 ±同一个数,这就是�
 ⚠ 正对照:对一个**故意做成不稳**的分数(信度极低),守卫必须报出宽区间;
 对一个**极强**的分数,区间必须窄。两端都要过。
 
-## Entry 233 · `E01·A60·R278` — 一个计数的宽度,不来自分数有多强
+## Entry 233 · `E01·A06·R009` — 一个计数的宽度,不来自分数有多强
 
 **类型:CLOSURE**(`§0` 三类动作,如实标注)。它不分开任何世界;它保护的是一个横跨多轮的**写法**。
 
@@ -8850,7 +8850,7 @@ D 残差 **−0.0333 ± 0.0236**)。**它们正好是 ±同一个数,这就是�
 **若剖面复现随羞耻单调上升 -> C 得到第一个正面证据;若三层相同 -> C 在这份数据上没有支持,
 而 `#179`+`#231` 之后剩下的就是 A 与一个 A/B/C 都没预料到的第四件事。**
 
-## Entry 234 · `E01·A61·R279` — 羞耻改变一个人怎么看自己的欲望,但没有改变它的形状
+## Entry 234 · `E01·A06·R008` — 羞耻改变一个人怎么看自己的欲望,但没有改变它的形状
 
 **`#234a` ★ C 的正面检验第二次:一个有功效的零。**
 按羞耻分三层(⚠ 换因变量有理由:`#232b` 之后羞耻是两条罕见路径**唯一同向的共同落点**),
@@ -8915,7 +8915,7 @@ D 残差 **−0.0333 ± 0.0236**)。**它们正好是 ±同一个数,这就是�
 若明显不同 -> 形状本身在变,而那是这个项目第一次看见一个人的欲望结构在时间里移动。**
 ⚠ 计数一律按 `#233` 读作区间;正对照强度必须扫描并对着实测基线定价(`#228d`)。
 
-## Entry 235 · `E01·A62·R280` — 感觉是稳的,地图是随题目走的
+## Entry 235 · `E01·A06·R006` — 感觉是稳的,地图是随题目走的
 
 **`#235a` ⚠ 注册的 kill 没过,而它没过的正是最该问的那一条:分数不转移。**
 `corr(D_块, D_起始) = **+0.1336**`(n = 4,698),衰减上限 `sqrt(0.8463 × 0.3513) = 0.5452`
@@ -8968,7 +8968,7 @@ D 残差 **−0.0333 ± 0.0236**)。**它们正好是 ±同一个数,这就是�
 若最小可见复现高于块仪器上实测的 0.43,则这个设计**结构上无法**回答,如实登记为
 `P14` 的「本站点结构上做不到」,而不是报一个零。
 
-## Entry 236 · `E01·A62·R281` — 一个人真正独特的地方,从第二维才开始
+## Entry 236 · `E01·A06·R006` — 一个人真正独特的地方,从第二维才开始
 
 **`#236a` ★ 「宽度有形状、至少两维」跨仪器成立。**
 在与块**完全不相交**的起始仪器(31 个类别)上,劈**人**判类别×类别残差相关矩阵的子空间复现:
@@ -9023,7 +9023,7 @@ D 残差 **−0.0333 ± 0.0236**)。**它们正好是 ±同一个数,这就是�
 而不只是又一个对照。
 ⚠ 正对照的正对照:λ=1 必须精确落在置换零上(逐位),λ=0 必须精确复现基线 —— 两端都断言。
 
-## Entry 237 · `E01·A63·R282` — 一个贴着天花板的统计量,和一个线性响应的统计量,数值上不可比
+## Entry 237 · `E01·A06·R006` — 一个贴着天花板的统计量,和一个线性响应的统计量,数值上不可比
 
 **`#237a` ★ 减法式正对照建成,两端都断言,两端都对上。**
 随机把 λ 比例的人替换成置换噪声,扫 λ:
@@ -9081,7 +9081,7 @@ D 残差 **−0.0333 ± 0.0236**)。**它们正好是 ±同一个数,这就是�
 **若只有晚半预测羞耻 -> 羞耻贴的是「后来走进去的地方」,那是一个发展性事实;
 若两半相当 -> 羞耻贴的是当下的地图,与何时获得无关。**
 
-## Entry 238 · `E01·A64·R283` — 羞耻贴的不是你后来走进去的地方,是你最早就想要的东西有多冷门
+## Entry 238 · `E01·A06·R006` — 羞耻贴的不是你后来走进去的地方,是你最早就想要的东西有多冷门
 
 **`#238a` ★ 两个注册的世界都不对,而第三个结果是可分辨的:早半更强。**
 起始仪器带着块仪器**没有的东西:时间**。每人按**自己的**起始年龄中位数把类别劈成早/晚两半,
@@ -9134,7 +9134,7 @@ kill 因此 FAIL,但那不是"没测出来" —— 是**我的世界清单不完
 ⚠ 正对照:构造一个**已知由评分驱动**的假早/晚划分,残差化必须把它杀掉;
 构造一个**与评分无关**的划分,残差化必须不动它。两端都要过(`#276` 同款两端设计)。
 
-## Entry 239 · `E01·A64·R284` — 一个改变了样本的控制,改变的是估计目标本身
+## Entry 239 · `E01·A06·R006` — 一个改变了样本的控制,改变的是估计目标本身
 
 **`#239a` ★★ 差点做出的一次假撤回,被一句"在同一批人上再比一次"拦下。**
 把起始年龄对**这个人自己对该类别的评分**残差化(`#173` 同款),重劈早/晚、重跑 `#238a`:
@@ -9186,7 +9186,7 @@ kill 因此 FAIL,但那不是"没测出来" —— 是**我的世界清单不完
 ⚠ 并回头扫一遍:本项目此前哪些「控制之后塌掉了」的结论是在**换了样本**的情况下得出的 ——
 `#206b`/`#207c`(年龄关系是审查假象)首当其冲,因为审查控制**天然改变纳入**。
 
-## Entry 240 · `E01·A65·R285` — 一条撤回和一条声明一样需要证据,而它更少被要求出示
+## Entry 240 · `E01·A06·R009` — 一条撤回和一条声明一样需要证据,而它更少被要求出示
 
 **`#240a` ★ 回溯重审 `#210`:它站得住,而且第一次有了分解。**
 `#210` 用 `V → where(V ≤ 14)` 撤回 `#206b`/`#207c`,控制把样本从 9,944 掉到 2,806。
@@ -9233,7 +9233,7 @@ A−C = +0.0702 = 样本选择造成的 31%。**
 `#276`(块按勾选率切两半,不改纳入)必须**不被**扫出来。两端都要过。
 ⚠ 计数按 `#233` 读作区间;若扫出的候选超过 5 条,先按「结论有多 load-bearing」排序,不要一次全重算。
 
-## Entry 241 · `E01·A65·R286` — 我写的第一版扫描,给出的正是我最想听的那个答案
+## Entry 241 · `E01·A06·R006` — 我写的第一版扫描,给出的正是我最想听的那个答案
 
 **类型:CLOSURE**(如实标注)。产物是一张待办表 + 一格补算,不是一个新发现。
 
@@ -9282,7 +9282,7 @@ A−C = +0.0702 = 样本选择造成的 31%。**
 ⚠ 若六条全部清完都站得住,那本身是一个值得写下的结果:
 **这一族的风险是真的,而这个项目此前的克制(如 `#210c`)已经挡住了大部分。**
 
-## Entry 242 · `E01·A65·R287` — `#211` 站得住,而样本变化是朝反方向推的
+## Entry 242 · `E01·A06·R009` — `#211` 站得住,而样本变化是朝反方向推的
 
 **类型:CLOSURE**。`#241b` 待办表第一条清掉。
 
@@ -9328,7 +9328,7 @@ A−C = +0.0702 = 样本选择造成的 31%。**
 ⚠ 正对照两端:① 直接按「早期类别数」切,必须重现 −0.1407;
 ② 随机切同样大小的子集,必须落在 −0.0328 附近。两端都要过。
 
-## Entry 243 · `E01·A66·R288` — 全样本的 Δ 不是一个人群效应,是两群反号的人的混合
+## Entry 243 · `E01·A06·R006` — 全样本的 Δ 不是一个人群效应,是两群反号的人的混合
 
 **`#243a` ★★ 不是选择放大,而且比「异质」更强:两群人的符号是**相反**的。**
 | 组 | n | 总类别数中位 | **Δ** |
@@ -9373,7 +9373,7 @@ A−C = +0.0702 = 样本选择造成的 31%。**
 若塌掉 -> `#243a` 降为「记得早的人身上这个关系更强」,那是一条关于记忆而不是关于发展的事实。**
 ⚠ 正对照沿用 `#284` 的两端(评分驱动的假划分必须被杀;与评分无关的必须不动)。
 
-## Entry 244 · `E01·A66·R289` — 三个新工具,三次第一/二次使用即假阳:这不是巧合,是采样
+## Entry 244 · `E01·A06·R009` — 三个新工具,三次第一/二次使用即假阳:这不是巧合,是采样
 
 **`#244a` ★ `#243a` 升 D7:那个反号不是回忆偏差造的。**
 **只调整分组、不动 Δ**(扣掉评分对起始年龄的贡献,保留年龄尺度,再用同一条 `≤14 且 ≥8` 规则重划):
@@ -9424,7 +9424,7 @@ A−C = +0.0702 = 样本选择造成的 31%。**
 ⚠ 两者都不成立也是一个结果:那说明分组变量不是年龄,而是别的东西(例如总类别数的**获得速率**)。
 ⚠ 计数按 `#233` 读区间;控制若改变纳入,按守卫 12 在交集样本上重报。
 
-## Entry 245 · `E01·A67·R290` — 不存在两类人,存在一条穿过 17 岁半的线
+## Entry 245 · `E01·A06·R006` — 不存在两类人,存在一条穿过 17 岁半的线
 
 **`#245a` ★★ Δ 是「第 8 个起始年龄」的单调剂量-反应,零点在 A8 ≈ 17.5。**
 | A8 中位 | **Δ** | n |
@@ -9477,7 +9477,7 @@ kill 要求指示变量塌到不可分辨,它是 3.0× ⇒ `UNVERIFIED`,按 **D6
 ⚠ 三者高度相关,必须报共线性(VIF 或两两相关),否则「谁存活」由噪声决定。
 ⚠ 正对照:分别种入只依赖 `A8` / 只依赖 `A_close` 的人效应,回归必须各自指认正确的那一个。
 
-## Entry 246 · `E01·A67·R291` — Δ 不是任何一个钟的函数,是整条时间线形状的函数
+## Entry 246 · `E01·A06·R009` — Δ 不是任何一个钟的函数,是整条时间线形状的函数
 
 **`#246a` ★ 五个钟全部存活,符号各异 —— 没有哪一个单独决定它。**
 共线性先报:`corr(A8, A_close) = +0.648`,其余两两 |r| ≤ 0.48,**VIF 全部 ≤ 2.1**(联合回归可读)。
@@ -9528,7 +9528,7 @@ kill 要求指示变量塌到不可分辨,它是 3.0× ⇒ `UNVERIFIED`,按 **D6
 ⚠ 且必须报每层的 n —— `rate` 的分布很可能极偏(多数人集中在低速率),
 若最高层只有几百人,那一段的形状是不可读的,如实标注而不是画出来。
 
-## Entry 247 · `E01·A67·R292` — 那个数字不是一个人群的性质,是一片地形的平均高度
+## Entry 247 · `E01·A06·R006` — 那个数字不是一个人群的性质,是一片地形的平均高度
 
 **`#247a` ★★ 速率曲线:8 层全部可读、单调,跨度是全样本值的 13 倍。**
 | rate 中位(个/年) | **Δ** | n |
@@ -9579,7 +9579,7 @@ kill 要求指示变量塌到不可分辨,它是 3.0× ⇒ `UNVERIFIED`,按 **D6
 一个**与离散度无关**的假 rate(必须不动)。
 ⚠ 并同报:高 rate 层与低 rate 层的**人内起始年龄 sd**,若两者差异巨大,这条边就是真的在动。
 
-## Entry 248 · `E01·A67·R293` — 第四次把种入方向写反,而第四次都是扫描纠正了我
+## Entry 248 · `E01·A06·R009` — 第四次把种入方向写反,而第四次都是扫描纠正了我
 
 **`#248a` ⚠ 先纠正 `#247` 自己的 NEXT,它设计错了。**
 `#247` 写「把 `rate` 对人内起始年龄 sd 残差化」——**过强**:`rate` 的分母**就是**跨度,
@@ -9627,7 +9627,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 ⚠ 正对照两端:一条真的单调扫描必须放行;一条非单调(自干扰的种入,如本轮原版)必须报警。
 ⚠ 并回头看:本项目现有的正对照里,有多少条是「方向由我写下」的?这个计数本身是一条待办。
 
-## Entry 249 · `E01·A68·R294` — 把方向从我手里拿走
+## Entry 249 · `E01·A06·R009` — 把方向从我手里拿走
 
 **类型:CLOSURE**。
 
@@ -9669,7 +9669,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 若两者剖面几乎相同 -> rate 只是 Δ 的另一种写法,这条线到此为止。**
 ⚠ 计数按 `#233` 读区间;正对照用守卫 13,**方向由扫描给出,我不写**。
 
-## Entry 250 · `E01·A69·R295` — 「积累得快」不是一个新的人,是同一个人的另一种量法
+## Entry 250 · `E01·A06·R009` — 「积累得快」不是一个新的人,是同一个人的另一种量法
 
 **`#250a` ★ 世界②:`rate` 与 `rho_i` 的结局剖面是同一张脸的镜像。**
 | | 分半信度 | 31 个结局越阈 | 最强的几个 |
@@ -9714,7 +9714,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 ⚠ 每一行的数字必须**从账本原文取**,不能从记忆写;取不到的标 `UNCOMPUTED`,不留空。
 ⚠ 这一轮不产生新数字,所以它**不需要**新的 kill —— 它需要的是**每一格都能被追到一条账本条目**。
 
-## Entry 251 · `E01·A70·R296` — 这个项目花最多力气去证明的那个量,不是它手里最结实的那个
+## Entry 251 · `E01·A06·R010` — 这个项目花最多力气去证明的那个量,不是它手里最结实的那个
 
 **类型:PRODUCTION**(`§0` 三类动作)。`§0.2`:**不能只交账本。**
 这一轮不产生新数字,产物是**一张能被没读过账本的人直接使用的表**,已进入两个 README。
@@ -9763,7 +9763,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 **若三个成分在三重控制后仍各自有越阈结局 -> 表上那 5 个 `UNCOMPUTED` 变成「已控」,
 这三根柱子才真的可以承重;若塌掉 -> 信度最高的三个维度是勾选数的影子,而那会改写 `#230`。**
 
-## Entry 252 · `E01·A70·R297` — 一个由特征分解定义的成分,不能用种入强度扫描去做正对照
+## Entry 252 · `E01·A06·R007` — 一个由特征分解定义的成分,不能用种入强度扫描去做正对照
 
 **`#252a` ★ 三个宽度类型全部过了三重控制,表上 5 个 `UNCOMPUTED` 变「已控」。**
 对 **勾选数 · 性别 · 位置分 S** 三重残差化后重跑 29 个结局面板(n 前后均 6,717,守卫 12:纳入未变):
@@ -9814,7 +9814,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 因为那时的单调是假的。
 ⚠ 自检走**独立的 Gate 实例**(`#249c` 定下的做法),只把「四端是否全对」汇报进主门。
 
-## Entry 253 · `E01·A71·R298` — 一个只报症状的诊断,会让人去修错的地方
+## Entry 253 · `E01·A06·R010` — 一个只报症状的诊断,会让人去修错的地方
 
 **类型:CLOSURE**。
 
@@ -9857,7 +9857,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 ⚠ 逐人的一致性只有两半、每半 ~16 块,信度会很低 —— **先量信度再看结局**,
 信度低于 0.2 就如实登记为「这个站点结构上量不了」,不报一个零。
 
-## Entry 254 · `E01·A72·R299` — 一个没有功效证明的零,和一个 UNCOMPUTED 只差一点点
+## Entry 254 · `E01·A06·R007` — 一个没有功效证明的零,和一个 UNCOMPUTED 只差一点点
 
 **`#254a` 剖面清晰度可测(信度 +0.3093),但几乎什么都不预测。**
 `strength_i` = 这个人的残差剖面在两半选项上的一致性(`#228a` 的量,逐人而非合并)。
@@ -9897,7 +9897,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 若曲线整体平 -> 这个设计本来就看不见任何东西,那两格该写「结构上量不了」。**
 ⚠ 并顺手把同样的减法式补给 `#252c` 里那三个成分(它们的正对照也从没被证明过灵敏度)。
 
-## Entry 255 · `E01·A72·R300` — 我说它「什么都不预测」,只是因为我抽到了一个不巧的种子
+## Entry 255 · `E01·A06·R007` — 我说它「什么都不预测」,只是因为我抽到了一个不巧的种子
 
 **`#255a` ★ 减法式功效曲线成立,`#254c` 的做法被证明。**
 λ = 被换成噪声的人的比例;29 个结局的越阈数:
@@ -9943,7 +9943,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 ⚠ 优先级按 load-bearing:先重报**在公开页上**的那些(总表里的越阈列)。
 ⚠ 计数按新规则读:每个量至少 5 个劈分种子。
 
-## Entry 256 · `E01·A73·R301` — 一条结构上拒绝低估精度的规则
+## Entry 256 · `E01·A06·R010` — 一条结构上拒绝低估精度的规则
 
 **类型:CLOSURE**。
 
@@ -9979,7 +9979,7 @@ g=0.25 的种入就把曲线移动 **+0.186**,实测跨度 **−0.253** ——
 若三个成分的区间都不含零 -> `#252a` 的结论不变,但它的精度第一次被正确标注。**
 ⚠ 顺带把 `#250` 的 rate 6/31 一起重报(它不在总表上,但它是「rate 不是独立维度」的一半证据)。
 
-## Entry 257 · `E01·A73·R302` — 三个数字一个都没错,但它们此前给出的精度窄了大约一半
+## Entry 257 · `E01·A06·R007` — 三个数字一个都没错,但它们此前给出的精度窄了大约一半
 
 **类型:CLOSURE**。
 
@@ -10029,7 +10029,7 @@ c3 的块载荷(`#274`)高端是 nonconsent · urine · transformations · abnor
 ⚠ 正对照两端(`#276` 同款);计数按两层区间读;
 ⚠ 且必须先报 c3 与「起始仪器上的总类别数」的相关 —— 那是这一族的常驻混杂。
 
-## Entry 258 · `E01·A74·R303` — c3 有名字了:不是「你有多开放」,是「你把开放花在哪儿」
+## Entry 258 · `E01·A06·R007` — c3 有名字了:不是「你有多开放」,是「你把开放花在哪儿」
 
 **`#258a` ★★ 名字挣到了,而且是跨仪器的,两半符号相反。**
 在与块**完全不相交**的起始仪器(31 类别)上,按类别流行度切两半:
@@ -10077,7 +10077,7 @@ c3 与 D 各跑 29 个结局,判两条剖面的相关,与 **offset(同一件事�
 若明显低于上限 -> 两者是「越轨敞开」的两个不同面,总表保持两行,而它们的差别就是下一个问题。**
 ⚠ 计数按两层区间读;正对照两端(已知不同 / 同一变量两次带噪声复制)。
 
-## Entry 259 · `E01·A74·R304` — 大体同一,而「大体」这个词这次是有数字的
+## Entry 259 · `E01·A06·R007` — 大体同一,而「大体」这个词这次是有数字的
 
 **`#259a` c3 与 D 的结局剖面相关 +0.7826,上限 0.9142 ± 0.0171 —— 是上限的 86%。**
 低于上限 **7.7 个展布**(可分辨),但**绝对差只有 0.13**。
@@ -10117,7 +10117,7 @@ c3 与 D 各跑 29 个结局,判两条剖面的相关,与 **offset(同一件事�
 ⚠ 正对照:把 D 从「D 自己的带噪声复制」里回归掉,残差必须什么都不剩(证明这个减法有效)。
 ⚠ 并同报 `corr(c3, D)` 的**全仪器**版本 —— 本轮的 +0.1589 用的是半块构造,口径与总表不同。
 
-## Entry 260 · `E01·A75·R305` — c3 不是「更灵敏的 D」,而它剩下的那部分指着「画的」和「写的」
+## Entry 260 · `E01·A06·R010` — c3 不是「更灵敏的 D」,而它剩下的那部分指着「画的」和「写的」
 
 **`#260a` ★ 把 D 整个扣掉,c3 几乎没损失:`c3⊥D` 越阈 **15–17**(c3 自己 18)。**
 跨 5 个种子 15.3/16.0/15.0/15.1/16.1 → **15.5 ± 0.5(种子)/ ±0.2(阈值)**。
@@ -10159,7 +10159,7 @@ c3 − D 最大的几格:`age`(−0.097 vs −0.001)· `I find it erotic when tw
 ⚠ 分组必须写进 `run.py` 的 docstring **并在跑之前提交**,否则这一轮不算数。
 ⚠ 正对照两端(只贴一组 / 与两组等相关);计数按两层区间读。
 
-## Entry 261 · `E01·A76·R306` — 同一个检验,在我看过的题目上给 9.4×,在我没看过的上给 1.6× 且反号
+## Entry 261 · `E01·A06·R010` — 同一个检验,在我看过的题目上给 9.4×,在我没看过的上给 1.6× 且反号
 
 **`#261a` ⚠⚠ 第三次命名失败,而失败的方式是这一轮最值钱的东西。**
 分组与预测**在跑之前冻结并单独提交**(`PREREGISTRATION.md`,独立 commit),污染声明同时提交。
@@ -10208,7 +10208,7 @@ c3 − D 最大的几格:`age`(−0.097 vs −0.001)· `I find it erotic when tw
 ⚠ 这一轮**不需要**污染声明,因为候选集是**全部**非情色字段,不是我挑的。
 ⚠ 计数与相关都按两层区间读;正对照两端(把某个外部量的带噪声复制当作待判量,必须指认它自己)。
 
-## Entry 262 · `E01·A76·R307` — 连着三次我给不出的名字,数据自己指了一个方向
+## Entry 262 · `E01·A06·R010` — 连着三次我给不出的名字,数据自己指了一个方向
 
 **`#262a` ★ 第一份**由数据给出**的候选名字:`c3⊥D` 的结局剖面最像 **extroversion** 的。**
 候选集是**全部 10 个非情色字段**(不是我挑的,所以本轮不需要污染声明);
@@ -10250,7 +10250,7 @@ offset **0.9815 ± 0.0058** —— 最像的只到 **72%**;领先第二名 **+0.
 若残差塌掉 -> c3⊥D 大体就是外向在性偏好上的投影,而这条线可以收尾。**
 ⚠ 并同时对第二名 openness 做一次同样的检验 —— 两者只差 0.058,**只做第一名会把选择当成发现**。
 
-## Entry 263 · `E01·A76·R308` — 四次命名之后,诚实的答案是「名字不在这份数据里」
+## Entry 263 · `E01·A06·R010` — 四次命名之后,诚实的答案是「名字不在这份数据里」
 
 **`#263a` ★★ 「最像外向」是纯粹的剖面层巧合 —— 分数层的符号是反的。**
 `corr(c3⊥D, extroversion)` **分数层 = −0.1010**,而**剖面层 = +0.7091**。
@@ -10301,7 +10301,7 @@ offset **0.9815 ± 0.0058** —— 最像的只到 **72%**;领先第二名 **+0.
 若某些结局的联合 R² 明显更高 -> 那些结局就是这套结构真正管得住的地方,值得单独列出。**
 ⚠ 增量 R² 对共线性极敏感,必须同报 VIF(`#291` 同款)。
 
-## Entry 264 · `E01·A77·R309` — 把所有关于「一个人是谁」的东西加起来,平均只说中百分之一点四
+## Entry 264 · `E01·A06·R011` — 把所有关于「一个人是谁」的东西加起来,平均只说中百分之一点四
 
 **类型:PRODUCTION + 一个真问题。**
 
@@ -10346,7 +10346,7 @@ offset **0.9815 ± 0.0058** —— 最像的只到 **72%**;领先第二名 **+0.
 并把 `#264c` 的「信度高 ≠ 解释力大」写进总表的读法说明。
 ⚠ 措辞必须给出三个数:**地板 0.14% · 中位 1.4% · 上限 7.8%** —— 只给中位会被读成前一种误读。
 
-## Entry 265 · `E01·A77·R310` — 公开页现在第一段就说出这一切有多大
+## Entry 265 · `E01·A06·R011` — 公开页现在第一段就说出这一切有多大
 
 **类型:PRODUCTION**。
 
@@ -10387,7 +10387,7 @@ offset = **把六个坐标换成六个随机量**之后的同一条谱。
 ⚠ 计数与特征值都按两层区间读;正对照:种入一个已知的第七维,残差谱必须把它认出来
 (用守卫 13,**方向由扫描给出**)。
 
-## Entry 266 · `E01·A78·R311` — 再找也找不出第七个,不是因为人只有六维,是因为这份问卷只问得出六维
+## Entry 266 · `E01·A06·R011` — 再找也找不出第七个,不是因为人只有六维,是因为这份问卷只问得出六维
 
 **`#266a` ★★ 残差谱**低于** offset —— 没有第七个维度。**
 把六个人层量从**每一个结局**里回归掉,对 29×29 残差相关矩阵取谱,
@@ -10438,7 +10438,7 @@ offset = **把六个坐标换成六个随机量**之后的同一条谱。
 这是这个项目能给下一份问卷的唯一一件真正有用的东西。**
 ⚠ 解衰减对信度估计极敏感,必须同报每个量的信度与其区间(`#259b` 的口径债不能再犯)。
 
-## Entry 267 · `E01·A78·R312` — 三条检验里有一条我根本没在检验任何东西,而它给出的 +0.00 和干净的零长得一样
+## Entry 267 · `E01·A06·R011` — 三条检验里有一条我根本没在检验任何东西,而它给出的 +0.00 和干净的零长得一样
 
 **`#267a` ①② 被杀:天花板不在「结局太少」也不在「结局太窄」。**
 ① 用**一半**结局重算联合 R² 中位:1.31% → **1.16%**(−0.15pp)—— **远不是掉一半**。
@@ -10481,7 +10481,7 @@ offset = **把六个坐标换成六个随机量**之后的同一条谱。
 ⚠ 并回头用它扫一遍本项目**所有 `asserted` 里出现的数**是不做的 —— 那太贵;
 只把它加进**新轮的模板**,并在本轮的 ③ 上做一次演示。
 
-## Entry 268 · `E01·A79·R313` — 第一个不问结果对不对、只问结果有没有可能不同的守卫
+## Entry 268 · `E01·A06·R011` — 第一个不问结果对不对、只问结果有没有可能不同的守卫
 
 **类型:CLOSURE**。
 
@@ -10523,7 +10523,7 @@ offset = **把六个坐标换成六个随机量**之后的同一条谱。
 下一份问卷该做的是**把这六个量测准**,而不是加结局;
 若几乎不动 -> 三层都不是,天花板在别处,而那会是一个真正的谜。**
 
-## Entry 269 · `E01·A78·R314` — 这六个量粗到连「粗多少」都算不出来
+## Entry 269 · `E01·A06·R011` — 这六个量粗到连「粗多少」都算不出来
 
 **`#269a` ⚠⚠ 经典解衰减在这里**没有定义**。**
 修正后相关矩阵的**最小特征值 = −0.8974**(必须 ≥ 0),
@@ -10571,7 +10571,7 @@ offset = **把六个坐标换成六个随机量**之后的同一条谱。
 ⚠ 并顺带决定 `#269d` 的口径:公开页的 1.4% 用的是 `#264a` 的最小二乘 + 旧 S;
 本轮的 2.23% 用相关矩阵 + 新 S。**两个都对,但公开页只能有一个,且必须注明是哪一个。**
 
-## Entry 270 · `E01·A80·R315` — 相邻两列的一致,可能只是它们一起抖了一下
+## Entry 270 · `E01·A07·R012` — 相邻两列的一致,可能只是它们一起抖了一下
 
 **`#270a` ★ 5/30 个格子的共享误差痕迹明显大于零,而它们集中在一处。**
 两次独立劈分:痕迹 = **同劈分异名 − 跨劈分异名**。
@@ -10610,7 +10610,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
    否则就是把两个变化归给一个原因(`#291` 的教训:一条单调曲线不说明它就是真因)。
 ⚠ 用守卫 14 验证:改口径这件事**真的会改变那个数**(否则两个口径本来就是同一个)。
 
-## Entry 271 · `E01·A80·R316` — 两个我能想到的原因都不是它,那说明还有第三个我没记下来的选择
+## Entry 271 · `E01·A07·R012` — 两个我能想到的原因都不是它,那说明还有第三个我没记下来的选择
 
 **`#271a` ★ 2×2 拆解:估计式根本不重要,S 把数推**低**。**
 | | 最小二乘 | 相关矩阵 |
@@ -10657,7 +10657,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
 ⚠ 用守卫 14 验证清单里每一项**真的会改变某个已发表的数**;不会改变的项从清单里删掉,
    否则清单会变成一张让人安心的长表(`#241a` 的同一个病)。
 
-## Entry 272 · `E01·A80·R317` — 这张表最有用的一行,是它最后一行说的「还有别的」
+## Entry 272 · `E01·A07·R012` — 这张表最有用的一行,是它最后一行说的「还有别的」
 
 **类型:PRODUCTION**。产物:`CALIBER.md`(仓库根目录)。
 
@@ -10695,7 +10695,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
    **因为「换一个劈分种子」这个旋钮之所以只动 0.02pp,正是因为六个量共享同一次抽签**,
    而那意味着**跨种子展布低估了真实的不确定性**。⚠ 这一条是推论,标 `D5`,不是测量。
 
-## Entry 273 · `E01·A80·R318` — 那句话现在在公开页上,而不是只在账本第 270 条里
+## Entry 273 · `E01·A07·R012` — 那句话现在在公开页上,而不是只在账本第 270 条里
 
 **类型:PRODUCTION**。`#270c` 欠了两轮的三件事,一轮做完。
 
@@ -10728,7 +10728,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
 并用**增量 R²** 而不是单独 R² 下结论。
 ⚠ 口径按 `CALIBER.md` 注明;计数与相关按两层区间读;用守卫 14 验证增量**真的会变**。
 
-## Entry 274 · `E01·A81·R319` — 装置第一次被一个真正朴素的对手检验,而它过了
+## Entry 274 · `E01·A07·R012` — 装置第一次被一个真正朴素的对手检验,而它过了
 
 **`#274a` ★ 六坐标完全吸收朴素对手,并在它之上再加 1.56pp。**
 `atypicality` = 所有块上所选选项的**平均稀有度**(不残差化、不特征分解、不劈半、不留一):
@@ -10779,7 +10779,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
 ⚠ 计数按两层区间读;口径按 `CALIBER.md` 注明;
 ⚠ 并同报 `corr(atypicality, 各结局)` 的分布 —— 一个朴素量在某些结局上可能本来就很强。
 
-## Entry 275 · `E01·A81·R320` — 装置最大的胜场不是羞耻,是「你被什么形式的东西打开」
+## Entry 275 · `E01·A07·R012` — 装置最大的胜场不是羞耻,是「你被什么形式的东西打开」
 
 **`#275a` ★★ 六坐标在 **22/29** 个结局上赢,朴素对手只在 **1/29** 上赢。**
 口径 `CALIBER.md`:`cov>=8` · `need=8` · 旧 S · 种子 500 · 最小二乘(与 `#264a`/`#274a` 同)。
@@ -10833,7 +10833,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
 若三条残差彼此无关 -> 这三格各自独立,而 `#275b` 的「形式」只是我的归类。**
 ⚠ 正对照两端;计数与相关按两层区间读;口径按 `CALIBER.md`。
 
-## Entry 276 · `E01·A82·R321` — 措辞完全不同的两道题之间,最强的那份共有
+## Entry 276 · `E01·A07·R012` — 措辞完全不同的两道题之间,最强的那份共有
 
 **`#276a` ⚠ `#275b` 的三元分组错了一个,而拆开之后是决定性的。**
 六坐标回归掉之后的残差相关:
@@ -10882,7 +10882,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
 即使仍然叫不出名字;若信度不足 -> 如实登记「这份问卷只有两道题碰到它」,
 而那本身是给下一份问卷的一条具体建议:**把这两道题扩成一组**。**
 
-## Entry 277 · `E01·A82·R322` — 那个东西现在可以拿在手里了,即使仍然叫不出名字
+## Entry 277 · `E01·A07·R013` — 那个东西现在可以拿在手里了,即使仍然叫不出名字
 
 **`#277a` ★★ `form_i` 握住了,而且跨仪器成立。**
 `form_i` = `animated` 与 `written` 的**残差之和**(六坐标已扣掉):
@@ -10929,7 +10929,7 @@ c1→c2 是 **−0.416**,c2→c1 是 **+0.205** —— 因为 `cross(i,j)` 用 `
 本身也值得写。**
 ⚠ 并同报它与 `#231` 的越轨/普通两半的关系 —— 若它也反号,那是一个强的结构对应。
 
-## Entry 278 · `E01·A83·R323` — 这个项目找到的每一样东西最后都指向羞耻,除了这一个
+## Entry 278 · `E01·A07·R013` — 这个项目找到的每一样东西最后都指向羞耻,除了这一个
 
 **`#278a` ★ `form_i` 是这条线上**第一个不通向羞耻**的人层量。**
 `corr(form_i, 羞耻)` = **+0.0454 ± 0.0162(2.8×)**;
@@ -10972,7 +10972,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 ⚠ `form_i` 与六坐标按构造正交,所以**分数层**相关必然为零 —— **只能比剖面,不能比分数**
 (`#277b` 的教训:别再问一个恒等式)。
 
-## Entry 279 · `E01·A83·R324` — 两个相关恰好为零的量,可以在 27 个结局上给出几乎同一张脸
+## Entry 279 · `E01·A07·R013` — 两个相关恰好为零的量,可以在 27 个结局上给出几乎同一张脸
 
 **`#279a` `form_i` 的剖面与 D 的相似 **0.7105**,是上限(0.9124 ± 0.0122)的 **78%**。**
 与 c3 是 0.4958,与位置分 S 是 0.2289。
@@ -11020,7 +11020,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
    **若分数层相关 < 0.3 而剖面相似 > 0.6 -> FAIL**,并指出 `#279b` 的三个先例。
 ⚠ 四端自检走独立 `Gate` 实例(`#249c`);正对照必须包含**本轮这个代数保证的反例**。
 
-## Entry 280 · `E01·A84·R325` — 这个守卫挡的不是一个数,是一种推理方向
+## Entry 280 · `E01·A07·R013` — 这个守卫挡的不是一个数,是一种推理方向
 
 **类型:CLOSURE**。
 
@@ -11065,7 +11065,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 而 `rate` 可能真的是第七个维度,那会改写 `#296` 的总表。**
 ⚠ 若要重开,先用 `#282` 的减法式给 `rate⊥rho` 证功效(`#254c`:比值/投影类的量只能用减法式)。
 
-## Entry 281 · `E01·A85·R326` — `#250a` 站得住,但它有一格从没被量过
+## Entry 281 · `E01·A07·R013` — `#250a` 站得住,但它有一格从没被量过
 
 **`#281a` ★ 守卫 15 放行:`#250a` 不是被禁方向上的结论。**
 **`corr(rate, rho_i)` 分数层 = −0.3283**(`#250a` 报的剖面层是 −0.8499)。
@@ -11111,7 +11111,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 若存活 -> 这条线上第一个在截断控制后仍站着的年龄关系,而它属于那被吸收剩下的一成。**
 ⚠ 截断控制天然改变纳入,守卫 12 必须用;计数按两层区间读。
 
-## Entry 282 · `E01·A85·R327` — 那一成里最像年龄的部分,是问卷只能看到你到今天为止的样子
+## Entry 282 · `E01·A07·R013` — 那一成里最像年龄的部分,是问卷只能看到你到今天为止的样子
 
 **`#282a` ★ `rate⊥rho × age` 没能通过截断控制:它是 `#206b` 那个假象的同一族,符号相反。**
 正对照:`#210` 的两个已发表读数**逐位复现**(`rho×age` 全样本 **+0.1532** · 截断 ≤14 **−0.0741**)。
@@ -11159,7 +11159,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 而这会是它最强的一份证据;
 若不相关 -> `animated` 只是两条路各自碰到的同一道题,而不是同一个人层量。**
 
-## Entry 283 · `E01·A86·R328` — 同一道题,两条互不相干的路
+## Entry 283 · `E01·A07·R013` — 同一道题,两条互不相干的路
 
 **`#283a` `rate⊥rho` 与 `form_i` 不是同一个东西。**
 两者来自**不相交的仪器**(起始年龄 vs 块选项,共享零道题 —— 与 `#277b` 的恒等式不同,这是真问题):
@@ -11203,7 +11203,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
    命中率必须 100%,取不到的写 `UNCOMPUTED`。
 ⚠ 这是 PRODUCTION,不产生新数字;它的价值全在「外面的人拿到的是不是当前状态」。
 
-## Entry 284 · `E01·A87·R329` — 外面的人现在拿到的是当前状态
+## Entry 284 · `E01·A07·R013` — 外面的人现在拿到的是当前状态
 
 **类型:PRODUCTION**。
 
@@ -11240,7 +11240,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 必须被判出差别;一个**已知不随性别变**的量必须判不出。
 ⚠ 计数与相关按两层区间读;口径按 `CALIBER.md`。
 
-## Entry 285 · `E01·A88·R330` — 这六个坐标在男性和女性身上,不是完全同一套
+## Entry 285 · `E01·A07·R014` — 这六个坐标在男性和女性身上,不是完全同一套
 
 **`#285a` ① 载荷层:按性别劈 **0.7695** vs 随机劈 **0.8385 ± 0.0263** → **−0.0690,2.6× 展布**。**
 两组 n = 3,232 / 3,485,各自**独立**重建六个坐标。
@@ -11286,7 +11286,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 若不可分辨 -> 非不变只出现在载荷层,而那是一个关于**构造**的差别,不是关于**预测**的差别 ——
 两者的实践含义完全不同。**
 
-## Entry 286 · `E01·A88·R331` — 它们不是「人的坐标」,至少不是同一套坐标
+## Entry 286 · `E01·A07·R014` — 它们不是「人的坐标」,至少不是同一套坐标
 
 **`#286a` ★★ 结局层也不不变,而且是 12.8×。**
 按性别劈 **+0.6667** vs 随机劈 **+0.8728 ± 0.0161** → **差 −0.2061,12.8× 展布**。
@@ -11334,7 +11334,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 ⚠ 并在 `CALIBER.md` 加一行:**「合并样本 vs 按性别分组」是第五个会改变结论的旋钮**,
    用守卫 14 验证它真的会动。
 
-## Entry 287 · `E01·A88·R332` — 「合并」不是一个中性的默认值
+## Entry 287 · `E01·A07·R014` — 「合并」不是一个中性的默认值
 
 **类型:PRODUCTION**。
 
@@ -11373,7 +11373,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 若仍是 10× 量级 -> 结构真的是两套。**
 ⚠ 分组必须**独立提交**(`#306` 的预注册),并声明我已经看过哪几格(`I find the thought of…` 已看过)。
 
-## Entry 288 · `E01·A89·R333` — 不是几道题的问题,是整套结构的问题
+## Entry 288 · `E01·A07·R014` — 不是几道题的问题,是整套结构的问题
 
 **`#288a` ★★ 剔掉每一道提到性别的题之后,非不变性减半但不消失。**
 分组与污染声明**在跑之前冻结并独立提交**(`PREREGISTRATION.md`):
@@ -11417,7 +11417,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 ⚠ 每次留一都要重跑随机劈的 offset(展布会随坐标数变);计数与差按两层区间读。
 ⚠ 正对照:人为把某一个坐标替换成「按性别驱动的合成量」,留一必须把它指认出来。
 
-## Entry 289 · `E01·A89·R334` — S 不是性别,但 S 在两个人群里意味着不同的东西
+## Entry 289 · `E01·A07·R013` — S 不是性别,但 S 在两个人群里意味着不同的东西
 
 **`#289a` ★★ 留一:去掉**位置分 S**,非不变性完全消失。**
 保留集 22 道上的「按性别劈 vs 随机劈」的差:
@@ -11471,7 +11471,7 @@ D_起始 **+0.1384**(`#235b`)—— **全部通向羞耻,而 `form_i` 不。**
 若相当 -> S 的非不变性不在羞耻这一格上,而那也要写清楚(它在别的格上)。**
 ⚠ 并同报两组各自的 n 与位置分的组内信度(`#285b`:半样本上单个量会不稳)。
 
-## Entry 290 · `E01·A90·R335` — S 在两组间意味着不同的东西,但不同的地方不在羞耻上
+## Entry 290 · `E01·A07·R015` — S 在两组间意味着不同的东西,但不同的地方不在羞耻上
 
 **`#290a` ★ `#179` 那条最老的主张按组拆开之后没有变。**
 | | `corr(位置分 S, 羞耻)` |
@@ -11517,7 +11517,7 @@ S 在两组间确实意味着不同的东西,**但不同的地方不在羞耻上
 ⚠ 正对照沿用本轮修好的**交互项驱动**版本(`#290b`),**不能再用主效应**;
 ⚠ 计数按两层区间读(`#255c`)。
 
-## Entry 291 · `E01·A90·R336` — 22 道题里只有一道把两组分开了
+## Entry 291 · `E01·A07·R015` — 22 道题里只有一道把两组分开了
 
 **`#291a` ★★ 非不变性是**局部的**:22 道保留集里**只有 1 格**越过全族阈值。**
 全族阈值(最大统计量,80 次随机劈)**0.0766 ± 0.0061**;**越阈 1/22(读作 1–1)**。
@@ -11570,7 +11570,7 @@ S 在两组间确实意味着不同的东西,**但不同的地方不在羞耻上
 ⚠ 每一步都要重跑随机劈的 offset(结局数变了,展布会变);
 ⚠ 正对照沿用交互项驱动版本(`#290b`)。
 
-## Entry 292 · `E01·A91·R337` — 两条互不相干的路指到同一道题,而剔掉它也不管用
+## Entry 292 · `E01·A07·R015` — 两条互不相干的路指到同一道题,而剔掉它也不管用
 
 **`#292a` ★★ `#336` 挑出的那一格,正是一个完全独立的判据排第一的那一格。**
 按**每道题自己与 `biomale` 的边际 |r|** 排序(**数据给的,不是我读题读出来的**):
@@ -11621,7 +11621,7 @@ S 在两组间确实意味着不同的东西,**但不同的地方不在羞耻上
 (它意味着 `rar` 这个跨组共用的量本身就不该共用)。**
 ⚠ 每一步重跑 offset;正对照:人为把一组的某几块打乱,①必须抓到而②不受影响。
 
-## Entry 293 · `E01·A92·R338` — 他们眼里什么算冷门,本身就不一样
+## Entry 293 · `E01·A07·R014` — 他们眼里什么算冷门,本身就不一样
 
 **`#293a` ★★ 两层都可分辨,而第二层是决定性的。**
 | | 按性别劈 | 随机劈 | 差 | |
@@ -11667,7 +11667,7 @@ S 在两组间确实意味着不同的东西,**但不同的地方不在羞耻上
 若仍可分辨 -> 尺子只是其中一部分,还有别的东西在漂。**
 ⚠ 正对照沿用交互项驱动版本;⚠ 计数与差按两层区间读。
 
-## Entry 294 · `E01·A92·R339` — 换成组内的尺子,差一点没动
+## Entry 294 · `E01·A07·R014` — 换成组内的尺子,差一点没动
 
 **`#294a` ★★ 注册的 kill 的第二支:尺子不是原因。**
 | S 的尺子 | 按性别劈 | 随机劈(**同口径**) | 差 | |
@@ -11712,7 +11712,7 @@ S = 「每块内所挑选项的平均稀有度」再跨块平均。已排除:**�
 那会把 `#286`–`#294` 整条线的心理学读法换掉(选择广度 ≠ 稀有度偏好)。
 ⚠ 正对照沿用交互项驱动;⚠ offset 同口径。
 
-## Entry 295 · `E01·A93·R340` — 把「选了几个」整个拿掉,差还在
+## Entry 295 · `E01·A07·R015` — 把「选了几个」整个拿掉,差还在
 
 **`#295a` ★★ 注册的 kill 的第二支:不是「选了多少」。**
 | S 的位置换成 | 性别劈 | 随机劈(同种子) | 差 | | 相对基线 |
@@ -11752,7 +11752,7 @@ S = 「每块内所挑选项的平均稀有度」再跨块平均。已排除:**�
 **若偏出后差塌掉 -> `#286`–`#295` 整条线测的是结局侧的测量差,不是结构差,
 那会把这十轮的心理学读法整个换掉;若差还在 -> 它是真的在预测量上,而且这十轮才算站住。**
 
-## Entry 296 · `E01·A94·R341` — 看上去是十轮站住了,但正对照说这句不能说
+## Entry 296 · `E01·A07·R014` — 看上去是十轮站住了,但正对照说这句不能说
 
 **`#296a` ★★ 注册的 kill:偏出结局侧后,差保留 84.3%,展布没被一起压掉(114%)。**
 | | 性别劈 | 随机劈(同样偏出) | 差 | |
@@ -11794,7 +11794,7 @@ S = 「每块内所挑选项的平均稀有度」再跨块平均。已排除:**�
 ⚠ 只有正对照过了,才允许读第二臂;⚠ guard 17 先挡收回率的定义域;
 ⚠ 成本:B=40 × 29 结局 × 10 个劈 —— 先在 1 个劈上测单次耗时再决定 B。
 
-## Entry 297 · `E01·A94·R342` — 第二个结局侧代理也没通过,而它失败得很干净
+## Entry 297 · `E01·A07·R015` — 第二个结局侧代理也没通过,而它失败得很干净
 
 **`#297a` ★★ 门 ① 反向失败,且是单调的。** 给组 1 的 6 个结局加噪,扫描:
 | 加噪强度 | 那 6 格 `sd_k` 比 | 那 6 格平均 R² |
@@ -11840,7 +11840,7 @@ S = 「每块内所挑选项的平均稀有度」再跨块平均。已排除:**�
 ⚠ offset:`corr(S_global, S_local)` 先报 —— 若太高则两个残差都很小,要报**功效**(MDE)而不是零;
 ⚠ 参照群体的切法本身是个旋钮(只按性别 / 性别×年龄 / +关系风格)-> 进 `CALIBER.md`。
 
-## Entry 298 · `E01·A95·R343` — 羞耻跟的是东西本身冷门,不是「我跟身边的人不一样」
+## Entry 298 · `E01·A07·R014` — 羞耻跟的是东西本身冷门,不是「我跟身边的人不一样」
 
 **`#298a` ★★ Ⓑ 参照群体偏离这条路,在仪器能看见的范围内基本是空的。**
 | 参照群体 | 组数 | `corr(S_g,S_l)` | **Ⓐ `S_g⊥S_l`** | **Ⓑ `S_l⊥S_g`** | MDE |
@@ -11879,7 +11879,7 @@ g=1.0 时局部 **+0.2882** 而全局只有 **+0.0171** —— **仪器有能力
 ⚠ **选项子集是看着数据挑的** -> 必须做**劈半**:在一半人上挑选项,在另一半人上读相关(`#254a` 的教训);
 ⚠ 先报子集下的 `corr(S_g,S_l)` 与 MDE,若可分性没提高就直接报「这条路到此为止」。
 
-## Entry 299 · `E01·A95·R344` — 可分性提高了,而差没有;`#298a` 的方向性读法不过规格曲线
+## Entry 299 · `E01·A07·R014` — 可分性提高了,而差没有;`#298a` 的方向性读法不过规格曲线
 
 **`#299a` kill ① 过:可分性真的提高。** 只保留每块最不一致的前 f 的选项:
 | f | `corr(S_g,S_l)` | **Ⓐ** | **Ⓑ** | n | MDE |
@@ -11927,7 +11927,7 @@ g=1.0 时局部 **+0.2882** 而全局只有 **+0.0171** —— **仪器有能力
 ⚠ 这是 Closure 不是 Frontier,**如实标注**;它保护的是「这一页上的话能不能被引用」。
 ⚠ 先做**计数**:一共多少条带数断言、其中多少条能立刻说出网格 —— 这个比例本身就是结果。
 
-## Entry 300 · `E01·A96·R345` — 网格不是补救:`#298` 有网格,而且符号一致
+## Entry 300 · `E01·A07·R015` — 网格不是补救:`#298` 有网格,而且符号一致
 
 **`#300a` ★★ 正对照 FAIL,而 FAIL 是对的 —— 它否掉了我上一轮刚写下的流程规则。**
 我注册的是「`#298` 必须被标为无网格」。**仪器说它有网格,仪器是对的**:
@@ -11969,7 +11969,7 @@ P5★:两个方向都返回过非零(75 有 / 13 无)。
 ⚠ 其中 ② 最像真旋钮:`#264a` 的 1.4% 是**样本内** R²,而样本内 R² 在 n=3,000 六坐标下
    的乐观偏倚约 6/3000 ≈ 0.2pp —— **与 0.85pp 同一量级,值得先算。**
 
-## Entry 301 · `E01·A97·R346` — 1.4% 是样本内的;换到没见过的人身上是 1.09%
+## Entry 301 · `E01·A07·R016` — 1.4% 是样本内的;换到没见过的人身上是 1.09%
 
 **`#301a` ★★★ 发明出来的旋钮命中,而且是目前最大的一个。全部门通过。**
 | 估计量 | 联合 R² 中位 | 相对已发表 |
@@ -12015,7 +12015,7 @@ P5★:两个方向都返回过非零(75 有 / 13 无)。
 **若嵌套 CV 明显低于 1.087% -> 页面上那个数要再降一档,而且要说清「坐标本身也是估出来的」;
 若几乎不动 -> 坐标很稳,那本身是一条关于这六个量的好消息。**
 
-## Entry 302 · `E01·A97·R347` — 嵌套 CV:0.869%,已发表数字的 37% 是拟合
+## Entry 302 · `E01·A07·R016` — 嵌套 CV:0.869%,已发表数字的 37% 是拟合
 
 **`#302a` ★★★ 全部门通过。三级阶梯:**
 | 口径 | 联合 R² 中位 | 相对已发表 |
@@ -12058,7 +12058,7 @@ P5★:两个方向都返回过非零(75 有 / 13 无)。
 **若羞耻那两条路的嵌套值明显低 -> 页面上所有相关都要标「样本内」;
 若几乎不动 -> 衰减只打在 R² 上,而那本身是一条关于「多元拟合 vs 单一相关」的干净结论。**
 
-## Entry 303 · `E01·A98·R348` — 一个常设相关也不需要嵌套修正,而 `c3` 的下降是仪器的
+## Entry 303 · `E01·A07·R014` — 一个常设相关也不需要嵌套修正,而 `c3` 的下降是仪器的
 
 **`#303a` ★★ 世界 B 命中:掉的是特征向量,不是聚合量。**
 | 坐标 | 样本内 ↔ 羞耻 | 嵌套 | 相对变化 | n |
@@ -12112,7 +12112,7 @@ P5★:两个方向都返回过非零(75 有 / 13 无)。
 **产出一句能上页面的话:「`c3` 这个方向,在两半人之间重现到 X」** ——
 那比「相关掉了 28%」直接得多,而且它是**关于那个构念的**,不是关于某个相关的。
 
-## Entry 304 · `E01·A99·R349` — `c3` 是一条真的轴,但比 `S` 软得多
+## Entry 304 · `E01·A07·R014` — `c3` 是一条真的轴,但比 `S` 软得多
 
 **`#304a` ★★ 全部门通过。12 次随机人劈半:**
 | | 逐条 \|cos\| | 特征值间隙 |
@@ -12156,7 +12156,7 @@ P5★:两个方向都返回过非零(75 有 / 13 无)。
 ⚠ 正对照沿用「两半都用全样本 C」;⚠ 负对照沿用随机正交基,**它不随 n 变**,是一条好基线;
 ⚠ 同时给 `c1`(硬)与 `c2`,因为**曲线的形状差异本身**比任何单点都能说明「软」是什么意思。
 
-## Entry 305 · `E01·A99·R350` — 外推不发布;而准入门槛是一个从没被列出来的旋钮
+## Entry 305 · `E01·A07·R016` — 外推不发布;而准入门槛是一个从没被列出来的旋钮
 
 **`#305a` ★★ 两条门槛规则,两条互相矛盾的曲线。**
 `Cmat` 里有一个 `mm.sum() > 200` 的**块对准入门槛**:
@@ -12200,7 +12200,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 ⚠ 若 `c3 ↔ 羞耻` 跨门槛可分辨地变 -> **进 `CALIBER.md`,并且公开页面上那个 +0.1286 要带上它**;
 ⚠ 正对照:门槛取 0(全部格子)必须与门槛 100 几乎一样(否则是别的东西在动)。
 
-## Entry 306 · `E01·A100·R351` — 门槛不动已发表的数;而未对齐符号的第一版印出了一个假发现
+## Entry 306 · `E01·A07·R016` — 门槛不动已发表的数;而未对齐符号的第一版印出了一个假发现
 
 **`#306a` ★★ 全部门通过。全样本,五个块对准入门槛:**
 | 门槛 | 置零 | 与发布版的 \|cos\|(c3) | **`c3 ↔ 羞耻`** |
@@ -12245,7 +12245,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 先把这一层筛掉,免得把 20 轮全标成可疑(`#303d` 的同一条纪律);
 ⚠ 这是 Closure,如实标注;⚠ 先报**计数**:多少轮用了特征分解、其中多少个结论依赖符号。
 
-## Entry 307 · `E01·A101·R352` — 没有新的受害者;而 L3 闸口拦住了我把一个已知 bug 当新发现
+## Entry 307 · `E01·A07·R016` — 没有新的受害者;而 L3 闸口拦住了我把一个已知 bug 当新发现
 
 **`#307a` ⚠⚠ 先例闸口当场救了这一轮。**
 `R272_align_the_block_signs_and_see_who_it_hurts` **已经做过这件事**:
@@ -12291,7 +12291,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 **若有交互 -> 「两条路」是一句关于人群的话,而在个人身上它们相乘,不相加 ——
 那会把公开页面上「两条近独立的路」这句话的含义整个改掉。**
 
-## Entry 308 · `E01·A102·R353` — 羞耻的两条路在同一个人身上是**相加**,而这是一个有功效的零
+## Entry 308 · `E01·A07·R014` — 羞耻的两条路在同一个人身上是**相加**,而这是一个有功效的零
 
 ⚠ 符号约定(`#306b`):全程用 **`c3⁻ = −c3`**,让两条路都指向「更多羞耻」。**约定,不是发现。**
 
@@ -12337,7 +12337,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 ⚠ 正对照:合成两个正交量,一个只驱动结局 A 组、一个只驱动 B 组 -> 剖面相关必须 ≈ 0;
 ⚠ 因此本轮的诚实产出多半是一个**上界**,而不是一个命名 —— 先把这一点写进设计,别等结果。
 
-## Entry 309 · `E01·A103·R354` — 注册的问题答不了,而它答出了一个更结实的
+## Entry 309 · `E01·A07·R016` — 注册的问题答不了,而它答出了一个更结实的
 
 **`#309a` ⛔ 调节剖面这把尺子没有功效,正对照当场说了。**
 ② 调节剖面相关 +0.1655,打乱人的零 **−0.1457 ± 0.4015**;
@@ -12378,7 +12378,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 ⚠ 混淆:成长环境与**当前年龄**、**关系风格**相关 -> 同一轮里放进模型,别事后加;
 ⚠ 这是一个**关于人的**问题(成长环境能不能保护),所以即使是界也值得上页面 —— 但**必须带上 MDE**。
 
-## Entry 310 · `E01·A104·R355` — 这个设计答不了,而那就是答案;并纠正 `#309c`
+## Entry 310 · `E01·A07·R016` — 这个设计答不了,而那就是答案;并纠正 `#309c`
 
 **`#310a` ★★ 两个注册的闸口都 FAIL,而两次失败都是正确答案。**
 剂量-反应(U = −1/0/+1,同模型控制年龄与关系风格**及其交互**):
@@ -12420,7 +12420,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 ⚠ 正对照:只在**一个**变量上植入 30% 缓冲,联合检验必须抓到(证明聚合确实换来了功效);
 ⚠ 负对照:`perm_finite`;⚠ 报置换零的分布而不是解析 p 值(设计里有共线的交互项)。
 
-## Entry 311 · `E01·A104·R356` — 四个「本该缓冲」的变量合起来也没有在缓冲,而这次有功效
+## Entry 311 · `E01·A07·R014` — 四个「本该缓冲」的变量合起来也没有在缓冲,而这次有功效
 
 ⚠ 跑之前写下的:**联合检验只能说「有没有任何一个在缓冲」,说不出是哪个。**
 
@@ -12465,7 +12465,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 ⚠ 负对照:拿 `#310a`(不合格的零:MDE 55% 而无法排除 30% 缓冲)必须 FAIL;
 ⚠ 再拿一个**有效应**的轮次(`#308a` 的加性)必须**不触发** NULL 分支。
 
-## Entry 312 · `E01·A105·R357` — guard 21:为「零」设计的判据
+## Entry 312 · `E01·A07·R016` — guard 21:为「零」设计的判据
 
 **`#312a` ★★ 把 `#308c` + `#311d` 那条散文变成执行。**
 `null_claim_uses_null_criteria`:一轮必须声明 `EFFECT` 还是 `NULL`;
@@ -12498,7 +12498,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 ⚠ 先报**计数**:页面上有多少句零式声明,其中多少句交得出三件套 —— 这个比例本身就是结果;
 ⚠ 不齐的**逐条标注**(不删,`L81`),并把「补 MDE」排进队列。
 
-## Entry 313 · `E01·A106·R358` — 82 句零式声明,13 句欠着视力表;并现场补上了 `#308` 的 MDE
+## Entry 313 · `E01·A07·R016` — 82 句零式声明,13 句欠着视力表;并现场补上了 `#308` 的 MDE
 
 **`#313a` 计数。** README 上的零式声明(含数字 · 含否定词 · ≥60 字符)**82** 句;
 **三件套齐全 69(84%)· 缺件 13**(缺 MDE/CI **12** · 缺置换分位数 5 · 缺正对照灵敏度 2)。
@@ -12534,7 +12534,7 @@ SB 自检(800→1600、1600→3350)最大误差 **0.278**(固定)/ **0.252**(比
 ⚠ 若又是一个合格的零 -> **那本身是一条强结论**:这份羞耻**既不被缓冲也不被放大**,
 它是一个常数 —— 而那比任何一个调节效应都更值得上页面。
 
-## Entry 314 · `E01·A107·R359` — 放大那一侧有一个没到门槛的信号,而 guard 21 暴露了自己的边界
+## Entry 314 · `E01·A07·R016` — 放大那一侧有一个没到门槛的信号,而 guard 21 暴露了自己的边界
 
 ⚠ 候选集与判据**跑前单独提交**(`PREREGISTRATION.md` R359);污染声明:神经质单变量读数按污染处理。
 
@@ -12581,7 +12581,7 @@ guard 21 **PASS**(分位数 0.067 · MDE 20% · 灵敏度已证明 · 有意义�
 门槛/样本量一变,估计量就不是同一个);
 ⚠ 报**两半一致的方向**,不报两半的均值 —— 均值会把「一半有一半没有」洗成「有一点」。
 
-## Entry 315 · `E01·A107·R360` — 注册的判据没开火,而那个判据本身选错了
+## Entry 315 · `E01·A07·R016` — 注册的判据没开火,而那个判据本身选错了
 
 **`#315a` 8 次劈半,每半各自跑置换零:**
 | | |
@@ -12631,7 +12631,7 @@ guard 21 **PASS**(分位数 0.067 · MDE 20% · 灵敏度已证明 · 有意义�
 ⚠ guard 21:若结论是「它确实不碰羞耻」,必须交出三件套(而 `#324` 的分数层相关**代数上为零**,
    所以这里要用**未正交化**的 `form` 而不是 `form_i`,否则又是一个恒等式,`#277b` 的陷阱)。
 
-## Entry 316 · `E01·A108·R361` — `form` 不是够不到羞耻,它是信度低
+## Entry 316 · `E01·A07·R013` — `form` 不是够不到羞耻,它是信度低
 
 **`#316a` ★★★ 三个互斥世界一轮判完,Ⓐ 赢。**
 `corr(animated, written)` = **+0.4680** -> Spearman–Brown 信度 **0.3799**(衰减 1.62 倍)。
@@ -12681,7 +12681,7 @@ guard 21 **PASS**(分位数 0.067 · MDE 20% · 灵敏度已证明 · 有意义�
 ⚠ 陷阱:加进来的指标必须**不是**羞耻的近义题,否则是把结局塞进预测量(`#183` 同款);
 ⚠ 报**每一步的信度与相关**,不只报终点 —— 这是一条曲线,不是一个数。
 
-## Entry 317 · `E01·A109·R362` — 去衰减从一个校正变成一次观察,代价是约 +8% 的上偏
+## Entry 317 · `E01·A07·R016` — 去衰减从一个校正变成一次观察,代价是约 +8% 的上偏
 
 ⚠ 先排除的陷阱:「合成分与它自己两个题目的相关」是**代数恒等式**(`#267b` / guard 14),不是检验。
 
@@ -12720,7 +12720,7 @@ guard 21 **PASS**(分位数 0.067 · MDE 20% · 灵敏度已证明 · 有意义�
 ⚠ 报**相对上偏**(比例)与**绝对上偏**两者 —— 哪一个更稳,决定这张表该怎么用;
 ⚠ 这是 Closure(工具),如实标注;但它服务于页面上**三个**已发表的去衰减数字。
 
-## Entry 318 · `E01·A109·R363` — 去衰减没有系统性上偏;`#317b` 撤回
+## Entry 318 · `E01·A07·R016` — 去衰减没有系统性上偏;`#317b` 撤回
 
 **`#318a` ★★ 全部门通过,而结果推翻了上一轮的 `#317b`。**
 网格(真相关 × 信度,每格 12 种子,n=6,478)的**相对上偏**:
@@ -12763,7 +12763,7 @@ guard 21 **PASS**(分位数 0.067 · MDE 20% · 灵敏度已证明 · 有意义�
 ⚠ **⚠ 这是自评,而自评是空的**(door ③)—— 所以本轮只报**计数与比值**,
    **不报「所以我应该怎样」** —— 后者需要一个干净上下文的对抗者,而本会话不能派。
 
-## Entry 319 · `E01·A110·R364` — RR = 0.93:我关于自己失败模式的那句自述不成立
+## Entry 319 · `E01·A07·R016` — RR = 0.93:我关于自己失败模式的那句自述不成立
 
 ⚠⚠ **这是自评,而自评是空的**(door ③)。**只报计数与比值,不报「所以我该怎样」。**
 
@@ -12811,7 +12811,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ 正对照:`#363` 的网格里取一格已知真值,验证这个区间**覆盖**真值;
 ⚠ 这一轮的产出直接落到公开页面上的三个数字。
 
-## Entry 320 · `E01·A111·R365` — 非线性不咬人,但区间该报;纳入规则把不确定性放大近一半
+## Entry 320 · `E01·A07·R013` — 非线性不咬人,但区间该报;纳入规则把不确定性放大近一半
 
 **`#320a` ★ 注册的 kill 没开火,而那是正确的。**
 | | 2.5% | 中位 | 97.5% | 宽度 |
@@ -12849,7 +12849,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
    两句话的强度完全不同,而页面写的是前一句;
 ⚠ 正对照沿用 `#365` 的合成覆盖检验;⚠ 报信度梯子**每一级**的区间,不只报终点。
 
-## Entry 321 · `E01·A111·R366` — UNVERIFIED 从「测不出」升级成「测出来了,答案就在中间」
+## Entry 321 · `E01·A07·R017` — UNVERIFIED 从「测不出」升级成「测出来了,答案就在中间」
 
 **`#321a` ★★★ 全部门通过,点估计逐位复现。**
 | | 2.5% | 中位 | 97.5% | 宽度 |
@@ -12885,7 +12885,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 把分类器的准确率也报出来(`#358` 的盲区教训:关键词分类器会把 UNVERIFIED 和零混起来);
 ⚠ 若「只有点估计」的那一类很大 -> 那是一份**可执行的补测清单**,而不是一句自省。
 
-## Entry 322 · `E01·A112·R367` — 29 条只有点估计;而 NEXT 段一直在污染我的审计
+## Entry 322 · `E01·A07·R017` — 29 条只有点估计;而 NEXT 段一直在污染我的审计
 
 **`#322a` 计数(账本 305 条,含 UNVERIFIED 式判决 **88** 条,29%):**
 | | | |
@@ -12930,7 +12930,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
    并顺位取下一条 —— **不可重建本身是一个该被记录的事实**,而不是一次静默跳过;
 ⚠ 一轮只补一条,补完报它现在属于①还是③。
 
-## Entry 323 · `E01·A113·R368` — 清单是过计数,而自动判「已解决」的方法不可用;`#24` 由手读清掉
+## Entry 323 · `E01·A07·R017` — 清单是过计数,而自动判「已解决」的方法不可用;`#24` 由手读清掉
 
 **`#323a` ⛔ 正对照失败,而失败的原因是一条一般性的事实。**
 按「被后续带区间的条目**引用**」判前向解决:29 条里 **19 条(66%)**,欠账剩 **10** 条;
@@ -12970,7 +12970,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ 标注由我做 -> **必须报标注的自一致性**(隔开重标一次,报一致率)与**标注前的冻结提交**;
 ⚠ 正对照:合成一个只由「虚构组」驱动的量,必须被抓到;⚠ guard 15:剖面像不算,给分数层相关。
 
-## Entry 324 · `E01·A114·R369` — `form` 偏向反事实半,但只是 PLAUSIBLE
+## Entry 324 · `E01·A07·R014` — `form` 偏向反事实半,但只是 PLAUSIBLE
 
 ⚠ 规则跑前钉死(确定性,无自由度):**反事实半** = 与本人 `biomale` **相反**的那两道
 (存在为 / 独自自慰为 × 生理女 / 生理男),**同构半** = 一致的那两道。
@@ -13006,7 +13006,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ 正对照沿用合成量;⚠ guard 21:若某一步判为零,交出三件套;
 ⚠ **若两个指标不一致 -> `form` 的性别关联是一题的性质,而 `#316` 的「`form` 是一个维度」要收窄。**
 
-## Entry 325 · `E01·A115·R370` — 那个 −0.2075 是 `written` 的,不是 `form` 的
+## Entry 325 · `E01·A07·R018` — 那个 −0.2075 是 `written` 的,不是 `form` 的
 
 **`#325a` ★★ 两个指标根本不一致。**
 | | ↔ `biomale` | ↔ 羞耻 |
@@ -13055,7 +13055,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ 负对照:合成一个**均摊**的量,留一的分布必须平;
 ⚠ **一轮做完,不开新的审计线**(`#323c` 的教训:连着五轮 Closure 已经太多)。
 
-## Entry 326 · `E01·A116·R371` — 两个维度都不是某一块;而我的门槛第三次设错
+## Entry 326 · `E01·A07·R018` — 两个维度都不是某一块;而我的门槛第三次设错
 
 **`#326a` ★★ 留一块重算(32 次,`c3` 每次对齐符号):**
 | | 全量 ↔ 羞耻 | \|Δ\| 中位 | 最大 | 最大块 | **占总变化** |
@@ -13096,7 +13096,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ 正对照:合成一个已知载荷图样的量,自助必须复原那个图样;
 ⚠ 产出:一张「哪些块在这一端 / 哪些在另一端」的表,**上页面前先按 `#300a` 发明一个能弄坏它的旋钮**。
 
-## Entry 327 · `E01·A117·R372` — `c3` 的块载荷,与 `#303` 在另一件仪器上的分界重合
+## Entry 327 · `E01·A07·R014` — `c3` 的块载荷,与 `#303` 在另一件仪器上的分界重合
 
 ⚠⚠ **如实标注:载荷排序不构成一个名字。**`#201`/`#202` 就是这么死的。**本轮产出是描述,不是命名。**
 符号约定:**正 = 更多羞耻那一端**(`c3⁻ ↔ 羞耻 = +0.1278`)。
@@ -13136,7 +13136,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
    所以若 ① 解释掉大部分,**要说清这不是一个发现而是一个同义反复的度量**,
    而真正的问题变成「除了『少人选』之外还剩什么」;那一步要用**控制流行度后的残差载荷**问。
 
-## Entry 328 · `E01·A118·R373` — 那条界线不是「少人选」
+## Entry 328 · `E01·A07·R018` — 那条界线不是「少人选」
 
 **`#328a` 三个与内容无关的块属性解释了 45%,但没到门槛。**
 | | 系数 | 偏相关 |
@@ -13176,7 +13176,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ **⚠ `res` 是从 `v0` 减出来的,所以 `c3_np` 与 `c3` 必然高度相关 ——
    相关本身不是证据,要看的是**羞耻那一项**掉不掉。先写下来,免得把一个恒等式当成确认。**
 
-## Entry 329 · `E01·A118·R374` — 扣掉流行度的 `c3`,三项结论全带得动
+## Entry 329 · `E01·A07·R018` — 扣掉流行度的 `c3`,三项结论全带得动
 
 ⚠ 跑前写下:`res` 从 `v0` 减出来,`c3_np ↔ c3` **必然**高 —— **相关本身不是证据**。
 
@@ -13221,7 +13221,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ `res3` 只剩 55% 的载荷方差(`#328a` 的 R²=0.4522),**所以 `c3_ns` 会更吵** ——
    必须报它自己的自助区间,别拿点估计比。
 
-## Entry 330 · `E01·A118·R375` — 扣掉全部三个结构属性,`c3` 跨仪器反而更锐
+## Entry 330 · `E01·A07·R014` — 扣掉全部三个结构属性,`c3` 跨仪器反而更锐
 
 ⚠ 门槛**全部由同一次运行里的参照臂给**(`#329b` 的教训)。
 
@@ -13261,7 +13261,7 @@ RR:全部 **0.93** · ≥#200 **0.87** · ≥#260 **0.26** · ≥#280 **0.00** �
 ⚠ 混淆:起始年龄早的人「带得久」也「兴趣更冷门」(`#130` 的时间表)-> 必须同时控制 `S`;
 ⚠ guard 21:若判为零,交出三件套。
 
-## Entry 331 · `E01·A119·R376` — 这个设计里问不了「时长」,它问出来的是起始年龄
+## Entry 331 · `E01·A07·R018` — 这个设计里问不了「时长」,它问出来的是起始年龄
 
 ⚠⚠ 横断面 -> 只能说关联,不能说「磨掉」(写在设计里,不是讨论里)。
 
@@ -13298,7 +13298,7 @@ n=6,676,MDE 0.0342,负对照(打乱人)**−0.0017 ± 0.0127**,|零| ≥ |观测
    **必须报删失比例并做一次只用未删失者的敏感性**;
 ⚠ 正对照:合成一个只由起始年龄驱动的羞耻结局;⚠ guard 21 若判零。
 
-## Entry 332 · `E01·A120·R377` — 起始越早羞耻越多:每一项检查都过了
+## Entry 332 · `E01·A07·R014` — 起始越早羞耻越多:每一项检查都过了
 
 **`#332a` ★★★ 全部门通过。**
 ① **逐类别普遍**:31 类里 **28 个为负**,中位 **−0.0712**,范围 [−0.1226, +0.0202];
@@ -13331,7 +13331,7 @@ n=6,676,MDE 0.0342,负对照(打乱人)**−0.0017 ± 0.0127**,|零| ≥ |观测
 ⚠ 正对照沿用交互项驱动的合成结局(`#290b`:主效应造不出组间差,这里同理);
 ⚠ guard 21 若交互判零。
 
-## Entry 333 · `E01·A121·R378` — 羞耻有三条路,而「冷门」与「来得早」之间次可加
+## Entry 333 · `E01·A08·R019` — 羞耻有三条路,而「冷门」与「来得早」之间次可加
 
 符号约定:三条都指向更多羞耻(`EARLY = −起始均值`)。
 ⚠ 关键控制先报:`corr(起始均值, S)` = **−0.1952** · `corr(EARLY, c3⁻)` +0.1372 · `corr(S, c3⁻)` +0.2051。
@@ -13373,7 +13373,7 @@ Bonferroni 到 3 个检验后证据**边缘**。**PLAUSIBLE,不是 CONFIRMED。*
 ⚠ **⚠ 不要顺手多测别的交互** —— 全族阈只在**预先声明的族**上有效,而这个族就是这三个;
 ⚠ 正对照沿用种入 0.15;⚠ guard 21 若判零。
 
-## Entry 334 · `E01·A121·R379` — 次可加过了全族阈:PLAUSIBLE 升到 CONFIRMED
+## Entry 334 · `E01·A08·R019` — 次可加过了全族阈:PLAUSIBLE 升到 CONFIRMED
 
 ⚠ 族 = **预先声明的三个交互**;本轮不多测任何别的。
 
@@ -13411,7 +13411,7 @@ Bonferroni 到 3 个检验后证据**边缘**。**PLAUSIBLE,不是 CONFIRMED。*
 ⚠ 正对照:合成一个**只有天花板造成的**次可加(先做真加性,再截断)-> 三项必须都指向 Ⓐ;
 ⚠ 这一轮的两个世界预测相反,是一个真正的分离器,不是稳健性检查。
 
-## Entry 335 · `E01·A122·R380` — 那个次可加不是天花板;去掉顶格的人之后它更强了
+## Entry 335 · `E01·A08·R019` — 那个次可加不是天花板;去掉顶格的人之后它更强了
 
 **`#335a` ① 天花板压力确实存在,必须认真对待。**
 | 格 | n | 羞耻均值 | **顶格比例** |
@@ -13455,7 +13455,7 @@ Bonferroni 到 3 个检验后证据**边缘**。**PLAUSIBLE,不是 CONFIRMED。*
 ⚠ 正对照沿用种入 0.15;⚠ 全族阈重算(族仍是三个);
 ⚠ **⚠ `EARLY_rel` 与 `S` 的相关必须先报** —— 若它仍与 `S` 强相关,那这一步没扣干净。
 
-## Entry 336 · `E01·A123·R381` — 这个设计在人层扣不掉人群时间表
+## Entry 336 · `E01·A08·R019` — 这个设计在人层扣不掉人群时间表
 
 **`#336a` ⛔ 先报的控制当场失败。**
 `corr(EARLY_rel, EARLY_abs)` = **+0.9983**;`corr(EARLY_rel, S)` = **+0.2154**
@@ -13495,7 +13495,7 @@ Bonferroni 到 3 个检验后证据**边缘**。**PLAUSIBLE,不是 CONFIRMED。*
    否则 n 会被虚增 30 倍(这是本轮最大的陷阱,先写下来);
 ⚠ 正对照:在格层种入 `dev × rar`;⚠ 负对照:打乱**人**(保持格结构)。
 
-## Entry 337 · `E01·A123·R382` — 格层复现了次可加,而格层的时间表已被中心化掉
+## Entry 337 · `E01·A08·R019` — 格层复现了次可加,而格层的时间表已被中心化掉
 
 ⚠⚠ 跑前写下的陷阱:147,387 行来自 13,517 人,解析 se 会把 n 虚增 11 倍 ->
 **只用「打乱人」的置换零**(400 次)。
@@ -13539,7 +13539,7 @@ Bonferroni 到 3 个检验后证据**边缘**。**PLAUSIBLE,不是 CONFIRMED。*
 ⚠ **⚠ 这仍然是人层羞耻的重排,不是「他为这一类羞耻」** —— 那需要逐类别的羞耻题,而问卷没有。
    **先写下来,免得结果一出来就把它读成后者。**
 
-## Entry 338 · `E01·A124·R383` — 稀有度解释类别层羞耻的 58%,残差是噪声底的 5 倍
+## Entry 338 · `E01·A08·R020` — 稀有度解释类别层羞耻的 58%,残差是噪声底的 5 倍
 
 ⚠⚠ 跑前写下:这是**人层羞耻的重排**,不是「他为**这一类**羞耻」——后者需要逐类别的羞耻题,问卷没有。
 
@@ -13576,7 +13576,7 @@ Bonferroni 到 3 个检验后证据**边缘**。**PLAUSIBLE,不是 CONFIRMED。*
 ⚠ ② 需要把**起始仪器的类别**对到**块仪器的块**上 —— 两套题目不相交,**没有一一对应**;
    **若对不上就如实报「② 不可算」并只做 ①③**,不要硬凑映射。
 
-## Entry 339 · `E01·A124·R384` — 那四成,这个项目现有的量一个也解释不了
+## Entry 339 · `E01·A08·R020` — 那四成,这个项目现有的量一个也解释不了
 
 ⚠ 注册时列的一项**不可算,如实报**:`#327` 的 `c3⁻` 载荷在**块**仪器上,
 起始类别与块**题目不相交**(`#303` 的 `assert`),**没有一一对应,不硬凑映射。**
@@ -13647,7 +13647,7 @@ guard 21 的边界(`#314c`)写得很清楚:**三件套齐全只说明这个零�
    所以它的效果应当小于 `humiliation` 的)—— **这一步是把「概念重叠」和「只是少了一格」分开的关键**;
 ⚠ 正对照沿用 `#383` 的种入;⚠ 这是一次**留一格**的稳健性检查,如实标注为 Closure。
 
-## Entry 341 · `E01·A124·R386` — `humiliation` 不是概念重叠;对照掉得一模一样
+## Entry 341 · `E01·A08·R020` — `humiliation` 不是概念重叠;对照掉得一模一样
 
 ⚠ **Closure(稳健性),如实标注。**
 
@@ -13689,7 +13689,7 @@ guard 21 的边界(`#314c`)写得很清楚:**三件套齐全只说明这个零�
    `corr(该题, 羞耻)` 在人层的值,并把它写进读法;
 ⚠ 31 个点 -> 置换零照旧;⚠ 正对照沿用种入。
 
-## Entry 342 · `E01·A125·R387` — 那 42% 也不是「能不能被实施」
+## Entry 342 · `E01·A08·R020` — 那 42% 也不是「能不能被实施」
 
 **`#342a` ⚠⚠ 共享方法方差先报,而它这次不成问题。**
 人层 `corr(已实践, 羞耻)` = **−0.0433** —— 两道题在人层几乎不相关,
@@ -13727,7 +13727,7 @@ guard 21 的边界(`#314c`)写得很清楚:**三件套齐全只说明这个零�
 ⚠ 正对照:合成一个**类别层真信号** -> 分半相关必须高;
 ⚠ 负对照:合成纯人层噪声 -> 分半相关必须 ≈ 0。**这一条是这条线的存亡判据,先做它。**
 
-## Entry 343 · `E01·A126·R388` — 那 42% 是类别的一个高信度性质(分半 0.90)
+## Entry 343 · `E01·A08·R020` — 那 42% 是类别的一个高信度性质(分半 0.90)
 
 **`#343a` ★★★ 存在性判据给出决定性的答案。**
 | | 分半相关(31 维残差向量,20 次) |
@@ -13805,7 +13805,7 @@ guard 21 的边界(`#314c`)写得很清楚:**三件套齐全只说明这个零�
 若对称 -> 它是一条真正的双向维度,而那也值得写。**
 ⚠ 正对照:合成一个已知单向的关系;⚠ 分半 n 减半,报 MDE。
 
-## Entry 345 · `E01·A127·R390` — `c3⁻` 上半的斜率约两倍,而两个方向都读不了
+## Entry 345 · `E01·A08·R020` — `c3⁻` 上半的斜率约两倍,而两个方向都读不了
 
 ⚠ 先排除两条已知走不通的:格层做不了(`#384` 已报不可算);
 与 `S`/`EARLY` 的交互 `#334` 已答,都是零。用**斜率**而非相关(避开全距受限)。
@@ -13842,7 +13842,7 @@ guard 21 的边界(`#314c`)写得很清楚:**三件套齐全只说明这个零�
    所以**必须同时在宽口径上重跑一次 `#334` 的三条路增量**,确认那三个数没被口径改掉;
 ⚠ 正对照沿用单向合成;⚠ guard 21 判最终的零。
 
-## Entry 346 · `E01·A127·R391` — 宽口径对 `c3` 几乎免费,而它把 `S ↔ 羞耻` 抬了 45%
+## Entry 346 · `E01·A08·R019` — 宽口径对 `c3` 几乎免费,而它把 `S ↔ 羞耻` 抬了 45%
 
 **`#346a` ① 宽口径对 `c3` 几乎是免费的。**
 | | n | `c3` 分半 \|cos\| | `c3⁻ ↔ 羞耻` | **`S ↔ 羞耻`** |
@@ -13945,7 +13945,7 @@ guard 21 的边界(`#314c`)写得很清楚:**三件套齐全只说明这个零�
 ⚠ `c3` 在宽口径下信度掉 10% -> 斜率会被额外衰减,
 **必须同时报窄口径斜率作参照臂**(`#329b`);⚠ 正对照沿用单向合成;⚠ guard 21 判最终的零。
 
-## Entry 349 · `E01·A127·R393` — 差随 n 缩小了:`c3⁻` 不是单向的,这条线关掉
+## Entry 349 · `E01·A08·R020` — 差随 n 缩小了:`c3⁻` 不是单向的,这条线关掉
 
 **`#349a` ★★ 注册的 kill 的第二支开火。**
 | 口径 | n | **差** | 2×se | MDE | 置换分位 |
@@ -13985,7 +13985,7 @@ guard 21 的边界(`#314c`)写得很清楚:**三件套齐全只说明这个零�
 可测版本:先跑 ②(它包含 ①),报宽口径下三条路的增量与三个交互的全族 p,
 **与窄口径参照臂并排**;⚠ 人群不同要写进读法;⚠ 全族阈重算,族仍是三个。
 
-## Entry 350 · `E01·A128·R394` — 那条次可加在更大也更杂的人群里更强了
+## Entry 350 · `E01·A08·R019` — 那条次可加在更大也更杂的人群里更强了
 
 ⚠ 人群不同(`#349c`):宽口径多 **1,479** 人(起始题要求 ≥5 类,所以不是 `#346a` 的 6,003)。
 ⚠ 门槛与对比全部由同一次运行的窄口径参照臂给(`#329b`)。
@@ -14093,7 +14093,7 @@ VERIFY  usage_block=1  forbidden=1  tables=2/OK  knob10_rows=1
 ⚠ 正对照:合成一个**只在一格**的效应,分解必须挑出那一格;
 ⚠ 用宽口径(`#352b` 允许:同一对象、加分辨率),**并报窄口径参照臂**。
 
-## Entry 353 · `E01·A129·R397` — 次可加不集中在角上,而九宫格也放不下它
+## Entry 353 · `E01·A08·R020` — 次可加不集中在角上,而九宫格也放不下它
 
 ⚠ 宽口径(`CALIBER.md` ⑩「可用」栏)+ 窄口径参照臂 + **两个口径是不同人群**(`#346b`)。
 
@@ -14136,7 +14136,7 @@ VERIFY  usage_block=1  forbidden=1  tables=2/OK  knob10_rows=1
 ⚠ `animated` 是 `form` 的两个指标之一(`#325`)-> **必须先报 `corr(animated, c3⁻)`**
    并把「`animated` 与预测量共享内容」写进读法;⚠ 用窄口径(这是绝对量的比较,`#352b` 禁宽口径)。
 
-## Entry 354 · `E01·A130·R398` — `animated` 好解释主要因为整体更可预测,但次级结构差得很远
+## Entry 354 · `E01·A08·R020` — `animated` 好解释主要因为整体更可预测,但次级结构差得很远
 
 ⚠ 窄口径(绝对量,`CALIBER.md` ⑩ 禁宽)。⚠ `animated` 与六坐标同源,共享方法方差不可分离;
 **报的是比例,不是「解释了什么」**。
@@ -14180,7 +14180,7 @@ VERIFY  usage_block=1  forbidden=1  tables=2/OK  knob10_rows=1
    **先写下来,免得把两者混读**;
 ⚠ 正对照:合成一个只由类别数驱动的结局;⚠ 窄口径。
 
-## Entry 355 · `E01·A130·R399` — `animated` 的解释力里 13.3% 是「你报了多少个类别」
+## Entry 355 · `E01·A08·R020` — `animated` 的解释力里 13.3% 是「你报了多少个类别」
 
 ⚠⚠ 跑前写下:**增量份额(唯一贡献)≠「扣掉后掉多少」(总贡献)**;
 `#354a` 的 17.6% 是前者,本轮 13.3% 是后者。**两个都对,读的是不同的东西。**
@@ -14215,7 +14215,7 @@ VERIFY  usage_block=1  forbidden=1  tables=2/OK  knob10_rows=1
 ⚠ 29 个结局 -> **多重性**:报分布,不挑最大的那个(`#309c` 的陷阱);
 ⚠ 正对照沿用只由类别数驱动的合成结局;⚠ 窄口径。
 
-## Entry 356 · `E01·A131·R400` — 六个坐标带着「报告广度」,遍及 29 个结局
+## Entry 356 · `E01·A08·R021` — 六个坐标带着「报告广度」,遍及 29 个结局
 
 统计量 = **共同性**(只A + 只B − 合并),即被六坐标与类别数共享的那部分。
 
@@ -14303,7 +14303,7 @@ Zenodo concept `18625140` 下两个版本(`18625141` 52.4MB · `18625249` 52.2MB
    ⚠ 我的 Likert 检测用的是 `{−3..3}` 的值域 —— **先确认我筛出的 20 个结局与它的重编码集一致**,
    不一致就说明我在一个我不理解的刻度上跑了四百轮。
 
-## Entry 356 · `E01·A131·R400` — 六个坐标解释的东西里,中位 18% 与「你报了多少」共线
+## Entry 356 · `E01·A08·R021` — 六个坐标解释的东西里,中位 18% 与「你报了多少」共线
 
 ⚠ 统计量是标准的**共同性**(commonality = 只A + 只B − 合并),**可以为负**(抑制)。
 
@@ -14350,7 +14350,7 @@ VERIFY  EN_356=1  ZH_356=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
 ⚠ 正对照沿用只由广度驱动的合成结局;⚠ 负对照沿用与广度无关的纯噪声;
 ⚠ **六个坐标 × 29 个结局 = 多重性**:报**逐坐标的分布**,不报单格(`#309c`)。
 
-## Entry 357 · `E01·A131·R401` — 广度共线在 `S` 上,不在特征向量上;而量级不是新的
+## Entry 357 · `E01·A08·R019` — 广度共线在 `S` 上,不在特征向量上;而量级不是新的
 
 ⚠ 跑前的构造预测:`S` 除以勾选数 -> 本该干净;`c1/c2/c3` 是特征向量 -> 本该脏。**结果是反的。**
 
@@ -14401,7 +14401,7 @@ VERIFY  EN_356=1  ZH_356=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
 ③ 跨**性别**与跨**当前年龄档**的顺序是否一致(时间表若是「共享」的,顺序该稳)。
 ⚠ 正对照:合成一个已知顺序的时间表;⚠ 报 31 个类别的**多重性**。
 
-## Entry 358 · `E01·A132·R402` — 那张共享时间表现在有了它自己的证据,以及一个上限
+## Entry 358 · `E01·A08·R022` — 那张共享时间表现在有了它自己的证据,以及一个上限
 
 `#120` 被 `#130` `#333c` `#336` 等十几轮引用,**而它自己的证据只有一组均值。**
 
@@ -14450,7 +14450,7 @@ VERIFY  EN_358=1  ZH_358=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
 ⚠ 正对照:人为把某一个类别的男女均值拉开,留一必须挑出它;
 ⚠ 31 个类别的多重性:报分布 + 留一曲线,不点名单格除非它明显出界。
 
-## Entry 359 · `E01·A132·R403` — 那个缺口铺在整张表上,不在几个类别里
+## Entry 359 · `E01·A08·R022` — 那个缺口铺在整张表上,不在几个类别里
 
 **`#359a` ★★ ① 秩差铺得很开。**
 **|秩差| 中位 3.0 · 均值 4.1 · 最大 13**(31 个类别)。
@@ -14486,7 +14486,7 @@ VERIFY  EN_358=1  ZH_358=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
 若不一致 -> 这个项目十轮来测的是**那一道题**,不是「羞耻」,而那要写进页面。**
 ⚠ 先报两道题的相关与各自的边际分布(一道可能极偏);⚠ guard 15:剖面像不算,给分数层。
 
-## Entry 360 · `E01·A133·R404` — 页面上那个 +0.1185,坐在一条从 +0.172 走到 −0.002 的单调曲线中间
+## Entry 360 · `E01·A08·R023` — 页面上那个 +0.1185,坐在一条从 +0.172 走到 −0.002 的单调曲线中间
 
 ⚠ **本轮起点是 L3 闸口第三次拦截**:我以为有「第二道羞耻题」,读了才发现那是 **therapeutic 判别项**
 —— 页面早写着。**而正是读页面时看到一条从没被连起来的线**(页面的 ≥16 端点 · `#346b` 的 ≥4 端点 ·
@@ -14538,7 +14538,7 @@ VERIFY  EN_360=1  ZH_360=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
 ⚠ 正对照:在同一批人上合成一个真值固定的关系,曲线必须平;
 ⚠ 负对照:`perm_finite`。
 
-## Entry 361 · `E01·A133·R405` — 这个设计跑不动,而两个判据都在退化结果上通过了
+## Entry 361 · `E01·A08·R023` — 这个设计跑不动,而两个判据都在退化结果上通过了
 
 **`#361a` ⛔ 设计在第一步就死了。**
 `cov>=16` 的 950 人里,**被 >95% 的人答过的块只有 1/32**。
@@ -14571,7 +14571,7 @@ k 只能取 1,曲线一个点,全距 0.0000 —— **那不是「平」,那是�
 ⚠ 用四例攻它(含 x 全相同、空列表);
 ⚠ **并回头把它挂到用扫描做证据的地方** —— 但**只挂,不重跑**(重跑是另一轮)。
 
-## Entry 362 · `E01·A134·R406` — guard 22:一条曲线要先证明自己是一条曲线
+## Entry 362 · `E01·A08·R023` — guard 22:一条曲线要先证明自己是一条曲线
 
 ⚠ **Closure(工具)。**
 
@@ -14605,7 +14605,7 @@ x 全相同 FAIL · 非数 FAIL · x/y 长度不一致 FAIL。守卫库现有 **
 ⚠ 29 个结局的多重性:报**分布**,不挑最大的(`#309c`);
 ⚠ guard 22:先声明这条曲线有几个点(6);⚠ 正对照沿用真值固定的合成结局。
 
-## Entry 363 · `E01·A133·R407` — 那个下降几乎只发生在羞耻上
+## Entry 363 · `E01·A08·R023` — 那个下降几乎只发生在羞耻上
 
 ⚠ guard 22 先过:这条曲线有 **6** 个点。
 
@@ -14653,7 +14653,7 @@ VERIFY  EN_363=1  ZH_363=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
 ⚠ 两者相关但不同(`#357a`:`corr(S, 勾选数) = +0.608`)-> **必须同时报两条曲线并排**;
 ⚠ guard 22 先声明点数;⚠ 正对照沿用真值固定的合成结局。
 
-## Entry 364 · `E01·A135·R408` — 偏向「说了多少」,但两个分层变量九成是同一件事
+## Entry 364 · `E01·A08·R023` — 偏向「说了多少」,但两个分层变量九成是同一件事
 
 ⚠ guard 22:两条曲线各 6 点。⚠ `corr(块覆盖, 勾选总数)` = **+0.9018**,两条曲线不是独立证据。
 
@@ -14692,7 +14692,7 @@ VERIFY  EN_363=1  ZH_363=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
    这一点必须写进读法;
 ⚠ 正对照:真值固定的合成结局在两种切法下的形状;⚠ guard 22。
 
-## Entry 365 · `E01·A135·R409` — 页面措辞不用改;而我给那个担心编的理由是错的
+## Entry 365 · `E01·A08·R023` — 页面措辞不用改;而我给那个担心编的理由是错的
 
 ⚠ guard 22:两条曲线各 6 点。
 
@@ -14735,7 +14735,7 @@ VERIFY  EN_363=1  ZH_363=1  EN_tables=7/OK  ZH_tables=7/OK  ref_mismatch=0
 ⚠ 多重性:一批量 -> 报分布 + 全族阈(`#334` 的做法);⚠ 正/负对照沿用 `#356`;
 ⚠ **`#309b` 已证明这些变量不**调节**羞耻的两条路** —— **但「不调节」与「不共线」是两件事**,先写下来。
 
-## Entry 366 · `E01·A136·R410` — `c3⁻` 那份羞耻不是独有的;而咬掉它的五个量说的是同一种人
+## Entry 366 · `E01·A08·R024` — `c3⁻` 那份羞耻不是独有的;而咬掉它的五个量说的是同一种人
 
 `#365` 的 NEXT 期待「若全部 ≈ 0 -> `c3⁻` 的那份羞耻是**独有**的」。
 **注册的 kill 反向开火。对照双双通过,所以这是 OVERTURNED,不是 UNVERIFIED。**
@@ -14797,7 +14797,7 @@ n=6,606;`c3⁻` 单独对羞耻 R² = **1.671pp**;联合共享 **+0.674pp**
 ⚠ `offset_control`:**PC1 份额的零不该是零** —— 五个变量的 PC1 天然大于 1/5,零取**置换后的谱**。
 **若一维成立,`c3⁻` 那 40% 才配拿一个名字;若不成立,页面上「同一种人」这句话要退回成五条并列的相关。**
 
-## Entry 367 · `E01·A136·R411` — 那 40% 是**一个**维度,不是二十个;而「同一种人」里有一半是我读出来的
+## Entry 367 · `E01·A08·R024` — 那 40% 是**一个**维度,不是二十个;而「同一种人」里有一半是我读出来的
 
 `#366c` 我写的是「最大的五口方向完全一致 —— 它们是同一种人」。
 **那是一个一维性主张,而我从来没测过它。** 本轮测,**五个门全过**。
@@ -14854,7 +14854,7 @@ n=6,606;`c3⁻` 单独对羞耻 R² = **1.671pp**;联合共享 **+0.674pp**
 ⚠ 正对照:合成一个「只有一端有效」的 PC1 -> 分段测必须只在那一端亮;
 ⚠ 负对照:合成一个均匀的 -> 五段必须平;⚠ 多重性:五段 -> 报曲线不报单格(`#362a` guard 22:先证明它是一条曲线)。
 
-## Entry 368 · `E01·A136·R412` — 「均匀」我报不了;而我把标签写反了,又造了一个永远不会开火的判据
+## Entry 368 · `E01·A08·R024` — 「均匀」我报不了;而我把标签写反了,又造了一个永远不会开火的判据
 
 `#367a`:共同线只解释五个量 **28.9%** 的方差,却拿走 `c3⁻` 那份羞耻的 **92%**。
 问 92% 是摊开还是集中。**答案是:这个设计答不了,而这就是本轮的答案。**
@@ -14911,7 +14911,7 @@ n=6,606;`c3⁻` 单独对羞耻 R² = **1.671pp**;联合共享 **+0.674pp**
 零取**置换 PC1 后重算交互**的分布(保住 `c3⁻` 与羞耻的关系,只打断 PC1 的配对)。
 ⚠ 并且这一次**先算 MDE 再看结果**(`#312a`):MDE 若仍 > 0.05,就不要看那个系数。
 
-## Entry 369 · `E01·A136·R413` — 换估计量,不换问题:那 92% 真的是摊在整条线上
+## Entry 369 · `E01·A08·R024` — 换估计量,不换问题:那 92% 真的是摊在整条线上
 
 `#368d` 的零死在 MDE 上(分段 0.20 vs 有意义 0.05)。
 **但 0.20 是那个估计量的极限,不是数据的极限** —— 五段各 1,322 人,
@@ -14964,7 +14964,7 @@ n=6,606;`c3⁻` 单独对羞耻 R² = **1.671pp**;联合共享 **+0.674pp**
 ⚠ 正对照:种一个真的人内次序效应;⚠ 负对照:把次序换成人内随机排列;
 ⚠ guard 22 先证明它是一条曲线;⚠ 先算 MDE 再看系数(`#369a` 已成惯例)。
 
-## Entry 370 · `E01·A137·R414` — 几乎每个人都是从普通的地方开始的
+## Entry 370 · `E01·A08·R019` — 几乎每个人都是从普通的地方开始的
 
 **⛔ `#370a` 先记一条:`#369` 的 NEXT 跑不了,而证据早就写在项目自己里。**
 我写的是「人×类别格子 + **人固定效应**」。`R382` 的 `IMPOSSIBLE` 一栏白纸黑字:
@@ -15018,7 +15018,7 @@ offset 零非退化 · guard 21 三件套齐全。**五个门全过。**
 **同一次运行里带一条窄口径参照臂**。
 ⚠ 先算新的 MDE 再看系数;⚠ 若新 MDE 仍 > 0.032,那就**说这个设计还是看不见它**,不要因为符号一致就升级。
 
-## Entry 371 · `E01·A137·R415` — 顺序是有代价的;而我的「宽口径臂」第一版根本没宽
+## Entry 371 · `E01·A08·R019` — 顺序是有代价的;而我的「宽口径臂」第一版根本没宽
 
 **`#371a` ★★ guard 25 —— 一个不移动 n 的放宽从未发生过。**
 第一版用 `S=fit_apply(...)`,而 `fit_apply` 内部**硬编码** `np.where(cv>=8, …)`。
@@ -15070,7 +15070,7 @@ guard 25(`relaxation_reached_the_population`)是 **guard 18 的同族**:
 ⚠ `offset_control`:**掉幅的零不该是零** —— 任何相关的控制都会吃掉一点,零取「加入一个与 `ord` 相关度
 相同但与羞耻无关的合成变量」后的掉幅分布;⚠ 先算 MDE 再看数(`#369a`)。
 
-## Entry 372 · `E01·A137·R416` — 那个负号有一半是「他整体就来得早」,剩下的一半这个设计看不见
+## Entry 372 · `E01·A08·R019` — 那个负号有一半是「他整体就来得早」,剩下的一半这个设计看不见
 
 ⚠ 代数检查先跑(`#331a`):`ord` 是**秩相关**,对人层单调平移不变 -> 与 `EARLY` **无恒等式**;
 实测 `corr(ord, EARLY) = +0.1661`。
@@ -15118,7 +15118,7 @@ offset 地板(**与 `ord` 相关度相同、但与羞耻无关**的合成控制)
 零取「对同样多的合成噪声列取最大相关」的分布;⚠ 多重性:报分布不报单格;
 ⚠ 先算 MDE 再看数;⚠ **L3 先跑**:数据集卡片里有没有已经写明这几题是一组的。
 
-## Entry 373 · `E01·A138·R417` — 数据集卡片描述的不是我手上这个文件
+## Entry 373 · `E01·A08·R019` — 数据集卡片描述的不是我手上这个文件
 
 `#372` 的 NEXT 要求 **L3 先跑**(读数据集自己的文档)。跑了,**然后没走到原定的问题** ——
 因为读文档的第一分钟,文档和文件就对不上了。
@@ -15164,7 +15164,7 @@ offset 地板(**与 `ord` 相关度相同、但与羞耻无关**的合成控制)
 ⚠ 负对照:拿一批**卡片没提过**的列名跑同一段解析,必须一个都不匹配;
 ⚠ `#373b` 的教训照搬:**先证明解析器能找到相符的东西,再相信它找到的不符。**
 
-## Entry 374 · `E01·A138·R418` — 卡片的**档数**过时,它的**删除**属实
+## Entry 374 · `E01·A08·R019` — 卡片的**档数**过时,它的**删除**属实
 
 `#373` 证明卡片与文件是两个对象。**那不等于卡片整份不可信** ——
 而笼统的怀疑会让一份文档变成没用的东西,所以要把怀疑切细。
@@ -15217,7 +15217,7 @@ offset 地板(**与 `ord` 相关度相同、但与羞耻无关**的合成控制)
 ⚠ **`#374b` 的教训照搬**:先证明「同一构念」的判据能在**已知同构念的一对**上开火(`animated`↔`written` 本身),
    否则它的每一个「不是」都是沉默,不是无罪。
 
-## Entry 375 · `E01·A139·R419` — 没有第三个 `form` 指标;而页面上那个 `+0.468` 是 `2r`
+## Entry 375 · `E01·A08·R024` — 没有第三个 `form` 指标;而页面上那个 `+0.468` 是 `2r`
 
 **`#375a` ★ 前 25 个候选里,同构念的:0。**
 93 个数值型人层候选,对 `form` 残差(去六坐标)求 |r|。
@@ -15262,7 +15262,7 @@ offset 地板(**与 `ord` 相关度相同、但与羞耻无关**的合成控制)
 ⚠ 抽取用正则,**而正则是子串匹配的近亲**(`#374b`)-> 抽到的每一条都要打印原文,让不匹配当场可见。
 ⚠ 这是 **Closure**,不是 Frontier:它不分离任何世界,它保护已有结论 —— **按 §0.2 明确标注,不冒充发现。**
 
-## Entry 376 · `E01·A140·R420` — 页面算术核对器:4 条全对上,而覆盖率只有 3.1%
+## Entry 376 · `E01·A08·R024` — 页面算术核对器:4 条全对上,而覆盖率只有 3.1%
 
 ⚠ **CLOSURE,不是 FRONTIER**(§0.2)。不分离世界,**保护已有结论**。明确标注,不冒充发现。
 
@@ -15305,7 +15305,7 @@ offset 地板(**与 `ord` 相关度相同、但与羞耻无关**的合成控制)
 ⚠ 这仍是 Closure 还是 Frontier?**取决于结果** —— 若第二种为真,它改的是**工作方式**,那是 ④ 能力边界的更新。
    **跑之前不知道,所以按 Frontier 走完九个门,报的时候按实际归类。**
 
-## Entry 377 · `E01·A140·R421` — 「孤立」占比随窗宽翻转;而窗宽不变的那个量回答了问题
+## Entry 377 · `E01·A08·R024` — 「孤立」占比随窗宽翻转;而窗宽不变的那个量回答了问题
 
 ⚠ **CLOSURE**(§0.2)。产出是**一个关闭的决定**,不是一个发现。
 
@@ -15352,7 +15352,7 @@ offset 地板(**与 `ord` 相关度相同、但与羞耻无关**的合成控制)
 ⚠ `offset_control`:**两性系数差的零不该是零** —— 任意两个子样本都会有差;零取**随机等大小劈分**的差分布(`#293` 已有这套)。
 ⚠ 先算 MDE 再看数;⚠ guard 22 先证明它是一条曲线(若做剂量);⚠ 读 `#296` 的 IMPOSSIBLE 栏再设计(`#376d`)。
 
-## Entry 378 · `E01·A141·R422` — `c3⁻` 那条路对男女是同一条;`EARLY` 那条差两倍,但没过族内阈
+## Entry 378 · `E01·A08·R024` — `c3⁻` 那条路对男女是同一条;`EARLY` 那条差两倍,但没过族内阈
 
 ⚠ 先读 `#296` 的 IMPOSSIBLE 栏再设计(`#376d` 的新惯例,**第一次用在设计前而不是复盘时**):
 `#296` 停在 D5 是因为**结局侧混淆**;它在 29 个结局的曲线上比,难控。
@@ -15395,7 +15395,7 @@ offset 地板(**与 `ord` 相关度相同、但与羞耻无关**的合成控制)
 ⚠ 先算新 MDE 再看数;⚠ 若新 MDE 仍 > 0.05,**就说这个设计还是看不见它**,不要因为 |t| 涨了就升级。
 ⚠ 预注册**方向**:`EARLY` 在组 0 更强 —— 宽臂若同号且越阈才算复制,**变号或未越阈都算没有**。
 
-## Entry 379 · `E01·A141·R423` — 「来得早」这条路对非生理男的人强一倍;而我的预注册门在开火的那一支上写错了
+## Entry 379 · `E01·A08·R024` — 「来得早」这条路对非生理男的人强一倍;而我的预注册门在开火的那一支上写错了
 
 **`#379a` ★ 三格同号,最宽的那格越阈。**
 | | n | 组 0 | 组 1 | 差 | \|t\| | 阈 |
@@ -15443,7 +15443,7 @@ guard 25 确认口径真的到达人群(**+89.4%**);正对照 14.228 越阈;负�
 ⚠ 秩变换会改变系数的量纲 -> **只比符号与是否越阈**,不比大小(`#293` 同族:换尺子会换掉被测的东西);
 ⚠ guard 25 仍要跑;⚠ 先读本轮的 IMPOSSIBLE 栏再设计(`#376d`)。
 
-## Entry 380 · `E01·A141·R424` — 性兴趣来得早,在非生理男的人身上带来的羞耻大约是两倍(独立确认,五门全过)
+## Entry 380 · `E01·A08·R019` — 性兴趣来得早,在非生理男的人身上带来的羞耻大约是两倍(独立确认,五门全过)
 
 `#379d④` 要求的独立确认。**换估计量,不换问题;而且每个门先标它管哪一支** ——
 `#379c` 定下的惯例,**本轮是它第一次执行**。
@@ -15494,7 +15494,7 @@ guard 25 `6,717 -> 12,720`(**+89.4%**);
 ⚠ 判据**先标支**;⚠ 若 `S` 未越阈且 MDE 不够小 -> **说「这个设计看不见」,不要说「没有」**;
 ⚠ 读 `#296` 与 `#378e` 两个 IMPOSSIBLE 栏再设计。
 
-## Entry 381 · `E01·A142·R425` — 合成正对照会让我报出这个零;真实数据上的正对照拦住了它
+## Entry 381 · `E01·A08·R019` — 合成正对照会让我报出这个零;真实数据上的正对照拦住了它
 
 **`#381a` 三条路,窄口径(`S` 需 ≥8 块),n=6,717,结局 = 组内秩变换的羞耻,族内阈 2.382:**
 | 路 | 组 0 | 组 1 | 差 | \|t\| | 角色 |
@@ -15544,7 +15544,7 @@ FAIL 的条件不是「正对照没过」,而是 **「正对照过了,但它种�
 ⚠ 并**回溯**:用它扫一遍本项目已有的正对照,看有多少是种在方便幅度上的 ——
    **这是一个可以立刻执行的自我审计,而它的结果我事前不知道**(所以它是 Frontier,不是 Closure)。
 
-## Entry 382 · `E01·A143·R426` — guard 26;4/4 的正对照种在争议幅度之上,而 3/4 被别的门补上了
+## Entry 382 · `E01·A08·R024` — guard 26;4/4 的正对照种在争议幅度之上,而 3/4 被别的门补上了
 
 **`#382a` ★ guard 26 · `positive_control_at_the_contested_magnitude`。**
 抓的**不是**「正对照失败」,而是**「正对照通过了,但它种的幅度大于争议量的幅度」** ——
@@ -15588,7 +15588,7 @@ FAIL 的条件不是「正对照没过」,而是 **「正对照过了,但它种�
 ⚠ 这是 **Closure**(保护已有机制),但 ④ 那一步是可证伪的,**若新轮次的可抽取率不是 100%,这条路也失败了**;
 ⚠ 不回溯改 208 轮(L81:标注不重写)——**旧的 1.9% 就留在账上,作为这条工艺改进的基线。**
 
-## Entry 383 · `E01·A143·R427` — 当抽取不可靠时,不要加强抽取器,要让被抽取的东西自己报告
+## Entry 383 · `E01·A08·R024` — 当抽取不可靠时,不要加强抽取器,要让被抽取的东西自己报告
 
 **`#383a` ★★ 可抽取率 1.9% -> 100%,靠的是改**接口**,不是改正则。**
 `#382b` 的审计只覆盖 4/212,原因是种植幅度在代码里形式五花八门。
@@ -15633,7 +15633,7 @@ FAIL 的条件不是「正对照没过」,而是 **「正对照过了,但它种�
    用 `c3⁻ ↔ 羞耻`(+0.129,页面上已知)当**真实数据上的**阳性参照,不要随手种 0.25;
 ⚠ 读本轮与 `#378e` 的 IMPOSSIBLE 栏再设计。
 
-## Entry 384 · `E01·A144·R428` — 羞耻改变的是你**做了什么**,不是你**相信什么**
+## Entry 384 · `E01·A08·R019` — 羞耻改变的是你**做了什么**,不是你**相信什么**
 
 三个世界,而 **A 与 B 对同一个相关预测相反的符号** —— 分离器,不是参数问题:
 **A 收缩**(能动的羞耻:他一直在试,所以相信能改)-> `羞耻↔BELIEF` **正**;
@@ -15688,7 +15688,7 @@ FAIL 的条件不是「正对照没过」,而是 **「正对照过了,但它种�
 ⚠ guard 26:**用 MDE 扫描当正对照**(`#384d` 刚立的规矩),不要单次种植;
 ⚠ 判据先标支;⚠ 读本轮 IMPOSSIBLE ④ 再设计。
 
-## Entry 385 · `E01·A145·R429` — 12 岁到的还是 20 岁到的,「越羞耻越少去碰」都一样成立
+## Entry 385 · `E01·A08·R019` — 12 岁到的还是 20 岁到的,「越羞耻越少去碰」都一样成立
 
 **`#385a` ★★ 四层全部同号、全部越阈;全距未越阈。**
 按 `EARLY` 四分层(起始中位 **12.5 / 14.7 / 16.7 / 19.9 岁**,每层 ~1,680 人):
@@ -15735,7 +15735,7 @@ FAIL 的条件不是「正对照没过」,而是 **「正对照过了,但它种�
 ⚠ `offset_control`:两题都与勾选数强相关 -> 零取控制后的置换分布;
 ⚠ guard 26 用 **MDE 扫描**;⚠ 判据先标支;⚠ 秩变换版必须同号(沿用 `#384` 的 IMPOSSIBLE ②)。
 
-## Entry 386 · `E01·A145·R430` — 让一个人觉得「这改不掉」的,是他做过什么,不是他有多羞耻
+## Entry 386 · `E01·A08·R019` — 让一个人觉得「这改不掉」的,是他做过什么,不是他有多羞耻
 
 `#385` 拿掉了「起始时间造出来的」。剩下的对手是 `#384f④` 的反向:**「做过了所以不那么羞耻」**。
 **而这个分离器不需要羞耻这个变量本身** —— `#384f①` 的自报污染不直接进入主量。
@@ -15778,7 +15778,7 @@ offset 零非退化 · 秩变换同号。**五个门全过。**
    零 = 加入一个**与 `ACTED` 相关度相同、但与 `BELIEF` 无关**的合成控制后的变化分布(`#372a` 已有这套)。
 ⚠ guard 26 用 **MDE 扫描**;⚠ 判据先标支;⚠ 秩变换版必须同号;⚠ 读 `#384f`/`#386d` 两个 IMPOSSIBLE 栏再设计。
 
-## Entry 387 · `E01·A145·R431` — 我自己刚注册的分离器,是一个恒等式
+## Entry 387 · `E01·A08·R019` — 我自己刚注册的分离器,是一个恒等式
 
 `#386` 的 NEXT:「控制 `ACTED` 后 `羞耻 → BELIEF` 应当**变正**且越阈。」**两处都错。**
 
@@ -15825,7 +15825,7 @@ offset 零非退化 · 秩变换同号。**五个门全过。**
 ⚠ `#419` 的教训照搬:**判据要先在一个已知相关物上开火**(用 `ACTED` 自己当阳性参照),
    否则它的每一个「不是」都是沉默;⚠ guard 26 用 MDE 扫描;⚠ 判据先标支。
 
-## Entry 388 · `E01·A146·R432` — 觉得「我能改」的人,是那些同时也被普通的东西打动的人
+## Entry 388 · `E01·A08·R019` — 觉得「我能改」的人,是那些同时也被普通的东西打动的人
 
 **`#388a` ★★ 扫描 112 个候选,头名与家族都越阈。**
 `BELIEF` 残差(去掉 `ACTED`·`S`·`c3⁻`·类别数·羞耻)的最大 |r| = **0.0888**(说荤话),
@@ -15863,7 +15863,7 @@ offset 零非退化 · 秩变换同号。**五个门全过。**
 ⚠ `offset_control`:块勾选率与总勾选数强相关 -> 类别数已在控制项,但要**同轮报块勾选率与 `S` 的相关**;
 ⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;⚠ **单变量零**(这是预先指定的一个量,不是挑出来的)。
 
-## Entry 389 · `E01·A146·R433` — 复制失败且**变号**;`#388a` 的家族读法退回
+## Entry 389 · `E01·A08·R019` — 复制失败且**变号**;`#388a` 的家族读法退回
 
 `#388c` 已写着「家族是看过头名之后定义的,+0.1159 是描述不是检验」。**本轮做那个欠下的复制,它失败了。**
 
@@ -15906,7 +15906,7 @@ offset 零非退化 · 秩变换同号。**五个门全过。**
    的分布(打乱人的行,整行一起打乱);
 ⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;⚠ **不许**在看过结果后把「强度」重新定义成别的东西。
 
-## Entry 390 · `E01·A146·R434` — 强度赢,广度塌;而复位的检验是预注册的
+## Entry 390 · `E01·A08·R019` — 强度赢,广度塌;而复位的检验是预注册的
 
 **`#390a` ★★ 世界 A。** `corr(强度, 广度) = −0.3723`(世界 C 的前提不成立)。
 | | 单独放 | **一起放** | 阈 |
@@ -15946,7 +15946,7 @@ guard 26 MDE 0.05 ≤ 争议 0.116。**四个门全过。**
 ⚠ 多重性:五题 -> 报**全部五个**,不挑;⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;
 ⚠ **并且这一轮不许再加新题** —— 加题就是又一次选择。
 
-## Entry 391 · `E01·A146·R435` — 是一个家族:五题各自成立,去掉任何一题都还在
+## Entry 391 · `E01·A08·R019` — 是一个家族:五题各自成立,去掉任何一题都还在
 
 **`#391a` ★★ 5/5 同号,5/5 各自越过**它自己的单变量零**。**
 +0.0901(说荤话)· +0.0853(`normalsex`)· +0.0688(口交男)· +0.0641(`cunnilingus`)· +0.0633(口交女);
@@ -15985,7 +15985,7 @@ guard 26 MDE 0.05 ≤ 争议 0.116。**四个门全过。**
 ⚠ 若五题**分散在多个簇** -> 那说明「常规」这个名字是我加的,**结论要退到「五题各自成立」**;
 ⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;⚠ **不许**看过聚类结果后重新选簇。
 
-## Entry 392 · `E01·A147·R436` — 我把整个尺度读反了;而我审计了三轮**我叫得出名字的**那个担心
+## Entry 392 · `E01·A08·R024` — 我把整个尺度读反了;而我审计了三轮**我叫得出名字的**那个担心
 
 `#391` 的 NEXT 让我去做无监督聚类。**做之前查了一件事,然后没走到聚类。**
 
@@ -16031,7 +16031,7 @@ guard 26 MDE 0.05 ≤ 争议 0.116。**四个门全过。**
 ⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;
 ⚠ **并且在这一轮里执行 `#392e` 的新规矩**:`Totalsexacts` 进模型前先打印它的取值集合、众数、与锚的相关。
 
-## Entry 393 · `E01·A147·R437` — 不是「整体不容易被唤起」的影子:控制掉它,系数几乎不动
+## Entry 393 · `E01·A08·R024` — 不是「整体不容易被唤起」的影子:控制掉它,系数几乎不动
 
 ⚠ 本轮**第一件事**是执行 `#392e` 刚立的规矩(三行,跑在建模之前):
 `Totalsexacts` 的取值集合 · 众数 · **与方向已知的锚的相关 -> 同向,方向确认**。
@@ -16074,7 +16074,7 @@ offset 地板(**与五题相关度相同、但与 `BELIEF` 无关**的合成控�
 ⚠ 然后**回溯量一件事**:这三个模式在已有轮次里被手写了多少次(`grep`),
    **那个数就是「抄一遍就是一次重新犯错的机会」的分母** —— 我事前不知道它,所以这一步是 Frontier。
 
-## Entry 394 · `E01·A148·R438` — 决定它是不是 bug 的,不是那一行,是下游有没有重掩
+## Entry 394 · `E01·A08·R024` — 决定它是不是 bug 的,不是那一行,是下游有没有重掩
 
 ⚠ **CLOSURE + 一次 FRONTIER 测量**(分母事前不知道)。
 
@@ -16122,7 +16122,7 @@ offset 地板(**与五题相关度相同、但与 `BELIEF` 无关**的合成控�
 ⚠ **用 `lib.nulls.perm_in` 构造,不手写**;⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;
 ⚠ **执行 `#392e`**:五题的合成分数进模型前,先打印取值集合、众数、与方向已知锚的相关。
 
-## Entry 395 · `E01·A149·R439` — 同一个分数,同时带来更多羞耻和更强的「我能停下来」
+## Entry 395 · `E01·A08·R019` — 同一个分数,同时带来更多羞耻和更强的「我能停下来」
 
 **`#395a` ★★ 世界 A(同源)。**
 五题 → 羞耻:原始 **+0.0827**;控制 `S`/`c3⁻`/类别数后 **+0.0657**(se 0.0126);
@@ -16168,7 +16168,7 @@ offset 零(**`lib.nulls.perm_in`**)+0.0015 ± 0.0126,95 分位 **0.0247** -> **+
 ⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;⚠ **先算代数**(`#387b` 的教训:
    若变化量 = −a×b 的恒等式,这个检验就是空的 —— **跑之前先算,不要跑完才发现**)。
 
-## Entry 396 · `E01·A149·R440` — 「加一个控制,看系数往哪走」是一整类空的分离器
+## Entry 396 · `E01·A08·R019` — 「加一个控制,看系数往哪走」是一整类空的分离器
 
 **`#396a` ★ 又一个恒等式,6 位小数全对上。**
 a = 羞耻→五题 **+0.05665**(`#395a` 已估)· b = 五题→BELIEF **+0.12574**(`#393a` 已估);
@@ -16205,7 +16205,7 @@ a = 羞耻→五题 **+0.05665**(`#395a` 已估)· b = 五题→BELIEF **+0.1257
 ⚠ 负对照用**越阈率**(`#395b`);⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;
 ⚠ **执行 `#392e`**:`c3⁻` 进模型前打印取值范围、与方向已知锚的相关(它是特征向量,**符号是任意的** —— guard 24)。
 
-## Entry 397 · `E01·A150·R441` — 「我口味偏」和「普通的东西对我没用」是两回事,各自带来羞耻
+## Entry 397 · `E01·A08·R019` — 「我口味偏」和「普通的东西对我没用」是两回事,各自带来羞耻
 
 ⚠ 两个量进模型前各自先看清楚:**`#392e`**(五题与锚相关 −0.40,方向复核)+
 **guard 24**(`c3⁻` 是特征向量,**符号任意** -> `corr(分量, 羞耻) = +0.1270`,**已锚定**)。
@@ -16251,7 +16251,7 @@ a = 羞耻→五题 **+0.05665**(`#395a` 已估)· b = 五题→BELIEF **+0.1257
 ⚠ 阳性参照必须先开火(`#419`):用**羞耻**自己(在**未去掉它**的残差上);
 ⚠ 零的构造从 `lib.nulls` 取;⚠ 负对照用越阈率;⚠ guard 26 用 MDE 扫描;⚠ 判据先标支。
 
-## Entry 398 · `E01·A151·R442` — 「治疗性」不是羞耻取反;而最像它的那个人,是能被对方带动的人
+## Entry 398 · `E01·A08·R019` — 「治疗性」不是羞耻取反;而最像它的那个人,是能被对方带动的人
 
 **`#398a` ★ 世界 B:去掉羞耻之后仍有结构。**
 残差(去掉 **羞耻**·`S`·`c3⁻`·类别数)的最大 |r| = **0.1187**,
@@ -16296,7 +16296,7 @@ guard 26(MDE 扫描 **0.08 ≤ 争议 0.119**);offset 零非退化。**五个门
 ⚠ 负对照用**越阈率**;⚠ guard 26 用 MDE 扫描;⚠ 判据先标支;
 ⚠ **并且从 `results/` 读数,不从终端读**(`#398d`)。
 
-## Entry 399 · `E01·A151·R443` — 门检验的是断言,不是我给断言起的名字
+## Entry 399 · `E01·A08·R019` — 门检验的是断言,不是我给断言起的名字
 
 **`#399a` ★★ `corr(P1, P2) = +0.0314` —— 几乎正交,而两道各自存活。**
 `P1` =「**伴侣被唤起,我也能被唤起**,即使我平常不觉得那东西色」;
@@ -16346,7 +16346,7 @@ guard 26(MDE 扫描 **0.08 ≤ 争议 0.119**);offset 零非退化。**五个门
 ⚠ `min()` 是非线性的 -> **同轮报 `min` 与 `均值` 两种构造**,若结论只在其中一种成立,那是构造在说话;
 ⚠ 零的构造从 `lib.nulls` 取;⚠ 负对照用越阈率;⚠ guard 26 用 MDE 扫描;⚠ 从 `results/` 读数。
 
-## Entry 400 · `E01·A152·R444` — 一个假设的「支持」若只来自不测它的那个构造,那不是支持
+## Entry 400 · `E01·A08·R024` — 一个假设的「支持」若只来自不测它的那个构造,那不是支持
 
 **`#400a` ⚠ UNVERIFIED,而抓住它的正是 `#399b` 预注册的「两种构造必须一致」。**
 `corr(支配, 臣服) = **−0.2256**`(负相关 -> 「两端都高」本来就罕见)
@@ -16391,7 +16391,7 @@ guard 26(MDE 扫描 **0.08 ≤ 争议 0.119**);offset 零非退化。**五个门
 ⚠ 这一轮**不要控制任何东西** —— 问的是**这些人存不存在**,不是「控制之后还存不存在」;
 ⚠ guard 26 用 MDE 扫描;⚠ 负对照用越阈率;⚠ 从 `results/` 读数;⚠ `#392e` 先看两个结局各自。
 
-## Entry 401 · `E01·A153·R445` — 既深深羞耻、又觉得这件事在治愈自己的人,有 1,790 个
+## Entry 401 · `E01·A08·R019` — 既深深羞耻、又觉得这件事在治愈自己的人,有 1,790 个
 
 ⚠ **本轮不控制任何东西** —— 问的是**这些人存不存在**,而控制会把一群真实的人变成一个残差,**残差里没有人**。
 
@@ -16436,7 +16436,7 @@ guard 26(MDE **2%** ≤ 争议 10.7%)· offset 零非退化。**四个门全过�
 ⚠ guard 24 先给 `c3⁻` 与其它特征向量坐标定向;⚠ guard 26 用 MDE 扫描;⚠ 负对照用越阈率;
 ⚠ 从 `results/` 读数;⚠ `#392e` 先看每个量各自。
 
-## Entry 402 · `E01·A153·R446` — 他们不是没有偏离,是**两边都有**
+## Entry 402 · `E01·A08·R019` — 他们不是没有偏离,是**两边都有**
 
 **`#402a` ★★ 世界 A:那群人有形状,而且形状连贯。**
 「都高」(羞耻高+疗愈高,n=**815**)vs「只羞耻」(羞耻高+疗愈低,n=**1,193**),
@@ -16490,7 +16490,7 @@ offset 零非退化(**任意两组人都有差**,零本身就有 **1.760**)· gu
    否则又是一个 `#396b` 那类**由构造保证**的结果。
 ⚠ 零的构造从 `lib.nulls` 取;⚠ 负对照用越阈率;⚠ guard 26 **显式传 branch**;⚠ 从 `results/` 读数。
 
-## Entry 403 · `E01·A153·R447` — 「两边都有」是一件事
+## Entry 403 · `E01·A08·R019` — 「两边都有」是一件事
 
 ⚠ 跑之前写下的自我防卫:`BOTH` 由**两个已各自越阈**的量组成 -> **|t| 高几乎是保证的**。
 **所以判据是「超过八个量里的最大值 6.803」,不是「越过族内阈 1.9」**(`#396b`:由构造保证 = 零比特)。
@@ -16534,7 +16534,7 @@ guard 26 **显式 `branch='non_null'`**(`#402c` 改的接口,**第一次真正�
    若发现它是恒等式,**当场停手并记下**(`#387b` 的做法)。
 ⚠ 零的构造从 `lib.nulls` 取;⚠ 负对照用越阈率;⚠ guard 26 **显式传 branch**;⚠ 从 `results/` 读数。
 
-## Entry 404 · `E01·A154·R448` — 「潜变量」这个词不能用,而理由不是它被排除了
+## Entry 404 · `E01·A08·R019` — 「潜变量」这个词不能用,而理由不是它被排除了
 
 **`#404a` ★★ 秩检查(跑之前)杀掉了一半的设计。**
 `[1, BOTH_sum, z(S), −z(五题)]` -> 秩 **3/4**,**秩亏** —— `BOTH_sum` 是两成分的**精确线性组合**,
@@ -16579,7 +16579,7 @@ guard 26:**MDE = 0.080** vs 有意义 **0.05** —— **1.6× 偏大**。
 ⚠ 比值在分母接近零时会爆炸 -> **同轮报比值与角度**(`atan2`)两种度量,若结论只在一种上成立,是度量在说话(`#444`);
 ⚠ 负对照用越阈率;⚠ guard 26 **显式传 branch**;⚠ 从 `results/` 读数;⚠ `#392e` 先看四个结局各自。
 
-## Entry 405 · `E01·A154·R449` — 「两边都有」是那群人的好描述,不是一个构念
+## Entry 405 · `E01·A08·R019` — 「两边都有」是那群人的好描述,不是一个构念
 
 **`#405a` ★★ 四个结局上的分工**不稳定**,而这是一个**有功率**的零。**
 | 结局 | `z(S)` | `−z(五题)` | 角度 |
@@ -16624,7 +16624,7 @@ guard 26 **显式 `branch`**(`#402c` 的接口,第二次使用)。
    零 = 打乱结局后重算一致性的分布;
 ⚠ 多重性:结局数 -> 报**分布**不报单格;⚠ guard 26 **显式传 branch**;⚠ 从 `results/` 读数。
 
-## Entry 406 · `E01·A155·R450` — 一个擦线的通过,加上一个偏向通过的偏差,不足以支持那句话
+## Entry 406 · `E01·A08·R019` — 一个擦线的通过,加上一个偏向通过的偏差,不足以支持那句话
 
 **`#406a` `S` 在 29 个结局里 21 个为正,一致性 **0.7241**;**
 offset 零(**打乱 `S`**,保住结局间相关)**0.5788 ± 0.0588**,95 分位 **0.6897** -> **+2.47 sd,越阈但擦线**。
@@ -16665,7 +16665,7 @@ MDE 扫描**每一级都 100%**(0.02 / 0.04 / 0.06 / 0.10)——
 ⚠ 覆盖率必须和结论一起报(`#376b`);
 ⚠ 这是 **Closure**(保护已有结论),按 §0.2 明确标注,不冒充发现。
 
-## Entry 407 · `E01·A156·R451` — 回溯审计失败了,而它自己写的 IMPOSSIBLE 预言了原因
+## Entry 407 · `E01·A08·R024` — 回溯审计失败了,而它自己写的 IMPOSSIBLE 预言了原因
 
 ⚠ **CLOSURE**(§0.2)。
 
@@ -16717,7 +16717,7 @@ MDE 扫描**每一级都 100%**(0.02 / 0.04 / 0.06 / 0.10)——
 ⚠ guard 26 **显式传 `main_quantity='discrete_count'` 与 `sweep_detection`**(本轮刚做的接口,第一次真用);
 ⚠ 负对照用越阈率;⚠ 从 `results/` 读数;⚠ `#392e` 先看题型分布。
 
-## Entry 408 · `E01·A157·R452` — 一个读起来很顺的解释,被拦在了页面外面
+## Entry 408 · `E01·A08·R024` — 一个读起来很顺的解释,被拦在了页面外面
 
 **`#408a` 世界 B:卡片的分类解释不了那 8 个反号。**
 分组由**卡片自己的 `COMPUTED COLUMNS` 一节**给出(合成量 6 · 单题 23),**不由我给出**。
@@ -16763,7 +16763,7 @@ guard 26:**MDE 60%** vs 有意义 **50%** —— 1.2× 偏大。
 ⚠ guard 26 **显式传 `main_quantity='discrete_count'` 与 `sweep_detection`**;
 ⚠ 负对照用越阈率;⚠ 从 `results/` 读数;⚠ `#392e` 先看两半各自。
 
-## Entry 409 · `E01·A158·R453` — 拆开 `S` 没有让它更像一个方向;越轨那一半反而更散
+## Entry 409 · `E01·A08·R019` — 拆开 `S` 没有让它更像一个方向;越轨那一半反而更散
 
 **`#409a` ★ 世界 B,而且这次是个**有功率**的零。**
 块的分法来自 `#327` 的载荷自助(**数据给的**)。
@@ -16810,7 +16810,7 @@ offset 零(**随机把块分成同样大小的两组**,取两半中较小者)**0
 ⚠ `offset_control`:两层的差的零不该是零 -> **随机等大小分层**;
 ⚠ guard 26 **显式传 branch**;⚠ 负对照用越阈率;⚠ 从 `results/` 读数;⚠ `#392e` 先看分层变量自己。
 
-## Entry 410 · `E01·A159·R454` — 方向偏向「需要观众」,但这个设计答不了
+## Entry 410 · `E01·A08·R024` — 方向偏向「需要观众」,但这个设计答不了
 
 **`#410a` 方向有,强度没有。**
 羞耻 -> `ACTED`,已控 `S`·`c3⁻`·类别数·**年龄**:
@@ -16842,7 +16842,7 @@ offset 零(**随机把块分成同样大小的两组**,取两半中较小者)**0
 ⚠ guard 26 **显式传 branch**;⚠ 负对照用越阈率;⚠ 从 `results/` 读数;
 ⚠ **无论结果如何,`#410c` 的混淆都要原样带进结论** —— 这一轮只解决「是不是噪声」。
 
-## Entry 411 · `E01·A159·R455` — 在从没有过性伴的人身上,羞耻几乎不压制行动
+## Entry 411 · `E01·A08·R019` — 在从没有过性伴的人身上,羞耻几乎不压制行动
 
 **`#411a` ★★ 不是噪声。三格同号,最宽的越阈。**
 | 格 | n | 从没有过 | 有过 | 差 | 阈 |
@@ -16884,7 +16884,7 @@ MDE 报成 0.08 > 实测 0.0618 -> FAIL;加密后 **0.055 ≤ 0.0618**,通过。
 ⚠ 沿用 C 格的宽口径 + 简模型 + guard 25;⚠ 预注册方向;⚠ guard 26 **显式 branch** 且**网格一开始就加密**;
 ⚠ 负对照用越阈率;⚠ 从 `results/` 读数。
 
-## Entry 412 · `E01·A159·R456` — 幻想上的分层差只有行动上的三分之一,但排除不了「自我评价」
+## Entry 412 · `E01·A08·R024` — 幻想上的分层差只有行动上的三分之一,但排除不了「自我评价」
 
 **`#412a` 三格同号,都未越阈。**
 A 窄×全 −0.0190/阈 0.0576 · B 窄×简 −0.0142/0.0582 · **C 宽×简 n=12,515 差 −0.0185/阈 0.0420**;
@@ -16926,7 +16926,7 @@ guard 26:**MDE 0.060** vs 有意义 **0.05**。
 ⚠ 两个结局的量纲不同 -> **两个都标准化后再比**,并**同轮报秩变换版**(若符号变则不报,`#384` 的做法);
 ⚠ guard 26 **显式传 branch**,网格一开始就加密;⚠ 负对照用越阈率;⚠ 从 `results/` 读数。
 
-## Entry 413 · `E01·A159·R457` — 我不是换了一个更有功率的估计量,我换了一个更没功率的
+## Entry 413 · `E01·A08·R024` — 我不是换了一个更有功率的估计量,我换了一个更没功率的
 
 **`#413a` 结果:未越阈,零也不可发布。**
 行动的分层差 **−0.0617** · 幻想的 **−0.0185** · **DiD −0.0432**(秩变换 −0.0458,**同号**);
@@ -16967,7 +16967,7 @@ guard 26 **MDE 0.080** vs 有意义 0.05 -> **零不可发布**。
 ⚠ n=31 是**类别数**不是人数 -> **n_eff 是 31**,这一条要写在最前面;
 ⚠ guard 26 **显式传 branch**;⚠ 负对照用越阈率;⚠ 从 `results/` 读数;⚠ `#392e` 先看两个量各自。
 
-## Entry 414 · `E01·A160·R458` — 类别层有一堵结构性的墙:31 个类别就是整个仪器
+## Entry 414 · `E01·A08·R019` — 类别层有一堵结构性的墙:31 个类别就是整个仪器
 
 ⚠ 跑之前按 `#396b` 查了一条腿:`corr(类别中位起始, 稀有度) = +0.3406` **已在 `#370b` 估过**,
 **所以本轮问的是残差**——「比它的稀有度所预测的更早/更晚到」。
@@ -17011,7 +17011,7 @@ offset 零(**人层打乱羞耻后重算类别均值**,精确保住类别间的�
 ⚠ 沿用 `#402a` 的八个量与族内 max-|t| 阈;⚠ guard 24 先定向;⚠ guard 26 **显式 branch**;
 ⚠ 零用**随机等大小分组**;⚠ 从 `results/` 读数。
 
-## Entry 415 · `E01·A161·R459` — 两把刀切出两组几乎不重叠的量
+## Entry 415 · `E01·A09·R025` — 两把刀切出两组几乎不重叠的量
 
 `#402a` 的刀隔离**疗愈**那一维;**本轮的刀隔离**羞耻**那一维**(都高 **815** vs 只疗愈 **1,046**)。
 
@@ -17057,7 +17057,7 @@ guard 26(**随机分组基线上种**,`#402b` 的修法;**MDE 0.20 ≤ 实测 0.
 ⚠ 沿用八个量与族内 max-|t| 阈;⚠ guard 24 先定向;⚠ guard 26 **显式 branch**,基线上种;
 ⚠ 零用**随机等大小分组**;⚠ 负对照用越阈率;⚠ 从 `results/` 读数。
 
-## Entry 416 · `E01·A162·R460` — 第三把刀是空的;而真正的交互说:两维是相加的
+## Entry 416 · `E01·A09·R025` — 第三把刀是空的;而真正的交互说:两维是相加的
 
 **`#416a` ★ ① 第三把刀的点估计是**恒等式**,实测最大偏差 **2.78e−17**。**
 三把刀都是同三个格均值的差:**`刀3 ≡ 刀2 − 刀1`,精确成立,不需要任何可加性假设。**
@@ -17097,7 +17097,7 @@ guard 26 ✅(⚠ 网格第一版又太粗,加密后 MDE 0.20 —— **`#403b` �
 ⚠ guard 24 先定向;⚠ guard 26 **显式 branch**,**基线上种,网格一开始就加密**(三次教训);
 ⚠ 负对照用越阈率;⚠ 从 `results/` 读数;⚠ 报**符号一致性**时注意它是**离散主量**(`#407c`:传 `main_quantity`)。
 
-## Entry 417 · `E01·A163·R461` — 判据测了它测的东西,而那不是我给它起的名字(第二次)
+## Entry 417 · `E01·A09·R025` — 判据测了它测的东西,而那不是我给它起的名字(第二次)
 
 **`#417a` ★★ 那一格确实与众不同,而且差得很远。**
 **都低 1,662** vs 其余三格 **3,054**,族内阈 **2.731**;**六个量越阈**:
@@ -17141,7 +17141,7 @@ guard 26 ✅(⚠ 网格第一版又太粗,加密后 MDE 0.20 —— **`#403b` �
 ⚠ 符号一致性是**离散主量** -> guard 26 传 `main_quantity='discrete_count'` + 扫描;
 ⚠ 负对照用越阈率;⚠ 从 `results/` 读数。
 
-## Entry 418 · `E01·A163·R462` — 「不羞耻也不疗愈」不是「什么都淡」
+## Entry 418 · `E01·A09·R025` — 「不羞耻也不疗愈」不是「什么都淡」
 
 ⚠ **跑之前先拆掉 NEXT 自己的两个坑**:
 **① 按羞耻定向是循环的**(页面上这些量的朝向都对着羞耻记,而「都低」格**就是按羞耻定义的**);
@@ -17183,7 +17183,7 @@ guard 26(**离散**主量,扫描 96.7%/100%…**未饱和**)✅ · offset 零非
 ⚠ 若方向是反的 -> `#316`/`#325`/`#375` 三处都要翻,和 `#392` 一样;
 ⚠ 锚用 `Totalsexacts`(方向由构造给出);⚠ 从 `results/` 读数。
 
-## Entry 419 · `E01·A164·R463` — 方向是对的;而顺手确认的是整页的羞耻方向
+## Entry 419 · `E01·A09·R026` — 方向是对的;而顺手确认的是整页的羞耻方向
 
 **`#419a` ⚠ 第一版的两个**计数**锚对 `form` **异号**。**
 `animated` ↔`Totalsexacts` **−0.0763** vs ↔`类别总数` **+0.0950**;
@@ -17231,7 +17231,7 @@ guard 26(**离散**主量,扫描 96.7%/100%…**未饱和**)✅ · offset 零非
 ⚠ 负对照用**越阈率**;⚠ guard 26 **显式传 branch**,**网格一开始就加密**;
 ⚠ **两个计数量纲不同** -> 都标准化,**只比符号与越阈**;⚠ 从 `results/` 读数。
 
-## Entry 420 · `E01·A165·R464` — 想要的种类更多,做过的事更少
+## Entry 420 · `E01·A09·R026` — 想要的种类更多,做过的事更少
 
 `#419d②` 是两个**未经检验**的相关,而**它读起来像一句关于人的话** —— 那正是最容易被当成结论的形态。
 本轮给它一个零。
@@ -17272,7 +17272,7 @@ guard 26(**离散**主量,扫描 96.7%/100%…**未饱和**)✅ · offset 零非
 ⚠ **先从代码里数出有哪些广度量**(`#374b`/`#407b`:不要 grep 一个没被标记的属性 ——
    而「哪些量是广度」**是我可以显式列出的**,所以这一步是列举,不是猜);⚠ 从 `results/` 读数。
 
-## Entry 421 · `E01·A165·R465` — 「广度」不是一个东西;而落单的那一个正是 `form` 劈开的那一个
+## Entry 421 · `E01·A09·R026` — 「广度」不是一个东西;而落单的那一个正是 `form` 劈开的那一个
 
 ⚠ 这一步是**列举**不是猜(`#407b`):五个广度量都在模型里当过控制项或主量。
 
@@ -17315,7 +17315,7 @@ guard 26(重新框定后)✅。**四门全过。**
 ⚠ **覆盖率必须和结论一起报**(`#376b`):正则找不到的不是「没问题」,是「没看」;
 ⚠ 而**修补本身**留到下一轮,因为「找出来」与「改对」是两件事,合在一轮里我会漏掉第二件。
 
-## Entry 422 · `E01·A166·R466` — 分成两步的价值,不在于拖一轮,在于第一步可以改变第二步是什么
+## Entry 422 · `E01·A09·R026` — 分成两步的价值,不在于拖一轮,在于第一步可以改变第二步是什么
 
 ⚠ **CLOSURE**(§0.2)。
 
@@ -17362,7 +17362,7 @@ guard 26(重新框定后)✅。**四门全过。**
    **要写下来,不要猜一个方向**;
 ⚠ 覆盖率与结论一起报;⚠ 从 `results/` 读数;⚠ 这是 **Closure**,明确标注。
 
-## Entry 423 · `E01·A167·R467` — 一个没被用过的变量,方向不是安全的假设,是没被检查过的假设
+## Entry 423 · `E01·A09·R027` — 一个没被用过的变量,方向不是安全的假设,是没被检查过的假设
 
 ⚠ **FRONTIER**。`#422` 的 NEXT:把可判定的存在性检查用在**方向风险**上。
 
@@ -17409,7 +17409,7 @@ guard 26(重新框定后)✅。**四门全过。**
    所以 **B 世界里要把反号列的题面打印出来**,不要只报计数;
 ⚠ 覆盖率与结论一起报;⚠ 从 `results/` 读数,不读回滚屏。
 
-## Entry 424 · `E01·A167·R468` — 这份问卷里没有一种「专精」的口味
+## Entry 424 · `E01·A09·R028` — 这份问卷里没有一种「专精」的口味
 
 ⚠ **FRONTIER**。`#423` 的 NEXT:标定 `RATING_0_5`(68 列,名单上最大的一格)。
 
@@ -17447,7 +17447,7 @@ range 从**几乎无关**到 **+0.37**,**而从不为负**。
 ⚠ 行置换必须保留缺失结构(`perm_in` 的同一条教训,`#385c`);
 ⚠ 从 `results/` 读数;⚠ 阈值先注册:**零里出现率 > 5% 即降级**。
 
-## Entry 425 · `E01·A167·R469` — 担心是真的,被量了出来,而结论扛住了
+## Entry 425 · `E01·A09·R028` — 担心是真的,被量了出来,而结论扛住了
 
 ⚠ **FRONTIER**,且**正面结果是我不欢迎的**(frontier §3)。
 `#424` 的 NEXT:「0/134 为负」会不会只是 67 列共享因子的影子?
@@ -17487,7 +17487,7 @@ C2 零里平均 r **+0.00003**。
 ⚠ 找出来与改对是两件事(`#422d`)-> 本轮**只找**,而若 B 世界里数目很小,则同轮改完;
 ⚠ 从 `results/` 读数;⚠ 覆盖率与结论一起报。
 
-## Entry 426 · `E01·A168·R470` — 边界先写,于是 24 变成 6,6 变成 1
+## Entry 426 · `E01·A09·R028` — 边界先写,于是 24 变成 6,6 变成 1
 
 ⚠ **CLOSURE**。`#425` 的 NEXT:哪些零是「逐列打乱 + 跨多列汇总」?
 
@@ -17521,7 +17521,7 @@ C2 零里平均 r **+0.00003**。
 ⚠ 预测(**写在跑之前**):破坏结局间相关会让零**更宽**,于是低离散度看起来更显著,即**偏向通过**;
 ⚠ `exec` 拼接 `R449` 会重绑它的变量名 -> **本轮的 gate 不能叫 `g`**。
 
-## Entry 427 · `E01·A168·R471` — 我在写下那条一般化的同一轮里,就把它的符号搞反了
+## Entry 427 · `E01·A09·R028` — 我在写下那条一般化的同一轮里,就把它的符号搞反了
 
 ⚠ **FRONTIER**。`#426` 的 NEXT:并排跑 `R449` 唯一在范围内的零。
 
@@ -17575,7 +17575,7 @@ C2 零里平均 r **+0.00003**。
 ⚠ 边界先写:**类别型(无序)不在范围内** —— 否则这是第五次过度指控;
 ⚠ 覆盖率与结论一起报;⚠ 从 `results/` 读数。
 
-## Entry 428 · `E01·A167·R472` — 同一个子串弱点,四次造成假指控,这次造成假释放
+## Entry 428 · `E01·A09·R028` — 同一个子串弱点,四次造成假指控,这次造成假释放
 
 ⚠ **FRONTIER**。`#427` 的 NEXT:`OTHER`,83 列,`#423a` 名单最后一格。
 
@@ -17618,7 +17618,7 @@ C2 零里平均 r **+0.00003**。
 ⚠ 一个锚只能定一个变量的方向,**不能把 extraversion 的结论迁到 openness 上**;
 ⚠ 从 `results/` 读数(本轮我又读了回滚屏,`#398d` 第二次);⚠ 覆盖率与结论一起报。
 
-## Entry 429 · `E01·A169·R473` — 两个锚是坏的,两种坏法,而都不报错
+## Entry 429 · `E01·A09·R029` — 两个锚是坏的,两种坏法,而都不报错
 
 ⚠ **FRONTIER**。`#428` 的 NEXT:定下 Big Five 与 powerlessness 的数值方向,定不下就标 UNVERIFIED。
 
@@ -17660,7 +17660,7 @@ C2 零里平均 r **+0.00003**。
    在范围内的判据是「**掉幅 >10% 且 >0**」,即**部分**解析成功,那才是有偏子样本;
 ⚠ 覆盖率与结论一起报;⚠ 从 `results/` 读数(`#398d` 我已犯两次)。
 
-## Entry 430 · `E01·A170·R474` — 那个静默的失败模式在这张表里占 0.5%,而唯一一次误用是我自己造的
+## Entry 430 · `E01·A09·R029` — 那个静默的失败模式在这张表里占 0.5%,而唯一一次误用是我自己造的
 
 ⚠ **CLOSURE**。`#429` 的 NEXT:`to_numeric(errors='coerce')` 还在哪里静默留下有偏子样本?
 
@@ -17702,7 +17702,7 @@ C2 零里平均 r **+0.00003**。
 ⚠ 边界先写:**只查本会话新建的 9 个目录**,不重审历史轮次(那是另一件事);
 ⚠ 覆盖率与结论一起报;⚠ 从 `results/` 读数。
 
-## Entry 431 · `E01·A171·R475` — 我按教训的措辞写了检查,而不是按它的目的
+## Entry 431 · `E01·A09·R029` — 我按教训的措辞写了检查,而不是按它的目的
 
 ⚠ **CLOSURE**。`#430` 的 NEXT:本会话自己新写的 9 轮有没有触犯已记教训?覆盖率 **9/9**。
 
@@ -17752,7 +17752,7 @@ C2 零里平均 r **+0.00003**。
 ⚠ 入口必须有正负对照(读到 = 记一条 · 读不到 = 抛,不得静默返回空);
 ⚠ 覆盖率与结论一起报。
 
-## Entry 432 · `E01·A172·R476` — 一条覆盖四分之三轮次的教训,本来就不可能靠记住修好
+## Entry 432 · `E01·A09·R029` — 一条覆盖四分之三轮次的教训,本来就不可能靠记住修好
 
 ⚠ **CLOSURE**。`#431` 的 NEXT:把 `#398d` 从「靠记住」搬进「靠接口」。
 
@@ -17799,7 +17799,7 @@ C2 零里平均 r **+0.00003**。
 ⚠ 四个结局 -> **多重性按族报**;⚠ 用 `lib/bounded.show`(本轮刚建);
 ⚠ 这是 **FRONTIER**,要有 KILL:**若四个系数全部 |z| < 族内阈,写「无独立贡献」并停,不追第三轮。**
 
-## Entry 433 · `E01·A173·R477` — 色情使用量多解释的,是羞耻,而且只有羞耻
+## Entry 433 · `E01·A09·R030` — 色情使用量多解释的,是羞耻,而且只有羞耻
 
 ⚠ **FRONTIER**。`#432` 的 NEXT:方法线连跑 7 轮,回到心理学。
 
@@ -17842,7 +17842,7 @@ n = **6,715** · `pornhabit` 值集 0..9 · 众数 **7** · 方向已确认(`#42
 ⚠ 中介必须报**间接效应的零**,不能只报两段系数(`#431` 的形状:测断言,不测名字);
 ⚠ 用 `lib/bounded.show`;⚠ 单位!零与观测必须同尺度(`#433a` 刚犯)。
 
-## Entry 434 · `E01·A173·R478` — 羞耻是刹车,不是传递者;而我预注册的预期也是错的
+## Entry 434 · `E01·A09·R031` — 羞耻是刹车,不是传递者;而我预注册的预期也是错的
 
 ⚠ **FRONTIER**。`#433` 的 NEXT:测那句我在同一段里发明的读法。
 **预注册预测(写在跑之前):NO_MEDIATION。结果:SUPPRESSION。**
@@ -17884,7 +17884,7 @@ a(用量->羞耻)**+0.0611** · b(羞耻->实践,控用量)**−0.0797** ·
    **所以必须至少包含一个 a<0 的量,否则这一轮是 §9 的算术陷阱。**
 ⚠ 间接项必须各自报自己的零;⚠ 用 `lib/bounded.show`;⚠ 恒等式残差每个都要报。
 
-## Entry 435 · `E01·A174·R479` — 刹车有选择,而我上一轮发布的那个份额不可估
+## Entry 435 · `E01·A09·R031` — 刹车有选择,而我上一轮发布的那个份额不可估
 
 ⚠ **FRONTIER**。`#434` 的 NEXT:抑制是 `pornhabit` 独有的还是通性?
 
@@ -17929,7 +17929,7 @@ a(用量->羞耻)**+0.0611** · b(羞耻->实践,控用量)**−0.0797** ·
    且**把原文持久化到 `results/`**(`#431c`:实质是可复查,不是打印);
 ⚠ 用 `lib/bounded.show`;⚠ 覆盖率与结论一起报。
 
-## Entry 436 · `E01·A175·R480` — 扫描看不见这个性质,因为页面写的是比值,分母的区间从来不在句子里
+## Entry 436 · `E01·A09·R032` — 扫描看不见这个性质,因为页面写的是比值,分母的区间从来不在句子里
 
 ⚠ **CLOSURE**。`#435` 的 NEXT:页面上还有别的「分子稳、分母近零」的比值吗?
 **第六次扫描类轮次,前科五次** -> 边界先写、原文打印**并持久化**。
@@ -17975,7 +17975,7 @@ a(用量->羞耻)**+0.0611** · b(羞耻->实践,控用量)**−0.0797** ·
 ⚠ 但 `#434c` 的教训是**我的预测连错两次** -> 预测写下来是为了被打死,不是为了被确认;
 ⚠ 四个结局 -> 多重性按族报;⚠ 用 `lib/bounded.show`;⚠ 若报占比,**必须走 `lib/bounded.share`**。
 
-## Entry 437 · `E01·A176·R481` — 那个指向「做得更少」的坐标,原来指的是「改不了」
+## Entry 437 · `E01·A09·R032` — 那个指向「做得更少」的坐标,原来指的是「改不了」
 
 ⚠ **FRONTIER**。`#436` 的 NEXT。**预注册预测:B,且具体预期「实践了多少」那一格活下来。**
 
@@ -18015,7 +18015,7 @@ z = −2.25 对阈 2.37,**差距只有 5%**,而阈是由 400 次置换的**最�
 ⚠ 阈的**自身不确定性**必须报(自助 400 次置换里再抽)—— 否则这一轮只是把同一个数算得更久;
 ⚠ 用 `lib/bounded.show`;⚠ 若报比值,走 `lib/bounded.share`。
 
-## Entry 438 · `E01·A176·R482` — 阈不是那个限制,设计才是
+## Entry 438 · `E01·A09·R032` — 阈不是那个限制,设计才是
 
 ⚠ **FRONTIER**。`#437` 的 NEXT:阈本身有没有比那 5% 的差距更吵?
 
@@ -18045,7 +18045,7 @@ z = −2.25 对阈 2.37,**差距只有 5%**,而阈是由 400 次置换的**最�
 ⚠ 若某族的阈算不出(结局不足 2 个),**写「不适用」,不要凑**;
 ⚠ 用 `lib/bounded.show`;⚠ 覆盖率与结论一起报;⚠ 这是 **Closure**,明确标注。
 
-## Entry 439 · `E01·A177·R483` — 他们觉得改不了,尽管唯一本该让它显得可改的那一点也为真
+## Entry 439 · `E01·A09·R033` — 他们觉得改不了,尽管唯一本该让它显得可改的那一点也为真
 
 ⚠ **FRONTIER**。**预注册预测:TWO_ROADS。**
 ⚠ **我没有执行 `#438` 的 NEXT**(纯 Closure),而是**把它压缩成本轮的 CONTROL3** ——
@@ -18093,7 +18093,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 块级系数 -> 多重性按块数报;⚠ 载荷高/低的切点是我选的 -> **必须做规格曲线,不能只报一个切点**;
 ⚠ 用 `lib/bounded.show`;⚠ 若报占比走 `lib/bounded.share`;⚠ 从 `results/` 读数。
 
-## Entry 440 · `E01·A178·R484` — 不是「你喜欢什么」,是「你的喜欢怎么分布」
+## Entry 440 · `E01·A09·R034` — 不是「你喜欢什么」,是「你的喜欢怎么分布」
 
 ⚠ **FRONTIER**。`#439` 的 NEXT:`c3⁻` 通往「改不了」的直接系数 **−0.0355** 从哪来?
 
@@ -18136,7 +18136,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 三个系数 -> 多重性用**最大值的零分布**(`#440b` 刚学到的那条,**这是它第一次被当作前置**);
 ⚠ 用 `lib/bounded.show`;⚠ 若报占比走 `lib/bounded.share`;⚠ 从 `results/` 读数。
 
-## Entry 441 · `E01·A178·R485` — 那个「形状」不是广度型,而广度型是三个里最弱的
+## Entry 441 · `E01·A09·R035` — 那个「形状」不是广度型,而广度型是三个里最弱的
 
 ⚠ **FRONTIER**。`#440` 的 NEXT:前两个特征向量是什么,它们也预测「改不了」吗?
 
@@ -18174,7 +18174,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 多重性仍用**最大值的零分布**;⚠ `c1` 仍然只报大小(锚不住这件事不会因为加控制而改变);
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数。
 
-## Entry 442 · `E01·A178·R486` — 卷入度在遮蔽这个关系,不是在制造它;而我的锚定判据判错了自己的正对照
+## Entry 442 · `E01·A09·R029` — 卷入度在遮蔽这个关系,不是在制造它;而我的锚定判据判错了自己的正对照
 
 ⚠ **FRONTIER**。`#441` 的 NEXT。**预注册预测:`c3` 活、`c2` 塌。**
 
@@ -18218,7 +18218,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 每个成分的符号已锚定,**符号必须按锚定后的方向陈述**,不能按 `np.linalg.eigh` 给的方向;
 ⚠ 门槛按**正对照**定,不凭空定(`#442b` 刚学到);⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数。
 
-## Entry 443 · `E01·A179·R487` — 「更卷入」有两种,而它们收的费不一样
+## Entry 443 · `E01·A09·R036` — 「更卷入」有两种,而它们收的费不一样
 
 ⚠ **FRONTIER**。`#442` 的 NEXT:两半转向同一侧后,后果一样吗?
 
@@ -18257,7 +18257,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 载荷要**自助区间**,不报点估;⚠ 符号在锚定后的框架里陈述;
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 命名空间冲突:**先算完载荷,再 exec `R449`**。
 
-## Entry 444 · `E01·A179·R488` — 我的判据不可能失败,而换掉它之后结论只剩一半
+## Entry 444 · `E01·A09·R037` — 我的判据不可能失败,而换掉它之后结论只剩一半
 
 ⚠ **CLOSURE**(描述,不决定)。`#443` 的 NEXT:两半各自是什么做的?
 ⚠⚠ 约束是 `R372` 自己的开头:**一个载荷排序不构成一个构念的名字**(`#201` `#202` 死于此)。**本轮不命名。**
@@ -18302,7 +18302,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 体液块的正则**一个字都不改**(改了就是新的假设);
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 命名空间冲突:载荷先算完再 exec 别的轮。
 
-## Entry 445 · `E01·A179·R489` — 20 次劈半,20 次都在
+## Entry 445 · `E01·A09·R037` — 20 次劈半,20 次都在
 
 ⚠ **FRONTIER**(其中一枝会撤掉我上一轮发布的一段)。`#444` 的 NEXT。
 
@@ -18339,7 +18339,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 报**分布**(中位 + 区间),不报单个数;⚠ 加一个**零**:随机劈半下两个**无结构**向量的相关;
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数。
 
-## Entry 446 · `E01·A180·R490` — 坐标是脆的那一半,内容是韧的那一半
+## Entry 446 · `E01·A09·R037` — 坐标是脆的那一半,内容是韧的那一半
 
 ⚠ **FRONTIER**。`#445` 的 NEXT:那个「20/20」到底压在什么上?
 
@@ -18376,7 +18376,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 报**分布**不报单值;⚠ 加一个零:随机两个二维子空间的主角分布;
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 这是 **FRONTIER**,两枝都改页面。
 
-## Entry 447 · `E01·A180·R491` — 换标签这个解释被它自己的符号否掉了
+## Entry 447 · `E01·A09·R037` — 换标签这个解释被它自己的符号否掉了
 
 ⚠ **FRONTIER**(两枝都改页面)。`#446` 的 NEXT。
 
@@ -18417,7 +18417,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 主角的奇异向量在**子空间内**有符号/旋转自由度 -> **必须锚定后再比较**(`#443b`);
 ⚠ 体液块正则**一个字不改**;⚠ 报分布不报单值;⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数。
 
-## Entry 448 · `E01·A180·R492` — 体液图样骑在较难保存的那个方向上,却照样每次都在
+## Entry 448 · `E01·A09·R037` — 体液图样骑在较难保存的那个方向上,却照样每次都在
 
 ⚠ **FRONTIER**。`#447` 的 NEXT。**预注册预测:A(稳的就是体液方向)。结果:B。**
 
@@ -18459,7 +18459,7 @@ a **−0.0273** · b **−0.0307** · c **−0.0347** · **c' −0.0355(比总�
 ⚠ 方向由构造固定 -> **不需要锚定**,这本身是绕开坐标的好处,要写下来;
 ⚠ 六块正则**一字不改**;⚠ 多重性用最大值零分布;⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数。
 
-## Entry 449 · `E01·A181·R493` — 绕开坐标要付掉三分之二的样本,而那道杠在剩下的人身上不具特异性
+## Entry 449 · `E01·A09·R037` — 绕开坐标要付掉三分之二的样本,而那道杠在剩下的人身上不具特异性
 
 ⚠ **FRONTIER**。`#448` 的 NEXT:完全不用特征向量,直接问内容。
 
@@ -18503,7 +18503,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 阈换了,**判据不能同时换**(判据仍是「最大 |b| 越 95 分位」);
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数。
 
-## Entry 450 · `E01·A181·R494` — 同一个数,两个零,相反的判决
+## Entry 450 · `E01·A09·R037` — 同一个数,两个零,相反的判决
 
 ⚠ **FRONTIER**。`#449` 的 NEXT:假对照失败是因为杠是用**错的零**建的。
 
@@ -18543,7 +18543,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
    **必须打印原文、持久化、并逐条手判**,且**先声明这是代理**;
 ⚠ 覆盖率与结论一起报;⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 这是 **Closure**。
 
-## Entry 451 · `E01·A182·R495` — 早来的东西,更像是定死的
+## Entry 451 · `E01·A09·R037` — 早来的东西,更像是定死的
 
 ⚠ **FRONTIER**。**预注册预测:A。结果:A。**
 ⚠ **具名偏离**:`#450` 的 NEXT 是页面级零族审计(**纯 Closure**,且是**第七次扫描类轮次,前科六次**)。
@@ -18580,7 +18580,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 若 `#289` 的控制在本轮口径上不可用,**写下来并停**,不要换一个近似的冒充它;
 ⚠ 两臂并报;⚠ 多重性仍用最大值零分布;⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数。
 
-## Entry 452 · `E01·A182·R496` — 读出来的两件事,比跑出来的那一件更值钱
+## Entry 452 · `E01·A09·R026` — 读出来的两件事,比跑出来的那一件更值钱
 
 ⚠ **FRONTIER**。`#451` 的 NEXT,规矩是**先读,不凭记忆重造**。
 
@@ -18620,7 +18620,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 但**判断"相符"仍是我一个人做的** -> 如实标注,并**把两列原文持久化**(`#431c`);
 ⚠ 覆盖率与结论一起报;⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 这是 **Closure**。
 
-## Entry 453 · `E01·A183·R497` — 引用审计不可机械化,而唯一真的缺陷是读出来的
+## Entry 453 · `E01·A09·R037` — 引用审计不可机械化,而唯一真的缺陷是读出来的
 
 ⚠ **CLOSURE**。`#452` 的 NEXT。**第八次扫描类轮次,前七次里六次过度指控。**
 
@@ -18661,7 +18661,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 单调性要有**零**:层标签打乱后的单调性分布;
 ⚠ 每层报 n 与 CI;⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 这是 **FRONTIER**。
 
-## Entry 454 · `E01·A182·R498` — 是一条斜坡,不是一道坎
+## Entry 454 · `E01·A09·R037` — 是一条斜坡,不是一道坎
 
 ⚠ **FRONTIER**。`#453` 的 NEXT。**换方向回到人**(扫描线已连开两轮,产出都关于仪器)。
 
@@ -18694,7 +18694,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 两条斜坡的陡度要**同尺度**比较(两个结局都已 z 化,可直接比);
 ⚠ 陡度差要有自己的零(自助人层);⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ **FRONTIER**。
 
-## Entry 455 · `E01·A182·R499` — 一个前因,两条镜像的梯度
+## Entry 455 · `E01·A09·R037` — 一个前因,两条镜像的梯度
 
 ⚠ **FRONTIER**。`#454` 的 NEXT。**一切与 `#454` 相同,只换结局** -> 形状差别不可能是方法差别。
 
@@ -18734,7 +18734,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 两臂并报(`#442a`);⚠ 单侧方向仍由既有结论事先给定,**不看数据再定**;
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 校验 HEAD 的 subject,不校验 push 的退出码(`#454`)。
 
-## Entry 456 · `E01·A182·R500` — 检验通过了,而通过得太轻松,所以它撑不起我原来那句话
+## Entry 456 · `E01·A09·R037` — 检验通过了,而通过得太轻松,所以它撑不起我原来那句话
 
 ⚠ **FRONTIER**。`#455` 的 NEXT。**预注册预测:B。结果:B**(本会话九次预测,对四次)。
 
@@ -18773,7 +18773,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
    **它的上界若很大,说明那一条不是空转** —— 这是工具的负对照;
 ⚠ 工具要有 `controls()` 自检;⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 的 subject(`#454`)。
 
-## Entry 457 · `E01·A184·R501` — 一个中介能不能出信息,三个相关系数就够了,不必跑那一轮
+## Entry 457 · `E01·A09·R038` — 一个中介能不能出信息,三个相关系数就够了,不必跑那一轮
 
 ⚠ **CLOSURE**(造仪器并校验)。`#456` 的 NEXT。
 
@@ -18814,7 +18814,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
    **写下来再跑**,否则又是一次事后才发现的空转;
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 校验 HEAD 的 subject(`#454`)。
 
-## Entry 458 · `E01·A185·R502` — 你被什么吸引、你用多少色情内容,走到羞耻就停住了
+## Entry 458 · `E01·A09·R039` — 你被什么吸引、你用多少色情内容,走到羞耻就停住了
 
 ⚠ **FRONTIER**。`#457` 的 NEXT。
 
@@ -18851,7 +18851,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 匹配会缩样本 -> **先报匹配后的 MDE**,否则「消失」可能只是没功率(`#413b`);
 ⚠ 多重性仍用最大值零分布;⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 的 subject(`#454`)。
 
-## Entry 459 · `E01·A185·R503` — 不是「答得多」,是「进过多少个不同领域」
+## Entry 459 · `E01·A09·R039` — 不是「答得多」,是「进过多少个不同领域」
 
 ⚠ **FRONTIER**。`#458` 的 NEXT。
 
@@ -18893,7 +18893,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 两者高度相关 -> **先报共线性**(VIF 或简单相关),否则「都不越」可能只是互相吃掉;
 ⚠ 多重性用最大值零分布;⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 的 subject(`#454`)。
 
-## Entry 460 · `E01·A185·R504` — 把答题行为拿去和它自己对分
+## Entry 460 · `E01·A09·R039` — 把答题行为拿去和它自己对分
 
 ⚠ **FRONTIER**。`#459` 的 NEXT。
 
@@ -18931,7 +18931,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 若锚得住,**方向必须由文献符号事先声明**(`#429a` 的做法),不看数再定;
 ⚠ 用 `lib/bounded.show`;⚠ 从 `results/` 读数;⚠ 校验 HEAD 的 subject(`#454`)。
 
-## Entry 461 · `E01·A186·R505` — 不是检验太严,是没有东西能定这个变量的哪一端是哪一端
+## Entry 461 · `E01·A09·R029` — 不是检验太严,是没有东西能定这个变量的哪一端是哪一端
 
 ⚠ **CLOSURE**。`#460` 的 NEXT:那条 UNVERIFIED 是靠**后来被否掉的**单锚判据定的。
 
@@ -18971,7 +18971,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 工具要有 `controls()` 自检(含「正对照失败时确实抛错」这一条);
 ⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 的 subject(`#454`)。
 
-## Entry 462 · `E01·A186·R506` — 把判据的正对照变成必填参数,然后拿它重跑历史
+## Entry 462 · `E01·A09·R039` — 把判据的正对照变成必填参数,然后拿它重跑历史
 
 ⚠ **CLOSURE**。`#461` 的 NEXT。
 
@@ -19015,7 +19015,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 掩码是块掩码 -> **n 会比 `#458b` 小,先报**;⚠ 多重性用最大值零分布;
 ⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 的 subject(`#454`);⚠ 跨页同步检查(`#459d`)。
 
-## Entry 463 · `E01·A187·R507` — 两个领头成分各落在一条路上,分岔的两边第一次都能点名
+## Entry 463 · `E01·A09·R040` — 两个领头成分各落在一条路上,分岔的两边第一次都能点名
 
 ⚠ **FRONTIER**。`#462` 的 NEXT。
 
@@ -19055,7 +19055,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 掩码用块掩码,**与 `c1` 那次同一口径**,否则两边不可比;
 ⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 的 subject(`#454`);⚠ 跨页同步检查(`#459d`)。
 
-## Entry 464 · `E01·A187·R508` — 我 NEXT 里的前提是反的,而查它顺手改了页面上一个名字
+## Entry 464 · `E01·A09·R040` — 我 NEXT 里的前提是反的,而查它顺手改了页面上一个名字
 
 ⚠ **CLOSURE**。`#463` 的 NEXT。⚠ **NEXT 的前提本身可疑,所以先查它**
 (`#442b` 自己的表里 `c3` 与性行为计数是 +0.46)。
@@ -19097,7 +19097,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
    `corr(c3, 性行为计数) = 0.46` 很高 -> **回归掉它会拿走很多,这不是意外,要事先写下预期**;
 ⚠ 多重性用最大值零分布;⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 的 subject;⚠ 跨页同步检查。
 
-## Entry 465 · `E01·A188·R509` — 把最强的那个可数相关物整个抽走,链子还剩八分之七
+## Entry 465 · `E01·A09·R040` — 把最强的那个可数相关物整个抽走,链子还剩八分之七
 
 ⚠ **FRONTIER**。`#464` 的 NEXT。
 
@@ -19134,7 +19134,7 @@ n 从 **6,715 掉到 2,490**(**−63%**,因为要求体液块被答过);
 ⚠ 事前算出**六个量联合能解释 `c3⁻` 多少方差**(`#465a` 的教训:先看 R²,不看单个 r);
 ⚠ 两臂并报;⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**(`#465d`);⚠ 校验 HEAD 的 subject。
 
-## Entry 466 · `E02·A189·R510` — 谴责压得住的地方它跟着稀有度,压不住的地方它脱钩
+## Entry 466 · `E02·A11·R045` — 谴责压得住的地方它跟着稀有度,压不住的地方它脱钩
 
 **新纪元 `E02`。** 单位从**人**换成**社会**(186 个 SCCS 社会)。
 起因是 Ivan 2026-08-05 的两个反例:「黑金属和吃屎都小众,一个觉得帅一个觉得羞耻」、
@@ -19181,9 +19181,9 @@ SCCS 里还有 `SCCS159 Talk about Sex` · `SCCS161 Sex Believed Dangerous` · `
 ⚠ 而 `#466c` 的共享编码者混淆对**每一对都成立**,所以两组之差比任一组的绝对值更可信:
    **混淆在两组里同向,差分把它消掉一部分。** 这是本轮唯一能绕过它的路。
 
-## Entry 467 · `E01·A188·R511` — 六个计数联合只解释三成,而扣光之后「只推羞耻」不再成立
+## Entry 467 · `E01·A09·R040` — 六个计数联合只解释三成,而扣光之后「只推羞耻」不再成立
 
-⚠ **本条原编号 `#466`、原轮次 `R510`,与 `E02·A189·R510` 撞号,已改为 `#467`/`R511`。**
+⚠ **本条原编号 `#466`、原轮次 `R510`,与 `E02·A11·R045` 撞号,已改为 `#467`/`R511`。**
 两个会话同时在这个工作目录里跑,而 §P16 的 R/A/条目号是**全局连续**的 —— **它们是地址,重号会让每一次引用变成歧义**。
 改的是**我这一份**(对方那条是 Ω 级且是 HEAD),目录用 `git mv` 不是重建(L81)。
 **⇒ 全局连续的编号在单会话下是一条规矩,在多会话下是一个需要仲裁的资源,而项目里没有仲裁。**
@@ -19226,7 +19226,7 @@ SCCS 里还有 `SCCS159 Talk about Sex` · `SCCS161 Sex Believed Dangerous` · `
 ⚠ 六个计数共线(最大 0.859)-> **主成分是对的做法**,但要报它解释了六者多少方差;
 ⚠ 两臂并报;⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**(`#465d`);⚠ 校验 HEAD 的 subject。
 
-## Entry 468 · `E01·A188·R512` — 另一个会话在同一个目录里开了一个纪元,而它落在我这条线的前提上
+## Entry 468 · `E01·A09·R040` — 另一个会话在同一个目录里开了一个纪元,而它落在我这条线的前提上
 
 ⚠ **REFLEX**(信念更新 + 地址修复;**不跑新数据**)。
 
@@ -19238,7 +19238,7 @@ SCCS 里还有 `SCCS159 Talk about Sex` · `SCCS161 Sex Believed Dangerous` · `
 **若我仍在用 `commit && push && echo pushed`,这个撞号会一直留在台账里。**
 
 **`#468b` ★★ 它落在我这条线的前提上。**
-`E02·A189·R510` 起因是 **Ivan 今天给的反例**(原话在它的 `run.py`):
+`E02·A11·R045` 起因是 **Ivan 今天给的反例**(原话在它的 `run.py`):
 「黑金属和吃屎都小众,一个觉得帅一个觉得羞耻」·「习近平一个人当皇帝很小众,为什么不羞耻」。
 186 个社会上分别取「怎么看待」与「有多常见」:
 **婚前性 ρ=+0.78(n=97,越族零)· 强奸 −0.43(n=17)· 同性 −0.36(n=34,都在零内)**;
@@ -19271,7 +19271,7 @@ SCCS 里还有 `SCCS159 Talk about Sex` · `SCCS161 Sex Believed Dangerous` · `
 ⚠ 分组按**人群勾选率**(由构造固定,不需锚定),切点做规格曲线;
 ⚠ 多重性用最大值零分布;⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 469 · `E01·A190·R513` — 被罕见的东西吸引,在几乎没人去的地方更贵
+## Entry 469 · `E01·A10·R041` — 被罕见的东西吸引,在几乎没人去的地方更贵
 
 ⚠ **FRONTIER**。`#468` 的 NEXT:在人层测 `E02`(另一会话,社会层,D4)的推论。
 
@@ -19318,7 +19318,7 @@ k = 6, 8, 10, 12, 14,再看差随 k 怎么走。
 ⚠ 两组块数相等时,噪声方向的论证(`#469d`)不再自动成立 -> **重新论证或撤下它**;
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区(`#454`/`#468a`)。
 
-## Entry 470 · `E01·A190·R514` — 方向在十种设定里活了九种,大小估不到比四倍更细
+## Entry 470 · `E01·A10·R041` — 方向在十种设定里活了九种,大小估不到比四倍更细
 
 ⚠ **FRONTIER**。`#469` 的 NEXT:那个单调可能是组大小的影子。
 
@@ -19358,7 +19358,7 @@ k = 6, 8, 10, 12, 14,再看差随 k 怎么走。
 ⚠ **这是同一问题的第三轮** -> 若本轮也判 UNVERIFIED,按 frontier §3 **换方向,不追第四轮**;
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 471 · `E01·A190·R515` — 塌陷是噪声,而这一问到此为止(第三轮,按规矩换方向)
+## Entry 471 · `E01·A10·R041` — 塌陷是噪声,而这一问到此为止(第三轮,按规矩换方向)
 
 ⚠ **FRONTIER**。`#470` 的 NEXT。⚠ **跑之前写明:第三轮,判 RANDOM_WALK 就换方向(frontier §3)。**
 
@@ -19405,7 +19405,7 @@ k=13 **+0.0536** · k=14 **+0.0610** —— **相邻的 11 与 13 都回到高�
 ⚠ 等块数 k 扫描一并跑,报**方向稳定性**而不是单个大小(`#470b` 的教训);
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 472 · `E01·A191·R516` — 人烟稀少的角落只对羞耻起作用
+## Entry 472 · `E01·A10·R041` — 人烟稀少的角落只对羞耻起作用
 
 ⚠ **FRONTIER**(换方向后的第一轮)。**预注册预测:B。结果:B**(本会话 11 次预测,对 5 次)。
 
@@ -19444,7 +19444,7 @@ k=13 **+0.0536** · k=14 **+0.0610** —— **相邻的 11 与 13 都回到高�
 ⚠ 预测写在跑之前:**我预期 A**;⚠ 等块数 k 扫描一并跑,报方向稳定性;
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 473 · `E01·A191·R517` — 门开了,而参照臂说门开错了地方
+## Entry 473 · `E01·A10·R041` — 门开了,而参照臂说门开错了地方
 
 ⚠ **FRONTIER**。`#472` 的 NEXT。**预注册预测:A。而 A 与 B 都问错了。**
 
@@ -19483,7 +19483,7 @@ k=13 **+0.0536** · k=14 **+0.0610** —— **相邻的 11 与 13 都回到高�
 ⚠ 判据是**代理**(读文本),所以只做**收窄**,判定靠手读原文并**持久化**(`#431c`);
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区;⚠ 这是 **Closure**。
 
-## Entry 474 · `E01·A192·R518` — 一次扫描可信,当且仅当它的候选集小到可以整批手读
+## Entry 474 · `E01·A10·R041` — 一次扫描可信,当且仅当它的候选集小到可以整批手读
 
 ⚠ **CLOSURE**。`#473` 的 NEXT。**第九次扫描轮次,前八次里七次过度指控。**
 
@@ -19522,7 +19522,7 @@ k=13 **+0.0536** · k=14 **+0.0610** —— **相邻的 11 与 13 都回到高�
 ⚠ 这是**单组**估计,不再是两组之差 -> **零的种类要重新命名**(不是「组间差为零」,
    是「该组内斜率为零」);⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 475 · `E01·A193·R519` — 在几乎人人都去的那几个领域里,本页赖以建立的那条关系不见了
+## Entry 475 · `E01·A10·R041` — 在几乎人人都去的那几个领域里,本页赖以建立的那条关系不见了
 
 ⚠ **FRONTIER**。`#474` 的 NEXT。
 
@@ -19561,7 +19561,7 @@ k=13 **+0.0536** · k=14 **+0.0610** —— **相邻的 11 与 13 都回到高�
 ⚠ 七条都在台账里,**从台账读原文,不从记忆写**(`#452a`/`#459a`/`#462b` 的规矩);
 ⚠ 这是 **Closure**;⚠ 用 `lib/bounded.show`;⚠ 校验 HEAD 与工作区。
 
-## Entry 476 · `E01·A194·R520` — 五比二,不是七比零;而两个例外落在不同的门类上
+## Entry 476 · `E01·A10·R041` — 五比二,不是七比零;而两个例外落在不同的门类上
 
 ⚠ **CLOSURE**。`#475` 的 NEXT。**原文从台账取,不凭记忆写**(7/7 取到)。
 
@@ -19594,7 +19594,7 @@ k=13 **+0.0536** · k=14 **+0.0610** —— **相邻的 11 与 13 都回到高�
 ⚠ n=7,分组后每组 2~5 -> **先报这个设计能不能分开两组**(MDE),否则「差不多」只是没功率;
 ⚠ 这是 **Closure**;⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 477 · `E01·A194·R521` — 我抓得住的是错得显眼的门,而危险的那种错得像真的
+## Entry 477 · `E01·A10·R041` — 我抓得住的是错得显眼的门,而危险的那种错得像真的
 
 ⚠ **CLOSURE**(确立边界 + 发货仪器)。`#476` 的 NEXT。
 
@@ -19635,7 +19635,7 @@ k=13 **+0.0536** · k=14 **+0.0610** —— **相邻的 11 与 13 都回到高�
 ⚠ 这是 `passing_kill_audit` 的**第一次真实使用** -> 它的输出要写进产物;
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 478 · `E01·A195·R522` — 一条通过了的主张,第一次带上了它的底
+## Entry 478 · `E01·A10·R041` — 一条通过了的主张,第一次带上了它的底
 
 ⚠ **CLOSURE**。`#477` 的 NEXT:用新规矩问 `#474` 那条**通过了的 KILL**。
 
@@ -19675,7 +19675,7 @@ k=10 **+0.0398 / +0.0198 / −0.0102 / −0.0602**;k=12 **+0.0755 / +0.0555 / +0
 ⚠ **通过了的 KILL 必须说出什么会让它失败**(`#477d`,现在是常规);
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 479 · `E01·A196·R523` — 那一端不是两种人的平均数
+## Entry 479 · `E01·A10·R041` — 那一端不是两种人的平均数
 
 ⚠ **FRONTIER**。`#478` 的 NEXT。
 
@@ -19717,7 +19717,7 @@ k=10 **+0.0370 / +0.0447**(0.0077)。
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 通过的 KILL 要说什么会让它失败(`#477d`);
 ⚠ 校验 HEAD 与工作区。
 
-## Entry 480 · `E01·A197·R524` — 问一个更便宜的问题,顺手撞上一个从没试过的锚
+## Entry 480 · `E01·A10·R042` — 问一个更便宜的问题,顺手撞上一个从没试过的锚
 
 ⚠ **FRONTIER**。`#479` 的 NEXT:用 `#479c`(对手越具体,分辨率要求越低)去碰 `powerlessness`。
 
@@ -19756,7 +19756,7 @@ k=10 **+0.0370 / +0.0447**(0.0077)。
 ⚠ 每个新锚住的量,**符号先验必须单独写出来并标明是否事后**(`#480c` 的教训);
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 481 · `E01·A198·R525` — 让那条推断成立的东西,正是让它无法被检验的东西
+## Entry 481 · `E01·A10·R042` — 让那条推断成立的东西,正是让它无法被检验的东西
 
 ⚠ **FRONTIER**。`#480` 的 NEXT:**锚集**从没被审过。
 
@@ -19798,7 +19798,7 @@ openness 弱正(可辩护但弱)· 其余三个 **无可辩护先验**。
 ⚠ 多重性用最大值零分布;⚠ **通过的 KILL 要说什么会让它失败**(`#477d`);
 ⚠ 用 `lib/bounded.show`;⚠ **锚串从文件读**;⚠ 校验 HEAD 与工作区。
 
-## Entry 482 · `E02·A190·R526`+`R527` — 我在 gauge 那一步查了码的方向,没查并列,于是一个数从来不是测量
+## Entry 482 · `E02·A11·R045`+`R527` — 我在 gauge 那一步查了码的方向,没查并列,于是一个数从来不是测量
 
 **FRONTIER**。SAMPLE:E02 里最承重且未被攻击的 `#466d`(能压住的行为耦合,压不住的脱钩)。
 `#466c` 当时写:共享编码者混淆**无法在此控制**。**那句话是错的,`source` 那一列证明它错。**
@@ -19857,7 +19857,7 @@ SCCS 的 10 个性变量全部来自 `broude1976cross`;`lang1998conan` 里有**�
 ⚠ 用平均秩(`#482a`);⚠ 序数筛选门槛(3–12 级)要**先写下再跑**,它是一个规格选择;
 ⚠ 报整个分布不只报分位;⚠ `broude1976cross` 的变量数若不足 15 对,**这个检验不可识别,直说**。
 
-## Entry 483 · `E02·A191·R528` — 那批编码里比它更紧的三对,全是同一个问题问了男女两遍
+## Entry 483 · `E02·A11·R045` — 那批编码里比它更紧的三对,全是同一个问题问了男女两遍
 
 **FRONTIER**。`#482` 的 NEXT 逐字执行:参照分布建在 `broude1976cross` **内部**,
 因为 `#482c` 的 0.0815 是在 `lang` 里量的,**跨源外推未被授权**。
@@ -19914,7 +19914,7 @@ kill 写的是「**九格全部**达 q95(含近重复版)→ 降级可撤」。�
 ⚠ 若分层后「构念不同」那一层不足 15 对,**直说不可识别**(`#482` 的规矩);
 ⚠ 用平均秩;⚠ 报整层分布不只报分位;⚠ 校验 HEAD 与工作区。
 
-## Entry 484 · `E02·A192·R529` — 我一直用的那个正对照门槛是我自己发明的,而参照分布就在同一张输出里
+## Entry 484 · `E02·A11·R045` — 我一直用的那个正对照门槛是我自己发明的,而参照分布就在同一张输出里
 
 ⚠ **本轮不执行 `#483` 的 NEXT,并说明为什么(frontier §3)。**
 `A190·R526` UNVERIFIED → `A190·R527` UNVERIFIED → `A191·R528` 评判 —— **三轮同一个问题**
@@ -19971,7 +19971,7 @@ spec_survival 只有 **8/14 = 57%**。**⇒ 合并斜率是成分伪影,不可�
 ⚠ 两件都必须**预注册门槛与统计量,写在跑之前**;⚠ 报整条规格曲线含反号格;
 ⚠ 精度用 **bootstrap(人层)** 不用零臂(`#484e`);⚠ 校验 HEAD 与工作区。
 
-## Entry 485 · `E02·A192·R530` — 三轮 UNVERIFIED 里有两轮是我自伤的,而这一轮的零是我的斜率看不见
+## Entry 485 · `E02·A11·R045` — 三轮 UNVERIFIED 里有两轮是我自伤的,而这一轮的零是我的斜率看不见
 
 `#484` 的 NEXT 两件,分别标注行动类型(frontier §7 规则 6):
 **① CLOSURE**(修仪器,不开新世界)· **② FRONTIER**。
@@ -20029,7 +20029,7 @@ spec_survival 只有 **8/14 = 57%**。**⇒ 合并斜率是成分伪影,不可�
 ⚠ **本轮已两轮无「关于人的话」** —— 下一轮若仍是设计,按 §0.2 必须停下来问
    这条线还在产出什么,而不是继续修仪器。
 
-## Entry 486 · `E02·A192·R531` — 换个设计形状精度提高九倍,而这一次那个零里有东西
+## Entry 486 · `E02·A11·R046` — 换个设计形状精度提高九倍,而这一次那个零里有东西
 
 `#485` 的 NEXT 逐字执行,并兑现它自己挂的 §0.2 条款。
 **行动类型:FRONTIER(时代对比)+ PRODUCTION(把 E02 存活的东西写上页面)。**
@@ -20077,7 +20077,7 @@ E02 跑了六轮,**页面上一个字也没有**(`grep '0.7966|SCCS165|Broude'` 
 ⚠ 若不可识别,**直说,并把它写进页面的「做不到什么」**,不要硬跑;
 ⚠ 门槛用 `#485a` 的新规则;⚠ 精度用年份/人层 bootstrap 不用零臂。
 
-## Entry 487 · `E02·A193·R532` — 十分之一的人算不算「看过」,取决于他被递到哪一道题
+## Entry 487 · `E02·A11·R047` — 十分之一的人算不算「看过」,取决于他被递到哪一道题
 
 `#486` 的 NEXT 是用 `porn30` 问「差距是关于人还是关于题面」。
 ⚠ **规则 ① 先跑,而它撞出一个比 NEXT 好得多的东西。**
@@ -20134,7 +20134,7 @@ E02 跑了六轮,**页面上一个字也没有**(`grep '0.7966|SCCS165|Broude'` 
 ⚠ 系数向量比较要用**同一套预测变量、同一套标准化**,并预注册距离度量;
 ⚠ 精度用人层 bootstrap;⚠ 报整条规格曲线;⚠ 门槛用 `#485a` 新规则;⚠ 校验 HEAD 与工作区。
 
-## Entry 488 · `E02·A193·R533` — 两道题挑走的人重合到 0.956,而分辨率底就在 0.954
+## Entry 488 · `E02·A11·R047` — 两道题挑走的人重合到 0.956,而分辨率底就在 0.954
 
 `#487` 的 NEXT:比较两臂的**系数向量**而不是基率。
 ⚠ 先补一个 NEXT 漏掉的世界(meta-separator):两臂不只**格式**不同,**所指对象**也不同
@@ -20189,7 +20189,7 @@ E02 跑了六轮,**页面上一个字也没有**(`grep '0.7966|SCCS165|Broude'` 
    转到 SCCS 那条仍然开着的降级(`#466c`)。
 ⚠ 先数 n 与年份再决定;⚠ 不可识别就直说,不硬跑;⚠ 门槛用 `#485a` 新规则。
 
-## Entry 489 · `E02·A194·R534` — 换机构、换话题、换施测模式,那道差距的大小几乎一样
+## Entry 489 · `E02·A11·R048` — 换机构、换话题、换施测模式,那道差距的大小几乎一样
 
 `#488` 的 NEXT:换回跨仪器(规则 ④),先按规则 ① 数 NSFG 有没有态度变量。
 
@@ -20242,7 +20242,7 @@ G4:**8/8 格同号**(两波 × 两种谴责定义 × 两种行为定义),范围 
 ⚠ 先按规则 ① 打印 `chsuppor` 的码与 n,并找出「未婚生育」的行为变量(可能不存在,先查);
 ⚠ 不可识别就直说;⚠ 门槛用 NSFG 内部参照 q95;⚠ 精度用人层 bootstrap;⚠ 校验 HEAD 与工作区。
 
-## Entry 490 · `E02·A194·R535` — 同一份问卷里只换话题,差距就动 0.90,而跨仪器只差 0.20
+## Entry 490 · `E02·A11·R049` — 同一份问卷里只换话题,差距就动 0.90,而跨仪器只差 0.20
 
 `#489` 的 NEXT。frontier §3 要求一个**正面结果我不愿意看到**的步骤 —— 这就是它,而它出来了。
 
@@ -20285,7 +20285,7 @@ kill 写的是「**三个**正对照都触发」。`chsuppor × 宗教出席 = +
 ⚠ **B 是我不愿意看到的那个**,让它出来;⚠ 先写下 `k_min` 判据再算;
 ⚠ 回溯只重述**判定的理由**,**不得追认任何结论**(`#482e`);⚠ 校验 HEAD 与工作区。
 
-## Entry 491 · `E02·A195·R536` — `#490c` 的一半是量出来的,另一半是我编的
+## Entry 491 · `E01·A10·R042` — `#490c` 的一半是量出来的,另一半是我编的
 
 **行动类型:CLOSURE**(修仪器并回溯)。⚠ 盆地自查已写在脚本头:`R527` 引入门槛 → `R530` 修它 →
 本轮修「修的那次」,**本弧第三轮以我自己的门槛为对象**。仍然做,是因为它承重:
@@ -20346,7 +20346,7 @@ kill 写的是「**三个**正对照都触发」。`chsuppor × 宗教出席 = +
 ⚠ 三对的行为基率差很多(0.205 / 0.368 / 0.609),CI 判据要带这一点;
 ⚠ 多重性用族内最大值零;⚠ 精度用人层 bootstrap;⚠ 校验 HEAD 与工作区。
 
-## Entry 492 · `E02·A196·R537` — 只把问题里的年龄从 18 改成 16,那道差距就翻了一倍
+## Entry 492 · `E02·A11·R050` — 只把问题里的年龄从 18 改成 16,那道差距就翻了一倍
 
 `#491` 的 NEXT,硬约束:**换方向,回到人。**
 
@@ -20398,7 +20398,7 @@ kill 写的是「**三个**正对照都触发」。`chsuppor × 宗教出席 = +
 ⚠ 六个点的回归几乎必然功效不足 —— **若 MDE 大于有意义量,就宣布本站点不可答并换仪器**,
    不要跑第二轮同样的东西(`#111c`);⚠ 门槛用 RULE-v3;⚠ 校验 HEAD 与工作区。
 
-## Entry 493 · `E02·A196·R538` — 跨话题那个关系是话题带的,不是人数带的
+## Entry 493 · `E02·A11·R051` — 跨话题那个关系是话题带的,不是人数带的
 
 `#492` 的 NEXT 要六点回归。⚠ 而那条 NEXT 漏了一个**功效高得多**的设计,本轮两部分**都写在跑之前**:
 **固定话题与行为、只移动「算不算谴责者」的门槛** —— **占比变了,话题没变**,
@@ -20438,7 +20438,7 @@ guard 21 三件套齐全(分位 0.4725 · MDE 0.276 · 已演示灵敏度,且 0.
 ⚠ 6 条斜率各只有 3 个点,**先算每条的 MDE 再看离散度**,不可识别就直说(`#485c` 的教训);
 ⚠ 多重性用族内最大值零;⚠ 门槛用 RULE-v3;⚠ 校验 HEAD 与工作区。
 
-## Entry 494 · `E02·A196·R539` — 三个话题往下,三个往上,而我把它们平均成了一个零
+## Entry 494 · `E02·A11·R052` — 三个话题往下,三个往上,而我把它们平均成了一个零
 
 `#493` 的 NEXT,**它指向我不愿意看到的结果,而结果出来了。**
 
@@ -20487,7 +20487,7 @@ Q 与自身零分位的比较**不需要**误差棒(它是分位检验不是区�
    ⚠ 编码必须**在看斜率之前**由**清白上下文**完成,否则就是我照着答案分组
    —— 会话约束禁止派 agent ⇒ **若不能清白编码,直说不可做,并写进页面「做不到什么」**,不硬跑。
 
-## Entry 495 · `E02·A197·R540` — 我把猜想钉住了,然后用一个坏掉的点去打它
+## Entry 495 · `E02·A11·R052` — 我把猜想钉住了,然后用一个坏掉的点去打它
 
 `#494` 的 NEXT 两件。⚠ 而 ② 有一个诚实问题必须先说破:
 **「可见痕迹」这个维度是我看过那六条斜率之后才想到的** ⇒ **它不能在那六条上被检验**
@@ -20529,7 +20529,7 @@ GSS `homosex` × 同性伴侣(`sexsex5`:男性阳性 = {2,3},女性阳性 = {1,2
 **上一版若有这道 assert 就不会发生**;⚠ 再按 RULE-v3 跑控制;⚠ 先算 MDE;
 ⚠ 若分性别后 n 不足 ⇒ 直说不可识别,**不得用合并样本凑**;⚠ 校验 HEAD 与工作区。
 
-## Entry 496 · `E02·A197·R541` — 那道 assert 抓住了它该抓的,而这次是量表的形状挡住了
+## Entry 496 · `E02·A11·R052` — 那道 assert 抓住了它该抓的,而这次是量表的形状挡住了
 
 `#495` 的 NEXT。⚠ 开头先更正我自己在 `#495` NEXT 里写反的映射:
 `sexsex5` = **伴侣**的性别(1 仅男性 · 2 男女都有 · 3 仅女性)⇒
@@ -20571,7 +20571,7 @@ NSFG 那六个话题的跨度是 **0.55–0.78**,所以它们能给出可读的�
 ⚠ 筛选阶段**不得计算任何 lnOR**(否则就看见了答案);⚠ 行为变量的配对要在筛选**之后**做;
 ⚠ 每题按规则 ① 打印码与 n;⚠ 校验 HEAD 与工作区。
 
-## Entry 497 · `E02·A198·R542` — GSS 的性态度量表整排挪不动,而猜想反而拿到了六个新话题
+## Entry 497 · `E02·A11·R052` — GSS 的性态度量表整排挪不动,而猜想反而拿到了六个新话题
 
 `#496` 的 NEXT。**行动类型:PRODUCTION**(造一份合格话题清单)。
 ⛔ **本轮不计算任何 `lnOR`**,因此**不产生关于猜想的证据、不消耗样本外点**。
@@ -20619,7 +20619,7 @@ NSFG 那六个话题的跨度是 **0.55–0.78**,所以它们能给出可读的�
    并**把这条线关掉** —— 不再为它找第七个话题(`#111c`)。
 ⚠ 判定必须逐道给出**理由**,不得只给结论;⚠ 仍**不得计算任何 lnOR**;⚠ 校验 HEAD 与工作区。
 
-## Entry 498 · `E02·A198·R543` — 0 / 6 可配,预注册触发,这条线按它自己写下的规则关闭
+## Entry 498 · `E02·A11·R053` — 0 / 6 可配,预注册触发,这条线按它自己写下的规则关闭
 
 `#497` 的 NEXT。**行动类型:PRODUCTION**(一个被关闭的决策)。⛔ 仍**未计算任何 `lnOR`**。
 
@@ -20665,7 +20665,7 @@ SCCS 的分裂(带降级)· 以及本轮这条「做不到什么」。
 (那里有逐题的性焦虑/性抑郁/性自尊,但**没有行为**,是另一种残缺)。
 ⚠ 先按规则 ① 打印候选与 n,**不可识别就直说**;⚠ 门槛用 RULE-v3;⚠ 先算 MDE;⚠ 校验 HEAD 与工作区。
 
-## Entry 499 · `E02·A199·R544` — 我造的那个「少数位置」不是 `S`,它主要是一个谴责计数
+## Entry 499 · `E02·A11·R053` — 我造的那个「少数位置」不是 `S`,它主要是一个谴责计数
 
 `#498` 的 NEXT。**先兑现它的第一条:NSFG 结构上不能测羞耻。**
 字典 3091 变量,`shame|embarrass|guilt` 只命中 `embarras`(II-4 谈避孕套会不会尴尬,工具性);
@@ -20721,7 +20721,7 @@ SHAM = 用**极端应答计数**(答 1 或 4,与内容无关)造一个假 `Smin`
    谴责定义(`#492` 用过的那套)**逐道一致**,不一致就报错停下;
 ⚠ 先算 MDE;⚠ SHAM 仍用极端应答;⚠ 门槛用 RULE-v3;⚠ 校验 HEAD 与工作区。
 
-## Entry 500 · `E02·A199·R545` — 方向统一之后它变强了,而它的名字是「严格」不是「位置」
+## Entry 500 · `E02·A11·R054` — 方向统一之后它变强了,而它的名字是「严格」不是「位置」
 
 `#499` 的 NEXT。⚠ 先做 G1 识别性,**而它改写了 NEXT 的一半**:
 剔除中间档后 `C + P = n_answered`,实测 `corr(C+P, n) = +1.000000` ⇒
@@ -20769,7 +20769,7 @@ SHAM = 用**极端应答计数**(答 1 或 4,与内容无关)造一个假 `Smin`
 ⚠ 子集划分**必须写在跑之前**并给理由;⚠ 两个子集的题数不同 ⇒ **先算各自的 MDE**;
 ⚠ SHAM 仍用极端应答;⚠ 门槛用 RULE-v3;⚠ 校验 HEAD 与工作区。
 
-## Entry 501 · `E02·A200·R546` — 对性的严格和对婚姻的严格,是两把不同的尺子
+## Entry 501 · `E02·A11·R054` — 对性的严格和对婚姻的严格,是两把不同的尺子
 
 `#500` 的 NEXT。划分与理由写在跑之前:**性规范 3 道**(`samesex` · `sxok16` · `sxok18`)·
 **家庭规范 5 道**(`staytog` · `chsuppor` · `okcohab` · `chcohab` · `gayadopt`);行为同样分域。
@@ -20813,7 +20813,7 @@ NSFG 无羞耻变量 · 只有女性卷 ⇒ 男性未知 · 未派对抗 agent �
 ⚠ **B 是我不愿意看到的那个** —— 让它出来;⚠ 聚类必须**先写死方法与簇数判据**再跑;
 ⚠ 首成分若只是「整体严格度」,那本身就是答案的一部分,要照报;⚠ 校验 HEAD 与工作区。
 
-## Entry 502 · `E02·A200·R547` — 数据把同性归到家庭那边,把离婚归到性那边
+## Entry 502 · `E02·A11·R054` — 数据把同性归到家庭那边,把离婚归到性那边
 
 `#501` 的 NEXT,**它指向我不愿意看到的结果**。方法与判据写在跑之前
 (前两个主成分 · 按 PC2 符号分簇 · ≥7/8 同意 / ≤5/8 不同意 / 6/8 两可 · 载荷劈半稳定性)。
@@ -20865,7 +20865,7 @@ B 簇 = `samesex` · `okcohab` · `chcohab` · `gayadopt` · `chsuppor`(**什么
 ⚠ **B 是我不愿意看到的那个**(它会撤掉我刚写上页面的那句话)—— 让它出来;
 ⚠ 簇的定义**已在本轮固定**,不得因结果调整;⚠ 每个系数各算 MDE;⚠ 校验 HEAD 与工作区。
 
-## Entry 503 · `E02·A200·R547b` — `#502d` 说页面已改,而页面没改;这是 `#347` 那一类,第二次
+## Entry 503 · `E02·A11·R054` — `#502d` 说页面已改,而页面没改;这是 `#347` 那一类,第二次
 
 ⛔ **更正 `#502d`。** 它写「页面两语已改为…核实 `EN=1 ZH=1`」——**两句都是假的**。
 写页面的那个 Python heredoc 里有一个**未加三引号的多行字符串** -> `SyntaxError` -> **一个字都没写进去**;
@@ -20898,7 +20898,7 @@ B 簇 = `samesex` · `okcohab` · `chcohab` · `gayadopt` · `chsuppor`(**什么
 **NEXT**:不变 —— 仍是 `#502` 注册的那条(用数据的 A/B 簇重跑 `R546`,问同域主导票是否更高;
 不更高就撤回 `#502b` 的解读)。**本轮不改路标,只修地面。**
 
-## Entry 504 · `E02·A200·R548` — 态度在脑子里怎么相关,和它们怎么落到行为上,不是同一条轴
+## Entry 504 · `E02·A11·R054` — 态度在脑子里怎么相关,和它们怎么落到行为上,不是同一条轴
 
 `#502` 的 NEXT,**它指向我不愿意看到的结果,而结果出来了**。
 簇的定义在 `#502a` 已固定,本轮**未作任何调整**;估计量与判据与 `R546` **完全相同**,只换域的定义。
@@ -20943,7 +20943,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
    **必须用劈半:在一半人上划域,在另一半人上检验**,这一条写在跑之前;
 ⚠ 劈半后每格 n 减半 ⇒ **先算 MDE**,不够就直说不可识别;⚠ 校验 HEAD 与工作区。
 
-## Entry 505 · `E02·A200·R549` — 三次随机劈半给出三种划法,而我的脚本把平局判成了胜利
+## Entry 505 · `E02·A11·R054` — 三次随机劈半给出三种划法,而我的脚本把平局判成了胜利
 
 `#504` 的 NEXT。循环风险的处理写在跑之前:**H1 划域,H2 检验,两半人不重叠**;
 并且**我的划法也在同一个 H2 上评分** —— 否则是拿半样本分数比全样本分数。
@@ -20990,7 +20990,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 ⚠ **B 是我不愿意看到的那个**(它会动到 E01 的核心之一)—— 让它出来;
 ⚠ 用 `#482a` 的平均秩;⚠ 劈半后先算 MDE;⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 506 · `E01·A201·R550` — `c3` 三次劈半给出同一个答案,而 `R549` 的分组给出三个
+## Entry 506 · `E01·A10·R043` — `c3` 三次劈半给出同一个答案,而 `R549` 的分组给出三个
 
 `#505` 的 NEXT。**行动类型:CLOSURE**(对已在页面上的方向做稳定性审计)。
 ⚠ 这**不是**规则 ③ 禁止的「第四个候选」——它不为那 42% 提出任何解释,
@@ -21032,7 +21032,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 ⚠ 加抽的代价是 `loadings()` 每次要重算 32×32 相关矩阵 -> **先量一次单抽耗时再定抽数**(§P2/§P7);
 ⚠ 页面与账本仍分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 507 · `E01·A201·R551` — 底加到六十抽之后,`c3` 通过了;而三抽的那个底原来偏严
+## Entry 507 · `E01·A10·R043` — 底加到六十抽之后,`c3` 通过了;而三抽的那个底原来偏严
 
 `#506` 的 NEXT。**行动类型:CLOSURE**(方法债)。§P7:**先量单抽 0.14s**,再定抽数(60+40 ≈ 0.2 分钟)。
 
@@ -21071,7 +21071,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 **若有,那一轮的判定理由要重述(`#482e`:不得追认结论)。**
 ⚠ 逐个报「旧门槛 / 新门槛 / 判定是否翻」,**全格公布**;⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 508 · `E01·A201·R552` — 三轮里两轮的门槛本身不可判,而 RULE-v3 三轮全过
+## Entry 508 · `E01·A10·R043` — 三轮里两轮的门槛本身不可判,而 RULE-v3 三轮全过
 
 `#507` 的 NEXT。**行动类型:CLOSURE**。⛔ **未重跑任何一轮**,只重算门槛;
 参照分布从各轮 JSON 原样读出,不改动(改了就不是「只重算门槛」)。
@@ -21115,7 +21115,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 ⚠ **B 是我不愿意看到的那个**(它会削弱我刚立的 RULE-v3)—— 让它出来;
 ⚠ 只用 `R529` 的 12 个(k 最大,唯一够做子抽的);⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 509 · `E01·A201·R553` — 换掉几个参照变量,门槛动得比重抽同一批还少
+## Entry 509 · `E01·A10·R043` — 换掉几个参照变量,门槛动得比重抽同一批还少
 
 `#508` 的 NEXT。**行动类型:CLOSURE**。⛔ 混淆写在跑之前:**留一同时改变 k**,
 而 q95 的行为本身依赖 k ⇒ **固定 k' 后再把「无放回子集」与「有放回重抽」比**,k 被扣住。
@@ -21156,7 +21156,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 ⚠ 池子的定义(与性无关 / 级数 / n)**必须写在跑之前**,否则又是我在挑;
 ⚠ 先按规则 ① 打印池子大小与前若干个变量名;⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 510 · `E01·A201·R554` — 从一百零九个变量的池子里随机抽参照,门槛几乎不动
+## Entry 510 · `E01·A10·R043` — 从一百零九个变量的池子里随机抽参照,门槛几乎不动
 
 `#509` 的 NEXT。**行动类型:CLOSURE**。池子定义**写在跑之前**,「与性无关」用**预先声明的正则**
 做成机械筛(性/道德/宗教/政治态度词表),不是我逐个挑。§P7:先量 2 列耗时,再定 `POOL_CAP=300`。
@@ -21248,7 +21248,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 ⚠ 这是 CLOSURE(仪器),不是新发现;⚠ 抓数的正则**先在已知答案上做正对照**(`#489a` 的教训);
 ⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 512 · `E01·A203·R556` — 全页核对第一次做了,页面上有两个数在整个仓库里没有出处
+## Entry 512 · `E01·A10·R043` — 全页核对第一次做了,页面上有两个数在整个仓库里没有出处
 
 `#511` 的 NEXT。**行动类型:CLOSURE**(仪器)。本项目已两次发生「页面说的与账本说的不同」
 (`#347` · `#502d`),而**从未做过一次全页核对**。
@@ -21349,7 +21349,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 ⚠ 一个数可能在账本里出现多次 ⇒ **任一处被限定就入清单**,并报出全部出现次数;
 ⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 514 · `E01·A203·R558` — 我预注册的那个清单被 `0.0` 淹了,而一个数得先能定位才谈得上审计
+## Entry 514 · `E01·A10·R043` — 我预注册的那个清单被 `0.0` 淹了,而一个数得先能定位才谈得上审计
 
 `#513` 的 NEXT。**行动类型:CLOSURE**(仪器)。把审计从「数在不在」升级为「数旁边的话是不是撤回」。
 
@@ -21394,7 +21394,7 @@ PC2 是**态度之间怎么相关**;域检验问的是**态度怎么落到行为
 ⚠ 排序规则写在跑之前;⚠ 前 10 条**逐条给出页面原文与账本原文**,让判断可复核;
 ⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 515 · `E01·A203·R559` — 前十条全是误报,而页面比我的审计器更会自我更正
+## Entry 515 · `E01·A10·R043` — 前十条全是误报,而页面比我的审计器更会自我更正
 
 `#514` 的 NEXT。**行动类型:CLOSURE**。排序规则**写在跑之前**
 (`+3` 人话小节 · `+2` 粗体 · `+1` 同段含 CI/MDE · `+1`/处上限 `+2`),
@@ -21441,7 +21441,7 @@ kill 写的是「10 条全是误报 -> 改为只审**页面结论句**里的数,
 ⚠ 引用链要顺着账本里 `#NNN` 的**交叉引用**走,不能只看相邻文本(`#515b` 的教训);
 ⚠ 排除 `A203_` 自身的条目(`#515c`);⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 516 · `E01·A204·R560` — 四轮同一个故事:一个数不是一个标识符。这条线关闭
+## Entry 516 · `E01·A10·R044` — 四轮同一个故事:一个数不是一个标识符。这条线关闭
 
 `#515` 的 NEXT。**行动类型:CLOSURE**。⛔ **判定 OVERTURNED —— 阴性对照当场判它空转。**
 
@@ -21492,7 +21492,7 @@ kill 写的是「10 条全是误报 -> 改为只审**页面结论句**里的数,
    要从**一个猜测**升级为**一个数**。
 ⚠ 先打印前置题与 n(规则 ①);⚠ 不可识别就直说;⚠ 门槛用 RULE-v3;⚠ 页面与账本分两次调用。
 
-## Entry 517 · `E02·A205·R561` — 那道题只问「曾有过」的人,所以那四格是对结局取条件
+## Entry 517 · `E02·A12·R055` — 那道题只问「曾有过」的人,所以那四格是对结局取条件
 
 `#516` 的 NEXT,回到对象。`#489d②` 把 NSFG 那四格较弱的结果记为「**可能**来自筛选」——
 **一个猜测,而筛选本身从未被查过。** 本轮查了。
@@ -21539,7 +21539,7 @@ kill 写的是「10 条全是误报 -> 改为只审**页面结论句**里的数,
 ⚠ **只重述格数与范围,不重跑**(`#508` 的做法);⚠ 逐个报「原格数 / 可采信格数 / 范围是否变」;
 ⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 518 · `E02·A205·R562` — 我的正对照用一个常数去比一张跨两波的网格,正是它要查的那个错
+## Entry 518 · `E02·A12·R055` — 我的正对照用一个常数去比一张跨两波的网格,正是它要查的那个错
 
 `#517` 的 NEXT。**行动类型:CLOSURE**。⛔ **判定 UNVERIFIED —— 正对照失败,而失败方式是自指的。**
 
@@ -21586,7 +21586,7 @@ kill 写的是「10 条全是误报 -> 改为只审**页面结论句**里的数,
    前者过、后者报错,**两个都对了这个守卫才算能用**;
 ⚠ 页面本轮**不动**;⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 519 · `E02·A205·R563` — 判据第三次错在同一个地方,而守卫两个对照都对了
+## Entry 519 · `E02·A12·R055` — 判据第三次错在同一个地方,而守卫两个对照都对了
 
 `#518` 的 NEXT 两件。**行动类型:CLOSURE**。
 ⚠ `#518` 已预注册:「**若第二次仍不过,停止,按盆地规则换方向**」——**它没过,我停。**
@@ -21626,7 +21626,7 @@ kill 写的是「10 条全是误报 -> 改为只审**页面结论句**里的数,
 ⚠ 守卫必须**能失败**:在一个手工构造的、带 `inclusion` 的假产物上 PASS,在真产物上 FAIL;
 ⚠ **不改任何既有轮次的产物**(那是重跑,不是本轮范围);⚠ 页面不动;⚠ 校验 HEAD 与工作区。
 
-## Entry 520 · `E01·A206·R564` — 产物要记的不只是 n,还有「这一格由哪些条件共同定义」
+## Entry 520 · `E02·A12·R055` — 产物要记的不只是 n,还有「这一格由哪些条件共同定义」
 
 `#519` 的 NEXT。**行动类型:PRODUCTION/仪器**(造一条新要求),**不是新实验**,如实标注。
 
@@ -21669,7 +21669,7 @@ kill 写的是「10 条全是误报 -> 改为只审**页面结论句**里的数,
 ⚠ 若没有第二个来源 -> **直说 `#466d` 在 SCCS 上结构性不可检验**,写进页面「做不到什么」,
    并**把 E02 的 SCCS 线正式关闭**;⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 521 · `E02·A207·R565` — 唯一同时编了同一实践态度与频率的来源,就是那个有问题的来源
+## Entry 521 · `E02·A12·R056` — 唯一同时编了同一实践态度与频率的来源,就是那个有问题的来源
 
 `#520` 的 NEXT,硬约束回到对象。**行动类型:CLOSURE**(识别性检查,不做实验)。
 
@@ -21713,7 +21713,7 @@ kill 写的是「10 条全是误报 -> 改为只审**页面结论句**里的数,
 若**有**,那是本项目第一次拿到「偏好 × 羞耻近邻」的第二份仪器。
 ⚠ 先 `ls -l` 与 `unzip -l` 量大小(§P2);⚠ 不可识别就直说;⚠ 页面与账本分两次调用。
 
-## Entry 522 · `E02·A208·R566` — 四份仪器,一份问偏好,一份问羞耻,没有一份两样都问
+## Entry 522 · `E02·A12·R056` — 四份仪器,一份问偏好,一份问羞耻,没有一份两样都问
 
 `#521` 的 NEXT。**行动类型:CLOSURE**(识别性检查)。§P2 先量:zip 772 KB,解出 3.5 MB,两个文件。
 
@@ -21762,7 +21762,7 @@ NSFG 跨机构 4/4 格 −1.22…−1.41 · 18→16 岁那一格 · 跨话题 +0
 ⚠ 写完后用 `#512` 的全页核对器跑一遍**新写的那一段**(它已被证明只能证伪,但对**新增文本**够用);
 ⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 523 · `E02·A209·R567` — 把 E02 的账写成页面上的一段,一个新数字也没有引入
+## Entry 523 · `E02·A12·R057` — 把 E02 的账写成页面上的一段,一个新数字也没有引入
 
 `#522` 的 NEXT。**行动类型:PRODUCTION**(把已在册的东西搬上页面),**不是新实验**。
 
@@ -21803,7 +21803,7 @@ NSFG 跨机构 4/4 格 −1.22…−1.41 · 18→16 岁那一格 · 跨话题 +0
 ⚠ 锚一旦写错就是新的谎言源(`#516d` 已写下)⇒ **检查必须先在一个故意写错的锚上报错**;
 ⚠ 只动新增那一段,不动全页;⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 524 · `E02·A209·R568` — 锚落地了,而它是和一个能失败的检查一起落地的
+## Entry 524 · `E02·A12·R057` — 锚落地了,而它是和一个能失败的检查一起落地的
 
 `#523` 的 NEXT。**行动类型:PRODUCTION/仪器**。
 `#516d` 提出「给承重断言加显式来源锚」时,**同一句里就写下了它的代价**:
@@ -21847,7 +21847,7 @@ NSFG 跨机构 4/4 格 −1.22…−1.41 · 18→16 岁那一格 · 跨话题 +0
 ⚠ 而第一个洞(语义正确性)**结构上不可自动验**,已记入 IMPOSSIBLE,不再追;
 ⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 525 · `E02·A209·R569` — 我给几乎每个 R 新开一个 A,而两条循环还在独立铸造同一批 A 号
+## Entry 525 · `E02·A12·R057` — 我给几乎每个 R 新开一个 A,而两条循环还在独立铸造同一批 A 号
 
 Ivan 直接指出:「**A 为什么回到 209**」「**你就应该是多个操作一起算一轮啊**」。
 ⚠ **第一句我一开始读反了。** `A209` 出现两次**不是回退,那正是规则** ——
@@ -21870,11 +21870,11 @@ Ivan 直接指出:「**A 为什么回到 209**」「**你就应该是多个操�
 `A190` · `A191` · `A192` · `A193` · `A194` · `A196` · `A197` · `A198` —— **八个号各有两个 A**,
 一个在 E01(并发会话的循环),一个在 E02(我这条线)。
 ⚠ 而 `#P16` 明写 **A 是全项目连续的,不按 E 重置**(Ivan 2026-08-03 为此说过两次)。
-⇒ **`E02·A196·R537` 与 `E01·A196·…` 是两个不同的东西,而它们的地址一样。**
+⇒ **`E02·A11·R050` 与 `E01·A196·…` 是两个不同的东西,而它们的地址一样。**
 **引用因此不再唯一 —— 这正是 `#516c` 那条「一个数不是一个标识符」的同型问题,换到了地址上。**
 
 **`#525d` 不回溯重编号,理由写在这里(L81)。**
-账本里已发布的条目引用了这些 id(`#500` 引 `E02·A199·R545` 等);
+账本里已发布的条目引用了这些 id(`#500` 引 `E02·A11·R054` 等);
 **改目录名会让已发布的引用指空**,而那比撞号更糟。
 ⇒ **规则改为向前生效:我的下一个 A 从 `A210` 起,并且在铸号前先 `ls -d E0*/A*` 取全项目最大号。**
 ⚠ 而**并发会话不受我约束** —— 只要两条循环同时跑,撞号就会继续。
@@ -21895,11 +21895,11 @@ Ivan 直接指出:「**A 为什么回到 209**」「**你就应该是多个操�
 ③ 在篡改上报错 ④ 把「锚只能证伪」写进页面的方法说明。
 ⚠ 铸号前先 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验 HEAD 与工作区。
 
-## Entry 526 · `E02·A210·R570` — 一个错的锚,有多大概率照样通过?数字锚 13.4%,短语锚 0
+## Entry 526 · `E02·A12·R058` — 一个错的锚,有多大概率照样通过?数字锚 13.4%,短语锚 0
 
 **行动类型:FRONTIER**(两个世界在「这个仪器证明了什么」上本体不同)。
 **一轮打包多个操作**(Ivan 2026-08-05「多个操作一起算一轮」):识别性 + 主检验 + 三道对照 + 逐格规格曲线 + 页面兑现,同一轮内。
-`E02·A210·R570` · `results/anchor_collision.json`
+`E02·A12·R058` · `results/anchor_collision.json`
 
 **526a · 我为「锚只能证伪」写下的那句话,是一句口号,不是一个数。**
 上一轮(`#525`)把四个短语锚落到页面上,并写了「锚只能证伪」。**那是一个断言,没有任何测量支持它。**
@@ -21949,9 +21949,9 @@ Ivan 直接指出:「**A 为什么回到 209**」「**你就应该是多个操�
 ④ 在篡改上报错 ⑤ 页面兑现:写出**页面上现有多少个锚、其中多少个是零碰撞的**。
 ⚠ 铸 R 号前先 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验字符串必须**写前为 0**。
 
-## Entry 527 · `E02·A210·R571` — 检查把 `[#492]` 里的 `492` 当成了它自己的证据;两次 UNVERIFIED,改方向
+## Entry 527 · `E02·A12·R058` — 检查把 `[#492]` 里的 `492` 当成了它自己的证据;两次 UNVERIFIED,改方向
 
-**行动类型:FRONTIER,结局 `UNVERIFIED`(不是无罪释放)。** `E02·A210·R571` · `results/every_anchor.json`
+**行动类型:FRONTIER,结局 `UNVERIFIED`(不是无罪释放)。** `E02·A12·R058` · `results/every_anchor.json`
 按 `#526` 的 NEXT 把检查扩到页面上全部 **26 个锚引用**(中英各 13)。**跑了两次,两次都被自己的控制拦下。**
 
 **527a · 第一次:段落切错,26 个锚拿到同一个数。**
@@ -21994,10 +21994,10 @@ Ivan 直接指出:「**A 为什么回到 209**」「**你就应该是多个操�
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ SCCS 只有一个编码团队(`#521`),
 **任何结论都必须写成「关于这一个编码团队的」**,不是关于人类的。
 
-## Entry 528 · `E02·A211·R572` — 五格里只有一格:「越稀有越被谴责」不是关于做法的定律
+## Entry 528 · `E02·A12·R059` — 五格里只有一格:「越稀有越被谴责」不是关于做法的定律
 
 **行动类型:FRONTIER,`W-CODER` 触发,但它没能解释掉那一格。** 一轮打包多个操作。
-`E02·A211·R572` · `results/sccs_rarity_condemnation.json` · `results/same_source_percentile.json`
+`E02·A12·R059` · `results/sccs_rarity_condemnation.json` · `results/same_source_percentile.json`
 单位从**人**换成**社会**(硬规则 4:跨仪器优先)。⚠ 但 `#521` 仍然成立:**只有一个编码团队**,
 所以下面每一个数都是**关于 Broude & Greene 1976 这一个团队所编的 186 个社会的**,不是关于人类的。
 
@@ -22050,10 +22050,10 @@ SCCS176 的码 `2` 在码本里**无描述**,已剔除并声明 · 未派对抗 
 三种做法的谴责分布形状本身就是数据 ③ 报全网格,含不一致的格 ④ 页面兑现。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 529 · `E02·A211·R573` — 「严厉的社会」这种东西,在这份数据里没有证据
+## Entry 529 · `E02·A12·R060` — 「严厉的社会」这种东西,在这份数据里没有证据
 
 **行动类型:FRONTIER,`W-SPECIFIC`(我下注的那个不受欢迎的结局)。** 一轮打包多个操作。
-`E02·A211·R573` · `results/strictness_trait.json`
+`E02·A12·R060` · `results/strictness_trait.json`
 `#519` 人层「不是一把尺,是两把」在**社会层**的复制尝试(硬规则 4)。
 
 **529a · 在写一行分析代码之前,硬规则 1 先杀掉了一个变量,而它本身是结果。**
@@ -22103,9 +22103,9 @@ S2(剔除 169 的双重标准码)中位 **+0.3593**、S3(完全剔除 169)**+0.3
 若新基线仍低于 +0.1249 -> `W-SPECIFIC` 站得住;若高于 -> **本条必须降级** ③ 全网格公布 ④ 页面兑现。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 530 · `E02·A211·R574` — 不可分辨,不是低于:换一条同类型的基线,`#529` 站得住而措辞是错的
+## Entry 530 · `E02·A12·R060` — 不可分辨,不是低于:换一条同类型的基线,`#529` 站得住而措辞是错的
 
-**行动类型:FRONTIER,`W-HOLDS`,但页面当场被改。** `E02·A211·R574` · `results/same_kind_baseline.json`
+**行动类型:FRONTIER,`W-HOLDS`,但页面当场被改。** `E02·A12·R060` · `results/same_kind_baseline.json`
 修的是我自己在 `#529d` 写下的洞:**`#529` 拿 `0.2239` 当零,而那是另一组变量对上算的。**
 
 **530a · 正确的基线是同源 · 同类型 · 同样跨做法的。**
@@ -22142,10 +22142,10 @@ S2(剔除 169 的双重标准码)中位 **+0.3593**、S3(完全剔除 169)**+0.3
 ③ 若任一方案翻转 -> **本条降级**,并把翻转条件写进页面 ④ 全网格公布 ⑤ 页面兑现。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 531 · `E02·A211·R575` — 指派不是承重墙;而我写下的三种方案,只有两种真的跑了
+## Entry 531 · `E02·A12·R060` — 指派不是承重墙;而我写下的三种方案,只有两种真的跑了
 
 **行动类型:CLOSURE**(诚实标注:它保护 `#529`/`#530` 的结论,**不分离任何新世界**)。
-`E02·A211·R575` · `results/assignment_sensitivity.json`。**`A211` 收口轮。**
+`E02·A12·R060` · `results/assignment_sensitivity.json`。**`A211` 收口轮。**
 
 **531a · 检的是 `#530d` 我自己写下的洞:「跨做法」的指派是人工判断。**
 
@@ -22187,10 +22187,10 @@ k=17–22 ⇒ 基线 CI [0.12, 0.33] 很宽 · 未派对抗 agent ⇒ `[unchalle
 ⚠ 硬规则 1:先逐题打印 n 与**实际被问的年份**,四条序列的年份覆盖并不相同。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 532 · `E02·A212·R576+R577` — 一件一件松开:而我先给自己造了一个不是天花板的天花板
+## Entry 532 · `E02·A12·R061` — 一件一件松开:而我先给自己造了一个不是天花板的天花板
 
 **行动类型:FRONTIER。两个 R,一次belief update**(Ivan 2026-08-05:多个操作一起算一轮)。
-`E02·A212·R576`(UNVERIFIED)+ `R577`(修正后判决)· `results/levels_vs_differences.json` ·
+`E02·A12·R061`(UNVERIFIED)+ `R577`(修正后判决)· `results/levels_vs_differences.json` ·
 `results/matched_noise.json`。换仪器:SCCS(社会)→ GSS(年代),检 `#529` 的跨单位复制(硬规则 4)。
 
 **532a · 硬规则 1 先行:四条序列的年份表并不相同。**
@@ -22244,10 +22244,10 @@ k=17–22 ⇒ 基线 CI [0.12, 0.33] 很宽 · 未派对抗 agent ⇒ `[unchalle
    若仍落在安慰剂内 -> **`A212` 的决定变安全**,写进页面 ③ 全网格公布 ④ 页面兑现。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 533 · `E02·A212·R578` — 长滞后不是分离器,是估计量在退化;而我的判决逻辑绕过了坏掉的那一格
+## Entry 533 · `E02·A12·R061` — 长滞后不是分离器,是估计量在退化;而我的判决逻辑绕过了坏掉的那一格
 
 **行动类型:FRONTIER,结局 `UNVERIFIED`(闸门判的,不是我判的)。** `A212` 收口轮。
-`E02·A212·R578` · `results/longer_baseline.json`
+`E02·A12·R061` · `results/longer_baseline.json`
 
 **533a · 两个错,第二个比第一个重。**
 ① `L=0`(相邻年)那一格因 `searchsorted` 的边界处理返回 **NaN**,它的正对照 **FAIL**。
@@ -22298,10 +22298,10 @@ GSS 每位受访者同时回答了这四道题 ⇒ **在固定年份内**做个�
 ⚠ 硬规则 2:四题同问卷同受访者 ⇒ **共同方法方差会抬高它**,必须先建同问卷非性话题的参照分布。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 534 · `E02·A213·R579` — 三个单位,三个答案:人有一套性道德,社会和年代没有
+## Entry 534 · `E02·A12·R062` — 三个单位,三个答案:人有一套性道德,社会和年代没有
 
 **行动类型:FRONTIER,`W-ONE-RULER`(我下注的那个,而它与前两个单位相反)。**
-`E02·A213·R579` · `results/within_year_covariation.json`
+`E02·A12·R062` · `results/within_year_covariation.json`
 改方向后的第一轮:不用时间差分,**年份固定** ⇒ 趋势污染不了它,这正是 `#529`/`#532` 的共同弱点。
 
 **534a · 主结果(每一格都在单一年份内,同一批受访者)。**
@@ -22349,9 +22349,9 @@ GSS 每位受访者同时回答了这四道题 ⇒ **在固定年份内**做个�
 ② 用格式匹配的参照重算 `差`,报**匹配前/匹配后**两个数 ③ 若差塌到参照散度内 -> **本条降级** ④ 页面兑现。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 535 · `E02·A213·R580` — 格式解释掉一部分,不是全部;而换参照那条路在这具仪器上不存在
+## Entry 535 · `E02·A12·R062` — 格式解释掉一部分,不是全部;而换参照那条路在这具仪器上不存在
 
-**行动类型:FRONTIER,`W-PARTIAL`。`A213` 收口轮。** `E02·A213·R580` · `results/format_matched.json`
+**行动类型:FRONTIER,`W-PARTIAL`。`A213` 收口轮。** `E02·A12·R062` · `results/format_matched.json`
 堵的是 `#534c`/`#534d` 两个洞(它们是同一个洞的两半)。
 
 **535a · 硬规则 1 先行,而它改变了修法本身。**
@@ -22402,9 +22402,9 @@ GSS 每位受访者同时回答了这四道题 ⇒ **在固定年份内**做个�
 ⚠ 硬规则 2:ACASI 与面访的**作答模式差异本身**会改变耦合,这是特征不是噪声,必须写成结论的一部分。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 536 · `E02·A214·R581` — 性比家庭更紧;而这是我没下注的那个世界
+## Entry 536 · `E02·A12·R063` — 性比家庭更紧;而这是我没下注的那个世界
 
-**行动类型:FRONTIER,`W-SEX-SPECIAL`。** `E02·A214·R581` · `results/sex_a_domain.json`
+**行动类型:FRONTIER,`W-SEX-SPECIAL`。** `E02·A12·R063` · `results/sex_a_domain.json`
 换第二份仪器(硬规则 4):**NSFG 2011–2013 女性问卷,ACASI 自填**,GSS 是**面访** —— 作答模式不同。
 
 **536a · 这一轮之所以可能,是因为 `#535c` 说 GSS 里没有的东西,NSFG 里有。**
@@ -22454,10 +22454,10 @@ GSS(面访)与 NSFG(自填)都给出「性题更紧」,但两者的**紧度数�
 ⚠ 硬规则 1:先逐题打印 NSFG 行为变量的码与 n,**尤其检查是否条件于结局**(`#492` 那一类)。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 537 · `E02·A215·R582` — 这个问题问不出来:一致性的定义,吃掉了一致性检验所需的方差
+## Entry 537 · `E02·A12·R063` — 这个问题问不出来:一致性的定义,吃掉了一致性检验所需的方差
 
 **行动类型:FRONTIER,结局 `UNVERIFIED-by-construction`(不是 `W-NEITHER`,我先判错了)。**
-`E02·A215·R582` · `results/coherence_consistency.json`
+`E02·A12·R063` · `results/coherence_consistency.json`
 
 **537a · 硬规则 1 先砍掉一半候选,`#492` 那道守卫真的拦住了东西。**
 NSFG 行为变量中 `vry1stsx`(4867)· `sexonce`(4858)· `parts1yr`(4858)· `fsexpage`(4858)·
@@ -22498,10 +22498,10 @@ NSFG 行为变量中 `vry1stsx`(4867)· `sexonce`(4858)· `parts1yr`(4858)· `fs
 ④ 若仍不可算 -> 按 `#111c` 改方向,不追第三次。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 538 · `E02·A215·R583` — 修好的逻辑第一次正确地拒绝了判决;而我当场想改规则,没改
+## Entry 538 · `E02·A12·R063` — 修好的逻辑第一次正确地拒绝了判决;而我当场想改规则,没改
 
 **行动类型:FRONTIER,结局 `UNVERIFIED`。`A215` 收口(两次 UNVERIFIED,按 `#111c` 改方向)。**
-`E02·A215·R583` · `results/disjoint_coherence.json`
+`E02·A12·R063` · `results/disjoint_coherence.json`
 
 **538a · `#537d` 的禁令执行了,定义冲突确实解除了。**
 coherence 改由 **7 道家庭题**算(与作预测变量的性题**不相交**)。
@@ -22544,10 +22544,10 @@ NSFG 有年龄,可做**年龄剖面**(15–44 岁),而**同一波内的年龄差
 ⚠ 硬规则 1:先打印年龄变量的码与 n;⚠ 铸号前 `ls -d E0*/A*` 取全局最大;
 ⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 539 · `E02·A216·R584` — 一个在十五岁就已经成形,另一个到四十四岁还在收紧
+## Entry 539 · `E02·A12·R064` — 一个在十五岁就已经成形,另一个到四十四岁还在收紧
 
 **行动类型:FRONTIER。逐行判决(`#538c` 的预注册,写于本轮之前,现在合法)。**
-`E02·A216·R584` · `results/age_profile.json`
+`E02·A12·R064` · `results/age_profile.json`
 
 **539a · 三行,三个不同的答案 —— 这正是按行判的价值。**
 
@@ -22587,10 +22587,10 @@ MDE=0.00084 之所以小,是因为**六个点近乎单调**,bootstrap 重采样�
 ③ 若题目可比 -> 做 年龄×波 网格,**逐格公布**;若不可比 -> **写进页面「做不到什么」并收口 `A216`**;
 ④ 预注册沿用按行判。⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用。
 
-## Entry 540 · `E02·A216·R585` — 波之间做不到;而白捡的那个比较带着最大的未受控效应
+## Entry 540 · `E02·A12·R055` — 波之间做不到;而白捡的那个比较带着最大的未受控效应
 
 **行动类型:一半 PRODUCTION(把一个「做不到」钉死),一半 FRONTIER(一个真的外推检验)。`A216` 收口。**
-`E02·A216·R585` · `results/waves_and_men.json`
+`E02·A12·R055` · `results/waves_and_men.json`
 
 **540a · `#539` 的 NEXT 第一问:答案是否定的,而查清只花了一次读字典。**
 本地 NSFG 有 **6 个女性波的 `.dat`**,**只有 2 个有 `.dct` 字典** —— **有 `.dat` 不等于有数据**,
@@ -22639,10 +22639,10 @@ MDE=0.00084 之所以小,是因为**六个点近乎单调**,bootstrap 重采样�
 ⚠ 硬规则 2:网络自选样本 ⇒ **选择效应会同时抬高所有相关**,必须用同问卷非性条目作参照,不与 NSFG 比绝对值。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 541 · `E02·A217·R586` — 码本里没有题目文本,于是整条路只能靠我的记忆走完 —— 所以不走
+## Entry 541 · `E02·A12·R064` — 码本里没有题目文本,于是整条路只能靠我的记忆走完 —— 所以不走
 
 **行动类型:PRODUCTION**(诚实标注:记录两个结构性阻断,**不分离任何世界**)。
-`E02·A217·R586` · `results/two_blocks.json`
+`E02·A12·R064` · `results/two_blocks.json`
 
 **541a · 要检验的前提:`#536`/`#539` 全来自同一个政府统计系统。**
 「性是更紧的领域」这条,GSS 与 NSFG 都是**同一套抽样传统、同一类问卷工艺**。
@@ -22684,10 +22684,10 @@ MDE=0.00084 之所以小,是因为**六个点近乎单调**,bootstrap 重采样�
    所以**只比子面内 vs 子面间的差,绝不与 NSFG 的绝对值比**。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 542 · `E02·A217·R587` — 面内高于面间,而那是设计;`prior_art` 这一行第一次自己举了手
+## Entry 542 · `E02·A12·R065` — 面内高于面间,而那是设计;`prior_art` 这一行第一次自己举了手
 
 **行动类型:FRONTIER,`W-FACETED`,而它按 `P14` 的 `prior_art` 规则被降级为 VERIFICATION。**
-`E02·A217·R587` · `results/facets_inside_sex.json`
+`E02·A12·R065` · `results/facets_inside_sex.json`
 
 **542a · 归类来自文本,不来自记忆 —— `#541c` 的教训当轮就被执行了。**
 MSSCQ 码本**没有**写子面结构,但 100 道题的**文本全在**。
@@ -22731,10 +22731,10 @@ E02 关于「社会拿它怎么办」的所有可用仪器都已被打开过,而
 ⚠ 表里每一行必须带**短语锚**(`#526b`:数字锚碰撞 13.4%,短语锚 0),写前逐条验唯一;
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 543 · `E02·A218·R588` — E02 收口:十二条断言,一张表,每行五个坐标
+## Entry 543 · `E02·A12·R065` — E02 收口:十二条断言,一张表,每行五个坐标
 
 **行动类型:CLOSURE**(诚实标注:它保护已有结论,**不分离任何世界**,不产生新数字)。
-`E02·A218·R588` · `results/scope_table.json`
+`E02·A12·R065` · `results/scope_table.json`
 
 **543a · 表的形状,就是这一整段工作学到的东西。**
 每一行五个坐标:**单位 · 仪器 · 人群 · 数与区间 · 没能分开的东西**。
@@ -22776,10 +22776,10 @@ E02 关于「社会拿它怎么办」的所有可用仪器都已被打开过,而
 ⚠ 下一轮**只产出一份可行性对照表**(需要什么 · 已有什么 · 缺什么 · 谁来编码),标注 PRODUCTION;
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 544 · `E02·A219·R589` — 三份,三次;而我差点在盘上躺着一份正解的情况下去提议采数据
+## Entry 544 · `E02·A12·R065` — 三份,三次;而我差点在盘上躺着一份正解的情况下去提议采数据
 
 **行动类型:FRONTIER(主检验)+ PRODUCTION(第三例阻断)。结局 `UNVERIFIED`,由规格曲线判的。**
-`E02·A219·R589` · `results/purity_among_five.json`
+`E02·A12·R065` · `results/purity_among_five.json`
 
 **544a · `#543` 的 NEXT 是「写一份采数据的可行性表」。在动手前清点磁盘,计划当场作废。**
 `data/external/dataverse/` 里五个**从未打开**的包,其中 `10.7910_DVN_SJTRBI` 是
@@ -22828,10 +22828,10 @@ YourMorals 自选网络样本 ⇒ 无人群外推 · 横断面非因果 · 基�
 ⚠ 这是 PRODUCTION(造工具),诚实标注;⚠ 判据必须先在两个已知答案的包上验(MSSCQ 有文本 / RWAS 无文本);
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 545 · `E02·A219·R590` — 工具当场撤回了我上一轮的句子;而它自己的负对照先撤回了我的判据
+## Entry 545 · `E02·A12·R066` — 工具当场撤回了我上一轮的句子;而它自己的负对照先撤回了我的判据
 
 **行动类型:PRODUCTION(造工具)+ 一次由该工具触发的 RETRACTION。`A219` 收口。**
-`tools/inventory.py` · `E02·A219·R590` · `results/inventory.json`
+`tools/inventory.py` · `E02·A12·R066` · `results/inventory.json`
 
 **545a · 判据被它自己的负对照改掉了,不是被我想到的。**
 第一版判据:「码本里存在 ≥5 行长度 >30 字符的文本」。
@@ -22882,10 +22882,10 @@ zip 未解压 ⇒ 成员的内嵌标签读不到 · 未派对抗 agent ⇒ `[unc
 ⚠ 这是 PRODUCTION;⚠ 解压前先 `du -sh` 估体积(P2 的成本表);
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 546 · `E02·A220·R591` — 没有任何有限的路径集合能许可 `False`,所以那个词被删掉了
+## Entry 546 · `E02·A12·R066` — 没有任何有限的路径集合能许可 `False`,所以那个词被删掉了
 
 **行动类型:PRODUCTION(工具)+ 一次由对象强制的判据方向反转。`A220` 收口。**
-`tools/inventory.py` · `E02·A220·R591` · `results/inventory_final.json`
+`tools/inventory.py` · `E02·A12·R066` · `results/inventory_final.json`
 
 **546a · 解压全部 zip(45 MB,先按 `P2` 估过体积),「判不了」13 → 8。** 这一步是纯执行,按计划完成。
 
@@ -22930,10 +22930,10 @@ zip 成员的内嵌标签仍未读(需解压后再探)· 判据只认阈值 `>30
 ④ 全表公布,含判不了的;⑤ 页面兑现一句。
 ⚠ 这是 PRODUCTION;⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 547 · `E02·A221·R592` — 同一份问卷里,是/否有三种编码
+## Entry 547 · `E02·A12·R066` — 同一份问卷里,是/否有三种编码
 
 **行动类型:PRODUCTION(第二件工具)。`A221`。** `tools/label_audit.py` ·
-`E02·A221·R592` · `results/label_audit.json`
+`E02·A12·R066` · `results/label_audit.json`
 
 **547a · `inventory.py` 只答「有没有条目文本」,它不答「那些文本是否描述了它所标的列」。**
 而本项目已被这件事咬过:`samesexany` 的标签是 "Ever Had Sexual Contact with a Female (computed)",
@@ -22974,10 +22974,10 @@ zip 成员的内嵌标签仍未读(需解压后再探)· 判据只认阈值 `>30
 ⚠ 这是 PRODUCTION + 一次可能触发大范围重查的检验;⚠ 先 `du`/`free` 估成本(`P2`);
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 548 · `E02·A221·R593` — 触发了,而重查是干净的;而在重查之前我先查了触发器
+## Entry 548 · `E02·A12·R066` — 触发了,而重查是干净的;而在重查之前我先查了触发器
 
 **行动类型:PRODUCTION(第三件工具)+ 一次预注册触发的全项目重查。`A221` 收口。**
-`tools/label_sweep.py` · `E02·A221·R593` · `results/label_sweep.json` · `results/recheck_used.json`
+`tools/label_sweep.py` · `E02·A12·R066` · `results/label_sweep.json` · `results/recheck_used.json`
 
 **548a · `P2` 的成本表先行,而它改变了做法。**
 GSS 有 **6,943 个变量、620 MB**。全读会吃掉内存。
@@ -23024,10 +23024,10 @@ GSS 的 `1/2` 型「是/否」不被视为不相容(它与 0/1 同为二元)⇒ 
 ④ 页面兑现:一句话说明这四级各自能证明什么、不能证明什么。
 ⚠ 这是 PRODUCTION;⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 549 · `E02·A222·R594` — 通过不证明映射对;而闸门库自检自己时,聚合判词没有意义
+## Entry 549 · `E02·A12·R066` — 通过不证明映射对;而闸门库自检自己时,聚合判词没有意义
 
 **行动类型:PRODUCTION。`A222`。** `lib/gates.py :: Gate.value_range_guard` ·
-`E02·A222·R594` · `results/self_test.json`
+`E02·A12·R066` · `results/self_test.json`
 
 **549a · 把救过两次的那道守卫,从每轮手写变成库函数。**
 `#495b`(`sexsex5` 阳性率 0.5368 ≈ 男性占比)与 `#492`(`c_sex15` n=15)都是**同一道手写 assert** 抓住的,
@@ -23072,10 +23072,10 @@ GSS 的 `1/2` 型「是/否」不被视为不相容(它与 0/1 同为二元)⇒ 
 ⚠ 这是 PRODUCTION;⚠ `brfss` 是 `.XPT` in zip,先 `du`/`free` 估成本(`P2`);
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 550 · `E02·A223·R595` — 三段里前两段都是「无」,而那正是它该有的表现
+## Entry 550 · `E02·A12·R066` — 三段里前两段都是「无」,而那正是它该有的表现
 
 **行动类型:PRODUCTION。`A223` 收口。** `tools/dataset_report.py` ·
-`E02·A223·R595` · `results/report_brfss.json`
+`E02·A12·R066` · `results/report_brfss.json`
 
 **550a · 四级闸接成一条路径,产出三段式报告。**
 ① `inventory` 有没有条目文本(只能证明「有」)→ ② `label_audit` 标签与取值相容吗(只能证明「不相容」)
@@ -23115,10 +23115,10 @@ GSS 的 `1/2` 型「是/否」不被视为不相容(它与 0/1 同为二元)⇒ 
 ⚠ 这是 PRODUCTION;⚠ 联网前必须先说清取什么、多大(`P7` 成本表);
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 551 · `E02·A224·R596` — 列在文件里,一个值也没有
+## Entry 551 · `E02·A12·R066` — 列在文件里,一个值也没有
 
 **行动类型:PRODUCTION**(不解释任何一列,不做任何推断,只报形状)。
-`E02·A224·R596` · `results/brfss_shape.json`
+`E02·A12·R066` · `results/brfss_shape.json`
 
 **551a · `#550d` 说四级闸对 BRFSS 完全失明。而形状不需要语义。**
 `P2`:1.21 GB,**分块单遍**(每块 5 万行),只累计计数。
@@ -23158,10 +23158,10 @@ BRFSS 有复杂抽样权重,**本轮不加权** ⇒ **任何比例都不是人�
 ⚠ 这不需要码本 —— **州标识列可以由取值个数(约 50)识别,而这本身要先验**;
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 552 · `E02·A224·R597` — 我的世界分解里少了一个,而第三个世界预测的观测和前两个一样
+## Entry 552 · `E02·A12·R066` — 我的世界分解里少了一个,而第三个世界预测的观测和前两个一样
 
 **行动类型:FRONTIER,结局:测量干净,而**问题问坏了**(元分离触发)。`A224` 收口。**
-`E02·A224·R597` · `results/state_clustering.json`
+`E02·A12·R066` · `results/state_clustering.json`
 
 **552a · 两个判据在跑之前就被对象改掉了。**
 ① 州标识列:第一版判据是「某一块里有 40–60 个不同取值且零缺失」——
@@ -23202,10 +23202,10 @@ BRFSS 有复杂抽样权重,**本轮不加权** ⇒ **任何比例都不是人�
 ⑤ 页面兑现:给出三分之后的计数。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 553 · `E02·A224·R598` — 我为「盲取第 0 个」写过一条规则,然后又盲取了第 0 个
+## Entry 553 · `E02·A12·R066` — 我为「盲取第 0 个」写过一条规则,然后又盲取了第 0 个
 
 **行动类型:FRONTIER,结局 `UNVERIFIED-by-selection`(闸门全过,而选择是坏的)。`A224` 收口,改方向。**
-`E02·A224·R598` · `results/third_world.json`
+`E02·A12·R066` · `results/third_world.json`
 
 **553a · 三个世界的机器造好了,而喂进去的第三个世界是假的。**
 `#552c` 说我漏了「州内问卷版本切分」。本轮把它补进检验:
@@ -23248,10 +23248,10 @@ GSS 是它唯一的来源。而 `data/external/yrbs` 是一份**从未被这条�
 ⚠ YRBS 1.6 GB,`P2` 先估;⚠ 码本是 `.sas`,变量标签在 `label` 块里(`#546b`);
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 554 · `E02·A225·R599` — 一个顶到上限的结果,而它可能是同一件事被数了五遍
+## Entry 554 · `E02·A12·R066` — 一个顶到上限的结果,而它可能是同一件事被数了五遍
 
 **行动类型:FRONTIER,`W-SYNC` 触发,而**页面一个字也不加**。**
-`E02·A225·R599` · `results/yrbs_synchrony.json`
+`E02·A12·R066` · `results/yrbs_synchrony.json`
 
 **554a · 年代那一层第一次有了第二份仪器。**
 E02 的十二条里,「年代」只有 GSS 一个来源。YRBS SADC(1991–2023)是**从未被这条线用过**的第二份:
@@ -23302,10 +23302,10 @@ n 从 105.7 万到 127.3 万。
    `W-ACTIVITY-ONLY` 下**页面只写一句「这五道题不是五种行为」**。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 555 · `E02·A225·R600` — 五道题不是五种行为;而这一次,预注册决定了页面上写什么
+## Entry 555 · `E02·A12·R066` — 五道题不是五种行为;而这一次,预注册决定了页面上写什么
 
 **行动类型:FRONTIER,`W-ACTIVITY-ONLY`。`A225` 收口。**
-`E02·A225·R600` · `results/sex_or_risk.json`
+`E02·A12·R066` · `results/sex_or_risk.json`
 **预测矩阵与发布规则写在 `#554` 的 NEXT 里,先于本轮任何计算。**
 
 **555a · 全网格(同题上限 +0.8817 · 安慰剂 q95 0.5097)。**
@@ -23352,10 +23352,10 @@ n 从 105.7 万到 127.3 万。
 ④ 页面兑现:仅在网格至少三格可判时才写。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 556 · `E02·A226·R601` — 中位把一个符号翻转藏起来了;而判决逻辑在 IN 为负时恒真
+## Entry 556 · `E02·A12·R067` — 中位把一个符号翻转藏起来了;而判决逻辑在 IN 为负时恒真
 
 **行动类型:FRONTIER,结局 `UNVERIFIED`;**外加一次对 `#554b` 的更正**。`A226`。**
-`E02·A226·R601` · `results/domain_grid.json`
+`E02·A12·R067` · `results/domain_grid.json`
 
 **556a · 本轮想问的:五个彼此不下游的风险领域,是一起动还是一件一件?**
 由**标签文本**分类(不由题号):性活跃 · 暴力 · 物质 · 交通 · 心理。
@@ -23406,10 +23406,10 @@ n 从 105.7 万到 127.3 万。
 ④ 发布规则沿用:网格至少三格可判且**方向已核对**才上页面。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 557 · `E02·A226·R602` — 一个领域一个领域地动;而方向是从格式库读出来的,不是猜的
+## Entry 557 · `E02·A12·R068` — 一个领域一个领域地动;而方向是从格式库读出来的,不是猜的
 
 **行动类型:FRONTIER,`W-BY-DOMAIN`(我下注的是 `W-ONE-FRONT`,输了)。`A226` 收口。**
-`E02·A226·R602` · `results/direction_fixed.json`
+`E02·A12·R068` · `results/direction_fixed.json`
 
 **557a · 编码方向逐题从 format 库读出(对象,不是记忆)。**
 `$H56S` 1=Yes · `$H26S` 1=Yes · `$H27S` 1=Yes ⇒ **码 1 就是高风险**;
@@ -23465,9 +23465,9 @@ n 从 105.7 万到 127.3 万。
 ③ 若有 -> 做跨仪器复制;④ 页面兑现。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 558 · `E02·A227·R603` — 十五个来源,零个有年份;E02 在证据侧完全收口
+## Entry 558 · `E02·A12·R069` — 十五个来源,零个有年份;E02 在证据侧完全收口
 
-**行动类型:PRODUCTION**(清点,不做研究)。`E02·A227·R603` · `results/year_dimension.json`
+**行动类型:PRODUCTION**(清点,不做研究)。`E02·A12·R069` · `results/year_dimension.json`
 
 **558a · `#557d` 那张表的四格里,三格已有第二份仪器;第四格没有。**
 人层:GSS + NSFG(`#534`/`#536`)· 年代·行为:YRBS(`#557`)· 社会:SCCS(`#529`)。
@@ -23507,10 +23507,10 @@ n 从 105.7 万到 127.3 万。
 ④ **不提议采数据,不做可行性** —— 那是下一步的事,本轮只写规格。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 559 · `E03·A228·R604` — E03 开口:不再问哪份数据能回答,而问什么样的仪器才配得上
+## Entry 559 · `E03·A15·R084` — E03 开口:不再问哪份数据能回答,而问什么样的仪器才配得上
 
 **行动类型:PRODUCTION**(只写规格,**不判可行性,不提议采数据**)。
-`E03·A228·R604` · `results/spec.json` · **E03 由此开启。**
+`E03·A15·R084` · `results/spec.json` · **E03 由此开启。**
 
 **559a · E03 的开口问题,是 E02 的边界逼出来的。**
 `#543` 表尾:**每一份仪器缺的那一半都不一样,而缺口是构造性的,不是样本量。**
@@ -23549,10 +23549,10 @@ n 从 105.7 万到 127.3 万。
 ④ 页面兑现一句。
 ⚠ 铸号前 `ls -d E0*/A*` 与 `E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 560 · `E03·A229·R605` — 在跨文化数据里,一切都和一切空间相关,于是「年代」分不出「地域」
+## Entry 560 · `E03·A15·R084` — 在跨文化数据里,一切都和一切空间相关,于是「年代」分不出「地域」
 
 **行动类型:FRONTIER,结局 `UNVERIFIED`(安慰剂失败,不是无罪释放)。**
-`E03·A229·R605` · `results/focal_year_drift.json`
+`E03·A15·R084` · `results/focal_year_drift.json`
 
 **560a · 规格二(第二组编码者)在现有数据上换了个问法。**
 SCCS 的 Broude 变量**没有编码者 ID**(`references` 在这 3,720 行上**全空**)。
@@ -23596,10 +23596,10 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ⑤ 若仍不过 -> 按 `#111c` **改方向**,并把「年代与地域在 SCCS 上不可分」写进页面「做不到什么」。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 561 · `E03·A229·R606` — 偏掉地理之后,正对照掉到参照之下:年代信号不是弱,是没有
+## Entry 561 · `E03·A15·R084` — 偏掉地理之后,正对照掉到参照之下:年代信号不是弱,是没有
 
 **行动类型:FRONTIER,第二次连续 `UNVERIFIED` ⇒ 按 `#111c` 改方向。`A229` 收口。**
-`E03·A229·R606` · `results/partial_geo.json`
+`E03·A15·R084` · `results/partial_geo.json`
 
 **561a · 按 `#560d` 修了一次(`#111c` 允许的第一次)。**
 把**纬度与经度偏掉**,在残差上重算三个量:
@@ -23646,10 +23646,10 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ④ 页面兑现一句。
 ⚠ 铸号前 `ls -d E0*/A*` 与 `E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 562 · `E03·A230·R607` — 我造了锚检查,然后一直没有把它跑在整页上;跑了,五个锚是坏的
+## Entry 562 · `E03·A15·R085` — 我造了锚检查,然后一直没有把它跑在整页上;跑了,五个锚是坏的
 
 **行动类型:PRODUCTION(完整性核对)+ 一次由它触发的修复。**
-`E03·A230·R607` · 页面两版各修 5 处
+`E03·A15·R085` · 页面两版各修 5 处
 
 **562a · `#526`–`#527` 造了锚碰撞检查,`#543` 用它验过范围表的 12 个锚。**
 **而页面上一共有 35 个短语锚(中英各 35),从没有被整页跑过一次。**
@@ -23687,10 +23687,10 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ④ 页面兑现:一句话说明这一页的每一个引用都被机器验过,以及那句话本身能证明什么、不能证明什么。
 ⚠ 铸号前 `ls -d E0*/A*` 与 `E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 563 · `E03·A230·R607` — 五件工具早就存在,而管着我这个动作的那一件,我一次都没跑过
+## Entry 563 · `E03·A15·R085` — 五件工具早就存在,而管着我这个动作的那一件,我一次都没跑过
 
 **行动类型:PRODUCTION**(接进已有的闸)+ **一次由 `P4` 触发的方向更正**。
-`E03·A230·R607` · `results/gate.json` · `tools/readme_gate.py` 新增第五条规则
+`E03·A15·R085` · `results/gate.json` · `tools/readme_gate.py` 新增第五条规则
 
 **563a · `#562` 的 NEXT 是「写 `tools/anchor_check.py`」。查了才发现不该写。**
 `tools/` 里**已经有五件审计工具**:`readme_ledger_audit`(README→账本)· `round_status`(轮次→账本)·
@@ -23746,10 +23746,10 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ⚠ 这是 CLOSURE(清欠账),诚实标注;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0;
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大。
 
-## Entry 564 · `E03·A230·R608` — 手读了那 4 处:声明层没有错,叙述层有;而规则报的正是叙述层
+## Entry 564 · `E03·A15·R085` — 手读了那 4 处:声明层没有错,叙述层有;而规则报的正是叙述层
 
 **行动类型:CLOSURE**(执行这道检查自己要求的「人工读」)。
-`E03·A230·R608` · `results/triage.json`
+`E03·A15·R085` · `results/triage.json`
 
 **564a · `named_defects` 的语义,先读清楚再判。**
 `_MARK` 要求范围标记(`撤回`/`CORRECTED`/`scope stated`/…)**与那个数出现在同一行**;
@@ -23793,10 +23793,10 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ⚠ 这是 CLOSURE;⚠ 改页面前先 `git rev-parse HEAD` 记下回滚点;⚠ 页面与账本分两次调用;
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大。
 
-## Entry 565 · `E03·A230·R609` — 我为分诊一个数写的条目,把那个数又登记了一遍
+## Entry 565 · `E03·A15·R085` — 我为分诊一个数写的条目,把那个数又登记了一遍
 
 **行动类型:PRODUCTION(补词表)+ 一次对这道检查计数语义的更正。**
-`E03·A230·R609` · `results/marker_vocab.json`
+`E03·A15·R085` · `results/marker_vocab.json`
 
 **565a · 页面在用一个检查不认识的标记词。**
 `README.md:411` 写着 **`[DOWNGRADED — RETRACTIONS #24, re-affirmed #143]`** ——
@@ -23839,9 +23839,9 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ④ 改完报 `named_defects` 的新值,并**同时报开关开与关两个数**。
 ⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0;⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大。
 
-## Entry 566 · `E03·A230·R610` — 范围跟着数字走了;而第一次尝试的修,自己引入了一处缺陷
+## Entry 566 · `E03·A15·R085` — 范围跟着数字走了;而第一次尝试的修,自己引入了一处缺陷
 
-**行动类型:CLOSURE**(清 `#564c` 的债)。`E03·A230·R610` · `results/scope_tags.json` · 回滚点 `f1dff5d`
+**行动类型:CLOSURE**(清 `#564c` 的债)。`E03·A15·R085` · `results/scope_tags.json` · 回滚点 `f1dff5d`
 
 **566a · 债的形状(`#564c`):`+0.1185` 在 `README.md` 出现 6 次,而口径只说了 1 次。**
 范围从账本取,不新算:`+0.1185` 出自 `#346a`/`#347a`(**`cov≥8`,n=6,717**;放宽到 `≥4` 是 +0.1715,**摆动 45%**);
@@ -23894,10 +23894,10 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ⚠ 硬规则 1:先打印 n 与实际被问年份;⚠ 铸号前 `ls -d E0*/A*` 取全局最大;
 ⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 567 · `E03·A231·R611` — 态度只被两种模式量过,而那两种共享同一次入户
+## Entry 567 · `E03·A15·R086` — 态度只被两种模式量过,而那两种共享同一次入户
 
 **行动类型:PRODUCTION**(扫描,不做研究)。**回到对象侧**(`#566f` 的盆地判定之后第一轮)。
-`E03·A231·R611` · `results/mode_scan.json`
+`E03·A15·R086` · `results/mode_scan.json`
 
 **567a · 问的是:`#534`/`#536` 的人层结论,有没有第三种作答模式可以复制?**
 硬规则 4 说跨仪器复制优先;而 `#536` 已用 **NSFG 自填** 对 **GSS 面访** 做过一次。**第三种呢?**
@@ -23937,10 +23937,10 @@ Broude 性变量 |ρ(code, 焦点年)| 中位 = **0.0308**,其余 1,207 个变�
 ⚠ 硬规则 1 先行;⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;
 ⚠ 校验串写前必须为 0。
 
-## Entry 568 · `E03·A231·R612` — 不是两种模式,是一种;而我从题号前缀推了作答模式,从没读过文件
+## Entry 568 · `E03·A15·R087` — 不是两种模式,是一种;而我从题号前缀推了作答模式,从没读过文件
 
 **行动类型:FRONTIER。一次实质更正,涉及四条既有条目与两版页面。**
-`E03·A231·R612` · `results/mode_correction.json`
+`E03·A15·R087` · `results/mode_correction.json`
 
 **568a · 被更正的是一个我从没核对过的字。**
 `#536`/`#539`/`#540`/`#567` 都把 NSFG 的 13 道态度题称作 **「ACASI 自填」**。
@@ -23989,10 +23989,10 @@ NSFG 同一份问卷里,**`I` 段(访员)与 `J` 段(自访)都有题**,只是�
 ③ 若配不出 -> **写进页面「做不到什么」:这份数据无法把「模式」与「主题」分开**,并收口 `A231`。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 569 · `E03·A231·R613` — 地板是 1.6%:两种问法在一件毫无羞耻的事上就已经对不上
+## Entry 569 · `E03·A15·R086` — 地板是 1.6%:两种问法在一件毫无羞耻的事上就已经对不上
 
 **行动类型:FRONTIER,结局 `UNVERIFIED`(负对照占效应 64%)。`A231` 收口。**
-`E03·A231·R613` · `results/mode_disclosure.json`
+`E03·A15·R086` · `results/mode_disclosure.json`
 
 **569a · 而这一轮之所以可能,是因为 `#568` 把段读对了。**
 NSFG **在同一份问卷里两样都有**:`abortion` = 「**CAPI-based** total number of induced abortions」(访员妊娠史)·
@@ -24036,9 +24036,9 @@ NSFG **在同一份问卷里两样都有**:`abortion` = 「**CAPI-based** total 
 ④ **不提议采数据**(`#559c` 的纪律)。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 570 · `E03·A232·R614` — 规格表少了一整维:不是问什么,是在什么情境下问
+## Entry 570 · `E03·A15·R087` — 规格表少了一整维:不是问什么,是在什么情境下问
 
-**行动类型:PRODUCTION。`A232`。** `E03·A232·R614` · `results/sixth_row.json`
+**行动类型:PRODUCTION。`A232`。** `E03·A15·R087` · `results/sixth_row.json`
 
 **570a · `#559` 的五条规格,全部关于「问什么 · 问几次 · 问谁 · 谁编码」。**
 **没有一条关于「在什么情境下问」。** 而 `#568`(那些题是访员念的)与 `#569`(地板 1.6%)
@@ -24079,10 +24079,10 @@ NSFG **在同一份问卷里两样都有**:`abortion` = 「**CAPI-based** total 
 ④ 改完重跑闸门,报剩余数;做不到全 ok 就逐处说明。
 ⚠ 这是 CLOSURE;⚠ 改页面前记回滚点;⚠ 页面与账本分两次调用;⚠ 铸号前取全局最大号。
 
-## Entry 571 · `E03·A233·R615` — #568 的更正范围漏了一段;而那一段正是那个错的源头
+## Entry 571 · `E03·A15·R087` — #568 的更正范围漏了一段;而那一段正是那个错的源头
 
 **行动类型:CLOSURE(清 `uncited_numbers`)+ 一次实质更正。`A233`。**
-`E03·A233·R615` · `results/provenance.json` · 回滚点 `f500dc5`
+`E03·A15·R087` · `results/provenance.json` · 回滚点 `f500dc5`
 
 **571a · 先问「出处能不能机械恢复」,答案是不能 —— 两条路都试过。**
 ① **按数字**:失败。**页面四舍五入,账本不**(页面 `0.797`,账本 `+0.7966`)。
@@ -24133,10 +24133,10 @@ an interviewer** — the one thing GSS could not vary"*。**两版已改为「�
 ④ 若找不到任何天然唯一的键 -> **写进页面「做不到什么」:这套引用无法同时满足三条规则**。
 ⚠ 铸号前 `ls -d E0*/A*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 572 · `E03·A234·R616` — 引用是一种写入:一条规则触发三次错三次,而根因不在页面
+## Entry 572 · `E03·A15·R085` — 引用是一种写入:一条规则触发三次错三次,而根因不在页面
 
 **行动类型:PRODUCTION(按实测精确率改判据)。`A234`。**
-`E03·A234·R616` · `results/precision_split.json`
+`E03·A15·R085` · `results/precision_split.json`
 
 **572a · NEXT 要的是「稳定的引用键」,而先量了一下,那条路是堵的。**
 候选是轮次 id `E0x·Ayy·Rzzz`:全本出现 **602 次,548 个不同值**,
@@ -24181,10 +24181,10 @@ an interviewer** — the one thing GSS could not vary"*。**两版已改为「�
 若判决翻转 -> **`#529`/`#530` 必须降级**;③ 全格公布;④ 页面兑现。
 ⚠ 硬规则 1:先逐个打印候选变量的取值数与 n;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 573 · `E03·A235·R617` — 余量不存在:我量出的 74 对,能用的只有 18
+## Entry 573 · `E02·A13·R077` — 余量不存在:我量出的 74 对,能用的只有 18
 
 **行动类型:FRONTIER,结局 `C-NOT-K`(预注册的第三个世界)。`A235`。**
-`E02·A235·R617` · `results/wider_baseline.json`
+`E02·A13·R077` · `results/wider_baseline.json`
 
 **573a · 目标是给 `#530` 的「不可分辨」定价 —— 它的基线只有 22 对,CI 宽 [0.122, 0.334]。**
 **一个宽到这个程度的零,判什么都容易判成「不可分辨」。**
@@ -24221,10 +24221,10 @@ an interviewer** — the one thing GSS could not vary"*。**两版已改为「�
 ③ 全格公布;④ 页面兑现(仅在极差 ≥0.02 时改动)。
 ⚠ 铸号前 `ls -d E0*/A*/R*` 取全局最大;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 574 · `E02·A235·R618` — 稳健性是池大小的函数:同一个检验,22 对上极差 0.004,18 对上 0.038
+## Entry 574 · `E02·A13·R077` — 稳健性是池大小的函数:同一个检验,22 对上极差 0.004,18 对上 0.038
 
 **行动类型:CLOSURE,而它的结论与被保护的那条相反。`A235` 收口。**
-`E02·A235·R618` · `results/assignment_18.json`
+`E02·A13·R077` · `results/assignment_18.json`
 
 **574a · 预注册开火了,方向是我不想要的那个。**
 `#573d` 留下最后一条保留:基线池的「做法」指派由我从标题读出,`#531` 验过不承重,**但那是在 22 对上**。
@@ -24269,10 +24269,10 @@ an interviewer** — the one thing GSS could not vary"*。**两版已改为「�
 ⚠ 而这一次**先给极差本身做 bootstrap**(`#574d` 的教训);⚠ 铸号前取全局最大号;
 ⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 575 · `E02·A236·R619` — 换一种分法,符号就翻了:`#557` 的结论是我那次划分的产物
+## Entry 575 · `E02·A13·R078` — 换一种分法,符号就翻了:`#557` 的结论是我那次划分的产物
 
 **行动类型:CLOSURE,而它撤回了它本来要保护的那条。`A236` 收口。**
-`E02·A236·R619` · `results/domain_sensitivity.json`
+`E02·A13·R078` · `results/domain_sensitivity.json`
 
 **575a · `#574` 刚证明「同一个指派检验,池一变答案会翻」,所以这一格必须同样验。**
 `#557e` 自己写着:领域划分由我从题干文本读出,**未经第二人复核**。
@@ -24318,9 +24318,9 @@ S2 把心理健康三题并入物质使用 —— **共病文献里这不是一�
 ③ 预注册:极差 ≥ 0.05 -> 那一格也必须降级;< 0.05 -> 它是四格里唯一经过指派检验的;
 ④ 页面兑现。⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 576 · `E02·A237·R620` — 方向活下来,数字没有;而那句跨单位的总结整句撤回
+## Entry 576 · `E02·A13·R078` — 方向活下来,数字没有;而那句跨单位的总结整句撤回
 
-**行动类型:CLOSURE。`A237`。** `E02·A237·R620` · `results/person_assignment.json`
+**行动类型:CLOSURE。`A237`。** `E02·A13·R078` · `results/person_assignment.json`
 
 **576a · `#575` 撤回了「年代·行为」那一格,理由是划分是我给的。同样的刀,必须落在「人」那一格上。**
 ⚠ **BASIN:它翻转是我不希望的结局**,所以这一步正是该走的。三种站得住的分法:
@@ -24375,10 +24375,10 @@ S2 把心理健康三题并入物质使用 —— **共病文献里这不是一�
 ④ 页面兑现一句:**指派敏感性现在是每一个分组结论的必报项**。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 577 · `E02·A238·R621` — 分类是判断最多的一步,而它现在有了自己的对照
+## Entry 577 · `E02·A13·R078` — 分类是判断最多的一步,而它现在有了自己的对照
 
 **行动类型:PRODUCTION(把 `#576d` 变成工具)。`A238`。**
-`lib/assignment_sensitivity.py` · `E02·A238·R621` · `results/library.json`
+`lib/assignment_sensitivity.py` · `E02·A13·R078` · `results/library.json`
 
 **577a · 四次指派检验都是临时写的,门槛与 bootstrap 各轮自定。**
 ⇒ `assignment_sensitivity(stat_fn, mappings, tol, boot_fn)`:
@@ -24418,10 +24418,10 @@ S2 把心理健康三题并入物质使用 —— **共病文献里这不是一�
 ⚠ YRBS 需读 155 万行,先按 `P2` 估时间;⚠ 铸号前取全局最大号;
 ⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 578 · `E02·A239·R622` — 重放那次撤回:0.8517 逐位对上,而判决由库独立给出
+## Entry 578 · `E02·A13·R078` — 重放那次撤回:0.8517 逐位对上,而判决由库独立给出
 
 **行动类型:CLOSURE(重放,不产生新结论)。`A239` 收口。**
-`E02·A239·R622` · `results/replay.json`
+`E02·A13·R078` · `results/replay.json`
 
 **578a · `#577c` 留下三次「未重放」,本轮清掉两次,其中一次是唯一造成撤回的那次。**
 
@@ -24466,10 +24466,10 @@ S2 把心理健康三题并入物质使用 —— **共病文献里这不是一�
    任一分法翻转 -> **`#534` 也必须降级**;
 ③ 页面兑现。⚠ 硬规则 1 先打印 n 与年份;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 579 · `E02·A240·R623` — 两份仪器,两次都问过这一刀,两次都答「不会」
+## Entry 579 · `E02·A13·R078` — 两份仪器,两次都问过这一刀,两次都答「不会」
 
 **行动类型:FRONTIER,结局 `SURVIVES`(我下注的是翻转)。`A240`。**
-`E02·A240·R623` · `results/gss_assignment.json`
+`E02·A13·R078` · `results/gss_assignment.json`
 
 **579a · 这是 `#576d` 之后唯一还站着的跨单位陈述,所以它必须挨这一刀。**
 ⚠ **BASIN:翻转是我不希望的结局** —— 而正因为如此,这一步是该走的。
@@ -24517,10 +24517,10 @@ S2 要把 `abany`(**二值**)搬进性组,而性题是**四级** ⇒ **搬动会
 若它塌掉 -> **`#534`/`#579` 必须带上「只在格式不对称时成立」**;③ 全格公布;④ 页面兑现。
 ⚠ 硬规则 1 先打印二值化后的阳性率;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 580 · `E02·A241·R624` — 格式不是解释:两边一起二值化,保留 93% 与 95%
+## Entry 580 · `E02·A13·R078` — 格式不是解释:两边一起二值化,保留 93% 与 95%
 
 **行动类型:FRONTIER,`FORMAT-NOT-THE-EXPLANATION`。`A241`。**
-`E02·A241·R624` · `results/format_symmetric.json`
+`E02·A13·R078` · `results/format_symmetric.json`
 
 **580a · 这条限制从 `#535c` 起一直开着,而 NSFG 是唯一能关掉它的地方。**
 GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不同;`#535` 只量了「格式解释掉 13%–45%」,**没消掉它**。
@@ -24563,9 +24563,9 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
 ③ 若不能 -> **写进页面「做不到什么」:这条结论的性侧永远只有三个配对**,并给出它的分辨率下限;
 ④ 页面兑现。⚠ 硬规则 1:逐题打印题干与 n;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 581 · `E02·A242·R625` — 引了五次的限制,量出来是 1.4 倍
+## Entry 581 · `E02·A13·R077` — 引了五次的限制,量出来是 1.4 倍
 
-**行动类型:FRONTIER。`A242`。** `E02·A242·R625` · `results/resolution_floor.json`
+**行动类型:FRONTIER。`A242`。** `E02·A13·R077` · `results/resolution_floor.json`
 
 **581a · 先答 NEXT ①:性组扩不了,而这个「扩不了」是逐题读出来的。**
 把 **3,091 个变量的全部标签**扫过(`#489a`:关键词搜出的 0 不是变量表读出的 0),
@@ -24612,10 +24612,10 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
 ⑤ 页面兑现一句。
 ⚠ 这是 PRODUCTION;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 582 · `E02·A243·R626` — 五十一条不可能,八条本可以量
+## Entry 582 · `E02·A13·R078` — 五十一条不可能,八条本可以量
 
 **行动类型:PRODUCTION(把 `#581c` 变成一次全账本清点)。`A243`。**
-`tools/wall_audit.py` · `E02·A243·R626` · `results/wall_audit.json`
+`tools/wall_audit.py` · `E02·A13·R078` · `results/wall_audit.json`
 
 **582a · 清点结果。**
 全账本『结构上做不到 / IMPOSSIBLE』条款 **51 条**:
@@ -24664,9 +24664,9 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
 ③ 全格公布;④ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 583 · `E02·A244·R627` — 墙后面有东西,而它有大小
+## Entry 583 · `E02·A13·R078` — 墙后面有东西,而它有大小
 
-**行动类型:FRONTIER,`B-PRICED`。`A244`。** `E02·A244·R627` · `results/beyond_44.json`
+**行动类型:FRONTIER,`B-PRICED`。`A244`。** `E02·A13·R078` · `results/beyond_44.json`
 
 **583a · 挑的规则先于挑本身。**
 八条「可量而未量」各自被后续条目引用:`#533` 6 · `#535` 3 · **`#539` 7** · `#542` 2 ·
@@ -24715,10 +24715,10 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
 ③ 全格公布;④ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 584 · `E02·A245·R628` — 我警告过的那个方向,是反的
+## Entry 584 · `E02·A13·R078` — 我警告过的那个方向,是反的
 
 **行动类型:FRONTIER。一次对 `#533d` 的方向更正。`A245`。**
-`E02·A245·R628` · `results/overlap.json`
+`E02·A13·R078` · `results/overlap.json`
 
 **584a · 按同一规则选(剩六条里 `#533` 被引 6 次最多)。**
 它的条款:**「滑动窗口互相重叠 ⇒ 有效样本远小于窗口数,而重叠**抬高**安慰剂 q95」**。
@@ -24767,9 +24767,9 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
 ③ 全格公布;④ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 585 · `E02·A246·R629` — 四堵墙,只有一堵是它自己说的那样
+## Entry 585 · `E02·A13·R078` — 四堵墙,只有一堵是它自己说的那样
 
-**行动类型:FRONTIER,`A-SMALL`。`A246`。** `E02·A246·R629` · `results/reliability_ratio.json`
+**行动类型:FRONTIER,`A-SMALL`。`A246`。** `E02·A13·R078` · `results/reliability_ratio.json`
 ⚠ **BASIN 记账:这是连续第四轮在「我声明的限制不可靠」这个故事上。**
 本轮下注的是**不受欢迎的一侧**(若二值化丢得多,`#580` 的「保留 93%」就要打折)——
 **结果不是那一侧,所以它不是一次盆地内的确认。**
@@ -24827,9 +24827,9 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
    **≤ 0.05** ⇒ 数据驱动的极性可用,写进方法说明。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 586 · `E02·A247·R630` — 两种方法挑出同样两道反向题
+## Entry 586 · `E02·A13·R078` — 两种方法挑出同样两道反向题
 
-**行动类型:FRONTIER,`AGREE`。`A247`。** `E02·A247·R630` · `results/polarity.json`
+**行动类型:FRONTIER,`AGREE`。`A247`。** `E02·A13·R078` · `results/polarity.json`
 堵的是 `#585e` 的第二条:**极性由第一主成分定 —— 那是数据驱动的,而 `#557a` 的做法是从码本文本读。**
 
 **586a · 逐题读题干,人工判定极性,再与主成分符号并排比。**
@@ -24869,10 +24869,10 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
    则**把它从「可量而未量」改判为「真结构不可量」并说明理由** —— 这也是一个合法结局;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 587 · `E02·A248·R631` — 我断言了一个方向,而没有证据;而这堵墙有两半
+## Entry 587 · `E02·A13·R078` — 我断言了一个方向,而没有证据;而这堵墙有两半
 
 **行动类型:PRODUCTION(改判一条墙 + 软化它内含的未证方向)。`A248`。墙的清单到此收口。**
-`E02·A248·R631` · `results/reclassify.json`
+`E02·A13·R078` · `results/reclassify.json`
 
 **587a · 平手,而破平规则写在看之前。**
 剩四条被后续引用:`#542` **4** · `#545` 3 · `#552` 3 · `#570` **4** —— **`#542` 与 `#570` 平手**。
@@ -24917,10 +24917,10 @@ GSS 上非性道德题**原生二值**、性题**四级** ⇒ 两组信息量不
    **介于两者** ⇒ 报比值;③ 全格公布;④ 页面兑现。
 ⚠ 硬规则 1 先打印 n;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 588 · `E02·A249·R632` — 跨两者比非性内还高
+## Entry 588 · `E02·A13·R079` — 跨两者比非性内还高
 
 **行动类型:FRONTIER,`RELATED-BUT-SEPARABLE`。`A249`。回到对象侧后的第一轮。**
-`E02·A249·R632` · `results/cross_domain.json`
+`E02·A13·R079` · `results/cross_domain.json`
 
 **588a · `#534`/`#579` 只算了两个域内,从没算过跨两者 —— 而那是这条结论最后一个没被问过的大问题。**
 「一个人有一套性道德」——**它是她整套道德的一部分,还是另一件东西?**
@@ -24970,9 +24970,9 @@ NSFG 有性题与家庭题两个**真正的领域**(`#536`),而 GSS 的非性题
    **本轮只需把它按同一二值化口径重算一次,使两份仪器可比**;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 589 · `E02·A250·R633` — 次序成立,而余量随口径变
+## Entry 589 · `E02·A13·R079` — 次序成立,而余量随口径变
 
-**行动类型:FRONTIER,`ORDER-HOLDS`。`A250`。** `E02·A250·R633` · `results/nsfg_cross.json`
+**行动类型:FRONTIER,`ORDER-HOLDS`。`A250`。** `E02·A13·R079` · `results/nsfg_cross.json`
 堵的是 `#588c` 的最强限制:**GSS 的五道非性题是便利集合,不是领域。**
 NSFG 的家庭题**是**一个领域(离婚 · 同居 · 未婚生育),所以这一格能配一个真正的对照。
 
@@ -25019,10 +25019,10 @@ NSFG 的家庭题**是**一个领域(离婚 · 同居 · 未婚生育),所以这
 ④ 全格公布;⑤ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 590 · `E02·A251·R634` — 跨几乎不动,动的是分母
+## Entry 590 · `E02·A14·R082` — 跨几乎不动,动的是分母
 
 **行动类型:FRONTIER,`B-DENOMINATOR`。降级 `#588b`(一轮之前刚发表)。`A251`。**
-`E02·A251·R634` · `results/denominator.json`
+`E02·A14·R082` · `results/denominator.json`
 ⚠ **BASIN:这正是我不希望的结局**(它削弱「性是核」),所以这一步是该走的那一步。
 
 **590a · 把问题问得比 `#589` 的 NEXT 更锐:换第二领域时,「跨」动不动?**
@@ -25075,9 +25075,9 @@ NSFG 的家庭题**是**一个领域(离婚 · 同居 · 未婚生育),所以这
 ④ 全格公布;⑤ 页面兑现。⚠ 硬规则 1 先打印 `polviews` 的 n 与年份;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 591 · `E02·A252·R635` — 两个解释都不够
+## Entry 591 · `E02·A14·R082` — 两个解释都不够
 
-**行动类型:FRONTIER,`UNEXPLAINED`。`A252`。** `E02·A252·R635` · `results/partial_out.json`
+**行动类型:FRONTIER,`UNEXPLAINED`。`A252`。** `E02·A14·R082` · `results/partial_out.json`
 `#590b` 留下一个对内容**惊人不敏感**的常数(跨 = 0.19–0.26,换哪个第二领域都一样)。
 一个对内容不敏感的东西,通常有两个无趣的来源,而两个都可测。
 
@@ -25122,9 +25122,9 @@ NSFG 的家庭题**是**一个领域(离婚 · 同居 · 未婚生育),所以这
 ③ 全格公布;④ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 592 · `E02·A253·R636` — 它不是常数,它在长大
+## Entry 592 · `E02·A14·R082` — 它不是常数,它在长大
 
-**行动类型:FRONTIER,`DISTRIBUTED+HISTORICAL`。`A253`。** `E02·A253·R636` · `results/shape.json`
+**行动类型:FRONTIER,`DISTRIBUTED+HISTORICAL`。`A253`。** `E02·A14·R082` · `results/shape.json`
 `#591b` 留下一个说不出来源的连接,而它**只有一个数,没有形状**。本轮问了两个形状,**第二个改变了它的性质**。
 
 **592a · 形状①:不是少数几道题扛着的。**
@@ -25165,9 +25165,9 @@ GSS 是横断面,但**有出生年**(`cohort`),所以可以做一次**可失败�
 ③ 硬规则 1:先打印 `cohort` 的 n 与范围;④ 全格公布;⑤ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 593 · `E02·A254·R637` — 两个方向都动,而它们不可分
+## Entry 593 · `E02·A14·R082` — 两个方向都动,而它们不可分
 
-**行动类型:FRONTIER,`BOTH`。`A254`。** `E02·A254·R637` · `results/apc.json`
+**行动类型:FRONTIER,`BOTH`。`A254`。** `E02·A14·R082` · `results/apc.json`
 `#592d` 的第一条:`#592b` 那个收紧,**可能是队列更替而非个体变化**。本轮把它做成一次可失败的分离。
 
 **593a · 而这个问题在结构上不可完全识别,这一点先写在前面,不写在脚注里。**
@@ -25216,10 +25216,10 @@ GSS 是横断面,但**有出生年**(`cohort`),所以可以做一次**可失败�
 ④ 页面兑现。⚠ 这是 CLOSURE + 一次补做的敏感性检验,诚实标注;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 594 · `E02·A255·R638` — 六步,每一步都被一个检验杀掉;而分段敏感性补上了
+## Entry 594 · `E02·A14·R083` — 六步,每一步都被一个检验杀掉;而分段敏感性补上了
 
 **行动类型:CLOSURE(补做欠着的敏感性)+ PRODUCTION(把六步写成页面上的一段)。`A255`。E02 主线收口。**
-`E02·A255·R638` · `results/banding.json`
+`E02·A14·R083` · `results/banding.json`
 
 **594a · 先补 `#593d` 欠的那次:分段承重吗?**
 三种站得住的分段(现行 / 年龄细分 / 边界整体平移),用 `lib/assignment_sensitivity`(符号优先于极差):
@@ -25271,9 +25271,9 @@ GSS 是横断面,但**有出生年**(`cohort`),所以可以做一次**可失败�
 ③ 页面兑现;④ **不提议采数据**(`#559c` 的纪律)。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 595 · `E03·A256·R639` — 按构造验出来的没有
+## Entry 595 · `E03·A16·R088` — 按构造验出来的没有
 
-**行动类型:PRODUCTION(规格表第七行)。`A256`。** `E03·A256·R639` · `results/panel.json`
+**行动类型:PRODUCTION(规格表第七行)。`A256`。** `E03·A16·R088` · `results/panel.json`
 `#594e`:这条线最后停下来的原因,是**没有任何一个人被问过两次**。
 而 `#559`/`#570` 的六条仪器规格里,**没有一条提到面板**。
 
@@ -25313,10 +25313,10 @@ GSS 是横断面,但**有出生年**(`cohort`),所以可以做一次**可失败�
 ④ 页面兑现。⚠ 这是 PRODUCTION,**不提议采数据**,只做结构分析;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 596 · `E03·A257·R640` — 七行其实是两件事
+## Entry 596 · `E03·A16·R089` — 七行其实是两件事
 
 **行动类型:PRODUCTION(结构分析,不提议采数据)。`A257`。**
-`E03·A257·R640` · `results/min_cover.json`
+`E03·A16·R089` · `results/min_cover.json`
 
 **596a · 判据先于分组写死,只有两条,机械应用。**
 **两条规格不兼容,当且仅当它们要求 ① 不同的观察单位(人 vs 社会),或 ② 不同的原材料(新访谈 vs 既有民族志)。**
@@ -25363,10 +25363,10 @@ GSS 是横断面,但**有出生年**(`cohort`),所以可以做一次**可失败�
 ⚠ 这仍是 PRODUCTION,**不提议采数据**;⚠ 铸号前取全局最大号;
 ⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 597 · `E03·A258·R641` — 冲突零,而两对要多长一个部件
+## Entry 597 · `E03·A16·R089` — 冲突零,而两对要多长一个部件
 
 **行动类型:PRODUCTION(结构分析,不提议采数据)。`A258`。**
-`E03·A258·R641` · `results/conflicts.json`
+`E03·A16·R089` · `results/conflicts.json`
 
 **597a · 判据三值,写在逐对检查之前。**
 `冲突` —— **满足其一必然破坏另一条已达成的状态** · `需额外结构` —— 可同时满足,**但需一个额外部件** ·
@@ -25418,9 +25418,9 @@ GSS 是横断面,但**有出生年**(`cohort`),所以可以做一次**可失败�
 ④ 全表公布;⑤ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 598 · `E03·A259·R642` — 不可选的那两个部件,恰好一份也没有
+## Entry 598 · `E03·A16·R089` — 不可选的那两个部件,恰好一份也没有
 
-**行动类型:PRODUCTION(逐部件覆盖表)。`A259`。** `E03·A259·R642` · `results/coverage.json`
+**行动类型:PRODUCTION(逐部件覆盖表)。`A259`。** `E03·A16·R089` · `results/coverage.json`
 `#559`/`#570`/`#595` 的「现有最接近的」都是**整份调查**层面的比较;本轮改成**逐部件**。
 **每一格必须写出确立它的那条发现;没有依据的一律记「判不了」,不记印象。**
 
@@ -25467,7 +25467,7 @@ GSS/NSFG/YRBS 的抽样设计**从来没有在这里对着对象核过** ⇒ 全
 ⚠ 这仍**不能**证明它是概率样本 —— **只能证明它带着复杂抽样的痕迹**,这一句要写进判据本身;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 599 · `E03·A259·R642b` — 我为它立过规矩,而我把两者放进了同一个 bash 调用
+## Entry 599 · `E03·A16·R089` — 我为它立过规矩,而我把两者放进了同一个 bash 调用
 
 **行动类型:FIX(一次流程违规的更正)。`A259` 内。**
 
@@ -25505,10 +25505,10 @@ python 的断言失败(匹配串多带了 `**`,页面上那句以 `needed.` 结�
 ④ 页面兑现一句。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用(**本轮就是为它写的**);⚠ 校验串写前必须为 0。
 
-## Entry 600 · `E03·A260·R643` — 一条只靠记性执行的规矩,它的失效是默认状态
+## Entry 600 · `E02·A13·R081` — 一条只靠记性执行的规矩,它的失效是默认状态
 
 **行动类型:PRODUCTION(把 `#503`/`#599` 的规矩变成一道检查)。`A260`。**
-`tools/readme_gate.py` 第六条规则 · `E03·A260·R643`
+`tools/readme_gate.py` 第六条规则 · `E02·A13·R081`
 
 **600a · 第一版抓不住引发它的那次失败,被丢弃 —— 而这才是本轮最该记的一步。**
 `#599` 的 NEXT 写的判据是「**同时改动 README* 与 RETRACTIONS 则要求锚**」——
@@ -25552,7 +25552,7 @@ python 的断言失败(匹配串多带了 `**`,页面上那句以 `needed.` 结�
 ③ 若没有 -> **写进页面「做不到什么」:这套检查全部依赖人记得调用**,并给出这句话的证据;
 ④ 页面兑现。⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 校验串写前必须为 0。
 
-## Entry 601 · `E03·A261·R644` — 十件工具六条规则,而没有一件东西会自己跑
+## Entry 601 · `E02·A13·R081` — 十件工具六条规则,而没有一件东西会自己跑
 
 **行动类型:PRODUCTION(把 `#600e` 第三条当对象处理)。`A261`。**
 `tools/readme_gate.py --precommit` · `tools/gate_baseline.json` · 全局 `pre-commit` 新增一个项目分支
@@ -25615,7 +25615,7 @@ python 的断言失败(匹配串多带了 `**`,页面上那句以 `needed.` 结�
 ⚠ 若某条规则在中文上结构性地不可用(如正则依赖英文词边界),**如实记「结构上做不到」并说明它需要什么**,
 不许标「planned」;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 602 · `E03·A262·R645` — 一把只量了半个交付物的尺子,它报的合格是一句关于它自己的话
+## Entry 602 · `E02·A13·R081` — 一把只量了半个交付物的尺子,它报的合格是一句关于它自己的话
 
 **行动类型:PRODUCTION(还掉 `#601e` 的那半个失明)。`A262`。**
 `tools/readme_gate.py::run_gate` · `tools/gate_baseline.json` 重冻
@@ -25665,7 +25665,7 @@ python 的断言失败(匹配串多带了 `**`,页面上那句以 `needed.` 结�
 ⚠ `internal_consistency:zh = 0` 未经注入对照 -> 顺手补一处注入,把它从 UNVERIFIED 变成一个测量;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 603 · `E03·A263·R646` — 同一批债被数了两遍,而我把它写成了另有八笔债
+## Entry 603 · `E02·A13·R081` — 同一批债被数了两遍,而我把它写成了另有八笔债
 
 **行动类型:FIX(更正 `#602c`)。`A263`。** `tools/readme_gate.py::run_gate` 新增去重计数
 
@@ -25710,7 +25710,7 @@ python 的断言失败(匹配串多带了 `**`,页面上那句以 `needed.` 结�
 ⚠ 先做 `#603c` 那条:**分诊工具已证明会把「不知道」输出成条目号** -> 找出处必须**在账本里搜到实证**,
 不许用它给的候选;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 604 · `E03·A264·R647` — 一个覆盖不是一个出处,而账本里早就写着正确答案
+## Entry 604 · `E02·A13·R081` — 一个覆盖不是一个出处,而账本里早就写着正确答案
 
 **行动类型:PRODUCTION(还掉第一条)+ FIX(两次工具不合格)。`A264`。**
 
@@ -25758,7 +25758,7 @@ python 的断言失败(匹配串多带了 `**`,页面上那句以 `needed.` 结�
 如果剩下 7 条的答案也在里面,那么整个 `A265` 就是一次查表,而不是七次侦查;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用。
 
-## Entry 605 · `E03·A265·R648` — 我给棘轮定基线的那一刻,页面正处在它最差的状态
+## Entry 605 · `E02·A13·R081` — 我给棘轮定基线的那一刻,页面正处在它最差的状态
 
 **行动类型:FIX(修 `#604` 冻进去的基线)。`A265`。** `tools/gate_baseline.json`
 
@@ -25802,7 +25802,7 @@ python 的断言失败(匹配串多带了 `**`,页面上那句以 `needed.` 结�
 不可用就换一个(例如把冻基线时的 `git rev-parse HEAD` 与账本最后一条条目号一起写进基线文件,比较条目号);
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 606 · `E03·A16·R649` — 我把每一次信念更新都叫成了一个决定,于是我有 263 个决定和 0 个弧
+## Entry 606 · `E02·A13·R081` — 我把每一次信念更新都叫成了一个决定,于是我有 263 个决定和 0 个弧
 
 **行动类型:PRODUCTION(按 Ivan 的指示,对照 CoVal 全面重做 EAR)。** `EAR_REMAP.md` · 635 个 `git mv`
 
@@ -25856,10 +25856,10 @@ CoVal(`research.trustworthy-ai.coval-deep-analysis.build`)是 `P16` 的参考实
 ⚠ 不许为了让数字好看而把写不出来的弧再拆开 —— **拆开会把 `R/A` 拉回 2.41,那正是这次要修的东西**;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 607 · `E02·A13·R643` — 参照那个 0.093,是一堆符号随机的零取了绝对值
+## Entry 607 · `E02·A13·R081` — 参照那个 0.093,是一堆符号随机的零取了绝对值
 
 **行动类型:FRONTIER(BASIN RULE —— 故意攻击本项目唯一还站着的旗舰主张)。`A13`。**
-`E02·A13·R643` · `results/is_the_ruler_religion.json`
+`E02·A13·R081` · `results/is_the_ruler_religion.json`
 ⚠ **本轮偏离了 `#606` 的 NEXT(逐弧验收),理由写在这里:`#600`–`#606` 连续七轮全是工具与归档。**
 `#606` 的 NEXT **不作废,顺延**。
 
@@ -25919,10 +25919,10 @@ Worlds:**A** 道德坐标 · **B** 它**就是**宗教 · **C** 宗教是若干�
 ⚠ `#606` 的 NEXT(16 个弧逐个验收)**仍然欠着**,排在其后;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 608 · `E02·A13·R644` — 换一具仪器,那道一直分不开的墙自己让开了
+## Entry 608 · `E02·A13·R081` — 换一具仪器,那道一直分不开的墙自己让开了
 
 **行动类型:FRONTIER(meta-separator:问的是「我这把刀切错了没有」)。`A13`。**
-`E02·A13·R644` · `results/domain_not_sex.json`
+`E02·A13·R081` · `results/domain_not_sex.json`
 **INSTRUMENT(硬规则②,先命名)**:**Graham–Haidt–Nosek 2009 JPSP Study 3(MFQ)**,
 `data/external/dataverse/10.7910_DVN_SJTRBI_x/`,**n = 8,193,完整作答 6,741**。
 **一份问卷 · 同一批人 · 同一条答题量表 —— `#607b` 那个分票问题在这里根本不存在。**
@@ -25989,9 +25989,9 @@ offset **PASS**:共同响应风格的**下界 0.0497(catch)· 上界 0.1089(跨�
 ③ 页面兑现,报**剔 `god` 前后**的两个领先值。
 ⚠ 不许只报有利的那一个;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 609 · `E02·A13·R645` — 撑住它的不是上帝,也不是贞洁
+## Entry 609 · `E02·A13·R081` — 撑住它的不是上帝,也不是贞洁
 
-**行动类型:FRONTIER。`A13`。** `E02·A13·R645` · `results/which_item_carries_it.json`
+**行动类型:FRONTIER。`A13`。** `E02·A13·R081` · `results/which_item_carries_it.json`
 **INSTRUMENT**:GHN 2009 JPSP Study 3(MFQ),30 题 + `Religion_attend_num` 完整 **n = 6,438**。
 
 **609a · 我把 `#608` 的 NEXT 加宽了,而理由本身就是一条法则。**
@@ -26058,10 +26058,10 @@ offset **PASS**:null 种类 = **其余四域在同一次偏相关下的保留率
 ④ 页面兑现。
 ⚠ 不许只报有利的那一支;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 610 · `E02·A13·R646` — 最泛的那道题在别人域里,不在这一族
+## Entry 610 · `E02·A13·R081` — 最泛的那道题在别人域里,不在这一族
 
 **行动类型:FRONTIER(BASIN RULE:连续第三轮确认「纯洁特殊」,所以本轮就是去攻击它)。`A13`。**
-`E02·A13·R646` · `results/is_decency_an_omnibus.json`
+`E02·A13·R081` · `results/is_decency_an_omnibus.json`
 **INSTRUMENT**:GHN 2009 JPSP Study 3(MFQ),30 题 + `Religion_attend_num` 完整 **n = 6,438**。
 
 **610a · §3 梯度检查先兑现了,而它是干净的。**
@@ -26122,10 +26122,10 @@ offset **PASS**:null 种类 = **同一份问卷上每道题都带的一般共性
 ③ 两支都要报**比值表 + 边际分布表**;④ 页面兑现。
 ⚠ 不许只报有利的一支;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 611 · `E02·A13·R647` — 一张按别的列排序的表,读不出这一列的名次
+## Entry 611 · `E02·A13·R081` — 一张按别的列排序的表,读不出这一列的名次
 
 **行动类型:FIX(撤回 `#610c①`)+ FRONTIER。`A13`。**
-`E02·A13·R647` · `results/ratio_and_the_ceiling.json`
+`E02·A13·R081` · `results/ratio_and_the_ceiling.json`
 **INSTRUMENT**:GHN 2009 JPSP Study 3(MFQ),30 题 + `Religion_attend_num` 完整 **n = 6,438**。
 
 **611a · ⛔ 撤回 `#610c①`,而我知道它是怎么产生的。**
@@ -26189,9 +26189,9 @@ offset **PASS**:null 种类 = **域大小相同(各 6 题)时随机分组也会�
 ③ 安慰剂:偏掉年龄,保留率须 ≈100%;④ 页面兑现,报三个保留率。
 ⚠ 不许只报有利的一支;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 612 · `E02·A13·R648` — 串起一个人整套道德的,不是恶心,是他把自己放在哪一边
+## Entry 612 · `E02·A13·R081` — 串起一个人整套道德的,不是恶心,是他把自己放在哪一边
 
-**行动类型:FRONTIER。`A13`。** `E02·A13·R648` · `results/upstream_or_passenger.json`
+**行动类型:FRONTIER。`A13`。** `E02·A13·R081` · `results/upstream_or_passenger.json`
 **INSTRUMENT**:GHN 2009 JPSP Study 3(MFQ),30 题 + `politics` + `Age` 完整 **n = 5,453**。
 
 **612a · 硬规则①当场救了一次,而且是第二次同型。**
@@ -26256,10 +26256,10 @@ offset **PASS**:纯洁掉 0.235,其余四域中位掉 0.117,差 **3.2× 展布**
 ④ 安慰剂:同样两步偏年龄,增量须 ≈0;⑤ 页面兑现,报**两个增量**。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 613 · `E02·A13·R649` — 那道政治题不是一个道德维度的简写,是恰好两个的
+## Entry 613 · `E02·A13·R081` — 那道政治题不是一个道德维度的简写,是恰好两个的
 
 **行动类型:FRONTIER(打 `#612f` 自己点名的那条同义反复)。`A13`。**
-`E02·A13·R649` · `results/summary_or_extra.json`
+`E02·A13·R081` · `results/summary_or_extra.json`
 **INSTRUMENT**:GHN 2009 JPSP Study 3(MFQ),30 题 + `politics` + `Age`,**n = 5,453**,
 **对集与 `#612c` 完全相同**(不含纯洁的那四个域之间,216 对)—— 否则两轮的数不可比。
 
@@ -26313,10 +26313,10 @@ offset **PASS**:null 种类 = **PC1 之后再偏一个与 30 题边际相关匹�
 ④ 页面兑现,报**两个 PC 的域相关表 + 政治的投影 R²**。
 ⚠ 不许先起名再找证据;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 614 · `E02·A13·R650` — 两条轴各自不是一个域,是一捆域 —— 而这一句是对仪器的验证,不是发现
+## Entry 614 · `E02·A13·R080` — 两条轴各自不是一个域,是一捆域 —— 而这一句是对仪器的验证,不是发现
 
 **行动类型:FRONTIER,结论 **UNVERIFIED**(命名判据无法被评判)。`A13`。**
-`E02·A13·R650` · `results/can_the_two_axes_be_named.json`
+`E02·A13·R080` · `results/can_the_two_axes_be_named.json`
 **INSTRUMENT**:GHN 2009 JPSP Study 3(MFQ),30 题 + `politics`,**n = 5,453**(与 `#613` 同)。
 
 **614a · §3 识别检查先做,而它杀掉了我不希望的那个世界。**
@@ -26378,10 +26378,10 @@ g=0(随机方向)命中率期望 0.20 < 门槛 0.40 ⇒ **在 g=0 不通过 ✅*
 ③ 报**26 个情境题各自的两个 `R²`**,不许只报有利的;④ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 615 · `E02·A13·R651` — 我把门槛设在了这个设计的天花板之上
+## Entry 615 · `E02·A13·R080` — 我把门槛设在了这个设计的天花板之上
 
 **行动类型:FRONTIER,结论 **UNVERIFIED**(正对照失败,而失败的是我的门槛)。`A13`。**
-`E02·A13·R651` · `results/outside_its_own_division.json`
+`E02·A13·R080` · `results/outside_its_own_division.json`
 **INSTRUMENT**:GHN 2009 JPSP Study 3 · MFQ 30 题 → PC1/PC2 · 外部效标 = 26 个 `sacredness` 情境题的
 `*_N` 编码(**二值:任何价钱都不干**,全员作答;`_MO` 只留出价者、样本随题从 2,021 变到 7,490,
 **故不作主口径**,只进规格曲线)。完整 n = **6,294**。
@@ -26438,10 +26438,10 @@ g=0(随机方向)命中率期望 0.20 < 门槛 0.40 ⇒ **在 g=0 不通过 ✅*
 **不许在 MFQ 上再开一轮**;④ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 616 · `E02·A12·R652` — 我手读判了零,机器扫描找回了五个 —— 而其中一个是问卷给不了的设计
+## Entry 616 · `E02·A12·R070` — 我手读判了零,机器扫描找回了五个 —— 而其中一个是问卷给不了的设计
 
 **行动类型:FRONTIER + FIX(推翻我自己一小时前的手读)。`A12`(换回社会层)。**
-`E02·A12·R652` · `results/no_harm_severity.json`
+`E02·A12·R070` · `results/no_harm_severity.json`
 **换方向(`#111c`)**:`#614`/`#615` 连续两次 UNVERIFIED,`A13` 已在人层一具仪器上连开 9 轮 ⇒ **回社会层。**
 **INSTRUMENT**:**SCCS / D-PLACE**,**186 个社会 · 1,781 个变量**,由**民族志编码团队**从既有民族志编码 ——
 同一批编码者、同一批民族志是这具仪器的主威胁(`#529`/`#530` 已量过它自身的耦合)。
@@ -26498,10 +26498,10 @@ g=0:同一套扫描指向 `Subsistence, Economy` 类目 -> **返回 1**(效应�
 ⑥ 报三点的**完整轮廓**,不许只报端点差;⑦ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 617 · `E02·A12·R653` — 一个社会不决定暴力对不对,它决定对谁做才不对
+## Entry 617 · `E02·A12·R070` — 一个社会不决定暴力对不对,它决定对谁做才不对
 
 **行动类型:FRONTIER + FIX(更正 `#616` 的两处)。`A12`。**
-`E02·A12·R653` · `results/one_act_three_circles.json`
+`E02·A12·R070` · `results/one_act_three_circles.json`
 **INSTRUMENT**:SCCS/D-PLACE。**两个独立编码团队,同一个三距离结构** ——
 **Ross 1983**(`SCCS781/782/783`)与 **Lang 1998**(`SCCS1768/1769/1770`,**极性相反**)。
 
@@ -26556,10 +26556,10 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ③ 无论哪一支都要报**7 个变量的覆盖表**;④ 页面兑现。
 ⚠ 不许把「暴力有梯度」直接推广到性;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 618 · `E02·A12·R654` — 三个搜索版本,没有一个能找回它自己已知的正例
+## Entry 618 · `E02·A12·R070` — 三个搜索版本,没有一个能找回它自己已知的正例
 
 **行动类型:FRONTIER,结论 **UNVERIFIED ×3**(而失败的每一次都是我的仪器)。`A12`。**
-`E02·A12·R654` · `results/does_sex_have_a_distance_axis.json`
+`E02·A12·R070` · `results/does_sex_have_a_distance_axis.json`
 **INSTRUMENT**:SCCS/D-PLACE,1,781 变量。**本轮的被测对象其实是我的搜索,不是 SCCS。**
 
 **618a · 唯一确立的东西:`#616` 那七个的真实覆盖(又一次「行数不是测量」)。**
@@ -26615,7 +26615,7 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ⚠ 这是 CLOSURE,**如实标注**,不冒充 frontier;⚠ 铸号前取全局最大号;
 ⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 619 · `E02·A12·R655` — 一个数在公开页面上挂了几周,而它的出处表里根本没有它
+## Entry 619 · `E02·A12·R059` — 一个数在公开页面上挂了几周,而它的出处表里根本没有它
 
 **行动类型:CLOSURE(如实标注,不冒充 frontier)。`A12`。** 它不分离任何世界;它偿还 `#604` 之后一直挂着的页面欠账。
 判据**逐字沿用 `#604c`**:每条改完立即重跑,**必须降 2;降 1 或不降都回滚**。
@@ -26669,9 +26669,9 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ④ 报**一致 / 不一致 / 判不了**三个数;⑤ 页面兑现。
 ⚠ 这仍是 CLOSURE;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 620 · `E02·A12·R656` — 两个锚指着讨论锚的那条条目,而不是带着数字的那条
+## Entry 620 · `E02·A12·R059` — 两个锚指着讨论锚的那条条目,而不是带着数字的那条
 
-**行动类型:CLOSURE**(如实标注)。`A12`。`E02·A12·R656` · `results/do_the_anchors_point_true.json`
+**行动类型:CLOSURE**(如实标注)。`A12`。`E02·A12·R059` · `results/do_the_anchors_point_true.json`
 `#619e` 的 ⛔:我核对过七条的原文,**但从没反向验证账本里的数与页面上的数逐位相同**。本轮做掉它。
 
 **620a · 先造正对照,再造搜索(`#618` 的教训)。**
@@ -26725,10 +26725,10 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ⚠ 这仍是 CLOSURE;⚠ 不许为了让计数变绿而放松规则 —— **回测是硬要求**;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 621 · `E02·A12·R657` — 一条规则,它能看见的每一个样本都已经在报警
+## Entry 621 · `E02·A12·R059` — 一条规则,它能看见的每一个样本都已经在报警
 
 **行动类型:CLOSURE**(如实标注)。结论 **UNVERIFIED**(正对照无法搭建),而**判据要求的动作已完成**。
-`A12` · `E02·A12·R657` · `results/is_the_rule_degenerate.json`
+`A12` · `E02·A12·R059` · `results/is_the_rule_degenerate.json`
 
 **621a · 读源码,不读它的名字。** `internal_consistency` 是**行级**的:
 按「该行含不含 CJK」把同一引用标记的出现分成两侧,比较两侧数字的**并集**。
@@ -26781,9 +26781,9 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ⚠ 仍是 CLOSURE;⚠ 不许为了让计数变绿而删数字或放松规则;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 622 · `E02·A12·R658` — 那条规则的「两侧」,根本不是两种语言
+## Entry 622 · `E02·A12·R059` — 那条规则的「两侧」,根本不是两种语言
 
-**行动类型:CLOSURE**(如实标注)。四闸全过。`A12` · `E02·A12·R658` · `results/two_sides_not_two_languages.json`
+**行动类型:CLOSURE**(如实标注)。四闸全过。`A12` · `E02·A12·R059` · `results/two_sides_not_two_languages.json`
 
 **622a · E1:`#129` 的两行不是同一条主张。**
 判法**先写死,且是我定的**:取每行**第一个表格单元格**(主张列)的文字,两行文字不同 ⇒ 不是同一条主张。
@@ -26845,9 +26845,9 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ⚠ 仍是 CLOSURE;⚠ 不许因为「我证明了它是伪影」就跳过回测;
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ 冻基线是第三步。
 
-## Entry 623 · `E02·A12·R659` — 三十六次页面更正里,二十九次是措辞
+## Entry 623 · `E02·A12·R059` — 三十六次页面更正里,二十九次是措辞
 
-**行动类型:CLOSURE**(如实标注)。四闸全过。`A12` · `E02·A12·R659` · `results/backtest.json`
+**行动类型:CLOSURE**(如实标注)。四闸全过。`A12` · `E02·A12·R059` · `results/backtest.json`
 `#620` 立的规矩「改规则必须先回测」,本轮跑掉。
 
 **623a · §3 梯度检查先做,而它决定了判据怎么写。**
@@ -26905,9 +26905,9 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 **先读它,别重造** —— `L21`/`P4`);④ 报可检测率与正对照;⑤ 页面兑现。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 624 · `E02·A12·R660` — 那三十次措辞更正,一次也不是「限定语被删掉而数字留下」
+## Entry 624 · `E02·A12·R059` — 那三十次措辞更正,一次也不是「限定语被删掉而数字留下」
 
-**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R660` · `results/qualifier_gate.json`
+**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R059` · `results/qualifier_gate.json`
 
 **624a · ★ P4 当场救了一次,而且我的判据比仓库里躺着的代码更差 —— 这一条写在结果前面。**
 我在 `#623` 的 NEXT 里预注册的判据:**「删掉的句子含限定词且不含小数」**。
@@ -26960,9 +26960,9 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ⚠ 不许只报有利的一类;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 625 · `E02·A12·R661` — 三十条里二十五条落在净零桶,而分辨率就是结果
+## Entry 625 · `E02·A12·R059` — 三十条里二十五条落在净零桶,而分辨率就是结果
 
-**行动类型:CLOSURE**(如实标注)。四闸全过。`A12` · `E02·A12·R661` · `results/add_or_strip.json`
+**行动类型:CLOSURE**(如实标注)。四闸全过。`A12` · `E02·A12·R059` · `results/add_or_strip.json`
 
 **625a · §3 梯度检查改掉了 `#624` 的做法,而理由写在前面。**
 `#624` 的 NEXT 写的是「**由我逐条归类**」——**那本身就是一台判断仪器**:
@@ -27015,9 +27015,9 @@ Galton 问题只被**部分**修正(块 bootstrap ≠ 系统发育控制,且实�
 ⚠ 这是 PRODUCTION;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 626 · `E02·A12·R662` — 读了两版,不等于在两版上都有效
+## Entry 626 · `E02·A12·R059` — 读了两版,不等于在两版上都有效
 
-**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R662` · `results/which_version.json`
+**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R059` · `results/which_version.json`
 本次会话「计数取决于看哪一版」同型**三次**(`#607b` · `#622` · `#625d`)——
 **第四次不该是再记一笔,该是把它变成规则的一个属性。**
 
@@ -27071,10 +27071,10 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 627 · `E02·A12·R663` — 不是它开不了火,是这一页上没有能让它开火的东西
+## Entry 627 · `E02·A12·R059` — 不是它开不了火,是这一页上没有能让它开火的东西
 
 **行动类型:PRODUCTION + FIX(更正 `#622` 的措辞)。** 四闸全过。
-`A12` · `E02·A12·R663` · `results/can_it_fire.json`
+`A12` · `E02·A12·R059` · `results/can_it_fire.json`
 
 **627a · §3 梯度检查先定了操作化,而它决定了对照怎么搭。**
 好几条规则**基线本来就非零**(`uncited=1` · `consistency=4`)⇒ **「开火」只能读成「计数上升」**;
@@ -27135,9 +27135,9 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 这是 PRODUCTION;⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 628 · `E02·A12·R664` — 一个守卫太严,人就会去关掉它
+## Entry 628 · `E02·A12·R059` — 一个守卫太严,人就会去关掉它
 
-**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R664` · `results/forge_a_commit.json`
+**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R059` · `results/forge_a_commit.json`
 `#627d` 的四个 `UNCOMPUTED` 里最便宜的那个,做掉了。
 
 **628a · 安全边界先写死(这是要造提交的一轮)。**
@@ -27183,9 +27183,9 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 629 · `E02·A12·R665` — 一个数离开了页面,而你分不出它是被拿走了还是被换掉了
+## Entry 629 · `E02·A12·R059` — 一个数离开了页面,而你分不出它是被拿走了还是被换掉了
 
-**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R665` · `results/rewrite_vs_delete.json`
+**行动类型:PRODUCTION**(如实标注)。四闸全过。`A12` · `E02·A12·R059` · `results/rewrite_vs_delete.json`
 
 **629a · §3 梯度检查改掉了判据的读法,而这一条写在结果前面。**
 `numbers_that_left` 的代码是 `for tk in sorted(o - n)` ⇒ **它结构上只报「谁走了」,报不出「谁来了」。**
@@ -27239,10 +27239,10 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 630 · `E02·A12·R666` — 配对失败必须有自己的名字,否则它会被读成「它被拿走了」
+## Entry 630 · `E02·A12·R059` — 配对失败必须有自己的名字,否则它会被读成「它被拿走了」
 
 **行动类型:PRODUCTION**(如实标注)。四闸全过 · **已接入**。
-`A12` · `E02·A12·R666` · `results/replaced_by.json`
+`A12` · `E02·A12·R059` · `results/replaced_by.json`
 
 **630a · §3 梯度检查决定了输出必须是三值。**
 「同一段落」需要**新旧段落配对**,而配对是**启发式**(词重合 ≥ 0.50)⇒
@@ -27301,10 +27301,10 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`)。
 
-## Entry 631 · `E02·A12·R667` — 它把同一个新数指派给两个离开的数,而第三个候选一次也没被提起
+## Entry 631 · `E02·A12·R059` — 它把同一个新数指派给两个离开的数,而第三个候选一次也没被提起
 
 **行动类型:PRODUCTION + FIX(修 `#630` 接进去的那一列)。** 四闸全过 · **已修 · 已回测 · 已接入**。
-`A12` · `E02·A12·R667` · `results/two_leave_two_arrive.json`
+`A12` · `E02·A12·R059` · `results/two_leave_two_arrive.json`
 
 **631a · 我在写这一轮之前就知道答案,而我仍然先量。**
 `#630` 接进去的代码是 `cand[0]` ⇒ 我预期它「挑第一个」。
@@ -27356,10 +27356,10 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`);⚠ **表格里不要「管道紧贴粗体」**(`#629f`/`#630g`)。
 
-## Entry 632 · `E02·A12·R668` — 两段共享大半汉字的中文,它算出的重合度是零
+## Entry 632 · `E02·A12·R059` — 两段共享大半汉字的中文,它算出的重合度是零
 
 **行动类型:PRODUCTION,结论 UNVERIFIED(正对照失败)+ 一个实测到的硬缺陷。**
-`A12` · `E02·A12·R668` · `results/mismatch_rate.json`
+`A12` · `E02·A12·R059` · `results/mismatch_rate.json`
 
 **632a · 一处标注的偏离。** `#631` 的 NEXT 写「在临时分支上伪造 12 组」,**本轮走纯文本支**。
 理由是 `#173c` 立下的规则本身(*对照跑纯文本支,否则要穿过 git/cwd/文件名三层*)。**刻意,且标注。**
@@ -27408,10 +27408,10 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对,任何一格变大不许冻**(`#622f`);⚠ **表格里不要「管道紧贴粗体」**(`#629f`/`#630g`)。
 
-## Entry 633 · `E02·A12·R669` — 修好了,而它有没有帮上忙,样本是三
+## Entry 633 · `E02·A12·R059` — 修好了,而它有没有帮上忙,样本是三
 
 **行动类型:PRODUCTION**(如实标注)。四闸全过 · **已回测 · 已接入**。
-`A12` · `E02·A12·R669` · `results/bigram.json`
+`A12` · `E02·A12·R059` · `results/bigram.json`
 
 **633a · §3 梯度检查决定了 g=0 长什么样。**
 2-gram 有一个明显的失败方式:**让什么都相似**。
@@ -27466,9 +27466,9 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对**(`#622f`);⚠ **表格里不要「管道紧贴粗体」**(`#629f`/`#630g`)。
 
-## Entry 634 · `E02·A12·R670` — 两半都在,而它们从来没有被乘在一起
+## Entry 634 · `E02·A12·R059` — 两半都在,而它们从来没有被乘在一起
 
-**行动类型:FRONTIER(换方向,回到对象)。`A12`。** `E02·A12·R670` · 人工普查,无脚本产物。
+**行动类型:FRONTIER(换方向,回到对象)。`A12`。** `E02·A12·R059` · 人工普查,无脚本产物。
 `#633` 的 NEXT:工具链连开八轮之后,`§0.2`「不能只交工具」。
 
 **634a · 这一次不用正则,用手 —— 而理由是 `#618` 已经证明的。**
@@ -27531,9 +27531,9 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对**(`#622f`);⚠ **表格里不要「管道紧贴粗体」**(`#629f`/`#630g`)。
 
-## Entry 635 · `E02·A12·R671` — 我预注册的是样本量的地板,而杀死它的是变量本身没有方差
+## Entry 635 · `E02·A12·R059` — 我预注册的是样本量的地板,而杀死它的是变量本身没有方差
 
-**行动类型:FRONTIER,结论:两个互相独立的死因,不计算任何相关。** `A12` · `E02·A12·R671`
+**行动类型:FRONTIER,结论:两个互相独立的死因,不计算任何相关。** `A12` · `E02·A12·R059`
 
 **635a · 第一个死因,在任何计算之前:`#529a` 的错原样重现的机会。**
 `SCCS959`「乱伦禁忌的延伸范围」是一份**名义类型学**:
@@ -27591,10 +27591,10 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对**(`#622f`);⚠ **表格里不要「管道紧贴粗体」**(`#629f`/`#630g`)。
 
-## Entry 636 · `E02·A12·R672` — 同时出现的,只是同一批人在同一篇论文里编的那几个变量
+## Entry 636 · `E02·A12·R059` — 同时出现的,只是同一批人在同一篇论文里编的那几个变量
 
 **行动类型:普查(ENUMERATION),如实标注 —— 它不检验任何假设。** 四闸全过。
-`A12` · `E02·A12·R672` · `results/coverage_atlas.json`
+`A12` · `E02·A12·R059` · `results/coverage_atlas.json`
 
 **636a · `#635` 的 NEXT 在硬规则①那一步就停住了,而这是它该有的样子。**
 计划:用 `SCCS173`(对强奸的谴责)交叉验证 `#617`。
@@ -27645,10 +27645,10 @@ dangling_anchors 0 · claims_without_anchor 0` **完全一致** ⇒ **这次接�
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对**(`#622f`);⚠ **表格里不要「管道紧贴粗体」**(`#629f`/`#630g`)。
 
-## Entry 637 · `E02·A12·R673` — 记录性态度的那一篇,内部是稀的;记录暴力的那一篇,内部是密的
+## Entry 637 · `E02·A12·R059` — 记录性态度的那一篇,内部是稀的;记录暴力的那一篇,内部是密的
 
 **行动类型:普查(ENUMERATION)+ PRODUCTION**,如实标注。四闸全过。
-`A12` · `E02·A12·R673` · `results/source_map.json`
+`A12` · `E02·A12·R059` · `results/source_map.json`
 `#636c` 立了边界(能同时出现的只是同一篇论文里的变量)⇒ 那么「还能问什么」的单位是 **source**。
 
 **637a · §3 梯度检查两条,都在跑之前。**
@@ -27700,10 +27700,10 @@ g=0:4 个 `k==1` 的 source **无一被判合格** ✅。
 ⚠ 铸号前取全局最大号;⚠ 页面与账本分两次调用;
 ⚠ **冻基线前逐格比对**(`#622f`);⚠ **表格里不要「管道紧贴粗体」**(`#629f`/`#630g`)。
 
-## Entry 638 · `E02·A12·R674` — 同一行为、同一量表、四个对象,一百三十九个社会 —— 而对象是这个社会自己的孩子
+## Entry 638 · `E02·A12·R059` — 同一行为、同一量表、四个对象,一百三十九个社会 —— 而对象是这个社会自己的孩子
 
 **行动类型:PRODUCTION + 人工判定**,如实标注。四闸全过。
-`A12` · `E02·A12·R674` · `results/next_source.json`
+`A12` · `E02·A12·R059` · `results/next_source.json`
 
 **638a · 「从未用过」不能凭记忆,所以它被机械确定了 —— 而这本身是一次搜索,先过对照。**
 把账本 + 两版页面 + 全部轮次脚本里的每一个 `SCCS\d+` 抓出来映射回 `source`。
@@ -27758,7 +27758,7 @@ g=0:4 个 `k==1` 的 source **无一被判合格** ✅。
 
 ---
 
-## Entry 639 · `E02·A12·R675` — 换个团队隔二十年还是同一个答案,而我的地板又一次写错了格
+## Entry 639 · `E02·A12·R071` — 换个团队隔二十年还是同一个答案,而我的地板又一次写错了格
 
 **类型:PRODUCTION**(`#638` 留下的可读性缺口)。**⚠ 内含一次预注册作废,而它是本会话第二次同型缺陷。**
 
@@ -27819,7 +27819,7 @@ G4 规格曲线:剔除 `20` 档 rho = +0.6301(n = 60);保留 `20` 并入中档 r
 
 ---
 
-## Entry 640 · `E02·A12·R676` — 把做法固定住只换承受的人,一个社会只有一个数;换做法就没有了
+## Entry 640 · `E02·A12·R072` — 把做法固定住只换承受的人,一个社会只有一个数;换做法就没有了
 
 **类型:FRONTIER**(两个世界的差别是本体的)。`#639` 把极性定下来之后,四件套第一次可用。
 
@@ -27881,7 +27881,7 @@ G4 规格曲线:剔除 `20` 档 rho = +0.6301(n = 60);保留 `20` 并入中档 r
 
 ---
 
-## Entry 641 · `E02·A12·R677` — 能分辨的那一刀是 0.60,而我把阶梯切在了 0.210
+## Entry 641 · `E02·A12·R073` — 能分辨的那一刀是 0.60,而我把阶梯切在了 0.210
 
 **类型:FRONTIER**。`#640` 的本体位移自己提出的问题:「一件事」的边界在哪里。
 
@@ -27946,7 +27946,7 @@ G4 规格曲线:剔除 `20` 档 rho = +0.6301(n = 60);保留 `20` 并入中档 r
 
 ---
 
-## Entry 642 · `E02·A12·R678` — 换谁挨打几乎不改变那个数,换用哪一种手段就把它压掉四分之三
+## Entry 642 · `E02·A12·R074` — 换谁挨打几乎不改变那个数,换用哪一种手段就把它压掉四分之三
 
 **类型:FRONTIER**,而**这一步的正面结果是我不希望看到的那一个**(§3 BASIN RULE / meta-separator)。
 
@@ -28019,7 +28019,7 @@ G4 规格曲线:剔除 `20` 档 rho = +0.6301(n = 60);保留 `20` 并入中档 r
 
 ---
 
-## Entry 643 · `E02·A12·R679` — 一个测得极稳、却与周围一切都正交的量
+## Entry 643 · `E02·A12·R075` — 一个测得极稳、却与周围一切都正交的量
 
 **类型:FRONTIER**。`#642` 里唯一没被任何判据覆盖、而又最反直觉的一格。
 
@@ -28069,7 +28069,7 @@ G4 规格曲线:剔除 `20` 档 rho = +0.6301(n = 60);保留 `20` 并入中档 r
 
 ---
 
-## Entry 644 · `E02·A12·R680` — 没有一条说得比它的区间允许的更强,而收口自己查出了三件别的
+## Entry 644 · `E02·A12·R076` — 没有一条说得比它的区间允许的更强,而收口自己查出了三件别的
 
 **类型:CLOSURE**(如实标注 —— 保护 `#639`–`#643`,不开新世界)。**本弧关闭条目。**
 
@@ -28125,7 +28125,7 @@ G4 规格曲线:剔除 `20` 档 rho = +0.6301(n = 60);保留 `20` 并入中档 r
 
 ---
 
-## Entry 645 · `E03·A17·R681` — 扫错了层的零毫无意义,而拆开 zip 之前那个零连测量都不是
+## Entry 645 · `E03·A17·R090` — 扫错了层的零毫无意义,而拆开 zip 之前那个零连测量都不是
 
 **类型:CLOSURE**(如实标注 —— **关掉一条路**,不开新世界;它保护 `#643`,给它一个边界)。**A17 开弧。**
 
@@ -28186,7 +28186,7 @@ GSS `spanking` 让同一个问题第一次能在**人**身上问:
 
 ---
 
-## Entry 646 · `E03·A17·R682` — 一个数和它的天花板是两次不同的测量,而我只比了数
+## Entry 646 · `E03·A17·R091` — 一个数和它的天花板是两次不同的测量,而我只比了数
 
 **类型:FRONTIER**。**判决:UNVERIFIED,两个控制都失败。不折成任何一个世界。**
 
@@ -28251,7 +28251,7 @@ p(yes):`polabuse` 0.1093 · `polmurdr` 0.1154 · `polescap` 0.7266 · `polattak`
 
 ---
 
-## Entry 647 · `E03·A17·R683` — 方法是好的,是那四道题撑不住它 —— 而顺手量出连四档题的天花板也远低于一
+## Entry 647 · `E03·A17·R092` — 方法是好的,是那四道题撑不住它 —— 而顺手量出连四档题的天花板也远低于一
 
 **类型:FRONTIER**。**判决:UNVERIFIED(正对照失败)。⚠ 同一问题第二次 ⇒ `#111c`:换方向,不追第三次。**
 
@@ -28325,7 +28325,7 @@ G4:Kendall 版 A=+0.3972 F=+0.5550 差 −0.1578,**同号同序**。
 
 ---
 
-## Entry 648 · `E03·A18·R684` — 我下注纯洁的领先是天花板造的,而它比生的数还要更领先
+## Entry 648 · `E03·A18·R093` — 我下注纯洁的领先是天花板造的,而它比生的数还要更领先
 
 **类型:FRONTIER**。**A18 开弧。判决:W3 —— 领先被放大,声明成立且被低估。我下注反了。**
 
@@ -28391,7 +28391,7 @@ MFQ 天花板全在 **0.913–0.950**,归一几乎不改变什么;
 
 ---
 
-## Entry 649 · `E03·A18·R685` — 性 0.47 对家庭 0.10,而两块的天花板都高 —— 不是天花板造的
+## Entry 649 · `E03·A18·R094` — 性 0.47 对家庭 0.10,而两块的天花板都高 —— 不是天花板造的
 
 **类型:FRONTIER**。`#648` 留下「按天花板分诊,不是一律重算」。
 **而一句「分诊」如果不能失败,它就只是一次重新措辞** —— 所以先给分诊器造正对照。
@@ -28452,7 +28452,7 @@ MFQ 天花板全在 **0.913–0.950**,归一几乎不改变什么;
 
 ---
 
-## Entry 650 · `E03·A18·R686` — 七题不是一个领域,所以 4.7 倍是拿一个领域去比一个袋子
+## Entry 650 · `E03·A18·R095` — 七题不是一个领域,所以 4.7 倍是拿一个领域去比一个袋子
 
 **类型:FRONTIER**。**⛔ 本条推翻 `#649` 的头号数字,而 `#649` 是上一轮写的。**
 
@@ -28512,7 +28512,7 @@ MFQ 天花板全在 **0.913–0.950**,归一几乎不改变什么;
 
 ---
 
-## Entry 651 · `E03·A18·R687` — 它没有报错,它报了 1/1/1/1,看起来像一个结论
+## Entry 651 · `E03·A18·R096` — 它没有报错,它报了 1/1/1/1,看起来像一个结论
 
 **类型:FRONTIER**。**判决:UNVERIFIED —— 臂 A 失败。而两处坏都是我的,不是世界的。**
 
@@ -28579,7 +28579,7 @@ UNVERIFIED **不是**无罪。`[unchallenged]`
 
 ---
 
-## Entry 652 · `E03·A18·R688` — 十四块里十一块站得住,而站不住的三块全是名义大于真实,一次反向都没有
+## Entry 652 · `E03·A18·R097` — 十四块里十一块站得住,而站不住的三块全是名义大于真实,一次反向都没有
 
 **类型:FRONTIER**。**判决:W2 —— 系统性。我下注 W1(孤例),第二次下注下反。**
 
@@ -28648,7 +28648,7 @@ NSFG 性三题 · SCCS 以身作则 / 疼爱 / 体罚 / 讲课 / 放任。
 
 ---
 
-## Entry 653 · `E03·A18·R689` — 五个道德域里只有纯洁是团,而性在两具仪器上都是
+## Entry 653 · `E03·A18·R098` — 五个道德域里只有纯洁是团,而性在两具仪器上都是
 
 **类型:FRONTIER**。`#652` 自己指出:连通子块只要求**每题至少连到一题** —— **一条链也给 1.00。**
 
@@ -28718,7 +28718,7 @@ NSFG 性三题 · SCCS 以身作则 / 疼爱 / 体罚 / 讲课 / 放任。
 
 ---
 
-## Entry 654 · `E03·A18·R690` — 我重引自己的账本时丢掉了定义那个量的符号,两条条目之后它弄坏了一道控制
+## Entry 654 · `E03·A18·R099` — 我重引自己的账本时丢掉了定义那个量的符号,两条条目之后它弄坏了一道控制
 
 **类型:FRONTIER**。**判决:W2 —— 构造块。而「第三个复制点」结构性地拿不到。**
 
@@ -28790,7 +28790,7 @@ NSFG 性三题 · SCCS 以身作则 / 疼爱 / 体罚 / 讲课 / 放任。
 
 ---
 
-## Entry 655 · `E03·A18·R691` — 真重引与随机配对都是 1.000,所以这具仪器测不到丢失与无关的差
+## Entry 655 · `E03·A18·R100` — 真重引与随机配对都是 1.000,所以这具仪器测不到丢失与无关的差
 
 **类型:FRONTIER**。**判决:UNVERIFIED —— offset 控制失败。而失败的是单位,不是问题。**
 
@@ -28851,7 +28851,7 @@ NSFG 性三题 · SCCS 以身作则 / 疼爱 / 体罚 / 讲课 / 放任。
 
 ---
 
-## Entry 656 · `E03·A18·R692` — 一个分母几乎恒为 1 的比率,不是一个比率
+## Entry 656 · `E03·A18·R100` — 一个分母几乎恒为 1 的比率,不是一个比率
 
 **类型:FRONTIER**。**判决:判不了。按 `#655` 的预注册硬停止,这条线关闭,不试第三次。**
 
