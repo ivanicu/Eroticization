@@ -11,10 +11,11 @@
 """
 import itertools
 import numpy as np
+import numpy as _np
 from scipy.stats import spearmanr
 
 __all__=["spearman","ceiling","pairmat","weakest_greedy","weakest_optimal",
-         "opt_batch","pooled_median","median_of_group_medians"]
+         "opt_batch","pooled_median","aligned_pooled_median","median_of_group_medians"]
 
 def spearman(a,b):
     return float(spearmanr(np.asarray(a,float),np.asarray(b,float)).statistic)
@@ -76,6 +77,30 @@ def weakest_optimal(M,ix):
 def pooled_median(M,ix):
     """**把这一组的全部对倒进一个池再取中位。** `#542` 用的是这一种。"""
     return float(np.median([M[a,b] for a,b in itertools.combinations(ix,2)]))
+
+def aligned_pooled_median(M,ix,optimal=False):
+    """**先定翻向,再取块内全部对的中位。**
+
+    ⚠ **为什么必须有这个函数**:`pooled_median` 不做符号对齐,而 NSFG 的 `okcohab`
+    题干本就反向("should **not** live together unless married")⇒ 不对齐时块内中位是 **−0.0332**,
+    对齐后是 **+0.4257**。`#650` 用的是对齐版,而 `#734` 第一次重跑时漏了这一步,
+    **正对照当场开火** —— 这是 `#718`/`#720` 之后**第三次**漏掉同一步。
+    ⇒ **凡是要和 `#650`/`#653` 系的数比较的中位,都必须走这里,不能走 `pooled_median`。**
+
+    `optimal=False` 走贪心(行和定号,与 `#653`/`#650` 同路);`optimal=True` 穷举 2^(k-1)
+    取**使中位最大**的那一组符号(注意:与 `weakest_optimal` 的目标函数不同,那个最大化的是 min)。
+    """
+    ix=list(ix); k=len(ix); sub=M[_np.ix_(ix,ix)]
+    def med(s):
+        return float(_np.median([s[a]*s[b]*sub[a,b] for a,b in itertools.combinations(range(k),2)]))
+    if not optimal:
+        s=_np.where(_np.nansum(sub,axis=1)>=0,1,-1)
+        return med(s)
+    best=-2.0
+    for bits in range(1<<(k-1)):
+        s=_np.array([1]+[1 if (bits>>t)&1==0 else -1 for t in range(k-1)])
+        best=max(best,med(s))
+    return best
 
 def median_of_group_medians(M,groups):
     """**先每组取中位,再对组取中位。** `#720` 用的是这一种,而它拿去比了 `pooled_median`。
