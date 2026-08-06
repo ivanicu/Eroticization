@@ -513,6 +513,27 @@ One of those five rows was then attacked with the data already here, on the theo
 finding of the second half: the limit on this question is not what has been analysed, it is what was ever
 collected, and by whom, and whether anyone kept asking.
 
+
+### How one sentence got smaller six times
+
+The claim below is the only one in this project that survived every attack made on it, and it is worth
+reading as a sequence rather than a result, because **each version was killed by a test, not replaced by a
+better phrase**. What is named at each step is the test, not the conclusion.
+
+| # | The sentence at that moment | What killed it |
+|---|---|---|
+| 1 | Sexual attitudes are a bridge: they reach further into other moral judgements than those judgements reach each other (0.192 vs 0.122) | — |
+| 2 | **Swap the comparison group** for three domains spanning loose-to-tight | The cross figure barely moved (0.194 · 0.251 · 0.261) while the comparison group's internal coherence moved four times as far (0.125 · 0.435 · 0.545). **No bridge — the ratio was the denominator.** |
+| 3 | Then it is a constant: sexual position predicts any other moral position at ~0.19–0.26, indifferent to which | — |
+| 4 | **Partial out the two explanations that would make it dull** — political self-rating, and the habit of picking scale end-points | They account for **12%** and **28%**; the link survives at 0.15–0.21 against a placebo of 0.008. **Not explained.** |
+| 5 | **Drop each item in turn; then plot it by year** | No item carries it (max 15.7%), and it is **not a constant**: 0.227 in 1972 → 0.301 in 2024. **It is a process.** |
+| 6 | **Split by age band × birth cohort; then re-band three ways** | Both margins rise (+0.0019 per year of age, +0.0016 per year of birth) and **cannot be told apart** — age plus birth year *is* survey year. Re-banding leaves both signs intact; the cohort margin is the steadier of the two (spread 0.0004 against the age margin's 0.0005, and a placebo that collapses to 1% rather than 26%). |
+
+**Where it ends:** how a person judges sex has become a steadily better predictor of how she judges the
+death penalty, marijuana and abortion, across fifty-two years; the tightening appears at both the older
+and the later-born end; nothing here says which, and nothing here can, because no one in this survey was
+ever asked twice `[#594「六步,每一步都被一个检验杀掉」]`.
+
 ## Tools: six edges
 
 | tool | what it checks |
