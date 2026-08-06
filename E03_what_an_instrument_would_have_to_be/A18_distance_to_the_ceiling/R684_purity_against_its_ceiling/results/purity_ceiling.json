@@ -1,0 +1,80 @@
+{
+ "n": 6753,
+ "stats": {
+  "AUTHORITY": {
+   "raw": 0.32511446829051754,
+   "norm": 0.33714095142507006,
+   "ceil": 0.9498203307141158,
+   "npairs": 15,
+   "low_ceiling": []
+  },
+  "FAIRNESS": {
+   "raw": 0.2793451208010049,
+   "norm": 0.3242859651905191,
+   "ceil": 0.9131578715117772,
+   "npairs": 15,
+   "low_ceiling": []
+  },
+  "HARM": {
+   "raw": 0.3158274328707975,
+   "norm": 0.3310510955545578,
+   "ceil": 0.9251258741950573,
+   "npairs": 15,
+   "low_ceiling": []
+  },
+  "INGROUP": {
+   "raw": 0.2401448977483993,
+   "norm": 0.25224825915982846,
+   "ceil": 0.9500313556066262,
+   "npairs": 15,
+   "low_ceiling": []
+  },
+  "PURITY": {
+   "raw": 0.4998714624527739,
+   "norm": 0.5392257144894699,
+   "ceil": 0.947843697193711,
+   "npairs": 15,
+   "low_ceiling": []
+  }
+ },
+ "rank_raw": [
+  "PURITY",
+  "AUTHORITY",
+  "HARM",
+  "FAIRNESS",
+  "INGROUP"
+ ],
+ "rank_norm": [
+  "PURITY",
+  "AUTHORITY",
+  "HARM",
+  "FAIRNESS",
+  "INGROUP"
+ ],
+ "purity_rank": 1,
+ "lead_raw": 0.17475699416225637,
+ "lead_norm": 0.20208476306439982,
+ "lead_ci": [
+  0.1801598863760985,
+  0.22260096220439318
+ ],
+ "p_rank1": 1.0,
+ "pos_dev": 0.0007548791989951398,
+ "g0": 0.019107829037134816,
+ "kendall": {
+  "AUTHORITY": 0.2885006914929821,
+  "FAIRNESS": 0.3038704107751803,
+  "HARM": 0.2848533803760945,
+  "INGROUP": 0.21586576133700675,
+  "PURITY": 0.4758013470120255
+ },
+ "kendall_rank": [
+  "PURITY",
+  "FAIRNESS",
+  "AUTHORITY",
+  "HARM",
+  "INGROUP"
+ ],
+ "verdict": "**W3 —— 领先被放大,声明成立且被低估**",
+ "unchallenged": true
+}
