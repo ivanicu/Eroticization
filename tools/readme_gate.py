@@ -141,6 +141,18 @@ def run_gate(rev=None, quiet=False):
             tot = -1 if (tot == -1 or n == -1) else tot + n
         hits[fn] = tot
         hits[f'{fn}:zh(warn)'] = per['README_zh.md']   # 分版可见,但只由总数阻断
+    # `#603`:上面这个总数**数的是段落实例,不是主张**。同一条主张在两版上各缺一次出处,
+    #   就被数两次 —— 于是 `#602c` 把「同一批债被数了两遍」写成了「中文页上另有八笔债」。
+    #   ⚠ 它**只进 warn 位**:棘轮仍用实例数(两版各要修一次,修一版不算修完)。
+    try:
+        _z = [frozenset(x[1]) for x in A.uncited_numbers('README_zh.md')]
+        _d = 0
+        for _, ns, _s in A.uncited_numbers('README.md'):
+            s = frozenset(ns)
+            if not any(s & z and len(s & z) >= max(2, min(len(s), len(z)) // 2) for z in _z): _d += 1
+        hits['uncited_distinct(warn)'] = _d + len(_z)
+    except Exception:
+        hits['uncited_distinct(warn)'] = -1
     try:
         _d = dangling_anchors()
         hits['dangling_anchors'] = sum(1 for x in _d if x[3] == 'missing')
