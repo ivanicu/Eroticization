@@ -1,16 +1,20 @@
 {
- "note": "#602 重冻。uncited 9->17 不是变差,是仪器变准:中文页上 8 个无出处数字一直存在、从没被扫过。这是**登记**,不是**偿还** —— 偿还是 A263 的事。降它必须写进账本。warn 位不入基线。",
- "frozen_at": "E03·A262·R645",
+ "note": "#604 降基线(可审动作,依据写在 #604d)。uncited 17->15:还掉九条里的第一条,两版各降一次。",
+ "frozen_at": "E03·A264·R647",
  "prev": {
-  "uncited_numbers": 9,
-  "frozen_at": "E03·A261·R644"
+  "uncited_numbers": 17,
+  "frozen_at": "E03·A262·R645",
+  "before_that": {
+   "uncited_numbers": 9,
+   "frozen_at": "E03·A261·R644"
+  }
  },
  "counts": {
   "named_defects": 0,
   "numbers_that_left": 0,
-  "uncited_numbers": 17,
+  "uncited_numbers": 15,
   "internal_consistency": 3,
-  "dangling_anchors": 0,
+  "dangling_anchors": 2,
   "claims_without_anchor": 0
  }
 }
