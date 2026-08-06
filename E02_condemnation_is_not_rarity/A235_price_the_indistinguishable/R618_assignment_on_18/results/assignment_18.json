@@ -1,0 +1,803 @@
+{
+ "schemes": {
+  "P1 \u4e25\u683c\u6309\u6807\u9898": {
+   "baseline": 0.1953635435803603,
+   "k_cross": 18,
+   "k_same": 5,
+   "same_median": 0.8425393145783513
+  },
+  "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978": {
+   "baseline": 0.1953635435803603,
+   "k_cross": 18,
+   "k_same": 5,
+   "same_median": 0.8425393145783513
+  },
+  "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84": {
+   "baseline": 0.2333345655178145,
+   "k_cross": 14,
+   "k_same": 4,
+   "same_median": 0.45188201167247183
+  }
+ },
+ "range": 0.03797102193745422,
+ "threshold": 0.02,
+ "verdict": "\u6781\u5dee 0.0380 >= 0.02 -> **\u7ed3\u8bba\u5fc5\u987b\u5e26\u4e0a\u300c\u6307\u6d3e\u654f\u611f\u300d\u5e76\u5199\u8fdb\u9875\u9762**",
+ "world": "\u6307\u6d3e\u654f\u611f",
+ "action_type": "CLOSURE",
+ "cells": [
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS160\u00d7SCCS166",
+   "same": false,
+   "rho": 0.02446533697677603,
+   "n": 47,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS160\u00d7SCCS167",
+   "same": false,
+   "rho": 0.01198890712118538,
+   "n": 49,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS160\u00d7SCCS171",
+   "same": false,
+   "rho": 0.1720429237543088,
+   "n": 27,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS160\u00d7SCCS175",
+   "same": false,
+   "rho": 0.14989036798406563,
+   "n": 31,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS162\u00d7SCCS166",
+   "same": false,
+   "rho": 0.015893230561107582,
+   "n": 29,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS162\u00d7SCCS167",
+   "same": false,
+   "rho": 0.03541554154234788,
+   "n": 29,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS163\u00d7SCCS164",
+   "same": true,
+   "rho": 0.8425393145783513,
+   "n": 38,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS163\u00d7SCCS166",
+   "same": false,
+   "rho": 0.05775988420368464,
+   "n": 35,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS163\u00d7SCCS167",
+   "same": false,
+   "rho": 0.027910849235429986,
+   "n": 37,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS164\u00d7SCCS166",
+   "same": false,
+   "rho": 0.30313112748593135,
+   "n": 38,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS164\u00d7SCCS167",
+   "same": false,
+   "rho": 0.19171672663563377,
+   "n": 42,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS166\u00d7SCCS167",
+   "same": true,
+   "rho": 0.877120854355777,
+   "n": 99,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS166\u00d7SCCS168",
+   "same": true,
+   "rho": 0.04500434412760264,
+   "n": 27,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS166\u00d7SCCS170",
+   "same": false,
+   "rho": 0.5714714155397383,
+   "n": 36,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS166\u00d7SCCS171",
+   "same": false,
+   "rho": 0.3323499947712247,
+   "n": 37,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS166\u00d7SCCS175",
+   "same": false,
+   "rho": 0.2676587705105422,
+   "n": 52,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS167\u00d7SCCS168",
+   "same": true,
+   "rho": 0.004006376029145155,
+   "n": 27,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS167\u00d7SCCS170",
+   "same": false,
+   "rho": 0.5386209526116962,
+   "n": 36,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS167\u00d7SCCS171",
+   "same": false,
+   "rho": 0.36496886834732334,
+   "n": 38,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS167\u00d7SCCS175",
+   "same": false,
+   "rho": 0.19901036052508683,
+   "n": 52,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS168\u00d7SCCS175",
+   "same": false,
+   "rho": 0.34110500425784335,
+   "n": 27,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS170\u00d7SCCS171",
+   "same": true,
+   "rho": 0.858759679217341,
+   "n": 44,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P1 \u4e25\u683c\u6309\u6807\u9898",
+   "pair": "SCCS171\u00d7SCCS175",
+   "same": false,
+   "rho": 0.27751449384544635,
+   "n": 26,
+   "inclusion": [
+    "P1 \u4e25\u683c\u6309\u6807\u9898",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS160\u00d7SCCS166",
+   "same": false,
+   "rho": 0.02446533697677603,
+   "n": 47,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS160\u00d7SCCS167",
+   "same": false,
+   "rho": 0.01198890712118538,
+   "n": 49,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS160\u00d7SCCS171",
+   "same": false,
+   "rho": 0.1720429237543088,
+   "n": 27,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS160\u00d7SCCS175",
+   "same": false,
+   "rho": 0.14989036798406563,
+   "n": 31,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS162\u00d7SCCS166",
+   "same": false,
+   "rho": 0.015893230561107582,
+   "n": 29,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS162\u00d7SCCS167",
+   "same": false,
+   "rho": 0.03541554154234788,
+   "n": 29,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS163\u00d7SCCS164",
+   "same": true,
+   "rho": 0.8425393145783513,
+   "n": 38,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS163\u00d7SCCS166",
+   "same": false,
+   "rho": 0.05775988420368464,
+   "n": 35,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS163\u00d7SCCS167",
+   "same": false,
+   "rho": 0.027910849235429986,
+   "n": 37,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS164\u00d7SCCS166",
+   "same": false,
+   "rho": 0.30313112748593135,
+   "n": 38,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS164\u00d7SCCS167",
+   "same": false,
+   "rho": 0.19171672663563377,
+   "n": 42,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS166\u00d7SCCS167",
+   "same": true,
+   "rho": 0.877120854355777,
+   "n": 99,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS166\u00d7SCCS168",
+   "same": true,
+   "rho": 0.04500434412760264,
+   "n": 27,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS166\u00d7SCCS170",
+   "same": false,
+   "rho": 0.5714714155397383,
+   "n": 36,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS166\u00d7SCCS171",
+   "same": false,
+   "rho": 0.3323499947712247,
+   "n": 37,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS166\u00d7SCCS175",
+   "same": false,
+   "rho": 0.2676587705105422,
+   "n": 52,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS167\u00d7SCCS168",
+   "same": true,
+   "rho": 0.004006376029145155,
+   "n": 27,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS167\u00d7SCCS170",
+   "same": false,
+   "rho": 0.5386209526116962,
+   "n": 36,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS167\u00d7SCCS171",
+   "same": false,
+   "rho": 0.36496886834732334,
+   "n": 38,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS167\u00d7SCCS175",
+   "same": false,
+   "rho": 0.19901036052508683,
+   "n": 52,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS168\u00d7SCCS175",
+   "same": false,
+   "rho": 0.34110500425784335,
+   "n": 27,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS170\u00d7SCCS171",
+   "same": true,
+   "rho": 0.858759679217341,
+   "n": 44,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+   "pair": "SCCS171\u00d7SCCS175",
+   "same": false,
+   "rho": 0.27751449384544635,
+   "n": 26,
+   "inclusion": [
+    "P2 \u4e3b\u52a8\u5e76\u5165\u5f3a\u5978",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS160\u00d7SCCS166",
+   "same": false,
+   "rho": 0.02446533697677603,
+   "n": 47,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS160\u00d7SCCS167",
+   "same": false,
+   "rho": 0.01198890712118538,
+   "n": 49,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS160\u00d7SCCS171",
+   "same": false,
+   "rho": 0.1720429237543088,
+   "n": 27,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS160\u00d7SCCS175",
+   "same": false,
+   "rho": 0.14989036798406563,
+   "n": 31,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS162\u00d7SCCS166",
+   "same": false,
+   "rho": 0.015893230561107582,
+   "n": 29,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS162\u00d7SCCS167",
+   "same": false,
+   "rho": 0.03541554154234788,
+   "n": 29,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS166\u00d7SCCS167",
+   "same": true,
+   "rho": 0.877120854355777,
+   "n": 99,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS166\u00d7SCCS168",
+   "same": true,
+   "rho": 0.04500434412760264,
+   "n": 27,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS166\u00d7SCCS170",
+   "same": false,
+   "rho": 0.5714714155397383,
+   "n": 36,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS166\u00d7SCCS171",
+   "same": false,
+   "rho": 0.3323499947712247,
+   "n": 37,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS166\u00d7SCCS175",
+   "same": false,
+   "rho": 0.2676587705105422,
+   "n": 52,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS167\u00d7SCCS168",
+   "same": true,
+   "rho": 0.004006376029145155,
+   "n": 27,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS167\u00d7SCCS170",
+   "same": false,
+   "rho": 0.5386209526116962,
+   "n": 36,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS167\u00d7SCCS171",
+   "same": false,
+   "rho": 0.36496886834732334,
+   "n": 38,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS167\u00d7SCCS175",
+   "same": false,
+   "rho": 0.19901036052508683,
+   "n": 52,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS168\u00d7SCCS175",
+   "same": false,
+   "rho": 0.34110500425784335,
+   "n": 27,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS170\u00d7SCCS171",
+   "same": true,
+   "rho": 0.858759679217341,
+   "n": 44,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  },
+  {
+   "scheme": "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+   "pair": "SCCS171\u00d7SCCS175",
+   "same": false,
+   "rho": 0.27751449384544635,
+   "n": 26,
+   "inclusion": [
+    "P3 \u5254\u9664\u7740\u8863\u5e74\u9f84",
+    "n>=25",
+    "\u975e\u76ee\u6807\u5e8f\u6570\u53d8\u91cf"
+   ]
+  }
+ ],
+ "impossible": [
+  "CLOSURE \u4e0d\u5206\u79bb\u4e16\u754c",
+  "\u4e00\u4e2a\u7f16\u7801\u56e2\u961f",
+  "18 \u5bf9\u57fa\u6570\u5c0f,\u6781\u5dee\u672c\u8eab\u6709\u62bd\u6837\u6ce2\u52a8"
+ ],
+ "unchallenged": true
+}
