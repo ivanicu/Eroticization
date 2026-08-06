@@ -898,6 +898,29 @@ class Gate:
         self._fam_of_row = family
         return ok
 
+
+    def spec_curve_cells_declare_n(self, name, cells, what=""):
+        """#518b: 一条规格曲线,若它的产物没有**逐格存 n**,事后就无法做人群审计。
+
+        `#517` 只有在 `R534` 的 JSON 里有逐格 n 时才查得出「那四格对结局取了条件」;
+        而 `#494a`/`#501a`/`#487d` 的产物 **0 格有 n** -> 它们**结构上不可审计,除非重跑**。
+        ⇒ 规格曲线的每一格必须把 n 写进 results/。缺 n 的格,事后不可审。
+
+        cells: 可迭代的 dict(每格一个),或 {key: dict}。逐格检查是否含非空的 'n'。
+        """
+        items = list(cells.values()) if isinstance(cells, dict) else list(cells)
+        total = len(items)
+        if total == 0:
+            self.rows.append((name, "0 格", False, "DEGENERATE -- 规格曲线为空,这个检查不可判"))
+            return False
+        withn = [c for c in items if isinstance(c, dict) and c.get("n") is not None]
+        ok = len(withn) == total
+        self.rows.append((name, f"{len(withn)}/{total} 格带 n", ok,
+                          ("每一格都声明了自己的人群规模" if ok else
+                           f"⛔ {total-len(withn)} 格缺 n -> **这条曲线事后不可做人群审计**(#518b)")
+                          + (f" [{what}]" if what else "")))
+        return ok
+
     def verdict(self):
         if getattr(self, "_moot", False) or getattr(self, "_moot_fams", set()):
             return False

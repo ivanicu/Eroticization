@@ -1,0 +1,100 @@
+{
+ "cells": [
+  {
+   "wave": "2017_2019_Fem",
+   "beh": "ever",
+   "cond": "disagree",
+   "n": 5895,
+   "target": 1240,
+   "O": false
+  },
+  {
+   "wave": "2017_2019_Fem",
+   "beh": "yr",
+   "cond": "disagree",
+   "n": 1229,
+   "target": 1240,
+   "O": true
+  },
+  {
+   "wave": "2017_2019_Fem",
+   "beh": "ever",
+   "cond": "strongly",
+   "n": 5895,
+   "target": 1240,
+   "O": false
+  },
+  {
+   "wave": "2017_2019_Fem",
+   "beh": "yr",
+   "cond": "strongly",
+   "n": 1229,
+   "target": 1240,
+   "O": true
+  },
+  {
+   "wave": "2011_2013_Fem",
+   "beh": "ever",
+   "cond": "disagree",
+   "n": 5423,
+   "target": 1012,
+   "O": false
+  },
+  {
+   "wave": "2011_2013_Fem",
+   "beh": "yr",
+   "cond": "disagree",
+   "n": 982,
+   "target": 1012,
+   "O": false
+  },
+  {
+   "wave": "2011_2013_Fem",
+   "beh": "ever",
+   "cond": "strongly",
+   "n": 5423,
+   "target": 1012,
+   "O": false
+  },
+  {
+   "wave": "2011_2013_Fem",
+   "beh": "yr",
+   "cond": "strongly",
+   "n": 982,
+   "target": 1012,
+   "O": false
+  }
+ ],
+ "pc1": false,
+ "nc1": true,
+ "guard_pos": true,
+ "guard_neg_fails": true,
+ "other_round": [
+  {
+   "pair": "UNSEEN staytog\u00d7divorced",
+   "n": 2439
+  },
+  {
+   "pair": "UNSEEN sxok18\u00d7sex\u226416",
+   "n": 4769
+  },
+  {
+   "pair": "UNSEEN sxok16\u00d7sex\u226416",
+   "n": 4783
+  },
+  {
+   "pair": "SEEN samesex\u00d7eversame",
+   "n": 5423
+  },
+  {
+   "pair": "SEEN okcohab\u00d7cohab",
+   "n": 5560
+  },
+  {
+   "pair": "SEEN chsuppor\u00d7bow",
+   "n": 3116
+  }
+ ],
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u8fc7(pc1=False nc1=True pc2=True nc2_fail=True) \u21d2 \u6309 `#518` \u505c\u6b62\u672c\u65b9\u5411",
+ "unchallenged": true
+}
