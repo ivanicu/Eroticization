@@ -155,9 +155,47 @@ def run_gate(rev=None, quiet=False):
         print(f"\n=> {'BLOCKED — 必读清单,不是判决(见 P6 代理账)' if blocked else 'PASS'}")
     return blocked, hits
 
+def precommit(baseline_path="tools/gate_baseline.json"):
+    """#601 —— 把这道闸接到 git 的自动执行点上,而它接的是**棘轮**,不是零。
+
+    为什么不能接零:当前 `uncited_numbers=9` / `internal_consistency=3` 是**登记在册的欠账**,
+    不许为了让闸变绿而放松(见页面「做不到什么」)。一道拦住每一次提交的闸,
+    会在第一天就被我自己绕过去 —— 那才是它真正的失效方式。
+    ⇒ 判据:**任何非 warn 计数 > 基线 -> 拦**;计数 == -1(规则没跑起来)-> **也拦**(UNVERIFIED 不是通过)。
+    ⚠ P6 代理账:PROPERTY「这次提交没有让页面变差」· PROXY「工作区跑出来的计数没超基线」·
+      IMPLICATION **只有一个方向可靠**:超了 -> 确实变差了。没超**不证明**这次提交是对的。
+    ⚠ 而它读的是**工作区**,不是**索引** —— 只提交一部分改动时,它量的不是被提交的那个对象。
+      这一条没有被修掉,只是被写下来了。
+    ⚠ 变好时不自动降基线 —— 降基线必须是一个**可审的、写进账本的动作**,否则棘轮会被悄悄拧松。
+    """
+    import json, os
+    blocked, hits = run_gate(quiet=True)
+    bp = pathlib.Path(baseline_path)
+    if not bp.exists():
+        print(f"🔒 readme_gate: 基线文件缺失 {baseline_path}"); print("   一道没有基线的棘轮不是棘轮。"); return 1
+    base = json.loads(bp.read_text())["counts"]
+    worse, unrun, better = [], [], []
+    for k, v in hits.items():
+        if k.endswith("(warn)"): continue
+        b = base.get(k)
+        if v < 0: unrun.append(k)
+        elif b is None: worse.append(f"{k}: 基线里没有这一条(新规则未登记)-> {v}")
+        elif v > b: worse.append(f"{k}: {b} -> {v}  (+{v-b})")
+        elif v < b: better.append(f"{k}: {b} -> {v}")
+    for k in better: print(f"✅ readme_gate 变好了 {k} —— 降基线是一个要写进账本的动作,不自动做")
+    if unrun or worse:
+        print("🔒 PRE-COMMIT BLOCK (readme_gate 棘轮)")
+        for k in unrun: print(f"   UNVERIFIED:{k} 规则没跑起来 —— 不当作通过")
+        for w in worse: print(f"   变差:{w}")
+        print("   -> 修好它,或**明写理由并在账本里改基线**(tools/gate_baseline.json)")
+        return 1
+    return 0
+
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--rev', default=None, help='参照提交(numbers_that_left 用);建议钉 SHA')
+    ap.add_argument('--precommit', action='store_true', help='棘轮模式:只拦比基线更差的')
     a = ap.parse_args()
+    if a.precommit: sys.exit(precommit())
     b,_ = run_gate(rev=a.rev)
     sys.exit(1 if b else 0)

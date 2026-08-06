@@ -1,0 +1,12 @@
+{
+ "note": "#601 棘轮基线。降它必须写进账本,不许为了变绿而拧松。warn 位不入基线。",
+ "frozen_at": "E03·A261·R644",
+ "counts": {
+  "named_defects": 0,
+  "numbers_that_left": 0,
+  "uncited_numbers": 9,
+  "internal_consistency": 3,
+  "dangling_anchors": 0,
+  "claims_without_anchor": 0
+ }
+}
