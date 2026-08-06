@@ -1,0 +1,24 @@
+{
+ "replays": {
+  "#574": {
+   "replayed": 0.03797102193745422,
+   "ledger": 0.038,
+   "verdict": "\u91cf\u7ea7\u654f\u611f",
+   "ok": true
+  },
+  "#575": {
+   "replayed": 0.851720742922568,
+   "ledger": 0.8517,
+   "verdict": "\u65b9\u5411\u7ffb\u8f6c",
+   "vals": {
+    "S1": 0.672094011295947,
+    "S2": -0.09219653017393328,
+    "S3": 0.7595242127486348
+   },
+   "ok": true
+  }
+ },
+ "threshold": 0.02,
+ "prereg": "\u4e0e\u8bb0\u5f55\u503c\u76f8\u5dee >0.02 -> \u90a3\u6b21\u64a4\u56de\u7684\u4f9d\u636e\u4e0d\u7a33,#575 \u5fc5\u987b\u91cd\u65b0\u8bc4\u4f30",
+ "unchallenged": true
+}
