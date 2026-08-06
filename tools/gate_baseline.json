@@ -1,12 +1,20 @@
 {
- "note": "#604 降基线(可审动作,依据写在 #604d)。uncited 17->15:还掉九条里的第一条,两版各降一次。",
- "frozen_at": "E03·A264·R647",
+ "note": "#605 修:上一次冻基线发生在**写账本条目之前**,那一刻 `#604` 的页面锚无处可指,于是 `dangling_anchors=2` 被冻进了棘轮 —— 棘轮被拧松两格。**冻基线必须发生在账本条目写完之后。** 降它必须写进账本。warn 位不入基线。",
+ "frozen_at": "E03·A265·R648",
  "prev": {
   "uncited_numbers": 17,
   "frozen_at": "E03·A262·R645",
   "before_that": {
    "uncited_numbers": 9,
    "frozen_at": "E03·A261·R644"
+  },
+  "bad_freeze": {
+   "named_defects": 0,
+   "numbers_that_left": 0,
+   "uncited_numbers": 15,
+   "internal_consistency": 3,
+   "dangling_anchors": 2,
+   "claims_without_anchor": 0
   }
  },
  "counts": {
@@ -14,7 +22,7 @@
   "numbers_that_left": 0,
   "uncited_numbers": 15,
   "internal_consistency": 3,
-  "dangling_anchors": 2,
+  "dangling_anchors": 0,
   "claims_without_anchor": 0
  }
 }
