@@ -1,0 +1,579 @@
+{
+ "table": [
+  {
+   "source": "bradley1994household",
+   "k": 376,
+   "cov_med": 41,
+   "pair_med": 23,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": false
+  },
+  {
+   "source": "barry1977agents",
+   "k": 144,
+   "cov_med": 144,
+   "pair_med": 108,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "rosenblatt2011codes",
+   "k": 85,
+   "cov_med": 29,
+   "pair_med": 12,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": false
+  },
+  {
+   "source": "Murdock (1962-1971); Gray (1999)",
+   "k": 83,
+   "cov_med": 177,
+   "pair_med": 163,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "lang1998conan",
+   "k": 65,
+   "cov_med": 89,
+   "pair_med": 71,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "whyte1978cross",
+   "k": 61,
+   "cov_med": 83,
+   "pair_med": 71,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "whyte2015status",
+   "k": 59,
+   "cov_med": 92,
+   "pair_med": 89,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "frayser1985varieties",
+   "k": 55,
+   "cov_med": 47,
+   "pair_med": 37,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "murdock1973factors",
+   "k": 50,
+   "cov_med": 170,
+   "pair_med": 158,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "rohner1981parental",
+   "k": 48,
+   "cov_med": 12,
+   "pair_med": 1,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": false
+  },
+  {
+   "source": "barry1976traits",
+   "k": 44,
+   "cov_med": 151,
+   "pair_med": 124,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "betzig1989causes",
+   "k": 43,
+   "cov_med": 160,
+   "pair_med": 160,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "ember1992warfare",
+   "k": 43,
+   "cov_med": 186,
+   "pair_med": 186,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "ross1983political",
+   "k": 42,
+   "cov_med": 86,
+   "pair_med": 82,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "barry1971infancy",
+   "k": 38,
+   "cov_med": 139,
+   "pair_med": 110,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "white1989avoidance",
+   "k": 36,
+   "cov_med": 30,
+   "pair_med": 15,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": false
+  },
+  {
+   "source": "divale1999codes",
+   "k": 33,
+   "cov_med": 135,
+   "pair_med": 135,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "divale2000cross",
+   "k": 33,
+   "cov_med": 135,
+   "pair_med": 135,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "schlegel1979adolescent",
+   "k": 32,
+   "cov_med": 182,
+   "pair_med": 182,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "nammour1974drums",
+   "k": 26,
+   "cov_med": 158,
+   "pair_med": 133,
+   "n_pairs": 300,
+   "sampled": true,
+   "合格": true
+  },
+  {
+   "source": "sanday1981female",
+   "k": 22,
+   "cov_med": 123,
+   "pair_med": 95,
+   "n_pairs": 231,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "murdock1970subsistence",
+   "k": 22,
+   "cov_med": 182,
+   "pair_med": 166,
+   "n_pairs": 231,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "rohner1982enculturative",
+   "k": 20,
+   "cov_med": 21,
+   "pair_med": 5,
+   "n_pairs": 190,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "broude1976cross",
+   "k": 20,
+   "cov_med": 52,
+   "pair_med": 24,
+   "n_pairs": 190,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "murdock1972settlement",
+   "k": 20,
+   "cov_med": 186,
+   "pair_med": 185,
+   "n_pairs": 190,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "cashdan2001ethnic",
+   "k": 18,
+   "cov_med": 183,
+   "pair_med": 183,
+   "n_pairs": 153,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "white1986forms",
+   "k": 18,
+   "cov_med": 161,
+   "pair_med": 144,
+   "n_pairs": 153,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "tuden1972political",
+   "k": 18,
+   "cov_med": 181,
+   "pair_med": 173,
+   "n_pairs": 153,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "broude1983cross",
+   "k": 17,
+   "cov_med": 85,
+   "pair_med": 46,
+   "n_pairs": 136,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "ludvico1995scarification",
+   "k": 17,
+   "cov_med": 157,
+   "pair_med": 153,
+   "n_pairs": 136,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "rohner1982data",
+   "k": 16,
+   "cov_med": 140,
+   "pair_med": 82,
+   "n_pairs": 120,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "paige1981politics",
+   "k": 15,
+   "cov_med": 84,
+   "pair_med": 77,
+   "n_pairs": 105,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "barry1982cross",
+   "k": 13,
+   "cov_med": 186,
+   "pair_med": 142,
+   "n_pairs": 78,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "bradley1990cross",
+   "k": 13,
+   "cov_med": 85,
+   "pair_med": 85,
+   "n_pairs": 78,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "murdock1965kinship",
+   "k": 12,
+   "cov_med": 45,
+   "pair_med": 33,
+   "n_pairs": 66,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "murdock1980theories",
+   "k": 12,
+   "cov_med": 128,
+   "pair_med": 125,
+   "n_pairs": 66,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "murdock1973measurement",
+   "k": 10,
+   "cov_med": 186,
+   "pair_med": 186,
+   "n_pairs": 45,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "dirks1993starvation",
+   "k": 10,
+   "cov_med": 117,
+   "pair_med": 97,
+   "n_pairs": 45,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "pryor1985invention",
+   "k": 10,
+   "cov_med": 179,
+   "pair_med": 146,
+   "n_pairs": 45,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "low1994pathogen",
+   "k": 8,
+   "cov_med": 186,
+   "pair_med": 186,
+   "n_pairs": 28,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "murdock1970kin",
+   "k": 8,
+   "cov_med": 147,
+   "pair_med": 143,
+   "n_pairs": 28,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "schroeder2001secondary",
+   "k": 8,
+   "cov_med": 162,
+   "pair_med": 162,
+   "n_pairs": 28,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "white1989female",
+   "k": 6,
+   "cov_med": 174,
+   "pair_med": 152,
+   "n_pairs": 15,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "white1988causes",
+   "k": 6,
+   "cov_med": 44,
+   "pair_med": 13,
+   "n_pairs": 15,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "winkelman1984cross",
+   "k": 6,
+   "cov_med": 47,
+   "pair_med": 47,
+   "n_pairs": 15,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "Gray (1999)",
+   "k": 6,
+   "cov_med": 185,
+   "pair_med": 185,
+   "n_pairs": 15,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "barry1984measurements",
+   "k": 6,
+   "cov_med": 158,
+   "pair_med": 149,
+   "n_pairs": 15,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "murdock1969standard",
+   "k": 5,
+   "cov_med": 186,
+   "pair_med": 186,
+   "n_pairs": 10,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "divale1998sleeping",
+   "k": 4,
+   "cov_med": 93,
+   "pair_med": 85,
+   "n_pairs": 6,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "anderson1992duchess",
+   "k": 4,
+   "cov_med": 50,
+   "pair_med": 47,
+   "n_pairs": 6,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "patterson1982slavery",
+   "k": 4,
+   "cov_med": 185,
+   "pair_med": 185,
+   "n_pairs": 6,
+   "sampled": false,
+   "合格": true
+  },
+  {
+   "source": "roberts1976belief",
+   "k": 2,
+   "cov_med": 186,
+   "pair_med": 186,
+   "n_pairs": 1,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "divale1999climatic",
+   "k": 2,
+   "cov_med": 92,
+   "pair_med": 91,
+   "n_pairs": 1,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "betzig1986despotism",
+   "k": 2,
+   "cov_med": 69,
+   "pair_med": 34,
+   "n_pairs": 1,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "Bourguignon (1973); Gray (1999)",
+   "k": 1,
+   "cov_med": 151,
+   "pair_med": -1,
+   "n_pairs": 0,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "Greenbaum (1973); Gray (1999)",
+   "k": 1,
+   "cov_med": 11,
+   "pair_med": -1,
+   "n_pairs": 0,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "murdock1957world",
+   "k": 1,
+   "cov_med": 98,
+   "pair_med": -1,
+   "n_pairs": 0,
+   "sampled": false,
+   "合格": false
+  },
+  {
+   "source": "white2009pinpointing",
+   "k": 1,
+   "cov_med": 185,
+   "pair_med": -1,
+   "n_pairs": 0,
+   "sampled": false,
+   "合格": false
+  }
+ ],
+ "qualified": [
+  "barry1977agents",
+  "Murdock (1962-1971); Gray (1999)",
+  "lang1998conan",
+  "whyte1978cross",
+  "whyte2015status",
+  "frayser1985varieties",
+  "murdock1973factors",
+  "barry1976traits",
+  "betzig1989causes",
+  "ember1992warfare",
+  "ross1983political",
+  "barry1971infancy",
+  "divale1999codes",
+  "divale2000cross",
+  "schlegel1979adolescent",
+  "nammour1974drums",
+  "sanday1981female",
+  "murdock1970subsistence",
+  "murdock1972settlement",
+  "cashdan2001ethnic",
+  "white1986forms",
+  "tuden1972political",
+  "broude1983cross",
+  "ludvico1995scarification",
+  "rohner1982data",
+  "paige1981politics",
+  "barry1982cross",
+  "bradley1990cross",
+  "murdock1965kinship",
+  "murdock1980theories",
+  "murdock1973measurement",
+  "dirks1993starvation",
+  "pryor1985invention",
+  "low1994pathogen",
+  "murdock1970kin",
+  "schroeder2001secondary",
+  "white1989female",
+  "winkelman1984cross",
+  "Gray (1999)",
+  "barry1984measurements",
+  "murdock1969standard",
+  "divale1998sleeping",
+  "anderson1992duchess",
+  "patterson1982slavery"
+ ],
+ "n_qualified": 44,
+ "n_sources": 58,
+ "pair_cap": 300,
+ "n_sampled": 20,
+ "verdict": "**44 / 58 个 source 自身就够做一次社会层分析**;其余的,任何问题都必须跨论文拼,而 `#636c` 已量出那大半是空的",
+ "note": "ENUMERATION,不配误差棒(`#616e`)",
+ "unchallenged": true
+}
