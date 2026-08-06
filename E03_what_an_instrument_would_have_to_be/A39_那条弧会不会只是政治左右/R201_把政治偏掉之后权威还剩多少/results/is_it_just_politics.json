@@ -1,0 +1,198 @@
+{
+ "gss": {
+  "premarsx": {
+   "obey": {
+    "before": 0.2747417886571382,
+    "after": 0.2415173240306821,
+    "keep": 0.8790702179349996,
+    "keep_inadmissible": false,
+    "floor": 0.03966860667981738
+   },
+   "thnkself": {
+    "before": -0.1597585264029364,
+    "after": -0.13798335138785833,
+    "keep": 0.863699450005206,
+    "keep_inadmissible": false,
+    "floor": 0.03966860667981738
+   },
+   "workhard": {
+    "before": -0.08751511989270692,
+    "after": -0.10440035992977295,
+    "keep": 1.192940831913014,
+    "keep_inadmissible": false,
+    "floor": 0.03966860667981738
+   },
+   "helpoth": {
+    "before": -0.02277858638241091,
+    "after": -0.008498040519404157,
+    "keep": null,
+    "keep_inadmissible": true,
+    "floor": 0.03966860667981738
+   },
+   "popular": {
+    "before": -0.1083858288800351,
+    "after": -0.07797431694598295,
+    "keep": 0.7194143159830185,
+    "keep_inadmissible": false,
+    "floor": 0.03966860667981738
+   },
+   "_n": 15571
+  },
+  "xmarsex": {
+   "obey": {
+    "before": 0.21733424223156514,
+    "after": 0.1868513156508568,
+    "keep": 0.8597417219315611,
+    "keep_inadmissible": false,
+    "floor": 0.03865536317363504
+   },
+   "thnkself": {
+    "before": -0.13212003902352848,
+    "after": -0.11208645998064762,
+    "keep": 0.8483683535749396,
+    "keep_inadmissible": false,
+    "floor": 0.03865536317363504
+   },
+   "workhard": {
+    "before": 0.007377485663446126,
+    "after": -0.005173601204843858,
+    "keep": null,
+    "keep_inadmissible": true,
+    "floor": 0.03865536317363504
+   },
+   "helpoth": {
+    "before": -0.024109627698297234,
+    "after": -0.011827575529367798,
+    "keep": null,
+    "keep_inadmissible": true,
+    "floor": 0.03865536317363504
+   },
+   "popular": {
+    "before": -0.15178021138215614,
+    "after": -0.1275723791162913,
+    "keep": 0.8405073227568927,
+    "keep_inadmissible": false,
+    "floor": 0.03865536317363504
+   },
+   "_n": 16398
+  },
+  "homosex": {
+   "obey": {
+    "before": 0.3544304907217453,
+    "after": 0.3189534910052756,
+    "keep": 0.8999042107121595,
+    "keep_inadmissible": false,
+    "floor": 0.03928076615114138
+   },
+   "thnkself": {
+    "before": -0.1928267280160266,
+    "after": -0.16736636703968485,
+    "keep": 0.8679624902714439,
+    "keep_inadmissible": false,
+    "floor": 0.03928076615114138
+   },
+   "workhard": {
+    "before": -0.06348839450461981,
+    "after": -0.08613338778516492,
+    "keep": 1.3566792554330118,
+    "keep_inadmissible": false,
+    "floor": 0.03928076615114138
+   },
+   "helpoth": {
+    "before": -0.0982300180346165,
+    "after": -0.08405679836904423,
+    "keep": 0.8557139665740711,
+    "keep_inadmissible": false,
+    "floor": 0.03928076615114138
+   },
+   "popular": {
+    "before": -0.11234123067135178,
+    "after": -0.07441307255446654,
+    "keep": 0.6623843455316772,
+    "keep_inadmissible": false,
+    "floor": 0.03928076615114138
+   },
+   "_n": 15880
+  },
+  "teensex": {
+   "obey": {
+    "before": 0.2537548433159025,
+    "after": 0.2219503555096366,
+    "keep": 0.874664509293042,
+    "keep_inadmissible": false,
+    "floor": 0.03948267388477169
+   },
+   "thnkself": {
+    "before": -0.1251796457195091,
+    "after": -0.10389323465090944,
+    "keep": 0.8299530970370673,
+    "keep_inadmissible": false,
+    "floor": 0.03948267388477169
+   },
+   "workhard": {
+    "before": -0.02336550262936796,
+    "after": -0.03672397066181734,
+    "keep": null,
+    "keep_inadmissible": true,
+    "floor": 0.03948267388477169
+   },
+   "helpoth": {
+    "before": -0.051042550773420764,
+    "after": -0.03853757945391061,
+    "keep": 0.7550088870946116,
+    "keep_inadmissible": false,
+    "floor": 0.03948267388477169
+   },
+   "popular": {
+    "before": -0.16376000265911725,
+    "after": -0.13750998351115118,
+    "keep": 0.8397043312059044,
+    "keep_inadmissible": false,
+    "floor": 0.03948267388477169
+   },
+   "_n": 15718
+  }
+ },
+ "gss_specs": {
+  "线性 polviews": 0.2415173240306821,
+  "polviews 7 档哑变量": 0.24015359233723144,
+  "polviews + 年份哑变量": 0.21601949314182395
+ },
+ "gss_raw": 0.2747417886571382,
+ "obey_keep": 0.8768673636140207,
+ "mfq": {
+  "HARM_AVG": {
+   "before": -0.03404110351259847,
+   "after": 0.09882348750199736,
+   "keep": null,
+   "keep_inadmissible": true,
+   "floor": 0.06388293444880883
+  },
+  "FAIRNESS_AVG": {
+   "before": -0.21159045850457966,
+   "after": -0.02895922130413646,
+   "keep": 0.13686449525562924,
+   "keep_inadmissible": false,
+   "floor": 0.06388293444880883
+  },
+  "INGROUP_AVG": {
+   "before": 0.4195431547329694,
+   "after": 0.2876151081866471,
+   "keep": 0.6855435607564809,
+   "keep_inadmissible": false,
+   "floor": 0.06388293444880883
+  },
+  "AUTHORITY_AVG": {
+   "before": 0.49752178364721455,
+   "after": 0.3496482113053173,
+   "keep": 0.7027797029149738,
+   "keep_inadmissible": false,
+   "floor": 0.06388293444880883
+  }
+ },
+ "mfq_n": 6004,
+ "sd_ratio": 1.1044216373421558,
+ "pos_control": 0.2747405605133858,
+ "perm_median": 0.27474177555673873,
+ "verdict": "**W-A 道德结构:GSS 概率样本上 `obey` 偏掉政治后仍保留 87.7% ⇒ 权威不是政治的影子**"
+}

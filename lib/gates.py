@@ -234,6 +234,35 @@ class Gate:
                           ok, f"headroom {planted-need:+.4f}"))
         return ok
 
+    def identity_control(self, name, observed, expected, tol, what):
+        """#761: 两个量**必须是同一个** —— 不同就说明仪器坏了。
+
+        ⚠ 为什么补这一条：`#760` 里我要断言「把控制量换成常数/打乱后的量，偏相关必须**回到**偏前」，
+        库里没有这个形状，于是我用了 `offset_control` —— 而它测的是「差要够大」，
+        **用差值检测器去断言等式**，判词当场 FAIL 在一个完全正常的仪器上。
+        这是 `#728`·`#748`·`#750`·`#758` 那一族的第七次，这次犯在**闸的选型**上。
+
+        ⚠ P6 代理账：
+          PROPERTY   这两个数指的是同一个量
+          PROXY      |observed - expected| <= tol
+          IMPLICATION 只有一个方向可靠：**超出容差 -> 它们确实不是同一个量**（可靠）。
+                     反过来不成立：**相等不证明我算的是我以为的那个量**。
+          SAFE SIDE  只报「不是同一个」；从不认证「这就是我要的量」。
+
+        `tol` 必须显式给，且必须 > 0 —— 容差为 0 的等式检查在浮点上恒假，
+        而恒假的检查与恒真的检查一样没用（`#754` 那一族的镜像）。"""
+        assert isinstance(what, str) and what, "说明这两个量为什么该相等（#761）"
+        assert tol is not None and tol > 0, "容差必须显式且为正（#761）"
+        if self._degenerate(name, observed, expected): return False
+        d = abs(observed - expected)
+        # ⚠ #761 的回测当场抓到：0.2797-0.2747 = 0.005000000000000004 > 0.005，
+        #   于是「恰在容差上」被判 FAIL。**造来抓等式错误的闸，自己栽在浮点等式上。**
+        #   ⇒ 容差比较必须带相对松弛，否则边界上的判定由浮点表示决定，而不是由容差决定。
+        ok = d <= tol * (1 + 1e-9) + 1e-15
+        self.rows.append((name, f"|{observed:+.5f} - {expected:+.5f}| = {d:.6f} <= {tol:g}",
+                          ok, f"{what}" + ("" if ok else "  ⚠ 超出容差 {:.1f}× ⇒ 这两个量不是同一个".format(d/tol))))
+        return ok
+
     def offset_control(self, name, effect, offset, spread, null_kind):
         """#106: a null that is a systematic BASELINE OFFSET, not a nuisance to be small.
 
