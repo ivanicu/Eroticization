@@ -1,0 +1,79 @@
+{
+ "traits": {
+  "Fortitude": {
+   "n": 114,
+   "rho": 0.11407149837795301,
+   "loose": 0.19575935787737095,
+   "halo": 0.1562570338128013,
+   "undecidable": false
+  },
+  "Aggression": {
+   "n": 113,
+   "rho": 0.05048317702317365,
+   "loose": 0.19298686468632395,
+   "halo": 0.07575861147261549,
+   "undecidable": false
+  },
+  "Competitiveness": {
+   "n": 100,
+   "rho": 0.2638270981591391,
+   "loose": 0.19780662327808704,
+   "halo": 0.2924745932282807,
+   "undecidable": false
+  },
+  "Self-reliance": {
+   "n": 117,
+   "rho": -0.10082109397535138,
+   "loose": 0.18277074626393108,
+   "halo": 0.13155823842567693,
+   "undecidable": false
+  },
+  "Achievement": {
+   "n": 119,
+   "rho": 0.12701233143974144,
+   "loose": 0.18968971955601843,
+   "halo": 0.16637351499714895,
+   "undecidable": false
+  },
+  "Industry": {
+   "n": 127,
+   "rho": 0.22557547051607885,
+   "loose": 0.18333861096779971,
+   "halo": 0.27904258400034504,
+   "undecidable": false
+  },
+  "Responsibility": {
+   "n": 117,
+   "rho": 0.23532950905045213,
+   "loose": NaN,
+   "halo": 0.2805086861270643,
+   "undecidable": false
+  },
+  "Obedience": {
+   "n": 119,
+   "rho": 0.3029731670545419,
+   "loose": 0.18634912632828382,
+   "halo": 0.3156446797752698,
+   "undecidable": false
+  },
+  "Self-restraint": {
+   "n": 101,
+   "rho": 0.29444932177611804,
+   "loose": 0.19612633388151796,
+   "halo": 0.3091850759360399,
+   "undecidable": false
+  },
+  "Sexual Restraint": {
+   "n": 121,
+   "rho": 0.6557754682788061,
+   "loose": 0.17790875411429127,
+   "halo": 0.6708389880654839,
+   "undecidable": false
+  }
+ },
+ "rank": 1,
+ "MDE": 0.19,
+ "weakest_link_sr": 0.6838166593997205,
+ "verdict": "**W1:性克制排第 1/10,ρ=+0.6558 > MDE ⇒ 是性这件事,不是一般的严**",
+ "unchallenged": true
+}
