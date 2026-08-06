@@ -1,0 +1,147 @@
+{
+ "rows": {
+  "MFQ·AUTHORITY": {
+   "greedy_matrix": 0.16963258316486485,
+   "ledger": 0.1696,
+   "deletion_diff": 3.258316486484669e-05,
+   "optimal": 0.16963258316486485,
+   "null_q95": 0.059233390456626324,
+   "null_q99": 0.20193890226981653,
+   "ratio": 2.8637999928280045,
+   "ratio_greedy": 5.68,
+   "clears_q99": false
+  },
+  "MFQ·FAIRNESS": {
+   "greedy_matrix": 0.06208612825565875,
+   "ledger": 0.0621,
+   "deletion_diff": -1.3871744341253933e-05,
+   "optimal": 0.06208612825565875,
+   "null_q95": 0.059233390456626324,
+   "null_q99": 0.20193890226981653,
+   "ratio": 1.0481609743599152,
+   "ratio_greedy": 2.08,
+   "clears_q99": false
+  },
+  "MFQ·HARM": {
+   "greedy_matrix": 0.13903301240068994,
+   "ledger": 0.139,
+   "deletion_diff": 3.3012400689924615e-05,
+   "optimal": 0.13903301240068994,
+   "null_q95": 0.059233390456626324,
+   "null_q99": 0.20193890226981653,
+   "ratio": 2.347206724600661,
+   "ratio_greedy": 4.65,
+   "clears_q99": false
+  },
+  "MFQ·INGROUP": {
+   "greedy_matrix": 0.14918488849531183,
+   "ledger": 0.1492,
+   "deletion_diff": -1.5111504688164468e-05,
+   "optimal": 0.14918488849531183,
+   "null_q95": 0.059233390456626324,
+   "null_q99": 0.20193890226981653,
+   "ratio": 2.518594450617385,
+   "ratio_greedy": 4.99,
+   "clears_q99": false
+  },
+  "MFQ·PURITY": {
+   "greedy_matrix": 0.3354208226109513,
+   "ledger": 0.3354,
+   "deletion_diff": 2.0822610951320986e-05,
+   "optimal": 0.3354208226109513,
+   "null_q95": 0.059233390456626324,
+   "null_q99": 0.20193890226981653,
+   "ratio": 5.662698353499844,
+   "ratio_greedy": 11.23,
+   "clears_q99": true
+  },
+  "GSS·性道德四题": {
+   "greedy_matrix": 0.4153600418140757,
+   "ledger": 0.416,
+   "deletion_diff": -0.000639958185924272,
+   "optimal": 0.4153600418140757,
+   "null_q95": 0.0910716020596522,
+   "null_q99": 0.11742407668212254,
+   "ratio": 4.560807457213869,
+   "ratio_greedy": 7.25,
+   "clears_q99": true
+  },
+  "GSS·警察四题": {
+   "greedy_matrix": -0.14494244236247894,
+   "ledger": -0.1493,
+   "deletion_diff": 0.004357557637521048,
+   "optimal": -0.14494244236247894,
+   "null_q95": 0.0910716020596522,
+   "null_q99": 0.11742407668212254,
+   "ratio": -1.5915218255141834,
+   "ratio_greedy": null,
+   "clears_q99": false
+  },
+  "NSFG·性三题": {
+   "greedy_matrix": 0.345188640470984,
+   "ledger": 0.3456,
+   "deletion_diff": -0.0004113595290159977,
+   "optimal": 0.345188640470984,
+   "null_q95": 0.35873378925092064,
+   "null_q99": 0.44663070976094377,
+   "ratio": 0.9622417815499886,
+   "ratio_greedy": 1.11,
+   "clears_q99": false
+  },
+  "NSFG·家庭七题": {
+   "greedy_matrix": -0.22029031697813928,
+   "ledger": -0.2202,
+   "deletion_diff": -9.031697813927098e-05,
+   "optimal": -0.14267635539389334,
+   "null_q95": 0.09878628951561294,
+   "null_q99": 0.10404462670848587,
+   "ratio": -1.4442930906048828,
+   "ratio_greedy": null,
+   "clears_q99": false
+  }
+ },
+ "max_deletion_diff": 0.004357557637521048,
+ "null": {
+  "MFQ·k6": {
+   "q95": 0.059233390456626324,
+   "q99": 0.20193890226981653,
+   "median": -0.07171365474014939,
+   "n": 593770
+  },
+  "GSS·k4": {
+   "q95": 0.0910716020596522,
+   "q99": 0.11742407668212254,
+   "median": -0.005211475594064018,
+   "n": 68
+  },
+  "NSFG·k3": {
+   "q95": 0.35873378925092064,
+   "q99": 0.44663070976094377,
+   "median": 0.09878628951561294,
+   "n": 119
+  },
+  "NSFG·k7": {
+   "q95": 0.09878628951561294,
+   "q99": 0.10404462670848587,
+   "median": -0.09608411884821541,
+   "n": 119
+  }
+ },
+ "order_optimal": [
+  "MFQ·PURITY",
+  "MFQ·AUTHORITY",
+  "MFQ·INGROUP",
+  "MFQ·HARM",
+  "MFQ·FAIRNESS"
+ ],
+ "order_greedy": [
+  "MFQ·PURITY",
+  "MFQ·AUTHORITY",
+  "MFQ·INGROUP",
+  "MFQ·HARM",
+  "MFQ·FAIRNESS"
+ ],
+ "order_unchanged": true,
+ "verdict": "**排序不变:PURITY > AUTHORITY > INGROUP > HARM > FAIRNESS** —— 纯洁仍是 MFQ 五域里比值最高的",
+ "unchallenged": true
+}
