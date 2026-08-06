@@ -1,0 +1,20 @@
+{
+  "question": "SCCS 里除 broude1976cross 之外,还有没有第二个来源同时编了同一实践的态度与频率?",
+  "method": "逐来源统计:标题匹配 ^Frequency of (.+) 的变量,与同源、标题/码名含态度语汇且**标题含同一实践名**的变量配对;n>=30",
+  "sources_with_frequency_vars": {
+    "lang1998conan": {"freq": 9, "att": 6, "same_practice_pairs": 0, "domain": "warfare/violence"},
+    "broude1976cross": {"freq": 6, "att": 4, "same_practice_pairs": 2, "domain": "sexual norms",
+                        "pairs": ["SCCS173 Rape × SCCS174 Frequency of Rape",
+                                  "SCCS176 Homosexuality × SCCS177 Frequency of Homosexuality"]},
+    "nammour1974drums": {"freq": 3, "att": 3, "same_practice_pairs": 0, "domain": "warfare"},
+    "ember1992warfare": {"freq": 2, "att": 0, "same_practice_pairs": 0, "domain": "warfare"},
+    "whyte2015status": {"freq": 1, "att": 0, "same_practice_pairs": 0, "domain": "armed conflict"}
+  },
+  "total_frequency_vars": 18,
+  "with_same_practice_attitude": 2,
+  "all_in_source": "broude1976cross",
+  "verdict": "#466d 在 SCCS 上结构性不可检验:唯一同时编了同一实践态度与频率的来源,就是共享编码者混淆所在的那一个",
+  "note_lang": "lang1998conan 的态度与频率可按**范围**配对(R526 已做),但那是暴力域,不提供第二个性实践域",
+  "inclusion": ["SCCS 变量表全体", "n>=30", "标题匹配 ^Frequency of", "配对要求标题含同一实践名"],
+  "unchallenged": true
+}
