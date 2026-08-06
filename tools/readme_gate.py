@@ -103,6 +103,43 @@ def claims_page_edit_without_anchor(cutoff=600):
 
 
 
+def row_missing_tags(cutoff=600):
+    """#707/#708:页面「站得住的」里,引用了 `#cutoff` 起条目的行必须同时带 `〔仪器〕` 与 `⟨比值⟩`。
+
+    由 `#704`(仪器路由)与 `#706`(精确度比值)交付的两个标记**是手工贴的**,
+    **在此之前没有任何检查在维护它们** —— 下一条声明加上去时不会有人提醒。
+
+    ⚠ P6 代理账:
+      PROPERTY   一条站得住的声明,读者看不出它从哪具仪器来、有多精确
+      PROXY      该行缺 `〔` 或缺 `⟨`
+      IMPLICATION 只有一个方向可靠:**缺标记 -> 读者确实看不出**(可靠)。
+                 反过来不成立:**有标记不证明标记是对的**(`#706`:我贴错过 3 行,
+                 是连写式引用把第二个数藏了起来)。
+      SAFE SIDE  只报「缺」;**从不报「这一行标对了」。**
+    ⚠ 中英两版行数与顺序可能不同 ⇒ **分版计数、分版返回**(`#622`:读了两版 ≠ 在两版上都有效)。
+    返回 {file: [缺标记的行号]}。
+    """
+    import re as _r
+    root = pathlib.Path(__file__).resolve().parents[1]
+    out = {}
+    for name, hdr, nxt in (("README_zh.md", "## 站得住的", "## 做不到的"),
+                           ("README.md", "## What stands", "## What this cannot do")):
+        f = root / name
+        if not f.exists(): continue
+        s = f.read_text()
+        try: a = s.index(hdr); b = s.index(nxt)
+        except ValueError: out[name] = [-1]; continue
+        bad = []
+        base = s[:a].count("\n") + 1
+        for i, l in enumerate(s[a:b].split("\n"), start=base):
+            if not (l.startswith("|") and "Entry" in l): continue
+            nums = [int(x) for m in _r.findall(r'Entry ((?:\d+\s*·\s*)*\d+)', l)
+                    for x in m.replace("·", " ").split()]
+            if not nums or max(nums) < cutoff: continue
+            if "〔" not in l or "⟨" not in l: bad.append(i)
+        out[name] = bad
+    return out
+
 import re as _re_en
 _EFFECT_EN = _re_en.compile(r'\*\*[-+]\d*\.\d{3,4}\*\*')
 _NULLS_EN  = _re_en.compile(r'零\s*(?:的)?\s*95%|打乱[^。\n]{0,20}零|置换零|'
@@ -201,6 +238,7 @@ RULES = [
     ('no_anchor_grandfathered(warn)', '#600 之前的同类条目(**只点名,不阻断**)'),
     ('single_instrument', '一个 R 只用了一具仪器且无豁免(#658;R101 起阻断)'),
     ('effect_without_null', '带了效应却没报自己的零(#693;#693 起阻断)'),
+    ('row_missing_tags', '站得住的行缺〔仪器〕或⟨比值⟩(#708;#600 起阻断)'),
     ('effect_without_null_grandfathered(warn)', '#693 之前的同类(**只点名,不阻断**)'),
     ('single_instrument_grandfathered(warn)', 'R101 之前的同类(**只点名,不阻断**)'),
 ]
@@ -292,6 +330,12 @@ def run_gate(rev=None, quiet=False):
     except Exception as e:
         hits['single_instrument'] = -1
         if not quiet: print(f"  ⚠ cross_instrument 没跑起来:{type(e).__name__}: {e}")
+    try:
+        _rt = row_missing_tags()
+        hits['row_missing_tags'] = sum(len(v) for v in _rt.values())
+    except Exception as e:
+        hits['row_missing_tags'] = -1
+        if not quiet: print(f"  ⚠ row_missing_tags 没跑起来：{type(e).__name__}: {e}")
     try:
         _eb, _eo = effect_without_null()
         hits['effect_without_null'] = len(_eb)
