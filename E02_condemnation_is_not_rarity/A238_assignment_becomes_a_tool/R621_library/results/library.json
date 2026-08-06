@@ -1,0 +1,33 @@
+{
+ "self_test": {
+  "\u8d1f\u5bf9\u7167(\u6052\u7b49)": "\u4e0d\u627f\u91cd",
+  "\u6b63\u5bf9\u7167(\u7ffb\u8f6c)": "\u65b9\u5411\u7ffb\u8f6c",
+  "passed": true
+ },
+ "replay_576a": {
+  "vals": {
+   "S1": 0.28454592099640785,
+   "S2": 0.2631643726628814,
+   "S3": 0.19790601772491132
+  },
+  "range": 0.08663990327149654,
+  "boot_ci": [
+   0.061444587140183936,
+   0.1267837213355411
+  ],
+  "verdict": "\u91cf\u7ea7\u654f\u611f",
+  "ledger_value": 0.0866,
+  "reproduced": true
+ },
+ "not_replayed": {
+  "#531": 0.004,
+  "#574": 0.038,
+  "#575": 0.852,
+  "why": "\u91cd\u653e\u5b83\u4eec\u9700\u8981\u91cd\u8dd1 SCCS \u4e0e 155 \u4e07\u884c YRBS \u7684\u5b8c\u6574\u7ba1\u9053;\u672c\u8f6e\u53ea\u6d3b\u4f53\u590d\u73b0\u6700\u4fbf\u5b9c\u7684\u4e00\u6b21,\u5176\u4f59\u767b\u8bb0\u4e3a\u672a\u91cd\u653e"
+ },
+ "impossible": [
+  "\u53ea\u5728\u300e\u5212\u5206\u5f71\u54cd\u7ed3\u8bba\u300f\u65b9\u5411\u53ef\u9760",
+  "\u4ece\u4e0d\u8bf4\u54ea\u79cd\u5212\u5206\u662f\u5bf9\u7684"
+ ],
+ "unchallenged": true
+}
