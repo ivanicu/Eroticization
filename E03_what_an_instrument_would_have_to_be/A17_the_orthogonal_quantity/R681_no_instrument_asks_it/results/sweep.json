@@ -1,0 +1,19 @@
+{
+ "brfss": {
+  "nvars": 350,
+  "pos": 4,
+  "hits": []
+ },
+ "NSFG": {
+  "files": 1,
+  "labels": 2603,
+  "pos": 327,
+  "hits": []
+ },
+ "OpenPsych": {
+  "files": 19,
+  "labels": 0,
+  "pos": 0,
+  "hits": []
+ }
+}
