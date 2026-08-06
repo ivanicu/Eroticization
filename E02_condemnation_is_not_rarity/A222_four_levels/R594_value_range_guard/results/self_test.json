@@ -1,0 +1,12 @@
+{"action":"PRODUCTION — 把手写守卫变成库函数,并自检",
+ "added":"lib/gates.py :: Gate.value_range_guard",
+ "self_test":[
+  {"case":"samesexany 未映射(1/5/7)","expect":"FAIL","got":"FAIL","why":"取值不是 {0,1}"},
+  {"case":"samesexany 正确映射","expect":"PASS","got":"PASS","rate":0.1820,"n":5561},
+  {"case":"hadsex 正确映射(1/2)","expect":"PASS","got":"PASS","rate":0.8673,"n":5601},
+  {"case":"空 coding_note","expect":"FAIL","got":"FAIL","why":"未写明码与映射"},
+  {"case":"反号映射","expect":"FAIL","got":"FAIL","rate":0.8180,"why":"基础率不在预注册区间"}],
+ "aggregate_verdict_note":"Gate 的总判是 UNVERIFIED —— 闸门库自检自己时「失败」才是成功,聚合判词在此无意义。如实记下,不去修。",
+ "cannot":"通过不证明映射对:一个反号且基础率恰好≈0.5 的列,本守卫抓不到",
+ "inclusion":["NSFG 2011-2013 女性问卷全样本","五个用例,三正两负"],
+ "unchallenged": true}

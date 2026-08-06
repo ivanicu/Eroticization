@@ -1205,3 +1205,47 @@ class Gate:
             print(f"   ⚠ **{len(miss)}/{len(out)} 个通过的 KILL 没有说明什么会让它失败** —— "
                   f"这与「一个零必须报 MDE」是同一条要求的另一半。")
         return len(out), len(miss)
+
+    def value_range_guard(self, name, values, expect_lo, expect_hi, coding_note, what=""):
+        """`#549`(`E02·A222·R594`)—— 把救过两次的那道基础率守卫,从每轮手写变成库函数。
+
+        **由来:** `#495b` 我把 `sexsex5` 读错,阳性率出来是 0.5368 ≈ 男性占比;
+        `#492` 的 `c_sex15` 是 n=15。两次都是**同一道手写 assert** 抓住的,
+        而它每一轮都要重写一遍 —— 于是它总有一轮会被忘掉。
+        `#548c` 之后这件事变得更急:**NSFG 里 83.2% 的 `Whether/Ever` 变量编码为 1 与 5**,
+        按字面读成 0/1 会**反号**,而任何统计检查都不会响 —— 阳性率会是 0.20 而不是 0.80,
+        **看起来完全合理**。
+
+        判据:把一列被当作二元使用的值,算出基础率,**必须落在预注册的 `[lo, hi]` 内**。
+        `coding_note` 必须写明**这一列的码是什么、怎么映射的** —— 空字符串直接判 FAIL,
+        因为「我知道它的码」正是每一次读错时我以为的事。
+
+        ⚠ 可靠方向(同 `#546c`/`#547b`):**通过不证明映射对**,只证明基础率没有明显荒谬。
+          一个真正反号且基础率恰好对称(0.5)的列,这道守卫抓不到 —— 这一点写在失败信息里。
+        """
+        import numpy as _np
+        v = _np.asarray(values, dtype=float)
+        v = v[_np.isfinite(v)]
+        n = int(v.size)
+        if not str(coding_note).strip():
+            self.rows.append((name, "无 coding_note", False,
+                              "FAIL -- 未写明码与映射。「我知道它的码」正是每次读错时我以为的事"))
+            return False
+        if n == 0:
+            self.rows.append((name, "n=0", False, "DEGENERATE -- 空列,这个检查不可判"))
+            return False
+        uniq = set(_np.unique(v).tolist())
+        if not uniq <= {0.0, 1.0}:
+            self.rows.append((name, f"取值 {sorted(uniq)[:6]}", False,
+                              f"FAIL -- 被当作二元使用,实际取值不是 {{0,1}} -> **先映射再用**({coding_note})"))
+            return False
+        rate = float(v.mean())
+        ok = expect_lo <= rate <= expect_hi
+        detail = (f"基础率 {rate:.4f} ∈ [{expect_lo:.2f},{expect_hi:.2f}] (n={n}) [{coding_note}]"
+                  if ok else
+                  f"FAIL -- 基础率 {rate:.4f} 不在预注册区间 [{expect_lo:.2f},{expect_hi:.2f}] "
+                  f"(n={n}) -> **码可能读反了**({coding_note})")
+        if ok:
+            detail += " ⚠ 通过不证明映射对:一个反号且基础率≈0.5 的列,本守卫抓不到"
+        self.rows.append((name, f"rate={rate:.4f}", ok, detail))
+        return ok
