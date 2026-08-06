@@ -578,3 +578,5 @@ loaders and that dependency is made explicit rather than hidden. Environment is 
 Cross-sectional · one instrument · one population (18–32, US/Canada/Europe) · aggressively
 anonymised, with correlations attenuated roughly 25% by design · every measure self-report.
 No causal claim in this repository is identified, and none is made.
+
+<!-- 601 positive control: an uncited 12345 -->
