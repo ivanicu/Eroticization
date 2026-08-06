@@ -327,6 +327,8 @@ an instrument that does not share its method — forty rounds against the GSS (1
 - **Strictness is a person-level coordinate, and it is two rulers, not one.** Per additional strict
   position on eight norms, the probability of having done the corresponding thing falls about
   **0.019–0.027**, and the effect is carried by the same domain as the behaviour (three of five) `[#500, #501]`.
+- **And a fifth: across 186 societies, "rarer is more condemned" holds in exactly one of five cells.** The Standard Cross-Cultural Sample codes both the attitude to a practice and its frequency, for premarital sex, extramarital sex and homosexuality. Rank-correlating condemnation against rarity gives **+0.80 (n=97)** for premarital sex among women and **+0.63 (n=91)** among men — but **+0.21 and +0.10** for extramarital sex and **−0.37** for homosexuality, all three of them inside their own resolution and therefore invisible. So the relation is not a law about practices; it is a fact about one practice `[#528「五格里只有一格」]`. ⚠ And the instrument bites: pairs of variables coded by the **same team** are **2.14×** more correlated than pairs spanning two teams (median |ρ| 0.224 vs 0.105, 29 and 319 pairs), so part of any such number is the ethnographer's handwriting. The premarital figure survives that comparison — it exceeds all 15 same-source pairs and their median of 0.31 — but with 15 pairs only the median is resolvable, never the tail.
+
 - **Four things it established cannot be done at all**, listed below
   `[#498 "这条线按它自己写下的规则关闭", #516 "结构上就是不可能的", #521 "零个第二性域", #522 "没有第二个人问过同一个问题"]`.
 

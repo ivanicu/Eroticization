@@ -1,0 +1,14 @@
+{
+ "k": 15,
+ "median": 0.3116229347254573,
+ "q95": 0.5451929355581978,
+ "max": 0.6331719097716356,
+ "target": 0.796603,
+ "percentile": 1.0,
+ "n_ge_target": 0,
+ "inclusion": [
+  "SCCS165 \u4e0e broude1976cross \u5176\u4f59\u53d8\u91cf\u6210\u5bf9",
+  "\u6392\u9664\u914d\u5bf9\u672c\u8eab SCCS167",
+  "\u6bcf\u5bf9 n>=30"
+ ]
+}
