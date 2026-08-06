@@ -1,0 +1,9 @@
+{"action":"PRODUCTION — 清点年份维,不做研究",
+ "question":"「年代 × 态度」这一格能否跨仪器复制?",
+ "checked":15,"with_year_dimension":0,
+ "sources":["ECR","EQSQ","HEXACO","MIES","MSSCQ","RWAS","SCS","SD3",
+            "DVN_C56WMI","DVN_LQOADH","DVN_PY1O34","DVN_SJTRBI(MFQ)","DVN_YMCHMU","MSSCQ(orig)","mfq"],
+ "conclusion":"本地非政府来源全部无年份维 -> 该格结构上单来源(仅 GSS)",
+ "inclusion":["openpsych 与 dataverse 下全部已解压目录","列名匹配 ^(year|yr|survey_?year|wave|date)$"],
+ "impossible":["未联网,不能排除外部存在第二份","列名匹配可能漏掉非英文/非常规命名的年份列"],
+ "unchallenged": true}
