@@ -1,0 +1,173 @@
+{
+ "bundles": {
+  "束A 性(7)": {
+   "matrix": {
+    "SCCS165": {
+     "SCCS165": 130,
+     "SCCS169": 90,
+     "SCCS176": 37,
+     "SCCS960": 20,
+     "SCCS961": 42,
+     "SCCS962": 35,
+     "SCCS964": 36
+    },
+    "SCCS169": {
+     "SCCS165": 90,
+     "SCCS169": 109,
+     "SCCS176": 30,
+     "SCCS960": 15,
+     "SCCS961": 32,
+     "SCCS962": 25,
+     "SCCS964": 29
+    },
+    "SCCS176": {
+     "SCCS165": 37,
+     "SCCS169": 30,
+     "SCCS176": 40,
+     "SCCS960": 8,
+     "SCCS961": 11,
+     "SCCS962": 8,
+     "SCCS964": 10
+    },
+    "SCCS960": {
+     "SCCS165": 20,
+     "SCCS169": 15,
+     "SCCS176": 8,
+     "SCCS960": 29,
+     "SCCS961": 29,
+     "SCCS962": 24,
+     "SCCS964": 26
+    },
+    "SCCS961": {
+     "SCCS165": 42,
+     "SCCS169": 32,
+     "SCCS176": 11,
+     "SCCS960": 29,
+     "SCCS961": 61,
+     "SCCS962": 51,
+     "SCCS964": 53
+    },
+    "SCCS962": {
+     "SCCS165": 35,
+     "SCCS169": 25,
+     "SCCS176": 8,
+     "SCCS960": 24,
+     "SCCS961": 51,
+     "SCCS962": 51,
+     "SCCS964": 46
+    },
+    "SCCS964": {
+     "SCCS165": 36,
+     "SCCS169": 29,
+     "SCCS176": 10,
+     "SCCS960": 26,
+     "SCCS961": 53,
+     "SCCS962": 46,
+     "SCCS964": 54
+    }
+   },
+   "pairs": 21,
+   "ok": 10,
+   "ok_list": [
+    "SCCS165×SCCS169=90",
+    "SCCS165×SCCS176=37",
+    "SCCS165×SCCS961=42",
+    "SCCS165×SCCS962=35",
+    "SCCS165×SCCS964=36",
+    "SCCS169×SCCS176=30",
+    "SCCS169×SCCS961=32",
+    "SCCS961×SCCS962=51",
+    "SCCS961×SCCS964=53",
+    "SCCS962×SCCS964=46"
+   ]
+  },
+  "束B 伤害(5)": {
+   "matrix": {
+    "SCCS173": {
+     "SCCS173": 39,
+     "SCCS781": 21,
+     "SCCS782": 19,
+     "SCCS783": 14,
+     "SCCS1770": 10
+    },
+    "SCCS781": {
+     "SCCS173": 21,
+     "SCCS781": 86,
+     "SCCS782": 77,
+     "SCCS783": 63,
+     "SCCS1770": 20
+    },
+    "SCCS782": {
+     "SCCS173": 19,
+     "SCCS781": 77,
+     "SCCS782": 77,
+     "SCCS783": 61,
+     "SCCS1770": 17
+    },
+    "SCCS783": {
+     "SCCS173": 14,
+     "SCCS781": 63,
+     "SCCS782": 61,
+     "SCCS783": 64,
+     "SCCS1770": 17
+    },
+    "SCCS1770": {
+     "SCCS173": 10,
+     "SCCS781": 20,
+     "SCCS782": 17,
+     "SCCS783": 17,
+     "SCCS1770": 41
+    }
+   },
+   "pairs": 10,
+   "ok": 3,
+   "ok_list": [
+    "SCCS781×SCCS782=77",
+    "SCCS781×SCCS783=63",
+    "SCCS782×SCCS783=61"
+   ]
+  }
+ },
+ "cross": {
+  "SCCS165×SCCS173": 34,
+  "SCCS165×SCCS781": 67,
+  "SCCS165×SCCS782": 59,
+  "SCCS165×SCCS783": 47,
+  "SCCS165×SCCS1770": 32,
+  "SCCS169×SCCS173": 32,
+  "SCCS169×SCCS781": 57,
+  "SCCS169×SCCS782": 53,
+  "SCCS169×SCCS783": 48,
+  "SCCS169×SCCS1770": 23,
+  "SCCS176×SCCS173": 20,
+  "SCCS176×SCCS781": 19,
+  "SCCS176×SCCS782": 18,
+  "SCCS176×SCCS783": 15,
+  "SCCS176×SCCS1770": 11,
+  "SCCS960×SCCS173": 4,
+  "SCCS960×SCCS781": 15,
+  "SCCS960×SCCS782": 15,
+  "SCCS960×SCCS783": 12,
+  "SCCS960×SCCS1770": 9,
+  "SCCS961×SCCS173": 7,
+  "SCCS961×SCCS781": 29,
+  "SCCS961×SCCS782": 28,
+  "SCCS961×SCCS783": 22,
+  "SCCS961×SCCS1770": 16,
+  "SCCS962×SCCS173": 5,
+  "SCCS962×SCCS781": 22,
+  "SCCS962×SCCS782": 21,
+  "SCCS962×SCCS783": 15,
+  "SCCS962×SCCS1770": 15,
+  "SCCS964×SCCS173": 7,
+  "SCCS964×SCCS781": 23,
+  "SCCS964×SCCS782": 23,
+  "SCCS964×SCCS783": 19,
+  "SCCS964×SCCS1770": 13
+ },
+ "cross_ok": 9,
+ "cross_pairs": 35,
+ "verdict": "束A 10/21 · 束B 3/10 · 跨束 9/35 对可算(n>=30)",
+ "note": "ENUMERATION,不是统计检验,故不配误差棒(`#616e`)",
+ "unchallenged": true
+}
