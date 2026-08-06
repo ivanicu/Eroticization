@@ -1,0 +1,245 @@
+{
+ "rows": [
+  {
+   "item": "spkath",
+   "batt": "容忍·言论",
+   "n": 13203,
+   "delta": 0.10205590215908816,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "spkrac",
+   "batt": "容忍·言论",
+   "n": 13132,
+   "delta": -0.01721555915372122,
+   "p": 0.4166666666666667,
+   "homo": false
+  },
+  {
+   "item": "spkcom",
+   "batt": "容忍·言论",
+   "n": 13008,
+   "delta": 0.0845571694641386,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "spkmil",
+   "batt": "容忍·言论",
+   "n": 12064,
+   "delta": 0.08103935013131763,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "spkhomo",
+   "batt": "容忍·言论",
+   "n": 12026,
+   "delta": 0.2663877927486154,
+   "p": 0.0,
+   "homo": true
+  },
+  {
+   "item": "colath",
+   "batt": "容忍·任教",
+   "n": 14565,
+   "delta": 0.05679691755121424,
+   "p": 0.008333333333333333,
+   "homo": false
+  },
+  {
+   "item": "colrac",
+   "batt": "容忍·任教",
+   "n": 14634,
+   "delta": -0.04720522149055988,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "colcom",
+   "batt": "容忍·任教",
+   "n": 12698,
+   "delta": 0.06222611691287261,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "colmil",
+   "batt": "容忍·任教",
+   "n": 12503,
+   "delta": 0.0039640813063110125,
+   "p": 0.8666666666666667,
+   "homo": false
+  },
+  {
+   "item": "colhomo",
+   "batt": "容忍·任教",
+   "n": 12617,
+   "delta": 0.21271306293040537,
+   "p": 0.0,
+   "homo": true
+  },
+  {
+   "item": "libath",
+   "batt": "容忍·藏书",
+   "n": 13045,
+   "delta": 0.12062602753023266,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "librac",
+   "batt": "容忍·藏书",
+   "n": 13021,
+   "delta": -0.017454882252344234,
+   "p": 0.475,
+   "homo": false
+  },
+  {
+   "item": "libcom",
+   "batt": "容忍·藏书",
+   "n": 12963,
+   "delta": 0.07973193764560493,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "libmil",
+   "batt": "容忍·藏书",
+   "n": 11983,
+   "delta": 0.09901757294507352,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "libhomo",
+   "batt": "容忍·藏书",
+   "n": 12023,
+   "delta": 0.15271182483736506,
+   "p": 0.0,
+   "homo": true
+  },
+  {
+   "item": "suicide1",
+   "batt": "自杀",
+   "n": 13059,
+   "delta": 0.20240039634997858,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "suicide2",
+   "batt": "自杀",
+   "n": 13302,
+   "delta": 0.10408947855298334,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "suicide3",
+   "batt": "自杀",
+   "n": 12610,
+   "delta": 0.08864840958726544,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "suicide4",
+   "batt": "自杀",
+   "n": 13150,
+   "delta": 0.12926931156059235,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "abdefect",
+   "batt": "堕胎",
+   "n": 13127,
+   "delta": 0.2887701844855444,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "abnomore",
+   "batt": "堕胎",
+   "n": 13169,
+   "delta": 0.18174578731551932,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "abhlth",
+   "batt": "堕胎",
+   "n": 13188,
+   "delta": 0.33781129671329396,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "abpoor",
+   "batt": "堕胎",
+   "n": 13160,
+   "delta": 0.194259446963774,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "abrape",
+   "batt": "堕胎",
+   "n": 13129,
+   "delta": 0.2784733463685003,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "absingle",
+   "batt": "堕胎",
+   "n": 13188,
+   "delta": 0.19936865166199075,
+   "p": 0.0,
+   "homo": false
+  },
+  {
+   "item": "abany",
+   "batt": "堕胎",
+   "n": 13418,
+   "delta": 0.18329211204214768,
+   "p": 0.0,
+   "homo": false
+  }
+ ],
+ "contrasts": {
+  "容忍·言论": 0.18358953295088729,
+  "容忍·任教": 0.18233256350164273,
+  "容忍·藏书": 0.06333706954202584
+ },
+ "bh": [
+  "spkath",
+  "spkcom",
+  "spkmil",
+  "spkhomo",
+  "colath",
+  "colrac",
+  "colcom",
+  "colhomo",
+  "libath",
+  "libcom",
+  "libmil",
+  "libhomo",
+  "suicide1",
+  "suicide2",
+  "suicide3",
+  "suicide4",
+  "abdefect",
+  "abnomore",
+  "abhlth",
+  "abpoor",
+  "abrape",
+  "absingle",
+  "abany"
+ ],
+ "polarity_ok": true,
+ "verdict": "**机制是对象:三组组内对照 ['+0.1836', '+0.1823', '+0.0633'] 同号**",
+ "unchallenged": true
+}
