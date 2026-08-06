@@ -521,7 +521,7 @@ The claim below is the only one in this project that survived every attack made 
 reading as a sequence rather than a result, because **each version was killed by a test, not replaced by a
 better phrase**. What is named at each step is the test, not the conclusion.
 
-| # | The sentence at that moment | What killed it |
+| # `[#594「六步,每一步都被一个检验杀掉」]` | The sentence at that moment | What killed it |
 |---|---|---|
 | 1 | Sexual attitudes are a bridge: they reach further into other moral judgements than those judgements reach each other (0.192 vs 0.122) | — |
 | 2 | **Swap the comparison group** for three domains spanning loose-to-tight | The cross figure barely moved (0.194 · 0.251 · 0.261) while the comparison group's internal coherence moved four times as far (0.125 · 0.435 · 0.545). **No bridge — the ratio was the denominator.** |
