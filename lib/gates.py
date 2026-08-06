@@ -921,6 +921,34 @@ class Gate:
                           + (f" [{what}]" if what else "")))
         return ok
 
+
+    def spec_curve_cells_declare_inclusion(self, name, cells, what=""):
+        """#519a: 三次改参照都判错,根因是**产物没记「这一格由哪些条件共同定义」**。
+
+        `#518a` 用一个常数比两波 · `#519a` 容差太紧 · 最后发现真正的形态是
+        「阳性数 ∩ 其余纳入条件」—— 而**交集里有哪些条件,产物里一个字也没有**。
+        ⇒ 逐格 `n` 不够;每格还必须带一个 `inclusion`:**逐条列出该格的纳入条件**。
+
+        判据:每格都有非空的 `inclusion`(list[str] 或非空 str)。
+        ⚠ 这是一条**新**要求 —— 它在本项目**所有既有产物上都应当 FAIL**,
+          而那正是它可失败的证明。
+        """
+        items = list(cells.values()) if isinstance(cells, dict) else list(cells)
+        total = len(items)
+        if total == 0:
+            self.rows.append((name, "0 格", False, "DEGENERATE -- 规格曲线为空"))
+            return False
+        def has(c):
+            v = c.get("inclusion") if isinstance(c, dict) else None
+            return bool(v) and (isinstance(v, str) or (isinstance(v, (list, tuple)) and len(v) > 0))
+        good = [c for c in items if has(c)]
+        ok = len(good) == total
+        self.rows.append((name, f"{len(good)}/{total} 格带 inclusion", ok,
+                          ("每格都逐条声明了纳入条件" if ok else
+                           f"⛔ {total-len(good)} 格缺 inclusion -> **这一格由哪些条件共同定义,产物里没有**(#519a)")
+                          + (f" [{what}]" if what else "")))
+        return ok
+
     def verdict(self):
         if getattr(self, "_moot", False) or getattr(self, "_moot_fams", set()):
             return False
