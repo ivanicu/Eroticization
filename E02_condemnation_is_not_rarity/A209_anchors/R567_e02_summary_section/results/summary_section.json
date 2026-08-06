@@ -1,0 +1,10 @@
+{
+  "action": "PRODUCTION — 把 E02 的账写成页面上的一段,未引入新数字",
+  "section": "What the second half was for / 下半场是为了什么",
+  "bullets": 6,
+  "numbers_in_section": {"README.md": 21, "README_zh.md": 21},
+  "audit_no_match": {"README.md": 0, "README_zh.md": 0},
+  "inclusion": ["仅新增小节内含小数的数", "对照全本 RETRACTIONS.md"],
+  "note": "本 R 原先没有目录(纯页面编辑)-> A209 因此只有 1 个 R,违反 #P16。本目录为补建。",
+  "unchallenged": true
+}
