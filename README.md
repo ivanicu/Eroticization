@@ -1,98 +1,153 @@
 # Eroticization Operator
 
-**Why a person feels ashamed of something — and what this work ended up finding: the question is not how rare
-that thing is, it is what the society around them does with it.**
+**Why does a person feel ashamed of something?**
 
-Three national surveys (GSS 1972–2024 · NSFG · Open Psychometrics), an ethnographic coding archive of 186
-societies (SCCS), and a 68-category sexual-preference matrix.
-**100 rounds · 635 scripts · 660 ledger entries · three units of analysis (person · decade · society).**
-
-> **This page carries only what stands, and its boundary. Every line comes with its interval, its instrument
-> and the range it holds over.** The full round-by-round narrative is in the collapsed block at the foot of
-> this page, with nothing deleted; every retraction is in [`RETRACTIONS.md`](RETRACTIONS.md).
+Three national surveys (GSS 1972–2024 · NSFG · Open Psychometrics), the ethnographic coding of 186 societies
+(SCCS), and a 68-category sexual-preference matrix.
+**100 rounds · 635 scripts · 661 ledger entries · three units: person · decade · society.**
+What follows is the question being chased down — **and every answer that failed is written where it failed.**
 
 ---
 
-## In one sentence
+## 1. The easy answer: because it is rare
 
-**Harshness is not a property of a society, nor of a broad class like "violence" — it is a property of one
-specific practice.** Whether a society hits its children barely changes when you change who takes the beating
-(**+0.845**); it drops by three quarters when you change which method of discipline is used (**+0.229**);
-and crossing to wife-beating leaves an upper bound of only **+0.44**
-Entry 640.
-**And on the person side the same shape reappears: sexual morality is one block, family morality is not.**
+The first dataset gives `corr(rarity, shame) = 0.758` (Entry 528). Case closed, apparently.
+
+**But a correlation does not tell you which side is upstream.** Could rarity and shame both be shadows of a
+**third thing — what the society around them does with it?** Answering that needs a bigger unit than the
+person: the **society**.
+
+## 2. So: 186 societies. And the law broke.
+
+The Standard Cross-Cultural Sample codes both **attitude** and **frequency** for three sexual practices.
+Rank-correlating condemnation against rarity: **only one of five cells holds** (premarital +0.80 / +0.63;
+extramarital and homosexuality fall inside their own resolution — Entry 528).
+
+> **So "rarer means more condemned" is not a law about *practices*. It is a fact about one practice.**
+
+## 3. Is it a fact about *societies*, then? — Also no.
+
+If harshness were a property of a **society**, a society strict about one sexual practice should be strict
+about others. The strongest available pair (premarital × extramarital, n = 90) gives **+0.086**; the median
+of the full eight-cell grid is **+0.125** — and the right comparison is not zero but **how correlated any two
+variables coded by the same team already are: 0.187 ± 0.152** (Entry 529 · 530).
+
+> **Indistinguishable. In this data there is no such thing as a "strict society".**
+
+## 4. Wait — maybe I was asking the wrong unit
+
+All three steps above **varied the practice**. What if the practice is **held fixed** and only **who bears it**
+changes? One coding team recorded corporal punishment for four targets (early/late childhood, boys/girls;
+139 societies carry all four):
+
+- **Change who is hit: median of six pairs +0.845.** Barely moves.
+- **Change which method** (hitting / lecturing / teaching / permissiveness / affection): **+0.229.** Three
+  quarters gone.
+- **Cross to wife-beating: upper bound only +0.440.** (Entry 640 · 641 · 642)
+
+> **Harshness is not a property of a society, nor of a broad class like "violence" — it is a property of one
+> specific practice.**
+
+⚠ The second line could have been false: perhaps the coder simply gave one society similar marks down every
+child-rearing column. **I deliberately gave that halo world a chance to win — it lost** (changing the method
+gives +0.229 against +0.845 for changing the target — Entry 642).
+
+## 5. Does the same shape hold in people?
+
+It does, and more sharply. **Of five moral domains, only purity has all six items correlated pairwise**
+(weakest link **0.335**); each of the other four contains a pair that barely touches (fairness is
+**0.062** — Entry 653).
+
+> **Purity is not merely the tightest. It is the only one that is a single thing throughout.**
+
+**And "sex is one block" holds on two entirely different instruments** (GSS four items, weakest link 0.416;
+NSFG three items, 0.346 — different wordings, populations, years). Conversely, **the seven "family morality"
+items are not a domain**: they are **four items about whether the unmarried count as a family, plus three
+that go their own way** — one of which is not a moral judgement at all but *marriage has not worked out for
+most people I know* (Entry 650).
+
+## 6. One last question, and it nearly destroyed all of the above
+
+**How much of these answers is made by the way the question is asked?**
+
+This survey moved to web administration in 2021, and in 2022 and 2024 **both modes ran in the same year** —
+so it can be measured directly:
+
+- face-to-face **0.7051** against web **0.5951** (2022) · **0.7917** against **0.6057** (2024)
+- **the same contrast on the death penalty: +0.018 and −0.012 — essentially nothing.** (Entry 660)
+
+**It looked specific to sexual items.**
+
+⚠ **Then I took it apart myself.** Redone across 19 moral items, the first pass was clean: sexual median
++0.0735, non-sexual −0.0074. **But code 1 does not mean the same thing across items** — for *premarital sex
+is always wrong* it is the **harsh** answer, for *allow the incurably ill to die* it is the **permissive**
+one. **A signed median let the non-sexual group cancel itself.** On absolute values the non-sexual median is
+**+0.0378**, not −0.0074, the gap falls to **+0.0357**, and **its interval contains zero** (Entry 661).
+
+> **Non-sexual moral items move with the mode too — they simply move in different directions. "Specific to
+> sexual items" was manufactured by sign cancellation.**
+
+**What survives is a shape about direction, not size**: all twelve sexual cells point the same way, the
+non-sexual ones scatter (0.636 agreement — Entry 661). **And that was noticed after the failure, so it has
+not been tested. The next round tests it.**
 
 ---
 
 ## What stands
 
-**The society unit** (SCCS, 186 societies, ethnographic coding)
+**Society side** (SCCS, 186 societies)
 
-| The sentence that stands | Number | Control |
+| One line | Number | Control |
 |---|---|---|
-| **Changing who is hit barely changes how hard a society hits** | median of six pairs **+0.845** | diagonal pairs +0.799, cross-team cross-age +0.534 ⇒ a single-sentence artefact cannot explain the level Entry 640 |
-| **Changing which method is used drops it by three quarters** | **+0.229**, CI [+0.132, +0.293] Entry 642 | **the halo world could have won and lost**; the codebook's directional prediction (corporal punishment × permissiveness must be negative) held in all four cells |
-| **Hitting children and hitting wives are not one act** | highest upper bound across four cells **+0.440** | cross-team; coarsening control φ +0.248 Entry 641 |
-| **A society that hits more also lectures more; permissiveness travels with affection** | +0.344 / +0.389 | PC1 over the five technique scores is only 0.429 ⇒ **it takes two dimensions, not one axis** Entry 642 |
-| **Example-setting takes no side** | +0.045 against the four techniques · +0.046 against four structural variables · **+0.922 internally** | the gap survives range-matching at +0.242 ⇒ **taking no side is not failing to measure** Entry 643 |
-| **Whether a society hits its children survives a change of reader** | cross-coding-team **+0.630** (n=60) | against a cross-team median of 0.105 Entry 639 Entry 528 |
-| Rarer means more condemned — **in one of five cells only** | premarital +0.80 / +0.63; extramarital and homosexuality fall inside their own resolution | ⇒ not a law about *practices* Entry 528 |
-| **There is no "strict society" in this data** (across practices) | +0.125, **indistinguishable from the coupling this instrument manufactures** | within-team baseline 0.187 ± 0.152 Entry 529 Entry 530 |
+| Changing who is hit barely changes how hard a society hits | median of six **+0.845** | diagonal +0.799, cross-team cross-age +0.534 (Entry 640) |
+| Changing the method removes three quarters | **+0.229** [+0.132, +0.293] | the halo world could have won and lost (Entry 642) |
+| Hitting children and hitting wives are not one act | upper bound **+0.440** | cross-team; coarsening φ +0.248 (Entry 641) |
+| A society that hits more also lectures more; permissiveness travels with affection | +0.344 / +0.389 | PC1 only 0.429 ⇒ two dimensions (Entry 642) |
+| Example-setting takes no side | +0.045 against four methods · **+0.922 internally** | gap survives range-matching at +0.242 (Entry 643) |
+| A change of reader leaves the same number | cross-team **+0.630** (n=60) | cross-team median only 0.105 (Entry 639 · 528) |
 
-**The person unit** (GSS · NSFG · MFQ · MSSCQ)
+**Person side** (GSS · NSFG · MFQ)
 
-| The sentence that stands | Number | Control |
+| One line | Number | Control |
 |---|---|---|
-| **Of five moral domains, only purity has all six items correlated pairwise** | weakest link **0.335**; authority 0.170 · ingroup 0.149 · harm 0.139 · **fairness 0.062** | positive control 0.872 ≥ 0.85 · placebo edge density 0.000 Entry 653 |
-| **And purity's lead is larger than the raw figure shows** | +0.175 → **+0.202**, CI [+0.180, +0.223] | reproduces the earlier value to 0.0008 · shuffled domain assignment +0.019 Entry 648 |
-| **"Sex is one block" holds on two instruments** | GSS four items **0.416** · NSFG three items **0.346** | different wordings, populations and years Entry 653 |
-| **Her judgements about sex and about whether the unmarried count as a family are equally tight** | **a factor of 1.10** (0.468 against 0.426) | block selected on half the sample and scored on the other, same four items chosen in all 51 splits, selection bias −0.002 Entry 650 |
-| **And the seven "family morality" items are not a domain** | largest sub-block **4/7** | 4 at all four thresholds; positive control 3; placebo 1 Entry 650 |
-| **Asked face to face, 11–19 points more people call extramarital sex always wrong** | 2022 **+0.110** · 2024 **+0.186** | **the same contrast on the death penalty is +0.018 / −0.012** Entry 660 |
-| Sexual morality is already one block at 15–20, while family morality is still tightening at 44 | see the collapsed block below | the same 5,600 women |
+| Only purity is a single thing throughout | weakest link **0.335**; fairness 0.062 | positive control 0.872 · placebo 0.000 (Entry 653) |
+| And its lead is larger than the raw figure | +0.175 → **+0.202** [+0.180, +0.223] | shuffled domain assignment +0.019 (Entry 648) |
+| "Sex is one block" on two instruments | GSS **0.416** · NSFG **0.346** | different wordings/populations/years (Entry 653) |
+| Her judgements about sex and about the unmarried family are equally tight | **1.10×** (0.468 vs 0.426) | half-sample selection, bias −0.002 (Entry 650) |
+| And the family seven are not a domain | largest sub-block **4/7** | 4 at all four thresholds (Entry 650) |
 
----
-
-## Four things to know before reading any number here
-
-| | |
-|---|---|
-| **① The mode of asking moves the answer** | same year, same questionnaire: face-to-face runs **11–19 points** above web, **and the death penalty does not move** ⇒ part of any sexual-attitude trend crossing 2021 is the asking, not the people |
-| **② Correlations have ceilings** | skewed marginals pin the maximum: the four binary GSS items top out at **0.36** while MFQ sits at **0.91–0.95**. **An absolute threshold will judge a ceiling-limited block "not a domain"** Entry 647 |
-| **③ A survey-year component** | after first-differencing, condemnation of extramarital sex and support for the death penalty still move together at **+0.57** ⇒ **the decade unit cannot be decided on GSS** Entry 659 |
-| **④ The shared instrument** | one coding team, one questionnaire, manufactures coupling by itself. **A claim whose instrument you cannot name is a claim about the instrument** |
-
----
-
-## What this data cannot do
+## What this cannot do
 
 | Cannot | Why |
 |---|---|
-| Decide whether rarity drives condemnation at the **decade** unit | +0.57 shared component survives differencing, and dropping 2021/2022 leaves it at 1.09× the effect. **Undecidable; stopped** Entry 659 |
-| Replicate "learning by watching adults" across instruments | **not one of five instruments ever asked it** (GSS's only real hit was asked in a single year, n = 1107, and asks *which parent*) |
-| Carry the society-side contrast to the person side | the society side is an **11-point ordinal**, the person side is **binary** — the two units' numbers are not on the same scale |
-| Measure how much qualification is lost when the ledger re-quotes itself | the source side carries a median of **one** qualifier ⇒ **any ratio built on it degenerates** |
-| Any causal claim | all cross-sectional / no intervention / self-report |
+| Decide whether rarity drives condemnation at the **decade** unit | after differencing, condemnation of extramarital sex and support for the death penalty still move together at **+0.57**; dropping 2021/2022 does not remove it (Entry 659 · 660) |
+| Replicate "learning by watching adults" across instruments | **not one of five instruments ever asked it** (Entry 645) |
+| Carry the society-side contrast to the person side | 11-point ordinal against binary — **different scales** (Entry 646) |
+| Any causal claim | all cross-sectional · no intervention · self-report |
 
----
+## Before reading any number here
 
-## Structure and tools
+| | |
+|---|---|
+| **The asking moves the answer** | same year, same questionnaire, sexual items run higher face-to-face while the death penalty does not ⇒ **part of any sexual-attitude trend crossing 2021 is the asking** |
+| **Correlations have ceilings** | skewed marginals pin the maximum: GSS binaries **0.36**, MFQ **0.91–0.95**; an absolute threshold judges a ceiling-limited block "not a domain" (Entry 647 · 649 · 651) |
+| **The shared instrument** | one coding team, one questionnaire, manufactures coupling by itself. **A claim whose instrument you cannot name is a claim about the instrument** |
+
+## Structure
 
 **E · A · R** — an epoch closes when the ontology shifts, an arc when a decision becomes safe, a round on
-**one claim on this page**. **3 epochs · 18 arcs · 100 rounds · 635 scripts.**
-**One round is one folder, with its scripts flat inside it.**
+**one claim on this page**. **3 epochs · 18 arcs · 100 rounds · 635 scripts** (Entry 657)**. One round is one
+folder, with its scripts flat inside.**
 **Closing condition: cross-instrument** — a round does not close until the same question has been asked on
-≥2 instruments, or "no second instrument exists" is explicitly recorded. This is **enforced by
-`tools/readme_gate.py`**, which blocked its own author on its first live round.
+≥2 instruments; enforced by `tools/readme_gate.py`, **which blocked its own author on its first live round.**
 
-| File | What it is |
-|---|---|
-| [`RETRACTIONS.md`](RETRACTIONS.md) | **660 entries.** Every retraction, narrowing and correction, with the thing that killed it |
-| `tools/readme_gate.py` | The page gate: 9 rules, a ratchet baseline, wired into `pre-commit` |
-| `lib/gates.py` | The conditional kill each round uses to attack itself |
-| `E0*/A*/R*/` | Each round: its scripts · `results/` · `notes/` |
+[`RETRACTIONS.md`](RETRACTIONS.md) — **661 entries**, every retraction and narrowing with the thing that
+killed it.
 
 ---
+
+<details>
+<summary><b>Full round-by-round narrative (kept verbatim, nothing deleted — all 338 anchors live here)</b></summary>
 
 <details>
 <summary><b>Full round-by-round narrative (kept verbatim, nothing deleted — all 338 anchors live here)</b></summary>
