@@ -1,0 +1,28 @@
+{
+ "action": "PRODUCTION \u2014 \u628a\u951a\u68c0\u67e5\u5e76\u8fdb\u5df2\u6709\u7684\u95f8,\u5e76\u767b\u8bb0 18 \u5904\u5386\u53f2\u6b20\u8d26",
+ "blocked": true,
+ "hits": {
+  "named_defects": 4,
+  "numbers_that_left": 0,
+  "uncited_numbers": 11,
+  "internal_consistency": 3,
+  "dangling_anchors": 2
+ },
+ "new_rule": "dangling_anchors(#563):\u4e09\u503c missing/collide/ok,\u53ea\u62a5\u6709\u95ee\u9898,\u4ece\u4e0d\u62a5\u5f15\u5bf9\u4e86",
+ "self_test": {
+  "clean": 0,
+  "tampered": 1,
+  "restored": 0
+ },
+ "debt_not_mine": "18 \u5904\u547d\u4e2d\u5168\u90e8\u4e3a\u5386\u6b21\u4f1a\u8bdd\u9057\u7559;\u672c\u6bb5 15 \u6b21 README \u6539\u52a8\u5f15\u5165 0 \u5904",
+ "prior_art": "\u4ed3\u5e93\u5185\u5df2\u6709 readme_ledger_audit \u00b7 readme_gate \u00b7 guard_lint \u00b7 repro_audit \u00b7 round_status \u4e94\u4ef6",
+ "inclusion": [
+  "README.md \u4e0e README_zh.md \u5168\u6587",
+  "RETRACTIONS.md \u5168\u90e8\u6761\u76ee"
+ ],
+ "impossible": [
+  "\u951a\u53ea\u80fd\u8bc1\u4f2a(#526e):\u5339\u914d\u4e0d\u8bc1\u660e\u5f15\u5bf9\u4e86\u6761\u76ee",
+  "\u95f8\u95e8\u81ea\u8ff0:\u5fc5\u8bfb\u6e05\u5355,\u4e0d\u662f\u5224\u51b3"
+ ],
+ "unchallenged": true
+}

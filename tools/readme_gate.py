@@ -20,11 +20,46 @@ import sys, pathlib, subprocess, argparse
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import readme_ledger_audit as A
 
+
+
+def dangling_anchors():
+    """#563:页面上的短语锚,指向的文字在账本里**存在且唯一**吗?
+
+    由 `#562` 触发:35 个短语锚从没被整页跑过一次,一跑发现 5 个坏的,
+    其中 **2 个指向账本里根本不存在的句子**(写页面时把标题改述了)。
+
+    ⚠ P6 代理账:
+      PROPERTY   这个锚引对了条目
+      PROXY      所引短语在账本中出现的次数,以及其中落在被引条目内的次数
+      IMPLICATION 只有一个方向可靠:**次数不匹配 -> 这个锚确实有问题**(可靠)。
+                 匹配**不**证明引对了条目(`#526e`:锚只能证伪)。
+      SAFE SIDE  只报「有问题」,从不报「引对了」。
+    三值:`missing`(0 次,无处可指)· `collide`(条目外也出现)· ok。
+    """
+    import re
+    root = pathlib.Path(__file__).resolve().parents[1]
+    led = (root / "RETRACTIONS.md").read_text()
+    marks = [(int(m.group(1)), m.start()) for m in re.finditer(r'^## Entry (\d+)', led, re.M)]
+    body = {n: led[s:(marks[i+1][1] if i+1 < len(marks) else len(led))]
+            for i, (n, s) in enumerate(marks)}
+    pat = re.compile(r'\[#(\d+)「([^」]+)」\]')
+    bad = []
+    for f in ("README.md", "README_zh.md"):
+        fp = root / f
+        if not fp.exists(): continue
+        for e, ph in pat.findall(fp.read_text()):
+            e = int(e); inside = body.get(e, "").count(ph); total = led.count(ph)
+            if inside == 0: bad.append((f, e, ph, "missing", total, inside))
+            elif total != inside: bad.append((f, e, ph, "collide", total, inside))
+    return bad
+
+
 RULES = [
     ('named_defects',   '账本点名过的缺陷仍原样活着(#170)'),
     ('numbers_that_left','有数量离开了这一页(#171)'),
     ('uncited_numbers', '段落里有不带出处的数(#145)'),
     ('internal_consistency','同一引用标记在两处带不同的数(#144)'),
+    ('dangling_anchors', '短语锚指向的文字不存在或不唯一(#563)'),
 ]
 
 def run_gate(rev=None, quiet=False):
@@ -45,6 +80,11 @@ def run_gate(rev=None, quiet=False):
         except Exception as e:
             hits[fn] = -1                      # 规则本身没跑起来:不是 0,是 UNVERIFIED
             if not quiet: print(f"  ⚠ {fn} 没跑起来:{type(e).__name__}: {e}")
+    try:
+        hits['dangling_anchors'] = len(dangling_anchors())
+    except Exception as e:
+        hits['dangling_anchors'] = -1
+        if not quiet: print(f"  ⚠ dangling_anchors 没跑起来：{type(e).__name__}: {e}")
     blocked = any(v != 0 for v in hits.values())
     if not quiet:
         print(f"\n{'规则':<24}{'命中':>6}   说明")
