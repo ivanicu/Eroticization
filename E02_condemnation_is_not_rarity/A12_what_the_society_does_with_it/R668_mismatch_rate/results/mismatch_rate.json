@@ -1,0 +1,335 @@
+{
+ "rows": [
+  {
+   "tier": "0.9",
+   "grp": 0,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 1,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 2,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": false,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 3,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 4,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": false,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 5,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 6,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 7,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 8,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 9,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 10,
+   "real_ov": 0.333,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": false,
+   "mismatch": false
+  },
+  {
+   "tier": "0.9",
+   "grp": 11,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": false,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 0,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 1,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 2,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 3,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 4,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 5,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 6,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 7,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 8,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 9,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 10,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.7",
+   "grp": 11,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 0,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 1,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 2,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 3,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 4,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 5,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 6,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 7,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 8,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 9,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 10,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  },
+  {
+   "tier": "0.4",
+   "grp": 11,
+   "real_ov": 0.167,
+   "kind": "UNMATCHED",
+   "rep": null,
+   "matched_unrelated": true,
+   "mismatch": false
+  }
+ ],
+ "mismatch_hi": 0,
+ "mismatch_lo": 0,
+ "g0_rows": 0,
+ "trap_works": false,
+ "verdict": "UNVERIFIED —— 控制未齐(正对照 False · g=0 True)",
+ "deviation": "预注册写「临时分支伪造」,本轮走纯文本支(`#173c`),刻意且标注",
+ "unchallenged": true
+}
