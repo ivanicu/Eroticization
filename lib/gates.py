@@ -181,6 +181,15 @@ class Gate:
         the row says so, so a missing spread can never be mistaken for a passed check."""
         if self._degenerate(name, null, effect): return False
         ok = abs(null) < ratio * abs(effect)
+        # ⚠ #758(回测于 2026-08-06,`#748`③ 欠了四轮):这一行**对符号是瞎的**,而回测发现
+        #   问题的位置和 `#748` 猜的不一样 —— 282 个调用点里 **70 处(24.8%)在传入前就
+        #   `abs()` 了**,符号在进函数之前就没了;另有 **35 处(12.4%)没给 `null_spread`**,
+        #   于是 `#125` 那条豁免根本不会触发。**⇒ 修的地方在调用点,不在这一行。**
+        #   这里只加**披露**,不改判:反号的零其实是**支持**效应的证据,而 `ok` 会因幅度大判它失败。
+        #   ⚠ 按 `#623`,任何会改判的改动必须先量出翻转数;这一条**构造上不可能翻转**(只加注记)。
+        _opp = (null * effect) < 0
+        _sign_note = ("  ⚠ 零与效应**反号** —— 反号的零是支持效应的证据,"
+                      "而上面这条比较对符号是瞎的,请自行判读 (#758)" if _opp else "")
         # #125 的豁免只在零**帮不上忙**时成立:与效应异号,或已小于效应的一半。
         # 否则 #102a(零 -0.0275、效应 -0.0302、同号、91%)会从这个口子溜过去 ——
         # 而那正是这个库存在的起因。回归测试当场抓到了这个洞。
@@ -188,7 +197,7 @@ class Gate:
         if not ok and not helps and null_spread is not None and abs(null) < 2 * abs(null_spread):
             self.rows.append((name, f"|{null:+.5f}| < 2*{abs(null_spread):.5f} (自身展布)", True,
                               f"零本身与零无法区分 ({abs(null)/max(abs(null_spread),1e-12):.1f}x);"
-                              f" 相对效应是 {100*abs(null)/max(abs(effect),1e-12):.0f}% (#125)"))
+                              f" 相对效应是 {100*abs(null)/max(abs(effect),1e-12):.0f}% (#125)" + _sign_note))
             return True
         if null_spread is None:
             ratio_note = " [未给 null_spread,只问了「相对效应」这一半 (#125)]"
@@ -203,6 +212,10 @@ class Gate:
             ratio_note += " ⚠[未命名零的方案 —— 题内跨人?人内?两者在同一量上可反号 (#217a)]"
         else:
             ratio_note += f" [零的方案: {null_kind}]"
+        # #758:反号的注记必须挂在**主判行**上 —— 第一版只挂到 `#125` 分支,
+        # 而反号且幅度大的那一格根本走不到那条分支,于是注记一次也没出现过。
+        # ⚠ 这正是这一族的又一次:**注记挂错了行,和判词比错了对象是同一个错。**
+        ratio_note += _sign_note
         self.rows.append((name, f"|{null:+.4f}| < {ratio}*|{effect:+.4f}| = {ratio*abs(effect):.4f}",
                           ok, f"null is {100*abs(null)/max(abs(effect),1e-12):.0f}% of the effect"
                               + ratio_note))
