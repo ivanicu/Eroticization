@@ -1,0 +1,53 @@
+{
+ "n": 8229,
+ "rows": [
+  {
+   "batt": "堕胎",
+   "rho_discrim": 0.10425698036182042,
+   "rho_guttman": -0.06588034636139331,
+   "part_discrim": 0.13953952862217886,
+   "part_guttman": -0.08296305060348845,
+   "null_q95": 0.11049590069871669,
+   "order": [
+    "abhlth",
+    "abrape",
+    "abdefect",
+    "abnomore",
+    "abpoor",
+    "abany",
+    "absingle"
+   ]
+  },
+  {
+   "batt": "自杀",
+   "rho_discrim": 0.2763295301142519,
+   "rho_guttman": 0.02037960793170816,
+   "part_discrim": 0.32021276417738387,
+   "part_guttman": 0.017334520243792114,
+   "null_q95": 0.28620294040056105,
+   "order": [
+    "suicide1",
+    "suicide4",
+    "suicide3",
+    "suicide2"
+   ]
+  },
+  {
+   "batt": "容忍·藏书",
+   "rho_discrim": 0.09114982799588547,
+   "rho_guttman": -0.06039895573847053,
+   "part_discrim": 0.11075563178480685,
+   "part_guttman": -0.06779176548996248,
+   "null_q95": 0.09230018584052434,
+   "order": [
+    "libhomo",
+    "libath",
+    "libcom",
+    "libmil",
+    "librac"
+   ]
+  }
+ ],
+ "verdict": "UNVERIFIED",
+ "unchallenged": true
+}
