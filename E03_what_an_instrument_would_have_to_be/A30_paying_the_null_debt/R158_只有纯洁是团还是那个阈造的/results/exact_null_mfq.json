@@ -1,0 +1,37 @@
+{
+ "n_blocks": 593770,
+ "quantiles": {
+  "q90": -0.01004075166086874,
+  "q95": 0.029872529763707183,
+  "q99": 0.20193890226981653
+ },
+ "median": -0.13778105824241846,
+ "max": 0.45009055834880096,
+ "obs": {
+  "PURITY": 0.3354,
+  "AUTHORITY": 0.1696,
+  "INGROUP": 0.1492,
+  "HARM": 0.139,
+  "FAIRNESS": 0.0621
+ },
+ "ratio_q95": {
+  "PURITY": 11.227706613836405,
+  "AUTHORITY": 5.677456892387163,
+  "INGROUP": 4.99455523787833,
+  "HARM": 4.6531044106239134,
+  "FAIRNESS": 2.078832977696007
+ },
+ "clears_q99": {
+  "PURITY": true,
+  "AUTHORITY": false,
+  "INGROUP": false,
+  "HARM": false,
+  "FAIRNESS": false
+ },
+ "sampled_history": {
+  "R157_n1500": 0.0162,
+  "R158_n3000": 0.0313,
+  "exact": 0.029872529763707183
+ },
+ "unchallenged": true
+}

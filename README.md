@@ -54,11 +54,21 @@ gives +0.229 against +0.845 for changing the target — Entry 642).
 
 ## 5. Does the same shape hold in people?
 
-It does, and more sharply. **Of five moral domains, only purity has all six items correlated pairwise**
-(weakest link **0.335**); each of the other four contains a pair that barely touches (fairness is
+It does, and more sharply. **Of five moral domains, only purity has all six item pairs above 0.30**
+(weakest link **0.335**); each of the other four contains a pair far lower (fairness is
 **0.062** — Entry 653).
+⚠ **But "only purity" was manufactured by that chosen 0.30, and it is withdrawn**: against a null built from
+**all 593,770 random six-item blocks** of the same questionnaire, the 95th percentile is **0.0299** —
+**all five domains clear it**, purity **11.23×** > authority 5.68× > ingroup 4.99× > harm 4.65× > fairness 2.08×
+(Entry 716).
 
-> **Purity is not merely the tightest. It is the only one that is a single thing throughout.**
+> **All five moral domains cohere more than a random six. Purity is the tightest — twice the next —
+> not the only one.** (Entry 653 · 716)
+> ⚠ At the null's **99th** percentile of 0.2019, **only purity does clear it.**
+> **Both cuts are reported: the verdict depends on where the cut falls, so what is load-bearing is the
+> ordering, not either binary.**
+> ⚠ And the null's **maximum is +0.4501**, above purity's own 0.3354 — a random six-item block **can** be
+> tighter than it, **so this is a distributional statement, never any single comparison** `[#716「五个域全都比随机凑的六题更连成一片,「只有纯洁」是那把尺子造的」]`.
 
 **And "sex is one block" holds on two entirely different instruments** (GSS four items, weakest link 0.416;
 NSFG three items, 0.346 — different wordings, populations, years). Conversely, **the seven "family morality"
@@ -141,9 +151,9 @@ still carried it.**
 | The tightening is uneven: **the pairs with homosexuality move most, and those without move too** | with-it median **+0.2033** · without **+0.0423** (clears its null, p=0.0167) · placebo **+0.0040** | ⛔ **the original "nearly five times" and "10.6×" are removed**: those ratios return empirical p of 0.1000 / 0.0800 against nulls whose 95th percentiles are 9.86 / 28.17 ⇒ **the ratio carries no resolution, while each group's own value stands** (Entry 677 · 692) ° 〔GSS〕 ⟨—⟩|
 | **Growing permissive and becoming one position are two different things** | marginal-matched **+0.1604** · p=0.0000 | the placebo's level shift is **larger** (+0.3035 vs +0.2626) while its coherence sits on the floor at +0.0054 (Entry 676) ° 〔GSS〕 ⟨—⟩|
 | **Education makes sexual morality one position; age does it to gender roles** | education **+0.1349** / age +0.0318 on the floor | same 11,576 people; the placebo is opposite-signed and on the floor for education but +0.0906 for age — **a crossover, so not response coherence**. ⚠ **does not replicate on the second instrument** (Entry 675) 〔GSS〕 ⟨—⟩|
-| Only purity is a single thing throughout | weakest link **0.335**; fairness 0.062 | null q95 for a random six from the same pool 0.0162 (Entry 653 · 715) 〔MFQ〕 ⟨20.67×〕|
+| **All five** moral domains cohere more than a random six, and purity is the tightest | purity **0.335** > authority 0.170 > ingroup 0.149 > harm 0.139 > fairness 0.062 | same pool, same k, **all 593,770 blocks enumerated**, null q95 **0.0299**; at the 99th percentile of 0.2019 **only purity clears** (Entry 653 · 715 · 716) 〔MFQ〕 ⟨purity 11.23× · fairness 2.08×〕|
 | And its lead is larger than the raw figure | +0.175 → **+0.202** [+0.180, +0.223] | shuffled domain assignment +0.019 (Entry 648) ° 〔GSS·MFQ〕 ⟨—⟩|
-| "Sex is one block" is solid on GSS and sits on its null on NSFG | GSS **0.416** · NSFG **0.346** | same-pool random-block null: GSS 0.0551 · **NSFG 0.3124** (Entry 653 · 715) 〔GSS·NSFG〕 ⟨GSS 7.55× · **NSFG 1.11×**〕|
+| "Sex is one block" is solid on GSS and sits on its null on NSFG | GSS **0.416** · NSFG **0.346** | same-pool same-k enumerated null: GSS 0.0574 · **NSFG 0.3124** (Entry 653 · 715 · 716) 〔GSS·NSFG〕 ⟨GSS 7.25× · **NSFG 1.11×**〕|
 | Her judgements about sex and about the unmarried family are equally tight | **1.10×** (0.468 vs 0.426) | half-sample selection, bias −0.002 (Entry 650) ° 〔MFQ·NSFG〕 ⟨—⟩|
 | And the family seven are not a domain | largest sub-block **4/7** | 4 at all four thresholds (Entry 650) ° 〔MFQ·NSFG〕 ⟨—⟩|
 
