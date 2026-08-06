@@ -1,0 +1,152 @@
+{
+ "action": "CLOSURE \u2014 E02 \u8303\u56f4\u8868",
+ "rows": [
+  {
+   "entry": 528,
+   "anchor": "\u4e0d\u662f\u5173\u4e8e\u505a\u6cd5\u7684\u5b9a\u5f8b",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #528",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 529,
+   "anchor": "\u6700\u6709\u529b\u7684\u90a3\u4e00\u5bf9,\u51e0\u4e4e\u662f\u96f6",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #529",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 530,
+   "anchor": "\u4e0d\u53ef\u5206\u8fa8,\u4e0d\u662f\u4f4e\u4e8e",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #530",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 531,
+   "anchor": "\u6307\u6d3e\u4e0d\u662f\u627f\u91cd\u5899",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #531",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 532,
+   "anchor": "\u4e00\u4ef6\u4e00\u4ef6\u677e\u5f00",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #532",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 533,
+   "anchor": "\u957f\u6ede\u540e\u4e0d\u662f\u5206\u79bb\u5668",
+   "total": 2,
+   "inside": 2,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #533",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 534,
+   "anchor": "\u4e09\u4e2a\u5355\u4f4d,\u4e09\u4e2a\u7b54\u6848",
+   "total": 2,
+   "inside": 2,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #534",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 535,
+   "anchor": "\u683c\u5f0f\u89e3\u91ca\u6389\u4e00\u90e8\u5206",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #535",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 536,
+   "anchor": "\u6027\u6bd4\u5bb6\u5ead\u66f4\u7d27",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #536",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 539,
+   "anchor": "\u4e00\u4e2a\u5728\u5341\u4e94\u5c81\u5c31\u5df2\u7ecf\u6210\u5f62",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #539",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 540,
+   "anchor": "\u6ce2\u4e4b\u95f4\u505a\u4e0d\u5230",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #540",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  },
+  {
+   "entry": 542,
+   "anchor": "\u9762\u5185\u9ad8\u4e8e\u9762\u95f4",
+   "total": 1,
+   "inside": 1,
+   "unique": true,
+   "n": 525,
+   "inclusion": [
+    "\u8d26\u672c 526 \u6761\u4e2d\u9664 #542",
+    "\u7eaf\u5b50\u4e32\u5339\u914d"
+   ]
+  }
+ ],
+ "all_unique": true,
+ "n_assertions": 12,
+ "unchallenged": true
+}

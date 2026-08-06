@@ -464,6 +464,27 @@ item-neighbour structure recovers **+0.0206** held-out R² over a marginals base
 factors' **+0.0289** and a random-neighbour control's **+0.0006** — **71% of the person margin**, on
 578,989 held-out cells. **[#58]** Fitted jointly, the two are **67% the same structure**: combined increment +0.0359 against the person margin's +0.0293, so the item side's unique contribution is +0.0066 — ratio 1.65, **below resolution**.
 
+## Scope table for the second half
+
+Every assertion the second half added, with the unit it holds at, the instrument it routes through, the population it was measured on, and the thing it could **not** separate. A claim without all five is a claim without a boundary. Anchors are phrases rather than numbers, because a cited number collides with 13.4% of this project's ledger while a cited phrase collides with none.
+
+| Assertion | Unit | Instrument | Population | Figure | Not separated |
+|---|---|---|---|---|---|
+| Rarer is more condemned — in one of five cells `[#528「不是关于做法的定律」]` | society | SCCS / Broude & Greene 1976 | 186 societies, 34–97 coded | ρ +0.80 (premarital, n=97); −0.37 to +0.21 elsewhere, all invisible | one coding team; same-source pairs inflated 2.14× |
+| No "strict society" `[#529「最有力的那一对,几乎是零」]` | society | same | 26–90 societies per pair | ρ +0.086 at n=90; grid median +0.125 | same team; 6 of 8 cells have MDE ≈ 0.4–0.58 |
+| …and that is *indistinguishable from*, not *below*, the instrument's own coupling `[#530「不可分辨,不是低于」]` | society | same | 22 cross-practice pairs | baseline +0.187 ± 0.152 | whether condemnation scales couple like other scales |
+| The practice assignment is not load-bearing `[#531「指派不是承重墙」]` | society | same | 3 schemes, one a no-op | baseline range 0.004 | only two schemes actually differed |
+| Attitudes soften one at a time, not as a tide `[#532「一件一件松开」]` | decade | GSS 1972–2024 | 21–30 shared survey years | cross-topic 41% of within-topic | not separable from noise; disjoint respondents still share a country |
+| …and a longer window stops being a test `[#533「长滞后不是分离器」]` | decade | same | 6–18 year windows | ratio 0.44 → 0.52 → 0.76 | trend and synchrony predict the same rise |
+| One ruler at the person level `[#534「三个单位,三个答案」]` | person | GSS, within year | 30 survey years | 0.375 vs 0.093, ceiling 0.437 | domain vs question format |
+| …of which format explains 13–45% `[#535「格式解释掉一部分」]` | person | same | same | excess +0.15 to +0.27 | domain content; no four-point non-sexual moral battery exists here |
+| Sexual morality is tighter than family morality `[#536「性比家庭更紧」]` | person | NSFG 2011–13, self-administered | 5,600 women | 0.425 vs 0.140, gap 19× its spread | three sexual items give three pairs |
+| Already formed at 15; family morality still tightening at 44 `[#539「一个在十五岁就已经成形」]` | person × age | same | six age bands, 600–1,221 each | flat vs 0.124 → 0.160 | age and birth cohort are perfectly collinear |
+| Men sit close to women `[#540「波之间做不到」]` | person × sex | NSFG 2017–19 | 5,177 men, 6,115 women | 0.473 vs 0.529, resolution 0.045 | the same pair moved +0.203 in six years while its module shrank from ten items to two |
+| "One block" is scale-dependent — and this row is a verification `[#542「面内高于面间」]` | person × facet | MSSCQ, self-selected online | 17,685 respondents | within-facet 0.579 vs between 0.173 | the facets are the scale author's design; items inside one are paraphrases |
+
+**What every row shares, and what therefore cannot be fixed by adding rows:** each instrument is missing a different half. No public instrument asks both what people want and what they are ashamed of; the only source that codes both a practice's acceptability and its frequency is coded by one team; the one battery with a matched non-sexual comparison drops eight of its ten items in the following wave; the largest sexual self-concept battery has no non-sexual items at all; and one authoritarianism dataset ships no item texts, so its questions cannot be classified without inventing what they said.
+
 ## Tools: six edges
 
 | tool | what it checks |
