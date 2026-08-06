@@ -124,13 +124,23 @@ def run_gate(rev=None, quiet=False):
     else:
         hits['named_defects'] = 0
     hits['numbers_that_left'] = len(A.numbers_that_left(rev=rev)) if rev else 0
+    # `#602`:这两条原本写死 `readme='README.md'`,于是**中文那一版页面从没被扫过**
+    #   —— 而交付物是两版。`named_defects` / `numbers_that_left` 本来就读两版,只有这两条没有。
+    #   ⚠ 逐版分开记数,再求和:一个只报总和的闸,说不出是哪一版变差了。
+    PAGES = ('README.md', 'README_zh.md')
     for fn in ('uncited_numbers','internal_consistency'):
-        try:
-            r = getattr(A, fn)()
-            hits[fn] = len(r) if r is not None and hasattr(r,'__len__') else 0
-        except Exception as e:
-            hits[fn] = -1                      # 规则本身没跑起来:不是 0,是 UNVERIFIED
-            if not quiet: print(f"  ⚠ {fn} 没跑起来:{type(e).__name__}: {e}")
+        tot, per = 0, {}
+        for pg in PAGES:
+            try:
+                r = getattr(A, fn)(pg)
+                n = len(r) if r is not None and hasattr(r,'__len__') else 0
+            except Exception as e:
+                n = -1                         # 规则本身没跑起来:不是 0,是 UNVERIFIED
+                if not quiet: print(f"  ⚠ {fn}({pg}) 没跑起来:{type(e).__name__}: {e}")
+            per[pg] = n
+            tot = -1 if (tot == -1 or n == -1) else tot + n
+        hits[fn] = tot
+        hits[f'{fn}:zh(warn)'] = per['README_zh.md']   # 分版可见,但只由总数阻断
     try:
         _d = dangling_anchors()
         hits['dangling_anchors'] = sum(1 for x in _d if x[3] == 'missing')
