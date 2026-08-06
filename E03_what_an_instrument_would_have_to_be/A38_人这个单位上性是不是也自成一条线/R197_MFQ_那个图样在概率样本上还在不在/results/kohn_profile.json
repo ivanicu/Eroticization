@@ -1,0 +1,83 @@
+{
+ "rows": {
+  "premarsx": {
+   "obey": 0.4578545622564516,
+   "thnkself": -0.26383091076584586,
+   "workhard": -0.11800350336794273,
+   "helpoth": -0.020588095554343273,
+   "popular": -0.055432052568321705,
+   "_n": 16110
+  },
+  "xmarsex": {
+   "obey": 0.16694283176214011,
+   "thnkself": -0.09795381732557859,
+   "workhard": 0.003123698842449352,
+   "helpoth": -0.015070904028494593,
+   "popular": -0.05704180925051616,
+   "_n": 17125
+  },
+  "homosex": {
+   "obey": 0.6517802177398904,
+   "thnkself": -0.3523216540694094,
+   "workhard": -0.10280519070617869,
+   "helpoth": -0.14998849955092042,
+   "popular": -0.04666487341338262,
+   "_n": 16561
+  },
+  "teensex": {
+   "obey": 0.29601105737043887,
+   "thnkself": -0.1378530605790699,
+   "workhard": -0.02679223250546667,
+   "helpoth": -0.05025728376286225,
+   "popular": -0.08110848052304041,
+   "_n": 16284
+  }
+ },
+ "sums": {
+  "premarsx": -1.9637069748057456e-15,
+  "xmarsex": 1.205632815803881e-16,
+  "homosex": -7.7021722333370235e-16,
+  "teensex": -3.712308238590367e-16
+ },
+ "rank": {
+  "premarsx": [
+   "obey",
+   "thnkself",
+   "workhard",
+   "popular",
+   "helpoth"
+  ],
+  "xmarsex": [
+   "obey",
+   "thnkself",
+   "popular",
+   "helpoth",
+   "workhard"
+  ],
+  "homosex": [
+   "obey",
+   "thnkself",
+   "helpoth",
+   "workhard",
+   "popular"
+  ],
+  "teensex": [
+   "obey",
+   "thnkself",
+   "popular",
+   "helpoth",
+   "workhard"
+  ]
+ },
+ "top_obey": 4,
+ "help_top2": 0,
+ "help_bot2": 3,
+ "null95": {
+  "obey": 0.04548486896333276,
+  "thnkself": 0.017609147185815365,
+  "workhard": 0.0350655253378368,
+  "helpoth": 0.03454803212922494,
+  "popular": 0.016170861096480648
+ },
+ "verdict": "**W1:`obey` 在 4/4 题上是五个里最强的,`helpoth` 在 3/4 题上落在后两位 ⇒ MFQ 那个图样在**概率样本**上复现了**"
+}
