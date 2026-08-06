@@ -1,0 +1,13 @@
+{"action":"FRONTIER — 从对象读出作答模式,并更正四条既有条目的措辞",
+ "what_was_claimed":"#536/#539/#540/#567 把 NSFG 的 13 道态度题称作『ACASI 自填』",
+ "how_it_was_read":"从题号前缀 IH- 推的,从未在文件里核对过",
+ "evidence_from_object":[
+  "ACASILANG = 『II-6 Language to be used in ACASI』,列 3543",
+  "IH 段(13 道态度题)列 3527-3539,II 段列 3540-3542 —— 都在 3543 之前",
+  "列 3543 之后是 J 段(JA/JB/JC/...),其中 casibirth·casiloss·casiabor·casiadop 带 casi 前缀 = Computer-Assisted Self-Interview"],
+ "correction":"那 13 道态度题在自访段之前,属访员施测;真正的自填段是其后的 J 段,内容是行为(妊娠/吸烟/饮酒)",
+ "what_survives":"#536 的数(性内 0.425 vs 家内 0.140)是同一份问卷内的比较,不依赖模式 —— 数不变",
+ "what_falls":"『跨作答模式复制』这个框架:GSS 与 NSFG 的态度题都是访员施测 -> 是一种模式,不是两种",
+ "page_edits":{"README.md":4,"README_zh.md":4},
+ "impossible":["未验证 GSS 的施测方式是否全程访员(其自身文档未在本地)","J 段是否全部为 ACASI 未逐题核"],
+ "unchallenged": true}
