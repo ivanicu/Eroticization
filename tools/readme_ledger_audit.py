@@ -57,13 +57,23 @@ if __name__=='__main__':
 #   SAFE SIDE  输出是待读清单,不是判决。
 import re as _re
 
+
+def _expand_entry_runs(t):
+    """#707:`Entry A · B` 里只有第一个数会被 `Entry \\d{1,4}` 捕到 —— 先展开成多个 `Entry N` 再交给原模式。
+    ⚠ 不放宽 token 模式本身(那会把整串当成一个 token),而是展开输入。
+    ⚠ 位数上限同时从 3 提到 4:`Entry 1001` 在 `\\d{1,3}` 下会被截成 `Entry 100`,
+      而 `Entry 1002` 也会 —— 那会制造一次**假碰撞**,并在账本到 #1000 那天静默发生。"""
+    import re as _r
+    return _r.sub(r'Entry \d+(?:\s*·\s*\d+)+',
+                  lambda m:" ".join(f"Entry {n}" for n in _r.findall(r'\d+',m.group(0))), t)
+
 def internal_consistency(readme='README.md'):
     lines=(ROOT/readme).read_text().splitlines()
     def nums(s): return set(_re.findall(r'(?<![\w.])\d+\.\d{2,4}(?![\w])',s))
     def has_cjk(s): return bool(_re.search(r'[\u4e00-\u9fff]',s))
     cites={}
     for i,l in enumerate(lines,1):
-        for c in set(_re.findall(r'#\d{1,3}\b|\bA\d{2}\b|Entry \d{1,3}',l)):
+        for c in set(_re.findall(r'#\d{1,4}\b|\bA\d{2}\b|Entry \d{1,4}',_expand_entry_runs(l))):
             cites.setdefault(c,[]).append((i,has_cjk(l),nums(l)))
     out=[]
     for c,rows in sorted(cites.items()):
