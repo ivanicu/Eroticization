@@ -103,6 +103,43 @@ def claims_page_edit_without_anchor(cutoff=600):
 
 
 
+import re as _re_en
+_EFFECT_EN = _re_en.compile(r'\*\*[-+]\d*\.\d{3,4}\*\*')
+_NULLS_EN  = _re_en.compile(r'零\s*(?:的)?\s*95%|打乱[^。\n]{0,20}零|置换零|'
+                            r'自助[^。\n]{0,10}区间|95%\s*(?:自助)?区间|零的种类|null_kind|'
+                            r'经验\s*p|p\s*=\s*\*{0,2}\d')
+_OPTOUT_EN = _re_en.compile(r'本轮不报效应|没有效应|不检验任何声明|无零可报|结构性拿不到零')
+
+def effect_without_null(cutoff=693):
+    """#693/#136:一条带了效应的结论,却没报它自己的零。
+
+    由 `#692` 与 `#693` 连续两轮的失败触发 —— 两轮都想回算旧结论的零,
+    而账本后段 93 条里只有 **14–22%** 报过自己的零 ⇒ **缺的不是分析,是规矩没被机械执行。**
+
+    ⚠ P6 代理账:
+      PROPERTY    一条带了效应的结论,却没报它自己的零
+      PROXY       正文含 `**±0.xxxx**` 而不含任何一种零的表述,且无豁免语
+      IMPLICATION 只有一个方向可靠:**含效应且不含任何零表述 -> 它确实没报零**(可靠)。
+                  反过来不成立:**含零表述并不证明那个零配的是这个效应**
+                  —— `#693` 正是死在「猜配对不是测量」上。
+      SAFE SIDE   只报「没报零」;**从不报「这一条的零配对正确」。**
+
+    ⚠ 「零的表述」至少四种写法(零 95% 分位 / 打乱…的零 / 置换零 / 自助区间),
+      四种都认,否则会把合格条目误判 —— 合入前已在 21 条报过零的条目上全量回测,**零误报**。
+    ⚠ 从 `cutoff` 起阻断;更早的条目**点名列出但不阻断**(与 #600 / #658 同一先例)。
+    返回 (blocking, grandfathered)。
+    """
+    root = pathlib.Path(__file__).resolve().parents[1]
+    led  = (root / "RETRACTIONS.md").read_text()
+    marks=[(int(m.group(1)),m.start()) for m in _re_en.finditer(r'^## Entr(?:y|ies) (\d+)',led,_re_en.M)]
+    blocking,old=[],[]
+    for i,(n,s0) in enumerate(marks):
+        body=led[s0:(marks[i+1][1] if i+1<len(marks) else len(led))]
+        if not _EFFECT_EN.search(body): continue
+        if _NULLS_EN.search(body) or _OPTOUT_EN.search(body): continue
+        (blocking if n>=cutoff else old).append(n)
+    return blocking,old
+
 import re as _re_ci
 INSTRUMENTS = {
     "BKS": r'\bBKS\b|bks_|起始类别|68 个类别',
@@ -163,6 +200,8 @@ RULES = [
     ('claims_without_anchor', '#600 起的条目无锚且无豁免语(阻断)'),
     ('no_anchor_grandfathered(warn)', '#600 之前的同类条目(**只点名,不阻断**)'),
     ('single_instrument', '一个 R 只用了一具仪器且无豁免(#658;R101 起阻断)'),
+    ('effect_without_null', '带了效应却没报自己的零(#693;#693 起阻断)'),
+    ('effect_without_null_grandfathered(warn)', '#693 之前的同类(**只点名,不阻断**)'),
     ('single_instrument_grandfathered(warn)', 'R101 之前的同类(**只点名,不阻断**)'),
 ]
 
@@ -254,6 +293,13 @@ def run_gate(rev=None, quiet=False):
         hits['single_instrument'] = -1
         if not quiet: print(f"  ⚠ cross_instrument 没跑起来:{type(e).__name__}: {e}")
     try:
+        _eb, _eo = effect_without_null()
+        hits['effect_without_null'] = len(_eb)
+        hits['effect_without_null_grandfathered(warn)'] = len(_eo)
+    except Exception as e:
+        hits['effect_without_null'] = -1
+        if not quiet: print(f"  ⚠ effect_without_null 没跑起来：{type(e).__name__}: {e}")
+    try:
         _b, _o = claims_page_edit_without_anchor()
         hits['claims_without_anchor'] = len(_b)
         hits['no_anchor_grandfathered(warn)'] = len(_o)
@@ -264,6 +310,7 @@ def run_gate(rev=None, quiet=False):
     if not quiet:
         print(f"\n{'规则':<24}{'命中':>6}   说明")
         for k,desc in RULES:
+            if k not in hits: hits[k] = -2   # -2 = 规则已登记但未接线(#136:缺键默认 0 会静默放行)
             v = hits.get(k,0)
             mark = 'UNVERIFIED' if v < 0 else ('BLOCK' if v else 'ok')
             print(f"{k:<24}{v:>6}   [{mark}] {desc}")

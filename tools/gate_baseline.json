@@ -1,6 +1,6 @@
 {
- "note": "#658 登记新规则 `single_instrument`(Ivan 定的闭合条件:跨仪器才能闭合)。按 #605 逐格比过:六个旧格一格未变差(0/0/1/4/0/0),新增键以 0 登记。正对照已验证能失败:种入 R101 单仪器被拦、R102 双仪器放行、R103 豁免语放行。",
- "frozen_at": "E03·A18·R101(#658)",
+ "note": "#693/#136 登记新规则 `effect_without_null`(每条结论必须带自己的零)。旧七格一格未变差(0/0/1/4/0/0/0),新键以 0 登记;历史 201 条一律 grandfathered 只点名。正对照已在真闸上验证:伪条目 A 被拦、B 放行,账本逐字还原。⚠ 合入过程中抓到两处自己的缺陷:守卫条件被子串满足导致接线整段跳过而脚本报「已合入」;闸对缺失的键默认显示 0,使一条从未接上的规则与「跑过且为 0」无法区分 —— 后者已改为 -2。",
+ "frozen_at": "E03·A27·R136(#694)",
  "prev": {
   "uncited_numbers": 17,
   "frozen_at": "E03·A262·R645",
@@ -32,7 +32,8 @@
   "internal_consistency": 4,
   "dangling_anchors": 0,
   "claims_without_anchor": 0,
-  "single_instrument": 0
+  "single_instrument": 0,
+  "effect_without_null": 0
  },
  "prev_before_658": {
   "note": "#658 接入 single_instrument 之前的基线",
@@ -43,6 +44,18 @@
    "internal_consistency": 4,
    "dangling_anchors": 0,
    "claims_without_anchor": 0
+  }
+ },
+ "prev_before_693": {
+  "note": "#693/#136 接入 effect_without_null 之前的基线",
+  "counts": {
+   "named_defects": 0,
+   "numbers_that_left": 0,
+   "uncited_numbers": 1,
+   "internal_consistency": 4,
+   "dangling_anchors": 0,
+   "claims_without_anchor": 0,
+   "single_instrument": 0
   }
  }
 }

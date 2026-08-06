@@ -1,0 +1,9 @@
+{
+ "plant_bad_blocked": true,
+ "plant_good_passed": true,
+ "n_reported_null": 21,
+ "false_positives": [],
+ "blocking": [],
+ "grandfathered_n": 201,
+ "merge": true
+}
