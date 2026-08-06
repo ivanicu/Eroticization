@@ -50,12 +50,16 @@ def dangling_anchors():
     marks = [(int(m.group(1)), m.start()) for m in re.finditer(r'^## Entry (\d+)', led, re.M)]
     body = {n: led[s:(marks[i+1][1] if i+1 < len(marks) else len(led))]
             for i, (n, s) in enumerate(marks)}
-    pat = re.compile(r'\[#(\d+)「([^」]+)」\]')
+    # #714:原模式只认「」,而英文页有 32 个锚用 ASCII 引号 —— **闸在其中一版上结构性瞎了 20%**。
+    # 放宽前已按 #623 回测:那 32 个锚 missing 0 · collide 1 · ok 31 ⇒ **零误报、零新增阻断**。
+    # ⚠ 所以这不是「修好了一个缺陷」,是**把一句 80% 的话变成 100% 的话** —— 计数不变才是对的。
+    pat = re.compile(r'\[#(\d+)\s*(?:「([^」]+)」|"([^"]+)")\]')
     bad = []
     for f in ("README.md", "README_zh.md"):
         fp = root / f
         if not fp.exists(): continue
-        for e, ph in pat.findall(fp.read_text()):
+        for e, ph_cjk, ph_ascii in pat.findall(fp.read_text()):
+            ph = ph_cjk or ph_ascii          # #714:两种引号都取
             e = int(e); inside = body.get(e, "").count(ph); total = led.count(ph)
             if inside == 0: bad.append((f, e, ph, "missing", total, inside))
             elif total != inside: bad.append((f, e, ph, "collide", total, inside))
