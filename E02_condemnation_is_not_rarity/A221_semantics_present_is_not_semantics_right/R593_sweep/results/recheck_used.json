@@ -1,0 +1,236 @@
+{
+ "rows": [
+  {
+   "var": "samesex",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    8.0,
+    9.0
+   ],
+   "label": "IH-3 Sexual relations between two same-sex a",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "sxok18",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    9.0
+   ],
+   "label": "IH-5 All right for unmarried 18 year olds ha",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "sxok16",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    9.0
+   ],
+   "label": "IH-6 All right for unmarried 16 year olds ha",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "staytog",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    8.0,
+    9.0
+   ],
+   "label": "IH-2 Divorce best solution when cannot work ",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "chunless",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    8.0,
+    9.0
+   ],
+   "label": "IH-6a People can't be really happy unless th",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "chsuppor",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    9.0
+   ],
+   "label": "IH-8 Okay for unmarried woman to have and ra",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "gayadopt",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    8.0,
+    9.0
+   ],
+   "label": "IH-9 Gay adults should have the right to ado",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "okcohab",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    8.0,
+    9.0
+   ],
+   "label": "IH-10 A young couple should not live togethe",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "marrfail",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    9.0
+   ],
+   "label": "IH-16 Marriage has not worked out for most p",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "chcohab",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    8.0,
+    9.0
+   ],
+   "label": "IH-17 OK for cohab couple to have and raise ",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "prvntdiv",
+   "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    9.0
+   ],
+   "label": "IH-18 Living together before marriage may pr",
+   "pattern": "\u4e94\u7ea7"
+  },
+  {
+   "var": "samesexany",
+   "values": [
+    1.0,
+    5.0,
+    7.0
+   ],
+   "label": "Ever Had Sexual Contact with a Female (compu",
+   "pattern": "**1/5 \u7f16\u7801**"
+  },
+  {
+   "var": "oppsexany",
+   "values": [
+    1.0,
+    5.0,
+    7.0
+   ],
+   "label": "Ever Had Vaginal, Oral, or Anal Sex with a M",
+   "pattern": "**1/5 \u7f16\u7801**"
+  },
+  {
+   "var": "hadsex",
+   "values": [
+    1.0,
+    2.0
+   ],
+   "label": "Whether R has ever had sexual intercourse wi",
+   "pattern": "\u5176\u4ed6"
+  },
+  {
+   "var": "evrmarry",
+   "values": [
+    0.0,
+    1.0
+   ],
+   "label": "Whether R was ever married",
+   "pattern": "\u5176\u4ed6"
+  },
+  {
+   "var": "cohever",
+   "values": [
+    1.0,
+    2.0
+   ],
+   "label": "Whether R ever cohabited outside of marriage",
+   "pattern": "\u5176\u4ed6"
+  },
+  {
+   "var": "lifprtnr",
+   "values": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0
+   ],
+   "label": "Number of opposite-sex partners in lifetime ",
+   "pattern": "\u5176\u4ed6"
+  },
+  {
+   "var": "ager",
+   "values": [
+    15.0,
+    16.0,
+    17.0,
+    18.0,
+    19.0,
+    20.0,
+    21.0,
+    22.0
+   ],
+   "label": "R's age at interview (RECODE)",
+   "pattern": "\u5176\u4ed6"
+  }
+ ],
+ "one_five": [
+  "samesexany",
+  "oppsexany"
+ ],
+ "conclusion": "\u65e0\u65b0\u7684\u8bfb\u9519;\u4e24\u4e2a 1/5 \u53d8\u91cf\u6b64\u524d\u5df2\u663e\u5f0f\u6620\u5c04\u5e76\u6709\u57fa\u7840\u7387 assert",
+ "unchallenged": true
+}

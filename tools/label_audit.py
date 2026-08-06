@@ -17,7 +17,11 @@
 """
 import json, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-BINWORD = re.compile(r'\b(yes|no|male|female|ever|whether|has|had|any)\b', re.I)
+# ⚠ 第二版(`#548b`):第一版把 `has|had|any|ever` 当取值词,于是任何题干里含这些词的
+# 五级李克特都被标记 —— GSS 41.8% · NSFG 73.2%,而 `marrfail`(「Marriage has not worked out…」)
+# 是一道五级题,纯假阳性。**触发了预注册,但触发它的仪器不合格。**
+# 收紧:取值词必须出现在**标签开头的二元标记**里,或是**加工标记**。
+BINWORD = re.compile(r'^\s*(whether|ever\b|has\s+r\s+ever|did\s+r\s+ever|r\s+ever)', re.I)
 COMPUTED = re.compile(r'\(\s*(computed|recode|recoded|derived)\s*\)', re.I)
 
 
