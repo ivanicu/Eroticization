@@ -1,0 +1,11 @@
+{"action":"PRODUCTION — 给仪器规格表加第六行(作答模式),并给它一条可检验的最低要求",
+ "row":{"cannot":"这里每一条态度,都是出声说给访员听的",
+  "spec":"对同一批人、同一批态度题问两遍(一遍有人在场,一遍独自),并且在报任何效应之前,先报一件毫无羞耻的事上的对不上率",
+  "closest":"NSFG 把堕胎问了两遍,但只在行为上,从不在态度上",
+  "gap":"同一种双问法用在态度题上"},
+ "minimum_requirement_source":"#569b:活产(不敏感)矛盾率 1.61%,联合 2.8σ = 1.39pp -> 小于此的披露差不可见",
+ "why_this_row_was_missing":"#559 的五条规格全部关于「问什么/问几次/问谁/谁编码」,没有一条关于「在什么情境下问」",
+ "anchor_repair":{"was":"[#563「五件工具早就存在」]","now":"[#563「这道闸从来就是 BLOCKED」]",
+   "why":"#566f 的盆地清单引用了 #563 的标题,把那个锚撞成 collide —— #565c 同一形状"},
+ "gate_after":{"named_defects":0,"uncited_numbers":11,"internal_consistency":3,"dangling_anchors":0},
+ "unchallenged": true}
