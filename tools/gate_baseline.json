@@ -1,6 +1,6 @@
 {
- "note": "#623 修:#622 把 dangling 0->2 冻进了基线(与 #605 同型的拧松),页面锚短语与账本标题不一致 —— 已对齐,基线恢复到 dangling=0。",
- "frozen_at": "E02·A12·R658(修)",
+ "note": "#658 登记新规则 `single_instrument`(Ivan 定的闭合条件:跨仪器才能闭合)。按 #605 逐格比过:六个旧格一格未变差(0/0/1/4/0/0),新增键以 0 登记。正对照已验证能失败:种入 R101 单仪器被拦、R102 双仪器放行、R103 豁免语放行。",
+ "frozen_at": "E03·A18·R101(#658)",
  "prev": {
   "uncited_numbers": 17,
   "frozen_at": "E03·A262·R645",
@@ -31,6 +31,18 @@
   "uncited_numbers": 1,
   "internal_consistency": 4,
   "dangling_anchors": 0,
-  "claims_without_anchor": 0
+  "claims_without_anchor": 0,
+  "single_instrument": 0
+ },
+ "prev_before_658": {
+  "note": "#658 接入 single_instrument 之前的基线",
+  "counts": {
+   "named_defects": 0,
+   "numbers_that_left": 0,
+   "uncited_numbers": 1,
+   "internal_consistency": 4,
+   "dangling_anchors": 0,
+   "claims_without_anchor": 0
+  }
  }
 }

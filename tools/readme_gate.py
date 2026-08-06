@@ -102,6 +102,57 @@ def claims_page_edit_without_anchor(cutoff=600):
     return blocking, old
 
 
+
+import re as _re_ci
+INSTRUMENTS = {
+    "BKS": r'\bBKS\b|bks_|起始类别|68 个类别',
+    "GSS": r'\bGSS\b|gss7224|premarsx|xmarsex|homosex|polabuse|spanking',
+    "SCCS": r'\bSCCS\b|dplace|barry1977|broude19|lang1998|ross1983',
+    "NSFG": r'\bNSFG\b|FemResp|samesex|staytog|chsuppor',
+    "YRBS": r'\bYRBS\b|sadc_',
+    "BRFSS": r'\bBRFSS\b|LLCP',
+    "MFQ": r'\bMFQ\b|GrahamHaidtNosek|decency|chastity|harmlessdg',
+    "MSSCQ": r'\bMSSCQ\b|Open ?Psychometrics|openpsych',
+}
+CROSS_OPTOUT = _re_ci.compile(r'换不了仪器|没有第二具仪器|结构性(地)?拿不到|唯一(一)?具仪器|'
+                          r'第二具仪器.{0,8}(不存在|没有)|只此一具')
+
+def cross_instrument(cutoff=101):
+    """#658 —— Ivan 定的闭合条件:**一个 R 不闭合,直到同一个问题在 >=2 具仪器上被问过**,
+    或明确记下「换不了仪器」。
+
+    由 Ivan 2026-08-06 的两句话触发:「多个 run 才能够算一个 round，现在太膨胀了」+
+    「你为什么一定要再分小 R 呢?你就把它堆在那个文件夹里面不行吗?」
+    `#657` 量出:压缩不可能来自换一个计数对象(我每轮恰好各产一个脚本/条目/锚/段落),
+    **只能来自一条单个 run 结构上无法满足的闭合条件** —— 这就是那条。
+
+    ⚠ **从 `R{cutoff}` 起阻断;更早的只点名不阻断**(`#605`:不许把更差的计数冻进基线)。
+
+    ⚠ P6 代理账:
+      PROPERTY    这一轮的声明只在一具仪器上问过
+      PROXY       文件夹内所有文本里出现的**仪器名/特征列名**的去重数 < 2,且无豁免语
+      IMPLICATION 只有一个方向可靠:**命中 <2 且无豁免 -> 它确实只用了一具仪器**(可靠)。
+                 反过来不成立:**出现两个仪器名不证明那个问题在两具上被问过**
+                 —— 提一句「GSS 也有」就会命中。**闸只报「没有」,从不报「这一轮跨得对」。**
+      SAFE SIDE   只报单仪器;从不认证跨仪器。
+    返回 (blocking, grandfathered)。
+    """
+    root = pathlib.Path(__file__).resolve().parents[1]
+    blocking, old = [], []
+    for d in sorted(root.glob("E0*/A*_*/R*_*")):
+        m = _re_ci.match(r'R(\d+)', d.name)
+        if not m: continue
+        n = int(m.group(1))
+        txt = ""
+        for f in list(d.glob("*.py")) + list(d.glob("*.md")) + list(d.glob("notes/*.md")):
+            try: txt += f.read_text(errors="replace")[:60000]
+            except Exception: pass
+        if not txt: continue
+        hits = {k for k, pat in INSTRUMENTS.items() if _re_ci.search(pat, txt)}
+        if len(hits) >= 2 or CROSS_OPTOUT.search(txt): continue
+        (blocking if n >= cutoff else old).append((n, d.name[:40], sorted(hits)))
+    return blocking, old
+
 RULES = [
     ('named_defects',   '账本点名过的缺陷仍原样活着(#170)'),
     ('numbers_that_left','有数量离开了这一页(#171)'),
@@ -111,6 +162,8 @@ RULES = [
     ('anchor_collide(warn)', '短语锚在条目外也出现(#572;**只警告,不阻断**)'),
     ('claims_without_anchor', '#600 起的条目无锚且无豁免语(阻断)'),
     ('no_anchor_grandfathered(warn)', '#600 之前的同类条目(**只点名,不阻断**)'),
+    ('single_instrument', '一个 R 只用了一具仪器且无豁免(#658;R101 起阻断)'),
+    ('single_instrument_grandfathered(warn)', 'R101 之前的同类(**只点名,不阻断**)'),
 ]
 
 def rule_coverage():
@@ -193,6 +246,13 @@ def run_gate(rev=None, quiet=False):
     except Exception as e:
         hits['dangling_anchors'] = -1
         if not quiet: print(f"  ⚠ dangling_anchors 没跑起来：{type(e).__name__}: {e}")
+    try:
+        _b, _o = cross_instrument()
+        hits['single_instrument'] = len(_b)
+        hits['single_instrument_grandfathered(warn)'] = len(_o)
+    except Exception as e:
+        hits['single_instrument'] = -1
+        if not quiet: print(f"  ⚠ cross_instrument 没跑起来:{type(e).__name__}: {e}")
     try:
         _b, _o = claims_page_edit_without_anchor()
         hits['claims_without_anchor'] = len(_b)
