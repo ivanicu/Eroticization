@@ -1,0 +1,514 @@
+{
+ "summary": {
+  "\u76f8\u90bb\u5e74": {
+   "same": NaN,
+   "cross": NaN,
+   "ratio": NaN,
+   "placebo_q95": NaN,
+   "k_same": 0,
+   "k_cross": 0
+  },
+  "\u22656 \u5e74": {
+   "same": 0.810215735361908,
+   "cross": 0.3535309222619166,
+   "ratio": 0.4363417134869654,
+   "placebo_q95": 0.46439156340696575,
+   "k_same": 4,
+   "k_cross": 6
+  },
+  "\u226512 \u5e74": {
+   "same": 0.8916810395886998,
+   "cross": 0.4637316272464273,
+   "ratio": 0.5200644699816988,
+   "placebo_q95": 0.524518007680343,
+   "k_same": 4,
+   "k_cross": 6
+  },
+  "\u226518 \u5e74": {
+   "same": 0.897525012533716,
+   "cross": 0.6798655718169901,
+   "ratio": 0.7574892758673404,
+   "placebo_q95": 0.5655574215830649,
+   "k_same": 4,
+   "k_cross": 6
+  }
+ },
+ "rows": [
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "same_item",
+   "pair": "homosex(\u7537\u00d7\u5973)",
+   "rho": 0.9073478331119766,
+   "n_windows": 27,
+   "inclusion": [
+    "27 \u4e2a\u7a97\u53e3",
+    "\u22656 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "same_item",
+   "pair": "premarsx(\u7537\u00d7\u5973)",
+   "rho": 0.5808001065220701,
+   "n_windows": 27,
+   "inclusion": [
+    "27 \u4e2a\u7a97\u53e3",
+    "\u22656 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "same_item",
+   "pair": "xmarsex(\u7537\u00d7\u5973)",
+   "rho": 0.7130836376118395,
+   "n_windows": 27,
+   "inclusion": [
+    "27 \u4e2a\u7a97\u53e3",
+    "\u22656 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "same_item",
+   "pair": "teensex(\u7537\u00d7\u5973)",
+   "rho": 0.9283044887235641,
+   "n_windows": 19,
+   "inclusion": [
+    "19 \u4e2a\u7a97\u53e3",
+    "\u22656 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7premarsx",
+   "rho": 0.24257770724759228,
+   "n_windows": 22,
+   "rho_both": [
+    0.2817363210205061,
+    0.20341909347467846
+   ],
+   "inclusion": [
+    "\u22656 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7xmarsex",
+   "rho": 0.2872374283993264,
+   "n_windows": 27,
+   "rho_both": [
+    0.33446606660448225,
+    0.24000879019417065
+   ],
+   "inclusion": [
+    "\u22656 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7teensex",
+   "rho": 0.03831852477550258,
+   "n_windows": 18,
+   "rho_both": [
+    0.11771976253819393,
+    -0.04108271298718877
+   ],
+   "inclusion": [
+    "\u22656 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "cross_item",
+   "pair": "premarsx\u00d7xmarsex",
+   "rho": 0.41982441612450677,
+   "n_windows": 22,
+   "rho_both": [
+    0.40122489477620066,
+    0.4384239374728129
+   ],
+   "inclusion": [
+    "\u22656 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "cross_item",
+   "pair": "premarsx\u00d7teensex",
+   "rho": 0.5099479843829193,
+   "n_windows": 19,
+   "rho_both": [
+    0.43170410459831665,
+    0.5881918641675219
+   ],
+   "inclusion": [
+    "\u22656 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u22656 \u5e74",
+   "kind": "cross_item",
+   "pair": "xmarsex\u00d7teensex",
+   "rho": 0.7193838550829912,
+   "n_windows": 18,
+   "rho_both": [
+    0.7403025555211699,
+    0.6984651546448126
+   ],
+   "inclusion": [
+    "\u22656 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "same_item",
+   "pair": "homosex(\u7537\u00d7\u5973)",
+   "rho": 0.9491916363309394,
+   "n_windows": 24,
+   "inclusion": [
+    "24 \u4e2a\u7a97\u53e3",
+    "\u226512 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "same_item",
+   "pair": "premarsx(\u7537\u00d7\u5973)",
+   "rho": 0.7598659023276993,
+   "n_windows": 24,
+   "inclusion": [
+    "24 \u4e2a\u7a97\u53e3",
+    "\u226512 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "same_item",
+   "pair": "xmarsex(\u7537\u00d7\u5973)",
+   "rho": 0.8424105752787435,
+   "n_windows": 24,
+   "inclusion": [
+    "24 \u4e2a\u7a97\u53e3",
+    "\u226512 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "same_item",
+   "pair": "teensex(\u7537\u00d7\u5973)",
+   "rho": 0.940951503898656,
+   "n_windows": 16,
+   "inclusion": [
+    "16 \u4e2a\u7a97\u53e3",
+    "\u226512 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7premarsx",
+   "rho": 0.12880220051226204,
+   "n_windows": 19,
+   "rho_both": [
+    0.2434933673148171,
+    0.014111033709706998
+   ],
+   "inclusion": [
+    "\u226512 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7xmarsex",
+   "rho": 0.5149329837182328,
+   "n_windows": 24,
+   "rho_both": [
+    0.5376017822464788,
+    0.4922641851899867
+   ],
+   "inclusion": [
+    "\u226512 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7teensex",
+   "rho": 0.31819786024925506,
+   "n_windows": 15,
+   "rho_both": [
+    0.40402964192818086,
+    0.23236607857032926
+   ],
+   "inclusion": [
+    "\u226512 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "cross_item",
+   "pair": "premarsx\u00d7xmarsex",
+   "rho": 0.4125302707746218,
+   "n_windows": 19,
+   "rho_both": [
+    0.22003949456905397,
+    0.6050210469801897
+   ],
+   "inclusion": [
+    "\u226512 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "cross_item",
+   "pair": "premarsx\u00d7teensex",
+   "rho": 0.7237209779623854,
+   "n_windows": 16,
+   "rho_both": [
+    0.666106355839888,
+    0.7813356000848828
+   ],
+   "inclusion": [
+    "\u226512 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226512 \u5e74",
+   "kind": "cross_item",
+   "pair": "xmarsex\u00d7teensex",
+   "rho": 0.8116495167176796,
+   "n_windows": 15,
+   "rho_both": [
+    0.8763100253632434,
+    0.7469890080721157
+   ],
+   "inclusion": [
+    "\u226512 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "same_item",
+   "pair": "homosex(\u7537\u00d7\u5973)",
+   "rho": 0.9346970362846462,
+   "n_windows": 21,
+   "inclusion": [
+    "21 \u4e2a\u7a97\u53e3",
+    "\u226518 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "same_item",
+   "pair": "premarsx(\u7537\u00d7\u5973)",
+   "rho": 0.8280744119707328,
+   "n_windows": 21,
+   "inclusion": [
+    "21 \u4e2a\u7a97\u53e3",
+    "\u226518 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "same_item",
+   "pair": "xmarsex(\u7537\u00d7\u5973)",
+   "rho": 0.8603529887827859,
+   "n_windows": 21,
+   "inclusion": [
+    "21 \u4e2a\u7a97\u53e3",
+    "\u226518 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "same_item",
+   "pair": "teensex(\u7537\u00d7\u5973)",
+   "rho": 0.9631079125381199,
+   "n_windows": 13,
+   "inclusion": [
+    "13 \u4e2a\u7a97\u53e3",
+    "\u226518 \u5e74",
+    "\u7a97\u53e3\u91cd\u53e0,\u975e\u72ec\u7acb"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7premarsx",
+   "rho": 0.4639284407434362,
+   "n_windows": 16,
+   "rho_both": [
+    0.5246251938395916,
+    0.40323168764728085
+   ],
+   "inclusion": [
+    "\u226518 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7xmarsex",
+   "rho": 0.6747291379685488,
+   "n_windows": 21,
+   "rho_both": [
+    0.7207847683578265,
+    0.6286735075792712
+   ],
+   "inclusion": [
+    "\u226518 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "cross_item",
+   "pair": "homosex\u00d7teensex",
+   "rho": 0.33476608588402335,
+   "n_windows": 12,
+   "rho_both": [
+    0.5811788457478221,
+    0.08835332602022457
+   ],
+   "inclusion": [
+    "\u226518 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "cross_item",
+   "pair": "premarsx\u00d7xmarsex",
+   "rho": 0.6850020056654316,
+   "n_windows": 16,
+   "rho_both": [
+    0.6418966533911494,
+    0.7281073579397137
+   ],
+   "inclusion": [
+    "\u226518 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "cross_item",
+   "pair": "premarsx\u00d7teensex",
+   "rho": 0.8314789831187683,
+   "n_windows": 13,
+   "rho_both": [
+    0.7858182064638988,
+    0.877139759773638
+   ],
+   "inclusion": [
+    "\u226518 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  },
+  {
+   "lag": "\u226518 \u5e74",
+   "kind": "cross_item",
+   "pair": "xmarsex\u00d7teensex",
+   "rho": 0.8522648222947803,
+   "n_windows": 12,
+   "rho_both": [
+    0.913014877809041,
+    0.7915147667805196
+   ],
+   "inclusion": [
+    "\u226518 \u5e74",
+    "A\u7537\u00d7B\u5973 \u4e0e A\u5973\u00d7B\u7537 \u5bf9\u79f0\u5316",
+    "\u53d7\u8bbf\u8005\u4e92\u4e0d\u76f8\u4ea4",
+    "\u7a97\u53e3\u91cd\u53e0"
+   ]
+  }
+ ],
+ "world": "W-CLIMATE",
+ "verdict": "['\u226512 \u5e74', '\u226518 \u5e74'] \u4e0a\u8de8\u9898\u8d8a\u8fc7\u540c\u9898\u4e0a\u9650\u7684\u4e00\u534a -> **`532e` \u964d\u7ea7**",
+ "ratios": [
+  NaN,
+  0.4363417134869654,
+  0.5200644699816988,
+  0.7574892758673404
+ ],
+ "judgeable_lags": [
+  "\u22656 \u5e74",
+  "\u226512 \u5e74",
+  "\u226518 \u5e74"
+ ],
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "instrument": "GSS 1972-2024,\u7537/\u5973\u5b50\u6837\u672c\u4e92\u4e0d\u76f8\u4ea4",
+ "impossible": [
+  "\u6ed1\u52a8\u7a97\u53e3\u91cd\u53e0,\u6709\u6548\u6837\u672c\u8fdc\u5c0f\u4e8e\u7a97\u53e3\u6570",
+  "\u4e00\u56fd\u4e00\u4eea\u5668",
+  "\u89c2\u5bdf\u6027\u975e\u56e0\u679c",
+  "\u91cd\u53e0\u62ac\u9ad8\u5b89\u6170\u5242 q95,\u5bf9 W-SAFE \u4e0d\u4fdd\u5b88"
+ ],
+ "unchallenged": true
+}
