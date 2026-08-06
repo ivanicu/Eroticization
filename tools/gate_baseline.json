@@ -1,6 +1,6 @@
 {
- "note": "#619 重冻(账本写完之后,#605c)。uncited 15->1 是偿还;internal_consistency 3->4 是我自己的编辑造成的退化命中,如实登记不掩盖。",
- "frozen_at": "E02·A12·R655",
+ "note": "#622 重冻(账本写完之后,#605c)。",
+ "frozen_at": "E02·A12·R658",
  "prev": {
   "uncited_numbers": 17,
   "frozen_at": "E03·A262·R645",
@@ -19,8 +19,8 @@
   "before": {
    "named_defects": 0,
    "numbers_that_left": 0,
-   "uncited_numbers": 15,
-   "internal_consistency": 3,
+   "uncited_numbers": 1,
+   "internal_consistency": 4,
    "dangling_anchors": 0,
    "claims_without_anchor": 0
   }
@@ -30,7 +30,7 @@
   "numbers_that_left": 0,
   "uncited_numbers": 1,
   "internal_consistency": 4,
-  "dangling_anchors": 0,
+  "dangling_anchors": 2,
   "claims_without_anchor": 0
  }
 }

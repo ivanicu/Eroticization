@@ -1,0 +1,43 @@
+{
+ "rows129": [
+  {
+   "line": 156,
+   "cjk": true,
+   "nums": 31,
+   "claim": "**Two orthogonal person-level dimensions, each pointing at something different**"
+  },
+  {
+   "line": 165,
+   "cjk": false,
+   "nums": 8,
+   "claim": "**The rarer a person's eventual taste, the larger that head start**"
+  }
+ ],
+ "same_claim": false,
+ "categories": {
+  "嵌了中文短语锚的英文行": 37,
+  "其他(少量中文)": 2
+ },
+ "n_cjk_lines": 39,
+ "positive": 0.43478260869565216,
+ "g0": 0.0,
+ "spec": [
+  {
+   "th": 0.3,
+   "full_cjk": 0,
+   "embedded": 39
+  },
+  {
+   "th": 0.5,
+   "full_cjk": 0,
+   "embedded": 39
+  },
+  {
+   "th": 0.7,
+   "full_cjk": 0,
+   "embedded": 39
+  }
+ ],
+ "verdict": "W-B:**两侧不是两种语言 —— `#129` 也是行并集伪影,四格的真不一致数改为 0**",
+ "unchallenged": true
+}
