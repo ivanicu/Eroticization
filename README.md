@@ -119,9 +119,9 @@ still carried it.**
 | **The halo explains *who gets hit*; it does not explain *which technique is used*** | across techniques **\|ρ\| median +0.3241**; the halo null's 95th percentile is **0.1684** (median 0.1300) | the same halo null swallows +0.8679 whole on the *target* dimension (null median 0.8558); ⚠ the signed median is **−0.0720**, so this is a pattern with both signs, not "everything high"; ⚠ all five blocks share one coder, so halo and real structure are inseparable here (Entry 697 · 698) 〔SCCS〕 ⟨1.92⟩|
 | ⛔ ~~Changing who is hit barely changes how hard a society hits~~ **demoted to a halo** | observed **+0.8679**; **the halo null's median is +0.8558 with a 95th percentile of 0.8670** | shuffling each society's own four scores among its four targets, preserving that society's overall level, reproduces the number ⇒ **it says "this society received similar marks overall" and nothing about targets** (Entry 640 · 696 · 697) 〔SCCS〕 ⟨—⟩|
 | Changing the method removes three quarters | **+0.229** [+0.132, +0.293] | the halo world could have won and lost (Entry 642) ° 〔SCCS〕 ⟨—⟩|
-| Hitting children and hitting wives are not one act | upper bound **+0.440** | cross-team; coarsening φ +0.248 (Entry 641) ° 〔SCCS〕 ⟨—⟩|
+| Hitting children and hitting wives are not one act | upper bound **+0.440** | cross-team; coarsening φ +0.248 (Entry 641) °⃠ 〔SCCS〕 ⟨—⟩|
 | A society that hits more also lectures more; permissiveness travels with affection | +0.344 / +0.389 | PC1 only 0.429 ⇒ two dimensions (Entry 642) ° 〔SCCS〕 ⟨—⟩|
-| Example-setting takes no side | +0.045 against four methods · **+0.922 internally** | gap survives range-matching at +0.242 (Entry 643) ° 〔SCCS〕 ⟨—⟩|
+| Example-setting takes no side | +0.045 against four methods · **+0.922 internally** | gap survives range-matching at +0.242 (Entry 643) °⃠ 〔SCCS〕 ⟨—⟩|
 | A change of reader leaves the same number | cross-team **+0.630** (n=60) | cross-team median only 0.105 (Entry 639 · 528) ° 〔SCCS〕 ⟨—⟩|
 
 **Person side** (GSS · NSFG · MFQ)
@@ -146,6 +146,8 @@ still carried it.**
 | "Sex is one block" on two instruments | GSS **0.416** · NSFG **0.346** | different wordings/populations/years (Entry 653) ° 〔GSS·MFQ·NSFG〕 ⟨—⟩|
 | Her judgements about sex and about the unmarried family are equally tight | **1.10×** (0.468 vs 0.426) | half-sample selection, bias −0.002 (Entry 650) ° 〔MFQ·NSFG〕 ⟨—⟩|
 | And the family seven are not a domain | largest sub-block **4/7** | 4 at all four thresholds (Entry 650) ° 〔MFQ·NSFG〕 ⟨—⟩|
+
+**°⃠** = **supplying a null would show nothing**: at that n the null is already about as wide as the recorded value ⇒ **structurally uncheckable, which does not mean the claim is wrong** (Entry 710 / `#710`).
 
 **°** = **null not paired**: that claim's null is not in its round's script output (no `results/*.json`, or a JSON without a null) ⇒ **whether the null belongs to that effect cannot be checked**. Across the page, **7 of 24 = 29%** are pairable (Entry 695).
 

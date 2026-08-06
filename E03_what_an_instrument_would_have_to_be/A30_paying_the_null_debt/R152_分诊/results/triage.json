@@ -1,0 +1,58 @@
+{
+ "B": 300,
+ "resolution": 0.0033222591362126247,
+ "triage": {
+  "#642": {
+   "n": 97,
+   "ledger": 0.2288,
+   "null_q95": 0.0829,
+   "ratio": 2.76,
+   "verdict": "queue"
+  },
+  "#639": {
+   "n": 69,
+   "ledger": 0.63,
+   "null_q95": 0.2597,
+   "ratio": 2.43,
+   "verdict": "queue"
+  },
+  "#643": {
+   "n": 119,
+   "ledger": 0.14,
+   "null_q95": 0.1058,
+   "ratio": 1.32,
+   "verdict": "no_resolution",
+   "caveat": "0.14 是我自己填的,行内无粗体数值 ⇒ 裁决较弱"
+  },
+  "#641": {
+   "n": 63,
+   "ledger": 0.44,
+   "null_q95": 0.3446,
+   "ratio": 1.28,
+   "verdict": "no_resolution",
+   "caveat": "账本声明本是上界,拿上界除零是错配 ⇒ 更应读作『框架不适用』"
+  }
+ },
+ "null_in_prose_only": [
+  "#677"
+ ],
+ "needs_real_rerun": [
+  "#642",
+  "#641",
+  "#643",
+  "#639",
+  "#676",
+  "#653",
+  "#648",
+  "#650"
+ ],
+ "already_demoted_rows": 3,
+ "not_estimated_large_n": [
+  "#676",
+  "#653",
+  "#648",
+  "#650"
+ ],
+ "threshold_1_5": "凭直觉选的,非从零量出;越过零的门槛是 1.0(#691 同族缺陷)",
+ "unchallenged": true
+}
