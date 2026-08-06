@@ -35,6 +35,14 @@ def dangling_anchors():
                  匹配**不**证明引对了条目(`#526e`:锚只能证伪)。
       SAFE SIDE  只报「有问题」,从不报「引对了」。
     三值:`missing`(0 次,无处可指)· `collide`(条目外也出现)· ok。
+
+    ⚠ `#572`:**`collide` 降级为警告,不再阻断。** 依据是实测的**精确率**,不是方便:
+      `missing` 抓到过 **2** 次真缺陷(`#546`/`#550` 的锚引了账本里不存在的句子);
+      `collide` 触发 **3** 次,**3 次全部是账本正文合法引用了那条条目的标题**
+      (`#565c` · `#570c` · `#571c`),**真缺陷 0 次 -> 精确率 0/3**。
+      而 `collide` 的根因是结构性的:**引用是一种写入** —— 一条讨论 `#N` 的新条目
+      会把页面上指向 `#N` 的短语锚撞成 collide,**而页面一个字没改**。
+      ⇒ 阻断它等于「写账本会弄坏页面」。**保留计数与打印,取消阻断。**
     """
     import re
     root = pathlib.Path(__file__).resolve().parents[1]
@@ -59,7 +67,8 @@ RULES = [
     ('numbers_that_left','有数量离开了这一页(#171)'),
     ('uncited_numbers', '段落里有不带出处的数(#145)'),
     ('internal_consistency','同一引用标记在两处带不同的数(#144)'),
-    ('dangling_anchors', '短语锚指向的文字不存在或不唯一(#563)'),
+    ('dangling_anchors', '短语锚指向的文字**不存在**(#563;阻断)'),
+    ('anchor_collide(warn)', '短语锚在条目外也出现(#572;**只警告,不阻断**)'),
 ]
 
 def run_gate(rev=None, quiet=False):
@@ -81,11 +90,13 @@ def run_gate(rev=None, quiet=False):
             hits[fn] = -1                      # 规则本身没跑起来:不是 0,是 UNVERIFIED
             if not quiet: print(f"  ⚠ {fn} 没跑起来:{type(e).__name__}: {e}")
     try:
-        hits['dangling_anchors'] = len(dangling_anchors())
+        _d = dangling_anchors()
+        hits['dangling_anchors'] = sum(1 for x in _d if x[3] == 'missing')
+        hits['anchor_collide(warn)'] = sum(1 for x in _d if x[3] == 'collide')
     except Exception as e:
         hits['dangling_anchors'] = -1
         if not quiet: print(f"  ⚠ dangling_anchors 没跑起来：{type(e).__name__}: {e}")
-    blocked = any(v != 0 for v in hits.values())
+    blocked = any(v != 0 for k, v in hits.items() if not k.endswith('(warn)'))
     if not quiet:
         print(f"\n{'规则':<24}{'命中':>6}   说明")
         for k,desc in RULES:

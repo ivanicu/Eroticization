@@ -1,0 +1,11 @@
+{"action":"PRODUCTION — 按实测精确率把 dangling_anchors 劈成阻断与警告两半",
+ "why_not_a_new_key":"轮次 id 也不天然唯一:548 个不同值里 51 个出现 >1 次;#347 与 #348 共用 E01·A127·R392",
+ "measured_precision":{"missing":{"firings":2,"true_defects":2,"cases":["#546 引『路径集合』而账本写的是『解析器集合』","#550『三段里前两段都是无』账本中不存在"]},
+   "collide":{"firings":3,"true_defects":0,"cases":["#565c","#570c","#571c 的 #563/#523 双撞"],
+     "root_cause":"账本正文合法引用了该条目的标题 -> 页面锚被撞坏,而页面一字未改"}},
+ "change":"blocked 只看非 (warn) 键;collide 计数与打印保留",
+ "unit_test":{"全干净":"blocked=False","只有 collide":"blocked=False","只有 missing":"blocked=True"},
+ "live_test":{"未篡改":{"dangling":0},"篡改成不存在的句子":{"dangling":1},"恢复":{"dangling":0}},
+ "impossible":["精确率基数很小(2 与 3),它是一个方向性证据不是一个估计",
+               "降级会漏掉真正的错引 —— 一个引错条目、而该短语恰在两处出现的锚,现在只警告"],
+ "unchallenged": true}
