@@ -1,0 +1,16 @@
+{"action":"PRODUCTION — 扫描第三种作答模式的性态度题,不做研究",
+ "question":"#534/#536 的人层结论,除了 GSS 面访与 NSFG 自填,还有没有第三种作答模式可以复制?",
+ "scanned":[
+  {"source":"YRBS SADC 2023","mode":"校内匿名自填(纸笔/电子)","items_scanned":86,
+   "attitude_items":0,"evidence":"题标签匹配 wrong|should|approve|ok|acceptable|right to -> 0 命中"},
+  {"source":"MSSCQ","mode":"网络自选","items_scanned":100,"attitude_items":0,
+   "evidence":"3 处措辞命中全为自责句(『出了问题该怪我』),不是关于做法对错的判断"},
+  {"source":"BRFSS 2023","mode":"电话访问","attitude_items":"判不了",
+   "evidence":".XPT 不带变量标签(#550b),无码本 -> 不能判断有无"},
+  {"source":"SCCS","mode":"民族志编码(非受访者作答)","attitude_items":"不适用",
+   "evidence":"单位是社会不是人"}],
+ "conclusion":"本地收藏里,人层性态度只有两种作答模式:GSS 面访 · NSFG ACASI 自填",
+ "sharper":"而这两种共享同一次入户 —— NSFG 的 ACASI 发生在面访家访之内,只是答案录入方式不同",
+ "impossible":["BRFSS 无码本 -> 只能说『判不了』,不能说『没有』(#546c 同一纪律)",
+               "标签措辞匹配只能证明有,不能证明没有 —— 一道用别的措辞问态度的题会被漏掉"],
+ "unchallenged": true}
