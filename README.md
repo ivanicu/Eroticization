@@ -219,8 +219,7 @@ being asked.** The NSFG is run by a different agency, on a different sample, wit
 vary. It carries the same pair: *"sexual relations between two same-sex adults is all right"*
 (agree/disagree) and whether the respondent has ever had same-sex contact. Among women in 2017–2019,
 **log-odds = −1.22, 95% CI [−1.41, −1.05]** (n = 5,895), against **−1.42** for the GSS pornography
-pair. Across both waves, both definitions of condemning and both definitions of the behaviour,
-**8 of 8 cells carry the same sign** (range −1.41 to −0.41). ⚠ The topic changed too, so "the same
+pair. Across both waves and both definitions of condemning, **4 of 4 admissible cells carry the same sign** and lie between **−1.22 and −1.41**. ⚠ Four further cells were originally reported alongside them; they use *number of same-sex partners in the last 12 months*, a question the survey asks **only of women who have ever had same-sex contact** — 1,240 of 1,240 of those asked. Those cells are therefore **conditioned on the outcome itself** and are withdrawn from the grid; the weaker end of the old range (−0.41) came entirely from them. ⚠ The topic changed too, so "the same
 size" could be two different topics happening to land nearby; and the weaker cells are the
 *last-12-months* ones, which come from a filtered question (n ≈ 1,260 of 6,141) and may be attenuated
 by that selection rather than by anything real.
