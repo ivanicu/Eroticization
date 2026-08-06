@@ -1,0 +1,177 @@
+{
+ "rows": [
+  {
+   "scale": "性 4 题",
+   "item": "samesex",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『两个同性成年人之间的性关系是可以的』—— 同意即宽容",
+   "inclusion": [
+    "性 4 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "性 4 题",
+   "item": "sxok18",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『未婚 18 岁若有强烈感情可以发生性关系』—— 同意即宽容",
+   "inclusion": [
+    "性 4 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "性 4 题",
+   "item": "sxok16",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『未婚 16 岁…』—— 同意即宽容",
+   "inclusion": [
+    "性 4 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "性 4 题",
+   "item": "gayadopt",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『同性成年人应有收养权』—— 同意即宽容",
+   "inclusion": [
+    "性 4 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "家庭 7 题",
+   "item": "staytog",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『婚姻问题解决不了时离婚是最好的办法』—— 同意即宽容(赞成离婚)",
+   "inclusion": [
+    "家庭 7 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "家庭 7 题",
+   "item": "chunless",
+   "text_pol": -1,
+   "pc1": 1,
+   "norm_text": -1,
+   "norm_pc1": -1,
+   "agree": true,
+   "why": "『没有孩子的人不可能真正幸福』—— 同意即传统/严格",
+   "inclusion": [
+    "家庭 7 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "家庭 7 题",
+   "item": "chsuppor",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『未婚女性生养孩子是可以的』—— 同意即宽容",
+   "inclusion": [
+    "家庭 7 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "家庭 7 题",
+   "item": "okcohab",
+   "text_pol": -1,
+   "pc1": 1,
+   "norm_text": -1,
+   "norm_pc1": -1,
+   "agree": true,
+   "why": "『年轻情侣不结婚就不该同居』—— 同意即严格",
+   "inclusion": [
+    "家庭 7 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "家庭 7 题",
+   "item": "marrfail",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『我认识的大多数人婚姻都不成功』—— 同意即对婚姻不看好,与宽容同侧",
+   "inclusion": [
+    "家庭 7 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "家庭 7 题",
+   "item": "chcohab",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『同居伴侣生养孩子是可以的』—— 同意即宽容",
+   "inclusion": [
+    "家庭 7 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  },
+  {
+   "scale": "家庭 7 题",
+   "item": "prvntdiv",
+   "text_pol": 1,
+   "pc1": -1,
+   "norm_text": 1,
+   "norm_pc1": 1,
+   "agree": true,
+   "why": "『婚前同居也许能防止离婚』—— 同意即赞成同居",
+   "inclusion": [
+    "家庭 7 题",
+    "相对该量表第一题归一",
+    "题干由人工判定"
+   ]
+  }
+ ],
+ "n_disagree": 0,
+ "world": "AGREE",
+ "verdict": "两种方法逐题一致 -> **数据驱动的极性可用**,写进方法说明",
+ "impossible": [
+  "文本极性由我一人判定,未经复核",
+  "marrfail 的归侧是判断不是字面"
+ ],
+ "unchallenged": true
+}
