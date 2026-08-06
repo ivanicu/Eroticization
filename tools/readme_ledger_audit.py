@@ -216,8 +216,18 @@ def numbers_that_left(rev='HEAD~1', files=('README.md','README_zh.md')):
         #   ⚠ 回测(`#620` 硬要求):32 个历史版本,新版漏报旧版 token **0 次**。
         import re as _re2
         _paras=lambda s:[x for x in _re2.split(r'\n\s*\n', s) if x.strip()]
+        # #633:第一版用 `\w+` 找词 —— 它把**一整串不间断的汉字当成一个词**,
+        #   于是两段共享大半汉字的中文算出 `ov = 0.000`(同义英文对是 0.727),
+        #   纯中文段落里阈值 0.50 **永远达不到**。⇒ CJK 取 **2-gram**,非 CJK 仍按词,取并集。
+        #   正对照:那两段中文 0.000 -> **0.593**;g=0:真正无关的两段 **0.037**(2-gram 没有让什么都相似)。
+        #   G4:3-gram 只有 0.423,过不了 0.50 ⇒ 选 2 不选 3。回测 32 个历史版本,token 列丢失 **0**。
+        #   ⚠ 而「它在实践中有没有帮上忙」**没验到** —— 那 32 版里每份页面只有 **3** 行,且本就全部配上。
+        _CJK2=_re2.compile(r'[一-鿿]')
+        def _tok(s):
+            cj=''.join(_CJK2.findall(s))
+            return {cj[i:i+2] for i in range(max(len(cj)-1,0))} | set(_re2.findall(r'[A-Za-z0-9_+\-.]+',s))
         def _ov(a,b):
-            wa,wb=set(_re2.findall(r'\w+',a)),set(_re2.findall(r'\w+',b))
+            wa,wb=_tok(a),_tok(b)
             return len(wa&wb)/max(len(wa),1)
         newcomers=n-o; NP=_paras(new)
         for tk in sorted(o-n):
