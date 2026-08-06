@@ -21,7 +21,18 @@ EXT = ROOT / "data/external"
 LONG = 30            # 「一句话」的最短长度,先于使用写死
 
 
-ITEM = re.compile(r'^\s*(?:\d{1,3}\.|Q\d{1,3}[.\s]|_column\(\d+\))\s*.*?["\s](\S[^"]{%d,})' % LONG)
+# ⚠ 第三次改判据,又是被对象改的,不是被我想到的(`#546b`):
+# 只认 `1.` 与 `Qn` 时,HEXACO(`EFear8 我…`)· SD3(`M1<TAB>我…`)· EQSQ(`E1. 我…`)· MIES
+# 四个包全被判「语义不在」—— 而它们的题目文本都在,只是编号是**字母+数字**码。
+# 抽查 `False` 抓住了它:一个刚改过的判据,它的 False 必须对着对象看一眼。
+# ⚠⚠ 第四次,而这次改的不是正则,是**判据的方向**(`#546c`)。
+# 实测:「没找到条目行」预测「语义不在」错了 **7 次** —— gss(.dta 内嵌)· dplace(csv 定义)·
+# HEXACO/SD3/EQSQ(字母数字编号)· MIES(**JSON** `"Q1" : "…"`)· YRBS(**SAS `label` 块**)。
+# 每一次我都加一条路,而对象每次都拿出第八种编码方式。
+# ⇒ **没有任何有限的路径集合能许可 False。** 按 P6 的安全侧:**只在可靠方向上判决** ——
+# 本工具的词汇里**删掉 False**:只有 `True`(找到了)与 `None`(没找到 = 判不了)。
+# 这条规则我在第一版的 docstring 里就写了,然后连续三版都在发 False。
+ITEM = re.compile(r'^\s*(?:[A-Za-z]{0,8}\d{1,3}[.):\s\t]|_column\(\d+\))\s*.*?["\s\t](\S[^"]{%d,})' % LONG)
 
 
 def long_lines(text, n=LONG):
@@ -97,7 +108,7 @@ def probe(p: pathlib.Path):
             if f.suffix in EMBEDDED:
                 n = embedded_labels(f)
                 if n and n >= 5: return True, True, f"{len(data)} 数据文件 · 旁挂码本无编号条目,但 {f.name} 内嵌 {n} 个标签"
-        return True, False, f"{len(data)} 数据文件 · 码本 {len(txts)} 个 · 0 条编号条目 · 无 csv 定义 · 无内嵌标签({where})"
+        return True, None, f"{len(data)} 数据文件 · 码本 {len(txts)} 个 · 0 条编号条目 · 无 csv 定义 · 无内嵌标签({where})"
     if p.suffix == ".zip":
         try:
             with zipfile.ZipFile(p) as z:
@@ -125,14 +136,20 @@ SOURCES = {
     "dataverse/mfq": EXT / "dataverse/mfq", "ngram": EXT / "ngram",
 }
 for z in sorted((EXT / "dataverse").glob("*.zip")): SOURCES[f"dataverse/{z.stem[:22]}"] = z
+# :zip 未解压是「判不了」的唯一来源。解压后的目录优先于 zip 本身。
+for k in list(SOURCES):
+    v = SOURCES[k]
+    if isinstance(v, pathlib.Path) and v.suffix == ".zip":
+        d = v.with_name(v.stem + "_x")
+        if d.is_dir(): SOURCES[k] = d
 
 
 def main():
     # --- 判据的正/负对照,先跑,不过就不输出
     pos = probe(EXT / "openpsych/MSSCQ")
     neg = probe(EXT / "openpsych/RWAS")
-    print(f"判据对照 —— 正:MSSCQ semantics={pos[1]}(必须 True) · 负:RWAS semantics={neg[1]}(必须 False)")
-    if not (pos[1] is True and neg[1] is False):
+    print(f"判据对照 —— 正:MSSCQ semantics={pos[1]}(必须 True) · 负:RWAS semantics={neg[1]}(必须 None —— False 已从词汇中删除)")
+    if not (pos[1] is True and neg[1] is None):
         print("⛔ 判据未通过对照 —— 不输出任何一行(`#P5★`:未经正对照的判定是沉默,不是无罪)")
         sys.exit(2)
     print("✅ 判据通过对照\n")
@@ -144,11 +161,11 @@ def main():
     w = max(len(r["source"]) for r in rows)
     print(f"{'来源'.ljust(w)}  文件在  语义在  证据")
     for r in rows:
-        s = {True: "  是  ", False: "**否**", None: " 判不了"}[r["semantics_present"]]
+        s = {True: "  是  ", False: "**否(不应出现)**", None: " 判不了"}[r["semantics_present"]]
         print(f"{r['source'].ljust(w)}   {'是' if r['file_present'] else '否'}    {s}  {r['evidence']}")
     n_f = sum(1 for r in rows if r["file_present"])
     n_s = sum(1 for r in rows if r["semantics_present"] is True)
-    n_no = sum(1 for r in rows if r["semantics_present"] is False)
+    n_no = sum(1 for r in rows if r["semantics_present"] is False)   # 恒为 0:False 已从词汇中删除
     n_un = sum(1 for r in rows if r["semantics_present"] is None)
     print(f"\n共 {len(rows)} 个来源:文件在 {n_f} · **语义在 {n_s}** · **语义不在 {n_no}** · 判不了 {n_un}")
     out = pathlib.Path(__file__).resolve().parents[1] / \
