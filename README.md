@@ -489,6 +489,23 @@ Every assertion the second half added, with the unit it holds at, the instrument
 
 **What every row shares, and what therefore cannot be fixed by adding rows:** each instrument is missing a different half. No public instrument asks both what people want and what they are ashamed of; the only source that codes both a practice's acceptability and its frequency is coded by one team; the one battery with a matched non-sexual comparison drops eight of its ten items in the following wave; the largest sexual self-concept battery has no non-sexual items at all; and one authoritarianism dataset ships no item texts, so its questions cannot be classified without inventing what they said.
 
+## What an instrument would have to be
+
+The five things this work established it cannot do are not sample-size problems; each is a property of how
+the instrument was built. Written as specifications rather than complaints, they are short:
+
+| What cannot be done | What an instrument would have to do | Closest thing that exists | The gap |
+|---|---|---|---|
+| No public survey asks both what people want and what they are ashamed of | Ask the same people, about the same list of practices, both questions — presented separately, order randomised | The kink survey this project began with: both, but self-selected, once, one community | A sampling frame, and a second wave |
+| The only source coding both a practice's acceptability and its frequency is coded by one team | Two teams who never speak, coding the same ethnographies independently, publishing per-record coder identity and agreement | The Standard Cross-Cultural Sample, 1976 | A second set of coders |
+| No four-point non-sexual moral battery exists beside the sexual one | Sexual and non-sexual moral items sharing one scale length and one answer format, where the non-sexual items are themselves a domain | The NSFG self-administered block: five-point, three sexual and seven family | Keeping all ten in the next wave |
+| The one battery with a matched comparison lost eight of its ten items in the following wave | Keep the same items across waves, or publish which were cut and why | NSFG 2011–13 → 2017–19 | Item stability across waves |
+| Attitudes over decades rest on one source | A second series: same question, fresh sample, fixed interval, twenty years or more, public microdata | The General Social Survey, 1972–2024 | A second series like it |
+
+**Nothing in that table is expensive to describe and every row is expensive to build**, which is the actual
+finding of the second half: the limit on this question is not what has been analysed, it is what was ever
+collected, and by whom, and whether anyone kept asking.
+
 ## Tools: six edges
 
 | tool | what it checks |
