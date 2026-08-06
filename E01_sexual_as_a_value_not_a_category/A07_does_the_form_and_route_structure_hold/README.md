@@ -1,0 +1,115 @@
+# `E01·A07` — does the form and route structure hold
+
+**这个弧让哪个决定变安全**:does the form and route structure hold。
+**它由 63 个 R 组成**,`R315_shared_measurement_error` → `R377_solidify_onset`。
+
+⚠ 这是一张**目录**,不是第二份结果账。每条发现、它的区间、它的适用范围,只住在顶层 `README.md` 里。
+
+## 它由哪些旧弧合并而来(41 个)
+- `A80_are_the_six_columns_independent`
+- `A81_can_a_naive_rival_win`
+- `A82_is_form_one_thing`
+- `A83_does_the_nameless_thing_reach_shame`
+- `A84_profile_is_not_identity`
+- `A85_reopen_250`
+- `A86_two_instruments_one_trace`
+- `A87_bring_the_table_current`
+- `A88_is_the_structure_the_same_for_everyone`
+- `A89_where_is_the_non_invariance`
+- `A90_split_the_oldest_claim`
+- `A91_item_level_or_quantity_level`
+- `A92_how_is_S_different`
+- `A93_how_uncommon_or_how_many`
+- `A94_is_it_the_outcome_side`
+- `A95_shame_stigma_or_deviation`
+- `A96_can_the_page_be_cited`
+- `A97_is_the_headline_optimistic`
+- `A98_which_claims_need_the_correction`
+- `A99_is_c3_an_axis_or_a_rotation`
+- `A100_does_the_threshold_move_published`
+- `A101_sign_alignment_audit`
+- `A102_do_the_two_routes_add_or_multiply`
+- `A103_same_kind_of_shame`
+- `A104_can_upbringing_buffer`
+- `A105_null_criteria_guard`
+- `A106_null_claims_on_the_page`
+- `A107_does_anything_amplify`
+- `A108_why_does_form_miss_shame`
+- `A109_is_disattenuation_an_observation`
+- `A110_how_big_is_this_failure_mode`
+- `A111_intervals_for_disattenuated`
+- `A112_what_kind_of_unverified`
+- `A113_clear_one_from_the_backlog`
+- `A114_is_form_counterfactuality`
+- `A115_form_and_sex`
+- `A116_is_a_dimension_one_block`
+- `A117_what_does_c3_look_like`
+- `A118_is_the_line_non_content`
+- `A119_does_shame_wear_off`
+- `A120_onset_and_shame`
+每个旧弧自己的 README 原样保存在 `_arcs/`,一个字没删(L81:标注,不重写)。
+
+## 轮次
+- `R315_shared_measurement_error`
+- `R316_decide_the_caliber`
+- `R317_caliber_list_and_table_note`
+- `R318_close_the_deferred_production`
+- `R319_atypicality_versus_six_coordinates`
+- `R320_naive_rival_across_all_outcomes`
+- `R321_three_form_outcomes_residual_correlation`
+- `R322_can_the_nameless_thing_be_held`
+- `R323_form_and_shame`
+- `R324_what_does_form_point_at`
+- `R325_guard_15_and_the_scan`
+- `R326_is_rate_really_not_a_dimension`
+- `R327_the_remaining_tenth_and_age`
+- `R328_rate_residual_and_form`
+- `R329_add_form_and_refresh`
+- `R330_measurement_invariance_by_sex`
+- `R331_invariance_at_the_joint_level`
+- `R332_put_non_invariance_on_the_page`
+- `R333_gender_referential_split`
+- `R334_leave_one_out_which_coordinate`
+- `R335_shame_by_group`
+- `R336_where_does_S_drift`
+- `R337_removal_curve`
+- `R338_loadings_or_rarity_itself`
+- `R339_within_group_ruler`
+- `R340_rarity_or_count`
+- `R341_response_style_partial`
+- `R342_bootstrap_noise_floor`
+- `R343_global_vs_local_rarity`
+- `R344_most_divergent_options`
+- `R345_grid_width_audit`
+- `R346_estimator_knob`
+- `R347_nested_cv`
+- `R348_nested_correlations`
+- `R349_eigenvector_reproducibility`
+- `R350_repro_vs_n`
+- `R351_admission_threshold`
+- `R352_retro_scan`
+- `R353_quadrants`
+- `R354_two_profiles`
+- `R355_dose_response_and_mde`
+- `R356_joint_buffer_test`
+- `R357_guard21`
+- `R358_retro_apply`
+- `R359_joint_amplify_test`
+- `R360_split_half_replication`
+- `R361_three_worlds`
+- `R362_reliability_sweep`
+- `R363_bias_grid`
+- `R364_retraction_risk`
+- `R365_bootstrap_intervals`
+- `R366_r_true_interval`
+- `R367_classify`
+- `R368_resolve_forward`
+- `R369_counterfactual_embodiment`
+- `R370_solidify`
+- `R371_leave_one_block`
+- `R372_block_loadings`
+- `R373_structural_regression`
+- `R374_c3_without_prevalence`
+- `R375_all_three_stripped`
+- `R376_years_carried`
+- `R377_solidify_onset`

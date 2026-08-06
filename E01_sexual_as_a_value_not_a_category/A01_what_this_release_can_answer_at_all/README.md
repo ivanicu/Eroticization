@@ -1,0 +1,114 @@
+# `E01·A01` — what this release can answer at all
+
+**这个弧让哪个决定变安全**:what this release can answer at all。
+**它由 98 个 R 组成**,`R001_schema` → `R098_is_breadth_content`。
+
+⚠ 这是一张**目录**,不是第二份结果账。每条发现、它的区间、它的适用范围,只住在顶层 `README.md` 里。
+
+## 它由哪些旧弧合并而来(5 个)
+- `A01_can_this_release_answer_the_question`
+- `A02_what_basis_should_the_ontology_be_written_in`
+- `A03_is_acquisition_the_same_system_as_valuation`
+- `A04_what_may_never_be_used_as_a_measure`
+- `A05_is_breadth_a_nuisance_or_the_object`
+每个旧弧自己的 README 原样保存在 `_arcs/`,一个字没删(L81:标注,不重写)。
+
+## 轮次
+- `R001_schema`
+- `R002_column_kinds`
+- `R003_explode_multiselects`
+- `R004_gated_tree`
+- `R005_reliability_ceilings`
+- `R006_option_census`
+- `R007_residual_spectrum`
+- `R008_pc1_transfer`
+- `R009_cv_cca_and_rarity`
+- `R010_joint_factorisation`
+- `R011_why_the_null_tied`
+- `R012_leave_one_block_out`
+- `R013_attack_the_foundation`
+- `R014_erotic_covariates`
+- `R015_do_factors_reach_excluded_blocks`
+- `R016_relationality_predicts_onset`
+- `R017_different_framing_same_question`
+- `R018_the_item_margin`
+- `R019_item_margin_done_properly`
+- `R020_one_structure_or_two`
+- `R021_within_block_vs_cross_domain`
+- `R022_accumulation_curve`
+- `R023_are_blocks_interchangeable`
+- `R024_blocks_or_total_sample`
+- `R025_agent_patient_axis`
+- `R026_named_axis_prediction`
+- `R027_role_variance`
+- `R028_placebo_contrast`
+- `R029_dimensionality`
+- `R030_svd_naming_failed`
+- `R031_gcca`
+- `R032_attack_each_coordinate`
+- `R033_three_role_axes`
+- `R034_disattenuation`
+- `R035_additivity`
+- `R036_source_or_orientation`
+- `R037_which_pairs_transfer`
+- `R038_coordinate_count_specification_curve`
+- `R039_does_the_count_saturate`
+- `R040_discriminant_validity`
+- `R041_whitened_discriminant`
+- `R042_why_the_gate_failed`
+- `R043_power_substance_ladder`
+- `R044_additivity_variance_decomposition`
+- `R045_source_asymmetry_uncentred`
+- `R046_feasibility_or_role`
+- `R047_does_substance_reach_outside`
+- `R048_does_power_reach_outside`
+- `R049_the_last_survivor`
+- `R050_onset_census`
+- `R051_acquired_vs_liked`
+- `R052_intensity_leakage`
+- `R053_onset_beyond_preference`
+- `R054_unit_vs_tempo`
+- `R055_binning_null`
+- `R056_shared_schedule`
+- `R057_the_unit_is_the_category`
+- `R058_synthetic_rival_world`
+- `R059_schedule_specification_curve`
+- `R060_rival_world_full_categories`
+- `R061_coord_with_a_validated_measure`
+- `R062_onset_rsa_framing_swap`
+- `R063_schedule_as_a_ranking_task`
+- `R064_schedule_or_rarity`
+- `R065_rarity_or_censoring`
+- `R066_is_the_order_individual`
+- `R067_group_level_orderings`
+- `R068_the_tie_bias`
+- `R069_individual_order_with_a_stronger_instrument`
+- `R070_the_cap_audit_rerun`
+- `R071_reprice_the_capped_headlines`
+- `R072_modality_invariance`
+- `R073_deficit_reference_class`
+- `R074_coverage_confound`
+- `R075_matched_modality`
+- `R076_induction_timing`
+- `R077_timing_mde`
+- `R078_single_interest_power`
+- `R079_off_manifold`
+- `R080_manifold_mde`
+- `R081_matching_removed_it`
+- `R082_breadth_or_attribution`
+- `R083_does_matching_correct_or_just_subsample`
+- `R084_breadth_has_no_shape`
+- `R085_acquiescence_attack`
+- `R086_out_of_sample_concentration`
+- `R087_nestedness`
+- `R088_correlate_scan`
+- `R089_non_sexual_variables`
+- `R090_specification_grid`
+- `R091_theta_or_coordinates`
+- `R092_escalating_match`
+- `R093_reliability_ceiling`
+- `R094_the_control_was_the_thing`
+- `R095_concentration_k_sweep`
+- `R096_nestedness_synthetic_controls`
+- `R097_shrink_the_person_effect`
+- `R098_is_breadth_content`
