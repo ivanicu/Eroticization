@@ -108,3 +108,56 @@ def median_of_group_medians(M,groups):
     ⚠ **两者不是同一个数**(`#721` 实测:0.5645 对 0.5856)。名字里带着口径就是为了不再比错。
     """
     return float(np.median([pooled_median(M,g) for g in groups]))
+
+
+# ============================================================================
+# #759 · 符号方向 —— 方向未知时 raise,不默认
+# ============================================================================
+# ⚠ 动机:符号这一族已经六次(`#718`·`#720`·`#734`·`#751`·`#756`·`#758`)。
+#   而 `#755` 刚证明「为语义缺陷造仪器」会失败,所以**先分类,只造能造的那半**:
+#     机械的(可机读):`#718`/`#720`/`#734`(合成时忘了反向题)· `#751`(两套电池方向相反)
+#                      —— **方向就写在值标签里**;
+#     语义的(不可机读):`#756`(恒等式管的是哪个统计量)—— 只能靠约定,不在此处。
+#
+# ⚠ P6 代理账:
+#   PROPERTY   这一列的高值代表的是我以为的那一端
+#   PROXY      该列**最后一个**值标签里出现的词
+#   IMPLICATION 只有一个方向可靠:**词表匹配不上 -> 我确实不知道方向**(可靠,于是 raise)。
+#              匹配上**不**证明我用对了 —— 只证明标签里有那个词。**从不认证方向正确。**
+#   SAFE SIDE  不确定就 **raise**,绝不猜一个默认值。
+
+_POLES = {
+    # 高值端的词 -> 这一端叫什么
+    "permissive": ("not wrong at all", "not wrong", "not at all wrong", "never wrong"),
+    "strict":     ("seriously wrong", "always wrong", "very wrong"),
+    "unimportant":("least important", "not at all important", "not important"),
+    "important":  ("most important", "very important", "extremely important"),
+    "agree":      ("strongly agree", "agree strongly"),
+    "disagree":   ("strongly disagree", "disagree strongly"),
+}
+
+def label_pole(categories):
+    """给定按码序排列的值标签,回答**高值那一端叫什么**。认不出就 raise。"""
+    if not categories: raise ValueError("没有值标签 —— 方向不可知,不许默认")
+    hi = str(categories[-1]).strip().lower()
+    for pole, words in _POLES.items():
+        if any(w in hi for w in words): return pole
+    raise ValueError(f"最高码的标签 {categories[-1]!r} 不在词表里 —— **方向未知,去看值标签,不要猜**")
+
+def aligned(categories_by_col, high_means):
+    """检查每一列的高值端是否都是 `high_means`;返回需要取负的列名集合。
+
+    `categories_by_col`: {列名: 按码序排列的值标签}
+    `high_means`: 期望的高值端(`_POLES` 的键之一)
+
+    ⚠ 它**不改数据**,只回答「哪几列要翻」—— 翻不翻由调用者写出来,
+      因为 `#734` 的教训是**我忘了翻**,不是我翻错了方向。
+    ⚠ 任何一列认不出方向就 raise,**整个调用失败**,而不是跳过那一列。
+    """
+    if high_means not in _POLES:
+        raise ValueError(f"high_means={high_means!r} 不是已知的极点:{sorted(_POLES)}")
+    flip = set()
+    for col, cats in categories_by_col.items():
+        pole = label_pole(cats)          # 认不出就在这里 raise
+        if pole != high_means: flip.add(col)
+    return flip
