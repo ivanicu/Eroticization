@@ -1,0 +1,30 @@
+{
+ "gaps": {
+  "S1 \u4e25\u683c\u6309\u6807\u9898": 0.672094011295947,
+  "S2 \u5fc3\u7406\u5e76\u5165\u7269\u8d28": -0.09219653017393328,
+  "S3 \u5254\u9664\u4ea4\u901a": 0.7595242127486348
+ },
+ "range": 0.851720742922568,
+ "threshold": 0.05,
+ "sensitive": true,
+ "range_boot_median": 0.7544176240264673,
+ "range_boot_ci": [
+  0.33699001801140155,
+  1.3578987058403997
+ ],
+ "yes1": [
+  "q26",
+  "q27",
+  "q56"
+ ],
+ "n_years": 17,
+ "verdict": "\u6781\u5dee 0.8517 \u2265 0.05 -> **\u9886\u57df\u5212\u5206\u654f\u611f,`#557` \u7684\u7ed3\u8bba\u5fc5\u987b\u5e26\u4e0a\u8fd9\u6761**",
+ "action_type": "CLOSURE",
+ "impossible": [
+  "CLOSURE \u4e0d\u5206\u79bb\u4e16\u754c",
+  "\u9752\u5c11\u5e74",
+  "\u6821\u5185\u62bd\u6837",
+  "\u672a\u52a0\u6743"
+ ],
+ "unchallenged": true
+}
