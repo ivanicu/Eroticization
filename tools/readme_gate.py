@@ -235,7 +235,7 @@ RULES = [
     ('named_defects',   '账本点名过的缺陷仍原样活着(#170)'),
     ('numbers_that_left','有数量离开了这一页(#171)'),
     ('uncited_numbers', '段落里有不带出处的数(#145)'),
-    ('internal_consistency','同一引用标记在两处带不同的数(#144)'),
+    ('internal_consistency(warn)','同一引用标记在两处带不同的数(#144;**#733 起只警告,不阻断**)'),
     ('dangling_anchors', '短语锚指向的文字**不存在**(#563;阻断)'),
     ('anchor_collide(warn)', '短语锚在条目外也出现(#572;**只警告,不阻断**)'),
     ('claims_without_anchor', '#600 起的条目无锚且无豁免语(阻断)'),
@@ -306,8 +306,16 @@ def run_gate(rev=None, quiet=False):
                 if not quiet: print(f"  ⚠ {fn}({pg}) 没跑起来:{type(e).__name__}: {e}")
             per[pg] = n
             tot = -1 if (tot == -1 or n == -1) else tot + n
-        hits[fn] = tot
-        hits[f'{fn}:zh(warn)'] = per['README_zh.md']   # 分版可见,但只由总数阻断
+        # `#733`:`internal_consistency` 降级为**只警告**。依据是实测精确率,不是方便 ——
+        #   它的 PROXY 抽的是**整行的所有数字**(实测单行 26 / 74 / 110 / 229 个),
+        #   而它的 PROPERTY 是「**这条引用**带的数字」。**代理的单位是「行」,属性的单位是「引用」**,
+        #   所以「表行是摘要、叙述是细节」必然触发它,而页面一个字没错。
+        #   回测:`#623` 当年展示的 4 条全是同型伪影;`#733` 当场逐条查现有 6 条,**同样 6/6 伪影**
+        #   —— **合计精确率 0/10,一次真缺陷都没抓到**(判据:真缺陷 = 同一个量在两处互相矛盾)。
+        #   ⚠ **计数照印、分版照印,只是不再阻断** —— 与 `#572` 对 `anchor_collide` 的处理同型。
+        key = f'{fn}(warn)' if fn == 'internal_consistency' else fn
+        hits[key] = tot
+        hits[f'{fn}:zh(warn)'] = per['README_zh.md']   # 分版可见
     # `#603`:上面这个总数**数的是段落实例,不是主张**。同一条主张在两版上各缺一次出处,
     #   就被数两次 —— 于是 `#602c` 把「同一批债被数了两遍」写成了「中文页上另有八笔债」。
     #   ⚠ 它**只进 warn 位**:棘轮仍用实例数(两版各要修一次,修一版不算修完)。
