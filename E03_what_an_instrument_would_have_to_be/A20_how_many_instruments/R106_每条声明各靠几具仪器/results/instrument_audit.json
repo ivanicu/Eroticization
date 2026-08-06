@@ -1,0 +1,138 @@
+{
+ "claims": [
+  {
+   "id": "换对象 +0.845",
+   "inst": [
+    "SCCS·barry1977"
+   ],
+   "round": "#640",
+   "second": "EA / WNAI 的体罚变量",
+   "checked": "EA 无 punish/disciplin/corporal 变量;WNAI 429 变量里只有 WNAI343「政治组织与罪的惩罚」(不是育儿)",
+   "verdict": "做不到",
+   "falsifier": "若任一跨文化库出现「按对象分列的儿童体罚」且 n≥60,此条即被推翻"
+  },
+  {
+   "id": "换手段 +0.229",
+   "inst": [
+    "SCCS·barry1977"
+   ],
+   "round": "#642",
+   "second": "同上",
+   "checked": "同上",
+   "verdict": "做不到",
+   "falsifier": "若任一跨文化库出现「≥3 种管教手段各自编码」且 n≥60,此条即被推翻"
+  },
+  {
+   "id": "打孩子≠打妻子 ≤+0.44",
+   "inst": [
+    "SCCS·barry1977",
+    "SCCS·broude1983"
+   ],
+   "round": "#641",
+   "second": "—",
+   "checked": "已跨编码团队(Barry 1977 × Broude 1983),同一库内",
+   "verdict": "**单库跨团队**",
+   "falsifier": "若另一库同时有两侧,可升为跨库"
+  },
+  {
+   "id": "打得多也讲得多 +0.344",
+   "inst": [
+    "SCCS·barry1977"
+   ],
+   "round": "#642",
+   "second": "同上",
+   "checked": "同上",
+   "verdict": "做不到",
+   "falsifier": "同「换手段」"
+  },
+  {
+   "id": "以身作则不站队",
+   "inst": [
+    "SCCS·barry1977"
+   ],
+   "round": "#643",
+   "second": "GSS/NSFG/YRBS/BRFSS/OpenPsych",
+   "checked": "`#645` 实测:五个仪器变量标签里 0 命中(正对照 6/6 通过)",
+   "verdict": "做不到",
+   "falsifier": "若任一调查出现「榜样/模仿学习」题且 n≥300,此条即被推翻"
+  },
+  {
+   "id": "跨团队复现 +0.630",
+   "inst": [
+    "SCCS·barry1977",
+    "SCCS·lang1998"
+   ],
+   "round": "#639",
+   "second": "—",
+   "checked": "已跨编码团队",
+   "verdict": "**单库跨团队**",
+   "falsifier": "同上"
+  },
+  {
+   "id": "越稀有越被谴责(婚前性)",
+   "inst": [
+    "SCCS·broude1976"
+   ],
+   "round": "#528",
+   "second": "**EA078**",
+   "checked": "**EA078「女孩婚前性行为的规范」n = 1291(有值 598),码按谴责强度有序,Murdock 另一编码项目;EA∩SCCS = 186**",
+   "verdict": "**⛔ 待做,不是做不到**",
+   "falsifier": "—(候选已找到,故此条必须改判)"
+  },
+  {
+   "id": "没有「严厉的社会」+0.125",
+   "inst": [
+    "SCCS·broude1976"
+   ],
+   "round": "#529 #530",
+   "second": "EA",
+   "checked": "EA 只有 EA078 一道性道德题,**跨做法耦合需要 ≥2 道** -> EA 不合用",
+   "verdict": "做不到",
+   "falsifier": "若任一跨文化库出现 ≥2 道不同性实践的道德判断且共同 n≥60,此条即被推翻"
+  },
+  {
+   "id": "只有纯洁是团 0.335",
+   "inst": [
+    "MFQ"
+   ],
+   "round": "#653",
+   "second": "无",
+   "checked": "本地无第二份带五基础结构的量表(GSS/NSFG/YRBS/BRFSS 均无道德基础问卷)",
+   "verdict": "做不到",
+   "falsifier": "若出现第二份含 MFQ 五域或等价结构的数据且 n≥1000,此条即被推翻"
+  },
+  {
+   "id": "「性是一块」",
+   "inst": [
+    "GSS",
+    "NSFG"
+   ],
+   "round": "#653",
+   "second": "—",
+   "checked": "已跨仪器",
+   "verdict": "**已跨仪器 ✅**",
+   "falsifier": "—"
+  },
+  {
+   "id": "性与「没结婚算不算一个家」一样紧 1.10×",
+   "inst": [
+    "NSFG"
+   ],
+   "round": "#650",
+   "second": "GSS",
+   "checked": "GSS 无匹配的同居态度题组(需 ≥3 道同格式)",
+   "verdict": "做不到",
+   "falsifier": "若 GSS 或他处出现 ≥3 道同格式同居态度题且 n≥1000,此条即被推翻"
+  }
+ ],
+ "single": 8,
+ "total": 11,
+ "reclassified": [
+  "越稀有越被谴责(婚前性)"
+ ],
+ "ea078": {
+  "title": "Norms of premarital sexual behavior of girls",
+  "n": 1291
+ },
+ "ea_has_punish": []
+}
