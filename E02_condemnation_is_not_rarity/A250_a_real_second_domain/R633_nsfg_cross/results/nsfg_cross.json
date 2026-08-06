@@ -1,0 +1,46 @@
+{
+ "nsfg": {
+  "\u4e94\u7ea7": {
+   "sex": 0.4032302313181312,
+   "fam": 0.1400658586552498,
+   "cross": 0.23193573211058316,
+   "ratio": 1.6559048317510172,
+   "inclusion": [
+    "\u4e94\u7ea7",
+    "\u6bcf\u5bf9 n>=200",
+    "\u540c\u4e00\u6279 5,600 \u540d\u5973\u6027"
+   ]
+  },
+  "\u4e8c\u503c(S-A)": {
+   "sex": 0.31296859887778544,
+   "fam": 0.07718628903935702,
+   "cross": 0.0873267001077842,
+   "ratio": 1.1313758077325964,
+   "inclusion": [
+    "\u4e8c\u503c(S-A)",
+    "\u6bcf\u5bf9 n>=200",
+    "\u540c\u4e00\u6279 5,600 \u540d\u5973\u6027"
+   ]
+  }
+ },
+ "gss": {
+  "sex": 0.3586,
+  "fam": 0.122,
+  "cross": 0.1919,
+  "ratio": 1.5729508196721311
+ },
+ "world": "ORDER-HOLDS",
+ "verdict": "\u4e24\u4e2a\u53e3\u5f84\u4e0b\u8de8/\u5bb6\u5185\u90fd >1(\u4e94\u7ea7 1.66 \u00b7 \u4e8c\u503c 1.13)-> **\u300c\u6027\u662f\u6838\u300d\u8de8\u4e24\u4efd\u4eea\u5668\u6210\u7acb,\u800c\u4e14\u8fd9\u6b21\u7684\u7b2c\u4e8c\u7ec4\u662f\u4e00\u4e2a\u771f\u6b63\u7684\u9886\u57df**",
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "impossible": [
+  "NSFG \u5bb6\u5ead\u9898\u4e0e\u6027\u9898\u540c\u5c5e\u5a5a\u59fb/\u751f\u80b2\u5927\u7c7b,\u8de8\u66f4\u8fd1\u662f\u90e8\u5206\u9884\u671f",
+  "\u4ec5\u5973\u6027",
+  "\u5355\u4e00\u6ce2",
+  "\u6a2a\u65ad\u9762"
+ ],
+ "unchallenged": true
+}
