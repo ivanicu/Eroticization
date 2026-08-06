@@ -1,0 +1,108 @@
+{
+ "rows": [
+  {
+   "round": "#489c R534",
+   "file": "nsfg_acasi_replication.json",
+   "n_cells": 8,
+   "cells": [
+    [
+     "ever",
+     5895
+    ],
+    [
+     "yr",
+     1229
+    ],
+    [
+     "ever",
+     5895
+    ],
+    [
+     "yr",
+     1229
+    ],
+    [
+     "ever",
+     5423
+    ],
+    [
+     "yr",
+     982
+    ],
+    [
+     "ever",
+     5423
+    ],
+    [
+     "yr",
+     982
+    ]
+   ]
+  },
+  {
+   "round": "#492c R537",
+   "file": "topic_family_rule_v3.json",
+   "n_cells": 6,
+   "cells": [
+    [
+     "UNSEEN staytog\u00d7divorced",
+     2439
+    ],
+    [
+     "UNSEEN sxok18\u00d7sex\u226416",
+     4769
+    ],
+    [
+     "UNSEEN sxok16\u00d7sex\u226416",
+     4783
+    ],
+    [
+     "SEEN samesex\u00d7eversame",
+     5423
+    ],
+    [
+     "SEEN okcohab\u00d7cohab",
+     5560
+    ],
+    [
+     "SEEN chsuppor\u00d7bow",
+     3116
+    ]
+   ]
+  },
+  {
+   "round": "#494a R539",
+   "file": "is_the_pooled_null_an_average.json",
+   "n_cells": 0,
+   "cells": []
+  },
+  {
+   "round": "#501a R546",
+   "file": "domain_split.json",
+   "n_cells": 0,
+   "cells": []
+  },
+  {
+   "round": "#487d R532",
+   "file": "randomised_wording_arms.json",
+   "n_cells": 0,
+   "cells": []
+  }
+ ],
+ "flagged": [
+  [
+   "#489c R534",
+   "yr",
+   1229
+  ],
+  [
+   "#489c R534",
+   "yr",
+   1229
+  ]
+ ],
+ "pc": false,
+ "nc": true,
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u8fc7(pc=False nc=True)",
+ "unchallenged": true
+}
