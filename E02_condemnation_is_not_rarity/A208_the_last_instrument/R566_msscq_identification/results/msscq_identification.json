@@ -1,0 +1,20 @@
+{
+  "instrument": "Open Psychometrics · Multidimensional Sexual Self-Concept Questionnaire (MSSCQ)",
+  "n": 17685, "items": 100, "extra_cols": ["age", "gender"], "scale": "1-5 characteristic of me",
+  "preference_items": 0,
+  "shame_adjacent_items": 9,
+  "shame_examples": ["1 anxious about the sexual aspects of my life",
+                     "17 afraid of becoming sexually involved", "19 depressed about the sexual aspects",
+                     "21 worry about the sexual aspects", "9/29 would be to blame"],
+  "verdict": "有结局侧(羞耻近邻)、零预测侧(偏好) -> 「位置→羞耻」在 MSSCQ 上同样不可复现",
+  "cross_instrument_table": {
+    "BKS": {"preference": true, "shame": true},
+    "GSS": {"preference": false, "shame": false},
+    "NSFG": {"preference": false, "shame": false, "note": "3091 变量里仅一道避孕套尴尬题"},
+    "SCCS": {"preference": false, "shame": false, "note": "社会层"},
+    "MSSCQ": {"preference": false, "shame": true, "note": "0/100 偏好题,9/100 羞耻近邻"}
+  },
+  "inclusion": ["MSSCQ codebook 全部 100 题", "偏好正则:aroused by|turn on|I like/enjoy/prefer/attracted/fantasize|fetish|kink",
+                "羞耻正则:anxious|worry|depress|ashamed|embarrass|guilt|afraid|blame"],
+  "unchallenged": true
+}
