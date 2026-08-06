@@ -1,0 +1,366 @@
+{
+ "orient": {
+  "premarsx": [
+   true,
+   "Sex before marriage — 1 = always wrong(严厉)"
+  ],
+  "xmarsex": [
+   true,
+   "Sex with person other than spouse — 1 = always wrong(严厉)"
+  ],
+  "homosex": [
+   true,
+   "Homosexual sex relations — 1 = always wrong(严厉)"
+  ],
+  "teensex": [
+   true,
+   "Sex before marriage: teens 14-16 — 1 = always wrong(严厉)"
+  ],
+  "pornlaw": [
+   true,
+   "Feelings about pornography laws — 1 = illegal to all(严厉)"
+  ],
+  "sexeduc": [
+   false,
+   "Sex education in public schools — 1 = favour(宽容)"
+  ],
+  "cappun": [
+   true,
+   "Death penalty for murder — 1 = favour(严厉)"
+  ],
+  "gunlaw": [
+   true,
+   "Gun permits — 1 = favour permits(限制,保守侧)"
+  ],
+  "letdie1": [
+   false,
+   "Allow incurable patients to die — 1 = yes(宽容)"
+  ],
+  "suicide1": [
+   false,
+   "Suicide if incurable disease — 1 = yes(宽容)"
+  ],
+  "suicide4": [
+   false,
+   "Suicide if tired of living — 1 = yes(宽容)"
+  ],
+  "spanking": [
+   true,
+   "Favor spanking to discipline child — 1 = strongly agree(严厉)"
+  ],
+  "polhitok": [
+   true,
+   "Ever approve of police striking citizen — 1 = yes(许可暴力,严厉侧)"
+  ],
+  "obey": [
+   true,
+   "To obey — 1 = most important(服从,保守侧)"
+  ],
+  "fefam": [
+   true,
+   "Better for man to work, woman tend home — 1 = strongly agree(保守)"
+  ],
+  "natcrime": [
+   true,
+   "Halting rising crime rate — 1 = too little spending(强硬,保守侧)"
+  ],
+  "helppoor": [
+   false,
+   "Govt improve standard of living — 1 = govt should(宽容侧)"
+  ],
+  "abany": [
+   false,
+   "Abortion if woman wants for any reason — 1 = yes(宽容)"
+  ],
+  "abnomore": [
+   false,
+   "Married, wants no more children — 1 = yes(宽容)"
+  ]
+ },
+ "cells": [
+  {
+   "item": "premarsx",
+   "year": 2022,
+   "raw": 0.003751483016712298,
+   "oriented": 0.003751483016712298,
+   "grp": "性"
+  },
+  {
+   "item": "premarsx",
+   "year": 2024,
+   "raw": 0.06329763738166017,
+   "oriented": 0.06329763738166017,
+   "grp": "性"
+  },
+  {
+   "item": "xmarsex",
+   "year": 2022,
+   "raw": 0.10993802520128548,
+   "oriented": 0.10993802520128548,
+   "grp": "性"
+  },
+  {
+   "item": "xmarsex",
+   "year": 2024,
+   "raw": 0.18602600493131538,
+   "oriented": 0.18602600493131538,
+   "grp": "性"
+  },
+  {
+   "item": "homosex",
+   "year": 2022,
+   "raw": 0.08372362289055493,
+   "oriented": 0.08372362289055493,
+   "grp": "性"
+  },
+  {
+   "item": "homosex",
+   "year": 2024,
+   "raw": 0.14983765146950528,
+   "oriented": 0.14983765146950528,
+   "grp": "性"
+  },
+  {
+   "item": "teensex",
+   "year": 2022,
+   "raw": 0.11871341175436861,
+   "oriented": 0.11871341175436861,
+   "grp": "性"
+  },
+  {
+   "item": "teensex",
+   "year": 2024,
+   "raw": 0.1778925876608966,
+   "oriented": 0.1778925876608966,
+   "grp": "性"
+  },
+  {
+   "item": "pornlaw",
+   "year": 2022,
+   "raw": 0.0353903883539039,
+   "oriented": 0.0353903883539039,
+   "grp": "性"
+  },
+  {
+   "item": "pornlaw",
+   "year": 2024,
+   "raw": 0.04328666844227208,
+   "oriented": 0.04328666844227208,
+   "grp": "性"
+  },
+  {
+   "item": "sexeduc",
+   "year": 2022,
+   "raw": 0.020679607770475172,
+   "oriented": -0.020679607770475172,
+   "grp": "性"
+  },
+  {
+   "item": "sexeduc",
+   "year": 2024,
+   "raw": 0.00811893271982489,
+   "oriented": -0.00811893271982489,
+   "grp": "性"
+  },
+  {
+   "item": "cappun",
+   "year": 2022,
+   "raw": 0.018385696906177862,
+   "oriented": 0.018385696906177862,
+   "grp": "非性"
+  },
+  {
+   "item": "cappun",
+   "year": 2024,
+   "raw": -0.011512729061616045,
+   "oriented": -0.011512729061616045,
+   "grp": "非性"
+  },
+  {
+   "item": "gunlaw",
+   "year": 2022,
+   "raw": -0.001162642041506734,
+   "oriented": -0.001162642041506734,
+   "grp": "非性"
+  },
+  {
+   "item": "gunlaw",
+   "year": 2024,
+   "raw": -0.03869149718206333,
+   "oriented": -0.03869149718206333,
+   "grp": "非性"
+  },
+  {
+   "item": "letdie1",
+   "year": 2022,
+   "raw": -0.03690909090909089,
+   "oriented": 0.03690909090909089,
+   "grp": "非性"
+  },
+  {
+   "item": "letdie1",
+   "year": 2024,
+   "raw": -0.07035301911792546,
+   "oriented": 0.07035301911792546,
+   "grp": "非性"
+  },
+  {
+   "item": "suicide1",
+   "year": 2022,
+   "raw": -0.0828534424940448,
+   "oriented": 0.0828534424940448,
+   "grp": "非性"
+  },
+  {
+   "item": "suicide1",
+   "year": 2024,
+   "raw": -0.1353190840470685,
+   "oriented": 0.1353190840470685,
+   "grp": "非性"
+  },
+  {
+   "item": "suicide4",
+   "year": 2022,
+   "raw": -0.036280176810608605,
+   "oriented": 0.036280176810608605,
+   "grp": "非性"
+  },
+  {
+   "item": "suicide4",
+   "year": 2024,
+   "raw": -0.08129629923383194,
+   "oriented": 0.08129629923383194,
+   "grp": "非性"
+  },
+  {
+   "item": "spanking",
+   "year": 2022,
+   "raw": 0.03867660764212488,
+   "oriented": 0.03867660764212488,
+   "grp": "非性"
+  },
+  {
+   "item": "spanking",
+   "year": 2024,
+   "raw": 0.08177716971451823,
+   "oriented": 0.08177716971451823,
+   "grp": "非性"
+  },
+  {
+   "item": "polhitok",
+   "year": 2022,
+   "raw": -0.025753897610184984,
+   "oriented": -0.025753897610184984,
+   "grp": "非性"
+  },
+  {
+   "item": "polhitok",
+   "year": 2024,
+   "raw": -0.13647342995169076,
+   "oriented": -0.13647342995169076,
+   "grp": "非性"
+  },
+  {
+   "item": "obey",
+   "year": 2022,
+   "raw": 0.06146366807689453,
+   "oriented": 0.06146366807689453,
+   "grp": "非性"
+  },
+  {
+   "item": "obey",
+   "year": 2024,
+   "raw": 0.10005124445741373,
+   "oriented": 0.10005124445741373,
+   "grp": "非性"
+  },
+  {
+   "item": "fefam",
+   "year": 2022,
+   "raw": -0.003210380048363229,
+   "oriented": -0.003210380048363229,
+   "grp": "非性"
+  },
+  {
+   "item": "fefam",
+   "year": 2024,
+   "raw": 0.0038090148193775097,
+   "oriented": 0.0038090148193775097,
+   "grp": "非性"
+  },
+  {
+   "item": "natcrime",
+   "year": 2022,
+   "raw": 0.010045217368568116,
+   "oriented": 0.010045217368568116,
+   "grp": "非性"
+  },
+  {
+   "item": "natcrime",
+   "year": 2024,
+   "raw": 0.01273205818532508,
+   "oriented": 0.01273205818532508,
+   "grp": "非性"
+  },
+  {
+   "item": "helppoor",
+   "year": 2022,
+   "raw": -0.05523348208042511,
+   "oriented": 0.05523348208042511,
+   "grp": "非性"
+  },
+  {
+   "item": "helppoor",
+   "year": 2024,
+   "raw": -0.0009358105421592988,
+   "oriented": 0.0009358105421592988,
+   "grp": "非性"
+  },
+  {
+   "item": "abany",
+   "year": 2022,
+   "raw": -0.060317205411151154,
+   "oriented": 0.060317205411151154,
+   "grp": "堕胎"
+  },
+  {
+   "item": "abany",
+   "year": 2024,
+   "raw": -0.09937225537006789,
+   "oriented": 0.09937225537006789,
+   "grp": "堕胎"
+  },
+  {
+   "item": "abnomore",
+   "year": 2022,
+   "raw": -0.06291829801256954,
+   "oriented": 0.06291829801256954,
+   "grp": "堕胎"
+  },
+  {
+   "item": "abnomore",
+   "year": 2024,
+   "raw": -0.0717981856343517,
+   "oriented": 0.0717981856343517,
+   "grp": "堕胎"
+  }
+ ],
+ "agree_sex": 0.8333333333333334,
+ "agree_nonsex": 0.7272727272727273,
+ "agree_abortion": 1.0,
+ "null_median": 0.75,
+ "null_ci": [
+  0.5833333333333334,
+  0.9166666666666666
+ ],
+ "main": 0.08333333333333337,
+ "p_emp": 0.234,
+ "placebo": 0.10606060606060608,
+ "xmarsex": [
+  0.10993802520128548,
+  0.18602600493131538
+ ],
+ "flip_main": 0.08333333333333337,
+ "verdict": "UNVERIFIED —— 控制未齐(正 True · 负 False)",
+ "unchallenged": true
+}
