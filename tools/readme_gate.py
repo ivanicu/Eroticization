@@ -113,6 +113,39 @@ RULES = [
     ('no_anchor_grandfathered(warn)', '#600 之前的同类条目(**只点名,不阻断**)'),
 ]
 
+def rule_coverage():
+    """#626 —— 每条规则**实际读了哪几版页面**,量出来,不是声明出来。
+
+    本次会话「计数取决于看哪一版」同型三次(`#607b` · `#622` · `#625d`)⇒ 变成规则的一个属性。
+    做法:运行期间替换 `pathlib.Path.read_text`,记录它实际打开的 `README*.md`。
+    ⚠ **探针只看得见经过 `read_text` 的读取**;实测同时拦 `open` 覆盖数**一条都没变**。
+    ⛔ **而「读了两版」不等于「在两版上都有效」** —— `#622` 已实测 `internal_consistency`
+       读了中文页,却在它上面**结构性开不了火**(按 CJK 分侧,中文页只有一侧)。
+       **这个属性是必要条件,不是充分条件。** 它回答「看了哪一版」,不回答「在哪一版上管用」。
+    """
+    import builtins, pathlib as _pl
+    _rt = _pl.Path.read_text
+    out = {}
+    def run(name, fn):
+        seen = set()
+        def probe(self_, *a, **k):
+            n = _pl.Path(self_).name
+            if n.startswith("README") and n.endswith(".md"): seen.add(n)
+            return _rt(self_, *a, **k)
+        _pl.Path.read_text = probe
+        try: fn()
+        except Exception: pass
+        finally: _pl.Path.read_text = _rt
+        out[name] = sorted(seen)
+    P = ('README.md', 'README_zh.md')
+    run('named_defects',        lambda: A.named_defects())
+    run('numbers_that_left',    lambda: A.numbers_that_left(rev='HEAD~1'))
+    run('uncited_numbers',      lambda: [A.uncited_numbers(x) for x in P])
+    run('internal_consistency', lambda: [A.internal_consistency(x) for x in P])
+    run('dangling_anchors',     lambda: dangling_anchors())
+    run('claims_without_anchor',lambda: claims_page_edit_without_anchor())
+    return out
+
 def run_gate(rev=None, quiet=False):
     """rev = 参照提交(用于 numbers_that_left)。返回 (blocked, {rule: n})。"""
     hits = {}
@@ -174,6 +207,15 @@ def run_gate(rev=None, quiet=False):
             v = hits.get(k,0)
             mark = 'UNVERIFIED' if v < 0 else ('BLOCK' if v else 'ok')
             print(f"{k:<24}{v:>6}   [{mark}] {desc}")
+        try:
+            cov = rule_coverage()
+            print("\n覆盖版本(#626:量出来的,不是声明的)")
+            for k, v in cov.items():
+                print(f"  {k:24s} {len(v)} 版  {v}")
+            print("  ⛔ 「读了两版」≠「在两版上都有效」 —— `#622`:`internal_consistency` 读了中文页,"
+                  "却在它上面结构性开不了火。")
+        except Exception as e:
+            print(f"  ⚠ rule_coverage 没跑起来:{type(e).__name__}: {e}")
         print(f"\n=> {'BLOCKED — 必读清单,不是判决(见 P6 代理账)' if blocked else 'PASS'}")
     return blocked, hits
 
