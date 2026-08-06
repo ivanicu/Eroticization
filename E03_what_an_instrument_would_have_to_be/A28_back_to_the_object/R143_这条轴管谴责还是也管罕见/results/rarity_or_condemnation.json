@@ -1,0 +1,16 @@
+{
+ "n": 61,
+ "r_axis_rare": 0.276860270922249,
+ "r_axis_cond": 0.25487916286022755,
+ "r_cond_rare": 0.8320480941739322,
+ "loose_q95_rare": 0.27260004948351585,
+ "loose_q95_cond": 0.2541123383993577,
+ "tight_q95_rare": 0.27232943650646374,
+ "tight_q95_cond": 0.25546397032361656,
+ "g4_male": 0.289957264957265,
+ "n_male": 63,
+ "same_project_pair": "SCCS165×SCCS167 (broude1976cross, 抬高约 2.14×)",
+ "cross_project_baseline": 0.105,
+ "verdict": "UNVERIFIED —— 正对照失败",
+ "unchallenged": true
+}
