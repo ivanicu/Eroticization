@@ -1,0 +1,20 @@
+{
+ "pairs": {
+  "premarsx×xmarsex": 0.042252518079849866,
+  "premarsx×homosex": 0.025414944207441503,
+  "premarsx×teensex": 0.02840312382328647,
+  "xmarsex×homosex": 0.22263394217974136,
+  "xmarsex×teensex": 0.10126790492448007,
+  "homosex×teensex": 0.20332527265403327,
+  "fefam×fepol": 0.0004699203063741053,
+  "fefam×fepresch": 0.08149092033284194,
+  "fepol×fepresch": 0.004043485835780514
+ },
+ "with_homosex": 0.20332527265403327,
+ "without": 0.042252518079849866,
+ "placebo": 0.004043485835780514,
+ "null_q95": 0.03127016631433812,
+ "p": 0.016666666666666666,
+ "verdict": "**「四个判断绑在一起」站得住:不含 homosex 三对中位 +0.0423 超零且大于安慰剂 +0.0040**",
+ "unchallenged": true
+}
