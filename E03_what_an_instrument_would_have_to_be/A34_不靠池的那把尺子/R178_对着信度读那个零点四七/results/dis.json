@@ -1,0 +1,32 @@
+{
+ "n_retest": 368,
+ "n_1994": 894,
+ "rxx": {
+  "premarsx": 0.8371505856927302,
+  "xmarsex": 0.8428387282803425,
+  "homosex": 0.9106271746917782,
+  "teensex": 0.734119892964052
+ },
+ "null_q95": 0.07165325032469448,
+ "raw": {
+  "premarsx×xmarsex": 0.30214890590293025,
+  "premarsx×homosex": 0.447576765405206,
+  "premarsx×teensex": 0.43340588171940475,
+  "xmarsex×homosex": 0.26299208912657773,
+  "xmarsex×teensex": 0.32657133235305075,
+  "homosex×teensex": 0.3474943904424708
+ },
+ "corrected": {
+  "premarsx×xmarsex": 0.3597054282301529,
+  "premarsx×homosex": 0.5126198716095669,
+  "premarsx×teensex": 0.5528527978458893,
+  "xmarsex×homosex": 0.30019270919246555,
+  "xmarsex×teensex": 0.4151665166349082,
+  "homosex×teensex": 0.4250049602836761
+ },
+ "weakest_raw": 0.26299208912657773,
+ "weakest_corrected": 0.30019270919246555,
+ "verdict": "**W3:校正后最弱一环 0.3002 < 0.50 —— 即使测量完美,四题也只是松散相关,页上人层那一行要加限定**",
+ "upper_bound_note": "重测跨问法 ⇒ 低估信度 ⇒ 校正值是上界",
+ "unchallenged": true
+}
