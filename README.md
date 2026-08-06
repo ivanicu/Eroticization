@@ -114,6 +114,7 @@ still carried it.**
 
 ## What stands
 **⟨…⟩** = **the effect divided by its own null's 95th percentile** (`⟨—⟩` where it cannot be computed: 8 entries whose round persisted no results, 10 with output but no extractable effect–null pair).
+⚠ **That denominator is itself an estimate, so how much it wobbles has been measured**: of the **28 rows carrying ⟨…⟩, 25 never declare whether the denominator was enumerated or sampled**, and `#716` once caught one moving by a factor of 1.9. Measured, **only one kind bites**: at the same B = 4,000, a **permutation null's relative SD is 1.61%, while subsampling a structured block space is 10.73% — 6.7× worse**, and the combinatorial arm is **not reliably improved by drawing more** (the weakest-link distribution is heavily tied, so its 95th percentile hops between plateaus). ⇒ **every cell whose block space is enumerable has been switched to full enumeration** (MFQ k=6 · GSS k=4 · NSFG k=3/k7 · SCCS k=4); **for the remaining permutation-null rows the denominator wobbles at the ~2% level, which changes no ratio's reading** `[#719「分母自己的抖动量出来了,而咬人的只有一类」]`.
 ⚠ **This number tracks sample size, not how true the claim is**: measured, `corr(ratio, n) = +0.8829` while `corr(ratio, effect) = −0.3929` — **the largest effects have the lowest ratios** (they are the n≈75–97 society-side ones). **Do not read 18.46 as "most reliable"; it is merely the biggest sample** (Entry 706 / `#706`).
 
 
