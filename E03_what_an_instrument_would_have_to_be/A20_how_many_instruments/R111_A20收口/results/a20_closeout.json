@@ -1,0 +1,100 @@
+{
+ "claims": [
+  {
+   "id": "「性是一块」",
+   "tier": "T1",
+   "round": "#653",
+   "number": "GSS 0.416 · NSFG 0.346",
+   "falsifier": null,
+   "changed": null
+  },
+  {
+   "id": "打孩子≠打妻子",
+   "tier": "T2",
+   "round": "#641",
+   "number": "上界 +0.4401",
+   "falsifier": null,
+   "changed": null
+  },
+  {
+   "id": "跨团队复现体罚极性",
+   "tier": "T2",
+   "round": "#639",
+   "number": "+0.6301 (n=60)",
+   "falsifier": null,
+   "changed": null
+  },
+  {
+   "id": "越稀有越被谴责(婚前性)",
+   "tier": "T2",
+   "round": "#665",
+   "number": "+0.6725 (n=86)",
+   "falsifier": null,
+   "changed": "#664 判「待做」-> #665 已推进;#666 再证频率非同义反复(偏相关 +0.3094)"
+  },
+  {
+   "id": "换对象 +0.845",
+   "tier": "T3",
+   "round": "#667",
+   "number": "服从四件套 +0.7905 (n=160-162)",
+   "falsifier": "若出现 source∉{barry1977agents} 且按≥2对象分列的儿童体罚变量、真实 n≥60,T3 可升 T2",
+   "changed": "#664 判「做不到」-> #667 推进到 T3(同一第一作者,不是独立团队)"
+  },
+  {
+   "id": "换手段 +0.229",
+   "tier": "T4",
+   "round": null,
+   "number": null,
+   "falsifier": "若任一跨文化库出现≥3种管教手段各自编码且真实 n≥60,即被推翻",
+   "changed": null
+  },
+  {
+   "id": "打得多也讲得多 +0.344",
+   "tier": "T4",
+   "round": null,
+   "number": null,
+   "falsifier": "同「换手段」",
+   "changed": null
+  },
+  {
+   "id": "以身作则不站队",
+   "tier": "T4",
+   "round": null,
+   "number": null,
+   "falsifier": "若任一调查出现「榜样/模仿学习」题且 n≥300,即被推翻",
+   "changed": null
+  },
+  {
+   "id": "没有「严厉的社会」+0.125",
+   "tier": "T4",
+   "round": null,
+   "number": null,
+   "falsifier": "若任一跨文化库出现≥2道不同性实践的道德判断且共同真实 n≥60,即被推翻",
+   "changed": null
+  },
+  {
+   "id": "只有纯洁是团 0.335",
+   "tier": "T4",
+   "round": null,
+   "number": null,
+   "falsifier": "若出现第二份含道德基础五域或等价结构的数据且 n≥1000,即被推翻",
+   "changed": null
+  },
+  {
+   "id": "性与同居一样紧 1.10×",
+   "tier": "T4",
+   "round": null,
+   "number": null,
+   "falsifier": "若 GSS 或他处出现≥3道同格式同居态度题且 n≥1000,即被推翻",
+   "changed": null
+  }
+ ],
+ "t12": 4,
+ "t3": 1,
+ "t4": 6,
+ "unsupported": [],
+ "missing_falsifier": [],
+ "can_close": true,
+ "verdict": "**A20 可关闭:5 条已推进全部指得出轮次与数;6 条「做不到」全部带可证伪形式;正对照未变**",
+ "unchallenged": true
+}
