@@ -42264,3 +42264,91 @@ Tree clean afterwards.
 ⑤ ✅ **`#872`② is CLOSED** by this round · `#874`①② are CLOSED (the sweep ran to completion, with a
    process-group kill, a flushed heartbeat, a random-sample cost meter, and snapshot/restore in the
    design).
+
+## Entry 876 · `E03·A102·R315` — the repair works, the round is UNVERIFIED, and both controls failed for reasons worth more than the headline
+
+**Pays `#875`①.** The repair is applied in this commit: `lib/rounds.py` carries **`LEGACY_PATHS`**
+(52 pre-`4819b9b` keys → today's paths, every one verified to exist) and **`round_path`**. ⚠ An alias
+`round_path = path` would have been **wrong** — the two accessors have **disjoint key vocabularies**
+(52 numbered filenames vs 635 stems, **0 shared**), so an alias converts an `ImportError` into a
+`KeyError` and calls it a repair.
+
+**⚠⚠ THE ROUND IS `UNVERIFIED`, AND THAT IS THE HEADLINE, NOT A FOOTNOTE.** Two of six controls
+failed. `Gate.admissible() = False`, so **the descriptive numbers below have no standing to rule on
+any world** — they are reported as description, and the branch they would have selected is not
+claimed.
+
+| control | result |
+|---|---|
+| **① POSITIVE — all of the population was `IMPORT-ERROR` before the repair** | **FAIL** — `IMPORT-ERROR 79 · MISSING-INPUT 1 · absent-from-the-prior-artifact 1` |
+| ② SHAM — `LEGACY_PATHS` present, accessor removed, must still fail | **PASS** (`IMPORT-ERROR`) ⇒ what fixed it is the accessor, not importing the module |
+| **③ NEGATIVE — 20 untouched scripts byte-identical across two solo runs** | **FAIL — 19/20** |
+| ④ CONFOUND — "came back" reported under two definitions | PASS |
+| ⑤ COVERAGE — 81/81 reached | PASS |
+| ⑥ `#875`④ — `HEAD` recorded before and after, run strictly SERIALLY | PASS — `38163f4956` → `38163f4956`, **unchanged** |
+
+**⚠ CONTROL ① FAILED BECAUSE THE POPULATION PREDICATE COUNTED A MENTION AS A USE — in the round
+whose whole subject is that failure.** The population was built with a regex,
+`from\s+lib\.rounds\s+import[^\n]*round_path`, which returns **81**. Parsing instead of matching
+(`ast.ImportFrom`) returns **80**. The extra one is **`#875`'s own diagnostic script, whose docstring
+quotes the broken import line it exists to explain.** That is the third instance in one session:
+`named_defects` flagged my ledger for **quoting** the fabricated string it was retracting; a backtick
+pair spanning two adjacent code spans invented a token `" and "`; and now this. ⇒ **in a project
+whose reports quote their own defects verbatim, the better the ledger, the noisier every grep.**
+The second member is real: one script was `MISSING-INPUT` before the repair, so **its running now is
+not attributable to the repair** — which is exactly what the control exists to say.
+
+**⚠ CONTROL ③ FAILED ON A REAL DEFECT, NOT ON LOAD.** `bootstrap_noise_floor.py` is **not
+byte-identical across two runs, executed alone, serially, with nothing else on the machine.** `#872`
+met this shape before and the cause there was load (*"a determinism check run under load measures the
+load"*); **this one has no load to blame.** A bootstrap that is not seed-locked means **its noise
+floor is itself a draw**, and every threshold compared against it inherits that. That is a finding
+about the corpus, surfaced by a control on something else entirely. ⇒ `#876`②
+
+**THE DESCRIPTIVE NUMBERS** (no standing to rule; reported because the round ran to completion):
+
+| | |
+|---|---|
+| exit 0 | **74 of 81** |
+| exit 0 **and printed a gate block** | **18 of 81** ⇒ **56 exit 0 without printing one** |
+| still dead | 7 — `TIMEOUT` 4 · `MISSING-INPUT` 2 · `OTHER` 1; **2 of the 7 hit another stale path** |
+| cap curve (**derived** from elapsed, labelled) | 30 s → 14 would not finish · 60 → 10 · 120 → 7 · **240 → 4 (measured)** |
+
+**⚠⚠ AND THE QUESTION THIS ROUND WAS BUILT FOR CANNOT BE ASKED HERE — measured, and the reason is
+the finding.** World C was *"they come back and print a verdict their own committed artifact does not
+carry"*. Comparable cases: **0 of 18.** Not one resurrected script has a committed artifact carrying
+a verdict to compare against, and the reason is structural: **exactly 1 of the 81 uses `lib/gates` at
+all.** These scripts **predate the gate library**. Where a comparison is impossible the round records
+**`ABSENT`, never "agrees"** — and `ABSENT 18 / comparable 0` is the honest shape of it.
+
+**⇒ One sentence about people, and it is not the comfortable one: the tenth of this corpus my rename
+killed is not a random tenth — it is `E01`'s first three rounds** (71 of 98 scripts in `A01`, 8 of 16
+in `A02`), **the oldest layer, written before this project had gates, controls or recorded verdicts.
+Putting the name back brings 74 of them back to life, and not one of them can be checked against
+what it once concluded, because it comes from the era before I wrote conclusions down in a form that
+could be checked. The evidence for this project's earliest sentences about how Americans condemn is
+runnable again and still unauditable.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① it ranks **re-derivability**, never **truth**;
+② **the instrument cannot be changed** — these scripts exist only in this repository;
+③ **`still_agrees` is undefined on this population** — 0 of 18 comparable, because 80 of 81 scripts
+   predate `lib/gates`. It is **not** that they agree. Making it answerable would require the
+   pre-gate rounds to have written a verdict they never wrote, which no design can supply now;
+④ it cannot separate *"the file was rewritten"* from *"the data changed"* — both produce a
+   disagreement, and separating them needs a source hash not every round wrote;
+⑤ **`TIMEOUT` is a statement about the 240 s cap**, not about the corpus.
+
+**NEXT**
+① ⚠ **Re-run with the two control defects fixed, and only then read a branch**: the population must
+   be built by **AST**, not regex (mention ≠ use), and restricted to members with a recorded
+   before-state; the negative control must **name and exclude** a script it has established to be
+   non-deterministic rather than counting it as a failure of the repair. ⇒ `#876`①
+② ⚠ **`bootstrap_noise_floor.py` is not seed-locked** — measured alone, serially, with no load.
+   **A noise floor that is itself a draw** invalidates nothing by itself but must be characterised
+   before any threshold that rests on it is quoted. ⇒ `#876`②
+③ ⚠ `#875`② is still unbuilt: **nothing checks that a registry caller's KEY exists.**
+④ ⚠ Still `OPEN`: `#875`②③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
+   `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+⑤ ✅ **`#875`① is CLOSED**: the repair is applied and measured. What it bought is **74 of 81 scripts
+   that run again**; what it did not buy is **any way to check that they still say what they said**.

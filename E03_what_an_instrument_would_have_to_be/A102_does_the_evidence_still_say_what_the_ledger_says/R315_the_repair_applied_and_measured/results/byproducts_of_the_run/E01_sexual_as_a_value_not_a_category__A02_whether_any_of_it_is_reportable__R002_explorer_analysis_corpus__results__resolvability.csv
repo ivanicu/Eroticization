@@ -1,0 +1,6 @@
+quantity,median,spread,ratio,resolvable
+sex deficit [POS CTRL],0.0847,0.0137,6.18,True
+consumption deficit,0.0951,0.0235,4.05,True
+placebo deficit [NEG CTRL],0.0002,0.0076,0.02,False
+cross-domain CCA (mean),0.1491,0.0155,9.63,True
+breadth nestedness excess,0.0657,0.0036,18.38,True

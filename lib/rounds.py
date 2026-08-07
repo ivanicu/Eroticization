@@ -643,3 +643,85 @@ ROUNDS = {
 
 def path(name):
     return ROUNDS[name]
+
+
+# ---------------------------------------------------------------------------------------------
+# `#875`① — the pre-`4819b9b` accessor, RESTORED, with its own key vocabulary.
+#
+# `4819b9b` (2026-08-06) flattened the round directories and, in the same commit, renamed
+# `PATHS` -> `ROUNDS` and `round_path` -> `path`. It also **rebuilt the key vocabulary**: 52
+# numbered filenames (`'24_attack_rsa.py'`) became 635 stems (`'accumulation_curve'`), with
+# **zero keys in common**. No caller was migrated. `#875` measured the result: **79 of 836 round
+# scripts die at import on this one name — the only broken name in the whole shared library** —
+# and today there are 54 call sites of the removed accessor and 0 of the new one.
+#
+# ⚠ **An alias `round_path = path` would be WRONG**, and that is the reason this table exists:
+# the callers pass keys `ROUNDS` does not have, so an alias converts an `ImportError` into a
+# `KeyError` and calls it a repair. The old vocabulary needs its own table.
+#
+# Every value below was derived mechanically — old key -> the registry as it stood at
+# `4819b9b^` (`git show`) -> today's path, following git's 4,368 rename edges — and **every one
+# was verified to exist on disk at generation time**, 52 of 52. Nothing here was typed by hand.
+#
+# ⚠ **What this restores is the REFERENCE, not the behaviour.** The file a key points at has been
+# rewritten twice since. Resurrecting the import is an UPPER BOUND on resurrecting the script,
+# and the gap between the two is what `E03·A102·R315` measures.
+LEGACY_PATHS = {
+  '00_schema.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/schema.py',
+  '01_inventory.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/column_kinds.py',
+  '02_explode.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/explode_multiselects.py',
+  '03_branching.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/gated_tree.py',
+  '04_matrix_ceiling.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/reliability_ceilings.py',
+  '05_dump_options.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/option_census.py',
+  '06_residual_grammar.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/residual_spectrum.py',
+  '07_transfer.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/pc1_transfer.py',
+  '08_cca_rarity.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/cv_cca_and_rarity.py',
+  '09_agentpatient.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/agent_patient_axis.py',
+  '10_axis_predicts.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/named_axis_prediction.py',
+  '11_role_variance.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/role_variance.py',
+  '12_placebo_contrast.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/placebo_contrast.py',
+  '13_joint_factors.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/joint_factorisation.py',
+  '14_diagnose_null_fail.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/why_the_null_tied.py',
+  '15_lobo_and_language.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/leave_one_block_out.py',
+  '16_dimensionality.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py',
+  '17_name_coords.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/svd_naming_failed.py',
+  '18_gcca.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/gcca.py',
+  '19_attack_coords.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_each_coordinate.py',
+  '20_three_axes.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/three_role_axes.py',
+  '21_disattenuate.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/disattenuation.py',
+  '22_onset_probe.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_census.py',
+  '23_acquired_together.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/acquired_vs_liked.py',
+  '24_attack_rsa.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py',
+  '25_onset_beyond_pref.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_beyond_preference.py',
+  '26_unit_vs_tempo.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/unit_vs_tempo.py',
+  '27_binning_null.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/binning_null.py',
+  '28_shared_schedule.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/shared_schedule.py',
+  '29_modality_invariance.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/modality_invariance.py',
+  '30_deficit_reference.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py',
+  '31_attack_pornhabit.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py',
+  '32_matched_all.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py',
+  '33_induction_timing.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/induction_timing.py',
+  '34_induction_mde.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/timing_mde.py',
+  '35_single_interest.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/single_interest_power.py',
+  '36_off_manifold.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/off_manifold.py',
+  '37_manifold_mde.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/manifold_mde.py',
+  '38_did_matching_remove_it.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matching_removed_it.py',
+  '39_breadth_or_attribution.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/breadth_or_attribution.py',
+  '40_breadth_shape.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/breadth_has_no_shape.py',
+  '41_acq_attacks_iter7.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/acquiescence_attack.py',
+  '42_breadth_oos.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/out_of_sample_concentration.py',
+  '43_nestedness.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/nestedness.py',
+  '44_what_is_theta.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/correlate_scan.py',
+  '45_theta_nonsexual.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/non_sexual_variables.py',
+  '46_theta_rate_variant.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/specification_grid.py',
+  '47_theta_or_coords.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/theta_or_coordinates.py',
+  '48_pornhabit_sexmatched.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/escalating_match.py',
+  '49_additivity.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/additivity.py',
+  '50_additivity_origin.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/source_or_orientation.py',
+  '51_which_pairs.py': 'E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/which_pairs_transfer.py',
+}
+
+
+def round_path(src_name):
+    """Pre-`4819b9b` accessor. Distinct from `path()`: a DIFFERENT key vocabulary (see above)."""
+    return LEGACY_PATHS[src_name]

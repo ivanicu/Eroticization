@@ -1,0 +1,68 @@
+=== (0a) PRECONDITION — a WRITE, and `#875`④: record HEAD, run SERIALLY ===
+  HEAD before: 38163f4956 · **this round runs strictly serially** (`#875`④)
+
+=== (0b) POPULATION — the scripts that import the restored name ===
+  **81** scripts
+
+=== (0c) POSITIVE CONTROL — the before-state, READ from `#875`'s artifact, not re-measured ===
+  before-state of the same 81 scripts: {'IMPORT-ERROR': 79, 'MISSING-INPUT': 1, None: 1}
+  => **FAIL** — all IMPORT-ERROR before, so anything that runs now was caused by the repair and by nothing else
+
+=== (0d) SHAM — the accessor removed, the table left in place ===
+  accumulation_curve.py with `LEGACY_PATHS` present but no accessor -> **IMPORT-ERROR** (**PASS**: what fixed it is the accessor, not importing the module)
+
+=== (0e) NEGATIVE CONTROL — 20 random scripts that never imported the name ===
+  19/20 byte-identical across two runs with the repair in place -> **FAIL**
+  ⚠ this is a determinism check, and these scripts DO NOT import the repaired name, so it answers 'the repair did not disturb them'; it does not answer 'they were correct'
+
+=== (1) RUN THE 81 — SERIALLY, cap 240s, process-GROUP kill ===
+  done in 35.2 min
+    OK               74  (91.4%)
+    TIMEOUT           4  (4.9%)
+    MISSING-INPUT     2  (2.5%)
+    OTHER             1  (1.2%)
+
+=== (2) TWO DEFINITIONS OF 'CAME BACK' (`G4`, not a footnote) ===
+  exit 0                       : **74/81**
+  exit 0 AND printed a verdict : **18/81**  ⇒ 56 exited 0 without printing one (the confound this checks)
+
+=== (3) THE NEXT WALL — for those that did NOT come back ===
+  TIMEOUT           4
+  MISSING-INPUT     2
+  OTHER             1
+  of the 7 that did not come back, **2** hit another stale path or key ⇒ the rot is layered to that extent
+
+=== (4) DOES IT STILL SAY WHAT THE LEDGER SAYS IT SAID? ===
+  comparable (a committed artifact carries a verdict): **0/18** · **ABSENT 18** — never counted as 'agrees'
+  agree **0** · **DISAGREE 0**
+
+=== (5) SPECIFICATION CURVE over the cap — DERIVED from elapsed, labelled ===
+  cap   30s ->  14 would not have finished (derived)
+  cap   60s ->  10 would not have finished (derived)
+  cap  120s ->   7 would not have finished (derived)
+  cap  240s ->   4 would not have finished (measured)
+
+=== (6) `#875`④ — HEAD before 38163f4956 · after 38163f4956 · **unchanged** ===
+
+  CONDITIONAL KILL -- #876 · does repairing the reference bring the script back, and does it still agree
+   FAIL  (1) POSITIVE CONTROL: all 80 were IMPORT-ERROR before the repair, read from `#875`'s artifact rather than re-measured under a different load, so anything running now was caused by the repair and by nothing else  IMPORT-ERROR 79 · MISSING-INPUT 1 · None 1 · 总体:the 81 round scripts that import `round_path`, each executed alone from the repository root   (asserted in code, not in prose)
+   PASS  (2) SHAM: `LEGACY_PATHS` present with the accessor removed must still fail — what fixed it is the accessor, not importing the module                                                                                accumulation_curve.py -> IMPORT-ERROR · 总体:one script of the population, run with the accessor removed   (asserted in code, not in prose)
+   FAIL  (3) NEGATIVE CONTROL: 20 random scripts that never imported the name must be byte-identical across two runs with the repair in place                                                                                19/20 identical · 总体:20 scripts drawn at seed 315 from those `#875` classified OK and which do not import `round_path`   (asserted in code, not in prose)
+   PASS  (4) CONFOUND: 'came back' is reported under TWO definitions — exit 0, and exit 0 with a gate block printed — because a swallowed exception exits 0 having done nothing                                              exit 0 74 · with a verdict 18 · 总体:the 81 round scripts that import `round_path`, each executed alone from the repository root   (asserted in code, not in prose)
+   PASS  (5) COVERAGE: a partial run is UNVERIFIED, never 'mostly A'                                                                                                                                                         81/81 reached · 总体:the 81 round scripts that import `round_path`, each executed alone from the repository root   (asserted in code, not in prose)
+   PASS  (6) `#875`④: HEAD recorded before and after, and this round runs SERIALLY because a guard on the TREE cannot see another process about to move HEAD                                                                 38163f4956 -> 38163f4956 · 总体:the 81 round scripts that import `round_path`, each executed alone from the repository root   (asserted in code, not in prose)
+   PASS  (7) KILL (pre-registered): for "the reference was the only thing wrong" to hold, **no resurrected script may print a verdict its committed artifact does not carry**                                                came back 74 (with a verdict 18) · comparable 0 · agree 0 · DISAGREE 0 · ABSENT 18 · still dead 7 of which 2 on another stale path/key   尺:the verdict string a script prints, against the one its own committed artifact carries; the floor is the two-run byte-identity of 20 untouched scripts,其自身噪声 1 · 总体:the 81 round scripts that import `round_path`, each executed alone from the repository root  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填) · 控制总体:6/6 条已命名,**2 条与判据不同** ['', '']  ⚠ **控制的总体 ≠ 主张的总体** —— **它证明的是另一群人身上的仪器**(`#866`①)(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => UNVERIFIED, and that is not an acquittal -- the instrument failed its own control ((1) POSITIVE CONTROL: all 80 were IMPORT-ERROR before the repair, read from `#875`'s artifact rather than re-measured under a different load, so anything running now was caused by the repair and by nothing else, (3) NEGATIVE CONTROL: 20 random scripts that never imported the name must be byte-identical across two runs with the repair in place)
+
+  `Gate.admissible()` = **False**
+
+====================================================================================================
+**UNVERIFIED: a control failed, so the criterion has no standing to rule.**
+
+⚠ **What this round structurally cannot do**: (1) it ranks re-derivability, never truth — a script that comes back and agrees is not thereby right, and a disagreement says the evidence moved, not which side is correct; (2) **the instrument cannot be changed** — these scripts exist only in this repository; (3) `still_agrees` is defined only where a committed artifact carries a verdict, and the coverage is printed beside the rate because a rate over an unstated denominator is what this project has retracted for most often; (4) it cannot separate 'the file was rewritten' from 'the data changed' — both produce a disagreement.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A102_does_the_evidence_still_say_what_the_ledger_says/R315_the_repair_applied_and_measured/results/does_the_repair_bring_them_back.json
+
+=== (7) RESTORE — this round is a WRITE (`#874`②/`#875`④) ===
+  ⚠ about to `git checkout --` 2 tracked files; each working-tree version was copied to `_pre_restore_working_copies` FIRST (`L81`)
+  relocated **35** untracked byproducts by LOCATION · restored **2** tracked files · tree outside this round: **clean**
