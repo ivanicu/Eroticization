@@ -45120,3 +45120,79 @@ it is abortion.**
    `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
    `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
    `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 908 · `E03·A110·R346` — the head now says what the project says, and it leads with the residue
+
+**TYPE: PRODUCTION, labelled before the work.** It measures nothing new about people and says so.
+**It pays `#906`②, open for two entries**, and it is the round `§0.2` demands: *lead with what
+stands, never with the ledger.*
+
+**WHY IT WAS OWED.** The page's head still read **"100 rounds · 635 scripts · 661 ledger entries"**
+and told the E01/E02 story as though it were the current state. **Both of this project's surviving
+results lost their subject in three consecutive entries** (`#905`, `#906`, `#907`) and **the head
+said nothing about it.** A reader arriving at the deliverable would have taken away a claim about
+sexual morality that the ledger had already withdrawn.
+
+⚠ **HARD RULE 1 APPLIED TO MY OWN PAGE, WHICH IS WHERE IT HAD NEVER BEEN APPLIED.** Every count in
+the head was stale and none had been re-measured. Measured now: **892 ledger entries** (not 661) ·
+**868 scripts** (not 635) · **309 rounds** (not 100) · **107 arcs · 3 epochs · 222 page rows ·
+156 debts, 74 open · 6 pre-commit blocks wired.** *A variable name is not a measurement, and neither
+is a number a page has been carrying since it was true.*
+
+**WHAT THE NEW HEAD LEADS WITH — instruments, because that is the residue.** Six, each built because
+a round needed something that did not exist, each carrying its own positive control, four wired into
+a hook that has refused commits: the **link-free comonotonicity test** (`#902`) · the
+**one-factor-proof case-indexing interaction** (`#892`/`#893`) · the **rank-1 binomial resampling
+null** (`#900`, which returns **0.983 and not 1.0**) · the **comonotone binomial resampling null**
+(`#902`) · **`supersede_gate`** (`#894`, which found **11 unmarked rows in both pages** the day it
+was built) · **`registry_keys_gate`** (`#877`, after `#875` measured **79 of 836 scripts dead for a
+day** at one rename).
+
+**AND WHAT IT SAYS NEXT, IN THE SAME BREATH RATHER THAN IN A FOOTNOTE: this project currently has no
+claim about sexual morality.** `#900`/`#902`'s number holds and is about GSS attitude series (the
+sexual battery sits at the **10th percentile** of forty non-sexual batteries, `#905`). `#892`'s
+number holds and abortion sits at the **33rd percentile** of six non-sexual crossed designs at
+matched n (`#906`). And `#907` closed the repair: **a union of 6,941 labels and 1,250 codebook
+question texts, with a positive control that recovers the abortion battery, finds ZERO non-sexual
+topics** asked both *"is this wrong"* and *"should the law allow it"* for two cases — so the claim is
+**UNDECIDABLE on this release, not refuted.**
+
+⚠ **`L81` OBSERVED RATHER THAN CITED.** The E01/E02 narrative below the new head is **kept, not
+rewritten** — every superseded row carries a marker naming the entry that retracted it, applied by
+`supersede_apply.py` **quoting the ledger's own sentence**, because *a machine may not invent a WHY*.
+The head is **prepended**; nothing beneath it was edited except the counts, which were facts about
+the repository rather than claims about the world.
+
+**⇒ THE HONEST ONE-LINE STATE, now on the page and not only in the ledger: the instruments are real
+and reusable; the psychology is not established; and the reason the psychology is not established is
+measured rather than asserted.**
+
+**⇒ One sentence about people: none, and this round claims none — but it is the round that stops the
+page claiming one. Until today a reader of the deliverable would have left believing this project
+had shown something about how Americans judge sex, which three entries had already withdrawn in a
+file only I read.**
+
+**WHAT THIS ROUND DOES NOT DO** (registered):
+① **it is PRODUCTION and moves no number** — no estimand, no null, no control, because there is
+   nothing here to be wrong about except whether the page matches the ledger;
+② **the Chinese page received the same English block** — `#871` switched this project to English
+   mid-session and the back-catalogue is still Chinese (`#871`②); the head is now bilingual in the
+   worst sense, **a mixed page, and that is a real defect rather than a style choice**;
+③ **"six instruments" is my own count of my own work** and nobody has checked that each is reusable
+   outside the round that built it — `door ③`, and the claim is **`[unchallenged]`**;
+④ no second reader checked the head.
+
+**NEXT**
+① ⚠ **`②` above is a defect I introduced in this round and am naming rather than leaving**: the
+   Chinese deliverable now opens with an English block. Either it is translated or the two pages
+   stop pretending to be the same document. ⇒ `#908`①
+② ⚠ **The "six instruments" claim is the page's new headline and it has no control.** The failable
+   version: **can each be pointed at an object it was not built for, and does it still carry its
+   positive control there?** Two already have been (`supersede_gate` and `registry_keys_gate` run on
+   every commit; the comonotone null was reused across `#902`/`#903`/`#904`/`#905`) — **and four have
+   not.** ⇒ `#908`②
+③ ⚠ Still `OPEN`: `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② ·
+   `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ ·
+   `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
+   `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
