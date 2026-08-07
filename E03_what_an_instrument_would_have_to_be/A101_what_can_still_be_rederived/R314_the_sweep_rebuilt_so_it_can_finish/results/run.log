@@ -1,0 +1,103 @@
+=== (0a) PRECONDITION — this round is a WRITE, so it refuses a dirty tree (`#874`(2)) ===
+  clean tree at 123f48d6a9 — the clean tree IS the snapshot; restore is `git checkout`
+
+=== (0b) POPULATION ===
+  836 round scripts (E01/E02/E03, excluding _archive and this round)
+
+=== (0c) COST METER on a RANDOM sample of 20 (`#874`(1): never a subset picked for another purpose) ===
+  median 0.6s · mean 12.2s · p90 4.4s · max 200.7s
+  projected SERIAL 169 min · projected at 10 workers **17 min** · pre-registered deadline 100 min
+  ⇒ proceeding
+
+=== (0d) INSTRUMENT CONTROL — two-sided, on a synthetic probe ===
+  positive: pointed at a non-existent file -> **MISSING-INPUT** (data/raw/__no_such_file_r314__.csv)
+  negative: reads nothing                  -> **OK**
+  => instrument control **PASS**
+
+=== (1) PARALLEL SCREEN — 10 workers, cap 240s, process-GROUP kill ===
+  screen done in 20.0 min
+    OK              475
+    MISSING-INPUT   253
+    IMPORT-ERROR     79
+    TIMEOUT          17
+    OTHER            12
+  coverage: 836/836 reached **complete**
+
+=== (2) SERIAL CONFIRMATION — the load confound `#872` measured; only this pass counts ===
+  361 non-OK scripts, re-run ALONE at cap 240s
+  **12** changed class between the loaded screen and the solo re-run — that number IS the size of the confound
+     TIMEOUT       -> OK             E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R
+     TIMEOUT       -> OK             E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R
+     TIMEOUT       -> OK             E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R
+     TIMEOUT       -> OK             E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R
+     TIMEOUT       -> OK             E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R
+     TIMEOUT       -> OK             E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_
+     TIMEOUT       -> OTHER          E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_
+     TIMEOUT       -> OK             E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R059_五格里只有一格_
+     TIMEOUT       -> OK             E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R059_五格里只有一格_
+     TIMEOUT       -> OK             E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R059_五格里只有一格_
+
+=== (3) CLASSIFICATION — the whole grid, including the classes that support nothing ===
+  OK              485  (58.0%)
+  MISSING-INPUT   253  (30.3%)
+  IMPORT-ERROR     79  (9.4%)
+  OTHER            14  (1.7%)
+  TIMEOUT           5  (0.6%)
+
+=== (4) NEGATIVE CONTROL — 10 scripts open no file; MISSING-INPUT among them: **0** (must be 0) ===
+
+=== (5) POSITIVE CONTROL on the POPULATION — the 3 scripts `#872` already knew were dead (realstat: run the instrument where the answer is known) ===
+  MISSING-INPUT   nd_dimension_is/R005_shame_and_the_position/rho_panel_controlling_age.py
+  MISSING-INPUT   之后_第三个维度的正名是_breadth_而_189_的三个/is_the_advantage_only_in_large_samples.py
+  MISSING-INPUT   装对之后_第三个维度的正名是_breadth_而_189_的三个/the_als_loading_as_a_person_variable.py
+  => **PASS** — this control CAN fail: if the sweep called them OK, the instrument would be blind to exactly the thing it was built for
+
+=== (6) REPAIRABLE vs PERMANENT (only MISSING-INPUT is eligible) ===
+  MISSING-INPUT with an identified path: **253**
+  **REPAIRABLE 251** — of which 61 under the STRICT definition (produced by a script) and 190 only under the LOOSE one (exists somewhere on disk)  <- G4 specification axis
+  **PERMANENT  2** — nothing produces it and it is nowhere on disk
+     ion_is/R005_shame_and_the_position/is_the_loo_shape_a_sampling_fact.py <- /home/ivan/research.psychology.eroticization-operator.op
+     _what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/computed_vs_single.py <- E01_sexual_as_a_value_not_a_category/A155_does_S_point_o
+
+=== (7) THE CUT THAT MATTERS — is the script's round behind a claim the README still makes? ===
+  chain control: Entry 528 maps to ['R059'] and is cited in the README: **PASS** (the chain script->round->entry->README is an instrument and gets its own known answer)
+  scripts that do not run: 351 · of them behind a LIVE README claim: **5**
+  PERMANENT: 2 · of them behind a LIVE README claim: **0**
+
+=== (8) SPECIFICATION CURVE over the cap — ⚠ **DERIVED from measured elapsed, not re-measured** (the arithmetic trap, labelled) ===
+  cap   30s ->   69 scripts would not have finished (derived)
+  cap   60s ->   38 scripts would not have finished (derived)
+  cap  120s ->   21 scripts would not have finished (derived)
+  cap  240s ->    5 scripts would not have finished (measured: this is the cap that ran)
+  ⚠ elapsed was recorded under 10-way load ⇒ inflated ⇒ the derived curve OVER-states slowness. It bounds one direction only.
+
+=== (9) world D — scripts that printed a verdict and THEN failed: **0** ===
+
+  CONDITIONAL KILL -- #875 · how much of this corpus can still be re-derived, on a sweep that can finish
+   PASS  (1) INSTRUMENT CONTROL: a script pointed at a non-existent file must classify MISSING-INPUT and a script that reads nothing must classify OK                                                      positive -> MISSING-INPUT · negative -> OK · 总体:a synthetic 2-line probe — ⚠ NOT the round population; this row validates the CLASSIFIER, not the corpus   (asserted in code, not in prose)
+   PASS  (2) POSITIVE CONTROL ON THE POPULATION: the 3 scripts `#872` independently established as dead must be classified non-OK — the instrument run where the answer is already known, and it can fail  rho_panel_controlling_age.py->MISSING-INPUT · is_the_advantage_only_in_large_samples.py->MISSING-INPUT · the_als_loading_as_a_person_variable.py->MISSING-INPUT · 总体:the 3 scripts `#872` independently established as DOES-NOT-RUN — a 3-element subset of the kill's population whose answer was known BEFORE this instrument existed   (asserted in code, not in prose)
+   PASS  (3) NEGATIVE CONTROL: a script containing no file-reading call must never be classified MISSING-INPUT                                                                                             10 such scripts · MISSING-INPUT among them 0 · 总体:the 10 scripts of the population containing no file-reading call — a NAMED SUBSET of the kill's population, not the same string, and that is the honest statement (`#867`)   (asserted in code, not in prose)
+   PASS  (4) LOAD CONFOUND (`#872`): every non-OK script was re-run SERIALLY and only the solo verdict counts; the screen-vs-solo disagreement is reported as the size of the confound                     361 re-run alone · 12 changed class · 总体:the 836 round scripts under E01/E02/E03, each executed from the repository root, non-OK ones re-run serially   (asserted in code, not in prose)
+   PASS  (5) COVERAGE: a partial sweep is UNVERIFIED, never 'mostly A' — the pre-registered deadline stops the run and says what it did not reach                                                          836/836 reached · not reached 0 · screen 20.0 min vs deadline 100 min · 总体:the 836 round scripts under E01/E02/E03, each executed from the repository root, non-OK ones re-run serially   (asserted in code, not in prose)
+   PASS  (6) CHAIN CONTROL: script -> round -> ledger entry -> README citation is an instrument; an entry known to be cited must come back cited                                                           Entry 528 -> rounds ['R059'] -> cited True · 总体:the ledger's 875 entries and the two README pages   (asserted in code, not in prose)
+   PASS  (7) ARITHMETIC: 'cannot run' is NOT 'the conclusion is wrong'; and the cap curve is DERIVED from elapsed, not re-measured — labelled as a derivation, conservative in one direction only          caps derived [30, 60, 120, 240] · elapsed under 10-way load ⇒ inflated · 总体:the 836 round scripts under E01/E02/E03, each executed from the repository root, non-OK ones re-run serially   (asserted in code, not in prose)
+   FAIL  (8) KILL (pre-registered): for "every conclusion in this corpus can still be re-derived" to hold, **no script may fail on a missing input that nothing produces and that is nowhere on disk**     PERMANENT 2 (live-claim 0) · REPAIRABLE 251 (strict 61) · failures 351/836 · died-after-verdict 0   尺:execution class per script, measured SOLO, with only MISSING-INPUT eligible for PERMANENT; the floor is the classifier's two-sided control plus the 3 known-dead scripts,其自身噪声 12 · 总体:the 836 round scripts under E01/E02/E03, each executed from the repository root, non-OK ones re-run serially  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填) · 控制总体:7/7 条已命名,**4 条与判据不同** ['', '', '', '']  ⚠ **控制的总体 ≠ 主张的总体** —— **它证明的是另一群人身上的仪器**(`#866`①)(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation ((8) KILL (pre-registered): for "every conclusion in this corpus can still be re-derived" to hold, **no script may fail on a missing input that nothing produces and that is nowhere on disk**). This is a refutation, NOT an unverified round (#366e).
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**C — 2 of 836 scripts fail on an input that nothing in this repository produces and that is nowhere on disk.**
+  Of 836: **485 run** · 351 fail · of the failures **251 REPAIRABLE** and **2 PERMANENT**.
+  **0 of the PERMANENT ones sit behind a claim the README still makes.** That is the number that costs something.
+  ⇒ **One sentence about people: 0 of this project's live sentences about how Americans condemn can no longer be attacked, because the evidence that produced them can no longer be produced.**
+  ⚠ **'Cannot re-derive' is not 'wrong'** — those conclusions may well be correct. They are simply no longer falsifiable by re-running, which is the one thing this project has relied on from round one.
+
+**What this round structurally cannot do**: (1) it ranks re-derivability, never truth; (2) **the instrument cannot be changed** — this corpus exists only in this repository, so cross-instrument replication is structurally unavailable and would require a second machine holding a second copy; (3) a PERMANENT verdict is about **this machine at this moment**; (4) elapsed under parallel load is not a runtime profile — the cap curve bounds slowness from one side only.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A101_what_can_still_be_rederived/R314_the_sweep_rebuilt_so_it_can_finish/results/how_much_can_still_be_rederived.json
+
+=== (11) RESTORE — a sweep that re-runs committed scripts is a WRITE, and the restore is part of the design, not something I notice afterwards (`#874`(2)) ===
+  ⚠ about to `git checkout --` 16 tracked files; the working-tree version of each was copied to E03_what_an_instrument_would_have_to_be/A101_what_can_still_be_rederived/R314_the_sweep_rebuilt_so_it_can_finish/results/byproducts_of_the_sweep/_pre_restore_working_copies FIRST (L81), because this restore cannot distinguish a sweep byproduct from a human edit made during the run
+  relocated **307** untracked byproducts (by LOCATION, any extension) · restored **16** tracked files with `git checkout`
+  tree outside this round after restore: **clean**

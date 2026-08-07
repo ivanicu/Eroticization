@@ -1,0 +1,171 @@
+{
+ "version_col": "DISPCODE",
+ "version_candidates": [
+  [
+   "DISPCODE",
+   2
+  ],
+  [
+   "DRNKANY6",
+   4
+  ],
+  [
+   "IYEAR",
+   2
+  ],
+  [
+   "QSTLANG",
+   3
+  ],
+  [
+   "SEXVAR",
+   2
+  ],
+  [
+   "_AGE65YR",
+   3
+  ],
+  [
+   "_ASTHMS1",
+   4
+  ],
+  [
+   "_CASTHM1",
+   3
+  ],
+  [
+   "_CHOLCH3",
+   4
+  ],
+  [
+   "_CURECI2",
+   3
+  ],
+  [
+   "_DRNKDRV",
+   3
+  ],
+  [
+   "_DUALUSE",
+   3
+  ],
+  [
+   "_HCVU653",
+   3
+  ],
+  [
+   "_HISPANC",
+   3
+  ],
+  [
+   "_HLTHPL1",
+   3
+  ],
+  [
+   "_LTASTH1",
+   3
+  ],
+  [
+   "_MENT14D",
+   4
+  ],
+  [
+   "_PA150R4",
+   4
+  ],
+  [
+   "_PA30023",
+   3
+  ],
+  [
+   "_PA300R4",
+   4
+  ],
+  [
+   "_PAINDX3",
+   3
+  ],
+  [
+   "_PASTAE3",
+   3
+  ],
+  [
+   "_PASTRNG",
+   3
+  ],
+  [
+   "_PHYS14D",
+   4
+  ],
+  [
+   "_RFBING6",
+   3
+  ],
+  [
+   "_RFBMI5",
+   3
+  ],
+  [
+   "_RFDRHV8",
+   3
+  ],
+  [
+   "_RFHLTH",
+   3
+  ],
+  [
+   "_RFHYPE6",
+   3
+  ],
+  [
+   "_RFSEAT2",
+   3
+  ],
+  [
+   "_RFSEAT3",
+   3
+  ],
+  [
+   "_RFSMOK3",
+   3
+  ],
+  [
+   "_SEX",
+   2
+  ],
+  [
+   "_TOTINDA",
+   3
+  ]
+ ],
+ "n_rows": 433323,
+ "n_cells": 104,
+ "n_high": 111,
+ "n_state_module": 0,
+ "n_version_module": 0,
+ "n_neither": 92,
+ "n_undecided": 19,
+ "world": "W-NEITHER",
+ "verdict": "W-NEITHER: \u5dde 0 / \u7248\u672c 0 / \u90fd\u65e0\u5173 92 / \u4e0d\u5224 19",
+ "ctrl": {
+  "B_full": 0.0,
+  "W_full": 0.0,
+  "W_shuffled": 5.130970646745101e-06
+ },
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "inclusion": [
+  "\u5168\u6587\u4ef6\u5355\u904d",
+  "(\u5dde,\u7248\u672c) \u683c n>=200 \u624d\u8ba1\u5165",
+  "\u9ad8\u7f3a\u5931 = \u8fb9\u9645 >=0.90"
+ ],
+ "impossible": [
+  "\u300c\u90fd\u65e0\u5173\u300d\u2260 \u635f\u574f,\u7b2c\u56db\u4e2a\u4e16\u754c\u4ecd\u672a\u8865",
+  "\u672a\u52a0\u6743",
+  "\u53ea\u7528\u6587\u4ef6\u81ea\u8eab"
+ ],
+ "unchallenged": true
+}

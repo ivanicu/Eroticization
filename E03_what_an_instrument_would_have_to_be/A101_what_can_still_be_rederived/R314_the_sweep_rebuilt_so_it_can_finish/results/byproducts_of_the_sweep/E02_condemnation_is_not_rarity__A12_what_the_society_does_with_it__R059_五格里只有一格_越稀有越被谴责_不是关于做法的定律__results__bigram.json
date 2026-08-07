@@ -1,0 +1,26 @@
+{
+ "E1": 0.5925925925925926,
+ "E2": 0.037037037037037035,
+ "backtest_versions": 34,
+ "token_loss": 0,
+ "unmatched": [
+  {
+   "file": "README.md",
+   "n": 2,
+   "unmatched_old": 0,
+   "unmatched_new": 0,
+   "rate_old": 0.0,
+   "rate_new": 0.0
+  },
+  {
+   "file": "README_zh.md",
+   "n": 2,
+   "unmatched_old": 0,
+   "unmatched_new": 0,
+   "rate_old": 0.0,
+   "rate_new": 0.0
+  }
+ ],
+ "verdict": "回测丢失 0 ⇒ **接受并接入**;中文页 UNMATCHED 0.0% -> 0.0%(**未下降 —— 换分词没解决问题,如实报**)",
+ "unchallenged": true
+}

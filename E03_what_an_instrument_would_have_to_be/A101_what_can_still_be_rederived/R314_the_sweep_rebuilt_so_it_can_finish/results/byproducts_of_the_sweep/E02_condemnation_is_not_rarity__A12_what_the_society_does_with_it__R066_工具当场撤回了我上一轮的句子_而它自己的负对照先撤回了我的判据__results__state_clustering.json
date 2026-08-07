@@ -1,0 +1,37 @@
+{
+ "state_col": "_STATE",
+ "state_candidates": [
+  [
+   "_STATE",
+   52,
+   1.0,
+   78.0
+  ]
+ ],
+ "n_rows": 433323,
+ "n_states": 52,
+ "n_high_missing": 112,
+ "n_module": 0,
+ "n_no_state": 92,
+ "n_undecided": 20,
+ "between_var_full_median": 0.0,
+ "between_var_shuffled_median": 0.00015415364946546006,
+ "world": "W-DAMAGE",
+ "verdict": "W-DAMAGE: \u805a\u96c6 0 / \u65e0\u5173 92 / \u4e0d\u5224 20",
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "inclusion": [
+  "\u5168\u6587\u4ef6\u5355\u904d",
+  "\u9ad8\u7f3a\u5931 = \u8fb9\u9645\u7f3a\u5931\u7387 >=0.90",
+  "\u5dde\u6807\u8bc6\u7531\u53d6\u503c\u7ed3\u6784\u8bc6\u522b"
+ ],
+ "impossible": [
+  "\u300c\u4e0e\u5dde\u65e0\u5173\u300d\u2260\u300c\u635f\u574f\u300d,\u9700\u7801\u672c\u624d\u80fd\u5206",
+  "\u672a\u52a0\u6743",
+  "\u53ea\u7528\u6587\u4ef6\u81ea\u8eab"
+ ],
+ "unchallenged": true
+}

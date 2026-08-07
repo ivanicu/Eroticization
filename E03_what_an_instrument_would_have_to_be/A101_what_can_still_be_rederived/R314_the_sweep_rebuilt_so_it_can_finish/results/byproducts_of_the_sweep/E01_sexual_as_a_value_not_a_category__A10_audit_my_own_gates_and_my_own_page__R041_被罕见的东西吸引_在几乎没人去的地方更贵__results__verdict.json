@@ -1,0 +1,56 @@
+{
+ "all_delays_zero": false,
+ "n_passing_kills": 1,
+ "n_without_floor": 1,
+ "rows": [
+  {
+   "gate": "#433a",
+   "written_in": "R477",
+   "caught_in": "R030",
+   "delay_rounds": null,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#439d",
+   "written_in": "R483",
+   "caught_in": "R033",
+   "delay_rounds": null,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#440b",
+   "written_in": "R484",
+   "caught_in": "R034",
+   "delay_rounds": null,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#444a",
+   "written_in": "R488",
+   "caught_in": "R037",
+   "delay_rounds": null,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#451b",
+   "written_in": "R495",
+   "caught_in": "R037",
+   "delay_rounds": null,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#455b",
+   "written_in": "R499",
+   "caught_in": "R037",
+   "delay_rounds": null,
+   "visible_at_once": true
+  },
+  {
+   "gate": "#475c",
+   "written_in": "R519",
+   "caught_in": "R041",
+   "delay_rounds": null,
+   "visible_at_once": true
+  }
+ ]
+}

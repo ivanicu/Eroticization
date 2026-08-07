@@ -1,0 +1,361 @@
+{
+ "importers": [
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/accumulation_curve.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/acquiescence_attack.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/acquired_vs_liked.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/additivity.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/agent_patient_axis.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/are_blocks_interchangeable.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_each_coordinate.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_the_foundation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/binning_null.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/blocks_or_total_sample.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/breadth_has_no_shape.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/breadth_or_attribution.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/column_kinds.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coord_with_a_validated_measure.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/correlate_scan.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/cv_cca_and_rarity.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/different_framing_same_question.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/disattenuation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/do_factors_reach_excluded_blocks.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_matching_correct_or_just_subsample.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_power_reach_outside.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_substance_reach_outside.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/erotic_covariates.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/escalating_match.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/explode_multiselects.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/gated_tree.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/gcca.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/induction_timing.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/item_margin_done_properly.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/joint_factorisation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/leave_one_block_out.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/manifold_mde.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matching_removed_it.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/modality_invariance.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/named_axis_prediction.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/nestedness.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/non_sexual_variables.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/off_manifold.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/one_structure_or_two.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_beyond_preference.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_census.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_rsa_framing_swap.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/option_census.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/out_of_sample_concentration.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/pc1_transfer.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/placebo_contrast.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/reliability_ceilings.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/residual_spectrum.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/role_variance.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/schema.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/shared_schedule.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/single_interest_power.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/source_or_orientation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/specification_grid.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/svd_naming_failed.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/synthetic_rival_world.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_item_margin.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_unit_is_the_category.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/theta_or_coordinates.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/three_role_axes.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/timing_mde.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/unit_vs_tempo.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/which_pairs_transfer.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/whitened_discriminant.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/why_the_null_tied.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/within_block_vs_cross_domain.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/graded_positive_control.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/is_the_coverage_law_one_point.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/item_person_interaction.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/published_estimand_seed_spread.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/reconcile_max_vs_mean.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/seed_spread_every_headline.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/sweep_K_on_every_deficit.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/triple_matched_resolvability.py",
+  "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/reprice_the_three_axes.py"
+ ],
+ "callers": {
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/accumulation_curve.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/are_blocks_interchangeable.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_each_coordinate.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_the_foundation.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/binning_null.py": [
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/blocks_or_total_sample.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/breadth_or_attribution.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coord_with_a_validated_measure.py": [
+   "16_dimensionality.py",
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/different_framing_same_question.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/disattenuation.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/do_factors_reach_excluded_blocks.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_matching_correct_or_just_subsample.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_power_reach_outside.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_substance_reach_outside.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/erotic_covariates.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/escalating_match.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/gcca.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/item_margin_done_properly.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/manifold_mde.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matching_removed_it.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/modality_invariance.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/off_manifold.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/one_structure_or_two.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_beyond_preference.py": [
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_rsa_framing_swap.py": [
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/shared_schedule.py": [
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/single_interest_power.py": [
+   "33_induction_timing.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/source_or_orientation.py": [
+   "49_additivity.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/specification_grid.py": [
+   "45_theta_nonsexual.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/svd_naming_failed.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/synthetic_rival_world.py": [
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_item_margin.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_unit_is_the_category.py": [
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/theta_or_coordinates.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/three_role_axes.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/timing_mde.py": [
+   "33_induction_timing.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/unit_vs_tempo.py": [
+   "16_dimensionality.py",
+   "24_attack_rsa.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/which_pairs_transfer.py": [
+   "50_additivity_origin.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/within_block_vs_cross_domain.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/graded_positive_control.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/is_the_coverage_law_one_point.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/published_estimand_seed_spread.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/reconcile_max_vs_mean.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/seed_spread_every_headline.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/sweep_K_on_every_deficit.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/triple_matched_resolvability.py": [
+   "16_dimensionality.py"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/reprice_the_three_axes.py": [
+   "16_dimensionality.py"
+  ]
+ },
+ "n_calls": 52,
+ "old_keys": 52,
+ "new_keys": 635,
+ "shared_keys": 0,
+ "rename_edges": 4368,
+ "resolved": {
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/accumulation_curve.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/are_blocks_interchangeable.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_each_coordinate.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_the_foundation.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/binning_null.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/blocks_or_total_sample.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/breadth_or_attribution.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coord_with_a_validated_measure.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coord_with_a_validated_measure.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/different_framing_same_question.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/disattenuation.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/do_factors_reach_excluded_blocks.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_matching_correct_or_just_subsample.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_power_reach_outside.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_substance_reach_outside.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/erotic_covariates.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/escalating_match.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/gcca.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/item_margin_done_properly.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/manifold_mde.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matching_removed_it.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/modality_invariance.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/off_manifold.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/one_structure_or_two.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_beyond_preference.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_rsa_framing_swap.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/shared_schedule.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/single_interest_power.py::33_induction_timing.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/induction_timing.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/source_or_orientation.py::49_additivity.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/additivity.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/specification_grid.py::45_theta_nonsexual.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/non_sexual_variables.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/svd_naming_failed.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/synthetic_rival_world.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_item_margin.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_unit_is_the_category.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/theta_or_coordinates.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/three_role_axes.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/timing_mde.py::33_induction_timing.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/induction_timing.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/unit_vs_tempo.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/unit_vs_tempo.py::24_attack_rsa.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/intensity_leakage.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/which_pairs_transfer.py::50_additivity_origin.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/source_or_orientation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/within_block_vs_cross_domain.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/graded_positive_control.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/is_the_coverage_law_one_point.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/published_estimand_seed_spread.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/reconcile_max_vs_mean.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/seed_spread_every_headline.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/sweep_K_on_every_deficit.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/triple_matched_resolvability.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py",
+  "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/reprice_the_three_axes.py::16_dimensionality.py": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/dimensionality.py"
+ },
+ "unresolved": {},
+ "scripts_fully_resolvable": [
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/accumulation_curve.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/are_blocks_interchangeable.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_each_coordinate.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/attack_the_foundation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/binning_null.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/blocks_or_total_sample.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/breadth_or_attribution.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coord_with_a_validated_measure.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/different_framing_same_question.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/disattenuation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/do_factors_reach_excluded_blocks.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_matching_correct_or_just_subsample.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_power_reach_outside.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_substance_reach_outside.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/erotic_covariates.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/escalating_match.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/gcca.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/item_margin_done_properly.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/manifold_mde.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matching_removed_it.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/modality_invariance.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/off_manifold.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/one_structure_or_two.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_beyond_preference.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/onset_rsa_framing_swap.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/shared_schedule.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/single_interest_power.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/source_or_orientation.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/specification_grid.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/svd_naming_failed.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/synthetic_rival_world.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_item_margin.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/the_unit_is_the_category.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/theta_or_coordinates.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/three_role_axes.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/timing_mde.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/unit_vs_tempo.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/which_pairs_transfer.py",
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/within_block_vs_cross_domain.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/graded_positive_control.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/is_the_coverage_law_one_point.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/published_estimand_seed_spread.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/reconcile_max_vs_mean.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/seed_spread_every_headline.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/sweep_K_on_every_deficit.py",
+  "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/triple_matched_resolvability.py",
+  "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/reprice_the_three_axes.py"
+ ],
+ "controls": {
+  "positive": true,
+  "positive_detail": [
+   "00_schema.py",
+   "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/schema.py",
+   "resolved"
+  ],
+  "negative": true,
+  "negative_detail": "key not in the pre-rename registry either"
+ },
+ "verdict": "**Every one of the 52 LITERAL references, in 50 of the 80 scripts that import the name, is mechanically repairable** — old key -> old path -> today's path, entirely out of git. **The working tree alone does not contain what is needed; the version history does.**\n  ⚠ The other 30 importers build their key at runtime and **this instrument cannot see them** — unseen is not cleared."
+}

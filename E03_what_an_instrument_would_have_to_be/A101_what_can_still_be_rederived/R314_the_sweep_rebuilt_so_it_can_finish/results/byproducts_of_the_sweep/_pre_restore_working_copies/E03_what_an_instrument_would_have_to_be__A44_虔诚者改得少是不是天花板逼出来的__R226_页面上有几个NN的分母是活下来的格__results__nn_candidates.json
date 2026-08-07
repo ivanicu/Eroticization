@@ -1,0 +1,884 @@
+{
+ "zh": [
+  {
+   "value": "12/12",
+   "pos": 3940,
+   "ctx": "0.234**;而随机重贴「性/非性」标签造出的差(**0.106**) **比真实分组的差(0.083)还大**(Entry 662)。  > **在这个格数上,「同号率」分辨不出真实分组与随机分组。** > **那 11–19 个点是真的;而「它是不是性题特有」,这份数据答不了。**  ⚠ 而 `#661` 那个「12/12」本身是用**未定向**的差算的 —— **也就是用它自己上一段刚刚诊断出来的那个缺陷算的。** **我命名了缺陷,然后"
+  },
+  {
+   "value": "4/4",
+   "pos": 13237,
+   "ctx": "— 与我这几轮反复犯的同一族,这次犯在控制自己身上;而脚本按预注册拒绝打印排名,没让我绕过去。** ⇒ **三具仪器现在指向同一个次序,而它们的构念彼此不同**:社会层 SCCS 服从是唯一值钱的(+0.0783,责任只值 +0.0046);人层 MFQ 权威 +0.5001、伤害 +0.0060;人层 GSS 服从 4/4 第一、助人 0.6×。**关怀/伤害那一端在三具仪器上都是零附近。** ⚠ 而 `thnkself` 稳居第二不是独立"
+  },
+  {
+   "value": "6/6",
+   "pos": 18467,
+   "ctx": "*:同一把宗教尺子,**截断样本上 α=0.4804,完整样本上 α=0.7287** ——**那个过滤器缺陷不只是移动了份额,它把量表的内部一致性也砍了**;所以上一行「缺陷是真的、后果小」那句,**只对份额成立,对信度不成立。** ⚠ 而一次意外不是一条规律,所以换仪器重测:MFQ 六题纯洁量表逐题删掉最低档,**6/6 格 α 都下降、ω 同向 ⇒ 方向重现**;**但跌幅只有 −0.015…−0.051,而 GSS 那次是 −0.24"
+  },
+  {
+   "value": "4/4",
+   "pos": 25190,
+   "ctx": ",**而预注册问的是能不能分辨它们** —— 「判词分支测错问题」那一族的又一次,**这次它改变了结论。** ⚠ 回溯到全部 44 格:**10 格(23%)的区间含 1.0**,而按世代分得极干净 —— **1935–54 / 1950–64 / 1955–74 / 1965–79 是 0/30;1975–94 是 4/4;1980–99 是 2/2(中位宽 7.73);1930–49 是 4/8。** ⇒ **一句关于人的话,比上一行更硬"
+  },
+  {
+   "value": "2/2",
+   "pos": 25204,
+   "ctx": "辨它们** —— 「判词分支测错问题」那一族的又一次,**这次它改变了结论。** ⚠ 回溯到全部 44 格:**10 格(23%)的区间含 1.0**,而按世代分得极干净 —— **1935–54 / 1950–64 / 1955–74 / 1965–79 是 0/30;1975–94 是 4/4;1980–99 是 2/2(中位宽 7.73);1930–49 是 4/8。** ⇒ **一句关于人的话,比上一行更硬:在数据看得见的四个世代、3"
+  },
+  {
+   "value": "8/8",
+   "pos": 28459,
+   "ctx": "三分之一」撤回:`r_forced > 1` 意味着天花板一分也没替虔诚者挡,同样的位移本该让他们动得更多(1.37 倍),而他们只动了 0.43;扣掉它之后差距更大,不是更小。** 方向没变,变的是那一项的符号,**而它正是上一轮的头条。** ⚠⚠ **而四题一起看,页面那句话的范围也要缩:** `homosex` 8/8 残差全在 1.0 之下(0.331)· `premarsx` 2/2(0.390)⚠ **分母在 `#786`/`#7"
+  },
+  {
+   "value": "2/2",
+   "pos": 28494,
+   "ctx": "诚者挡,同样的位移本该让他们动得更多(1.37 倍),而他们只动了 0.43;扣掉它之后差距更大,不是更小。** 方向没变,变的是那一项的符号,**而它正是上一轮的头条。** ⚠⚠ **而四题一起看,页面那句话的范围也要缩:** `homosex` 8/8 残差全在 1.0 之下(0.331)· `premarsx` 2/2(0.390)⚠ **分母在 `#786`/`#787` 被更正:四个规格里只有 1 个可读**,那 2 格是同一规格的"
+  },
+  {
+   "value": "4/4",
+   "pos": 29047,
+   "ctx": "* 上一行说 `teensex` 的不可读里可能有一部分只是年数少 —— **那正是「一个被归因给机制的结果,可能只是功效」的形状。** 配对着查:同一道题、同一批人、同一具机器,**只动年份集合**。`teensex` 实测是 **21 个年份点(1986–2024)**。把 `homosex` 截到同一个窗口:**4/4 仍可读**;再取最早 21 点(把「点数」与「哪一段年代」分开):**还是 4/4**。三个窗口下比值 0.31–0."
+  },
+  {
+   "value": "4/4",
+   "pos": 29089,
+   "ctx": "「一个被归因给机制的结果,可能只是功效」的形状。** 配对着查:同一道题、同一批人、同一具机器,**只动年份集合**。`teensex` 实测是 **21 个年份点(1986–2024)**。把 `homosex` 截到同一个窗口:**4/4 仍可读**;再取最早 21 点(把「点数」与「哪一段年代」分开):**还是 4/4**。三个窗口下比值 0.31–0.48。⇒ **`teensex` 的不可读不是 21 个点造成的,上一行那半句站得住"
+  },
+  {
+   "value": "2/2",
+   "pos": 29216,
+   "ctx": ";再取最早 21 点(把「点数」与「哪一段年代」分开):**还是 4/4**。三个窗口下比值 0.31–0.48。⇒ **`teensex` 的不可读不是 21 个点造成的,上一行那半句站得住。** ⚠⚠ **而顺手逮到的是上一行自己表里的一个分母**:它报「`premarsx` 可读 2 格 · 全在 1.0 之下 2/2」,读起来像一致 —— **实测四个规格里只有一个可读**,那两格是同一规格的两种连接函数。**「2/2」的分母是活下来"
+  },
+  {
+   "value": "2/2",
+   "pos": 29268,
+   "ctx": "0.48。⇒ **`teensex` 的不可读不是 21 个点造成的,上一行那半句站得住。** ⚠⚠ **而顺手逮到的是上一行自己表里的一个分母**:它报「`premarsx` 可读 2 格 · 全在 1.0 之下 2/2」,读起来像一致 —— **实测四个规格里只有一个可读**,那两格是同一规格的两种连接函数。**「2/2」的分母是活下来的格,不是尝试过的格。** 而换一个年份窗口之后,`premarsx` 唯一可读的那一格是 **1.90"
+  },
+  {
+   "value": "8/8",
+   "pos": 35940,
+   "ctx": "值的回归」。** 我造它是为了把「丢不丢个体」与「年份等权 vs 人等权」拆开,**而它们在这个设计里根本不是两件事。** 一个不可能出别的结果的臂不是一次测量 —— 如实标注为推导。⚠ **同上,本段的「三堆成员一个都没换」在 `#797` 之后同样是「不可分辨划分的稳定性」** —— 本段关于**估计量**的结论(8/8 落在区间内、第三臂是恒等式)**完全不受影响**,受影响的只有「三堆」这个被检验对象的名字。`[#796「三堆不是逐年"
+  },
+  {
+   "value": "8/8",
+   "pos": 36144,
+   "ctx": "对象的名字。`[#796「三堆不是逐年取均值取出来的;而我那三个估计量其实是两个」]`。 ⚠⚠ **而连着两轮确认三堆稳健就是一个 basin,所以下一轮故意去撞页面中心里最软的那一块 —— 结果撞塌了。** 起点是更正我自己:`#791` 报的「组间 16/20 可分辨」把三条边界并在一起数了。逐条拆开:**顶/中 8/8 · 顶/底 4/4 · 而中/底只有 4/8** —— `suicide2` 与 `teensex` 跟两个底题一个都"
+  },
+  {
+   "value": "4/4",
+   "pos": 36154,
+   "ctx": "96「三堆不是逐年取均值取出来的;而我那三个估计量其实是两个」]`。 ⚠⚠ **而连着两轮确认三堆稳健就是一个 basin,所以下一轮故意去撞页面中心里最软的那一块 —— 结果撞塌了。** 起点是更正我自己:`#791` 报的「组间 16/20 可分辨」把三条边界并在一起数了。逐条拆开:**顶/中 8/8 · 顶/底 4/4 · 而中/底只有 4/8** —— `suicide2` 与 `teensex` 跟两个底题一个都分不开。⇒ 然后问两"
+  },
+  {
+   "value": "8/8",
+   "pos": 40899,
+   "ctx": "2.93×)。**  **而 `#801` 立刻暴露了一件更大的事:整页发表过八题的比值 `r`,却从来没有报过任何一题的「两层差距」。** `r` 说的是**谁动得快**;差距说的是**他们离得近了还是远了** —— 而**同一个 `r` 兼容两种关于人的相反故事**。八题的差距(虔诚 − 非虔诚,两个规格方向一致 8/8)是:**缩 3/8,扩 5/8**。**而在同性恋这道题上 —— 整个项目一直围着转的那一道 —— 鸿沟不是在合,是翻"
+  },
+  {
+   "value": "6/6",
+   "pos": 43136,
+   "ctx": "数的 61 个社会,它降到 +0.2549 而零升到 0.2555,不再站得住**(Entry 701);⚠ 跨项目基线约 0.105;⚠ 婚外性与婚前限制的码不可序(Entry 700 · 701) 〔SCCS〕 ⟨—⟩| | **怎么管孩子是一条「施加↔温暖」的轴,而这形状不是 halo** | 六对预测符号 **6/6 命中**;统计量 **+0.3243** vs halo 零 95% 分位 **+0.1231** | 打与讲道理一头"
+  },
+  {
+   "value": "5/5",
+   "pos": 45095,
+   "ctx": "6、相关度匹配的 sham 1.164 ⇒ 不对称是实的;⚠ 两侧同号 ⇒ 不是「教育=自由派」的换词;⚠ ρ(educ,立场)=+0.3555 是**先行研究**,非本项目发现(Entry 686 · 687) 〔GSS〕 ⟨18.46⟩| | **是教育,不是世代** | cohort 五格内 educ Δ 同号 5/5,中位 **+0.0718 = 整体 93%** | 沿 cohort 自身只有 +0.0382;安慰剂 +0.0208"
+  },
+  {
+   "value": "7/7",
+   "pos": 45415,
+   "ctx": ",对性和安乐死更分裂** | 容忍题熵 **−0.64…−0.10**;性四题 **+0.22…+0.27** | 30 题两端标准化熵,Δ 中位 −0.1156,仅 12/30 上升(Entry 682) 〔GSS〕 ⟨—⟩| | ⛔ ~~教育把性与堕胎、安乐死推开 —— 分化~~ **方向反了,见下行** | ~~7/7 全负~~ | **Entry 679 的负号是编码极性,Entry 680 已对齐重立** ° 〔GSS〕 ⟨—⟩| "
+  },
+  {
+   "value": "10/10",
+   "pos": 53085,
+   "ctx": "了,是尺子到头了** ⇒ **换估计量不换仪器**:把 1–4 作答看成潜在连续量被三阈值切开(有序 probit,**阈值全样本估一次并固定、方差固定为 1,逐格只估 μ 一个参数**)⇒ **μ 不受 1–4 边界约束**,在 μ 上重算**整张网格**而非只重算受威胁那格 | **十格与 `#838` 结论一致 10/10**;1990s 世俗层潜在 **+0.5436 [+0.372,+0.725] 排零**(均值尺 +0.6266)· "
+  },
+  {
+   "value": "3/3",
+   "pos": 69833,
+   "ctx": "=男 n=4,209 **+0.0655**(地板 0.1038,未超)· 性别=女 n=7,308 **+0.0771**(地板 0.0813,未超)· 九十年代偶数年 n=10,892 **+0.0720**(地板 0.0676,**超**)· **奇数年不可用**(十年内合格年数不足)⇒ 可用 3/4 · 同号 3/3 · 超自身地板 **1/3**;⚠ **「三个半样本全同号」看起来像支持而它不是** —— **同号在没有功效的设计里"
+  },
+  {
+   "value": "12/12",
+   "pos": 85486,
+   "ctx": "56` 的教训当场执行);**12 格全报**:1990s 发言 −0.319/−0.413 · 教书 −0.349/−0.504 · 图书馆 −0.258/−0.380;2010s 发言 −0.683/−0.808 · 教书 −0.715/−0.883 · 图书馆 −0.536/−0.658(均值尺/潜在尺)⇒ **12/12 显著为负,全部超安慰剂地板 0.0713**,判词 **OVERTURNED**,`Gate.admissible()"
+  },
+  {
+   "value": "12/12",
+   "pos": 87135,
+   "ctx": "offset_control`**,**零的种类写死**:`独立零 = 同年同层的边际放行率(不是 0)`,零分布由**打乱「谁说错」标签**给出(400 次),实测 **offset 距独立零 11.6 个自身展布** | **站得住的**:`p(放行\\|说错)` **全格平均 66.4%**,offset 在 **12/12** 格显著为负;2010s 教书:虔诚层说错的人里 **73.3%** 说可以让他教,世俗层 **70.0%**;⚠⚠"
+  },
+  {
+   "value": "6/6",
+   "pos": 87500,
+   "ctx": ".8×,而观测 offset 层间比 2.9× ⇒ 几乎全是基率** ⇒ 改用不被基率压缩的 `Δ = p(放行\\|说错) − p(放行\\|没说错)`:**虔诚 −0.274 · 世俗 −0.275,三位小数上一样**;⚠⚠ **而判据缺的是第四样东西,与前三次都不同**:按预注册**字面阈值** C 本来会开火(**6/6 对超地板 0.0108**),**可 Δ 之差的符号在两个十年之间翻转**(1990s 虔诚更负,2010s 反过来)"
+  },
+  {
+   "value": "6/6",
+   "pos": 88642,
+   "ctx": " | ⚠ **作用域**:本项目自己的闸,与 `homosex`/`samesex` 那条作用域无关。**还 `#859`①** —— `#859` 的 kill 写的是「两层之差超地板 ≥ 半数 ⇒ 脱钩程度分层」,**阈值有了、尺有了(`#836`①)、总体有了(`#854`)、分支也有了(`#856`),而实测 6/6 对都超地板、判词却是错的:那个差的符号在两个十年之间翻转了** | `lib/gates.py` 的 `asserte"
+  },
+  {
+   "value": "6/6",
+   "pos": 90073,
+   "ctx": "现**(残差 **5.55e-17**)⇒ **和是恒等式,分法才是测量**(`#838` 同一条) | **道德分量**:发言 −0.317 [−0.394,−0.237] / 潜在 −0.391 [−0.513,−0.255];教书 −0.318 / −0.391;图书馆 −0.315 / −0.386 —— **6/6 超地板 0.0824、全部排零、方向一致**;**制裁分量**:+0.047 · +0.004 · +0.048 · "
+  },
+  {
+   "value": "12/12",
+   "pos": 91415,
+   "ctx": "「是道德先松还是制裁先松」;③ 两个十年之间**问卷模式与抽样框可能变**,而它**对两个分量是共同的**(同一批人同一份问卷)⇒ **对「哪一边动」无害,对「变了多少」有害** ⇒ **只报哪一边,不把绝对量当社会变迁的度量**;⚠ **不要把「制裁缝没动」读成「制裁上没有分歧」** —— 它一直存在(`#858`:12/12 格),**只是它的宽度这三十年没变**⟩| | **制裁那一侧的主轴不是宗教,是教育:六个格子,无一例外** | ⚠ "
+  },
+  {
+   "value": "6/6",
+   "pos": 92355,
+   "ctx": "0.516** · 教书 −0.339 / **+0.519** · 图书馆 −0.507 / **+0.550**(政治 −0.115~−0.220 · 年龄 −0.247~−0.466 · 地区 −0.211~−0.307 · 种族 −0.004~+0.300 · 性别 −0.089~+0.026)⇒ **教育在 6/6 格里 `|g|` 最大,宗教 0 格**,判词 **OVERTURNED**,`Gate.admissible()`="
+  },
+  {
+   "value": "6/6",
+   "pos": 92436,
+   "ctx": "−0.247~−0.466 · 地区 −0.211~−0.307 · 种族 −0.004~+0.300 · 性别 −0.089~+0.026)⇒ **教育在 6/6 格里 `|g|` 最大,宗教 0 格**,判词 **OVERTURNED**,`Gate.admissible()`=**True**;⚠ **而排名是 6/6,边际不是**:「最大−次大」在 **2/6** 格里落在地板 **0.0547** 之内(最小 +0.035)⇒ **"
+  },
+  {
+   "value": "12/12",
+   "pos": 93831,
+   "ctx": "#862`①** —— `#862` 的判词第一版多写了半句「在『这样对不对』上把美国人分开的是信仰」,**当场删掉了**,因为那半句来自 `#834`,而 **`#834` 比的是「偏离自己的匀速参照」,不是「缝的水平」** —— 两个不同的估计量;本轮用**与 `#862` 逐字相同的构造**补上 | **宗教在 12/12 个道德格里 `|g|` 最大,次多的轴 0 格**(均值尺 1970s −0.635 → 2010s −1.053;潜"
+  },
+  {
+   "value": "4/4",
+   "pos": 93982,
+   "ctx": " | **宗教在 12/12 个道德格里 `|g|` 最大,次多的轴 0 格**(均值尺 1970s −0.635 → 2010s −1.053;潜在尺 2010s −1.370);同一次运行里**制裁 28/30 格是教育** ⇒ **`#862` 在修好的地板下、多了四个十年之后仍然成立**;**跨仪器 NSFG 4/4 格主轴也是宗教**(2018 均值尺 宗教 −0.861 · 教育 +0.353 · 种族 +0.337 · 年龄 −"
+  },
+  {
+   "value": "33/33",
+   "pos": 94360,
+   "ctx": "**BH 活而 BY 死的 9 格一起发表**;② **拿「最大−次大」去比一个为「单个 `|g|`」造的地板** —— 两个不同的量 ⇒ 本轮**为边际单造零分布**(七轴同一次置换,保留轴间相关);③ **用一个全局地板 0.0547 去量七种几何**,而 `educ` 三分位是 36.8%/42.1%(**不是 33/33,重并极多**)、`polviews` 32.4%/64.1%、`种族` 75.3%/15.6%、`sex` 50/50"
+  },
+  {
+   "value": "50/50",
+   "pos": 94420,
+   "ctx": " 两个不同的量 ⇒ 本轮**为边际单造零分布**(七轴同一次置换,保留轴间相关);③ **用一个全局地板 0.0547 去量七种几何**,而 `educ` 三分位是 36.8%/42.1%(**不是 33/33,重并极多**)、`polviews` 32.4%/64.1%、`种族` 75.3%/15.6%、`sex` 50/50 ⇒ 本轮每格自己的置换地板,**跨度 0.0316–0.1454,最宽是最窄的 4.6 倍**;④ **把 `Δg` "
+  },
+  {
+   "value": "34/34",
+   "pos": 95171,
+   "ctx": "ing **2.0399**;**保留率 84.2% · MDE 0.12** —— **`G2` 明写要报这两个而 `#862` 一个都没报**;⑤ 负控打乱宗教标签 **0.0526 ≤ 该格地板 0.0540**;⑥ **安慰剂 = `ballot`(GSS 自己随机分配的问卷版本,真实变量不是我的 rng)⇒ 34/34 格落在自己地板内**;⑦ kill 没过,`direction` **一致 [1]**;**仪器交换的规范检验** `"
+  },
+  {
+   "value": "42/42",
+   "pos": 96442,
+   "ctx": "/6` 是恒等式不是两个测量**,机器上验过(ρ=0.2/0.4/0.6,`η²÷(g²/6)` = **1.0000 / 1.0000 / 1.0000**,n=4e6)⇒ **「换成方差份额」在正态世界里是同一个数换了个写法,真正的测量是 `R = η²÷(g²/6)` 偏离 1 有多远** | **① 主轴排名 42/42 格完全一致** —— η²(用 100% 的人)与 `|g|`(用 68%)选出同一根主轴,无一例外 ⇒ **`#86"
+  },
+  {
+   "value": "34/34",
+   "pos": 97602,
+   "ctx": "读法错误,两处都是把「控制通过」读成了「仪器好」**:① **`#863` 的正控植入方向是抵消不是植入** —— 宗教 `g<0`,往高组加 +0.30 是把两组**拉近**,`Δg=+0.1782` 是效应被**削掉**的量而文字写成「植入」(灵敏度那一半成立,方向那一半的措辞错);② **`#863` 的安慰剂 34/34 被读成「干净」** —— 95 分位地板套 34 格**期望就有 1.7 个越界**,`P(X=0)=0.175`,而"
+  },
+  {
+   "value": "6/6",
+   "pos": 102934,
+   "ctx": ":`#821`/`#836` 坏在**尺**(kill 的尺是种子散布 0.016,而那个量自己的噪声 0.175)⇒ 补 `yardstick`;`#854` 坏在**总体**(kill 写成「任一仪器三轴全过」,主张已经住在里面的 GSS 自己过了)⇒ 补 `population`;`#859` 坏在**方向**(6/6 都超地板,而那个差的符号在两个十年之间翻转)⇒ 补 `direction`;**`#866` 坏在第四个部件:控制的总"
+  },
+  {
+   "value": "25/25",
+   "pos": 104400,
+   "ctx": " ⇒ **「残差为零」只能说「两层一样多」,不能说「没有」** | **正确的量不是一个差:`φ = Var(R) ÷ Σp(1−p)`,题间独立时代数上恰为 1**(合成验证 τ=0→**1.0021** · τ=0.6→**1.1209** · τ=1.2→**1.3891**);**实测 φ 中位 2.0713,25/25 格超出自己的置换零**(置换零中位 **1.0001**)⇒ kill `OVERTURNED`;逐靶:同性恋 2.1"
+  },
+  {
+   "value": "5/5",
+   "pos": 104814,
+   "ctx": "74**,**单调**,τ=0 恰好不动,**MDE τ=0.25**;④ 负控 **1.0161** ≤ 地板 1.0232(⚠ **「这个零该不该是 1?」该 —— 这是代数不是约定**);⑤ 安慰剂 `ballot` 越界 **0/20**;⚠ **`#867` 刚补的那条第一次开火**:闸打出 **`控制总体:5/5 条已命名,与判据同一总体`** —— **上一轮正是死在这里**;⚠⚠ **而 `Δφ` 那一半答不了,理由是量出来的"
+  },
+  {
+   "value": "38/38",
+   "pos": 107461,
+   "ctx": "S` 是一条规则却不以行内 `!=` 的形状出现」* —— **写下来时是防御性的一句话,跑起来它就是那个 bug**,排头是 **`biomale`,32 个轮次脚本**;⚠⚠⚠ **而它不只是「还没搬」,它已经死了一半**:同一段发现规则在 `E01` 有 **38 份逐字相同的拷贝**(`uniq -c` 查过 38/38 一致),**而那行 `if c!='biomale'  # 剔除:它是协变量` 只在 32 份里** ⇒ **8 份只"
+  },
+  {
+   "value": "5/5",
+   "pos": 109839,
+   "ctx": "` ⇒ **0.14°**(⚠ **「这个零该不该是零?」不该是 0,该是「一道真题的量级」** —— 加一列总会转一点,**打乱后剩下的正是「加了一列」这件事本身**);⑤ 安慰剂(独立 Bernoulli(0.5),把「二值+方差」减掉)⇒ **0.15°**;⚠ **`#867` 那条第二次开火**:`控制总体:5/5 条已命名,与判据同一总体`;⇒ **决定性的一条不是转角,是相关**:**前两根成分的人层得分与「是不是男的」相关 0"
+  },
+  {
+   "value": "5/5",
+   "pos": 112362,
+   "ctx": "ind: these gates CAN be moved by a single column, `biomale` simply did not move them**; controls — negative: an unmodified script run twice is **byte-identical 5/5** (⚠ **\"should this zero be zero?\" YES**, these scripts pri"
+  },
+  {
+   "value": "5/5",
+   "pos": 112647,
+   "ctx": "they* assert); positive: a real-item injection changes the output in **23/25** cells while a **no-op injection dropping a non-existent column is byte-identical 5/5** (`G2`: a control that can fail); multiplicity over **30**"
+  },
+  {
+   "value": "35/35",
+   "pos": 118069,
+   "ctx": "ation**; **kind of null: neither a permutation nor zero — the no-op injection**, an inserted line dropping a column that does not exist; it is byte-identical **35/35** and flips **0** decisions, which is what kills the meta-w"
+  },
+  {
+   "value": "10/10",
+   "pos": 131953,
+   "ctx": "一层已经走到 3.49,而量表最高只有 4。** 一个贴着天花板的层,它「慢下来」可能根本不是它慢了,是尺子到头了 —— 若如此,「信教的人追上来」就有一部分是假象。⇒ 于是换一把**没有上端的尺子**:把四档作答看成一个潜在连续量被三个阈值切开,阈值五十年固定,逐格只估一个位置参数。**十个格子,和上一轮的结论一致 10/10。** 九十年代世俗层 +0.54、二〇一〇年代虔诚层 +0.34,都仍然排除零。⚠⚠ **而最该带走的一条是:天花板偏"
+  },
+  {
+   "value": "6/6",
+   "pos": 142652,
+   "ctx": "by`·`fdr`·`multiplicity`·`多重性`)⇒ **规矩只活在技能文本里,而那等于不存在**(与 `#795`/`#804`/`#811`/`#815` 同一条路,**第五次**)⇒ 加 `Gate.bh` / `Gate.by` / `Gate.multiplicity_control`,**回测 6/6**;② `grep` 实测「二十五笔欠账仍在」在账本中出现 **25 次**,从 `#800` 抄到 `#825` *"
+  },
+  {
+   "value": "10/10",
+   "pos": 145210,
+   "ctx": "存活集里有 `q` 比例是假的(P6 安全侧:只报「没存活」)⟩ ⚠⚠ **`#832` 追加**:这一行的「两格存活」里,**只有 `homosex`/1990s 是家族无关的** —— `#832` 扫了从没扫过的「家族定义」这条轴(62 格 × 五种族 × BH/BY = 10 个组合):**1990s 那一格 10/10 全存活(含最宽的 62 格族配最保守的 BY);而 `homosex`/2000s 在窄族下存活、在 62 格族与 `"
+  },
+  {
+   "value": "5/5",
+   "pos": 146319,
+   "ctx": "关于我自己的读法的:我一直在一张三十多格的网格上找「哪几个十年不寻常」,而一张这么大的网格,纯靠运气就会给出一两个「不寻常」。我数了标记,却从来没有减掉运气该给的那一份。** `[#825「负控失败在 5.9%」]`(Entry 825) 〔GSS〕 ⟨正控:位移全集中在 `homosex` 1990s ⇒ 该格 **5/5** 种子被标记,仪器会开火;⚠ 前提:**两个 `B` 都跑并同时报边界距离** ⇒ 翻转 0 而边界距离不变,**证"
+  },
+  {
+   "value": "4/4",
+   "pos": 162990,
+   "ctx": "h` 给了 ⇒ 打印 `tol ÷ noise` 并**在容差窄于噪声时直接判失败**(⚠ 那不是「这两个量不同」,是「**这条检查没有资格回答**」);`deterministic=True` ⇒ 确定性量,噪声不适用;**两者都不给 ⇒ 行里带显眼的 `⚠ 噪声未量` 标记**;**回测 4 例、答案事先已知 ⇒ 4/4**(`#805` 那条 0.08/0.35 ⇒ **抓住并打印 0.23×**;容差放到 0.40 ⇒ 通过,1.14"
+  },
+  {
+   "value": "7/7",
+   "pos": 168525,
+   "ctx": "零」缺的不是一个分支,是一个我从没说出口的输入** | **`Gate.interval_verdict(lo, hi, reference, matters)`** 三值:`EXCLUDES` · `TIGHT_NULL`(测出来约等于没变)· `UNRESOLVED`(测不出);**回测 7 例、答案事先已知 ⇒ 7/7**(`#810` NSFG [−0.0887,+0.0959] 门槛 0.17 ⇒ **TIGHT_NULL**;同门"
+  },
+  {
+   "value": "8/8",
+   "pos": 173866,
+   "ctx": "`#806` 里 `explained` 炸到 ±7~±31 的那三题** —— 两轮从两个方向看到同一件事:`Δgap` 小 ⇒ ①做分母时把噪声放大成两位数 ②用低功效端点规格读不出来;⚠ **分歧的原因是功效不是方向**(`raw` 只用 2 年、`fit` 用 19–28 年,而 `#802` 已测过方向一致 8/8)—— **不要把功效差异读成矛盾**;⚠⚠ **两处自己的错,当轮记下**:① **汇总逻辑漏了一个桶** —— 三档"
+  },
+  {
+   "value": "2/2",
+   "pos": 179553,
+   "ctx": "803` 又建了一遍** ⇒ 变成 `lib/gates.py` 里的 `Gate.headroom()` + `Gate.headroom_control()`(`HEADROOM_MAX = 0.30`,进 `_control_rows` ⇒ 直接压 `admissible()`);**回测 4 例、答案事先已知:2/2 该抓的抓住(`#801` 修前 181.8% · `#803` `fit` 定标=非虔诚 89.8%),2/2 该过的"
+  },
+  {
+   "value": "2/2",
+   "pos": 179609,
+   "ctx": "`Gate.headroom_control()`(`HEADROOM_MAX = 0.30`,进 `_control_rows` ⇒ 直接压 `admissible()`);**回测 4 例、答案事先已知:2/2 该抓的抓住(`#801` 修前 181.8% · `#803` `fit` 定标=非虔诚 89.8%),2/2 该过的过(30.0% · 21.8%)**;⚠ **而它对两格我没判过的格子给出新判定**(`raw` 定标=非虔诚 "
+  },
+  {
+   "value": "8/8",
+   "pos": 183475,
+   "ctx": "D ⇒ 触发换方向规则,交互这条线就此挂起**(Entry 773) 〔GSS〕 ⟨原始 spread **0.8×** 自己的高斯零;端点占比 **60.9%** 对预注册的 60%⟩| | **五条鸿沟在裂,三条在合;而同性恋那条翻了三倍** | **八题的两层差距(虔诚 − 非虔诚),拟合端点,两个规格方向一致 8/8**:`homosex` **−0.183 → −0.550**(÷跨度;绝对值 −0.549 → −1.651,约三倍"
+  },
+  {
+   "value": "8/8",
+   "pos": 184800,
+   "ctx": "登记为本设计测不了,且不许后来者拿本轮的数去做那个回归**(Entry 802) 〔GSS〕 ⟨负控 `identity_control` 参照 **0.300000 不是 0**,|0.300000−0.300000| = 0;正控 0.0 → +0.300 判「扩」;⚠ **这些差距没有区间** —— 两规格一致 8/8 是稳健性的一点证据,**不是区间**,如实记为 `#783` 那条规矩的欠账;⚠ 各题年份跨度 28–50 年不等 ⇒"
+  },
+  {
+   "value": "8/8",
+   "pos": 188849,
+   "ctx": "192 [+1.206,+4.862] · `racmar` +1.841 [+1.538,+2.263]);六题里仅 `homosex`·`suicide2`·`spanking` 排除 0 | ⚠⚠ **起点是更正我自己**:`#791` 的「组间 16/20」把三条边界并在一起数了 —— 逐条拆开是 **顶/中 8/8 · 顶/底 4/4 · 中/底 只有 4/8**(`suicide2`·`teensex` 与两个底题一个都分不开);"
+  },
+  {
+   "value": "4/4",
+   "pos": 188859,
+   "ctx": "6,+4.862] · `racmar` +1.841 [+1.538,+2.263]);六题里仅 `homosex`·`suicide2`·`spanking` 排除 0 | ⚠⚠ **起点是更正我自己**:`#791` 的「组间 16/20」把三条边界并在一起数了 —— 逐条拆开是 **顶/中 8/8 · 顶/底 4/4 · 中/底 只有 4/8**(`suicide2`·`teensex` 与两个底题一个都分不开);⚠⚠ **而 `#7"
+  },
+  {
+   "value": "8/8",
+   "pos": 189795,
+   "ctx": "**1.815** · `spanking` 0.462→0.450 · `suicide2` 0.410→0.409 · `homosex` 0.409→0.408 · `teensex` 0.364→0.328 · `prayer` 0.126→0.051 · `helpblk` 0.105→0.013 —— **8/8 落在 `agg` 的年份聚类自助区间内,三堆成员一个都没变** ⚠ **而「三堆」在 `#797` 撤回 ⇒ 本行成立"
+  },
+  {
+   "value": "8/8",
+   "pos": 190683,
+   "ctx": "+0.383,+0.586] · `suicide2` [+0.301,+0.593] · `homosex` [+0.349,+0.454] · `teensex` [+0.057,+0.521] · `prayer` [−0.211,+0.321] · `helpblk` [−0.642,+0.351] —— **8/8 落在内**;正控:植入 r=0.40 三估法都取回 **+0.383**,g=0 时都回到 **1.0057**⟩ ⚠"
+  },
+  {
+   "value": "8/8",
+   "pos": 191838,
+   "ctx": "acmar` 1.84→**1.80** · `spanking` 0.46→0.49 · `suicide2` 0.41→0.45 · `homosex` 0.41→0.35 · `teensex` 0.36→0.29 · `prayer` 0.13→−0.05 · `helpblk` 0.10→0.08 —— **8/8 题的移动都没超过它自己的自助宽度,三堆原样存活** ⚠ **同上:`#797` 撤回「三堆」之后,本行成立的是「分层线"
+  },
+  {
+   "value": "8/8",
+   "pos": 192360,
+   "ctx": "序数题的 z 均值,边界上大量并列** —— 修好后 |差| **恰为 0.0000**;⚠ 本轮用「移动 vs 它自己的自助宽度」控噪,**但绝对门槛下虔诚层随时间萎缩、宽度被撑大 ⇒ 这条检验偏向「没动」**,如实标注(Entry 794) 〔GSS〕 ⟨漂移 −0.302 SD 超过预注册的 0.25 门槛;**8/8 在宽度内**⟩ ⚠ **而 `#806` 之后要带着一句:这套「共同位移」对照对顶对**够不着**,两条定标臂都超过 "
+  },
+  {
+   "value": "4/4",
+   "pos": 197454,
+   "ctx": "套「共同位移」对照对顶对**够不着**,两条定标臂都超过 30% 可达幅度(`sexeduc` 42%/31% · `racmar` 72%/71%)⇒ 零个可用格,**结构性不可能,不是欠账**。**| | **同一道题只动年份集合,而同性恋那条在三个窗口下纹丝不动** | `homosex` 全跨度 28 点 **4/4 可读**(0.409–0.461)· 截到 `teensex` 的窗口 20 点 **4/4**(0.417–0.47"
+  },
+  {
+   "value": "4/4",
+   "pos": 197501,
+   "ctx": " 42%/31% · `racmar` 72%/71%)⇒ 零个可用格,**结构性不可能,不是欠账**。**| | **同一道题只动年份集合,而同性恋那条在三个窗口下纹丝不动** | `homosex` 全跨度 28 点 **4/4 可读**(0.409–0.461)· 截到 `teensex` 的窗口 20 点 **4/4**(0.417–0.476)· 最早 21 点 **4/4**(0.311–0.382)。`teensex` 实测是 "
+  },
+  {
+   "value": "4/4",
+   "pos": 197531,
+   "ctx": "零个可用格,**结构性不可能,不是欠账**。**| | **同一道题只动年份集合,而同性恋那条在三个窗口下纹丝不动** | `homosex` 全跨度 28 点 **4/4 可读**(0.409–0.461)· 截到 `teensex` 的窗口 20 点 **4/4**(0.417–0.476)· 最早 21 点 **4/4**(0.311–0.382)。`teensex` 实测是 **21 个年份点(1986–2024)**,不是 38 —"
+  },
+  {
+   "value": "4/4",
+   "pos": 197721,
+   "ctx": "测是 **21 个年份点(1986–2024)**,不是 38 —— 跨度 38 年、点数 21 | ⚠ 配对设计:同一道题、同一批人、同一具机器,**只动年份集合**,所以可读性的变化只能来自年份集合;⚠ 跑前写下的混淆「截短同时改了点数与年代」有它自己的第三臂(最早 21 点)—— `homosex` 在那里也是 4/4;⚠⚠ **而本轮顺手逮到上一行自己表里的一个分母**:上一行报「`premarsx` 可读 2 格 · 全在 1.0 "
+  },
+  {
+   "value": "2/2",
+   "pos": 197789,
+   "ctx": "同一具机器,**只动年份集合**,所以可读性的变化只能来自年份集合;⚠ 跑前写下的混淆「截短同时改了点数与年代」有它自己的第三臂(最早 21 点)—— `homosex` 在那里也是 4/4;⚠⚠ **而本轮顺手逮到上一行自己表里的一个分母**:上一行报「`premarsx` 可读 2 格 · 全在 1.0 之下 **2/2**」,读起来像一致 —— **实测四个规格里只有 1 个可读**,那 2 格是同一规格的两种连接函数,**「2/2」的"
+  },
+  {
+   "value": "2/2",
+   "pos": 197847,
+   "ctx": "自己的第三臂(最早 21 点)—— `homosex` 在那里也是 4/4;⚠⚠ **而本轮顺手逮到上一行自己表里的一个分母**:上一行报「`premarsx` 可读 2 格 · 全在 1.0 之下 **2/2**」,读起来像一致 —— **实测四个规格里只有 1 个可读**,那 2 格是同一规格的两种连接函数,**「2/2」的分母是活下来的格,不是尝试过的格**;而**换一个年份窗口后,`premarsx` 唯一可读的那一格是 1.902 "
+  },
+  {
+   "value": "12/12",
+   "pos": 198031,
+   "ctx": "而**换一个年份窗口后,`premarsx` 唯一可读的那一格是 1.902 [1.004, 3.261] —— 在 1.0 之上,指向相反方向** ⇒ **「同性恋与婚前性」里 `premarsx` 那一半降级,`homosex` 那一半不变而更硬**(Entry 786) 〔GSS〕 ⟨`homosex` 三窗口 12/12 可读;`premarsx` 全跨度 1/4 · 截短 1/4 · 最早 2/4⟩| | **不是一条关于性道德的规律,"
+  },
+  {
+   "value": "8/8",
+   "pos": 198402,
+   "ctx": " 91 条主张的**完整枚举**确认了:**受这次推翻影响的只有这一行** —— 其余用同一切法的十一条承载的是**别的估计量**(教育效应 · 领域内聚 · 面结构),多数在别的仪器上 | 四题 × 两分层 × 两统计量 × 两连接 = **可读 14 格 · 不可读 9 格(全部列出)**。`homosex` **8/8** 残差区间全在 1.0 之下(中位 **0.331**)· `premarsx` **2/2**(0.390)· `"
+  },
+  {
+   "value": "2/2",
+   "pos": 198450,
+   "ctx": "的十一条承载的是**别的估计量**(教育效应 · 领域内聚 · 面结构),多数在别的仪器上 | 四题 × 两分层 × 两统计量 × 两连接 = **可读 14 格 · 不可读 9 格(全部列出)**。`homosex` **8/8** 残差区间全在 1.0 之下(中位 **0.331**)· `premarsx` **2/2**(0.390)· `teensex` **0/4**(全部含 1.0,而它虔诚层端点占比最高 0.823、逼出的比 "
+  },
+  {
+   "value": "17/17",
+   "pos": 200541,
+   "ctx": "己的配对器单位盲** —— 第一版按**数值**把已发表的数对到 44 格上,于是合并版的 `0.328` 对上了一个**世代格**、`0.375` 是**整个网格的中位数**却被当成一个格,加上 `unit` 之后可对格的从 14 掉到 9,**纯数值会误配 5 个**;⚠ 抽取器先回测:**recall 1.00(17/17)· precision 0.74(17/23)**,11 个预列诱饵捞到 5 个,**还有 1 个两边都没预料到:`0"
+  },
+  {
+   "value": "28/28",
+   "pos": 200946,
+   "ctx": "多少个**;⚠ 而第二臂第一版被自己的正控打掉(手搓复现不出 0.5645),查下去发现 **`0.5645` = 归一 ρ + 逐面中位、`0.5856` = 生 |ρ| + 200 对合并 —— 页面并排写的这两个数差了两个自由度**(Entry 783) 〔GSS + MSSCQ〕 ⟨合并四格自助 B=4000,28/28 年;并集 [0.241, 0.568] 对点估计跨度 [0.328, 0.431] = **3.2×**;MSSCQ "
+  },
+  {
+   "value": "4/4",
+   "pos": 201275,
+   "ctx": "0.561, 2.851],宽 2.29 —— 同时包含 1.0、0.623、0.821** ⇒ 它连「比值在 1 的哪一边」都定不了;回溯到全部 44 格:**10 格(23%)区间含 1.0**,而按世代 **1935–54/1950–64/1955–74/1965–79 是 0/30**,**1975–94 是 4/4**、**1980–99 是 2/2**(中位宽 7.73)⚠ **这两个分母在 `#787` 被更正**:它们是**算"
+  },
+  {
+   "value": "2/2",
+   "pos": 201293,
+   "ctx": "29 —— 同时包含 1.0、0.623、0.821** ⇒ 它连「比值在 1 的哪一边」都定不了;回溯到全部 44 格:**10 格(23%)区间含 1.0**,而按世代 **1935–54/1950–64/1955–74/1965–79 是 0/30**,**1975–94 是 4/4**、**1980–99 是 2/2**(中位宽 7.73)⚠ **这两个分母在 `#787` 被更正**:它们是**算得出来的格**,而那两个世代在 8 "
+  },
+  {
+   "value": "4/4",
+   "pos": 201393,
+   "ctx": "0–64/1955–74/1965–79 是 0/30**,**1975–94 是 4/4**、**1980–99 是 2/2**(中位宽 7.73)⚠ **这两个分母在 `#787` 被更正**:它们是**算得出来的格**,而那两个世代在 8 格的设计里分别只有 **4 格**与 **2 格**算得出来 —— 写成 4/4、2/2 会让不可读**显得比实际更全面** | ⚠⚠ **机制在判据里**:`#779`–`#781` 用的是「两层斜"
+  },
+  {
+   "value": "2/2",
+   "pos": 201397,
+   "ctx": "/1955–74/1965–79 是 0/30**,**1975–94 是 4/4**、**1980–99 是 2/2**(中位宽 7.73)⚠ **这两个分母在 `#787` 被更正**:它们是**算得出来的格**,而那两个世代在 8 格的设计里分别只有 **4 格**与 **2 格**算得出来 —— 写成 4/4、2/2 会让不可读**显得比实际更全面** | ⚠⚠ **机制在判据里**:`#779`–`#781` 用的是「两层斜率**各"
+  },
+  {
+   "value": "6/6",
+   "pos": 208775,
+   "ctx": "** —— **份额不受影响,错的只是我引的数**,与 `#726` 同族第二次;⚠⚠ **而这个错抄量出了更值钱的一件事**:同一把尺子,截断样本 α=0.4804、完整样本 α=0.7287 ⇒ **那个过滤器缺陷把量表的内部一致性也砍了**,所以「后果小」只对份额成立;⚠ 换到 MFQ 六题纯洁量表逐题截断,**6/6 格 α 都降、ω 同向 ⇒ 方向重现**,但跌幅只有 −0.015…−0.051,**GSS 那次的 −0.248 是"
+  },
+  {
+   "value": "20/20",
+   "pos": 215564,
+   "ctx": "724) 〔SCCS〕 ⟨**4.45×**〕| | **一个人的性不是一件事,是二十件互不蕴含的事**(面内那一半是**验证**,面间那一半才是发现) | 面间成对中位 **+0.0725**(有符号),而面内是 **+0.5987** —— **低一个量级**;20 个面的最弱一环中位 **+0.4809**,**20/20 高于零** | 面内一致**是量表作者的设计**(同面常是近义改写,`#542` 已按 `prior_art` 降级为"
+  },
+  {
+   "value": "10/10",
+   "pos": 227740,
+   "ctx": "**:更年轻 · 性经验更少 · 更不外向 · 更焦虑 · 更觉得没有主动权,合起来带着这条路上约 40% 的羞耻;**剩下的 60%,这二十个量合起来也认不出来。** ⚠ **`#367`:那 40% 是**一个**维度,不是二十个 —— 但上面那句话里有一半是修辞。** 按 `c3⁻` 对齐符号后,五个量之间 **10/10 非对角全为正**(中位 +0.092),PC1 份额 **28.9%**,对着 offset 零 **20.88% ±"
+  },
+  {
+   "value": "8/8",
+   "pos": 264866,
+   "ctx": "** None 那一档 —— 把它读成 0 是对的,`#366` 里「把没有与没作答并成一档」的警告**撤回**。 ⚠ **`#374`:但卡片是**过时**,不是**假** —— 它的删除属实。** 它的 `DROPPED GT QUESTIONS` 一节点名 13 个已删标识,用健全的匹配器(整片标识符相等,并在 8/8 已知仍在的列上通过正对照)核对,**13 个无一存活**。第一版用裸子串匹配声称有 2 个仍在 —— `race` 命"
+  },
+  {
+   "value": "23/23",
+   "pos": 270377,
+   "ctx": "*纯粹因为它被估计得好 179 倍**(3,228 次观测 vs 18) | `#88` `#90` | | **\"这是性内容\"在问卷里问不出来** | 二元认可矩阵里,一个选项的**基率**和它的**内容**是同一个数。题目主效应有闭式解,实测 R² = **0.994**、斜率 0.988,且对基率**形状**在 23/23 块中完全不敏感 | `#69` | | **稀有偏好是一条所有人都在上面的连续维度,不是一群特殊的人** | 分布对称"
+  },
+  {
+   "value": "12/12",
+   "pos": 287056,
+   "ctx": " +0.08]**, 而 MDE 是 **0.50**。⚠ 两臂之间**同时变了两件事**(所指的对象、作答格式), 所以这个差**不可归因于任一个**;且两臂都是同一份问卷里的**自报**, **它们的一致不授权任何东西** —— 只有上界 **|Δ| < 0.50** 可报。 在频率量表的八个切点与四个子群上,**12/12 格把差距放在同一侧**, 且随切点移向重度使用**单调变宽**(*一年数次* 的 −1.57 到 *每周* 的 −2."
+  },
+  {
+   "value": "4/4",
+   "pos": 287488,
+   "ctx": " 它带着同一对:*「两个同性成年人之间的性关系是可以的」*(同意/不同意)与「是否曾有过同性性接触」。 2017–2019 年的女性受访者中,**对数优势 = −1.22,95% CI [−1.41, −1.05]**(n = 5,895), 而 GSS 色情那一对是 **−1.42**。跨两波与两种「谴责」定义,**4/4 个可采信的格同号**,落在 **−1.22 与 −1.41** 之间。⚠ 原本与它们并列报出的另外四格用的是*过去 1"
+  },
+  {
+   "value": "7/7",
+   "pos": 304330,
+   "ctx": ",偏掉宗教之后 +0.087 → **+0.137**。**贞洁**那一道 —— 六题里唯一点到性行为的 —— 也一样:删掉它,领先升到 **+0.123**。唯一一道删掉会让领先**下降**的,是最朴素的那一句 —— *某人是否违反了纯洁与体面的标准* —— 删掉它领先落到 +0.068。六次单题删除里,纯洁在 **7/7** 个变体下都仍是五域最紧的,偏宗教前后都是。**把这一族捆在一起的既不是上帝,也不是贞洁;是「有些事就是不体面」这个"
+  },
+  {
+   "value": "4/4",
+   "pos": 326616,
+   "ctx": "。换仪器逐个查,**每一个零都先要有正对照**:**GSS** 6,943 个变量、六个探针全中,**真命中只有一个** —— `prntmdl`「母亲还是父亲是榜样」,而它**只问过 2022 一年、n = 1107**,问的是**哪一位家长**而不是**有多少榜样教育**;**BRFSS** 350 个变量、正对照4/4、命中 **0**;**NSFG** 2,603 条标签、正对照 327、命中 **0**;**YRBS** 269 条"
+  },
+  {
+   "value": "4/4",
+   "pos": 332111,
+   "ctx": "个结论。**这是同一个母题第四次(前三次是把停止规则的地板写在样本量上、把阈值阶梯切得比区间还细)——**门槛写下的时候,没有问这个站点能供给什么。** ⚠ **而跑之前写下的那个混淆控制开火了,这是本轮唯一站得住的东西**:GSS 那四道二值警察题在**生阈**下最大子块是 **2/4**,在**归一阈**下是 **4/4** —— 它们的天花板只有 0.36,**一个 0.30 的绝对阈永远够不到**,于是一块本来连得好好的题被判成散题。"
+  },
+  {
+   "value": "4/4",
+   "pos": 332728,
+   "ctx": "规则①在这里咬人:那两道题的**题干不在发布里**(整个目录四个文件,带标签的变量最多 26 个,目标项一个都没有),**所以能说的只有变量名 `rich` 与 `family`,不能说它们问的是什么。**⚠ 而生阈与归一阈**只有一块分歧**,正是上一件预言的那一块:GSS 四道二值警察题,生阈判 2/4、归一阈判 4/4,因为它们的天花板只有 0.36。⚠ **这同时缩小了我上一轮自己的措辞**:我说「笔迹、光环、袋子是同一个错误类,三次"
+  },
+  {
+   "value": "12/12",
+   "pos": 349122,
+   "ctx": "*(不是 −0.0074),差只剩 **+0.0357**,**95% 区间 [−0.020, +0.102] 含零**;归一版同样含零。**所以「性题特有」是符号抵消造出来的,而第三十三件降级为「一题的观察」。** ⚠ 网格里剩下一件**描述性的、未经检验的**东西,而它也许才是真的形状:**性题十二格全部朝同一边(12/12),非性题散开(8 正 14 负,同号率 0.636)** —— **不是「大小」,是「方向」**;而堕胎那两道题的四格"
+  },
+  {
+   "value": "12/12",
+   "pos": 349434,
+   "ctx": "位把自己骗了」]`。  - **第三十五件,而它更正的是我上一轮亲手留下的那个数:所谓「性题十二格全部朝同一边」是错的,正确定向之后是十格,而在这个格数上,「同号率」这个量根本分辨不出真实分组与随机分组。** 第三十四件诊断出「码 1 在不同题上不是同一个意思」,并把「方向一致性」留作下一轮的预注册 —— **但那个 12/12 正是用未定向的原始差算的,也就是用它自己刚刚诊断出来的那个缺陷算的。** 这一轮先把定向表逐条写出来(性教育的码 1 "
+  },
+  {
+   "value": "32/32",
+   "pos": 385625,
+   "ctx": "; 题目基率信度 **0.999**。加噪没有毁掉个体信号。  **[R02 · 有没有共享的语法](A02_is_there_a_shared_grammar)** —— 有,而前两件仪器看不见它。 PC1 对 PC1 给 0.064(撤回 #2);留出 CCA 给 0.272 对 0.055 的地板;留一块给 **32/32 块为正**, 中位增益 +0.0340 对 −0.0029 的地板。**[有界 —— RETRACTIONS #25]"
+  },
+  {
+   "value": "9/9",
+   "pos": 388322,
+   "ctx": "人内容的消费者 —— 后者的内容里没有真实身体 —— 相差 **0.0204 ± 0.0265**, 被界在性别量级(0.093)之下。**[UNVERIFIED —— RETRACTIONS #34]** 文字 vs 视觉的亏空在 5 个种子下无法分辨 (9 个语料切法里 0 个的效应超过 2× 种子展布,而性别在 9/9 里都可分辨);每格约需 44 个种子。 那是一条真实的、有界的、对 A 的约束。  **[R06 · 诱导](A06_"
+  }
+ ],
+ "en": [
+  {
+   "value": "12/12",
+   "pos": 8854,
+   "ctx": "not tell a real grouping from a random one.** > **Those 11–19 points are real; whether they are specific to sexual items is not answerable here.**  ⚠ And that \"12/12\" was itself computed on **unoriented** differences — **usin"
+  },
+  {
+   "value": "4/4",
+   "pos": 32049,
+   "ctx": " worth anything (+0.0783, responsibility worth +0.0046); at the person level MFQ gives authority +0.5001 against harm +0.0060; and GSS gives obedience first on 4/4 against helping others at 0.6×. **The care-and-harm end sit"
+  },
+  {
+   "value": "6/6",
+   "pos": 45261,
+   "ctx": "e accident is not a regularity, so it was re-tested on a second instrument: dropping each item's lowest category from MFQ's six-item purity scale lowers α in **6/6 cells with ω moving the same way ⇒ the direction replicates"
+  },
+  {
+   "value": "4/4",
+   "pos": 62436,
+   "ctx": "cross all 44 cells: **10 (23%) have intervals containing 1.0**, and the split by cohort is remarkably clean — **0/30 for 1935–54, 1950–64, 1955–74 and 1965–79; 4/4 for 1975–94; 2/2 for 1980–99 (median width 7.73); 4/8 for 1"
+  },
+  {
+   "value": "2/2",
+   "pos": 62453,
+   "ctx": "s: **10 (23%) have intervals containing 1.0**, and the split by cohort is remarkably clean — **0/30 for 1935–54, 1950–64, 1955–74 and 1965–79; 4/4 for 1975–94; 2/2 for 1980–99 (median width 7.73); 4/8 for 1930–49.** ⚠ **tho"
+  },
+  {
+   "value": "4/4",
+   "pos": 62693,
+   "ctx": "rs are corrected in `#787`**: they count **the cells that could be computed**, and of the design's 8 cells only **4** and **2** respectively could be — writing 4/4 and 2/2 makes the unreadability look more total than it is."
+  },
+  {
+   "value": "2/2",
+   "pos": 62701,
+   "ctx": "orrected in `#787`**: they count **the cells that could be computed**, and of the design's 8 cells only **4** and **2** respectively could be — writing 4/4 and 2/2 makes the unreadability look more total than it is. ⇒ **In "
+  },
+  {
+   "value": "8/8",
+   "pos": 70496,
+   "ctx": "sed is that term's sign, **and it was the previous round's headline.** ⚠⚠ **And with all four items in view the sentence's scope has to shrink too:** `homosex` 8/8 residuals entirely below 1.0 (0.331), `premarsx` 2/2 (0.390"
+  },
+  {
+   "value": "2/2",
+   "pos": 70549,
+   "ctx": "und's headline.** ⚠⚠ **And with all four items in view the sentence's scope has to shrink too:** `homosex` 8/8 residuals entirely below 1.0 (0.331), `premarsx` 2/2 (0.390) ⚠ **denominator corrected in `#786`/`#787`: only 1 "
+  },
+  {
+   "value": "4/4",
+   "pos": 71903,
+   "ctx": "me people, same machine, **only the year set moves**. `teensex` actually has **21 year-points (1986–2024)**. Restricting `homosex` to that same window: **still 4/4 readable**; taking instead the earliest 21 points, which se"
+  },
+  {
+   "value": "4/4",
+   "pos": 72018,
+   "ctx": "cting `homosex` to that same window: **still 4/4 readable**; taking instead the earliest 21 points, which separates *how many points* from *which era*: **still 4/4**. Ratios 0.31–0.48 across all three windows. ⇒ **`teensex`"
+  },
+  {
+   "value": "2/2",
+   "pos": 72288,
+   "ctx": "nts, and the line above holds.** ⚠⚠ **What this round caught along the way is a denominator inside that same table**: it reported \"`premarsx` 2 readable cells, 2/2 entirely below 1.0\", which reads as unanimous — **in fact o"
+  },
+  {
+   "value": "2/2",
+   "pos": 72492,
+   "ctx": "imous — **in fact only one of four specifications is readable**, and those two cells are that one specification under two link functions. **The denominator of \"2/2\" is the cells that survived, not the cells attempted.** And"
+  },
+  {
+   "value": "8/8",
+   "pos": 90544,
+   "ctx": "ise, \"not one clump member changes\" here is, after `#797`, the stability of an unresolvable partition** — this paragraph's conclusions about the **estimator** (8/8 inside the interval, the third arm being an identity) are *"
+  },
+  {
+   "value": "8/8",
+   "pos": 91043,
+   "ctx": "The starting point is a correction of my own writing: `#791`'s \"16/20 between-pairs distinguishable\" pooled three different boundaries. Split out: **top/middle 8/8, top/bottom 4/4, and middle/bottom only 4/8** — `suicide2` "
+  },
+  {
+   "value": "4/4",
+   "pos": 91059,
+   "ctx": "nt is a correction of my own writing: `#791`'s \"16/20 between-pairs distinguishable\" pooled three different boundaries. Split out: **top/middle 8/8, top/bottom 4/4, and middle/bottom only 4/8** — `suicide2` and `teensex` se"
+  },
+  {
+   "value": "8/8",
+   "pos": 103239,
+   "ctx": " apart** — and **the same `r` is compatible with two opposite stories about people**. Across the eight items (devout − non-devout, both specifications agreeing 8/8): **3 narrowed, 5 widened**. **And on homosexuality — the i"
+  },
+  {
+   "value": "5/5",
+   "pos": 112545,
+   "ctx": "t**, not a finding of this project (Entry 686 · 687) 〔GSS〕 ⟨18.46⟩| | **It is education, not cohort** | within five cohort cells the education Δ agrees in sign 5/5, median **+0.0718 = 93% of pooled** | the cohort gradient i"
+  },
+  {
+   "value": "7/7",
+   "pos": 113173,
+   "ctx": "12 of 30 rising (Entry 682) 〔GSS〕 ⟨—⟩| | ⛔ ~~Education pushes sex away from abortion and euthanasia — differentiation~~ **sign was inverted, see next row** | ~~7/7 negative~~ | **Entry 679's negatives were coding polarity; "
+  },
+  {
+   "value": "3/3",
+   "pos": 171751,
+   "ctx": "en nineties years n=10,892 **+0.0720** (floor 0.0676, **above**) · **odd years unusable** (too few qualifying years within the decade) ⇒ usable 3/4 · same sign 3/3 · above own floor **1/3**; ⚠ **\"all three halves agree in s"
+  },
+  {
+   "value": "12/12",
+   "pos": 212301,
+   "ctx": "its 11.6 of its own spreads from that null** | **What stands**: `p(allow\\|wrong)` averages **66.4%** across cells and the offset is significantly negative in **12/12**; for teaching in the 2010s, **73.3%** of devout responden"
+  },
+  {
+   "value": "6/6",
+   "pos": 213159,
+   "ctx": "; ⚠⚠ **and the criterion was missing a fourth thing, different from the previous three**: by the pre-registration's **literal threshold** C would have fired (**6/6 pairs above the 0.0108 floor**), **but the sign of the Δ di"
+  },
+  {
+   "value": "6/6",
+   "pos": 219166,
+   "ctx": "** (`#838`'s same rule) | **Moral component**: speak −0.317 [−0.394,−0.237] / latent −0.391 [−0.513,−0.255]; teach −0.318 / −0.391; library −0.315 / −0.386 — **6/6 clear the 0.0824 floor, all exclude zero, direction consist"
+  },
+  {
+   "value": "12/12",
+   "pos": 222507,
+   "ctx": "f social change**; ⚠ **and \"the sanction rift did not move\" must not be read as \"there is no disagreement about sanction\"** — it is present throughout (`#858`: 12/12 cells), **only its width has not changed in thirty years**⟩"
+  },
+  {
+   "value": "6/6",
+   "pos": 224696,
+   "ctx": "to +0.026) ⇒ **education has the largest `|g|` in 6 of 6 cells and religion in none**, verdict **OVERTURNED**, `Gate.admissible()`=**True**; ⚠ **the ranking is 6/6 but the margin is not**: \"largest minus second\" falls insid"
+  },
+  {
+   "value": "12/12",
+   "pos": 228189,
+   "ctx": "t the LEVEL of the rift** — two different estimands. This round supplies it with **the construction of `#862`, verbatim** | **Religion has the largest `|g|` in 12/12 moral cells; the runner-up axis wins 0** (mean scale 1970s "
+  },
+  {
+   "value": "4/4",
+   "pos": 228453,
+   "ctx": "0s −1.370); in the same run **education wins 28/30 sanction cells** ⇒ **`#862` survives a corrected floor and four extra decades**; **cross-instrument, NSFG is 4/4 religion** (2018 mean scale: religion −0.861 · education +0"
+  },
+  {
+   "value": "33/33",
+   "pos": 229279,
+   "ctx": ", preserving between-axis correlation); ③ **it used one global floor of 0.0547 for seven different geometries**, while `educ`'s terciles are 36.8%/42.1% (**not 33/33 — heavy ties**), `polviews` 32.4%/64.1%, race 75.3%/15.6%, "
+  },
+  {
+   "value": "50/50",
+   "pos": 229348,
+   "ctx": "of 0.0547 for seven different geometries**, while `educ`'s terciles are 36.8%/42.1% (**not 33/33 — heavy ties**), `polviews` 32.4%/64.1%, race 75.3%/15.6%, sex 50/50 ⇒ per-cell permutation floors here, **spanning 0.0316–0.145"
+  },
+  {
+   "value": "34/34",
+   "pos": 230934,
+   "ctx": "hin year, **0.0526 ≤ that cell's floor 0.0540**; ⑥ **placebo = `ballot`, the questionnaire version GSS itself assigns at random — a real variable, not my rng ⇒ 34/34 cells inside their own floors**; ⑦ the kill did not fire, `"
+  },
+  {
+   "value": "42/42",
+   "pos": 234056,
+   "ctx": " share\" is the same number in different clothes in a normal world; the measurement is how far `R = η²÷(g²/6)` departs from 1** | **① The winning axis agrees in 42/42 cells** — η² (which uses 100% of respondents) and `|g|` (wh"
+  },
+  {
+   "value": "34/34",
+   "pos": 236401,
+   "ctx": "mount the effect was ERASED by, while the prose called it a plant (the sensitivity half stands, the direction half was misworded); ② **`#863`'s placebo passing 34/34 was read as \"clean\"** — a 95th-percentile floor over 34 cel"
+  },
+  {
+   "value": "6/6",
+   "pos": 249800,
+   "ctx": "ll read \"any instrument passing all three axes\", and the GSS the claim already lived in passed itself) ⇒ added `population`; `#859` broke on the **direction** (6/6 pairs cleared the floor while that difference's sign flippe"
+  },
+  {
+   "value": "25/25",
+   "pos": 253422,
+   "ctx": " algebraically exactly 1 under item independence** (synthetic check τ=0→**1.0021** · τ=0.6→**1.1209** · τ=1.2→**1.3891**); **measured, φ's median is 2.0713 and 25/25 cells exceed their own permutation null** (null median **1."
+  },
+  {
+   "value": "5/5",
+   "pos": 254212,
+   "ctx": "a, not convention**); ⑤ placebo `ballot` **0/20** exceedances; ⚠ **the check added in `#867` fires for the first time**: the gate prints **`control population: 5/5 named, same population as the criterion`** — **which is exa"
+  },
+  {
+   "value": "38/38",
+   "pos": 260384,
+   "ctx": " it is not merely \"not yet moved\" — it is already half dead**: the same discovery rule appears in **38 byte-identical copies** across `E01` (`uniq -c` confirms 38/38), **while the line `if c!='biomale'  # excluded: it is a co"
+  },
+  {
+   "value": "5/5",
+   "pos": 265872,
+   "ctx": "noulli(0.5) that subtracts \"binary with this variance\" itself, gives **0.15°**; ⚠ **the check added in `#867` fires for the second time**: `control population: 5/5 named, same population as the criterion`; ⇒ **and the decis"
+  },
+  {
+   "value": "5/5",
+   "pos": 269842,
+   "ctx": "ind: these gates CAN be moved by a single column, `biomale` simply did not move them**; controls — negative: an unmodified script run twice is **byte-identical 5/5** (⚠ **\"should this zero be zero?\" YES**, these scripts pri"
+  },
+  {
+   "value": "5/5",
+   "pos": 270127,
+   "ctx": "they* assert); positive: a real-item injection changes the output in **23/25** cells while a **no-op injection dropping a non-existent column is byte-identical 5/5** (`G2`: a control that can fail); multiplicity over **30**"
+  },
+  {
+   "value": "35/35",
+   "pos": 275549,
+   "ctx": "ation**; **kind of null: neither a permutation nor zero — the no-op injection**, an inserted line dropping a column that does not exist; it is byte-identical **35/35** and flips **0** decisions, which is what kills the meta-w"
+  },
+  {
+   "value": "6/6",
+   "pos": 323064,
+   "ctx": " not existing** (the same road as `#795`/`#804`/`#811`/`#815`, for the **fifth** time) ⇒ `Gate.bh`, `Gate.by` and `Gate.multiplicity_control` added, **backtest 6/6**; ② a `grep` measures the sentence \"twenty-five debts rema"
+  },
+  {
+   "value": "10/10",
+   "pos": 329019,
+   "ctx": "90s is family-invariant** — `#832` swept the never-swept family-definition axis (62 cells × five families × BH/BY = 10 combinations): **the 1990s cell survives 10/10, including the widest 62-cell family under the most conserv"
+  },
+  {
+   "value": "5/5",
+   "pos": 331694,
+   "ctx": "ted luck's share.** `[#825「负控失败在 5.9%」]` (Entry 825) 〔GSS〕 ⟨positive control: with the entire shift concentrated in `homosex`'s 1990s, that cell is marked in **5/5** seeds ⇒ the instrument fires; ⚠ premise: **both values of"
+  },
+  {
+   "value": "4/4",
+   "pos": 374005,
+   "ctx": "uantity where noise does not apply; **supplying neither leaves a visible `⚠ noise unmeasured` marker on the row**; **backtested on 4 cases with known answers ⇒ 4/4** (`#805`'s control at 0.08/0.35 ⇒ **caught, printing 0.23×"
+  },
+  {
+   "value": "7/7",
+   "pos": 387483,
+   "ctx": "S`, `TIGHT_NULL` (measured, and it is approximately no change), `UNRESOLVED` (could not measure); **backtested on 7 cases whose answers were known in advance ⇒ 7/7** (`#810` NSFG [−0.0887,+0.0959] against a 0.17 threshold ⇒"
+  },
+  {
+   "value": "8/8",
+   "pos": 400189,
+   "ctx": " by a low-power endpoint specification; ⚠ **the disagreement is about power, not direction** (`raw` uses 2 years, `fit` uses 19–28, and `#802` already measured 8/8 directional agreement) — **do not read a power difference a"
+  },
+  {
+   "value": "2/2",
+   "pos": 414136,
+   "ctx": "es.py` (`HEADROOM_MAX = 0.30`, entering `_control_rows` so it directly suppresses `admissible()`); **backtested on 4 cases whose answers were known in advance: 2/2 of the should-catch caught (`#801` pre-fix 181.8%; `#803` `"
+  },
+  {
+   "value": "2/2",
+   "pos": 414237,
+   "ctx": "backtested on 4 cases whose answers were known in advance: 2/2 of the should-catch caught (`#801` pre-fix 181.8%; `#803` `fit` calibrated on non-devout 89.8%), 2/2 of the should-pass passed (30.0%, 21.8%)**; ⚠ **and it rule"
+  },
+  {
+   "value": "8/8",
+   "pos": 423462,
+   "ctx": " homosexuality roughly tripled** | **the gap between the two strata (devout − non-devout) for all eight items**, fitted endpoints, both specifications agreeing 8/8: `homosex` **−0.183 → −0.550** (÷ scale span; in raw points"
+  },
+  {
+   "value": "8/8",
+   "pos": 425910,
+   "ctx": "eferenced against **0.300000, not 0**, |0.300000−0.300000| = 0; positive control 0.0 → +0.300 correctly judged \"widening\"; ⚠ **these gaps carry no interval** — 8/8 specification agreement is some evidence of robustness, **i"
+  },
+  {
+   "value": "8/8",
+   "pos": 435291,
+   "ctx": " 0 | ⚠⚠ **the starting point is a correction of my own writing**: `#791`'s \"16/20 between\" pooled three different boundaries — split out, they are **top/middle 8/8, top/bottom 4/4, and middle/bottom only 4/8** (`suicide2` a"
+  },
+  {
+   "value": "4/4",
+   "pos": 435307,
+   "ctx": "arting point is a correction of my own writing**: `#791`'s \"16/20 between\" pooled three different boundaries — split out, they are **top/middle 8/8, top/bottom 4/4, and middle/bottom only 4/8** (`suicide2` and `teensex` sep"
+  },
+  {
+   "value": "8/8",
+   "pos": 437342,
+   "ctx": " 1.841→**1.815**, `spanking` 0.462→0.450, `suicide2` 0.410→0.409, `homosex` 0.409→0.408, `teensex` 0.364→0.328, `prayer` 0.126→0.051, `helpblk` 0.105→0.013 — **8/8 fall inside `agg`'s year-clustered bootstrap interval and n"
+  },
+  {
+   "value": "8/8",
+   "pos": 439164,
+   "ctx": "ing` [+0.383,+0.586], `suicide2` [+0.301,+0.593], `homosex` [+0.349,+0.454], `teensex` [+0.057,+0.521], `prayer` [−0.211,+0.321], `helpblk` [−0.642,+0.351] — **8/8 inside**; positive control: a planted r=0.40 is recovered a"
+  },
+  {
+   "value": "8/8",
+   "pos": 441590,
+   "ctx": "3**, `racmar` 1.84→**1.80**, `spanking` 0.46→0.49, `suicide2` 0.41→0.45, `homosex` 0.41→0.35, `teensex` 0.36→0.29, `prayer` 0.13→−0.05, `helpblk` 0.10→0.08 — **8/8 moves stay inside their own bootstrap width and the three c"
+  },
+  {
+   "value": "8/8",
+   "pos": 442950,
+   "ctx": "and that width inflates ⇒ this test leans toward \"no movement\"**, stated as such (Entry 794) 〔GSS〕 ⟨drift −0.302 SD clears the pre-registered 0.25 threshold; **8/8 inside width**⟩ ⚠ **and since `#806` this must carry one mo"
+  },
+  {
+   "value": "4/4",
+   "pos": 455453,
+   "ctx": "*structurally impossible, not a debt**.**| | **Change only the set of years and the homosexuality result does not move** | `homosex` at full span (28 points) **4/4 readable** (0.409–0.461), restricted to `teensex`'s window "
+  },
+  {
+   "value": "4/4",
+   "pos": 455530,
+   "ctx": "nd the homosexuality result does not move** | `homosex` at full span (28 points) **4/4 readable** (0.409–0.461), restricted to `teensex`'s window (20 points) **4/4** (0.417–0.476), earliest 21 points **4/4** (0.311–0.382). "
+  },
+  {
+   "value": "4/4",
+   "pos": 455572,
+   "ctx": "* | `homosex` at full span (28 points) **4/4 readable** (0.409–0.461), restricted to `teensex`'s window (20 points) **4/4** (0.417–0.476), earliest 21 points **4/4** (0.311–0.382). `teensex` actually has **21 year-points (1"
+  },
+  {
+   "value": "4/4",
+   "pos": 456006,
+   "ctx": "onfound written before the run — truncation changes both the number of points and the era — has its own third arm (earliest 21 points), where `homosex` is also 4/4; ⚠⚠ **and this round caught a denominator in the previous r"
+  },
+  {
+   "value": "2/2",
+   "pos": 456131,
+   "ctx": "1 points), where `homosex` is also 4/4; ⚠⚠ **and this round caught a denominator in the previous row's own table**: it reported \"`premarsx` 2 readable cells, **2/2** entirely below 1.0\", which reads as unanimous — **in fact"
+  },
+  {
+   "value": "2/2",
+   "pos": 456333,
+   "ctx": "unanimous — **in fact only 1 of 4 specifications is readable**, and those 2 cells are that one specification under two link functions, so **the denominator of \"2/2\" is the cells that survived, not the cells attempted**; and"
+  },
+  {
+   "value": "12/12",
+   "pos": 456678,
+   "ctx": "ay** ⇒ **the `premarsx` half of \"homosexuality and premarital sex\" is downgraded; the `homosex` half is unchanged and now harder** (Entry 786) 〔GSS〕 ⟨`homosex` 12/12 readable across three windows; `premarsx` 1/4 full, 1/4 tru"
+  },
+  {
+   "value": "8/8",
+   "pos": 457498,
+   "ctx": "tructure), most on different instruments | 4 items × 2 stratifications × 2 statistics × 2 links = **14 readable cells, 9 unreadable (all listed)**. `homosex` **8/8** residual intervals entirely below 1.0 (median **0.331**),"
+  },
+  {
+   "value": "2/2",
+   "pos": 457575,
+   "ctx": "atistics × 2 links = **14 readable cells, 9 unreadable (all listed)**. `homosex` **8/8** residual intervals entirely below 1.0 (median **0.331**), `premarsx` **2/2** (0.390), `teensex` **0/4** (all contain 1.0 — and it is t"
+  },
+  {
+   "value": "17/17",
+   "pos": 462219,
+   "ctx": "treated as one cell; adding `unit` drops the matchable count from 14 to 9 and **blocks 5 false pairings**; ⚠ the extractor was backtested first: **recall 1.00 (17/17), precision 0.74 (17/23)**, catching 5 of 11 pre-listed dec"
+  },
+  {
+   "value": "28/28",
+   "pos": 463100,
+   "ctx": " 200-pair pooled — the two numbers printed side by side on this page differ on two degrees of freedom** (Entry 783) 〔GSS + MSSCQ〕 ⟨pooled bootstrap B=4000 over 28/28 years; union [0.241, 0.568] against the point-estimate span"
+  },
+  {
+   "value": "4/4",
+   "pos": 463766,
+   "ctx": "k across all 44 computable cells, **10 (23%) have intervals containing 1.0**, and by cohort **1935–54/1950–64/1955–74/1965–79 give 0/30** while **1975–94 gives 4/4** and **1980–99 gives 2/2** (median width 7.73) | ⚠⚠ **the "
+  },
+  {
+   "value": "2/2",
+   "pos": 463792,
+   "ctx": " cells, **10 (23%) have intervals containing 1.0**, and by cohort **1935–54/1950–64/1955–74/1965–79 give 0/30** while **1975–94 gives 4/4** and **1980–99 gives 2/2** (median width 7.73) | ⚠⚠ **the mechanism was in the crite"
+  },
+  {
+   "value": "6/6",
+   "pos": 481654,
+   "ctx": "e scale's internal consistency**, so \"small consequence\" holds only for the shares; ⚠ on MFQ's six-item purity scale, truncating each item in turn drops α in **6/6 cells with ω moving the same way ⇒ the direction replicates"
+  },
+  {
+   "value": "20/20",
+   "pos": 497690,
+   "ctx": "ian cross-facet pair **+0.0725** (signed) against **+0.5987** within — **an order of magnitude apart**; median weakest link across the 20 facets **+0.4809**, **20/20 above their null** | within-facet agreement **is the scale "
+  },
+  {
+   "value": "8/8",
+   "pos": 563498,
+   "ctx": "old.** Its `DROPPED GT QUESTIONS` section names 13 identifiers as removed, and under a sound matcher (whole identifier-segment equality, positive-controlled at 8/8 on columns known to be present) **0 of the 13 survive in th"
+  },
+  {
+   "value": "4/4",
+   "pos": 762614,
+   "ctx": "del*, **asked in a single year (2022), n = 1107**, and it asks *which parent* rather than *how much example-setting*; **BRFSS** 350 variables, positive control 4/4, **0**; **NSFG** 2,603 labels, positive control 327, **0**;"
+  },
+  {
+   "value": "4/4",
+   "pos": 776159,
+   "ctx": "fore the run fired, which is the one thing here that stands**: the four binary GSS police items give a largest sub-block of **2/4** under a raw threshold and **4/4** under a normalised one — their ceiling is only 0.36, so *"
+  },
+  {
+   "value": "4/4",
+   "pos": 777889,
+   "ctx": "k disagrees between raw and normalised thresholds, and it is exactly the one the previous entry predicted: the four binary GSS police items, judged 2/4 raw and 4/4 normalised, because their ceiling is only 0.36. ⚠ **And thi"
+  },
+  {
+   "value": "12/12",
+   "pos": 817351,
+   "ctx": "o one item's observation.** ⚠ One **descriptive, untested** thing survives in the grid and may be the real shape: **all twelve sexual cells point the same way (12/12) while the non-sexual ones scatter (8 positive, 14 negative"
+  },
+  {
+   "value": "12/12",
+   "pos": 818166,
+   "ctx": "irty-fourth diagnosed that *code 1 does not mean the same thing across items* and left \"direction consistency\" as the next round's preregistration — **but that 12/12 was computed on the unoriented raw differences, that is, us"
+  },
+  {
+   "value": "32/32",
+   "pos": 918448,
+   "ctx": "es, and the first two instruments could not see it. PC1-vs-PC1 gave 0.064 (retraction #2); held-out CCA gave 0.272 vs a 0.055 floor; leave-one-block-out gave **32/32 blocks positive**, median gain +0.0340 against a −0.0029 fl"
+  },
+  {
+   "value": "9/9",
+   "pos": 923816,
+   "ctx": "FIED — RETRACTIONS #34]** the written-vs-visual deficit is unresolvable at 5 seeds (0 of 9 corpus cuts have effect > 2× seed spread, while sex is resolvable in 9/9); ~44 seeds per cell would be needed. That is a real, bound"
+  }
+ ],
+ "n_zh": 90,
+ "verdicts": {
+  "premarsx 2/2": [
+   "SURVIVOR",
+   "R224 产物:premarsx 四个规格里只有 1 个可读,那 2 格是同一规格的两种连接 ⇒ 分母是活下来的格。方向:**显得一致**(讨好)"
+  ],
+  "1975–94 4/4": [
+   "SURVIVOR",
+   "R221 产物:该世代 8 格设计里只有 4 格算得出来 ⇒ 分母是算得出的格。方向:**显得全军覆没**(不讨好)"
+  ],
+  "1980–99 2/2": [
+   "SURVIVOR",
+   "R221 产物:8 格设计里只有 2 格算得出来。方向:**不讨好**"
+  ],
+  "homosex 8/8": [
+   "ATTEMPTED",
+   "R224 产物:2 分层 × 2 统计量 × 2 连接 = 8 格全部尝试且全部可读"
+  ],
+  "homosex 4/4 ×3": [
+   "ATTEMPTED",
+   "R225 产物:三个窗口各 4 格全部尝试且全部可读"
+  ],
+  "1965–79 6/8": [
+   "ATTEMPTED",
+   "分母写的就是 8 —— **这一处写法是对的**,可作为正确写法的样例"
+  ]
+ },
+ "n_survivor": 3,
+ "n_attempted": 3,
+ "n_unverified": 84,
+ "preregistered_rate": 0.03333333333333333,
+ "fires_family": false,
+ "criterion_was_misspecified": true
+}

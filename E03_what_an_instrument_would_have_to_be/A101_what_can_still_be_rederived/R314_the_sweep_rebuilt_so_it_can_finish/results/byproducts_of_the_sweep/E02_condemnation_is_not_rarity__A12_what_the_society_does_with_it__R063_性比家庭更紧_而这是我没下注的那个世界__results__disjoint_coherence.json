@@ -1,0 +1,285 @@
+{
+ "rows": [
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 0,
+   "ext": 0,
+   "lnor": -0.8771094268113598,
+   "n": 552,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 0",
+    "ext_fam \u4e09\u5206\u4f4d 0",
+    "n=552",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 0,
+   "ext": 1,
+   "lnor": -0.9356678224837711,
+   "n": 553,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 0",
+    "ext_fam \u4e09\u5206\u4f4d 1",
+    "n=553",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 0,
+   "ext": 2,
+   "lnor": -1.655239488234707,
+   "n": 730,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 0",
+    "ext_fam \u4e09\u5206\u4f4d 2",
+    "n=730",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 1,
+   "ext": 0,
+   "lnor": -1.0020399062872842,
+   "n": 573,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 1",
+    "ext_fam \u4e09\u5206\u4f4d 0",
+    "n=573",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 1,
+   "ext": 1,
+   "lnor": -0.7504984770314107,
+   "n": 632,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 1",
+    "ext_fam \u4e09\u5206\u4f4d 1",
+    "n=632",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 1,
+   "ext": 2,
+   "lnor": -1.19718928481429,
+   "n": 628,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 1",
+    "ext_fam \u4e09\u5206\u4f4d 2",
+    "n=628",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 2,
+   "ext": 0,
+   "lnor": -0.8999797683682497,
+   "n": 717,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 2",
+    "ext_fam \u4e09\u5206\u4f4d 0",
+    "n=717",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 2,
+   "ext": 1,
+   "lnor": -0.9751954352934701,
+   "n": 657,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 2",
+    "ext_fam \u4e09\u5206\u4f4d 1",
+    "n=657",
+    "ok"
+   ]
+  },
+  {
+   "line": "samesex\u2192samesexany",
+   "coh": 2,
+   "ext": 2,
+   "lnor": -1.3546881772351376,
+   "n": 473,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 2",
+    "ext_fam \u4e09\u5206\u4f4d 2",
+    "n=473",
+    "ok"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 0,
+   "ext": 0,
+   "lnor": -0.107411981390895,
+   "n": 554,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 0",
+    "ext_fam \u4e09\u5206\u4f4d 0",
+    "n=554",
+    "ok"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 0,
+   "ext": 1,
+   "lnor": null,
+   "n": 557,
+   "status": "\u5288\u5f00\u540e\u67d0\u81c2<50",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 0",
+    "ext_fam \u4e09\u5206\u4f4d 1",
+    "n=557",
+    "\u5288\u5f00\u540e\u67d0\u81c2<50"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 0,
+   "ext": 2,
+   "lnor": -0.5934677966449565,
+   "n": 739,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 0",
+    "ext_fam \u4e09\u5206\u4f4d 2",
+    "n=739",
+    "ok"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 1,
+   "ext": 0,
+   "lnor": null,
+   "n": 577,
+   "status": "\u5288\u5f00\u540e\u67d0\u81c2<50",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 1",
+    "ext_fam \u4e09\u5206\u4f4d 0",
+    "n=577",
+    "\u5288\u5f00\u540e\u67d0\u81c2<50"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 1,
+   "ext": 1,
+   "lnor": null,
+   "n": 633,
+   "status": "\u5288\u5f00\u540e\u67d0\u81c2<50",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 1",
+    "ext_fam \u4e09\u5206\u4f4d 1",
+    "n=633",
+    "\u5288\u5f00\u540e\u67d0\u81c2<50"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 1,
+   "ext": 2,
+   "lnor": -0.37319267670331396,
+   "n": 631,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 1",
+    "ext_fam \u4e09\u5206\u4f4d 2",
+    "n=631",
+    "ok"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 2,
+   "ext": 0,
+   "lnor": null,
+   "n": 718,
+   "status": "\u5288\u5f00\u540e\u67d0\u81c2<50",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 2",
+    "ext_fam \u4e09\u5206\u4f4d 0",
+    "n=718",
+    "\u5288\u5f00\u540e\u67d0\u81c2<50"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 2,
+   "ext": 1,
+   "lnor": null,
+   "n": 660,
+   "status": "\u5288\u5f00\u540e\u67d0\u81c2<50",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 2",
+    "ext_fam \u4e09\u5206\u4f4d 1",
+    "n=660",
+    "\u5288\u5f00\u540e\u67d0\u81c2<50"
+   ]
+  },
+  {
+   "line": "sxok18\u2192hadsex",
+   "coh": 2,
+   "ext": 2,
+   "lnor": -0.5660883024410404,
+   "n": 480,
+   "status": "ok",
+   "inclusion": [
+    "coh_fam \u4e09\u5206\u4f4d 2",
+    "ext_fam \u4e09\u5206\u4f4d 2",
+    "n=480",
+    "ok"
+   ]
+  }
+ ],
+ "uncomputable": [
+  "sxok18\u2192hadsex|c0e1(\u5288\u5f00\u540e\u67d0\u81c2<50,n=557)",
+  "sxok18\u2192hadsex|c1e0(\u5288\u5f00\u540e\u67d0\u81c2<50,n=577)",
+  "sxok18\u2192hadsex|c1e1(\u5288\u5f00\u540e\u67d0\u81c2<50,n=633)",
+  "sxok18\u2192hadsex|c2e0(\u5288\u5f00\u540e\u67d0\u81c2<50,n=718)",
+  "sxok18\u2192hadsex|c2e1(\u5288\u5f00\u540e\u67d0\u81c2<50,n=660)"
+ ],
+ "world": "UNVERIFIED",
+ "verdict": "**5/18 \u683c\u4e0d\u53ef\u7b97 -> \u76f4\u63a5 UNVERIFIED,\u4e0d\u8fdb\u4e09\u5206\u903b\u8f91** (\u4fee `#533a`/`#537c` \u7684\u540c\u578b:\u4e0d\u53ef\u7b97\u4e0d\u662f\u4e00\u4e2a\u4e16\u754c)",
+ "corr_coh_ext": -0.10427341505551928,
+ "n": 5549,
+ "base_rate": 0.1819816579751843,
+ "positive_control": {
+  "lnor": -0.48917075964802437,
+  "n": 5549
+ },
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "estimand_changed": "coherence \u6765\u81ea\u5bb6\u5ead\u9898,\u9884\u6d4b\u53d8\u91cf\u662f\u6027\u9898 \u2014\u2014 \u4e0e #537 \u4e0d\u662f\u540c\u4e00\u4e2a\u95ee\u9898",
+ "instrument": "NSFG 2011-2013 \u5973\u6027 ACASI,\u6a2a\u65ad\u9762",
+ "impossible": [
+  "\u6a2a\u65ad\u9762\u65f6\u5e8f\u4e0d\u53ef\u5206",
+  "\u4ec5\u5973\u6027",
+  "\u5355\u4e00\u6ce2"
+ ],
+ "unchallenged": true
+}

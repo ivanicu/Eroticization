@@ -1,0 +1,29 @@
+{
+ "n_permanent": 2,
+ "n_recoverable": 2,
+ "rows": {
+  "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/is_the_loo_shape_a_sampling_fact.py": {
+   "target": "/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_as_a_value_not_a_category/A40_is_delta_a_general_rule_or_a_few_categories/R241_per_category_decomposition/results/loo.csv",
+   "commit": "1e28178834f7748605fcf73c37bdae765dea0b3d",
+   "bytes": 3109,
+   "why": "3 commit(s) hold it; read 3109 bytes"
+  },
+  "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/computed_vs_single.py": {
+   "target": "E01_sexual_as_a_value_not_a_category/A155_does_S_point_one_way/R450_sign_across_outcomes/results/S_signs.csv",
+   "commit": "6c333a24504777b814cc30d788117ea406bcd7ba",
+   "bytes": 1453,
+   "why": "2 commit(s) hold it; read 1453 bytes"
+  }
+ },
+ "present_today": {
+  "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/is_the_loo_shape_a_sampling_fact.py": [],
+  "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/computed_vs_single.py": []
+ },
+ "controls": {
+  "positive": true,
+  "positive_detail": "1 commit(s) hold it; read 1187 bytes",
+  "negative": true,
+  "negative_detail": "no commit in any ref holds this path"
+ },
+ "verdict": "**2 of 2 files the sweep called PERMANENT are byte-retrievable from git.**\n  ⇒ **`PERMANENT` did not mean *gone*; it meant *not in the working tree*.** The test had two halves — produced-by-a-script, present-on-disk — and **both interrogate the working tree**, while this corpus's persistence layer is the version history: 4,368 rename edges, and a `results/*.csv` that has left the tree has usually left it by being RENAMED AWAY.\n  ⇒ **The corpus has zero measured cases of unrecoverable evidence.** What it has is references pointing at where a file used to live.\n  ⚠ **and the word changes, not just the number**: these conclusions are not *lost*, they are *stale* — the blob comes back, but the script that made it may still not run. Recovering a file is not re-deriving a conclusion."
+}

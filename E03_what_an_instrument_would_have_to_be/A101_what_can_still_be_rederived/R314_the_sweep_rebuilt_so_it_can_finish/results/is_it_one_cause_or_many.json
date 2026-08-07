@@ -1,0 +1,1542 @@
+{
+ "writers_known": 466,
+ "controls": {
+  "positive": true,
+  "positive_file": "onset_cats.csv",
+  "negative": true
+ },
+ "n_missing": 253,
+ "buckets": {
+  "written by NO script in this corpus": 192,
+  "written by several, at least one of which RUNS": 43,
+  "written ONLY by scripts that are themselves DEAD": 3,
+  "written by a script that RUNS (build order)": 15
+ },
+ "producer_states": {
+  "mixed": 43,
+  "IMPORT-ERROR": 1,
+  "MISSING-INPUT": 2,
+  "OK": 15
+ },
+ "rows": [
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_the_count_saturate.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/shrink_the_person_effect.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/why_the_gate_failed.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/is_the_coverage_law_one_point.py",
+   "missing": "k_sweep.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_ex",
+   "producer_state": "IMPORT-ERROR"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/rank_selected_by_prediction.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/amplify_with_forced_choice.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/are_the_two_lines_one_quantity.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/are_the_two_sides_isomorphic.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/charge_the_shared_basis.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/compute_matched_general_vs_specific.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/control_at_the_derived_magnitude.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/derivation_or_measurement.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/diffuse_or_concentrated.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/direct_interaction_variance.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/disjointness_audit.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/do_they_have_different_external_anchors.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/does_it_arrive_as_a_package.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/does_the_80_percent_depend_on_the_summary.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/does_the_onset_link_survive_breadth.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/does_the_seam_hold.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/does_the_specific_spectrum_have_a_cliff.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/effective_rank_under_soft_threshold.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/every_component_against_its_own_null.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/expansion_or_deepening.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/external_correlates.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/gate_or_demographics.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/hardcoded_verdict_constants.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/how_broad_is_the_minority.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/how_many_cross_block_dimensions.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_it_a_trait.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_it_elevation_or_just_width.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_it_reverse_recall.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_the_breadth_link_an_arithmetic_bound.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_the_first_bin_effect_censoring.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_the_magnitude_shape_robust.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_the_position_tendency_just_sex.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_the_recall_bias_personal.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_the_trait_link_just_coverage.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_the_transfer_the_gate.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/is_there_a_boundary_at_all.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/magnitude_in_percentage_points.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/matched_difference_correlates.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/matched_dimensional_budget.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/mixture_or_gradient.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/one_family_from_spiky_to_flat.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/paired_swap_diffuse.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/per_person_misfit.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/person_or_item.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/plants_rebased_on_the_null.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/rank_sweep_under_l1.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/reaudit_with_gates.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/redraw_the_curveball_null.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/regularised_throughout.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/row_preserving_null_more_seeds.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/sd_as_a_function_of_mean.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/soft_threshold_the_interaction.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/spiky_or_flat.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/split_delta_by_the_content_line.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/surprisal_conditioned_on_count.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/surprisal_fixed_reference.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/symmetric_correction.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/the_first_thing_you_ever_wanted.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/the_four_way_decomposition.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/the_metric_was_never_swept.py",
+   "missing": "grid.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R00",
+   "producer_state": "mixed"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/three_quantities_one_machine.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/was_the_mechanism_already_in_the_ledger.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/what_are_the_extra_dimensions.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/what_versus_when_same_design.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A03_is_there_a_rarity_position_dimension/R003_derivation_or_measurement/which_line_is_the_real_one.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_leakage_need_a_noisy_covariat/does_leakage_need_a_noisy_covariate.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_leakage_need_a_noisy_covariat/is_it_its_own_home.py",
+   "missing": "widened.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_lea",
+   "producer_state": "MISSING-INPUT"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_leakage_need_a_noisy_covariat/the_seventeen_uncited_lines.py",
+   "missing": "own_home.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_lea",
+   "producer_state": "MISSING-INPUT"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_leakage_need_a_noisy_covariat/triage_the_forty_naked_numbers.py",
+   "missing": "naked_number_lines.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_lea",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_leakage_need_a_noisy_covariat/two_denominators_for_three_headline_claims.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_leakage_need_a_noisy_covariat/widen_the_window.py",
+   "missing": "naked_number_lines.csv",
+   "writers": "E01_sexual_as_a_value_not_a_category/A04_is_the_public_face_honest/R004_does_lea",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/bootstrap_the_whole_curve.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/curveball_on_the_main_delta.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/delta_dose_curve_over_censoring.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/delta_inside_the_residual.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/doubly_constrained_null.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/early_half_or_late_half_slope.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/is_animated_written_one_axis.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/is_it_just_item_count.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/is_it_shame_or_a_general_factor.py",
+   "missing": "panel_S.csv",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/is_the_loo_shape_a_sampling_fact.py",
+   "missing": "loo.csv",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/non_likert_panel.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/per_category_decomposition.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/representation_or_live.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/rerun_with_the_original_code.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/rho_i_against_twenty_outcomes.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/rho_panel_controlling_age.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/shame_and_the_position.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/the_distribution_of_rho_i.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/the_second_item_direction.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/three_nulls_on_the_late_half.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/three_predictors_one_outcome.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/where_is_the_turning_point.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/which_categories_carry_the_late_half.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/within_person_split_at_14.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/delta_as_a_function_of_when_you_got_your_eighth.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/is_the_advantage_only_in_large_samples.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/recheck_the_retraction_with_the_better_instrument.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/selection_amplification_or_heterogeneity.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/the_als_loading_as_a_person_variable.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/the_rate_curve_and_whether_it_is_a_surface.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/clear_211_on_the_intersection.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/does_rate_have_its_own_outcome_profile.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/early_or_remembers_early.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/guard_12_and_the_intersection_retest.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/rate_and_delta_from_disjoint_categories.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/which_clock_is_delta_a_function_of.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/is_rate_really_not_a_dimension.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/rate_residual_and_form.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/the_remaining_tenth_and_age.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/three_worlds.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_这六个坐标在男性和女性身上_不是完全同一套/all_three_stripped.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_这六个坐标在男性和女性身上_不是完全同一套/block_loadings.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_这六个坐标在男性和女性身上_不是完全同一套/eigenvector_reproducibility.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_这六个坐标在男性和女性身上_不是完全同一套/joint_buffer_test.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_这六个坐标在男性和女性身上_不是完全同一套/nested_correlations.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_这六个坐标在男性和女性身上_不是完全同一套/quadrants.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_这六个坐标在男性和女性身上_不是完全同一套/solidify_onset.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R016_1_4_是样本内的_换到没见过的人身上是_1_09/admission_threshold.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R016_1_4_是样本内的_换到没见过的人身上是_1_09/dose_response_and_mde.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R016_1_4_是样本内的_换到没见过的人身上是_1_09/joint_amplify_test.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R016_1_4_是样本内的_换到没见过的人身上是_1_09/repro_vs_n.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R016_1_4_是样本内的_换到没见过的人身上是_1_09/split_half_replication.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R016_1_4_是样本内的_换到没见过的人身上是_1_09/two_profiles.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R018_那个_0_2075_是_written_的_不是_form_的/c3_without_prevalence.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R018_那个_0_2075_是_written_的_不是_form_的/leave_one_block.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R018_那个_0_2075_是_written_的_不是_form_的/solidify.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R018_那个_0_2075_是_written_的_不是_form_的/structural_regression.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R018_那个_0_2075_是_written_的_不是_form_的/years_carried.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/S_by_sex.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/acted_then_belief.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/are_they_a_type.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/belief_residual_scan.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/believe_or_resign.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/beyond_its_parts.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/both_halves.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/chain_is_untestable_here.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/coverage_tradeoff.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/early_strata.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/family_from_blocks.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/familywise.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/five_items_and_shame.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/five_items_vs_c3.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/increments_and_interactions.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/independent_confirmation.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/intensity_vs_breadth.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/is_it_a_family.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/is_it_just_earlier.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/partner_responsiveness.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/relative_onset.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/sign_across_outcomes.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/split_S_in_two.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/stable_division_of_labour.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/the_class_of_empty_separators.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/therapeutic_scan.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/which_coordinate.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/which_subadditivity.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/wide_caliber_audience.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/wide_caliber_replication.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/wide_familywise.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_次可加过了全族阈_PLAUSIBLE_升到_CONFIRMED/within_person_order.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/acted_upon.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/drop_humiliation.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/explain_the_residual.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/increment_compare.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/ncat_as_predictor.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/nine_cells.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/two_ends.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_稀有度解释类别层羞耻的_58_残差是噪声底的_5_倍/wide_caliber_rerun.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R021_六个坐标解释的东西里_中位_18_与_你报了多少_共线/all_outcomes.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R023_页面上那个_0_1185_坐在一条从_0_172_走到_0_002_/all_outcomes_curve.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R023_页面上那个_0_1185_坐在一条从_0_172_走到_0_002_/fixed_people_varying_blocks.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R023_页面上那个_0_1185_坐在一条从_0_172_走到_0_002_/nested_vs_disjoint.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R023_页面上那个_0_1185_坐在一条从_0_172_走到_0_002_/s_shame_vs_coverage.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R023_页面上那个_0_1185_坐在一条从_0_172_走到_0_002_/two_strata.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/commonality_vs_person_variables.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/computed_vs_single.py",
+   "missing": "S_signs.csv",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/difference_of_differences.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/early_by_sex_wide.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/fantasy_has_no_audience.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/flexibility.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/interaction_not_quintiles.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/is_it_just_responsiveness.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/is_it_one_kind_of_person.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/routes_by_sex.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/shame_needs_an_audience.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/third_indicator_hunt.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/where_along_the_line.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R025_两把刀切出两组几乎不重叠的量/both_vs_therapeutic_only.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R025_两把刀切出两组几乎不重叠的量/faint_needs_an_anchor.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R025_两把刀切出两组几乎不重叠的量/interaction_needs_all_four.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R025_两把刀切出两组几乎不重叠的量/who_is_low_on_both.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R026_方向是对的_而顺手确认的是整页的羞耻方向/can_recall_bias_produce_it.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R026_方向是对的_而顺手确认的是整页的羞耻方向/form_splits_them.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R026_方向是对的_而顺手确认的是整页的羞耻方向/which_breadth.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R028_这份问卷里没有一种_专精_的口味/refit_the_one_that_was_wrong.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R029_两个锚是坏的_两种坏法_而都不报错/is_the_structure_just_involvement.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R030_色情使用量多解释的_是羞耻_而且只有羞耻/pornhabit_against_four_outcomes.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R031_羞耻是刹车_不是传递者_而我预注册的预期也是错的/test_the_sentence_i_just_wrote.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R031_羞耻是刹车_不是传递者_而我预注册的预期也是错的/who_else_does_shame_brake.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R032_扫描看不见这个性质_因为页面写的是比值_分母的区间从来不在句子里/c3_profile_under_shame.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R032_扫描看不见这个性质_因为页面写的是比值_分母的区间从来不在句子里/is_the_threshold_itself_stable.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R033_他们觉得改不了_尽管唯一本该让它显得可改的那一点也为真/through_experience_or_not.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R034_不是_你喜欢什么_是_你的喜欢怎么分布/is_it_a_few_blocks.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R035_那个_形状_不是广度型_而广度型是三个里最弱的/is_it_one_contrast_or_the_whole_structure.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R036_更卷入_有两种_而它们收的费不一样/do_the_halves_differ.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/does_the_fluid_pattern_replicate.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/dose_or_threshold.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/fluid_preference_without_any_coordinate.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/how_stable_is_the_loading_vector.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/one_antecedent_or_two_paths.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/one_slope_or_two.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/onset_and_the_sense_of_change.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/swap_or_real_instability.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/the_null_must_match_the_world.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/what_are_the_two_halves_made_of.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_我的判据不可能失败_而换掉它之后结论只剩一半/what_is_the_stable_direction.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R038_一个中介能不能出信息_三个相关系数就够了_不必跑那一轮/validate_the_headroom_bound.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R039_你被什么吸引_你用多少色情内容_走到羞耻就停住了/is_it_answering_or_feeling.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R039_你被什么吸引_你用多少色情内容_走到羞耻就停住了/rerun_the_history.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R039_你被什么吸引_你用多少色情内容_走到羞耻就停住了/which_quantity_pushes_only_one.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R039_你被什么吸引_你用多少色情内容_走到羞耻就停住了/wide_or_deep.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R040_两个领头成分各落在一条路上_分岔的两边第一次都能点名/c1_against_both_outcomes.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R040_两个领头成分各落在一条路上_分岔的两边第一次都能点名/does_c3_have_a_countable_name.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R040_两个领头成分各落在一条路上_分岔的两边第一次都能点名/regress_out_the_strongest_anchor.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R040_两个领头成分各落在一条路上_分岔的两边第一次都能点名/remove_every_countable.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/common_domains_alone.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/equal_sized_groups.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/is_the_other_path_moderated.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/plant_a_reversal.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/rarity_shame_by_domain_commonness.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/same_design_other_outcome.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/split_the_common_end.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_被罕见的东西吸引_在几乎没人去的地方更贵/what_happens_at_k12.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R042_问一个更便宜的问题_顺手撞上一个从没试过的锚/threshold_rule_v3.py",
+   "missing": "gss_gap_over_51_years.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R043_c3_三次劈半给出同一个答案_而_R549_的分组给出三个/c3_signature_stability.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R043_c3_三次劈半给出同一个答案_而_R549_的分组给出三个/floor_with_enough_draws.py",
+   "missing": "run.py",
+   "writers": "none",
+   "producer_state": "-"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R043_c3_三次劈半给出同一个答案_而_R549_的分组给出三个/selection_vs_sampling.py",
+   "missing": "gss_gap_over_51_years.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R043_c3_三次劈半给出同一个答案_而_R549_的分组给出三个/threshold_audit.py",
+   "missing": "gss_gap_over_51_years.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的地方它跟着稀有度_压不住的地方它脱钩/threshold_repair_and_odds_ratio.py",
+   "missing": "repair_both_controls.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R046_换个设计形状精度提高九倍_而这一次那个零里有东西/era_contrast_mde_first.py",
+   "missing": "gss_gap_over_51_years.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_十分之一的人算不算_看过_取决于他被递到哪一道题/randomised_wording_arms.py",
+   "missing": "gss_gap_over_51_years.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_十分之一的人算不算_看过_取决于他被递到哪一道题/who_does_the_format_select.py",
+   "missing": "gss_gap_over_51_years.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/freeze_and_one_out_of_sample_point.py",
+   "missing": "is_the_pooled_null_an_average.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R054_方向统一之后它变强了_而它的名字是_严格_不是_位置/direction_unified_strictness.py",
+   "missing": "leave_one_out_minority.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R053_0_6_可配",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R055_那道题只问_曾有过_的人_所以那四格是对结局取条件/inclusion_guard.py",
+   "missing": "nsfg_acasi_replication.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_换机构_换话",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R055_那道题只问_曾有过_的人_所以那四格是对结局取条件/per_wave_and_guard.py",
+   "missing": "nsfg_acasi_replication.json",
+   "writers": "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_换机构_换话",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R059_五格里只有一格_越稀有越被谴责_不是关于做法的定律/pick_the_next_source.py",
+   "missing": "source_map.json",
+   "writers": "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R059_五格里只有一格_越稀",
+   "producer_state": "OK"
+  },
+  {
+   "script": "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R076_没有一条说得比它的区间允许的更强_而收口自己查出了三件别的/a12_closeout.py",
+   "missing": "polarity.json",
+   "writers": "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R071_换个团队隔二十年还是",
+   "producer_state": "OK"
+  }
+ ],
+ "verdict": "**INDEPENDENT** leads: dead-producer 3 (1%) · no-producer 192 (76%) · live-producer 58 (23%), over 253 `MISSING-INPUT` scripts.\n  ⇒ the answer to *are these all the same error* is **no — the missing inputs were never produced here at all**."
+}

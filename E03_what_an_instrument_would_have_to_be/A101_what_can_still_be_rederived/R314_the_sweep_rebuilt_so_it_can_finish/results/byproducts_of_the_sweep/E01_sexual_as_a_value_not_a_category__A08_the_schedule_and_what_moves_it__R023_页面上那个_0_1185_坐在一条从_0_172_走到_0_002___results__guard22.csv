@@ -1,0 +1,7 @@
+v_case,want,got,ok
+★ 正对照:`#404` 的六点覆盖曲线,True,True,True
+★ 正对照:`#390` 的三点节点扫描,True,True,True
+★ 负对照:`#405` 的一点曲线,False,False,True
+负对照:x 全相同,False,False,True
+负对照:非数,False,False,True
+负对照:x/y 长度不一致,False,False,True

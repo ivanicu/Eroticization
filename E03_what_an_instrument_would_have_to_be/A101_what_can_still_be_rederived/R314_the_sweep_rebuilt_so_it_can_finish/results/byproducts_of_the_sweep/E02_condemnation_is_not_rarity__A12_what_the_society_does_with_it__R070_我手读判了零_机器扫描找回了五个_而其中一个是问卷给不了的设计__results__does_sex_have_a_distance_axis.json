@@ -1,0 +1,2541 @@
+{
+ "instrument": "SCCS / D-PLACE",
+ "coverage_of_7": {
+  "SCCS165": 130,
+  "SCCS169": 109,
+  "SCCS176": 40,
+  "SCCS960": 29,
+  "SCCS961": 61,
+  "SCCS962": 51,
+  "SCCS964": 54
+ },
+ "sex_hits": [
+  {
+   "id": "SCCS34",
+   "cov": 134,
+   "title": "Post - Partum Sex Taboo",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Intercourse expected soon after birth | 1 month or < | 6 months or < | 1 year or < | 2 years or < | > 2 years | Post - Partum Sex "
+  },
+  {
+   "id": "SCCS99",
+   "cov": 179,
+   "title": "Food Collection: Vegetal (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS100",
+   "cov": 133,
+   "title": "Food Collection: Eggs, Insects, and/or Small Land Fauna (sexual di",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS101",
+   "cov": 162,
+   "title": "Food Collection: Shellfish/Small Aquatic Fauna (sexual division of",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS102",
+   "cov": 106,
+   "title": "Food Collection: Honey (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Exclusively | Food Colle"
+  },
+  {
+   "id": "SCCS103",
+   "cov": 157,
+   "title": "Food Collection: Fowling (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Food Collection: Fowling (sexual"
+  },
+  {
+   "id": "SCCS104",
+   "cov": 182,
+   "title": "Food Collection: Fishing (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS105",
+   "cov": 171,
+   "title": "Food Collection: Trapping (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Food Col"
+  },
+  {
+   "id": "SCCS106",
+   "cov": 180,
+   "title": "Food Collection: Large Land Fauna (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Males Exclusively | Males Predominantly | Food Collection: Large Land Fauna (sexual division of labor)"
+  },
+  {
+   "id": "SCCS107",
+   "cov": 177,
+   "title": "Food Collection: Large Aquatic Fauna (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Food Collection: Large Aquatic Fauna (sexual division of labor)"
+  },
+  {
+   "id": "SCCS108",
+   "cov": 184,
+   "title": "Food Production: Land Clearance (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS109",
+   "cov": 184,
+   "title": "Food Production: Soil Preparation (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS110",
+   "cov": 185,
+   "title": "Food Production: Planting (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females Exclusively | Food Production: P"
+  },
+  {
+   "id": "SCCS111",
+   "cov": 182,
+   "title": "Food Production: Crop Tending (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS112",
+   "cov": 185,
+   "title": "Food Production: Harvesting (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females Exclusively | Food Production: H"
+  },
+  {
+   "id": "SCCS113",
+   "cov": 180,
+   "title": "Food Production: Small Domestic Animals (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS114",
+   "cov": 184,
+   "title": "Food Production: Large Domestic Animals (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS115",
+   "cov": 185,
+   "title": "Food Production: Milking (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS116",
+   "cov": 178,
+   "title": "Food Preparation: Vegetal: Food Preparation (sexual division of la",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS117",
+   "cov": 167,
+   "title": "Food Preparation: Butchering (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS118",
+   "cov": 161,
+   "title": "Food Preparation: Preservation (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS119",
+   "cov": 170,
+   "title": "Food Preparation: Drinks (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS120",
+   "cov": 178,
+   "title": "Food Preparation: Dairy (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Females Exclusively | Food Preparation: Dairy (sexual division o"
+  },
+  {
+   "id": "SCCS121",
+   "cov": 185,
+   "title": "Food Preparation: Cooking (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task present, sex unspecified | Males Predominantly | Equally | Females Predominantly | Females Exclusively | Food Preparation: Co"
+  },
+  {
+   "id": "SCCS122",
+   "cov": 147,
+   "title": "Extractive Industries: Mining/Quarrying (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Exclusively | Extractive"
+  },
+  {
+   "id": "SCCS123",
+   "cov": 179,
+   "title": "Extractive Industries: Fuel Gathering (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS124",
+   "cov": 169,
+   "title": "Extractive Industries: Lumbering (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Extractive Industries: Lumbering (sexual d"
+  },
+  {
+   "id": "SCCS125",
+   "cov": 185,
+   "title": "Extractive Industries: Water Fetching (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females Exclusively | "
+  },
+  {
+   "id": "SCCS126",
+   "cov": 173,
+   "title": "Intermediate Processing: Skins (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS127",
+   "cov": 156,
+   "title": "Intermediate Processing: Spinning (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS128",
+   "cov": 170,
+   "title": "Intermediate Processing: Loom Weaving (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Equally | Females Predominantly | Females Exclusively | Intermed"
+  },
+  {
+   "id": "SCCS129",
+   "cov": 162,
+   "title": "Intermediate Processing: Smelting (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Males Exclusively | Intermediate Processing: Smelting (sexual division of labor)"
+  },
+  {
+   "id": "SCCS130",
+   "cov": 163,
+   "title": "Manufacturing: Matmaking (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS131",
+   "cov": 155,
+   "title": "Manufacturing: Netmaking (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS132",
+   "cov": 170,
+   "title": "Manufacturing: Basketmaking (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS133",
+   "cov": 170,
+   "title": "Manufacturing: Rope or Cordage (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS134",
+   "cov": 163,
+   "title": "Manufacturing: Leather (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS135",
+   "cov": 163,
+   "title": "Manufacturing: Clothing (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS136",
+   "cov": 172,
+   "title": "Manufacturing: Pottery (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS137",
+   "cov": 182,
+   "title": "Manufacturing: Wood (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Manufact"
+  },
+  {
+   "id": "SCCS138",
+   "cov": 140,
+   "title": "Manufacturing: Bone (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Exclusively | Manufactur"
+  },
+  {
+   "id": "SCCS139",
+   "cov": 143,
+   "title": "Manufacturing: Stone (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Equally | Manufacturing: Stone (sexual division of labor)"
+  },
+  {
+   "id": "SCCS140",
+   "cov": 179,
+   "title": "Manufacturing: Metal (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Males Exclusively | Males Predominantly | Manufacturing: Metal (sexual division of labor)"
+  },
+  {
+   "id": "SCCS141",
+   "cov": 170,
+   "title": "Manufacturing: Musical Instruments (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Exclusively | Manufactur"
+  },
+  {
+   "id": "SCCS142",
+   "cov": 185,
+   "title": "Miscellaneous: Fire (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS143",
+   "cov": 127,
+   "title": "Miscellaneous: Laundering (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Equally | Females Predominantly | Females Exclusively | Miscella"
+  },
+  {
+   "id": "SCCS144",
+   "cov": 164,
+   "title": "Miscellaneous: Bodily Mutilation (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS145",
+   "cov": 98,
+   "title": "Miscellaneous: Bonesetting/Surgery (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Miscellaneous: Bonesetting/Surge"
+  },
+  {
+   "id": "SCCS146",
+   "cov": 155,
+   "title": "Miscellaneous: Burden Carrying (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS147",
+   "cov": 175,
+   "title": "Miscellaneous: Boatbuilding (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Exclusively | Miscellane"
+  },
+  {
+   "id": "SCCS148",
+   "cov": 185,
+   "title": "Miscellaneous: Housebuilding (sexual division of labor)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Task Absent | Task present, sex unspecified | Males Exclusively | Males Predominantly | Equally | Females Predominantly | Females "
+  },
+  {
+   "id": "SCCS159",
+   "cov": 60,
+   "title": "Talk about Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Adults & adults talk explicitly | Except w/ children | Except w/ certain people | Only with intimates | Never | Talk about Sex"
+  },
+  {
+   "id": "SCCS160",
+   "cov": 66,
+   "title": "Sex Frequency in Marriage",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No abstinence | Abstinence at times | Moderation | Abstinence admired | Sex Frequency in Marriage"
+  },
+  {
+   "id": "SCCS161",
+   "cov": 34,
+   "title": "Sex Believed Dangerous",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | With specific categories | Only unusual practices | Only sexual secretions | Always | Sex Believed Dangerous"
+  },
+  {
+   "id": "SCCS165",
+   "cov": 130,
+   "title": "Premarital Sex Attitudes - Female",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Expected | Tolerated | Mildly disapproved | Moderately disapproved | Disallowed | Strongly disapproved | Premarital Sex Attitudes "
+  },
+  {
+   "id": "SCCS166",
+   "cov": 102,
+   "title": "Frequency of Premarital Sex - Male",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Universal | Moderate | Occasional | Uncommon | Frequency of Premarital Sex - Male"
+  },
+  {
+   "id": "SCCS167",
+   "cov": 109,
+   "title": "Frequency of Premarital Sex - Female",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Universal | Moderate | Occasional | Uncommon | Frequency of Premarital Sex - Female"
+  },
+  {
+   "id": "SCCS168",
+   "cov": 30,
+   "title": "Initiator of Premarital Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Women always | Both equally | Men more than women | Men always | Initiator of Premarital Sex"
+  },
+  {
+   "id": "SCCS169",
+   "cov": 109,
+   "title": "Extramarital Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 4,
+   "codes": "Single standard- both allowed | Double standard- husband only | Double standard- both forbidden, women punished | Single standard-"
+  },
+  {
+   "id": "SCCS170",
+   "cov": 51,
+   "title": "Frequency of Extramarital Sex - Male",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Universal | Moderate | Occasional | Uncommon | Frequency of Extramarital Sex - Male"
+  },
+  {
+   "id": "SCCS171",
+   "cov": 53,
+   "title": "Frequency of Extramarital Sex - Female",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Universal | Moderate | Occasional | Uncommon | Frequency of Extramarital Sex - Female"
+  },
+  {
+   "id": "SCCS173",
+   "cov": 39,
+   "title": "Rape",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Accepted/ignored | Ridiculed | Mildly disapproved | Strongly disapproved | Rape"
+  },
+  {
+   "id": "SCCS174",
+   "cov": 31,
+   "title": "Frequency of Rape",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Rare | Common | Frequency of Rape"
+  },
+  {
+   "id": "SCCS175",
+   "cov": 60,
+   "title": "Male Sexual Aggressiveness",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Men diffident, shy | Men sexually forward but not diffident | Men forward verbally | Men forward physically | Men forward; hostile"
+  },
+  {
+   "id": "SCCS176",
+   "cov": 40,
+   "title": "Homosexuality",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Accepted/ignored | Ridiculed, no punishment | Mildly disapproved | Strongly disapproved | Homosexuality"
+  },
+  {
+   "id": "SCCS177",
+   "cov": 69,
+   "title": "Frequency of Homosexuality",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Frequency of Homosexuality"
+  },
+  {
+   "id": "SCCS240",
+   "cov": 107,
+   "title": "Post-partum sex taboos [Note, identical to EA036]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | No taboo | Up to one month | One to six months | Six months to a year | A year to two years | More than two years |"
+  },
+  {
+   "id": "SCCS248",
+   "cov": 183,
+   "title": "Sex differences: metal working [Note, identical to EA044]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS249",
+   "cov": 174,
+   "title": "Sex differences: weaving [Note, identical to EA045]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS250",
+   "cov": 139,
+   "title": "Sex differences: leather working [Note, identical to EA046]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS251",
+   "cov": 170,
+   "title": "Sex differences: pottery making [Note, identical to EA047]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS252",
+   "cov": 160,
+   "title": "Sex differences: boat building [Note, identical to EA048]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS253",
+   "cov": 150,
+   "title": "Sex differences: house construction [Note, identical to EA049]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS260",
+   "cov": 162,
+   "title": "Sex differences: gathering [Note, identical to EA050]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS261",
+   "cov": 179,
+   "title": "Sex differences: hunting [Note, identical to EA051]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS262",
+   "cov": 173,
+   "title": "Sex Differences: fishing [Note, identical to EA052]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS263",
+   "cov": 163,
+   "title": "Sex differences: animal husbandry [Note, identical to EA053]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS264",
+   "cov": 177,
+   "title": "Sex differences: agriculture [Note, identical to EA054]",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Males alone | Both, males more | Differentiated but equal | Equal participation | Both, females more | Females alon"
+  },
+  {
+   "id": "SCCS282",
+   "cov": 146,
+   "title": "Norms of premarital sexual behavior of girls [Note, identical to E",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Missing data | Precluded by early marriage | Prohibited, strongly sanctioned | Prohibited but weakly sanctioned | Permitted, sanct"
+  },
+  {
+   "id": "SCCS330",
+   "cov": 156,
+   "title": "Sexual Restraint: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "no inculcation, or opposite trait (0 of 10) | (1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of "
+  },
+  {
+   "id": "SCCS331",
+   "cov": 154,
+   "title": "Sexual Restraint: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "no inculcation, or opposite trait (0 of 10) | (1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of "
+  },
+  {
+   "id": "SCCS332",
+   "cov": 164,
+   "title": "Sexual Restraint: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of 10) | (6 of 10) | (7 of 10) | (8 of 10) | Sexu"
+  },
+  {
+   "id": "SCCS333",
+   "cov": 165,
+   "title": "Sexual Restraint: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of 10) | (6 of 10) | (7 of 10) | (8 of 10) | (9 o"
+  },
+  {
+   "id": "SCCS341",
+   "cov": 180,
+   "title": "Sex of Companions: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Sex of Companions: Early Boy"
+  },
+  {
+   "id": "SCCS342",
+   "cov": 180,
+   "title": "Sex of Companions: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Both Sexes = | Female Predominantly | Female Exclusively | Sex of Companions: Early Girl"
+  },
+  {
+   "id": "SCCS343",
+   "cov": 180,
+   "title": "Sex of Companions: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Sex of Companions: Late Boy"
+  },
+  {
+   "id": "SCCS344",
+   "cov": 178,
+   "title": "Sex of Companions: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Companions: Late Girl"
+  },
+  {
+   "id": "SCCS353",
+   "cov": 182,
+   "title": "Sex of Parents in Residence: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parents in Residence: Early Boy"
+  },
+  {
+   "id": "SCCS354",
+   "cov": 182,
+   "title": "Sex of Parents in Residence: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parents in Residence: Early Girl"
+  },
+  {
+   "id": "SCCS355",
+   "cov": 158,
+   "title": "Sex of Parents in Residence: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parents in Residence: La"
+  },
+  {
+   "id": "SCCS356",
+   "cov": 168,
+   "title": "Sex of Parents in Residence: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parents in Residence: Late Girl"
+  },
+  {
+   "id": "SCCS357",
+   "cov": 125,
+   "title": "Sex of Non-parents in Residence: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Exclusively | Sex of Non-parents in Residence: Early Boy"
+  },
+  {
+   "id": "SCCS358",
+   "cov": 121,
+   "title": "Sex of Non-parents in Residence: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Non-parents in Residence: Early Girl"
+  },
+  {
+   "id": "SCCS359",
+   "cov": 134,
+   "title": "Sex of Non-parents in Residence: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Exclusively | Sex of Non-parents in Residence: Late Boy"
+  },
+  {
+   "id": "SCCS360",
+   "cov": 133,
+   "title": "Sex of Non-parents in Residence: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Exclusively | Sex of Non-parents in Residence: Late Girl"
+  },
+  {
+   "id": "SCCS369",
+   "cov": 173,
+   "title": "Sex of Parental Caretakers: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Caretakers: Ear"
+  },
+  {
+   "id": "SCCS370",
+   "cov": 175,
+   "title": "Sex of Parental Caretakers: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Caretakers: Ear"
+  },
+  {
+   "id": "SCCS371",
+   "cov": 132,
+   "title": "Sex of Parental Caretakers: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Caretakers: Lat"
+  },
+  {
+   "id": "SCCS372",
+   "cov": 145,
+   "title": "Sex of Parental Caretakers: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Caretakers: Lat"
+  },
+  {
+   "id": "SCCS373",
+   "cov": 145,
+   "title": "Sex of Principal Non-parental Caretakers: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental C"
+  },
+  {
+   "id": "SCCS374",
+   "cov": 144,
+   "title": "Sex of Principal Non-parental Caretakers: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental C"
+  },
+  {
+   "id": "SCCS375",
+   "cov": 103,
+   "title": "Sex of Principal Non-parental Caretakers: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental C"
+  },
+  {
+   "id": "SCCS376",
+   "cov": 111,
+   "title": "Sex of Principal Non-parental Caretakers: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental C"
+  },
+  {
+   "id": "SCCS385",
+   "cov": 172,
+   "title": "Sex of Parental Authority Figures: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Authority Figur"
+  },
+  {
+   "id": "SCCS386",
+   "cov": 173,
+   "title": "Sex of Parental Authority Figures: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Authority Figur"
+  },
+  {
+   "id": "SCCS387",
+   "cov": 147,
+   "title": "Sex of Parental Authority Figures: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Authority Figur"
+  },
+  {
+   "id": "SCCS388",
+   "cov": 160,
+   "title": "Sex of Parental Authority Figures: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Authority Figur"
+  },
+  {
+   "id": "SCCS389",
+   "cov": 113,
+   "title": "Sex of Principal Non-parental Authority Figures: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental A"
+  },
+  {
+   "id": "SCCS390",
+   "cov": 108,
+   "title": "Sex of Principal Non-parental Authority Figures: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental A"
+  },
+  {
+   "id": "SCCS391",
+   "cov": 121,
+   "title": "Sex of Principal Non-parental Authority Figures: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental A"
+  },
+  {
+   "id": "SCCS392",
+   "cov": 108,
+   "title": "Sex of Principal Non-parental Authority Figures: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental A"
+  },
+  {
+   "id": "SCCS401",
+   "cov": 68,
+   "title": "Sex of Parental Disciplinarians: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Disciplinarians"
+  },
+  {
+   "id": "SCCS402",
+   "cov": 64,
+   "title": "Sex of Parental Disciplinarians: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Disciplinarians"
+  },
+  {
+   "id": "SCCS403",
+   "cov": 64,
+   "title": "Sex of Parental Disciplinarians: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Disciplinarians"
+  },
+  {
+   "id": "SCCS404",
+   "cov": 61,
+   "title": "Sex of Parental Disciplinarians: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Disciplinarians"
+  },
+  {
+   "id": "SCCS405",
+   "cov": 39,
+   "title": "Sex of Principal Non-parental Disciplinarians: Early Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Exclusively | Sex of Principal Non-parental Disciplinarians: Early B"
+  },
+  {
+   "id": "SCCS406",
+   "cov": 39,
+   "title": "Sex of Principal Non-parental Disciplinarians: Early Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental Disciplinarians: Early"
+  },
+  {
+   "id": "SCCS407",
+   "cov": 49,
+   "title": "Sex of Principal Non-parental Disciplinarians: Late Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Exclusively | Sex of Principal Non-parental Disciplinarians: Late Bo"
+  },
+  {
+   "id": "SCCS408",
+   "cov": 42,
+   "title": "Sex of Principal Non-parental Disciplinarians: Late Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Both Sexes = | Female Exclusively | Sex of Principal Non-parental Disciplinarians: Late Girls"
+  },
+  {
+   "id": "SCCS417",
+   "cov": 163,
+   "title": "Sex of Parental Educators: Early Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Educators: Earl"
+  },
+  {
+   "id": "SCCS418",
+   "cov": 170,
+   "title": "Sex of Parental Educators: Early Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Educators: Earl"
+  },
+  {
+   "id": "SCCS419",
+   "cov": 155,
+   "title": "Sex of Parental Educators: Late Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Educators: Late"
+  },
+  {
+   "id": "SCCS420",
+   "cov": 160,
+   "title": "Sex of Parental Educators: Late Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Parental Educators: Late"
+  },
+  {
+   "id": "SCCS421",
+   "cov": 140,
+   "title": "Sex of Principal Non-parental Educators: Early Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Exclusively | Sex of Principal Non-parental Educators: Early Boys"
+  },
+  {
+   "id": "SCCS422",
+   "cov": 125,
+   "title": "Sex of Principal Non-parental Educators: Early Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental E"
+  },
+  {
+   "id": "SCCS423",
+   "cov": 154,
+   "title": "Sex of Principal Non-parental Educators: Late Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Male Predominantly | Both Sexes = | Female Exclusively | Sex of Principal Non-parental Educators: Late Boys"
+  },
+  {
+   "id": "SCCS424",
+   "cov": 124,
+   "title": "Sex of Principal Non-parental Educators: Late Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male Exclusively | Both Sexes = | Female Predominantly | Female Exclusively | Sex of Principal Non-parental Educators: Late Girls"
+  },
+  {
+   "id": "SCCS539",
+   "cov": 182,
+   "title": "Sexes of Participants: Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Both sexes | Partially limited to same sex as initiates | Exclusively same sex as initiates | Sexes of Participants: Boys"
+  },
+  {
+   "id": "SCCS540",
+   "cov": 183,
+   "title": "Sexes of Participants: Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Both sexes | Partially limited to same sex as initiates | Exclusively same sex as initiates | Sexes of Participants: Girl"
+  },
+  {
+   "id": "SCCS576",
+   "cov": 67,
+   "title": "Sex of Gods and Spirits and Other Super-natural Beings",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "All male | Males More Powerful | More Equal | Both Equal | Sex of Gods and Spirits and Other Super-natural Beings"
+  },
+  {
+   "id": "SCCS578",
+   "cov": 73,
+   "title": "Sex of Shamans",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "All males | Male more, more powerful | male more, while power equal | Female more powerful | Sex of Shamans"
+  },
+  {
+   "id": "SCCS579",
+   "cov": 68,
+   "title": "Sex of Reputed Witches",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "All males | Male predominance in power | Both, equal in power | Female predominance in power | Sex of Reputed Witches"
+  },
+  {
+   "id": "SCCS596",
+   "cov": 73,
+   "title": "(No) Double Standard in Regard to Premarital Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 1,
+   "codes": "Yes | No, Equal Restriction | (No) Double Standard in Regard to Premarital Sex"
+  },
+  {
+   "id": "SCCS597",
+   "cov": 75,
+   "title": "(No) Double Standard in Regard to Extramarital Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 2,
+   "codes": "Yes | No, Equal Restrictions | Male Punished Severely | (No) Double Standard in Regard to Extramarital Sex"
+  },
+  {
+   "id": "SCCS598",
+   "cov": 86,
+   "title": "Extramarital Affairs of Married Women",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Not allowed and apparently rare | Not allowed and not uncommon | Allowed or very common | Extramarital Affairs of Married Women"
+  },
+  {
+   "id": "SCCS601",
+   "cov": 93,
+   "title": "Sexual Drives and Urges Understood",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Men stronger urges | Belief urges are Equal | Women Stronger Urges | Sexual Drives and Urges Understood"
+  },
+  {
+   "id": "SCCS602",
+   "cov": 68,
+   "title": "(No) Explicit View That Sexual Activity Is Dangerous or Contaminat",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Yes | No | (No) Explicit View That Sexual Activity Is Dangerous or Contaminating"
+  },
+  {
+   "id": "SCCS616",
+   "cov": 93,
+   "title": "A Stated Preference for Children of One Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "For male | Equal, no preference | For females | A Stated Preference for Children of One Sex"
+  },
+  {
+   "id": "SCCS625",
+   "cov": 81,
+   "title": "High Value Placed on Males Being Aggressive, Strong, and Sexually ",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Marked emphasis | Moderate emphasis | Little or no emphasis | High Value Placed on Males Being Aggressive, Strong, and Sexually Po"
+  },
+  {
+   "id": "SCCS634",
+   "cov": 92,
+   "title": "Control of Sex Scale",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Stricter controls over women's marital, sexual lives | (2 on an ordinal scale with 3 levels) | Equal control over women's marital,"
+  },
+  {
+   "id": "SCCS657",
+   "cov": 142,
+   "title": "Flexible Marriage Mores (Divorce for Both Men and Women: or Mild P",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Flexible Marriage Mores (Divorce for Both Men and Women: or Mild Punishment for Adultery)"
+  },
+  {
+   "id": "SCCS667",
+   "cov": 95,
+   "title": "Rape: Incidents Reports, or Thought of as Means of Punishment Wome",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Rape: Incidents Reports, or Thought of as Means of Punishment Women, or Part of Ceremony"
+  },
+  {
+   "id": "SCCS672",
+   "cov": 116,
+   "title": "Male Avoidance of Female Sexuality (A11)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "sexual intercourse prohibited during menstruation | sexual intercourse prohibited at other times also | men avoid or fear female g"
+  },
+  {
+   "id": "SCCS673",
+   "cov": 39,
+   "title": "Sex of Creative Agent, Ancestor, or Culture-hero",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Female | Sexless | Couples | Male | Animal | Supreme being or force | Sex of Creative Agent, Ancestor, or Culture-hero"
+  },
+  {
+   "id": "SCCS714",
+   "cov": 90,
+   "title": "Sex Ratio",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Female excess | Roughly equal | Male excess | Sex Ratio"
+  },
+  {
+   "id": "SCCS716",
+   "cov": 93,
+   "title": "Sex of Coders",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Both male | Male & Female | Both female | Sex of Coders"
+  },
+  {
+   "id": "SCCS720",
+   "cov": 93,
+   "title": "Sex of Authorities",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "All males | Mixed Males & Females | All Females | Sex of Authorities"
+  },
+  {
+   "id": "SCCS733",
+   "cov": 93,
+   "title": "Contribution of the Sexes to Agriculture",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male participation exclusively, or female contribution negli | Male participation appreciably greater | Equal participation | Fema"
+  },
+  {
+   "id": "SCCS734",
+   "cov": 93,
+   "title": "Contribution of the Sexes to Animal Husbandry",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male participation exclusively, or female contribution negli | Male participation appreciably greater | Equal participation | Fema"
+  },
+  {
+   "id": "SCCS735",
+   "cov": 93,
+   "title": "Contribution of the Sexes to Fishing, Shellfishing, and Marine Hun",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male participation exclusively, or female contribution negli | Male participation appreciably greater | Equal participation | Fema"
+  },
+  {
+   "id": "SCCS736",
+   "cov": 93,
+   "title": "Contribution of the Sexes to Hunting and Gathering",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Male participation exclusively, or female contribution negli | Male participation appreciably greater | Equal participation | Fema"
+  },
+  {
+   "id": "SCCS737",
+   "cov": 93,
+   "title": "Relative Contribution of the Sexes to Handicrafts and Manufacture",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Male participation exclusively, or female contribution negli | Male participation appreciably greater | Equal participation | Fema"
+  },
+  {
+   "id": "SCCS738",
+   "cov": 93,
+   "title": "Relative Contribution of the Sexes to Trade",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Male participation exclusively, or female contribution negli | Male participation appreciably greater | Equal participation | Fema"
+  },
+  {
+   "id": "SCCS805",
+   "cov": 80,
+   "title": "Sex of informants",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Males | Females | Both | Sex of informants"
+  },
+  {
+   "id": "SCCS827",
+   "cov": 154,
+   "title": "Sexual Expression in Adolescent Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "1 (on a scale of 1-10) | Not Approved | 3 (on a scale of 1-10) | 4 (on a scale of 1-10) | Normally Approved | 6 (on a scale of 1-1"
+  },
+  {
+   "id": "SCCS828",
+   "cov": 158,
+   "title": "Sexual Expression in Adolescent Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "0 (on a scale of 1-10) | 1 (on a scale of 1-10) | Not Approved | 3 (on a scale of 1-10) | 4 (on a scale of 1-10) | Normally Approv"
+  },
+  {
+   "id": "SCCS829",
+   "cov": 155,
+   "title": "Sexual Nonrestraint in Adolescent Boys",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "1 (on a scale of 1-10) | Strictly Prohibited | 3 (on a scale of 1-10) | 4 (on a scale of 1-10) | Disapproved & Punished | 6 (on a "
+  },
+  {
+   "id": "SCCS830",
+   "cov": 159,
+   "title": "Sexual Nonrestraint in Adolescent Girls",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "0 (on a scale of 1-10) | 1 (on a scale of 1-10) | Strictly Prohibited | 3 (on a scale of 1-10) | 4 (on a scale of 1-10) | Disappro"
+  },
+  {
+   "id": "SCCS860",
+   "cov": 184,
+   "title": "Cultural Basis of Polygyny",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Monogamy prescribed | Monogamy preferred, but exceptional cases of polygyny | Polygyny preferred by men with leadership attributes"
+  },
+  {
+   "id": "SCCS862",
+   "cov": 164,
+   "title": "Sororal Polygyny",
+   "is_tgt": true,
+   "tgt": 2,
+   "bad": 0,
+   "codes": "No polygyny (M) | Non-sororal polygyny predominant | Sororal or marriage to wife's kin predominant | Sororal or secondary marriage"
+  },
+  {
+   "id": "SCCS866",
+   "cov": 155,
+   "title": "Higher Rates of Polygyny for Men of Wealth, Rank, Nobility, or Hig",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No Stratified polygny | Hereditary upper social class | Higher Rates of Polygyny for Men of Wealth, Rank, Nobility, or Higher Soci"
+  },
+  {
+   "id": "SCCS870",
+   "cov": 158,
+   "title": "Additional Wives or Concubines from Slavery or Capture in Warfare",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "No female captives | Women taken as captives but not married | Additional Wives or Concubines from Slavery or Capture in Warfare"
+  },
+  {
+   "id": "SCCS873",
+   "cov": 146,
+   "title": "Reliability of Data for Percentage Polygynously Married",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Direct percentage: good quantitative data | Direct percentage for make polygyny, 2 wives per man | % female polygyny estimated fro"
+  },
+  {
+   "id": "SCCS874",
+   "cov": 140,
+   "title": "Polygyny Data Source",
+   "is_tgt": true,
+   "tgt": 2,
+   "bad": 0,
+   "codes": "Sample of over 100 married men | Sample of less 100 married men, of an entire settlement | Estimate from Ethnographer Statements |"
+  },
+  {
+   "id": "SCCS876",
+   "cov": 51,
+   "title": "Polygyny Distributions",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "True Binomial | Negative Binomial | Polygyny Distributions"
+  },
+  {
+   "id": "SCCS877",
+   "cov": 181,
+   "title": "Polygyny Guttman Scale I: Co-wife Autonomy Constructed from 854-85",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "None of the following | Stratified Polygyny (854) only | Negative binomial (855), plus above | Marriage of female captives (858), "
+  },
+  {
+   "id": "SCCS878",
+   "cov": 182,
+   "title": "Polygyny Guttman Scale II: Charismatic Constructed from 851-855",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "None of the following | Rooming together (853) only | Co-wives same dwelling (852), plus above | Sororal (851), plus above | Polyg"
+  },
+  {
+   "id": "SCCS933",
+   "cov": 57,
+   "title": "Sleeping Arrangements of Adolescent Females: Where Unmarried but S",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Girls marry before or at puberty & live with husband | Sleep in same dwelling as parents & sibs | In Parents but separate area | I"
+  },
+  {
+   "id": "SCCS935",
+   "cov": 47,
+   "title": "Eating Arrangements: the Spatial Arrangement of the Sexes during t",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Men & women eat together. No particular arrangement is set. | Men & women eat together. position accroding to kinship. | Men & wom"
+  },
+  {
+   "id": "SCCS950",
+   "cov": 47,
+   "title": "Preferred Sex and Number of Children",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "They want very few children, regardless of sex | They prefer to have males ranther than females | They prefer to have females rath"
+  },
+  {
+   "id": "SCCS958",
+   "cov": 56,
+   "title": "Restrictions on the Occasion of Intercourse. Each Category Specifi",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Not during menstruation | Not for a period after childbirth or during pregnancy | Not during menstruation, pregnancy or after chil"
+  },
+  {
+   "id": "SCCS959",
+   "cov": 42,
+   "title": "Extensions of the Incest Taboo. Each Category Specifies an Extensi",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No extention beyond the nuclear family is reported | Bilateral extensions by cross or parallel cousins | Bilateral extension by de"
+  },
+  {
+   "id": "SCCS960",
+   "cov": 29,
+   "title": "Violation of the Incest Taboo",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 2,
+   "codes": "None or mild punishment | Moderate punishment | Severe punishment | Punishment ot others than the offenders | Punishment ot the to"
+  },
+  {
+   "id": "SCCS961",
+   "cov": 61,
+   "title": "Restrictions on Premarital Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 2,
+   "codes": "It is permitted for both sexes | It is permitted for both but in limited contexts | It is permitted and not punished unless pregna"
+  },
+  {
+   "id": "SCCS962",
+   "cov": 51,
+   "title": "Violation of Restrictions on Premarital Sex. Each Category Specifi",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Neither she nor her partner face punishment | Her partner is punished, but she is not | Mild punishment for the women | Moderate p"
+  },
+  {
+   "id": "SCCS963",
+   "cov": 58,
+   "title": "Restrictions and Extramarital Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 2,
+   "codes": "Permitted for both H and W | Permitted for both but in limited context | Permitted and not punished unless pregnancy results | Per"
+  },
+  {
+   "id": "SCCS964",
+   "cov": 54,
+   "title": "Punishment for Extramarital Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No or mild punishment | Generally mild punishment | Moderate punishment, beating or incarceration | Generally moderate punishment,"
+  },
+  {
+   "id": "SCCS965",
+   "cov": 48,
+   "title": "Violation: Who Is Punished for Adultery",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 1,
+   "codes": "Only the lover is punished | Both the lover and the woman is punished, the man is worse | Both the man and the woman are equally p"
+  },
+  {
+   "id": "SCCS966",
+   "cov": 55,
+   "title": "Violation: Who Punishes Adultery",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 1,
+   "codes": "0 | No punishment for the women | The husband punishes his wife and/or her lover | A representative of the wife's family punishes "
+  },
+  {
+   "id": "SCCS1136",
+   "cov": 160,
+   "title": "Divorce Causes - Infidelity: Adultery",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Not mentioned as cause of divorce | Husband | Both | Unspecified | Wife | Divorce Causes - Infidelity: Adultery"
+  },
+  {
+   "id": "SCCS1137",
+   "cov": 160,
+   "title": "Divorce Causes - Infidelity: Lack of Virginity",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Not mentioned as cause of divorce | Wife | Divorce Causes - Infidelity: Lack of Virginity"
+  },
+  {
+   "id": "SCCS1145",
+   "cov": 160,
+   "title": "Divorce Causes - Infertility: Sexual Neglect",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Not mentioned as cause of divorce | Husband | Divorce Causes - Infertility: Sexual Neglect"
+  },
+  {
+   "id": "SCCS1146",
+   "cov": 160,
+   "title": "Divorce Causes - Infertility: Refusal to Have Sex",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Not mentioned as cause of divorce | Wife | Divorce Causes - Infertility: Refusal to Have Sex"
+  },
+  {
+   "id": "SCCS1249",
+   "cov": 49,
+   "title": "Exposure of Adolescent Girls to Male Sexual Advances",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Protection by Adult groups | (original code 2.5) | Protection by parents only | protection by peers | (original code 4.5) | no prp"
+  },
+  {
+   "id": "SCCS1691",
+   "cov": 60,
+   "title": "Sex Ratio Unit",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No sex ratio calculated | The whole society | The \"breeding population\" | The district, but not known whether or not the breeding "
+  },
+  {
+   "id": "SCCS1712",
+   "cov": 88,
+   "title": "Sex Segregation in Sleeping Areas of Children",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "boys & girls in same room or bed | boys & girls in separate rooms or separate beds | boys & girls in separate houses | Sex Segrega"
+  },
+  {
+   "id": "SCCS1713",
+   "cov": 91,
+   "title": "Sex Segregation in Sleeping Areas of Adolescents and Teens",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "boys & girls in same room or bed | boys & girls in separate rooms or separate beds | boys & girls in separate houses | Sex Segrega"
+  },
+  {
+   "id": "SCCS1781",
+   "cov": 135,
+   "title": "Gossip on Adultery",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Present, Males Only | Present, Females Only | Gossip on Adultery"
+  },
+  {
+   "id": "SCCS1798",
+   "cov": 135,
+   "title": "Gossip on Sex/Sexual Joking",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Present, Males Only | Present, Females Only | Gossip on Sex/Sexual Joking"
+  },
+  {
+   "id": "SCCS1805.4",
+   "cov": 135,
+   "title": "Fact_4 Sex & Scandals Scale (sum of Adultery And Scandal Gossip)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | 1 Item Present | 2 Items Present | Fact_4 Sex & Scandals Scale (sum of Adultery And Scandal Gossip)"
+  },
+  {
+   "id": "SCCS1944",
+   "cov": 48,
+   "title": "Sex Difference, Crying",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Women show much more of it than men | 3 (on a scale of 1-10) | 4 (on a scale of 1-10) | 5 (on a scale of 1-10) | Sexes are approxi"
+  },
+  {
+   "id": "SCCS1945",
+   "cov": 17,
+   "title": "Sex Difference, Attempted Self-mutilation",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Women show much more of it than men | 3 (on a scale of 1-10) | 4 (on a scale of 1-10) | 5 (on a scale of 1-10) | Sexes are approxi"
+  },
+  {
+   "id": "SCCS1946",
+   "cov": 15,
+   "title": "Sex Difference, Actual Self-mutilation",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Women show much more of it than men | 4 (on a scale of 1-10) | 5 (on a scale of 1-10) | Sexes are approximately equal | 8 (on a sc"
+  },
+  {
+   "id": "SCCS1947",
+   "cov": 10,
+   "title": "Sex Difference, Anger and Aggression",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Sexes are equal | 2 (on a scale of 1-5) | 3 (on a scale of 1-5) | 4 (on a scale of 1-5) | Men show much more of the behavior | Sex"
+  },
+  {
+   "id": "SCCS1989",
+   "cov": 18,
+   "title": "Sexual Liberties at Initial Funeral Ceremonies",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Sexual Liberties at Initial Funeral Ceremonies"
+  },
+  {
+   "id": "SCCS1994",
+   "cov": 9,
+   "title": "Sexual Liberties at Final Funeral Ceremonies",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Sexual Liberties at Final Funeral Ceremonies"
+  }
+ ],
+ "vio_hits": [
+  {
+   "id": "SCCS175",
+   "cov": 60,
+   "title": "Male Sexual Aggressiveness",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Men diffident, shy | Men sexually forward but not diffident | Men forward verbally | Men forward physically | Men forward; hostile"
+  },
+  {
+   "id": "SCCS298",
+   "cov": 133,
+   "title": "Aggression: Early Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of 10) | (6 of 10) | (7 of 10) | (8 of 10) | (9 o"
+  },
+  {
+   "id": "SCCS299",
+   "cov": 118,
+   "title": "Aggression: Early Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of 10) | (6 of 10) | (7 of 10) | (8 of 10) | (9 o"
+  },
+  {
+   "id": "SCCS300",
+   "cov": 148,
+   "title": "Aggression: Late Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of 10) | (6 of 10) | (7 of 10) | (8 of 10) | (9 o"
+  },
+  {
+   "id": "SCCS301",
+   "cov": 128,
+   "title": "Aggression: Late Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 10) | (2 of 10) | (3 of 10) | (4 of 10) | moderately strong inculcation (5 of 10) | (6 of 10) | (7 of 10) | (8 of 10) | (9 o"
+  },
+  {
+   "id": "SCCS493",
+   "cov": 4,
+   "title": "Hostility and Aggression of Caretakers - Mother: Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Rarely (2 of 8) | Sometimes (4 of 8) | Frequently (6 of 8) | Hostility and Aggression of Caretakers - Mother: Boy"
+  },
+  {
+   "id": "SCCS494",
+   "cov": 4,
+   "title": "Hostility and Aggression of Caretakers - Mother: Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Rarely (2 of 8) | Sometimes (4 of 8) | Hostility and Aggression of Caretakers - Mother: Girl"
+  },
+  {
+   "id": "SCCS495",
+   "cov": 45,
+   "title": "Hostility and Aggression of Caretakers - Mother: Aver",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Rarely (2 of 8) | (3 of 8) | Sometimes (4 of 8) | (5 of 8) | Frequently (6 of 8) | (7 of 8) | Almost Always (8 of 8) | Hostility a"
+  },
+  {
+   "id": "SCCS498",
+   "cov": 41,
+   "title": "Hostility and Aggression of Caretakers - Father: Aver",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 8) | Rarely (2 of 8) | Sometimes (4 of 8) | (5 of 8) | Frequently (6 of 8) | Hostility and Aggression of Caretakers - Father"
+  },
+  {
+   "id": "SCCS500",
+   "cov": 2,
+   "title": "Hostility and Aggression of Caretakers - Others: Girl",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Sometimes (4 of 8) | Almost Always (8 of 8) | Hostility and Aggression of Caretakers - Others: Girl"
+  },
+  {
+   "id": "SCCS501",
+   "cov": 15,
+   "title": "Hostility and Aggression of Caretakers - Others: Aver",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Rarely (2 of 8) | Sometimes (4 of 8) | Frequently (6 of 8) | (7 of 8) | Almost Always (8 of 8) | Hostility and Aggression of Caret"
+  },
+  {
+   "id": "SCCS502",
+   "cov": 5,
+   "title": "Hostility and Aggression of Caretakers - Overall: Boy",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Rarely (2 of 8) | (3 of 8) | Sometimes (4 of 8) | Hostility and Aggression of Caretakers - Overall: Boy"
+  },
+  {
+   "id": "SCCS504",
+   "cov": 112,
+   "title": "Hostility and Aggression of Caretakers - Overall: Aver",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "(1 of 8) | Rarely (2 of 8) | (3 of 8) | Sometimes (4 of 8) | (5 of 8) | Frequently (6 of 8) | (7 of 8) | Almost Always (8 of 8) | "
+  },
+  {
+   "id": "SCCS573",
+   "cov": 82,
+   "title": "Ritual Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Ritual Warfare"
+  },
+  {
+   "id": "SCCS584",
+   "cov": 70,
+   "title": "Participation in Collective Fighting and Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Only men | Both, men do most fighting | Participation in Collective Fighting and Warfare"
+  },
+  {
+   "id": "SCCS625",
+   "cov": 81,
+   "title": "High Value Placed on Males Being Aggressive, Strong, and Sexually ",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Marked emphasis | Moderate emphasis | Little or no emphasis | High Value Placed on Males Being Aggressive, Strong, and Sexually Po"
+  },
+  {
+   "id": "SCCS654",
+   "cov": 131,
+   "title": "Theories of Spirit Aggression",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absence of such a cause | Minor or relatively unimportant cause | An important auxiliary cause | Predominant cause recognized by t"
+  },
+  {
+   "id": "SCCS666",
+   "cov": 131,
+   "title": "Moderate or Frequent Interpersonal Violence",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Moderate or Frequent Interpersonal Violence"
+  },
+  {
+   "id": "SCCS669",
+   "cov": 107,
+   "title": "Male Aggression Guttman Scale Constructed from 664-668",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No items present | Ideology of male toughness only | Plus separate places for men | Plus interpersonal violence | Plus rape instit"
+  },
+  {
+   "id": "SCCS679",
+   "cov": 133,
+   "title": "Warfare or Fighting",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "absent or occasional or periodical | frequent or endemic | Warfare or Fighting"
+  },
+  {
+   "id": "SCCS773",
+   "cov": 85,
+   "title": "(No) Internal Warfare (between Communities of Same Society)",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Frequent, yearly | Common | Occasional | Rare or never | (No) Internal Warfare (between Communities of Same Society)"
+  },
+  {
+   "id": "SCCS774",
+   "cov": 84,
+   "title": "(No) External Warfare (with Other Societies)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Frequent, yearly | Common | Occasional | Rare or never | (No) External Warfare (with Other Societies)"
+  },
+  {
+   "id": "SCCS781",
+   "cov": 86,
+   "title": "(Un) Acceptability of Violence toward Members of the Local Communi",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Acceptable | Tolerated | Disapproved | (Un) Acceptability of Violence toward Members of the Local Community"
+  },
+  {
+   "id": "SCCS782",
+   "cov": 77,
+   "title": "(Un) Acceptability of Violence toward Members of the Same Society,",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "Valued | Acceptable | Tolerated | Disapproved | (Un) Acceptability of Violence toward Members of the Same Society, but outside the"
+  },
+  {
+   "id": "SCCS783",
+   "cov": 64,
+   "title": "(Un) Acceptability of Violence toward People in Other Societies",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Valued | Acceptable | Tolerated | Disapproved | (Un) Acceptability of Violence toward People in Other Societies"
+  },
+  {
+   "id": "SCCS870",
+   "cov": 158,
+   "title": "Additional Wives or Concubines from Slavery or Capture in Warfare",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "No female captives | Women taken as captives but not married | Additional Wives or Concubines from Slavery or Capture in Warfare"
+  },
+  {
+   "id": "SCCS906",
+   "cov": 129,
+   "title": "Did Members of the Society Expect Violence to Solve Their Problems",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Yes | No | Did Members of the Society Expect Violence to Solve Their Problems?"
+  },
+  {
+   "id": "SCCS907",
+   "cov": 146,
+   "title": "Value of War: Violence/War against Non-members of the Group",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Enjoyed and Has High Value | Considered a Necessary Evil | Avoided, Denounced, Not Engaged In | Value of War: Violence/War against"
+  },
+  {
+   "id": "SCCS916",
+   "cov": 167,
+   "title": "Aggressive Defense (Pre-emptive Attack If Enemy Thought about to A",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Present | Absent or not mentioned | Aggressive Defense (Pre-emptive Attack If Enemy Thought about to Attack)"
+  },
+  {
+   "id": "SCCS1116",
+   "cov": 35,
+   "title": "Warfare Mortality (E&e 1983: 118)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "low or absent | high | Warfare Mortality (E&e 1983: 118)"
+  },
+  {
+   "id": "SCCS1117",
+   "cov": 74,
+   "title": "Internal Warfare (or Feuding) (E&e 1983: 178, 179, 185, 188, 304-3",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Civil War, in absence of fueding or other internal wars | Internal Warfare (or Feuding) (E&e 1983: 178, 179, 18"
+  },
+  {
+   "id": "SCCS1648",
+   "cov": 160,
+   "title": "Overall Frequency of Warfare (Resolved Rating)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Warfare seems to be absent or rare (original code 1) | original code 1.25 | original code 1.5 | original 1.625 | original code 1.7"
+  },
+  {
+   "id": "SCCS1649",
+   "cov": 186,
+   "title": "Frequency of Internal Warfare (Resolved Rating)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Internal warfare seems to be absent or rare (original code1) | original code 1.25 | origina"
+  },
+  {
+   "id": "SCCS1650",
+   "cov": 186,
+   "title": "Frequency of External Warfare (Resolved Rating)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code  0) | External warfare seems to be absent or rare (orginal code 1) | original code 1.25 | origin"
+  },
+  {
+   "id": "SCCS1651",
+   "cov": 186,
+   "title": "Reliability of Overall Warfare Ratings",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Variable 1651 in for reasons) | The different coders agree perfectly (including the situation when they "
+  },
+  {
+   "id": "SCCS1652",
+   "cov": 186,
+   "title": "Reliability of Internal Warfare Ratings",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Variable 1651 in for reasons) | The different coders agree perfectly (including the situation when they "
+  },
+  {
+   "id": "SCCS1653",
+   "cov": 186,
+   "title": "Reliability of External Warfare Ratings",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Variable 1651 in 78.REL for reasons) | The different coders agree perfectly (including the situation whe"
+  },
+  {
+   "id": "SCCS1655",
+   "cov": 186,
+   "title": "Outcomes regarding Land in Internal Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | The defeated are never driven form their territory | original code 1.25 | original code 1.5"
+  },
+  {
+   "id": "SCCS1656",
+   "cov": 186,
+   "title": "Outcomes regarding Land in External Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | The defeated are never driven form their territory | original code 1.25 | original code 1.5"
+  },
+  {
+   "id": "SCCS1658",
+   "cov": 186,
+   "title": "Outcomes regarding Nonland Resources in Internal Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (roiginal code 0) | Nonland resources are never taken from the defeated (code1) | original code 1.25 | original"
+  },
+  {
+   "id": "SCCS1659",
+   "cov": 186,
+   "title": "Outcomes regarding Nonland Resources in External Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (roiginal code 0) | Nonland resources are never taken from the defeated (code1) | original code 1.25 | original"
+  },
+  {
+   "id": "SCCS1661",
+   "cov": 186,
+   "title": "Reliability of Outcomes of Internal Warfare Ratings (Var. 1655)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1662",
+   "cov": 186,
+   "title": "Reliability of Outcomes of External Warfare Ratings (Var. 1656)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1663",
+   "cov": 186,
+   "title": "Reliability of Outcomes of Internal Warfare Ratings (Var. 1658)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1664",
+   "cov": 186,
+   "title": "Reliability of Outcomes of External Warfare Ratings (Var. 1659)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1665",
+   "cov": 186,
+   "title": "Individual Aggression - Homicide",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Low (original code 1) | original code 1.25 | original code 1.5 | original code 1.75 | Moder"
+  },
+  {
+   "id": "SCCS1666",
+   "cov": 186,
+   "title": "Individual Aggression - Assault",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Low (original code 1) | original code 1.25 | original code 1.5 | original code 1.75 | Moder"
+  },
+  {
+   "id": "SCCS1667",
+   "cov": 186,
+   "title": "Individual Aggression - Theft",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Low (original code 1) | original code 1.25 | original code 1.5 | original code 1.75 | Moder"
+  },
+  {
+   "id": "SCCS1668",
+   "cov": 186,
+   "title": "Individual Aggression - Trespass",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Low (original code 1) | original code 1.25 | original code 1.5 | original code 1.75 | Moder"
+  },
+  {
+   "id": "SCCS1669",
+   "cov": 186,
+   "title": "Individual Aggression - Suicide (Resolved Ratings)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Low (original code 1) | original code 1.25 | original code 1.5 | original code 1.75 | Moder"
+  },
+  {
+   "id": "SCCS1670",
+   "cov": 186,
+   "title": "Reliability of Individual Aggression Ratings-homicide (Var. 1665)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1671",
+   "cov": 186,
+   "title": "Reliability of Individual Aggression Ratings-assault (Var. 1666)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1672",
+   "cov": 186,
+   "title": "Reliability of Individual Aggression Ratings-theft (Var. 1667)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1673",
+   "cov": 186,
+   "title": "Reliability of Individual Aggression Ratings-trespass (Var. 1668)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1674",
+   "cov": 186,
+   "title": "Reliability of Individual Aggression Ratings-suicide (Var. 1669)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1675",
+   "cov": 186,
+   "title": "Socially Organized Homicide",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Low (original code 1) | original code 1.25 | original code 1.5 | original code 1.75 | Moder"
+  },
+  {
+   "id": "SCCS1676",
+   "cov": 186,
+   "title": "Socially Organized Assault",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No resolved rating (original code 0) | Low (original code 1) | original code 1.25 | original code 1.5 | original code 1.75 | Moder"
+  },
+  {
+   "id": "SCCS1679",
+   "cov": 186,
+   "title": "Reliability of Socially Organized Homicide Ratings (Var. 1675)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1680",
+   "cov": 186,
+   "title": "Reliability of Socially Organized Assault Ratings (Var. 1676)",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "No reliability score (see Varialbe STDS78.REL for reasons) | Different coders agree perfectly(including\"don't know ans.) | Diff. c"
+  },
+  {
+   "id": "SCCS1739",
+   "cov": 81,
+   "title": "Types of Violence against Overarching Political Institution",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "missing data | no overarching political unit (variable SCCS1729 coded as ´10´) | violent acts absent | acts of violence, in reacti"
+  },
+  {
+   "id": "SCCS1747",
+   "cov": 91,
+   "title": "Frequency of External Warfare: Unit of Maximal Political Authority",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "missing data | no formal political office present (variable SCCS1740 coded  as ´10´) | rare or never | occasional | often | perman"
+  },
+  {
+   "id": "SCCS1748",
+   "cov": 90,
+   "title": "Frequency of Internal Warfare; i.e. between Local Communities with",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "missing data | no political office above the level of the local community (variable SCCS1740 coded as ´10´, ´20´, or ´30´ | rare o"
+  },
+  {
+   "id": "SCCS1749",
+   "cov": 90,
+   "title": "Frequency of Internal Warfare Involving Non-territorially Organize",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "missing data | no political office above the level of the local community (variable SCCS1740 coded as ´10´, ´20´, or ´30´ | rare o"
+  },
+  {
+   "id": "SCCS1768",
+   "cov": 68,
+   "title": "Attitude towards Physical Violence against Members of Local Commun",
+   "is_tgt": true,
+   "tgt": 4,
+   "bad": 0,
+   "codes": "missing data | physical violence within local community is rejected | physical violence within local community is tolerated or acc"
+  },
+  {
+   "id": "SCCS1769",
+   "cov": 62,
+   "title": "Attitude towards Physical Violence against Members of Same Ethnic ",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "missing data | physical violence within ethnic group is rejected | physical violence within ethnic group is tolerated or accepted "
+  },
+  {
+   "id": "SCCS1770",
+   "cov": 41,
+   "title": "Attitude towards Physical Violence against Members of Other Ethnic",
+   "is_tgt": true,
+   "tgt": 6,
+   "bad": 0,
+   "codes": "missing data | no contact with other ethnic groups | physical violence outside of ethnic group is rejected | physical violence out"
+  },
+  {
+   "id": "SCCS1775",
+   "cov": 66,
+   "title": "Reglementation of Intraethnic Violence",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "missing data | no intraethnic violence (variable SCCS1776 coded as ´1´) | no reglementation | moderate reglementation | highly reg"
+  },
+  {
+   "id": "SCCS1776",
+   "cov": 93,
+   "title": "Frequency of Intraethnic Violence",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "missing data | rare or never | occasional | often | permanent | Frequency of Intraethnic Violence"
+  },
+  {
+   "id": "SCCS1777",
+   "cov": 70,
+   "title": "Intensity of Intraethnic Violence",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "missing data | no intraethnic violence (variable SCCS1776 coded as ´1´) | low; when violence occurs, only occasional victims | mod"
+  },
+  {
+   "id": "SCCS1778",
+   "cov": 89,
+   "title": "Frequency of Interethnic Violence/Attacking",
+   "is_tgt": false,
+   "tgt": 1,
+   "bad": 0,
+   "codes": "missing data | no contact with other ethnic groups | rare or never | occasional | often | permanent | Frequency of Interethnic Vio"
+  },
+  {
+   "id": "SCCS1779",
+   "cov": 80,
+   "title": "Weapons Used in Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "missing data | projectiles | shock weapons | both | Weapons Used in Warfare"
+  },
+  {
+   "id": "SCCS1780",
+   "cov": 60,
+   "title": "Defensive (Protective) Weapons Used in Warfare",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "missing data | no protective weapons | body armor | shields | both | Defensive (Protective) Weapons Used in Warfare"
+  },
+  {
+   "id": "SCCS1794",
+   "cov": 135,
+   "title": "Gossip on Murder/Assault",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | Present | Present, Males Only | Present, Females Only | Gossip on Murder/Assault"
+  },
+  {
+   "id": "SCCS1805.5",
+   "cov": 135,
+   "title": "Fact_5 Drinking & Murder Scale (sum of Drinking, Murder And Assaul",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Absent | 1 Item Present | 2 Items Present | Fact_5 Drinking & Murder Scale (sum of Drinking, Murder And Assault Gossip)"
+  },
+  {
+   "id": "SCCS1940",
+   "cov": 11,
+   "title": "Spontaneous Aggression after Sudden Death",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Both raters say it is absent | Raters disagree on presence | Both raters say it is present | Spontaneous Aggression after Sudden D"
+  },
+  {
+   "id": "SCCS1947",
+   "cov": 10,
+   "title": "Sex Difference, Anger and Aggression",
+   "is_tgt": false,
+   "tgt": 0,
+   "bad": 0,
+   "codes": "Sexes are equal | 2 (on a scale of 1-5) | 3 (on a scale of 1-5) | 4 (on a scale of 1-5) | Men show much more of the behavior | Sex"
+  }
+ ],
+ "K_sex_target": 2,
+ "positive_found": [
+  "SCCS1768",
+  "SCCS1770"
+ ],
+ "g0": 0,
+ "spec_curve": [
+  {
+   "need": 1,
+   "nmin": 0,
+   "K_sex": 8,
+   "K_vio": 10
+  },
+  {
+   "need": 1,
+   "nmin": 30,
+   "K_sex": 8,
+   "K_vio": 10
+  },
+  {
+   "need": 1,
+   "nmin": 60,
+   "K_sex": 7,
+   "K_vio": 9
+  },
+  {
+   "need": 2,
+   "nmin": 0,
+   "K_sex": 2,
+   "K_vio": 2
+  },
+  {
+   "need": 2,
+   "nmin": 30,
+   "K_sex": 2,
+   "K_vio": 2
+  },
+  {
+   "need": 2,
+   "nmin": 60,
+   "K_sex": 2,
+   "K_vio": 1
+  },
+  {
+   "need": 3,
+   "nmin": 0,
+   "K_sex": 0,
+   "K_vio": 2
+  },
+  {
+   "need": 3,
+   "nmin": 30,
+   "K_sex": 0,
+   "K_vio": 2
+  },
+  {
+   "need": 3,
+   "nmin": 60,
+   "K_sex": 0,
+   "K_vio": 1
+  }
+ ],
+ "verdict": "UNVERIFIED —— 搜索不合格(正对照 False · g=0 True);**任何零都不 admissible** ‖ 修正单位后:UNVERIFIED(按族)—— 正对照 False · g=0 True",
+ "family_positive": [
+  "SCCS781",
+  "SCCS783"
+ ],
+ "K_family_sex": 0,
+ "g0_family": 0,
+ "families_vio": {
+  "un acceptability of violence toward <target>": [
+   "SCCS781",
+   "SCCS783"
+  ]
+ },
+ "families_sex": {},
+ "unchallenged": true
+}

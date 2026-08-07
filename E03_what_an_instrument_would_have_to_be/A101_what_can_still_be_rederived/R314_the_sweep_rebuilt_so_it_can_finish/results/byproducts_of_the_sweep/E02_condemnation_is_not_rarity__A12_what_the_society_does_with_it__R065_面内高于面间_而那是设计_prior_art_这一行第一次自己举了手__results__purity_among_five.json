@@ -1,0 +1,259 @@
+{
+ "rows": [
+  {
+   "suite": "_REL",
+   "foundation": "HARM",
+   "sep": 0.8073507784926803,
+   "median_r": 0.19264922150731967,
+   "n": 7457,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5b97\u6559/\u76f8\u5173\u6027\u7b97\u6cd5",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_REL",
+   "foundation": "FAIRNESS",
+   "sep": 0.887234682492684,
+   "median_r": 0.11276531750731594,
+   "n": 7457,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5b97\u6559/\u76f8\u5173\u6027\u7b97\u6cd5",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_REL",
+   "foundation": "INGROUP",
+   "sep": 0.633841739476146,
+   "median_r": 0.36615826052385403,
+   "n": 7456,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5b97\u6559/\u76f8\u5173\u6027\u7b97\u6cd5",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_REL",
+   "foundation": "AUTHORITY",
+   "sep": 0.6155778953975688,
+   "median_r": 0.3844221046024312,
+   "n": 7456,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5b97\u6559/\u76f8\u5173\u6027\u7b97\u6cd5",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_REL",
+   "foundation": "PURITY",
+   "sep": 0.6178646278263007,
+   "median_r": 0.3821353721736993,
+   "n": 7454,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5b97\u6559/\u76f8\u5173\u6027\u7b97\u6cd5",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_AVG",
+   "foundation": "HARM",
+   "sep": 0.8945530268445405,
+   "median_r": 0.1054469731554595,
+   "n": 7459,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5e73\u5747\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_AVG",
+   "foundation": "FAIRNESS",
+   "sep": 0.8087050988813409,
+   "median_r": 0.19129490111865913,
+   "n": 7459,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5e73\u5747\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_AVG",
+   "foundation": "INGROUP",
+   "sep": 0.6353232227434524,
+   "median_r": 0.36467677725654757,
+   "n": 7458,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5e73\u5747\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_AVG",
+   "foundation": "AUTHORITY",
+   "sep": 0.5443941260113516,
+   "median_r": 0.4556058739886484,
+   "n": 7458,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5e73\u5747\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_AVG",
+   "foundation": "PURITY",
+   "sep": 0.6284384560294096,
+   "median_r": 0.37156154397059044,
+   "n": 7457,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u5e73\u5747\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_STA",
+   "foundation": "HARM",
+   "sep": 0.8605599406833373,
+   "median_r": 0.1394400593166627,
+   "n": 7451,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u6807\u51c6\u5316\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_STA",
+   "foundation": "FAIRNESS",
+   "sep": 0.6694920806804807,
+   "median_r": 0.3305079193195193,
+   "n": 7451,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u6807\u51c6\u5316\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_STA",
+   "foundation": "INGROUP",
+   "sep": 0.6337126421407406,
+   "median_r": 0.36628735785925937,
+   "n": 7451,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u6807\u51c6\u5316\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_STA",
+   "foundation": "AUTHORITY",
+   "sep": 0.5426386192236136,
+   "median_r": 0.45736138077638644,
+   "n": 7452,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u6807\u51c6\u5316\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  },
+  {
+   "suite": "_STA",
+   "foundation": "PURITY",
+   "sep": 0.6724577033826806,
+   "median_r": 0.3275422966173194,
+   "n": 7452,
+   "k_pairs": 4,
+   "inclusion": [
+    "\u6807\u51c6\u5316\u5206",
+    "\u4e0e\u5176\u4f59\u56db\u4e2a\u57fa\u7840\u914d\u5bf9 4 \u5bf9",
+    "\u6bcf\u5bf9 n>=300",
+    "\u79e9\u76f8\u5173,\u53d6\u7edd\u5bf9\u503c"
+   ]
+  }
+ ],
+ "ranks": {
+  "_REL": [
+   "FAIRNESS",
+   "HARM",
+   "INGROUP",
+   "PURITY",
+   "AUTHORITY"
+  ],
+  "_AVG": [
+   "HARM",
+   "FAIRNESS",
+   "INGROUP",
+   "PURITY",
+   "AUTHORITY"
+  ],
+  "_STA": [
+   "HARM",
+   "PURITY",
+   "FAIRNESS",
+   "INGROUP",
+   "AUTHORITY"
+  ]
+ },
+ "purity_rank": {
+  "_REL": 4,
+  "_AVG": 4,
+  "_STA": 2
+ },
+ "null_rank_mean": 3.01,
+ "world": "UNVERIFIED",
+ "verdict": "\u4e09\u5957\u7b97\u6cd5\u7ed9\u51fa\u4e0d\u540c\u540d\u6b21 {'_REL': 4, '_AVG': 4, '_STA': 2} -> **\u6392\u540d\u4e0d\u7a33,\u4e0d\u53ef\u5224**(\u4e0d\u662f\u300c\u5c45\u4e2d\u300d)",
+ "seeds": [
+  20260805,
+  7,
+  991
+ ],
+ "third_block": "\u7b2c\u4e09\u4f8b:\u6587\u4ef6\u5728,\u6761\u76ee\u6587\u672c\u4e0d\u5728(RWAS \u00b7 MSSCQ \u00b7 MFQ)",
+ "instrument": "Graham\u00b7Haidt\u00b7Nosek 2009 JPSP Study 3,YourMorals \u81ea\u9009\u6837\u672c",
+ "impossible": [
+  "\u65e0\u6761\u76ee\u6587\u672c -> \u4e0d\u80fd\u65ad\u8a00\u4efb\u4f55\u57fa\u7840\u7684\u5185\u5bb9",
+  "\u81ea\u9009\u7f51\u7edc\u6837\u672c\u65e0\u4eba\u7fa4\u5916\u63a8",
+  "\u6a2a\u65ad\u9762\u975e\u56e0\u679c",
+  "\u57fa\u7840\u5b9a\u4e49\u6765\u81ea\u91cf\u8868\u4f5c\u8005"
+ ],
+ "unchallenged": true
+}

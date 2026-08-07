@@ -1,0 +1,113 @@
+entry,token,file,line,marked,excerpt
+85,+0.085,README.md,495,True,"> ⚠ **This table is built on the pooled sample, and the six coordinates are not the same thing in th"
+85,+0.085,README_zh.md,502,True,"> ⚠ **这张表建在合并样本上,而六个坐标在两个性别里不是同一个东西**(`#285` `#286`)。在两组里**各自独立**重建(n = 3,232 / 3,485):块层载荷子空间在**按性别"
+85,+0.019,README.md,353,False,"| And its lead is larger than the raw figure | +0.175 → **+0.202** [+0.180, +0.223] | shuffled domai"
+85,+0.019,README.md,541,True,⚠ **`#463`: and the two leading components of the residual structure fall on the two different paths
+85,+0.019,README_zh.md,336,False,"| 而纯洁的领先比生的数还大 | +0.175 → **+0.202** [+0.180, +0.223] | 打乱域指派 +0.019；打乱域指派的 g=0 控制 **0.0191**(零的方案:随"
+85,+0.019,README_zh.md,495,True,"⚠ **`#463`:而残差结构的两个领头成分各落在一条路上 —— 这是第一次能把分岔的两边都点名。** 把第一个成分(**定向为「恋物类别越多」**,即上面那段所用的框架)加进同一个七量模型:它够到"
+123,+0.2922,README.md,591,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+123,+0.2922,README_zh.md,551,True,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+123,+0.2523,README.md,591,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+123,+0.2523,README_zh.md,551,True,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+143,Entry 24,README.md,589,True,"| ~~**""Top/bottom"" is one word over three near-unrelated things**~~ **downgraded to: the three role "
+143,Entry 24,README_zh.md,549,True,"| ~~**""上/下""一个词盖着三件近乎不相关的事**~~ **降级为:三条角色轴之间相关很强但不是同一个** | **`Entry 24` 早已撤回""三条近乎独立""与""有效维度 2.95/3""**。"
+144,+0.2922,README.md,591,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+144,+0.2922,README_zh.md,551,True,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+144,+0.2523,README.md,591,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+144,+0.2523,README_zh.md,551,True,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+144,82.7%,README.md,591,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+144,82.7%,README_zh.md,551,True,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+144,+0.815,README.md,923,True,**And a transferable methodological result — but a much smaller one than I first published.** Block-
+144,+0.815,README.md,956,True,**One split's group comparison on this release was partly measuring survey coverage**: block-count m
+144,+0.815,README_zh.md,860,True,"**并且这里有一条可迁移的方法学结论 —— 但比我最初发表的那条小得多。**按块数匹配把 pornhabit 的一致性缺口从 0.2285 压到 0.0871 再到 0.0439,**并使它与性别的排"
+144,+0.815,README_zh.md,904,True,"**[已杀死 —— RETRACTIONS #20]** 我在它上面建的那条定律 —— ~~corr(一致性亏空, 覆盖缺口) = +0.815,跨九次劈分~~"
+144,+0.815,README_zh.md,906,False,"而置换零在 n=6 次劈分下 **|r| 的 p95 = 0.820**,+0.815 从没越过它。"
+154,+0.0558,README.md,860,False,"- **A fifty-third, which demotes its own predecessor and trades it for something cleaner: education "
+154,+0.0558,README_zh.md,797,True,"- **第五十三件,而它把自己上一件降级了,同时换出了一条更干净的:教育让一个人的道德判断整体彼此绑紧 —— 而这是一个一般因子,性没有例外;真正的例外是性别角色,它反而被这张网排除在外。** 上一件"
+154,+0.093,README.md,584,True,| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\|
+154,+0.093,README.md,840,False,"- **A thirty-ninth, and it rescues the previous one from being a possible tautology: how many people"
+154,+0.093,README_zh.md,544,True,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023 [R15 3× curveball · sc"
+154,+0.093,README_zh.md,777,False,"- **第三十九件,而它把上一件从「可能是同义反复」里救了出来:一个社会里「有多少人真的这么做」和「这件事被怎么说」,是两件事。** 上一件确立了「越少见越被谴责」换一个编码项目仍在(+0.797 →"
+154,+0.023,README.md,279,False,| **The divide did not grow — it split open in the nineties and the two-thousands** | **decade-by-de
+154,+0.023,README.md,485,True,| **Breadth type c3 — *where you spend your openness*** | **+0.5631** | blocks | **name verified** o
+154,+0.023,README.md,584,True,| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\|
+154,+0.023,README.md,589,True,"| ~~**""Top/bottom"" is one word over three near-unrelated things**~~ **downgraded to: the three role "
+154,+0.023,README.md,946,True,"**[DOWNGRADED — RETRACTIONS #24, re-affirmed #143]** ""three near-independent axes / effective dimens"
+154,+0.023,README_zh.md,262,False,"| **这条鸿沟不是长出来的,是在九十年代和两千年代裂开的** | **逐十年的 `Δgap`,参照不是 0,是「该十年按实际跨度缩放的匀速率」**(总量 −1.103 摊到十年 = −0.2206,"
+154,+0.023,README_zh.md,463,True,| **宽度类型 c3 —— *你把开放花在哪儿*** | **+0.5631** | 块 | **名字已跨仪器验证**(`#258`:与起始仪器越轨半 +0.1815、与普通半 **−0.1086*
+154,+0.023,README_zh.md,544,True,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023 [R15 3× curveball · sc"
+154,+0.023,README_zh.md,549,True,"| ~~**""上/下""一个词盖着三件近乎不相关的事**~~ **降级为:三条角色轴之间相关很强但不是同一个** | **`Entry 24` 早已撤回""三条近乎独立""与""有效维度 2.95/3""**。"
+154,+0.023,README_zh.md,885,True,"用一把验证过的信度梯子(正对照:SUBSTANCE 对自己 r_true = **+1.018**;假对照 +0.023 [R15 3× curveball · scope stated]),"
+167,−0.022,README.md,572,False,"| **It is a reliable personality dimension, and it is not ""how many boxes you ticked""** | Split-half"
+167,−0.022,README_zh.md,532,False,"| **它是一个可靠的人格维度,而且不是""你勾了多少""** | 跨不相交块集的分半信度 **+0.432 ± 0.016**(人层自助,n=7,316,400 次 —— 这个误差棒是它八轮之后才有的,"
+170,+0.815,README.md,923,True,**And a transferable methodological result — but a much smaller one than I first published.** Block-
+170,+0.815,README.md,956,True,**One split's group comparison on this release was partly measuring survey coverage**: block-count m
+170,+0.815,README_zh.md,860,True,"**并且这里有一条可迁移的方法学结论 —— 但比我最初发表的那条小得多。**按块数匹配把 pornhabit 的一致性缺口从 0.2285 压到 0.0871 再到 0.0439,**并使它与性别的排"
+170,+0.815,README_zh.md,904,True,"**[已杀死 —— RETRACTIONS #20]** 我在它上面建的那条定律 —— ~~corr(一致性亏空, 覆盖缺口) = +0.815,跨九次劈分~~"
+170,+0.815,README_zh.md,906,False,"而置换零在 n=6 次劈分下 **|r| 的 p95 = 0.820**,+0.815 从没越过它。"
+171,+0.2523,README.md,591,False,"| **82.7% say ""porn gave me this interest"", and that sentence leaves no trace in either their prefer"
+171,+0.2523,README_zh.md,551,True,"| **82.7% 说""色情给了我这个癖好"",而这句话在他们的性癖结构和时间线上没有任何痕迹** | 无时序签名(1 年位移被排除,集中判别在 **8.8× 功率**下为零)· 无结构签名(错位 < "
+339,README_zh,README.md,424,False,carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.
+339,README_zh,README_zh.md,164,True,"| **修好切法再重数:总体虚高 28%,而 `#833` 自己也记错了缺陷的形状** | **还 `#833`① 的债,而新写的控制在还债之前先逼出了对 `#833` 自己的更正**:`#833` "
+346,+0.1185,README.md,480,True,| **Position S** — how uncommon the options you pick are | **+0.432** | blocks (32 multi-select) | u
+346,+0.1185,README.md,507,True,"> this project ends up pointing at it — position +0.1185 [cov≥8 · scope stated], breadth-type c3 +0."
+346,+0.1185,README.md,511,True,"> doesn't.** ⚠ **`#316`: that is a statement about the *increment*, and the wider reading is wrong.*"
+346,+0.1185,README.md,541,True,⚠ **`#463`: and the two leading components of the residual structure fall on the two different paths
+346,+0.1185,README.md,573,True,| **And preferring the uncommon is not affectively neutral — it comes with shame** | On two independ
+346,+0.1185,README.md,574,True,"| **Two orthogonal person-level dimensions, each pointing at something different** | Residualise the"
+346,+0.1185,README_zh.md,458,True,| **位置分 S** —— 你挑的选项有多冷门 | **+0.432** | 块(32 道多选) | 未验 | **+0.1185 [cov≥8 · scope stated]** | 9/20 |
+346,+0.1185,README_zh.md,465,True,| **`form_i` —— 「被画的东西打开」与「被写的东西打开」之间那份共有** | **+0.3382**(两道题) | 块(`animated`/`written` 扣掉全部六个坐标之后的残
+346,+0.1185,README_zh.md,504,True,> ⚠ **`form_i` 是唯一一个**不**通向羞耻的仍站着的维度**(`#278`)。这个项目里其它每一样东西最后都指向它 —— 位置分 +0.1185 [cov≥8 · scope stat
+346,+0.1185,README_zh.md,533,True,"| **而且「偏爱冷门」不是不带立场的 —— 它带着羞耻** | 两道与块**零 item 重叠**的独立 Likert 题(n=15,503):位置分预测**羞耻 +0.1185**,并且穿过每一层"
+346,+0.1185,README_zh.md,534,True,"| **两个正交的人层维度,各自指向不同的东西** | 把**内容**分(你勾了哪些具体选项)对**位置**分(它们有多冷门)回归掉,两者一起跑遍 20 道 Likert 结局、各用最大统计量零给全族"
+367,README_zh.md,README.md,424,False,carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.
+367,README_zh.md,README_zh.md,164,True,"| **修好切法再重数:总体虚高 28%,而 `#833` 自己也记错了缺陷的形状** | **还 `#833`① 的债,而新写的控制在还债之前先逼出了对 `#833` 自己的更正**:`#833` "
+369,README_zh.md,README.md,424,False,carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.
+369,README_zh.md,README_zh.md,164,True,"| **修好切法再重数:总体虚高 28%,而 `#833` 自己也记错了缺陷的形状** | **还 `#833`① 的债,而新写的控制在还债之前先逼出了对 `#833` 自己的更正**:`#833` "
+370,README_zh.md,README.md,424,False,carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.
+370,README_zh.md,README_zh.md,164,True,"| **修好切法再重数:总体虚高 28%,而 `#833` 自己也记错了缺陷的形状** | **还 `#833`① 的债,而新写的控制在还债之前先逼出了对 `#833` 自己的更正**:`#833` "
+371,README_zh.md,README.md,424,False,carries the history; this page carries only what currently stands. **中文版:[`README_zh.md`](README_zh.
+371,README_zh.md,README_zh.md,164,True,"| **修好切法再重数:总体虚高 28%,而 `#833` 自己也记错了缺陷的形状** | **还 `#833`① 的债,而新写的控制在还债之前先逼出了对 `#833` 自己的更正**:`#833` "
+563,round_status,README.md,1081,False,| `tools/round_status.py` | round → ledger (current status of the claims this round supports; has a 
+563,round_status,README_zh.md,1058,False,| `tools/round_status.py` | 轮次 → 账本(这一轮支撑的声明当前状态;它是不是已被兄弟轮次取代) |
+564,+0.093,README.md,584,True,| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\|
+564,+0.093,README.md,840,False,"- **A thirty-ninth, and it rescues the previous one from being a possible tautology: how many people"
+564,+0.093,README_zh.md,544,True,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023 [R15 3× curveball · sc"
+564,+0.093,README_zh.md,777,False,"- **第三十九件,而它把上一件从「可能是同义反复」里救了出来:一个社会里「有多少人真的这么做」和「这件事被怎么说」,是两件事。** 上一件确立了「越少见越被谴责」换一个编码项目仍在(+0.797 →"
+564,+0.023,README.md,279,False,| **The divide did not grow — it split open in the nineties and the two-thousands** | **decade-by-de
+564,+0.023,README.md,485,True,| **Breadth type c3 — *where you spend your openness*** | **+0.5631** | blocks | **name verified** o
+564,+0.023,README.md,584,True,| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\|
+564,+0.023,README.md,589,True,"| ~~**""Top/bottom"" is one word over three near-unrelated things**~~ **downgraded to: the three role "
+564,+0.023,README.md,946,True,"**[DOWNGRADED — RETRACTIONS #24, re-affirmed #143]** ""three near-independent axes / effective dimens"
+564,+0.023,README_zh.md,262,False,"| **这条鸿沟不是长出来的,是在九十年代和两千年代裂开的** | **逐十年的 `Δgap`,参照不是 0,是「该十年按实际跨度缩放的匀速率」**(总量 −1.103 摊到十年 = −0.2206,"
+564,+0.023,README_zh.md,463,True,| **宽度类型 c3 —— *你把开放花在哪儿*** | **+0.5631** | 块 | **名字已跨仪器验证**(`#258`:与起始仪器越轨半 +0.1815、与普通半 **−0.1086*
+564,+0.023,README_zh.md,544,True,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023 [R15 3× curveball · sc"
+564,+0.023,README_zh.md,549,True,"| ~~**""上/下""一个词盖着三件近乎不相关的事**~~ **降级为:三条角色轴之间相关很强但不是同一个** | **`Entry 24` 早已撤回""三条近乎独立""与""有效维度 2.95/3""**。"
+564,+0.023,README_zh.md,885,True,"用一把验证过的信度梯子(正对照:SUBSTANCE 对自己 r_true = **+1.018**;假对照 +0.023 [R15 3× curveball · scope stated]),"
+565,+0.1185,README.md,480,True,| **Position S** — how uncommon the options you pick are | **+0.432** | blocks (32 multi-select) | u
+565,+0.1185,README.md,507,True,"> this project ends up pointing at it — position +0.1185 [cov≥8 · scope stated], breadth-type c3 +0."
+565,+0.1185,README.md,511,True,"> doesn't.** ⚠ **`#316`: that is a statement about the *increment*, and the wider reading is wrong.*"
+565,+0.1185,README.md,541,True,⚠ **`#463`: and the two leading components of the residual structure fall on the two different paths
+565,+0.1185,README.md,573,True,| **And preferring the uncommon is not affectively neutral — it comes with shame** | On two independ
+565,+0.1185,README.md,574,True,"| **Two orthogonal person-level dimensions, each pointing at something different** | Residualise the"
+565,+0.1185,README_zh.md,458,True,| **位置分 S** —— 你挑的选项有多冷门 | **+0.432** | 块(32 道多选) | 未验 | **+0.1185 [cov≥8 · scope stated]** | 9/20 |
+565,+0.1185,README_zh.md,465,True,| **`form_i` —— 「被画的东西打开」与「被写的东西打开」之间那份共有** | **+0.3382**(两道题) | 块(`animated`/`written` 扣掉全部六个坐标之后的残
+565,+0.1185,README_zh.md,504,True,> ⚠ **`form_i` 是唯一一个**不**通向羞耻的仍站着的维度**(`#278`)。这个项目里其它每一样东西最后都指向它 —— 位置分 +0.1185 [cov≥8 · scope stat
+565,+0.1185,README_zh.md,533,True,"| **而且「偏爱冷门」不是不带立场的 —— 它带着羞耻** | 两道与块**零 item 重叠**的独立 Likert 题(n=15,503):位置分预测**羞耻 +0.1185**,并且穿过每一层"
+565,+0.1185,README_zh.md,534,True,"| **两个正交的人层维度,各自指向不同的东西** | 把**内容**分(你勾了哪些具体选项)对**位置**分(它们有多冷门)回归掉,两者一起跑遍 20 道 Likert 结局、各用最大统计量零给全族"
+565,+0.023,README.md,279,False,| **The divide did not grow — it split open in the nineties and the two-thousands** | **decade-by-de
+565,+0.023,README.md,485,True,| **Breadth type c3 — *where you spend your openness*** | **+0.5631** | blocks | **name verified** o
+565,+0.023,README.md,584,True,| **Its only external anchor that holds is sex** | +0.093 (disattenuated +0.141). All Big Five \|r\|
+565,+0.023,README.md,589,True,"| ~~**""Top/bottom"" is one word over three near-unrelated things**~~ **downgraded to: the three role "
+565,+0.023,README.md,946,True,"**[DOWNGRADED — RETRACTIONS #24, re-affirmed #143]** ""three near-independent axes / effective dimens"
+565,+0.023,README_zh.md,262,False,"| **这条鸿沟不是长出来的,是在九十年代和两千年代裂开的** | **逐十年的 `Δgap`,参照不是 0,是「该十年按实际跨度缩放的匀速率」**(总量 −1.103 摊到十年 = −0.2206,"
+565,+0.023,README_zh.md,463,True,| **宽度类型 c3 —— *你把开放花在哪儿*** | **+0.5631** | 块 | **名字已跨仪器验证**(`#258`:与起始仪器越轨半 +0.1815、与普通半 **−0.1086*
+565,+0.023,README_zh.md,544,True,"| **它唯一挂得住的外部锚是性别** | +0.093(去衰减 +0.141)。人格五因素全部 \|r\| ≤ 0.056,**开放性只有 +0.023 [R15 3× curveball · sc"
+565,+0.023,README_zh.md,549,True,"| ~~**""上/下""一个词盖着三件近乎不相关的事**~~ **降级为:三条角色轴之间相关很强但不是同一个** | **`Entry 24` 早已撤回""三条近乎独立""与""有效维度 2.95/3""**。"
+565,+0.023,README_zh.md,885,True,"用一把验证过的信度梯子(正对照:SUBSTANCE 对自己 r_true = **+1.018**;假对照 +0.023 [R15 3× curveball · scope stated]),"
+842,28.9%,README.md,181,False,"| **Fix the cut and count again: the population was inflated 28%, and `#833` had the defect's shape "
+842,28.9%,README.md,485,True,| **Breadth type c3 — *where you spend your openness*** | **+0.5631** | blocks | **name verified** o
+842,28.9%,README_zh.md,164,True,"| **修好切法再重数:总体虚高 28%,而 `#833` 自己也记错了缺陷的形状** | **还 `#833`① 的债,而新写的控制在还债之前先逼出了对 `#833` 自己的更正**:`#833` "
+842,28.9%,README_zh.md,463,True,| **宽度类型 c3 —— *你把开放花在哪儿*** | **+0.5631** | 块 | **名字已跨仪器验证**(`#258`:与起始仪器越轨半 +0.1815、与普通半 **−0.1086*
+842,27.8%,README.md,181,False,"| **Fix the cut and count again: the population was inflated 28%, and `#833` had the defect's shape "
+842,27.8%,README_zh.md,164,True,"| **修好切法再重数:总体虚高 28%,而 `#833` 自己也记错了缺陷的形状** | **还 `#833`① 的债,而新写的控制在还债之前先逼出了对 `#833` 自己的更正**:`#833` "

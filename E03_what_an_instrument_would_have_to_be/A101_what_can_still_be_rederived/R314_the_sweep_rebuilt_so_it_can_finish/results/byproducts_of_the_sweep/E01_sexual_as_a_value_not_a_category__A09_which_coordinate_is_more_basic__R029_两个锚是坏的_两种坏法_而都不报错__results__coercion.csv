@@ -1,0 +1,366 @@
+col,n_raw,n_num,drop,inscope,used
+biomale,15503,15503,0.0,0,1
+age,15503,0,1.0,0,1
+"As an adult, have you been the victim of sexual assault? (ld0srat)",15500,0,1.0,0,0
+At what age did you first begin (at least semiregularly) masturbating?,15498,0,1.0,0,0
+"Personally, your preferred relationship style is: (4jib23m)",15500,0,1.0,0,0
+sexcount,15263,4524,0.7035969337613837,1,0
+Have you ever had a sexual experience with someone else who did not want the experience? (2zafc2j),15500,0,1.0,0,0
+"How ""sexually liberated"" was your upbringing? (fs700v2)",15496,0,1.0,0,0
+"From the ages of 0-14, how often were you spanked as a form of discipline? (p957nyk)",15496,0,1.0,0,0
+opennessvariable,15503,15503,0.0,0,0
+consciensiousnessvariable,15503,15503,0.0,0,0
+extroversionvariable,15503,15503,0.0,0,0
+neuroticismvariable,15503,15503,0.0,0,0
+agreeablenessvariable,15503,15503,0.0,0,0
+powerlessnessvariable,15503,15503,0.0,0,0
+TotalMentalIllness,6196,0,1.0,0,1
+"Compared to other people of your same gender and age range, you are (yh6d44s)",15500,0,1.0,0,0
+youfeelmost,14974,0,1.0,0,0
+Totalyoufeel,15382,15382,0.0,0,0
+otherfeel1most,14634,0,1.0,0,0
+Totalotherfeel1,15161,15161,0.0,0,0
+Your sexual interests feel (44qhm16),15499,0,1.0,0,0
+pornhabit,15503,15503,0.0,0,1
+animated,14190,14190,0.0,0,1
+written,14188,14188,0.0,0,1
+violentporn,14188,14188,0.0,0,0
+"""I am ashamed or embarrassed about at least some of what arouses me"" (7cw1ziu)",15503,15503,0.0,0,0
+"""Engaging with or fantasizing about what arouses me feels therapeutic or healing to me"" (vmq8jqw)",15501,15501,0.0,0,0
+"""I can get aroused by a partner doing what I like, even if I know they aren't aroused by it themselv",15502,15502,0.0,0,0
+"""I've acted upon or experimented with all the things that arouse me"" (41kpfir)",15502,15502,0.0,0,0
+Have you paid for porn/erotic content? (pnltks8),15502,0,1.0,0,0
+"""In general, on average, the optimal amount of consent in my preferred erotic scenarios is:"" (b0ukpv",15497,0,1.0,0,0
+Which describes you best? (cvc5b81),15095,0,1.0,0,0
+"""I sometimes find people who have clearly reached sexual maturity, but are not yet adults (e.g., age",15501,15501,0.0,0,0
+"In scenarios you find erotic, you tend to identify with (or imagine being): (irv6czg)",15097,0,1.0,0,0
+allrollidentity,10860,10860,0.0,0,0
+"""I find it erotic when two people of the opposite gender to me sexually interact with each other"" (f",15499,15499,0.0,0,0
+You ______ what arouses you (7mz0awx),15502,0,1.0,0,0
+knowwhatarousesyou,15503,15503,0.0,0,0
+"In general, the most erotic scenarios are: (6e7lhil)",15097,0,1.0,0,0
+highenergy,15098,15098,0.0,0,0
+cunnilingus,15503,15503,0.0,0,1
+"""I find dirtytalking erotic"" (947wne3)",15502,15502,0.0,0,0
+"""I find the thought of existing (in *nonsexual* situations) as a biological *female* to be erotic"" (",12772,12772,0.0,0,0
+"""I find the thought of existing (in *nonsexual* situations) as a biological *male* to be erotic"" (l7",12772,12772,0.0,0,0
+"Do you feel as though you've ""induced"" new fetishes into yourself through the use of porn or erotic ",15502,0,1.0,0,0
+inducefetish,13747,13747,0.0,0,0
+Which of the following sexual positions do you find significantly erotic?,15273,80,0.9947619982976494,1,0
+Which of the following sex acts do you find significantly erotic?,15250,0,1.0,0,0
+Totalsexacts,15253,15253,0.0,0,1
+"Of these options, which one is the most erotic? (s4xytoy)",930,0,1.0,0,0
+Totalfetish1,15335,15335,0.0,0,0
+Uncommon things: Check all the following categories that contain a thing that arouses you.,10244,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77h)",297,0,1.0,0,0
+Totalfetish2,10245,10245,0.0,0,0
+"""I find age-related things (beyond ""normal"" stuff like being attracted to people your own age) to be",4223,4223,0.0,0,0
+secretions,3163,3163,0.0,0,1
+How old were you when you first experienced sexual interest in bodily-secretions? (i2kfd9),2901,0,1.0,0,0
+Which of the following bodily secretions do you find erotic?,2897,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77k)",6657,0,1.0,0,0
+Totalsecretions,2897,2897,0.0,0,0
+"For breast milk, which of the following do you find erotic?",1044,0,1.0,0,0
+"For precum, which of the following do you find erotic?",1289,0,1.0,0,0
+"For saliva, which of the following do you find erotic?",1468,0,1.0,0,0
+"For squirt, which of the following do you find erotic?",2358,0,1.0,0,0
+"For sweat, which of the following do you find erotic?",958,0,1.0,0,0
+"For urine, which of the following do you find erotic?",1324,0,1.0,0,0
+Select all body parts you find significantly erotic,6722,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77m)",4968,0,1.0,0,0
+Totalbodyparts,6723,6723,0.0,0,0
+How old were you when you first experienced interest in specific body parts (not including standard ,6755,0,1.0,0,0
+lightbondage,8702,8702,0.0,0,0
+mediumbondage,8701,8701,0.0,0,0
+extremebondage,8701,8701,0.0,0,0
+"In general, I prefer when the person in bondage is",8699,0,1.0,0,0
+Which of the following do you find to be erotic?,8648,0,1.0,0,0
+bondagemost,8394,0,1.0,0,0
+Totalbondage,8650,8650,0.0,0,0
+How old were you when you first experienced sexual interest in bondage? (tdxu7cp),8699,0,1.0,0,0
+clothing,8258,8258,0.0,0,1
+How old were you when you first experienced interest in clothing related sexual interests? (4kl54pc),8097,0,1.0,0,0
+whowears,8099,8099,0.0,0,0
+Which of the following do you find erotic? (fv0xaot),4431,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77o)",112,0,1.0,0,0
+Totalclothingitems,5071,5071,0.0,0,0
+eagerness,11759,11759,0.0,0,0
+How old were you when you first experienced interest in eagerness related sexual interests? (twg3prj,11632,0,1.0,0,0
+worshipped,11633,11633,0.0,0,0
+worshipping,11633,11633,0.0,0,0
+teasing,11633,11633,0.0,0,0
+frustration,11633,11633,0.0,0,0
+"Of these options, which one is the most erotic? (35jn7ei)",8398,0,1.0,0,0
+Totaleager2,11296,11296,0.0,0,0
+exhibitionself,6723,6723,0.0,0,0
+exhibitionother,6723,6723,0.0,0,0
+voyeurself,6723,6723,0.0,0,0
+voyeurother,6723,6723,0.0,0,0
+How old were you when you first experienced sexual interest in exhibitionism or voyeurism? (xwggkkr),6721,0,1.0,0,0
+genderplay,2828,2828,0.0,0,1
+How old were you when you first experienced interest in genderplay related sexual interests? (3yixh1,2732,0,1.0,0,0
+futa,2732,2732,0.0,0,1
+"""I find it most erotic when the subject of my genderplay interest is:""",2732,0,1.0,0,0
+Which of the following do you find erotic? (lb02f7w),1367,0,1.0,0,0
+Totalgenderplay2,2463,2463,0.0,0,0
+multiplepartners,6264,6264,0.0,0,0
+How old were you when you first experienced sexual interest in multiple partners or related scenario,6196,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7ej)",3269,0,1.0,0,0
+gentleness,8837,8837,0.0,0,1
+How old were you when you first experienced interest in gentleness related sexual interests? (j6jn9r,8749,0,1.0,0,0
+Which of the following do you find erotic? (88ox5nl),3805,0,1.0,0,0
+Which of the following do you find erotic? (vqogs86),4988,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7eo)",5140,0,1.0,0,0
+Totalmultiplepartners2,6149,6149,0.0,0,0
+"Of these options, which one is the most erotic? (35jn7ek)",1161,0,1.0,0,0
+gentleness2most,8401,0,1.0,0,0
+Totalgentleness2,8693,8693,0.0,0,0
+nonconsent,5603,5603,0.0,0,1
+incest,2424,2424,0.0,0,1
+How old were you when you first experienced interest in incest? (9f6vg9x),2398,0,1.0,0,0
+How old were you when you first experienced sexual interest in nonconsent? (bx4o14o),5470,0,1.0,0,0
+Which of the following pairings do you find erotic?,2368,0,1.0,0,0
+"For sibling incest fantasies, which is your preferred pairing",1914,0,1.0,0,0
+"For aunt/uncle, niece/nephew incest fantasies, which is your preferred pairing",1243,0,1.0,0,0
+mentalalteration,3022,3022,0.0,0,0
+"Of these options, which one is the most erotic? (35jn7ew)",8281,0,1.0,0,0
+nonconsent1most,5140,0,1.0,0,0
+Totalnonconsent1,5415,5415,0.0,0,0
+powerdynamic,8799,8799,0.0,0,0
+How old were you when you first experienced sexual interest in power dynamics? (enrhyeb),8741,0,1.0,0,0
+"When it comes to power dynamics, you tend to prefer scenarios that are more (xjfb7yy)",8742,0,1.0,0,0
+"""I find primal play to be:"" (9rncgqc)",8742,8742,0.0,0,0
+obedience,8743,8743,0.0,0,1
+mindbreak,8743,8743,0.0,0,0
+masterslave,8743,8743,0.0,0,0
+mythical,3808,3808,0.0,0,1
+How old were you when you first experienced sexual interest in mythical creatures? (xfj2rdq),3737,0,1.0,0,0
+fulltimepower,8743,8743,0.0,0,0
+"Of these options, which one is the most erotic? (35jn7ep)",2279,0,1.0,0,0
+Totalmythical2,3709,3709,0.0,0,0
+objects,3229,3229,0.0,0,1
+How old were you when you first experienced sexual interest in your preferred object/objects? (3vnq7,3084,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7ex)",1990,0,1.0,0,0
+Totalobjects2,2750,2750,0.0,0,0
+"Of these options, which one is the most erotic? (35jn7ey)",5287,0,1.0,0,0
+powerdynamic2most,8282,0,1.0,0,0
+Totalpowerdynamic2,8601,8601,0.0,0,0
+roles,6739,6739,0.0,0,1
+How old were you when you first experienced sexual interest in specific roles? (ce5t067),6495,0,1.0,0,0
+Which of the following categories contains things you find erotic?,6335,0,1.0,0,0
+Which of the following roles are erotic?,5388,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7f0)",4732,0,1.0,0,0
+Totalprofession,5389,5389,0.0,0,0
+pregnancy,3125,3125,0.0,0,1
+How old were you when you first experienced interest in pregnancy related sexual interests? (c2yvk62,3077,0,1.0,0,0
+Which of the following do you find erotic? (9d7qzaw),1929,0,1.0,0,0
+Which of the following is erotic?,3020,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7ez)",2314,0,1.0,0,0
+pregnancy2most,1990,0,1.0,0,0
+Totalpregnancy2,3020,3020,0.0,0,0
+Which of the following do you find erotic? (9fkr5dx),1497,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7f1)",2790,0,1.0,0,0
+Totalsexyrace,2554,2554,0.0,0,1
+sensory,3206,3206,0.0,0,1
+How old were you when you first experienced interest in sensory related sexual interests? (yg5rwaa),2877,0,1.0,0,0
+toys,8408,8408,0.0,0,1
+How old were you when you first experienced interest in scenarios involving sex toys? (iob8ewb),8343,0,1.0,0,0
+Which of the following sensations do you find erotic?,2859,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7f3)",1515,0,1.0,0,0
+Totalsensory2,2859,2859,0.0,0,0
+"Of these options, which one is the most erotic? (35jn7f4)",620,0,1.0,0,0
+toys2most,8058,0,1.0,0,0
+Totaltoys2,8275,8275,0.0,0,0
+transform,1864,1864,0.0,0,1
+How old were you when you first experienced interest in transformation related sexual interests? (ju,1734,0,1.0,0,0
+"""I find situations erotic where transformations are ___"" (d14kddh)",1732,1732,0.0,0,0
+Which of the following categories of transformations do you find erotic?,1703,0,1.0,0,0
+Totaltransform1,1702,1702,0.0,0,0
+"For general body transformation, which of the following is erotic?",992,0,1.0,0,0
+Which of the following is the most severe for you? (trspees),4571,0,1.0,0,0
+Check all that apply: Scenarios you find erotic tend to involve *you* feeling,15381,0,1.0,0,0
+Check all that apply: Scenarios you find erotic tend to involve *the other person/people/creatures* ,15156,0,1.0,0,0
+"""I find the thought of masturbating alone as a biological female, to be erotic"" (sgdpy8l)",12772,12772,0.0,0,0
+"""I find the thought of masturbating alone as a biological male, to be erotic"" (guwym9g)",12772,12772,0.0,0,0
+Your preferred breast size in a partner is: (dnuiinj),8572,0,1.0,0,0
+Common things: Check all the following categories that contain a thing that arouses you.,15333,0,1.0,0,0
+abnormalbody,2359,2359,0.0,0,0
+How old were you when you first experienced interest in abnormal body/body part-related things? (si8,1704,0,1.0,0,0
+For Which of the following categories of abnormal body states do you find erotic?,1665,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77l)",568,0,1.0,0,0
+Totalbodypartsabnormal,1665,1665,0.0,0,0
+Which body parts are most erotic when giant/oversized?,654,0,1.0,0,0
+Which body parts are most erotic when extremely small?,152,0,1.0,0,0
+genderswapped,1702,1702,0.0,0,0
+For Which of the following categories of genderswapped body states do you find erotic?,884,0,1.0,0,0
+"""It's most erotic when the altered body is"" (wdflfgk)",1702,1702,0.0,0,0
+How old were you when you first experienced interest in age-related sexual interests? (489pmk6),4141,0,1.0,0,0
+agegap,4141,4141,0.0,0,0
+older,4141,4141,0.0,0,1
+progression,4140,4140,0.0,0,1
+regression,4140,4140,0.0,0,1
+cgl,4140,4140,0.0,0,0
+brutality,849,849,0.0,0,1
+How old were you when you first experienced interest in brutality-related sexual interests? (5rsjhm2,809,0,1.0,0,0
+"For parent/child incest fantasies, which are your preferred pairings",1562,0,1.0,0,0
+Totalincest3,1562,1562,0.0,0,0
+gratification,810,810,0.0,0,0
+badends,810,810,0.0,0,0
+Which of the following do you find erotic? (ovb55gx),380,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77n)",503,0,1.0,0,0
+Totalbrutal2,677,677,0.0,0,0
+humiliation,3548,3548,0.0,0,1
+How old were you when you first experienced interest in humiliation related sexual interests? (jebtk,3424,0,1.0,0,0
+"In general, you find it most erotic when the subject of humiliation is:",3423,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7el)",2776,0,1.0,0,0
+humiliation2most,3271,0,1.0,0,0
+Totalhumiliation2,3400,3400,0.0,0,0
+How old were you when you first experienced sexual interest in mental alteration? (nesc17f),2933,0,1.0,0,0
+You prefer it when the mentally altered person is:,2932,0,1.0,0,0
+Which of the following types of mental alteration do you find erotic?,2915,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7en)",3588,0,1.0,0,0
+mentalalteration2most,2777,0,1.0,0,0
+Totalmentalalteration2,2916,2916,0.0,0,0
+"In erotic scenarios involving nonconsent, you generally prefer when the nonconsenting person is:",5468,0,1.0,0,0
+vore,606,606,0.0,0,1
+How old were you when you first experienced interest in vore related sexual interests? (58x0gp5),512,0,1.0,0,0
+What kind of vore do you find erotic?,470,0,1.0,0,0
+You find vore in which orifices to be erotic?,481,0,1.0,0,0
+bestiality,1519,1519,0.0,0,1
+How old were you when you first experienced interest in bestiality/creatures-related sexual interest,1318,0,1.0,0,0
+penetration,1318,1318,0.0,0,0
+penetration2,1317,1317,0.0,0,0
+oralsexanimal,1316,1316,0.0,0,0
+oralsexanimal2,1315,1315,0.0,0,0
+"Of these options, which one is the most erotic? (i73h77i)",2564,0,1.0,0,0
+Totalanimals,1260,1260,0.0,0,0
+"When it comes to bestiality, which of the following creatures do you find erotic?",1260,0,1.0,0,0
+animals2,453,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77j)",1543,0,1.0,0,0
+Totalanimals2,428,428,0.0,0,0
+Which of the following do you find erotic? (ymvkzuu),2881,0,1.0,0,0
+"For blood (menstrual), which of the following do you find erotic?",278,0,1.0,0,0
+sadomasochism,5217,5217,0.0,0,1
+How old were you when you first experienced sexual interest in sadomasochism? (zh8c32k),5119,0,1.0,0,0
+receivepain,5120,5120,0.0,0,0
+givepain,5120,5120,0.0,0,0
+spanking,5120,5120,0.0,0,1
+How important is it that the pain is also sexually gratifying to the recipient? (b31aufk),5120,0,1.0,0,0
+"""I find psychological pain/torture to be:"" (9hy7wy3)",5120,5120,0.0,0,0
+"Which of the following types of sadomasochism do you find erotic?""",5034,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7f2)",8056,0,1.0,0,0
+Totalsadomasochism1,5034,5034,0.0,0,0
+"""Scenarios where pain is given to genitals are arousing to me"" (bobe874)",5119,5119,0.0,0,0
+"""In general, I prefer scenarios where the intensity of the pain is:"" (m73c3q1)",5119,0,1.0,0,0
+"""In general, I prefer scenarios where receiver of the pain is:"" (8r5zld8)",5119,0,1.0,0,0
+creepy,687,687,0.0,0,1
+How old were you when you first experienced interest in creepy/horror related sexual interests? (y9c,633,0,1.0,0,0
+Which of the following do you find erotic? (afadhb),366,0,1.0,0,0
+"Of these options, which one is the most erotic? (i73h77p)",217,0,1.0,0,0
+Totalcreep2,609,609,0.0,0,0
+dirty,487,487,0.0,0,1
+How old were you when you first experienced interest in dirtiness related sexual interests? (l7wbfjh,403,0,1.0,0,0
+Which of the following disgust-oriented things do you find erotic?,362,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7eh)",1901,0,1.0,0,0
+Totaldirty2,362,362,0.0,0,0
+Which of the following do you find erotic? (yftwuzf),6491,0,1.0,0,0
+My erotic fantasies involving toys typically involve ____ using the toys,8341,0,1.0,0,0
+The type of erotic content you prefer tends to be more (2y636ej),14190,0,1.0,0,0
+The type of erotic content you prefer tends to be: (f98tjn5),14188,0,1.0,0,0
+"""If my partner is aroused by something, I can also be aroused by it, even if I don't normally find i",15502,15502,0.0,0,0
+"If you tried very hard, could you stop being aroused by something you're into? (7lgg41e)",15502,0,1.0,0,0
+totalfetishcategory,15503,15503,0.0,0,1
+"In erotic scenarios involving age gaps, I prefer to be ____ (6njm5tr)",3564,0,1.0,0,0
+"""I find {bodypartsmost}:"" (xw7vr7a)",5492,5492,0.0,0,0
+"Which of the following do you find erotic, in the context of humiliation?",3398,0,1.0,0,0
+Which of the following do you find erotic? (46pfeif),5007,0,1.0,0,0
+Which of the following messiness do you find erotic?,125,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7em)",5814,0,1.0,0,0
+"For grandparent/grandchild incest fantasies, which is your preferred pairing",239,0,1.0,0,0
+Which of the following drugs are erotic in sexual situations?,1330,0,1.0,0,0
+Which of the following nonconsent scenarios do you find erotic?,5415,0,1.0,0,0
+"For scat (poop), which of the following do you find erotic?",225,0,1.0,0,0
+"For blood (normal), which of the following do you find erotic?",561,0,1.0,0,0
+"When it comes to necrophilia, it's most erotic when your role is:",269,0,1.0,0,0
+"When it comes to necrophilia, you generally prefer fantasies where the dead body is:",269,0,1.0,0,0
+"For vomit, which of the following do you find erotic?",120,0,1.0,0,0
+Which body parts are most erotic when extremely huge?,532,0,1.0,0,0
+"For animal transformations, you prefer when the final result is ____? (yta91wx)",681,681,0.0,0,0
+"For animal transformations, which of the following are the most erotic to you?",661,0,1.0,0,0
+Totaltransform2,661,661,0.0,0,0
+"For smegma, which of the following do you find erotic?",108,0,1.0,0,0
+How honest were you when answering this survey? (g1vao1y),15500,0,1.0,0,0
+Which of the following do you find erotic? (npcvctu),2386,0,1.0,0,0
+"""I find cunnilingus:"" (jn2b355)",15502,15502,0.0,0,0
+"""I find blowjobs:"" (yuc275j)",15502,15502,0.0,0,0
+"""I find anal sex (with a penis or penile toy):"" (jhvha2f)",15500,15500,0.0,0,0
+normalsex,15503,15503,0.0,0,0
+"In general, it's most erotic when _____ wears the clothing you find erotic (eowvxbs)",8096,0,1.0,0,0
+"""I find scenarios where I eagerly beg others to be:"" (jvrbyep)",11632,11632,0.0,0,0
+"""I find scenarios where others eagerly beg me to be:"" (stmm5eg)",11632,11632,0.0,0,0
+marriage100blood,2398,2398,0.0,0,0
+Which of the following do you find erotic? (w1qo1g1),2316,0,1.0,0,0
+Which of the following do you find erotic? (5j281rq),2273,0,1.0,0,0
+"Of these options, which one is the most erotic? (35jn7eg)",10388,0,1.0,0,0
+Which of the following do you find erotic? (lfolao),5045,0,1.0,0,0
+appearance,10210,10210,0.0,0,1
+How old were you when you first experienced interest in your appearance-based sexual interests? (6qq,10032,0,1.0,0,0
+Which of the following body weights do you find most erotic? (1jq57nf),10033,0,1.0,0,0
+ascore,10034,10034,0.0,0,0
+Which of the following body modifications do you find significantly erotic?,9249,0,1.0,0,0
+Which of the following body types do you find significantly erotic?,8315,0,1.0,0,0
+You're more sexually attracted to people whose gender identity ____ match their genitals (5b30vz2),15487,0,1.0,0,0
+How much of the porn or erotica you watch is violent? (joz3g52),14182,0,1.0,0,0
+At what age did you begin watching porn or reading erotic content at least semiregularly? (ugf1hyy),14181,0,1.0,0,0
+Which of the following do you find erotic? (32snt5e),1655,0,1.0,0,0
+"When it comes to body horror, which of the following are erotic?",135,0,1.0,0,0
+Totalbodyhorror,135,135,0.0,0,0
+"For male ejaculate, which of the following do you find erotic?",1604,0,1.0,0,0
+"""I am aroused by being dominant in sexual interactions"" (6w3xquw)",14987,14987,0.0,0,0
+"""I am aroused by being submissive in sexual interactions"" (xem7hbu)",14987,14987,0.0,0,0
+Do you get mood-based PMS symptoms during your menstrual cycle?,3365,0,1.0,0,0
+supernatural,9126,9126,0.0,0,0
+"""I've experienced a lot of sexual harrassment"" (3knd12d)",7582,7582,0.0,0,0
+Which of the following do you find erotic? (26qr0sp),3472,0,1.0,0,0
+Which of the following do you find erotic? (yf0rmix),2190,0,1.0,0,0
+Which of the following do you find erotic? (wddo7ee),296,0,1.0,0,0
+Which of the following do you find erotic? (zewlx2),243,0,1.0,0,0
+Which of the following do you find erotic? (mfc7eve),4805,0,1.0,0,0
+Which of the following do you find erotic? (twppkp3),383,0,1.0,0,0
+Which of the following do you find erotic? (u661iml),3701,0,1.0,0,0
+Which of the following do you find erotic? (9kmxhci),1322,0,1.0,0,0
+Which of the following do you find erotic? (fnwke2d),3593,0,1.0,0,0
+Which of the following do you find erotic? (g5qw0tc),3228,0,1.0,0,0
+Which of the following do you find erotic? (m66m8ix),1719,0,1.0,0,0
+Which of the following do you find erotic? (rhb3fup),1095,0,1.0,0,0
+Which of the following do you find erotic? (3hof3bj),2342,0,1.0,0,0
+Which of the following do you find erotic? (5mhacm7),1891,0,1.0,0,0
+Which of the following do you find erotic? (xhe2co5),1330,0,1.0,0,0
+Which of the following do you find erotic? (uju0gwc),1057,0,1.0,0,0
+"""I find personal freeuse dynamics, arrangements where one partner can sexually ""use"" the other witho",6462,6462,0.0,0,0
+Can you have vaginal orgasms *without* clitoral stimulation? (hy7nsai),2413,0,1.0,0,0
+"""In general, casual sexual hookups have been a ___ experience for me"" (ytp3gfm)",2644,0,1.0,0,0
+"""In general, when my romantic relationships end, who initiates the breakup?"" (y33ksrt)",2642,0,1.0,0,0
+"""I usually don't leave romantic relationships unless there's a very serious violation"" (b7gzhvz)",2643,0,1.0,0,0
+Getting catcalled on the street (or the thought of getting catcalled) feels more: (3qh0yh8),5639,0,1.0,0,0
+You find raceplay to be: (fkk3ykn),1881,1881,0.0,0,0
+Are you on hormonal birth control? This is the pill or any hormonal implant (pbj1u8c),1542,0,1.0,0,0
+Which of the following do you find erotic? (a1m9v6u),712,0,1.0,0,0
+"Where are you currently at in your menstrual cycle? Options are based on a typical 28 day cycle, but",1415,0,1.0,0,0
+"When I picture myself with a nude male body, I find this: (dl5zw4l)",1214,1214,0.0,0,0
+"When I picture myself as having a nude female body, I find this: (yqi5pre)",1899,1899,0.0,0,0
+"When I picture my own nude female breasts, buttocks, legs, or genitals, I find this: (qkw5ssz)",914,914,0.0,0,0
+The thought of someone else admiring me while I am a woman in the nude is: (yf7onjn),909,909,0.0,0,0
+"When I picture my own nude male buttocks, legs, or genitals, I find this: (f77m7qu)",490,490,0.0,0,0
+The thought of someone else admiring me while I am a man in the nude is: (g219v7x),485,485,0.0,0,0
+How horny have you been in the last 24 hours? (2hyrmvh),2718,0,1.0,0,0
+How horny are you right now? (1jtj2nx),2718,0,1.0,0,0
+Are you currently experiencing PMS symptoms? (g953661),748,0,1.0,0,0
+"""To what extent do you agree with this statement: I am a narcissist. (1bqtk47)",1303,1303,0.0,0,0
+Do you have baby fever? (9stu9yy),160,0,1.0,0,0
+bmi,15503,0,1.0,0,1
+bondageaverage,8701,8701,0.0,0,0
+straightness,15503,0,1.0,0,1
+politics,15503,0,1.0,0,1
+childhood_adversity,4886,0,1.0,0,1
+childhood_gender_tolerance,15492,0,1.0,0,0

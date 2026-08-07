@@ -42087,3 +42087,180 @@ always empty either way.**
    tracked artifacts as part of its own design**, not leave it to me noticing afterwards. ⇒ `#874`②
 ③ ⚠ Still `OPEN`: `#872`② (unanswered) · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`①.
+
+## Entry 875 · `E03·A101·R314` — the corpus does not rot from losing evidence, it rots from my own tidying
+
+**Answers `#872`②, open for three rounds.** Pays `#874`①②. **Scope**: all **836** round scripts in
+`E01`/`E02`/`E03`, executed from the repository root, every non-OK one re-run **alone**.
+
+**⚠ The instrument was rebuilt before it was trusted, and then attacked before it was run.**
+`#874` wedged for 109 minutes because `subprocess.run(capture_output=True, timeout=…)` does not time
+out when a **grandchild** holds the pipe. The rebuilt runner uses `Popen(start_new_session=True)`,
+**files instead of pipes**, `stdin=DEVNULL`, and `os.killpg` on the whole process **group** — and
+`P7` was run on it first, **six vectors, each performed**: ① a grandchild holding the output is
+killed at the cap (240.0 s, not 109 min) · ② **the grandchild's pid is dead afterwards** — killing
+the child is not killing the group · ③ a script reading `stdin` does not wait forever · ④ 16 MB of
+stdout does not deadlock and is readable · ⑤ **a clean script still exits 0** — a runner that killed
+everything would pass ①–④ · ⑥ stderr reaches the file, so the classifier is not blind.
+
+**⚠⚠ And the precondition earned itself before the first script ran.** The round refuses to start on
+a dirty tree (`#874`②: a sweep that re-runs committed scripts is a **WRITE**). It refused — over a
+`curve.csv` sitting in an eight-year-old round directory, **timestamped two minutes AFTER I had
+verified `#874`'s tree was clean**. `#874` killed the parent and not the group, so its grandchildren
+went on writing after the cleanup. ⇒ **"the tree is clean" is a measurement with an expiry date
+whenever a runaway job has just been killed**, and a cleanup verified at t is not a cleanup.
+
+**⚠ The cost meter, on a RANDOM sample of 20 (`#874`①), and it is the control on `#874`'s error**:
+median **0.6 s** · mean **12.15 s** · p90 **4.4 s** · max **200.7 s** ⇒ projected **16.9 min** at 10
+workers. **Measured: 20.0 min.** `#874`'s cost meter, run on 38 scripts selected for another
+purpose, was wrong by more than an order. *The fix was not a better estimator; it was a sample drawn
+from the population being estimated.*
+
+**THE NUMBERS.**
+
+| | |
+|---|---|
+| scripts | **836** · **485 run (58%)** · **351 fail (42%)** |
+| classes, measured SOLO | `MISSING-INPUT` **253** · `IMPORT-ERROR` **79** · `OTHER` **14** · `TIMEOUT` **5** |
+| **load confound** | the 10-wide screen said **17** `TIMEOUT`; alone, **12 of those 17 (71%) were not** |
+| `REPAIRABLE` | **251** — **61** produced by another script here · **190** the same filename sitting in a **different directory** |
+| `PERMANENT` | **2** |
+| world D (verdict printed, then died) | **0** ⇒ "runs" is not the wrong unit |
+| coverage | **836/836**, screen 20.0 min against a pre-registered 100-min deadline |
+
+**⚠⚠ THEN I ATTACKED MY OWN KILL, AND IT FELL.** The kill fired (`PERMANENT` = 2 > 0 ⇒ branch C),
+and branch C's text says *"that share of this project's conclusions can never be re-derived — by
+anyone, including me."* **Both halves of the `PERMANENT` test interrogate the WORKING TREE** —
+*not written by any script here* and *not present anywhere on disk* — **and neither asks git.** This
+corpus's persistence layer **is** git: 4,368 rename edges, and a `results/*.csv` that has left the
+tree has usually left it by being **renamed away**. Measured, with a two-sided control on the
+retriever (a currently-tracked file must come back; an invented path must not): **2 of 2 are
+byte-retrievable from git** (3,109 and 1,453 bytes), and **0 copies remain in the tree**.
+⇒ **`PERMANENT` did not mean *gone*; it meant *not in the working tree*.** This corpus has **zero
+measured cases of unrecoverable evidence** — but the word changes as well as the number: those
+conclusions are not *lost*, they are **stale**. Recovering a blob is not re-deriving a conclusion.
+⚠ **And the attack was only possible because the sweep persisted the exact paths it condemned.** A
+verdict reporting "2 PERMANENT" without naming them could not have been attacked at all.
+
+**⚠⚠ ARE THEY ALL THE SAME ERROR? — the question `§0.2` forces, and it has an answer.**
+**271 of 351 failures (77%) are one class: a stale path or name left behind by my own restructuring.**
+- **79 `IMPORT-ERROR`, and every one of them is a single name**: `from lib.rounds import round_path`.
+  A static pass over **every** `from lib.* import *` and **every** `lib.X.Y` attribute use in the
+  corpus finds **this is the only broken name in the whole shared library** — 0 others, both ways.
+  It was removed by **my own commit `4819b9b`, 2026-08-06, one day before this round**, in the
+  restructure Ivan asked for (「多个 run 才能够算一个 round」). The commit rebuilt the registry from
+  **52 keys to 635 with ZERO shared**, renamed the accessor `round_path`→`path`, and migrated
+  **no callers**: today there are **54 call sites of the removed accessor and 0 of the new one.**
+  ⇒ *the registry exists so paths are not copied; nothing checks that a caller's KEY still exists,
+  so the registry solved path duplication and created key duplication.*
+- **190 `MISSING-INPUT` where the file is present on disk under a different directory** — the same
+  shape one level down: the script's literal path is stale, the evidence is right there.
+- **2 `PERMANENT` where the file is in git and nowhere else** — the same shape, one level further.
+The rival world was **CASCADE** (one dead producer starving many consumers) and it is **dead**:
+only **3 of 253** missing inputs are written solely by scripts that are themselves dead.
+
+**⚠ The repair is measured, not asserted.** Old key → the pre-rename registry (`git show 4819b9b^`)
+→ today's path (following 4,368 rename edges): **52 of 52 literal references resolve, in 50 of the
+80 importers**, every target verified to exist. The other **30 build their key at runtime and this
+instrument cannot see them — unseen is not cleared.**
+
+**⚠⚠ AND THE ONE NUMBER THAT DECIDES ANYTHING.** A dead script behind no live claim costs nothing.
+Of the **351** that do not run, **6 sit behind a claim a README still makes** — and of those six:
+**4 are `TIMEOUT` at my own 240 s cap** (two of them are this project's *own* corpus sweeps, which
+legitimately need longer), **1 was blocked by a guard that refuses a dirty tree — and my own sweep
+is what made the tree dirty**, and **1** has a genuinely missing input, itself a stale path to
+`R673_source_boundary_map` (**a round number this project has never reached**; the file is produced
+by another script ⇒ `REPAIRABLE`).
+⇒ **Not one live claim rests on evidence that cannot be regenerated.**
+⚠ **And that count was itself corrected upward.** The sweep's citation rule was `Entry (\d+)`, which
+cannot see a continuation — the pages cite runs like `(Entry 529 · 530)`, and the tight rule keeps
+only the first: **177 cited entries against 205, 28 missed (13.7%)**. A missed citation makes a round
+look *not live*, so the sweep's own figure erred **toward the comfortable answer**. Recomputed:
+**5 → 6**, `PERMANENT` behind a live claim **0 → 0**. Both numbers are reported, because a corrected
+instrument that quietly replaces its predecessor stops being auditable.
+
+**⇒ One sentence about people: every sentence this project still makes about how Americans condemn
+— that they are a gradient asked *is it wrong* and not asked *should he be stopped*, that refusal is
+one thing inside a person and not three — can still be attacked, because the evidence behind it can
+still be produced. What has rotted is the address, not the evidence. And it rotted from my own
+tidying: two directory restructures in three days, 4,368 renames, and 77% of everything that no
+longer runs is a script still pointing at where a file used to live.**
+
+**Two instrument defects found in passing, both recorded rather than repaired here:**
+① `lib/gates.py`'s `#866` control-population diagnostic builds its row label with
+   `name.split("(")[0]`, so **every control whose name begins with `(1)`, `(2)`, … prints as an
+   empty string**: the gate correctly detected that 4 of 7 control rows sit on a different
+   population from the kill and then **could not say which four** — `['', '', '', '']`.
+② **The population contained `R312`'s own corpus sweep**, so this sweep re-ran a sweep. It was
+   contained by the cap and the process-group kill (vectors ① and ②), but nothing in the design
+   excluded it. **A corpus sweep whose population contains a corpus sweep is recursive.**
+
+**⚠⚠⚠ AND THE WORST THING THIS ROUND DID, FOUND BY ITS OWN GATE AFTERWARDS: THE SWEEP MOVED `HEAD`.**
+`tools/readme_gate.py` blocked the commit with `uncited_numbers: 1 -> 2`, and the second one was a
+line reading **`伪造素材段落:这里带着一个数 +0.8484`** sitting at the bottom of `README.md` — **a
+fabricated number, on the deliverable page.** It came from two real commits on `main`,
+**`b4916db` + `3b79af8`, messaged "A README.md 改写" / "B README.md 改写", both stamped 08:43:24, i.e. during
+the parallel screen.** They are the work of `R059`'s `rewrite_vs_delete.py` / `two_leave_two_arrive.py`,
+which **build throwaway commits in order to test whether a gate can tell a rewrite from a deletion**.
+- **The scripts are not careless — they are careful, and that is the finding.** Each one asserts a
+  clean tree first (`assert tracked == 0, "有已跟踪的未提交改动 —— 拒绝伪造提交"`, and all three
+  members of the family carry it), works on a **temporary branch**, `reset --hard`s to its recorded
+  start SHA, checks the original branch back out, deletes the temp branch, and **verifies HEAD is
+  restored**. Run alone it leaves nothing behind.
+- **I ran them ten-wide.** Two processes each checking *"is the tree clean?"* — true for both — then
+  each doing `checkout -b` / `commit` / `reset --hard` / `checkout main` **against one shared HEAD and
+  one shared working tree**. The third member, `replaced_by.py`, is the one that *did* trip its guard
+  (`OTHER`), because by the time it ran the tree was dirty. ⇒ **the guard is per-process and the
+  resource is shared: a check on the TREE cannot see another process about to move HEAD.**
+- **This is `P3`② one level up.** Read-isolation is not only about a shared *file*; **`HEAD` is a
+  shared mutable resource too**, and `#874`② said *a sweep that re-runs committed scripts is a
+  WRITE* — it is understated. **It is a write to HISTORY.** My restore step compared the tree against
+  a `HEAD` the sweep itself had advanced by two commits, so it reported **clean** and was right,
+  about the wrong baseline.
+- **Cost and repair**: the two commits are unpushed (`main` is 126 ahead of `origin`), touch only
+  three lines at the end of `README.md`, and are **left in history rather than rewritten away**
+  (`L81`) — this round's commit removes the fabricated paragraph and this entry names the hashes, so
+  the record survives and the page does not carry a fake number. ⇒ `#875`④
+- ⚠ **And note which instrument caught it: not the sweep, not the restore, not my reading — the
+  README gate's ratchet, one commit later.** The sweep's own closing check said the tree was clean,
+  the scripts' own closing checks said HEAD was restored, and **both were true statements about a
+  world that had already moved.**
+
+**Restore (`#874`②, part of the design rather than an afterthought):** **307** untracked byproducts
+relocated **by LOCATION, any extension** (`#874` relocated by extension and missed everything that
+was not `.csv`) · **16** tracked files restored with `git checkout` — **and the working-tree version
+of each was copied into `_pre_restore_working_copies` first**, because `git checkout --` is an `rm`
+(`L81`) and this restore **cannot tell a sweep byproduct from a human edit made during the run**.
+Tree clean afterwards.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① it ranks **re-derivability**, never **truth** — a script that will not run may well have been
+   right, and one that runs may be wrong. No design here changes that;
+② **the instrument cannot be changed** — this corpus exists only in this repository, so the
+   cross-instrument replication this project otherwise demands is **structurally unavailable**; it
+   would require a second machine holding a second copy, which does not exist;
+③ a `PERMANENT` verdict — and now the git-recovery verdict too — is about **this machine at this
+   moment**; a file absent here may sit on another of Ivan's machines, and this round cannot see them;
+④ **elapsed under 10-way load is not a runtime profile.** The cap curve (cap 30 s → **69** scripts
+   would not finish · 60 → **38** · 120 → **21** · 240 → **5**) is **DERIVED from measured elapsed,
+   not re-measured**, and load inflates elapsed ⇒ it **over**-states slowness. It bounds one side only;
+⑤ `TIMEOUT` is a statement about **my cap**, not about the corpus. Four of the six dead-behind-a-live-
+   claim scripts are timeouts, and two of those are sweeps that cannot finish in four minutes by
+   construction.
+
+**NEXT**
+① ⚠ **The repair is specified and not applied.** `lib/rounds.py` needs a `LEGACY_PATHS` table (old
+   numbered keys → today's paths, all 52 verified) plus `round_path`, and then **the 80 importers
+   must be re-run to measure how many actually come back** — resolving a reference is an **upper
+   bound** on resurrecting a script, and the difference is the finding. ⇒ `#875`①
+② ⚠ **Nothing checks that a registry caller's KEY exists.** Two restructures in three days each
+   rebuilt the key vocabulary and migrated no callers. A gate that fails when any `round_path(k)` /
+   `path(k)` literal is absent from the registry is one grep, and it is the thing that would have
+   caught this on the day rather than a day later. ⇒ `#875`②
+③ ⚠ `lib/gates.py`'s control-population diagnostic cannot name the rows it flags (defect ① above).
+   ⇒ `#875`③
+④ ⚠ Still `OPEN`: `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.
+⑤ ✅ **`#872`② is CLOSED** by this round · `#874`①② are CLOSED (the sweep ran to completion, with a
+   process-group kill, a flushed heartbeat, a random-sample cost meter, and snapshot/restore in the
+   design).

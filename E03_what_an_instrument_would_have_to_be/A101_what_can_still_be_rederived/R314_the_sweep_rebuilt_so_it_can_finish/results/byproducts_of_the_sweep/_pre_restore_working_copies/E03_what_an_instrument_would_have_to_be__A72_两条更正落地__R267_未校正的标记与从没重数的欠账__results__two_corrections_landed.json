@@ -1,0 +1,165 @@
+{
+ "action": "Production",
+ "pop1": {
+  "README_zh.md": {
+   "units": 482,
+   "hits": 13,
+   "naked": 0,
+   "limit": 8,
+   "marked": 5,
+   "owners": []
+  },
+  "README.md": {
+   "units": 453,
+   "hits": 13,
+   "naked": 0,
+   "limit": 8,
+   "marked": 5,
+   "owners": []
+  }
+ },
+ "total_naked": 0,
+ "debts_source_entry": 800,
+ "debts": [
+  {
+   "debt": "#799①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#799②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#798①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#797②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#796①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#795②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#794②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#793②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#792②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#791②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#790②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#789①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#788②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#787③",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#786②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#785②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#784①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#783①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#783②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#778①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#773②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#769①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#768①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#767①",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#760②",
+   "claimed_by": null,
+   "evidence": null
+  },
+  {
+   "debt": "#758①",
+   "claimed_by": null,
+   "evidence": null
+  }
+ ],
+ "n_debts": 26,
+ "n_claimed": 0,
+ "n_discharged": "UNVERIFIED — instrument unit != claim unit",
+ "pos_control": true,
+ "neg_control": true,
+ "pos_control2": true,
+ "neg_control2": true,
+ "admissible": true,
+ "verdict": "**两条更正都已落地。** 总体① 裸着 0 处;总体② 产出 26 行可 grep 的清单,其中 **0 笔被声称执行过、26 笔未见声称**。\n  ⚠⚠ **而「已了结」的真实笔数仍是 UNVERIFIED —— 仪器只能看见「声称」。**",
+ "gate_ok": true
+}
