@@ -1,0 +1,268 @@
+{
+ "files_scanned": 862,
+ "hits": 302,
+ "shape_controls": {
+  "item_exception": {
+   "controlled": true,
+   "positive_n": 9,
+   "negative_n": 0,
+   "positive_token": "colcom",
+   "negative_token": "colhomo"
+  },
+  "value_whitelist": {
+   "controlled": true,
+   "positive_n": 8,
+   "negative_n": 0,
+   "positive_token": "4, 5",
+   "negative_token": "42, 43"
+  },
+  "year_guard": {
+   "controlled": false,
+   "positive_n": null,
+   "negative_n": null
+  },
+  "exclusion_list": {
+   "controlled": false,
+   "positive_n": null,
+   "negative_n": null
+  }
+ },
+ "controlled_shapes": [
+  "item_exception",
+  "value_whitelist"
+ ],
+ "homed_tokens": 669,
+ "at_risk_after_rescue": [
+  {
+   "shape": "value_whitelist",
+   "token": "1, 2",
+   "n_rounds": 17,
+   "files": [
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的地方它跟着稀有度_压不住的地方它脱钩/gss_gap_over_51_years.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_同一份问卷里只换话题_差距就动_0_90_而跨仪器只差_0_20/within_instrument_topic_spread.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/out_of_sample_point_with_sex.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R079_跨两者比非性内还高/cross_domain.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/apc_grid.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/denominator.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/partial_out.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/shape.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R083_六步_每一步都被一个检验杀掉_而分段敏感性补上了/banding_sensitivity.py",
+    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R297_道德判断与公民制裁的缝一样宽吗/judgement_versus_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R298_同一个人会不会一边说错一边放行/inside_one_head.py",
+    "E03_what_an_instrument_would_have_to_be/A92_裂口自己在变宽是哪一边动的/R300_道德那条缝变宽还是制裁那条缝变窄/which_side_moved_the_split.py",
+    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R301_七根轴在放行题上重排一次/which_cleavage_carries_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py",
+    "E03_what_an_instrument_would_have_to_be/A94_把两端拉开和解释了多少是同一件事吗/R303_中间那三分之一站在哪边/where_the_middle_third_stands.py",
+    "E03_what_an_instrument_would_have_to_be/A95_那几块孤立的少数是不是同一批人/R304_一个人能同时落在几块里/how_many_blocs_per_person.py",
+    "E03_what_an_instrument_would_have_to_be/A96_不在任何一块里的反对者是谁/R305_同一条尺上的两个位置还是两种反对/two_kinds_of_refusal.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "1, 2, 3, 4",
+   "n_rounds": 16,
+   "files": [
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_换机构_换话题_换施测模式_那道差距的大小几乎一样/nsfg_acasi_replication.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_同一份问卷里只换话题_差距就动_0_90_而跨仪器只差_0_20/within_instrument_topic_spread.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/freeze_and_one_out_of_sample_point.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/out_of_sample_point_with_sex.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R061_一件一件松开_而我先给自己造了一个不是天花板的天花板/longer_baseline.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R061_一件一件松开_而我先给自己造了一个不是天花板的天花板/matched_noise_and_disjoint_people.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R062_三个单位_三个答案_人有一套性道德_社会和年代没有/format_matched_reference.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R078_换一种分法_符号就翻了_557_的结论是我那次划分的产物/beyond_44.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R079_跨两者比非性内还高/cross_domain.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/apc_grid.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/denominator.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/partial_out.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/shape.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R083_六步_每一步都被一个检验杀掉_而分段敏感性补上了/banding_sensitivity.py",
+    "E03_what_an_instrument_would_have_to_be/A89_虔诚有两张脸/R295_公共的那张和私人的那张分开量/two_faces_of_religiosity.py",
+    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "'Mostly written','Entirely written'",
+   "n_rounds": 8,
+   "files": [
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_matching_correct_or_just_subsample.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/block_inclusion_sweep.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/is_the_coverage_law_one_point.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/modality_properly_gated.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/sweep_K_on_every_deficit.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "'Mostly visual','Entirely visual'",
+   "n_rounds": 8,
+   "files": [
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_matching_correct_or_just_subsample.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/block_inclusion_sweep.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/is_the_coverage_law_one_point.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/modality_properly_gated.py",
+    "E01_sexual_as_a_value_not_a_category/A02_whether_any_of_it_is_reportable/R002_explorer_analysis_corpus/sweep_K_on_every_deficit.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "4, 5",
+   "n_rounds": 8,
+   "files": [
+    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R297_道德判断与公民制裁的缝一样宽吗/judgement_versus_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R298_同一个人会不会一边说错一边放行/inside_one_head.py",
+    "E03_what_an_instrument_would_have_to_be/A92_裂口自己在变宽是哪一边动的/R300_道德那条缝变宽还是制裁那条缝变窄/which_side_moved_the_split.py",
+    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R301_七根轴在放行题上重排一次/which_cleavage_carries_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py",
+    "E03_what_an_instrument_would_have_to_be/A94_把两端拉开和解释了多少是同一件事吗/R303_中间那三分之一站在哪边/where_the_middle_third_stands.py",
+    "E03_what_an_instrument_would_have_to_be/A95_那几块孤立的少数是不是同一批人/R304_一个人能同时落在几块里/how_many_blocs_per_person.py",
+    "E03_what_an_instrument_would_have_to_be/A96_不在任何一块里的反对者是谁/R305_同一条尺上的两个位置还是两种反对/two_kinds_of_refusal.py"
+   ]
+  },
+  {
+   "shape": "item_exception",
+   "token": "PURITY",
+   "n_rounds": 6,
+   "files": [
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/is_decency_an_omnibus.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/ratio_and_the_ceiling.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/summary_or_extra.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/upstream_or_passenger.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/which_item_carries_it.py",
+    "E03_what_an_instrument_would_have_to_be/A18_distance_to_the_ceiling/R093_我下注纯洁的领先是天花板造的_而它比生的数还要更领先/purity_against_its_ceiling.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "'Mostly animated/drawn','Entirely animated/drawn'",
+   "n_rounds": 3,
+   "files": [
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/coverage_confound.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/deficit_reference_class.py",
+    "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/matched_modality.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "1,2",
+   "n_rounds": 3,
+   "files": [
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R101_稀有度驱动谴责吗/condemnation_vs_prevalence.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R102_是不是2021年那次换问法/mode_or_structure.py",
+    "E03_what_an_instrument_would_have_to_be/A32_性克制是不是唯一按对象分档的/R171_七个面里有几个撑得过多重性/bh_over_facets.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "2022,2024",
+   "n_rounds": 3,
+   "files": [
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R103_是性题特有还是所有道德题/sexual_or_all_moral.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R104_方向一致性是不是性题特有/direction_consistency.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R105_说不出口的是谁/who_cannot_say_it.py"
+   ]
+  },
+  {
+   "shape": "item_exception",
+   "token": "homosex",
+   "n_rounds": 3,
+   "files": [
+    "E03_what_an_instrument_would_have_to_be/A23_in_what_way_does_it_hold/R121_为什么是同性恋这一题/why_this_item.py",
+    "E03_what_an_instrument_would_have_to_be/A35_年代这个单位/R184_是搬进性道德还是搬进政治/into_what.py",
+    "E03_what_an_instrument_would_have_to_be/A69_那个2点5倍是原始量表分/R263_换五种归一化再看谁是例外/is_the_exception_a_scale_artifact.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "1, 2, 3",
+   "n_rounds": 2,
+   "files": [
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的地方它跟着稀有度_压不住的地方它脱钩/gss_gap_over_51_years.py",
+    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "2022, 2024",
+   "n_rounds": 2,
+   "files": [
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_十分之一的人算不算_看过_取决于他被递到哪一道题/randomised_wording_arms.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_十分之一的人算不算_看过_取决于他被递到哪一道题/who_does_the_format_select.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "3, 4",
+   "n_rounds": 2,
+   "files": [
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_换机构_换话题_换施测模式_那道差距的大小几乎一样/nsfg_acasi_replication.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_同一份问卷里只换话题_差距就动_0_90_而跨仪器只差_0_20/within_instrument_topic_spread.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "2, 3",
+   "n_rounds": 2,
+   "files": [
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/out_of_sample_point_with_sex.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R060_严厉的社会_这种东西_在这份数据里没有证据/is_strictness_a_society_trait.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "1, 2, 3, 4, 5",
+   "n_rounds": 2,
+   "files": [
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R065_面内高于面间_而那是设计_prior_art_这一行第一次自己举了手/facets_inside_sex.py",
+    "E03_what_an_instrument_would_have_to_be/A87_那条缝换一份问卷还在不在/R292_第一次跨仪器复现/two_questionnaires_one_divide.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "1,2,3,4",
+   "n_rounds": 2,
+   "files": [
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R101_稀有度驱动谴责吗/condemnation_vs_prevalence.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R102_是不是2021年那次换问法/mode_or_structure.py"
+   ]
+  },
+  {
+   "shape": "value_whitelist",
+   "token": "y0, y1",
+   "n_rounds": 2,
+   "files": [
+    "E03_what_an_instrument_would_have_to_be/A62_是人改了主意还是人换了/R256_两千年代那个十年也没检验过走这个前提/both_decades.py",
+    "E03_what_an_instrument_would_have_to_be/A63_虔诚者自己做了什么/R257_停住了还是往回走了/did_the_devout_turn_back.py"
+   ]
+  },
+  {
+   "shape": "item_exception",
+   "token": "NOT_ASKED",
+   "n_rounds": 2,
+   "files": [
+    "E03_what_an_instrument_would_have_to_be/A64_裂开的时点是不是同一个/R258_八题的十年网格/same_decade_or_not.py",
+    "E03_what_an_instrument_would_have_to_be/A65_宗教这个轴是不是可替换的/R259_换成政治立场分层再跑同一张网格/is_the_religion_axis_substitutable.py"
+   ]
+  }
+ ],
+ "bks": {
+  "n_raw": 20,
+  "n_kept": 19,
+  "dropped": [
+   "biomale"
+  ],
+  "biomale_selected_by_ducktype": true
+ },
+ "instrument_failed_both_ways": {
+  "strings_not_stripped": 18,
+  "strings_stripped_one_rule": 20,
+  "two_sided_rule": "19 at round start, 18 after rescuing biomale"
+ },
+ "note": "PRODUCTION round; no worlds, no kill."
+}
