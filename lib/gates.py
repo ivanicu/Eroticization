@@ -1103,7 +1103,7 @@ class Gate:
         return ok
 
     def asserted(self, name, condition, detail, kind="kill",
-                 yardstick=None, yardstick_noise=None):
+                 yardstick=None, yardstick_noise=None, population=None):
         """#96a: a condition stated in prose must be a boolean here, or it was never tested.
 
         `kind` (#366e, guard 23):
@@ -1121,6 +1121,16 @@ class Gate:
 
         `yardstick`       —— 这条判据拿**哪个量**当尺(名字,人读的)。
         `yardstick_noise` —— **那把尺自己的噪声**。判据若比它自己的噪声还细,判的是噪声。
+        `population`      —— **这条判据在谁身上评。**
+
+        ⚠⚠ `#854`① 追加 `population`,而它补的是 `yardstick` 补不了的那一半:
+        **`#854` 的 kill 写成「任一仪器三轴全过」,于是那条主张已经住在里面的 GSS 自己过了,
+        判词印出「墙倒了」—— 而问的是第二具仪器能不能承载它。**
+        **尺是对的(三根必需轴),总体是错的(把在位者算了进去)。**
+        `#836`① 教的是「命名尺」,而这一次错的不是尺,是我从没问过
+        **「这条判据该在谁身上评」** —— 而这种错**字符串检查看不出来**:
+        判词串忠实地转述了一个算错的量。
+        ⚠ **标记,不阻断**(`#814`/`#836`① 的同一个决定,理由也一样:阻断会让过去每一轮不可复现,`L81`)。
 
         ⚠ **标记,不阻断**(`#814` 的同一个决定,理由也一样):阻断会让过去每一轮不可复现(`L81`)。
         一条 `kind="kill"` 而不报尺的行,会在输出里带上 `⚠ 判据的尺未命名`。
@@ -1137,6 +1147,8 @@ class Gate:
                     detail += "  ⚠ 尺自己的噪声未量(`#836`①)"
                 else:
                     detail += f",其自身噪声 {yardstick_noise:.6g}"
+            detail += (f" · 总体:{population}" if population is not None
+                       else "  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)")
         self.rows.append((name, detail, ok, "asserted in code, not in prose"))
         if kind == "control":
             self._control_rows = getattr(self, "_control_rows", set()) | {len(self.rows) - 1}
