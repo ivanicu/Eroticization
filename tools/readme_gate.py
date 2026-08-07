@@ -395,7 +395,20 @@ def precommit(baseline_path="tools/gate_baseline.json"):
       这一条没有被修掉,只是被写下来了。
     ⚠ 变好时不自动降基线 —— 降基线必须是一个**可审的、写进账本的动作**,否则棘轮会被悄悄拧松。
     """
-    import json, os
+    import json, os, subprocess, sys as _sys
+    # ⚠⚠ `#831`(`#830`② 的执行):把 `debts_gate.py` 接进这个自动执行点。
+    #   `#830`② 自己写下「否则它就是一条只靠记性执行的规矩(`#795`/`#804`/`#811`/`#815`/`#827`,第六次)」——
+    #   **而那一句写完就必须立刻兑现,否则它本身就成了那条规矩的第七个实例。**
+    #   ⚠ 这里接的是**零容忍**而不是棘轮,理由与 `#601` 那段相反且成立:
+    #     棘轮存在是因为页面的欠账是**登记在册、不许为了变绿而放松**的;
+    #     而 `DEBTS.tsv` 的自洽性**没有任何合法的欠账** —— 一张自相矛盾的表没有「暂时可接受」的版本。
+    _dg = pathlib.Path(__file__).resolve().parents[1]/"tools"/"debts_gate.py"
+    if _dg.exists():
+        _r = subprocess.run([_sys.executable, str(_dg)], capture_output=True, text=True)
+        if _r.returncode != 0:
+            print("🔒 PRE-COMMIT BLOCK (debts_gate)"); print(_r.stdout.strip() or _r.stderr.strip())
+            print("   -> `DEBTS.tsv` 自相矛盾。**零容忍,不是棘轮**:一张自相矛盾的表没有暂时可接受的版本。")
+            return 1
     blocked, hits = run_gate(quiet=True)
     bp = pathlib.Path(baseline_path)
     if not bp.exists():
