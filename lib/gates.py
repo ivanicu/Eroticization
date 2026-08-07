@@ -1102,7 +1102,8 @@ class Gate:
                           "complete" if ok else f"MISSING {missing}"))
         return ok
 
-    def asserted(self, name, condition, detail, kind="kill"):
+    def asserted(self, name, condition, detail, kind="kill",
+                 yardstick=None, yardstick_noise=None):
         """#96a: a condition stated in prose must be a boolean here, or it was never tested.
 
         `kind` (#366e, guard 23):
@@ -1110,10 +1111,32 @@ class Gate:
           "kill"    -- the pre-registered threshold itself.
         Declaring it is what lets `__str__` tell **OVERTURNED** from **UNVERIFIED**.
         Rounds that never pass `kind` keep the old two-valued output byte-for-byte.
+
+        ⚠⚠ `#836`① 追加 `yardstick` / `yardstick_noise`,而它们不是装饰:
+
+        **`#821`:kill 的尺是种子散布(0.016),而那个量自己的抽样噪声是 0.175 —— 差一个数量级。**
+        **`#836`:kill 用 MDE 当尺,而置换 p 算了却从没进 kill ——
+        两把尺给出两个不同的世界(C 与 B),而预注册只写下了其中一把。**
+        **同一类错误两次,而第一次的教训只落在散文里,没落到工具上 ⇒ 于是它复发了。**
+
+        `yardstick`       —— 这条判据拿**哪个量**当尺(名字,人读的)。
+        `yardstick_noise` —— **那把尺自己的噪声**。判据若比它自己的噪声还细,判的是噪声。
+
+        ⚠ **标记,不阻断**(`#814` 的同一个决定,理由也一样):阻断会让过去每一轮不可复现(`L81`)。
+        一条 `kind="kill"` 而不报尺的行,会在输出里带上 `⚠ 判据的尺未命名`。
         """
         if kind not in ("kill", "control"):
             raise ValueError(f"kind must be 'kill' or 'control', got {kind!r}")
         ok = bool(condition)
+        if kind == "kill":
+            if yardstick is None:
+                detail = f"{detail}   ⚠ 判据的尺未命名(`#836`①)"
+            else:
+                detail = f"{detail}   尺:{yardstick}"
+                if yardstick_noise is None:
+                    detail += "  ⚠ 尺自己的噪声未量(`#836`①)"
+                else:
+                    detail += f",其自身噪声 {yardstick_noise:.6g}"
         self.rows.append((name, detail, ok, "asserted in code, not in prose"))
         if kind == "control":
             self._control_rows = getattr(self, "_control_rows", set()) | {len(self.rows) - 1}

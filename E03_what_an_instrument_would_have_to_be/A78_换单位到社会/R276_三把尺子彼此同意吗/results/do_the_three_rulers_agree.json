@@ -1,0 +1,84 @@
+{
+ "pairs": {
+  "`SCCS176` 谴责(Broude&Greene) × `SCCS602` 性危险/污染(Whyte)": {
+   "n": 17,
+   "rho": -0.13857271527311954,
+   "p": 0.6465441819772528,
+   "floor": 0.43551424800123284,
+   "plant_strength": 1.2,
+   "hit_rate": 0.83,
+   "thr95": 0.43551424800123284,
+   "null_sd": 0.2522312075387644,
+   "agrees": false
+  },
+  "`SCCS176` 谴责(Broude&Greene) × `SCCS961` 婚前限制(Frayser)": {
+   "n": 6,
+   "rho": 0.0,
+   "p": 1.0,
+   "floor": Infinity,
+   "plant_strength": NaN,
+   "hit_rate": 0.0,
+   "thr95": 0.674199862463242,
+   "null_sd": 0.4518011227802057,
+   "agrees": false
+  },
+  "`SCCS602` 性危险/污染(Whyte) × `SCCS961` 婚前限制(Frayser)": {
+   "n": 17,
+   "rho": 0.18195091198440624,
+   "p": 0.5085614298212724,
+   "floor": 0.5458527359532188,
+   "plant_strength": 1.0,
+   "hit_rate": 0.8883333333333333,
+   "thr95": 0.5003650079571172,
+   "null_sd": 0.24779671246453253,
+   "agrees": false
+  }
+ },
+ "arms_recheck": {
+  "C 臂 `SCCS961` **清洗后**": {
+   "n": 14,
+   "rho": 0.384110639798688,
+   "p": 0.2608423947006624,
+   "floor": 0.6401843996644799,
+   "reaches": false
+  },
+  "C 臂 `SCCS961` 清洗前(`#836` 用的)": {
+   "n": 21,
+   "rho": 0.18489956750795097,
+   "p": 0.42494688163979505,
+   "floor": 0.6270507072008772,
+   "reaches": false
+  },
+  "B 臂 `SCCS602` 极性 +1(`#836` 用的)": {
+   "n": 33,
+   "rho": -0.004544891164112698,
+   "p": 1.0,
+   "floor": 0.44539933408304444,
+   "reaches": false
+  },
+  "B 臂 `SCCS602` 极性 −1(另一读法)": {
+   "n": 33,
+   "rho": 0.004544891164112698,
+   "p": 1.0,
+   "floor": 0.4544891164112698,
+   "reaches": false
+  }
+ },
+ "agree": 0,
+ "reaches": [],
+ "sccs961_n_raw": 61,
+ "sccs961_n_clean": 45,
+ "sccs602_polarity": "UNVERIFIED — title carries '(No)', codes are only Yes/No",
+ "pos_control": {
+  "rho": 0.5393598899705937,
+  "p": 0.49231346081739785
+ },
+ "neg_control": {
+  "center": 0.0013989647146112512
+ },
+ "nperm": 8000,
+ "nsim": 600,
+ "admissible": false,
+ "verdict": "**UNVERIFIED:控制行没有全过 ⇒ 判据没资格下判。**",
+ "gate_ok": false
+}
