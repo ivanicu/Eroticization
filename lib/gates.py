@@ -1103,7 +1103,7 @@ class Gate:
         return ok
 
     def asserted(self, name, condition, detail, kind="kill",
-                 yardstick=None, yardstick_noise=None, population=None):
+                 yardstick=None, yardstick_noise=None, population=None, direction=None):
         """#96a: a condition stated in prose must be a boolean here, or it was never tested.
 
         `kind` (#366e, guard 23):
@@ -1122,6 +1122,18 @@ class Gate:
         `yardstick`       —— 这条判据拿**哪个量**当尺(名字,人读的)。
         `yardstick_noise` —— **那把尺自己的噪声**。判据若比它自己的噪声还细,判的是噪声。
         `population`      —— **这条判据在谁身上评。**
+        `direction`       —— **这条判据要求的方向,以及它是否一致。**
+
+        ⚠⚠ `#859`① 追加 `direction`,而它补的是前三个都补不了的那一半:
+        **`#859` 的 kill 写的是「两层之差超地板 ≥ 半数 ⇒ 脱钩程度分层」——
+        阈值有了、尺有了、总体有了、分支也有了,而实测 6/6 对都超地板,
+        判词却是错的:那个差的符号在两个十年之间翻转了。**
+        **「分层」这个世界要求差异有一个一致的方向;只要求量级,符号翻转也会让它通过。**
+        ⇒ 传入一个可迭代的**逐格符号**(或一个已算好的布尔),本函数只做一件事:
+        **把「方向是否一致」印出来,并在不一致时标记。**
+        ⚠ **标记,不阻断**(`#814`/`#836`①/`#854` 的同一个决定,`L81`)。
+        ⚠ **它只对「差异 / 分层 / 交互」类的 kill 有意义** —— 对「某个量是否超地板」这种
+        单侧判据,传 `direction=None` 是正确的,而**那时的标记只是提醒,不是缺陷**。
 
         ⚠⚠ `#854`① 追加 `population`,而它补的是 `yardstick` 补不了的那一半:
         **`#854` 的 kill 写成「任一仪器三轴全过」,于是那条主张已经住在里面的 GSS 自己过了,
@@ -1149,6 +1161,16 @@ class Gate:
                     detail += f",其自身噪声 {yardstick_noise:.6g}"
             detail += (f" · 总体:{population}" if population is not None
                        else "  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)")
+            if direction is not None:
+                try:
+                    sg = {(1 if x > 0 else -1 if x < 0 else 0) for x in direction} - {0}
+                    ok_dir = len(sg) <= 1
+                    detail += (f" · 方向:{'一致' if ok_dir else '**不一致**'} {sorted(sg)}"
+                               + ("" if ok_dir else "  ⚠ **符号翻转 —— 只要求量级的阈值会让它通过**(`#859`①)"))
+                except TypeError:
+                    detail += f" · 方向:{'一致' if direction else '**不一致**'}"
+            else:
+                detail += "  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)"
         self.rows.append((name, detail, ok, "asserted in code, not in prose"))
         if kind == "control":
             self._control_rows = getattr(self, "_control_rows", set()) | {len(self.rows) - 1}
