@@ -1,0 +1,754 @@
+{
+ "items": [
+  "homosex",
+  "teensex",
+  "sexeduc",
+  "suicide2",
+  "spanking",
+  "prayer",
+  "racmar",
+  "helpblk"
+ ],
+ "decades": [
+  1970,
+  1980,
+  1990,
+  2000,
+  2010,
+  2020
+ ],
+ "matters": 0.1,
+ "nc_tol": 0.06,
+ "B": 1500,
+ "full_span": {
+  "homosex": {
+   "y0": 1974,
+   "y1": 2024,
+   "span": 50,
+   "dgap": -0.7225190927553273
+  },
+  "teensex": {
+   "y0": 1986,
+   "y1": 2024,
+   "span": 38,
+   "dgap": -0.12568242277641617
+  },
+  "sexeduc": {
+   "y0": 1974,
+   "y1": 2024,
+   "span": 50,
+   "dgap": -0.0927723209533926
+  },
+  "suicide2": {
+   "y0": 1977,
+   "y1": 2024,
+   "span": 47,
+   "dgap": 0.03586173405907034
+  },
+  "spanking": {
+   "y0": 1986,
+   "y1": 2024,
+   "span": 38,
+   "dgap": -0.3154882793388092
+  },
+  "prayer": {
+   "y0": 1974,
+   "y1": 2024,
+   "span": 50,
+   "dgap": 0.07424692756005014
+  },
+  "racmar": {
+   "y0": 1974,
+   "y1": 2002,
+   "span": 28,
+   "dgap": 0.1267857079408261
+  },
+  "helpblk": {
+   "y0": 1975,
+   "y1": 2024,
+   "span": 49,
+   "dgap": 0.6765383670539515
+  }
+ },
+ "grid": [
+  {
+   "item": "homosex",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "n_years": 3,
+   "span": 3,
+   "dgap": -0.07491834366942962,
+   "lo": -0.26632682077431097,
+   "hi": 0.10321688379238457,
+   "ref": -0.043351145565319646,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.043
+   ]
+  },
+  {
+   "item": "homosex",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "n_years": 7,
+   "span": 9,
+   "dgap": 0.05194155448359439,
+   "lo": -0.18689973489603834,
+   "hi": 0.2645870393344881,
+   "ref": -0.13005343669595892,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    -0.13
+   ]
+  },
+  {
+   "item": "homosex",
+   "decade": 1990,
+   "status": "EXCLUDES",
+   "n_years": 6,
+   "span": 8,
+   "dgap": -0.6285260876602288,
+   "lo": -0.852847013690119,
+   "hi": -0.40599114689504995,
+   "ref": -0.11560305484085237,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    -0.723
+   ]
+  },
+  {
+   "item": "homosex",
+   "decade": 2000,
+   "status": "EXCLUDES",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.4756795717704949,
+   "lo": -0.707482044951731,
+   "hi": -0.2452338719280939,
+   "ref": -0.11560305484085237,
+   "faster_than_uniform": true,
+   "compatible_with": []
+  },
+  {
+   "item": "homosex",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": 0.02277802224693115,
+   "lo": -0.21249580116635122,
+   "hi": 0.24870318384976417,
+   "ref": -0.11560305484085237,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    -0.116
+   ]
+  },
+  {
+   "item": "homosex",
+   "decade": 2020,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "teensex",
+   "decade": 1970,
+   "status": "NOT_ASKED",
+   "n_years": 0
+  },
+  {
+   "item": "teensex",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "n_years": 3,
+   "span": 3,
+   "dgap": 0.046637678222406276,
+   "lo": -0.10885862317238877,
+   "hi": 0.2062480351112568,
+   "ref": -0.009922296534980224,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.01
+   ]
+  },
+  {
+   "item": "teensex",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 8,
+   "dgap": 0.0035160592810554725,
+   "lo": -0.14921322492514674,
+   "hi": 0.15650437438841874,
+   "ref": -0.02645945742661393,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    -0.026,
+    -0.126
+   ]
+  },
+  {
+   "item": "teensex",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.16223075888101612,
+   "lo": -0.3026863922402113,
+   "hi": -0.016057722527241157,
+   "ref": -0.02645945742661393,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    -0.026,
+    -0.126
+   ]
+  },
+  {
+   "item": "teensex",
+   "decade": 2010,
+   "status": "EXCLUDES",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.25582720760200583,
+   "lo": -0.4142592604765163,
+   "hi": -0.10021009863116485,
+   "ref": -0.02645945742661393,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    -0.126
+   ]
+  },
+  {
+   "item": "teensex",
+   "decade": 2020,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1970,
+   "status": "TIGHT_NULL",
+   "n_years": 3,
+   "span": 3,
+   "dgap": -0.024747871226168394,
+   "lo": -0.09714996235470594,
+   "hi": 0.04816451097928788,
+   "ref": -0.005566339257203556,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.006,
+    -0.093
+   ]
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 7,
+   "dgap": -0.04772868593444857,
+   "lo": -0.11736247261775846,
+   "hi": 0.01344299540629875,
+   "ref": -0.012988124933474964,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.013,
+    -0.093
+   ]
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1990,
+   "status": "EXCLUDES",
+   "n_years": 6,
+   "span": 8,
+   "dgap": 0.055412768777064914,
+   "lo": -0.007399646818922183,
+   "hi": 0.11485938508507948,
+   "ref": -0.014843571352542818,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0
+   ]
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2000,
+   "status": "TIGHT_NULL",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.051588042655723365,
+   "lo": -0.11118939727714644,
+   "hi": 0.004951772830889985,
+   "ref": -0.014843571352542818,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.015,
+    -0.093
+   ]
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2010,
+   "status": "TIGHT_NULL",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.023052197216562265,
+   "lo": -0.07923690919387309,
+   "hi": 0.0333202657765824,
+   "ref": -0.014843571352542818,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.015
+   ]
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2020,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "suicide2",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "suicide2",
+   "decade": 1980,
+   "status": "TIGHT_NULL",
+   "n_years": 6,
+   "span": 7,
+   "dgap": 0.0005541589524435953,
+   "lo": -0.04821413878212807,
+   "hi": 0.05013087870875959,
+   "ref": 0.0053411093279466465,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    0.005,
+    0.036
+   ]
+  },
+  {
+   "item": "suicide2",
+   "decade": 1990,
+   "status": "TIGHT_NULL",
+   "n_years": 6,
+   "span": 8,
+   "dgap": 0.023416965045720994,
+   "lo": -0.033102826956122995,
+   "hi": 0.07826224045871644,
+   "ref": 0.006104124946224738,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.006,
+    0.036
+   ]
+  },
+  {
+   "item": "suicide2",
+   "decade": 2000,
+   "status": "TIGHT_NULL",
+   "n_years": 5,
+   "span": 8,
+   "dgap": 0.030558515624485638,
+   "lo": -0.016739158263824876,
+   "hi": 0.08090368553706263,
+   "ref": 0.006104124946224738,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.006,
+    0.036
+   ]
+  },
+  {
+   "item": "suicide2",
+   "decade": 2010,
+   "status": "TIGHT_NULL",
+   "n_years": 5,
+   "span": 8,
+   "dgap": 0.02295206199725741,
+   "lo": -0.0346898190298573,
+   "hi": 0.08283704816308439,
+   "ref": 0.006104124946224738,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.006,
+    0.036
+   ]
+  },
+  {
+   "item": "suicide2",
+   "decade": 2020,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "spanking",
+   "decade": 1970,
+   "status": "NOT_ASKED",
+   "n_years": 0
+  },
+  {
+   "item": "spanking",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "n_years": 3,
+   "span": 3,
+   "dgap": -0.15175611707094583,
+   "lo": -0.3103092579492191,
+   "hi": 0.016897357755005157,
+   "ref": -0.024906969421484935,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.025
+   ]
+  },
+  {
+   "item": "spanking",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 8,
+   "dgap": -0.09899079597985305,
+   "lo": -0.2558066809481736,
+   "hi": 0.056924243886735434,
+   "ref": -0.06641858512395983,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    -0.066
+   ]
+  },
+  {
+   "item": "spanking",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.005780458891575968,
+   "lo": -0.15343382777673514,
+   "hi": 0.14580758705557012,
+   "ref": -0.06641858512395983,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    -0.066
+   ]
+  },
+  {
+   "item": "spanking",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.024006816311858525,
+   "lo": -0.18018477840447947,
+   "hi": 0.12361453262227641,
+   "ref": -0.06641858512395983,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    -0.066
+   ]
+  },
+  {
+   "item": "spanking",
+   "decade": 2020,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "prayer",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "n_years": 3,
+   "span": 3,
+   "dgap": -0.03894336801227216,
+   "lo": -0.1308003573584594,
+   "hi": 0.05707199676288335,
+   "ref": 0.0044548156536030085,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.004
+   ]
+  },
+  {
+   "item": "prayer",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 7,
+   "dgap": 0.027973083750753247,
+   "lo": -0.06849428813836415,
+   "hi": 0.11361668664447792,
+   "ref": 0.010394569858407018,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.01,
+    0.074
+   ]
+  },
+  {
+   "item": "prayer",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 8,
+   "dgap": -0.059044486471762525,
+   "lo": -0.1551445936393521,
+   "hi": 0.03463763296739391,
+   "ref": 0.011879508409608022,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.012
+   ]
+  },
+  {
+   "item": "prayer",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.013144130603727433,
+   "lo": -0.09801715351574652,
+   "hi": 0.0690717787920629,
+   "ref": 0.011879508409608022,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.012
+   ]
+  },
+  {
+   "item": "prayer",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": 0.025416996514073364,
+   "lo": -0.060045455902874634,
+   "hi": 0.11334420439530246,
+   "ref": 0.011879508409608022,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.012,
+    0.074
+   ]
+  },
+  {
+   "item": "prayer",
+   "decade": 2020,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "racmar",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "n_years": 4,
+   "span": 3,
+   "dgap": -0.022346878701958506,
+   "lo": -0.11529198036020755,
+   "hi": 0.06959534355176965,
+   "ref": 0.013584182993659941,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.014
+   ]
+  },
+  {
+   "item": "racmar",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "n_years": 7,
+   "span": 9,
+   "dgap": 0.02663754814143693,
+   "lo": -0.05941684004161073,
+   "hi": 0.11220578027042917,
+   "ref": 0.04075254898097982,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    0.041
+   ]
+  },
+  {
+   "item": "racmar",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 8,
+   "dgap": -0.001820869183297713,
+   "lo": -0.0769375401894376,
+   "hi": 0.07963349616219625,
+   "ref": 0.036224487983093176,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    0.036
+   ]
+  },
+  {
+   "item": "racmar",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "racmar",
+   "decade": 2010,
+   "status": "NOT_ASKED",
+   "n_years": 0
+  },
+  {
+   "item": "racmar",
+   "decade": 2020,
+   "status": "NOT_ASKED",
+   "n_years": 0
+  },
+  {
+   "item": "helpblk",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "n_years": 1,
+   "why": "年份 < 3(跑前定的规矩)"
+  },
+  {
+   "item": "helpblk",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 6,
+   "dgap": -0.040122821840195666,
+   "lo": -0.30157542382126135,
+   "hi": 0.20878205171214193,
+   "ref": 0.08284143270048386,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    0.083
+   ]
+  },
+  {
+   "item": "helpblk",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "n_years": 6,
+   "span": 8,
+   "dgap": 0.2058540946192764,
+   "lo": -0.020078468890094202,
+   "hi": 0.44782464414893064,
+   "ref": 0.11045524360064515,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.11
+   ]
+  },
+  {
+   "item": "helpblk",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": -0.03209593397937516,
+   "lo": -0.2795182473549709,
+   "hi": 0.21341170640167778,
+   "ref": 0.11045524360064515,
+   "faster_than_uniform": false,
+   "compatible_with": [
+    0.0,
+    0.11
+   ]
+  },
+  {
+   "item": "helpblk",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "n_years": 5,
+   "span": 8,
+   "dgap": 0.19669688471749414,
+   "lo": -0.05018983683000636,
+   "hi": 0.44322397292482124,
+   "ref": 0.11045524360064515,
+   "faster_than_uniform": true,
+   "compatible_with": [
+    0.0,
+    0.11
+   ]
+  },
+  {
+   "item": "helpblk",
+   "decade": 2020,
+   "status": "UNRESOLVED",
+   "n_years": 2,
+   "why": "年份 < 3(跑前定的规矩)"
+  }
+ ],
+ "by_decade": {
+  "1990": [
+   "homosex",
+   "sexeduc"
+  ],
+  "2000": [
+   "homosex"
+  ],
+  "2010": [
+   "teensex"
+  ]
+ },
+ "n_items_covered": {
+  "1970": 6,
+  "1980": 8,
+  "1990": 8,
+  "2000": 8,
+  "2010": 7,
+  "2020": 7
+ },
+ "mode_decade": 1990,
+ "mode_n": 2,
+ "mode_cov": 8,
+ "pos_control": {
+  "1990": [
+   "homosex",
+   "sexeduc",
+   "spanking",
+   "racmar",
+   "helpblk"
+  ]
+ },
+ "neg_control": {},
+ "neg_rate": 0.0,
+ "admissible": true,
+ "verdict": "**不是同一个时点。众数十年 1990s 只有 2/8 题,逐十年分布 {1970: 0, 1980: 0, 1990: 2, 2000: 1, 2010: 1, 2020: 0}。**\n  ⇒ **八题的鸿沟各有各的年代 ⇒ 「1990s–2000s 裂开」是 `homosex` 这道题自己的历史,\n  不是一个跨议题的同步事件。**\n  ⇒ **本项目的框架活着 —— 而它活下来是因为一个我本来预期会输的检验。**",
+ "gate_ok": false
+}
