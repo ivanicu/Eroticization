@@ -1,0 +1,106 @@
+{
+ "ledger_numbers": 17718,
+ "rows": [
+  {
+   "file": "README.md",
+   "total": 5475,
+   "match": 5467,
+   "nomatch": 8,
+   "misses": [
+    "10.58",
+    "\u22120.0765",
+    "\u22120.0765",
+    "1.788",
+    "3.258",
+    "1.431",
+    "1.973",
+    "0.3637"
+   ]
+  },
+  {
+   "file": "README_zh.md",
+   "total": 5470,
+   "match": 5462,
+   "nomatch": 8,
+   "misses": [
+    "10.58",
+    "\u22120.0765",
+    "\u22120.0765",
+    "1.788",
+    "3.258",
+    "1.431",
+    "1.973",
+    "0.3637"
+   ]
+  }
+ ],
+ "n_nomatch": 16,
+ "nomatch": [
+  {
+   "file": "README.md",
+   "token": "10.58"
+  },
+  {
+   "file": "README.md",
+   "token": "\u22120.0765"
+  },
+  {
+   "file": "README.md",
+   "token": "\u22120.0765"
+  },
+  {
+   "file": "README.md",
+   "token": "1.788"
+  },
+  {
+   "file": "README.md",
+   "token": "3.258"
+  },
+  {
+   "file": "README.md",
+   "token": "1.431"
+  },
+  {
+   "file": "README.md",
+   "token": "1.973"
+  },
+  {
+   "file": "README.md",
+   "token": "0.3637"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "10.58"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "\u22120.0765"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "\u22120.0765"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "1.788"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "3.258"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "1.431"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "1.973"
+  },
+  {
+   "file": "README_zh.md",
+   "token": "0.3637"
+  }
+ ],
+ "verdict": "UNVERIFIED \u2014\u2014 \u6b63\u5bf9\u7167\u672a\u8fc7(\u2460=True \u2461=False)",
+ "unchallenged": true
+}

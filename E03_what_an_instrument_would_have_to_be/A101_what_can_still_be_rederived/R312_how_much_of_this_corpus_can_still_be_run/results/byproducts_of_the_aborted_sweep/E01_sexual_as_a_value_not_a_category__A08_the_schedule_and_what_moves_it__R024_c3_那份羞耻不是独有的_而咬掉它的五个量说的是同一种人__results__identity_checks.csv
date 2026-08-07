@@ -1,0 +1,5 @@
+v_page,v_kind,v_plo,v_phi,v_ilo,v_ihi,v_ok,v_src
+README.md,SB,0.3795,0.3805,0.379845,0.379977,True,reliability is only **0.380** (`animated`↔`written` = **+0.2345**
+README.md,sd,38.85,38.949999999999996,38.666667,39.880597,True,**+0.2219** (median +0.2532; **77.1%** of people positive) against an offset null of **+0.0884 ± 0.0
+README_zh.md,SB,0.3795,0.3805,0.379845,0.379977,True,信度只有 **0.380**(`animated`↔`written` = **+0.2345**
+README_zh.md,sd,38.85,38.949999999999996,38.666667,39.880597,True,"**+0.2219**(中位 +0.2532;**77.1%** 的人为正),对着 offset 零 **+0.0884 ± 0.0034** —— **+38.9 sd**"

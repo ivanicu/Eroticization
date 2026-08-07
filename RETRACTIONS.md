@@ -42014,3 +42014,76 @@ shape is forty lines.**
    the same as one entry being converted**, and it must not be counted as such. ⇒ `#873`①
 ③ ⚠ Still `OPEN`: `#872`② (being measured by `#874`) · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 874 · `E03·A101·R312` — the sweep that was supposed to measure re-derivability could not be run, and the reason is my design
+
+**The round did not produce a result. Written up anyway, because the failure is the finding.**
+Pays `#872`② — *how much of this project's evidence can still be regenerated at all* — and **does not
+answer it.** `#872`② stays `OPEN`.
+
+**What was built.** Every round script in `E01`/`E02`/`E03` (**835**), executed from the repository
+root, classified `OK` / `MISSING-INPUT` / `IMPORT-ERROR` / `SYNTAX` / `TIMEOUT` / `OTHER`, with only
+`MISSING-INPUT` eligible to be split **REPAIRABLE** (some other committed script produces the file)
+vs **PERMANENT** (nothing produces it and it is nowhere on disk). Classifier controls passed on a
+probe: a script pointed at a non-existent file classified `MISSING-INPUT`; one that reads nothing
+classified `OK`.
+
+**⚠⚠ A CHEAPER INSTRUMENT WAS TRIED FIRST AND FAILED ITS OWN CONTROL — worth keeping, because the
+next person will reach for it too.** Extracting literal path strings and testing existence reported
+**262 of 835 scripts referencing a missing file**. Reading the output instead of the number killed
+it: the top hits were **directory-name fragments**, a bare `setup`, and
+**`2011_2013_FemRespData.dat` — which EXISTS**, under `data/external/nsfg/`, and was only "missing"
+because the literal is joined to a base path at runtime.
+⇒ **a path-shaped string is not a path a script opens**, and it errs in both directions.
+
+**⚠⚠⚠ AND THEN THE EXECUTION SWEEP WEDGED. Two defects, both mine.**
+
+**① The cost meter was run on a biased sample and I extrapolated from it.**
+`#872` had timed **38** scripts at ~3.5 s each and I projected 835 × 3.5 s ≈ 49 minutes. But those 38
+were exactly the scripts that derive the BKS item set — **fast by construction**. The corpus also
+holds bootstrap and permutation rounds. **A cost meter on a subset chosen for a different reason is
+not a cost meter.**
+
+**② `subprocess.run(capture_output=True, timeout=…)` does not time out if a GRANDCHILD holds the
+pipe.** The timeout kills the direct child; a process it spawned keeps the captured pipe open, and
+the read blocks **forever**. Measured: after **109 minutes** the parent was alive at **0.0% CPU** and
+**no file had been written for 30 minutes.** Not slow — wedged.
+⇒ **the round's own impossibility register said "this round edits nothing"; that was FALSE** —
+it re-ran 835 scripts, and **4 of them overwrote their own committed `results/*.json`.**
+Those four were restored with `git checkout`. **The docstring is left as it was written** (`L81`:
+annotate, never rewrite) and corrected here instead.
+
+**⚠ And relocating the byproducts took two passes, which is the third instance of the same shape.**
+The first pass moved `.csv` — the extension I had seen in `#871` and `#872` — and left **112 `.json`
+files and 3 directories** behind. **Relocating by EXTENSION is a rule about what I happened to see
+last time; relocating by LOCATION (anything untracked under a round directory) is a rule about the
+thing.** 179 + 115 = **294 byproducts** finally moved, by location.
+
+**⇒ One sentence, and it is about the work:**
+**I spent two and a half hours of compute to learn that my timeout does not time out — and the check
+that would have caught it costs one line, because a wedged process and a slow one differ by whether
+anything has been written in the last thirty seconds. The sweep had no heartbeat, so for two and a
+half hours I could not distinguish "working" from "hung", and I polled a buffered log that was
+always empty either way.**
+
+**WHAT IS STILL TRUE AND WHAT IS NOT**:
+· **`#872`② is NOT answered.** No script was classified. **Nothing in this entry supports any
+  statement about how much of this corpus can be re-derived**, and the 294 relocated byproducts are
+  **not a partial result**;
+· the classifier and its two-sided control **are** built and did pass on a probe — that part stands
+  and is reusable;
+· **the 3 known-dead scripts from `#872` remain the only measured cases**, in a population of 38, and
+  **must not be generalised to 835**.
+
+**NEXT**
+① ⚠ **Rebuild the sweep with the two defects fixed, and do not re-run it until both are:**
+   **(a) `start_new_session=True` plus killing the whole process GROUP on timeout**, so a grandchild
+   cannot hold the pipe; **(b) a heartbeat** — write one line per script to a file with
+   `flush=True`, so "wedged" and "slow" are distinguishable **from outside** without waiting.
+   ⚠ And **cost-meter on a RANDOM sample of the actual population**, never on a subset selected for
+   another purpose. ⇒ `#874`①
+② ⚠ **The round's docstring claims "this round edits nothing" and that is false** — any sweep that
+   re-runs committed scripts is a WRITE. **A round that re-runs others must snapshot and restore
+   tracked artifacts as part of its own design**, not leave it to me noticing afterwards. ⇒ `#874`②
+③ ⚠ Still `OPEN`: `#872`② (unanswered) · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`①.

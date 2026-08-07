@@ -1,0 +1,10 @@
+{
+ "n_citations": 2403,
+ "n_distinct": 387,
+ "n_dangling": 8,
+ "dangling": [
+  999,
+  9991
+ ],
+ "n_titles": 872
+}

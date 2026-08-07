@@ -1,0 +1,372 @@
+{
+ "instrument": "GHN 2009 JPSP Study 3 (MFQ)",
+ "n": 6438,
+ "per_item": [
+  {
+   "item": "emotionally",
+   "domain": "HARM",
+   "part": 1,
+   "raw": 0.4100823060689226,
+   "par_rel": 0.40921737896828286,
+   "retain": 0.9978908451112388,
+   "retain_age": 1.0019534771103829
+  },
+  {
+   "item": "weak",
+   "domain": "HARM",
+   "part": 1,
+   "raw": 0.42144231203902893,
+   "par_rel": 0.4221991109011175,
+   "retain": 1.0017957353603795,
+   "retain_age": 1.006953448269272
+  },
+  {
+   "item": "cruel",
+   "domain": "HARM",
+   "part": 1,
+   "raw": 0.3646592463960448,
+   "par_rel": 0.36055396115631044,
+   "retain": 0.9887421331549736,
+   "retain_age": 0.9827471157997495
+  },
+  {
+   "item": "compassion",
+   "domain": "HARM",
+   "part": 2,
+   "raw": 0.3646592463960448,
+   "par_rel": 0.3605539611563105,
+   "retain": 0.9887421331549737,
+   "retain_age": 0.9827471157997493
+  },
+  {
+   "item": "animal",
+   "domain": "HARM",
+   "part": 2,
+   "raw": 0.25201347048727035,
+   "par_rel": 0.25672471297543864,
+   "retain": 1.0186944074023465,
+   "retain_age": 0.9998227814195321
+  },
+  {
+   "item": "kill",
+   "domain": "HARM",
+   "part": 2,
+   "raw": 0.1765043203291814,
+   "par_rel": 0.17229189564542877,
+   "retain": 0.9761341553798998,
+   "retain_age": 1.049562863115403
+  },
+  {
+   "item": "treated",
+   "domain": "FAIRNESS",
+   "part": 1,
+   "raw": 0.3663337047806503,
+   "par_rel": 0.3655458064326927,
+   "retain": 0.9978492332600698,
+   "retain_age": 0.9952894584046416
+  },
+  {
+   "item": "unfairly",
+   "domain": "FAIRNESS",
+   "part": 1,
+   "raw": 0.2816570374541067,
+   "par_rel": 0.2849651686631206,
+   "retain": 1.011745246058526,
+   "retain_age": 0.9851367426342149
+  },
+  {
+   "item": "rights",
+   "domain": "FAIRNESS",
+   "part": 1,
+   "raw": 0.2814872432660863,
+   "par_rel": 0.2749316327464229,
+   "retain": 0.9767108077666365,
+   "retain_age": 0.997235797696147
+  },
+  {
+   "item": "fairly",
+   "domain": "FAIRNESS",
+   "part": 2,
+   "raw": 0.2816570374541067,
+   "par_rel": 0.2849651686631206,
+   "retain": 1.011745246058526,
+   "retain_age": 0.9972684182505318
+  },
+  {
+   "item": "justice",
+   "domain": "FAIRNESS",
+   "part": 2,
+   "raw": 0.294155513302869,
+   "par_rel": 0.29662884641429077,
+   "retain": 1.0084082500567486,
+   "retain_age": 0.9795569232006827
+  },
+  {
+   "item": "rich",
+   "domain": "FAIRNESS",
+   "part": 2,
+   "raw": 0.18413606469673213,
+   "par_rel": 0.18026731192806275,
+   "retain": 0.9789897064703694,
+   "retain_age": 1.001731388694221
+  },
+  {
+   "item": "lovecountry",
+   "domain": "INGROUP",
+   "part": 1,
+   "raw": 0.36251628086880083,
+   "par_rel": 0.33695535857396886,
+   "retain": 0.9294902776957408,
+   "retain_age": 1.022160300307332
+  },
+  {
+   "item": "betray",
+   "domain": "INGROUP",
+   "part": 1,
+   "raw": 0.26908175551617797,
+   "par_rel": 0.24432362206779284,
+   "retain": 0.9079902931326884,
+   "retain_age": 1.0001099476810031
+  },
+  {
+   "item": "loyalty",
+   "domain": "INGROUP",
+   "part": 1,
+   "raw": 0.23742995777397907,
+   "par_rel": 0.21857382020323088,
+   "retain": 0.9205823151065956,
+   "retain_age": 0.9992160510258002
+  },
+  {
+   "item": "history",
+   "domain": "INGROUP",
+   "part": 2,
+   "raw": 0.19025794468868049,
+   "par_rel": 0.16349851226058443,
+   "retain": 0.8593518264276292,
+   "retain_age": 1.0400320453937302
+  },
+  {
+   "item": "family",
+   "domain": "INGROUP",
+   "part": 2,
+   "raw": 0.22654212882044736,
+   "par_rel": 0.1963114435719818,
+   "retain": 0.8665560114320909,
+   "retain_age": 1.0413494486959518
+  },
+  {
+   "item": "team",
+   "domain": "INGROUP",
+   "part": 2,
+   "raw": 0.23742995777397907,
+   "par_rel": 0.21153330258463274,
+   "retain": 0.8909292852842159,
+   "retain_age": 0.9992160510258001
+  },
+  {
+   "item": "respect",
+   "domain": "AUTHORITY",
+   "part": 1,
+   "raw": 0.39702026782319183,
+   "par_rel": 0.37896235758548896,
+   "retain": 0.9545164020549582,
+   "retain_age": 1.0001308999934628
+  },
+  {
+   "item": "traditions",
+   "domain": "AUTHORITY",
+   "part": 1,
+   "raw": 0.3260951045549295,
+   "par_rel": 0.3051500974579769,
+   "retain": 0.9357702498308296,
+   "retain_age": 0.9764719733693648
+  },
+  {
+   "item": "chaos",
+   "domain": "AUTHORITY",
+   "part": 1,
+   "raw": 0.3260951045549295,
+   "par_rel": 0.30515009745797694,
+   "retain": 0.9357702498308298,
+   "retain_age": 0.9764719733693648
+  },
+  {
+   "item": "kidrespect",
+   "domain": "AUTHORITY",
+   "part": 2,
+   "raw": 0.38727544485279364,
+   "par_rel": 0.3464924592931909,
+   "retain": 0.8946925602910232,
+   "retain_age": 0.9934237351683688
+  },
+  {
+   "item": "sexroles",
+   "domain": "AUTHORITY",
+   "part": 2,
+   "raw": 0.295979528171344,
+   "par_rel": 0.24793201055837924,
+   "retain": 0.8376660780905435,
+   "retain_age": 0.9984815401179552
+  },
+  {
+   "item": "soldier",
+   "domain": "AUTHORITY",
+   "part": 2,
+   "raw": 0.26994097496865194,
+   "par_rel": 0.2406027734380751,
+   "retain": 0.8913162348399168,
+   "retain_age": 0.9962984915902191
+  },
+  {
+   "item": "decency",
+   "domain": "PURITY",
+   "part": 1,
+   "raw": 0.5392290115345802,
+   "par_rel": 0.48778131481885084,
+   "retain": 0.9045902657030349,
+   "retain_age": 0.9939538348414647
+  },
+  {
+   "item": "disgusting",
+   "domain": "PURITY",
+   "part": 1,
+   "raw": 0.4335351606088489,
+   "par_rel": 0.3964824547707661,
+   "retain": 0.9145335622004761,
+   "retain_age": 0.9964963206447449
+  },
+  {
+   "item": "god",
+   "domain": "PURITY",
+   "part": 1,
+   "raw": 0.4829722050693469,
+   "par_rel": 0.3783881852304103,
+   "retain": 0.7834574769702947,
+   "retain_age": 0.9984441136964846
+  },
+  {
+   "item": "harmlessdg",
+   "domain": "PURITY",
+   "part": 2,
+   "raw": 0.5432831919360978,
+   "par_rel": 0.5073406283523781,
+   "retain": 0.9338419371016594,
+   "retain_age": 0.9877123727763167
+  },
+  {
+   "item": "unnatural",
+   "domain": "PURITY",
+   "part": 2,
+   "raw": 0.48724338502933917,
+   "par_rel": 0.40623678009912645,
+   "retain": 0.8337450904021305,
+   "retain_age": 0.9991825733243791
+  },
+  {
+   "item": "chastity",
+   "domain": "PURITY",
+   "part": 2,
+   "raw": 0.48724338502933917,
+   "par_rel": 0.4062367800991265,
+   "retain": 0.8337450904021306,
+   "retain_age": 0.9991825733243791
+  }
+ ],
+ "leave_one_out": [
+  {
+   "dropped": "—(全六道)",
+   "k": 6,
+   "pur_raw": 0.49694580442635994,
+   "lead_raw": 0.17085069987143042,
+   "pur_par": 0.40623678009912645,
+   "lead_par": 0.08678238053103704,
+   "rank1_raw": true,
+   "rank1_par": true
+  },
+  {
+   "dropped": "decency",
+   "k": 5,
+   "pur_raw": 0.46180888402466086,
+   "lead_raw": 0.13571377946973134,
+   "pur_par": 0.3874353200005882,
+   "lead_par": 0.06798092043249881,
+   "rank1_raw": true,
+   "rank1_par": true
+  },
+  {
+   "dropped": "disgusting",
+   "k": 5,
+   "pur_raw": 0.5033827289325479,
+   "lead_raw": 0.17728762437761836,
+   "pur_par": 0.40698224613272205,
+   "lead_par": 0.08752784656463264,
+   "rank1_raw": true,
+   "rank1_par": true
+  },
+  {
+   "dropped": "god",
+   "k": 5,
+   "pur_raw": 0.524524332486658,
+   "lead_raw": 0.19842922793172846,
+   "pur_par": 0.45667580264299645,
+   "lead_par": 0.13722140307490704,
+   "rank1_raw": true,
+   "rank1_par": true
+  },
+  {
+   "dropped": "harmlessdg",
+   "k": 5,
+   "pur_raw": 0.49209459472784955,
+   "lead_raw": 0.16599949017292004,
+   "pur_par": 0.4013596174349463,
+   "lead_par": 0.0819052178668569,
+   "rank1_raw": true,
+   "rank1_par": true
+  },
+  {
+   "dropped": "unnatural",
+   "k": 5,
+   "pur_raw": 0.5033827289325479,
+   "lead_raw": 0.17728762437761836,
+   "pur_par": 0.39550465442648186,
+   "lead_par": 0.07605025485839245,
+   "rank1_raw": true,
+   "rank1_par": true
+  },
+  {
+   "dropped": "chastity",
+   "k": 5,
+   "pur_raw": 0.51808740798047,
+   "lead_raw": 0.19199230342554052,
+   "pur_par": 0.44213188479480847,
+   "lead_par": 0.12267748522671906,
+   "rank1_raw": true,
+   "rank1_par": true
+  }
+ ],
+ "god_retain": 0.7834574769702947,
+ "purity_other_min": 0.8337450904021305,
+ "purity_other_median": 0.9045902657030349,
+ "purity_retain_median": 0.8691676780525828,
+ "purity_retain_range": 0.15038446013136475,
+ "other_domains_retain_median": 0.965325278717429,
+ "spread": 0.017187593853513605,
+ "lead_spread": 0.013321969998161817,
+ "plant_retain": {
+  "0.0": 1.2308646460095045,
+  "0.5": 0.05649352003686699,
+  "1.0": 0.0022381672263812867
+ },
+ "placebo_age_retain_median": 0.9984628269072199,
+ "rank1_raw": 7,
+ "rank1_par": 7,
+ "variants": 7,
+ "verdict": "W-A:领先由 `god` 那一道宗教题携带；纯洁在**每一个**留一变体下都仍是第一 -> **领先不是任何单题的伪影**",
+ "seeds": [
+  20260806,
+  7,
+  991
+ ],
+ "unchallenged": true
+}

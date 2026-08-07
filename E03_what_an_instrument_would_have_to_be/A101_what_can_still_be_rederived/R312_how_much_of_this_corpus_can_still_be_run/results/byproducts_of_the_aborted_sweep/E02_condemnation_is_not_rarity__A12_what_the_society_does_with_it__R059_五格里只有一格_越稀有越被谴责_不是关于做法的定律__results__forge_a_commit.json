@@ -1,0 +1,36 @@
+{
+ "table": [
+  {
+   "page": "README.md",
+   "arm": "正对照(删掉那个数)",
+   "n_rows": 1,
+   "fired": true
+  },
+  {
+   "page": "README.md",
+   "arm": "g=0(只改措辞)",
+   "n_rows": 0,
+   "fired": false
+  },
+  {
+   "page": "README_zh.md",
+   "arm": "正对照(删掉那个数)",
+   "n_rows": 1,
+   "fired": true
+  },
+  {
+   "page": "README_zh.md",
+   "arm": "g=0(只改措辞)",
+   "n_rows": 0,
+   "fired": false
+  }
+ ],
+ "verdict": "两版正对照命中 2/2 ⇒ **两版都有效,`UNCOMPUTED` 4 -> 3**",
+ "housekeeping": {
+  "branch": "main",
+  "head": "a823a08c3797f720040c340ccb7330ff3f23d2d0",
+  "dirty": 0,
+  "leftover": false
+ },
+ "unchallenged": true
+}

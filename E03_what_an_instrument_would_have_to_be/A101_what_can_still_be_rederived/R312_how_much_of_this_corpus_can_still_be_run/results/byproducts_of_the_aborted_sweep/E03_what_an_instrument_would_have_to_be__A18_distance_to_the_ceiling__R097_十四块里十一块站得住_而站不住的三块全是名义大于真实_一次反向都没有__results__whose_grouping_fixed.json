@@ -1,0 +1,327 @@
+{
+ "blocks": {
+  "MFQ·AUTHORITY": {
+   "who": "问卷作者 GHN 2009",
+   "nominal": 6,
+   "npairs": 15,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 6,
+    "raw@0.25": 6,
+    "raw@0.30": 6,
+    "raw@0.35": 6,
+    "norm@0.20": 6,
+    "norm@0.25": 6,
+    "norm@0.30": 6,
+    "norm@0.35": 6
+   },
+   "raw_med": 0.32511446829051754,
+   "norm_med": 0.33714095142507006,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "MFQ·FAIRNESS": {
+   "who": "问卷作者 GHN 2009",
+   "nominal": 6,
+   "npairs": 15,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 5,
+    "raw@0.25": 5,
+    "raw@0.30": 5,
+    "raw@0.35": 4,
+    "norm@0.20": 6,
+    "norm@0.25": 5,
+    "norm@0.30": 5,
+    "norm@0.35": 5
+   },
+   "raw_med": 0.2793451208010049,
+   "norm_med": 0.3242859651905191,
+   "ratio_raw": 0.8333333333333334,
+   "ratio_norm": 0.8333333333333334,
+   "undecidable": false
+  },
+  "MFQ·HARM": {
+   "who": "问卷作者 GHN 2009",
+   "nominal": 6,
+   "npairs": 15,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 6,
+    "raw@0.25": 6,
+    "raw@0.30": 6,
+    "raw@0.35": 4,
+    "norm@0.20": 6,
+    "norm@0.25": 6,
+    "norm@0.30": 6,
+    "norm@0.35": 5
+   },
+   "raw_med": 0.3158274328707975,
+   "norm_med": 0.3310510955545578,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "MFQ·INGROUP": {
+   "who": "问卷作者 GHN 2009",
+   "nominal": 6,
+   "npairs": 15,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 6,
+    "raw@0.25": 5,
+    "raw@0.30": 5,
+    "raw@0.35": 4,
+    "norm@0.20": 6,
+    "norm@0.25": 6,
+    "norm@0.30": 5,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.2401448977483993,
+   "norm_med": 0.25224825915982846,
+   "ratio_raw": 0.8333333333333334,
+   "ratio_norm": 0.8333333333333334,
+   "undecidable": false
+  },
+  "MFQ·PURITY": {
+   "who": "问卷作者 GHN 2009",
+   "nominal": 6,
+   "npairs": 15,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 6,
+    "raw@0.25": 6,
+    "raw@0.30": 6,
+    "raw@0.35": 6,
+    "norm@0.20": 6,
+    "norm@0.25": 6,
+    "norm@0.30": 6,
+    "norm@0.35": 6
+   },
+   "raw_med": 0.4998714624527739,
+   "norm_med": 0.5392257144894699,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "GSS·警察四题": {
+   "who": "问卷作者 NORC",
+   "nominal": 4,
+   "npairs": 6,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 2,
+    "raw@0.25": 2,
+    "raw@0.30": 2,
+    "raw@0.35": 2,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.08112358258332523,
+   "norm_med": 0.36395443988546816,
+   "ratio_raw": 0.5,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "GSS·性道德四题": {
+   "who": "问卷作者 NORC",
+   "nominal": 4,
+   "npairs": 6,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 4,
+    "raw@0.25": 4,
+    "raw@0.30": 4,
+    "raw@0.35": 4,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.3588452296744685,
+   "norm_med": 0.5489963873698973,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "NSFG·性三题": {
+   "who": "问卷作者 NCHS",
+   "nominal": 3,
+   "npairs": 3,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 3,
+    "raw@0.25": 3,
+    "raw@0.30": 3,
+    "raw@0.35": 3,
+    "norm@0.20": 3,
+    "norm@0.25": 3,
+    "norm@0.30": 3,
+    "norm@0.35": 3
+   },
+   "raw_med": 0.42457412618091395,
+   "norm_med": 0.46790604377857553,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "NSFG·家庭七题": {
+   "who": "问卷作者 NCHS",
+   "nominal": 7,
+   "npairs": 21,
+   "flipped": [
+    "okcohab"
+   ],
+   "spec": {
+    "raw@0.20": 4,
+    "raw@0.25": 4,
+    "raw@0.30": 4,
+    "raw@0.35": 4,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.11196022919338072,
+   "norm_med": 0.14179351590151004,
+   "ratio_raw": 0.5714285714285714,
+   "ratio_norm": 0.5714285714285714,
+   "undecidable": false
+  },
+  "SCCS·体罚四对象": {
+   "who": "编码团队 Barry 1977",
+   "nominal": 4,
+   "npairs": 6,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 4,
+    "raw@0.25": 4,
+    "raw@0.30": 4,
+    "raw@0.35": 4,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.8366970417771494,
+   "norm_med": 0.8650367863561756,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "SCCS·以身作则四对象": {
+   "who": "编码团队 Barry 1977",
+   "nominal": 4,
+   "npairs": 6,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 4,
+    "raw@0.25": 4,
+    "raw@0.30": 4,
+    "raw@0.35": 4,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.9213975214614717,
+   "norm_med": 0.9519364255073606,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "SCCS·讲课四对象": {
+   "who": "编码团队 Barry 1977",
+   "nominal": 4,
+   "npairs": 6,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 4,
+    "raw@0.25": 4,
+    "raw@0.30": 4,
+    "raw@0.35": 4,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.7719150546908033,
+   "norm_med": 0.8122727769937208,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "SCCS·放任四对象": {
+   "who": "编码团队 Barry 1977",
+   "nominal": 4,
+   "npairs": 6,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 4,
+    "raw@0.25": 4,
+    "raw@0.30": 4,
+    "raw@0.35": 4,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.7453660132839084,
+   "norm_med": 0.7760586989562824,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  },
+  "SCCS·疼爱四对象": {
+   "who": "编码团队 Barry 1977",
+   "nominal": 4,
+   "npairs": 6,
+   "flipped": [],
+   "spec": {
+    "raw@0.20": 4,
+    "raw@0.25": 4,
+    "raw@0.30": 4,
+    "raw@0.35": 4,
+    "norm@0.20": 4,
+    "norm@0.25": 4,
+    "norm@0.30": 4,
+    "norm@0.35": 4
+   },
+   "raw_med": 0.8456448925518121,
+   "norm_med": 0.8904098990373217,
+   "ratio_raw": 1.0,
+   "ratio_norm": 1.0,
+   "undecidable": false
+  }
+ },
+ "armA1": 1.0,
+ "armA2": 1.0,
+ "armB": 0.5714285714285714,
+ "placebo": 1.0,
+ "partial": [
+  "MFQ·FAIRNESS",
+  "MFQ·INGROUP",
+  "NSFG·家庭七题"
+ ],
+ "undecidable": [],
+ "disagree": [
+  [
+   "GSS·警察四题",
+   2,
+   4
+  ]
+ ],
+ "verdict": "**W2 —— 系统性:除臂 B' 外还有 2 块名义大于真实** -> ['MFQ·FAIRNESS', 'MFQ·INGROUP']",
+ "unchallenged": true,
+ "dropped_items": {
+  "MFQ·FAIRNESS": {
+   "rich": "None"
+  },
+  "MFQ·INGROUP": {
+   "family": "None"
+  }
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "entries": 856,
+ "pairs": 630,
+ "measurable": 189,
+ "no_qual": 441,
+ "median_loss": 1.0,
+ "placebo": 1.0,
+ "vocab_ok": true,
+ "verdict": "UNVERIFIED —— 控制未齐(正 True · offset False)",
+ "worst": [
+  {
+   "src": 100,
+   "dst": 102,
+   "num": "0.022",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "区间"
+   ]
+  },
+  {
+   "src": 107,
+   "dst": 108,
+   "num": "0.0236",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "对数"
+   ]
+  },
+  {
+   "src": 107,
+   "dst": 109,
+   "num": "0.0236",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "对数"
+   ]
+  },
+  {
+   "src": 108,
+   "dst": 109,
+   "num": "0.0236",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "控制"
+   ]
+  },
+  {
+   "src": 107,
+   "dst": 110,
+   "num": "0.0236",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "对数"
+   ]
+  },
+  {
+   "src": 112,
+   "dst": 113,
+   "num": "0.0437",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "留出"
+   ]
+  },
+  {
+   "src": 110,
+   "dst": 116,
+   "num": "0.0033",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "对数"
+   ]
+  },
+  {
+   "src": 110,
+   "dst": 119,
+   "num": "0.0079",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "对数"
+   ]
+  },
+  {
+   "src": 100,
+   "dst": 126,
+   "num": "0.432",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "留出"
+   ]
+  },
+  {
+   "src": 100,
+   "dst": 127,
+   "num": "0.432",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "留出"
+   ]
+  },
+  {
+   "src": 128,
+   "dst": 130,
+   "num": "0.064",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "样本量"
+   ]
+  },
+  {
+   "src": 140,
+   "dst": 141,
+   "num": "0.349",
+   "n_src": 1,
+   "lost": 1.0,
+   "lost_set": [
+    "留出"
+   ]
+  }
+ ],
+ "unchallenged": true
+}

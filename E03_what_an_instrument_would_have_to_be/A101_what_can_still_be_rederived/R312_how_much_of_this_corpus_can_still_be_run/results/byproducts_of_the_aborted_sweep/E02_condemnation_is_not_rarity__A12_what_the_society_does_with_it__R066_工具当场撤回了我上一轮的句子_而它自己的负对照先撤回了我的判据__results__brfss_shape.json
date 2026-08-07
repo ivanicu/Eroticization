@@ -1,0 +1,65 @@
+{
+ "n_rows": 433323,
+ "n_cols": 350,
+ "miss_quantiles": [
+  0.0,
+  4.1539452094626875e-05,
+  0.4932290693085758,
+  0.9482643432266462,
+  0.9939297014005719,
+  1.0
+ ],
+ "bands": {
+  "\u5168\u6ee1 (=0)": 63,
+  "<10%": 63,
+  "10\u201350%": 50,
+  "50\u201390%": 62,
+  "\u226590%": 112
+ },
+ "usable_lt50": 176,
+ "top_missing": [
+  [
+   "INDORTAN",
+   1.0
+  ],
+  [
+   "NUMBURN3",
+   1.0
+  ],
+  [
+   "SUNPRTCT",
+   1.0
+  ],
+  [
+   "WKDAYOUT",
+   1.0
+  ],
+  [
+   "WKENDOUT",
+   1.0
+  ],
+  [
+   "COLGHOUS",
+   0.999972307031937
+  ],
+  [
+   "LASTSIG4",
+   0.9996630688885658
+  ],
+  [
+   "LNDSXBRT",
+   0.9996099906997782
+  ]
+ ],
+ "inclusion": [
+  "LLCP2023.XPT \u5168\u6587\u4ef6\u5355\u904d",
+  "\u6bcf\u5757 5 \u4e07\u884c",
+  "\u672a\u52a0\u6743"
+ ],
+ "impossible": [
+  "\u65e0\u7801\u672c,\u4e0d\u77e5\u4efb\u4f55\u4e00\u5217\u95ee\u4ec0\u4e48",
+  "\u4e0d\u77e5\u7f3a\u5931\u662f\u6ca1\u95ee\u8fd8\u662f\u62d2\u7b54",
+  "\u672a\u52a0\u6743,\u4efb\u4f55\u6bd4\u4f8b\u90fd\u4e0d\u662f\u4eba\u7fa4\u4f30\u8ba1"
+ ],
+ "unchallenged": true
+}
