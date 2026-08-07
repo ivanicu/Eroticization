@@ -370,7 +370,29 @@ class Gate:
                           ok, f"headroom {planted-need:+.4f}"))
         return ok
 
-    def identity_control(self, name, observed, expected, tol, what):
+    def identity_control(self, name, observed, expected, tol, what,
+                         noise_half_width=None, deterministic=None):
+        """⚠ `#814` 追加两个参数,并说明为什么它们不是可选的装饰:
+
+        `#814` 量出 `#805`/`#806` 那条负控**自己的 95% 噪声半宽是 0.29–0.57**,
+        而它们用的容差是 **0.08 —— 只有噪声的 0.14×–0.28×**。
+        **一个容差落在自己噪声底之内的等式检查,和一个恒真的检查一样没用,只是它看起来严格得多。**
+        ⇒ 这是 `#754` 那一族的**第三种形态**:不是恒真,不是恒假,**是随机** ——
+        **而随机是三者里最危险的,因为它有时候会失败,于是看起来像在工作。**
+
+        · `noise_half_width` 给了 ⇒ 计算 `tol ÷ noise` 并**在容差窄于噪声时直接判失败**
+          (那不是「这两个量不同」,是「这条检查没有资格回答」)。
+        · `deterministic=True` ⇒ 被检验的量是确定性的(如 `#796` 的 `ind_w ≡ agg`),
+          噪声半宽不适用,行里干净。
+        · 两者都不给 ⇒ **行里带一个显眼的 `⚠ 噪声未量` 标记**。
+          **只标注不阻断** —— 与本库其余部分同一姿态,而且**阻断会让历史轮次不可复现**,
+          那是一个真实代价(`L81`:标注,不重写)。
+        """
+        return self._identity_control_impl(name, observed, expected, tol, what,
+                                           noise_half_width, deterministic)
+
+    def _identity_control_impl(self, name, observed, expected, tol, what,
+                               noise_half_width=None, deterministic=None):
         """#761: 两个量**必须是同一个** —— 不同就说明仪器坏了。
 
         ⚠ 为什么补这一条：`#760` 里我要断言「把控制量换成常数/打乱后的量，偏相关必须**回到**偏前」，
@@ -400,8 +422,18 @@ class Gate:
         #   于是「恰在容差上」被判 FAIL。**造来抓等式错误的闸，自己栽在浮点等式上。**
         #   ⇒ 容差比较必须带相对松弛，否则边界上的判定由浮点表示决定，而不是由容差决定。
         ok = d <= tol * (1 + 1e-9) + 1e-15
-        self.rows.append((name, f"|{observed:+.5f} - {expected:+.5f}| = {d:.6f} <= {tol:g}",
-                          ok, f"{what}" + ("" if ok else "  ⚠ 超出容差 {:.1f}× ⇒ 这两个量不是同一个".format(d/tol))
+        # ⚠ `#814`:容差与这条检查自己的噪声比一比,比不了就标出来
+        _noise_note, _noise_bad = "", False
+        if noise_half_width is not None:
+            _r = tol/float(noise_half_width) if noise_half_width else float("inf")
+            _noise_bad = _r < 1.0
+            _noise_note = (f"  ⚠ 容差 {tol:g} ÷ 自身噪声半宽 {noise_half_width:g} = **{_r:.2f}×**"
+                           + ("  ⇒ **容差窄于噪声 ⇒ 这条检查是随机开火的,没有资格回答(#814)**" if _noise_bad else ""))
+        elif not deterministic:
+            _noise_note = "  ⚠ **噪声未量** —— 没给 `noise_half_width` 也没声明 `deterministic=True`(#814)"
+        self.rows.append((name, f"|{observed:+.5f} - {expected:+.5f}| = {d:.6f} <= {tol:g}" + _noise_note,
+                          ok and not _noise_bad,
+                          f"{what}" + ("" if ok else "  ⚠ 超出容差 {:.1f}× ⇒ 这两个量不是同一个".format(d/tol))
                           + ("  ⚠⚠ 两侧完全相等 —— 若它们是同一个字面常数,这条检查是空的 (#773)" if _vacuous else "")))
         return ok
 
