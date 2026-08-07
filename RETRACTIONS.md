@@ -43295,3 +43295,98 @@ answered more carefully than the other.**
 ③ ⚠ Still `OPEN`: `#887`①② · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
    `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 889 · `E03·A104·R327` — a bootstrap resamples the sample, not the sample definition; and one wave carries half the gap
+
+**The design I set out to run was killed by its own gradient check, and the check redirected the
+round.** That is `frontier` §1.6 working rather than failing, and it is recorded here rather than
+quietly dropped — because a killed design that goes unrecorded gets re-attempted.
+
+**WHAT I INTENDED (pays `#888`①) AND WHY IT DIED BEFORE COSTING A ROUND.** `#888`① named norm-side
+attenuation as the largest open threat, and the plan was to **equalise the norm ruler by
+construction**: one multi-item *general sexual-strictness* scale (`premarsx`+`xmarsex`+`teensex`+
+`homosex`) as the predictor for **both** acts. Three measurements killed it:
+① **the shared scale is the NOISIER ruler** — Cronbach **α = 0.691** against the sanction indices'
+   KR-20 of **0.802** and **0.789**. *Equalising by adding noise is not a control, it is a worse
+   instrument*;
+② **it costs half the sample** — n falls **2,480 → 1,246**, because `teensex` starts in 1986 and
+   takes wave 2008 out;
+③ **it is circular** — the scale *contains* `homosex`, so `shared × homosexuality-sanction` puts the
+   same item on both sides; the leave-one-out repair lands Δ at **+0.015**, i.e. it changes the
+   estimand rather than controlling the old one.
+⇒ **it was a different estimand dressed as a control.**
+
+**WHAT THE CHECK FOUND INSTEAD, AND IT IS ABOUT `#888`'s OWN NUMBER.**
+
+| sample definition — the ROWS, not the items | n | Δ |
+|---|---|---|
+| `#888` as published (all seven abortion items present) | 2,480 | **+0.051** |
+| only the trio required | 2,586 | **+0.033** |
+| `#883` base (single-binary rule) | 2,694 | **+0.035** |
+| + requires `teensex` (this drops wave 2008) | 1,266 | **+0.024** |
+| + requires all four norm items | 1,246 | **+0.023** |
+
+**`#888` published `+0.051` with a paired bootstrap 95% of `[+0.013, +0.088]`. A bootstrap resamples
+the SAMPLE; it does not resample the sample DEFINITION** — and a definition change here is four lines
+of equally defensible code.
+
+**AND THE LEAVE-ONE-WAVE-OUT ANSWER IS SHARPER STILL:**
+
+| | drop it → Δ | that wave alone |
+|---|---|---|
+| 1991 | **+0.079** | +0.022 (n=668) |
+| 1998 | **+0.055** | +0.037 (n=614) |
+| **2008** | **+0.022** | **+0.156** (n=558) |
+| 2018 | **+0.059** | +0.084 (n=640) |
+
+**LOWO spread 0.057** against a **constant-Δ resampling null** whose 95th percentile is **0.046** ⇒
+**above.** ⇒ **`OVERTURNED`: `#888`'s `+0.051` is a pooled average over heterogeneous cells.**
+**Removing one wave — 2008 — moves it to `+0.022`, and 2008 alone reads `+0.156`.**
+**The honest statement is the LOWO range `[+0.022, +0.079]`, not the pooled point.**
+
+⚠ *"Should this zero be zero?"* — **NO**: a max−min over four noisy estimates is positive by
+construction ⇒ **`offset_control`**, **kind of null named: a CONSTANT-Δ resampling null** —
+respondents drawn within each wave from the **pooled** joint table, so the true Δ is identical in
+every wave by design, and the same LOWO spread is computed on each draw. Its median is **0.025**.
+
+⚠ **AND `#887`①'s BAN WAS CHECKED, NOT SKIRTED.** It forbids a fourth *time-series* round on this
+coupling. **This is not one: no trend, no break, no era.** It asks whether a **pooled** number is an
+average over heterogeneous cells — a `G3`/`G4` obligation for any pooled statistic, and one that
+would be required identically if the four cells were countries rather than years.
+
+**CONTROLS.** **Positive**: a planted between-wave difference gives `0.029 → 0.045 → 0.056 → 0.083 →
+0.115`, monotone, with **floor and ceiling measured** and the null's 95th (0.046) lying **strictly
+between** them — **and at g = 0 it does not fire** (0.029, inside). **Negative**: a global
+permutation, mean **+0.0006**. **Grid**: **62 of 62** cells positive (5 definitions + 4 LOWO ×
+3 estimators, plus 35 trios), definition spread **0.028**, LOWO spread **0.057**, trio spread
+**0.323** ⇒ **world C does not fire: which rows I keep matters LESS than which wave I keep, and both
+matter far less than which three abortion items I use.**
+
+**⇒ One sentence about people: the last thing this project still claimed — that an American's
+judgement of abortion predicts what he wants the law to do a little better than his judgement of
+homosexuality predicts what he wants done to homosexuals — is positive in every one of 62
+specifications and roughly half of its size comes from a single survey year. The direction has now
+survived four separate attacks; the number has not survived any of them intact.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **four waves is four cells** — a heterogeneity test on four groups has low power, so a null here
+   would be a **bound**, never a demonstration of homogeneity;
+② **causally identified: N/A** — repeated cross-sections;
+③ **the completeness rules are the ones I can defend** — a rule I did not think of is not covered.
+   **Unenumerated is not cleared**;
+④ ⚠ **the instrument cannot be changed** — `#882` measured that the only other matched-pair
+   instrument here (SCCS) has **one observation per society** and therefore **no within-instrument
+   subsample structure at all**. **Only this one instrument**;
+⑤ **no second coder, no second release.**
+
+**NEXT**
+① ⚠ **Wave 2008 is now an object, not a nuisance** — Δ = **+0.156** there against +0.022 / +0.037 /
+   +0.084 elsewhere. **But four waves cannot tell me whether that is a real cell or a lucky draw**,
+   and `#887`① forbids turning this back into a time-series question. **What would settle it is more
+   waves of the abortion WRONGNESS item, and GSS has four.** ⇒ `#889`①
+② ⚠ **The number now carries THREE nested ranges and the page carries a point**: trio
+   `[+0.051, +0.374]` (`#888`) · completeness `[+0.023, +0.051]` · leave-one-wave-out
+   `[+0.022, +0.079]`. **`#888`② is still open and is now larger than when it was written.**
+③ ⚠ Still `OPEN`: `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
+   `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

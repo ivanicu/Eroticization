@@ -1,0 +1,69 @@
+=== (0) HARD RULE 1 — n and years, before any column is cited ===
+  homosex   n= 44726  1973–2024  (30 waves)
+  abpoorw   n=  4823  1991–2018  (4 waves)
+  teensex   n= 33901  1986–2024  (22 waves)
+  abdefect  n= 48234  1972–2024  (34 waves)
+  abhlth    n= 48488  1972–2024  (34 waves)
+  abrape    n= 48020  1972–2024  (34 waves)
+
+  `#888`'s published sample n=2480 · waves [1991, 1998, 2008, 2018]
+
+=== (1) THE GRADIENT CHECK THAT REDIRECTED THIS ROUND — recorded, not dropped ===
+  the shared 4-item sexual-strictness scale I meant to use: Cronbach α = **0.694** (n=1246), against the sanction indices' KR-20 of 0.802 and 0.789
+  ⇒ **equalising the norm ruler would have equalised it DOWNWARD**, cost half the sample, and put `homosex` on both sides. **A different estimand dressed as a control.**
+
+=== (2) THE SAMPLE-DEFINITION SWEEP — the rows, not the items ===
+  #888 as published (all 7 ab items)     n= 2480  **Δ +0.051**
+  only the TRIO required                 n= 2586  **Δ +0.033**
+  #883 base (single-binary rule)         n= 2694  **Δ +0.035**
+  + requires teensex (drops 2008)        n= 1266  **Δ +0.024**
+  + requires all 4 norm items            n= 1246  **Δ +0.023**
+  **completeness-rule spread = 0.028**
+
+=== (3) LEAVE-ONE-WAVE-OUT — is the pooled number an average over heterogeneous cells? ===
+  drop 1991: Δ **+0.079**   |   wave 1991 alone: Δ +0.022 (n=668)
+  drop 1998: Δ **+0.055**   |   wave 1998 alone: Δ +0.037 (n=614)
+  drop 2008: Δ **+0.022**   |   wave 2008 alone: Δ +0.156 (n=558)
+  drop 2018: Δ **+0.059**   |   wave 2018 alone: Δ +0.084 (n=640)
+  **LOWO spread = 0.057** · the wave whose removal moves Δ most is **2008** (+0.051 → +0.022)
+
+=== (4) THE NULL — kind of null NAMED: a CONSTANT-Δ resampling null ===
+  respondents drawn within each wave from the POOLED table ⇒ true Δ identical in every wave
+  null LOWO spread: median **0.025** · 95th **0.046**
+  observed **0.057** ⇒ above what four noisy waves give for free: **True**
+
+=== (5) POSITIVE CONTROL — plant a between-wave difference, floor and ceiling MEASURED ===
+  g=0.00  planted LOWO spread = 0.029
+  g=0.05  planted LOWO spread = 0.045
+  g=0.10  planted LOWO spread = 0.056
+  g=0.20  planted LOWO spread = 0.083
+  g=0.40  planted LOWO spread = 0.115
+  measured FLOOR 0.029 · CEILING 0.115 ⇒ the null's 95th (0.046) lies strictly between them: True
+  => positive control **PASS** — monotone True, **and at g=0 it does not fire**
+
+=== (6) NEGATIVE CONTROL — a global permutation. This zero SHOULD be zero ===
+  null mean +0.0006 -> **PASS**
+
+=== (7) SPECIFICATION CURVE + MULTIPLICITY ===
+  cells: **62** · Δ>0 in **62/62**
+  definition  Δ median +0.028 [+0.014,+0.104] · Δ>0 in 15/15
+  lowo        Δ median +0.057 [+0.015,+0.146] · Δ>0 in 12/12
+  trio        Δ median +0.328 [+0.051,+0.374] · Δ>0 in 35/35
+
+  CONDITIONAL KILL -- #889 · is `#888`'s level gap a pooled average over heterogeneous cells
+   PASS  (1) HARD RULE 1: n and years printed before use; and the design I intended was KILLED by its own gradient check and the check is recorded rather than dropped                                                                                               shared-scale α 0.694 vs sanction KR-20 0.802/0.789 · n would fall 2480→1246 · scale contains `homosex` (circular) · 总体:the 2480 GSS respondents of `#888`'s published sample, waves [1991, 1998, 2008, 2018], and the defensible re-definitions of that sample enumerated below   (asserted in code, not in prose)
+   PASS  (2) OFFSET CONTROL — 'should this zero be zero?' NO: a max−min over four noisy estimates is positive by construction. **Kind of null: a CONSTANT-Δ resampling null**, respondents drawn within each wave from the pooled table so Δ is identical by design  null LOWO spread median 0.025 · 95th 0.046 · 总体:the 2480 GSS respondents of `#888`'s published sample, waves [1991, 1998, 2008, 2018], and the defensible re-definitions of that sample enumerated below   (asserted in code, not in prose)
+   PASS  (3) POSITIVE CONTROL: a planted between-wave difference must be detected, floor and ceiling MEASURED with the threshold strictly between them, and it must not fire at g=0                                                                                  g=0.0:0.029 g=0.05:0.045 g=0.1:0.056 g=0.2:0.083 g=0.4:0.115 · floor 0.029 ceiling 0.115 · null95 0.046 · 总体:the 2480 GSS respondents of `#888`'s published sample, waves [1991, 1998, 2008, 2018], and the defensible re-definitions of that sample enumerated below   (asserted in code, not in prose)
+   PASS  (4) NEGATIVE CONTROL: a global permutation, and this zero SHOULD be zero                                                                                                                                                                                    mean +0.0006 · 总体:the 2480 GSS respondents of `#888`'s published sample, waves [1991, 1998, 2008, 2018], and the defensible re-definitions of that sample enumerated below   (asserted in code, not in prose)
+   PASS  (5) EVERY SAMPLE DEFINITION REPORTED, including the ones that shrink the effect — a bootstrap resamples the SAMPLE and never the sample DEFINITION                                                                                                          #888 as published (all 7 ab items):+0.051 · only the TRIO required:+0.033 · #883 base (single-binary rule):+0.035 · + requires teensex (drops 2008):+0.024 · + requires all 4 norm items:+0.023 · 总体:the 2480 GSS respondents of `#888`'s published sample, waves [1991, 1998, 2008, 2018], and the defensible re-definitions of that sample enumerated below   (asserted in code, not in prose)
+   FAIL  (6) KILL (pre-registered): for `#888`'s `+0.051` to be a legitimate pooled estimate, **the leave-one-wave-out spread must sit inside the constant-Δ null**                                                                                                  LOWO spread 0.057 vs null 95th 0.046 (above True) · completeness-rule spread 0.028 (>= LOWO: False) · `#888` reported +0.051 CI (0.013, 0.088) · grid Δ>0 62/62   尺:the max−min of Δ across leave-one-wave-out samples; the floor is the same spread simulated with Δ constant across waves,其自身噪声 0.0460413 · 总体:the 2480 GSS respondents of `#888`'s published sample, waves [1991, 1998, 2008, 2018], and the defensible re-definitions of that sample enumerated below · 方向:一致 [1] · 控制总体:5/5 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation ((6) KILL (pre-registered): for `#888`'s `+0.051` to be a legitimate pooled estimate, **the leave-one-wave-out spread must sit inside the constant-Δ null**). This is a refutation, NOT an unverified round (#366e).
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**B — ONE WAVE CARRIES IT.** LOWO spread **0.057** against a constant-Δ null whose 95th is **0.046**; dropping **2008** moves Δ from +0.051 to **+0.022** ⇒ **`#888`'s headline is an average over heterogeneous cells**, and the honest statement is the LOWO range **[+0.022, +0.079]**, not the pooled point.
+
+⚠ **Registered**: four waves is four cells, so a null here is a BOUND and never a demonstration of homogeneity; the completeness rules are the ones I can defend and **unenumerated is not cleared**; and **the instrument cannot be changed** — SCCS has one observation per society and therefore no within-instrument subsample structure at all.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A104_is_the_level_gap_about_acts_or_about_rulers/R327_one_wave_or_four/results/is_the_level_gap_one_wave.json

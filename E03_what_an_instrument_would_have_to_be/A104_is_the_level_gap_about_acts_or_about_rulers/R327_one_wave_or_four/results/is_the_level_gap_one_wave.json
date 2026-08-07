@@ -1,0 +1,463 @@
+{
+ "population": "the 2480 GSS respondents of `#888`'s published sample, waves [1991, 1998, 2008, 2018], and the defensible re-definitions of that sample enumerated below",
+ "waves": [
+  1991,
+  1998,
+  2008,
+  2018
+ ],
+ "definitions": {
+  "#888 as published (all 7 ab items)": {
+   "delta": 0.050910542490791744,
+   "n": 2480
+  },
+  "only the TRIO required": {
+   "delta": 0.03328463585729313,
+   "n": 2586
+  },
+  "#883 base (single-binary rule)": {
+   "delta": 0.03541186646610339,
+   "n": 2694
+  },
+  "+ requires teensex (drops 2008)": {
+   "delta": 0.02351668873561119,
+   "n": 1266
+  },
+  "+ requires all 4 norm items": {
+   "delta": 0.0226929920844946,
+   "n": 1246
+  }
+ },
+ "def_spread": 0.028217550406297143,
+ "lowo": {
+  "1991": 0.07914474804114957,
+  "1998": 0.05496022314626281,
+  "2008": 0.021974071325164934,
+  "2018": 0.05911588259161238
+ },
+ "lowo_spread": 0.057170676715984636,
+ "per_wave": {
+  "1991": {
+   "delta": 0.022354198628546373,
+   "n": 668
+  },
+  "1998": {
+   "delta": 0.0374829582241375,
+   "n": 614
+  },
+  "2008": {
+   "delta": 0.15580821389652366,
+   "n": 558
+  },
+  "2018": {
+   "delta": 0.08356409535470721,
+   "n": 640
+  }
+ },
+ "worst_wave": 2008,
+ "null": {
+  "kind": "constant-Δ resampling null",
+  "median": 0.02492899751638511,
+  "p95": 0.04604129301069204
+ },
+ "above_null": true,
+ "def_ge_lowo": false,
+ "shared_scale_alpha": 0.6935472364365217,
+ "dose": {
+  "0.0": 0.028669304053840716,
+  "0.05": 0.04500706200823745,
+  "0.1": 0.05599352175854655,
+  "0.2": 0.08281410691595037,
+  "0.4": 0.114817739008241
+ },
+ "floor": 0.028669304053840716,
+ "ceiling": 0.114817739008241,
+ "grid": [
+  {
+   "kind": "definition",
+   "cell": "#888 as published (all 7 ab items)",
+   "est": "spearman",
+   "delta": 0.050910542490791744
+  },
+  {
+   "kind": "definition",
+   "cell": "only the TRIO required",
+   "est": "spearman",
+   "delta": 0.03328463585729313
+  },
+  {
+   "kind": "definition",
+   "cell": "#883 base (single-binary rule)",
+   "est": "spearman",
+   "delta": 0.03541186646610339
+  },
+  {
+   "kind": "definition",
+   "cell": "+ requires teensex (drops 2008)",
+   "est": "spearman",
+   "delta": 0.02351668873561119
+  },
+  {
+   "kind": "definition",
+   "cell": "+ requires all 4 norm items",
+   "est": "spearman",
+   "delta": 0.0226929920844946
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 1991",
+   "est": "spearman",
+   "delta": 0.07914474804114957
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 1998",
+   "est": "spearman",
+   "delta": 0.05496022314626281
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 2008",
+   "est": "spearman",
+   "delta": 0.021974071325164934
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 2018",
+   "est": "spearman",
+   "delta": 0.05911588259161238
+  },
+  {
+   "kind": "definition",
+   "cell": "#888 as published (all 7 ab items)",
+   "est": "kendall",
+   "delta": 0.0387874734465159
+  },
+  {
+   "kind": "definition",
+   "cell": "only the TRIO required",
+   "est": "kendall",
+   "delta": 0.023719374061477172
+  },
+  {
+   "kind": "definition",
+   "cell": "#883 base (single-binary rule)",
+   "est": "kendall",
+   "delta": 0.025917818198471165
+  },
+  {
+   "kind": "definition",
+   "cell": "+ requires teensex (drops 2008)",
+   "est": "kendall",
+   "delta": 0.014612240595139325
+  },
+  {
+   "kind": "definition",
+   "cell": "+ requires all 4 norm items",
+   "est": "kendall",
+   "delta": 0.014032058934146052
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 1991",
+   "est": "kendall",
+   "delta": 0.06114816721031491
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 1998",
+   "est": "kendall",
+   "delta": 0.04129824360919154
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 2008",
+   "est": "kendall",
+   "delta": 0.014757791469866888
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 2018",
+   "est": "kendall",
+   "delta": 0.04757241241462529
+  },
+  {
+   "kind": "definition",
+   "cell": "#888 as published (all 7 ab items)",
+   "est": "gamma",
+   "delta": 0.10440896661512555
+  },
+  {
+   "kind": "definition",
+   "cell": "only the TRIO required",
+   "est": "gamma",
+   "delta": 0.08182812193320732
+  },
+  {
+   "kind": "definition",
+   "cell": "#883 base (single-binary rule)",
+   "est": "gamma",
+   "delta": 0.08024769497309325
+  },
+  {
+   "kind": "definition",
+   "cell": "+ requires teensex (drops 2008)",
+   "est": "gamma",
+   "delta": 0.02770974640422108
+  },
+  {
+   "kind": "definition",
+   "cell": "+ requires all 4 norm items",
+   "est": "gamma",
+   "delta": 0.02691635168480977
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 1991",
+   "est": "gamma",
+   "delta": 0.14623178520016689
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 1998",
+   "est": "gamma",
+   "delta": 0.1081542389295359
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 2008",
+   "est": "gamma",
+   "delta": 0.048220272113411844
+  },
+  {
+   "kind": "lowo",
+   "cell": "drop 2018",
+   "est": "gamma",
+   "delta": 0.12318876215773322
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abnomore+abhlth",
+   "est": "spearman",
+   "delta": 0.27924286001244514
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abnomore+abpoor",
+   "est": "spearman",
+   "delta": 0.3559144463417667
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abnomore+abrape",
+   "est": "spearman",
+   "delta": 0.286208233915629
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abnomore+absingle",
+   "est": "spearman",
+   "delta": 0.3310661843651992
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abnomore+abany",
+   "est": "spearman",
+   "delta": 0.3132263486393605
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abhlth+abpoor",
+   "est": "spearman",
+   "delta": 0.3283179744209589
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abhlth+abrape",
+   "est": "spearman",
+   "delta": 0.050910542490791744
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abhlth+absingle",
+   "est": "spearman",
+   "delta": 0.2926484490880866
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abhlth+abany",
+   "est": "spearman",
+   "delta": 0.2585419786867241
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abpoor+abrape",
+   "est": "spearman",
+   "delta": 0.3338813043746195
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abpoor+absingle",
+   "est": "spearman",
+   "delta": 0.3567450530868286
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abpoor+abany",
+   "est": "spearman",
+   "delta": 0.3539662437658321
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abrape+absingle",
+   "est": "spearman",
+   "delta": 0.299677311791944
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+abrape+abany",
+   "est": "spearman",
+   "delta": 0.27256888760208176
+  },
+  {
+   "kind": "trio",
+   "cell": "abdefect+absingle+abany",
+   "est": "spearman",
+   "delta": 0.3205010845582088
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abhlth+abpoor",
+   "est": "spearman",
+   "delta": 0.35269416576102963
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abhlth+abrape",
+   "est": "spearman",
+   "delta": 0.2809746908761369
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abhlth+absingle",
+   "est": "spearman",
+   "delta": 0.32506279135071525
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abhlth+abany",
+   "est": "spearman",
+   "delta": 0.3041591367026897
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abpoor+abrape",
+   "est": "spearman",
+   "delta": 0.35351152564192556
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abpoor+absingle",
+   "est": "spearman",
+   "delta": 0.3739603837136639
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abpoor+abany",
+   "est": "spearman",
+   "delta": 0.3678891770193511
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abrape+absingle",
+   "est": "spearman",
+   "delta": 0.32834718804477925
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+abrape+abany",
+   "est": "spearman",
+   "delta": 0.30972632450736703
+  },
+  {
+   "kind": "trio",
+   "cell": "abnomore+absingle+abany",
+   "est": "spearman",
+   "delta": 0.33811958962014843
+  },
+  {
+   "kind": "trio",
+   "cell": "abhlth+abpoor+abrape",
+   "est": "spearman",
+   "delta": 0.32918761710947797
+  },
+  {
+   "kind": "trio",
+   "cell": "abhlth+abpoor+absingle",
+   "est": "spearman",
+   "delta": 0.3520305443206647
+  },
+  {
+   "kind": "trio",
+   "cell": "abhlth+abpoor+abany",
+   "est": "spearman",
+   "delta": 0.3471640262779353
+  },
+  {
+   "kind": "trio",
+   "cell": "abhlth+abrape+absingle",
+   "est": "spearman",
+   "delta": 0.2906901079968017
+  },
+  {
+   "kind": "trio",
+   "cell": "abhlth+abrape+abany",
+   "est": "spearman",
+   "delta": 0.2564227779506526
+  },
+  {
+   "kind": "trio",
+   "cell": "abhlth+absingle+abany",
+   "est": "spearman",
+   "delta": 0.3095039621646192
+  },
+  {
+   "kind": "trio",
+   "cell": "abpoor+abrape+absingle",
+   "est": "spearman",
+   "delta": 0.353426388346052
+  },
+  {
+   "kind": "trio",
+   "cell": "abpoor+abrape+abany",
+   "est": "spearman",
+   "delta": 0.34970053295010517
+  },
+  {
+   "kind": "trio",
+   "cell": "abpoor+absingle+abany",
+   "est": "spearman",
+   "delta": 0.368057938658495
+  },
+  {
+   "kind": "trio",
+   "cell": "abrape+absingle+abany",
+   "est": "spearman",
+   "delta": 0.31629806422483475
+  }
+ ],
+ "reported_888": {
+  "delta": 0.051,
+  "ci": [
+   0.013,
+   0.088
+  ]
+ },
+ "controls": {
+  "positive": true,
+  "negative": true
+ },
+ "admissible": true,
+ "verdict": "**B — ONE WAVE CARRIES IT.** LOWO spread **0.057** against a constant-Δ null whose 95th is **0.046**; dropping **2008** moves Δ from +0.051 to **+0.022** ⇒ **`#888`'s headline is an average over heterogeneous cells**, and the honest statement is the LOWO range **[+0.022, +0.079]**, not the pooled point.",
+ "gate_ok": false
+}
