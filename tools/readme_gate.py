@@ -431,6 +431,16 @@ def precommit(baseline_path="tools/gate_baseline.json"):
     # ⚠ `#847`①:作用域闸。与 `no_transcribed_numbers` 同为**棘轮**,理由相同:
     #   历史上的 8 处是**已知误报**(`#840` 一个编号两个所指,见 scope_gate 文件头),
     #   零容忍会逼我去改历史条目(`L81`);棘轮只要求**今天不比昨天更差**。
+    # ⚠ `#831`①:欠账覆盖闸 —— `debts_gate` 保证表**自洽**,从不保证它**被更新过**。
+    #   零容忍,但**只在表的作用域内**(`#830` 及之后被承诺的欠账):分界从对象推出。
+    _dc = pathlib.Path(__file__).resolve().parents[1]/"tools"/"debts_coverage.py"
+    if _dc.exists():
+        _r = subprocess.run([_sys.executable, str(_dc), "--precommit"], capture_output=True, text=True)
+        if _r.returncode != 0:
+            print("🔒 PRE-COMMIT BLOCK (debts_coverage)"); print(_r.stdout.strip()[-900:])
+            print("   -> 账本里承诺过的欠账必须在 `DEBTS.tsv` 里有一行。**零容忍**,而修它只需一行 `printf`。")
+            return 1
+
     _sg = pathlib.Path(__file__).resolve().parents[1]/"tools"/"scope_gate.py"
     if _sg.exists():
         _r = subprocess.run([_sys.executable, str(_sg), "--precommit"], capture_output=True, text=True)
