@@ -44927,3 +44927,104 @@ from what they did to the government, the press, or the space programme.**
    `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
    `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 906 · `E03·A109·R344` — the same attack, the other result, the same answer: E03 has nothing about sex
+
+**⇒ `OVERTURNED` · world `GENERIC`. `#892`'s SUBJECT is RETRACTED, exactly as `#900`'s and `#902`'s
+were one entry ago. Its number is untouched and E03 now has no surviving claim about sexual
+morality.**
+
+**WHAT WAS NEVER ASKED, AGAIN.** A105 spent five rounds establishing case-indexing — a person's moral
+verdict on a *case* couples preferentially to the legal items of that case's class, `D = +0.6688` at
+5.6× its one-factor null, 36/36 grid cells (`#892`, decomposition corrected in `#893`). **It was
+never run against a placebo domain.** `#905`② named that before this round existed.
+
+**THE PLACEBO IS STRUCTURALLY IDENTICAL AND HAS NOTHING TO DO WITH SEX.** GSS's Stouffer battery is a
+**target × action matrix**: for each of {atheist, racist, communist, militarist} it asks whether that
+person may **speak**, **teach**, and keep a **book** in the library. Two `spk` items indexed by case
+against two `{col, lib}` classes indexed by the same cases is A105's design with the content
+replaced. **Six non-sexual pairs, n = 34,092–39,991 each.**
+
+| pair | n | `D` @ matched n = 1,960 | its own one-factor null 95th |
+|---|---|---|---|
+| racist × communist | 35,872 | **+1.0924** | 0.1346 |
+| racist × militarist | 34,576 | **+1.0117** | 0.1281 |
+| atheist × racist | 36,789 | **+0.8981** | 0.1523 |
+| atheist × militarist | 34,620 | **+0.7189** | 0.1313 |
+| communist × militarist | 34,092 | **+0.6431** | 0.1141 |
+| atheist × communist | 39,991 | **+0.4997** | 0.1045 |
+| **abortion (`#892`, read from `R330`'s artifact)** | 1,960 | **+0.6688** | — |
+
+> **Placebo median +0.8085, range [+0.4997, +1.0924]. Abortion sits at the 33.3rd percentile of six.
+> All six placebos are BEYOND their own one-factor nulls. Grid: 10/18 matched-n cells exceed
+> abortion's `D`.**
+
+⚠ **THE TWO CONFOUNDS WERE WRITTEN DOWN BEFORE THE RUN AND BOTH ARE HANDLED IN THE DESIGN.**
+**(1) n differs by 20×** (1,960 vs ~37,000) and the null's spread scales with `1/√n`, so a
+z-comparison would have been rigged — **every placebo is therefore SUBSAMPLED to A105's exact n and
+compared as a SIZE.** Full-n and matched-n agree to three decimals throughout, which is itself the
+check. **(2) coarseness** (`#905`'s lesson): the log-interaction is one-factor-proof *by algebra*, so
+coarseness moves the spread and not the centre, and each design is judged against its own null.
+
+⚠ **AND A THIRD, WHICH CUTS AGAINST ME AND IS REPORTED FOR THAT REASON.** A105 **deleted** its
+identical-proposition twins to kill the wording world; **Stouffer has no identical twin to delete** —
+speak, teach and library are three different actions — so **the placebo is already in the
+distance-matched regime and is if anything FAVOURED to show case-indexing.** It shows more of it
+than abortion does anyway.
+
+**CONTROLS.** **Positive**, with both sides drawn from the same generator (`#905`'s repair, applied
+first rather than after a failure): a planted case-indexing component gives
+**+0.0061 → +0.0985 → +0.3311 → +0.9811 → +2.0490 → +6.4352**, monotone, turning point measured at
+`g = 0.80`, **`g = 0` sitting inside the null's 95th (0.1307) so the control CAN fail**, sensitivity
+at `g = 0.20`. ⚠ *"Should this zero be zero?"* — **YES**, by `#892`'s own derivation the interaction
+is identically zero under any one-factor model for any loadings ⇒ **`negative_control`**, and the
+**kind of null is named: a SYNTHETIC ONE-FACTOR WORLD fitted to each design's own loadings and each
+item's own marginal, at the matched n.** It returns **+0.0064**. **ALL GATES PASS.**
+
+**⇒ WHAT E03 IS NOW.** Two entries ago it had two results about people. `#905` took the subject from
+one; this takes it from the other. **Both numbers stand and neither is about sex.** What the epoch
+actually produced is: a link-free comonotonicity test, a one-factor-proof case-indexing interaction,
+a rank-1 binomial null, a comonotone null, a supersede gate, a registry gate — **instruments** — plus
+a register of what this data cannot say. *That is a methods result, and calling it anything else
+would be the failure `#905` and this round exist to prevent.*
+
+**⇒ One sentence about people: the thing I spent five rounds establishing — that an American's moral
+verdict on a specific case predicts what he wants the law to do about like cases — is true, and it
+is not about sex, and it is not even especially strong; ask the same question about whether a racist
+and a communist may speak and teach and it comes out larger in four of the six ways you can ask it.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **six placebo pairs is six** — the Stouffer battery has four non-sexual targets and that is all;
+② ⚠ **the placebo is STRUCTURALLY matched and SEMANTICALLY not** — its "norm" is a tolerance item and
+   its "sanction" another tolerance item, while A105's norm was a **moral** judgement and its
+   sanction a **legal** one. **That difference is real and this design cannot remove it**, and it is
+   the one live route by which `SPECIFIC` could still be true;
+③ **coarseness and n are matched or priced, never eliminated**;
+④ **causally identified N/A** — repeated cross-sections;
+⑤ **cross-INSTRUMENT N/A — `no second instrument`, `only this one instrument`** (`#897`, `#891`);
+   this round is cross-CONTENT, a different axis;
+⑥ ⚠ **`[unchallenged]`** — `door ③`; ⑦ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **`②` is the only surviving route to `SPECIFIC` and it is a real one**: a placebo whose norm is
+   MORAL and whose sanction is LEGAL, about two non-sexual cases, in one instrument. GSS's spending
+   battery is attitude-only; the confidence battery is attitude-only. **I do not currently know of
+   such a pair in this release, and saying so is not the same as saying there is none.** ⇒ `#906`①
+② ⚠ **E03 SHOULD CLOSE, AND THE PAGE'S HEAD MUST SAY WHAT IT NOW SAYS.** Two epochs of rounds have
+   produced instruments and a register, and the two claims about people both lost their subject in
+   two consecutive entries. **Writing that at the top of the deliverable is the round that matters
+   now** — and `§0.2` forbids leading with the retraction count instead of the residue. ⇒ `#906`②
+③ ⚠ **AND THE SUPERSEDE GATE FAILED IN A NEW WAY, FOUND BY USING IT ON THIS ENTRY.** It DETECTED
+   the `#892`←`#906` pair (pairs 27 → 29) and the applier **skipped the row anyway**, because
+   `#892` already carried `#893`'s marker and the skip condition was *"this row has a marker"*
+   rather than *"this row names THIS retraction"*. **A row retracted twice showed only the first,
+   and a reader following it landed on the decomposition correction instead of the subject
+   retraction.** Fixed in both tools — the requirement is now **per PAIR** — and the change was
+   measured before it was made (`#623`'s rule): **4 rows newly flagged, 4 markers applied, gate
+   green.** *An instrument two entries old, defeated by its own success at marking things once.*
+   ⇒ `#906`③
+④ ⚠ Still `OPEN`: `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② ·
+   `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② ·
+   `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
+   `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
+   `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

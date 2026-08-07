@@ -1,0 +1,240 @@
+{
+ "entry": 906,
+ "round": "E03\u00b7A109\u00b7R344",
+ "verdict": "OVERTURNED",
+ "world": "GENERIC \u2014 abortion sits in the middle; `#892` keeps its number and loses its subject, and E03 has no surviving claim about sex",
+ "D_abortion_read_from_R330": 0.6687559011982074,
+ "n_abortion": 1960,
+ "pairs": [
+  {
+   "pair": "atheist\u00d7racist",
+   "t1": "ath",
+   "t2": "rac",
+   "n": 36789,
+   "D_full": 0.8928804731664773,
+   "D_matched": 0.8980549079393608,
+   "null_p95": 0.15233987493073495,
+   "null_med": 0.026478627787508424,
+   "beyond": true
+  },
+  {
+   "pair": "atheist\u00d7communist",
+   "t1": "ath",
+   "t2": "com",
+   "n": 39991,
+   "D_full": 0.49911422274498274,
+   "D_matched": 0.4996767299792231,
+   "null_p95": 0.10450573868840869,
+   "null_med": 0.0011474160349265183,
+   "beyond": true
+  },
+  {
+   "pair": "atheist\u00d7militarist",
+   "t1": "ath",
+   "t2": "mil",
+   "n": 34620,
+   "D_full": 0.7232685709843424,
+   "D_matched": 0.7188532174027834,
+   "null_p95": 0.13125795576443147,
+   "null_med": 0.014275303893314106,
+   "beyond": true
+  },
+  {
+   "pair": "racist\u00d7communist",
+   "t1": "rac",
+   "t2": "com",
+   "n": 35872,
+   "D_full": 1.108201633959039,
+   "D_matched": 1.0924047522594358,
+   "null_p95": 0.1345758281858984,
+   "null_med": 0.015841625543020876,
+   "beyond": true
+  },
+  {
+   "pair": "racist\u00d7militarist",
+   "t1": "rac",
+   "t2": "mil",
+   "n": 34576,
+   "D_full": 1.012230179012679,
+   "D_matched": 1.0117197116382766,
+   "null_p95": 0.1280574538487257,
+   "null_med": 0.005815012037618972,
+   "beyond": true
+  },
+  {
+   "pair": "communist\u00d7militarist",
+   "t1": "com",
+   "t2": "mil",
+   "n": 34092,
+   "D_full": 0.6362594847881686,
+   "D_matched": 0.6431485819354603,
+   "null_p95": 0.11414702664141076,
+   "null_med": -0.005273038131354879,
+   "beyond": true
+  }
+ ],
+ "placebo_median": 0.8084540626710721,
+ "placebo_range": [
+  0.4996767299792231,
+  1.0924047522594358
+ ],
+ "percentile": 33.33333333333333,
+ "departs": true,
+ "positive_sweep": [
+  [
+   0.0,
+   0.0060873471493549935
+  ],
+  [
+   0.1,
+   0.09849803844599636
+  ],
+  [
+   0.2,
+   0.33108447215216386
+  ],
+  [
+   0.35,
+   0.9811101425716889
+  ],
+  [
+   0.5,
+   2.049021126677615
+  ],
+  [
+   0.8,
+   6.435184277249734
+  ]
+ ],
+ "positive_ok": true,
+ "turning_point": 0.8,
+ "null_p95_ath_com": 0.1307228284507454,
+ "grid": [
+  [
+   "atheist\u00d7racist",
+   "spearman",
+   0.8928804731664773,
+   0.8821290262152555
+  ],
+  [
+   "atheist\u00d7racist",
+   "kendall",
+   0.8928804731664773,
+   0.8939688322006681
+  ],
+  [
+   "atheist\u00d7racist",
+   "gamma",
+   0.5707803446722435,
+   0.5783869081431466
+  ],
+  [
+   "atheist\u00d7communist",
+   "spearman",
+   0.49911422274498274,
+   0.47036075062490423
+  ],
+  [
+   "atheist\u00d7communist",
+   "kendall",
+   0.49911422274498274,
+   0.48152979251743216
+  ],
+  [
+   "atheist\u00d7communist",
+   "gamma",
+   0.29149985262866185,
+   0.29464251670347685
+  ],
+  [
+   "atheist\u00d7militarist",
+   "spearman",
+   0.7232685709843424,
+   0.7345228418036551
+  ],
+  [
+   "atheist\u00d7militarist",
+   "kendall",
+   0.7232685709843425,
+   0.7231894808580535
+  ],
+  [
+   "atheist\u00d7militarist",
+   "gamma",
+   0.42430475761071584,
+   0.4364360607515495
+  ],
+  [
+   "racist\u00d7communist",
+   "spearman",
+   1.108201633959039,
+   1.1034872473827453
+  ],
+  [
+   "racist\u00d7communist",
+   "kendall",
+   1.1082016339590393,
+   1.12369090732725
+  ],
+  [
+   "racist\u00d7communist",
+   "gamma",
+   0.7548025243245015,
+   0.7731686835282392
+  ],
+  [
+   "racist\u00d7militarist",
+   "spearman",
+   1.012230179012679,
+   1.013263924939213
+  ],
+  [
+   "racist\u00d7militarist",
+   "kendall",
+   1.012230179012679,
+   1.0099165778782877
+  ],
+  [
+   "racist\u00d7militarist",
+   "gamma",
+   0.6748499659823126,
+   0.6785713085938924
+  ],
+  [
+   "communist\u00d7militarist",
+   "spearman",
+   0.6362594847881686,
+   0.6512229098383934
+  ],
+  [
+   "communist\u00d7militarist",
+   "kendall",
+   0.6362594847881688,
+   0.638605797040356
+  ],
+  [
+   "communist\u00d7militarist",
+   "gamma",
+   0.3703772053047759,
+   0.36904328016244714
+  ]
+ ],
+ "grid_above": 10,
+ "grid_n": 18,
+ "unchallenged": true,
+ "gates": [
+  [
+   "positive: planted case-indexing raises D (inside the MEASURED monotone region)",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.2;g=0 +0.0061 \u00b7 g=0.8 +6.4352",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "synthetic one-factor world at the matched n",
+   "|+0.0064| < 0.5*|+0.6688| = 0.3344",
+   true,
+   "null is 1% of the effect [\u96f6\u7684\u65b9\u6848: SYNTHETIC ONE-FACTOR WORLD fitted to each design's own loadings and each item's own marginal, at the matched n \u2014 D = 0 there for ANY loadings, so the resampling spread is the whole of the null]"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

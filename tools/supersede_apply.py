@@ -49,8 +49,8 @@ def main():
         lines = txt.split("\n")
         for tgt, by in pairs:
             i = row_index(lines, tgt)
-            if i is None or MARK in lines[i]:
-                continue
+            if i is None or f"{MARK} IN PART BY `#{by}`" in lines[i]:
+                continue    # ⚠ `#906`: per PAIR, not per row — see supersede_gate
             sent = retraction_sentence(led, tgt, by)
             if sent:
                 marker = (f"{MARK} IN PART BY `#{by}`** — the ledger's own words: *“{sent}”* "

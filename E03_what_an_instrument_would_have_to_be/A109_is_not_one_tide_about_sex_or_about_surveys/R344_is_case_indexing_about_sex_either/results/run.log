@@ -1,0 +1,77 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET, for EVERY column ===
+  spkath    n= 44453  1972–2024 (31 waves)  codes=[1, 2]
+  colath    n= 46980  1972–2024 (31 waves)  codes=[4, 5]
+  libath    n= 43810  1972–2024 (31 waves)  codes=[1, 2]
+  spkrac    n= 39554  1976–2024 (28 waves)  codes=[1, 2]
+  colrac    n= 42556  1976–2024 (28 waves)  codes=[4, 5]
+  librac    n= 39173  1976–2024 (28 waves)  codes=[1, 2]
+  spkcom    n= 43707  1972–2024 (31 waves)  codes=[1, 2]
+  colcom    n= 42340  1972–2024 (31 waves)  codes=[4, 5]
+  libcom    n= 43362  1972–2024 (31 waves)  codes=[1, 2]
+  spkmil    n= 37245  1976–2021 (26 waves)  codes=[1, 2]
+  colmil    n= 37942  1976–2021 (26 waves)  codes=[4, 5]
+  libmil    n= 36903  1976–2021 (26 waves)  codes=[1, 2]
+
+  `#892`'s abortion D, READ from `R330`'s artifact and not retyped (`#840`'s RULE; its own
+  scope was the `homosex` item alone, so only the practice transfers): **+0.6688** at n = 1960
+
+=== (1) SIX NON-SEXUAL TARGET PAIRS, matched to A105's n = 1,960 ===
+  atheist     × racist      n= 36789  D_full +0.8929  D@1960 +0.8981  one-factor null 95th 0.1523  ⇒ BEYOND
+  atheist     × communist   n= 39991  D_full +0.4991  D@1960 +0.4997  one-factor null 95th 0.1045  ⇒ BEYOND
+  atheist     × militarist  n= 34620  D_full +0.7233  D@1960 +0.7189  one-factor null 95th 0.1313  ⇒ BEYOND
+  racist      × communist   n= 35872  D_full +1.1082  D@1960 +1.0924  one-factor null 95th 0.1346  ⇒ BEYOND
+  racist      × militarist  n= 34576  D_full +1.0122  D@1960 +1.0117  one-factor null 95th 0.1281  ⇒ BEYOND
+  communist   × militarist  n= 34092  D_full +0.6363  D@1960 +0.6431  one-factor null 95th 0.1141  ⇒ BEYOND
+
+  placebo D@1960: median +0.8085 · range [+0.4997, +1.0924]
+  **abortion D = +0.6688 sits at the 33.3th percentile of the six**
+  placebo median |D| beyond the median null 95th: True
+
+=== (2) POSITIVE CONTROL — plant case-indexing; both sides from the SAME world ===
+  g=0.00  D +0.0061   (synthetic world, observed AND null from the same generator)
+  g=0.10  D +0.0985   (synthetic world, observed AND null from the same generator)
+  g=0.20  D +0.3311   (synthetic world, observed AND null from the same generator)
+  g=0.35  D +0.9811   (synthetic world, observed AND null from the same generator)
+  g=0.50  D +2.0490   (synthetic world, observed AND null from the same generator)
+  g=0.80  D +6.4352   (synthetic world, observed AND null from the same generator)
+  ⚠ turning point MEASURED at g=0.8 · monotone in [0, 0.8] · g=0 +0.0061 sits inside the null 95th 0.1307 ⇒ the control CAN fail ⇒ fires: True
+
+=== (3) G3/G4 — 6 pairs × {matched n · full n} × 3 estimators ===
+  atheist×racist            spearman  D_full +0.8929  D@1960 +0.8821
+  atheist×racist            kendall   D_full +0.8929  D@1960 +0.8940
+  atheist×racist            gamma     D_full +0.5708  D@1960 +0.5784
+  atheist×communist         spearman  D_full +0.4991  D@1960 +0.4704
+  atheist×communist         kendall   D_full +0.4991  D@1960 +0.4815
+  atheist×communist         gamma     D_full +0.2915  D@1960 +0.2946
+  atheist×militarist        spearman  D_full +0.7233  D@1960 +0.7345
+  atheist×militarist        kendall   D_full +0.7233  D@1960 +0.7232
+  atheist×militarist        gamma     D_full +0.4243  D@1960 +0.4364
+  racist×communist          spearman  D_full +1.1082  D@1960 +1.1035
+  racist×communist          kendall   D_full +1.1082  D@1960 +1.1237
+  racist×communist          gamma     D_full +0.7548  D@1960 +0.7732
+  racist×militarist         spearman  D_full +1.0122  D@1960 +1.0133
+  racist×militarist         kendall   D_full +1.0122  D@1960 +1.0099
+  racist×militarist         gamma     D_full +0.6748  D@1960 +0.6786
+  communist×militarist      spearman  D_full +0.6363  D@1960 +0.6512
+  communist×militarist      kendall   D_full +0.6363  D@1960 +0.6386
+  communist×militarist      gamma     D_full +0.3704  D@1960 +0.3690
+
+  **grid: 10/18 matched-n cells exceed abortion's +0.6688**
+
+=== (4) THE CONDITIONAL KILL — six cells, all assigned before the run ===
+  CONDITIONAL KILL -- Is case-indexing about SEX either, or about GSS crossed designs?
+   PASS  positive: planted case-indexing raises D (inside the MEASURED monotone region)  方向由数据给出:**上升**;灵敏度 g=0.2;g=0 +0.0061 · g=0.8 +6.4352   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  synthetic one-factor world at the matched n                                     |+0.0064| < 0.5*|+0.6688| = 0.3344   (null is 1% of the effect [零的方案: SYNTHETIC ONE-FACTOR WORLD fitted to each design's own loadings and each item's own marginal, at the matched n — D = 0 there for ANY loadings, so the resampling spread is the whole of the null])
+   => ALL GATES PASS
+
+  abortion D +0.6688 · placebo median +0.8085 · abortion at the 33.3th percentile · placebo median departs: True
+  gate three-valued : ALL GATES PASS
+  **VERDICT OVERTURNED · GENERIC — abortion sits in the middle; `#892` keeps its number and loses its subject, and E03 has no surviving claim about sex**
+
+  ⚠ THE PLACEBO IS STRUCTURALLY MATCHED AND SEMANTICALLY NOT: its 'norm' is a tolerance
+     item and its 'sanction' is another tolerance item, while A105's norm was a MORAL
+     judgement and its sanction a LEGAL one. That difference is real and is not removable
+     here. ⚠ And A105 DELETED its identical twins; Stouffer has none to delete, so the
+     placebo is if anything FAVOURED to show case-indexing — which cuts against me, not for.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A109_is_not_one_tide_about_sex_or_about_surveys/R344_is_case_indexing_about_sex_either/results/case_indexing_placebo.json

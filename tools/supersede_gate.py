@@ -125,7 +125,12 @@ def main():
             row = row_span(txt, tgt)
             if row is None:
                 absent.append((tgt, by, f))
-            elif MARK not in row:
+            # ⚠ `#906`: the check used to be `MARK not in row`, so a row retracted TWICE showed only
+            #   the FIRST retraction — `#892` carried `#893`'s marker and the applier skipped it when
+            #   `#906` retracted its SUBJECT, leaving a reader who follows the marker at the wrong
+            #   correction. **A marker must name the entry that retracted it**, and the requirement
+            #   is now per PAIR rather than per row.
+            elif f"{MARK} IN PART BY `#{by}`" not in row:
                 unmarked.append((tgt, by, f))
     for tgt, by, f in sorted(unmarked):
         print(f"  ⚠ UNMARKED  entry {tgt} (retracted by {by})  in {f}")
