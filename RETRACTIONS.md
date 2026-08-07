@@ -44374,3 +44374,97 @@ five rounds before it, which were drifting toward reporting my own rigour instea
    different series and carries no coupling**, so it is not banned — recorded here so a later round
    does not have to guess, and so that skirting the ban cannot be mistaken for clearing it.
    ⇒ `#899`②
+
+## Entry 900 · `E03·A107·R338` — one tide is worth 90% of the movement and misses six points
+
+**⇒ `OVERTURNED` · world `FOUR`: no one-factor model with fixed loadings can produce these four
+series, and it is not the mode change.** The unwelcome branch (`TIDE`) did not fire.
+
+**WHAT WAS ASKED, AND WHY IT IS NOT THE TEXTBOOK RESULT.** ⚠⚠ **PRIOR ART, DECLARED BEFORE THE RUN**:
+*that these series diverged is textbook* — Twenge, Sherman & Wells (2015) documented premarital and
+same-sex attitudes liberalising while extramarital hardened (`D6`, from reading). **This round does
+not claim it, because a one-factor model with DIFFERENT LOADINGS PREDICTS different rates of
+change** — `z_i(t) = b_i − λ_i·F(t)` — **so divergence is compatible with one tide and is not
+evidence against it.** What the literature does not settle is the **rank**, and that is the only
+part this round may claim.
+
+**THE ESTIMAND** is therefore `PC1`'s share of the **item-mean-centred `T × 4` probit matrix**, which
+under any fixed-loading one-factor world has rank **exactly 1**. **Population**: GSS respondents on
+the **21 waves where all four items were asked, 1988–2024**; per-wave n **868–2,680** per item.
+⚠ **HARD RULE 1 caught an asymmetry**: `homosex` carries a **fifth code** ("other", n = 82) the other
+three do not — dropped and counted, and the asymmetry registered rather than smoothed.
+
+| | 1988 → 2024, "always or almost always wrong" |
+|---|---|
+| sex before marriage | **37.0% → 22.6%** |
+| sex at 14–16 | **85.6% → 67.1%** |
+| sex outside marriage | **92.3% → 85.2%** |
+| same-sex relations | **81.5% → 38.8%** |
+
+> **PC1 share = 0.90014.** ⚠ *"Should this zero be zero?"* — **NO**: a TRUE rank-1 world does not
+> return 1.0 at finite n. ⇒ **`offset_control`**, **kind of null named: a RANK-1 BINOMIAL RESAMPLING
+> NULL at the observed per-wave n** — the rank-1 approximation fitted, every cell redrawn as a
+> binomial at that wave's actual n, PC1's share recomputed. **It returns 0.98307 ± 0.00339 (5th
+> percentile 0.97709), and that deficit is free.** Observed is **24.4× its own spread below** it.
+
+**AND THE SIZE, REPORTED BECAUSE THE TEST ANSWERS A DIFFERENT QUESTION — `#898`'s error class,
+PRE-EMPTED IN THE DESIGN RATHER THAN AFTER.** Per-wave n is 868–2,680, so a probit cell has
+SE ≈ 0.037 against a signal range ≈ 1.2: **at that precision a rank test will reject rank 1 for a
+second dimension far too small to matter to anyone.** So the round pre-registered that the size
+would be reported **whatever the test said**, in percentage points:
+
+| rebuilding each series from PC1 alone | max error | mean |
+|---|---|---|
+| sex at 14–16 | **5.77 pts** | 2.30 |
+| same-sex relations | **4.77 pts** | 2.73 |
+| sex outside marriage | 2.91 pts | 1.41 |
+| sex before marriage | 2.76 pts | 1.30 |
+
+**Worst cell: sex at 14–16 in 2024 — observed 67.1%, one-tide 72.8%.** Across the whole grid the
+maximum is **6.23 points**.
+
+**CONTROLS.** **Positive** — a graded second factor with a loading contrast the first cannot express:
+`0.98239 → 0.98221 → 0.97923 → 0.96877 → 0.93969 → 0.89965`, **monotone, direction read off the
+sweep**, **`g = 0` lands on the null median (0.98307) so the control CAN fail**, ceiling measured,
+threshold **0.97709 strictly between**, sensitivity at `g = 0.20`. **ALL GATES PASS.**
+
+**`G3`/`G4` — 4 condemnation thresholds × {all 21 waves · 1988–2018 only}: 8/8 cells reject rank 1,
+and 4/4 of the pre-2021 cells reject.** ⚠ **That is the mode control and it is the reason `MODE` is
+dead**: GSS changed to a web/mail push in 2021 and 2022/2024 are mixed-mode, which was written down
+before the run as the confound that would inject exactly this structure — **it survives dropping
+every mode-changed wave.** PC1 shares 0.881–0.930 against nulls 0.928–0.979.
+
+**⇒ One sentence about people: an American era has more than one number in it. Ninety per cent of
+how Americans' judgements of four sexual acts moved between 1988 and 2024 is one tide rising — but a
+single "permissiveness" summary misstates how many condemn sex at fourteen by nearly six points and
+same-sex relations by nearly five, and it does so in a direction that no difference in how strongly
+each act rides the tide can produce. There is a second thing moving, it is small, and it is real.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **the claim is against FIXED-loading one-factor models.** A one-factor world whose loadings
+   themselves drift over 36 years would reproduce anything, and **is not tested here** — naming it
+   because it is the rival that survives;
+② **21 waves is 21 rows**, and the rank test's MDE against a *weak* second dimension is **not
+   computed** (`#898`'s debt, one level over) — so "rank 1 rejected" is a demonstration and "no
+   THIRD dimension" would not be;
+③ **mode is confounded with period** — 2021+ is both a mode change and the most recent era; the
+   axis is reported, not resolved;
+④ **cohort and period are not separated** — this is a period design and a cohort-replacement world
+   produces the same series; a different round, not run;
+⑤ **cross-instrument N/A — `no second instrument`, `only this one instrument`**: `#897` measured
+   that SCCS's matching design resolves no effect at all, `#891` that only GSS ships question text;
+⑥ **causally identified N/A** — repeated cross-sections, no intervention on an era;
+⑦ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **WHAT the second dimension IS has not been asked, only that it exists.** Its loading pattern is
+   computable from the same matrix and would say which acts move together and which apart — but a
+   loading vector read off one 21×4 matrix is `#893`③'s trap one level up: **a component of a
+   rejected model is not itself a measured object**, and it would need its own null. ⇒ `#900`①
+② ⚠ **`①` above is the rival that survives and it is cheap to state, not cheap to test**: drifting
+   loadings. Distinguishing "two stable factors" from "one factor whose loadings moved" needs a
+   parameterisation this round does not have. ⇒ `#900`②
+③ ⚠ Still `OPEN`: `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ ·
+   `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
+   `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
+   `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

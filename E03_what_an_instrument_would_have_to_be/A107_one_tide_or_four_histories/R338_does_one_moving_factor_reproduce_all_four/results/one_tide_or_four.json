@@ -1,0 +1,196 @@
+{
+ "entry": 900,
+ "round": "E03\u00b7A107\u00b7R338",
+ "verdict": "OVERTURNED",
+ "world": "FOUR \u2014 a second dimension is required, and it survives dropping every mode-changed wave",
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021,
+  2022,
+  2024
+ ],
+ "n_per_wave": {
+  "premarsx": [
+   883,
+   2680
+  ],
+  "teensex": [
+   890,
+   2679
+  ],
+  "xmarsex": [
+   887,
+   2650
+  ],
+  "homosex": [
+   868,
+   2611
+  ]
+ },
+ "homosex_code5": 82,
+ "pc1_share": 0.900135788614693,
+ "null_median": 0.98307218803581,
+ "null_sd": 0.003392254052169495,
+ "null_p05": 0.9770945708071592,
+ "positive_sweep": [
+  [
+   0.0,
+   0.9823888912831221
+  ],
+  [
+   0.05,
+   0.9822092671168973
+  ],
+  [
+   0.1,
+   0.9792330086759132
+  ],
+  [
+   0.2,
+   0.9687741587832022
+  ],
+  [
+   0.35,
+   0.9396857044972117
+  ],
+  [
+   0.5,
+   0.899653336815021
+  ]
+ ],
+ "positive_sd": [
+  0.003880588321203357,
+  0.0035363309399221187,
+  0.003878141200879157,
+  0.005105523025587677,
+  0.0077434946352523005,
+  0.008155632542792243
+ ],
+ "positive_ok": true,
+ "max_reconstruction_error_pts": 5.771814680136023,
+ "per_item_max_error": {
+  "premarsx": 2.7621544634379713,
+  "teensex": 5.771814680136023,
+  "xmarsex": 2.9066435647528865,
+  "homosex": 4.77392733836014
+ },
+ "series_first_last": {
+  "premarsx": [
+   0.36963350785340315,
+   0.2264775413711584
+  ],
+  "teensex": [
+   0.8561151079136691,
+   0.670748940178992
+  ],
+  "xmarsex": [
+   0.9231568016614745,
+   0.8515303791685701
+  ],
+  "homosex": [
+   0.8153681963713981,
+   0.38823529411764707
+  ]
+ },
+ "grid_rows": [
+  [
+   "\u22641 always wrong",
+   "all waves",
+   21,
+   0.8812610476703844,
+   0.9787299485861727,
+   6.1409283230488
+  ],
+  [
+   "\u22641 always wrong",
+   "pre-2021 only",
+   18,
+   0.9100464707240277,
+   0.96100216749233,
+   6.2341683674903
+  ],
+  [
+   "\u22642 always/almost",
+   "all waves",
+   21,
+   0.900135788614693,
+   0.9780558541983098,
+   5.771814680136023
+  ],
+  [
+   "\u22642 always/almost",
+   "pre-2021 only",
+   18,
+   0.9059853555919885,
+   0.9580077337862284,
+   4.530412975259535
+  ],
+  [
+   "\u22643 any wrongness",
+   "all waves",
+   21,
+   0.9005512876460343,
+   0.9582320453610156,
+   5.464036973426994
+  ],
+  [
+   "\u22643 any wrongness",
+   "pre-2021 only",
+   18,
+   0.9070120244500284,
+   0.9275138400732862,
+   3.7530931137487844
+  ],
+  [
+   "mean 1\u20134",
+   "all waves",
+   21,
+   0.9064926532952534,
+   0.9771630164958139,
+   5.571389175417652
+  ],
+  [
+   "mean 1\u20134",
+   "pre-2021 only",
+   18,
+   0.9301816989198868,
+   0.9591183392412176,
+   4.0588033761655655
+  ]
+ ],
+ "grid_below": 8,
+ "grid_below_pre2021": 4,
+ "prior_art": "the DIVERGENCE of these series is textbook (Twenge, Sherman & Wells 2015); a one-factor model with different loadings PREDICTS different rates, so divergence is not evidence against it \u2014 the RANK test is the new part",
+ "gates": [
+  [
+   "positive: a planted second factor drives PC1's share down",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0b\u964d**;\u7075\u654f\u5ea6 g=0.2;g=0 +0.9824 \u00b7 g=0.5 +0.8997",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "PC1 share vs the rank-1 null [null: RANK-1 BINOMIAL RESAMPLING NULL at the observed per-wave n \u2014 the rank-1 approximation is fitted, every cell redrawn as a binomial at that wave's actual n, and PC1's share recomputed]",
+   "(+0.9001) - (+0.9831) = -0.0829 vs 2*0.0034",
+   true,
+   "24.4x its own spread"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

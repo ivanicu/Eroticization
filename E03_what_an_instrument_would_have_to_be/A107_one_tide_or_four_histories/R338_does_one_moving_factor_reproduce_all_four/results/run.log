@@ -1,0 +1,68 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET, before any citation ===
+  premarsx  n= 45697  1972–2024 (30 waves)  codes=[1, 2, 3, 4]  (sex before marriage)
+  teensex   n= 33901  1986–2024 (22 waves)  codes=[1, 2, 3, 4]  (sex at 14–16)
+  xmarsex   n= 46266  1973–2024 (30 waves)  codes=[1, 2, 3, 4]  (sex outside marriage)
+  homosex   n= 44726  1973–2024 (30 waves)  codes=[1, 2, 3, 4, 5]  (same-sex relations)
+  ⚠ **`homosex` carries a FIFTH code ('other', n=82) the other three do not** — dropped below, counted here, and the asymmetry is registered rather than smoothed
+
+  common waves (all four asked): **21** — [1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024]
+  per-wave n: premarsx=883–2680 · teensex=890–2679 · xmarsex=887–2650 · homosex=868–2611
+
+=== (1) THE FOUR SERIES, and PC1's share of their centred probit matrix ===
+  sex before marriage     37.0% →  22.6%  (1988→2024) say always/almost-always wrong
+  sex at 14–16            85.6% →  67.1%  (1988→2024) say always/almost-always wrong
+  sex outside marriage    92.3% →  85.2%  (1988→2024) say always/almost-always wrong
+  same-sex relations      81.5% →  38.8%  (1988→2024) say always/almost-always wrong
+
+  **PC1 share (all 21 waves, threshold ≤2) = 0.90014**  ⇒ PC2+ carries 9.986% of the centred variance
+
+=== (2) OFFSET CONTROL — the RANK-1 BINOMIAL RESAMPLING NULL at the observed per-wave n ===
+  rank-1 null: median 0.98307 · sd 0.00339 · **5th percentile 0.97709**
+  ⇒ a TRUE rank-1 world does NOT return 1.0 here — it returns 0.98307, and that deficit is free
+  observed 0.90014 vs the null's 5th percentile 0.97709 ⇒ BELOW — rank 1 rejected
+
+=== (3) POSITIVE CONTROL — a graded SECOND factor; at g=0 it must NOT fire ===
+  g=0.00  PC1 share 0.98239 ± 0.00388
+  g=0.05  PC1 share 0.98221 ± 0.00354
+  g=0.10  PC1 share 0.97923 ± 0.00388
+  g=0.20  PC1 share 0.96877 ± 0.00511
+  g=0.35  PC1 share 0.93969 ± 0.00774
+  g=0.50  PC1 share 0.89965 ± 0.00816
+  floor(g=0) 0.98239 lands on the null median 0.98307 ⇒ the control CAN fail · ceiling(g=0.5) 0.89965 · threshold 0.97709 strictly between: True
+
+=== (4) THE SIZE, IN PERCENTAGE POINTS — because a rank test answers a different question ===
+  ⚠ per-wave n is 868–2,680, so a probit cell has SE ≈ 0.037 against a signal range ≈ 1.2.
+     At that precision the test rejects rank 1 for a second dimension far too small to
+     matter. **`#898`'s error class, pre-empted: the test says IS THERE, the sentence wants
+     DOES IT MATTER — so the size is reported whatever the test says.**
+  rebuilding all four series from PC1 alone, the largest error is **5.77 percentage points** (mean 1.94)
+     worst cell: sex at 14–16 in 2024 — observed 67.1% vs one-tide 72.8%
+     sex before marriage    max error  2.76 pts · mean 1.30
+     sex at 14–16           max error  5.77 pts · mean 2.30
+     sex outside marriage   max error  2.91 pts · mean 1.41
+     same-sex relations     max error  4.77 pts · mean 2.73
+
+=== (5) G3/G4 — 4 thresholds × {all 21 waves · 1988–2018 only, the MODE axis} ===
+  ≤1 always wrong    all waves      T=21  PC1 0.88126  null5th 0.97873  ⇒ BELOW   max error  6.14 pts
+  ≤1 always wrong    pre-2021 only  T=18  PC1 0.91005  null5th 0.96100  ⇒ BELOW   max error  6.23 pts
+  ≤2 always/almost   all waves      T=21  PC1 0.90014  null5th 0.97806  ⇒ BELOW   max error  5.77 pts
+  ≤2 always/almost   pre-2021 only  T=18  PC1 0.90599  null5th 0.95801  ⇒ BELOW   max error  4.53 pts
+  ≤3 any wrongness   all waves      T=21  PC1 0.90055  null5th 0.95823  ⇒ BELOW   max error  5.46 pts
+  ≤3 any wrongness   pre-2021 only  T=18  PC1 0.90701  null5th 0.92751  ⇒ BELOW   max error  3.75 pts
+  mean 1–4           all waves      T=21  PC1 0.90649  null5th 0.97716  ⇒ BELOW   max error  5.57 pts
+  mean 1–4           pre-2021 only  T=18  PC1 0.93018  null5th 0.95912  ⇒ BELOW   max error  4.06 pts
+
+  **grid: 8/8 cells reject rank 1** · of the pre-2021 cells, 4/4 reject
+  max reconstruction error across the whole grid: 6.23 points
+
+=== (6) THE CONDITIONAL KILL ===
+  CONDITIONAL KILL -- One tide the four acts ride, or four separate histories?
+   PASS  positive: a planted second factor drives PC1's share down                                                                                                                                                                   方向由数据给出:**下降**;灵敏度 g=0.2;g=0 +0.9824 · g=0.5 +0.8997   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  PC1 share vs the rank-1 null [null: RANK-1 BINOMIAL RESAMPLING NULL at the observed per-wave n — the rank-1 approximation is fitted, every cell redrawn as a binomial at that wave's actual n, and PC1's share recomputed]  (+0.9001) - (+0.9831) = -0.0829 vs 2*0.0034   (24.4x its own spread)
+   => ALL GATES PASS
+
+  gate three-valued : ALL GATES PASS
+  **VERDICT OVERTURNED · FOUR — a second dimension is required, and it survives dropping every mode-changed wave**
+  ⇒ and the SIZE, which is the part a person can use: rebuilding every series from one tide is wrong by at most **6.23 percentage points**.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A107_one_tide_or_four_histories/R338_does_one_moving_factor_reproduce_all_four/results/one_tide_or_four.json
