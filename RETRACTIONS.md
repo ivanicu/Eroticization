@@ -43628,3 +43628,125 @@ GSS is not evidence that the lexicon generalises**, so GSS is not counted as an 
 ④ ⚠ Still `OPEN`: `#890`①②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② ·
    `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① ·
    `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 892 · `E03·A105·R330` — it was never the wording: a hardship verdict sorts the law by case, a medical one does not
+
+**WHAT THIS ROUND WAS FOR.** `#890` measured **Δ_distance = +0.2685** — matching the *reason* between
+the moral and the legal question buys **80%** of what four rounds had called a difference between
+ACTS — **and left it as a fact about QUESTIONNAIRES.** Two readings survived that round and imply
+completely different projects: **Q RECOGNITION** (the respondent sees the repeated clause and answers
+consistently — a response-set artifact) versus **P CASE-SPECIFIC MORALITY** (people do not hold *an
+attitude to abortion*; they judge **cases**). A third, **F ONE FACTOR**, says there is a single
+permissiveness dimension and every ρ is `λ_i·λ_j`, so `#890`'s number is loadings and nothing else.
+
+**THE SEPARATOR: DELETE BOTH IDENTICAL ITEMS AND TEST THE INTERACTION OVER WHAT REMAINS.** GSS asks
+the wrongness form for two reasons and the legality form for seven. Remove `abpoor` and `abdefect` —
+**and there is no repeated clause anywhere left in the design, so world Q has nothing to act on.**
+
+| |`abdefect`|`abnomore`|`abhlth`|`abpoor`|`abrape`|`absingle`|`abany`|
+|---|---|---|---|---|---|---|---|
+|**`abpoorw`** *(is it wrong if POOR)*|0.4453|**0.6999**|0.3100|*0.7325*|0.4177|**0.6962**|**0.6617**|
+|**`abdefctw`** *(is it wrong for BIRTH DEFECT)*|*0.6217*|0.4568|0.4369|0.4533|0.4736|0.4565|0.4202|
+
+*(italic = the identical-proposition twin, deleted; `|ρ|`, n = 1,960, waves 1991/1998/2008)*
+
+⚠ **THE ARITHMETIC TRAP, AND MY FIRST DRAFT WALKED INTO IT.** On the RAW ρ scale a one-factor world
+gives `D = (λ_poorw − λ_defctw)(λ_E − λ_T)`, which is **not zero** — the naive double-difference is
+**confounded by loadings**. On `log|ρ|` the one-factor model is additive, so the norm × class
+**interaction is identically zero for ANY loadings.** *A quantity forced to zero by the rival is the
+right thing to measure.* The estimand is therefore the interaction on `log|ρ|`, and the raw-scale
+figure (+0.3329) is printed only to show the trap.
+
+> **D = +0.6688, 95% [+0.6023, +0.7419], against a SYNTHETIC ONE-FACTOR WORLD returning
+> +0.0146 ± 0.1201, **95th percentile of |D| = 0.2401** ⇒ 5.6× its own spread.**
+
+⚠ **"Should this zero be zero?" — YES, by the derivation above** ⇒ **`negative_control`**, and the
+**kind of null is named: a SYNTHETIC ONE-FACTOR WORLD** — the world it excludes is **BUILT rather
+than assumed**: a one-factor generator fitted to the observed
+loadings, reproducing each item's own marginal, through the identical estimator. **The rival's own
+world returns +0.0146 where the algebra said 0.**
+
+**⚠ AND THE DISSOCIATION IS ONE-SIDED. Reporting `D` as one number would have hidden it.**
+
+| bracket | elective mean | medical mean | log-gap |
+|---|---|---|---|
+| **A · `abpoorw`, a HARDSHIP verdict** | **0.6860** | **0.3638** | **+0.6449** |
+| **B · `abdefctw`, a MEDICAL verdict** | 0.4445 | 0.4552 | −0.0239 |
+
+**96% of D comes from `abpoorw` alone.** With its twin removed `abdefctw` is **flat** across all five
+remaining items. **And the mechanism is measured, not guessed**: **53.7%** call abortion-for-poverty
+wrong against **29.5%** for abortion-for-birth-defect, and
+**`P(condemns poverty | condemns defect) = 0.934`** against `P(condemns defect | condemns poverty) =
+0.514`. **Condemnation is nested, not symmetric** — whoever condemns the medical case condemns the
+hardship case almost without exception. ⇒ **the medical condemners are near-absolutists, and an
+absolutist's verdict carries no case information because he condemns every case. A flat row is a
+person with a POSITION, not a judgement about a CASE.**
+
+**CONTROLS.** ⚠ **The positive control failed on its first run FOR ITS OWN REASONS and was rebuilt** —
+v1 planted into the OBSERVED data and judged the sweep against a baseline of 0, so `g = 0` returned
+the observed effect (+0.6688) and the control said nothing about the instrument (`realstat` §4, *the
+control's two sides were not the same object*). **A positive control belongs on a world with no
+effect.** v2 plants into the synthetic one-factor world: **`0.0232 → 0.7325 → 1.4473 → 2.2550 →
+2.8449 → 3.3562`**, monotone, direction read off the sweep, **floor lands on the null so it CAN
+fail**, ceiling measured, the threshold **0.2401 strictly between**, sensitivity at **g = 0.10**.
+**Placebo** (random half-split of the same people): **−0.0073**, 1% of the effect and opposite in
+sign. **ALL GATES PASS.**
+
+**`G3`/`G4` — the whole grid, and the failures published.** 3 estimators × (pooled + 3 waves) × 3
+class partitions ⇒ **36/36 positive**, spread 0.6685, median +0.4710. ⚠ **But only 25/36 clear the
+one-factor null's 95th percentile, and every one of the 11 failures is a GAMMA cell** (gamma pooled +0.1865 /
++0.1775 / +0.1284). **Under gamma the effect is not resolved by this design** — said here because
+reporting only the survivors is the multiplicity failure with manners. Sign is stable across all
+three partitions (textbook median +0.6382 · drop-`abany` +0.6223 · `abnomore`-as-hardship +0.4349).
+
+⚠⚠ **PRIOR ART, DECLARED BEFORE THE RUN AND REPEATED AT THE VERDICT.** The **two-class structure of
+the GSS abortion battery — traumatic (`abdefect`·`abhlth`·`abrape`) vs elective — is textbook, and
+has been since Ebaugh & Haney (1980)** (`D6`, from reading, not from a search run in this session).
+**So `#890`'s "semantic distance" is very probably that known structure wearing a new name, and this
+round does NOT claim it.** What the literature does **not** settle is whether the MORAL item tracks
+those classes with the identical item deleted — a norm loading only on the general factor would give
+`D = 0` against a two-factor sanction side. **That is the part this round adds, and the part it may
+claim.**
+
+**⇒ WHAT THIS DOES TO `#890`.** Its number stands; **its framing is overturned.** `#890` called the
+effect *"a fact about questionnaires"* and worried it dissolved the project into survey construction.
+**It does not: with every repeated clause deleted the coupling survives at 5.6× its null.** It is not
+wording. It is case content — and mostly on one side.
+
+**⇒ One sentence about people: an American who says abortion is wrong when the family is poor is
+telling you what he wants the law to do about other HARDSHIP cases and almost nothing about what he
+wants for a damaged foetus — while an American who says abortion is wrong for a birth defect has
+told you only that he condemns abortion, because he condemns all of it. The first is judging a case;
+the second is holding a position, and the survey cannot tell them apart until you ask which case.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **`abdefctw` exists only 1991/1998/2008** ⇒ wave 2018 out, three cells is a bound;
+② **construct validation N/A** — "reason class" is assigned by me from the item wording; there is no
+   external gold standard in this release and the 3-partition sweep is the substitute;
+③ **causally identified N/A** — nobody is randomised into being asked a matched case;
+④ **cross-instrument N/A, and `#891` measured why** — of 8 releases in `data/external/` exactly one
+   ships question text, so no second instrument can be ASKED this;
+⑤ **the norms are two, so the interaction has 1 df** — whether coupling is GRADED over more reasons
+   is **not identifiable here**;
+⑥ ⚠ **the asymmetry and the absolutism explanation are OBSERVATIONALLY CONFOUNDED**: `abdefctw` is
+   both the rarer condemnation and the flatter row, and this design cannot separate *"absolutists
+   have no case structure"* from *"the medical item is a worse measure"*;
+⑦ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The absolutism reading is a HYPOTHESIS this round did not test.** It predicts that among
+   respondents who condemn *some but not all* cases, bracket B should be **positive**, and among the
+   all-condemn group both brackets should be **undefined** (no variance). **That is a within-sample
+   split with a pre-registerable prediction, and it would separate ⑥.** ⇒ `#892`①
+② ⚠ **`#890`'s page row now says the wrong thing about its own number** — it frames Δ_distance as a
+   questionnaire fact and warns it may dissolve the act line. **That framing is overturned by this
+   round and the row has not been amended.** Compounds `#890`② · `#889`② · `#888`② · `#891`②, which
+   already ask the same rows for ranges and evidence grades. **Five debts now converge on one
+   production pass over the two pages.** ⇒ `#892`②
+③ ⚠ **Under `gamma` the effect is not resolved (11/36 cells).** Either gamma is the wrong estimator
+   for a 4×2 table with this much skew — which is a claim about the estimator and needs its own
+   check — or the effect is smaller than the spearman/kendall cells say. **Not adjudicated here.**
+   ⇒ `#892`③
+④ ⚠ Still `OPEN`: `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
+   `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
+   `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

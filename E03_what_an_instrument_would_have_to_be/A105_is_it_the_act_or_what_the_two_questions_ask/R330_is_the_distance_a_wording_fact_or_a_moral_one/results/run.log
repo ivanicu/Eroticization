@@ -1,0 +1,130 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the value set, before any citation ===
+  abpoorw   n=  4823  1991–2018 ( 4 waves) codes=[1, 2, 3, 4]
+  abdefctw  n=  3715  1991–2008 ( 3 waves) codes=[1, 2, 3, 4]
+  abdefect  n= 48234  1972–2024 (34 waves) codes=[1, 2]
+  abnomore  n= 48140  1972–2024 (34 waves) codes=[1, 2]
+  abhlth    n= 48488  1972–2024 (34 waves) codes=[1, 2]
+  abpoor    n= 48105  1972–2024 (34 waves) codes=[1, 2]
+  abrape    n= 48020  1972–2024 (34 waves) codes=[1, 2]
+  absingle  n= 48103  1972–2024 (34 waves) codes=[1, 2]
+  abany     n= 41398  1977–2024 (29 waves) codes=[1, 2]
+
+  ⇒ analysis sample n=1960, waves [1991, 1998, 2008]
+  ⚠ evidence grade split (`#891`): the two NORMS are D6 (Stata label only — no question text
+     in any shipped PDF); the seven LEGALITY items are D8 (codebook question text).
+
+=== (1) THE FULL 2×7 COUPLING MATRIX — printed whole, before any statistic ===
+              abdefect  abnomore    abhlth    abpoor    abrape  absingle     abany
+  abpoorw       0.4453    0.6999    0.3100    0.7325    0.4177    0.6962    0.6617
+  abdefctw      0.6217    0.4568    0.4369    0.4533    0.4736    0.4565    0.4202
+  ⚠ the two diagonal cells are the IDENTICAL-proposition pairs and are deleted from the
+     statistic — after that there is no repeated clause anywhere in the design (kills world Q)
+
+  E' = ['abnomore', 'absingle', 'abany']   T' = ['abhlth', 'abrape']
+  **D (log|ρ| interaction) = +0.6688**   ·  same statistic on the RAW ρ scale +0.3329
+  ⚠ the RAW number is reported only to show the trap: under one factor it is
+     (λ_poorw − λ_defctw)(λ_E − λ_T), NOT zero. Only the log version has a zero rival.
+
+=== (1b) THE DECOMPOSITION — D is NOT symmetric, and reporting it as one number hides that ==
+  bracket A — `abpoorw` (a HARDSHIP verdict): elective 0.6860 vs medical 0.3638   log-gap +0.6449
+  bracket B — `abdefctw` (a MEDICAL verdict) : elective 0.4445 vs medical 0.4552   log-gap -0.0239
+  D = A − B = +0.6449 − (-0.0239) = +0.6688
+  ⚠ **96% of D comes from `abpoorw` alone.** The
+     dissociation is ONE-SIDED: with its twin removed, `abdefctw` is nearly FLAT across all
+     five remaining items. Reporting D as a symmetric double dissociation would be false.
+  the mechanical reason, measured: only 29.5% call abortion-for-birth-defect wrong against 53.7% for abortion-for-poverty —
+     the medical condemners are largely ABSOLUTISTS, and an absolutist's verdict carries no
+     case information because he condemns every case. **A flat row is a person with a
+     position, not a judgement about a case.**
+  P(condemns poverty | condemns defect) = 0.934 vs P(condemns defect | condemns poverty) = 0.514
+
+=== (2) NEGATIVE CONTROL — world F BUILT, not assumed: a synthetic one-factor generator ===
+  fitted one-factor loadings: abpoorw=-0.560 abdefctw=-0.403 abdefect=+0.667 abnomore=+0.821 abhlth=+0.626 abpoor=+0.801 abrape=+0.697 absingle=+0.817 abany=+0.801
+  one-factor null: median +0.0146 · sd 0.1226 · 95th of |D| 0.2401
+  ⇒ the rival's own world returns +0.0146; the derivation said 0 and the generator agrees
+
+=== (3) POSITIVE CONTROL — planted into the NULL WORLD, because that is where g=0 is zero ===
+  g=0.00  D +0.0232 ± 0.1173   (planted into a world whose true D is 0)
+  g=0.10  D +0.7325 ± 0.0992   (planted into a world whose true D is 0)
+  g=0.25  D +1.4473 ± 0.1313   (planted into a world whose true D is 0)
+  g=0.50  D +2.2550 ± 0.1520   (planted into a world whose true D is 0)
+  g=0.75  D +2.8449 ± 0.2166   (planted into a world whose true D is 0)
+  g=1.00  D +3.3562 ± 0.2590   (planted into a world whose true D is 0)
+  floor(g=0) +0.0232 — lands on the null, so the control CAN fail · ceiling(g=1) +3.3562
+  threshold (one-factor 95th) 0.2401 strictly between floor and ceiling: True
+  secondary dose-response on the REAL data (baseline is D_obs, NOT zero — this is why v1 failed):
+     g=0: +0.6688 · g=0.25: +0.7861 · g=0.5: +0.8800 · g=1: +1.0056
+
+=== (4) PLACEBO — random half-split of the SAME people; D must not differ between halves ===
+  placebo (half A − half B) -0.00735 ± 0.07914  (half-n, so its spread is an upper bound)
+
+=== (5) BOOTSTRAP on D ===
+  D +0.6688  95% [+0.6023, +0.7419]  sd 0.0340
+  ⚠ `#889`'s caveat still stands: a bootstrap resamples the SAMPLE, not the sample DEFINITION
+
+=== (6) G3/G4 — the whole grid: 3 estimators × (pooled + 3 waves) × 3 class partitions ===
+  textbook (Ebaugh & Haney 1980)     spearman  pooled  D +0.6688
+  textbook (Ebaugh & Haney 1980)     spearman  1991    D +0.6141
+  textbook (Ebaugh & Haney 1980)     spearman  1998    D +0.7302
+  textbook (Ebaugh & Haney 1980)     spearman  2008    D +0.6622
+  textbook (Ebaugh & Haney 1980)     kendall   pooled  D +0.6688
+  textbook (Ebaugh & Haney 1980)     kendall   1991    D +0.6141
+  textbook (Ebaugh & Haney 1980)     kendall   1998    D +0.7302
+  textbook (Ebaugh & Haney 1980)     kendall   2008    D +0.6622
+  textbook (Ebaugh & Haney 1980)     gamma     pooled  D +0.1865
+  textbook (Ebaugh & Haney 1980)     gamma     1991    D +0.2438
+  textbook (Ebaugh & Haney 1980)     gamma     1998    D +0.1726
+  textbook (Ebaugh & Haney 1980)     gamma     2008    D +0.1254
+  drop `abany` (a global item, not a spearman  pooled  D +0.6589
+  drop `abany` (a global item, not a spearman  1991    D +0.5857
+  drop `abany` (a global item, not a spearman  1998    D +0.7158
+  drop `abany` (a global item, not a spearman  2008    D +0.6695
+  drop `abany` (a global item, not a kendall   pooled  D +0.6589
+  drop `abany` (a global item, not a kendall   1991    D +0.5857
+  drop `abany` (a global item, not a kendall   1998    D +0.7158
+  drop `abany` (a global item, not a kendall   2008    D +0.6695
+  drop `abany` (a global item, not a gamma     pooled  D +0.1775
+  drop `abany` (a global item, not a gamma     1991    D +0.2191
+  drop `abany` (a global item, not a gamma     1998    D +0.1628
+  drop `abany` (a global item, not a gamma     2008    D +0.1238
+  `abnomore` read as hardship-not-el spearman  pooled  D +0.4521
+  `abnomore` read as hardship-not-el spearman  1991    D +0.4444
+  `abnomore` read as hardship-not-el spearman  1998    D +0.4898
+  `abnomore` read as hardship-not-el spearman  2008    D +0.4255
+  `abnomore` read as hardship-not-el kendall   pooled  D +0.4521
+  `abnomore` read as hardship-not-el kendall   1991    D +0.4444
+  `abnomore` read as hardship-not-el kendall   1998    D +0.4898
+  `abnomore` read as hardship-not-el kendall   2008    D +0.4255
+  `abnomore` read as hardship-not-el gamma     pooled  D +0.1284
+  `abnomore` read as hardship-not-el gamma     1991    D +0.1952
+  `abnomore` read as hardship-not-el gamma     1998    D +0.1196
+  `abnomore` read as hardship-not-el gamma     2008    D +0.0616
+
+  **grid: 36/36 cells positive** · spread 0.6685 · median +0.4710 · min +0.0616 · max +0.7302
+  ⚠ **and only 25/36 clear the one-factor null's 95th (0.2401) — every
+     failing cell is a GAMMA cell.** Published because reporting only the survivors is the
+     multiplicity failure with manners: under gamma the effect is NOT resolved by this design.
+  partition `textbook (Ebaugh & Haney 1980)`: 12/12 positive, median +0.6382
+  partition `drop `abany` (a global item, not a case)`: 12/12 positive, median +0.6223
+  partition ``abnomore` read as hardship-not-elective`: 12/12 positive, median +0.4349
+
+=== (7) THE CONDITIONAL KILL ===
+  CONDITIONAL KILL -- Is `#890`'s distance a WORDING fact or a fact about how people judge CASES?
+   PASS  positive: graded class-specific plant          方向由数据给出:**上升**;灵敏度 g=0.1;g=0 +0.0232 · g=1 +3.3562   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  placebo: random half-split                     |-0.0073| < 0.5*|+0.6688| = 0.3344   (null is 1% of the effect [零的方案: random half-split placebo — same design, different people]  ⚠ 零与效应**反号** —— 反号的零是支持效应的证据,而上面这条比较对符号是瞎的,请自行判读 (#758))
+   PASS  world F built: synthetic one-factor generator  |+0.0146| < 0.5*|+0.6688| = 0.3344   (null is 2% of the effect [零的方案: SYNTHETIC ONE-FACTOR WORLD fitted to the observed loadings and each item's own marginal — the rival built, not assumed])
+   PASS  D                                              +0.6688 ± 0.0340   (来源 bootstrap_人层)
+   PASS  D vs the one-factor null                       |+0.6688| > 2*0.1201 = 0.2401   (5.6x its own spread)
+   => ALL GATES PASS
+
+  gate three-valued : ALL GATES PASS
+  **VERDICT CONFIRMED · P, ONE-SIDED — with every repeated clause deleted the interaction survives at 5.6x its own null, but 96% of it is carried by `abpoorw` alone: a HARDSHIP verdict sorts the legal items by case class, a MEDICAL verdict does not. Not a symmetric double dissociation, and saying so would be false**
+  D +0.6688 [+0.6023, +0.7419] vs one-factor 95th 0.2401 · grid 36/36 positive · sign stable across partitions: True
+
+  ⚠ PRIOR ART, restated at the verdict so it cannot be lost: the TWO-CLASS structure of the
+     GSS abortion battery is textbook (Ebaugh & Haney 1980). This round does NOT claim it.
+     What it can add is whether the MORAL item tracks that structure with the identical
+     item removed — which the literature does not settle, because a norm loading only on the
+     general factor would give D = 0 against a two-factor sanction side.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A105_is_it_the_act_or_what_the_two_questions_ask/R330_is_the_distance_a_wording_fact_or_a_moral_one/results/wording_or_cases.json

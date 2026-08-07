@@ -1,0 +1,441 @@
+{
+ "entry": 892,
+ "round": "E03\u00b7A105\u00b7R330",
+ "verdict": "CONFIRMED",
+ "world": "P, ONE-SIDED \u2014 with every repeated clause deleted the interaction survives at 5.6x its own null, but 96% of it is carried by `abpoorw` alone: a HARDSHIP verdict sorts the legal items by case class, a MEDICAL verdict does not. Not a symmetric double dissociation, and saying so would be false",
+ "n": 1960,
+ "waves": [
+  1991,
+  1998,
+  2008
+ ],
+ "coupling": {
+  "abpoorw\u00d7abdefect": 0.4452770539247336,
+  "abpoorw\u00d7abnomore": 0.6999302771254058,
+  "abpoorw\u00d7abhlth": 0.3100097959892031,
+  "abpoorw\u00d7abpoor": 0.7324954704423217,
+  "abpoorw\u00d7abrape": 0.4176598813888119,
+  "abpoorw\u00d7absingle": 0.6961931054520294,
+  "abpoorw\u00d7abany": 0.6617488683057726,
+  "abdefctw\u00d7abdefect": 0.6217409016572747,
+  "abdefctw\u00d7abnomore": 0.4567666263590444,
+  "abdefctw\u00d7abhlth": 0.43692030053525116,
+  "abdefctw\u00d7abpoor": 0.4533183903005263,
+  "abdefctw\u00d7abrape": 0.4735724333416782,
+  "abdefctw\u00d7absingle": 0.4564540197912396,
+  "abdefctw\u00d7abany": 0.4202047928496211
+ },
+ "D": 0.6687559011982074,
+ "D_raw": 0.33289379887722487,
+ "bracket_A": 0.6448623176988486,
+ "bracket_B": -0.023893583499358773,
+ "boot": [
+  0.6023363441689744,
+  0.7419161278478156
+ ],
+ "boot_sd": 0.03404600822073388,
+ "null_median": 0.014571697169895481,
+ "null_sd": 0.12262057047340794,
+ "null_p95": 0.24011718667513288,
+ "loadings": {
+  "abpoorw": -0.5599276768320608,
+  "abdefctw": -0.40294922353894747,
+  "abdefect": 0.6670355258536669,
+  "abnomore": 0.8209997213726649,
+  "abhlth": 0.6258064565009714,
+  "abpoor": 0.8009058516509141,
+  "abrape": 0.6967529183529678,
+  "absingle": 0.8172453252275881,
+  "abany": 0.8005235503314772
+ },
+ "positive_sweep": [
+  [
+   0.0,
+   0.02317390864419124
+  ],
+  [
+   0.1,
+   0.7325209589137242
+  ],
+  [
+   0.25,
+   1.4472920986783204
+  ],
+  [
+   0.5,
+   2.255043625749728
+  ],
+  [
+   0.75,
+   2.8448801468126614
+  ],
+  [
+   1.0,
+   3.356224230334368
+  ]
+ ],
+ "positive_sd": [
+  0.1173474926206317,
+  0.0991529185816377,
+  0.13126681582403812,
+  0.15198283754056496,
+  0.2165590968630615,
+  0.25896918216103954
+ ],
+ "positive_between": true,
+ "positive_sweep_real": [
+  [
+   0.0,
+   0.6687559011982077
+  ],
+  [
+   0.25,
+   0.7861290314821745
+  ],
+  [
+   0.5,
+   0.8800450485453865
+  ],
+  [
+   1.0,
+   1.005645065103354
+  ]
+ ],
+ "grid_above_null": 25,
+ "placebo": [
+  -0.00734844998531046,
+  0.0791353328367695
+ ],
+ "grid_positive": 36,
+ "grid_n": 36,
+ "grid_spread": 0.6685119380614385,
+ "sign_stable": true,
+ "grid_rows": [
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   "pooled",
+   0.6687559011982074,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   "1991",
+   0.6141463630651623,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   "1998",
+   0.7301571288690109,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   "2008",
+   0.6622362443625579,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   "pooled",
+   0.6687559011982076,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   "1991",
+   0.6141463630651621,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   "1998",
+   0.7301571288690107,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   "2008",
+   0.6622362443625577,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   "pooled",
+   0.18646165413341265,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   "1991",
+   0.2437712260822375,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   "1998",
+   0.1725618192693898,
+   ""
+  ],
+  [
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   "2008",
+   0.12542000188993233,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "spearman",
+   "pooled",
+   0.6588657941243289,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "spearman",
+   "1991",
+   0.5856929270380705,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "spearman",
+   "1998",
+   0.715779169174886,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "spearman",
+   "2008",
+   0.6695172225238104,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "kendall",
+   "pooled",
+   0.6588657941243291,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "kendall",
+   "1991",
+   0.5856929270380705,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "kendall",
+   "1998",
+   0.715779169174886,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "kendall",
+   "2008",
+   0.6695172225238104,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "gamma",
+   "pooled",
+   0.17745812718497928,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "gamma",
+   "1991",
+   0.21911902849035458,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "gamma",
+   "1998",
+   0.1627913596757177,
+   ""
+  ],
+  [
+   "drop `abany` (a global item, not a case)",
+   "gamma",
+   "2008",
+   0.12376007938586646,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "spearman",
+   "pooled",
+   0.452133594470187,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "spearman",
+   "1991",
+   0.44441181250245865,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "spearman",
+   "1998",
+   0.4898199383063083,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "spearman",
+   "2008",
+   0.425466984702565,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "kendall",
+   "pooled",
+   0.45213359447018725,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "kendall",
+   "1991",
+   0.4444118125024583,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "kendall",
+   "1998",
+   0.48981993830630854,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "kendall",
+   "2008",
+   0.42546698470256483,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "gamma",
+   "pooled",
+   0.12841590378218182,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "gamma",
+   "1991",
+   0.19515021110323644,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "gamma",
+   "1998",
+   0.1196105967261073,
+   ""
+  ],
+  [
+   "`abnomore` read as hardship-not-elective",
+   "gamma",
+   "2008",
+   0.06164519080757233,
+   ""
+  ]
+ ],
+ "partitions": {
+  "textbook (Ebaugh & Haney 1980)": {
+   "E": [
+    "abnomore",
+    "abpoor",
+    "absingle",
+    "abany"
+   ],
+   "T": [
+    "abdefect",
+    "abhlth",
+    "abrape"
+   ]
+  },
+  "drop `abany` (a global item, not a case)": {
+   "E": [
+    "abnomore",
+    "abpoor",
+    "absingle"
+   ],
+   "T": [
+    "abdefect",
+    "abhlth",
+    "abrape"
+   ]
+  },
+  "`abnomore` read as hardship-not-elective": {
+   "E": [
+    "abpoor",
+    "absingle",
+    "abany"
+   ],
+   "T": [
+    "abdefect",
+    "abhlth",
+    "abrape",
+    "abnomore"
+   ]
+  }
+ },
+ "prior_art": "two-class (traumatic/elective) structure of the GSS abortion battery is textbook since Ebaugh & Haney 1980 \u2014 declared BEFORE the result, D6",
+ "gates": [
+  [
+   "positive: graded class-specific plant",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.1;g=0 +0.0232 \u00b7 g=1 +3.3562",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "placebo: random half-split",
+   "|-0.0073| < 0.5*|+0.6688| = 0.3344",
+   true,
+   "null is 1% of the effect [\u96f6\u7684\u65b9\u6848: random half-split placebo \u2014 same design, different people]  \u26a0 \u96f6\u4e0e\u6548\u5e94**\u53cd\u53f7** \u2014\u2014 \u53cd\u53f7\u7684\u96f6\u662f\u652f\u6301\u6548\u5e94\u7684\u8bc1\u636e,\u800c\u4e0a\u9762\u8fd9\u6761\u6bd4\u8f83\u5bf9\u7b26\u53f7\u662f\u778e\u7684,\u8bf7\u81ea\u884c\u5224\u8bfb (#758)"
+  ],
+  [
+   "world F built: synthetic one-factor generator",
+   "|+0.0146| < 0.5*|+0.6688| = 0.3344",
+   true,
+   "null is 2% of the effect [\u96f6\u7684\u65b9\u6848: SYNTHETIC ONE-FACTOR WORLD fitted to the observed loadings and each item's own marginal \u2014 the rival built, not assumed]"
+  ],
+  [
+   "D",
+   "+0.6688 \u00b1 0.0340",
+   true,
+   "\u6765\u6e90 bootstrap_\u4eba\u5c42"
+  ],
+  [
+   "D vs the one-factor null",
+   "|+0.6688| > 2*0.1201 = 0.2401",
+   true,
+   "5.6x its own spread"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}
