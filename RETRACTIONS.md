@@ -42770,3 +42770,87 @@ SCCS coded.
    twice. ⇒ `#882`②
 ③ ⚠ Still `OPEN`: `#881`② · `#880`①② · `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
    `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 883 · `E03·A103·R322` — the same 2,694 people, two acts, and the gap is not in the person
+
+**Pays `#882`①, and it is the first version of this question that is not an analogy.** Every
+act-dependence sentence this project has written compared **different acts measured on different
+instruments**: SCCS decouples adultery and couples premarital sex; GSS could only speak about
+homosexuality. `#882` found the pair that removes the analogy, and this round is the paired design it
+enables — **two acts, one questionnaire, one field period, and the same people answering both.**
+
+**THE PAIRED SAMPLE IS THE DESIGN.** `n = 2,694` respondents answered **both** the homosexuality
+norm + tolerance battery **and** the abortion(low-income) norm + legality pair, on waves
+**1991 · 1998 · 2008 · 2018**. ⇒ **person composition, cohort, period, response style and
+acquiescence are removed by construction, not by adjustment.**
+
+| on the same 2,694 people | ρ | **residual share `1 − ρ²`** |
+|---|---|---|
+| **homosexuality** — *is it wrong* × *should he be allowed to speak / teach / keep his book* | +0.469 | **0.780** |
+| **abortion (low income)** — *is it wrong* × *should the law allow it* | −0.744 | **0.446** |
+| **Δ** | | **+0.334**, paired bootstrap 95% **[+0.291, +0.374]** |
+
+**ARITHMETIC FIRST, and it decides two things before any control runs:**
+① **the SIGN is a coding artifact and is not a finding** — `abpoor` runs 1 = *yes, the law should
+   allow* → 2 = *no*, so the abortion coupling comes out negative for the same reason the
+   homosexuality one comes out positive. **Only |ρ| enters the estimand**, and both signs are printed;
+② **the format bias runs AGAINST the finding.** Homosexuality's sanction is a 0–3 count of three
+   items; abortion's is a **single binary** — the more attenuated instrument. A tighter coupling on
+   the *coarser* measure cannot be a format effect.
+③ *"Should this zero be zero?"* for `Δ` — **NO.** Two attenuated couplings measured on one sample
+   share their sampling error, so the null is an **`offset_control`** and **the kind of null is
+   named: a paired bootstrap over the 2,694 respondents**, which preserves that sharing.
+
+**ALL SIX CONTROLS PASS.**
+- **format**: reduce the homosexuality sanction to each single item — `spk` Δ **+0.435** · `col`
+  **+0.395** · `lib` **+0.401** · index **+0.334**. **Δ does not merely survive, it grows.**
+- **sham (world C, the strongest confound, written before the run)**: abortion's two items share a
+  qualifier (*"if the family has a low income"*) while homosexuality's ask about **an act** and about
+  **a person** — so the tight pairing could be semantic matching. **Cross-REASON, same act**:
+  `wrong(poor) × law(poor)` **0.737** against `wrong(poor) × law(defect)` **0.447**; and
+  `wrong(defect) × law(defect)` **0.629** against `wrong(defect) × law(poor)` **0.451**. **Cross is
+  weaker in both directions** ⇒ the qualifier is doing real work and this is not general abortion
+  attitude.
+- **positive**, dose-response with floor and ceiling **measured** (1.000 / 0.000) rather than chosen:
+  `1.000 → 0.946 → 0.743 → 0.433 → 0.196`, monotone, **and it does not look coupled at g = 0**.
+- **negative**, a global permutation whose zero **should** be zero: mean **+0.0002**.
+- **multiplicity / specification, wave by wave because four waves is four measurements**:
+  **16/16 cells with Δ > 0**, median **+0.401**, range **[+0.225, +0.593]** —
+  1991 **+0.273** · 1998 **+0.381** · 2008 **+0.581** · 2018 **+0.441**, 100% positive in every wave.
+
+**⇒ One sentence about people: ask the same person how wrong two different things are, and what
+should be done about them — and for one of those things his answer to the first question nearly
+tells you the second, while for the other it barely tells you anything at all. The gap is not in the
+person, not in the cohort, and not in the questionnaire's format. It is in the act.**
+
+**⚠⚠ AND THE NAME MAY STILL BE WRONG, WHICH IS REGISTERED RATHER THAN DISMISSED.** Worlds **A
+(act-dependence)** and **D (sanction-severity dependence)** predict the **same observable here**.
+*Make it illegal* and *let him keep his library book* are not the same severity of demand, and if the
+two couplings differ because one sanction is **the law** and the other is **a civil liberty**, then
+the phenomenon's name changes and **SCCS's premarital/extramarital split would have to be re-read the
+same way**. That was written into the prediction matrix before the run, with the note that the two
+rows are identical in this column.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **A and D are not separable here.** It needs a **second sanction format for the same act** — a
+   legality item about homosexuality, or a civil-liberties item about abortion. **GSS carries
+   neither**, and no analysis of these columns can supply one;
+② **causally identified: N/A** — cross-sectional attitudes, no intervention;
+③ **abortion is not a member of the family SCCS coded** — a reproductive decision, not a sexual act.
+   This compares two acts *within GSS*; it does not thereby place either beside SCCS's pair;
+④ the abortion norm exists on **4 waves only**, so the paired sample is the abortion item's sample
+   and every number here is **1991–2018**;
+⑤ **no second coder, no second release** — one questionnaire, one field house. Independent
+   replication needs a different survey programme asking both questions about one act.
+
+**NEXT**
+① ⚠ **The A/D separation is the whole next question, and it is not answerable in GSS.** What would
+   answer it: any instrument carrying **two sanction formats for one act** — legality *and* civil
+   liberty, or fine *and* imprisonment. `#882`'s search was for matched *pairs*; this is a search for
+   matched *sanction ladders*, which is a different query and was never run. ⇒ `#883`①
+② ⚠ **The wave curve is not flat**: Δ runs +0.273 → +0.381 → +0.581 → +0.441 across 1991–2018, and
+   `res_abort` moves 0.620 → 0.450 → 0.269 → 0.401 while `res_homo` sits at 0.83–0.89 throughout.
+   **The abortion coupling TIGHTENED and the homosexuality one did not move.** That is a temporal
+   claim this round did not test and must not assert. ⇒ `#883`②
+③ ⚠ Still `OPEN`: `#882`② · `#881`② · `#880`①② · `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① ·
+   `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

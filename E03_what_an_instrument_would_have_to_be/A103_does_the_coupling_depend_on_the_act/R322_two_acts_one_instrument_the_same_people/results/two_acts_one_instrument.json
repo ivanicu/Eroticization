@@ -1,0 +1,211 @@
+{
+ "population": "the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018",
+ "paired_n": 2694,
+ "homosexuality": {
+  "rho": 0.4688212508521991,
+  "residual": 0.7802066347493795,
+  "n": 2694
+ },
+ "abortion_poor": {
+  "rho": -0.7441056820045905,
+  "residual": 0.4463067340084833,
+  "n": 2694
+ },
+ "delta": 0.33389990074089615,
+ "delta_ci": [
+  0.2910945836909519,
+  0.37438941530854514
+ ],
+ "delta_excludes_zero": true,
+ "format_control": {
+  "spk": {
+   "rho": 0.34476966056705854,
+   "residual": 0.8811338811524753,
+   "n": 2694,
+   "delta": 0.43482714714399195
+  },
+  "col": {
+   "rho": 0.3989662961912052,
+   "residual": 0.8408258945034714,
+   "n": 2694,
+   "delta": 0.39451916049498814
+  },
+  "lib": {
+   "rho": 0.3912796050959378,
+   "residual": 0.846900270635967,
+   "n": 2694,
+   "delta": 0.40059353662748365
+  },
+  "index": {
+   "rho": 0.4688212508521991,
+   "residual": 0.7802066347493795,
+   "n": 2694,
+   "delta": 0.33389990074089615
+  }
+ },
+ "sham": {
+  "within_poor": -0.7372039832125561,
+  "cross_poor": -0.4469049747057672,
+  "within_defect": -0.6294236829903247,
+  "cross_defect": -0.45057488649045163,
+  "ok": true
+ },
+ "dose": {
+  "0.0": 0.9996920835603023,
+  "0.25": 0.946109066920899,
+  "0.5": 0.7431541638122161,
+  "0.75": 0.4331880811013703,
+  "1.0": 0.1964564416636163
+ },
+ "floor": 0.9996920835603023,
+ "ceiling": 0.0,
+ "perm": {
+  "mean": 0.00019361160254871603,
+  "p95": 0.04008926581729259
+ },
+ "grid": [
+  {
+   "wave": 1991,
+   "sanction": "index",
+   "res_homo": 0.844539146992958,
+   "res_abort": 0.6195888047799563,
+   "delta": 0.2249503422130017,
+   "n": 723
+  },
+  {
+   "wave": 1991,
+   "sanction": "spk",
+   "res_homo": 0.9235341152647624,
+   "res_abort": 0.6195888047799563,
+   "delta": 0.3039453104848061,
+   "n": 723
+  },
+  {
+   "wave": 1991,
+   "sanction": "col",
+   "res_homo": 0.8808260431215248,
+   "res_abort": 0.6195888047799563,
+   "delta": 0.26123723834156853,
+   "n": 723
+  },
+  {
+   "wave": 1991,
+   "sanction": "lib",
+   "res_homo": 0.9046248381514903,
+   "res_abort": 0.6195888047799563,
+   "delta": 0.28503603337153405,
+   "n": 723
+  },
+  {
+   "wave": 1998,
+   "sanction": "index",
+   "res_homo": 0.7550650583840285,
+   "res_abort": 0.45029106079191816,
+   "delta": 0.3047739975921103,
+   "n": 679
+  },
+  {
+   "wave": 1998,
+   "sanction": "spk",
+   "res_homo": 0.8843956225978944,
+   "res_abort": 0.45029106079191816,
+   "delta": 0.43410456180597623,
+   "n": 679
+  },
+  {
+   "wave": 1998,
+   "sanction": "col",
+   "res_homo": 0.8332165355964979,
+   "res_abort": 0.45029106079191816,
+   "delta": 0.3829254748045797,
+   "n": 679
+  },
+  {
+   "wave": 1998,
+   "sanction": "lib",
+   "res_homo": 0.8283829516789296,
+   "res_abort": 0.45029106079191816,
+   "delta": 0.37809189088701145,
+   "n": 679
+  },
+  {
+   "wave": 2008,
+   "sanction": "index",
+   "res_homo": 0.8001310276324772,
+   "res_abort": 0.2686274538943042,
+   "delta": 0.531503573738173,
+   "n": 606
+  },
+  {
+   "wave": 2008,
+   "sanction": "spk",
+   "res_homo": 0.8616997831774947,
+   "res_abort": 0.2686274538943042,
+   "delta": 0.5930723292831905,
+   "n": 606
+  },
+  {
+   "wave": 2008,
+   "sanction": "col",
+   "res_homo": 0.8374832706398082,
+   "res_abort": 0.2686274538943042,
+   "delta": 0.568855816745504,
+   "n": 606
+  },
+  {
+   "wave": 2008,
+   "sanction": "lib",
+   "res_homo": 0.8617839850313553,
+   "res_abort": 0.2686274538943042,
+   "delta": 0.5931565311370511,
+   "n": 606
+  },
+  {
+   "wave": 2018,
+   "sanction": "index",
+   "res_homo": 0.7881929413646693,
+   "res_abort": 0.4007688224750279,
+   "delta": 0.38742411888964146,
+   "n": 686
+  },
+  {
+   "wave": 2018,
+   "sanction": "spk",
+   "res_homo": 0.8676624571006204,
+   "res_abort": 0.4007688224750279,
+   "delta": 0.4668936346255925,
+   "n": 686
+  },
+  {
+   "wave": 2018,
+   "sanction": "col",
+   "res_homo": 0.8845540974284545,
+   "res_abort": 0.4007688224750279,
+   "delta": 0.4837852749534266,
+   "n": 686
+  },
+  {
+   "wave": 2018,
+   "sanction": "lib",
+   "res_homo": 0.8160050549105888,
+   "res_abort": 0.4007688224750279,
+   "delta": 0.41523623243556096,
+   "n": 686
+  }
+ ],
+ "reference": {
+  "sccs_premarital": 0.198,
+  "sccs_extramarital": 0.972,
+  "gss_homo_all": 0.771
+ },
+ "controls": {
+  "negative": true,
+  "positive": true,
+  "offset": true,
+  "format": true,
+  "sham": true
+ },
+ "admissible": true,
+ "verdict": "**A/D — THE COUPLING IS ACT-DEPENDENT INSIDE ONE INSTRUMENT, and A and D cannot be separated here.** On the **same 2694 people**: homosexuality residual **0.780**, abortion residual **0.446**, **Δ = +0.334** with a paired bootstrap 95% of [+0.291, +0.374], positive in **16/16** grid cells and in every single-item format cell.\n  ⇒ **one sentence about people: ask the same person how wrong two different things are and what should be done about them, and for one of those things his answer to the first question nearly tells you the second, while for the other it barely tells you anything. The gap is not in the person and not in the questionnaire — it is in the act.**\n  ⚠ **and the name may still be wrong**: *make it illegal* and *let him keep his library book* are not the same severity of demand, so this could be **sanction-severity dependence** rather than act-dependence. GSS carries no second sanction format for either act, so **world D is registered as unseparable here, not dismissed.**",
+ "gate_ok": true
+}

@@ -1,0 +1,77 @@
+=== (0) HARD RULE 1 — n and the years actually asked, before any column is cited ===
+  homosex   n= 44726  1973–2024  (30 waves)
+  spkhomo   n= 39927  1973–2021  (28 waves)
+  colhomo   n= 41024  1973–2021  (28 waves)
+  libhomo   n= 39886  1973–2021  (28 waves)
+  abpoorw   n=  4823  1991–2018  (4 waves)
+  abpoor    n= 48105  1972–2024  (34 waves)
+  abdefctw  n=  3715  1991–2008  (3 waves)
+  abdefect  n= 48234  1972–2024  (34 waves)
+
+  **the paired sample — people who answered BOTH pairs: n = 2694** · waves [1991, 1998, 2008, 2018]
+  ⇒ person composition, cohort, period, response style and acquiescence are removed BY CONSTRUCTION, not by adjustment.
+
+=== (1) THE TWO COUPLINGS, ON THE SAME PEOPLE ===
+  homosexuality  rho=+0.469 (|rho|=0.469)  **residual share 0.780**  n=2694
+  abortion(poor) rho=-0.744 (|rho|=0.744)  **residual share 0.446**  n=2694
+  **Δ = +0.334** — the sign of each rho is a CODING artifact (abpoor: 1=law should allow, 2=no), so only |rho| enters the estimand.
+
+=== (2) OFFSET CONTROL — the null for Δ is NOT zero. Kind of null: a PAIRED BOOTSTRAP ===
+  Δ = +0.334  paired-bootstrap 95% [+0.291, +0.374]  **EXCLUDES 0**
+  ⚠ the bootstrap resamples PEOPLE, so both couplings move together — which is exactly the sharing that makes a zero-centred null wrong here.
+
+=== (3) FORMAT CONTROL — the homosexuality sanction reduced to each SINGLE binary item ===
+  spk    |rho|=0.345 residual=0.881  Δ vs abortion = +0.435
+  col    |rho|=0.399 residual=0.841  Δ vs abortion = +0.395
+  lib    |rho|=0.391 residual=0.847  Δ vs abortion = +0.401
+  index  |rho|=0.469 residual=0.780  Δ vs abortion = +0.334
+  => Δ stays positive in every single-item cell: **True** (a binary is the MORE attenuated instrument, so format runs AGAINST the finding)
+
+=== (4) THE STRONGEST CONFOUND — question-matching. Cross-REASON sham, same act ===
+  within-reason  wrong(poor)  × law(poor)   |rho|=0.737  n=2107
+  CROSS-reason   wrong(poor)  × law(defect) |rho|=0.447  n=2107
+  within-reason  wrong(defect)× law(defect) |rho|=0.629  n=2107
+  CROSS-reason   wrong(defect)× law(poor)   |rho|=0.451  n=2107
+  => cross < within in BOTH directions: **PASS**
+  ⚠ if the qualifier did nothing, cross would equal within and the tight coupling would be general abortion attitude rather than reason-specific.
+
+=== (5) POSITIVE CONTROL — dose-response, floor and ceiling MEASURED, fails at g=0 ===
+  g=0.00  planted residual share = 1.000
+  g=0.25  planted residual share = 0.946
+  g=0.50  planted residual share = 0.743
+  g=0.75  planted residual share = 0.433
+  g=1.00  planted residual share = 0.196
+  measured FLOOR 1.000 · measured CEILING 0.000 ⇒ thresholds live between them
+  => **PASS** (monotone True; at g=0 it does NOT look coupled)
+
+=== (6) NEGATIVE CONTROL — a global permutation. This zero SHOULD be zero ===
+  null mean +0.0002 · |null| 95th 0.0401 -> **PASS**
+
+=== (7) SPECIFICATION CURVE + MULTIPLICITY — wave by wave, because 4 waves is 4 measurements ===
+  cells: **16** (4 waves × 4 sanction measures)
+  1991  n≈ 723  res_homo 0.893  res_abort 0.620  **Δ median +0.273**  share Δ>0 100%
+  1998  n≈ 679  res_homo 0.831  res_abort 0.450  **Δ median +0.381**  share Δ>0 100%
+  2008  n≈ 606  res_homo 0.850  res_abort 0.269  **Δ median +0.581**  share Δ>0 100%
+  2018  n≈ 686  res_homo 0.842  res_abort 0.401  **Δ median +0.441**  share Δ>0 100%
+  whole grid: **16/16 cells with Δ>0**, median +0.401, range [+0.225,+0.593]
+
+  CONDITIONAL KILL -- #883 · two acts, one instrument, the same people — is the coupling act-dependent
+   PASS  (1) HARD RULE 1: n and the years actually asked printed before any column was cited; the paired sample is the abortion item's sample and every number is 1991–2018                                                                           paired n=2694 · waves 1991/1998/2008/2018 · 总体:the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (2) NEGATIVE CONTROL: a global permutation of respondents destroys the pairing entirely and its zero SHOULD be zero                                                                                                                          null mean +0.0002 · 总体:the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (3) POSITIVE CONTROL, dose-response, floor and ceiling MEASURED rather than chosen, and it must not look coupled at g=0                                                                                                                      g=0.0:1.000 g=0.25:0.946 g=0.5:0.743 g=0.75:0.433 g=1.0:0.196 · floor 1.000 ceiling 0.000 · 总体:the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (4) OFFSET CONTROL for Δ — 'should this zero be zero?' NO: two attenuated couplings on one sample share their sampling error. **Kind of null: a paired bootstrap over the respondents**, which preserves that sharing                        Δ=+0.334 95% [+0.291,+0.374] · 总体:the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (5) FORMAT CONTROL: the homosexuality sanction reduced to each single binary item — a binary is the MORE attenuated instrument, so format runs against the finding                                                                           spk:Δ+0.435 · col:Δ+0.395 · lib:Δ+0.401 · index:Δ+0.334 · 总体:the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (6) SHAM (selects world C): cross-REASON, same act — wrong(poor)×law(defect) and wrong(defect)×law(poor) must both be weaker than their within-reason partners, or the coupling is general abortion attitude and the qualifier does nothing  within poor 0.737 vs cross 0.447 · within defect 0.629 vs cross 0.451 · 总体:the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (7) KILL (pre-registered): for the coupling to be act-dependent inside one instrument, **Δ's paired-bootstrap interval must exclude 0 AND Δ must stay positive in every single-item format cell**                                            Δ=+0.334 [+0.291,+0.374] · format cells all positive True · grid 16/16 · SCCS reference 0.198/0.972 · GSS-homo 0.771   尺:the difference of two residual shares (1−ρ²) measured on the SAME people; the floor is the paired bootstrap of that difference,其自身噪声 0.0832948 · 总体:the 2694 GSS respondents who answered both the homosexuality norm+battery and the abortion(low-income) norm+legality pair, waves 1991/1998/2008/2018 · 方向:一致 [1] · 控制总体:6/6 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => ALL GATES PASS
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**A/D — THE COUPLING IS ACT-DEPENDENT INSIDE ONE INSTRUMENT, and A and D cannot be separated here.** On the **same 2694 people**: homosexuality residual **0.780**, abortion residual **0.446**, **Δ = +0.334** with a paired bootstrap 95% of [+0.291, +0.374], positive in **16/16** grid cells and in every single-item format cell.
+  ⇒ **one sentence about people: ask the same person how wrong two different things are and what should be done about them, and for one of those things his answer to the first question nearly tells you the second, while for the other it barely tells you anything. The gap is not in the person and not in the questionnaire — it is in the act.**
+  ⚠ **and the name may still be wrong**: *make it illegal* and *let him keep his library book* are not the same severity of demand, so this could be **sanction-severity dependence** rather than act-dependence. GSS carries no second sanction format for either act, so **world D is registered as unseparable here, not dismissed.**
+
+⚠ **Registered, and it is the load-bearing limitation**: worlds A and D predict the same observable here. Separating *the act* from *what the sanction costs* needs a second sanction format for the same act — a legality item about homosexuality, or a civil-liberties item about abortion. **GSS carries neither.**
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R322_two_acts_one_instrument_the_same_people/results/two_acts_one_instrument.json
