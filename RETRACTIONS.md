@@ -44324,3 +44324,53 @@ before it could tell. That is a fact about a survey, not about them.**
    `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
    `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 899 · `E03·A106·R337` — I cannot dispatch the adversary, so I pre-register what it should overturn
+
+**TYPE: PRODUCTION, labelled before the work.** No data, no number, no claim about people.
+
+**WHY.** `#898`① is a claim **about my own process** — *"I keep comparing a number to a reference
+that answers a different question than the sentence I then write"* — read off four of my own
+consecutive entries, **by me, about me.** `door ③`: **self-review is void, not weak.** A reviewer
+sampled from the weights that produced the error can only attack what it already anticipated, which
+is exactly why the class above reads as fluent.
+
+**⚠ AND I CANNOT DISPATCH ONE IN THIS SESSION** — agent dispatch is not available to me here.
+`frontier` §5 states exactly what to do then, and it is not "skip it": *"say so and mark every row
+`[unchallenged]`, never 'clean'. Then write the brief anyway, and **pre-register what you expect the
+adversary to overturn** — when one finally runs, its findings score your calibration about your own
+work, which is worth more than any individual verdict."*
+
+**SO: `[unchallenged]`, on every row below, and here is the pre-registration.** Each line states what
+I expect an adversary to do to it. **The point is that these are scoreable later, and that I wrote
+them before anyone looked.**
+
+| claim | my expectation of an adversary | confidence |
+|---|---|---|
+| **the error class is ONE class, not three** | ⚠ **most likely to fall.** Three mistakes with a common-sounding description is exactly what a mind produces for free. I give it **~45%** of surviving a hostile read | `D4` |
+| `#892`'s `D = +0.6688` at 5.6× its one-factor null | survives; the derivation is algebraic and the null is built, not assumed | `D7` |
+| `#893`'s corrected decomposition **29%/71%** | survives as arithmetic; the *interpretation* of which side "carries" the effect is attackable | `D6` |
+| `#898`'s MDEs (0.4508 / 0.3550 / 0.2953) | ⚠ attackable on **plant shape** — registered in `#898`② as a bound for ONE plant, and an adversary should push exactly there | `D5` |
+| `#897`'s "SCCS cannot resolve ANY effect" | survives; the ceiling (1.3163) is below the floor (2.2429) by construction of the design itself | `D7` |
+| **"nothing about people"** as A105/A106's summary | ⚠ attackable as **over-modest**: `#892`'s case-specificity IS about people, and calling the epoch empty of person-claims may be the opposite error to the one I have been making all session | `D4` |
+
+**⚠ THE LAST ROW IS THE ONE I WANT ON THE RECORD.** Four entries of self-correction produce a pull
+toward saying less than the evidence supports, and **§0.2 exists because that pull has an optimum at
+saying nothing.** `#892`'s finding *is* a fact about how Americans judge — **the case a question
+names changes how tightly moral judgement binds to what the law should do** — and it survived every
+attack this session at 5.6× its null. **I should not let a run of retractions convert a surviving
+result into a shrug.** *An adversary is as likely to tell me I under-claimed as over-claimed, and I
+have only ever pre-registered the second kind.*
+
+**⇒ One sentence about people: none from this round — but the row above is the correction to the
+five rounds before it, which were drifting toward reporting my own rigour instead of the object.**
+
+**NEXT**
+① ⚠ **`#898`① stays OPEN and is now scoreable rather than merely owed.** When an adversary can run,
+   it gets the four entries and this table, and the comparison is the deliverable. ⇒ `#899`①
+② ⚠ **`#887`①'s ban was CHECKED, not assumed, for the next candidate**: it is scoped to *"the TIME
+   axis of one coupling"* / *"a fourth time-series round on the same series"*. **A round on the four
+   GSS sexual-norm items (`premarsx` · `teensex` · `xmarsex` · `homosex`) over 28+ waves is a
+   different series and carries no coupling**, so it is not banned — recorded here so a later round
+   does not have to guess, and so that skirting the ban cannot be mistaken for clearing it.
+   ⇒ `#899`②
