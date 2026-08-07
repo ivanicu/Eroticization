@@ -428,6 +428,20 @@ def precommit(baseline_path="tools/gate_baseline.json"):
             print("   -> **别把上一轮的数字打进脚本,从它的 `results/*.json` 读**(`#840`)。")
             return 1
 
+    # ⚠ `#847`①:作用域闸。与 `no_transcribed_numbers` 同为**棘轮**,理由相同:
+    #   历史上的 8 处是**已知误报**(`#840` 一个编号两个所指,见 scope_gate 文件头),
+    #   零容忍会逼我去改历史条目(`L81`);棘轮只要求**今天不比昨天更差**。
+    _sg = pathlib.Path(__file__).resolve().parents[1]/"tools"/"scope_gate.py"
+    if _sg.exists():
+        _r = subprocess.run([_sys.executable, str(_sg), "--precommit"], capture_output=True, text=True)
+        if _r.returncode == 2:
+            print("🔒 PRE-COMMIT BLOCK (scope_gate:控制没过)"); print(_r.stdout.strip())
+            print("   -> ★P5:仪器没证明自己会开火,它的零是沉默。"); return 1
+        if _r.returncode == 1:
+            print("🔒 PRE-COMMIT BLOCK (scope_gate)"); print(_r.stdout.strip())
+            print("   -> 引用 `#838`/`#839`/`#840`/`#846` 的新单位**必须写出作用域**"
+                  "(它们都只跑过 `homosex`,`#846`)。"); return 1
+
     blocked, hits = run_gate(quiet=True)
     bp = pathlib.Path(baseline_path)
     if not bp.exists():
