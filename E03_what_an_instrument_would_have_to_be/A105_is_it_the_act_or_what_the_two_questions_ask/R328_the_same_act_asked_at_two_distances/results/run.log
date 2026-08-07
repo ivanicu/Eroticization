@@ -1,0 +1,133 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET, before any citation ===
+  homosex   n= 44726  1973–2024  (30 waves)  codes=[1, 2, 3, 4, 5]
+  spkhomo   n= 39927  1973–2021  (28 waves)  codes=[1, 2]
+  colhomo   n= 41024  1973–2021  (28 waves)  codes=[4, 5]
+  libhomo   n= 39886  1973–2021  (28 waves)  codes=[1, 2]
+  abpoorw   n=  4823  1991–2018  ( 4 waves)  codes=[1, 2, 3, 4]
+  abdefctw  n=  3715  1991–2008  ( 3 waves)  codes=[1, 2, 3, 4]
+  abdefect  n= 48234  1972–2024  (34 waves)  codes=[1, 2]
+  abnomore  n= 48140  1972–2024  (34 waves)  codes=[1, 2]
+  abhlth    n= 48488  1972–2024  (34 waves)  codes=[1, 2]
+  abpoor    n= 48105  1972–2024  (34 waves)  codes=[1, 2]
+  abrape    n= 48020  1972–2024  (34 waves)  codes=[1, 2]
+  absingle  n= 48103  1972–2024  (34 waves)  codes=[1, 2]
+  abany     n= 41398  1977–2024  (29 waves)  codes=[1, 2]
+
+  crossed 2×2 sample                       n= 2107  waves [1991, 1998, 2008]
+  + all seven abortion legality items      n= 1960
+  + the homosexuality norm and battery     n= 1813   <- E3's sample
+  ⚠ AUDIT of my own prior code: `homosex == 5` ('other') maps to W = −1 under `4 − homosex`.
+    in THIS sample: 0 respondents (0.00%) · release-wide 82
+
+=== (1) E1 — THE CROSSED 2×2, format identical in all four cells ===
+  MATCHED     abpoorw   × abpoor     ρ=-0.7372  residual=0.4565  n=2107
+  MATCHED     abdefctw  × abdefect   ρ=-0.6294  residual=0.6038  n=2107
+  MISMATCHED  abpoorw   × abdefect   ρ=-0.4469  residual=0.8003  n=2107
+  MISMATCHED  abdefctw  × abpoor     ρ=-0.4506  residual=0.7970  n=2107
+
+  **Δ_distance = MISMATCHED − MATCHED = +0.2685**
+  for scale: `#883`'s act gap +0.3340 (unmatched formats) · `#888`'s +0.0510 (matched)
+  world-D quantity — the two MATCHED cells differ by |0.4565 − 0.6038| = 0.1473
+
+=== (2) OFFSET NULL — cell-wise permutation floor difference (the zero that is NOT zero) ===
+  offset (median) +0.00000 · sd 0.00067 · 95th +0.00104
+  ⇒ the free part of Δ_distance is +0.00000; the observed is +0.2685
+
+=== (3) PAIRED BOOTSTRAP on Δ_distance (resamples the SAMPLE — #889's caveat stands) ===
+  Δ_distance +0.2685  95% [+0.2438, +0.2929]  sd 0.0126
+
+=== (4) POSITIVE CONTROL — a GRADED synthetic mismatch; at g=0 it must NOT fire ===
+  g=0.00  contrast +0.0000 ± 0.0000
+  g=0.10  contrast +0.1018 ± 0.0132
+  g=0.25  contrast +0.2371 ± 0.0159
+  g=0.50  contrast +0.4074 ± 0.0137
+  g=0.75  contrast +0.5089 ± 0.0072
+  g=1.00  contrast +0.5430 ± 0.0007
+  floor (g=0) +0.0000 · ceiling (g=1) +0.5430 · threshold 2·sd_null = 0.0013 lies strictly between: True
+
+=== (5) PLACEBO — SAME distance, two random halves of the same people ⇒ must be zero ===
+  placebo contrast -0.00167 ± 0.04024  (half-n, so its spread is an upper bound)
+
+=== (6) NEGATIVE CONTROL — global permutation destroys the coupling ===
+  mean residual over all four cells under global permutation: 0.9995 (observed mean 0.6644)
+
+=== (7) E2 — DISTANCE IN `#888`'s OWN INDEX FORMAT: trios with vs without `abpoor` ===
+  trios CONTAINING abpoor  (15): residual mean 0.4504  [0.4275, 0.4748]
+  trios EXCLUDING  abpoor  (20): residual mean 0.5086  [0.4652, 0.7454]
+  **Δ_distance(index form) = +0.0582**  — same format on both sides, so this is DISTANCE,
+    and `#888` attributed a collapse of +0.2830 entirely to the ruler.
+  separation: 98.0% of (excluding, containing) trio pairs are ordered as predicted
+
+=== (8) E3 — THE ACT GAP AT MATCHED DISTANCE (the estimand #883/#888 never computed) ===
+  [#883 coding (code 5 → −1)]  n=1813
+    homosexuality residual                       0.8006  (ρ=+0.4465)
+    abortion, distance-MISMATCHED trios (mean)   0.5061
+    abortion, distance-MATCHED trios (mean)      0.4465
+    Δ_act as `#888` measured it (all trios)      +0.3201
+    **Δ_act AT MATCHED DISTANCE**                +0.2945
+  [code 5 excluded]  n=1813
+    homosexuality residual                       0.8006  (ρ=+0.4465)
+    abortion, distance-MISMATCHED trios (mean)   0.5061
+    abortion, distance-MATCHED trios (mean)      0.4465
+    Δ_act as `#888` measured it (all trios)      +0.3201
+    **Δ_act AT MATCHED DISTANCE**                +0.2945
+
+  Δ_act at matched distance, paired bootstrap 95% [+0.2242, +0.3103] (6-trio subset for cost; point on all 20 = +0.2945)
+
+=== (9) G3/G4 — THE WHOLE GRID: 4 cells × 3 estimators × (3 waves + pooled) ===
+  spearman  pooled  Δ_distance +0.2685   MATC:0.457 MATC:0.604 MISM:0.800 MISM:0.797
+  spearman  1991    Δ_distance +0.1962   MATC:0.611 MATC:0.709 MISM:0.842 MISM:0.871
+  spearman  1998    Δ_distance +0.2923   MATC:0.436 MATC:0.555 MISM:0.804 MISM:0.772
+  spearman  2008    Δ_distance +0.3385   MATC:0.275 MATC:0.501 MISM:0.744 MISM:0.710
+  kendall   pooled  Δ_distance +0.2379   MATC:0.520 MATC:0.647 MISM:0.824 MISM:0.819
+  kendall   1991    Δ_distance +0.1723   MATC:0.662 MATC:0.742 MISM:0.863 MISM:0.885
+  kendall   1998    Δ_distance +0.2589   MATC:0.501 MATC:0.605 MISM:0.827 MISM:0.797
+  kendall   2008    Δ_distance +0.3048   MATC:0.347 MATC:0.551 MISM:0.769 MISM:0.738
+  gamma     pooled  Δ_distance +0.1979   MATC:0.170 MATC:0.170 MISM:0.242 MISM:0.494
+  gamma     1991    Δ_distance +0.2054   MATC:0.321 MATC:0.208 MISM:0.268 MISM:0.672
+  gamma     1998    Δ_distance +0.1934   MATC:0.152 MATC:0.153 MISM:0.278 MISM:0.413
+  gamma     2008    Δ_distance +0.1551   MATC:0.058 MATC:0.120 MISM:0.178 MISM:0.310
+
+  **grid: 12/12 cells positive** · spread 0.1834 · median +0.2216
+  E2 spearman  Δ_distance(index) +0.0582
+  E2 kendall   Δ_distance(index) +0.0521
+  E2 gamma     Δ_distance(index) +0.0313
+
+=== (10) THE CONDITIONAL KILL ===
+
+  world-D test: |matched1 − matched2| = 0.1473 vs |Δ_distance| = 0.2685  ⇒ D fires: False
+  act alive at matched distance (CI excludes 0): True  [+0.2242, +0.3103]
+  CONDITIONAL KILL -- Is the act gap a fact about acts, or about how far apart the two questions are?
+   PASS  positive: graded synthetic mismatch                                                                                               方向由数据给出:**上升**;灵敏度 g=0.1;g=0 +0.0000 · g=1 +0.5430   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  positive: ceiling clears the null                                                                                                 +0.5430 > floor +0.0000 + 2*0.0007 = +0.0013   (headroom +0.5416)
+   PASS  placebo: same distance, two halves                                                                                                |-0.0017| < 0.5*|+0.2685| = 0.1342   (null is 1% of the effect [零的方案: random-split placebo — identical distance, different people]  ⚠ 零与效应**反号** —— 反号的零是支持效应的证据,而上面这条比较对符号是瞎的,请自行判读 (#758))
+   PASS  Δ_distance vs its own floor [null: cell-wise permutation floor-difference null (n, margins and ties preserved inside each cell)]  (+0.2685) - (+0.0000) = +0.2685 vs 2*0.0007   (400.3x its own spread)
+   PASS  Δ_distance                                                                                                                        +0.2685 ± 0.0126   (来源 bootstrap_人层)
+   PASS  Δ_act at matched distance                                                                                                         |+0.2945| > 2*0.0215 = 0.0430   (13.7x its own spread)
+   => ALL GATES PASS
+
+  gate three-valued : ALL GATES PASS
+  **VERDICT CONFIRMED · C — distance is real and the act gap survives smaller**
+  ⚠ ONE verdict, and it has two halves that must be said together (`#882`'s structural fix —
+    the curve is computed before the adjudication, and the adjudication reads the UNION):
+    ① world **C** is CONFIRMED — Δ_distance +0.2685 is real, and Δ_act at matched
+       reason-distance +0.2945 survives. Neither kills the other.
+    ② and that OVERTURNS what `#883` and `#888` said their number MEANT: a rival worth
+       80% of the whole act gap lives INSIDE one act, and neither round
+       controlled it. The quantity stands; the sentence attached to it does not.
+
+=== (11) WHY E1 AND E2 DISAGREE BY 5× — the mechanism, measured, not asserted ===
+  item level (E1) Δ_distance +0.2685 · index level (E2) +0.0582 · ratio 4.6×
+  ⇒ a trio that EXCLUDES `abpoor` still correlates with it at ρ = +0.7888 [+0.5255, +0.8481]
+  **An index of the SAME act re-imports the matched content, so indexing DILUTES the
+   distance manipulation. The homosexuality battery cannot re-import anything — GSS carries
+   no item asking whether the homosexual ACT should be legal — so its distance is not
+   reducible by this instrument, and E3 is PARTIALLY IDENTIFIED. Stated, not smoothed over.**
+
+=== (12) AGREEMENT WITH `#888`'s OWN GRID — is my reproduction the same object? ===
+  `#888` published Δ_matched across 210 specifications as [+0.051, +0.374], median +0.320,
+  with the DIFFICULTY-MATCHED cell at the bottom. This round, on the crossed sample,
+  reproduces the all-trio Δ_act at +0.3201 — i.e. `#888`'s MEDIAN, not its
+  headline. **The +0.051 was one cell, its lowest; `#889`② already has that debt open.**
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A105_is_it_the_act_or_what_the_two_questions_ask/R328_the_same_act_asked_at_two_distances/results/distance_vs_act.json

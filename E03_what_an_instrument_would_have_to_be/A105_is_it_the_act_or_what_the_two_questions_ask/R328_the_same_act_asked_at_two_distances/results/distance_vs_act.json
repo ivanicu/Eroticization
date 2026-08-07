@@ -1,0 +1,233 @@
+{
+ "entry": 890,
+ "round": "E03\u00b7A105\u00b7R328",
+ "verdict": "CONFIRMED",
+ "world": "C \u2014 distance is real and the act gap survives smaller",
+ "n_crossed": 2107,
+ "n_cross7": 1960,
+ "n_crossh": 1813,
+ "waves": [
+  1991,
+  1998,
+  2008
+ ],
+ "homosex_code5_in_sample": 0,
+ "homosex_code5_release": 82,
+ "cells": {
+  "abpoorw\u00d7abpoor": {
+   "role": "MATCHED",
+   "residual": 0.45653028713554133
+  },
+  "abdefctw\u00d7abdefect": {
+   "role": "MATCHED",
+   "residual": 0.6038258272908952
+  },
+  "abpoorw\u00d7abdefect": {
+   "role": "MISMATCHED",
+   "residual": 0.8002759435832376
+  },
+  "abdefctw\u00d7abpoor": {
+   "role": "MISMATCHED",
+   "residual": 0.7969822716641166
+  }
+ },
+ "delta_distance": 0.2684510504104589,
+ "boot": [
+  0.24378173015642912,
+  0.292933145790858
+ ],
+ "boot_sd": 0.01264080183408099,
+ "offset": 1.5541747760972058e-07,
+ "offset_sd": 0.0006706104601582846,
+ "offset_p95": 0.0010423586796847292,
+ "positive_sweep": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   0.1,
+   0.10183480394648875
+  ],
+  [
+   0.25,
+   0.2370822449584476
+  ],
+  [
+   0.5,
+   0.40735971769710005
+  ],
+  [
+   0.75,
+   0.5089202675031013
+  ],
+  [
+   1.0,
+   0.5429782131613037
+  ]
+ ],
+ "positive_sd": [
+  0.0,
+  0.013208292429752534,
+  0.01591922676164098,
+  0.013722493375284252,
+  0.007245666354298706,
+  0.0007295944814702412
+ ],
+ "placebo": [
+  -0.0016651657132935416,
+  0.04024498821421408
+ ],
+ "negative_global_perm": 0.9995114881852819,
+ "e2_delta": 0.058162922796954286,
+ "e2_grid": [
+  0.058162922796954286,
+  0.05212019003648238,
+  0.0312705242030033
+ ],
+ "e2_separation": 0.98,
+ "e3": {
+  "#883 coding (code 5 \u2192 \u22121)": {
+   "homo": 0.8006363324996657,
+   "homo_r": 0.4465015873435775,
+   "n": 1813,
+   "mism": 0.5060867899055099,
+   "matched": 0.44645573766974117,
+   "d_act_matched_distance": 0.2945495425941558,
+   "d_act_as_888": 0.3201057078380567
+  },
+  "code 5 excluded": {
+   "homo": 0.8006363324996657,
+   "homo_r": 0.4465015873435775,
+   "n": 1813,
+   "mism": 0.5060867899055099,
+   "matched": 0.44645573766974117,
+   "d_act_matched_distance": 0.2945495425941558,
+   "d_act_as_888": 0.3201057078380567
+  }
+ },
+ "e3_boot": [
+  0.22422422435559983,
+  0.31031549117025337
+ ],
+ "grid_positive": 12,
+ "grid_n": 12,
+ "grid_spread": 0.18335721459887233,
+ "grid_rows": [
+  [
+   "spearman",
+   "pooled",
+   0.2684510504104589,
+   "MATC:0.457 MATC:0.604 MISM:0.800 MISM:0.797"
+  ],
+  [
+   "spearman",
+   "1991",
+   0.19616924830232874,
+   "MATC:0.611 MATC:0.709 MISM:0.842 MISM:0.871"
+  ],
+  [
+   "spearman",
+   "1998",
+   0.2922909548743419,
+   "MATC:0.436 MATC:0.555 MISM:0.804 MISM:0.772"
+  ],
+  [
+   "spearman",
+   "2008",
+   0.33849351224214985,
+   "MATC:0.275 MATC:0.501 MISM:0.744 MISM:0.710"
+  ],
+  [
+   "kendall",
+   "pooled",
+   0.2378555400817608,
+   "MATC:0.520 MATC:0.647 MISM:0.824 MISM:0.819"
+  ],
+  [
+   "kendall",
+   "1991",
+   0.17228672476865303,
+   "MATC:0.662 MATC:0.742 MISM:0.863 MISM:0.885"
+  ],
+  [
+   "kendall",
+   "1998",
+   0.2588539345639036,
+   "MATC:0.501 MATC:0.605 MISM:0.827 MISM:0.797"
+  ],
+  [
+   "kendall",
+   "2008",
+   0.3048136896570179,
+   "MATC:0.347 MATC:0.551 MISM:0.769 MISM:0.738"
+  ],
+  [
+   "gamma",
+   "pooled",
+   0.19792391424828476,
+   "MATC:0.170 MATC:0.170 MISM:0.242 MISM:0.494"
+  ],
+  [
+   "gamma",
+   "1991",
+   0.20539992355667402,
+   "MATC:0.321 MATC:0.208 MISM:0.268 MISM:0.672"
+  ],
+  [
+   "gamma",
+   "1998",
+   0.19336421638751894,
+   "MATC:0.152 MATC:0.153 MISM:0.278 MISM:0.413"
+  ],
+  [
+   "gamma",
+   "2008",
+   0.15513629764327752,
+   "MATC:0.058 MATC:0.120 MISM:0.178 MISM:0.310"
+  ]
+ ],
+ "gap_883": 0.334,
+ "gap_888": 0.051,
+ "trio_reimport_rho": 0.7888079762590676,
+ "e1_over_e2": 4.615501379592231,
+ "gates": [
+  [
+   "positive: graded synthetic mismatch",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.1;g=0 +0.0000 \u00b7 g=1 +0.5430",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "positive: ceiling clears the null",
+   "+0.5430 > floor +0.0000 + 2*0.0007 = +0.0013",
+   true,
+   "headroom +0.5416"
+  ],
+  [
+   "placebo: same distance, two halves",
+   "|-0.0017| < 0.5*|+0.2685| = 0.1342",
+   true,
+   "null is 1% of the effect [\u96f6\u7684\u65b9\u6848: random-split placebo \u2014 identical distance, different people]  \u26a0 \u96f6\u4e0e\u6548\u5e94**\u53cd\u53f7** \u2014\u2014 \u53cd\u53f7\u7684\u96f6\u662f\u652f\u6301\u6548\u5e94\u7684\u8bc1\u636e,\u800c\u4e0a\u9762\u8fd9\u6761\u6bd4\u8f83\u5bf9\u7b26\u53f7\u662f\u778e\u7684,\u8bf7\u81ea\u884c\u5224\u8bfb (#758)"
+  ],
+  [
+   "\u0394_distance vs its own floor [null: cell-wise permutation floor-difference null (n, margins and ties preserved inside each cell)]",
+   "(+0.2685) - (+0.0000) = +0.2685 vs 2*0.0007",
+   true,
+   "400.3x its own spread"
+  ],
+  [
+   "\u0394_distance",
+   "+0.2685 \u00b1 0.0126",
+   true,
+   "\u6765\u6e90 bootstrap_\u4eba\u5c42"
+  ],
+  [
+   "\u0394_act at matched distance",
+   "|+0.2945| > 2*0.0215 = 0.0430",
+   true,
+   "13.7x its own spread"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

@@ -43390,3 +43390,133 @@ survived four separate attacks; the number has not survived any of them intact.*
 ③ ⚠ Still `OPEN`: `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
    `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
    `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 890 · `E03·A105·R328` — the same act, asked at two distances: 80% of the "act" gap lives inside one act
+
+**BASIN ESCAPE, DECLARED BEFORE THE RUN.** `R323`–`R327` are five consecutive rounds that all
+attacked the **magnitude** of one coupling claim — is it big (`#883`), is it the ruler (`#888`), did
+it move (`#885`), was there a break (`#887`), is it one wave (`#889`). Each ended in a downgrade of
+my own previous number, and **the direction survived every time** (210/210, then 62/62). Every one of
+those grids varied estimator, sample rule, wave, trio — **parameters inside a fixed decomposition**
+{act · sanction format · ruler quality · time}. **The sign was never attacked, because the rival that
+threatens it is not in that list.**
+
+**THE RIVAL, AND IT IS VISIBLE WITHOUT ANY STATISTICS — LOOK AT THE PAIRS AS QUESTIONS.**
+
+| | the norm item asks | the sanction item asks | same proposition? |
+|---|---|---|---|
+| **abortion** | is it *wrong* to abort **if the family is poor** | should the law *allow* abortion **if the family is poor** | ⚠ **YES — one proposition, asked morally and then legally** |
+| **homosexuality** | are same-sex *relations* wrong (**an act**) | may *a homosexual man* speak / teach / keep his book (**a person's liberties**) | **NO — different object, different domain** |
+
+⇒ **`#883` compared a distance-0 pair against a distance-large pair and called the difference an
+ACT.** `#883`'s own cross-reason sham had already measured the ingredient (within-reason |ρ| 0.737 vs
+cross-reason 0.447); **I recorded that number and then spent four more rounds comparing acts.**
+
+**THE SEPARATOR — a complete 2×2 that GSS makes possible and nobody had assembled.** The wrongness
+question exists for two reasons (`abpoorw`, `abdefctw`) and the legality question for the same two
+(`abpoor`, `abdefect`). **Cross them.** *Every item then appears exactly once as MATCHED and once as
+MISMATCHED, so "one item is simply better" is DIFFERENCED OUT* — and all four cells are 4-point ×
+binary, so **`#888`'s format confound is absent by construction.** `n = 2,107`, waves 1991/1998/2008.
+
+| | ρ | residual `1−ρ²` |
+|---|---|---|
+| **MATCHED** `abpoorw` × `abpoor` | −0.7372 | **0.4565** |
+| **MATCHED** `abdefctw` × `abdefect` | −0.6294 | **0.6038** |
+| **MISMATCHED** `abpoorw` × `abdefect` | −0.4469 | **0.8003** |
+| **MISMATCHED** `abdefctw` × `abpoor` | −0.4506 | **0.7970** |
+
+> **Δ_distance = +0.2685, 95% [+0.2438, +0.2929] — against `#883`'s entire act gap of +0.3340.**
+> **Changing only the REASON, inside one act, with the format, the people and the waves held fixed,
+> buys 80% of what this project has been calling a difference between ACTS.**
+
+⚠ *"Should this zero be zero?"* — **NO.** The four cells differ in tie structure and marginal skew,
+and `1−ρ²` under pure noise has a floor that depends on both ⇒ **`offset_control`**, **kind of null
+named: a CELL-WISE PERMUTATION FLOOR-DIFFERENCE NULL** (sanction permuted *within each cell*, n,
+margins and ties preserved). It returns **+0.00000 ± 0.00067** — the crossing leaves nothing free,
+which is exactly what the crossing was for. **Δ_distance is 400× its own floor spread.**
+
+**AND THE ACT DID NOT DIE — SO THE VERDICT IS `C`, NOT THE `B` I DESIGNED FOR.** At matched
+reason-distance (homosexuality against the abortion trios that **exclude** `abpoor`),
+**Δ_act = +0.2945, 95% [+0.2242, +0.3103].** **Two effects of the same order live in this data, and
+`#883` reported one of them while measuring their sum.**
+
+**⇒ ONE VERDICT WITH TWO HALVES, SAID TOGETHER (`#882`'s structural fix — the curve is computed
+before the adjudication, and the adjudication reads the union):** ① **world C is `CONFIRMED`** — both
+are real, neither kills the other; ② **and that `OVERTURNS` what `#883` and `#888` said their number
+MEANT.** The quantity stands; the sentence attached to it does not.
+
+**THE 5× DISCREPANCY BETWEEN E1 AND E2 IS A MECHANISM, MEASURED, NOT AN INCONSISTENCY.** In
+`#888`'s index format the same manipulation gives only **+0.0582** (spearman) / +0.0521 / +0.0313.
+**Because a trio that EXCLUDES `abpoor` still correlates with it at ρ = +0.789 [+0.526, +0.848]** —
+*an index of the same act re-imports the matched content, so indexing DILUTES the manipulation.*
+⚠ **The homosexuality battery cannot re-import anything: GSS carries no item asking whether the
+homosexual ACT should be legal.** ⇒ **E3 is PARTIALLY IDENTIFIED and `+0.2945` is an UPPER BOUND on
+the act contribution** — I equalised *reason*-distance and **cannot** equalise *object*-distance
+(an act vs a person), which stays bundled with the act. **Stated, not smoothed over.**
+
+**CONTROLS.** **Positive** — a graded synthetic mismatch (each respondent's sanction replaced by an
+independent draw with probability `g`): `0.0000 → 0.1018 → 0.2371 → 0.4074 → 0.5089 → 0.5430`,
+**monotone, direction read off the sweep and not supplied by me**, floor **0.0000** and ceiling
+**0.5430** MEASURED, the threshold `2·sd = 0.0013` lying **strictly between**, and **at g = 0 it does
+not fire.** **Placebo** — the same distance on two random halves of the same people: **−0.00167**,
+1% of the effect and opposite in sign. **Negative** — global permutation drives the four-cell mean
+residual to **0.9995** (observed 0.6644). **World-D test**: the two MATCHED cells differ by 0.1473
+against |Δ_distance| 0.2685 ⇒ **D does not fire**, though 0.147 is 55% of the contrast and says
+plainly that item identity still matters alongside distance. **ALL GATES PASS.**
+
+**`G3`/`G4` — the whole grid, disagreeing cells published.** 4 cells × 3 estimators × (3 waves +
+pooled) ⇒ **12/12 positive**, spread 0.1834, median +0.2216 (spearman pooled +0.2685; gamma pooled
++0.1979; 1991 +0.1962, 1998 +0.2923, 2008 +0.3385 — **the same wave `#889` flagged is again the
+extreme cell, in a statistic that has nothing to do with time**). E2: +0.0582 / +0.0521 / +0.0313
+across estimators, with **98.0%** of (excluding, containing) trio pairs ordered as predicted.
+
+**AN AUDIT OF MY OWN PRIOR CODE RODE ALONG, AND IT CAME BACK CLEAN — WHICH IS WHY IT IS RECORDED.**
+`#883`/`#888`/`#889` all coded the homosexuality norm as `W = 4 − homosex` and masked on `W.notna()`.
+**`homosex` carries a fifth code** ("other", 82 release-wide) which that expression silently maps to
+`W = −1` rather than to missing. **In this round's sample: 0 respondents.** The spec curve was run
+both ways and is identical to four decimals. *A variable name is not a measurement — and the check
+that clears you is worth the same as the one that convicts you, because otherwise nobody runs it.*
+
+**AND MY REPRODUCTION AGREES WITH `#888`'s OWN GRID, WHICH REFRAMES `#888`'s HEADLINE.** On the
+crossed sample the all-trio Δ_act is **+0.3201** — that is `#888`'s published **median** (+0.320),
+not its headline (+0.051, the **difficulty-matched cell, the lowest of its 210**). **`#888` was not
+wrong — it published the range — but it led with the bottom of it.** ⇒ strengthens `#888`②/`#889`②,
+settles neither.
+
+**⇒ One sentence about people: how tightly what an American thinks is wrong predicts what he wants
+done about it turns out to depend less on WHICH ACT you ask about than on whether you asked him the
+same case twice — the distance between the moral question and the legal question buys 80% of what
+this project had been calling a difference between acts, and the act, once that is taken out, is
+still there and no bigger than the wording.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **`abdefctw` exists only 1991/1998/2008** ⇒ wave 2018 is out of the crossed design; a homogeneity
+   test on three cells is a **BOUND**, never a demonstration.
+② **"distance" has NO external gold standard here** — it is operationalised as *reason-identity*, a
+   binary. A continuous validated distance needs an external corpus or embedding, i.e. **a different
+   instrument whose own validity would then need establishing.** ⇒ **construct validation: N/A**.
+③ **object-distance CANNOT be equalised in GSS** — there is no item asking whether the homosexual
+   act should be legal. ⇒ **E3 is an upper bound, and no round on this release can make it a point.**
+④ **causally identified · interventionally validated: N/A** — repeated cross-sections; nobody is
+   randomised into being asked a matched question.
+⑤ **the crossing is 2×2 and cannot be widened** — GSS asks the wrongness form for exactly two
+   reasons, so **whether distance is GRADED or BINARY is not identifiable here.**
+⑥ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The instrument that would close object-distance is now NAMED, and it is not in `data/external/`
+   (`brfss · dplace · dataverse · gss · ngram · nsfg · openpsych · yrbs`).** It needs, for BOTH acts,
+   a moral item and a legal item about the **identical proposition** — for homosexuality that is
+   *"should homosexual relations between consenting adults be legal"*, which Gallup has asked since
+   1977 and GSS has never asked. **Until then, every act claim in A103/A104 is an upper bound.**
+   ⇒ `#890`①
+② ⚠ **Every "which act" sentence in this project's two pages now needs the distance caveat**, and
+   `#888`②/`#889`② were already asking for ranges on the same rows. **The page still carries points.**
+   ⇒ `#890`②
+③ ⚠ **2008 is the extreme cell AGAIN**, now in a statistic with no time in it (+0.3385 vs +0.1962 /
+   +0.2923). `#887`①'s ban is on time-series rounds and this was not one — but **the same wave being
+   extreme in two unrelated statistics is either one real cell or one sampling accident, and four
+   waves cannot say which.** Do not open a third line on it without a fifth wave. ⇒ `#890`③
+④ ⚠ Still `OPEN`: `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
+   `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
