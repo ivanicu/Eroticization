@@ -165,7 +165,7 @@ class Gate:
     _CONTROL_METHODS = ("negative_control", "positive_control", "identity_control",
                         "offset_control", "control_kept_the_sample",
                         "positive_control_at_the_contested_magnitude",
-                        "headroom_control")
+                        "headroom_control", "interval_control")
 
     def __init__(self, question):
         self.question = question
@@ -191,6 +191,52 @@ class Gate:
         wrapped.__doc__ = fn.__doc__
         return wrapped
 
+
+
+    # ---- #811: 「窄的零」与「宽的零」是两句话,而我把它们写进过同一个分支两次 ----
+
+    @staticmethod
+    def interval_verdict(lo, hi, reference=0.0, matters=None):
+        """三值:`EXCLUDES` · `TIGHT_NULL`(测出来约等于没变)· `UNRESOLVED`(测不出)。
+
+        ⚠ 为什么必须机械化:`#808`② 记下「三档分类看起来穷尽其实不穷尽」,
+          **三轮之后 `#810` 又把一个宽度 0.185 的区间写成「没有分辨力」** ——
+          那是一个**窄的零**,而「测不出」与「测出来约等于没变」是两句完全不同的话。
+          **两次都不是疏忽,是同一个默认动作。** `#600`:只靠记性执行的规矩,失效是默认状态。
+
+        ⚠⚠ **而缺的那个输入才是关键,这也是为什么光靠自律修不好它:**
+          「窄」这个词**单独没有意义** —— 它只相对于「多大的变化才算数」才有意义。
+          ⇒ `matters` **必须显式给**,给不出来就说明这一轮还不知道自己在找多大的东西,
+          **那时正确的答案是 `UNRESOLVED`,不是「零」。**
+
+        判据(等价性检验的形状,不是显著性检验的形状):
+          区间排除 `reference`                      -> `EXCLUDES`
+          区间整个落在 `reference ± matters` 之内   -> `TIGHT_NULL`
+                                                      (**连一个「算数」那么大的变化都排除掉了**)
+          否则                                       -> `UNRESOLVED`
+
+        ⚠ P6 代理账:
+          PROPERTY   这个零是「真的没变」还是「没测出来」
+          PROXY      区间与 `reference ± matters` 的包含关系
+          IMPLICATION 只有一个方向可靠:**区间没落在带内 -> 确实没排除掉一个算数的变化**(可靠)。
+                     反过来不成立:**落在带内不证明真值就是 `reference`** —— 它只证明
+                     **一个「算数」那么大的偏离被排除了**,而 `matters` 是我选的。
+          SAFE SIDE  只报「没排除」;**从不认证「真的等于零」。**
+        """
+        if lo > hi: lo, hi = hi, lo
+        if lo > reference or hi < reference: return "EXCLUDES"
+        if matters is None: return "UNRESOLVED"      # ⚠ 说不出多大才算数 ⇒ 不许叫「零」
+        assert matters > 0, "「多大才算数」必须为正(#811)"
+        return "TIGHT_NULL" if (lo >= reference - matters and hi <= reference + matters) else "UNRESOLVED"
+
+    def interval_control(self, name, lo, hi, reference=0.0, matters=None, what=""):
+        """把 `interval_verdict` 写成一行,并**强制把 `matters` 印在行里**(不写下来就等于没定)。"""
+        v = self.interval_verdict(lo, hi, reference, matters)
+        detail = (f"[{lo:+.4f}, {hi:+.4f}] 对参照 {reference:+.4f} · "
+                  f"「多大才算数」= {('未给 ⇒ 一律 UNRESOLVED' if matters is None else f'{matters:+.4f}')} ⇒ **{v}**")
+        if what: detail += f" —— {what}"
+        self.rows.append((name, detail, v != "UNRESOLVED", "control"))
+        return v
 
     # ---- #803: a plant that demands a change near the reachable limit ----
 
