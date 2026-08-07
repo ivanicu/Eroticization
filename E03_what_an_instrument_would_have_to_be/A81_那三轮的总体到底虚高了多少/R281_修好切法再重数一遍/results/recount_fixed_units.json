@@ -1,0 +1,108 @@
+{
+ "controls": {
+  "anchor_note_misattributed_by_old": true,
+  "old_misattributed_to": [
+   101
+  ],
+  "old_para_duplicated_row": true,
+  "new_para_duplicated_row": false,
+  "no_table_identical": true,
+  "ok": true
+ },
+ "population": {
+  "README_zh.md": {
+   "old_units": 417,
+   "new_units": 385,
+   "old_chars": 423940,
+   "new_chars": 328952,
+   "old_rows": 140,
+   "old_paras": 277,
+   "new_paras": 245
+  },
+  "README.md": {
+   "old_units": 388,
+   "new_units": 356,
+   "old_chars": 1030060,
+   "new_chars": 805977,
+   "old_rows": 140,
+   "old_paras": 248,
+   "new_paras": 216
+  }
+ },
+ "recount": {
+  "798": {
+   "old": {
+    "CLUMP": 26,
+    "PTR": 33
+   },
+   "new": {
+    "CLUMP": 22,
+    "PTR": 27
+   },
+   "moved_units": 4,
+   "moved_use_side": 2
+  },
+  "807": {
+   "old": {
+    "TOP": 76,
+    "MARK_TOP": 49,
+    "MARK_GEN": 8,
+    "GEN": 4
+   },
+   "new": {
+    "TOP": 54,
+    "MARK_TOP": 43,
+    "MARK_GEN": 6,
+    "GEN": 4
+   }
+  },
+  "828": {
+   "old": {
+    "MARKED": 85,
+    "TARGET": 22
+   },
+   "new": {
+    "MARKED": 49,
+    "TARGET": 12
+   }
+  }
+ },
+ "changed": [
+  "#798:CLUMP",
+  "#798:PTR",
+  "#807:MARK_GEN",
+  "#807:MARK_TOP",
+  "#807:TOP",
+  "#828:MARKED",
+  "#828:TARGET"
+ ],
+ "inflation_pct": {
+  "README_zh.md": 28.875945426688393,
+  "README.md": 27.802654418178186
+ },
+ "patterns": {
+  "798": [
+   "ANC",
+   "CLUMP",
+   "IV",
+   "PTR"
+  ],
+  "807": [
+   "ANC",
+   "GEN",
+   "MARK_GEN",
+   "MARK_TOP",
+   "TOP"
+  ],
+  "828": [
+   "ANC",
+   "MARKED",
+   "TARGET"
+  ]
+ },
+ "correction_to_833": "not invisible to para — misattributed to the NEXT anchor",
+ "admissible": true,
+ "verdict": "**B 计数确实受切法影响,而且幅度不小 —— 但「判词会不会翻」本轮没测,不许当成已测。**\n  总体字符虚高:README_zh.md **+28.9%** · README.md **+27.8%**\n  七项计数全变,最大的两项:`#828`:MARKED **85 → 49(−42%)** · `#828`:TARGET **22 → 12(−45%)**;`#807`:TOP **76 → 54(−29%)**。\n  ⚠ 且 **`#798` 有 4 个单位在两版之间换了 owner**(748 与 825 各两处,一个在使用侧一个在撤回侧)—— **而 `#798` 的判词正是建在 owner 上的**,所以它是最可能翻的一条。\n  ⚠⚠ **但我没有重算那三轮的判词本身**(`#798` 的 `naked==0`、`#807`/`#828` 的「两条更正都落地」)⇒ **登记为未测,不是「受影响」也不是「没事」。**\n  ⇒ **一句关于方法的话:一个总体定义错了 28%,而这 28% 是同一段文本被数了两次 ——\n  重复的是文本不是单位,所以「有几个单位命中」这种计数受影响,\n  而「有没有一个单位裸着」这种判词可能完全不受影响。计数变了不等于结论变了,\n  但也绝不等于结论没变 —— 这两句话我这一轮只有资格说前半句。**",
+ "gate_ok": false,
+ "action": "Production + 更正 #833"
+}
