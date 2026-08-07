@@ -52,5 +52,6 @@ debt	raised_in	status	settled_in	note
 #854①	854	SETTLED	855	Gate.asserted(kind="kill") 缺 population 参数:#836① 补了 yardstick,而本轮证明尺对了、总体错了一样给反判词,且字符串检查看不出来
 #856①	856	SETTLED	857	GSS 有 399 个宗教变量:查有没有一张与 NSFG reldlife(日常重要性)更接近的私人脸,以拆开「仪器不同 vs 私人脸不同」的共线
 #857①	857	OPEN		#856 的共线仍开着但有了价码:拆它需一年内同时问四张脸且 n 足够大;GSS 2021 有前者无后者(2,363 人,地板 0.124)。不要再在 GSS 内找第五张脸
-#858①	858	OPEN		把生态学推断变成测量:直接数同一个人里 homosex==1 且 colhomo 允许的比例,并分虔诚/世俗两层
+#858①	858	SETTLED	859	把生态学推断变成测量:直接数同一个人里 homosex==1 且 colhomo 允许的比例,并分虔诚/世俗两层
 #858②	858	OPEN		未预注册线索:|Δobject| 从 1990s 的 0.26-0.50 涨到 2010s 的 0.54-0.88,判断与制裁的裂口自己在变宽
+#859①	859	OPEN		Gate 的 kill 行缺「方向」:#836① 补了 yardstick、#854 补了 population,而只要求量级的阈值会让符号翻转通过
