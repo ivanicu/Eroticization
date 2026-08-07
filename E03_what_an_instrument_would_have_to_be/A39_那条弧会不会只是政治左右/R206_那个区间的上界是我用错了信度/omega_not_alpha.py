@@ -96,9 +96,12 @@ G=Gate("#767 · ω 而不是 α")
 G.identity_control("① 信度取 1 时校正必须是恒等变换", observed=shares(1.0,1.0)[2], expected=P_raw[2],
                    tol=1e-9, what="去衰减在 rel=1 时是恒等;不等就是公式错了")
 if w_rel:
-    G.identity_control("② ω 与 α 必须给出不同的校正(否则本轮无内容)",
-                       observed=abs(P_w[2]-P_a[2]), expected=0.0, tol=1e-6,
-                       what="⚠ 这一条**故意反向**:若差为 0 则 PASS,而 PASS 在这里意味着本轮什么也没证明")
+    # ⚠⚠ 这一条第一版是**故意反向的 identity_control**(差 vs 0,必须 FAIL),
+    #    于是整轮汇总变成 UNVERIFIED —— 而 `#767` 自己就记下了这条,`#772` 又犯一次。
+    #    `#775` 的 lint 在 751 个脚本里把它扫出来。⇒ 用 `#772` 已验过的修法:**改成 `asserted` 的 PASS 形状。**
+    G.asserted("② ω 与 α 必须给出不同的校正(否则本轮无内容)",
+               bool(abs(P_w[2]-P_a[2])>1e-6),
+               f"两者校正后的残余差 {abs(P_w[2]-P_a[2]):.6f} > 1e−6;若不大于,本轮什么也没证明", kind="control")
 print(); print(G)
 print("\n"+"="*70)
 if not inrange: print("**单因子不适配,ω 不可用 ⇒ 区间维持 `#765` 的样子**")
