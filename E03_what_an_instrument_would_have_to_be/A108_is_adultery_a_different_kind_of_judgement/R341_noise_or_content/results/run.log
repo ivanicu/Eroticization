@@ -1,0 +1,53 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET ===
+  premarsx  n= 45697  1972–2024 (30 waves)  codes=[1, 2, 3, 4]
+  teensex   n= 33901  1986–2024 (22 waves)  codes=[1, 2, 3, 4]
+  xmarsex   n= 46266  1973–2024 (30 waves)  codes=[1, 2, 3, 4]
+  homosex   n= 44726  1973–2024 (30 waves)  codes=[1, 2, 3, 4, 5]
+  common waves 21 · `#902` read from its artifact (`#840`'s RULE; its own scope was the `homosex` item alone, so only the practice transfers): min|ρ| 0.4143 vs null 5th 0.6753
+
+=== (1) PER-ITEM MEAN |Spearman| WITH THE OTHER THREE, and its comonotone expectation ===
+  item        observed  comonotone   deficit  null 95th       p
+  pre           0.6879      0.8638   +0.1759     0.0716  0.0007
+  teen          0.6303      0.8633   +0.2330     0.0776  0.0000
+  extra         0.4619      0.8405   +0.3786     0.0934  0.0000
+  same          0.6883      0.9001   +0.2118     0.0495  0.0000
+
+  ⚠ Holm over the family of FOUR (all four reported whatever they do): **{extra, pre, same, teen}**
+
+=== (2) POSITIVE CONTROL — plant an item-specific departure into `xmarsex`, named before ===
+  g=0.00  deficit(extra) -0.0001 ± 0.0551
+  g=0.05  deficit(extra) +0.0382 ± 0.0620
+  g=0.10  deficit(extra) +0.1250 ± 0.0666
+  g=0.20  deficit(extra) +0.4600 ± 0.0761
+  g=0.35  deficit(extra) +0.7462 ± 0.0497
+  g=0.60  deficit(extra) +0.7172 ± 0.0419
+  ⚠ turning point MEASURED at g=0.35 (the deficit is BOUNDED, so a maximal plant saturates — the `#885`/`#887`/`#902` family, remedied by measuring rather than excusing)
+  monotone region g ∈ [0, 0.35] · g=0 -0.0001 lands on zero ⇒ the control CAN fail · top +0.7462 · threshold 0.0934 strictly between: True
+
+=== (3) G3/G4 — 4 thresholds × {all 21 waves · 1988–2018 only}; every item reported ===
+  ≤1 always wrong    all waves      deficits pre=+0.140 teen=+0.112 extra=+0.263 same=+0.304  ⇒ {extra, pre, same, teen}
+  ≤1 always wrong    pre-2021 only  deficits pre=+0.224 teen=+0.183 extra=+0.416 same=+0.483  ⇒ {extra, pre, same, teen}
+  ≤2 always/almost   all waves      deficits pre=+0.171 teen=+0.224 extra=+0.376 same=+0.209  ⇒ {extra, pre, same, teen}
+  ≤2 always/almost   pre-2021 only  deficits pre=+0.283 teen=+0.373 extra=+0.603 same=+0.335  ⇒ {extra, pre, same, teen}
+  ≤3 any wrongness   all waves      deficits pre=+0.161 teen=+0.162 extra=+0.514 same=+0.202  ⇒ {extra, pre, same, teen}
+  ≤3 any wrongness   pre-2021 only  deficits pre=+0.179 teen=+0.189 extra=+0.593 same=+0.231  ⇒ {extra, pre, same, teen}
+  mean 1–4           all waves      deficits pre=+0.147 teen=+0.158 extra=+0.367 same=+0.218  ⇒ {extra, pre, same, teen}
+  mean 1–4           pre-2021 only  deficits pre=+0.212 teen=+0.259 extra=+0.560 same=+0.344  ⇒ {extra, pre, same, teen}
+
+  **grid: 8/8 cells return the same subset {extra, pre, same, teen}**
+
+=== (4) THE CONDITIONAL KILL — all SIXTEEN subsets had a destination before the run ===
+  CONDITIONAL KILL -- Is adultery a different KIND of judgement, or just one that has not moved?
+   PASS  positive: a planted departure raises `extra`'s deficit (inside the MEASURED monotone region)  方向由数据给出:**上升**;灵敏度 g=0.1;g=0 -0.0001 · g=0.35 +0.7462   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  comonotone world, per item                                                                    |+0.0000| < 0.5*|+0.3786| = 0.1893   (null is 0% of the effect [零的方案: COMONOTONE BINOMIAL RESAMPLING NULL, PER ITEM — each item's own observed values reassigned to waves in one common order (link-free by construction, every marginal preserved), binomial noise at that wave's actual n, statistic recomputed for the same item])
+   => ALL GATES PASS
+
+  subset {extra, pre, same, teen} · grid agreement 8/8
+  gate three-valued : ALL GATES PASS
+  **VERDICT UNVERIFIED · UNLISTED SUBSET {extra, pre, same, teen} — no world predicted it; reported verbatim, and the nearest world is NOT adopted (`#901`①, second use)**
+
+  ⚠ A deficit says an item DEPARTS from comonotonicity, never WHY. 'Betrayal' is a reading,
+     not a measurement, and this design cannot distinguish it from any other reason an act
+     might move on its own clock. `[unchallenged]` — `door ③`.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A108_is_adultery_a_different_kind_of_judgement/R341_noise_or_content/results/noise_or_content.json

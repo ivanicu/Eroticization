@@ -1,0 +1,312 @@
+{
+ "entry": 903,
+ "round": "E03\u00b7A108\u00b7R341",
+ "verdict": "UNVERIFIED",
+ "world": "UNLISTED SUBSET {extra, pre, same, teen} \u2014 no world predicted it; reported verbatim, and the nearest world is NOT adopted (`#901`\u2460, second use)",
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021,
+  2022,
+  2024
+ ],
+ "observed_mean_abs_rho": {
+  "premarsx": 0.6878787878787879,
+  "teensex": 0.6303030303030303,
+  "xmarsex": 0.4619047619047619,
+  "homosex": 0.6883116883116883
+ },
+ "comonotone_mean": {
+  "premarsx": 0.863768284951663,
+  "teensex": 0.8632979617048069,
+  "xmarsex": 0.840548085650139,
+  "homosex": 0.9001392704511019
+ },
+ "deficit": {
+  "premarsx": 0.17588949707287516,
+  "teensex": 0.23299493140177663,
+  "xmarsex": 0.3786433237453772,
+  "homosex": 0.21182758213941355
+ },
+ "null_p95": {
+  "premarsx": 0.07158213776551588,
+  "teensex": 0.07758367599052118,
+  "xmarsex": 0.09338358348563677,
+  "homosex": 0.04951156482339622
+ },
+ "pvalues": {
+  "premarsx": 0.0006666666666666666,
+  "teensex": 0.0,
+  "xmarsex": 0.0,
+  "homosex": 0.0
+ },
+ "holm_subset": [
+  "extra",
+  "pre",
+  "same",
+  "teen"
+ ],
+ "plant_item": "xmarsex",
+ "positive_sweep": [
+  [
+   0.0,
+   -0.000144555042501604
+  ],
+  [
+   0.05,
+   0.03816713326918669
+  ],
+  [
+   0.1,
+   0.12496367006572351
+  ],
+  [
+   0.2,
+   0.4600286051306586
+  ],
+  [
+   0.35,
+   0.7461757912778447
+  ],
+  [
+   0.6,
+   0.7171714622735157
+  ]
+ ],
+ "positive_sd": [
+  0.05509958300868725,
+  0.06196835547509475,
+  0.06659715356498638,
+  0.07611926407914035,
+  0.049666554924202064,
+  0.0418979496492349
+ ],
+ "turning_point": 0.35,
+ "positive_ok": true,
+ "grid_rows": [
+  [
+   "\u22641 always wrong",
+   "all waves",
+   21,
+   [
+    0.14020549745584765,
+    0.1116123655052339,
+    0.2628746268282024,
+    0.30428603692209144
+   ],
+   [
+    0.005,
+    0.0175,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ],
+  [
+   "\u22641 always wrong",
+   "pre-2021 only",
+   18,
+   [
+    0.22353309532426058,
+    0.18281587083226003,
+    0.4158884781441537,
+    0.48275588625663873
+   ],
+   [
+    0.005,
+    0.01,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ],
+  [
+   "\u22642 always/almost",
+   "all waves",
+   21,
+   [
+    0.17101072381276972,
+    0.2237444397746804,
+    0.37597315447806073,
+    0.20889980907243033
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ],
+  [
+   "\u22642 always/almost",
+   "pre-2021 only",
+   18,
+   [
+    0.2834645587798771,
+    0.37331932585958305,
+    0.603484984560169,
+    0.33466961453572097
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ],
+  [
+   "\u22643 any wrongness",
+   "all waves",
+   21,
+   [
+    0.1605126596307498,
+    0.1620440342776902,
+    0.5143493217167185,
+    0.20182065190645115
+   ],
+   [
+    0.0,
+    0.0025,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ],
+  [
+   "\u22643 any wrongness",
+   "pre-2021 only",
+   18,
+   [
+    0.17888942446945755,
+    0.18921012418632388,
+    0.593192959940543,
+    0.23051480791358847
+   ],
+   [
+    0.005,
+    0.02,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ],
+  [
+   "mean 1\u20134",
+   "all waves",
+   21,
+   [
+    0.14737983515052966,
+    0.1584112934667139,
+    0.3666232148218687,
+    0.2181825065195393
+   ],
+   [
+    0.0025,
+    0.0025,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ],
+  [
+   "mean 1\u20134",
+   "pre-2021 only",
+   18,
+   [
+    0.2123231442911887,
+    0.25904916957929675,
+    0.559909835949884,
+    0.3444301949380157
+   ],
+   [
+    0.005,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "extra",
+    "pre",
+    "same",
+    "teen"
+   ]
+  ]
+ ],
+ "grid_top": [
+  "extra",
+  "pre",
+  "same",
+  "teen"
+ ],
+ "grid_top_n": 8,
+ "outcome_space": "16 subsets; 4 assigned to worlds, the other 12 assigned BEFORE the run to 'report verbatim and return UNVERIFIED on the world assignment'",
+ "unchallenged": true,
+ "gates": [
+  [
+   "positive: a planted departure raises `extra`'s deficit (inside the MEASURED monotone region)",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.1;g=0 -0.0001 \u00b7 g=0.35 +0.7462",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "comonotone world, per item",
+   "|+0.0000| < 0.5*|+0.3786| = 0.1893",
+   true,
+   "null is 0% of the effect [\u96f6\u7684\u65b9\u6848: COMONOTONE BINOMIAL RESAMPLING NULL, PER ITEM \u2014 each item's own observed values reassigned to waves in one common order (link-free by construction, every marginal preserved), binomial noise at that wave's actual n, statistic recomputed for the same item]"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

@@ -44655,3 +44655,90 @@ would have forced them to agree completely.**
    `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
    `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
    `#857`① · `#861`①.
+
+## Entry 903 · `E03·A108·R341` — a per-item mean over pairs is not per-item, and the remedy caught me
+
+**VERDICT `UNVERIFIED` on the world assignment. The subset that came back is `{extra, pre, same,
+teen}` — ALL FOUR items — which is one of the TWELVE cells I assigned, before the run, to *"report
+verbatim and do NOT adopt the nearest world."***
+
+**⚠⚠ AND THE NEAREST WORLD WOULD HAVE BEEN WRONG.** `extra` has by far the largest deficit
+(**+0.3786** against `teen` +0.2330, `same` +0.2118, `pre` +0.1759), so **`EXTRA` — "adultery is a
+different kind of judgement" — is exactly what I would have written** had `#901`①'s remedy not been
+in force. **It is the second use of that remedy and the second time it has changed the outcome**:
+last round reality returned a fifth world out of a space I had never written down; this round it
+returned the 13th of 16 cells, and the rule stopped me adopting the 2nd.
+
+**WHY THE ANSWER IS UNREADABLE, AND IT IS A DESIGN FAULT NOT A DATA FACT.** The estimand was
+*per item, its mean |Spearman| with the other three, minus what the comonotone world gives that
+item*. **A per-item MEAN OVER PAIRS is not per-item.** Every pair involving a departing item is
+degraded, and each such pair sits in **two** items' averages — so **one departing act lowers all
+four means**, and "all four depart" is what a single common departure looks like through this
+statistic. **The statistic cannot isolate an item, and I did not see that until the data showed me
+all four.** ⇒ `#903`①
+
+**THE NUMBERS, REPORTED WHOLE BECAUSE THE FAMILY IS FOUR AND ALL FOUR WERE PRE-COMMITTED.**
+
+| item | observed mean \|ρ\| | comonotone | deficit | its own null 95th | p |
+|---|---|---|---|---|---|
+| premarital | 0.6879 | 0.8638 | **+0.1759** | 0.0716 | 0.0007 |
+| teen | 0.6303 | 0.8633 | **+0.2330** | 0.0776 | 0.0000 |
+| **extramarital** | 0.4619 | 0.8405 | **+0.3786** | 0.0934 | 0.0000 |
+| same-sex | 0.6883 | 0.9001 | **+0.2118** | 0.0495 | 0.0000 |
+
+Holm over the family of four ⇒ **all four**, and **8/8 grid cells** (4 condemnation thresholds ×
+{all 21 waves · 1988–2018 only}) return the same subset. ⚠ **The ordering — `extra` largest — is
+NOT a test**, because nothing here compares the deficits *to each other* against a null for that
+comparison, and after the contamination above it would not mean what it looks like anyway.
+
+⚠ *"Should this zero be zero?"* — **YES**: under NOISE-ONLY each item's observed mean is drawn from
+the comonotone world's distribution **for that item**, so the deficit has expectation exactly 0. ⇒
+**`negative_control`**, **kind of null named: a COMONOTONE BINOMIAL RESAMPLING NULL, PER ITEM** —
+each item's own observed values reassigned to waves in one common order (link-free by construction,
+every marginal preserved), binomial noise at that wave's actual n, statistic recomputed for the same
+item. **It returns 0.0000.**
+
+**CONTROLS.** **Positive** — a departure planted into `xmarsex`, **named before the run so the
+control tests the instrument and not the world**: `−0.0001 → +0.0382 → +0.1250 → +0.4600 → +0.7462
+→ +0.7172`. ⚠ **The turning point was MEASURED at `g = 0.35`** — the deficit is bounded, so a
+maximal plant saturates, which is the `#885`/`#887`/`#902` family and is remedied by measuring
+rather than excusing. Inside the monotone region `[0, 0.35]`: monotone, **`g = 0` lands on zero so
+the control CAN fail**, threshold **0.0934 strictly between**, sensitivity `g = 0.10`. **ALL GATES
+PASS — and the round is still `UNVERIFIED`, because passing controls license reading a statistic,
+never reading a statistic that cannot answer the question.**
+
+**⇒ WHAT SURVIVES, AND IT IS NOT NOTHING.** Every one of the four acts departs from a common
+ordering by far more than sampling explains, in 8/8 specifications. **That strengthens `#902`** —
+the system is not one tide — **without singling out any act.** What does **not** survive is
+`#902`①'s tension: it is not resolved, it is shown to need a different statistic.
+
+**⇒ One sentence about people: none this round, and the reason is mine rather than theirs — I built
+a measure that cannot tell one act apart from its neighbours, because every act's score is partly
+made of its neighbours' scores.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **the statistic is CONTAMINATED ACROSS ITEMS by construction** — see above; this is not a
+   limitation of the data;
+② **a deficit says an item departs, never WHY** — "betrayal" is a reading, not a measurement;
+③ **the comonotone null assumes a COMMON link across items** (`#902`①'s standing limit);
+④ **T = 21**, and the MDE of the per-item deficit is **not computed** (`#898`'s standing debt);
+⑤ **mode is confounded with period**; **cohort is not separated from period**;
+⑥ **cross-instrument N/A — `no second instrument`, `only this one instrument`** (`#897`, `#891`);
+⑦ ⚠ **`[unchallenged]`** — `door ③`; `#899`'s pre-registration table is what a real adversary should
+   be scored against;
+⑧ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The repair is specific and is NOT run here, because designing it after seeing the failure and
+   then reading its result in the same breath is the thing this round just avoided**: an
+   uncontaminated per-item test needs a **leave-one-out** comonotonicity statistic — fit the common
+   order on the other three only, then ask how far the held-out item departs from it. That has no
+   cross-contamination and it is a different estimand. ⇒ `#903`①
+② ⚠ **`#111c` IS NOW LIVE ON THIS QUESTION.** This is **one** `UNVERIFIED` on *which act is
+   special*. **A second ends the line rather than buying a third**, and the leave-one-out round in
+   `#903`① is the one attempt it gets. ⇒ `#903`②
+③ ⚠ Still `OPEN`: `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② ·
+   `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① ·
+   `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
+   `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
+   `#852`① · `#857`① · `#861`①.
