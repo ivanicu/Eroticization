@@ -42406,3 +42406,42 @@ callers are not allowed to verify.**
 ② ⚠ Still `OPEN`: `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
    `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
 ③ ✅ **`#875`② is CLOSED.**
+
+## Entry 878 · `E03·A102·R317` — wired, and attacked through the hook rather than through the script
+
+**Type: PRODUCTION.** Pays `#877`①, raised one entry earlier: *a gate nobody runs is documentation.*
+
+`tools/registry_keys_gate.py` is now called by the shared pre-commit hook
+(`~/.claude/neural-commit/hooks/pre-commit`, the `*eroticization-operator*` branch, immediately
+after `readme_gate --precommit`), with the same **fail-loud-if-missing** discipline the file's own
+signpost already carries: *a guard whose script has moved is a guard that does NOT run.*
+
+**⚠ The attack was run through the HOOK, not through the script**, because those are two different
+objects and only one of them is what protects a commit. `#877` attacked the script on five vectors;
+this one plants a real broken key in a real file, **stages it, and attempts a real `git commit`**:
+- **planted `round_path("__planted_bad_key__.py")` ⇒ the commit is REFUSED**, with the gate's own
+  output and the block message printed;
+- **`HEAD` unchanged afterwards** (`b5cc047`), and the working tree clean once the probe was moved
+  out — so the refusal was a refusal, not a partial commit;
+- **the clean tree still passes** (`0 broken`, exit 0), which is the half that makes it a control
+  rather than a wall: a hook that blocked everything would also have passed the first bullet.
+
+⚠ **Why the hook and not `.git/hooks/`**: `core.hooksPath` points at the shared directory, so a hook
+installed in the project's own `.git/hooks/` **would never execute** — the file's existing signpost
+records that this was measured on git 2.53 with a positive control, and a guard installed where it
+cannot fire passes every visual inspection.
+
+**⇒ One sentence, and it is about the work: `#875` cost a day because the only instrument that could
+see the defect was a seventy-minute corpus sweep nobody had a reason to run. The gate makes the same
+observation cost nothing — but only from the moment it is attached to something that runs without
+being asked, and attaching it is a different act from writing it.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO**: ① the hook is **shared across projects** and dispatches by
+path, so it protects this repository and no other; ② it fires on **commit**, so a broken key can
+still live in the working tree for as long as you like — it bounds what enters history, not what
+exists; ③ the gate's own scope limit stands unchanged: **runtime-built keys are UNSEEN, not CLEARED**.
+
+**NEXT**
+① ⚠ Still `OPEN`: `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+② ✅ **`#877`① is CLOSED.**
