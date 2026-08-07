@@ -1,0 +1,250 @@
+{
+ "entry": 913,
+ "round": "E03\u00b7A111\u00b7R351",
+ "verdict": "OVERTURNED",
+ "world": "BOUND-ARTEFACT",
+ "estimand": "for each cell `#912` scored UNREADABLE: records obtainable with installed software (A) and norm items in the shipped text (B)",
+ "grid": [
+  {
+   "release": "nsfg",
+   "estimand": "(3) person-level norm vs a second quantity",
+   "state": "SUPPORTED",
+   "records": 16948,
+   "norm_items": 9
+  },
+  {
+   "release": "nsfg",
+   "estimand": "(1) comonotonicity >=3 series x >=8 waves",
+   "state": "NOT",
+   "records": 16948,
+   "norm_items": 9
+  },
+  {
+   "release": "yrbs",
+   "estimand": "(3) person-level norm vs a second quantity",
+   "state": "READABLE_EMPTY",
+   "records": 98021,
+   "norm_items": 0
+  },
+  {
+   "release": "yrbs",
+   "estimand": "(1) comonotonicity >=3 series x >=8 waves",
+   "state": "READABLE_EMPTY",
+   "records": 98021,
+   "norm_items": 0
+  },
+  {
+   "release": "brfss",
+   "estimand": "(3) person-level norm vs a second quantity",
+   "state": "READABLE_UNDECIDABLE",
+   "records": 433323,
+   "norm_items": -1
+  }
+ ],
+ "nsfg": {
+  "data_files": 15,
+  "layouts": 3,
+  "covered": 3,
+  "records": 16948,
+  "years": [
+   "2011",
+   "2013",
+   "2017",
+   "2019"
+  ],
+  "norm_items": [
+   "2011_2013_FemRespData.dat:CHCOHAB",
+   "2011_2013_FemRespData.dat:CHSUPPOR",
+   "2011_2013_FemRespData.dat:SAMESEX",
+   "2011_2013_FemRespData.dat:SXOK16",
+   "2011_2013_FemRespData.dat:SXOK18",
+   "2017_2019_FemRespData.dat:chsuppor",
+   "2017_2019_FemRespData.dat:samesex",
+   "2017_2019_MaleData.dat:chsuppor",
+   "2017_2019_MaleData.dat:samesex"
+  ],
+  "valid_share": 1.0,
+  "offset_valid_share": 1.0
+ },
+ "yrbs": {
+  "layout_vars": 269,
+  "dat_files": 8,
+  "rows_smallest": 98021,
+  "labels": 860,
+  "norm_labels": 0,
+  "behav_labels": 1
+ },
+ "brfss": {
+  "rows": 433323,
+  "cols": 350,
+  "codebook_files": 0,
+  "err": ""
+ },
+ "yrbs_national": {
+  "contents": [
+   "SADC_2023_National.MDB"
+  ],
+  "mdb": 1,
+  "mdbtools_on_path": false
+ },
+ "per_file": {
+  "2011_2013_FemRespData.dat": {
+   "n": 5601,
+   "coded_share": 1.0,
+   "shift_sweep": {
+    "-2": 1.0,
+    "-1": 1.0,
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0
+   },
+   "dist": {
+    "2": 2076,
+    "1": 1200,
+    "3": 1169,
+    "4": 1016,
+    "5": 125,
+    "9": 8,
+    "8": 7
+   },
+   "norm_items": [
+    "SAMESEX",
+    "SXOK18",
+    "SXOK16",
+    "CHSUPPOR",
+    "CHCOHAB"
+   ]
+  },
+  "2017_2019_FemRespData.dat": {
+   "n": 6141,
+   "coded_share": 1.0,
+   "shift_sweep": {
+    "-2": 1.0,
+    "-1": 1.0,
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0
+   },
+   "dist": {
+    "1": 2366,
+    "2": 1981,
+    "3": 893,
+    "4": 714,
+    "5": 172,
+    "8": 13,
+    "9": 2
+   },
+   "norm_items": [
+    "samesex",
+    "chsuppor"
+   ]
+  },
+  "2017_2019_MaleData.dat": {
+   "n": 5206,
+   "coded_share": 1.0,
+   "shift_sweep": {
+    "-2": 1.0,
+    "-1": 1.0,
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0
+   },
+   "dist": {
+    "2": 1856,
+    "1": 1496,
+    "3": 880,
+    "4": 816,
+    "5": 145,
+    "9": 8,
+    "8": 5
+   },
+   "norm_items": [
+    "samesex",
+    "chsuppor"
+   ]
+  },
+  "yrbs": {
+   "layout_vars": 269,
+   "dat_files": 8,
+   "rows_smallest": 98021,
+   "labels": 860,
+   "norm_labels": 0,
+   "behav_labels": 1
+  },
+  "brfss": {
+   "rows": 433323,
+   "cols": 350,
+   "codebook_files": 0,
+   "err": ""
+  }
+ },
+ "positive_sweep": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   2.0,
+   1.0
+  ],
+  [
+   3.0,
+   2.0
+  ],
+  [
+   4.0,
+   3.0
+  ]
+ ],
+ "sham_reader_succeeded": false,
+ "fake_rows": 0,
+ "gates": [
+  [
+   "positive: the norm-item rule detects planted norm items and returns 0 when none are planted",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=1.0;g=0 +0.0000 \u00b7 g=4 +3.0000",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "positive control fails at g=0",
+   "k=0 detected 0 norm items among 7 behaviour items",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "the same readers: invented release vs the releases actually on disk",
+   "|+0.0000| < 0.5*|+433323.0000| = 216661.5000",
+   true,
+   "null is 0% of the effect [\u672a\u7ed9 null_spread,\u53ea\u95ee\u4e86\u300c\u76f8\u5bf9\u6548\u5e94\u300d\u8fd9\u4e00\u534a (#125)] [\u96f6\u7684\u65b9\u6848: absent-file]"
+  ],
+  [
+   "sham: the XPT reader refuses a non-XPT file",
+   "reader on a foreign file succeeded=False",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "the byte-anchoring confound is registered, not claimed away",
+   "shift sweep reaches 1.0 off-anchor vs 1.0 on-anchor \u21d2 code-validity cannot anchor this parse; scope stated: the cell is READABLE and holds a norm item, and NO attitude is measured by this round",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every cell `#912` called UNREADABLE was actually opened this round",
+   "each cell reports a measured record count, not a directory listing   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: `#912`'s BOUND requires that no UNREADABLE cell holds a supportable pair",
+   "cells that opened=4/5 \u00b7 newly SUPPORTED=1   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   false,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: `#912`'s BOUND requires that no UNREADABLE cell holds a supportable pair). This is a refutation, NOT an unverified round (#366e)."
+}

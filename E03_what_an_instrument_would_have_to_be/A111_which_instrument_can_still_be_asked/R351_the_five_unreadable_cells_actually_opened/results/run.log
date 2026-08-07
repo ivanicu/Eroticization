@@ -1,0 +1,35 @@
+NSFG · 15 data files · 3 layouts · 3 files with a layout
+  2011_2013_FemRespData.dat          n=  5601  samesex coded=1.0000  shift sweep ['-2:1.000', '-1:1.000', '+0:1.000', '+1:1.000', '+2:1.000']  {'2': 2076, '1': 1200, '3': 1169, '4': 1016, '5': 125, '9': 8, '8': 7}
+  2017_2019_FemRespData.dat          n=  6141  samesex coded=1.0000  shift sweep ['-2:1.000', '-1:1.000', '+0:1.000', '+1:1.000', '+2:1.000']  {'1': 2366, '2': 1981, '3': 893, '4': 714, '5': 172, '8': 13, '9': 2}
+  2017_2019_MaleData.dat             n=  5206  samesex coded=1.0000  shift sweep ['-2:1.000', '-1:1.000', '+0:1.000', '+1:1.000', '+2:1.000']  {'2': 1856, '1': 1496, '3': 880, '4': 816, '5': 145, '9': 8, '8': 5}
+YRBS · layout vars=269 · 8 .dat · smallest=sadc_2023_state_q_t.dat rows=98021
+       value labels=860 · moral-evaluative=0 · behavioural=1
+       first cols read: ['sitecode', 'sitename', 'sitetype', 'sitetypenum', 'year', 'survyear'] -> ['SC', 'South Carolina (SC)', 'State', '2', '1991', '1']
+YRBS national: ['SADC_2023_National.MDB'] · mdbtools on PATH=False
+BRFSS · rows=433323 cols=350 err='' codebook_files=0
+
+=== THE GRID (all cells, including the ones that disagree) ===
+  nsfg     (3) person-level norm vs a second quantity   SUPPORTED              n=16948    norm_items=9
+  nsfg     (1) comonotonicity >=3 series x >=8 waves    NOT                    n=16948    norm_items=9
+  yrbs     (3) person-level norm vs a second quantity   READABLE_EMPTY         n=98021    norm_items=0
+  yrbs     (1) comonotonicity >=3 series x >=8 waves    READABLE_EMPTY         n=98021    norm_items=0
+  brfss    (3) person-level norm vs a second quantity   READABLE_UNDECIDABLE   n=433323   norm_items=-1
+
+positive control sweep (planted, detected): [(0.0, 0.0), (1.0, 1.0), (2.0, 1.0), (3.0, 2.0), (4.0, 3.0)]
+negative control: invented release rows=0 · empty-scores-readable=False
+sham: XPT reader on curves.json succeeded=False
+
+  CONDITIONAL KILL -- Are `#912`'s five UNREADABLE cells actually unreadable?
+   PASS  positive: the norm-item rule detects planted norm items and returns 0 when none are planted  方向由数据给出:**上升**;灵敏度 g=1.0;g=0 +0.0000 · g=4 +3.0000   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  positive control fails at g=0                                                                k=0 detected 0 norm items among 7 behaviour items   (asserted in code, not in prose)
+   PASS  the same readers: invented release vs the releases actually on disk                          |+0.0000| < 0.5*|+433323.0000| = 216661.5000   (null is 0% of the effect [未给 null_spread,只问了「相对效应」这一半 (#125)] [零的方案: absent-file])
+   PASS  sham: the XPT reader refuses a non-XPT file                                                  reader on a foreign file succeeded=False   (asserted in code, not in prose)
+   PASS  the byte-anchoring confound is registered, not claimed away                                  shift sweep reaches 1.0 off-anchor vs 1.0 on-anchor ⇒ code-validity cannot anchor this parse; scope stated: the cell is READABLE and holds a norm item, and NO attitude is measured by this round   (asserted in code, not in prose)
+   PASS  every cell `#912` called UNREADABLE was actually opened this round                           each cell reports a measured record count, not a directory listing   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   FAIL  KILL: `#912`'s BOUND requires that no UNREADABLE cell holds a supportable pair               cells that opened=4/5 · newly SUPPORTED=1   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: `#912`'s BOUND requires that no UNREADABLE cell holds a supportable pair). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: `#912`'s BOUND requires that no UNREADABLE cell holds a supportable pair). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : OVERTURNED · world BOUND-ARTEFACT
+  newly SUPPORTED   : [('nsfg', '(3) person-level norm vs a second quantity')]
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A111_which_instrument_can_still_be_asked/R351_the_five_unreadable_cells_actually_opened/results/unreadable_cells_opened.json

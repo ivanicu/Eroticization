@@ -45518,3 +45518,95 @@ missing PDF.**
    `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
    `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
    `#857`① · `#861`①.
+
+## Entry 913 · `E03·A111·R351` — the five cells I called unreadable, opened: three of them were never closed
+
+**⇒ `OVERTURNED` · world `BOUND-ARTEFACT`. `#912`'s terminal verdict was a fact about what I tried,
+not about the data. Its five `UNREADABLE` cells were scored from the DIRECTORY LISTING; not one file
+was opened. Four of the five open with software already installed, and one of them holds an untried
+supportable pair.**
+
+**WHY THIS AND NOT `#912`'s OWN NEXT.** `#912`② offered to re-rank three bookkeeping debts. But
+`#912` had just put a sentence on the front page telling any reader that **no further round is
+possible without one of three named acquisitions** — and that sentence rested on five cells scored
+without opening a file. **The most consequential claim the project has ever published was also its
+least examined.** `#911` called a basin and `#912` was the step out; this is the step whose
+**positive outcome I would rather not have had**, because it overturns the headline I committed one
+round earlier.
+
+**WHAT WAS ACTUALLY THERE.**
+
+| cell | `#912` said | measured this round |
+|---|---|---|
+| **nsfg**×(3) | `UNREADABLE` — 15 files, 2 layouts | ⚠ **SUPPORTED** — **3** layouts, **16,948 records** read (5,601 · 6,141 · 5,206), **9 norm items** |
+| **yrbs**×(3) | `UNREADABLE` — national file is Access | **READABLE, EMPTY** — 269-variable layout ships; **98,021** rows in the *smallest* of 8 `.dat`; **0 of 860** value labels moral-evaluative |
+| **yrbs**×(1) | `UNREADABLE` | **READABLE, EMPTY** — same layout, same zero |
+| **brfss**×(3) | `UNREADABLE` — 1.2 GB `.XPT`, no codebook | **READABLE, UNDECIDABLE** — **433,323 records × 350 columns** open with `pandas.read_sas`; **0** codebook files ship |
+| **nsfg**×(1) | `UNREADABLE` | **NOT** — the attitude block is small, but that is a content fact, not a format one |
+
+**AND THE ITEM IS THE PROJECT'S OWN SUBJECT.** All three shipped NSFG layouts carry
+`samesex` — **"Sexual relations between two same-sex adults is all right"** (`IH-3` in 2011–2013,
+`IH-1` in 2017–2019 female, `JG-1` male) — beside `chsuppor`, *"Okay for unmarried woman to have and
+raise a child"*. **A moral norm about a sexual act, on a national probability sample, in a file that
+has been on this disk since 2026-08-05 and was declared unreadable on 2026-08-07.**
+
+**CONTROLS.** **Positive**, and it fails at `g=0`: the norm-item rule is swept over planted items,
+`(planted, detected) = (0,0) (1,1) (2,1) (3,2) (4,3)` — monotone, and **0 detected among 7
+behaviour items**. **Negative**: the same readers on an invented release return 0 while returning
+433,323 on a real one — ⚠ **v1 of this control compared 0 to 0 and the gate called it DEGENERATE,
+correctly: a reader returning nothing on a missing file says nothing unless the same reader returns
+something on a present one.** **Sham**: the `XPT` reader refuses a non-`XPT` file, so the verdict
+tracks the file and not the code path. **Empty population exits 2.**
+
+**⚠ THE CONFOUND I NAMED FIRST, AND WHICH THIS SITE STRUCTURALLY CANNOT RULE OUT.** A fixed-width
+layout that is off by one byte still *reads* — it returns plausible small integers. I built the
+control four times and **all four failed to separate**: blank-scored-as-valid (1.0000 either way) ·
+`caseid` uniqueness (0.9909 vs 1.0000) · `caseid` monotonicity (0.9998 vs 1.0000) · and finally a
+two-sided sweep of the item's own byte window, **`-2 -1 0 +1 +2` → 1.0000 at every offset on all
+three files**. The reason is a property of the data, not of my care: **the `IH`/`JG` block is a
+dense run of 1-digit Likert items, so every neighbouring byte is a documented code by
+construction.** ⇒ **Registered as impossible here, with what it would require: the NSFG codebook's
+published marginals.** And it **bounds this round's claim** — the cell is readable and holds a norm
+item; **no attitude has been measured**, and this entry may not be cited as if one had been.
+
+**⚠ AND IT REVISES THE THREE ACQUISITIONS `#912` PUT ON THE FRONT PAGE.**
+① **NSFG layouts** — still wanted for 12 of 15 files, but **no longer blocking**: three cycles are
+   readable now. ② **BRFSS codebook** — **still needed, and the reason was wrong**: the file opens
+   fine; the document is for MEANING, not for OPENING. ③ **YRBS Access reader** — ⚠ **worthless for
+   this project**: the readable YRBS files carry **0 moral-evaluative labels of 860**, so a reader
+   for the national file buys a larger sample of the same absence. **A round acting on `#912`'s NEXT
+   would have spent itself installing a tool that could not have helped.**
+
+**⇒ One sentence about people: the project told itself it had run out of instruments, while 16,948
+Americans in a national probability sample had already been asked whether sexual relations between
+two same-sex adults are all right — and nobody had opened the file.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **byte-anchoring cannot be validated from inside the file** — measured above, four ways;
+② **absence of a norm item is scored from SHIPPED TEXT**, so BRFSS is `UNDECIDABLE` and not `0` —
+   `#891` measured a name/label screen missing **7/7** of a known battery, which is why a name
+   screen may not stand in for a codebook;
+③ the norm-item rule **misses evaluations carried by the RESPONSE SCALE rather than the stem** — it
+   does not fire on GSS's own *"Sexual relations between two adults of the same sex"* — so **every
+   `0` in this round is an upper bound, never a zero**;
+④ ⚠ `[unchallenged]` — door ③; ⑤ no second coder, no second release.
+
+**NEXT**
+① ⚠ **`#912`'s `BOUND` IS RETRACTED, AND `E03` IS NOT OVER.** The untried pair is
+   **nsfg × (3)** — `samesex` against person-level covariates, 16,948 records, three cycles. That is
+   a round about **people**, and it is the highest-leverage thing available. ⇒ `#913`①
+② ⚠ **BEFORE IT CAN RUN, THE PARSE NEEDS AN EXTERNAL ANCHOR** that this round proved cannot come
+   from inside the file. The cheapest candidate is the cross-cycle marginal shift, but ⚠ that is the
+   very quantity a study would want to report, so anchoring on it would be circular. **Name the
+   anchor before extracting anything.** ⇒ `#913`②
+③ ⚠ **THE ERROR CLASS, and it is the one `#911`② named one round before I committed it again**: I
+   score a thing by its DESCRIPTION when the thing itself is one command away. `#912` read a
+   directory listing and wrote a terminal verdict; `#891` read labels instead of question text;
+   `#910` read a JSON subset instead of the corpus. **Three entries, one habit, and the correction
+   each time came from opening the object.** ⇒ `#913`③
+④ ⚠ Still `OPEN`: `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ ·
+   `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ ·
+   `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② ·
+   `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
+   `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.
