@@ -42352,3 +42352,57 @@ runnable again and still unauditable.**
    `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
 ⑤ ✅ **`#875`① is CLOSED**: the repair is applied and measured. What it bought is **74 of 81 scripts
    that run again**; what it did not buy is **any way to check that they still say what they said**.
+
+## Entry 877 · `E03·A102·R316` — the gate that would have caught it on the day, and it flagged itself first
+
+**Type: PRODUCTION.** Labelled honestly — this round asks nothing about people. Pays `#875`②.
+
+`#875` measured that **nothing in this project checks that a registry caller's KEY still exists**.
+Twice in three days a restructure rebuilt the key vocabulary of `lib/rounds.py` and migrated no
+callers (`5807d87`, then `4819b9b`: 52 numbered filenames → 635 stems, **0 shared**), and the second
+one killed **79 of 836 scripts at one name** for a full day. It went unnoticed because **nothing in
+this project re-runs an old script**: the cheapest instrument that would have caught it is a full
+corpus sweep, which costs ~70 minutes. `tools/registry_keys_gate.py` costs one pass over the sources.
+
+**⚠⚠ AND ITS FIRST RUN FLAGGED ITSELF — the FOURTH instance in one session.** Written with a regex,
+it reported **2 broken references, both inside its own source**, because its docstring shows
+`round_path('k')` as an illustration. Today that shape has now appeared as: `named_defects` flagging
+the ledger for **quoting** the fabricated string it was retracting · a backtick pair spanning two
+adjacent code spans **inventing** a token `" and "` · an import scan counting a docstring that quotes
+the broken import · and now a key gate counting its own example.
+⇒ **In a project whose reports quote their own defects verbatim, the better the ledger, the noisier
+every grep.** The fix is not an exclusion list, which would have to grow forever and would silently
+clear whatever it hid: **an `ast.Call` cannot be written in a docstring**, so the gate now **parses
+rather than matches** and the whole class is gone.
+
+**`P7` — five vectors, each actually performed, with the tree verified clean afterwards:**
+① a `round_path("...")` call with an absent key ⇒ **fires (1)** · ② a `path("...")` call with an
+absent key ⇒ **fires (1)**, so both accessors are covered · ③ **the same two keys written in a
+docstring and in a string literal ⇒ does NOT fire (0)** — this is the mention-vs-use property, and it
+is the vector the regex version failed · ④ a key built at runtime ⇒ **does NOT fire**, correctly:
+it is **UNSEEN, and the gate says so rather than calling it clear** · ⑤ probe removed ⇒ back to 0.
+Two-sided control inside the gate itself: a real key must resolve **and its file must exist**; an
+invented key must be absent. **Empty population ⇒ exit 2**, never 0.
+
+**Current reading**: 875 sources scanned · **52 literal keys** · `LEGACY_PATHS` 52 · `ROUNDS` 635 ·
+**0 broken references**.
+
+**⇒ One sentence, and it is about the work: the registry was built so a path would be written once
+instead of copied into eighty callers, and it did that — then it moved the same fragility one level
+up, into the KEY, where nothing was looking. A registry without a key check is a promise that the
+callers are not allowed to verify.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **only literal keys are visible.** `#875` measured 30 of 80 importers building their key at
+   runtime; those are **UNSEEN, not CLEARED**, and no static gate can close that — it would need the
+   corpus sweep this gate exists to avoid;
+② it checks that a key **resolves to a path that exists**, never that the file at that path is
+   **the right file** — a rename that swapped two targets would pass;
+③ it is a gate, not a migration: it says a caller is broken, and **fixing it is still a judgement**.
+
+**NEXT**
+① ⚠ **The gate is not wired into the pre-commit hook.** Written but not enforced is the same shape
+   as *"the converter exists and not one entry has been converted"* (`#873`①). ⇒ `#877`①
+② ⚠ Still `OPEN`: `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+③ ✅ **`#875`② is CLOSED.**
