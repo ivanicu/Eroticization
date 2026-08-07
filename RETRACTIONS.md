@@ -42854,3 +42854,77 @@ rows are identical in this column.
    claim this round did not test and must not assert. ⇒ `#883`②
 ③ ⚠ Still `OPEN`: `#882`② · `#881`② · `#880`①② · `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① ·
    `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 884 · `E03·A102·R318` — the control I wrote to catch a script moving HEAD caught me moving HEAD
+
+**`UNVERIFIED`, and this is the SECOND consecutive UNVERIFIED on this question** (`#876` was the
+first). **The standing rule fires: two consecutive `UNVERIFIED` on the same question ⇒ change
+direction, never chase the third (`#111c`).** So this entry closes the line rather than re-running
+it, and the numbers below are **description with no standing to rule**.
+
+**WHY IT IS UNVERIFIED, and the answer is me.** Control ⑥ — added as `#875`④ after a sweep put two
+real commits on `main` — asserts `HEAD` is unchanged across the run. It fired:
+**`e5966c31a1` → `c70bfa075e`, MOVED.** No script did that. **I did**, by committing `#882` and
+`#883` while the sweep was running.
+- Earlier in the same session I reasoned that committing during the sweep was safe **because a
+  committed file is clean and therefore invisible to the round's restore step.** That reasoning was
+  correct about the *restore* and **wrong about the HEAD control**, which I had written myself two
+  entries earlier.
+- ⇒ **a round that pins `HEAD` forbids its author from committing while it runs**, and I did not
+  notice the constraint I had just created. **`#875`④'s own sentence — *a guard on a shared resource
+  cannot see another process about to change it* — applies one level up, and the other process was
+  me.** ⇒ `#884`①
+
+**THE DESCRIPTIVE NUMBERS** (no standing; the two control repairs `#876`① asked for did land, and
+both passed):
+| | |
+|---|---|
+| population | **regex 81 · AST 80 · mention-not-use 1** — the excluded one is `#875`'s own diagnostic script, whose docstring quotes the broken import. **The AST repair worked.** |
+| exit 0 | **73 of 79** (92.4%) |
+| exit 0 **and printed a gate block** | **18 of 79** ⇒ 55 exit 0 without printing one |
+| still dead | `TIMEOUT` 4 · `MISSING-INPUT` 1 · `OTHER` 1; **1 of the 6** hit another stale path |
+| `still_agrees` | **0 of 18 comparable · ABSENT 18** — unchanged from `#876`, and for the same structural reason: these scripts predate `lib/gates` |
+| cap curve (**derived**, labelled) | 30 s → 15 · 60 → 13 · 120 → 9 · **240 → 4 (measured)** |
+| wall clock | 44.0 min, strictly serial |
+
+**⚠⚠ AND `#876`② IS OVERTURNED BY ITS OWN FOLLOW-UP.** `#876` measured `bootstrap_noise_floor.py`
+non-identical across **two** solo runs and I filed a debt saying *a bootstrap whose floor is itself a
+draw*. Run **five** times, alone, serially: **1 distinct output — DETERMINISTIC.**
+⇒ **the two-run difference was a transient whose cause is not identified**, and the "not seed-locked"
+claim is **withdrawn**. `#876`② as written is wrong; what replaces it is a smaller and more
+uncomfortable question: **something made that script differ once, and five clean runs do not say
+what.** ⇒ `#884`②
+
+**⚠ AND A SIXTH VERDICT-STRING OVERREACH, in the code I wrote for this very round.** The
+characterisation prints
+`=> **1 distinct outputs in 5 runs (DETERMINISTIC)** ⇒ a bootstrap whose FLOOR is itself a draw` —
+**the clause after the arrow is unconditional**, appended regardless of the branch the same line just
+computed. It asserts the opposite of its own measurement. Sixth in this project's history, and the
+mechanism is unchanged: **the trailing clause of a print is prose, and prose is not a computation.**
+
+**Restore (`#874`②) worked**: **30** untracked byproducts relocated by LOCATION, **2** tracked files
+restored with their pre-restore copies kept first, tree clean outside the round.
+
+**⇒ One sentence, and it is about the work: I added a control to catch a script writing to git
+history, and the first thing it caught was me — committing two other rounds while it ran, because I
+checked my commits against the round's RESTORE step and never against the round's own guard. A
+constraint you create in the morning is not a constraint you remember at noon, which is the entire
+argument for putting it in code; and the code did exactly what it was for.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① the question *does the repair bring them back, and do they still agree* is **closed by rule, not by
+   answer** — `#111c` forbids a third attempt after two `UNVERIFIED`. Re-opening it requires a
+   different question, not a third run;
+② `still_agrees` remains **undefined on this population** — 80 of 81 scripts predate `lib/gates`, so
+   there is no committed verdict to compare against, and no design can supply one now;
+③ `TIMEOUT` is a statement about the 240 s cap, not about the corpus.
+
+**NEXT**
+① ⚠ **A round that pins `HEAD` must SAY SO where the author will see it** — printing the constraint
+   at launch, not only asserting it at the end. The end-assertion is a detector; the launch-print is
+   the guard. ⇒ `#884`①
+② ⚠ **`#876`② is withdrawn and replaced**: `bootstrap_noise_floor.py` is deterministic over 5 solo
+   runs, so the single observed difference is an **unidentified transient**. Not "it is fine" — an
+   unexplained one-off in a determinism check is exactly what `#872` mistook for load. ⇒ `#884`②
+③ ⚠ Still `OPEN`: `#883`①② · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
+   `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
