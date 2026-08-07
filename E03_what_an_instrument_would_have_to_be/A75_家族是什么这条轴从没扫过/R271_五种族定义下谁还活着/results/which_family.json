@@ -1,0 +1,240 @@
+{
+ "cells": [
+  "rel/homosex/1970",
+  "rel/homosex/1980",
+  "rel/homosex/1990",
+  "rel/homosex/2000",
+  "rel/homosex/2010",
+  "rel/teensex/1980",
+  "rel/teensex/1990",
+  "rel/teensex/2000",
+  "rel/teensex/2010",
+  "rel/sexeduc/1970",
+  "rel/sexeduc/1980",
+  "rel/sexeduc/1990",
+  "rel/sexeduc/2000",
+  "rel/sexeduc/2010",
+  "rel/suicide2/1980",
+  "rel/suicide2/1990",
+  "rel/suicide2/2000",
+  "rel/suicide2/2010",
+  "rel/spanking/1980",
+  "rel/spanking/1990",
+  "rel/spanking/2000",
+  "rel/spanking/2010",
+  "rel/prayer/1970",
+  "rel/prayer/1980",
+  "rel/prayer/1990",
+  "rel/prayer/2000",
+  "rel/prayer/2010",
+  "rel/racmar/1970",
+  "rel/racmar/1980",
+  "rel/racmar/1990",
+  "rel/helpblk/1980",
+  "rel/helpblk/1990",
+  "rel/helpblk/2000",
+  "rel/helpblk/2010",
+  "pol/homosex/1980",
+  "pol/homosex/1990",
+  "pol/homosex/2000",
+  "pol/homosex/2010",
+  "pol/teensex/1990",
+  "pol/teensex/2000",
+  "pol/teensex/2010",
+  "pol/sexeduc/1980",
+  "pol/sexeduc/1990",
+  "pol/sexeduc/2000",
+  "pol/sexeduc/2010",
+  "pol/suicide2/1980",
+  "pol/suicide2/1990",
+  "pol/suicide2/2000",
+  "pol/suicide2/2010",
+  "pol/spanking/1990",
+  "pol/spanking/2000",
+  "pol/spanking/2010",
+  "pol/prayer/1980",
+  "pol/prayer/1990",
+  "pol/prayer/2000",
+  "pol/prayer/2010",
+  "pol/racmar/1980",
+  "pol/racmar/1990",
+  "pol/helpblk/1980",
+  "pol/helpblk/1990",
+  "pol/helpblk/2000",
+  "pol/helpblk/2010"
+ ],
+ "n_cells": 62,
+ "B": 6000,
+ "q": 0.05,
+ "ps": {
+  "rel/homosex/1970": 0.725,
+  "rel/homosex/1980": 0.102,
+  "rel/homosex/1990": 0.00016663889351774705,
+  "rel/homosex/2000": 0.0023333333333333335,
+  "rel/homosex/2010": 0.218,
+  "rel/teensex/1980": 0.486,
+  "rel/teensex/1990": 0.722,
+  "rel/teensex/2000": 0.058666666666666666,
+  "rel/teensex/2010": 0.004666666666666667,
+  "rel/sexeduc/1970": 0.6256666666666667,
+  "rel/sexeduc/1980": 0.312,
+  "rel/sexeduc/1990": 0.029666666666666668,
+  "rel/sexeduc/2000": 0.20066666666666666,
+  "rel/sexeduc/2010": 0.7803333333333333,
+  "rel/suicide2/1980": 0.864,
+  "rel/suicide2/1990": 0.5436666666666666,
+  "rel/suicide2/2000": 0.33,
+  "rel/suicide2/2010": 0.5783333333333334,
+  "rel/spanking/1980": 0.13833333333333334,
+  "rel/spanking/1990": 0.69,
+  "rel/spanking/2000": 0.425,
+  "rel/spanking/2010": 0.5873333333333334,
+  "rel/prayer/1970": 0.38033333333333336,
+  "rel/prayer/1980": 0.692,
+  "rel/prayer/1990": 0.15033333333333335,
+  "rel/prayer/2000": 0.5653333333333334,
+  "rel/prayer/2010": 0.7303333333333333,
+  "rel/racmar/1970": 0.42033333333333334,
+  "rel/racmar/1980": 0.746,
+  "rel/racmar/1990": 0.325,
+  "rel/helpblk/1980": 0.336,
+  "rel/helpblk/1990": 0.4066666666666667,
+  "rel/helpblk/2000": 0.23733333333333334,
+  "rel/helpblk/2010": 0.48433333333333334,
+  "pol/homosex/1980": 0.20566666666666666,
+  "pol/homosex/1990": 0.28933333333333333,
+  "pol/homosex/2000": 0.22233333333333333,
+  "pol/homosex/2010": 0.779,
+  "pol/teensex/1990": 0.9436666666666667,
+  "pol/teensex/2000": 0.25633333333333336,
+  "pol/teensex/2010": 0.658,
+  "pol/sexeduc/1980": 0.867,
+  "pol/sexeduc/1990": 0.5326666666666666,
+  "pol/sexeduc/2000": 0.06866666666666667,
+  "pol/sexeduc/2010": 0.011,
+  "pol/suicide2/1980": 0.20166666666666666,
+  "pol/suicide2/1990": 0.656,
+  "pol/suicide2/2000": 0.6866666666666666,
+  "pol/suicide2/2010": 0.959,
+  "pol/spanking/1990": 0.23333333333333334,
+  "pol/spanking/2000": 0.08366666666666667,
+  "pol/spanking/2010": 0.21566666666666667,
+  "pol/prayer/1980": 0.2906666666666667,
+  "pol/prayer/1990": 0.5876666666666667,
+  "pol/prayer/2000": 0.18133333333333335,
+  "pol/prayer/2010": 0.8676666666666667,
+  "pol/racmar/1980": 0.642,
+  "pol/racmar/1990": 0.2803333333333333,
+  "pol/helpblk/1980": 0.35933333333333334,
+  "pol/helpblk/1990": 0.422,
+  "pol/helpblk/2000": 0.25833333333333336,
+  "pol/helpblk/2010": 0.6366666666666667
+ },
+ "families": {
+  "① religion34(#826 用的)|bh": {
+   "size": "34 格",
+   "n": 2,
+   "surv": [
+    "rel/homosex/1990s",
+    "rel/homosex/2000s"
+   ]
+  },
+  "① religion34(#826 用的)|by": {
+   "size": "34 格",
+   "n": 1,
+   "surv": [
+    "rel/homosex/1990s"
+   ]
+  },
+  "② both68(最宽可辩护)|bh": {
+   "size": "62 格",
+   "n": 1,
+   "surv": [
+    "rel/homosex/1990s"
+   ]
+  },
+  "② both68(最宽可辩护)|by": {
+   "size": "62 格",
+   "n": 1,
+   "surv": [
+    "rel/homosex/1990s"
+   ]
+  },
+  "④ per_decade(6 族)|bh": {
+   "size": "6 族 × [4, 8, 8, 7, 7]",
+   "n": 3,
+   "surv": [
+    "rel/homosex/1990s",
+    "rel/homosex/2000s",
+    "rel/teensex/2010s"
+   ]
+  },
+  "④ per_decade(6 族)|by": {
+   "size": "6 族 × [4, 8, 8, 7, 7]",
+   "n": 2,
+   "surv": [
+    "rel/homosex/1990s",
+    "rel/homosex/2000s"
+   ]
+  },
+  "⑤ sexual_only(框架关心的)|bh": {
+   "size": "14 格",
+   "n": 3,
+   "surv": [
+    "rel/homosex/1990s",
+    "rel/homosex/2000s",
+    "rel/teensex/2010s"
+   ]
+  },
+  "⑤ sexual_only(框架关心的)|by": {
+   "size": "14 格",
+   "n": 1,
+   "surv": [
+    "rel/homosex/1990s"
+   ]
+  },
+  "③ per_item(8 族,最不站得住)|bh": {
+   "size": "8 族 × [5, 4, 5, 4, 4, 5, 3, 4]",
+   "n": 3,
+   "surv": [
+    "rel/homosex/1990s",
+    "rel/homosex/2000s",
+    "rel/teensex/2010s"
+   ]
+  },
+  "③ per_item(8 族,最不站得住)|by": {
+   "size": "8 族 × [5, 4, 5, 4, 4, 5, 3, 4]",
+   "n": 3,
+   "surv": [
+    "rel/homosex/1990s",
+    "rel/homosex/2000s",
+    "rel/teensex/2010s"
+   ]
+  }
+ },
+ "homosex1990_alive": {
+  "① religion34(#826 用的)|bh": true,
+  "① religion34(#826 用的)|by": true,
+  "② both68(最宽可辩护)|bh": true,
+  "② both68(最宽可辩护)|by": true,
+  "④ per_decade(6 族)|bh": true,
+  "④ per_decade(6 族)|by": true,
+  "⑤ sexual_only(框架关心的)|bh": true,
+  "⑤ sexual_only(框架关心的)|by": true,
+  "③ per_item(8 族,最不站得住)|bh": true,
+  "③ per_item(8 族,最不站得住)|by": true
+ },
+ "n_alive": 10,
+ "n_combos": 10,
+ "pol_only_bh": 0,
+ "pol_only_by": 0,
+ "pos_control": true,
+ "neg_control": {
+  "rate": 0.016666666666666666,
+  "se": 0.01652719420071502,
+  "expectation": "<= q, NOT 0"
+ },
+ "admissible": true,
+ "verdict": "**A 家族无关。** `rel/homosex/1990s` 在全部 10 个(族 × 方法)组合下都存活。\n  ⇒ **`#826` 那句话不是分组的产物 —— 而这是它第一次被证明与「我怎么分族」无关。**",
+ "gate_ok": true
+}
