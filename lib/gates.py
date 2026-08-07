@@ -164,7 +164,8 @@ class Gate:
     #    **要不要把它们也划过去是一个单独的、需要自己回测的决定,本轮不做。**
     _CONTROL_METHODS = ("negative_control", "positive_control", "identity_control",
                         "offset_control", "control_kept_the_sample",
-                        "positive_control_at_the_contested_magnitude")
+                        "positive_control_at_the_contested_magnitude",
+                        "headroom_control")
 
     def __init__(self, question):
         self.question = question
@@ -189,6 +190,54 @@ class Gate:
         wrapped.__name__ = getattr(fn, "__name__", "control")
         wrapped.__doc__ = fn.__doc__
         return wrapped
+
+
+    # ---- #803: a plant that demands a change near the reachable limit ----
+
+    HEADROOM_MAX = 0.30
+
+    @staticmethod
+    def headroom(start, change, lo, hi):
+        """要求的变化占**可达幅度**的多少 —— 可达幅度由起点到它移动方向上的那一端。
+
+        ⚠ 返回 `inf` 表示**要求的方向上已经没有空间了**(起点就贴在那一端)。
+        纯函数,不写行 —— 让调用方可以先算再决定这一格用不用。"""
+        if change == 0: return 0.0
+        reach = (hi - start) if change > 0 else (start - lo)
+        if reach <= 0: return float("inf")
+        return abs(change) / reach
+
+    def headroom_control(self, name, start, change, lo, hi, max_frac=None, what=""):
+        """#803: 一个要求「接近可达上限」的变化,它的失败与仪器无关 —— 是二分饱和。
+
+        ⚠ 为什么必须是机械的,而不是一条记在账本里的规矩:
+          `#801` 立下这条规矩(把硬写的 −0.20 改成可达幅度的 30%),写进了账本。
+          **一轮之后的 `#803` 又建了一遍** —— `fit` 定标要求走完可达幅度的 **89.8%**,
+          Δ 顶到 +3.476,读数几乎不动,`explained` 变负,**而它把整轮的中位拖过了阈值**。
+          规矩是对的,**它只是没有任何东西在执行**。`#600`:一条只靠记性执行的规矩,
+          它的失效是默认状态。⇒ 与 `#795` 同一个修法:把它变成库里的一行。
+
+        ⚠ P6 代理账:
+          PROPERTY   这个植入/定标的量在这台仪器上是可以实现的
+          PROXY      |change| / 可达幅度 <= max_frac
+          IMPLICATION 只有一个方向可靠:**超过上限 -> 这一格确实处在饱和区**(可靠)。
+                     反过来不成立:**在限内不证明这一格是好的**(还可能混口径、可能没功效)。
+          SAFE SIDE  只报「这一格不可用」;从不认证「这一格是好的」。
+
+        `lo`/`hi` 是**这把尺子本身的两端**(例如 1 与 4),不是观测到的最小最大值 ——
+        用观测极值会让上限随样本浮动,而饱和是刻度的性质,不是样本的性质。"""
+        assert hi > lo, "尺子的两端必须 hi > lo(#803)"
+        assert lo <= start <= hi, f"起点 {start} 不在尺子 [{lo}, {hi}] 内(#803)"
+        mf = self.HEADROOM_MAX if max_frac is None else max_frac
+        assert 0 < mf < 1, "上限必须在 (0,1) 内(#803)"
+        frac = self.headroom(start, change, lo, hi)
+        ok = frac <= mf
+        reach = (hi - start) if change > 0 else (start - lo)
+        detail = (f"起点 {start:.3f} · 尺 [{lo}, {hi}] · 可达幅度 {reach:.3f} · "
+                  f"要求移动 {change:+.3f} ⇒ **{frac*100:.1f}% 的可达幅度**(上限 {mf*100:.0f}%)")
+        if what: detail += f" —— {what}"
+        self.rows.append((name, detail, ok, "control"))
+        return ok
 
     # ---- the three comparisons that failed, each now requiring its second argument ----
 
