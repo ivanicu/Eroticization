@@ -1,0 +1,877 @@
+{
+ "items": [
+  "homosex",
+  "teensex",
+  "sexeduc",
+  "suicide2",
+  "spanking",
+  "prayer",
+  "racmar",
+  "helpblk"
+ ],
+ "decades": [
+  1970,
+  1980,
+  1990,
+  2000,
+  2010,
+  2020
+ ],
+ "matters": 0.1,
+ "B": 1200,
+ "grid_rel": [
+  {
+   "item": "homosex",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "dgap": -0.07491834366942962,
+   "lo": -0.25831922423691733,
+   "hi": 0.11154617864846404,
+   "ref": -0.043351145565319646
+  },
+  {
+   "item": "homosex",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": 0.05194155448359439,
+   "lo": -0.17484468846047385,
+   "hi": 0.2690950953764119,
+   "ref": -0.13005343669595892
+  },
+  {
+   "item": "homosex",
+   "decade": 1990,
+   "status": "EXCLUDES",
+   "dgap": -0.6285260876602288,
+   "lo": -0.8637938136489927,
+   "hi": -0.4100238170368694,
+   "ref": -0.11560305484085237
+  },
+  {
+   "item": "homosex",
+   "decade": 2000,
+   "status": "EXCLUDES",
+   "dgap": -0.4756795717704949,
+   "lo": -0.6974520681967846,
+   "hi": -0.25301292325048014,
+   "ref": -0.11560305484085237
+  },
+  {
+   "item": "homosex",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "dgap": 0.02277802224693115,
+   "lo": -0.20099748066976814,
+   "hi": 0.2545364126514217,
+   "ref": -0.11560305484085237
+  },
+  {
+   "item": "homosex",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "teensex",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "teensex",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": 0.046637678222406276,
+   "lo": -0.10185869719139284,
+   "hi": 0.19630537397827655,
+   "ref": -0.009922296534980224
+  },
+  {
+   "item": "teensex",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": 0.0035160592810554725,
+   "lo": -0.1582188299408324,
+   "hi": 0.1682935427362941,
+   "ref": -0.02645945742661393
+  },
+  {
+   "item": "teensex",
+   "decade": 2000,
+   "status": "EXCLUDES",
+   "dgap": -0.16223075888101612,
+   "lo": -0.3008571250090993,
+   "hi": -0.02924623317944912,
+   "ref": -0.02645945742661393
+  },
+  {
+   "item": "teensex",
+   "decade": 2010,
+   "status": "EXCLUDES",
+   "dgap": -0.25582720760200583,
+   "lo": -0.40985828800457447,
+   "hi": -0.08770730600075878,
+   "ref": -0.02645945742661393
+  },
+  {
+   "item": "teensex",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1970,
+   "status": "TIGHT_NULL",
+   "dgap": -0.024747871226168394,
+   "lo": -0.10107750720246766,
+   "hi": 0.051445711677715895,
+   "ref": -0.005566339257203556
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": -0.04772868593444857,
+   "lo": -0.11507321804245478,
+   "hi": 0.017873984475900363,
+   "ref": -0.012988124933474964
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1990,
+   "status": "EXCLUDES",
+   "dgap": 0.055412768777064914,
+   "lo": -0.006528948623989194,
+   "hi": 0.11867131586262643,
+   "ref": -0.014843571352542818
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2000,
+   "status": "TIGHT_NULL",
+   "dgap": -0.051588042655723365,
+   "lo": -0.11132419125196193,
+   "hi": 0.005628810472162623,
+   "ref": -0.014843571352542818
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2010,
+   "status": "TIGHT_NULL",
+   "dgap": -0.023052197216562265,
+   "lo": -0.0786491292853635,
+   "hi": 0.034639800502031505,
+   "ref": -0.014843571352542818
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "suicide2",
+   "decade": 1970,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "suicide2",
+   "decade": 1980,
+   "status": "TIGHT_NULL",
+   "dgap": 0.0005541589524435953,
+   "lo": -0.049307850787657516,
+   "hi": 0.04840115106421145,
+   "ref": 0.0053411093279466465
+  },
+  {
+   "item": "suicide2",
+   "decade": 1990,
+   "status": "TIGHT_NULL",
+   "dgap": 0.023416965045720994,
+   "lo": -0.035762061103238034,
+   "hi": 0.0781901981869378,
+   "ref": 0.006104124946224738
+  },
+  {
+   "item": "suicide2",
+   "decade": 2000,
+   "status": "TIGHT_NULL",
+   "dgap": 0.030558515624485638,
+   "lo": -0.018651295158667067,
+   "hi": 0.08239320438060162,
+   "ref": 0.006104124946224738
+  },
+  {
+   "item": "suicide2",
+   "decade": 2010,
+   "status": "TIGHT_NULL",
+   "dgap": 0.02295206199725741,
+   "lo": -0.03437468167992084,
+   "hi": 0.07595221540965445,
+   "ref": 0.006104124946224738
+  },
+  {
+   "item": "suicide2",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "spanking",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "spanking",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": -0.15175611707094583,
+   "lo": -0.3143607705405626,
+   "hi": 0.025823499243652064,
+   "ref": -0.024906969421484935
+  },
+  {
+   "item": "spanking",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": -0.09899079597985305,
+   "lo": -0.26111837875027405,
+   "hi": 0.060294580151888696,
+   "ref": -0.06641858512395983
+  },
+  {
+   "item": "spanking",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": -0.005780458891575968,
+   "lo": -0.15494208323955527,
+   "hi": 0.13624540369850266,
+   "ref": -0.06641858512395983
+  },
+  {
+   "item": "spanking",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "dgap": -0.024006816311858525,
+   "lo": -0.1766730073674008,
+   "hi": 0.1282187332640682,
+   "ref": -0.06641858512395983
+  },
+  {
+   "item": "spanking",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "prayer",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "dgap": -0.03894336801227216,
+   "lo": -0.13535768171948653,
+   "hi": 0.06370015632960331,
+   "ref": 0.0044548156536030085
+  },
+  {
+   "item": "prayer",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": 0.027973083750753247,
+   "lo": -0.06789262674196846,
+   "hi": 0.11787081856316367,
+   "ref": 0.010394569858407018
+  },
+  {
+   "item": "prayer",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": -0.059044486471762525,
+   "lo": -0.15542167856320843,
+   "hi": 0.03941788147117066,
+   "ref": 0.011879508409608022
+  },
+  {
+   "item": "prayer",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": -0.013144130603727433,
+   "lo": -0.09898630476785204,
+   "hi": 0.06590434168828037,
+   "ref": 0.011879508409608022
+  },
+  {
+   "item": "prayer",
+   "decade": 2010,
+   "status": "TIGHT_NULL",
+   "dgap": 0.025416996514073364,
+   "lo": -0.06361841297935546,
+   "hi": 0.10853993906625432,
+   "ref": 0.011879508409608022
+  },
+  {
+   "item": "prayer",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "racmar",
+   "decade": 1970,
+   "status": "UNRESOLVED",
+   "dgap": -0.022346878701958506,
+   "lo": -0.11878619498786779,
+   "hi": 0.06822033620072523,
+   "ref": 0.013584182993659941
+  },
+  {
+   "item": "racmar",
+   "decade": 1980,
+   "status": "TIGHT_NULL",
+   "dgap": 0.02663754814143693,
+   "lo": -0.05501992104300575,
+   "hi": 0.10910799078310117,
+   "ref": 0.04075254898097982
+  },
+  {
+   "item": "racmar",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": -0.001820869183297713,
+   "lo": -0.08225042359174256,
+   "hi": 0.07832359828446142,
+   "ref": 0.036224487983093176
+  },
+  {
+   "item": "racmar",
+   "decade": 2000,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "racmar",
+   "decade": 2010,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "racmar",
+   "decade": 2020,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "helpblk",
+   "decade": 1970,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "helpblk",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": -0.040122821840195666,
+   "lo": -0.28986719300496944,
+   "hi": 0.223231287732293,
+   "ref": 0.08284143270048386
+  },
+  {
+   "item": "helpblk",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": 0.2058540946192764,
+   "lo": -0.025986585148070927,
+   "hi": 0.43949270834496057,
+   "ref": 0.11045524360064515
+  },
+  {
+   "item": "helpblk",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": -0.03209593397937516,
+   "lo": -0.2610177298944982,
+   "hi": 0.1933375613096809,
+   "ref": 0.11045524360064515
+  },
+  {
+   "item": "helpblk",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "dgap": 0.19669688471749414,
+   "lo": -0.04684477885392274,
+   "hi": 0.44940674277690296,
+   "ref": 0.11045524360064515
+  },
+  {
+   "item": "helpblk",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  }
+ ],
+ "grid_pol": [
+  {
+   "item": "homosex",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "homosex",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": -0.05148817459723687,
+   "lo": -0.25774031957777926,
+   "hi": 0.16457357078867393,
+   "ref": -0.18382320371262448
+  },
+  {
+   "item": "homosex",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": -0.2931199561897755,
+   "lo": -0.49064513345439703,
+   "hi": -0.08759580229000809,
+   "ref": -0.18382320371262448
+  },
+  {
+   "item": "homosex",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": -0.32544315902633225,
+   "lo": -0.5515540151374261,
+   "hi": -0.10557996576966848,
+   "ref": -0.18382320371262448
+  },
+  {
+   "item": "homosex",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "dgap": -0.104842749575625,
+   "lo": -0.337198089871934,
+   "hi": 0.1300062919466584,
+   "ref": -0.13786740278446838
+  },
+  {
+   "item": "homosex",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "teensex",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "teensex",
+   "decade": 1980,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "teensex",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": -0.09116158089636772,
+   "lo": -0.2553089981826693,
+   "hi": 0.06722207822606917,
+   "ref": -0.09474713228814288
+  },
+  {
+   "item": "teensex",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": -0.02399432093883913,
+   "lo": -0.15120339528244062,
+   "hi": 0.10088542176003995,
+   "ref": -0.09474713228814288
+  },
+  {
+   "item": "teensex",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "dgap": -0.10552430877714358,
+   "lo": -0.27172576438870555,
+   "hi": 0.056422334691193884,
+   "ref": -0.07106034921610715
+  },
+  {
+   "item": "teensex",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": 0.02630984054102714,
+   "lo": -0.07529897635346369,
+   "hi": 0.1334705887631106,
+   "ref": 0.016692573280293367
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": 0.054357465879811606,
+   "lo": -0.03244973533621501,
+   "hi": 0.13802076825083961,
+   "ref": 0.026708117248469387
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": -0.040076603046590664,
+   "lo": -0.11076701591862807,
+   "hi": 0.03149613556756335,
+   "ref": 0.026708117248469387
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2010,
+   "status": "EXCLUDES",
+   "dgap": -0.06427337435690594,
+   "lo": -0.13023624503960093,
+   "hi": -0.0004268804316102684,
+   "ref": 0.02003108793635204
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "suicide2",
+   "decade": 1970,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "suicide2",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": 0.048788222711536156,
+   "lo": -0.021784342350090916,
+   "hi": 0.12410282482242331,
+   "ref": 0.0017786541982492048
+  },
+  {
+   "item": "suicide2",
+   "decade": 1990,
+   "status": "TIGHT_NULL",
+   "dgap": -0.009152036417384046,
+   "lo": -0.06442457294648077,
+   "hi": 0.043327483310918166,
+   "ref": 0.0028458467171987275
+  },
+  {
+   "item": "suicide2",
+   "decade": 2000,
+   "status": "TIGHT_NULL",
+   "dgap": 0.01189138394576772,
+   "lo": -0.032947284855598225,
+   "hi": 0.05118480277523985,
+   "ref": 0.0028458467171987275
+  },
+  {
+   "item": "suicide2",
+   "decade": 2010,
+   "status": "TIGHT_NULL",
+   "dgap": 0.0031556527470955054,
+   "lo": -0.048780189248181276,
+   "hi": 0.05162538260834321,
+   "ref": 0.002134385037899046
+  },
+  {
+   "item": "suicide2",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "spanking",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "spanking",
+   "decade": 1980,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "spanking",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": -0.1803085968724203,
+   "lo": -0.3489440316091036,
+   "hi": -0.010780838677709459,
+   "ref": -0.07421093610407868
+  },
+  {
+   "item": "spanking",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": 0.06052709355056174,
+   "lo": -0.09360688736457874,
+   "hi": 0.22466929803598276,
+   "ref": -0.07421093610407868
+  },
+  {
+   "item": "spanking",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "dgap": -0.14885835665301417,
+   "lo": -0.28863229184407485,
+   "hi": -0.0019909639407614033,
+   "ref": -0.05565820207805901
+  },
+  {
+   "item": "spanking",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "prayer",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "prayer",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": 0.08971138663463218,
+   "lo": -0.02460333476282674,
+   "hi": 0.20769159443791593,
+   "ref": 0.024048805806081517
+  },
+  {
+   "item": "prayer",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": 0.06764929700952238,
+   "lo": -0.03051074044960406,
+   "hi": 0.17045169012455177,
+   "ref": 0.03847808928973043
+  },
+  {
+   "item": "prayer",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": -0.0200291002393731,
+   "lo": -0.10528541018626328,
+   "hi": 0.06435061451927065,
+   "ref": 0.03847808928973043
+  },
+  {
+   "item": "prayer",
+   "decade": 2010,
+   "status": "TIGHT_NULL",
+   "dgap": 0.035897322033199064,
+   "lo": -0.04662919859482843,
+   "hi": 0.11865134463275187,
+   "ref": 0.02885856696729782
+  },
+  {
+   "item": "prayer",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "racmar",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "racmar",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": 0.03453929617554441,
+   "lo": -0.06064376121231622,
+   "hi": 0.13289430911985362,
+   "ref": 0.009947089761755007
+  },
+  {
+   "item": "racmar",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": 0.05690404322437348,
+   "lo": -0.023528176128557537,
+   "hi": 0.14288466658834506,
+   "ref": 0.009947089761755007
+  },
+  {
+   "item": "racmar",
+   "decade": 2000,
+   "status": "UNRESOLVED"
+  },
+  {
+   "item": "racmar",
+   "decade": 2010,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "racmar",
+   "decade": 2020,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "helpblk",
+   "decade": 1970,
+   "status": "NOT_ASKED"
+  },
+  {
+   "item": "helpblk",
+   "decade": 1980,
+   "status": "UNRESOLVED",
+   "dgap": -0.02736299406489673,
+   "lo": -0.3347096257336738,
+   "hi": 0.2819540922725383,
+   "ref": 0.11634751403184354
+  },
+  {
+   "item": "helpblk",
+   "decade": 1990,
+   "status": "UNRESOLVED",
+   "dgap": 0.09324961315559488,
+   "lo": -0.1423403452184815,
+   "hi": 0.33485708576960477,
+   "ref": 0.18615602245094967
+  },
+  {
+   "item": "helpblk",
+   "decade": 2000,
+   "status": "UNRESOLVED",
+   "dgap": 0.058119685936877996,
+   "lo": -0.17272435599722677,
+   "hi": 0.3001978609519078,
+   "ref": 0.18615602245094967
+  },
+  {
+   "item": "helpblk",
+   "decade": 2010,
+   "status": "UNRESOLVED",
+   "dgap": 0.08416002525926292,
+   "lo": -0.1442207717273014,
+   "hi": 0.31186504899759526,
+   "ref": 0.13961701683821226
+  },
+  {
+   "item": "helpblk",
+   "decade": 2020,
+   "status": "UNRESOLVED"
+  }
+ ],
+ "by_rel": {
+  "1990": [
+   "homosex",
+   "sexeduc"
+  ],
+  "2000": [
+   "homosex",
+   "teensex"
+  ],
+  "2010": [
+   "teensex"
+  ]
+ },
+ "by_pol": {
+  "2010": [
+   "sexeduc"
+  ]
+ },
+ "mode_rel": [
+  1990,
+  2,
+  8
+ ],
+ "mode_pol": [
+  2010,
+  1,
+  7
+ ],
+ "agree": 30,
+ "n_both": 39,
+ "agree_rate": 0.7692307692307693,
+ "disagreements": [
+  [
+   "homosex",
+   1990,
+   "EXCLUDES",
+   "UNRESOLVED"
+  ],
+  [
+   "homosex",
+   2000,
+   "EXCLUDES",
+   "UNRESOLVED"
+  ],
+  [
+   "teensex",
+   2000,
+   "EXCLUDES",
+   "UNRESOLVED"
+  ],
+  [
+   "teensex",
+   2010,
+   "EXCLUDES",
+   "UNRESOLVED"
+  ],
+  [
+   "sexeduc",
+   1990,
+   "EXCLUDES",
+   "UNRESOLVED"
+  ],
+  [
+   "sexeduc",
+   2000,
+   "TIGHT_NULL",
+   "UNRESOLVED"
+  ],
+  [
+   "sexeduc",
+   2010,
+   "TIGHT_NULL",
+   "EXCLUDES"
+  ],
+  [
+   "suicide2",
+   1980,
+   "TIGHT_NULL",
+   "UNRESOLVED"
+  ],
+  [
+   "racmar",
+   1980,
+   "TIGHT_NULL",
+   "UNRESOLVED"
+  ]
+ ],
+ "jaccard_median": 0.19595994475138123,
+ "corr_median": 0.21070910467821366,
+ "controls": {
+  "REL": {
+   "pos_mode": 1990,
+   "pos": {
+    "1990": [
+     "homosex",
+     "sexeduc",
+     "spanking",
+     "racmar",
+     "helpblk"
+    ]
+   },
+   "neg_n": 0,
+   "neg": {}
+  },
+  "polviews": {
+   "pos_mode": 1990,
+   "pos": {
+    "1990": [
+     "homosex",
+     "teensex",
+     "sexeduc",
+     "spanking",
+     "prayer",
+     "helpblk"
+    ]
+   },
+   "neg_n": 0,
+   "neg": {}
+  }
+ },
+ "admissible": true,
+ "verdict": "**两张网格既不同步也不完全一致 —— 报双网格,不选边。**\n  `REL` 众数 1990s 2/8 · `polviews` 众数 2010s 1/7 · 逐格一致 76.9%\n  ⚠ 不一致的格已全列(`G3`),而它们是下一轮该看的地方。",
+ "gate_ok": false
+}
