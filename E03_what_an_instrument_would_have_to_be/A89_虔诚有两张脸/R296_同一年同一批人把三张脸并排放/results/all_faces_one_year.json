@@ -1,0 +1,69 @@
+{
+ "year": 2021,
+ "rows": [
+  {
+   "face": "重要性 `religimp`",
+   "n": 2355,
+   "g_pub": -0.9107791143566102,
+   "g_priv": -0.8063120950411188,
+   "dfacet": -0.1044670193154914,
+   "lo": -0.1749761211685304,
+   "hi": 0.08146087083440269,
+   "jaccard": 0.5271542360608255,
+   "excl": false,
+   "above": false
+  },
+  {
+   "face": "重要性2 `relidimp`",
+   "n": 2297,
+   "g_pub": -0.9107745898554935,
+   "g_priv": -0.8961307560162599,
+   "dfacet": -0.014643833839233622,
+   "lo": -0.12975680594314598,
+   "hi": 0.16482322901704194,
+   "jaccard": 0.5347280334728034,
+   "excl": false,
+   "above": false
+  },
+  {
+   "face": "身份 `relpersn`",
+   "n": 2567,
+   "g_pub": -0.9138370244931783,
+   "g_priv": -0.7896108016567577,
+   "dfacet": -0.1242262228364206,
+   "lo": -0.1964175031938076,
+   "hi": 0.07017890913072712,
+   "jaccard": 0.5331302361005331,
+   "excl": false,
+   "above": true
+  },
+  {
+   "face": "实践 `pray`",
+   "n": 2570,
+   "g_pub": -0.9082286616656177,
+   "g_priv": -0.8130660366191402,
+   "dfacet": -0.09516262504647743,
+   "lo": -0.16734706480899725,
+   "hi": 0.09025412440322816,
+   "jaccard": 0.48937728937728936,
+   "excl": false,
+   "above": false
+  }
+ ],
+ "floor": 0.12387072885861895,
+ "power": {
+  "plant": 0.2,
+  "moved": 0.07603381009294607,
+  "in_sd": 1.0274565721454472,
+  "ok": false
+ },
+ "neg_control": 0.040479930572192194,
+ "structurally_impossible": [
+  "religimp/relidimp asked only in 2021 -> no cross-year robustness",
+  "GSS 2021 changed to web/mixed mode -> cross-year comparison not done",
+  "cross-sectional -> no causal identification"
+ ],
+ "admissible": false,
+ "verdict": "**UNVERIFIED:控制行没有全过 ⇒ 判据没资格下判。**\n  ⚠ **而没过的是 ⓪ 功效闸** —— 本年 n 太小,**这不是「三张脸一样」,是「这一年分辨不了」。**",
+ "gate_ok": false
+}
