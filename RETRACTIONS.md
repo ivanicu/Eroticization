@@ -44742,3 +44742,86 @@ made of its neighbours' scores.**
    `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
    `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
    `#852`① · `#857`① · `#861`①.
+
+## Entry 904 · `E03·A108·R342` — the instrument works now, and the answer is still not the one I asked for
+
+**VERDICT `UNVERIFIED`. ⇒ `#111c` FIRES: `#903` was the first `UNVERIFIED` on *which act is
+special*, this is the second, and A108 CLOSES with the question unanswered rather than buying a
+third round.** `#903`② put that rule in force before this round existed, and it is honoured here
+rather than argued with.
+
+**THE REPAIR WORKED — THAT IS THE FIRST THING TO SAY.** `#903` failed because a per-item mean over
+pairs is contaminated: one departing act lowers all four scores. `#903`① specified leave-one-out
+with a **median** reference (robust to one deviant among three) before it could see any result.
+⚠ **And this round's positive control is TWO-SIDED, which is precisely what `#903` failed**: planting
+a departure into `xmarsex` must raise `xmarsex`'s deficit **and leave the other three inside their
+nulls**. It does — the largest *other* deficit stays at **+0.0185** against a null 95th of **0.0829**
+across the whole sweep, while the planted item goes **−0.0110 → +0.0318 → +0.1371 → +0.4794 →
++0.7860**, turning point measured at `g = 0.35`, `g = 0` on zero. **The contamination is gone. ALL
+GATES PASS.**
+
+**AND THE ANSWER IS STILL ALL FOUR.**
+
+| held-out | \|ρ\| vs the other three | comonotone | deficit | its own null 95th | p |
+|---|---|---|---|---|---|
+| premarital | 0.7070 | 0.9002 | +0.1931 | 0.0765 | 0.0000 |
+| teen | 0.6374 | 0.8982 | +0.2608 | 0.0829 | 0.0000 |
+| **extramarital** | **0.4082** | 0.8669 | **+0.4587** | 0.1028 | 0.0000 |
+| same-sex | 0.7187 | 0.9455 | +0.2268 | 0.0477 | 0.0000 |
+
+Holm over the family of four ⇒ `{extra, pre, same, teen}` — **the 13th of 16 subsets, one of the
+twelve I assigned before the run to "report verbatim, return `UNVERIFIED`, do NOT adopt the nearest
+world."** ⚠ **`#901`①'s remedy, third use, third time it has bound me** — and the nearest world here
+is `EXTRA`, which is what every part of me wants to write.
+
+**⚠ THE GRID IS WHERE THE HONEST CONTENT IS, AND IT IS NOT WHAT I PRE-REGISTERED.** 4 thresholds ×
+{median · mean reference} × {all 21 waves · pre-2021} = **16 cells, 3 distinct subsets**: `{extra,
+pre, same, teen}` **10/16** · `{extra, same}` **4/16** · `{extra}` **2/16**.
+
+> **`extra` is in 16/16 cells and has the LARGEST deficit in 16/16** (0.277–0.770, against 0.005–0.539
+> for the others). **But the pre-registered quantity was the SUBSET, and the subset is
+> specification-dependent.** The stable thing is a *ranking*, and a ranking is not what the kill
+> tested. ⚠ **The cleanest cell — `≤3 any wrongness`, median reference, where only `extra` departs
+> and the other three sit at −0.005 / +0.007 / +0.036 — is 2 of 16, and choosing it now would be
+> choosing a specification after seeing the result.** I am recording it and not using it.
+
+⚠ *"Should this zero be zero?"* — **YES**: in a comonotone world the held-out item IS comonotone
+with the other three, so its deficit has expectation exactly 0. ⇒ **`negative_control`**, and the
+**kind of null is named: a COMONOTONE BINOMIAL RESAMPLING NULL, PER HELD-OUT ITEM** — every deficit
+above is measured against that world's **95th percentile** for the same held-out item. It returns
+**0.0000**.
+
+**⇒ One sentence about people: the pre-registered question — which single act moved on its own clock
+— does not have an answer at this resolution. What is stable across every one of sixteen
+specifications is that adultery departs furthest from the common order, and the rule I set myself
+before looking says I may not turn a stable ranking into the claim I actually tested.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **the SUBSET is specification-dependent while the RANKING is not**, and this design tested the
+   subset — a design that tested the ranking would need its own null for the ranking, and is a
+   different round that `#111c` forbids here;
+② **leave-one-out is LESS contaminated, not UNcontaminated** — bounded by the median reference,
+   which the two-sided control now shows is enough at this plant size, and is not a proof for all;
+③ **a departure says an act moves on its own clock, never WHY** — "betrayal" is a reading;
+④ **the comonotone null assumes a COMMON link across items** (`#902`①);
+⑤ **T = 21**, MDE not computed (`#898`'s standing debt);
+⑥ **mode is confounded with period**; **cohort is not separated from period**;
+⑦ **cross-instrument N/A — `no second instrument`, `only this one instrument`** (`#897`, `#891`);
+⑧ ⚠ **`[unchallenged]`** — `door ③`; ⑨ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **A108 IS CLOSED BY `#111c` AND MUST NOT BE REOPENED WITH A THIRD STATISTIC.** The temptation is
+   exact and I am naming it so a later round recognises it: *"the ranking is stable, so test the
+   ranking"* is a third attempt at the same question wearing a new estimand. **If it is ever run, it
+   must be on a different instrument, not a different statistic** — and `#897` measured that no
+   instrument I hold can be asked. ⇒ `#904`①
+② ⚠ **What A107+A108 leave standing, stated so the page is not read as more than it is**: the four
+   series are **not one tide** (`#900`, link-free in `#902`, five links, mode-controlled), and the
+   residual is **same-sex-shaped by PC2** (`#901`) while **adultery departs furthest by
+   leave-one-out** (`#904`, unregistered). **Those last two are not the same claim and have never
+   been reconciled** (`#902`①, still open). ⇒ `#904`②
+③ ⚠ Still `OPEN`: `#903`① · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ ·
+   `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② ·
+   `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
+   `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.

@@ -1,0 +1,61 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET ===
+  premarsx  n= 45697  1972–2024 (30 waves)  codes=[1, 2, 3, 4]
+  teensex   n= 33901  1986–2024 (22 waves)  codes=[1, 2, 3, 4]
+  xmarsex   n= 46266  1973–2024 (30 waves)  codes=[1, 2, 3, 4]
+  homosex   n= 44726  1973–2024 (30 waves)  codes=[1, 2, 3, 4, 5]
+  common waves 21
+
+=== (1) LEAVE-ONE-OUT: each item against the MEDIAN order of the other three ===
+  held-out    |rho| LOO  comonotone   deficit  null 95th       p
+  pre            0.7070      0.9002   +0.1931     0.0765  0.0000
+  teen           0.6374      0.8982   +0.2608     0.0829  0.0000
+  extra          0.4082      0.8669   +0.4587     0.1028  0.0000
+  same           0.7187      0.9455   +0.2268     0.0477  0.0000
+
+  Holm over the family of FOUR (all four reported whatever they do): **{extra, pre, same, teen}**
+
+=== (2) POSITIVE CONTROL — TWO-SIDED: the planted item must move AND the others must not ===
+  g=0.00  deficit(extra) -0.0110   largest OTHER deficit -0.0037  (its null 95th ≈ 0.0829)
+  g=0.05  deficit(extra) +0.0318   largest OTHER deficit +0.0028  (its null 95th ≈ 0.0829)
+  g=0.10  deficit(extra) +0.1371   largest OTHER deficit +0.0092  (its null 95th ≈ 0.0829)
+  g=0.20  deficit(extra) +0.4794   largest OTHER deficit +0.0065  (its null 95th ≈ 0.0829)
+  g=0.35  deficit(extra) +0.7860   largest OTHER deficit +0.0179  (its null 95th ≈ 0.0829)
+  g=0.60  deficit(extra) +0.7063   largest OTHER deficit +0.0185  (its null 95th ≈ 0.0829)
+  ⚠ turning point MEASURED at g=0.35 · monotone in [0, 0.35] · g=0 -0.0110 lands on zero ⇒ CAN fail
+  ⚠ **THE SECOND HALF, which `#903` failed: do the OTHER THREE stay inside their nulls while `extra` is planted? -> True**
+  ⇒ positive control fires: True
+
+=== (3) G3/G4 — 4 thresholds × {median · mean reference} × {all 21 waves · 1988–2018} ===
+  ≤1 always wrong    median all      pre=+0.095 teen=+0.120 extra=+0.357 same=+0.320  ⇒ {extra, pre, same, teen}
+  ≤1 always wrong    median pre-2021 pre=+0.145 teen=+0.192 extra=+0.568 same=+0.507  ⇒ {extra, pre, same, teen}
+  ≤1 always wrong    mean   all      pre=+0.087 teen=+0.050 extra=+0.277 same=+0.341  ⇒ {extra, same}
+  ≤1 always wrong    mean   pre-2021 pre=+0.133 teen=+0.088 extra=+0.450 same=+0.539  ⇒ {extra, same}
+  ≤2 always/almost   median all      pre=+0.194 teen=+0.261 extra=+0.454 same=+0.226  ⇒ {extra, pre, same, teen}
+  ≤2 always/almost   median pre-2021 pre=+0.301 teen=+0.415 extra=+0.726 same=+0.353  ⇒ {extra, pre, same, teen}
+  ≤2 always/almost   mean   all      pre=+0.208 teen=+0.287 extra=+0.486 same=+0.242  ⇒ {extra, pre, same, teen}
+  ≤2 always/almost   mean   pre-2021 pre=+0.321 teen=+0.459 extra=+0.770 same=+0.384  ⇒ {extra, pre, same, teen}
+  ≤3 any wrongness   median all      pre=-0.005 teen=+0.007 extra=+0.537 same=+0.036  ⇒ {extra}
+  ≤3 any wrongness   median pre-2021 pre=-0.003 teen=+0.019 extra=+0.625 same=+0.053  ⇒ {extra}
+  ≤3 any wrongness   mean   all      pre=+0.041 teen=+0.010 extra=+0.541 same=+0.122  ⇒ {extra, same}
+  ≤3 any wrongness   mean   pre-2021 pre=+0.060 teen=+0.005 extra=+0.614 same=+0.185  ⇒ {extra, same}
+  mean 1–4           median all      pre=+0.120 teen=+0.179 extra=+0.455 same=+0.208  ⇒ {extra, pre, same, teen}
+  mean 1–4           median pre-2021 pre=+0.194 teen=+0.290 extra=+0.668 same=+0.328  ⇒ {extra, pre, same, teen}
+  mean 1–4           mean   all      pre=+0.123 teen=+0.154 extra=+0.460 same=+0.254  ⇒ {extra, pre, same, teen}
+  mean 1–4           mean   pre-2021 pre=+0.186 teen=+0.248 extra=+0.668 same=+0.401  ⇒ {extra, pre, same, teen}
+
+  **grid: 10/16 cells return {extra, pre, same, teen}** · 3 distinct subsets across the grid
+
+=== (4) THE CONDITIONAL KILL — 16 subsets, all assigned before the run ===
+  CONDITIONAL KILL -- Leave-one-out: which act departs from the common order?
+   PASS  positive: a planted departure raises `extra`'s LOO deficit (inside the MEASURED monotone region)  方向由数据给出:**上升**;灵敏度 g=0.1;g=0 -0.0110 · g=0.35 +0.7860   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  comonotone world, per held-out item                                                               |+0.0000| < 0.5*|+0.4587| = 0.2294   (null is 0% of the effect [零的方案: COMONOTONE BINOMIAL RESAMPLING NULL, PER HELD-OUT ITEM — every item's own observed values reassigned to waves in one common order (link-free, marginals preserved), binomial noise at that wave's actual n, leave-one-out statistic recomputed for the same held-out item])
+   => ALL GATES PASS
+
+  subset {extra, pre, same, teen} · grid 10/16 · others-stay-clean under the plant: True
+  gate three-valued : ALL GATES PASS
+  **VERDICT UNVERIFIED · UNLISTED SUBSET {extra, pre, same, teen} — no world predicted it; reported verbatim, nearest world NOT adopted**
+
+  ⚠ `#111c`: `#903` was the first UNVERIFIED on 'which act is special'. If this is the
+     second, A108 CLOSES with the question unanswered rather than buying a third round.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A108_is_adultery_a_different_kind_of_judgement/R342_leave_one_out_the_one_attempt/results/leave_one_out.json
