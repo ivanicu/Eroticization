@@ -1144,6 +1144,24 @@ class Gate:
         判词串忠实地转述了一个算错的量。
         ⚠ **标记,不阻断**(`#814`/`#836`① 的同一个决定,理由也一样:阻断会让过去每一轮不可复现,`L81`)。
 
+        ⚠⚠ `#866`① 追加**控制总体 vs kill 总体的比对**,而它是这一族的第四次:
+        **`#836`① 补的是「尺」· `#854`① 补的是「总体」· `#859`① 补的是「方向」——
+        而 `#866` 错的是第四个部件:控制的总体与 kill 的总体不是同一个。**
+        `#866` 的闸⑥(安慰剂)把**五个靶**合在一起判,闸⑦(kill)只判**其中一个靶**的五格。
+        于是安慰剂在合并总体上不通过,而在 kill 自己的总体上是 1/5、落在二项零里 ——
+        **「换个范围它就过了」,而那正是制造发现的那一步。**
+        `realstat` 早写下过这个形状:*一个正控只问「这具仪器看得见吗」,
+        从不问「它看见的是不是我要主张的那个东西」*,补救是
+        **在设计控制之前,把仪器的单位和主张的单位写成两个字符串,并要求它们相等。**
+        ⇒ 于是 `population` 现在**在 `kind="control"` 上也接受**,而 `kind="kill"` 会
+        把自己的 `population` 与**此刻已声明的每一条控制行**的 `population` 比对,不同就标记。
+        ⚠ **它只比字符串是否相等** —— 两个写法不同但含义相同的总体也会被标记,
+        **那是有意的**:一条控制行与一条 kill 行如果连总体的写法都对不上,
+        读者就没有办法确认它们评的是同一群人。
+        ⚠ **顺序限制,如实说出来**:比对发生在 kill 断言的那一刻,
+        **在 kill 之后才声明的控制行不会被比到**,所以输出会印出比对时已有的控制行条数。
+        ⚠ **标记,不阻断**(`#814`/`#836`①/`#854`①/`#859`① 的同一个决定,`L81`)。
+
         ⚠ **标记,不阻断**(`#814` 的同一个决定,理由也一样):阻断会让过去每一轮不可复现(`L81`)。
         一条 `kind="kill"` 而不报尺的行,会在输出里带上 `⚠ 判据的尺未命名`。
         """
@@ -1171,9 +1189,31 @@ class Gate:
                     detail += f" · 方向:{'一致' if direction else '**不一致**'}"
             else:
                 detail += "  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)"
+            # `#866`①:控制的总体必须等于 kill 的总体 —— 这一族的第四个部件。
+            cp = getattr(self, "_control_pops", [])
+            named = [(n, p) for n, p in cp if p is not None]
+            if population is None:
+                pass                                   # 总体本身没命名,上面已经标了
+            elif not cp:
+                detail += "  ⚠ **此刻还没有任何控制行**(`#866`①:控制总体无从比对)"
+            elif not named:
+                detail += (f"  ⚠ **{len(cp)} 条控制行没有一条命名总体**"
+                           f"(`#866`①:控制评在谁身上不知道 ⇒ 它过不过都不落在这条 kill 上)")
+            else:
+                bad = [n for n, p in named if p != population]
+                detail += (f" · 控制总体:{len(named)}/{len(cp)} 条已命名,"
+                           + ("**与判据同一总体**" if not bad else
+                              f"**{len(bad)} 条与判据不同** {bad}"
+                              f"  ⚠ **控制的总体 ≠ 主张的总体** —— "
+                              f"**它证明的是另一群人身上的仪器**(`#866`①)"))
+                detail += f"(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)"
+        elif kind == "control" and population is not None:
+            detail = f"{detail} · 总体:{population}"
         self.rows.append((name, detail, ok, "asserted in code, not in prose"))
         if kind == "control":
             self._control_rows = getattr(self, "_control_rows", set()) | {len(self.rows) - 1}
+            self._control_pops = getattr(self, "_control_pops", []) + [(name.split("(")[0].strip()[:28],
+                                                                       population)]
         return ok
 
     # ---- output ----
