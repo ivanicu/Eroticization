@@ -1,0 +1,492 @@
+{
+ "items": [
+  "homosex",
+  "teensex",
+  "sexeduc",
+  "suicide2",
+  "spanking",
+  "prayer",
+  "racmar",
+  "helpblk"
+ ],
+ "decades": [
+  1970,
+  1980,
+  1990,
+  2000,
+  2010
+ ],
+ "seeds": [
+  301,
+  302,
+  303,
+  304,
+  305
+ ],
+ "Bs": [
+  1500,
+  6000
+ ],
+ "matters": 0.1,
+ "stability": {
+  "1500|homosex|1970": {
+   "rate": 0.0,
+   "dist": 0.40952000379271486,
+   "n_seed": 5
+  },
+  "1500|homosex|1980": {
+   "rate": 0.0,
+   "dist": 0.07317619470295837,
+   "n_seed": 5
+  },
+  "1500|homosex|1990": {
+   "rate": 1.0,
+   "dist": 0.6209438384228534,
+   "n_seed": 5
+  },
+  "1500|homosex|2000": {
+   "rate": 1.0,
+   "dist": 0.2744918636603443,
+   "n_seed": 5
+  },
+  "1500|homosex|2010": {
+   "rate": 0.0,
+   "dist": 0.182383814656738,
+   "n_seed": 5
+  },
+  "1500|teensex|1980": {
+   "rate": 0.0,
+   "dist": 0.3252255988983245,
+   "n_seed": 5
+  },
+  "1500|teensex|1990": {
+   "rate": 0.0,
+   "dist": 0.3938859273225423,
+   "n_seed": 5
+  },
+  "1500|teensex|2000": {
+   "rate": 0.0,
+   "dist": 0.02645458046697463,
+   "n_seed": 5
+  },
+  "1500|teensex|2010": {
+   "rate": 1.0,
+   "dist": 0.21927645071338303,
+   "n_seed": 5
+  },
+  "1500|sexeduc|1970": {
+   "rate": 0.0,
+   "dist": 0.3731798151649164,
+   "n_seed": 5
+  },
+  "1500|sexeduc|1980": {
+   "rate": 0.0,
+   "dist": 0.2485872198568671,
+   "n_seed": 5
+  },
+  "1500|sexeduc|1990": {
+   "rate": 1.0,
+   "dist": 0.04467877979831917,
+   "n_seed": 5
+  },
+  "1500|sexeduc|2000": {
+   "rate": 0.0,
+   "dist": 0.16684954429273097,
+   "n_seed": 5
+  },
+  "1500|sexeduc|2010": {
+   "rate": 0.0,
+   "dist": 0.4310067717382006,
+   "n_seed": 5
+  },
+  "1500|suicide2|1980": {
+   "rate": 0.0,
+   "dist": 0.46222924883061517,
+   "n_seed": 5
+  },
+  "1500|suicide2|1990": {
+   "rate": 0.0,
+   "dist": 0.3404642991234909,
+   "n_seed": 5
+  },
+  "1500|suicide2|2000": {
+   "rate": 0.0,
+   "dist": 0.24980853757047083,
+   "n_seed": 5
+  },
+  "1500|suicide2|2010": {
+   "rate": 0.0,
+   "dist": 0.35815053578437056,
+   "n_seed": 5
+  },
+  "1500|spanking|1980": {
+   "rate": 0.0,
+   "dist": 0.11706647443542315,
+   "n_seed": 5
+  },
+  "1500|spanking|1990": {
+   "rate": 0.0,
+   "dist": 0.39793717713402843,
+   "n_seed": 5
+  },
+  "1500|spanking|2000": {
+   "rate": 0.0,
+   "dist": 0.2993517337466847,
+   "n_seed": 5
+  },
+  "1500|spanking|2010": {
+   "rate": 0.0,
+   "dist": 0.34538050553615196,
+   "n_seed": 5
+  },
+  "1500|prayer|1970": {
+   "rate": 0.0,
+   "dist": 0.2816299887449581,
+   "n_seed": 5
+  },
+  "1500|prayer|1980": {
+   "rate": 0.0,
+   "dist": 0.4167025896309105,
+   "n_seed": 5
+  },
+  "1500|prayer|1990": {
+   "rate": 0.0,
+   "dist": 0.1293223059325128,
+   "n_seed": 5
+  },
+  "1500|prayer|2000": {
+   "rate": 0.0,
+   "dist": 0.3537386382439468,
+   "n_seed": 5
+  },
+  "1500|prayer|2010": {
+   "rate": 0.0,
+   "dist": 0.4175657868286753,
+   "n_seed": 5
+  },
+  "1500|racmar|1970": {
+   "rate": 0.0,
+   "dist": 0.29755166724296,
+   "n_seed": 5
+  },
+  "1500|racmar|1980": {
+   "rate": 0.0,
+   "dist": 0.41669106027354036,
+   "n_seed": 5
+  },
+  "1500|racmar|1990": {
+   "rate": 0.0,
+   "dist": 0.2506038475481418,
+   "n_seed": 5
+  },
+  "1500|helpblk|1980": {
+   "rate": 0.0,
+   "dist": 0.26480155063181626,
+   "n_seed": 5
+  },
+  "1500|helpblk|1990": {
+   "rate": 0.0,
+   "dist": 0.2827106104177034,
+   "n_seed": 5
+  },
+  "1500|helpblk|2000": {
+   "rate": 0.0,
+   "dist": 0.18982908839140358,
+   "n_seed": 5
+  },
+  "1500|helpblk|2010": {
+   "rate": 0.0,
+   "dist": 0.3227841046651282,
+   "n_seed": 5
+  },
+  "6000|homosex|1970": {
+   "rate": 0.0,
+   "dist": 0.41076348275386454,
+   "n_seed": 5
+  },
+  "6000|homosex|1980": {
+   "rate": 0.0,
+   "dist": 0.08797406161797065,
+   "n_seed": 5
+  },
+  "6000|homosex|1990": {
+   "rate": 1.0,
+   "dist": 0.6249231986394618,
+   "n_seed": 5
+  },
+  "6000|homosex|2000": {
+   "rate": 1.0,
+   "dist": 0.276849043774227,
+   "n_seed": 5
+  },
+  "6000|homosex|2010": {
+   "rate": 0.0,
+   "dist": 0.19400931111866362,
+   "n_seed": 5
+  },
+  "6000|teensex|1980": {
+   "rate": 0.0,
+   "dist": 0.32532446411820376,
+   "n_seed": 5
+  },
+  "6000|teensex|1990": {
+   "rate": 0.0,
+   "dist": 0.39888349463937445,
+   "n_seed": 5
+  },
+  "6000|teensex|2000": {
+   "rate": 0.0,
+   "dist": 0.024709572897318986,
+   "n_seed": 5
+  },
+  "6000|teensex|2010": {
+   "rate": 1.0,
+   "dist": 0.22127414222293024,
+   "n_seed": 5
+  },
+  "6000|sexeduc|1970": {
+   "rate": 0.0,
+   "dist": 0.3703372095953591,
+   "n_seed": 5
+  },
+  "6000|sexeduc|1980": {
+   "rate": 0.0,
+   "dist": 0.24545608152012527,
+   "n_seed": 5
+  },
+  "6000|sexeduc|1990": {
+   "rate": 1.0,
+   "dist": 0.04303229253056173,
+   "n_seed": 5
+  },
+  "6000|sexeduc|2000": {
+   "rate": 0.0,
+   "dist": 0.17402942337765442,
+   "n_seed": 5
+  },
+  "6000|sexeduc|2010": {
+   "rate": 0.0,
+   "dist": 0.42489889760657,
+   "n_seed": 5
+  },
+  "6000|suicide2|1980": {
+   "rate": 0.0,
+   "dist": 0.4549458257470139,
+   "n_seed": 5
+  },
+  "6000|suicide2|1990": {
+   "rate": 0.0,
+   "dist": 0.3434527503148487,
+   "n_seed": 5
+  },
+  "6000|suicide2|2000": {
+   "rate": 0.0,
+   "dist": 0.256593417404544,
+   "n_seed": 5
+  },
+  "6000|suicide2|2010": {
+   "rate": 0.0,
+   "dist": 0.3556123358117359,
+   "n_seed": 5
+  },
+  "6000|spanking|1980": {
+   "rate": 0.0,
+   "dist": 0.1149868146109688,
+   "n_seed": 5
+  },
+  "6000|spanking|1990": {
+   "rate": 0.0,
+   "dist": 0.40182004656388876,
+   "n_seed": 5
+  },
+  "6000|spanking|2000": {
+   "rate": 0.0,
+   "dist": 0.2996815809519651,
+   "n_seed": 5
+  },
+  "6000|spanking|2010": {
+   "rate": 0.0,
+   "dist": 0.35645980076040634,
+   "n_seed": 5
+  },
+  "6000|prayer|1970": {
+   "rate": 0.0,
+   "dist": 0.2767463883058134,
+   "n_seed": 5
+  },
+  "6000|prayer|1980": {
+   "rate": 0.0,
+   "dist": 0.4058993391877654,
+   "n_seed": 5
+  },
+  "6000|prayer|1990": {
+   "rate": 0.0,
+   "dist": 0.1358285896733233,
+   "n_seed": 5
+  },
+  "6000|prayer|2000": {
+   "rate": 0.0,
+   "dist": 0.35340926871782063,
+   "n_seed": 5
+  },
+  "6000|prayer|2010": {
+   "rate": 0.0,
+   "dist": 0.41685878937909254,
+   "n_seed": 5
+  },
+  "6000|racmar|1970": {
+   "rate": 0.0,
+   "dist": 0.294355427109535,
+   "n_seed": 5
+  },
+  "6000|racmar|1980": {
+   "rate": 0.0,
+   "dist": 0.4168935581882723,
+   "n_seed": 5
+  },
+  "6000|racmar|1990": {
+   "rate": 0.0,
+   "dist": 0.25363460993903375,
+   "n_seed": 5
+  },
+  "6000|helpblk|1980": {
+   "rate": 0.0,
+   "dist": 0.26260639132878166,
+   "n_seed": 5
+  },
+  "6000|helpblk|1990": {
+   "rate": 0.0,
+   "dist": 0.2940379942170208,
+   "n_seed": 5
+  },
+  "6000|helpblk|2000": {
+   "rate": 0.0,
+   "dist": 0.18811191183895726,
+   "n_seed": 5
+  },
+  "6000|helpblk|2010": {
+   "rate": 0.0,
+   "dist": 0.32330318324873547,
+   "n_seed": 5
+  }
+ },
+ "unstable": [],
+ "close_to_boundary": [
+  "1500|homosex|1980",
+  "1500|teensex|2000",
+  "1500|sexeduc|1990",
+  "6000|homosex|1980",
+  "6000|teensex|2000",
+  "6000|sexeduc|1990"
+ ],
+ "counts": {
+  "1500|301": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "1500|302": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "1500|303": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "1500|304": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "1500|305": {
+   "homosex": 2,
+   "teensex": 2,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "6000|301": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "6000|302": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "6000|303": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "6000|304": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  },
+  "6000|305": {
+   "homosex": 2,
+   "teensex": 1,
+   "sexeduc": 1,
+   "suicide2": 0,
+   "spanking": 0,
+   "prayer": 0,
+   "racmar": 0,
+   "helpblk": 0
+  }
+ },
+ "n_unique": 9,
+ "n_total": 10,
+ "pos_control": 5,
+ "neg_control": 2,
+ "n_cells": 34,
+ "admissible": false,
+ "verdict": "**UNVERIFIED:控制行没有全过 ⇒ 判据没资格下判。**",
+ "gate_ok": false
+}
