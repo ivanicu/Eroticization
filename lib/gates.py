@@ -145,9 +145,50 @@ def check_columns(df, where=""):
 
 
 class Gate:
+    # ⚠⚠ `#795` —— 一个能造**假撤回**的缺陷,发现于 `#794` 跑第一版的时候。
+    #    `_control_rows` 此前**只由 `asserted(kind="control")` 填充**(唯一写入点在 `asserted` 里),
+    #    而 `negative_control` / `positive_control` / `offset_control` / `identity_control` /
+    #    `control_kept_the_sample` 这些**名字里就写着自己是控制**的方法,一个都不进那个集合。
+    #    ⇒ `three_valued()` 把一条**控制**的失败读成 **kill 开火**,打印
+    #      `OVERTURNED — controls sound, and the pre-registered threshold fired AGAINST the expectation`,
+    #      **还把那条失败的控制列进「阈值反着开火」的名单里。**
+    #    ⇒ **一个假的 OVERTURNED 就是一次假撤回,而 `#782` 已经立过:假撤回与假无罪一样永久。**
+    #
+    # ⚠ 归类用的是一条**机械规则,不是我的判断**:**方法名里带 `control` 的,就是控制。**
+    #    这条规则可审计、可复核,而且不需要我逐个决定「这算控制还是 kill」——
+    #    后者正是本会话已经错了三次的那一族(把一个相邻的量当成要判的那个量)。
+    # ⚠ **有意留在 kill 那一侧的**(它们是「可采性前提」,名字里没有 control,不由本规则改动):
+    #    `resolvable` · `has_error_bar` · `count_needs_interval` · `same_scale` ·
+    #    `threshold_outside_noise` · `equivalent_within` · `artifact_cannot_explain` ·
+    #    `degenerate_matches_reference` · `plant_direction_from_sweep` 等。
+    #    **要不要把它们也划过去是一个单独的、需要自己回测的决定,本轮不做。**
+    _CONTROL_METHODS = ("negative_control", "positive_control", "identity_control",
+                        "offset_control", "control_kept_the_sample",
+                        "positive_control_at_the_contested_magnitude")
+
     def __init__(self, question):
         self.question = question
         self.rows = []
+        self._control_rows = set()
+        for _m in self._CONTROL_METHODS:
+            _f = getattr(self, _m, None)
+            if _f is None: continue
+            setattr(self, _m, self._as_control(_f))
+
+    def _as_control(self, fn):
+        """把一个具名控制方法包起来:它追加的每一行都登记进 `_control_rows`。
+
+        包在**实例**上而不是改每一个 `self.rows.append` 现场 —— 那有三十多处,
+        改现场会漏,而漏掉的那一处正是下一次假撤回。**一个入口,可审计。**
+        """
+        def wrapped(*a, **kw):
+            before = len(self.rows)
+            out = fn(*a, **kw)
+            self._control_rows |= set(range(before, len(self.rows)))
+            return out
+        wrapped.__name__ = getattr(fn, "__name__", "control")
+        wrapped.__doc__ = fn.__doc__
+        return wrapped
 
     # ---- the three comparisons that failed, each now requiring its second argument ----
 

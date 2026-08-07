@@ -1,0 +1,32 @@
+{
+ "selftest_verdict": "UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (具名控制:故意让它失败)",
+ "control_rows": [
+  0
+ ],
+ "control_methods": [
+  "negative_control",
+  "positive_control",
+  "identity_control",
+  "offset_control",
+  "control_kept_the_sample",
+  "positive_control_at_the_contested_magnitude"
+ ],
+ "backtest": {
+  "scripts_using_named_controls": 369,
+  "scripts_total": 772,
+  "artifacts_with_gate_ok": 363,
+  "gate_ok_false": 13,
+  "candidates": 4,
+  "occurrences_in_ledger": 0,
+  "ledger_entries_quoting_library_OVERTURNED": [
+   781,
+   782,
+   783,
+   785,
+   790
+  ],
+  "negative_control": "重跑 #790(R229)四行逐字相同,总判仍 OVERTURNED",
+  "unmeasured_rounds": 409
+ },
+ "withdrawn": "#794 把「暴露面 369」放在句首,读成风险量级;正确顺序:候选 4 · 发生 0 · 暴露 369"
+}
