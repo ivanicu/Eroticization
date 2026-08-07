@@ -409,6 +409,25 @@ def precommit(baseline_path="tools/gate_baseline.json"):
             print("🔒 PRE-COMMIT BLOCK (debts_gate)"); print(_r.stdout.strip() or _r.stderr.strip())
             print("   -> `DEBTS.tsv` 自相矛盾。**零容忍,不是棘轮**:一张自相矛盾的表没有暂时可接受的版本。")
             return 1
+    # ⚠⚠ `#840`①:把 `no_transcribed_numbers.py` 也接进这个自动执行点 —— 与 `debts_gate` 同一条理由,
+    #   而这次的理由是 `#836`① 与 `#840`① 说的同一句话:**教训不落到工具上就是没落地。**
+    #   ⚠ 这里接的是**棘轮而非零容忍**,与 `debts_gate` 相反,而理由是可说清楚的:
+    #     历史上 357 处命中里有相当一部分是**合理的引用**(作者提了别轮却确实不需要读它的产物),
+    #     **那是一个人可以一眼判掉的误报** —— 用零容忍会逼我去改几百个旧文件(`L81`)。
+    #     棘轮只要求**今天不比昨天更差**,而那正是这条规矩要防的东西。
+    _nt = pathlib.Path(__file__).resolve().parents[1]/"tools"/"no_transcribed_numbers.py"
+    if _nt.exists():
+        _r = subprocess.run([_sys.executable, str(_nt), "--precommit"], capture_output=True, text=True)
+        if _r.returncode == 2:
+            print("🔒 PRE-COMMIT BLOCK (no_transcribed_numbers:控制没过)")
+            print(_r.stdout.strip() or _r.stderr.strip())
+            print("   -> ★P5:仪器没证明自己会开火,它的零是沉默,不是无罪。")
+            return 1
+        if _r.returncode == 1:
+            print("🔒 PRE-COMMIT BLOCK (no_transcribed_numbers)"); print(_r.stdout.strip())
+            print("   -> **别把上一轮的数字打进脚本,从它的 `results/*.json` 读**(`#840`)。")
+            return 1
+
     blocked, hits = run_gate(quiet=True)
     bp = pathlib.Path(baseline_path)
     if not bp.exists():
