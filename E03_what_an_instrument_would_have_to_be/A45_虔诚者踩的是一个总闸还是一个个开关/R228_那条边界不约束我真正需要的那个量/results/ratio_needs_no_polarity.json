@@ -1,0 +1,604 @@
+{
+ "rows": [
+  {
+   "item": "homosex",
+   "grp": "性",
+   "stem": "Homosexual sex relations",
+   "readable": true,
+   "r": 0.40895859403859375,
+   "lo": 0.3054318518227802,
+   "hi": 0.5297975815165239,
+   "slopeB": 0.03731843942301329,
+   "nullB95": 0.014681440036309909,
+   "moved": true,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": null
+  },
+  {
+   "item": "xmarsex",
+   "grp": "性",
+   "stem": "Sex with person other than spouse",
+   "readable": false,
+   "r": 0.28880091321730667,
+   "lo": -1.851481109923947,
+   "hi": 3.3415191239162803,
+   "slopeB": -0.0023481400074994024,
+   "nullB95": 0.0027002599708184634,
+   "moved": false,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "premarsx",
+   "grp": "性",
+   "stem": "Sex before marriage",
+   "readable": false,
+   "r": 0.8033745146411994,
+   "lo": 0.521196727828392,
+   "hi": 1.1123244322450963,
+   "slopeB": 0.012895445402451702,
+   "nullB95": 0.00519879883134935,
+   "moved": true,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "teensex",
+   "grp": "性",
+   "stem": "Sex before marriage:teens 14-16",
+   "readable": true,
+   "r": 0.36384764367064376,
+   "lo": 0.0029174563102022763,
+   "hi": 0.796962485901802,
+   "slopeB": 0.011800195759739129,
+   "nullB95": 0.006156706772388278,
+   "moved": true,
+   "nyr": [
+    21,
+    21
+   ],
+   "why": null
+  },
+  {
+   "item": "pornlaw",
+   "grp": "性",
+   "stem": "Feelings about pornography laws",
+   "readable": false,
+   "r": 0.9802794061345023,
+   "lo": 0.243382262999267,
+   "hi": 2.544696549360551,
+   "slopeB": 0.0018111553017808955,
+   "nullB95": 0.001072529136471087,
+   "moved": true,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "sexeduc",
+   "grp": "性",
+   "stem": "Sex education in public schools",
+   "readable": true,
+   "r": 2.1924233417885106,
+   "lo": 1.2122686099131241,
+   "hi": 4.805283003824509,
+   "slopeB": -0.001282189147230321,
+   "nullB95": 0.0007061458672648823,
+   "moved": true,
+   "nyr": [
+    27,
+    27
+   ],
+   "why": null
+  },
+  {
+   "item": "divlaw",
+   "grp": "性",
+   "stem": "Divorce laws",
+   "readable": false,
+   "r": 1.2021652619964007,
+   "lo": -7.255193849253578,
+   "hi": 11.587449603917705,
+   "slopeB": -0.0026817443063256417,
+   "nullB95": 0.0026499986075399808,
+   "moved": true,
+   "nyr": [
+    29,
+    29
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "abany",
+   "grp": "非性",
+   "stem": "Abortion if woman wants for any reason",
+   "readable": false,
+   "r": 0.8563070896532226,
+   "lo": 0.5372609768626362,
+   "hi": 1.442221846049995,
+   "slopeB": -0.002801180846851586,
+   "nullB95": 0.001471121389378428,
+   "moved": true,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "abdefect",
+   "grp": "非性",
+   "stem": "Strong chance of serious defect",
+   "readable": false,
+   "r": 1.9413479435147034,
+   "lo": 0.9281947304073789,
+   "hi": 3.4483406823256377,
+   "slopeB": 0.0013648858370661114,
+   "nullB95": 0.0006411980561495414,
+   "moved": true,
+   "nyr": [
+    31,
+    31
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "abnomore",
+   "grp": "非性",
+   "stem": "Married--wants no more children",
+   "readable": false,
+   "r": 1.7498584437031277,
+   "lo": -10.669886782848085,
+   "hi": 14.195153653796545,
+   "slopeB": -0.0008504426236356107,
+   "nullB95": 0.0009272163277488118,
+   "moved": false,
+   "nyr": [
+    31,
+    31
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "abpoor",
+   "grp": "非性",
+   "stem": "Low income--cant afford more children",
+   "readable": false,
+   "r": 0.4509111889625212,
+   "lo": -1.9875780536986885,
+   "hi": 4.478898576115304,
+   "slopeB": 0.0010411565721353388,
+   "nullB95": 0.0010296140673803904,
+   "moved": true,
+   "nyr": [
+    31,
+    31
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "suicide1",
+   "grp": "非性",
+   "stem": "Suicide if incurable disease",
+   "readable": false,
+   "r": 1.4944502608458807,
+   "lo": 0.8562659244032754,
+   "hi": 3.7905040151586675,
+   "slopeB": -0.003421834986353649,
+   "nullB95": 0.002123400997977271,
+   "moved": true,
+   "nyr": [
+    26,
+    26
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "suicide2",
+   "grp": "非性",
+   "stem": "Suicide if bankrupt",
+   "readable": true,
+   "r": 0.41048651368254796,
+   "lo": 0.25694851694612003,
+   "hi": 0.6600741291820221,
+   "slopeB": -0.0022629001468115013,
+   "nullB95": 0.0010421874854744516,
+   "moved": true,
+   "nyr": [
+    26,
+    26
+   ],
+   "why": null
+  },
+  {
+   "item": "grass",
+   "grp": "非性",
+   "stem": "Should marijuana be made legal",
+   "readable": false,
+   "r": 0.785783337194615,
+   "lo": 0.5286272362641458,
+   "hi": 1.1560356268797394,
+   "slopeB": -0.011222212814988121,
+   "nullB95": 0.004835966653118218,
+   "moved": true,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "cappun",
+   "grp": "非性",
+   "stem": "Favor or oppose death penalty for murder",
+   "readable": false,
+   "r": 0.5284803521912553,
+   "lo": 0.191291009489148,
+   "hi": 1.270317347165802,
+   "slopeB": 0.0032601298889222887,
+   "nullB95": 0.0017203991550223678,
+   "moved": true,
+   "nyr": [
+    32,
+    32
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "gunlaw",
+   "grp": "非性",
+   "stem": "Favor or oppose gun permits",
+   "readable": false,
+   "r": 0.739315121595439,
+   "lo": -6.338983101645677,
+   "hi": 8.497947789071624,
+   "slopeB": 0.0006558817999798639,
+   "nullB95": 0.00109586671863893,
+   "moved": false,
+   "nyr": [
+    29,
+    29
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "letdie1",
+   "grp": "非性",
+   "stem": "Allow incurable patients to die",
+   "readable": false,
+   "r": 1.8790754560887257,
+   "lo": -8.860330802015545,
+   "hi": 14.588585451333925,
+   "slopeB": -0.000989075634716612,
+   "nullB95": 0.0010440967598341437,
+   "moved": false,
+   "nyr": [
+    25,
+    26
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "spanking",
+   "grp": "非性",
+   "stem": "Favor spanking to discipline child",
+   "readable": true,
+   "r": 0.46240311016360164,
+   "lo": 0.29925351532317873,
+   "hi": 0.7268879396939955,
+   "slopeB": 0.00963138298432784,
+   "nullB95": 0.004836050506097506,
+   "moved": true,
+   "nyr": [
+    21,
+    21
+   ],
+   "why": null
+  },
+  {
+   "item": "prayer",
+   "grp": "非性",
+   "stem": "Bible prayer in public schools",
+   "readable": true,
+   "r": 0.12572198561134204,
+   "lo": -0.24383834531382229,
+   "hi": 0.4348550108075712,
+   "slopeB": -0.003315331271376047,
+   "nullB95": 0.0015503029947445091,
+   "moved": true,
+   "nyr": [
+    27,
+    27
+   ],
+   "why": null
+  },
+  {
+   "item": "racmar",
+   "grp": "非性",
+   "stem": "Favor law against racial intermarriage",
+   "readable": true,
+   "r": 1.8414562609432323,
+   "lo": 1.529949533893475,
+   "hi": 2.252832735825522,
+   "slopeB": 0.007186974775091599,
+   "nullB95": 0.003441243314327784,
+   "moved": true,
+   "nyr": [
+    19,
+    19
+   ],
+   "why": null
+  },
+  {
+   "item": "natfare",
+   "grp": "非性",
+   "stem": "Welfare",
+   "readable": false,
+   "r": 0.4787313608145092,
+   "lo": 0.0025485641461389197,
+   "hi": 1.1586074388081353,
+   "slopeB": -0.007956229577468688,
+   "nullB95": 0.0040754201528268525,
+   "moved": true,
+   "nyr": [
+    32,
+    32
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "helpblk",
+   "grp": "非性",
+   "stem": "Should govt aid Black people?",
+   "readable": true,
+   "r": 0.1045649755012837,
+   "lo": -0.42010125903303297,
+   "hi": 0.6365617698699239,
+   "slopeB": -0.014316005545223129,
+   "nullB95": 0.007650805710096921,
+   "moved": true,
+   "nyr": [
+    25,
+    25
+   ],
+   "why": null
+  },
+  {
+   "item": "fechld",
+   "grp": "非性",
+   "stem": "Mother working doesn't hurt children",
+   "readable": false,
+   "r": 1.3574951188220477,
+   "lo": 0.779524919044786,
+   "hi": 2.58320502645273,
+   "slopeB": -0.007505942045662412,
+   "nullB95": 0.004096185431546788,
+   "moved": true,
+   "nyr": [
+    23,
+    23
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "fepresch",
+   "grp": "非性",
+   "stem": "Preschool kids suffer if mother works",
+   "readable": false,
+   "r": 1.0837412749323017,
+   "lo": 0.7119765899504468,
+   "hi": 1.8299236765690592,
+   "slopeB": 0.01112042329943314,
+   "nullB95": 0.0056593886504683315,
+   "moved": true,
+   "nyr": [
+    23,
+    23
+   ],
+   "why": "比值区间含 1.0"
+  }
+ ],
+ "gauge": [
+  {
+   "item": "homosex",
+   "r": 0.40895859403859375,
+   "r_flipped": 0.4089585940385938,
+   "absdiff": 5.551115123125783e-17
+  },
+  {
+   "item": "xmarsex",
+   "r": 0.28880091321730667,
+   "r_flipped": 0.2888009132173074,
+   "absdiff": 7.216449660063518e-16
+  },
+  {
+   "item": "premarsx",
+   "r": 0.8033745146411994,
+   "r_flipped": 0.8033745146411995,
+   "absdiff": 1.1102230246251565e-16
+  },
+  {
+   "item": "teensex",
+   "r": 0.36384764367064376,
+   "r_flipped": 0.36384764367064354,
+   "absdiff": 2.220446049250313e-16
+  },
+  {
+   "item": "pornlaw",
+   "r": 0.9802794061345023,
+   "r_flipped": 0.9802794061345035,
+   "absdiff": 1.2212453270876722e-15
+  },
+  {
+   "item": "sexeduc",
+   "r": 2.1924233417885106,
+   "r_flipped": 2.192423341788512,
+   "absdiff": 1.3322676295501878e-15
+  },
+  {
+   "item": "divlaw",
+   "r": 1.2021652619964007,
+   "r_flipped": 1.2021652619964005,
+   "absdiff": 2.220446049250313e-16
+  },
+  {
+   "item": "abany",
+   "r": 0.8563070896532226,
+   "r_flipped": 0.8563070896532223,
+   "absdiff": 2.220446049250313e-16
+  },
+  {
+   "item": "abdefect",
+   "r": 1.9413479435147034,
+   "r_flipped": 1.9413479435147027,
+   "absdiff": 6.661338147750939e-16
+  },
+  {
+   "item": "abnomore",
+   "r": 1.7498584437031277,
+   "r_flipped": 1.7498584437031277,
+   "absdiff": 0.0
+  },
+  {
+   "item": "abpoor",
+   "r": 0.4509111889625212,
+   "r_flipped": 0.4509111889625209,
+   "absdiff": 2.7755575615628914e-16
+  },
+  {
+   "item": "suicide1",
+   "r": 1.4944502608458807,
+   "r_flipped": 1.4944502608458812,
+   "absdiff": 4.440892098500626e-16
+  },
+  {
+   "item": "suicide2",
+   "r": 0.41048651368254796,
+   "r_flipped": 0.41048651368254796,
+   "absdiff": 0.0
+  },
+  {
+   "item": "grass",
+   "r": 0.785783337194615,
+   "r_flipped": 0.785783337194615,
+   "absdiff": 0.0
+  },
+  {
+   "item": "cappun",
+   "r": 0.5284803521912553,
+   "r_flipped": 0.5284803521912552,
+   "absdiff": 1.1102230246251565e-16
+  },
+  {
+   "item": "gunlaw",
+   "r": 0.739315121595439,
+   "r_flipped": 0.739315121595439,
+   "absdiff": 0.0
+  },
+  {
+   "item": "letdie1",
+   "r": 1.8790754560887257,
+   "r_flipped": 1.8790754560887257,
+   "absdiff": 0.0
+  },
+  {
+   "item": "spanking",
+   "r": 0.46240311016360164,
+   "r_flipped": 0.4624031101636018,
+   "absdiff": 1.6653345369377348e-16
+  },
+  {
+   "item": "prayer",
+   "r": 0.12572198561134204,
+   "r_flipped": 0.12572198561134204,
+   "absdiff": 0.0
+  },
+  {
+   "item": "racmar",
+   "r": 1.8414562609432323,
+   "r_flipped": 1.841456260943233,
+   "absdiff": 6.661338147750939e-16
+  },
+  {
+   "item": "natfare",
+   "r": 0.4787313608145092,
+   "r_flipped": 0.4787313608145091,
+   "absdiff": 5.551115123125783e-17
+  },
+  {
+   "item": "helpblk",
+   "r": 0.1045649755012837,
+   "r_flipped": 0.10456497550128373,
+   "absdiff": 2.7755575615628914e-17
+  },
+  {
+   "item": "fechld",
+   "r": 1.3574951188220477,
+   "r_flipped": 1.3574951188220477,
+   "absdiff": 0.0
+  },
+  {
+   "item": "fepresch",
+   "r": 1.0837412749323017,
+   "r_flipped": 1.0837412749323017,
+   "absdiff": 0.0
+  }
+ ],
+ "gauge_ok": true,
+ "usable": [
+  "homosex",
+  "xmarsex",
+  "premarsx",
+  "teensex",
+  "pornlaw",
+  "sexeduc",
+  "divlaw",
+  "abany",
+  "abdefect",
+  "abnomore",
+  "abpoor",
+  "suicide1",
+  "suicide2",
+  "grass",
+  "cappun",
+  "gunlaw",
+  "letdie1",
+  "spanking",
+  "prayer",
+  "racmar",
+  "natfare",
+  "helpblk",
+  "fechld",
+  "fepresch"
+ ],
+ "rejected": [],
+ "n_readable": 8,
+ "n_attempted": 24,
+ "negatives": [],
+ "sex_absr": [
+  0.40895859403859375,
+  0.36384764367064376,
+  2.1924233417885106
+ ],
+ "nonsex_absr": [
+  0.41048651368254796,
+  0.46240311016360164,
+  0.12572198561134204,
+  1.8414562609432323,
+  0.1045649755012837
+ ],
+ "gap": 0.001527919643954212,
+ "verdict": "**不可分,而这推翻的是我自己的预注册判据,不是数据。** 两组的 |r| 中位确实几乎相等(性 0.409 vs 非性 0.410,差 +0.002),**但那个差自己的 95% 区间是 [-2.067, +1.432],宽 3.499** —— 要分辨「≤0.165」与「>0.165」需要 ≤0.330。\n  ⚠ 预注册拿 0.165 当阈值,而 0.165 是**同一题跨窗口**的抖动;这里比的是**题间**中位数,题间散布 0.105–2.192,约十二倍于它。**判据用错了噪声来源** —— 与 `#782` 同一族。\n  ⇒ **而数据本身给出了一件比 A/B 都重要的事:变异在组内,不在组间。** 性题里 `sexeduc` 是 2.19(虔诚者改得**更多**),`teensex` 是 0.36;非性题里 `racmar` 是 1.84,`helpblk` 是 0.10。**「性 / 非性」这个切法解释不了任何东西 —— 我切错了维度。**",
+ "gate_ok": false
+}
