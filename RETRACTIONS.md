@@ -43750,3 +43750,125 @@ the second is holding a position, and the survey cannot tell them apart until yo
 ④ ⚠ Still `OPEN`: `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
    `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
    `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 893 · `E03·A105·R331` — a bracket is not the interaction, and `#892`'s asymmetry was backwards
+
+**VERDICT ON THE PRE-REGISTERED QUESTION: `UNVERIFIED`.** The kill predicted the wrong SIGN and
+cannot be rescued by re-reading it after the fact. **What the round DID establish, and it is a
+retraction of my own last entry, is `D8` and does not depend on that kill at all.**
+
+**WHAT I SET OUT TO TEST.** `#892` reported the case-structure interaction as **ONE-SIDED** — *"96%
+of D comes from `abpoorw` alone; with its twin removed `abdefctw` is FLAT"* — and then **wrote a
+mechanism for it**: *the medical condemners are near-absolutists, and an absolutist's verdict carries
+no case information.* That sentence went into the ledger and onto both pages **with no control
+attached**, which is exactly the line `realstat` §4 names as the highest-risk one in a report.
+
+**THE ROUND'S OWN NEGATIVE CONTROL KILLED ITS ESTIMAND IN THE FIRST RUN, AND `#892`'s HEADLINE WITH
+IT.** I took **bracket `B` itself** as the estimand and expected the synthetic one-factor world to
+return `0`. **It returns `+0.4382 ± 0.1097`.** The derivation in `#892` is correct about the
+**interaction** and I over-extended it to a single bracket: under one factor
+`log|ρ(defctw, j)| = log|λ_defctw| + log|λ_j|`, so
+`B = mean log λ over E′ − mean log λ over T′` — **the SANCTION items' own loading difference, which
+is precisely what `D = A − B` differences out and a lone bracket does not.**
+
+> **⇒ `#892` PRICED BOTH BRACKETS AGAINST ZERO WHEN THEIR BASELINE IS `+0.4497`.**
+>
+> | | observed | one-factor baseline | corrected | share of D |
+> |---|---|---|---|---|
+> | **A** `abpoorw`, hardship | +0.6449 | +0.4497 | **A\* = +0.1952** | **29%** |
+> | **B** `abdefctw`, medical | −0.0239 | +0.4497 | **B\* = −0.4736** | **71%** |
+>
+> **identity check: `A* − B* = +0.6688` = `#892`'s D exactly.**
+>
+> **`abdefctw` is NOT flat. It is tilted TOWARD the medical items by more than twice what `abpoorw`
+> is tilted toward the elective ones.** ⇒ **`#892`'s "96% from `abpoorw` alone" is RETRACTED, the
+> asymmetry was BACKWARDS, and the "a flat row is a person with a POSITION, not a judgement about a
+> CASE" sentence goes with it.** `D8` — a derivation plus a measured baseline, with the identity
+> checked; it does not rest on any threshold.
+
+**⚠ THE BASELINE IS NORM-INDEPENDENT UNDER ONE FACTOR AND WAS ESTIMATED TWICE** — `+0.4612` and
+`+0.4382`, a gap of `0.0230` against a null sd of `0.1097`. **Pooling them is not tidiness: two
+estimates of one quantity would break the identity `A* − B* = D` for no reason except simulation
+noise.** Pooled baseline `+0.4497`; identity then holds to four decimals.
+
+**FREE ALGEBRA, CHECKED BEFORE THE RUN AND STILL STANDING.** Scaling the whole `abdefctw` row by
+1.0 / 0.7 / 0.4 / 0.2 leaves `B = −0.0239` **unchanged at every value** — `B` is a within-row
+difference of logs, so any per-row scalar cancels. ⇒ **"the medical item is a worse MEASURE" in the
+classical attenuation sense was already refuted by algebra**, and world ITEM survives only as *"the
+item loads on a different mix"*, which is a content claim. This narrows `#892`'s register-item ⑥; it
+does not settle it. **Labelled a DERIVATION, not evidence.**
+
+**CONTROLS, all passing at the end.** ⚠ **The positive control also failed on the first run and for
+the same root cause** — its `g = 0` cell landed on `+0.4390` because the baseline was wrong, not
+because the instrument was blind. Rebuilt against the correct baseline it plants into the
+one-factor world and returns **`+0.0318 → −0.4697 → −0.8482 → −1.2531 → −1.5294 → −1.7402`**:
+monotone, direction read off the sweep, **floor lands on 0 so it CAN fail**, ceiling measured,
+threshold `0.2155` strictly between, sensitivity at **g = 0.10**. **Negative**: the one-factor world
+re-fitted **inside each stratum**, so `B*`'s null is 0 by construction and *the baseline itself is
+the measurement*. **Placebo**: random strata of the same sizes spread only **0.1349 ± 0.0667**.
+**`B* = −0.4736 ± 0.1097` is 4.4× its own spread. ALL GATES PASS.**
+
+**⚠ WHY THE PRE-REGISTRATION MISSED, STATED PLAINLY.** The card said *ABS ⇒ `B > 0` among
+differentiators*, because `#892` had read `B ≈ 0` as **flat**. With the baseline corrected `B* < 0`
+**everywhere** — the medical norm couples **preferentially** to medical legality items, which is
+case-specificity rather than its absence. **A pre-registration built on a mis-priced quantity cannot
+be re-read after the fact into a pass.** ⇒ `UNVERIFIED` on the pre-registered question, and by
+`#111c` that is **one**, not two.
+
+**WHAT THE GRID SHOWS — AN OBSERVATION, `D5`, EXPLICITLY NOT TESTED HERE.** `B*` is negative in
+**every** stratum, and its magnitude orders monotonically on all three external stratifiers:
+
+| stratifier | ordered `B*` medians | monotone toward zero |
+|---|---|---|
+| `attend` low → mid → high | −0.7401 → −0.5949 → −0.2904 | yes |
+| `polviews` liberal → moderate → conservative | −0.6087 → −0.5939 → −0.3916 | yes |
+| `educ` ≤12 → 13–15 → ≥16 | −0.5554 → −0.5243 → −0.4534 | yes |
+
+**The medical tilt is largest among the least religious and most liberal and smallest among the most
+religious and most conservative** — the direction the absolutism reading implies, but as a **gradient
+in MAGNITUDE**, never the sign flip I predicted. ⚠ **Three ordered points per stratifier, eyeballed.
+No trend test, no null. It must not be quoted as one.** It is the next round's pre-registration.
+
+**AND ONE MARGINAL FACT WORTH ITS OWN LINE:** **924 of 1,960 respondents (47.1%) give an
+UNDIFFERENTIATED answer** — 766 ban none, 158 ban all. **Their sanction row has zero variance and
+contributes nothing to any coupling**, which is why that stratum's `B*` is exactly `+0.0010` against
+a baseline of `−0.0010`: not a finding, a degeneracy, and said so here.
+
+**⇒ One sentence about people: nearly half of Americans give the same answer about every abortion
+case there is, and among the other half BOTH kinds of moral verdict carry case information — the
+one about a poor family and the one about a damaged foetus — with the MEDICAL verdict carrying more
+of it, not less. My previous entry said the opposite, and it said so because I compared a number to
+zero when its own baseline was 0.45.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **stratifying costs n** and the null is re-fitted at each stratum's own n, so a small-cell null is
+   a **bound**;
+② **`attend`/`polviews`/`educ` are proxies for "undifferentiated condemner", not measurements of it**
+   — a stratifier is a hypothesis about who that is;
+③ **the INTERNAL split is degenerate at one end by construction** (zero sanction variance), so it can
+   never test ABS on that side; **it was kept only to show that, and it is withdrawn as an
+   instrument**;
+④ **construct validation N/A** — no external gold standard for case-specific moral judgement;
+⑤ **cross-instrument N/A — there is `no second instrument` for this estimand and `only this one
+   instrument` can be asked it**: `#891` measured that of the 8 releases in `data/external/`
+   exactly one ships question text;
+⑥ **wave 2018 is out** (`abdefctw` ends 2008);
+⑦ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The gradient is now a PRE-REGISTRABLE question and this round deliberately did not answer it**:
+   *does `|B*|` decrease monotonically with religious attendance, conservatism and lower education,
+   against a null that permutes stratum labels while preserving stratum sizes?* Three ordered points
+   per stratifier is enough for a trend statistic and not enough for a claim without one. ⇒ `#893`①
+② ⚠ **`#892`'s decomposition and its closing psychological sentence are RETRACTED and both pages
+   still carry them.** This is no longer only a range/grade correction — **a published sentence is
+   now known to be backwards.** The production pass over the two pages is now settling `#888`② ·
+   `#889`② · `#890`② · `#891`② · `#892`② **and a retraction**. ⇒ `#893`②
+③ ⚠ **A bracket of a one-factor-proof interaction is NOT itself one-factor-proof.** I derived the
+   interaction's invariance correctly and then read a component of it as though the derivation
+   transferred. **Any future decomposition of `D` must re-derive the baseline for the PART, not
+   inherit it from the WHOLE.** ⇒ `#893`③
+④ ⚠ Still `OPEN`: `#892`①③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② ·
+   `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
+   `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
+   `#857`① · `#861`①.

@@ -1,0 +1,1095 @@
+{
+ "entry": 893,
+ "round": "E03\u00b7A105\u00b7R331",
+ "verdict": "UNVERIFIED",
+ "world": "mixed \u2014 no world predicted this pattern; report it, not a verdict",
+ "n": 1960,
+ "waves": [
+  1991,
+  1998,
+  2008
+ ],
+ "undifferentiated": 924,
+ "undiff_frac": 0.4714285714285714,
+ "bracket_A": 0.6448623176988486,
+ "bracket_B": -0.023893583499358773,
+ "attenuation_invariance": true,
+ "baseline_A": 0.4611733006805455,
+ "baseline_B": 0.43819431102663986,
+ "baseline_pooled": 0.4496838058535927,
+ "A_star": 0.19517851184525592,
+ "B_star": -0.47357738935295146,
+ "D_892_read_from_R330": 0.6687559011982074,
+ "retracts": "#892's '96% of D from abpoorw alone' \u2014 priced against 0 instead of the measured one-factor baseline +0.4497; corrected shares 29% / 71%",
+ "null_B": [
+  0.43819431102663986,
+  0.10965768776974148,
+  0.21548339122236165
+ ],
+ "positive_sweep": [
+  [
+   0.0,
+   0.031771819284994264
+  ],
+  [
+   0.1,
+   -0.4697120645208533
+  ],
+  [
+   0.25,
+   -0.8481950104665984
+  ],
+  [
+   0.5,
+   -1.2531263403712425
+  ],
+  [
+   0.75,
+   -1.529374344574468
+  ],
+  [
+   1.0,
+   -1.7402340376353653
+  ]
+ ],
+ "positive_sd": [
+  0.1147339476805052,
+  0.07504710943484445,
+  0.07091008180410459,
+  0.07156527807014369,
+  0.057535036045897735,
+  0.06888920550006451
+ ],
+ "placebo": [
+  0.13486983793482443,
+  0.06671700728501433
+ ],
+ "strata": {
+  "INTERNAL: own differentiation (\u26a0 conditions on the sanction arm \u2014 Oldham 1962)|undifferentiated (0 or 7 banned)": {
+   "n_cells": 9,
+   "median": 0.0009603006007632697,
+   "baseline": -0.0009603006007632697,
+   "null95": 0.06042664510627334,
+   "beyond": 0
+  },
+  "INTERNAL: own differentiation (\u26a0 conditions on the sanction arm \u2014 Oldham 1962)|differentiators (1\u20136 banned)": {
+   "n_cells": 9,
+   "median": -0.6341775497367333,
+   "baseline": 0.31517165256851654,
+   "null95": 1.6944441750393178,
+   "beyond": 0
+  },
+  "EXTERNAL: religious attendance `attend`|low (0\u20132, seldom)": {
+   "n_cells": 9,
+   "median": -0.7400972486958778,
+   "baseline": 0.7358616087854897,
+   "null95": 0.8684001231263281,
+   "beyond": 3
+  },
+  "EXTERNAL: religious attendance `attend`|mid (3\u20135)": {
+   "n_cells": 9,
+   "median": -0.5949004339793766,
+   "baseline": 0.5480424337745499,
+   "null95": 0.9034732739012514,
+   "beyond": 0
+  },
+  "EXTERNAL: religious attendance `attend`|high (6\u20138, weekly+)": {
+   "n_cells": 9,
+   "median": -0.29036302674686715,
+   "baseline": 0.21710020887236708,
+   "null95": 0.34191323197293577,
+   "beyond": 0
+  },
+  "EXTERNAL: `polviews`|liberal (1\u20133)": {
+   "n_cells": 9,
+   "median": -0.6086735283678888,
+   "baseline": 0.7268409467232959,
+   "null95": 0.7907484669721833,
+   "beyond": 3
+  },
+  "EXTERNAL: `polviews`|moderate (4)": {
+   "n_cells": 9,
+   "median": -0.59390348313319,
+   "baseline": 0.4355566162057811,
+   "null95": 0.43732311491403714,
+   "beyond": 9
+  },
+  "EXTERNAL: `polviews`|conservative (5\u20137)": {
+   "n_cells": 9,
+   "median": -0.39157715866765197,
+   "baseline": 0.33948978332282576,
+   "null95": 0.34204975546503497,
+   "beyond": 9
+  },
+  "EXTERNAL: `educ`|<=12 years": {
+   "n_cells": 9,
+   "median": -0.5553631728248267,
+   "baseline": 0.37043561041336004,
+   "null95": 0.4248475183587766,
+   "beyond": 9
+  },
+  "EXTERNAL: `educ`|13\u201315": {
+   "n_cells": 9,
+   "median": -0.5242860993050129,
+   "baseline": 0.6208473913641572,
+   "null95": 0.6448006517118873,
+   "beyond": 3
+  },
+  "EXTERNAL: `educ`|>=16": {
+   "n_cells": 9,
+   "median": -0.4533763927447194,
+   "baseline": 0.4610098993653028,
+   "null95": 0.25166470202404717,
+   "beyond": 9
+  }
+ },
+ "grid_rows": [
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   0.0009603006007632697,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   0.0009603006007632142,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   0.0009603006007632663,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "drop `abany`",
+   "spearman",
+   0.0009603006007632697,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "drop `abany`",
+   "kendall",
+   0.0009603006007632697,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "drop `abany`",
+   "gamma",
+   0.0009603006007632697,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "`abnomore` as hardship",
+   "spearman",
+   0.0009603006007632697,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "`abnomore` as hardship",
+   "kendall",
+   0.0009603006007633252,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "undifferentiated (0 or 7 banned)",
+   "`abnomore` as hardship",
+   "gamma",
+   0.0009603006007632732,
+   924,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.6341775497367331,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.6341775497367333,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.6758012059501767,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "drop `abany`",
+   "spearman",
+   -0.39182808406679237,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "drop `abany`",
+   "kendall",
+   -0.39182808406679237,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "drop `abany`",
+   "gamma",
+   -0.44853430789761306,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.726121880705142,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.7261218807051416,
+   1036,
+   ""
+  ],
+  [
+   "INTERNAL",
+   "differentiators (1\u20136 banned)",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.7280852846430192,
+   1036,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.6729785679111479,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.6729785679111479,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.9231050367381493,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "drop `abany`",
+   "spearman",
+   -0.6413254640976852,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "drop `abany`",
+   "kendall",
+   -0.6413254640976852,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "drop `abany`",
+   "gamma",
+   -0.9037833337445436,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.7400972486958778,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.7400972486958778,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "low (0\u20132, seldom)",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.8878813602695247,
+   796,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.5949004339793766,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.5949004339793768,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.7911755385121128,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "drop `abany`",
+   "spearman",
+   -0.5809504407538743,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "drop `abany`",
+   "kendall",
+   -0.5809504407538743,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "drop `abany`",
+   "gamma",
+   -0.7812237358441518,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.5854059304498934,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.5854059304498936,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "mid (3\u20135)",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.7125372975181472,
+   559,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.3300306619652637,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.3300306619652638,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.2899427252504173,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "drop `abany`",
+   "spearman",
+   -0.2903630267468669,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "drop `abany`",
+   "kendall",
+   -0.29036302674686715,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "drop `abany`",
+   "gamma",
+   -0.2569990504048353,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.3096394768852884,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.3096394768852883,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "high (6\u20138, weekly+)",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.2753206024858486,
+   582,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.5290985502172137,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.5290985502172134,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.8921535368334905,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "drop `abany`",
+   "spearman",
+   -0.514505105538825,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "drop `abany`",
+   "kendall",
+   -0.5145051055388249,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "drop `abany`",
+   "gamma",
+   -0.8822060708819784,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.608673528367889,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.6086735283678888,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "liberal (1\u20133)",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.8443960754272835,
+   576,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.5835988676655771,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.5835988676655772,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.63296617327198,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "drop `abany`",
+   "spearman",
+   -0.5287661360923906,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "drop `abany`",
+   "kendall",
+   -0.5287661360923908,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "drop `abany`",
+   "gamma",
+   -0.59390348313319,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.6085799737604084,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.6085799737604082,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "moderate (4)",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.6225405821713565,
+   714,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.39157715866765197,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.3915771586676521,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.4489557482094974,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "drop `abany`",
+   "spearman",
+   -0.3728150098333701,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "drop `abany`",
+   "kendall",
+   -0.37281500983337035,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "drop `abany`",
+   "gamma",
+   -0.43574987367496826,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.3719702019912866,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.3719702019912867,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "conservative (5\u20137)",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.40460846451472954,
+   597,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.5770846581526196,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.5770846581526202,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.5923927713624058,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "drop `abany`",
+   "spearman",
+   -0.5359549532825044,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "drop `abany`",
+   "kendall",
+   -0.5359549532825049,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "drop `abany`",
+   "gamma",
+   -0.5582235152035061,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.5553631728248267,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.5553631728248267,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "<=12 years",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.5494761819126281,
+   902,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.46327495378194905,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.46327495378194905,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.7575558211467935,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "drop `abany`",
+   "spearman",
+   -0.4298040766325312,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "drop `abany`",
+   "kendall",
+   -0.42980407663253106,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "drop `abany`",
+   "gamma",
+   -0.7332802051092026,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.524286099305013,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.5242860993050129,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   "13\u201315",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.718242375411202,
+   516,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   -0.4302885985603986,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   -0.4302885985603986,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.5855773465361891,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "drop `abany`",
+   "spearman",
+   -0.4168345233360268,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "drop `abany`",
+   "kendall",
+   -0.4168345233360269,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "drop `abany`",
+   "gamma",
+   -0.5808917925891955,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "`abnomore` as hardship",
+   "spearman",
+   -0.4533763927447194,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "`abnomore` as hardship",
+   "kendall",
+   -0.4533763927447194,
+   537,
+   ""
+  ],
+  [
+   "EXTERNAL",
+   ">=16",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.5492406075325952,
+   537,
+   ""
+  ]
+ ],
+ "loadings": {
+  "abpoorw": -0.5599276768320608,
+  "abdefctw": -0.40294922353894747,
+  "abdefect": 0.6670355258536669,
+  "abnomore": 0.8209997213726649,
+  "abhlth": 0.6258064565009714,
+  "abpoor": 0.8009058516509141,
+  "abrape": 0.6967529183529678,
+  "absingle": 0.8172453252275881,
+  "abany": 0.8005235503314772
+ },
+ "gradient_observed": {
+  "attend": [
+   -0.7400972486958778,
+   -0.5949004339793766,
+   -0.29036302674686715
+  ],
+  "polviews": [
+   -0.6086735283678888,
+   -0.59390348313319,
+   -0.39157715866765197
+  ],
+  "educ": [
+   -0.5553631728248267,
+   -0.5242860993050129,
+   -0.4533763927447194
+  ]
+ },
+ "gradient_status": "D5 OBSERVATION - three ordered points per stratifier, no trend test, no null; the NEXT round's pre-registration, not a result",
+ "gates": [
+  [
+   "positive: class-specificity planted into the abdefctw row",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0b\u964d**;\u7075\u654f\u5ea6 g=0.1;g=0 +0.0318 \u00b7 g=1 -1.7402",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "one-factor world, baseline re-fitted per stratum",
+   "|+0.0000| < 0.5*|-0.4736| = 0.2368",
+   true,
+   "null is 0% of the effect [\u96f6\u7684\u65b9\u6848: SYNTHETIC ONE-FACTOR WORLD re-fitted INSIDE each stratum \u2014 B* is B minus that stratum's own baseline, so the null is 0 by construction and the baseline itself is the measurement]"
+  ],
+  [
+   "B* pooled",
+   "-0.4736 \u00b1 0.1097",
+   true,
+   "\u6765\u6e90 bootstrap_\u4eba\u5c42"
+  ],
+  [
+   "B* vs its own null",
+   "|-0.4736| > 2*0.1077 = 0.2155",
+   true,
+   "4.4x its own spread"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

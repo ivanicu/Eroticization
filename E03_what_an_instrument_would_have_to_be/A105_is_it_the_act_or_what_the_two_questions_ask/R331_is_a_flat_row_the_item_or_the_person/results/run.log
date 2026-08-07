@@ -1,0 +1,116 @@
+=== (0) HARD RULE 1 — n, years, codes, for every column INCLUDING the stratifiers ===
+  abpoorw   n_in_sample= 1960/1960  codes=[1, 2, 3, 4]
+  abdefctw  n_in_sample= 1960/1960  codes=[1, 2, 3, 4]
+  abdefect  n_in_sample= 1960/1960  codes=[1, 2]
+  abnomore  n_in_sample= 1960/1960  codes=[1, 2]
+  abhlth    n_in_sample= 1960/1960  codes=[1, 2]
+  abpoor    n_in_sample= 1960/1960  codes=[1, 2]
+  abrape    n_in_sample= 1960/1960  codes=[1, 2]
+  absingle  n_in_sample= 1960/1960  codes=[1, 2]
+  abany     n_in_sample= 1960/1960  codes=[1, 2]
+  attend    n_in_sample= 1937/1960  codes=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+  polviews  n_in_sample= 1887/1960  codes=[1, 2, 3, 4, 5, 6, 7]
+  educ      n_in_sample= 1955/1960  codes=[0, 2, 3, 4, 5, 6, 7, 8, 9]
+  ⇒ base sample n=1960, waves [1991, 1998, 2008]
+
+  ⚠ **924 of 1960 = 47.1% give an UNDIFFERENTIATED answer** (ban none: 766 · ban all: 158) — their sanction row has ZERO variance and contributes nothing to any ρ
+
+=== (1) FREE ALGEBRA, CHECKED BEFORE THE RUN — uniform attenuation cannot flatten a row ===
+  observed  bracket A (`abpoorw`) +0.6449 · **bracket B (`abdefctw`) -0.0239**  n=1960
+  row scaled by 1.0 (classical attenuation): B = -0.0239
+  row scaled by 0.7 (classical attenuation): B = -0.0239
+  row scaled by 0.4 (classical attenuation): B = -0.0239
+  row scaled by 0.2 (classical attenuation): B = -0.0239
+  ⇒ **B is invariant to ANY per-row scalar.** So 'the medical item is a worse MEASURE' in the
+     classical attenuation sense is ALREADY refuted — algebra, labelled as a DERIVATION, not
+     evidence. World ITEM survives only as 'the item loads on a different MIX', a content
+     claim. ⚠ this narrows register-item ⑥ of `#892`; it does not settle it.
+
+=== (2) THE STRATIFIERS — one internal (conditions on an arm) and three external ===
+
+  INTERNAL: own differentiation (⚠ conditions on the sanction arm — Oldham 1962)
+    undifferentiated (0 or 7 banned)     n=  924   A +0.0000   **B +0.0000**
+    differentiators (1–6 banned)         n= 1036   A +1.0020   **B -0.3190**
+
+  EXTERNAL: religious attendance `attend`
+    low (0–2, seldom)                    n=  796   A +0.7957   **B +0.0629**
+    mid (3–5)                            n=  559   A +0.7008   **B -0.0469**
+    high (6–8, weekly+)                  n=  582   A +0.6354   **B -0.1129**
+
+  EXTERNAL: `polviews`
+    liberal (1–3)                        n=  576   A +0.7747   **B +0.1977**
+    moderate (4)                         n=  714   A +0.7008   **B -0.1480**
+    conservative (5–7)                   n=  597   A +0.6191   **B -0.0521**
+
+  EXTERNAL: `educ`
+    <=12 years                           n=  902   A +0.5721   **B -0.2066**
+    13–15                                n=  516   A +0.8154   **B +0.1576**
+    >=16                                 n=  537   A +0.5818   **B +0.0307**
+
+=== (3) THE ONE-FACTOR BASELINE, RE-FITTED INSIDE EVERY STRATUM ===
+  the baseline is NORM-INDEPENDENT under one factor; estimated twice as +0.4612 and +0.4382 (gap 0.0230 vs null sd 0.1097) ⇒ pooled **+0.4497**
+  **A* = +0.6449 − +0.4497 = +0.1952   (29% of D)**
+  **B* = -0.0239 − +0.4497 = -0.4736   (71% of D)**
+  identity check  A* − B* = +0.6688  vs  D read from `R330`'s artifact = +0.6688  ⇒ agree to 4dp: True
+  ⇒ ⚠ **`#892`'s '96% from `abpoorw` alone' is RETRACTED.** Against the correct baseline the
+     MEDICAL norm carries the larger share, and `abdefctw` is not flat but tilted TOWARD the
+     medical items. The published asymmetry was backwards.
+
+=== (4) POSITIVE CONTROL — baseline is the one-factor value, NOT zero (v1's error) ===
+  g=0.00  B* +0.0318 ± 0.1147   (planted into a world whose true B* is 0)
+  g=0.10  B* -0.4697 ± 0.0750   (planted into a world whose true B* is 0)
+  g=0.25  B* -0.8482 ± 0.0709   (planted into a world whose true B* is 0)
+  g=0.50  B* -1.2531 ± 0.0716   (planted into a world whose true B* is 0)
+  g=0.75  B* -1.5294 ± 0.0575   (planted into a world whose true B* is 0)
+  g=1.00  B* -1.7402 ± 0.0689   (planted into a world whose true B* is 0)
+  floor(g=0) +0.0318 lands on 0 ⇒ the control CAN fail · ceiling(g=1) -1.7402 · threshold 0.2155 strictly between: True
+
+=== (5) PLACEBO — RANDOM strata of the SAME sizes; B must not spread ===
+  placebo spread across random strata of the same sizes: 0.1349 ± 0.0667
+
+=== (6) G3/G4 — every stratum priced against ITS OWN re-fitted one-factor baseline ===
+  INTERNAL  undifferentiated (0 or 7 banned)     n=  924 baseline -0.0010 · **B* median +0.0010** · 0/9 beyond its own null 95th pct
+  INTERNAL  differentiators (1–6 banned)         n= 1036 baseline +0.3152 · **B* median -0.6342** · 0/9 beyond its own null 95th pct
+  EXTERNAL  low (0–2, seldom)                    n=  796 baseline +0.7359 · **B* median -0.7401** · 3/9 beyond its own null 95th pct
+  EXTERNAL  mid (3–5)                            n=  559 baseline +0.5480 · **B* median -0.5949** · 0/9 beyond its own null 95th pct
+  EXTERNAL  high (6–8, weekly+)                  n=  582 baseline +0.2171 · **B* median -0.2904** · 0/9 beyond its own null 95th pct
+  EXTERNAL  liberal (1–3)                        n=  576 baseline +0.7268 · **B* median -0.6087** · 3/9 beyond its own null 95th pct
+  EXTERNAL  moderate (4)                         n=  714 baseline +0.4356 · **B* median -0.5939** · 9/9 beyond its own null 95th pct
+  EXTERNAL  conservative (5–7)                   n=  597 baseline +0.3395 · **B* median -0.3916** · 9/9 beyond its own null 95th pct
+  EXTERNAL  <=12 years                           n=  902 baseline +0.3704 · **B* median -0.5554** · 9/9 beyond its own null 95th pct
+  EXTERNAL  13–15                                n=  516 baseline +0.6208 · **B* median -0.5243** · 3/9 beyond its own null 95th pct
+  EXTERNAL  >=16                                 n=  537 baseline +0.4610 · **B* median -0.4534** · 9/9 beyond its own null 95th pct
+
+  strata computed: 11
+
+=== (7) THE CONDITIONAL KILL ===
+  CONDITIONAL KILL -- Is `#892`'s flat `abdefctw` row a property of the ITEM or of the PEOPLE?
+   PASS  positive: class-specificity planted into the abdefctw row  方向由数据给出:**下降**;灵敏度 g=0.1;g=0 +0.0318 · g=1 -1.7402   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  one-factor world, baseline re-fitted per stratum           |+0.0000| < 0.5*|-0.4736| = 0.2368   (null is 0% of the effect [零的方案: SYNTHETIC ONE-FACTOR WORLD re-fitted INSIDE each stratum — B* is B minus that stratum's own baseline, so the null is 0 by construction and the baseline itself is the measurement])
+   PASS  B* pooled                                                  -0.4736 ± 0.1097   (来源 bootstrap_人层)
+   PASS  B* vs its own null                                         |-0.4736| > 2*0.1077 = 0.2155   (4.4x its own spread)
+   => ALL GATES PASS
+
+  internal split fires: False · external stratifiers firing: 2/3 ['`educ`', '`polviews`']
+  gate three-valued : ALL GATES PASS
+  **VERDICT UNVERIFIED · mixed — no world predicted this pattern; report it, not a verdict**
+
+=== (8) WHY THE PRE-REGISTRATION MISSED, AND WHAT THE GRID ACTUALLY SHOWS ===
+  ⚠ **The kill predicted the WRONG SIGN, and it inherited that from `#892`.** The card said
+     ABS ⇒ `B > 0` among differentiators, because `#892` had read B ≈ 0 as *flat*. Once the
+     baseline is right, `B* < 0` everywhere — **the medical norm couples PREFERENTIALLY to
+     medical legality items**, which is case-specificity, not its absence. A pre-registration
+     built on a mis-priced quantity cannot be rescued by re-reading it after the fact, so the
+     verdict on the PRE-REGISTERED question stays `UNVERIFIED` (`#111c`: one, not two).
+
+  what the grid DOES show — reported as an OBSERVATION, D5, explicitly NOT tested here:
+    attend    -0.7401 → -0.5949 → -0.2904   monotone toward zero: True
+    polviews  -0.6087 → -0.5939 → -0.3916   monotone toward zero: True
+    educ      -0.5554 → -0.5243 → -0.4534   monotone toward zero: True
+  ⇒ **the medical tilt is LARGEST among the least religious and most liberal and SMALLEST
+     among the most religious and most conservative** — the direction the absolutism reading
+     implies, but expressed as a GRADIENT IN MAGNITUDE and never as the sign flip I predicted.
+  ⚠ **This is three ordered points per stratifier, eyeballed. It is NOT a trend test, it has
+     no null, and it must not be quoted as one.** It is the NEXT round's pre-registration.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A105_is_it_the_act_or_what_the_two_questions_ask/R331_is_a_flat_row_the_item_or_the_person/results/item_or_person.json
