@@ -165,7 +165,8 @@ class Gate:
     _CONTROL_METHODS = ("negative_control", "positive_control", "identity_control",
                         "offset_control", "control_kept_the_sample",
                         "positive_control_at_the_contested_magnitude",
-                        "headroom_control", "interval_control")
+                        "headroom_control", "interval_control",
+                        "multiplicity_control")
 
     def __init__(self, question):
         self.question = question
@@ -192,6 +193,74 @@ class Gate:
         return wrapped
 
 
+
+
+    # ---- #827: `G3` 六轮没被执行,因为库里根本没有它 ----
+
+    @staticmethod
+    def bh(ps, q):
+        """Benjamini–Hochberg。秩 `k` 的阈值是 `q·k/C`,**取最大的通过秩**。
+
+        ⚠⚠ `realstat` 点名的陷阱:**`q/C` 是 Bonferroni,不是 BH。**
+          BH 在秩 k 的阈值随 k 线性放宽,**最大的那一档就是 `q` 本身**;
+          拿 `q/C` 当 BH 会过度杀格,也会高估所需的抽样数。
+        返回存活项的下标集合。"""
+        import numpy as _np
+        ps = _np.asarray(ps, float); n = len(ps)
+        if n == 0: return set()
+        order = _np.argsort(ps); kmax = -1
+        for i, idx in enumerate(order):
+            if ps[idx] <= q*(i+1)/n: kmax = i
+        return set(order[:kmax+1].tolist()) if kmax >= 0 else set()
+
+    @staticmethod
+    def by(ps, q):
+        """Benjamini–Yekutieli:阈值 `q·k/(C·H_C)`。**对任意依赖结构有效,代价是更保守。**
+
+        ⚠ 何时必须用它:**格与格之间不独立**(例如同一题相邻十年共用端点年份)。
+        BH 假定零下 p 均匀且(正)依赖;不满足时 BH 的 FDR 保证不成立。"""
+        n = len(ps)
+        if n == 0: return set()
+        H = sum(1.0/i for i in range(1, n+1))
+        return Gate.bh(ps, q/H)
+
+    def multiplicity_control(self, name, ps, q, labels=None, method="bh", p_floor=None):
+        """#827:把 `G3` 变成库里的一行 —— 报 **cells tested** 与 **cells surviving**,并**列出没存活的**。
+
+        ⚠ 为什么必须机械化:`#825` 测出 `G3` **六轮从来没有被真正执行过** ——
+          我一直只做到「整张网格全报」,**从没按格数调过阈值**。
+          而库里翻遍没有一个字提到多重性 ⇒ **规矩只活在技能文本里,而那等于不存在**
+          (`#795`/`#804`/`#811`/`#815` 同一条路,**第五次**)。
+
+        两条会**直接判失败**的前提,而它们都是我付过学费的:
+          · **家族大小 = 1** ⇒ 对一个检验做「多重性校正」是空洞的,判失败;
+          · **`p_floor` 给了且 > 最严的那一档 `q/C`** ⇒ **抽样数不够,p 值分辨不到那个阈值**,
+            判失败(`realstat`:经验 p 的下限是 `1/(B+1)`)。
+
+        ⚠ P6 代理账:
+          PROPERTY   这一族检验里哪些是真的
+          PROXY      BH/BY 在给定 q 下的存活集
+          IMPLICATION 只有一个方向可靠:**没存活 ⇒ 在这个 q 下它确实不够强**(可靠)。
+                     反过来不成立:**存活不证明它是真的** —— FDR 允许存活集里有 q 比例是假的。
+          SAFE SIDE  只报「没存活」;**从不认证「存活的这些是真的」。**
+        """
+        import numpy as _np
+        ps = _np.asarray(ps, float); n = len(ps)
+        surv = (self.bh if method == "bh" else self.by)(ps, q)
+        labels = list(labels) if labels is not None else [str(i) for i in range(n)]
+        strictest = q/n if n else float("inf")
+        bad_family = (n <= 1)
+        bad_res = (p_floor is not None and p_floor > strictest)
+        dead = [labels[i] for i in range(n) if i not in surv]
+        detail = (f"method={method} q={q} · **cells tested {n} · cells surviving {len(surv)}** · "
+                  f"存活 {[labels[i] for i in sorted(surv)] or '无'} · "
+                  f"未存活 {dead[:8]}{'…' if len(dead) > 8 else ''}")
+        if p_floor is not None:
+            detail += f" · p 分辨率下限 {p_floor:.2e} vs 最严一档 q/C = {strictest:.2e}"
+        if bad_family: detail += "  ⚠ **家族大小 ≤ 1 ⇒ 多重性校正空洞(#827)**"
+        if bad_res: detail += "  ⚠ **抽样数不够:p 值分辨不到最严的那一档(#827)**"
+        self.rows.append((name, detail, not (bad_family or bad_res), "control"))
+        return surv
 
     # ---- #811: 「窄的零」与「宽的零」是两句话,而我把它们写进过同一个分支两次 ----
 
