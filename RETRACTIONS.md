@@ -42928,3 +42928,99 @@ argument for putting it in code; and the code did exactly what it was for.**
    unexplained one-off in a determinism check is exactly what `#872` mistook for load. ⇒ `#884`②
 ③ ⚠ Still `OPEN`: `#883`①② · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
    `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 885 · `E03·A103·R323` — a fixed act and a fixed question cannot move, and one of them did
+
+**Pays `#883`②, and constrains `#883`① without the instrument `#883`① asked for.** `#883` ended in an
+honest defeat: worlds **A (act-dependence)** and **D (sanction-severity dependence)** predict the same
+observable, and GSS carries no second sanction format for either act. **The opening this round uses
+is arithmetic, not a new instrument: world D says Δ is a property of the two question FORMATS, and
+the formats did not change between 1991 and 2018. A fixed property cannot move.**
+
+`G1` **ESTIMAND**: the **spread of the coupling across waves**, `max_w − min_w` of
+`residual_share = 1 − ρ²` — the same quantity `#880` computed on societies and `#881`/`#883` on
+Americans, so everything stays commensurable.
+
+**⚠ THE STRONGEST CONFOUND IS NOT A NUISANCE, IT IS A RIVAL THAT PREDICTS THE OBSERVABLE.** A
+correlation moves when the **marginals** move, with the association untouched — and the marginals
+moved a great deal: mean "homosexuality is wrong" runs **2.34 → 1.84 → 1.61 → 1.13** while abortion's
+sits at **2.36 → 2.30 → 2.44 → 2.43**. ⇒ *"Should this zero be zero?"* — **NO**, so the null is an
+**`offset_control`**, and **the kind of null is named: an IPF-reconstructed constant-coupling null.**
+Each wave's table is rebuilt by iterative proportional fitting from the **pooled** table onto **that
+wave's own margins**, which preserves every odds ratio and reproduces the marginal drift exactly.
+**The null world is *one coupling, four marginal distributions* — worlds A and D together with the
+marginal-drift rival.** Anything above it is neither.
+
+**THE RESULT, and it is one act and not both:**
+
+| act | residual share by wave (1991 · 1998 · 2008 · 2018) | spread | its own IPF null (95th) | |
+|---|---|---|---|---|
+| **abortion** (wrong-if-poor × law-should-allow) | **0.620 · 0.450 · 0.269 · 0.401** | **0.351** | 0.159 | **MOVED — 2.2× its null** |
+| **homosexuality** (wrong × speak/teach/book) | 0.845 · 0.755 · 0.800 · 0.788 | **0.089** | 0.153 | **did NOT move — inside its null** |
+
+**⇒ the act did not change. The question wording did not change. A fixed property cannot move — so
+for abortion, the coupling is not a fixed property of the act nor of the sanction format.**
+⇒ **the A/D decomposition this project has been arguing inside is the wrong decomposition for at
+least one of the two acts.**
+
+**⚠ AND THE MARGINAL RIVAL IS DEAD ON ITS OWN TERMS.** Range restriction **shrinks** under
+Goodman–Kruskal γ, which normalises differently from ρ. Measured across the specification grid
+(3 estimators × 4 sanction measures, 12 cells published whole): γ spread **0.376** · Spearman
+**0.307** · Kendall τ-b **0.292**. **Under the estimator that is least sensitive to marginal change,
+the motion is LARGER, not smaller.**
+
+**CONTROLS.**
+- **positive**, dose-response, and ⚠ **its first version could not pass, for an arithmetic reason
+  worth recording**: it demanded monotonicity across the whole dose range, but the statistic
+  `1 − ρ²` is **even in ρ**, so past some dose the plant pushes a wave's association through zero and
+  the spread comes back down. That is `realstat`'s *control that cannot PASS* — a threshold above
+  what the design can return. **The turning point is now MEASURED (g = 0.75) and monotonicity is
+  required only up to it**: `0.117 → 0.323 → 0.666 → 0.774` (→ 0.717 past the turn). **At g = 0 —
+  a constant coupling with the real marginal drift still applied — the spread is 0.117, INSIDE the
+  null 0.159**, so it does not fire on drift alone.
+- **negative**: the IPF machinery re-measured on its own reconstruction gives median **0.092**
+  against its own 95th **0.159** — it does not manufacture motion.
+
+**⚠⚠ WHAT MOVED IT IS NOT ESTABLISHED, AND THE REFUSAL IS THE POINT.** The party gap on
+abortion-wrongness runs **−0.039 → −0.444 → −0.510 → −0.766** while homosexuality's runs
+**+0.252 → +0.679 → +0.803 → +0.512**. That is **four points**, and four points cannot carry a trend
+or a rank correlation. **It is printed as description and explicitly not tested** — the same refusal
+that killed the 3-item severity ladder in `#883`①. Naming it as the cause would be the error this
+project has retracted for most.
+
+**⇒ One sentence about people: between 1991 and 2018 the question did not change and the act did not
+change, but what Americans thought was *wrong* about abortion came to predict what they wanted the
+*law* to do about it far more tightly than it once had — and over the same 27 years, for
+homosexuality, the same two things stayed exactly as loosely joined as they were. Moral judgement and
+the appetite to legislate are not welded together at a fixed distance; the distance is something a
+country can close, and it closed it for one of these and not the other.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **it cannot separate A from D** — both predict constancy, so motion refutes them **jointly** and
+   says nothing about which. That still needs an instrument with two sanction formats for one act,
+   which `#882`'s search did not find;
+② **it cannot say what moved it** — four waves; naming a cause needs many more time points, or an
+   instrument that varies the political moment while holding act and format fixed;
+③ **causally identified: N/A** — repeated cross-sections, not a panel. The same people are not
+   re-interviewed, so every wave difference is a composition difference as well as a change;
+④ the abortion norm exists on **4 waves only**, so the time axis is that item's, not GSS's;
+⑤ **no second coder, no second release**;
+⑥ ⚠ **the instrument cannot be changed for THIS question, and it is structural rather than an
+   omission**: a motion claim needs a **time axis**, and `#882` measured that the only two
+   instruments on this machine carrying a matched norm–sanction pair are GSS and SCCS —
+   **SCCS codes each society at one focal year, so it has no time axis at all.** There is
+   **only this one instrument** for a claim about a coupling that moves.
+
+**NEXT**
+① ⚠ **The motion is now the object, and it needs more time points than this pair provides.** GSS's
+   *legality* items (`abpoor`/`abdefect`/`abany`) run **1972–2024 on 34 waves**; only the *wrongness*
+   items are scarce. **A coupling needs both — but a proxy for the norm that exists on all 34 waves
+   would turn 4 points into 34**, and whether such a proxy is admissible is a real question, not a
+   formality. ⇒ `#885`①
+② ⚠ **The homosexuality coupling did NOT move while its marginal moved enormously** (mean wrongness
+   2.34 → 1.13). **A society can change its mind completely about whether something is wrong without
+   changing at all how tightly that judgement is tied to what it wants done.** That is a separate
+   finding from this round's, it is stated here, and it has not been attacked. ⇒ `#885`②
+③ ⚠ Still `OPEN`: `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
+   `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① ·
+   `#861`①.

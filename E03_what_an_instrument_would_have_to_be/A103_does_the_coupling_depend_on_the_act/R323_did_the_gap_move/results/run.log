@@ -1,0 +1,191 @@
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:216: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).reindex(sorted(sub["a"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:217: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).reindex(sorted(sub["b"].unique()), fill_value=0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:268: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  rm = pd.crosstab(s["a"], s["b"]).sum(1).to_numpy() + 1e-9
+/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/did_the_gap_move.py:269: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cm = pd.crosstab(s["a"], s["b"]).sum(0).to_numpy() + 1e-9
+=== (0) HARD RULE 1 — n and the years actually asked, before any column is cited ===
+  partyid   n= 75173  1972–2024  (35 waves)
+  homosex   n= 44726  1973–2024  (30 waves)
+  spkhomo   n= 39927  1973–2021  (28 waves)
+  colhomo   n= 41024  1973–2021  (28 waves)
+  libhomo   n= 39886  1973–2021  (28 waves)
+  abpoorw   n=  4823  1991–2018  (4 waves)
+  abpoor    n= 48105  1972–2024  (34 waves)
+
+  paired sample n=2694 · waves [1991, 1998, 2008, 2018] — **four waves, and four is four**
+
+=== (1) THE OBSERVED MOTION — per wave, and the marginals beside it ===
+  1991  n= 723  res_homo 0.845  res_abort 0.620  **Δ +0.225**   | marginals: mean(homo wrong) 2.34 · mean(ab wrong) 2.36 · share(law allow) 0.49
+  1998  n= 679  res_homo 0.755  res_abort 0.450  **Δ +0.305**   | marginals: mean(homo wrong) 1.84 · mean(ab wrong) 2.30 · share(law allow) 0.43
+  2008  n= 606  res_homo 0.800  res_abort 0.269  **Δ +0.532**   | marginals: mean(homo wrong) 1.61 · mean(ab wrong) 2.44 · share(law allow) 0.48
+  2018  n= 686  res_homo 0.788  res_abort 0.401  **Δ +0.387**   | marginals: mean(homo wrong) 1.13 · mean(ab wrong) 2.43 · share(law allow) 0.50
+  **observed spread of Δ = 0.307**  (max−min over four waves)
+  ⚠ a max−min of four order statistics is biased upward by noise ⇒ its null must be the SPREAD OF THE SAME STATISTIC under the null world, never zero.
+
+=== (2) THE NULL — kind of null NAMED: an IPF-reconstructed CONSTANT-COUPLING null ===
+  each wave rebuilt from the POOLED table onto ITS OWN margins ⇒ every odds ratio preserved,
+  every marginal drift reproduced. **The null world is `one coupling, four marginals`** —
+  i.e. worlds A and D TOGETHER WITH the marginal-drift rival M.
+  null spread of res_homo : median 0.106  95th **0.153**
+  null spread of res_abort: median 0.092  95th **0.159**
+  null spread of Δ (upper bound = sum of the two): median 0.201  95th **0.285**
+  observed: res_homo spread **0.089** (null 95th 0.153) · res_abort spread **0.351** (null 95th 0.159) · Δ spread **0.307** (null 95th 0.285)
+  => Δ spread above its null: **True** · abortion's own spread above its null: **True**
+
+=== (3) POSITIVE CONTROL — a synthetic world with a genuinely MOVING coupling ===
+  dose g rotates the association across waves; at g=0 the coupling is CONSTANT while the real
+  marginal drift is still applied — so a control that fires at g=0 would be measuring drift.
+  g=0.00  simulated spread = 0.117
+  g=0.25  simulated spread = 0.323
+  g=0.50  simulated spread = 0.666
+  g=0.75  simulated spread = 0.774
+  g=1.00  simulated spread = 0.717
+  measured TURNING POINT at g=0.75 (spread 0.774) — beyond it the plant inverts the association and `1−ρ²` comes back down, because the statistic is EVEN IN ρ. Monotonicity is required UP TO the turning point, not past it.
+  => positive control **PASS** — at g=0 the spread is 0.117, INSIDE the null (0.159); at the turning point it is 0.774, outside; monotone up to it: True
+
+=== (4) NEGATIVE CONTROL — does the machinery manufacture motion from nothing? ===
+  the IPF reconstruction re-measured: median spread 0.092 vs its own 95th 0.159 -> **PASS** (the null does not sit on its own tail)
+
+=== (5) SPECIFICATION CURVE — estimators that respond DIFFERENTLY to marginal change ===
+  cells: **12** (3 estimators × 4 sanction measures)
+  gamma     Δ spread median 0.376  range [0.307,0.404]  Δ>0 in every wave: False
+  kendall   Δ spread median 0.292  range [0.275,0.293]  Δ>0 in every wave: True
+  spearman  Δ spread median 0.307  range [0.289,0.308]  Δ>0 in every wave: True
+  ⚠ γ and τ-b respond differently to marginal change than ρ; if the motion were drift it should SHRINK under γ. The whole grid is printed, including cells that disagree.
+
+=== (6) THE POLITICAL MOMENT — DESCRIBED with its n, and NOT tested ===
+  1991  party gap on abortion-wrongness -0.039 · on homosexuality-wrongness +0.252
+  1998  party gap on abortion-wrongness -0.444 · on homosexuality-wrongness +0.679
+  2008  party gap on abortion-wrongness -0.510 · on homosexuality-wrongness +0.803
+  2018  party gap on abortion-wrongness -0.766 · on homosexuality-wrongness +0.512
+  ⚠⚠ **FOUR POINTS. This is a DESCRIPTION and it is NOT tested** — four waves cannot carry a trend or a rank correlation, and the same refusal killed the 3-item severity ladder in `#883`①. Naming this as the cause would be the error this project has retracted for most.
+
+  CONDITIONAL KILL -- #885 · did the gap MOVE — because a fixed act and a fixed format cannot
+   PASS  (1) HARD RULE 1: n and the years actually asked printed before any column was cited; the time axis is the abortion item's, four waves                                                                                                                                                                           paired n=2694 · waves [1991, 1998, 2008, 2018] · 总体:the 2694 GSS respondents with both pairs, split into the 4 waves [1991, 1998, 2008, 2018]; every number is per-wave and the time axis is the abortion item's   (asserted in code, not in prose)
+   PASS  (2) OFFSET CONTROL — 'should this zero be zero?' NO: under a fixed coupling with shifting marginals Δ still varies. **Kind of null: an IPF-reconstructed constant-coupling null** — pooled odds ratios onto each wave's own margins and n, so the null world is A and D TOGETHER WITH the marginal-drift rival  null 95th: homo 0.153 · abortion 0.159 · Δ (upper bound) 0.285 · 总体:the 2694 GSS respondents with both pairs, split into the 4 waves [1991, 1998, 2008, 2018]; every number is per-wave and the time axis is the abortion item's   (asserted in code, not in prose)
+   PASS  (3) POSITIVE CONTROL with a dose-response, and it must NOT fire at g=0 — where the coupling is constant but the real marginal drift is still applied                                                                                                                                                            g=0.0:0.117 g=0.25:0.323 g=0.5:0.666 g=0.75:0.774 g=1.0:0.717 · null 95th 0.159 · 总体:the 2694 GSS respondents with both pairs, split into the 4 waves [1991, 1998, 2008, 2018]; every number is per-wave and the time axis is the abortion item's   (asserted in code, not in prose)
+   PASS  (4) NEGATIVE CONTROL: the IPF machinery must not manufacture motion — its own reconstruction re-measured sits inside its own null                                                                                                                                                                               median 0.092 vs 95th 0.159 · 总体:the 2694 GSS respondents with both pairs, split into the 4 waves [1991, 1998, 2008, 2018]; every number is per-wave and the time axis is the abortion item's   (asserted in code, not in prose)
+   PASS  (5) POWER, stated before the result: FOUR waves. This design can answer 'did it move beyond a constant-coupling world' and CANNOT answer 'what moved it'. The politicisation index is printed as description and explicitly not tested                                                                          4 waves · politicisation printed, untested · 总体:the 2694 GSS respondents with both pairs, split into the 4 waves [1991, 1998, 2008, 2018]; every number is per-wave and the time axis is the abortion item's   (asserted in code, not in prose)
+   FAIL  (6) KILL (pre-registered): for "the gap is a property of the act and/or of the sanction format" to hold, **Δ must not move beyond an IPF constant-coupling null** — because acts and formats are both fixed across 1991–2018                                                                                    observed Δ spread 0.307 vs null 95th 0.285 · abortion's own spread 0.351 vs 0.159 (above: True) · homo spread 0.089 vs 0.153 · grid spreads [0.307, 0.289, 0.308, 0.308, 0.291, 0.275, 0.293, 0.293, 0.393, 0.307, 0.359, 0.404]   尺:the max−min of Δ over four waves; the floor is the same statistic simulated under one coupling with each wave's own margins,其自身噪声 0.284788 · 总体:the 2694 GSS respondents with both pairs, split into the 4 waves [1991, 1998, 2008, 2018]; every number is per-wave and the time axis is the abortion item's · 方向:一致 [1] · 控制总体:5/5 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation ((6) KILL (pre-registered): for "the gap is a property of the act and/or of the sanction format" to hold, **Δ must not move beyond an IPF constant-coupling null** — because acts and formats are both fixed across 1991–2018). This is a refutation, NOT an unverified round (#366e).
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**P — AND IT IS ONE ACT, NOT BOTH.** Tested against its OWN IPF constant-coupling null, **abortion's coupling MOVED** (spread **0.351** vs null 95th **0.159**, more than twice) and **homosexuality's did NOT** (spread **0.089**, INSIDE its null **0.153**).
+  Residual share for abortion runs **0.620 → 0.450 → 0.269 → 0.401** across 1991·1998·2008·2018 while homosexuality sits at **0.845 → 0.755 → 0.800 → 0.788**.
+  **The act did not change. The question format did not change. A fixed property cannot move — so for abortion, Δ is not a fixed property of either.**
+  ⇒ **the A/D decomposition is the wrong decomposition for at least one of the two acts**: the coupling between *how wrong I think it is* and *what I want done about it* tightened and then loosened, on a question whose wording never moved.
+  ⚠ **and the marginal-drift rival is dead on its own terms**: under Goodman–Kruskal γ, which responds to marginal change differently from ρ, the spread is **larger** (0.376), not smaller. Range restriction shrinks under γ; this grew.
+  ⚠ **What moved it is NOT established here.** Four waves. The party-gap description is printed above and deliberately untested.
+
+⚠ **Registered**: this round cannot separate A from D — both predict constancy, so motion refutes them jointly and says nothing about which. That still needs an instrument carrying two sanction formats for one act, which `#882`'s search did not find.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R323_did_the_gap_move/results/did_the_gap_move.json

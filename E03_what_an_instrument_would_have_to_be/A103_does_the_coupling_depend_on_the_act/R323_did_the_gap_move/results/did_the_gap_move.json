@@ -1,0 +1,203 @@
+{
+ "population": "the 2694 GSS respondents with both pairs, split into the 4 waves [1991, 1998, 2008, 2018]; every number is per-wave and the time axis is the abortion item's",
+ "waves": [
+  1991,
+  1998,
+  2008,
+  2018
+ ],
+ "observed": {
+  "1991": {
+   "res_homo": 0.844539146992958,
+   "res_abort": 0.6195888047799563,
+   "delta": 0.2249503422130017,
+   "n": 723,
+   "mean_homo_wrong": 2.340248962655602,
+   "mean_ab_wrong": 2.359612724757953,
+   "share_law_allow": 0.4896265560165975
+  },
+  "1998": {
+   "res_homo": 0.7550650583840285,
+   "res_abort": 0.45029106079191816,
+   "delta": 0.3047739975921103,
+   "n": 679,
+   "mean_homo_wrong": 1.8365243004418261,
+   "mean_ab_wrong": 2.2989690721649483,
+   "share_law_allow": 0.43151693667157587
+  },
+  "2008": {
+   "res_homo": 0.8001310276324772,
+   "res_abort": 0.2686274538943042,
+   "delta": 0.531503573738173,
+   "n": 606,
+   "mean_homo_wrong": 1.613861386138614,
+   "mean_ab_wrong": 2.4405940594059405,
+   "share_law_allow": 0.4834983498349835
+  },
+  "2018": {
+   "res_homo": 0.7881929413646693,
+   "res_abort": 0.4007688224750279,
+   "delta": 0.38742411888964146,
+   "n": 686,
+   "mean_homo_wrong": 1.1282798833819243,
+   "mean_ab_wrong": 2.4300291545189503,
+   "share_law_allow": 0.5014577259475219
+  }
+ },
+ "spread": 0.30655323152517133,
+ "spread_homo": 0.08947408860892947,
+ "spread_abort": 0.35096135088565206,
+ "null": {
+  "kind": "IPF-reconstructed constant-coupling null",
+  "p95_homo": 0.15335821422618767,
+  "p95_abort": 0.15918627598363178,
+  "p95_delta_upper_bound": 0.2847881009844474,
+  "median_homo": 0.10605318373217698,
+  "median_abort": 0.09208010757198937
+ },
+ "above_null": true,
+ "abortion_above_null": true,
+ "dose": {
+  "0.0": 0.11672936477551377,
+  "0.25": 0.32345485118935047,
+  "0.5": 0.6660307032587086,
+  "0.75": 0.7742384720093083,
+  "1.0": 0.7167108909213264
+ },
+ "dose_turning_point": 0.75,
+ "grid": [
+  {
+   "est": "spearman",
+   "sanction": "index",
+   "spread": 0.30655323152517133,
+   "d1991": 0.2249503422130017,
+   "d1998": 0.3047739975921103,
+   "d2008": 0.531503573738173,
+   "d2018": 0.38742411888964146
+  },
+  {
+   "est": "spearman",
+   "sanction": "spk",
+   "spread": 0.2891270187983844,
+   "d1991": 0.3039453104848061,
+   "d1998": 0.43410456180597623,
+   "d2008": 0.5930723292831905,
+   "d2018": 0.4668936346255925
+  },
+  {
+   "est": "spearman",
+   "sanction": "col",
+   "spread": 0.30761857840393547,
+   "d1991": 0.26123723834156853,
+   "d1998": 0.3829254748045797,
+   "d2008": 0.568855816745504,
+   "d2018": 0.4837852749534266
+  },
+  {
+   "est": "spearman",
+   "sanction": "lib",
+   "spread": 0.3081204977655171,
+   "d1991": 0.28503603337153405,
+   "d1998": 0.37809189088701145,
+   "d2008": 0.5931565311370511,
+   "d2018": 0.41523623243556096
+  },
+  {
+   "est": "kendall",
+   "sanction": "index",
+   "spread": 0.2908108240285936,
+   "d1991": 0.20140744500449703,
+   "d1998": 0.2849977324179904,
+   "d2008": 0.4922182690330906,
+   "d2018": 0.34560788445280943
+  },
+  {
+   "est": "kendall",
+   "sanction": "spk",
+   "spread": 0.2754228215684602,
+   "d1991": 0.2584287781624146,
+   "d1998": 0.3809982806996607,
+   "d2008": 0.5338515997308748,
+   "d2018": 0.40862828564510756
+  },
+  {
+   "est": "kendall",
+   "sanction": "col",
+   "spread": 0.2932063105454301,
+   "d1991": 0.21838663472485653,
+   "d1998": 0.33425235012914023,
+   "d2008": 0.5115929452702866,
+   "d2018": 0.4241581931991778
+  },
+  {
+   "est": "kendall",
+   "sanction": "lib",
+   "spread": 0.29322913568047726,
+   "d1991": 0.24069985834766094,
+   "d1998": 0.32983745350913485,
+   "d2008": 0.5339289940281382,
+   "d2018": 0.3611352852659383
+  },
+  {
+   "est": "gamma",
+   "sanction": "index",
+   "spread": 0.3931054490039385,
+   "d1991": 0.023622257507051936,
+   "d1998": 0.18607919490694846,
+   "d2008": 0.41672770651099045,
+   "d2018": 0.2975852328857458
+  },
+  {
+   "est": "gamma",
+   "sanction": "spk",
+   "spread": 0.3066090029781028,
+   "d1991": -0.07855172775651653,
+   "d1998": 0.07971140369413576,
+   "d2008": 0.22805727522158625,
+   "d2018": 0.21427396650040287
+  },
+  {
+   "est": "gamma",
+   "sanction": "col",
+   "spread": 0.35876740619812986,
+   "d1991": -0.030100778241756276,
+   "d1998": 0.10886164793895203,
+   "d2008": 0.29059160804659745,
+   "d2018": 0.3286666279563736
+  },
+  {
+   "est": "gamma",
+   "sanction": "lib",
+   "spread": 0.4035969317880663,
+   "d1991": 0.007244581647428472,
+   "d1998": 0.17052236974070745,
+   "d2008": 0.4108415134354948,
+   "d2018": 0.19319432151468086
+  }
+ ],
+ "politicisation": {
+  "1991": {
+   "gap_abortion": -0.03948176923317259,
+   "gap_homo": 0.2524500359303885
+  },
+  "1998": {
+   "gap_abortion": -0.44433629549103104,
+   "gap_homo": 0.6793538029806974
+  },
+  "2008": {
+   "gap_abortion": -0.5101147342995169,
+   "gap_homo": 0.8029891304347825
+  },
+  "2018": {
+   "gap_abortion": -0.766387884267631,
+   "gap_homo": 0.5115280289330921
+  }
+ },
+ "controls": {
+  "positive": true,
+  "negative": true
+ },
+ "admissible": true,
+ "verdict": "**P — AND IT IS ONE ACT, NOT BOTH.** Tested against its OWN IPF constant-coupling null, **abortion's coupling MOVED** (spread **0.351** vs null 95th **0.159**, more than twice) and **homosexuality's did NOT** (spread **0.089**, INSIDE its null **0.153**).\n  Residual share for abortion runs **0.620 → 0.450 → 0.269 → 0.401** across 1991·1998·2008·2018 while homosexuality sits at **0.845 → 0.755 → 0.800 → 0.788**.\n  **The act did not change. The question format did not change. A fixed property cannot move — so for abortion, Δ is not a fixed property of either.**\n  ⇒ **the A/D decomposition is the wrong decomposition for at least one of the two acts**: the coupling between *how wrong I think it is* and *what I want done about it* tightened and then loosened, on a question whose wording never moved.\n  ⚠ **and the marginal-drift rival is dead on its own terms**: under Goodman–Kruskal γ, which responds to marginal change differently from ρ, the spread is **larger** (0.376), not smaller. Range restriction shrinks under γ; this grew.\n  ⚠ **What moved it is NOT established here.** Four waves. The party-gap description is printed above and deliberately untested.",
+ "gate_ok": false
+}
