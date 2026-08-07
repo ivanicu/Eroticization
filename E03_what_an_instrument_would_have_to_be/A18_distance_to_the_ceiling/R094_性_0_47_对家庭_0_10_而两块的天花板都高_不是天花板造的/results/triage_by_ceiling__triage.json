@@ -1,91 +1,93 @@
 {
  "blocks": {
-  "①MFQ·AUTHORITY": {
+  "\u2460MFQ\u00b7AUTHORITY": {
    "raw": 0.32511446829051754,
    "ceil": 0.9498203307141158,
    "norm": 0.33714095142507006,
    "npairs": 15,
    "ceil_min": 0.936099215890499,
    "ceil_max": 0.9852095137915576,
-   "triage": "无需重算"
+   "triage": "\u65e0\u9700\u91cd\u7b97"
   },
-  "①MFQ·FAIRNESS": {
+  "\u2460MFQ\u00b7FAIRNESS": {
    "raw": 0.2793451208010049,
    "ceil": 0.9131578715117772,
    "norm": 0.3242859651905191,
    "npairs": 15,
    "ceil_min": 0.7969301026902892,
    "ceil_max": 0.97288356184315,
-   "triage": "无需重算"
+   "triage": "\u65e0\u9700\u91cd\u7b97"
   },
-  "①MFQ·HARM": {
+  "\u2460MFQ\u00b7HARM": {
    "raw": 0.3158274328707975,
    "ceil": 0.9251258741950573,
    "norm": 0.3310510955545578,
    "npairs": 15,
    "ceil_min": 0.8432992896173871,
    "ceil_max": 0.9749116277003147,
-   "triage": "无需重算"
+   "triage": "\u65e0\u9700\u91cd\u7b97"
   },
-  "①MFQ·INGROUP": {
+  "\u2460MFQ\u00b7INGROUP": {
    "raw": 0.2401448977483993,
    "ceil": 0.9500313556066262,
    "norm": 0.25224825915982846,
    "npairs": 15,
    "ceil_min": 0.936073974433298,
    "ceil_max": 0.9855253143147661,
-   "triage": "无需重算"
+   "triage": "\u65e0\u9700\u91cd\u7b97"
   },
-  "①MFQ·PURITY": {
+  "\u2460MFQ\u00b7PURITY": {
    "raw": 0.4998714624527739,
    "ceil": 0.947843697193711,
    "norm": 0.5392257144894699,
    "npairs": 15,
    "ceil_min": 0.8773946736215819,
    "ceil_max": 0.9779155502604167,
-   "triage": "无需重算"
+   "triage": "\u65e0\u9700\u91cd\u7b97"
   },
-  "②GSS·警察四题(二值)": {
+  "\u2461GSS\u00b7\u8b66\u5bdf\u56db\u9898(\u4e8c\u503c)": {
    "raw": 0.0796867181053908,
    "ceil": 0.3552097353218752,
    "norm": 0.3553055742489317,
    "npairs": 6,
    "ceil_min": 0.09859925541583882,
    "ceil_max": 0.8659493096083802,
-   "triage": "必须重算"
+   "triage": "\u5fc5\u987b\u91cd\u7b97"
   },
-  "③GSS·性道德四题(四档)": {
+  "\u2462GSS\u00b7\u6027\u9053\u5fb7\u56db\u9898(\u56db\u6863)": {
    "raw": 0.3579028757944329,
    "ceil": 0.7894769751808095,
    "norm": 0.5273164854335252,
    "npairs": 6,
    "ceil_min": 0.4956515449696305,
    "ceil_max": 0.8372984081251839,
-   "triage": "待定"
+   "triage": "\u5f85\u5b9a"
   },
-  "④NSFG·性三题": {
+  "\u2463NSFG\u00b7\u6027\u4e09\u9898": {
    "raw": 0.4246117796516576,
    "ceil": 0.9073712756045853,
    "norm": 0.46795814576424294,
    "npairs": 3,
    "ceil_min": 0.9026029462488155,
    "ceil_max": 0.9314729060620626,
-   "triage": "无需重算"
+   "triage": "\u65e0\u9700\u91cd\u7b97"
   },
-  "④NSFG·家庭七题": {
+  "\u2463NSFG\u00b7\u5bb6\u5ead\u4e03\u9898": {
    "raw": 0.08721104459388104,
    "ceil": 0.84635214715442,
    "norm": 0.09878628951561294,
    "npairs": 21,
    "ceil_min": 0.6938212551982681,
    "ceil_max": 0.931574503765226,
-   "triage": "待定"
+   "triage": "\u5f85\u5b9a"
   }
  },
  "armA_ok": true,
  "armB_ok": true,
  "nsfg_flip": false,
- "verdict": "**分诊器可用。第九件的排序未翻 ⇒ 结论不变**",
+ "verdict": "**\u5206\u8bca\u5668\u53ef\u7528\u3002\u7b2c\u4e5d\u4ef6\u7684\u6392\u5e8f\u672a\u7ffb \u21d2 \u7ed3\u8bba\u4e0d\u53d8**",
  "unchallenged": true,
- "limit": "NSFG/MFQ 单波 ⇒ 天花板无法逐年算;GSS 两块已逐年算再取中位"
+ "limit": "NSFG/MFQ \u5355\u6ce2 \u21d2 \u5929\u82b1\u677f\u65e0\u6cd5\u9010\u5e74\u7b97;GSS \u4e24\u5757\u5df2\u9010\u5e74\u7b97\u518d\u53d6\u4e2d\u4f4d",
+ "entry_backfilled": 649,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

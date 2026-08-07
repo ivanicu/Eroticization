@@ -5,6 +5,8 @@
  "strict_pct": 14.0,
  "loose_pct": 21.5,
  "instrument_ok": true,
- "fragility_list": "UNVERIFIED — positive control failed",
- "unchallenged": true
+ "fragility_list": "UNVERIFIED \u2014 positive control failed",
+ "unchallenged": true,
+ "entry_backfilled": 693,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

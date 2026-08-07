@@ -419,6 +419,8 @@
   "reference": 1.0
  },
  "admissible": true,
- "verdict": "**C 改动没用。** `homosex` `within` 0.856 · `cluster` 1.090,都不低于 0.85。\n  ⇒ **两条线索另找出路 —— 而我省下了在一个没用的改动上重跑两轮的代价。**",
- "gate_ok": false
+ "verdict": "**C \u6539\u52a8\u6ca1\u7528\u3002** `homosex` `within` 0.856 \u00b7 `cluster` 1.090,\u90fd\u4e0d\u4f4e\u4e8e 0.85\u3002\n  \u21d2 **\u4e24\u6761\u7ebf\u7d22\u53e6\u627e\u51fa\u8def \u2014\u2014 \u800c\u6211\u7701\u4e0b\u4e86\u5728\u4e00\u4e2a\u6ca1\u7528\u7684\u6539\u52a8\u4e0a\u91cd\u8dd1\u4e24\u8f6e\u7684\u4ee3\u4ef7\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 822,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

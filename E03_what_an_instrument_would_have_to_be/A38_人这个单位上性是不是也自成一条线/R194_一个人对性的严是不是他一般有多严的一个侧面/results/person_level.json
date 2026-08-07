@@ -9,28 +9,28 @@
  "rho_SG": 0.13174253816955334,
  "rho_SG_disatt": 0.19099337839898842,
  "before": {
-  "premarsx×xmarsex": 0.3325571830387472,
-  "premarsx×homosex": 0.42662180229635155,
-  "premarsx×teensex": 0.4379132757313597,
-  "xmarsex×homosex": 0.30886908280743985,
-  "xmarsex×teensex": 0.3475182289456747,
-  "homosex×teensex": 0.28317517387448066
+  "premarsx\u00d7xmarsex": 0.3325571830387472,
+  "premarsx\u00d7homosex": 0.42662180229635155,
+  "premarsx\u00d7teensex": 0.4379132757313597,
+  "xmarsex\u00d7homosex": 0.30886908280743985,
+  "xmarsex\u00d7teensex": 0.3475182289456747,
+  "homosex\u00d7teensex": 0.28317517387448066
  },
  "after": {
-  "premarsx×xmarsex": 0.3261470147470631,
-  "premarsx×homosex": 0.4280955217252205,
-  "premarsx×teensex": 0.428851551415338,
-  "xmarsex×homosex": 0.30884519691242834,
-  "xmarsex×teensex": 0.3406446246205081,
-  "homosex×teensex": 0.28397168809408185
+  "premarsx\u00d7xmarsex": 0.3261470147470631,
+  "premarsx\u00d7homosex": 0.4280955217252205,
+  "premarsx\u00d7teensex": 0.428851551415338,
+  "xmarsex\u00d7homosex": 0.30884519691242834,
+  "xmarsex\u00d7teensex": 0.3406446246205081,
+  "homosex\u00d7teensex": 0.28397168809408185
  },
  "corrected": {
-  "premarsx×xmarsex": 0.3233999842265962,
-  "premarsx×homosex": 0.428730786024225,
-  "premarsx×teensex": 0.42493520423649644,
-  "xmarsex×homosex": 0.3088361034847754,
-  "xmarsex×teensex": 0.3376924395676454,
-  "homosex×teensex": 0.28431960853581684
+  "premarsx\u00d7xmarsex": 0.3233999842265962,
+  "premarsx\u00d7homosex": 0.428730786024225,
+  "premarsx\u00d7teensex": 0.42493520423649644,
+  "xmarsex\u00d7homosex": 0.3088361034847754,
+  "xmarsex\u00d7teensex": 0.3376924395676454,
+  "homosex\u00d7teensex": 0.28431960853581684
  },
  "med_before": 0.34003770599221095,
  "med_after": 0.3333958196837856,
@@ -40,5 +40,7 @@
   0.3421431823231918
  ],
  "pos_control": 0.3395929931295505,
- "verdict": "**W1:即使假设 G 完美可靠,四题性彼此仍保留 97.2%(中位数 +0.3305,零上界 +0.3421) ⇒ 人这个单位上性也自成一条线**"
+ "verdict": "**W1:\u5373\u4f7f\u5047\u8bbe G \u5b8c\u7f8e\u53ef\u9760,\u56db\u9898\u6027\u5f7c\u6b64\u4ecd\u4fdd\u7559 97.2%(\u4e2d\u4f4d\u6570 +0.3305,\u96f6\u4e0a\u754c +0.3421) \u21d2 \u4eba\u8fd9\u4e2a\u5355\u4f4d\u4e0a\u6027\u4e5f\u81ea\u6210\u4e00\u6761\u7ebf**",
+ "entry_backfilled": 751,
+ "entry_source": "script_header (`#910`; three routes compared, agreeing)"
 }

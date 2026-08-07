@@ -158,6 +158,8 @@
  ],
  "noise_floor_median": 0.042857142148458705,
  "placebo_slope": -0.009078057339195839,
- "verdict": "**W1:紧密度斜率 +0.00313/年(36 年 +0.1128)—— 越松越成一块**",
- "unchallenged": true
+ "verdict": "**W1:\u7d27\u5bc6\u5ea6\u659c\u7387 +0.00313/\u5e74(36 \u5e74 +0.1128)\u2014\u2014 \u8d8a\u677e\u8d8a\u6210\u4e00\u5757**",
+ "unchallenged": true,
+ "entry_backfilled": 738,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

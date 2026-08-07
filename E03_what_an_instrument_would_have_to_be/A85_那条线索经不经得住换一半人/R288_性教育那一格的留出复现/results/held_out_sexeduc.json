@@ -12,7 +12,7 @@
   "excl": true
  },
  "halves": {
-  "性别=男": {
+  "\u6027\u522b=\u7537": {
    "obs": 0.06551500281935055,
    "lo": -0.032258540982454155,
    "hi": 0.1607464461475332,
@@ -22,7 +22,7 @@
    "above": false,
    "excl": false
   },
-  "性别=女": {
+  "\u6027\u522b=\u5973": {
    "obs": 0.07707894438811388,
    "lo": 0.0070540540465827695,
    "hi": 0.14298788324923092,
@@ -32,8 +32,8 @@
    "above": false,
    "excl": true
   },
-  "九十年代奇数年": null,
-  "九十年代偶数年": {
+  "\u4e5d\u5341\u5e74\u4ee3\u5947\u6570\u5e74": null,
+  "\u4e5d\u5341\u5e74\u4ee3\u5076\u6570\u5e74": {
    "obs": 0.07196264642823434,
    "lo": 0.016662764268460632,
    "hi": 0.12695766197991834,
@@ -45,17 +45,17 @@
   }
  },
  "usable": [
-  "性别=男",
-  "性别=女",
-  "九十年代偶数年"
+  "\u6027\u522b=\u7537",
+  "\u6027\u522b=\u5973",
+  "\u4e5d\u5341\u5e74\u4ee3\u5076\u6570\u5e74"
  ],
  "same_sign": [
-  "性别=男",
-  "性别=女",
-  "九十年代偶数年"
+  "\u6027\u522b=\u7537",
+  "\u6027\u522b=\u5973",
+  "\u4e5d\u5341\u5e74\u4ee3\u5076\u6570\u5e74"
  ],
  "above_floor": [
-  "九十年代偶数年"
+  "\u4e5d\u5341\u5e74\u4ee3\u5076\u6570\u5e74"
  ],
  "power": {
   "plant": 0.07196264642823434,
@@ -81,6 +81,8 @@
   "source": "read from #846 artifact"
  },
  "admissible": false,
- "verdict": "**UNVERIFIED:控制行没有全过 ⇒ 判据没资格下判。**",
- "gate_ok": false
+ "verdict": "**UNVERIFIED:\u63a7\u5236\u884c\u6ca1\u6709\u5168\u8fc7 \u21d2 \u5224\u636e\u6ca1\u8d44\u683c\u4e0b\u5224\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 849,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

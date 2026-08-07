@@ -4,49 +4,49 @@
    "line": 87,
    "n_hits": 1,
    "anchors": [],
-   "head": "**看起来是性题特有的。**(Entry 660)",
+   "head": "**\u770b\u8d77\u6765\u662f\u6027\u9898\u7279\u6709\u7684\u3002**(Entry 660)",
    "has789": false
   },
   {
    "line": 89,
    "n_hits": 2,
    "anchors": [],
-   "head": "⚠ **然后我自己把它拆了。** 拿 19 道道德题重做,第一遍漂亮:性题中位差 +0.0735、非性 −0.0074。",
+   "head": "\u26a0 **\u7136\u540e\u6211\u81ea\u5df1\u628a\u5b83\u62c6\u4e86\u3002** \u62ff 19 \u9053\u9053\u5fb7\u9898\u91cd\u505a,\u7b2c\u4e00\u904d\u6f02\u4eae:\u6027\u9898\u4e2d\u4f4d\u5dee +0.0735\u3001\u975e\u6027 \u22120.0074\u3002",
    "has789": false
   },
   {
    "line": 91,
    "n_hits": 2,
    "anchors": [],
-   "head": "**有符号的中位让非性组内部互相抵消了。** 改用绝对值:非性题是 **+0.0378**(不是 −0.0074),",
+   "head": "**\u6709\u7b26\u53f7\u7684\u4e2d\u4f4d\u8ba9\u975e\u6027\u7ec4\u5185\u90e8\u4e92\u76f8\u62b5\u6d88\u4e86\u3002** \u6539\u7528\u7edd\u5bf9\u503c:\u975e\u6027\u9898\u662f **+0.0378**(\u4e0d\u662f \u22120.0074),",
    "has789": false
   },
   {
    "line": 94,
    "n_hits": 2,
    "anchors": [],
-   "head": "> **非性道德题也会因为问法而移动,只是方向各不相同。「性题特有」是符号抵消造出来的。**(Entry 661)",
+   "head": "> **\u975e\u6027\u9053\u5fb7\u9898\u4e5f\u4f1a\u56e0\u4e3a\u95ee\u6cd5\u800c\u79fb\u52a8,\u53ea\u662f\u65b9\u5411\u5404\u4e0d\u76f8\u540c\u3002\u300c\u6027\u9898\u7279\u6709\u300d\u662f\u7b26\u53f7\u62b5\u6d88\u9020\u51fa\u6765\u7684\u3002**(Entry 661)",
    "has789": false
   },
   {
    "line": 97,
    "n_hits": 2,
    "anchors": [],
-   "head": "正确定向之后,性题不是十二格全同号,是 **10/12**;把非性组重抽到同样格数,同号率中位 0.750,",
+   "head": "\u6b63\u786e\u5b9a\u5411\u4e4b\u540e,\u6027\u9898\u4e0d\u662f\u5341\u4e8c\u683c\u5168\u540c\u53f7,\u662f **10/12**;\u628a\u975e\u6027\u7ec4\u91cd\u62bd\u5230\u540c\u6837\u683c\u6570,\u540c\u53f7\u7387\u4e2d\u4f4d 0.750,",
    "has789": false
   },
   {
    "line": 98,
    "n_hits": 1,
    "anchors": [],
-   "head": "**性组落在第 76.6 百分位,经验 p = 0.234**;而随机重贴「性/非性」标签造出的差(**0.106**)",
+   "head": "**\u6027\u7ec4\u843d\u5728\u7b2c 76.6 \u767e\u5206\u4f4d,\u7ecf\u9a8c p = 0.234**;\u800c\u968f\u673a\u91cd\u8d34\u300c\u6027/\u975e\u6027\u300d\u6807\u7b7e\u9020\u51fa\u7684\u5dee(**0.106**)",
    "has789": false
   },
   {
    "line": 102,
    "n_hits": 1,
    "anchors": [],
-   "head": "> **那 11–19 个点是真的;而「它是不是性题特有」,这份数据答不了。**",
+   "head": "> **\u90a3 11\u201319 \u4e2a\u70b9\u662f\u771f\u7684;\u800c\u300c\u5b83\u662f\u4e0d\u662f\u6027\u9898\u7279\u6709\u300d,\u8fd9\u4efd\u6570\u636e\u7b54\u4e0d\u4e86\u3002**",
    "has789": false
   },
   {
@@ -93,70 +93,70 @@
     791,
     773
    ],
-   "head": "⚠ **那个分母自己也是估的,所以它自己抖多少是量过的**:页上 **28 个带 ⟨…⟩ 的行里,25 行从未声明分母是全枚举还是抽样估的**,而 `#716` 见过一次分母抖 1.9 倍。实测下来*",
+   "head": "\u26a0 **\u90a3\u4e2a\u5206\u6bcd\u81ea\u5df1\u4e5f\u662f\u4f30\u7684,\u6240\u4ee5\u5b83\u81ea\u5df1\u6296\u591a\u5c11\u662f\u91cf\u8fc7\u7684**:\u9875\u4e0a **28 \u4e2a\u5e26 \u27e8\u2026\u27e9 \u7684\u884c\u91cc,25 \u884c\u4ece\u672a\u58f0\u660e\u5206\u6bcd\u662f\u5168\u679a\u4e3e\u8fd8\u662f\u62bd\u6837\u4f30\u7684**,\u800c `#716` \u89c1\u8fc7\u4e00\u6b21\u5206\u6bcd\u6296 1.9 \u500d\u3002\u5b9e\u6d4b\u4e0b\u6765*",
    "has789": true
   },
   {
    "line": 155,
    "n_hits": 2,
    "anchors": [],
-   "head": "| **把一般的严整个扣掉,性还剩 +0.55** | 偏掉服从(最强的非性品格)后 **+0.5618**;逐个偏掉九个 **+0.5618…+0.6809**;**同时偏掉全部九个(n=59)仍有",
+   "head": "| **\u628a\u4e00\u822c\u7684\u4e25\u6574\u4e2a\u6263\u6389,\u6027\u8fd8\u5269 +0.55** | \u504f\u6389\u670d\u4ece(\u6700\u5f3a\u7684\u975e\u6027\u54c1\u683c)\u540e **+0.5618**;\u9010\u4e2a\u504f\u6389\u4e5d\u4e2a **+0.5618\u2026+0.6809**;**\u540c\u65f6\u504f\u6389\u5168\u90e8\u4e5d\u4e2a(n=59)\u4ecd\u6709",
    "has789": false
   },
   {
    "line": 159,
    "n_hits": 2,
    "anchors": [],
-   "head": "| **变异在组内,不在组间:「性 / 非性」这个切法解释不了任何东西** | 可读 **8 / 24** 题,`r` 从 **0.105 到 2.192**:`sexeduc` **+2.192**",
+   "head": "| **\u53d8\u5f02\u5728\u7ec4\u5185,\u4e0d\u5728\u7ec4\u95f4:\u300c\u6027 / \u975e\u6027\u300d\u8fd9\u4e2a\u5207\u6cd5\u89e3\u91ca\u4e0d\u4e86\u4efb\u4f55\u4e1c\u897f** | \u53ef\u8bfb **8 / 24** \u9898,`r` \u4ece **0.105 \u5230 2.192**:`sexeduc` **+2.192**",
    "has789": false
   },
   {
    "line": 160,
    "n_hits": 1,
    "anchors": [],
-   "head": "| **挡住这个问题的不是数据,是我那具自动定向仪器的边界** | 18 道候选里 **14 道的方向 `label_pole` 拒绝判定**,只剩 4 道进网格(**可读 2 / 尝试 4**)⇒ ",
+   "head": "| **\u6321\u4f4f\u8fd9\u4e2a\u95ee\u9898\u7684\u4e0d\u662f\u6570\u636e,\u662f\u6211\u90a3\u5177\u81ea\u52a8\u5b9a\u5411\u4eea\u5668\u7684\u8fb9\u754c** | 18 \u9053\u5019\u9009\u91cc **14 \u9053\u7684\u65b9\u5411 `label_pole` \u62d2\u7edd\u5224\u5b9a**,\u53ea\u5269 4 \u9053\u8fdb\u7f51\u683c(**\u53ef\u8bfb 2 / \u5c1d\u8bd5 4**)\u21d2 ",
    "has789": false
   },
   {
    "line": 188,
    "n_hits": 1,
    "anchors": [],
-   "head": "| **一个人对性的严,和他觉得逃税骗福利有多错,只共享 +0.13**(⚠ **同一轮的第二具仪器把这句话收窄了,见下一行** —— GSS 那两条题恰好只覆盖了伤害-公平那一半) | 去衰减 **",
+   "head": "| **\u4e00\u4e2a\u4eba\u5bf9\u6027\u7684\u4e25,\u548c\u4ed6\u89c9\u5f97\u9003\u7a0e\u9a97\u798f\u5229\u6709\u591a\u9519,\u53ea\u5171\u4eab +0.13**(\u26a0 **\u540c\u4e00\u8f6e\u7684\u7b2c\u4e8c\u5177\u4eea\u5668\u628a\u8fd9\u53e5\u8bdd\u6536\u7a84\u4e86,\u89c1\u4e0b\u4e00\u884c** \u2014\u2014 GSS \u90a3\u4e24\u6761\u9898\u6070\u597d\u53ea\u8986\u76d6\u4e86\u4f24\u5bb3-\u516c\u5e73\u90a3\u4e00\u534a) | \u53bb\u8870\u51cf **",
    "has789": false
   },
   {
    "line": 189,
    "n_hits": 1,
    "anchors": [],
-   "head": "| **一个社会对性的严厉,不是它一般有多严的一个侧面** | 教孩子性克制 × 谴责成年女性婚前性 **ρ = +0.6558**,十个品格里**排第 1**;第二名服从只有 **+0.3030**",
+   "head": "| **\u4e00\u4e2a\u793e\u4f1a\u5bf9\u6027\u7684\u4e25\u5389,\u4e0d\u662f\u5b83\u4e00\u822c\u6709\u591a\u4e25\u7684\u4e00\u4e2a\u4fa7\u9762** | \u6559\u5b69\u5b50\u6027\u514b\u5236 \u00d7 \u8c34\u8d23\u6210\u5e74\u5973\u6027\u5a5a\u524d\u6027 **\u03c1 = +0.6558**,\u5341\u4e2a\u54c1\u683c\u91cc**\u6392\u7b2c 1**;\u7b2c\u4e8c\u540d\u670d\u4ece\u53ea\u6709 **+0.3030**",
    "has789": false
   },
   {
    "line": 198,
    "n_hits": 3,
    "anchors": [],
-   "head": "| **搬进的是「性道德」,不是「政治」** | `premarsx × homosex` **+0.00672/年,在 253 对里排第 2**;而 homosex × **19 个非性题**中位 ",
+   "head": "| **\u642c\u8fdb\u7684\u662f\u300c\u6027\u9053\u5fb7\u300d,\u4e0d\u662f\u300c\u653f\u6cbb\u300d** | `premarsx \u00d7 homosex` **+0.00672/\u5e74,\u5728 253 \u5bf9\u91cc\u6392\u7b2c 2**;\u800c homosex \u00d7 **19 \u4e2a\u975e\u6027\u9898**\u4e2d\u4f4d ",
    "has789": false
   },
   {
    "line": 236,
    "n_hits": 1,
    "anchors": [],
-   "head": "| **问法会移动答案** | 同年同问卷,性题面访比网络高一截,而死刑不动 ⇒ **跨 2021 的性态度趋势里有一部分是问法** |",
+   "head": "| **\u95ee\u6cd5\u4f1a\u79fb\u52a8\u7b54\u6848** | \u540c\u5e74\u540c\u95ee\u5377,\u6027\u9898\u9762\u8bbf\u6bd4\u7f51\u7edc\u9ad8\u4e00\u622a,\u800c\u6b7b\u5211\u4e0d\u52a8 \u21d2 **\u8de8 2021 \u7684\u6027\u6001\u5ea6\u8d8b\u52bf\u91cc\u6709\u4e00\u90e8\u5206\u662f\u95ee\u6cd5** |",
    "has789": false
   },
   {
    "line": 360,
    "n_hits": 1,
    "anchors": [],
-   "head": "> ⚠ **这张表建在合并样本上,而六个坐标在两个性别里不是同一个东西**(`#285` `#286`)。在两组里**各自独立**重建(n = 3,232 / 3,485):块层载荷子空间在**按性别",
+   "head": "> \u26a0 **\u8fd9\u5f20\u8868\u5efa\u5728\u5408\u5e76\u6837\u672c\u4e0a,\u800c\u516d\u4e2a\u5750\u6807\u5728\u4e24\u4e2a\u6027\u522b\u91cc\u4e0d\u662f\u540c\u4e00\u4e2a\u4e1c\u897f**(`#285` `#286`)\u3002\u5728\u4e24\u7ec4\u91cc**\u5404\u81ea\u72ec\u7acb**\u91cd\u5efa(n = 3,232 / 3,485):\u5757\u5c42\u8f7d\u8377\u5b50\u7a7a\u95f4\u5728**\u6309\u6027\u522b",
    "has789": false
   },
   {
    "line": 394,
    "n_hits": 1,
    "anchors": [],
-   "head": "| **版图真正的主分界线不是\"先来后到\",是\"物件 vs 叙事\"** | 6 个连贯分割 × 11 个非性变量的整格,最大统计量零给出全族阈值 0.0560。**PC4 点亮 6 个变量,最强一格 ",
+   "head": "| **\u7248\u56fe\u771f\u6b63\u7684\u4e3b\u5206\u754c\u7ebf\u4e0d\u662f\"\u5148\u6765\u540e\u5230\",\u662f\"\u7269\u4ef6 vs \u53d9\u4e8b\"** | 6 \u4e2a\u8fde\u8d2f\u5206\u5272 \u00d7 11 \u4e2a\u975e\u6027\u53d8\u91cf\u7684\u6574\u683c,\u6700\u5927\u7edf\u8ba1\u91cf\u96f6\u7ed9\u51fa\u5168\u65cf\u9608\u503c 0.0560\u3002**PC4 \u70b9\u4eae 6 \u4e2a\u53d8\u91cf,\u6700\u5f3a\u4e00\u683c ",
    "has789": false
   },
   {
@@ -165,7 +165,7 @@
    "anchors": [
     539
    ],
-   "head": "- **第十件:性道德在十五到二十岁就已经是一整块了,而家庭道德到四十四岁还在收紧。** 把同一批 5,600 名女性切成六个年龄段,性题之间的耦合是**平的** —— 0.445、0.435、0.3",
+   "head": "- **\u7b2c\u5341\u4ef6:\u6027\u9053\u5fb7\u5728\u5341\u4e94\u5230\u4e8c\u5341\u5c81\u5c31\u5df2\u7ecf\u662f\u4e00\u6574\u5757\u4e86,\u800c\u5bb6\u5ead\u9053\u5fb7\u5230\u56db\u5341\u56db\u5c81\u8fd8\u5728\u6536\u7d27\u3002** \u628a\u540c\u4e00\u6279 5,600 \u540d\u5973\u6027\u5207\u6210\u516d\u4e2a\u5e74\u9f84\u6bb5,\u6027\u9898\u4e4b\u95f4\u7684\u8026\u5408\u662f**\u5e73\u7684** \u2014\u2014 0.445\u30010.435\u30010.3",
    "has789": false
   },
   {
@@ -174,7 +174,7 @@
    "anchors": [
     536
    ],
-   "head": "- **第九件,用的正是上一条缺的那份仪器:性道德比它旁边同样格式、同样问同一批女性的家庭道德更紧。** 上一条分不开**领域**与**格式**,因为它用的那份调查里没有第二组四级非性道德题。另一份调",
+   "head": "- **\u7b2c\u4e5d\u4ef6,\u7528\u7684\u6b63\u662f\u4e0a\u4e00\u6761\u7f3a\u7684\u90a3\u4efd\u4eea\u5668:\u6027\u9053\u5fb7\u6bd4\u5b83\u65c1\u8fb9\u540c\u6837\u683c\u5f0f\u3001\u540c\u6837\u95ee\u540c\u4e00\u6279\u5973\u6027\u7684\u5bb6\u5ead\u9053\u5fb7\u66f4\u7d27\u3002** \u4e0a\u4e00\u6761\u5206\u4e0d\u5f00**\u9886\u57df**\u4e0e**\u683c\u5f0f**,\u56e0\u4e3a\u5b83\u7528\u7684\u90a3\u4efd\u8c03\u67e5\u91cc\u6ca1\u6709\u7b2c\u4e8c\u7ec4\u56db\u7ea7\u975e\u6027\u9053\u5fb7\u9898\u3002\u53e6\u4e00\u4efd\u8c03",
    "has789": false
   },
   {
@@ -196,7 +196,7 @@
     534,
     535
    ],
-   "head": "- **第八件,而它指向相反的方向:在人身上是一把尺,尽管在社会和年代那两个单位上一把也没有。** 在**同一个调查年内**(所以趋势污染不了它),四道性态度题在个体之间的秩相关中位是 **0.375",
+   "head": "- **\u7b2c\u516b\u4ef6,\u800c\u5b83\u6307\u5411\u76f8\u53cd\u7684\u65b9\u5411:\u5728\u4eba\u8eab\u4e0a\u662f\u4e00\u628a\u5c3a,\u5c3d\u7ba1\u5728\u793e\u4f1a\u548c\u5e74\u4ee3\u90a3\u4e24\u4e2a\u5355\u4f4d\u4e0a\u4e00\u628a\u4e5f\u6ca1\u6709\u3002** \u5728**\u540c\u4e00\u4e2a\u8c03\u67e5\u5e74\u5185**(\u6240\u4ee5\u8d8b\u52bf\u6c61\u67d3\u4e0d\u4e86\u5b83),\u56db\u9053\u6027\u6001\u5ea6\u9898\u5728\u4e2a\u4f53\u4e4b\u95f4\u7684\u79e9\u76f8\u5173\u4e2d\u4f4d\u662f **0.375",
    "has789": false
   },
   {
@@ -210,7 +210,7 @@
     551,
     552
    ],
-   "head": "- **另外两份仪器被打开来检验上面这几条是否只是一家机构的产物,而两份都在结构上答不了。** 上面三条发现全部来自同一个政府统计系统的调查。一份网络自选的 100 题性自我概念量表**一道非性题都没",
+   "head": "- **\u53e6\u5916\u4e24\u4efd\u4eea\u5668\u88ab\u6253\u5f00\u6765\u68c0\u9a8c\u4e0a\u9762\u8fd9\u51e0\u6761\u662f\u5426\u53ea\u662f\u4e00\u5bb6\u673a\u6784\u7684\u4ea7\u7269,\u800c\u4e24\u4efd\u90fd\u5728\u7ed3\u6784\u4e0a\u7b54\u4e0d\u4e86\u3002** \u4e0a\u9762\u4e09\u6761\u53d1\u73b0\u5168\u90e8\u6765\u81ea\u540c\u4e00\u4e2a\u653f\u5e9c\u7edf\u8ba1\u7cfb\u7edf\u7684\u8c03\u67e5\u3002\u4e00\u4efd\u7f51\u7edc\u81ea\u9009\u7684 100 \u9898\u6027\u81ea\u6211\u6982\u5ff5\u91cf\u8868**\u4e00\u9053\u975e\u6027\u9898\u90fd\u6ca1",
    "has789": false
   },
   {
@@ -229,7 +229,7 @@
     586,
     587
    ],
-   "head": "- **第十三件,也是那几道性行为题承担不了的那个问题的可回答版本:青少年的风险行为,是一个领域一个领域地动的。** 把十三道题按题干文本分进五个**彼此不下游**的领域 —— 性活跃、暴力、物质使用",
+   "head": "- **\u7b2c\u5341\u4e09\u4ef6,\u4e5f\u662f\u90a3\u51e0\u9053\u6027\u884c\u4e3a\u9898\u627f\u62c5\u4e0d\u4e86\u7684\u90a3\u4e2a\u95ee\u9898\u7684\u53ef\u56de\u7b54\u7248\u672c:\u9752\u5c11\u5e74\u7684\u98ce\u9669\u884c\u4e3a,\u662f\u4e00\u4e2a\u9886\u57df\u4e00\u4e2a\u9886\u57df\u5730\u52a8\u7684\u3002** \u628a\u5341\u4e09\u9053\u9898\u6309\u9898\u5e72\u6587\u672c\u5206\u8fdb\u4e94\u4e2a**\u5f7c\u6b64\u4e0d\u4e0b\u6e38**\u7684\u9886\u57df \u2014\u2014 \u6027\u6d3b\u8dc3\u3001\u66b4\u529b\u3001\u7269\u8d28\u4f7f\u7528",
    "has789": false
   },
   {
@@ -244,7 +244,7 @@
     593,
     558
    ],
-   "head": "- **第十四件,也是这条结论最后一个没被问过的问题:她的性道德不是一个封闭的隔间 —— 它伸进她其他判断里的距离,比那些判断彼此之间还远。** 在同一个调查年内,四道性态度题彼此的一致性是 **0.",
+   "head": "- **\u7b2c\u5341\u56db\u4ef6,\u4e5f\u662f\u8fd9\u6761\u7ed3\u8bba\u6700\u540e\u4e00\u4e2a\u6ca1\u88ab\u95ee\u8fc7\u7684\u95ee\u9898:\u5979\u7684\u6027\u9053\u5fb7\u4e0d\u662f\u4e00\u4e2a\u5c01\u95ed\u7684\u9694\u95f4 \u2014\u2014 \u5b83\u4f38\u8fdb\u5979\u5176\u4ed6\u5224\u65ad\u91cc\u7684\u8ddd\u79bb,\u6bd4\u90a3\u4e9b\u5224\u65ad\u5f7c\u6b64\u4e4b\u95f4\u8fd8\u8fdc\u3002** \u5728\u540c\u4e00\u4e2a\u8c03\u67e5\u5e74\u5185,\u56db\u9053\u6027\u6001\u5ea6\u9898\u5f7c\u6b64\u7684\u4e00\u81f4\u6027\u662f **0.",
    "has789": false
   },
   {
@@ -257,28 +257,28 @@
     731,
     739
    ],
-   "head": "- **第二十九件,而它把纯洁那件事换了一种说法:纯洁不只是五个道德域里最紧的,它是唯一一个整个都是一件事的。** 第二十八件用的「连通子块」只要求**每题至少连到一题** —— **一条链也算数**",
+   "head": "- **\u7b2c\u4e8c\u5341\u4e5d\u4ef6,\u800c\u5b83\u628a\u7eaf\u6d01\u90a3\u4ef6\u4e8b\u6362\u4e86\u4e00\u79cd\u8bf4\u6cd5:\u7eaf\u6d01\u4e0d\u53ea\u662f\u4e94\u4e2a\u9053\u5fb7\u57df\u91cc\u6700\u7d27\u7684,\u5b83\u662f\u552f\u4e00\u4e00\u4e2a\u6574\u4e2a\u90fd\u662f\u4e00\u4ef6\u4e8b\u7684\u3002** \u7b2c\u4e8c\u5341\u516b\u4ef6\u7528\u7684\u300c\u8fde\u901a\u5b50\u5757\u300d\u53ea\u8981\u6c42**\u6bcf\u9898\u81f3\u5c11\u8fde\u5230\u4e00\u9898** \u2014\u2014 **\u4e00\u6761\u94fe\u4e5f\u7b97\u6570**",
    "has789": false
   },
   {
    "line": 600,
    "n_hits": 2,
    "anchors": [],
-   "head": "> `homosex` 与 **19 个非性题**的中位是 **−0.00025**(占性题那一侧的 −7%);逐族看:",
+   "head": "> `homosex` \u4e0e **19 \u4e2a\u975e\u6027\u9898**\u7684\u4e2d\u4f4d\u662f **\u22120.00025**(\u5360\u6027\u9898\u90a3\u4e00\u4fa7\u7684 \u22127%);\u9010\u65cf\u770b:",
    "has789": false
   },
   {
    "line": 603,
    "n_hits": 1,
    "anchors": [],
-   "head": "> ⛔ ~~而一处必须点名的细节:三个性题里 `xmarsex` 只有 +0.00075 —— 加入的是「婚前」与「未成年」,不是「出轨」。~~",
+   "head": "> \u26d4 ~~\u800c\u4e00\u5904\u5fc5\u987b\u70b9\u540d\u7684\u7ec6\u8282:\u4e09\u4e2a\u6027\u9898\u91cc `xmarsex` \u53ea\u6709 +0.00075 \u2014\u2014 \u52a0\u5165\u7684\u662f\u300c\u5a5a\u524d\u300d\u4e0e\u300c\u672a\u6210\u5e74\u300d,\u4e0d\u662f\u300c\u51fa\u8f68\u300d\u3002~~",
    "has789": false
   },
   {
    "line": 607,
    "n_hits": 1,
    "anchors": [],
-   "head": "> ⇒ **三个性题全都加入了,而且速率几乎一样。「出轨没加入」撤回。**",
+   "head": "> \u21d2 **\u4e09\u4e2a\u6027\u9898\u5168\u90fd\u52a0\u5165\u4e86,\u800c\u4e14\u901f\u7387\u51e0\u4e4e\u4e00\u6837\u3002\u300c\u51fa\u8f68\u6ca1\u52a0\u5165\u300d\u64a4\u56de\u3002**",
    "has789": false
   },
   {
@@ -288,7 +288,7 @@
     738,
     747
    ],
-   "head": "⚠ 两条缩小:GSS 是**重复横断面不是面板** ⇒ 只能说「这一年的美国人」,**不能说同一个人变了**;而 `teensex` 始于 1986 ⇒ **1972–1987 结构上进不来** `[",
+   "head": "\u26a0 \u4e24\u6761\u7f29\u5c0f:GSS \u662f**\u91cd\u590d\u6a2a\u65ad\u9762\u4e0d\u662f\u9762\u677f** \u21d2 \u53ea\u80fd\u8bf4\u300c\u8fd9\u4e00\u5e74\u7684\u7f8e\u56fd\u4eba\u300d,**\u4e0d\u80fd\u8bf4\u540c\u4e00\u4e2a\u4eba\u53d8\u4e86**;\u800c `teensex` \u59cb\u4e8e 1986 \u21d2 **1972\u20131987 \u7ed3\u6784\u4e0a\u8fdb\u4e0d\u6765** `[",
    "has789": false
   },
   {
@@ -300,7 +300,7 @@
     730,
     718
    ],
-   "head": "⚠ 三条必须一起说:① **这还是上界** —— 重测是跨「问法」的,把信度与措辞差异混在一起,因而低估信度、过度校正;② **这里的原始相关是 1994 年的生 Spearman(n=894),没有",
+   "head": "\u26a0 \u4e09\u6761\u5fc5\u987b\u4e00\u8d77\u8bf4:\u2460 **\u8fd9\u8fd8\u662f\u4e0a\u754c** \u2014\u2014 \u91cd\u6d4b\u662f\u8de8\u300c\u95ee\u6cd5\u300d\u7684,\u628a\u4fe1\u5ea6\u4e0e\u63aa\u8f9e\u5dee\u5f02\u6df7\u5728\u4e00\u8d77,\u56e0\u800c\u4f4e\u4f30\u4fe1\u5ea6\u3001\u8fc7\u5ea6\u6821\u6b63;\u2461 **\u8fd9\u91cc\u7684\u539f\u59cb\u76f8\u5173\u662f 1994 \u5e74\u7684\u751f Spearman(n=894),\u6ca1\u6709",
    "has789": false
   },
   {
@@ -309,7 +309,7 @@
    "anchors": [
     661
    ],
-   "head": "- **第三十四件,而它把上一件降级了,杀死它的是我自己在同一轮里的自查:非性的道德题也会因为问法而移动,只是方向各不相同 —— 而我拿有符号的中位把它们抵消掉了。** 第三十三件量到面访比网络高 1",
+   "head": "- **\u7b2c\u4e09\u5341\u56db\u4ef6,\u800c\u5b83\u628a\u4e0a\u4e00\u4ef6\u964d\u7ea7\u4e86,\u6740\u6b7b\u5b83\u7684\u662f\u6211\u81ea\u5df1\u5728\u540c\u4e00\u8f6e\u91cc\u7684\u81ea\u67e5:\u975e\u6027\u7684\u9053\u5fb7\u9898\u4e5f\u4f1a\u56e0\u4e3a\u95ee\u6cd5\u800c\u79fb\u52a8,\u53ea\u662f\u65b9\u5411\u5404\u4e0d\u76f8\u540c \u2014\u2014 \u800c\u6211\u62ff\u6709\u7b26\u53f7\u7684\u4e2d\u4f4d\u628a\u5b83\u4eec\u62b5\u6d88\u6389\u4e86\u3002** \u7b2c\u4e09\u5341\u4e09\u4ef6\u91cf\u5230\u9762\u8bbf\u6bd4\u7f51\u7edc\u9ad8 1",
    "has789": false
   },
   {
@@ -318,7 +318,7 @@
    "anchors": [
     662
    ],
-   "head": "- **第三十五件,而它更正的是我上一轮亲手留下的那个数:所谓「性题十二格全部朝同一边」是错的,正确定向之后是十格,而在这个格数上,「同号率」这个量根本分辨不出真实分组与随机分组。** 第三十四件诊断",
+   "head": "- **\u7b2c\u4e09\u5341\u4e94\u4ef6,\u800c\u5b83\u66f4\u6b63\u7684\u662f\u6211\u4e0a\u4e00\u8f6e\u4eb2\u624b\u7559\u4e0b\u7684\u90a3\u4e2a\u6570:\u6240\u8c13\u300c\u6027\u9898\u5341\u4e8c\u683c\u5168\u90e8\u671d\u540c\u4e00\u8fb9\u300d\u662f\u9519\u7684,\u6b63\u786e\u5b9a\u5411\u4e4b\u540e\u662f\u5341\u683c,\u800c\u5728\u8fd9\u4e2a\u683c\u6570\u4e0a,\u300c\u540c\u53f7\u7387\u300d\u8fd9\u4e2a\u91cf\u6839\u672c\u5206\u8fa8\u4e0d\u51fa\u771f\u5b9e\u5206\u7ec4\u4e0e\u968f\u673a\u5206\u7ec4\u3002** \u7b2c\u4e09\u5341\u56db\u4ef6\u8bca\u65ad",
    "has789": false
   },
   {
@@ -327,7 +327,7 @@
    "anchors": [
     663
    ],
-   "head": "- **第三十六件,而它是这条线的关门:人对着一个人和对着一块屏幕说的不一样 —— 而这份数据只能支持这一句,不能再多。** 第三十三件量到那 11–19 个点之后,一个真正的心理学问题从来没被问过:",
+   "head": "- **\u7b2c\u4e09\u5341\u516d\u4ef6,\u800c\u5b83\u662f\u8fd9\u6761\u7ebf\u7684\u5173\u95e8:\u4eba\u5bf9\u7740\u4e00\u4e2a\u4eba\u548c\u5bf9\u7740\u4e00\u5757\u5c4f\u5e55\u8bf4\u7684\u4e0d\u4e00\u6837 \u2014\u2014 \u800c\u8fd9\u4efd\u6570\u636e\u53ea\u80fd\u652f\u6301\u8fd9\u4e00\u53e5,\u4e0d\u80fd\u518d\u591a\u3002** \u7b2c\u4e09\u5341\u4e09\u4ef6\u91cf\u5230\u90a3 11\u201319 \u4e2a\u70b9\u4e4b\u540e,\u4e00\u4e2a\u771f\u6b63\u7684\u5fc3\u7406\u5b66\u95ee\u9898\u4ece\u6765\u6ca1\u88ab\u95ee\u8fc7:",
    "has789": false
   },
   {
@@ -336,7 +336,7 @@
    "anchors": [
     670
    ],
-   "head": "- **第四十三件,而它是一次 UNVERIFIED,唯一能说的是一个方向:年纪越大,性道德越像一整块 —— 两具仪器都指向同一边。** 上一件关弧时指出「性是一块」是这一页**唯一真正跨仪器**的声",
+   "head": "- **\u7b2c\u56db\u5341\u4e09\u4ef6,\u800c\u5b83\u662f\u4e00\u6b21 UNVERIFIED,\u552f\u4e00\u80fd\u8bf4\u7684\u662f\u4e00\u4e2a\u65b9\u5411:\u5e74\u7eaa\u8d8a\u5927,\u6027\u9053\u5fb7\u8d8a\u50cf\u4e00\u6574\u5757 \u2014\u2014 \u4e24\u5177\u4eea\u5668\u90fd\u6307\u5411\u540c\u4e00\u8fb9\u3002** \u4e0a\u4e00\u4ef6\u5173\u5f27\u65f6\u6307\u51fa\u300c\u6027\u662f\u4e00\u5757\u300d\u662f\u8fd9\u4e00\u9875**\u552f\u4e00\u771f\u6b63\u8de8\u4eea\u5668**\u7684\u58f0",
    "has789": false
   },
   {
@@ -345,7 +345,7 @@
    "anchors": [
     671
    ],
-   "head": "- **第四十四件,而它把一条看起来关于性的发现,变成了一条关于人怎么回答问卷的发现:年纪越大、教育越多的人,回答**任何**一组态度题都更成体系 —— 性道德在这件事上并不特别。** 上一件因为两处",
+   "head": "- **\u7b2c\u56db\u5341\u56db\u4ef6,\u800c\u5b83\u628a\u4e00\u6761\u770b\u8d77\u6765\u5173\u4e8e\u6027\u7684\u53d1\u73b0,\u53d8\u6210\u4e86\u4e00\u6761\u5173\u4e8e\u4eba\u600e\u4e48\u56de\u7b54\u95ee\u5377\u7684\u53d1\u73b0:\u5e74\u7eaa\u8d8a\u5927\u3001\u6559\u80b2\u8d8a\u591a\u7684\u4eba,\u56de\u7b54**\u4efb\u4f55**\u4e00\u7ec4\u6001\u5ea6\u9898\u90fd\u66f4\u6210\u4f53\u7cfb \u2014\u2014 \u6027\u9053\u5fb7\u5728\u8fd9\u4ef6\u4e8b\u4e0a\u5e76\u4e0d\u7279\u522b\u3002** \u4e0a\u4e00\u4ef6\u56e0\u4e3a\u4e24\u5904",
    "has789": false
   },
   {
@@ -354,14 +354,14 @@
    "anchors": [
     686
    ],
-   "head": "- **第五十八件,而它把前面十一件合成了一句话:读书越多的人,整份问卷答下来的起伏越小 —— 他不是在更多议题上有更细的分别,而是把所有议题收进同一个立场。** 上一件杀掉「分辨 vs 一刀切」这个",
+   "head": "- **\u7b2c\u4e94\u5341\u516b\u4ef6,\u800c\u5b83\u628a\u524d\u9762\u5341\u4e00\u4ef6\u5408\u6210\u4e86\u4e00\u53e5\u8bdd:\u8bfb\u4e66\u8d8a\u591a\u7684\u4eba,\u6574\u4efd\u95ee\u5377\u7b54\u4e0b\u6765\u7684\u8d77\u4f0f\u8d8a\u5c0f \u2014\u2014 \u4ed6\u4e0d\u662f\u5728\u66f4\u591a\u8bae\u9898\u4e0a\u6709\u66f4\u7ec6\u7684\u5206\u522b,\u800c\u662f\u628a\u6240\u6709\u8bae\u9898\u6536\u8fdb\u540c\u4e00\u4e2a\u7acb\u573a\u3002** \u4e0a\u4e00\u4ef6\u6740\u6389\u300c\u5206\u8fa8 vs \u4e00\u5200\u5207\u300d\u8fd9\u4e2a",
    "has789": false
   },
   {
    "line": 790,
    "n_hits": 1,
    "anchors": [],
-   "head": "—— 近乎领域封闭。全部 15 个非性变量合起来:**R² = 0.012**。",
+   "head": "\u2014\u2014 \u8fd1\u4e4e\u9886\u57df\u5c01\u95ed\u3002\u5168\u90e8 15 \u4e2a\u975e\u6027\u53d8\u91cf\u5408\u8d77\u6765:**R\u00b2 = 0.012**\u3002",
    "has789": false
   },
   {
@@ -370,21 +370,21 @@
    "anchors": [
     535
    ],
-   "head": "| ……其中格式解释掉 13%–45% `[#535「格式解释掉一部分」]` | 人 | 同上 | 同上 | 余量 +0.15 至 +0.27 | 领域内容;此仪器里不存在四级非性道德题组 |",
+   "head": "| \u2026\u2026\u5176\u4e2d\u683c\u5f0f\u89e3\u91ca\u6389 13%\u201345% `[#535\u300c\u683c\u5f0f\u89e3\u91ca\u6389\u4e00\u90e8\u5206\u300d]` | \u4eba | \u540c\u4e0a | \u540c\u4e0a | \u4f59\u91cf +0.15 \u81f3 +0.27 | \u9886\u57df\u5185\u5bb9;\u6b64\u4eea\u5668\u91cc\u4e0d\u5b58\u5728\u56db\u7ea7\u975e\u6027\u9053\u5fb7\u9898\u7ec4 |",
    "has789": false
   },
   {
    "line": 862,
    "n_hits": 2,
    "anchors": [],
-   "head": "**每一行共有的东西,也就是再加多少行都补不上的东西:每一份仪器缺的那一半都不一样。** 没有一份公开仪器同时问「你想要什么」与「你为什么羞耻」;唯一同时编了某种做法的可接受度与其频率的来源,由一个团",
+   "head": "**\u6bcf\u4e00\u884c\u5171\u6709\u7684\u4e1c\u897f,\u4e5f\u5c31\u662f\u518d\u52a0\u591a\u5c11\u884c\u90fd\u8865\u4e0d\u4e0a\u7684\u4e1c\u897f:\u6bcf\u4e00\u4efd\u4eea\u5668\u7f3a\u7684\u90a3\u4e00\u534a\u90fd\u4e0d\u4e00\u6837\u3002** \u6ca1\u6709\u4e00\u4efd\u516c\u5f00\u4eea\u5668\u540c\u65f6\u95ee\u300c\u4f60\u60f3\u8981\u4ec0\u4e48\u300d\u4e0e\u300c\u4f60\u4e3a\u4ec0\u4e48\u7f9e\u803b\u300d;\u552f\u4e00\u540c\u65f6\u7f16\u4e86\u67d0\u79cd\u505a\u6cd5\u7684\u53ef\u63a5\u53d7\u5ea6\u4e0e\u5176\u9891\u7387\u7684\u6765\u6e90,\u7531\u4e00\u4e2a\u56e2",
    "has789": false
   },
   {
    "line": 873,
    "n_hits": 6,
    "anchors": [],
-   "head": "| 性题旁边不存在同为四级的非性道德题组 | 性题与非性道德题共用同一量表长度、同一作答格式,且非性题本身构成一个领域 | NSFG 自填段:五级,三道性题 + 七道家庭题 | 下一波把十道都留住 |",
+   "head": "| \u6027\u9898\u65c1\u8fb9\u4e0d\u5b58\u5728\u540c\u4e3a\u56db\u7ea7\u7684\u975e\u6027\u9053\u5fb7\u9898\u7ec4 | \u6027\u9898\u4e0e\u975e\u6027\u9053\u5fb7\u9898\u5171\u7528\u540c\u4e00\u91cf\u8868\u957f\u5ea6\u3001\u540c\u4e00\u4f5c\u7b54\u683c\u5f0f,\u4e14\u975e\u6027\u9898\u672c\u8eab\u6784\u6210\u4e00\u4e2a\u9886\u57df | NSFG \u81ea\u586b\u6bb5:\u4e94\u7ea7,\u4e09\u9053\u6027\u9898 + \u4e03\u9053\u5bb6\u5ead\u9898 | \u4e0b\u4e00\u6ce2\u628a\u5341\u9053\u90fd\u7559\u4f4f |",
    "has789": false
   },
   {
@@ -402,7 +402,7 @@
     605,
     606
    ],
-   "head": "⚠ 当成七行来读,这张表像七个彼此独立的洞。按一条**机械的**判据分类之后 —— 两条规格不兼容,当且仅当它们要求**不同的观察单位**(人还是社会)或**不同的原材料**(新访谈还是既有民族志)—",
+   "head": "\u26a0 \u5f53\u6210\u4e03\u884c\u6765\u8bfb,\u8fd9\u5f20\u8868\u50cf\u4e03\u4e2a\u5f7c\u6b64\u72ec\u7acb\u7684\u6d1e\u3002\u6309\u4e00\u6761**\u673a\u68b0\u7684**\u5224\u636e\u5206\u7c7b\u4e4b\u540e \u2014\u2014 \u4e24\u6761\u89c4\u683c\u4e0d\u517c\u5bb9,\u5f53\u4e14\u4ec5\u5f53\u5b83\u4eec\u8981\u6c42**\u4e0d\u540c\u7684\u89c2\u5bdf\u5355\u4f4d**(\u4eba\u8fd8\u662f\u793e\u4f1a)\u6216**\u4e0d\u540c\u7684\u539f\u6750\u6599**(\u65b0\u8bbf\u8c08\u8fd8\u662f\u65e2\u6709\u6c11\u65cf\u5fd7)\u2014",
    "has789": false
   }
  ],
@@ -411,7 +411,7 @@
    "line": 103,
    "n_hits": 1,
    "anchors": [],
-   "head": "+0.0735, non-sexual −0.0074. **But code 1 does not mean the same thing across items** — for *premari",
+   "head": "+0.0735, non-sexual \u22120.0074. **But code 1 does not mean the same thing across items** \u2014 for *premari",
    "has789": false
   },
   {
@@ -479,7 +479,7 @@
     791,
     773
    ],
-   "head": "⚠ **That denominator is itself an estimate, so how much it wobbles has been measured**: of the **28 ",
+   "head": "\u26a0 **That denominator is itself an estimate, so how much it wobbles has been measured**: of the **28 ",
    "has789": true
   },
   {
@@ -514,14 +514,14 @@
    "line": 215,
    "n_hits": 2,
    "anchors": [],
-   "head": "| **What it moved into is sexual morality, not politics** | `premarsx × homosex` **+0.00672/yr, rank",
+   "head": "| **What it moved into is sexual morality, not politics** | `premarsx \u00d7 homosex` **+0.00672/yr, rank",
    "has789": false
   },
   {
    "line": 434,
    "n_hits": 1,
    "anchors": [],
-   "head": "| **The map's strongest psychologically-anchored dividing line is not \"early vs late\" — it is \"objec",
+   "head": "| **The map's strongest psychologically-anchored dividing line is not \"early vs late\" \u2014 it is \"objec",
    "has789": false
   },
   {
@@ -624,7 +624,7 @@
    "line": 651,
    "n_hits": 2,
    "anchors": [],
-   "head": "- **A twenty-sixth, and it overturns the 4.7× I wrote one round ago: her three judgements about sex ",
+   "head": "- **A twenty-sixth, and it overturns the 4.7\u00d7 I wrote one round ago: her three judgements about sex ",
    "has789": false
   },
   {
@@ -643,7 +643,7 @@
    "line": 663,
    "n_hits": 1,
    "anchors": [],
-   "head": "> `homosex` against the **19 non-sexual items** has a median of **−0.00025** (−7% of the sexual side",
+   "head": "> `homosex` against the **19 non-sexual items** has a median of **\u22120.00025** (\u22127% of the sexual side",
    "has789": false
   },
   {
@@ -653,7 +653,7 @@
     738,
     747
    ],
-   "head": "⚠ Two shrinkages: GSS is a **repeated cross-section, not a panel** ⇒ this is about *Americans in tha",
+   "head": "\u26a0 Two shrinkages: GSS is a **repeated cross-section, not a panel** \u21d2 this is about *Americans in tha",
    "has789": false
   },
   {
@@ -663,7 +663,7 @@
     746,
     745
    ],
-   "head": "⚠⚠ **And the last question was *who*, and the answer is the counter-intuitive one.** Splitting peopl",
+   "head": "\u26a0\u26a0 **And the last question was *who*, and the answer is the counter-intuitive one.** Splitting peopl",
    "has789": false
   },
   {
@@ -698,7 +698,7 @@
    "line": 825,
    "n_hits": 1,
    "anchors": [],
-   "head": "**[E01·R05 · is breadth the object](E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_o",
+   "head": "**[E01\u00b7R05 \u00b7 is breadth the object](E01_sexual_as_a_value_not_a_category/A05_is_breadth_a_nuisance_o",
    "has789": false
   },
   {
@@ -707,7 +707,7 @@
    "anchors": [
     535
    ],
-   "head": "| …of which format explains 13–45% `[#535「格式解释掉一部分」]` | person | same | same | excess +0.15 to +0.27",
+   "head": "| \u2026of which format explains 13\u201345% `[#535\u300c\u683c\u5f0f\u89e3\u91ca\u6389\u4e00\u90e8\u5206\u300d]` | person | same | same | excess +0.15 to +0.27",
    "has789": false
   },
   {
@@ -739,32 +739,34 @@
     605,
     606
    ],
-   "head": "⚠ Read as seven rows the table looks like seven independent holes. Sorted mechanically — two specs a",
+   "head": "\u26a0 Read as seven rows the table looks like seven independent holes. Sorted mechanically \u2014 two specs a",
    "has789": false
   }
  ],
  "verdicts": {
   "789": [
    "DISCUSS",
-   "这一行**推翻**了该切法 —— 修复,不是缺陷"
+   "\u8fd9\u4e00\u884c**\u63a8\u7ffb**\u4e86\u8be5\u5207\u6cd5 \u2014\u2014 \u4fee\u590d,\u4e0d\u662f\u7f3a\u9677"
   ],
   "791": [
    "DISCUSS",
-   "这一行给出替代切法(三堆)—— 修复,不是缺陷"
+   "\u8fd9\u4e00\u884c\u7ed9\u51fa\u66ff\u4ee3\u5207\u6cd5(\u4e09\u5806)\u2014\u2014 \u4fee\u590d,\u4e0d\u662f\u7f3a\u9677"
   ],
   "785": [
    "USE",
-   "「不是一条关于性道德的规律,是一条关于其余人真的动了的那些题的规律」—— 标题与整段仍以性/非性组织,而 `#789` 之后它的前提已倒"
+   "\u300c\u4e0d\u662f\u4e00\u6761\u5173\u4e8e\u6027\u9053\u5fb7\u7684\u89c4\u5f8b,\u662f\u4e00\u6761\u5173\u4e8e\u5176\u4f59\u4eba\u771f\u7684\u52a8\u4e86\u7684\u90a3\u4e9b\u9898\u7684\u89c4\u5f8b\u300d\u2014\u2014 \u6807\u9898\u4e0e\u6574\u6bb5\u4ecd\u4ee5\u6027/\u975e\u6027\u7ec4\u7ec7,\u800c `#789` \u4e4b\u540e\u5b83\u7684\u524d\u63d0\u5df2\u5012"
   ],
   "788": [
    "DISCUSS",
-   "谈的是仪器边界,提到非性题只是为了说明问题需要它们"
+   "\u8c08\u7684\u662f\u4eea\u5668\u8fb9\u754c,\u63d0\u5230\u975e\u6027\u9898\u53ea\u662f\u4e3a\u4e86\u8bf4\u660e\u95ee\u9898\u9700\u8981\u5b83\u4eec"
   ]
  },
  "n_use": 0,
  "n_discuss": 1,
  "n_unverified": 39,
  "n_pre789_use": 0,
- "verdict": "**UNVERIFIED,而不可信的是筛子不是页面。** 正对照①过了(它看得见 `#789`/`#791`),**而正对照②没过:它找不到 `#785` 那一行,可我已经知道那一行是 USE。**\n  ⇒ 词表里写的是 `性道德(?:的|是)?(?:一|特殊|不特殊)`,而那一行写的是「关于**性道德的规律**」—— **`的` 后面跟的是「规」,不是「一/特殊」,于是漏掉。**\n  ⇒ **这正是 `realstat` 那一行:正对照只问「这具仪器看得见吗」,从不问「它看见的是不是我要主张的那个东西」。** 我建的第一条正对照与筛子共享同一个盲点 ——\n  它去找**讨论这个切法**的行(那些行把「非性」写成一个词,词表命中),\n  而我要数的是**使用这个切法**的行(那些行只说「性道德」,词表不命中)。\n  ⇒ **命中的 40 行与 USE 的 0 行,两个数都不许拿去做重组决定。**\n  ⇒ 下一轮的修法**不是把词表放宽**(那会把 DISCUSS 一起捞进来):\n  **先把「USE 的语言长什么样」与「DISCUSS 的语言长什么样」写成两串不同的词,再各自量召回。**",
- "action": "Production"
+ "verdict": "**UNVERIFIED,\u800c\u4e0d\u53ef\u4fe1\u7684\u662f\u7b5b\u5b50\u4e0d\u662f\u9875\u9762\u3002** \u6b63\u5bf9\u7167\u2460\u8fc7\u4e86(\u5b83\u770b\u5f97\u89c1 `#789`/`#791`),**\u800c\u6b63\u5bf9\u7167\u2461\u6ca1\u8fc7:\u5b83\u627e\u4e0d\u5230 `#785` \u90a3\u4e00\u884c,\u53ef\u6211\u5df2\u7ecf\u77e5\u9053\u90a3\u4e00\u884c\u662f USE\u3002**\n  \u21d2 \u8bcd\u8868\u91cc\u5199\u7684\u662f `\u6027\u9053\u5fb7(?:\u7684|\u662f)?(?:\u4e00|\u7279\u6b8a|\u4e0d\u7279\u6b8a)`,\u800c\u90a3\u4e00\u884c\u5199\u7684\u662f\u300c\u5173\u4e8e**\u6027\u9053\u5fb7\u7684\u89c4\u5f8b**\u300d\u2014\u2014 **`\u7684` \u540e\u9762\u8ddf\u7684\u662f\u300c\u89c4\u300d,\u4e0d\u662f\u300c\u4e00/\u7279\u6b8a\u300d,\u4e8e\u662f\u6f0f\u6389\u3002**\n  \u21d2 **\u8fd9\u6b63\u662f `realstat` \u90a3\u4e00\u884c:\u6b63\u5bf9\u7167\u53ea\u95ee\u300c\u8fd9\u5177\u4eea\u5668\u770b\u5f97\u89c1\u5417\u300d,\u4ece\u4e0d\u95ee\u300c\u5b83\u770b\u89c1\u7684\u662f\u4e0d\u662f\u6211\u8981\u4e3b\u5f20\u7684\u90a3\u4e2a\u4e1c\u897f\u300d\u3002** \u6211\u5efa\u7684\u7b2c\u4e00\u6761\u6b63\u5bf9\u7167\u4e0e\u7b5b\u5b50\u5171\u4eab\u540c\u4e00\u4e2a\u76f2\u70b9 \u2014\u2014\n  \u5b83\u53bb\u627e**\u8ba8\u8bba\u8fd9\u4e2a\u5207\u6cd5**\u7684\u884c(\u90a3\u4e9b\u884c\u628a\u300c\u975e\u6027\u300d\u5199\u6210\u4e00\u4e2a\u8bcd,\u8bcd\u8868\u547d\u4e2d),\n  \u800c\u6211\u8981\u6570\u7684\u662f**\u4f7f\u7528\u8fd9\u4e2a\u5207\u6cd5**\u7684\u884c(\u90a3\u4e9b\u884c\u53ea\u8bf4\u300c\u6027\u9053\u5fb7\u300d,\u8bcd\u8868\u4e0d\u547d\u4e2d)\u3002\n  \u21d2 **\u547d\u4e2d\u7684 40 \u884c\u4e0e USE \u7684 0 \u884c,\u4e24\u4e2a\u6570\u90fd\u4e0d\u8bb8\u62ff\u53bb\u505a\u91cd\u7ec4\u51b3\u5b9a\u3002**\n  \u21d2 \u4e0b\u4e00\u8f6e\u7684\u4fee\u6cd5**\u4e0d\u662f\u628a\u8bcd\u8868\u653e\u5bbd**(\u90a3\u4f1a\u628a DISCUSS \u4e00\u8d77\u635e\u8fdb\u6765):\n  **\u5148\u628a\u300cUSE \u7684\u8bed\u8a00\u957f\u4ec0\u4e48\u6837\u300d\u4e0e\u300cDISCUSS \u7684\u8bed\u8a00\u957f\u4ec0\u4e48\u6837\u300d\u5199\u6210\u4e24\u4e32\u4e0d\u540c\u7684\u8bcd,\u518d\u5404\u81ea\u91cf\u53ec\u56de\u3002**",
+ "action": "Production",
+ "entry_backfilled": 792,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

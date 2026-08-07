@@ -18,6 +18,8 @@
  },
  "hit": 1.0,
  "loo_ok": false,
- "verdict": "**二分不成立:控总作答方差后 -0.0360,为原始的 -0.68 倍 <0.7 ⇒ 是同一个量的两种参数化**",
- "unchallenged": true
+ "verdict": "**\u4e8c\u5206\u4e0d\u6210\u7acb:\u63a7\u603b\u4f5c\u7b54\u65b9\u5dee\u540e -0.0360,\u4e3a\u539f\u59cb\u7684 -0.68 \u500d <0.7 \u21d2 \u662f\u540c\u4e00\u4e2a\u91cf\u7684\u4e24\u79cd\u53c2\u6570\u5316**",
+ "unchallenged": true,
+ "entry_backfilled": 685,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -9,8 +9,10 @@
  "tight_q95_cond": 0.25546397032361656,
  "g4_male": 0.289957264957265,
  "n_male": 63,
- "same_project_pair": "SCCS165×SCCS167 (broude1976cross, 抬高约 2.14×)",
+ "same_project_pair": "SCCS165\u00d7SCCS167 (broude1976cross, \u62ac\u9ad8\u7ea6 2.14\u00d7)",
  "cross_project_baseline": 0.105,
- "verdict": "UNVERIFIED —— 正对照失败",
- "unchallenged": true
+ "verdict": "UNVERIFIED \u2014\u2014 \u6b63\u5bf9\u7167\u5931\u8d25",
+ "unchallenged": true,
+ "entry_backfilled": 701,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

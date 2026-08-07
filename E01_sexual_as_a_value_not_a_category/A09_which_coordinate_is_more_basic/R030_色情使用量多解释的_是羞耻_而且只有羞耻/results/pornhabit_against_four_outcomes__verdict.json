@@ -36,5 +36,7 @@
    "raw_r": 0.030268797260430996,
    "sig": false
   }
- ]
+ ],
+ "entry_backfilled": 433,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

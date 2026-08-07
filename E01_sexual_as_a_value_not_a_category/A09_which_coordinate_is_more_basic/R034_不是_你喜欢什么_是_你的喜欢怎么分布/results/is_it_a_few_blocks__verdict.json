@@ -7,5 +7,7 @@
  "kill_as_preregistered": true,
  "r_pipeline": 1.0,
  "NB": 32,
- "n": 6715
+ "n": 6715,
+ "entry_backfilled": 440,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -357,5 +357,7 @@
   "negative": true,
   "negative_detail": "key not in the pre-rename registry either"
  },
- "verdict": "**Every one of the 52 LITERAL references, in 50 of the 80 scripts that import the name, is mechanically repairable** — old key -> old path -> today's path, entirely out of git. **The working tree alone does not contain what is needed; the version history does.**\n  ⚠ The other 30 importers build their key at runtime and **this instrument cannot see them** — unseen is not cleared."
+ "verdict": "**Every one of the 52 LITERAL references, in 50 of the 80 scripts that import the name, is mechanically repairable** \u2014 old key -> old path -> today's path, entirely out of git. **The working tree alone does not contain what is needed; the version history does.**\n  \u26a0 The other 30 importers build their key at runtime and **this instrument cannot see them** \u2014 unseen is not cleared.",
+ "entry_backfilled": 875,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

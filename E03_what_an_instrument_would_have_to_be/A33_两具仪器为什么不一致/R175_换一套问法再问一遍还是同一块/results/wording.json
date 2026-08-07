@@ -12,7 +12,7 @@
   "xmarsex1"
  ],
  "numerator": {
-  "原版 · 1994": {
+  "\u539f\u7248 \u00b7 1994": {
    "n": 894,
    "weakest": 0.33387640750435726,
    "greedy": 0.33387640750435726,
@@ -26,7 +26,7 @@
    ],
    "undecidable": false
   },
-  "`*1` 另一版 · 1994": {
+  "`*1` \u53e6\u4e00\u7248 \u00b7 1994": {
    "n": 1104,
    "weakest": 0.4273150664319441,
    "greedy": 0.4273150664319441,
@@ -40,7 +40,7 @@
    ],
    "undecidable": false
   },
-  "原版 · 合并 21 年": {
+  "\u539f\u7248 \u00b7 \u5408\u5e76 21 \u5e74": {
    "n": 15056,
    "weakest": 0.4740366698430109,
    "greedy": 0.4740366698430109,
@@ -61,7 +61,9 @@
   "homosex": 0.9106271746917782,
   "teensex": 0.7341198929640521
  },
- "boundary": "GSS 无「四个不同行为」的非性同量表题组 —— 结构性做不到,不许用条件型冒充",
- "note": "只比分子不比比值(#731:比值相对池);teensex1 仅 1994 ⇒ 一次性重测",
- "unchallenged": true
+ "boundary": "GSS \u65e0\u300c\u56db\u4e2a\u4e0d\u540c\u884c\u4e3a\u300d\u7684\u975e\u6027\u540c\u91cf\u8868\u9898\u7ec4 \u2014\u2014 \u7ed3\u6784\u6027\u505a\u4e0d\u5230,\u4e0d\u8bb8\u7528\u6761\u4ef6\u578b\u5192\u5145",
+ "note": "\u53ea\u6bd4\u5206\u5b50\u4e0d\u6bd4\u6bd4\u503c(#731:\u6bd4\u503c\u76f8\u5bf9\u6c60);teensex1 \u4ec5 1994 \u21d2 \u4e00\u6b21\u6027\u91cd\u6d4b",
+ "unchallenged": true,
+ "entry_backfilled": 732,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

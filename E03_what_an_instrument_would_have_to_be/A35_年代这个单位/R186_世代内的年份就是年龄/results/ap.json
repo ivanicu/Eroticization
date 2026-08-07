@@ -8,7 +8,9 @@
   -0.0008191657360407582,
   0.000791934664737746
  ],
- "verdict": "**W1:年龄段内仍有世代内斜率的 95% ⇒ 排除纯年龄,两刀合起来剩下年代**",
- "identification": "APC 不可识别:本轮只排除纯年龄与纯队列,不估年代系数",
- "unchallenged": true
+ "verdict": "**W1:\u5e74\u9f84\u6bb5\u5185\u4ecd\u6709\u4e16\u4ee3\u5185\u659c\u7387\u7684 95% \u21d2 \u6392\u9664\u7eaf\u5e74\u9f84,\u4e24\u5200\u5408\u8d77\u6765\u5269\u4e0b\u5e74\u4ee3**",
+ "identification": "APC \u4e0d\u53ef\u8bc6\u522b:\u672c\u8f6e\u53ea\u6392\u9664\u7eaf\u5e74\u9f84\u4e0e\u7eaf\u961f\u5217,\u4e0d\u4f30\u5e74\u4ee3\u7cfb\u6570",
+ "unchallenged": true,
+ "entry_backfilled": 743,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

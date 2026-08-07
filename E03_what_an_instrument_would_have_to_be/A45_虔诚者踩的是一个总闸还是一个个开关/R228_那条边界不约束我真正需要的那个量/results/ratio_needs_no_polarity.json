@@ -2,7 +2,7 @@
  "rows": [
   {
    "item": "homosex",
-   "grp": "性",
+   "grp": "\u6027",
    "stem": "Homosexual sex relations",
    "readable": true,
    "r": 0.40895859403859375,
@@ -19,7 +19,7 @@
   },
   {
    "item": "xmarsex",
-   "grp": "性",
+   "grp": "\u6027",
    "stem": "Sex with person other than spouse",
    "readable": false,
    "r": 0.28880091321730667,
@@ -32,11 +32,11 @@
     28,
     28
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "premarsx",
-   "grp": "性",
+   "grp": "\u6027",
    "stem": "Sex before marriage",
    "readable": false,
    "r": 0.8033745146411994,
@@ -49,11 +49,11 @@
     28,
     28
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "teensex",
-   "grp": "性",
+   "grp": "\u6027",
    "stem": "Sex before marriage:teens 14-16",
    "readable": true,
    "r": 0.36384764367064376,
@@ -70,7 +70,7 @@
   },
   {
    "item": "pornlaw",
-   "grp": "性",
+   "grp": "\u6027",
    "stem": "Feelings about pornography laws",
    "readable": false,
    "r": 0.9802794061345023,
@@ -83,11 +83,11 @@
     28,
     28
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "sexeduc",
-   "grp": "性",
+   "grp": "\u6027",
    "stem": "Sex education in public schools",
    "readable": true,
    "r": 2.1924233417885106,
@@ -104,7 +104,7 @@
   },
   {
    "item": "divlaw",
-   "grp": "性",
+   "grp": "\u6027",
    "stem": "Divorce laws",
    "readable": false,
    "r": 1.2021652619964007,
@@ -117,11 +117,11 @@
     29,
     29
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "abany",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Abortion if woman wants for any reason",
    "readable": false,
    "r": 0.8563070896532226,
@@ -134,11 +134,11 @@
     28,
     28
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "abdefect",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Strong chance of serious defect",
    "readable": false,
    "r": 1.9413479435147034,
@@ -151,11 +151,11 @@
     31,
     31
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "abnomore",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Married--wants no more children",
    "readable": false,
    "r": 1.7498584437031277,
@@ -168,11 +168,11 @@
     31,
     31
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "abpoor",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Low income--cant afford more children",
    "readable": false,
    "r": 0.4509111889625212,
@@ -185,11 +185,11 @@
     31,
     31
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "suicide1",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Suicide if incurable disease",
    "readable": false,
    "r": 1.4944502608458807,
@@ -202,11 +202,11 @@
     26,
     26
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "suicide2",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Suicide if bankrupt",
    "readable": true,
    "r": 0.41048651368254796,
@@ -223,7 +223,7 @@
   },
   {
    "item": "grass",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Should marijuana be made legal",
    "readable": false,
    "r": 0.785783337194615,
@@ -236,11 +236,11 @@
     28,
     28
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "cappun",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Favor or oppose death penalty for murder",
    "readable": false,
    "r": 0.5284803521912553,
@@ -253,11 +253,11 @@
     32,
     32
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "gunlaw",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Favor or oppose gun permits",
    "readable": false,
    "r": 0.739315121595439,
@@ -270,11 +270,11 @@
     29,
     29
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "letdie1",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Allow incurable patients to die",
    "readable": false,
    "r": 1.8790754560887257,
@@ -287,11 +287,11 @@
     25,
     26
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "spanking",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Favor spanking to discipline child",
    "readable": true,
    "r": 0.46240311016360164,
@@ -308,7 +308,7 @@
   },
   {
    "item": "prayer",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Bible prayer in public schools",
    "readable": true,
    "r": 0.12572198561134204,
@@ -325,7 +325,7 @@
   },
   {
    "item": "racmar",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Favor law against racial intermarriage",
    "readable": true,
    "r": 1.8414562609432323,
@@ -342,7 +342,7 @@
   },
   {
    "item": "natfare",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Welfare",
    "readable": false,
    "r": 0.4787313608145092,
@@ -355,11 +355,11 @@
     32,
     32
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "helpblk",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Should govt aid Black people?",
    "readable": true,
    "r": 0.1045649755012837,
@@ -376,7 +376,7 @@
   },
   {
    "item": "fechld",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Mother working doesn't hurt children",
    "readable": false,
    "r": 1.3574951188220477,
@@ -389,11 +389,11 @@
     23,
     23
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "fepresch",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "stem": "Preschool kids suffer if mother works",
    "readable": false,
    "r": 1.0837412749323017,
@@ -406,7 +406,7 @@
     23,
     23
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   }
  ],
  "gauge": [
@@ -599,6 +599,8 @@
   0.1045649755012837
  ],
  "gap": 0.001527919643954212,
- "verdict": "**不可分,而这推翻的是我自己的预注册判据,不是数据。** 两组的 |r| 中位确实几乎相等(性 0.409 vs 非性 0.410,差 +0.002),**但那个差自己的 95% 区间是 [-2.067, +1.432],宽 3.499** —— 要分辨「≤0.165」与「>0.165」需要 ≤0.330。\n  ⚠ 预注册拿 0.165 当阈值,而 0.165 是**同一题跨窗口**的抖动;这里比的是**题间**中位数,题间散布 0.105–2.192,约十二倍于它。**判据用错了噪声来源** —— 与 `#782` 同一族。\n  ⇒ **而数据本身给出了一件比 A/B 都重要的事:变异在组内,不在组间。** 性题里 `sexeduc` 是 2.19(虔诚者改得**更多**),`teensex` 是 0.36;非性题里 `racmar` 是 1.84,`helpblk` 是 0.10。**「性 / 非性」这个切法解释不了任何东西 —— 我切错了维度。**",
- "gate_ok": false
+ "verdict": "**\u4e0d\u53ef\u5206,\u800c\u8fd9\u63a8\u7ffb\u7684\u662f\u6211\u81ea\u5df1\u7684\u9884\u6ce8\u518c\u5224\u636e,\u4e0d\u662f\u6570\u636e\u3002** \u4e24\u7ec4\u7684 |r| \u4e2d\u4f4d\u786e\u5b9e\u51e0\u4e4e\u76f8\u7b49(\u6027 0.409 vs \u975e\u6027 0.410,\u5dee +0.002),**\u4f46\u90a3\u4e2a\u5dee\u81ea\u5df1\u7684 95% \u533a\u95f4\u662f [-2.067, +1.432],\u5bbd 3.499** \u2014\u2014 \u8981\u5206\u8fa8\u300c\u22640.165\u300d\u4e0e\u300c>0.165\u300d\u9700\u8981 \u22640.330\u3002\n  \u26a0 \u9884\u6ce8\u518c\u62ff 0.165 \u5f53\u9608\u503c,\u800c 0.165 \u662f**\u540c\u4e00\u9898\u8de8\u7a97\u53e3**\u7684\u6296\u52a8;\u8fd9\u91cc\u6bd4\u7684\u662f**\u9898\u95f4**\u4e2d\u4f4d\u6570,\u9898\u95f4\u6563\u5e03 0.105\u20132.192,\u7ea6\u5341\u4e8c\u500d\u4e8e\u5b83\u3002**\u5224\u636e\u7528\u9519\u4e86\u566a\u58f0\u6765\u6e90** \u2014\u2014 \u4e0e `#782` \u540c\u4e00\u65cf\u3002\n  \u21d2 **\u800c\u6570\u636e\u672c\u8eab\u7ed9\u51fa\u4e86\u4e00\u4ef6\u6bd4 A/B \u90fd\u91cd\u8981\u7684\u4e8b:\u53d8\u5f02\u5728\u7ec4\u5185,\u4e0d\u5728\u7ec4\u95f4\u3002** \u6027\u9898\u91cc `sexeduc` \u662f 2.19(\u8654\u8bda\u8005\u6539\u5f97**\u66f4\u591a**),`teensex` \u662f 0.36;\u975e\u6027\u9898\u91cc `racmar` \u662f 1.84,`helpblk` \u662f 0.10\u3002**\u300c\u6027 / \u975e\u6027\u300d\u8fd9\u4e2a\u5207\u6cd5\u89e3\u91ca\u4e0d\u4e86\u4efb\u4f55\u4e1c\u897f \u2014\u2014 \u6211\u5207\u9519\u4e86\u7ef4\u5ea6\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 789,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -56,6 +56,8 @@
  "n_blocks": 200000,
  "median": 0.4808569800863529,
  "n_above": 20,
- "verdict": "**面内中位 +0.4809 是零的 2.62 倍(20/20 个面高于零),而任取五题的中位只有 -0.0235 ⇒ 一个人的性由若干互不蕴含的侧面组成,不是一件事**",
- "unchallenged": true
+ "verdict": "**\u9762\u5185\u4e2d\u4f4d +0.4809 \u662f\u96f6\u7684 2.62 \u500d(20/20 \u4e2a\u9762\u9ad8\u4e8e\u96f6),\u800c\u4efb\u53d6\u4e94\u9898\u7684\u4e2d\u4f4d\u53ea\u6709 -0.0235 \u21d2 \u4e00\u4e2a\u4eba\u7684\u6027\u7531\u82e5\u5e72\u4e92\u4e0d\u8574\u542b\u7684\u4fa7\u9762\u7ec4\u6210,\u4e0d\u662f\u4e00\u4ef6\u4e8b**",
+ "unchallenged": true,
+ "entry_backfilled": 720,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

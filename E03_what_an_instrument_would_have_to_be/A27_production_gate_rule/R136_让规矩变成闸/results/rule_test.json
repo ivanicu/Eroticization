@@ -5,5 +5,7 @@
  "false_positives": [],
  "blocking": [],
  "grandfathered_n": 201,
- "merge": true
+ "merge": true,
+ "entry_backfilled": 694,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

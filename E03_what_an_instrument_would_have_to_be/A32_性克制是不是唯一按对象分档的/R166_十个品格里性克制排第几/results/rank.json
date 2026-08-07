@@ -83,14 +83,14 @@
   "Responsibility"
  ],
  "double_standard": {
-  "婚前性·无双重标准": {
+  "\u5a5a\u524d\u6027\u00b7\u65e0\u53cc\u91cd\u6807\u51c6": {
    "n": 60,
    "n_yes": 28,
    "n_no": 32,
    "gap_yes": 0.75,
    "gap_no": 0.0
   },
-  "婚外性·无双重标准": {
+  "\u5a5a\u5916\u6027\u00b7\u65e0\u53cc\u91cd\u6807\u51c6": {
    "n": 60,
    "n_yes": 22,
    "n_no": 38,
@@ -98,6 +98,8 @@
    "gap_no": 0.0
   }
  },
- "verdict": "**W1 不成立、W2 也不成立:性克制排第 3,不在最低的三个里 —— 如实报名次,不改口径**",
- "unchallenged": true
+ "verdict": "**W1 \u4e0d\u6210\u7acb\u3001W2 \u4e5f\u4e0d\u6210\u7acb:\u6027\u514b\u5236\u6392\u7b2c 3,\u4e0d\u5728\u6700\u4f4e\u7684\u4e09\u4e2a\u91cc \u2014\u2014 \u5982\u5b9e\u62a5\u540d\u6b21,\u4e0d\u6539\u53e3\u5f84**",
+ "unchallenged": true,
+ "entry_backfilled": 724,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

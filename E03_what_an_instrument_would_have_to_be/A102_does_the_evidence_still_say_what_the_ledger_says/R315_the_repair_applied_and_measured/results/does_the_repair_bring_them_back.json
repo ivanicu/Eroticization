@@ -970,5 +970,7 @@
  "admissible": false,
  "verdict": "**UNVERIFIED: a control failed, so the criterion has no standing to rule.**",
  "gate_ok": false,
- "population_string": "the 81 round scripts that import `round_path`, each executed alone from the repository root"
+ "population_string": "the 81 round scripts that import `round_path`, each executed alone from the repository root",
+ "entry_backfilled": 876,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

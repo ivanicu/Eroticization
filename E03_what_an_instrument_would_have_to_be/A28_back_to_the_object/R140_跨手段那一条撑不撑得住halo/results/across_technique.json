@@ -8,37 +8,39 @@
  "tight_q95": 0.16836318679110865,
  "tight_median": 0.12997548678289836,
  "blocks": {
-  "以身作则": [
+  "\u4ee5\u8eab\u4f5c\u5219": [
    "SCCS429",
    "SCCS430",
    "SCCS431",
    "SCCS432"
   ],
-  "讲道理": [
+  "\u8bb2\u9053\u7406": [
    "SCCS437",
    "SCCS438",
    "SCCS439",
    "SCCS440"
   ],
-  "体罚": [
+  "\u4f53\u7f5a": [
    "SCCS453",
    "SCCS454",
    "SCCS455",
    "SCCS456"
   ],
-  "放任": [
+  "\u653e\u4efb": [
    "SCCS465",
    "SCCS466",
    "SCCS467",
    "SCCS468"
   ],
-  "疼爱": [
+  "\u75bc\u7231": [
    "SCCS469",
    "SCCS470",
    "SCCS471",
    "SCCS472"
   ]
  },
- "verdict": "**跨手段结构撑住了 halo:|ρ| 中位 +0.3241 超过 halo 零的 95% 分位 0.1684 ⇒ 这是这份数据里唯一不被 halo 解释的社会侧结构**",
- "unchallenged": true
+ "verdict": "**\u8de8\u624b\u6bb5\u7ed3\u6784\u6491\u4f4f\u4e86 halo:|\u03c1| \u4e2d\u4f4d +0.3241 \u8d85\u8fc7 halo \u96f6\u7684 95% \u5206\u4f4d 0.1684 \u21d2 \u8fd9\u662f\u8fd9\u4efd\u6570\u636e\u91cc\u552f\u4e00\u4e0d\u88ab halo \u89e3\u91ca\u7684\u793e\u4f1a\u4fa7\u7ed3\u6784**",
+ "unchallenged": true,
+ "entry_backfilled": 698,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

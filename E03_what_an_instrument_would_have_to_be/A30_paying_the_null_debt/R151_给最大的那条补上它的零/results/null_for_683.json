@@ -1,7 +1,7 @@
 {
  "n": 74592,
  "conventions": {
-  "当年写法 floor=150": {
+  "\u5f53\u5e74\u5199\u6cd5 floor=150": {
    "strata": [
     0.21031688944769794,
     0.0718412882259229,
@@ -12,7 +12,7 @@
    "median": 0.0718412882259229,
    "overall": 0.07759058517685113
   },
-  "今天写法 floor=30": {
+  "\u4eca\u5929\u5199\u6cd5 floor=30": {
    "strata": [
     0.21031688944769794,
     0.0718412882259229,
@@ -36,6 +36,8 @@
  "null_median": 0.005625825973026605,
  "B": 100,
  "resolution": 0.009900990099009901,
- "verdict": "**`#683` 补零后仍站得住:五格中位 +0.0718 超过格内打乱零的 95% 分位 0.0207**",
- "unchallenged": true
+ "verdict": "**`#683` \u8865\u96f6\u540e\u4ecd\u7ad9\u5f97\u4f4f:\u4e94\u683c\u4e2d\u4f4d +0.0718 \u8d85\u8fc7\u683c\u5185\u6253\u4e71\u96f6\u7684 95% \u5206\u4f4d 0.0207**",
+ "unchallenged": true,
+ "entry_backfilled": 709,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

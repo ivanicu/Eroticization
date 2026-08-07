@@ -1,5 +1,5 @@
 {
- "selftest_verdict": "UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (具名控制:故意让它失败)",
+ "selftest_verdict": "UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (\u5177\u540d\u63a7\u5236:\u6545\u610f\u8ba9\u5b83\u5931\u8d25)",
  "control_rows": [
   0
  ],
@@ -25,8 +25,10 @@
    785,
    790
   ],
-  "negative_control": "重跑 #790(R229)四行逐字相同,总判仍 OVERTURNED",
+  "negative_control": "\u91cd\u8dd1 #790(R229)\u56db\u884c\u9010\u5b57\u76f8\u540c,\u603b\u5224\u4ecd OVERTURNED",
   "unmeasured_rounds": 409
  },
- "withdrawn": "#794 把「暴露面 369」放在句首,读成风险量级;正确顺序:候选 4 · 发生 0 · 暴露 369"
+ "withdrawn": "#794 \u628a\u300c\u66b4\u9732\u9762 369\u300d\u653e\u5728\u53e5\u9996,\u8bfb\u6210\u98ce\u9669\u91cf\u7ea7;\u6b63\u786e\u987a\u5e8f:\u5019\u9009 4 \u00b7 \u53d1\u751f 0 \u00b7 \u66b4\u9732 369",
+ "entry_backfilled": 795,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

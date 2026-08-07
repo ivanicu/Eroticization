@@ -1,9 +1,9 @@
 {
  "grid": [
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.22386223862238622,
    "pk3": 0.028290282902829027,
    "ind": 0.23670688253021616,
@@ -20,33 +20,33 @@
    "base": 0.5338253382533825,
    "cov_lift": 1.308836254603264,
    "pair": {
-    "信仰 REL×年龄 age": 1.234574808184143,
-    "信仰 REL×政治 polviews": 0.8539915966386554,
-    "信仰 REL×安慰剂 ballot": 0.9311191099476438,
-    "年龄 age×政治 polviews": 0.6575116459627329,
-    "年龄 age×安慰剂 ballot": 0.9099134987480082,
-    "政治 polviews×安慰剂 ballot": 1.0831385564697082
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.234574808184143,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.8539915966386554,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9311191099476438,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.6575116459627329,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9099134987480082,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0831385564697082
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0094273497442452,
-    "信仰 REL×政治 polviews": 0.9994370404411764,
-    "信仰 REL×安慰剂 ballot": 1.0044740818447797,
-    "年龄 age×政治 polviews": 1.0007327251552796,
-    "年龄 age×安慰剂 ballot": 1.000596403368996,
-    "政治 polviews×安慰剂 ballot": 0.9985302332647719
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0094273497442452,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9994370404411764,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0044740818447797,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0007327251552796,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.000596403368996,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9985302332647719
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 9198,
    "nyear": 1
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.15939393202933128,
    "pk3": 0.014184296617938737,
    "ind": 0.15221581742936305,
@@ -63,33 +63,33 @@
    "base": 0.5140040478341117,
    "cov_lift": 1.3149649881298084,
    "pair": {
-    "信仰 REL×年龄 age": 1.2418852219481509,
-    "信仰 REL×政治 polviews": 0.9470224343630612,
-    "信仰 REL×安慰剂 ballot": 0.9806003658617356,
-    "年龄 age×政治 polviews": 0.7717975050429733,
-    "年龄 age×安慰剂 ballot": 0.9293166520259791,
-    "政治 polviews×安慰剂 ballot": 1.0426318696592656
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2418852219481509,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9470224343630612,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9806003658617356,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.7717975050429733,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9293166520259791,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0426318696592656
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0003696364181203,
-    "信仰 REL×政治 polviews": 1.0076605184074419,
-    "信仰 REL×安慰剂 ballot": 0.9980760075839161,
-    "年龄 age×政治 polviews": 0.9935805376288792,
-    "年龄 age×安慰剂 ballot": 1.008071260947132,
-    "政治 polviews×安慰剂 ballot": 0.9999919562600479
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0003696364181203,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0076605184074419,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9980760075839161,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9935805376288792,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.008071260947132,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9999919562600479
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 9198,
    "nyear": 2
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.25650385379138907,
    "pk3": 0.04099061983012732,
    "ind": 0.25098759813279414,
@@ -106,33 +106,33 @@
    "base": 0.5975962716379148,
    "cov_lift": 1.2824963616247471,
    "pair": {
-    "信仰 REL×年龄 age": 1.1583719488537467,
-    "信仰 REL×政治 polviews": 1.019883375785917,
-    "信仰 REL×安慰剂 ballot": 1.0240093146590998,
-    "年龄 age×政治 polviews": 0.916204663864073,
-    "年龄 age×安慰剂 ballot": 0.9902660792231494,
-    "政治 polviews×安慰剂 ballot": 1.020007417335283
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.1583719488537467,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.019883375785917,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0240093146590998,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.916204663864073,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9902660792231494,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.020007417335283
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9983934188648564,
-    "信仰 REL×政治 polviews": 1.0020002508771848,
-    "信仰 REL×安慰剂 ballot": 0.9998381060741037,
-    "年龄 age×政治 polviews": 0.9974183957275244,
-    "年龄 age×安慰剂 ballot": 0.9999638952536258,
-    "政治 polviews×安慰剂 ballot": 1.000376423877895
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9983934188648564,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0020002508771848,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9998381060741037,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9974183957275244,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9999638952536258,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.000376423877895
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7727,
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.18698014822343476,
    "pk3": 0.028439474109039884,
    "ind": 0.17151394940297746,
@@ -149,33 +149,33 @@
    "base": 0.5101765950493825,
    "cov_lift": 1.34048173661361,
    "pair": {
-    "信仰 REL×年龄 age": 1.2055394963817045,
-    "信仰 REL×政治 polviews": 1.2534824196046754,
-    "信仰 REL×安慰剂 ballot": 0.9857580958114988,
-    "年龄 age×政治 polviews": 0.9022869733198533,
-    "年龄 age×安慰剂 ballot": 0.9950256666787815,
-    "政治 polviews×安慰剂 ballot": 1.0147651887803388
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2055394963817045,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.2534824196046754,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9857580958114988,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9022869733198533,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9950256666787815,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0147651887803388
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0025850843005797,
-    "信仰 REL×政治 polviews": 1.0006576933486897,
-    "信仰 REL×安慰剂 ballot": 0.9998011891624151,
-    "年龄 age×政治 polviews": 0.9962946968585897,
-    "年龄 age×安慰剂 ballot": 0.9996339848934807,
-    "政治 polviews×安慰剂 ballot": 1.0014995598310332
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0025850843005797,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0006576933486897,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9998011891624151,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9962946968585897,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9996339848934807,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0014995598310332
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7727,
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.24055558117843,
    "pk3": 0.029900355629819755,
    "ind": 0.23675937551611143,
@@ -192,33 +192,33 @@
    "base": 0.5797860947570543,
    "cov_lift": 1.3063704826379925,
    "pair": {
-    "信仰 REL×年龄 age": 1.1232833220154204,
-    "信仰 REL×政治 polviews": 0.8464645601783982,
-    "信仰 REL×安慰剂 ballot": 1.0132710630947726,
-    "年龄 age×政治 polviews": 0.9649400681078016,
-    "年龄 age×安慰剂 ballot": 1.0047850894901127,
-    "政治 polviews×安慰剂 ballot": 1.0363156548666927
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.1232833220154204,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.8464645601783982,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0132710630947726,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9649400681078016,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0047850894901127,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0363156548666927
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0020642488894311,
-    "信仰 REL×政治 polviews": 0.9998418216002622,
-    "信仰 REL×安慰剂 ballot": 0.9992179516373163,
-    "年龄 age×政治 polviews": 0.9973173849575728,
-    "年龄 age×安慰剂 ballot": 0.99936576428275,
-    "政治 polviews×安慰剂 ballot": 0.9974740795034185
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0020642488894311,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9998418216002622,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9992179516373163,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9973173849575728,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.99936576428275,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9974740795034185
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 6360,
    "nyear": 4
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.1719479426618566,
    "pk3": 0.022329700761825565,
    "ind": 0.15894097130215631,
@@ -235,33 +235,33 @@
    "base": 0.46161009382523543,
    "cov_lift": 1.376854704100749,
    "pair": {
-    "信仰 REL×年龄 age": 1.169373467818051,
-    "信仰 REL×政治 polviews": 1.055018896252403,
-    "信仰 REL×安慰剂 ballot": 1.0053774608707278,
-    "年龄 age×政治 polviews": 1.0172109869737167,
-    "年龄 age×安慰剂 ballot": 0.9954202533957395,
-    "政治 polviews×安慰剂 ballot": 1.0533162637944862
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.169373467818051,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.055018896252403,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0053774608707278,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0172109869737167,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9954202533957395,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0533162637944862
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9998431252696933,
-    "信仰 REL×政治 polviews": 1.0011979807995752,
-    "信仰 REL×安慰剂 ballot": 1.000429642046731,
-    "年龄 age×政治 polviews": 0.9959463720016254,
-    "年龄 age×安慰剂 ballot": 1.00391100119371,
-    "政治 polviews×安慰剂 ballot": 0.9969554637837444
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9998431252696933,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0011979807995752,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.000429642046731,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9959463720016254,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.00391100119371,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9969554637837444
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 6360,
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.22331442886700506,
    "pk3": 0.018156066291969076,
    "ind": 0.2325231131612108,
@@ -278,33 +278,33 @@
    "base": 0.4777068489786545,
    "cov_lift": 1.4613378468063183,
    "pair": {
-    "信仰 REL×年龄 age": 1.0061066818859064,
-    "信仰 REL×政治 polviews": 0.6453725719610462,
-    "信仰 REL×安慰剂 ballot": 1.0182220871483971,
-    "年龄 age×政治 polviews": 0.981456195144363,
-    "年龄 age×安慰剂 ballot": 0.9625947007021609,
-    "政治 polviews×安慰剂 ballot": 1.0051749903275413
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0061066818859064,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.6453725719610462,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0182220871483971,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.981456195144363,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9625947007021609,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0051749903275413
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0012660776640643,
-    "信仰 REL×政治 polviews": 1.0002879188281435,
-    "信仰 REL×安慰剂 ballot": 0.9990563826349472,
-    "年龄 age×政治 polviews": 1.003516801521139,
-    "年龄 age×安慰剂 ballot": 1.0038908205996573,
-    "政治 polviews×安慰剂 ballot": 0.9976263770230419
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0012660776640643,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0002879188281435,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9990563826349472,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.003516801521139,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0038908205996573,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9976263770230419
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": 1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": 1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7203,
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.1700240778698666,
    "pk3": 0.019459138895241115,
    "ind": 0.15068150266717345,
@@ -321,33 +321,33 @@
    "base": 0.48030429891764753,
    "cov_lift": 1.459753353667204,
    "pair": {
-    "信仰 REL×年龄 age": 1.2502248943730387,
-    "信仰 REL×政治 polviews": 0.9593138204393661,
-    "信仰 REL×安慰剂 ballot": 1.0508618847831326,
-    "年龄 age×政治 polviews": 1.0333415532712302,
-    "年龄 age×安慰剂 ballot": 1.0301267850410467,
-    "政治 polviews×安慰剂 ballot": 0.9691413338978014
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2502248943730387,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9593138204393661,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0508618847831326,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0333415532712302,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0301267850410467,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9691413338978014
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9970358372720933,
-    "信仰 REL×政治 polviews": 1.0013901275138832,
-    "信仰 REL×安慰剂 ballot": 0.9991452285776368,
-    "年龄 age×政治 polviews": 0.9999246151782473,
-    "年龄 age×安慰剂 ballot": 0.9993955276868275,
-    "政治 polviews×安慰剂 ballot": 0.9980014824676114
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9970358372720933,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0013901275138832,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9991452285776368,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9999246151782473,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9993955276868275,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9980014824676114
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 7203,
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.22428748451053285,
    "pk3": 0.027261462205700124,
    "ind": 0.2396375141456097,
@@ -364,33 +364,33 @@
    "base": 0.5439900867410161,
    "cov_lift": 1.270485465298531,
    "pair": {
-    "信仰 REL×年龄 age": 1.2033747547416613,
-    "信仰 REL×政治 polviews": 0.8218192569232285,
-    "信仰 REL×安慰剂 ballot": 0.9037983333649703,
-    "年龄 age×政治 polviews": 0.656587795765878,
-    "年龄 age×安慰剂 ballot": 0.9214008155432958,
-    "政治 polviews×安慰剂 ballot": 1.088950735533307
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2033747547416613,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.8218192569232285,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9037983333649703,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.656587795765878,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9214008155432958,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.088950735533307
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0001733158927404,
-    "信仰 REL×政治 polviews": 1.0026857691928648,
-    "信仰 REL×安慰剂 ballot": 0.9994630891592794,
-    "年龄 age×政治 polviews": 0.9956684931506851,
-    "年龄 age×安慰剂 ballot": 1.0026234588630367,
-    "政治 polviews×安慰剂 ballot": 1.005091806122818
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0001733158927404,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0026857691928648,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9994630891592794,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9956684931506851,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0026234588630367,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.005091806122818
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 9140,
    "nyear": 1
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.11975809311620961,
    "pk3": 0.009948723083791237,
    "ind": 0.12420273664601855,
@@ -407,33 +407,33 @@
    "base": 0.43331080319927906,
    "cov_lift": 1.3579318614104365,
    "pair": {
-    "信仰 REL×年龄 age": 1.2714729254481865,
-    "信仰 REL×政治 polviews": 0.6714405936446985,
-    "信仰 REL×安慰剂 ballot": 0.9653682207270204,
-    "年龄 age×政治 polviews": 0.7406080185039593,
-    "年龄 age×安慰剂 ballot": 0.9368740505074615,
-    "政治 polviews×安慰剂 ballot": 1.0154123088618823
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2714729254481865,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.6714405936446985,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9653682207270204,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.7406080185039593,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9368740505074615,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0154123088618823
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.001441697452782,
-    "信仰 REL×政治 polviews": 1.001269227945536,
-    "信仰 REL×安慰剂 ballot": 0.9980274077681384,
-    "年龄 age×政治 polviews": 0.9846432939564801,
-    "年龄 age×安慰剂 ballot": 1.0018898361072541,
-    "政治 polviews×安慰剂 ballot": 0.9938361857693604
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.001441697452782,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.001269227945536,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9980274077681384,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9846432939564801,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0018898361072541,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9938361857693604
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 9140,
    "nyear": 2
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.24585938025499168,
    "pk3": 0.030984024902206826,
    "ind": 0.2461250833715159,
@@ -450,33 +450,33 @@
    "base": 0.5789271612780805,
    "cov_lift": 1.2797367927341374,
    "pair": {
-    "信仰 REL×年龄 age": 1.1568394685545191,
-    "信仰 REL×政治 polviews": 0.8733782698923175,
-    "信仰 REL×安慰剂 ballot": 1.0228843887470025,
-    "年龄 age×政治 polviews": 0.8489301245258349,
-    "年龄 age×安慰剂 ballot": 0.989759202661998,
-    "政治 polviews×安慰剂 ballot": 1.031486085786081
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.1568394685545191,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.8733782698923175,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0228843887470025,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.8489301245258349,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.989759202661998,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.031486085786081
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0018415144913768,
-    "信仰 REL×政治 polviews": 0.9994352703581086,
-    "信仰 REL×安慰剂 ballot": 0.999543904894365,
-    "年龄 age×政治 polviews": 1.0030380589759338,
-    "年龄 age×安慰剂 ballot": 0.9995741129088338,
-    "政治 polviews×安慰剂 ballot": 1.0019872232913678
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0018415144913768,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9994352703581086,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.999543904894365,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0030380589759338,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9995741129088338,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0019872232913678
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7645,
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.169015138236751,
    "pk3": 0.023249146654339525,
    "ind": 0.15636278592963435,
@@ -493,33 +493,33 @@
    "base": 0.4807762870176289,
    "cov_lift": 1.3632321414338109,
    "pair": {
-    "信仰 REL×年龄 age": 1.2188105503919096,
-    "信仰 REL×政治 polviews": 1.2081728449349685,
-    "信仰 REL×安慰剂 ballot": 0.988701118131317,
-    "年龄 age×政治 polviews": 0.8367778286797533,
-    "年龄 age×安慰剂 ballot": 1.0049812650968277,
-    "政治 polviews×安慰剂 ballot": 1.0487824436917677
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2188105503919096,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.2081728449349685,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.988701118131317,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.8367778286797533,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0049812650968277,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0487824436917677
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0034695259819513,
-    "信仰 REL×政治 polviews": 0.9929470551418058,
-    "信仰 REL×安慰剂 ballot": 0.9967346828348596,
-    "年龄 age×政治 polviews": 1.0012187830406527,
-    "年龄 age×安慰剂 ballot": 1.0024041738650424,
-    "政治 polviews×安慰剂 ballot": 0.999565511902498
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0034695259819513,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9929470551418058,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9967346828348596,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0012187830406527,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0024041738650424,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.999565511902498
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7645,
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.23889063885167264,
    "pk3": 0.03213158146809076,
    "ind": 0.24309374456368676,
@@ -536,33 +536,33 @@
    "base": 0.5702358086650151,
    "cov_lift": 1.2776951798341687,
    "pair": {
-    "信仰 REL×年龄 age": 1.0920050875004232,
-    "信仰 REL×政治 polviews": 0.7925582163260794,
-    "信仰 REL×安慰剂 ballot": 0.9992213636431423,
-    "年龄 age×政治 polviews": 0.995254091126634,
-    "年龄 age×安慰剂 ballot": 0.9937156845242046,
-    "政治 polviews×安慰剂 ballot": 1.043756059318883
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0920050875004232,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.7925582163260794,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9992213636431423,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.995254091126634,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9937156845242046,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.043756059318883
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9951939669203695,
-    "信仰 REL×政治 polviews": 0.9983211466291527,
-    "信仰 REL×安慰剂 ballot": 1.0033773030110003,
-    "年龄 age×政治 polviews": 1.000479450759962,
-    "年龄 age×安慰剂 ballot": 0.997662368267805,
-    "政治 polviews×安慰剂 ballot": 0.9994084887726922
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9951939669203695,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9983211466291527,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0033773030110003,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.000479450759962,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.997662368267805,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9994084887726922
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 6329,
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.21074057009226607,
    "pk3": 0.03507161301376719,
    "ind": 0.1846099258136392,
@@ -579,33 +579,33 @@
    "base": 0.518468300008411,
    "cov_lift": 1.316656114637594,
    "pair": {
-    "信仰 REL×年龄 age": 1.1732888137885533,
-    "信仰 REL×政治 polviews": 1.4321786095763973,
-    "信仰 REL×安慰剂 ballot": 1.0095992684133008,
-    "年龄 age×政治 polviews": 1.1177623751619843,
-    "年龄 age×安慰剂 ballot": 0.9958153594372489,
-    "政治 polviews×安慰剂 ballot": 1.0187123469740456
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.1732888137885533,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.4321786095763973,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0095992684133008,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.1177623751619843,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9958153594372489,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0187123469740456
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9995880692566317,
-    "信仰 REL×政治 polviews": 1.0014937544403528,
-    "信仰 REL×安慰剂 ballot": 1.0001216823423933,
-    "年龄 age×政治 polviews": 1.0003939741699215,
-    "年龄 age×安慰剂 ballot": 0.9983364361407141,
-    "政治 polviews×安慰剂 ballot": 0.999722143454746
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9995880692566317,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0014937544403528,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0001216823423933,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0003939741699215,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9983364361407141,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.999722143454746
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 6329,
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.2364660549636752,
    "pk3": 0.022430891760256855,
    "ind": 0.23954387058740623,
@@ -622,33 +622,33 @@
    "base": 0.5508572817196162,
    "cov_lift": 1.3557460989823737,
    "pair": {
-    "信仰 REL×年龄 age": 1.1373572436633073,
-    "信仰 REL×政治 polviews": 0.6534662794588236,
-    "信仰 REL×安慰剂 ballot": 1.0164811850445996,
-    "年龄 age×政治 polviews": 0.9343717913370363,
-    "年龄 age×安慰剂 ballot": 0.9823637519939229,
-    "政治 polviews×安慰剂 ballot": 1.0057710040649461
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.1373572436633073,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.6534662794588236,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0164811850445996,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9343717913370363,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9823637519939229,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0057710040649461
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0003096342746483,
-    "信仰 REL×政治 polviews": 0.9967515622088683,
-    "信仰 REL×安慰剂 ballot": 0.9988823120067823,
-    "年龄 age×政治 polviews": 1.0013798585816316,
-    "年龄 age×安慰剂 ballot": 1.000950504040164,
-    "政治 polviews×安慰剂 ballot": 1.0001975772793912
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0003096342746483,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9967515622088683,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9988823120067823,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0013798585816316,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.000950504040164,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0001975772793912
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7171,
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.1659478276365503,
    "pk3": 0.021503162078311062,
    "ind": 0.1507418892709478,
@@ -665,33 +665,33 @@
    "base": 0.48277050335454347,
    "cov_lift": 1.4372075487938791,
    "pair": {
-    "信仰 REL×年龄 age": 1.24547387678655,
-    "信仰 REL×政治 polviews": 0.9980130093197801,
-    "信仰 REL×安慰剂 ballot": 1.046709029604199,
-    "年龄 age×政治 polviews": 1.0233222055659017,
-    "年龄 age×安慰剂 ballot": 1.0309758876993427,
-    "政治 polviews×安慰剂 ballot": 1.0302169387574256
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.24547387678655,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9980130093197801,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.046709029604199,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0233222055659017,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0309758876993427,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0302169387574256
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9964505900078678,
-    "信仰 REL×政治 polviews": 1.0033346771093508,
-    "信仰 REL×安慰剂 ballot": 1.0021172850696427,
-    "年龄 age×政治 polviews": 1.0004661079179604,
-    "年龄 age×安慰剂 ballot": 0.998830703059709,
-    "政治 polviews×安慰剂 ballot": 0.9997728826500668
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9964505900078678,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0033346771093508,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0021172850696427,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0004661079179604,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.998830703059709,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9997728826500668
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 7171,
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.2915129151291513,
    "pk3": 0.06519065190651907,
    "ind": 0.26745934126007914,
@@ -708,33 +708,33 @@
    "base": 0.6617466174661747,
    "cov_lift": 1.1518230144218544,
    "pair": {
-    "信仰 REL×年龄 age": 1.2177121771217714,
-    "信仰 REL×政治 polviews": 1.3111888111888113,
-    "信仰 REL×安慰剂 ballot": 0.9261213720316622,
-    "年龄 age×政治 polviews": 1.132867132867133,
-    "年龄 age×安慰剂 ballot": 0.8944591029023746,
-    "政治 polviews×安慰剂 ballot": 0.8475469121907117
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2177121771217714,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.3111888111888113,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9261213720316622,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.132867132867133,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.8944591029023746,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.8475469121907117
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.00239852398524,
-    "信仰 REL×政治 polviews": 1.0018006993006994,
-    "信仰 REL×安慰剂 ballot": 1.0001715039577836,
-    "年龄 age×政治 polviews": 1.0066258741258742,
-    "年龄 age×安慰剂 ballot": 1.0081662269129288,
-    "政治 polviews×安慰剂 ballot": 1.0026554975367639
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.00239852398524,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0018006993006994,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0001715039577836,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0066258741258742,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0081662269129288,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0026554975367639
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 9236,
    "nyear": 1
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.12006369513034337,
    "pk3": 0.010362311772897464,
    "ind": 0.12407216080024877,
@@ -751,33 +751,33 @@
    "base": 0.4346366316086069,
    "cov_lift": 1.3834612360459493,
    "pair": {
-    "信仰 REL×年龄 age": 1.2481089317411724,
-    "信仰 REL×政治 polviews": 0.7172282554268603,
-    "信仰 REL×安慰剂 ballot": 0.9764688218879176,
-    "年龄 age×政治 polviews": 0.7724227652793622,
-    "年龄 age×安慰剂 ballot": 0.9206228836576668,
-    "政治 polviews×安慰剂 ballot": 1.0164202231521031
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2481089317411724,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.7172282554268603,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9764688218879176,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.7724227652793622,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9206228836576668,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0164202231521031
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0047672162473584,
-    "信仰 REL×政治 polviews": 1.0006079146119446,
-    "信仰 REL×安慰剂 ballot": 1.0028437922665125,
-    "年龄 age×政治 polviews": 0.9980566000846731,
-    "年龄 age×安慰剂 ballot": 0.9967488867355602,
-    "政治 polviews×安慰剂 ballot": 1.0117423083180777
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0047672162473584,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0006079146119446,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0028437922665125,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9980566000846731,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9967488867355602,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0117423083180777
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 9236,
    "nyear": 2
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.23927804880272424,
    "pk3": 0.029397564631609845,
    "ind": 0.23901208289200332,
@@ -794,33 +794,33 @@
    "base": 0.5306037353684842,
    "cov_lift": 1.2771239048020617,
    "pair": {
-    "信仰 REL×年龄 age": 1.125907276372391,
-    "信仰 REL×政治 polviews": 0.9188097511851563,
-    "信仰 REL×安慰剂 ballot": 1.0007900568777246,
-    "年龄 age×政治 polviews": 0.8452770536316507,
-    "年龄 age×安慰剂 ballot": 0.9892823683655599,
-    "政治 polviews×安慰剂 ballot": 1.027761124797617
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.125907276372391,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9188097511851563,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0007900568777246,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.8452770536316507,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9892823683655599,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.027761124797617
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9989996533537044,
-    "信仰 REL×政治 polviews": 1.001608702197582,
-    "信仰 REL×安慰剂 ballot": 0.9996012331911865,
-    "年龄 age×政治 polviews": 1.0009041568198134,
-    "年龄 age×安慰剂 ballot": 1.0013304127940195,
-    "政治 polviews×安慰剂 ballot": 0.9996097461659006
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9989996533537044,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.001608702197582,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9996012331911865,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0009041568198134,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0013304127940195,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9996097461659006
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7661,
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.16784656188755295,
    "pk3": 0.02236349205507471,
    "ind": 0.15701838432217838,
@@ -837,33 +837,33 @@
    "base": 0.48315911367974024,
    "cov_lift": 1.3276258763345088,
    "pair": {
-    "信仰 REL×年龄 age": 1.2163030858060655,
-    "信仰 REL×政治 polviews": 1.092299758471473,
-    "信仰 REL×安慰剂 ballot": 1.0035830411716893,
-    "年龄 age×政治 polviews": 0.8385865766249436,
-    "年龄 age×安慰剂 ballot": 0.9963087549293735,
-    "政治 polviews×安慰剂 ballot": 1.0503677267498948
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2163030858060655,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.092299758471473,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0035830411716893,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.8385865766249436,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9963087549293735,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0503677267498948
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9988936683559282,
-    "信仰 REL×政治 polviews": 0.9991772442867075,
-    "信仰 REL×安慰剂 ballot": 1.0007253316796265,
-    "年龄 age×政治 polviews": 0.9996187805258296,
-    "年龄 age×安慰剂 ballot": 1.0001664129293342,
-    "政治 polviews×安慰剂 ballot": 0.9984548686005094
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9988936683559282,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9991772442867075,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0007253316796265,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9996187805258296,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0001664129293342,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9984548686005094
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7661,
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.2416990524640703,
    "pk3": 0.030432656347487395,
    "ind": 0.238951387496587,
@@ -880,33 +880,33 @@
    "base": 0.5806950618553054,
    "cov_lift": 1.2412800338921277,
    "pair": {
-    "信仰 REL×年龄 age": 1.1309901233079365,
-    "信仰 REL×政治 polviews": 0.8772779982812282,
-    "信仰 REL×安慰剂 ballot": 1.014727977285231,
-    "年龄 age×政治 polviews": 0.9171674926236982,
-    "年龄 age×安慰剂 ballot": 1.011824491014671,
-    "政治 polviews×安慰剂 ballot": 1.009187628785785
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.1309901233079365,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.8772779982812282,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.014727977285231,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9171674926236982,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.011824491014671,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.009187628785785
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9995662450987953,
-    "信仰 REL×政治 polviews": 1.000326691802181,
-    "信仰 REL×安慰剂 ballot": 1.0000727141306414,
-    "年龄 age×政治 polviews": 0.9975527239776095,
-    "年龄 age×安慰剂 ballot": 0.9974907510545898,
-    "政治 polviews×安慰剂 ballot": 0.9999910216103106
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9995662450987953,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.000326691802181,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0000727141306414,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9975527239776095,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9974907510545898,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9999910216103106
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 6351,
    "nyear": 4
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.18381884331515957,
    "pk3": 0.025439305760853716,
    "ind": 0.16462358305464386,
@@ -923,33 +923,33 @@
    "base": 0.525345629261146,
    "cov_lift": 1.2981270537989988,
    "pair": {
-    "信仰 REL×年龄 age": 1.2651781692213169,
-    "信仰 REL×政治 polviews": 1.0703028646381731,
-    "信仰 REL×安慰剂 ballot": 1.010101588951788,
-    "年龄 age×政治 polviews": 1.0378017190480846,
-    "年龄 age×安慰剂 ballot": 1.002213484392885,
-    "政治 polviews×安慰剂 ballot": 1.0185213419966297
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2651781692213169,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0703028646381731,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.010101588951788,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0378017190480846,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.002213484392885,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0185213419966297
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0008201184187313,
-    "信仰 REL×政治 polviews": 0.9996049669254222,
-    "信仰 REL×安慰剂 ballot": 0.9986447314558443,
-    "年龄 age×政治 polviews": 0.9975006237868925,
-    "年龄 age×安慰剂 ballot": 0.9972930780363941,
-    "政治 polviews×安慰剂 ballot": 0.9967669491273569
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0008201184187313,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9996049669254222,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9986447314558443,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9975006237868925,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9972930780363941,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9967669491273569
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 6351,
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "cut": "三分位",
+   "cut": "\u4e09\u5206\u4f4d",
    "pk2": 0.22284981217615685,
    "pk3": 0.018187581087467184,
    "ind": 0.2320938766789201,
@@ -966,33 +966,33 @@
    "base": 0.4772303125596747,
    "cov_lift": 1.4366227083243737,
    "pair": {
-    "信仰 REL×年龄 age": 1.0092254172380577,
-    "信仰 REL×政治 polviews": 0.6491224668542395,
-    "信仰 REL×安慰剂 ballot": 1.0176656042411705,
-    "年龄 age×政治 polviews": 0.9744705577448493,
-    "年龄 age×安慰剂 ballot": 0.9610825919029947,
-    "政治 polviews×安慰剂 ballot": 1.0072475179657912
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0092254172380577,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.6491224668542395,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0176656042411705,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 0.9744705577448493,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9610825919029947,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0072475179657912
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 1.0012049767458837,
-    "信仰 REL×政治 polviews": 1.0015715445122166,
-    "信仰 REL×安慰剂 ballot": 1.0037300655391246,
-    "年龄 age×政治 polviews": 1.0008171070744647,
-    "年龄 age×安慰剂 ballot": 1.0001174814266633,
-    "政治 polviews×安慰剂 ballot": 0.998903730082389
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.0012049767458837,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 1.0015715445122166,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0037300655391246,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0008171070744647,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0001174814266633,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.998903730082389
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": 1,
-    "政治 polviews": 1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": 1,
+    "\u653f\u6cbb polviews": 1
    },
    "n": 7189,
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "cut": "四分位极端",
+   "cut": "\u56db\u5206\u4f4d\u6781\u7aef",
    "pk2": 0.16633498721892923,
    "pk3": 0.021512080760613218,
    "ind": 0.15058944190605633,
@@ -1009,25 +1009,25 @@
    "base": 0.48201675037314934,
    "cov_lift": 1.4320370421906383,
    "pair": {
-    "信仰 REL×年龄 age": 1.2531435647176052,
-    "信仰 REL×政治 polviews": 0.9993903331424763,
-    "信仰 REL×安慰剂 ballot": 1.0484023715403417,
-    "年龄 age×政治 polviews": 1.0142427990150982,
-    "年龄 age×安慰剂 ballot": 1.0310639922100027,
-    "政治 polviews×安慰剂 ballot": 1.0292390930558644
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 1.2531435647176052,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9993903331424763,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 1.0484023715403417,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0142427990150982,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 1.0310639922100027,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 1.0292390930558644
    },
    "pair_null": {
-    "信仰 REL×年龄 age": 0.9974618264681516,
-    "信仰 REL×政治 polviews": 0.9987815211041143,
-    "信仰 REL×安慰剂 ballot": 0.9992487648173545,
-    "年龄 age×政治 polviews": 1.0018848657781687,
-    "年龄 age×安慰剂 ballot": 0.9973855317593177,
-    "政治 polviews×安慰剂 ballot": 0.9991678958256114
+    "\u4fe1\u4ef0 REL\u00d7\u5e74\u9f84 age": 0.9974618264681516,
+    "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews": 0.9987815211041143,
+    "\u4fe1\u4ef0 REL\u00d7\u5b89\u6170\u5242 ballot": 0.9992487648173545,
+    "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews": 1.0018848657781687,
+    "\u5e74\u9f84 age\u00d7\u5b89\u6170\u5242 ballot": 0.9973855317593177,
+    "\u653f\u6cbb polviews\u00d7\u5b89\u6170\u5242 ballot": 0.9991678958256114
    },
    "sides": {
-    "信仰 REL": -1,
-    "年龄 age": -1,
-    "政治 polviews": -1
+    "\u4fe1\u4ef0 REL": -1,
+    "\u5e74\u9f84 age": -1,
+    "\u653f\u6cbb polviews": -1
    },
    "n": 7189,
    "nyear": 5
@@ -1038,8 +1038,8 @@
  "cov_lift_median": 1.2811165771794424,
  "null_dev": 0.0002848657857776743,
  "negative_pairs": [
-  "信仰 REL×政治 polviews",
-  "年龄 age×政治 polviews"
+  "\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews",
+  "\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews"
  ],
  "multiplicity": {
   "cells": 24,
@@ -1061,8 +1061,10 @@
  "side_counts_note": "isolated bloc side computed per cell, not asserted",
  "retracts_864": "#864's closing sentence generalised across three axes; the political bloc is isolated on the PERMISSIVE side, so 2 of 3 axes support it and 1 contradicts",
  "admissible": true,
- "verdict": "**B 它们不是同一批人 —— lift 中位 0.993,落在独立性附近。**\n  ⇒ **「拦着他」的阻力是几块互不重叠的少数拼起来的,没有哪一种诉求能同时够到他们。**\n  ⚠ 而这是我不欢迎的那一个:它让「宗教那条缝」更没有位置。\n  ⚠ **三块孤立在哪一边,由数据算出来,而它们不在同一边**:**信仰:最虔诚的那一块**(不宽容侧,12/12 格) · **年龄:最年长的那一块**(不宽容侧,10/12 格) · **政治:最自由的那一块**(宽容侧,10/12 格)\n  ⚠ **互斥的对**:['信仰 REL×政治 polviews', '年龄 age×政治 polviews'] —— **跑前就预测了政治块会与另两块反向,因为它的边不同;实测正是如此。**\n  ⇒ **一句关于人的话:在「该不该拦着他」上,那几块站得离人群最远的少数,既不是同一批人,也不站在同一边 ——\n  最虔诚的那三分之一和最年长的那三分之一站在「拦」的一侧,最自由的那三分之一站在「不拦」的一侧,\n  而这三块几乎不重叠(lift 0.993),信仰块与政治块甚至互相排斥(0.850)。\n  不放行的人里落进「不宽容侧块」的比例是基率的 1.281 倍 —— **块是真的,但它只解释了一部分人。**\n  ⇒ 也就是说:这件事上没有一个「反对派」,只有几群因为不同理由、彼此也不重合的人,各自站在自己的位置上。**",
+ "verdict": "**B \u5b83\u4eec\u4e0d\u662f\u540c\u4e00\u6279\u4eba \u2014\u2014 lift \u4e2d\u4f4d 0.993,\u843d\u5728\u72ec\u7acb\u6027\u9644\u8fd1\u3002**\n  \u21d2 **\u300c\u62e6\u7740\u4ed6\u300d\u7684\u963b\u529b\u662f\u51e0\u5757\u4e92\u4e0d\u91cd\u53e0\u7684\u5c11\u6570\u62fc\u8d77\u6765\u7684,\u6ca1\u6709\u54ea\u4e00\u79cd\u8bc9\u6c42\u80fd\u540c\u65f6\u591f\u5230\u4ed6\u4eec\u3002**\n  \u26a0 \u800c\u8fd9\u662f\u6211\u4e0d\u6b22\u8fce\u7684\u90a3\u4e00\u4e2a:\u5b83\u8ba9\u300c\u5b97\u6559\u90a3\u6761\u7f1d\u300d\u66f4\u6ca1\u6709\u4f4d\u7f6e\u3002\n  \u26a0 **\u4e09\u5757\u5b64\u7acb\u5728\u54ea\u4e00\u8fb9,\u7531\u6570\u636e\u7b97\u51fa\u6765,\u800c\u5b83\u4eec\u4e0d\u5728\u540c\u4e00\u8fb9**:**\u4fe1\u4ef0:\u6700\u8654\u8bda\u7684\u90a3\u4e00\u5757**(\u4e0d\u5bbd\u5bb9\u4fa7,12/12 \u683c) \u00b7 **\u5e74\u9f84:\u6700\u5e74\u957f\u7684\u90a3\u4e00\u5757**(\u4e0d\u5bbd\u5bb9\u4fa7,10/12 \u683c) \u00b7 **\u653f\u6cbb:\u6700\u81ea\u7531\u7684\u90a3\u4e00\u5757**(\u5bbd\u5bb9\u4fa7,10/12 \u683c)\n  \u26a0 **\u4e92\u65a5\u7684\u5bf9**:['\u4fe1\u4ef0 REL\u00d7\u653f\u6cbb polviews', '\u5e74\u9f84 age\u00d7\u653f\u6cbb polviews'] \u2014\u2014 **\u8dd1\u524d\u5c31\u9884\u6d4b\u4e86\u653f\u6cbb\u5757\u4f1a\u4e0e\u53e6\u4e24\u5757\u53cd\u5411,\u56e0\u4e3a\u5b83\u7684\u8fb9\u4e0d\u540c;\u5b9e\u6d4b\u6b63\u662f\u5982\u6b64\u3002**\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd:\u5728\u300c\u8be5\u4e0d\u8be5\u62e6\u7740\u4ed6\u300d\u4e0a,\u90a3\u51e0\u5757\u7ad9\u5f97\u79bb\u4eba\u7fa4\u6700\u8fdc\u7684\u5c11\u6570,\u65e2\u4e0d\u662f\u540c\u4e00\u6279\u4eba,\u4e5f\u4e0d\u7ad9\u5728\u540c\u4e00\u8fb9 \u2014\u2014\n  \u6700\u8654\u8bda\u7684\u90a3\u4e09\u5206\u4e4b\u4e00\u548c\u6700\u5e74\u957f\u7684\u90a3\u4e09\u5206\u4e4b\u4e00\u7ad9\u5728\u300c\u62e6\u300d\u7684\u4e00\u4fa7,\u6700\u81ea\u7531\u7684\u90a3\u4e09\u5206\u4e4b\u4e00\u7ad9\u5728\u300c\u4e0d\u62e6\u300d\u7684\u4e00\u4fa7,\n  \u800c\u8fd9\u4e09\u5757\u51e0\u4e4e\u4e0d\u91cd\u53e0(lift 0.993),\u4fe1\u4ef0\u5757\u4e0e\u653f\u6cbb\u5757\u751a\u81f3\u4e92\u76f8\u6392\u65a5(0.850)\u3002\n  \u4e0d\u653e\u884c\u7684\u4eba\u91cc\u843d\u8fdb\u300c\u4e0d\u5bbd\u5bb9\u4fa7\u5757\u300d\u7684\u6bd4\u4f8b\u662f\u57fa\u7387\u7684 1.281 \u500d \u2014\u2014 **\u5757\u662f\u771f\u7684,\u4f46\u5b83\u53ea\u89e3\u91ca\u4e86\u4e00\u90e8\u5206\u4eba\u3002**\n  \u21d2 \u4e5f\u5c31\u662f\u8bf4:\u8fd9\u4ef6\u4e8b\u4e0a\u6ca1\u6709\u4e00\u4e2a\u300c\u53cd\u5bf9\u6d3e\u300d,\u53ea\u6709\u51e0\u7fa4\u56e0\u4e3a\u4e0d\u540c\u7406\u7531\u3001\u5f7c\u6b64\u4e5f\u4e0d\u91cd\u5408\u7684\u4eba,\u5404\u81ea\u7ad9\u5728\u81ea\u5df1\u7684\u4f4d\u7f6e\u4e0a\u3002**",
  "gate_ok": false,
  "seed": 304,
- "nperm": 200
+ "nperm": 200,
+ "entry_backfilled": 865,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

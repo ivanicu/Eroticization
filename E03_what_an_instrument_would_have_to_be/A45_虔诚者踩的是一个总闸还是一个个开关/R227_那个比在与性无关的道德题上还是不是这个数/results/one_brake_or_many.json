@@ -2,7 +2,7 @@
  "rows": [
   {
    "item": "xmarsex",
-   "grp": "性",
+   "grp": "\u6027",
    "readable": false,
    "r": 0.28880091321730667,
    "lo": -1.591994592843629,
@@ -14,11 +14,11 @@
     28,
     28
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "premarsx",
-   "grp": "性",
+   "grp": "\u6027",
    "readable": false,
    "r": 0.8033745146411994,
    "lo": 0.5156841745223582,
@@ -30,11 +30,11 @@
     28,
     28
    ],
-   "why": "比值区间含 1.0"
+   "why": "\u6bd4\u503c\u533a\u95f4\u542b 1.0"
   },
   {
    "item": "teensex",
-   "grp": "性",
+   "grp": "\u6027",
    "readable": true,
    "r": 0.36384764367064376,
    "lo": 0.006423748029801204,
@@ -50,7 +50,7 @@
   },
   {
    "item": "spanking",
-   "grp": "非性",
+   "grp": "\u975e\u6027",
    "readable": true,
    "r": 0.46240311016360164,
    "lo": 0.3003199279159614,
@@ -98,6 +98,8 @@
  ],
  "dispersion": NaN,
  "gap": NaN,
- "verdict": "**UNVERIFIED:正控没过或可读题不足(可读 2/4,性 1、非性 1)。**",
- "gate_ok": false
+ "verdict": "**UNVERIFIED:\u6b63\u63a7\u6ca1\u8fc7\u6216\u53ef\u8bfb\u9898\u4e0d\u8db3(\u53ef\u8bfb 2/4,\u6027 1\u3001\u975e\u6027 1)\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 788,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

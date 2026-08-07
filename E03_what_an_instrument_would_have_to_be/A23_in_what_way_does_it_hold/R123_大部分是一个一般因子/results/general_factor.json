@@ -12,6 +12,8 @@
   -0.046228957804745376
  ],
  "general_share": 0.7350835086079085,
- "verdict": "**是一个一般因子:差 +0.0558 的 95% 区间 [-0.0164, +0.1140] 含零 ⇒ `#680` 缩成「教育让所有道德判断彼此绑紧,性不例外」**",
- "unchallenged": true
+ "verdict": "**\u662f\u4e00\u4e2a\u4e00\u822c\u56e0\u5b50:\u5dee +0.0558 \u7684 95% \u533a\u95f4 [-0.0164, +0.1140] \u542b\u96f6 \u21d2 `#680` \u7f29\u6210\u300c\u6559\u80b2\u8ba9\u6240\u6709\u9053\u5fb7\u5224\u65ad\u5f7c\u6b64\u7ed1\u7d27,\u6027\u4e0d\u4f8b\u5916\u300d**",
+ "unchallenged": true,
+ "entry_backfilled": 681,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

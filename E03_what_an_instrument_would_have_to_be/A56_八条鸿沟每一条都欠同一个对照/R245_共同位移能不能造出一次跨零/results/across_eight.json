@@ -25,7 +25,7 @@
    "item": "homosex",
    "K": 4,
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1974,
    "y1": 2024,
    "point": 0.4294378849747901,
@@ -44,7 +44,7 @@
    "item": "homosex",
    "K": 4,
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1974,
    "y1": 2024,
    "point": 0.5567356273169687,
@@ -63,7 +63,7 @@
    "item": "teensex",
    "K": 4,
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 1.3638951056855633,
@@ -82,7 +82,7 @@
    "item": "teensex",
    "K": 4,
    "link": "probit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 1.2262248574574026,
@@ -101,7 +101,7 @@
    "item": "teensex",
    "K": 4,
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 1.5564311056918123,
@@ -120,7 +120,7 @@
    "item": "teensex",
    "K": 4,
    "link": "logit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 1.3327305844518293,
@@ -139,7 +139,7 @@
    "item": "suicide2",
    "K": 2,
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1977,
    "y1": 2024,
    "point": 1.4825005640890543,
@@ -158,7 +158,7 @@
    "item": "suicide2",
    "K": 2,
    "link": "probit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "y0": 1977,
    "y1": 2024,
    "point": 1.1888714511951048,
@@ -177,7 +177,7 @@
    "item": "suicide2",
    "K": 2,
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1977,
    "y1": 2024,
    "point": 2.191721670158045,
@@ -196,7 +196,7 @@
    "item": "suicide2",
    "K": 2,
    "link": "logit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "y0": 1977,
    "y1": 2024,
    "point": 1.3424848064921386,
@@ -215,7 +215,7 @@
    "item": "spanking",
    "K": 4,
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 0.012940940626725711,
@@ -234,7 +234,7 @@
    "item": "spanking",
    "K": 4,
    "link": "probit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 0.03556800358835296,
@@ -253,7 +253,7 @@
    "item": "spanking",
    "K": 4,
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 0.00788057764090402,
@@ -272,7 +272,7 @@
    "item": "spanking",
    "K": 4,
    "link": "logit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "y0": 1986,
    "y1": 2024,
    "point": 0.029147117715492124,
@@ -291,7 +291,7 @@
    "item": "prayer",
    "K": 2,
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1974,
    "y1": 2024,
    "point": 0.4406970132075552,
@@ -310,7 +310,7 @@
    "item": "prayer",
    "K": 2,
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1974,
    "y1": 2024,
    "point": 0.5743171823763231,
@@ -329,7 +329,7 @@
    "item": "helpblk",
    "K": 5,
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1975,
    "y1": 2024,
    "point": -0.011299444840555558,
@@ -348,7 +348,7 @@
    "item": "helpblk",
    "K": 5,
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1975,
    "y1": 2024,
    "point": -0.012076120522118537,
@@ -367,48 +367,48 @@
  "dropped": [
   {
    "item": "homosex",
-   "arm": "非虔诚",
+   "arm": "\u975e\u8654\u8bda",
    "frac": 0.6346016954636641
   },
   {
    "item": "sexeduc",
-   "arm": "虔诚",
+   "arm": "\u8654\u8bda",
    "frac": 0.4199006991589829
   },
   {
    "item": "sexeduc",
-   "arm": "非虔诚",
+   "arm": "\u975e\u8654\u8bda",
    "frac": 0.31492081133648253
   },
   {
    "item": "prayer",
-   "arm": "非虔诚",
+   "arm": "\u975e\u8654\u8bda",
    "frac": 0.3385111089737425
   },
   {
    "item": "racmar",
-   "arm": "虔诚",
+   "arm": "\u8654\u8bda",
    "frac": 0.7169395398608879
   },
   {
    "item": "racmar",
-   "arm": "非虔诚",
+   "arm": "\u975e\u8654\u8bda",
    "frac": 0.7083431762053043
   },
   {
    "item": "helpblk",
-   "arm": "非虔诚",
+   "arm": "\u975e\u8654\u8bda",
    "frac": 0.303671787186212
   }
  ],
  "skipped": [
   {
    "item": "sexeduc",
-   "why": "两条定标臂都超过 30% 可达幅度 ⇒ **这个设计答不了这一题**"
+   "why": "\u4e24\u6761\u5b9a\u6807\u81c2\u90fd\u8d85\u8fc7 30% \u53ef\u8fbe\u5e45\u5ea6 \u21d2 **\u8fd9\u4e2a\u8bbe\u8ba1\u7b54\u4e0d\u4e86\u8fd9\u4e00\u9898**"
   },
   {
    "item": "racmar",
-   "why": "两条定标臂都超过 30% 可达幅度 ⇒ **这个设计答不了这一题**"
+   "why": "\u4e24\u6761\u5b9a\u6807\u81c2\u90fd\u8d85\u8fc7 30% \u53ef\u8fbe\u5e45\u5ea6 \u21d2 **\u8fd9\u4e2a\u8bbe\u8ba1\u7b54\u4e0d\u4e86\u8fd9\u4e00\u9898**"
   }
  ],
  "n_items_with_cells": 6,
@@ -419,7 +419,7 @@
    "item": "helpblk",
    "K": 5,
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1975,
    "y1": 2024,
    "point": -0.011299444840555558,
@@ -438,7 +438,7 @@
    "item": "helpblk",
    "K": 5,
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "y0": 1975,
    "y1": 2024,
    "point": -0.012076120522118537,
@@ -458,6 +458,8 @@
  "pos_control": 0.38965811456905464,
  "reference": 1.0,
  "admissible": true,
- "verdict": "**逐题网格已全报(18 格,6/8 题有可用格;剔除 7 个(题,臂),完全答不了 2 题 —— 都明写了)。**\n  **所有可用格都排除 1 的题:3/6** ⇒ **没有形成多数 ⇒ 「刻度是普遍的还是局部的」这个设计分不开,如实报网格(世界 A/C 未分离)。**\n  ⚠⚠ **跨零那一题(`helpblk`,观测 -0.344 → +0.333):共同位移复现了跨零的格 0/2** ⇒ **共同位移造不出这次换边 ⇒ 那句话站得住,而它现在有对照了。**",
- "gate_ok": true
+ "verdict": "**\u9010\u9898\u7f51\u683c\u5df2\u5168\u62a5(18 \u683c,6/8 \u9898\u6709\u53ef\u7528\u683c;\u5254\u9664 7 \u4e2a(\u9898,\u81c2),\u5b8c\u5168\u7b54\u4e0d\u4e86 2 \u9898 \u2014\u2014 \u90fd\u660e\u5199\u4e86)\u3002**\n  **\u6240\u6709\u53ef\u7528\u683c\u90fd\u6392\u9664 1 \u7684\u9898:3/6** \u21d2 **\u6ca1\u6709\u5f62\u6210\u591a\u6570 \u21d2 \u300c\u523b\u5ea6\u662f\u666e\u904d\u7684\u8fd8\u662f\u5c40\u90e8\u7684\u300d\u8fd9\u4e2a\u8bbe\u8ba1\u5206\u4e0d\u5f00,\u5982\u5b9e\u62a5\u7f51\u683c(\u4e16\u754c A/C \u672a\u5206\u79bb)\u3002**\n  \u26a0\u26a0 **\u8de8\u96f6\u90a3\u4e00\u9898(`helpblk`,\u89c2\u6d4b -0.344 \u2192 +0.333):\u5171\u540c\u4f4d\u79fb\u590d\u73b0\u4e86\u8de8\u96f6\u7684\u683c 0/2** \u21d2 **\u5171\u540c\u4f4d\u79fb\u9020\u4e0d\u51fa\u8fd9\u6b21\u6362\u8fb9 \u21d2 \u90a3\u53e5\u8bdd\u7ad9\u5f97\u4f4f,\u800c\u5b83\u73b0\u5728\u6709\u5bf9\u7167\u4e86\u3002**",
+ "gate_ok": true,
+ "entry_backfilled": 806,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

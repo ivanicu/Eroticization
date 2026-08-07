@@ -3,32 +3,32 @@
  "slope_within": 0.006716511024671557,
  "share_within": 1.1255092392005515,
  "cells": {
-  "前1929": {
+  "\u524d1929": {
    "years": 4,
    "undecidable": true
   },
-  "1929–45": {
+  "1929\u201345": {
    "years": 8,
    "n": 2521,
    "slope_r": 0.003953344690145871,
    "slope_level": 0.008048104272989588,
    "undecidable": false
   },
-  "婴儿潮46–64": {
+  "\u5a74\u513f\u6f6e46\u201364": {
    "years": 25,
    "n": 7567,
    "slope_r": 0.00758208496640747,
    "slope_level": 0.020047041222309204,
    "undecidable": false
   },
-  "X 65–80": {
+  "X 65\u201380": {
    "years": 14,
    "n": 3115,
    "slope_r": 0.00589599893779928,
    "slope_level": 0.023759014908972028,
    "undecidable": false
   },
-  "千禧81–96": {
+  "\u5343\u79a781\u201396": {
    "years": 6,
    "n": 1489,
    "slope_r": 0.008712507977546467,
@@ -49,6 +49,8 @@
   -0.0025991886668921076,
   0.0027754099992406797
  ],
- "verdict": "**W1:世代内占总斜率的 113% ⇒ 同一出生世代的美国人自己把这两件事连了起来**",
- "unchallenged": true
+ "verdict": "**W1:\u4e16\u4ee3\u5185\u5360\u603b\u659c\u7387\u7684 113% \u21d2 \u540c\u4e00\u51fa\u751f\u4e16\u4ee3\u7684\u7f8e\u56fd\u4eba\u81ea\u5df1\u628a\u8fd9\u4e24\u4ef6\u4e8b\u8fde\u4e86\u8d77\u6765**",
+ "unchallenged": true,
+ "entry_backfilled": 740,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

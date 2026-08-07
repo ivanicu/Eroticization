@@ -28,6 +28,8 @@
   ]
  },
  "exact": 0.029872529763707183,
- "note": "描述,不改 denominator_stability.py 的预注册判决(判不了)",
- "unchallenged": true
+ "note": "\u63cf\u8ff0,\u4e0d\u6539 denominator_stability.py \u7684\u9884\u6ce8\u518c\u5224\u51b3(\u5224\u4e0d\u4e86)",
+ "unchallenged": true,
+ "entry_backfilled": 719,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

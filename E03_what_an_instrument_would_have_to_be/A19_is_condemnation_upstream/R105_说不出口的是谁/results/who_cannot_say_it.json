@@ -1,7 +1,7 @@
 {
  "cells": [
   {
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "18-34",
    "gap": 0.15744886537091696,
    "n_face": 496,
@@ -11,7 +11,7 @@
    "d_educ": -1.0
   },
   {
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "35-49",
    "gap": 0.12701394471044636,
    "n_face": 403,
@@ -21,7 +21,7 @@
    "d_educ": -2.0
   },
   {
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "50-64",
    "gap": 0.1660180918245434,
    "n_face": 378,
@@ -31,7 +31,7 @@
    "d_educ": -2.0
   },
   {
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "65+",
    "gap": 0.13374199344984494,
    "n_face": 434,
@@ -41,8 +41,8 @@
    "d_educ": -2.0
   },
   {
-   "strat": "性别",
-   "level": "女",
+   "strat": "\u6027\u522b",
+   "level": "\u5973",
    "gap": 0.13942170601940396,
    "n_face": 965,
    "n_web": 1192,
@@ -51,8 +51,8 @@
    "d_educ": -2.0
   },
   {
-   "strat": "性别",
-   "level": "男",
+   "strat": "\u6027\u522b",
+   "level": "\u7537",
    "gap": 0.14313312684487411,
    "n_face": 814,
    "n_web": 1013,
@@ -61,8 +61,8 @@
    "d_educ": -2.0
   },
   {
-   "strat": "礼拜",
-   "level": "几乎不",
+   "strat": "\u793c\u62dc",
+   "level": "\u51e0\u4e4e\u4e0d",
    "gap": 0.1885902901640058,
    "n_face": 724,
    "n_web": 1016,
@@ -71,8 +71,8 @@
    "d_educ": -1.0
   },
   {
-   "strat": "礼拜",
-   "level": "偶尔",
+   "strat": "\u793c\u62dc",
+   "level": "\u5076\u5c14",
    "gap": 0.11212624584717612,
    "n_face": 387,
    "n_web": 504,
@@ -81,8 +81,8 @@
    "d_educ": -1.0
   },
   {
-   "strat": "礼拜",
-   "level": "常去",
+   "strat": "\u793c\u62dc",
+   "level": "\u5e38\u53bb",
    "gap": 0.09140148950575488,
    "n_face": 211,
    "n_web": 203,
@@ -91,8 +91,8 @@
    "d_educ": -1.0
   },
   {
-   "strat": "礼拜",
-   "level": "每周+",
+   "strat": "\u793c\u62dc",
+   "level": "\u6bcf\u5468+",
    "gap": 0.04977532935464579,
    "n_face": 441,
    "n_web": 489,
@@ -101,8 +101,8 @@
    "d_educ": -1.0
   },
   {
-   "strat": "政治",
-   "level": "自由派",
+   "strat": "\u653f\u6cbb",
+   "level": "\u81ea\u7531\u6d3e",
    "gap": 0.22735042735042738,
    "n_face": 351,
    "n_web": 520,
@@ -111,8 +111,8 @@
    "d_educ": -2.0
   },
   {
-   "strat": "政治",
-   "level": "中间",
+   "strat": "\u653f\u6cbb",
+   "level": "\u4e2d\u95f4",
    "gap": 0.1375496862222526,
    "n_face": 791,
    "n_web": 999,
@@ -121,8 +121,8 @@
    "d_educ": -1.0
   },
   {
-   "strat": "政治",
-   "level": "保守派",
+   "strat": "\u653f\u6cbb",
+   "level": "\u4fdd\u5b88\u6d3e",
    "gap": 0.05174333595770997,
    "n_face": 523,
    "n_web": 680,
@@ -132,7 +132,7 @@
   }
  ],
  "gradients": {
-  "年龄段": {
+  "\u5e74\u9f84\u6bb5": {
    "gradient": 0.039004147114097054,
    "hi": "50-64",
    "lo": "35-49",
@@ -140,32 +140,32 @@
    "worst_comp_level": "65+",
    "same": false
   },
-  "性别": {
+  "\u6027\u522b": {
    "gradient": 0.0037114208254701575,
-   "hi": "男",
-   "lo": "女",
+   "hi": "\u7537",
+   "lo": "\u5973",
    "cappun_gradient": 0.0017606406812203934,
-   "worst_comp_level": "女",
+   "worst_comp_level": "\u5973",
    "same": false
   },
-  "礼拜": {
+  "\u793c\u62dc": {
    "gradient": 0.13881496080936,
-   "hi": "几乎不",
-   "lo": "每周+",
+   "hi": "\u51e0\u4e4e\u4e0d",
+   "lo": "\u6bcf\u5468+",
    "cappun_gradient": 0.07805050640943911,
-   "worst_comp_level": "每周+",
+   "worst_comp_level": "\u6bcf\u5468+",
    "same": false
   },
-  "政治": {
+  "\u653f\u6cbb": {
    "gradient": 0.1756070913927174,
-   "hi": "自由派",
-   "lo": "保守派",
+   "hi": "\u81ea\u7531\u6d3e",
+   "lo": "\u4fdd\u5b88\u6d3e",
    "cappun_gradient": 0.1211332650363669,
-   "worst_comp_level": "自由派",
+   "worst_comp_level": "\u81ea\u7531\u6d3e",
    "same": true
   }
  },
- "best": "政治",
+ "best": "\u653f\u6cbb",
  "ci": [
   0.0967943571354224,
   0.2556295064910806
@@ -175,6 +175,8 @@
   0.18602600493131538
  ],
  "cappun_gradient": 0.1211332650363669,
- "verdict": "UNVERIFIED —— 控制未齐(正 True · 负 False)",
- "unchallenged": true
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u9f50(\u6b63 True \u00b7 \u8d1f False)",
+ "unchallenged": true,
+ "entry_backfilled": 663,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

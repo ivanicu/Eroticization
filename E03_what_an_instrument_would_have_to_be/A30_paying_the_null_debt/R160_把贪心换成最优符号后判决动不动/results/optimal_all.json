@@ -1,6 +1,6 @@
 {
  "rows": {
-  "MFQ·AUTHORITY": {
+  "MFQ\u00b7AUTHORITY": {
    "greedy_matrix": 0.16963258316486485,
    "ledger": 0.1696,
    "deletion_diff": 3.258316486484669e-05,
@@ -11,7 +11,7 @@
    "ratio_greedy": 5.68,
    "clears_q99": false
   },
-  "MFQ·FAIRNESS": {
+  "MFQ\u00b7FAIRNESS": {
    "greedy_matrix": 0.06208612825565875,
    "ledger": 0.0621,
    "deletion_diff": -1.3871744341253933e-05,
@@ -22,7 +22,7 @@
    "ratio_greedy": 2.08,
    "clears_q99": false
   },
-  "MFQ·HARM": {
+  "MFQ\u00b7HARM": {
    "greedy_matrix": 0.13903301240068994,
    "ledger": 0.139,
    "deletion_diff": 3.3012400689924615e-05,
@@ -33,7 +33,7 @@
    "ratio_greedy": 4.65,
    "clears_q99": false
   },
-  "MFQ·INGROUP": {
+  "MFQ\u00b7INGROUP": {
    "greedy_matrix": 0.14918488849531183,
    "ledger": 0.1492,
    "deletion_diff": -1.5111504688164468e-05,
@@ -44,7 +44,7 @@
    "ratio_greedy": 4.99,
    "clears_q99": false
   },
-  "MFQ·PURITY": {
+  "MFQ\u00b7PURITY": {
    "greedy_matrix": 0.3354208226109513,
    "ledger": 0.3354,
    "deletion_diff": 2.0822610951320986e-05,
@@ -55,7 +55,7 @@
    "ratio_greedy": 11.23,
    "clears_q99": true
   },
-  "GSS·性道德四题": {
+  "GSS\u00b7\u6027\u9053\u5fb7\u56db\u9898": {
    "greedy_matrix": 0.4153600418140757,
    "ledger": 0.416,
    "deletion_diff": -0.000639958185924272,
@@ -66,7 +66,7 @@
    "ratio_greedy": 7.25,
    "clears_q99": true
   },
-  "GSS·警察四题": {
+  "GSS\u00b7\u8b66\u5bdf\u56db\u9898": {
    "greedy_matrix": -0.14494244236247894,
    "ledger": -0.1493,
    "deletion_diff": 0.004357557637521048,
@@ -77,7 +77,7 @@
    "ratio_greedy": null,
    "clears_q99": false
   },
-  "NSFG·性三题": {
+  "NSFG\u00b7\u6027\u4e09\u9898": {
    "greedy_matrix": 0.345188640470984,
    "ledger": 0.3456,
    "deletion_diff": -0.0004113595290159977,
@@ -88,7 +88,7 @@
    "ratio_greedy": 1.11,
    "clears_q99": false
   },
-  "NSFG·家庭七题": {
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898": {
    "greedy_matrix": -0.22029031697813928,
    "ledger": -0.2202,
    "deletion_diff": -9.031697813927098e-05,
@@ -102,25 +102,25 @@
  },
  "max_deletion_diff": 0.004357557637521048,
  "null": {
-  "MFQ·k6": {
+  "MFQ\u00b7k6": {
    "q95": 0.059233390456626324,
    "q99": 0.20193890226981653,
    "median": -0.07171365474014939,
    "n": 593770
   },
-  "GSS·k4": {
+  "GSS\u00b7k4": {
    "q95": 0.0910716020596522,
    "q99": 0.11742407668212254,
    "median": -0.005211475594064018,
    "n": 68
   },
-  "NSFG·k3": {
+  "NSFG\u00b7k3": {
    "q95": 0.35873378925092064,
    "q99": 0.44663070976094377,
    "median": 0.09878628951561294,
    "n": 119
   },
-  "NSFG·k7": {
+  "NSFG\u00b7k7": {
    "q95": 0.09878628951561294,
    "q99": 0.10404462670848587,
    "median": -0.09608411884821541,
@@ -128,20 +128,22 @@
   }
  },
  "order_optimal": [
-  "MFQ·PURITY",
-  "MFQ·AUTHORITY",
-  "MFQ·INGROUP",
-  "MFQ·HARM",
-  "MFQ·FAIRNESS"
+  "MFQ\u00b7PURITY",
+  "MFQ\u00b7AUTHORITY",
+  "MFQ\u00b7INGROUP",
+  "MFQ\u00b7HARM",
+  "MFQ\u00b7FAIRNESS"
  ],
  "order_greedy": [
-  "MFQ·PURITY",
-  "MFQ·AUTHORITY",
-  "MFQ·INGROUP",
-  "MFQ·HARM",
-  "MFQ·FAIRNESS"
+  "MFQ\u00b7PURITY",
+  "MFQ\u00b7AUTHORITY",
+  "MFQ\u00b7INGROUP",
+  "MFQ\u00b7HARM",
+  "MFQ\u00b7FAIRNESS"
  ],
  "order_unchanged": true,
- "verdict": "**排序不变:PURITY > AUTHORITY > INGROUP > HARM > FAIRNESS** —— 纯洁仍是 MFQ 五域里比值最高的",
- "unchallenged": true
+ "verdict": "**\u6392\u5e8f\u4e0d\u53d8:PURITY > AUTHORITY > INGROUP > HARM > FAIRNESS** \u2014\u2014 \u7eaf\u6d01\u4ecd\u662f MFQ \u4e94\u57df\u91cc\u6bd4\u503c\u6700\u9ad8\u7684",
+ "unchallenged": true,
+ "entry_backfilled": 718,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

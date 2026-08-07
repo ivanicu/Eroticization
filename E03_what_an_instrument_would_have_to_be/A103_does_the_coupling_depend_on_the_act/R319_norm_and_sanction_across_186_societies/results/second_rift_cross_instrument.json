@@ -29,11 +29,11 @@
   }
  },
  "sham": {
-  "premarital_norm×extramarital_sanction": {
+  "premarital_norm\u00d7extramarital_sanction": {
    "rho": 0.024320508237567116,
    "n": 42
   },
-  "extramarital_norm×premarital_sanction": {
+  "extramarital_norm\u00d7premarital_sanction": {
    "rho": 0.618254318442288,
    "n": 33
   }
@@ -710,6 +710,8 @@
   "placebo": true
  },
  "admissible": true,
- "verdict": "**D is REFUTED by its own test, and the sham failure is behaviour-specific.**\n  A source-severity halo predicts the four norm x sanction correlations to be ALIKE. Measured, they span **0.871**: ['+0.895', '+0.167', '+0.024', '+0.618']. `premarital norm x premarital sanction` **+0.895** against `premarital norm x extramarital sanction` **+0.024** — the same two columns, one coder, one ethnography, and a gap of 0.871. **A halo cannot do that.**\n  What the sham DOES establish is narrower and it is the finding: `extramarital norm x PREMARITAL sanction` is **+0.618** while `extramarital norm x its OWN sanction` is **+0.167** ⇒ **premarital sanction sits on a general restrictiveness dimension; the punishment for adultery does not sit on it at all.**\n  ⇒ **One sentence about people: how much a society says a sexual act is wrong tells you almost exactly what it will do to an unmarried woman who does it (rho +0.895, residual 0.20) and tells you essentially nothing about what it will do to a married one (rho +0.167, residual 0.97). Condemnation and punishment are the same axis for one act and two axes for the other — so 'how many rifts' is not a property of a society, it is a property of the act.**",
- "gate_ok": false
+ "verdict": "**D is REFUTED by its own test, and the sham failure is behaviour-specific.**\n  A source-severity halo predicts the four norm x sanction correlations to be ALIKE. Measured, they span **0.871**: ['+0.895', '+0.167', '+0.024', '+0.618']. `premarital norm x premarital sanction` **+0.895** against `premarital norm x extramarital sanction` **+0.024** \u2014 the same two columns, one coder, one ethnography, and a gap of 0.871. **A halo cannot do that.**\n  What the sham DOES establish is narrower and it is the finding: `extramarital norm x PREMARITAL sanction` is **+0.618** while `extramarital norm x its OWN sanction` is **+0.167** \u21d2 **premarital sanction sits on a general restrictiveness dimension; the punishment for adultery does not sit on it at all.**\n  \u21d2 **One sentence about people: how much a society says a sexual act is wrong tells you almost exactly what it will do to an unmarried woman who does it (rho +0.895, residual 0.20) and tells you essentially nothing about what it will do to a married one (rho +0.167, residual 0.97). Condemnation and punishment are the same axis for one act and two axes for the other \u2014 so 'how many rifts' is not a property of a society, it is a property of the act.**",
+ "gate_ok": false,
+ "entry_backfilled": 880,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

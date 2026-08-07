@@ -62,6 +62,8 @@
   "partial": 0.5503556453659566,
   "mde": 0.27576661268000396
  },
- "verdict": "**W1:偏掉服从后仍有 +0.5618,是九个非性品格双变量上限 +0.3030 的 1.85 倍 ⇒ 判别那一半在更强的标准下成立**",
- "unchallenged": true
+ "verdict": "**W1:\u504f\u6389\u670d\u4ece\u540e\u4ecd\u6709 +0.5618,\u662f\u4e5d\u4e2a\u975e\u6027\u54c1\u683c\u53cc\u53d8\u91cf\u4e0a\u9650 +0.3030 \u7684 1.85 \u500d \u21d2 \u5224\u522b\u90a3\u4e00\u534a\u5728\u66f4\u5f3a\u7684\u6807\u51c6\u4e0b\u6210\u7acb**",
+ "unchallenged": true,
+ "entry_backfilled": 750,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

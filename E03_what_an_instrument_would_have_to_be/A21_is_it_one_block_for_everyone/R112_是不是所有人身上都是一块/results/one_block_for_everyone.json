@@ -2,7 +2,7 @@
  "rows": [
   {
    "inst": "GSS",
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "18-34",
    "weakest": 0.39195333916593766,
    "placebo": -0.18481454720616572,
@@ -11,7 +11,7 @@
   },
   {
    "inst": "GSS",
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "35-49",
    "weakest": 0.37288073592426296,
    "placebo": -0.23076923076923078,
@@ -20,7 +20,7 @@
   },
   {
    "inst": "GSS",
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "50-64",
    "weakest": 0.4523254909678197,
    "placebo": -0.36722043144061495,
@@ -29,7 +29,7 @@
   },
   {
    "inst": "GSS",
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "65+",
    "weakest": 0.47806401638231133,
    "placebo": -0.25634570772130577,
@@ -38,8 +38,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "性别",
-   "level": "女",
+   "strat": "\u6027\u522b",
+   "level": "\u5973",
    "weakest": 0.41608901908420004,
    "placebo": -0.2062756124555054,
    "age": 46.0,
@@ -47,8 +47,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "性别",
-   "level": "男",
+   "strat": "\u6027\u522b",
+   "level": "\u7537",
    "weakest": 0.40830742561461164,
    "placebo": -0.21165309683047395,
    "age": 46.0,
@@ -56,8 +56,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "教育",
-   "level": "<高中",
+   "strat": "\u6559\u80b2",
+   "level": "<\u9ad8\u4e2d",
    "weakest": 0.3581053682501621,
    "placebo": -0.0661778892533282,
    "age": 50.0,
@@ -65,8 +65,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "教育",
-   "level": "大学+",
+   "strat": "\u6559\u80b2",
+   "level": "\u5927\u5b66+",
    "weakest": 0.4824158438386445,
    "placebo": -0.33055336413839737,
    "age": 46.0,
@@ -74,8 +74,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "教育",
-   "level": "部分大学",
+   "strat": "\u6559\u80b2",
+   "level": "\u90e8\u5206\u5927\u5b66",
    "weakest": 0.4209426722977784,
    "placebo": -0.22461035696329815,
    "age": 43.0,
@@ -83,8 +83,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "教育",
-   "level": "高中",
+   "strat": "\u6559\u80b2",
+   "level": "\u9ad8\u4e2d",
    "weakest": 0.32047877538707403,
    "placebo": -0.17468239564428312,
    "age": 47.0,
@@ -92,8 +92,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "礼拜",
-   "level": "偶尔",
+   "strat": "\u793c\u62dc",
+   "level": "\u5076\u5c14",
    "weakest": 0.2820385554309296,
    "placebo": -0.1451990632318501,
    "age": 43.0,
@@ -101,8 +101,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "礼拜",
-   "level": "几乎不",
+   "strat": "\u793c\u62dc",
+   "level": "\u51e0\u4e4e\u4e0d",
    "weakest": 0.37642372600453766,
    "placebo": -0.22949321640073705,
    "age": 44.0,
@@ -110,8 +110,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "礼拜",
-   "level": "常去",
+   "strat": "\u793c\u62dc",
+   "level": "\u5e38\u53bb",
    "weakest": 0.427227675819225,
    "placebo": -0.24307036247334754,
    "age": 43.0,
@@ -119,8 +119,8 @@
   },
   {
    "inst": "GSS",
-   "strat": "礼拜",
-   "level": "每周+",
+   "strat": "\u793c\u62dc",
+   "level": "\u6bcf\u5468+",
    "weakest": 0.3790010836507229,
    "placebo": -0.2211981566820276,
    "age": 52.0,
@@ -128,7 +128,7 @@
   },
   {
    "inst": "NSFG",
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "15-24",
    "weakest": 0.3388303553057665,
    "placebo": null,
@@ -137,7 +137,7 @@
   },
   {
    "inst": "NSFG",
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "25-34",
    "weakest": 0.3000414949183786,
    "placebo": null,
@@ -146,7 +146,7 @@
   },
   {
    "inst": "NSFG",
-   "strat": "年龄段",
+   "strat": "\u5e74\u9f84\u6bb5",
    "level": "35-45",
    "weakest": 0.36352695827221904,
    "placebo": null,
@@ -155,8 +155,8 @@
   },
   {
    "inst": "NSFG",
-   "strat": "教育",
-   "level": "<高中",
+   "strat": "\u6559\u80b2",
+   "level": "<\u9ad8\u4e2d",
    "weakest": 0.311698462751863,
    "placebo": null,
    "age": 25.0,
@@ -164,8 +164,8 @@
   },
   {
    "inst": "NSFG",
-   "strat": "教育",
-   "level": "大学+",
+   "strat": "\u6559\u80b2",
+   "level": "\u5927\u5b66+",
    "weakest": 0.35323058899819815,
    "placebo": null,
    "age": 36.0,
@@ -173,8 +173,8 @@
   },
   {
    "inst": "NSFG",
-   "strat": "教育",
-   "level": "部分大学",
+   "strat": "\u6559\u80b2",
+   "level": "\u90e8\u5206\u5927\u5b66",
    "weakest": 0.4674041217149959,
    "placebo": null,
    "age": 32.0,
@@ -182,8 +182,8 @@
   },
   {
    "inst": "NSFG",
-   "strat": "教育",
-   "level": "高中",
+   "strat": "\u6559\u80b2",
+   "level": "\u9ad8\u4e2d",
    "weakest": 0.3426755840297557,
    "placebo": null,
    "age": 27.0,
@@ -191,28 +191,30 @@
   }
  ],
  "grad": {
-  "GSS·年龄段": {
+  "GSS\u00b7\u5e74\u9f84\u6bb5": {
    "g": 0.10518328045804837,
    "hi": "65+",
    "lo": "35-49"
   },
-  "GSS·教育": {
+  "GSS\u00b7\u6559\u80b2": {
    "g": 0.16193706845157047,
-   "hi": "大学+",
-   "lo": "高中"
+   "hi": "\u5927\u5b66+",
+   "lo": "\u9ad8\u4e2d"
   },
-  "NSFG·年龄段": {
+  "NSFG\u00b7\u5e74\u9f84\u6bb5": {
    "g": 0.06348546335384042,
    "hi": "35-45",
    "lo": "25-34"
   },
-  "NSFG·教育": {
+  "NSFG\u00b7\u6559\u80b2": {
    "g": 0.15570565896313288,
-   "hi": "部分大学",
-   "lo": "<高中"
+   "hi": "\u90e8\u5206\u5927\u5b66",
+   "lo": "<\u9ad8\u4e2d"
   }
  },
  "overall_gss": 0.42589527876417294,
  "overall_nsfg": 0.345188640470984,
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 670,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

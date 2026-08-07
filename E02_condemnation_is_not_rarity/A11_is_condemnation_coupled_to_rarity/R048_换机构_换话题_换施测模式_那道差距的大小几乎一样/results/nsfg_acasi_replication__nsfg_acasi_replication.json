@@ -121,5 +121,7 @@
   991
  ],
  "unchallenged": true,
- "excluded_codes": "samesex 5=neither / 8=refused / 9=DK"
+ "excluded_codes": "samesex 5=neither / 8=refused / 9=DK",
+ "entry_backfilled": 489,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

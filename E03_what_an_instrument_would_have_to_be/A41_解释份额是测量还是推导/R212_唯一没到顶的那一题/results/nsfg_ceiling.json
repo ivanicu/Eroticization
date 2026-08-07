@@ -90,6 +90,8 @@
   ]
  },
  "max_top": 0.012658227848101266,
- "verdict": "**UNVERIFIED —— 仪器不匹配,不是「没重现」**:出席最多层端点占比只有 1.2%,但 `sxok18` 的严端全样本仅 0.8%,**它是 agree/disagree 量表,严端对所有人都罕见**;GSS 的「总是错」则是虔诚者的众数。**端点占比在两种题上不是同一个统计量,这一臂答不了那个问题。**\n  ⇒ **`#772` 的能力边界维持为 GSS 特有,页面上已写明。**",
- "gate_ok": false
+ "verdict": "**UNVERIFIED \u2014\u2014 \u4eea\u5668\u4e0d\u5339\u914d,\u4e0d\u662f\u300c\u6ca1\u91cd\u73b0\u300d**:\u51fa\u5e2d\u6700\u591a\u5c42\u7aef\u70b9\u5360\u6bd4\u53ea\u6709 1.2%,\u4f46 `sxok18` \u7684\u4e25\u7aef\u5168\u6837\u672c\u4ec5 0.8%,**\u5b83\u662f agree/disagree \u91cf\u8868,\u4e25\u7aef\u5bf9\u6240\u6709\u4eba\u90fd\u7f55\u89c1**;GSS \u7684\u300c\u603b\u662f\u9519\u300d\u5219\u662f\u8654\u8bda\u8005\u7684\u4f17\u6570\u3002**\u7aef\u70b9\u5360\u6bd4\u5728\u4e24\u79cd\u9898\u4e0a\u4e0d\u662f\u540c\u4e00\u4e2a\u7edf\u8ba1\u91cf,\u8fd9\u4e00\u81c2\u7b54\u4e0d\u4e86\u90a3\u4e2a\u95ee\u9898\u3002**\n  \u21d2 **`#772` \u7684\u80fd\u529b\u8fb9\u754c\u7ef4\u6301\u4e3a GSS \u7279\u6709,\u9875\u9762\u4e0a\u5df2\u5199\u660e\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 773,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

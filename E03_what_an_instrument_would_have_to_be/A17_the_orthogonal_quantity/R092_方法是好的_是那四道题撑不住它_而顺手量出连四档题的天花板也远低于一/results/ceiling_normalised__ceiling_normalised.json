@@ -8,26 +8,26 @@
  ],
  "pos_worst_range": 1.096244131455399,
  "perm_null": 0.04173947129383815,
- "verdict": "UNVERIFIED —— 控制未齐。⚠ 同一问题第二次 ⇒ **换方向(`#111c`),不追第三次**",
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u9f50\u3002\u26a0 \u540c\u4e00\u95ee\u9898\u7b2c\u4e8c\u6b21 \u21d2 **\u6362\u65b9\u5411(`#111c`),\u4e0d\u8ffd\u7b2c\u4e09\u6b21**",
  "specs": {
-  "Spearman·归一": [
+  "Spearman\u00b7\u5f52\u4e00": [
    0.3553055742489317,
    0.5273164854335252,
    -0.17201091118459344
   ],
-  "Kendall·归一": [
+  "Kendall\u00b7\u5f52\u4e00": [
    0.3971778969171289,
    0.5549683148473795,
    -0.15779041793025061
   ],
-  "Spearman·不归一": [
+  "Spearman\u00b7\u4e0d\u5f52\u4e00": [
    0.0796867181053908,
    0.3579028757944329,
    null
   ]
  },
  "cells": {
-  "polabuse×polmurdr": [
+  "polabuse\u00d7polmurdr": [
    [
     1973,
     0.23924470056336436,
@@ -209,7 +209,7 @@
     0.5868960426957361
    ]
   ],
-  "polabuse×polescap": [
+  "polabuse\u00d7polescap": [
    [
     1973,
     0.07659640601271062,
@@ -391,7 +391,7 @@
     0.30450959297113145
    ]
   ],
-  "polabuse×polattak": [
+  "polabuse\u00d7polattak": [
    [
     1973,
     0.021467778386101154,
@@ -573,7 +573,7 @@
     -0.09624413145539906
    ]
   ],
-  "polmurdr×polescap": [
+  "polmurdr\u00d7polescap": [
    [
     1973,
     -0.0409124591600011,
@@ -755,7 +755,7 @@
     -0.130334445015156
    ]
   ],
-  "polmurdr×polattak": [
+  "polmurdr\u00d7polattak": [
    [
     1973,
     -0.13346937412374668,
@@ -937,7 +937,7 @@
     -0.36686390532544383
    ]
   ],
-  "polescap×polattak": [
+  "polescap\u00d7polattak": [
    [
     1973,
     0.2925840741935784,
@@ -1119,7 +1119,7 @@
     0.7692816464068395
    ]
   ],
-  "premarsx×xmarsex": [
+  "premarsx\u00d7xmarsex": [
    [
     1974,
     0.4313530251901735,
@@ -1271,7 +1271,7 @@
     0.6760060342204872
    ]
   ],
-  "premarsx×homosex": [
+  "premarsx\u00d7homosex": [
    [
     1974,
     0.3907779678163003,
@@ -1423,7 +1423,7 @@
     0.7142512321280436
    ]
   ],
-  "premarsx×teensex": [
+  "premarsx\u00d7teensex": [
    [
     1986,
     0.5039929726963597,
@@ -1557,7 +1557,7 @@
     0.6680254294630708
    ]
   ],
-  "xmarsex×homosex": [
+  "xmarsex\u00d7homosex": [
    [
     1973,
     0.44273500403639543,
@@ -1739,7 +1739,7 @@
     0.5786045563257302
    ]
   ],
-  "xmarsex×teensex": [
+  "xmarsex\u00d7teensex": [
    [
     1988,
     0.3866182146988346,
@@ -1867,7 +1867,7 @@
     0.5429685370112228
    ]
   ],
-  "homosex×teensex": [
+  "homosex\u00d7teensex": [
    [
     1988,
     0.3678560909312811,
@@ -1996,5 +1996,7 @@
    ]
   ]
  },
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 647,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

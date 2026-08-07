@@ -1,9 +1,9 @@
 {
  "grid": [
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "1970s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.15106715252472672,
    "tvd_floor": 0.10374174160317993,
    "tvd_null_med": 0.044730460672640665,
@@ -23,9 +23,9 @@
    "refuse_rate": 0.5652066320217768
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "1970s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.06782872300113679,
    "tvd_floor": 0.08015319258466458,
    "tvd_null_med": 0.037887720968942315,
@@ -45,9 +45,9 @@
    "refuse_rate": 0.5652066320217768
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "1980s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.04745152953766638,
    "tvd_floor": 0.06192047683536126,
    "tvd_null_med": 0.026034014905616663,
@@ -67,9 +67,9 @@
    "refuse_rate": 0.5145335736818387
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "1980s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.04201312910284463,
    "tvd_floor": 0.05899453956661403,
    "tvd_null_med": 0.027269939246054257,
@@ -89,9 +89,9 @@
    "refuse_rate": 0.5145335736818387
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "1990s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.022509273979862188,
    "tvd_floor": 0.06678057658836505,
    "tvd_null_med": 0.026564118772295475,
@@ -111,9 +111,9 @@
    "refuse_rate": 0.38714016680118374
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "1990s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.02421879614862071,
    "tvd_floor": 0.0717606490724318,
    "tvd_null_med": 0.02638696430506856,
@@ -133,9 +133,9 @@
    "refuse_rate": 0.38714016680118374
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "2000s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.041121069853464205,
    "tvd_floor": 0.06699837734293786,
    "tvd_null_med": 0.0324059256768274,
@@ -155,9 +155,9 @@
    "refuse_rate": 0.3256113256113256
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "2000s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.04371929074983979,
    "tvd_floor": 0.07154767639010272,
    "tvd_null_med": 0.03320255739610578,
@@ -177,9 +177,9 @@
    "refuse_rate": 0.3256113256113256
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "2010s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.18956043956043955,
    "tvd_floor": 0.09026847782523202,
    "tvd_null_med": 0.041126509887993684,
@@ -199,9 +199,9 @@
    "refuse_rate": 0.2299533305048791
   },
   {
-   "target": "同性恋 homo",
+   "target": "\u540c\u6027\u604b homo",
    "dec": "2010s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.08275751861676628,
    "tvd_floor": 0.06328994131161747,
    "tvd_null_med": 0.03190037230625167,
@@ -221,9 +221,9 @@
    "refuse_rate": 0.2299533305048791
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "1970s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.08850118283203788,
    "tvd_floor": 0.11829115065076928,
    "tvd_null_med": 0.046716709079419716,
@@ -243,9 +243,9 @@
    "refuse_rate": 0.669701383831027
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "1970s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.05864509605662286,
    "tvd_floor": 0.0758189205139392,
    "tvd_null_med": 0.03450455634776828,
@@ -265,9 +265,9 @@
    "refuse_rate": 0.669701383831027
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "1980s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.0720573158810767,
    "tvd_floor": 0.04386116743272757,
    "tvd_null_med": 0.02082146702336575,
@@ -287,9 +287,9 @@
    "refuse_rate": 0.6523740038163655
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "1980s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.08459519264144391,
    "tvd_floor": 0.04731133922202726,
    "tvd_null_med": 0.021072333519702488,
@@ -309,9 +309,9 @@
    "refuse_rate": 0.6523740038163655
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "1990s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.0819367588932806,
    "tvd_floor": 0.048434315141199745,
    "tvd_null_med": 0.024255387154653682,
@@ -331,9 +331,9 @@
    "refuse_rate": 0.6255930595092856
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "1990s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.08427249789739277,
    "tvd_floor": 0.05122395748916866,
    "tvd_null_med": 0.025030012004801924,
@@ -353,9 +353,9 @@
    "refuse_rate": 0.6255930595092856
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "2000s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.05654205607476637,
    "tvd_floor": 0.06225183187073663,
    "tvd_null_med": 0.02826953748006382,
@@ -375,9 +375,9 @@
    "refuse_rate": 0.623179022337326
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "2000s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.049949798502529466,
    "tvd_floor": 0.060479161986825666,
    "tvd_null_med": 0.02965023020833436,
@@ -397,9 +397,9 @@
    "refuse_rate": 0.623179022337326
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "2010s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.10969965848520631,
    "tvd_floor": 0.05530225956360486,
    "tvd_null_med": 0.02636767369855294,
@@ -419,9 +419,9 @@
    "refuse_rate": 0.6366891021051124
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "2010s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.06738413628869756,
    "tvd_floor": 0.05866006708466216,
    "tvd_null_med": 0.02738816981378321,
@@ -441,9 +441,9 @@
    "refuse_rate": 0.6366891021051124
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "2020s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.0874038557586655,
    "tvd_floor": 0.1376387673575837,
    "tvd_null_med": 0.06897091351470915,
@@ -463,9 +463,9 @@
    "refuse_rate": 0.7201327433628318
   },
   {
-   "target": "种族主义者 rac",
+   "target": "\u79cd\u65cf\u4e3b\u4e49\u8005 rac",
    "dec": "2020s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.09603705609881621,
    "tvd_floor": 0.1562900641025641,
    "tvd_null_med": 0.07208406112192864,
@@ -485,9 +485,9 @@
    "refuse_rate": 0.7201327433628318
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "1970s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.21758371056460074,
    "tvd_floor": 0.056068975207496846,
    "tvd_null_med": 0.025360292484221756,
@@ -507,9 +507,9 @@
    "refuse_rate": 0.8612975391498882
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "1970s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.2622640587991112,
    "tvd_floor": 0.04390688964315308,
    "tvd_null_med": 0.020803032223252884,
@@ -529,9 +529,9 @@
    "refuse_rate": 0.8612975391498882
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "1980s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.15431280300199143,
    "tvd_floor": 0.029218672120350023,
    "tvd_null_med": 0.012409571774156056,
@@ -551,9 +551,9 @@
    "refuse_rate": 0.8788780767029193
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "1980s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.2112278938715022,
    "tvd_floor": 0.028730491025230342,
    "tvd_null_med": 0.014093873076056907,
@@ -573,9 +573,9 @@
    "refuse_rate": 0.8788780767029193
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "1990s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.11266331396796724,
    "tvd_floor": 0.025805895628979173,
    "tvd_null_med": 0.012063790867202998,
@@ -595,9 +595,9 @@
    "refuse_rate": 0.8829376035339591
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "1990s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.1307162097112834,
    "tvd_floor": 0.02535967319610277,
    "tvd_null_med": 0.012112884164147821,
@@ -617,9 +617,9 @@
    "refuse_rate": 0.8829376035339591
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "2000s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.06886238090680954,
    "tvd_floor": 0.02412347686580658,
    "tvd_null_med": 0.011273101072508371,
@@ -639,9 +639,9 @@
    "refuse_rate": 0.9017769002961501
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "2000s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.06988890362378666,
    "tvd_floor": 0.024788380069204967,
    "tvd_null_med": 0.012606723240270169,
@@ -661,9 +661,9 @@
    "refuse_rate": 0.9017769002961501
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "2010s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.048568020877033435,
    "tvd_floor": 0.023467845020618536,
    "tvd_null_med": 0.008911903509508644,
@@ -683,9 +683,9 @@
    "refuse_rate": 0.9175288205734555
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "2010s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.08635620097602448,
    "tvd_floor": 0.02305233604078724,
    "tvd_null_med": 0.00949599642697682,
@@ -705,9 +705,9 @@
    "refuse_rate": 0.9175288205734555
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "2020s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.02089237262586679,
    "tvd_floor": 0.06783024767144723,
    "tvd_null_med": 0.03569081815443638,
@@ -727,9 +727,9 @@
    "refuse_rate": 0.9215456674473068
   },
   {
-   "target": "共产主义者 com",
+   "target": "\u5171\u4ea7\u4e3b\u4e49\u8005 com",
    "dec": "2020s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.0976571299842307,
    "tvd_floor": 0.07512743501730908,
    "tvd_null_med": 0.035059146207555986,
@@ -749,9 +749,9 @@
    "refuse_rate": 0.9215456674473068
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "1970s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.05958018471872374,
    "tvd_floor": 0.09905634585637237,
    "tvd_null_med": 0.048565950286964754,
@@ -771,9 +771,9 @@
    "refuse_rate": 0.6875679594055817
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "1970s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.10787878787878782,
    "tvd_floor": 0.0862835077023767,
    "tvd_null_med": 0.03545408415528252,
@@ -793,9 +793,9 @@
    "refuse_rate": 0.6875679594055817
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "1980s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.055507467540589946,
    "tvd_floor": 0.046793614584371174,
    "tvd_null_med": 0.02312622813739351,
@@ -815,9 +815,9 @@
    "refuse_rate": 0.6590273896031302
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "1980s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.04631113086667886,
    "tvd_floor": 0.056953007947453706,
    "tvd_null_med": 0.024417387359057536,
@@ -837,9 +837,9 @@
    "refuse_rate": 0.6590273896031302
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "1990s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.0688124933752606,
    "tvd_floor": 0.05442982854690945,
    "tvd_null_med": 0.02616592180983642,
@@ -859,9 +859,9 @@
    "refuse_rate": 0.5736465505602808
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "1990s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.04971720488961873,
    "tvd_floor": 0.06653784630252776,
    "tvd_null_med": 0.02774573134409539,
@@ -881,9 +881,9 @@
    "refuse_rate": 0.5736465505602808
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "2000s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.058334680777714365,
    "tvd_floor": 0.06042801784218061,
    "tvd_null_med": 0.02948397437386805,
@@ -903,9 +903,9 @@
    "refuse_rate": 0.5489499192245557
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "2000s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.05288255923359852,
    "tvd_floor": 0.06560795167649852,
    "tvd_null_med": 0.031754257112788564,
@@ -925,9 +925,9 @@
    "refuse_rate": 0.5489499192245557
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "2010s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.1080381444929374,
    "tvd_floor": 0.05319256465105424,
    "tvd_null_med": 0.028431530251980343,
@@ -947,9 +947,9 @@
    "refuse_rate": 0.48452278589853826
   },
   {
-   "target": "军管主义者 mil",
+   "target": "\u519b\u7ba1\u4e3b\u4e49\u8005 mil",
    "dec": "2010s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.0742459619690025,
    "tvd_floor": 0.05569939373712364,
    "tvd_null_med": 0.028318015226442173,
@@ -969,9 +969,9 @@
    "refuse_rate": 0.48452278589853826
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "1970s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.061551785927607176,
    "tvd_floor": 0.075527673101155,
    "tvd_null_med": 0.03458412115983392,
@@ -991,9 +991,9 @@
    "refuse_rate": 0.6471438900939985
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "1970s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.026029446419606334,
    "tvd_floor": 0.0675745156082981,
    "tvd_null_med": 0.027811857630427945,
@@ -1013,9 +1013,9 @@
    "refuse_rate": 0.6471438900939985
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "1980s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.0642438419644954,
    "tvd_floor": 0.04727702017764254,
    "tvd_null_med": 0.021667780105307587,
@@ -1035,9 +1035,9 @@
    "refuse_rate": 0.6066266399822103
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "1980s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.05333033497954492,
    "tvd_floor": 0.04472562668250366,
    "tvd_null_med": 0.020824614160457066,
@@ -1057,9 +1057,9 @@
    "refuse_rate": 0.6066266399822103
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "1990s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.013239310704078612,
    "tvd_floor": 0.05213567936755607,
    "tvd_null_med": 0.024423262474229986,
@@ -1079,9 +1079,9 @@
    "refuse_rate": 0.5295476158130689
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "1990s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.0035767489726742235,
    "tvd_floor": 0.05001662089098807,
    "tvd_null_med": 0.023777084801974574,
@@ -1101,9 +1101,9 @@
    "refuse_rate": 0.5295476158130689
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "2000s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.024856868532413492,
    "tvd_floor": 0.05864273121276684,
    "tvd_null_med": 0.027383014757797967,
@@ -1123,9 +1123,9 @@
    "refuse_rate": 0.4875
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "2000s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.03484771294714656,
    "tvd_floor": 0.06327181418651427,
    "tvd_null_med": 0.028151186287884655,
@@ -1145,9 +1145,9 @@
    "refuse_rate": 0.4875
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "2010s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.10254071445155727,
    "tvd_floor": 0.058971788912317455,
    "tvd_null_med": 0.02375136501566863,
@@ -1167,9 +1167,9 @@
    "refuse_rate": 0.44628808468030323
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "2010s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.07409035125543137,
    "tvd_floor": 0.051283343008434464,
    "tvd_null_med": 0.025956272773705935,
@@ -1189,9 +1189,9 @@
    "refuse_rate": 0.44628808468030323
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "2020s",
-   "bspec": "B≥1",
+   "bspec": "B\u22651",
    "tvd": 0.08153846153846156,
    "tvd_floor": 0.1386886275258353,
    "tvd_null_med": 0.06836997243326065,
@@ -1211,9 +1211,9 @@
    "refuse_rate": 0.4844789356984479
   },
   {
-   "target": "无神论者 ath",
+   "target": "\u65e0\u795e\u8bba\u8005 ath",
    "dec": "2020s",
-   "bspec": "B≥2",
+   "bspec": "B\u22652",
    "tvd": 0.029999999999999985,
    "tvd_floor": 0.14392716148326243,
    "tvd_null_med": 0.06838351915239049,
@@ -1234,31 +1234,31 @@
   }
  ],
  "by_target": {
-  "同性恋 homo": {
+  "\u540c\u6027\u604b homo": {
    "n_cells": 5,
    "n_over": 2,
    "tvd_med": 0.04745152953766638,
    "floor_med": 0.06699837734293786
   },
-  "种族主义者 rac": {
+  "\u79cd\u65cf\u4e3b\u4e49\u8005 rac": {
    "n_cells": 6,
    "n_over": 3,
    "tvd_med": 0.08467030732597305,
    "floor_med": 0.05877704571717074
   },
-  "共产主义者 com": {
+  "\u5171\u4ea7\u4e3b\u4e49\u8005 com": {
    "n_cells": 6,
    "n_over": 5,
    "tvd_med": 0.09076284743738838,
    "floor_med": 0.027512283874664596
   },
-  "军管主义者 mil": {
+  "\u519b\u7ba1\u4e3b\u4e49\u8005 mil": {
    "n_cells": 5,
    "n_over": 3,
    "tvd_med": 0.05958018471872374,
    "floor_med": 0.05442982854690945
   },
-  "无神论者 ath": {
+  "\u65e0\u795e\u8bba\u8005 ath": {
    "n_cells": 6,
    "n_over": 2,
    "tvd_med": 0.06289781394605129,
@@ -1344,8 +1344,10 @@
  "derivation": "Rasch conditional-likelihood: given the total score, WHICH item is refused is independent of theta; verified numerically across 3.5 logits",
  "bloc_def_differs_from_865": "#865 asked which third is ISOLATED (politics = liberals); this round asks which third is RESTRICTIVE (politics = conservatives). Same axis, different third, different question.",
  "admissible": false,
- "verdict": "**UNVERIFIED:控制行没有全过 ⇒ 判据没资格下判。**",
+ "verdict": "**UNVERIFIED:\u63a7\u5236\u884c\u6ca1\u6709\u5168\u8fc7 \u21d2 \u5224\u636e\u6ca1\u8d44\u683c\u4e0b\u5224\u3002**",
  "gate_ok": false,
  "seed": 305,
- "nperm": 200
+ "nperm": 200,
+ "entry_backfilled": 866,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -1,42 +1,42 @@
 {
  "table": {
-  "#686 人内压缩(GSS 原始)": {
+  "#686 \u4eba\u5185\u538b\u7f29(GSS \u539f\u59cb)": {
    "effect": 0.168,
    "null": 0.0091,
    "ratio": 18.461538461538463,
    "replication": false
   },
-  "#690 三具之一(RWAS 复制)": {
+  "#690 \u4e09\u5177\u4e4b\u4e00(RWAS \u590d\u5236)": {
    "effect": 0.1069,
    "null": 0.0183,
    "ratio": 5.841530054644808,
    "replication": true
   },
-  "#678 结构不动(GSS)": {
+  "#678 \u7ed3\u6784\u4e0d\u52a8(GSS)": {
    "effect": 0.2189,
    "null": 0.072,
    "ratio": 3.0402777777777783,
    "replication": false
   },
-  "#699 施加轴(SCCS)": {
+  "#699 \u65bd\u52a0\u8f74(SCCS)": {
    "effect": 0.3243,
    "null": 0.1231,
    "ratio": 2.6344435418359056,
    "replication": false
   },
-  "#698 跨手段(SCCS)": {
+  "#698 \u8de8\u624b\u6bb5(SCCS)": {
    "effect": 0.3241,
    "null": 0.1684,
    "ratio": 1.92458432304038,
    "replication": false
   },
-  "#689 二具之一(MFQ 复制)": {
+  "#689 \u4e8c\u5177\u4e4b\u4e00(MFQ \u590d\u5236)": {
    "effect": 0.0542,
    "null": 0.0328,
    "ratio": 1.6524390243902438,
    "replication": true
   },
-  "#700 轴×谴责(SCCS)": {
+  "#700 \u8f74\u00d7\u8c34\u8d23(SCCS)": {
    "effect": 0.3631,
    "null": 0.2381,
    "ratio": 1.5249895002099956,
@@ -46,6 +46,8 @@
  "null_levels": 21,
  "n_combinations": 21,
  "p_floor": 0.047619047619047616,
- "verdict": "UNVERIFIED — 预注册估计量不合用(G1)",
- "unchallenged": true
+ "verdict": "UNVERIFIED \u2014 \u9884\u6ce8\u518c\u4f30\u8ba1\u91cf\u4e0d\u5408\u7528(G1)",
+ "unchallenged": true,
+ "entry_backfilled": 705,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

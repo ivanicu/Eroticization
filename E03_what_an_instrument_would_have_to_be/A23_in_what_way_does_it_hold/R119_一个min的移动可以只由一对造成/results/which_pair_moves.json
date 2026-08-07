@@ -1,20 +1,22 @@
 {
  "pairs": {
-  "premarsx×xmarsex": 0.042252518079849866,
-  "premarsx×homosex": 0.025414944207441503,
-  "premarsx×teensex": 0.02840312382328647,
-  "xmarsex×homosex": 0.22263394217974136,
-  "xmarsex×teensex": 0.10126790492448007,
-  "homosex×teensex": 0.20332527265403327,
-  "fefam×fepol": 0.0004699203063741053,
-  "fefam×fepresch": 0.08149092033284194,
-  "fepol×fepresch": 0.004043485835780514
+  "premarsx\u00d7xmarsex": 0.042252518079849866,
+  "premarsx\u00d7homosex": 0.025414944207441503,
+  "premarsx\u00d7teensex": 0.02840312382328647,
+  "xmarsex\u00d7homosex": 0.22263394217974136,
+  "xmarsex\u00d7teensex": 0.10126790492448007,
+  "homosex\u00d7teensex": 0.20332527265403327,
+  "fefam\u00d7fepol": 0.0004699203063741053,
+  "fefam\u00d7fepresch": 0.08149092033284194,
+  "fepol\u00d7fepresch": 0.004043485835780514
  },
  "with_homosex": 0.20332527265403327,
  "without": 0.042252518079849866,
  "placebo": 0.004043485835780514,
  "null_q95": 0.03127016631433812,
  "p": 0.016666666666666666,
- "verdict": "**「四个判断绑在一起」站得住:不含 homosex 三对中位 +0.0423 超零且大于安慰剂 +0.0040**",
- "unchallenged": true
+ "verdict": "**\u300c\u56db\u4e2a\u5224\u65ad\u7ed1\u5728\u4e00\u8d77\u300d\u7ad9\u5f97\u4f4f:\u4e0d\u542b homosex \u4e09\u5bf9\u4e2d\u4f4d +0.0423 \u8d85\u96f6\u4e14\u5927\u4e8e\u5b89\u6170\u5242 +0.0040**",
+ "unchallenged": true,
+ "entry_backfilled": 677,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -1,10 +1,10 @@
 {
  "grid": [
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.11014409864514729,
    "omega2": 0.10902293657276564,
    "eta2_net": 0.10927621441873861,
@@ -22,10 +22,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.04100749794878227,
    "omega2": 0.04022047947073857,
    "eta2_net": 0.04041571545913551,
@@ -43,10 +43,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.06025558733363919,
    "omega2": 0.05948644244528325,
    "eta2_net": 0.059696540137976754,
@@ -64,10 +64,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.09085768724268517,
    "omega2": 0.08976592868522835,
    "eta2_net": 0.09005849191932076,
@@ -85,10 +85,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.020534728430759885,
    "omega2": 0.019802315597263614,
    "eta2_net": 0.019982321036373183,
@@ -106,10 +106,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.000682812234604137,
    "omega2": -5.423361057352291e-05,
    "eta2_net": 0.00014725225956706885,
@@ -127,10 +127,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0006563267255976607,
    "omega2": -7.644591322756923e-05,
    "eta2_net": 7.481741311526956e-05,
@@ -148,10 +148,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.07123367310874948,
    "omega2": 0.06982287862188459,
    "eta2_net": 0.06996201852847633,
@@ -169,10 +169,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.0403842024120896,
    "omega2": 0.03894306530878458,
    "eta2_net": 0.039124939628209496,
@@ -190,10 +190,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.06025558733363919,
    "omega2": 0.05948644244528325,
    "eta2_net": 0.059592713342695794,
@@ -211,10 +211,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.06291764208523329,
    "omega2": 0.0614951550352081,
    "eta2_net": 0.06160109412638599,
@@ -232,10 +232,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.020534728430759885,
    "omega2": 0.019802315597263614,
    "eta2_net": 0.019940939157212022,
@@ -253,10 +253,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0006563267255976607,
    "omega2": -7.644591322756923e-05,
    "eta2_net": 0.00012728156534007773,
@@ -274,10 +274,10 @@
    "nyear": 3
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.11495705914517626,
    "omega2": 0.11371648344857761,
    "eta2_net": 0.11380249773590186,
@@ -295,10 +295,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.07231497435819756,
    "omega2": 0.07112609773409233,
    "eta2_net": 0.07120188517632922,
@@ -316,10 +316,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.04987215440381681,
    "omega2": 0.04870144912774114,
    "eta2_net": 0.04887454765405743,
@@ -337,10 +337,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.043813686332233835,
    "omega2": 0.0425729183625004,
    "eta2_net": 0.042659006169124554,
@@ -358,10 +358,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.019742783461270473,
    "omega2": 0.018922530589378032,
    "eta2_net": 0.01900217119425987,
@@ -379,10 +379,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.007389172715601191,
    "omega2": 0.006545059637150448,
    "eta2_net": 0.006688497850304452,
@@ -400,10 +400,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0009284544191518479,
    "omega2": 0.00010788334962777238,
    "eta2_net": 0.00016648518545925935,
@@ -421,10 +421,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0006323717092658033,
    "omega2": -0.0005453187283442353,
    "eta2_net": -0.0004137880348053071,
@@ -442,10 +442,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.0803939924845842,
    "omega2": 0.0788196994498519,
    "eta2_net": 0.07889358360878704,
@@ -463,10 +463,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.0632332134487726,
    "omega2": 0.06174764125377952,
    "eta2_net": 0.06181419258866369,
@@ -484,10 +484,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.041870288776348255,
    "omega2": 0.04052511730362203,
    "eta2_net": 0.04055349547600251,
@@ -505,10 +505,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.031170600287621423,
    "omega2": 0.029547742364457917,
    "eta2_net": 0.029615793209110498,
@@ -526,10 +526,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.019742783461270473,
    "omega2": 0.018922530589378032,
    "eta2_net": 0.01892834080314394,
@@ -547,10 +547,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.011138289953049682,
    "omega2": 0.009806571670791967,
    "eta2_net": 0.010000311488718562,
@@ -568,10 +568,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0009284544191518479,
    "omega2": 0.00010788334962777238,
    "eta2_net": 0.00023408478977901906,
@@ -589,10 +589,10 @@
    "nyear": 7
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0006323717092658033,
    "omega2": -0.0005453187283442353,
    "eta2_net": -0.00014747907415510117,
@@ -610,10 +610,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.14029175796852733,
    "omega2": 0.13895541951458976,
    "eta2_net": 0.13913161541153843,
@@ -631,10 +631,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.07478231423197612,
    "omega2": 0.07329995202098051,
    "eta2_net": 0.07345505018228042,
@@ -652,10 +652,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.11953549956641002,
    "omega2": 0.11820427145437466,
    "eta2_net": 0.11835088886810949,
@@ -673,10 +673,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.05085589302961277,
    "omega2": 0.049511031224687495,
    "eta2_net": 0.049800578695080006,
@@ -694,10 +694,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.025088629770206764,
    "omega2": 0.02419457638666622,
    "eta2_net": 0.024282051959114488,
@@ -715,10 +715,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.00641975790041024,
    "omega2": 0.0054833359575628985,
    "eta2_net": 0.005643728870246822,
@@ -736,10 +736,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0021580746702776323,
    "omega2": 0.0012634675269841801,
    "eta2_net": 0.001435049442033079,
@@ -757,10 +757,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0005806213893140358,
    "omega2": -0.00031399325518783184,
    "eta2_net": -0.00025496744116832153,
@@ -778,10 +778,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.09375125121202967,
    "omega2": 0.09204704416399821,
    "eta2_net": 0.09214742067282233,
@@ -799,10 +799,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.0612114976711621,
    "omega2": 0.059479158486706006,
    "eta2_net": 0.05957376858997691,
@@ -820,10 +820,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.08445108483791874,
    "omega2": 0.08286424572248315,
    "eta2_net": 0.08288875064372302,
@@ -841,10 +841,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.036221870151336065,
    "omega2": 0.0344609271794274,
    "eta2_net": 0.03450118986545419,
@@ -862,10 +862,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.025088629770206764,
    "omega2": 0.02419457638666622,
    "eta2_net": 0.024255633137635322,
@@ -883,10 +883,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.008347275855532134,
    "omega2": 0.0068855961326789415,
    "eta2_net": 0.007057670317436148,
@@ -904,10 +904,10 @@
    "nyear": 4
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0021580746702776323,
    "omega2": 0.0012634675269841801,
    "eta2_net": 0.001398948133755306,
@@ -925,10 +925,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0005806213893140358,
    "omega2": -0.00031399325518783184,
    "eta2_net": -0.00019379527461696098,
@@ -946,10 +946,10 @@
    "nyear": 6
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.20481608017210987,
    "omega2": 0.20351497527404985,
    "eta2_net": 0.2036259760455882,
@@ -967,10 +967,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.06559690143533524,
    "omega2": 0.06397497328616338,
    "eta2_net": 0.06421266743117832,
@@ -988,10 +988,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.1471169359537453,
    "omega2": 0.14563033835236347,
    "eta2_net": 0.1457738206457072,
@@ -1009,10 +1009,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.04419863289977537,
    "omega2": 0.042863574021795574,
    "eta2_net": 0.04307972369745632,
@@ -1030,10 +1030,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.037719459813991905,
    "omega2": 0.036824365231356196,
    "eta2_net": 0.036958782873132694,
@@ -1051,10 +1051,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.02136239624849143,
    "omega2": 0.020398854890449816,
    "eta2_net": 0.020490184844134916,
@@ -1072,10 +1072,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0031602084376846215,
    "omega2": 0.002263776744289572,
    "eta2_net": 0.002376864931698776,
@@ -1093,10 +1093,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.000197766711625153,
    "omega2": -0.0006986746830530671,
    "eta2_net": -0.0005493017741924375,
@@ -1114,10 +1114,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.13618422494106946,
    "omega2": 0.13453243990199082,
    "eta2_net": 0.1345623197492753,
@@ -1135,10 +1135,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.04843412917634594,
    "omega2": 0.04668335107353785,
    "eta2_net": 0.04673180344091448,
@@ -1156,10 +1156,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.09034279216893035,
    "omega2": 0.08858589129494891,
    "eta2_net": 0.08870752519445553,
@@ -1177,10 +1177,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.0300609225610233,
    "omega2": 0.028289460333535403,
    "eta2_net": 0.028381242162851452,
@@ -1198,10 +1198,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.037719459813991905,
    "omega2": 0.036824365231356196,
    "eta2_net": 0.03694069980355304,
@@ -1219,10 +1219,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0199643298140682,
    "omega2": 0.01818842254937673,
    "eta2_net": 0.01820868361428799,
@@ -1240,10 +1240,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0031602084376846215,
    "omega2": 0.002263776744289572,
    "eta2_net": 0.002331656510347077,
@@ -1261,10 +1261,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.000197766711625153,
    "omega2": -0.0006986746830530671,
    "eta2_net": -0.000496009435067627,
@@ -1282,10 +1282,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.28134669675613233,
    "omega2": 0.28031376375028144,
    "eta2_net": 0.28025422186059756,
@@ -1303,10 +1303,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.09638792999109687,
    "omega2": 0.0949455208888846,
    "eta2_net": 0.0951566481695703,
@@ -1324,10 +1324,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.1251561870797091,
    "omega2": 0.12404746228271142,
    "eta2_net": 0.12420939744767634,
@@ -1345,10 +1345,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.06377503796958815,
    "omega2": 0.06266090554772871,
    "eta2_net": 0.0627782591988198,
@@ -1366,10 +1366,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.042183171067035036,
    "omega2": 0.04145143033788635,
    "eta2_net": 0.041555794512971846,
@@ -1387,10 +1387,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.02771538114968412,
    "omega2": 0.02690947181944838,
    "eta2_net": 0.027036172054676674,
@@ -1408,10 +1408,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.005054994427448696,
    "omega2": 0.004321951625156128,
    "eta2_net": 0.00435661362440842,
@@ -1429,10 +1429,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0004353881297228591,
    "omega2": -0.00029767508344266306,
    "eta2_net": -0.000184517644249459,
@@ -1450,10 +1450,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.1977945750929725,
    "omega2": 0.1964993907194303,
    "eta2_net": 0.1964788618570897,
@@ -1471,10 +1471,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.05745769853773704,
    "omega2": 0.05603434555791439,
    "eta2_net": 0.056062856633599466,
@@ -1492,10 +1492,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.08404464302218695,
    "omega2": 0.08273337414323598,
    "eta2_net": 0.08276080136966743,
@@ -1513,10 +1513,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.04254899528854218,
    "omega2": 0.04111071144946916,
    "eta2_net": 0.04114436818445587,
@@ -1534,10 +1534,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.042183171067035036,
    "omega2": 0.04145143033788635,
    "eta2_net": 0.04145277097518186,
@@ -1555,10 +1555,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.025693771122709298,
    "omega2": 0.024245863431820315,
    "eta2_net": 0.024301592003970675,
@@ -1576,10 +1576,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.005054994427448696,
    "omega2": 0.004321951625156128,
    "eta2_net": 0.004417990886345616,
@@ -1597,10 +1597,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0004353881297228591,
    "omega2": -0.00029767508344266306,
    "eta2_net": -0.00017264569609306348,
@@ -1618,10 +1618,10 @@
    "nyear": 5
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.2823439768396149,
    "omega2": 0.28079261275690187,
    "eta2_net": 0.28124133132837614,
@@ -1639,10 +1639,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.06813663116124774,
    "omega2": 0.0658751514612251,
    "eta2_net": 0.06656522992883164,
@@ -1660,10 +1660,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.11904405466127468,
    "omega2": 0.11748892068600111,
    "eta2_net": 0.11795103000056992,
@@ -1681,10 +1681,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.08435721758122171,
    "omega2": 0.08269477063929348,
    "eta2_net": 0.08297988865915307,
@@ -1702,10 +1702,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.025279169195543346,
    "omega2": 0.02417904353698187,
    "eta2_net": 0.024422850996019724,
@@ -1723,10 +1723,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.020082592427455984,
    "omega2": 0.018809021892697217,
    "eta2_net": 0.01931487565565927,
@@ -1744,10 +1744,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.007515425940215887,
    "omega2": 0.0064143503282903,
    "eta2_net": 0.006763139506165118,
@@ -1765,10 +1765,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0015858859195346012,
    "omega2": 0.00048474250943989525,
    "eta2_net": 0.0007983340570536311,
@@ -1786,10 +1786,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.19722505777539884,
    "omega2": 0.19527618416049358,
    "eta2_net": 0.19549167244281965,
@@ -1807,10 +1807,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.038237319441625055,
    "omega2": 0.036075629158413815,
    "eta2_net": 0.036449823157614886,
@@ -1828,10 +1828,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.09540443092888154,
    "omega2": 0.09369494977887187,
    "eta2_net": 0.09406926048133522,
@@ -1849,10 +1849,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.05709656108257681,
    "omega2": 0.05488638908029157,
    "eta2_net": 0.05506997045478703,
@@ -1870,10 +1870,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.025279169195543346,
    "omega2": 0.02417904353698187,
    "eta2_net": 0.024549864218120502,
@@ -1891,10 +1891,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.020188746193303582,
    "omega2": 0.017958267919659376,
    "eta2_net": 0.01819213492882532,
@@ -1912,10 +1912,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.007515425940215887,
    "omega2": 0.0064143503282903,
    "eta2_net": 0.006672584077824512,
@@ -1933,10 +1933,10 @@
    "nyear": 2
   },
   {
-   "item": "道德 `homosex`",
+   "item": "\u9053\u5fb7 `homosex`",
    "dec": "2020s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0015858859195346012,
    "omega2": 0.00048474250943989525,
    "eta2_net": 0.0007975561955660129,
@@ -1954,10 +1954,10 @@
    "nyear": 2
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.06418636054705466,
    "omega2": 0.06310001598637315,
    "eta2_net": 0.06346188790177625,
@@ -1975,10 +1975,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.10939770659685978,
    "omega2": 0.10863610995946167,
    "eta2_net": 0.10875958412180245,
@@ -1996,10 +1996,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.015244116460271996,
    "omega2": 0.014491183467595155,
    "eta2_net": 0.014736715029839977,
@@ -2017,10 +2017,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.08857737085656603,
    "omega2": 0.08751285985825637,
    "eta2_net": 0.08761972808267056,
@@ -2038,10 +2038,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.031498292905858156,
    "omega2": 0.030782238180104213,
    "eta2_net": 0.03096153297481294,
@@ -2059,10 +2059,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0014576005132548367,
    "omega2": 0.0007370497189501003,
    "eta2_net": 0.0008837922854007592,
@@ -2080,10 +2080,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.000672154073140135,
    "omega2": -4.4636777144958836e-05,
    "eta2_net": 5.789991122623014e-05,
@@ -2101,10 +2101,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.04496400424402089,
    "omega2": 0.04356303603949233,
    "eta2_net": 0.04363355970970219,
@@ -2122,10 +2122,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.10446134274178516,
    "omega2": 0.1031049988351845,
    "eta2_net": 0.10319447975249642,
@@ -2143,10 +2143,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.015244116460271996,
    "omega2": 0.014491183467595155,
    "eta2_net": 0.014633713322503364,
@@ -2164,10 +2164,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.06372107761483224,
    "omega2": 0.06233078478694009,
    "eta2_net": 0.06235795707721231,
@@ -2185,10 +2185,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.031498292905858156,
    "omega2": 0.030782238180104213,
    "eta2_net": 0.030896578624839913,
@@ -2206,10 +2206,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.000672154073140135,
    "omega2": -4.4636777144958836e-05,
    "eta2_net": 4.7675344276156364e-05,
@@ -2227,10 +2227,10 @@
    "nyear": 3
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.06502684012833827,
    "omega2": 0.06379092689953633,
    "eta2_net": 0.06391870499008892,
@@ -2248,10 +2248,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.15456941607559285,
    "omega2": 0.15331368074608226,
    "eta2_net": 0.15340634767525038,
@@ -2269,10 +2269,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.01158297977386011,
    "omega2": 0.01042004482170474,
    "eta2_net": 0.010494016633501179,
@@ -2290,10 +2290,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.04666990695924548,
    "omega2": 0.045434932181029786,
    "eta2_net": 0.04550101957941138,
@@ -2311,10 +2311,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.025723261071088434,
    "omega2": 0.02490802575439974,
    "eta2_net": 0.024936415813605096,
@@ -2332,10 +2332,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.002053028515660507,
    "omega2": 0.0012143144043988742,
    "eta2_net": 0.0013360088515656618,
@@ -2353,10 +2353,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.00033820776497556833,
    "omega2": -0.0004776839277746919,
    "eta2_net": -0.00038656351992355606,
@@ -2374,10 +2374,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0010777814703615168,
    "omega2": -8.743268174689398e-05,
    "eta2_net": 0.0002682758565718242,
@@ -2395,10 +2395,10 @@
    "nyear": 2
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.0438557144993623,
    "omega2": 0.04225816615313898,
    "eta2_net": 0.04232778745779666,
@@ -2416,10 +2416,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.09968672679966448,
    "omega2": 0.09814025669410271,
    "eta2_net": 0.09808488867711562,
@@ -2437,10 +2437,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.008361000346696582,
    "omega2": 0.007007895339556138,
    "eta2_net": 0.007075895909933111,
@@ -2458,10 +2458,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.04639183513529916,
    "omega2": 0.044794164042003114,
    "eta2_net": 0.044897705101983466,
@@ -2479,10 +2479,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.025723261071088434,
    "omega2": 0.02490802575439974,
    "eta2_net": 0.024947408213194616,
@@ -2500,10 +2500,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.009639709620914351,
    "omega2": 0.008311106994895739,
    "eta2_net": 0.008476932597517,
@@ -2521,10 +2521,10 @@
    "nyear": 2
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.00033820776497556833,
    "omega2": -0.0004776839277746919,
    "eta2_net": -0.0003746837266343806,
@@ -2542,10 +2542,10 @@
    "nyear": 7
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0010777814703615168,
    "omega2": -8.743268174689398e-05,
    "eta2_net": 0.0003141644645060578,
@@ -2563,10 +2563,10 @@
    "nyear": 2
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.03971048314555046,
    "omega2": 0.03837926576886018,
    "eta2_net": 0.038346267588713935,
@@ -2584,10 +2584,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.10714161946013871,
    "omega2": 0.1057135545596422,
    "eta2_net": 0.10581643217529986,
@@ -2605,10 +2605,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.020242019368623996,
    "omega2": 0.018930055875913017,
    "eta2_net": 0.018979216324964854,
@@ -2626,10 +2626,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.029641245801920662,
    "omega2": 0.028337727438572265,
    "eta2_net": 0.02848712872035091,
@@ -2647,10 +2647,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.021757822776087454,
    "omega2": 0.02088900957258376,
    "eta2_net": 0.020954937142430807,
@@ -2668,10 +2668,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0008577283126622835,
    "omega2": -5.173775058583776e-05,
    "eta2_net": 9.825842568390007e-05,
@@ -2689,10 +2689,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0006811460129464987,
    "omega2": -0.000188098420649312,
    "eta2_net": -4.45534953298826e-05,
@@ -2710,10 +2710,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0004522881297222996,
    "omega2": -0.0004169573277416716,
    "eta2_net": -0.0003316500701587407,
@@ -2731,10 +2731,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.029419234800778637,
    "omega2": 0.027704343295196786,
    "eta2_net": 0.02776438451563009,
@@ -2752,10 +2752,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.06296017028602265,
    "omega2": 0.06128017407443991,
    "eta2_net": 0.06143301589024738,
@@ -2773,10 +2773,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.014686281688365369,
    "omega2": 0.013087442376161969,
    "eta2_net": 0.013152629806683013,
@@ -2794,10 +2794,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.026498108768033383,
    "omega2": 0.02478041087403997,
    "eta2_net": 0.024829993011941137,
@@ -2815,10 +2815,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.021757822776087454,
    "omega2": 0.02088900957258376,
    "eta2_net": 0.021056226724434635,
@@ -2836,10 +2836,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0016467410869946612,
    "omega2": 0.0002289026834217703,
    "eta2_net": 0.000289688416006288,
@@ -2857,10 +2857,10 @@
    "nyear": 4
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0006811460129464987,
    "omega2": -0.000188098420649312,
    "eta2_net": -6.684970672575941e-05,
@@ -2878,10 +2878,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0004522881297222996,
    "omega2": -0.0004169573277416716,
    "eta2_net": -0.00034228607075885176,
@@ -2899,10 +2899,10 @@
    "nyear": 6
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.0421036905293709,
    "omega2": 0.04079692500566035,
    "eta2_net": 0.04100747402608438,
@@ -2920,10 +2920,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.10268893327281181,
    "omega2": 0.10113178864977926,
    "eta2_net": 0.10150521490196843,
@@ -2941,10 +2941,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.016742500349510043,
    "omega2": 0.01537707017974271,
    "eta2_net": 0.015633866752695805,
@@ -2962,10 +2962,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.013826177578542726,
    "omega2": 0.012506864490646405,
    "eta2_net": 0.012676435464239149,
@@ -2983,10 +2983,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.015485527744960204,
    "omega2": 0.014618771115994564,
    "eta2_net": 0.014762661041765823,
@@ -3004,10 +3004,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.006769930417598334,
    "omega2": 0.005837788669750219,
    "eta2_net": 0.0060023451016358,
@@ -3025,10 +3025,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.001037819817823899,
    "omega2": 0.0001708067246181932,
    "eta2_net": 0.00030283295447561774,
@@ -3046,10 +3046,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.001505122163496748,
    "omega2": 0.000638108924565913,
    "eta2_net": 0.0008222988025110721,
@@ -3067,10 +3067,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.02920635335814183,
    "omega2": 0.027495738625759557,
    "eta2_net": 0.027485251192200293,
@@ -3088,10 +3088,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.05568483760380648,
    "omega2": 0.053997288046451986,
    "eta2_net": 0.053967075601893066,
@@ -3109,10 +3109,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.011401587657346338,
    "omega2": 0.00979162870821634,
    "eta2_net": 0.009884354060793311,
@@ -3130,10 +3130,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.015392308967251855,
    "omega2": 0.013666317394540859,
    "eta2_net": 0.013750909312404342,
@@ -3151,10 +3151,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.015485527744960204,
    "omega2": 0.014618771115994564,
    "eta2_net": 0.014743075721539583,
@@ -3172,10 +3172,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.006498747703626327,
    "omega2": 0.004767890283704852,
    "eta2_net": 0.004869692289993921,
@@ -3193,10 +3193,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.001037819817823899,
    "omega2": 0.0001708067246181932,
    "eta2_net": 0.00026820990487039513,
@@ -3214,10 +3214,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.001505122163496748,
    "omega2": 0.000638108924565913,
    "eta2_net": 0.000750587193095357,
@@ -3235,10 +3235,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.03279382270102159,
    "omega2": 0.03170494747173273,
    "eta2_net": 0.031882633243636244,
@@ -3256,10 +3256,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.11738405002290639,
    "omega2": 0.11598448634458056,
    "eta2_net": 0.11626495394002492,
@@ -3277,10 +3277,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.012297107974728648,
    "omega2": 0.011301778185860716,
    "eta2_net": 0.01149625396830786,
@@ -3298,10 +3298,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.016083773562477942,
    "omega2": 0.01500246463783195,
    "eta2_net": 0.01519791349792568,
@@ -3319,10 +3319,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01255719325507251,
    "omega2": 0.011845675274580409,
    "eta2_net": 0.011950388637723647,
@@ -3340,10 +3340,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.008986918231796112,
    "omega2": 0.008204840463548937,
    "eta2_net": 0.008289764893171927,
@@ -3361,10 +3361,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.001081924475222058,
    "omega2": 0.00037029585180979607,
    "eta2_net": 0.000430781214960706,
@@ -3382,10 +3382,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.000295976511981406,
    "omega2": -0.00041565277664385646,
    "eta2_net": -0.00033130136141127714,
@@ -3403,10 +3403,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.026113841957058327,
    "omega2": 0.02470873995864327,
    "eta2_net": 0.024820963592553074,
@@ -3424,10 +3424,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.05510531828214081,
    "omega2": 0.05372093149419419,
    "eta2_net": 0.05371721611245809,
@@ -3445,10 +3445,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.00832151172421481,
    "omega2": 0.007166620406192083,
    "eta2_net": 0.007261621400054184,
@@ -3466,10 +3466,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.012993480420373496,
    "omega2": 0.011575492395322347,
    "eta2_net": 0.011680306950921926,
@@ -3487,10 +3487,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01255719325507251,
    "omega2": 0.011845675274580409,
    "eta2_net": 0.011925185470310472,
@@ -3508,10 +3508,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.010264251585174518,
    "omega2": 0.00884676546465998,
    "eta2_net": 0.00894793600450871,
@@ -3529,10 +3529,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.001081924475222058,
    "omega2": 0.00037029585180979607,
    "eta2_net": 0.0005047111953900994,
@@ -3550,10 +3550,10 @@
    "nyear": 5
   },
   {
-   "item": "发言 `spkhomo`",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.000295976511981406,
    "omega2": -0.00041565277664385646,
    "eta2_net": -0.0002809791780417911,
@@ -3571,10 +3571,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.06796154726713784,
    "omega2": 0.06686204352780713,
    "eta2_net": 0.06710238428367656,
@@ -3592,10 +3592,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.0894211913529197,
    "omega2": 0.08865076902467835,
    "eta2_net": 0.08887509330899238,
@@ -3613,10 +3613,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.032184243496128494,
    "omega2": 0.03142683890795562,
    "eta2_net": 0.03165516966859809,
@@ -3634,10 +3634,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.12769662352024547,
    "omega2": 0.12663895487578727,
    "eta2_net": 0.12690050806347003,
@@ -3655,10 +3655,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.028006838238576127,
    "omega2": 0.02728645222664819,
    "eta2_net": 0.02741513563278832,
@@ -3676,10 +3676,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0007143316012734238,
    "omega2": -1.0244014139535826e-05,
    "eta2_net": 0.000191208716443881,
@@ -3697,10 +3697,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0007485678960393881,
    "omega2": 2.762728413199778e-05,
    "eta2_net": 0.00019110648506017022,
@@ -3718,10 +3718,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.04738480963023761,
    "omega2": 0.04597762120045932,
    "eta2_net": 0.04595802038076748,
@@ -3739,10 +3739,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.08519013319926934,
    "omega2": 0.08380888551817,
    "eta2_net": 0.08394773099038765,
@@ -3760,10 +3760,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.032184243496128494,
    "omega2": 0.03142683890795562,
    "eta2_net": 0.031611358670518654,
@@ -3781,10 +3781,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.08669444388593893,
    "omega2": 0.08531530936307964,
    "eta2_net": 0.0854088895921361,
@@ -3802,10 +3802,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.028006838238576127,
    "omega2": 0.02728645222664819,
    "eta2_net": 0.027393386286923713,
@@ -3823,10 +3823,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0007485678960393881,
    "omega2": 2.762728413199778e-05,
    "eta2_net": 0.00026593148937166153,
@@ -3844,10 +3844,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.07278022888797507,
    "omega2": 0.07153906240784495,
    "eta2_net": 0.07162183588922297,
@@ -3865,10 +3865,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.15838355996548809,
    "omega2": 0.15715499382617587,
    "eta2_net": 0.15731243319768107,
@@ -3886,10 +3886,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.02269943547669668,
    "omega2": 0.021527411051189476,
    "eta2_net": 0.021704097343777318,
@@ -3907,10 +3907,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.08243188194760116,
    "omega2": 0.08119181909718601,
    "eta2_net": 0.0814529942767885,
@@ -3928,10 +3928,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.03075180667310472,
    "omega2": 0.029930159760334953,
    "eta2_net": 0.030045509604698546,
@@ -3949,10 +3949,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0009931540877369319,
    "omega2": 0.00014757528123106453,
    "eta2_net": 0.0001832826665232783,
@@ -3970,10 +3970,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.00046354391169459977,
    "omega2": -0.00035903625184316966,
    "eta2_net": -0.00030382470412320273,
@@ -3991,10 +3991,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0009399686703138422,
    "omega2": -0.00024217573205550694,
    "eta2_net": 0.00020338052882403238,
@@ -4012,10 +4012,10 @@
    "nyear": 2
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.04933306285957114,
    "omega2": 0.04772732588432976,
    "eta2_net": 0.04773543580323757,
@@ -4033,10 +4033,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.10533585244180968,
    "omega2": 0.10378061907454637,
    "eta2_net": 0.10376734784974337,
@@ -4054,10 +4054,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.015880585586855813,
    "omega2": 0.014522323777273988,
    "eta2_net": 0.014659858987500413,
@@ -4075,10 +4075,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.0713925160256022,
    "omega2": 0.06980159722031938,
    "eta2_net": 0.06972736896458122,
@@ -4096,10 +4096,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.03075180667310472,
    "omega2": 0.029930159760334953,
    "eta2_net": 0.029986533866531478,
@@ -4117,10 +4117,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.005064422180501311,
    "omega2": 0.0037243305236838373,
    "eta2_net": 0.003963227931113634,
@@ -4138,10 +4138,10 @@
    "nyear": 2
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.00046354391169459977,
    "omega2": -0.00035903625184316966,
    "eta2_net": -0.00025518079989428875,
@@ -4159,10 +4159,10 @@
    "nyear": 7
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0009399686703138422,
    "omega2": -0.00024217573205550694,
    "eta2_net": 0.0001997357043195502,
@@ -4180,10 +4180,10 @@
    "nyear": 2
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.03725620691650545,
    "omega2": 0.03590906098613784,
    "eta2_net": 0.035963900324224085,
@@ -4201,10 +4201,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.12825759151340563,
    "omega2": 0.12681896125847392,
    "eta2_net": 0.1270344041184728,
@@ -4222,10 +4222,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.03290548888263528,
    "omega2": 0.031581808680918054,
    "eta2_net": 0.03176302053992047,
@@ -4243,10 +4243,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.0507213291577794,
    "omega2": 0.04940208972989859,
    "eta2_net": 0.04968786252620312,
@@ -4264,10 +4264,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.020401986429044085,
    "omega2": 0.019522873448396125,
    "eta2_net": 0.01964405436822998,
@@ -4285,10 +4285,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.00026948323864548954,
    "omega2": -0.0006504261361293375,
    "eta2_net": -0.0005268054198271904,
@@ -4306,10 +4306,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0007755955272076599,
    "omega2": -0.00010390442612239089,
    "eta2_net": -1.3178273396700219e-05,
@@ -4327,10 +4327,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0016450167952554975,
    "omega2": 0.0007655187223396272,
    "eta2_net": 0.0008485050987805431,
@@ -4348,10 +4348,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.026383236816690015,
    "omega2": 0.024645112046292498,
    "eta2_net": 0.024792799150481104,
@@ -4369,10 +4369,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.07731714355543735,
    "omega2": 0.07563227514753745,
    "eta2_net": 0.07570324240050723,
@@ -4390,10 +4390,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.02378283473054002,
    "omega2": 0.02217167844974463,
    "eta2_net": 0.02222696274973286,
@@ -4411,10 +4411,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.04475795783286455,
    "omega2": 0.043036250697256674,
    "eta2_net": 0.04312672472403463,
@@ -4432,10 +4432,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.020401986429044085,
    "omega2": 0.019522873448396125,
    "eta2_net": 0.01964395289369719,
@@ -4453,10 +4453,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0005514115154645708,
    "omega2": -0.0006385915940600521,
    "eta2_net": -0.0005301195876202266,
@@ -4474,10 +4474,10 @@
    "nyear": 3
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0007755955272076599,
    "omega2": -0.00010390442612239089,
    "eta2_net": -2.1288816763089945e-05,
@@ -4495,10 +4495,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0016450167952554975,
    "omega2": 0.0007655187223396272,
    "eta2_net": 0.0008608398591767569,
@@ -4516,10 +4516,10 @@
    "nyear": 6
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.03784126428029196,
    "omega2": 0.036528881363686774,
    "eta2_net": 0.03668109697768653,
@@ -4537,10 +4537,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.10972690903862654,
    "omega2": 0.10816349355057708,
    "eta2_net": 0.10834637177008274,
@@ -4558,10 +4558,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.03279194585623443,
    "omega2": 0.03131014118754297,
    "eta2_net": 0.03137511651092897,
@@ -4579,10 +4579,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.02793865182665144,
    "omega2": 0.026612010836014686,
    "eta2_net": 0.02673882124779935,
@@ -4600,10 +4600,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01573060551521451,
    "omega2": 0.014859101418803825,
    "eta2_net": 0.015047208695778849,
@@ -4621,10 +4621,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.002582795779761647,
    "omega2": 0.001645761741843476,
    "eta2_net": 0.0017523798672355174,
@@ -4642,10 +4642,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0024856858559090494,
    "omega2": 0.0016139450296849846,
    "eta2_net": 0.0017136503944261082,
@@ -4663,10 +4663,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0011387542010133952,
    "omega2": 0.00026700361543245405,
    "eta2_net": 0.0003975548469154921,
@@ -4684,10 +4684,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.025826960030427958,
    "omega2": 0.02410464959545273,
    "eta2_net": 0.024210664194954285,
@@ -4705,10 +4705,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.06044246053230451,
    "omega2": 0.058747870580985115,
    "eta2_net": 0.058795509728694004,
@@ -4726,10 +4726,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.020540778632577923,
    "omega2": 0.018764809202325473,
    "eta2_net": 0.018882245113040815,
@@ -4747,10 +4747,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.022421938511674188,
    "omega2": 0.02069180149738071,
    "eta2_net": 0.020870493505740315,
@@ -4768,10 +4768,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01573060551521451,
    "omega2": 0.014859101418803825,
    "eta2_net": 0.015017007319556127,
@@ -4789,10 +4789,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.00314737645550558,
    "omega2": 0.0014046425954497052,
    "eta2_net": 0.001467873033330948,
@@ -4810,10 +4810,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0024856858559090494,
    "omega2": 0.0016139450296849846,
    "eta2_net": 0.001784540599880642,
@@ -4831,10 +4831,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0011387542010133952,
    "omega2": 0.00026700361543245405,
    "eta2_net": 0.00043464171399035733,
@@ -4852,10 +4852,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.028735721055926738,
    "omega2": 0.027639203846397665,
    "eta2_net": 0.02777242094400133,
@@ -4873,10 +4873,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.11626198826443901,
    "omega2": 0.11485494611461547,
    "eta2_net": 0.11502542486965943,
@@ -4894,10 +4894,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.010025900960300769,
    "omega2": 0.009027662421302618,
    "eta2_net": 0.009194529398613042,
@@ -4915,10 +4915,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.025899167986707272,
    "omega2": 0.02482388189824708,
    "eta2_net": 0.025004057883878994,
@@ -4936,10 +4936,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01098920663913019,
    "omega2": 0.010274525406008544,
    "eta2_net": 0.01040161080541838,
@@ -4957,10 +4957,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.006277573618334346,
    "omega2": 0.005491507141293488,
    "eta2_net": 0.00553697088516133,
@@ -4978,10 +4978,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0030081279214623723,
    "omega2": 0.0022933734663085686,
    "eta2_net": 0.0023879609919224562,
@@ -4999,10 +4999,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.00016999901477726627,
    "omega2": -0.0005447702380563167,
    "eta2_net": -0.0004853850429794014,
@@ -5020,10 +5020,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.022122770473078673,
    "omega2": 0.020708566259395933,
    "eta2_net": 0.020783242487514807,
@@ -5041,10 +5041,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.054871650029019906,
    "omega2": 0.053481584939121696,
    "eta2_net": 0.05348108703521671,
@@ -5062,10 +5062,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.006936309092032768,
    "omega2": 0.005776418171780543,
    "eta2_net": 0.00592273366006117,
@@ -5083,10 +5083,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.020827485359082284,
    "omega2": 0.019409104449330743,
    "eta2_net": 0.019486444759656555,
@@ -5104,10 +5104,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01098920663913019,
    "omega2": 0.010274525406008544,
    "eta2_net": 0.01037638316596598,
@@ -5125,10 +5125,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0063753588204096155,
    "omega2": 0.004949120405983766,
    "eta2_net": 0.005016601687898705,
@@ -5146,10 +5146,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0030081279214623723,
    "omega2": 0.0022933734663085686,
    "eta2_net": 0.002394675819007603,
@@ -5167,10 +5167,10 @@
    "nyear": 5
   },
   {
-   "item": "教书 `colhomo`",
+   "item": "\u6559\u4e66 `colhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.00016999901477726627,
    "omega2": -0.0005447702380563167,
    "eta2_net": -0.00044629627828094164,
@@ -5188,10 +5188,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.06452633621275987,
    "omega2": 0.06342914137216088,
    "eta2_net": 0.06364034592188639,
@@ -5209,10 +5209,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.10232669406124316,
    "omega2": 0.1015639140157955,
    "eta2_net": 0.10167126694429023,
@@ -5230,10 +5230,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.0206757542593021,
    "omega2": 0.019923325869015105,
    "eta2_net": 0.020094852570317852,
@@ -5251,10 +5251,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.08775423072423542,
    "omega2": 0.08669398812560924,
    "eta2_net": 0.0867796532791534,
@@ -5272,10 +5272,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.022419271249779254,
    "omega2": 0.02170316980572662,
    "eta2_net": 0.02187102384490326,
@@ -5293,10 +5293,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0005762138688900092,
    "omega2": -0.00014400231746211167,
    "eta2_net": -4.071692246843518e-05,
@@ -5314,10 +5314,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0015803218342547904,
    "omega2": 0.0008638676510644463,
    "eta2_net": 0.0010788585086112126,
@@ -5335,10 +5335,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.0428600577412905,
    "omega2": 0.04145812429724207,
    "eta2_net": 0.04154881454249463,
@@ -5356,10 +5356,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.09670479276445161,
    "omega2": 0.09534233826121487,
    "eta2_net": 0.0954928143489926,
@@ -5377,10 +5377,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.0206757542593021,
    "omega2": 0.019923325869015105,
    "eta2_net": 0.02011075961796881,
@@ -5398,10 +5398,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.06293449939725711,
    "omega2": 0.061544341242603266,
    "eta2_net": 0.061629937964538424,
@@ -5419,10 +5419,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.022419271249779254,
    "omega2": 0.02170316980572662,
    "eta2_net": 0.02181075373250307,
@@ -5440,10 +5440,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1970s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0015803218342547904,
    "omega2": 0.0008638676510644463,
    "eta2_net": 0.0010247754801884935,
@@ -5461,10 +5461,10 @@
    "nyear": 3
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.08281106016003138,
    "omega2": 0.08157902724987907,
    "eta2_net": 0.08177814832102402,
@@ -5482,10 +5482,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.17214121002163738,
    "omega2": 0.1709294536085411,
    "eta2_net": 0.17105712815035676,
@@ -5503,10 +5503,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.015813574804686654,
    "omega2": 0.014656958015852655,
    "eta2_net": 0.01483645940133709,
@@ -5524,10 +5524,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.06665739693304251,
    "omega2": 0.06542077788337912,
    "eta2_net": 0.06564430273143079,
@@ -5545,10 +5545,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.021831715540123843,
    "omega2": 0.021018640961158942,
    "eta2_net": 0.021096458066503183,
@@ -5566,10 +5566,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.003736791051294501,
    "omega2": 0.0029005065868130627,
    "eta2_net": 0.002998636795057604,
@@ -5587,10 +5587,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0012561083615092628,
    "omega2": 0.0004426595656629815,
    "eta2_net": 0.000497559778295355,
@@ -5608,10 +5608,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.004931697496772486,
    "omega2": 0.003764698273379783,
    "eta2_net": 0.0040787447458282885,
@@ -5629,10 +5629,10 @@
    "nyear": 2
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.0557759983049821,
    "omega2": 0.05419397969504487,
    "eta2_net": 0.05422040536295127,
@@ -5650,10 +5650,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.11504661835191074,
    "omega2": 0.11351582985511743,
    "eta2_net": 0.11352113583313392,
@@ -5671,10 +5671,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.011364642485405044,
    "omega2": 0.010020517035420265,
    "eta2_net": 0.010177214498931499,
@@ -5692,10 +5692,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.05838807324959513,
    "omega2": 0.0568025216216309,
    "eta2_net": 0.05694303136863734,
@@ -5713,10 +5713,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.021831715540123843,
    "omega2": 0.021018640961158942,
    "eta2_net": 0.021101379751409147,
@@ -5734,10 +5734,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0038859000213818827,
    "omega2": 0.0025602857598254303,
    "eta2_net": 0.0027222592730437715,
@@ -5755,10 +5755,10 @@
    "nyear": 2
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0012561083615092628,
    "omega2": 0.0004426595656629815,
    "eta2_net": 0.0005087694267605478,
@@ -5776,10 +5776,10 @@
    "nyear": 7
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1980s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.004931697496772486,
    "omega2": 0.003764698273379783,
    "eta2_net": 0.0040608037923489035,
@@ -5797,10 +5797,10 @@
    "nyear": 2
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.05593461387188193,
    "omega2": 0.05459131666321341,
    "eta2_net": 0.05476484857626816,
@@ -5818,10 +5818,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.11890317652860094,
    "omega2": 0.11747051302585786,
    "eta2_net": 0.11768677369215538,
@@ -5839,10 +5839,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.026796526397991727,
    "omega2": 0.02547696098841995,
    "eta2_net": 0.02559497890991744,
@@ -5860,10 +5860,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.037307037486023265,
    "omega2": 0.03599274008121723,
    "eta2_net": 0.03611101022943348,
@@ -5881,10 +5881,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.02094504029546121,
    "omega2": 0.020071475799410873,
    "eta2_net": 0.020238789161098836,
@@ -5902,10 +5902,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0018024261012586258,
    "omega2": 0.0008883331655980834,
    "eta2_net": 0.0009605553659274605,
@@ -5923,10 +5923,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0007469421335262184,
    "omega2": -0.00012710924996398856,
    "eta2_net": -8.26378389865136e-05,
@@ -5944,10 +5944,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.00027311351719394507,
    "omega2": -0.0006009385712411935,
    "eta2_net": -0.0005351394174189357,
@@ -5965,10 +5965,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.03843765919580428,
    "omega2": 0.03672183943927787,
    "eta2_net": 0.036723708934911004,
@@ -5986,10 +5986,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.07176945430101657,
    "omega2": 0.07009000503146297,
    "eta2_net": 0.0700226933292427,
@@ -6007,10 +6007,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.018795567887071252,
    "omega2": 0.01719339032409101,
    "eta2_net": 0.017294220719907053,
@@ -6028,10 +6028,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.03134138921828016,
    "omega2": 0.02961770989744025,
    "eta2_net": 0.029724710415018285,
@@ -6049,10 +6049,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.02094504029546121,
    "omega2": 0.020071475799410873,
    "eta2_net": 0.020129707369359373,
@@ -6070,10 +6070,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.0034806107344363536,
    "omega2": 0.0020478019566174495,
    "eta2_net": 0.002186455276553693,
@@ -6091,10 +6091,10 @@
    "nyear": 4
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0007469421335262184,
    "omega2": -0.00012710924996398856,
    "eta2_net": -2.1703706745474947e-05,
@@ -6112,10 +6112,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "1990s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.00027311351719394507,
    "omega2": -0.0006009385712411935,
    "eta2_net": -0.00047645207880296495,
@@ -6133,10 +6133,10 @@
    "nyear": 6
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.05182479602329284,
    "omega2": 0.05050798864701409,
    "eta2_net": 0.050685324007364474,
@@ -6154,10 +6154,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.1071525711671196,
    "omega2": 0.10565425271173808,
    "eta2_net": 0.1058827160270631,
@@ -6175,10 +6175,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.01923061675962384,
    "omega2": 0.0178556890202856,
    "eta2_net": 0.018096751837304827,
@@ -6196,10 +6196,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.02339910878887458,
    "omega2": 0.022088662023424795,
    "eta2_net": 0.022232671109695075,
@@ -6217,10 +6217,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01713047214468178,
    "omega2": 0.01626044665041108,
    "eta2_net": 0.016326816763759994,
@@ -6238,10 +6238,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.009969928687178447,
    "omega2": 0.009034517340210232,
    "eta2_net": 0.009258975622390206,
@@ -6259,10 +6259,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0010873620798152726,
    "omega2": 0.00021708860997089472,
    "eta2_net": 0.0002970723757793306,
@@ -6280,10 +6280,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0004903492058731181,
    "omega2": -0.0003799245235725589,
    "eta2_net": -0.0002920979766693313,
@@ -6301,10 +6301,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.03778038725227119,
    "omega2": 0.03607185152325738,
    "eta2_net": 0.03615039505816869,
@@ -6322,10 +6322,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.06343571459279804,
    "omega2": 0.061752920548272305,
    "eta2_net": 0.06176496750293295,
@@ -6343,10 +6343,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.013198267842881781,
    "omega2": 0.011582596395326442,
    "eta2_net": 0.011737336287038484,
@@ -6364,10 +6364,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.01740230281231317,
    "omega2": 0.015669883259600233,
    "eta2_net": 0.01574826498050212,
@@ -6385,10 +6385,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.01713047214468178,
    "omega2": 0.01626044665041108,
    "eta2_net": 0.01642056825746605,
@@ -6406,10 +6406,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.010237318031638767,
    "omega2": 0.008503465810396682,
    "eta2_net": 0.008579229441719072,
@@ -6427,10 +6427,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.0010873620798152726,
    "omega2": 0.00021708860997089472,
    "eta2_net": 0.0004031908259981427,
@@ -6448,10 +6448,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2000s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0004903492058731181,
    "omega2": -0.0003799245235725589,
    "eta2_net": -0.00021506895658779206,
@@ -6469,10 +6469,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "宗教 REL",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.06216537213622157,
    "omega2": 0.06108138329002223,
    "eta2_net": 0.06128987458346447,
@@ -6490,10 +6490,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "教育 educ",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.1276232625205713,
    "omega2": 0.12622438831214824,
    "eta2_net": 0.12631967273495995,
@@ -6511,10 +6511,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "政治 polviews",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.020149244755233636,
    "omega2": 0.01915372131563661,
    "eta2_net": 0.01939621112459019,
@@ -6532,10 +6532,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "年龄 age",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.03255964762505291,
    "omega2": 0.03148106113362536,
    "eta2_net": 0.03160073366544376,
@@ -6553,10 +6553,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "地区 南方vs其余",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.0203724759381076,
    "omega2": 0.01965998844732872,
    "eta2_net": 0.019775491197706378,
@@ -6574,10 +6574,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "种族 白vs黑",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.01301956284032387,
    "omega2": 0.01223631484972183,
    "eta2_net": 0.012302481026065454,
@@ -6595,10 +6595,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "性别 男vs女",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.001681198662755868,
    "omega2": 0.0009684181688661975,
    "eta2_net": 0.001061381864147451,
@@ -6616,10 +6616,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "与|g|可比",
-   "axis": "安慰剂 ballot",
+   "spec": "\u4e0e|g|\u53ef\u6bd4",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0007749909050251045,
    "omega2": 6.220779833581718e-05,
    "eta2_net": 0.0001427673118894904,
@@ -6637,10 +6637,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "宗教 REL",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b97\u6559 REL",
    "eta2": 0.04741969642068915,
    "omega2": 0.046028337295558074,
    "eta2_net": 0.04609335821170937,
@@ -6658,10 +6658,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "教育 educ",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6559\u80b2 educ",
    "eta2": 0.06293529237864778,
    "omega2": 0.06155602218521115,
    "eta2_net": 0.061579681727856626,
@@ -6679,10 +6679,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "政治 polviews",
+   "spec": "\u5168\u4f53",
+   "axis": "\u653f\u6cbb polviews",
    "eta2": 0.013571303358099359,
    "omega2": 0.012417567500911508,
    "eta2_net": 0.012497931236015596,
@@ -6700,10 +6700,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "年龄 age",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5e74\u9f84 age",
    "eta2": 0.02337690966100326,
    "omega2": 0.02196440551734378,
    "eta2_net": 0.021928581336421626,
@@ -6721,10 +6721,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "地区 南方vs其余",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5730\u533a \u5357\u65b9vs\u5176\u4f59",
    "eta2": 0.0203724759381076,
    "omega2": 0.01965998844732872,
    "eta2_net": 0.019751213057700088,
@@ -6742,10 +6742,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "种族 白vs黑",
+   "spec": "\u5168\u4f53",
+   "axis": "\u79cd\u65cf \u767dvs\u9ed1",
    "eta2": 0.012698980985834728,
    "omega2": 0.011281532379031425,
    "eta2_net": 0.011434437713285315,
@@ -6763,10 +6763,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "性别 男vs女",
+   "spec": "\u5168\u4f53",
+   "axis": "\u6027\u522b \u7537vs\u5973",
    "eta2": 0.001681198662755868,
    "omega2": 0.0009684181688661975,
    "eta2_net": 0.001044504073803575,
@@ -6784,10 +6784,10 @@
    "nyear": 5
   },
   {
-   "item": "图书馆 `libhomo`",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "dec": "2010s",
-   "spec": "全体",
-   "axis": "安慰剂 ballot",
+   "spec": "\u5168\u4f53",
+   "axis": "\u5b89\u6170\u5242 ballot",
    "eta2": 0.0007749909050251045,
    "omega2": 6.220779833581718e-05,
    "eta2_net": 0.00015163993761338652,
@@ -6806,255 +6806,255 @@
   }
  ],
  "best": {
-  "道德 `homosex`|1970s|与|g|可比": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|1970s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.019217722499417847
   },
-  "道德 `homosex`|1970s|全体": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|1970s|\u5168\u4f53": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.008360924402090346
   },
-  "道德 `homosex`|1980s|与|g|可比": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|1980s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.042600612559572634
   },
-  "道德 `homosex`|1980s|全体": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|1980s|\u5168\u4f53": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.017079391020123347
   },
-  "道德 `homosex`|1990s|与|g|可比": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|1990s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.02078072654342894
   },
-  "道德 `homosex`|1990s|全体": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|1990s|\u5168\u4f53": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.009258670029099317
   },
-  "道德 `homosex`|2000s|与|g|可比": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|2000s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.05785215539988098
   },
-  "道德 `homosex`|2000s|全体": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|2000s|\u5168\u4f53": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.045854794554819764
   },
-  "道德 `homosex`|2010s|与|g|可比": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|2010s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.15604482441292122
   },
-  "道德 `homosex`|2010s|全体": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|2010s|\u5168\u4f53": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.11371806048742228
   },
-  "道德 `homosex`|2020s|与|g|可比": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|2020s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.16329030132780623
   },
-  "道德 `homosex`|2020s|全体": {
-   "eta_winner": "宗教 REL",
-   "g_winner": "宗教 REL",
+  "\u9053\u5fb7 `homosex`|2020s|\u5168\u4f53": {
+   "eta_winner": "\u5b97\u6559 REL",
+   "g_winner": "\u5b97\u6559 REL",
    "agree": true,
    "eta_margin": 0.10142241196148442
   },
-  "发言 `spkhomo`|1970s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|1970s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.02113985603913189
   },
-  "发言 `spkhomo`|1970s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|1970s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.040836522675284107
   },
-  "发言 `spkhomo`|1980s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|1980s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.08948764268516146
   },
-  "发言 `spkhomo`|1980s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|1980s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.053187183575132156
   },
-  "发言 `spkhomo`|1990s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|1990s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.06747016458658592
   },
-  "发言 `spkhomo`|1990s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|1990s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.03366863137461729
   },
-  "发言 `spkhomo`|2000s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|2000s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.06049774087588405
   },
-  "发言 `spkhomo`|2000s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|2000s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.026481824409692774
   },
-  "发言 `spkhomo`|2010s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|2010s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.08438232069638868
   },
-  "发言 `spkhomo`|2010s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u53d1\u8a00 `spkhomo`|2010s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.028896252519905016
   },
-  "教书 `colhomo`|1970s|与|g|可比": {
-   "eta_winner": "年龄 age",
-   "g_winner": "年龄 age",
+  "\u6559\u4e66 `colhomo`|1970s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u5e74\u9f84 age",
+   "g_winner": "\u5e74\u9f84 age",
    "agree": true,
    "eta_margin": 0.038025414754477654
   },
-  "教书 `colhomo`|1970s|全体": {
-   "eta_winner": "年龄 age",
-   "g_winner": "年龄 age",
+  "\u6559\u4e66 `colhomo`|1970s|\u5168\u4f53": {
+   "eta_winner": "\u5e74\u9f84 age",
+   "g_winner": "\u5e74\u9f84 age",
    "agree": true,
    "eta_margin": 0.0014611586017484607
   },
-  "教书 `colhomo`|1980s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|1980s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.07585943892089257
   },
-  "教书 `colhomo`|1980s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|1980s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.03403997888516215
   },
-  "教书 `colhomo`|1990s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|1990s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.07734654159226968
   },
-  "教书 `colhomo`|1990s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|1990s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.0325765176764726
   },
-  "教书 `colhomo`|2000s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|2000s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.0716652747923962
   },
-  "教书 `colhomo`|2000s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|2000s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.03458484553373972
   },
-  "教书 `colhomo`|2010s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|2010s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.0872530039256581
   },
-  "教书 `colhomo`|2010s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u6559\u4e66 `colhomo`|2010s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.0326978445477019
   },
-  "图书馆 `libhomo`|1970s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|1970s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.014891613665136832
   },
-  "图书馆 `libhomo`|1970s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|1970s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.03386287638445417
   },
-  "图书馆 `libhomo`|1980s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|1980s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.08927897982933274
   },
-  "图书馆 `libhomo`|1980s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|1980s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.05657810446449658
   },
-  "图书馆 `libhomo`|1990s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|1990s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.06292192511588722
   },
-  "图书馆 `libhomo`|1990s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|1990s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.033298984394331696
   },
-  "图书馆 `libhomo`|2000s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|2000s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.05519739201969863
   },
-  "图书馆 `libhomo`|2000s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|2000s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.025614572444764262
   },
-  "图书馆 `libhomo`|2010s|与|g|可比": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|2010s|\u4e0e|g|\u53ef\u6bd4": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.06502979815149548
   },
-  "图书馆 `libhomo`|2010s|全体": {
-   "eta_winner": "教育 educ",
-   "g_winner": "教育 educ",
+  "\u56fe\u4e66\u9986 `libhomo`|2010s|\u5168\u4f53": {
+   "eta_winner": "\u6559\u80b2 educ",
+   "g_winner": "\u6559\u80b2 educ",
    "agree": true,
    "eta_margin": 0.015486323516147253
   }
@@ -7063,25 +7063,25 @@
  "agree_total": 42,
  "R_median": 1.3468044449513665,
  "R_by_axis": {
-  "宗教 REL": 1.305429626851855,
-  "教育 educ": 1.224928931805011,
-  "政治 polviews": 1.3008807077947306,
-  "年龄 age": 1.5085319145536205,
-  "地区 南方vs其余": 1.4267824473002526,
-  "种族 白vs黑": 0.9505139420506606,
-  "性别 男vs女": 1.8429155225324383
+  "\u5b97\u6559 REL": 1.305429626851855,
+  "\u6559\u80b2 educ": 1.224928931805011,
+  "\u653f\u6cbb polviews": 1.3008807077947306,
+  "\u5e74\u9f84 age": 1.5085319145536205,
+  "\u5730\u533a \u5357\u65b9vs\u5176\u4f59": 1.4267824473002526,
+  "\u79cd\u65cf \u767dvs\u9ed1": 0.9505139420506606,
+  "\u6027\u522b \u7537vs\u5973": 1.8429155225324383
  },
  "R_by_item": {
-  "道德 `homosex`": 1.3894718051609947,
-  "发言 `spkhomo`": 1.365895636277589,
-  "教书 `colhomo`": 1.3189933607655795,
-  "图书馆 `libhomo`": 1.3239176457095927
+  "\u9053\u5fb7 `homosex`": 1.3894718051609947,
+  "\u53d1\u8a00 `spkhomo`": 1.365895636277589,
+  "\u6559\u4e66 `colhomo`": 1.3189933607655795,
+  "\u56fe\u4e66\u9986 `libhomo`": 1.3239176457095927
  },
  "R_spread": 0.8924015804817776,
  "lam": [
   {
-   "axis": "宗教 REL",
-   "item": "道德 `homosex`",
+   "axis": "\u5b97\u6559 REL",
+   "item": "\u9053\u5fb7 `homosex`",
    "lam": 0.44791939440624146,
    "lam_perm": 0.44791939440624146,
    "g": -0.8557009247004537,
@@ -7089,8 +7089,8 @@
    "spread": 0.09001299089562949
   },
   {
-   "axis": "宗教 REL",
-   "item": "发言 `spkhomo`",
+   "axis": "\u5b97\u6559 REL",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "lam": 0.3535868052720327,
    "lam_perm": 0.3535868052720327,
    "g": -0.4405097655393312,
@@ -7098,8 +7098,8 @@
    "spread": 0.07297969568731916
   },
   {
-   "axis": "宗教 REL",
-   "item": "教书 `colhomo`",
+   "axis": "\u5b97\u6559 REL",
+   "item": "\u6559\u4e66 `colhomo`",
    "lam": 0.35983168693847023,
    "lam_perm": 0.35983168693847023,
    "g": -0.43573978492392307,
@@ -7107,8 +7107,8 @@
    "spread": 0.07266911723258078
   },
   {
-   "axis": "宗教 REL",
-   "item": "图书馆 `libhomo`",
+   "axis": "\u5b97\u6559 REL",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "lam": 0.36616006551722413,
    "lam_perm": 0.36616006551722413,
    "g": -0.5051039499181618,
@@ -7116,8 +7116,8 @@
    "spread": 0.06455809697618123
   },
   {
-   "axis": "教育 educ",
-   "item": "道德 `homosex`",
+   "axis": "\u6559\u80b2 educ",
+   "item": "\u9053\u5fb7 `homosex`",
    "lam": 0.34255875133143704,
    "lam_perm": 0.657441248668563,
    "g": 0.5698809660382,
@@ -7125,8 +7125,8 @@
    "spread": 0.08847818985652303
   },
   {
-   "axis": "教育 educ",
-   "item": "发言 `spkhomo`",
+   "axis": "\u6559\u80b2 educ",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "lam": 0.5287834246283374,
    "lam_perm": 0.4712165753716626,
    "g": 0.7138826441452671,
@@ -7134,8 +7134,8 @@
    "spread": 0.07177194578783956
   },
   {
-   "axis": "教育 educ",
-   "item": "教书 `colhomo`",
+   "axis": "\u6559\u80b2 educ",
+   "item": "\u6559\u4e66 `colhomo`",
    "lam": 0.5197084554796026,
    "lam_perm": 0.48029154452039735,
    "g": 0.7212807877854155,
@@ -7143,8 +7143,8 @@
    "spread": 0.054302230282800325
   },
   {
-   "axis": "教育 educ",
-   "item": "图书馆 `libhomo`",
+   "axis": "\u6559\u80b2 educ",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "lam": 0.5160624576495912,
    "lam_perm": 0.48393754235040876,
    "g": 0.736910720395269,
@@ -7152,8 +7152,8 @@
    "spread": 0.03940866495365651
   },
   {
-   "axis": "政治 polviews",
-   "item": "道德 `homosex`",
+   "axis": "\u653f\u6cbb polviews",
+   "item": "\u9053\u5fb7 `homosex`",
    "lam": 0.5736148634474436,
    "lam_perm": 0.5736148634474436,
    "g": -0.6711114736946218,
@@ -7161,8 +7161,8 @@
    "spread": 0.22492349593919725
   },
   {
-   "axis": "政治 polviews",
-   "item": "发言 `spkhomo`",
+   "axis": "\u653f\u6cbb polviews",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "lam": 0.6355148713666574,
    "lam_perm": 0.6355148713666574,
    "g": -0.24221788496041063,
@@ -7170,8 +7170,8 @@
    "spread": 0.044506986069176795
   },
   {
-   "axis": "政治 polviews",
-   "item": "教书 `colhomo`",
+   "axis": "\u653f\u6cbb polviews",
+   "item": "\u6559\u4e66 `colhomo`",
    "lam": 0.6382383990161501,
    "lam_perm": 0.6382383990161501,
    "g": -0.30601804639185154,
@@ -7179,8 +7179,8 @@
    "spread": 0.09890207599008632
   },
   {
-   "axis": "政治 polviews",
-   "item": "图书馆 `libhomo`",
+   "axis": "\u653f\u6cbb polviews",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "lam": 0.6471258297046799,
    "lam_perm": 0.6471258297046799,
    "g": -0.2825464446872713,
@@ -7188,8 +7188,8 @@
    "spread": 0.04385041896538732
   },
   {
-   "axis": "年龄 age",
-   "item": "道德 `homosex`",
+   "axis": "\u5e74\u9f84 age",
+   "item": "\u9053\u5fb7 `homosex`",
    "lam": 0.45419252308763464,
    "lam_perm": 0.45419252308763464,
    "g": -0.48638282762744584,
@@ -7197,8 +7197,8 @@
    "spread": 0.1630473509507419
   },
   {
-   "axis": "年龄 age",
-   "item": "发言 `spkhomo`",
+   "axis": "\u5e74\u9f84 age",
+   "item": "\u53d1\u8a00 `spkhomo`",
    "lam": 0.07491695397351668,
    "lam_perm": 0.07491695397351668,
    "g": -0.37533145065900353,
@@ -7206,8 +7206,8 @@
    "spread": 0.1571495258755669
   },
   {
-   "axis": "年龄 age",
-   "item": "教书 `colhomo`",
+   "axis": "\u5e74\u9f84 age",
+   "item": "\u6559\u4e66 `colhomo`",
    "lam": 0.20547093765522026,
    "lam_perm": 0.20547093765522026,
    "g": -0.4837642546327802,
@@ -7215,8 +7215,8 @@
    "spread": 0.14173228604466187
   },
   {
-   "axis": "年龄 age",
-   "item": "图书馆 `libhomo`",
+   "axis": "\u5e74\u9f84 age",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
    "lam": 0.20697057337014915,
    "lam_perm": 0.20697057337014915,
    "g": -0.4289384284999844,
@@ -7225,13 +7225,13 @@
   }
  ],
  "omega_bias": {
-  "宗教 REL": 0.0013692525277493421,
-  "教育 educ": 0.0014398836791183652,
-  "政治 polviews": 0.0013157644511413782,
-  "年龄 age": 0.0013846463387565643,
-  "地区 南方vs其余": 0.0008202528718924407,
-  "种族 白vs黑": 0.0009502876979798932,
-  "性别 男vs女": 0.0008205710695240755
+  "\u5b97\u6559 REL": 0.0013692525277493421,
+  "\u6559\u80b2 educ": 0.0014398836791183652,
+  "\u653f\u6cbb polviews": 0.0013157644511413782,
+  "\u5e74\u9f84 age": 0.0013846463387565643,
+  "\u5730\u533a \u5357\u65b9vs\u5176\u4f59": 0.0008202528718924407,
+  "\u79cd\u65cf \u767dvs\u9ed1": 0.0009502876979798932,
+  "\u6027\u522b \u7537vs\u5973": 0.0008205710695240755
  },
  "sanction_eta_not_edu": 2,
  "sanction_cells": 30,
@@ -7259,8 +7259,10 @@
  "derivation": "eta2 = g^2/6 under joint normality with equal terciles; verified R=1.0000 at rho=.2/.4/.6",
  "prior_round_moral_rel_wins": 12,
  "admissible": true,
- "verdict": "**D 「两端拉得开」和「解释得多」是两件不同的社会事实,而 R 的偏离有结构。**\n  各轴 R 中位极差 **0.892**(最高 性别 男vs女 1.843、最低 种族 白vs黑 0.951);按题 道德 1.39 · 发言 1.37 · 教书 1.32 · 图书馆 1.32。\n  ⚠ **而主轴排名本身没有变**(42/42 一致)⇒ **`#862`/`#863` 的结论不是尺的产物;换尺换掉的是「宽多少」,不是「谁最宽」。**\n  ⇒ **一句关于人的话,而它是本轮唯一不关于测量的那一句 ——\n  `|g|` 只看两端,所以它从来看不见中间那三分之一站在哪:**\n  **λ_perm = 中间组从最宽容的一端走到最不宽容的一端走了多远(0.5 = 正中间):**\n  宗教×道德 0.45 · 宗教×发言 0.35 · 宗教×教书 0.36 · 宗教×图书馆 0.37 · 教育×道德 0.66 · 教育×发言 0.47 · 教育×教书 0.48 · 教育×图书馆 0.48 · 政治×道德 0.57 · 政治×发言 0.64 · 政治×教书 0.64 · 政治×图书馆 0.65 · 年龄×道德 0.45 · 年龄×发言 0.07 · 年龄×教书 0.21 · 年龄×图书馆 0.21\n  ⇒ **6 个 (轴×题) 组合里中间那三分之一贴着宽容那一端,4 个贴着不宽容那一端,6 个真的在中间。**\n  ⚠ **最极端的一格是 年龄×发言 λ_perm=0.075** —— **中间那一组几乎和最宽容的那一端重合,也就是说另一端才是那个离群的少数,而不是一条平缓的坡。**\n  ⚠⚠ **而这一段的方向标签第一版是反的**:λ 量的是「离轴值最低的那组多近」,而**轴值低的那一端是不是宽容的那一端,每根轴不一样**(虔诚低=宽容、年龄低=宽容、政治低=宽容,**而教育低=不宽容**) ⇒ **判词字符串又一次不是计算**,改成由 `g` 的符号算出来。⇒ `#864`③",
+ "verdict": "**D \u300c\u4e24\u7aef\u62c9\u5f97\u5f00\u300d\u548c\u300c\u89e3\u91ca\u5f97\u591a\u300d\u662f\u4e24\u4ef6\u4e0d\u540c\u7684\u793e\u4f1a\u4e8b\u5b9e,\u800c R \u7684\u504f\u79bb\u6709\u7ed3\u6784\u3002**\n  \u5404\u8f74 R \u4e2d\u4f4d\u6781\u5dee **0.892**(\u6700\u9ad8 \u6027\u522b \u7537vs\u5973 1.843\u3001\u6700\u4f4e \u79cd\u65cf \u767dvs\u9ed1 0.951);\u6309\u9898 \u9053\u5fb7 1.39 \u00b7 \u53d1\u8a00 1.37 \u00b7 \u6559\u4e66 1.32 \u00b7 \u56fe\u4e66\u9986 1.32\u3002\n  \u26a0 **\u800c\u4e3b\u8f74\u6392\u540d\u672c\u8eab\u6ca1\u6709\u53d8**(42/42 \u4e00\u81f4)\u21d2 **`#862`/`#863` \u7684\u7ed3\u8bba\u4e0d\u662f\u5c3a\u7684\u4ea7\u7269;\u6362\u5c3a\u6362\u6389\u7684\u662f\u300c\u5bbd\u591a\u5c11\u300d,\u4e0d\u662f\u300c\u8c01\u6700\u5bbd\u300d\u3002**\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd,\u800c\u5b83\u662f\u672c\u8f6e\u552f\u4e00\u4e0d\u5173\u4e8e\u6d4b\u91cf\u7684\u90a3\u4e00\u53e5 \u2014\u2014\n  `|g|` \u53ea\u770b\u4e24\u7aef,\u6240\u4ee5\u5b83\u4ece\u6765\u770b\u4e0d\u89c1\u4e2d\u95f4\u90a3\u4e09\u5206\u4e4b\u4e00\u7ad9\u5728\u54ea:**\n  **\u03bb_perm = \u4e2d\u95f4\u7ec4\u4ece\u6700\u5bbd\u5bb9\u7684\u4e00\u7aef\u8d70\u5230\u6700\u4e0d\u5bbd\u5bb9\u7684\u4e00\u7aef\u8d70\u4e86\u591a\u8fdc(0.5 = \u6b63\u4e2d\u95f4):**\n  \u5b97\u6559\u00d7\u9053\u5fb7 0.45 \u00b7 \u5b97\u6559\u00d7\u53d1\u8a00 0.35 \u00b7 \u5b97\u6559\u00d7\u6559\u4e66 0.36 \u00b7 \u5b97\u6559\u00d7\u56fe\u4e66\u9986 0.37 \u00b7 \u6559\u80b2\u00d7\u9053\u5fb7 0.66 \u00b7 \u6559\u80b2\u00d7\u53d1\u8a00 0.47 \u00b7 \u6559\u80b2\u00d7\u6559\u4e66 0.48 \u00b7 \u6559\u80b2\u00d7\u56fe\u4e66\u9986 0.48 \u00b7 \u653f\u6cbb\u00d7\u9053\u5fb7 0.57 \u00b7 \u653f\u6cbb\u00d7\u53d1\u8a00 0.64 \u00b7 \u653f\u6cbb\u00d7\u6559\u4e66 0.64 \u00b7 \u653f\u6cbb\u00d7\u56fe\u4e66\u9986 0.65 \u00b7 \u5e74\u9f84\u00d7\u9053\u5fb7 0.45 \u00b7 \u5e74\u9f84\u00d7\u53d1\u8a00 0.07 \u00b7 \u5e74\u9f84\u00d7\u6559\u4e66 0.21 \u00b7 \u5e74\u9f84\u00d7\u56fe\u4e66\u9986 0.21\n  \u21d2 **6 \u4e2a (\u8f74\u00d7\u9898) \u7ec4\u5408\u91cc\u4e2d\u95f4\u90a3\u4e09\u5206\u4e4b\u4e00\u8d34\u7740\u5bbd\u5bb9\u90a3\u4e00\u7aef,4 \u4e2a\u8d34\u7740\u4e0d\u5bbd\u5bb9\u90a3\u4e00\u7aef,6 \u4e2a\u771f\u7684\u5728\u4e2d\u95f4\u3002**\n  \u26a0 **\u6700\u6781\u7aef\u7684\u4e00\u683c\u662f \u5e74\u9f84\u00d7\u53d1\u8a00 \u03bb_perm=0.075** \u2014\u2014 **\u4e2d\u95f4\u90a3\u4e00\u7ec4\u51e0\u4e4e\u548c\u6700\u5bbd\u5bb9\u7684\u90a3\u4e00\u7aef\u91cd\u5408,\u4e5f\u5c31\u662f\u8bf4\u53e6\u4e00\u7aef\u624d\u662f\u90a3\u4e2a\u79bb\u7fa4\u7684\u5c11\u6570,\u800c\u4e0d\u662f\u4e00\u6761\u5e73\u7f13\u7684\u5761\u3002**\n  \u26a0\u26a0 **\u800c\u8fd9\u4e00\u6bb5\u7684\u65b9\u5411\u6807\u7b7e\u7b2c\u4e00\u7248\u662f\u53cd\u7684**:\u03bb \u91cf\u7684\u662f\u300c\u79bb\u8f74\u503c\u6700\u4f4e\u7684\u90a3\u7ec4\u591a\u8fd1\u300d,\u800c**\u8f74\u503c\u4f4e\u7684\u90a3\u4e00\u7aef\u662f\u4e0d\u662f\u5bbd\u5bb9\u7684\u90a3\u4e00\u7aef,\u6bcf\u6839\u8f74\u4e0d\u4e00\u6837**(\u8654\u8bda\u4f4e=\u5bbd\u5bb9\u3001\u5e74\u9f84\u4f4e=\u5bbd\u5bb9\u3001\u653f\u6cbb\u4f4e=\u5bbd\u5bb9,**\u800c\u6559\u80b2\u4f4e=\u4e0d\u5bbd\u5bb9**) \u21d2 **\u5224\u8bcd\u5b57\u7b26\u4e32\u53c8\u4e00\u6b21\u4e0d\u662f\u8ba1\u7b97**,\u6539\u6210\u7531 `g` \u7684\u7b26\u53f7\u7b97\u51fa\u6765\u3002\u21d2 `#864`\u2462",
  "gate_ok": false,
  "seed": 303,
- "nperm": 200
+ "nperm": 200,
+ "entry_backfilled": 864,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

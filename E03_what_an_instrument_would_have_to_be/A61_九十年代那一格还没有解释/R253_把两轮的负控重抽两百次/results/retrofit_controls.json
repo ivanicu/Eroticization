@@ -62,7 +62,9 @@
  "n_tol_below_noise": 4,
  "flips_with_n": false,
  "admissible": true,
- "verdict": "**两轮的负控都没有分辨率,而且与合成样本量无关(n=2000 与 4000 同结论)。**\n  当初的容差 0.08 ÷ 自己的噪声半宽 = `#805`(R n=2000 **0.14×** · `#805`(R n=4000 **0.23×** · `#806`(R n=2000 **0.15×** · `#806`(R n=4000 **0.28×**\n  ⇒ **容差比噪声窄一个数量级 ⇒ 那条控制是随机开火的:通过与失败都不携带信息。**\n  ⇒ **`#805` 与 `#806` 的「控制全过」要改成「负控没有分辨率,正控与 g=0 控制仍然成立」。**\n  ⚠ **两轮的结论都不因此改变 —— 改变的是它们能声称的强度。**",
+ "verdict": "**\u4e24\u8f6e\u7684\u8d1f\u63a7\u90fd\u6ca1\u6709\u5206\u8fa8\u7387,\u800c\u4e14\u4e0e\u5408\u6210\u6837\u672c\u91cf\u65e0\u5173(n=2000 \u4e0e 4000 \u540c\u7ed3\u8bba)\u3002**\n  \u5f53\u521d\u7684\u5bb9\u5dee 0.08 \u00f7 \u81ea\u5df1\u7684\u566a\u58f0\u534a\u5bbd = `#805`(R n=2000 **0.14\u00d7** \u00b7 `#805`(R n=4000 **0.23\u00d7** \u00b7 `#806`(R n=2000 **0.15\u00d7** \u00b7 `#806`(R n=4000 **0.28\u00d7**\n  \u21d2 **\u5bb9\u5dee\u6bd4\u566a\u58f0\u7a84\u4e00\u4e2a\u6570\u91cf\u7ea7 \u21d2 \u90a3\u6761\u63a7\u5236\u662f\u968f\u673a\u5f00\u706b\u7684:\u901a\u8fc7\u4e0e\u5931\u8d25\u90fd\u4e0d\u643a\u5e26\u4fe1\u606f\u3002**\n  \u21d2 **`#805` \u4e0e `#806` \u7684\u300c\u63a7\u5236\u5168\u8fc7\u300d\u8981\u6539\u6210\u300c\u8d1f\u63a7\u6ca1\u6709\u5206\u8fa8\u7387,\u6b63\u63a7\u4e0e g=0 \u63a7\u5236\u4ecd\u7136\u6210\u7acb\u300d\u3002**\n  \u26a0 **\u4e24\u8f6e\u7684\u7ed3\u8bba\u90fd\u4e0d\u56e0\u6b64\u6539\u53d8 \u2014\u2014 \u6539\u53d8\u7684\u662f\u5b83\u4eec\u80fd\u58f0\u79f0\u7684\u5f3a\u5ea6\u3002**",
  "gate_ok": false,
- "action": "Production/verify"
+ "action": "Production/verify",
+ "entry_backfilled": 814,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

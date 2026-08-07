@@ -8,7 +8,7 @@
  "machine_ms_per_debt": 0.007144866451140373,
  "rows": [
   {
-   "debt": "#145②",
+   "debt": "#145\u2461",
    "entry": 145,
    "points_to_later": false,
    "later": [],
@@ -16,7 +16,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#309①",
+   "debt": "#309\u2460",
    "entry": 309,
    "points_to_later": false,
    "later": [],
@@ -24,7 +24,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#310①",
+   "debt": "#310\u2460",
    "entry": 310,
    "points_to_later": false,
    "later": [],
@@ -32,7 +32,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#312③",
+   "debt": "#312\u2462",
    "entry": 312,
    "points_to_later": false,
    "later": [],
@@ -40,7 +40,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#313①",
+   "debt": "#313\u2460",
    "entry": 313,
    "points_to_later": false,
    "later": [],
@@ -48,7 +48,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#653②",
+   "debt": "#653\u2461",
    "entry": 653,
    "points_to_later": false,
    "later": [],
@@ -56,7 +56,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#653④",
+   "debt": "#653\u2463",
    "entry": 653,
    "points_to_later": false,
    "later": [],
@@ -64,7 +64,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#653①",
+   "debt": "#653\u2460",
    "entry": 653,
    "points_to_later": false,
    "later": [],
@@ -72,7 +72,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#653⑤",
+   "debt": "#653\u2464",
    "entry": 653,
    "points_to_later": false,
    "later": [],
@@ -80,7 +80,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#687⑤",
+   "debt": "#687\u2464",
    "entry": 687,
    "points_to_later": false,
    "later": [],
@@ -88,7 +88,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#696⑤",
+   "debt": "#696\u2464",
    "entry": 696,
    "points_to_later": false,
    "later": [],
@@ -96,7 +96,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#698⑤",
+   "debt": "#698\u2464",
    "entry": 698,
    "points_to_later": false,
    "later": [],
@@ -104,7 +104,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#698②",
+   "debt": "#698\u2461",
    "entry": 698,
    "points_to_later": false,
    "later": [],
@@ -112,7 +112,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#702②",
+   "debt": "#702\u2461",
    "entry": 702,
    "points_to_later": false,
    "later": [],
@@ -120,7 +120,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#714⑤",
+   "debt": "#714\u2464",
    "entry": 714,
    "points_to_later": false,
    "later": [],
@@ -128,7 +128,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#715③",
+   "debt": "#715\u2462",
    "entry": 715,
    "points_to_later": false,
    "later": [],
@@ -136,7 +136,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#715②",
+   "debt": "#715\u2461",
    "entry": 715,
    "points_to_later": false,
    "later": [],
@@ -144,7 +144,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#716③",
+   "debt": "#716\u2462",
    "entry": 716,
    "points_to_later": false,
    "later": [],
@@ -152,7 +152,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#717③",
+   "debt": "#717\u2462",
    "entry": 717,
    "points_to_later": false,
    "later": [],
@@ -160,7 +160,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#718①",
+   "debt": "#718\u2460",
    "entry": 718,
    "points_to_later": false,
    "later": [],
@@ -168,7 +168,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#718②",
+   "debt": "#718\u2461",
    "entry": 718,
    "points_to_later": false,
    "later": [],
@@ -176,7 +176,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#719②",
+   "debt": "#719\u2461",
    "entry": 719,
    "points_to_later": false,
    "later": [],
@@ -184,7 +184,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#719④",
+   "debt": "#719\u2463",
    "entry": 719,
    "points_to_later": false,
    "later": [],
@@ -192,7 +192,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#721③",
+   "debt": "#721\u2462",
    "entry": 721,
    "points_to_later": false,
    "later": [],
@@ -200,7 +200,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#721①",
+   "debt": "#721\u2460",
    "entry": 721,
    "points_to_later": false,
    "later": [],
@@ -208,7 +208,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#722③",
+   "debt": "#722\u2462",
    "entry": 722,
    "points_to_later": false,
    "later": [],
@@ -216,7 +216,7 @@
    "has_results_dir": false
   },
   {
-   "debt": "#722②",
+   "debt": "#722\u2461",
    "entry": 722,
    "points_to_later": false,
    "later": [],
@@ -224,7 +224,7 @@
    "has_results_dir": false
   },
   {
-   "debt": "#723③",
+   "debt": "#723\u2462",
    "entry": 723,
    "points_to_later": false,
    "later": [],
@@ -232,7 +232,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#723①",
+   "debt": "#723\u2460",
    "entry": 723,
    "points_to_later": false,
    "later": [],
@@ -240,7 +240,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#724①",
+   "debt": "#724\u2460",
    "entry": 724,
    "points_to_later": false,
    "later": [],
@@ -248,7 +248,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#724③",
+   "debt": "#724\u2462",
    "entry": 724,
    "points_to_later": false,
    "later": [],
@@ -256,7 +256,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#725②",
+   "debt": "#725\u2461",
    "entry": 725,
    "points_to_later": false,
    "later": [],
@@ -264,7 +264,7 @@
    "has_results_dir": false
   },
   {
-   "debt": "#728③",
+   "debt": "#728\u2462",
    "entry": 728,
    "points_to_later": false,
    "later": [],
@@ -272,7 +272,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#729②",
+   "debt": "#729\u2461",
    "entry": 729,
    "points_to_later": false,
    "later": [],
@@ -280,7 +280,7 @@
    "has_results_dir": false
   },
   {
-   "debt": "#730①",
+   "debt": "#730\u2460",
    "entry": 730,
    "points_to_later": false,
    "later": [],
@@ -288,7 +288,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#730③",
+   "debt": "#730\u2462",
    "entry": 730,
    "points_to_later": false,
    "later": [],
@@ -296,7 +296,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#731②",
+   "debt": "#731\u2461",
    "entry": 731,
    "points_to_later": false,
    "later": [],
@@ -304,7 +304,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#731①",
+   "debt": "#731\u2460",
    "entry": 731,
    "points_to_later": false,
    "later": [],
@@ -312,7 +312,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#732③",
+   "debt": "#732\u2462",
    "entry": 732,
    "points_to_later": false,
    "later": [],
@@ -320,7 +320,7 @@
    "has_results_dir": true
   },
   {
-   "debt": "#733②",
+   "debt": "#733\u2461",
    "entry": 733,
    "points_to_later": false,
    "later": [],
@@ -332,7 +332,9 @@
  "neg_control": true,
  "scope": "machine actions only; the human-judgement step is NOT measured here",
  "admissible": true,
- "verdict": "**B 单笔代价里人判占绝大部分 ⇒ 代价不可估,而这不等于「做不完」。** 两者都满足只有 2/124 = **2%**;分开看:`NEXT` 指向更晚条目 **2%** · 有产物目录 **91%**。\n  ⇒ **诚实的说法是「这 124 笔的代价由我量不了的那部分主导」,\n  而不是「太多了做不完」—— 后者是一堵墙,前者是一个已知的边界。**",
+ "verdict": "**B \u5355\u7b14\u4ee3\u4ef7\u91cc\u4eba\u5224\u5360\u7edd\u5927\u90e8\u5206 \u21d2 \u4ee3\u4ef7\u4e0d\u53ef\u4f30,\u800c\u8fd9\u4e0d\u7b49\u4e8e\u300c\u505a\u4e0d\u5b8c\u300d\u3002** \u4e24\u8005\u90fd\u6ee1\u8db3\u53ea\u6709 2/124 = **2%**;\u5206\u5f00\u770b:`NEXT` \u6307\u5411\u66f4\u665a\u6761\u76ee **2%** \u00b7 \u6709\u4ea7\u7269\u76ee\u5f55 **91%**\u3002\n  \u21d2 **\u8bda\u5b9e\u7684\u8bf4\u6cd5\u662f\u300c\u8fd9 124 \u7b14\u7684\u4ee3\u4ef7\u7531\u6211\u91cf\u4e0d\u4e86\u7684\u90a3\u90e8\u5206\u4e3b\u5bfc\u300d,\n  \u800c\u4e0d\u662f\u300c\u592a\u591a\u4e86\u505a\u4e0d\u5b8c\u300d\u2014\u2014 \u540e\u8005\u662f\u4e00\u5835\u5899,\u524d\u8005\u662f\u4e00\u4e2a\u5df2\u77e5\u7684\u8fb9\u754c\u3002**",
  "gate_ok": false,
- "action": "Production"
+ "action": "Production",
+ "entry_backfilled": 852,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

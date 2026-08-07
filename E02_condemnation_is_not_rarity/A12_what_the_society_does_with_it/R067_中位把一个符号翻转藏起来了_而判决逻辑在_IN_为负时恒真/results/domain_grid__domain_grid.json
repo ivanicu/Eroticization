@@ -182,5 +182,7 @@
   "\u672a\u52a0\u6743",
   "\u9886\u57df\u5212\u5206\u7531\u6211\u4ece\u6807\u7b7e\u8bfb\u51fa,\u672a\u7ecf\u590d\u6838"
  ],
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 556,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

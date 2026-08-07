@@ -501,5 +501,7 @@
   7,
   991
  ],
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 486,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

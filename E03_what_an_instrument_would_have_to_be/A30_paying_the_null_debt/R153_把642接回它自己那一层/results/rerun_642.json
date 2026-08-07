@@ -1,5 +1,5 @@
 {
- "convention": "|ρ|",
+ "convention": "|\u03c1|",
  "per_target": [
   0.19511010246794486,
   0.2352326869333304,
@@ -20,6 +20,8 @@
  "B": 400,
  "block_mean_level_n": 97,
  "block_mean_level_value": 0.3241,
- "verdict": "**旧值不可复现:两种约定的最大绝对差都 ≥0.02(最小 0.0209)**",
- "unchallenged": true
+ "verdict": "**\u65e7\u503c\u4e0d\u53ef\u590d\u73b0:\u4e24\u79cd\u7ea6\u5b9a\u7684\u6700\u5927\u7edd\u5bf9\u5dee\u90fd \u22650.02(\u6700\u5c0f 0.0209)**",
+ "unchallenged": true,
+ "entry_backfilled": 711,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

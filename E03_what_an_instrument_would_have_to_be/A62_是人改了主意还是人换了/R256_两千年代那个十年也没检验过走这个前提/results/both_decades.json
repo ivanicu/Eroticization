@@ -100,6 +100,8 @@
   "reference": 0.0
  },
  "admissible": true,
- "verdict": "**这个设计说不出两个十年的机制不同。** 1990s **14.7%** [1.1%, 37.9%] · 2000s **9.2%** [0.5%, 37.8%] —— **区间重叠。**\n  ⇒ **两个十年的构成项份额都不为零,而它们之间的差别本设计分辨不出。**\n  ⚠⚠ **而两个十年共同确定的那件事,才是要带走的:两次张开都不是纯粹的「走」。**",
- "gate_ok": false
+ "verdict": "**\u8fd9\u4e2a\u8bbe\u8ba1\u8bf4\u4e0d\u51fa\u4e24\u4e2a\u5341\u5e74\u7684\u673a\u5236\u4e0d\u540c\u3002** 1990s **14.7%** [1.1%, 37.9%] \u00b7 2000s **9.2%** [0.5%, 37.8%] \u2014\u2014 **\u533a\u95f4\u91cd\u53e0\u3002**\n  \u21d2 **\u4e24\u4e2a\u5341\u5e74\u7684\u6784\u6210\u9879\u4efd\u989d\u90fd\u4e0d\u4e3a\u96f6,\u800c\u5b83\u4eec\u4e4b\u95f4\u7684\u5dee\u522b\u672c\u8bbe\u8ba1\u5206\u8fa8\u4e0d\u51fa\u3002**\n  \u26a0\u26a0 **\u800c\u4e24\u4e2a\u5341\u5e74\u5171\u540c\u786e\u5b9a\u7684\u90a3\u4ef6\u4e8b,\u624d\u662f\u8981\u5e26\u8d70\u7684:\u4e24\u6b21\u5f20\u5f00\u90fd\u4e0d\u662f\u7eaf\u7cb9\u7684\u300c\u8d70\u300d\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 817,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

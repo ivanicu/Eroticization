@@ -56,7 +56,7 @@
  },
  "worst_wave": 2008,
  "null": {
-  "kind": "constant-Δ resampling null",
+  "kind": "constant-\u0394 resampling null",
   "median": 0.02492899751638511,
   "p95": 0.04604129301069204
  },
@@ -458,6 +458,8 @@
   "negative": true
  },
  "admissible": true,
- "verdict": "**B — ONE WAVE CARRIES IT.** LOWO spread **0.057** against a constant-Δ null whose 95th is **0.046**; dropping **2008** moves Δ from +0.051 to **+0.022** ⇒ **`#888`'s headline is an average over heterogeneous cells**, and the honest statement is the LOWO range **[+0.022, +0.079]**, not the pooled point.",
- "gate_ok": false
+ "verdict": "**B \u2014 ONE WAVE CARRIES IT.** LOWO spread **0.057** against a constant-\u0394 null whose 95th is **0.046**; dropping **2008** moves \u0394 from +0.051 to **+0.022** \u21d2 **`#888`'s headline is an average over heterogeneous cells**, and the honest statement is the LOWO range **[+0.022, +0.079]**, not the pooled point.",
+ "gate_ok": false,
+ "entry_backfilled": 889,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -16,8 +16,10 @@
   "3.030"
  ],
  "true_defects": 0,
- "decision": "不加闸:精确率 0/10,同 #733",
- "real_fix": "硬规则①的诊断只活在 stdout ⇒ 应落盘",
- "coverage": "七个实例里只覆盖一个形状,其余六个的数都在产物里,错的是用法",
- "unchallenged": true
+ "decision": "\u4e0d\u52a0\u95f8:\u7cbe\u786e\u7387 0/10,\u540c #733",
+ "real_fix": "\u786c\u89c4\u5219\u2460\u7684\u8bca\u65ad\u53ea\u6d3b\u5728 stdout \u21d2 \u5e94\u843d\u76d8",
+ "coverage": "\u4e03\u4e2a\u5b9e\u4f8b\u91cc\u53ea\u8986\u76d6\u4e00\u4e2a\u5f62\u72b6,\u5176\u4f59\u516d\u4e2a\u7684\u6570\u90fd\u5728\u4ea7\u7269\u91cc,\u9519\u7684\u662f\u7528\u6cd5",
+ "unchallenged": true,
+ "entry_backfilled": 744,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

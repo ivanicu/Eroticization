@@ -108,7 +108,7 @@
     2024
    ],
    "verdict": "UNRESOLVED",
-   "why": "年份 < 3 —— 跑前写下的规矩,不参与计数",
+   "why": "\u5e74\u4efd < 3 \u2014\u2014 \u8dd1\u524d\u5199\u4e0b\u7684\u89c4\u77e9,\u4e0d\u53c2\u4e0e\u8ba1\u6570",
    "dgap": null,
    "lo": null,
    "hi": null
@@ -180,6 +180,8 @@
   ]
  },
  "admissible": true,
- "verdict": "**B 这条鸿沟有它自己的年代。** 偏离匀速的十年:**['1980s(+0.052)', '1990s(-0.629)', '2000s(-0.476)']**。\n  ⇒ **一句关于人的话:虔诚者与其余人在同性恋这道题上的距离,不是五十年里一点点长出来的 ——\n  它在某个时候裂开,而其余的时间它走的和匀速模型说的不一样。**\n  ⚠⚠ **而 2010 年代那一格是本轮的分离器**:Δgap = **+0.0228** [-0.2074, +0.2518] ⇒ 对匀速 **UNRESOLVED** · 对零 **UNRESOLVED**\n  ⇒ **GSS 的 2010 年代对零不是窄零 ⇒ 它与 NSFG 的窄零并不一致 ⇒\n  「两具仪器不一致」仍然活着,而下一轮该去查人群(15–49 岁女性)那一条。**",
- "gate_ok": false
+ "verdict": "**B \u8fd9\u6761\u9e3f\u6c9f\u6709\u5b83\u81ea\u5df1\u7684\u5e74\u4ee3\u3002** \u504f\u79bb\u5300\u901f\u7684\u5341\u5e74:**['1980s(+0.052)', '1990s(-0.629)', '2000s(-0.476)']**\u3002\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd:\u8654\u8bda\u8005\u4e0e\u5176\u4f59\u4eba\u5728\u540c\u6027\u604b\u8fd9\u9053\u9898\u4e0a\u7684\u8ddd\u79bb,\u4e0d\u662f\u4e94\u5341\u5e74\u91cc\u4e00\u70b9\u70b9\u957f\u51fa\u6765\u7684 \u2014\u2014\n  \u5b83\u5728\u67d0\u4e2a\u65f6\u5019\u88c2\u5f00,\u800c\u5176\u4f59\u7684\u65f6\u95f4\u5b83\u8d70\u7684\u548c\u5300\u901f\u6a21\u578b\u8bf4\u7684\u4e0d\u4e00\u6837\u3002**\n  \u26a0\u26a0 **\u800c 2010 \u5e74\u4ee3\u90a3\u4e00\u683c\u662f\u672c\u8f6e\u7684\u5206\u79bb\u5668**:\u0394gap = **+0.0228** [-0.2074, +0.2518] \u21d2 \u5bf9\u5300\u901f **UNRESOLVED** \u00b7 \u5bf9\u96f6 **UNRESOLVED**\n  \u21d2 **GSS \u7684 2010 \u5e74\u4ee3\u5bf9\u96f6\u4e0d\u662f\u7a84\u96f6 \u21d2 \u5b83\u4e0e NSFG \u7684\u7a84\u96f6\u5e76\u4e0d\u4e00\u81f4 \u21d2\n  \u300c\u4e24\u5177\u4eea\u5668\u4e0d\u4e00\u81f4\u300d\u4ecd\u7136\u6d3b\u7740,\u800c\u4e0b\u4e00\u8f6e\u8be5\u53bb\u67e5\u4eba\u7fa4(15\u201349 \u5c81\u5973\u6027)\u90a3\u4e00\u6761\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 812,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

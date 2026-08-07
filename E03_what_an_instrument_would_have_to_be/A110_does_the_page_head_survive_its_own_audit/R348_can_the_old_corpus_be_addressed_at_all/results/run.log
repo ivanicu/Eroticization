@@ -1,0 +1,37 @@
+=== (0) POPULATION — counted before anything is claimed ===
+  ledger entries 894 · of which carrying a round address 684 (76.5%)
+  persisted artifacts 458 · round scripts 869
+
+  ⚠ **66 of 349 R-numbers map to MORE THAN ONE entry** — the confound measured before the run
+     R6 -> [226, 227, 230, 231, 235, 236] …
+     R7 -> [228, 252, 254, 255, 257, 258] …
+     R8 -> [229, 232, 234]
+     R9 -> [233, 240, 242, 244, 246, 248] …
+  ⇒ `P16`'s ORIGINAL scheme had a big `R` theme containing `rNN` sub-rounds; 'R = one belief update' came later. **The numbering changed mid-project.**
+  round dirs whose script declares an entry: 127
+
+=== (1) POSITIVE CONTROL — `R347` must resolve to `#909` and the routes must agree ===
+  R347_did_the_instruments_transfer      {'artifact_key': 909, 'script_header': 909, 'ledger_address': 909} ⇒ agree on one value: True
+  negative control — invented R99999 resolves to nothing: **True**
+
+=== (2) COVERAGE BY ROUTE, AND WHERE THE ROUTES DISAGREE ===
+  route artifact_key     resolves   16/458  (  3.5%)
+  route script_header    resolves  139/458  ( 30.3%)
+  route ledger_address   resolves  260/458  ( 56.8%)
+
+  **union (>=1 route): 268/458 = 58.5%** · agreeing on one value: 267 · **conflicting: 1** · **unresolved: 190**
+     ⚠ CONFLICT R318_the_rerun_with_both_controls_   {'artifact_key': None, 'script_header': 879, 'ledger_address': 884}
+  of the unresolved, **189** sit under an AMBIGUOUS R (the old sub-round scheme) — ⚠ **left unassigned, because a machine may not invent a WHY (`L80`)**
+
+=== (3) THE ANNOTATION — a NEW key, never overwriting an existing `entry` ===
+  artifacts annotated with `entry_backfilled`: **251** (existing `entry` keys untouched — `L81`)
+
+=== (4) THE CONDITIONAL KILL — four cells, all assigned before the run ===
+  union 58.5% · conflicts 0.4% of resolvable · positive True · negative True
+  **VERDICT OVERTURNED · PARTIAL — only 58.5% resolve, so 'back-filling is MECHANICAL' is WRONG for 41.5% of the corpus, and every residue count stays a floor**
+
+  ⚠ AN ARTIFACT'S DIRECTORY IS EVIDENCE OF WHERE IT WAS WRITTEN, NOT OF WHICH ENTRY
+     CLAIMED IT. The three routes agreeing is what makes this evidence rather than a guess,
+     and the ambiguous-R residue is left UNASSIGNED. `[unchallenged]` — `door ③`.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A110_does_the_page_head_survive_its_own_audit/R348_can_the_old_corpus_be_addressed_at_all/results/addressability.json

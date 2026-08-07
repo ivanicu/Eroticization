@@ -38,23 +38,23 @@
    "token": "1, 2",
    "n_rounds": 17,
    "files": [
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的地方它跟着稀有度_压不住的地方它脱钩/gss_gap_over_51_years.py",
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_同一份问卷里只换话题_差距就动_0_90_而跨仪器只差_0_20/within_instrument_topic_spread.py",
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/out_of_sample_point_with_sex.py",
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R079_跨两者比非性内还高/cross_domain.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/apc_grid.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/denominator.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/partial_out.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/shape.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R083_六步_每一步都被一个检验杀掉_而分段敏感性补上了/banding_sensitivity.py",
-    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R297_道德判断与公民制裁的缝一样宽吗/judgement_versus_sanction.py",
-    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R298_同一个人会不会一边说错一边放行/inside_one_head.py",
-    "E03_what_an_instrument_would_have_to_be/A92_裂口自己在变宽是哪一边动的/R300_道德那条缝变宽还是制裁那条缝变窄/which_side_moved_the_split.py",
-    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R301_七根轴在放行题上重排一次/which_cleavage_carries_sanction.py",
-    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py",
-    "E03_what_an_instrument_would_have_to_be/A94_把两端拉开和解释了多少是同一件事吗/R303_中间那三分之一站在哪边/where_the_middle_third_stands.py",
-    "E03_what_an_instrument_would_have_to_be/A95_那几块孤立的少数是不是同一批人/R304_一个人能同时落在几块里/how_many_blocs_per_person.py",
-    "E03_what_an_instrument_would_have_to_be/A96_不在任何一块里的反对者是谁/R305_同一条尺上的两个位置还是两种反对/two_kinds_of_refusal.py"
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_\u8c34\u8d23\u538b\u5f97\u4f4f\u7684\u5730\u65b9\u5b83\u8ddf\u7740\u7a00\u6709\u5ea6_\u538b\u4e0d\u4f4f\u7684\u5730\u65b9\u5b83\u8131\u94a9/gss_gap_over_51_years.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_\u540c\u4e00\u4efd\u95ee\u5377\u91cc\u53ea\u6362\u8bdd\u9898_\u5dee\u8ddd\u5c31\u52a8_0_90_\u800c\u8de8\u4eea\u5668\u53ea\u5dee_0_20/within_instrument_topic_spread.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_\u4e09\u4e2a\u8bdd\u9898\u5f80\u4e0b_\u4e09\u4e2a\u5f80\u4e0a_\u800c\u6211\u628a\u5b83\u4eec\u5e73\u5747\u6210\u4e86\u4e00\u4e2a\u96f6/out_of_sample_point_with_sex.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R079_\u8de8\u4e24\u8005\u6bd4\u975e\u6027\u5185\u8fd8\u9ad8/cross_domain.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/apc_grid.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/denominator.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/partial_out.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/shape.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R083_\u516d\u6b65_\u6bcf\u4e00\u6b65\u90fd\u88ab\u4e00\u4e2a\u68c0\u9a8c\u6740\u6389_\u800c\u5206\u6bb5\u654f\u611f\u6027\u8865\u4e0a\u4e86/banding_sensitivity.py",
+    "E03_what_an_instrument_would_have_to_be/A90_\u662f\u9519\u7684\u548c\u4e0d\u8bb8\u4ed6\u6559\u4e66\u662f\u4e24\u4ef6\u4e8b\u5417/R297_\u9053\u5fb7\u5224\u65ad\u4e0e\u516c\u6c11\u5236\u88c1\u7684\u7f1d\u4e00\u6837\u5bbd\u5417/judgement_versus_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A90_\u662f\u9519\u7684\u548c\u4e0d\u8bb8\u4ed6\u6559\u4e66\u662f\u4e24\u4ef6\u4e8b\u5417/R298_\u540c\u4e00\u4e2a\u4eba\u4f1a\u4e0d\u4f1a\u4e00\u8fb9\u8bf4\u9519\u4e00\u8fb9\u653e\u884c/inside_one_head.py",
+    "E03_what_an_instrument_would_have_to_be/A92_\u88c2\u53e3\u81ea\u5df1\u5728\u53d8\u5bbd\u662f\u54ea\u4e00\u8fb9\u52a8\u7684/R300_\u9053\u5fb7\u90a3\u6761\u7f1d\u53d8\u5bbd\u8fd8\u662f\u5236\u88c1\u90a3\u6761\u7f1d\u53d8\u7a84/which_side_moved_the_split.py",
+    "E03_what_an_instrument_would_have_to_be/A93_\u5b97\u6559\u662f\u4e0d\u662f\u8fd9\u4e2a\u5bf9\u8c61\u7684\u90a3\u6839\u8f74/R301_\u4e03\u6839\u8f74\u5728\u653e\u884c\u9898\u4e0a\u91cd\u6392\u4e00\u6b21/which_cleavage_carries_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A93_\u5b97\u6559\u662f\u4e0d\u662f\u8fd9\u4e2a\u5bf9\u8c61\u7684\u90a3\u6839\u8f74/R302_\u540c\u4e00\u628a\u5c3a\u67b6\u5230\u9053\u5fb7\u9898\u4e0a/which_cleavage_carries_the_moral_side.py",
+    "E03_what_an_instrument_would_have_to_be/A94_\u628a\u4e24\u7aef\u62c9\u5f00\u548c\u89e3\u91ca\u4e86\u591a\u5c11\u662f\u540c\u4e00\u4ef6\u4e8b\u5417/R303_\u4e2d\u95f4\u90a3\u4e09\u5206\u4e4b\u4e00\u7ad9\u5728\u54ea\u8fb9/where_the_middle_third_stands.py",
+    "E03_what_an_instrument_would_have_to_be/A95_\u90a3\u51e0\u5757\u5b64\u7acb\u7684\u5c11\u6570\u662f\u4e0d\u662f\u540c\u4e00\u6279\u4eba/R304_\u4e00\u4e2a\u4eba\u80fd\u540c\u65f6\u843d\u5728\u51e0\u5757\u91cc/how_many_blocs_per_person.py",
+    "E03_what_an_instrument_would_have_to_be/A96_\u4e0d\u5728\u4efb\u4f55\u4e00\u5757\u91cc\u7684\u53cd\u5bf9\u8005\u662f\u8c01/R305_\u540c\u4e00\u6761\u5c3a\u4e0a\u7684\u4e24\u4e2a\u4f4d\u7f6e\u8fd8\u662f\u4e24\u79cd\u53cd\u5bf9/two_kinds_of_refusal.py"
    ]
   },
   {
@@ -62,22 +62,22 @@
    "token": "1, 2, 3, 4",
    "n_rounds": 16,
    "files": [
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_换机构_换话题_换施测模式_那道差距的大小几乎一样/nsfg_acasi_replication.py",
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_同一份问卷里只换话题_差距就动_0_90_而跨仪器只差_0_20/within_instrument_topic_spread.py",
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/freeze_and_one_out_of_sample_point.py",
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/out_of_sample_point_with_sex.py",
-    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R061_一件一件松开_而我先给自己造了一个不是天花板的天花板/longer_baseline.py",
-    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R061_一件一件松开_而我先给自己造了一个不是天花板的天花板/matched_noise_and_disjoint_people.py",
-    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R062_三个单位_三个答案_人有一套性道德_社会和年代没有/format_matched_reference.py",
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R078_换一种分法_符号就翻了_557_的结论是我那次划分的产物/beyond_44.py",
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R079_跨两者比非性内还高/cross_domain.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/apc_grid.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/denominator.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/partial_out.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_跨几乎不动_动的是分母/shape.py",
-    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R083_六步_每一步都被一个检验杀掉_而分段敏感性补上了/banding_sensitivity.py",
-    "E03_what_an_instrument_would_have_to_be/A89_虔诚有两张脸/R295_公共的那张和私人的那张分开量/two_faces_of_religiosity.py",
-    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py"
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_\u6362\u673a\u6784_\u6362\u8bdd\u9898_\u6362\u65bd\u6d4b\u6a21\u5f0f_\u90a3\u9053\u5dee\u8ddd\u7684\u5927\u5c0f\u51e0\u4e4e\u4e00\u6837/nsfg_acasi_replication.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_\u540c\u4e00\u4efd\u95ee\u5377\u91cc\u53ea\u6362\u8bdd\u9898_\u5dee\u8ddd\u5c31\u52a8_0_90_\u800c\u8de8\u4eea\u5668\u53ea\u5dee_0_20/within_instrument_topic_spread.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_\u4e09\u4e2a\u8bdd\u9898\u5f80\u4e0b_\u4e09\u4e2a\u5f80\u4e0a_\u800c\u6211\u628a\u5b83\u4eec\u5e73\u5747\u6210\u4e86\u4e00\u4e2a\u96f6/freeze_and_one_out_of_sample_point.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_\u4e09\u4e2a\u8bdd\u9898\u5f80\u4e0b_\u4e09\u4e2a\u5f80\u4e0a_\u800c\u6211\u628a\u5b83\u4eec\u5e73\u5747\u6210\u4e86\u4e00\u4e2a\u96f6/out_of_sample_point_with_sex.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R061_\u4e00\u4ef6\u4e00\u4ef6\u677e\u5f00_\u800c\u6211\u5148\u7ed9\u81ea\u5df1\u9020\u4e86\u4e00\u4e2a\u4e0d\u662f\u5929\u82b1\u677f\u7684\u5929\u82b1\u677f/longer_baseline.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R061_\u4e00\u4ef6\u4e00\u4ef6\u677e\u5f00_\u800c\u6211\u5148\u7ed9\u81ea\u5df1\u9020\u4e86\u4e00\u4e2a\u4e0d\u662f\u5929\u82b1\u677f\u7684\u5929\u82b1\u677f/matched_noise_and_disjoint_people.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R062_\u4e09\u4e2a\u5355\u4f4d_\u4e09\u4e2a\u7b54\u6848_\u4eba\u6709\u4e00\u5957\u6027\u9053\u5fb7_\u793e\u4f1a\u548c\u5e74\u4ee3\u6ca1\u6709/format_matched_reference.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R078_\u6362\u4e00\u79cd\u5206\u6cd5_\u7b26\u53f7\u5c31\u7ffb\u4e86_557_\u7684\u7ed3\u8bba\u662f\u6211\u90a3\u6b21\u5212\u5206\u7684\u4ea7\u7269/beyond_44.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R079_\u8de8\u4e24\u8005\u6bd4\u975e\u6027\u5185\u8fd8\u9ad8/cross_domain.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/apc_grid.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/denominator.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/partial_out.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R082_\u8de8\u51e0\u4e4e\u4e0d\u52a8_\u52a8\u7684\u662f\u5206\u6bcd/shape.py",
+    "E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R083_\u516d\u6b65_\u6bcf\u4e00\u6b65\u90fd\u88ab\u4e00\u4e2a\u68c0\u9a8c\u6740\u6389_\u800c\u5206\u6bb5\u654f\u611f\u6027\u8865\u4e0a\u4e86/banding_sensitivity.py",
+    "E03_what_an_instrument_would_have_to_be/A89_\u8654\u8bda\u6709\u4e24\u5f20\u8138/R295_\u516c\u5171\u7684\u90a3\u5f20\u548c\u79c1\u4eba\u7684\u90a3\u5f20\u5206\u5f00\u91cf/two_faces_of_religiosity.py",
+    "E03_what_an_instrument_would_have_to_be/A93_\u5b97\u6559\u662f\u4e0d\u662f\u8fd9\u4e2a\u5bf9\u8c61\u7684\u90a3\u6839\u8f74/R302_\u540c\u4e00\u628a\u5c3a\u67b6\u5230\u9053\u5fb7\u9898\u4e0a/which_cleavage_carries_the_moral_side.py"
    ]
   },
   {
@@ -115,14 +115,14 @@
    "token": "4, 5",
    "n_rounds": 8,
    "files": [
-    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R297_道德判断与公民制裁的缝一样宽吗/judgement_versus_sanction.py",
-    "E03_what_an_instrument_would_have_to_be/A90_是错的和不许他教书是两件事吗/R298_同一个人会不会一边说错一边放行/inside_one_head.py",
-    "E03_what_an_instrument_would_have_to_be/A92_裂口自己在变宽是哪一边动的/R300_道德那条缝变宽还是制裁那条缝变窄/which_side_moved_the_split.py",
-    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R301_七根轴在放行题上重排一次/which_cleavage_carries_sanction.py",
-    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py",
-    "E03_what_an_instrument_would_have_to_be/A94_把两端拉开和解释了多少是同一件事吗/R303_中间那三分之一站在哪边/where_the_middle_third_stands.py",
-    "E03_what_an_instrument_would_have_to_be/A95_那几块孤立的少数是不是同一批人/R304_一个人能同时落在几块里/how_many_blocs_per_person.py",
-    "E03_what_an_instrument_would_have_to_be/A96_不在任何一块里的反对者是谁/R305_同一条尺上的两个位置还是两种反对/two_kinds_of_refusal.py"
+    "E03_what_an_instrument_would_have_to_be/A90_\u662f\u9519\u7684\u548c\u4e0d\u8bb8\u4ed6\u6559\u4e66\u662f\u4e24\u4ef6\u4e8b\u5417/R297_\u9053\u5fb7\u5224\u65ad\u4e0e\u516c\u6c11\u5236\u88c1\u7684\u7f1d\u4e00\u6837\u5bbd\u5417/judgement_versus_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A90_\u662f\u9519\u7684\u548c\u4e0d\u8bb8\u4ed6\u6559\u4e66\u662f\u4e24\u4ef6\u4e8b\u5417/R298_\u540c\u4e00\u4e2a\u4eba\u4f1a\u4e0d\u4f1a\u4e00\u8fb9\u8bf4\u9519\u4e00\u8fb9\u653e\u884c/inside_one_head.py",
+    "E03_what_an_instrument_would_have_to_be/A92_\u88c2\u53e3\u81ea\u5df1\u5728\u53d8\u5bbd\u662f\u54ea\u4e00\u8fb9\u52a8\u7684/R300_\u9053\u5fb7\u90a3\u6761\u7f1d\u53d8\u5bbd\u8fd8\u662f\u5236\u88c1\u90a3\u6761\u7f1d\u53d8\u7a84/which_side_moved_the_split.py",
+    "E03_what_an_instrument_would_have_to_be/A93_\u5b97\u6559\u662f\u4e0d\u662f\u8fd9\u4e2a\u5bf9\u8c61\u7684\u90a3\u6839\u8f74/R301_\u4e03\u6839\u8f74\u5728\u653e\u884c\u9898\u4e0a\u91cd\u6392\u4e00\u6b21/which_cleavage_carries_sanction.py",
+    "E03_what_an_instrument_would_have_to_be/A93_\u5b97\u6559\u662f\u4e0d\u662f\u8fd9\u4e2a\u5bf9\u8c61\u7684\u90a3\u6839\u8f74/R302_\u540c\u4e00\u628a\u5c3a\u67b6\u5230\u9053\u5fb7\u9898\u4e0a/which_cleavage_carries_the_moral_side.py",
+    "E03_what_an_instrument_would_have_to_be/A94_\u628a\u4e24\u7aef\u62c9\u5f00\u548c\u89e3\u91ca\u4e86\u591a\u5c11\u662f\u540c\u4e00\u4ef6\u4e8b\u5417/R303_\u4e2d\u95f4\u90a3\u4e09\u5206\u4e4b\u4e00\u7ad9\u5728\u54ea\u8fb9/where_the_middle_third_stands.py",
+    "E03_what_an_instrument_would_have_to_be/A95_\u90a3\u51e0\u5757\u5b64\u7acb\u7684\u5c11\u6570\u662f\u4e0d\u662f\u540c\u4e00\u6279\u4eba/R304_\u4e00\u4e2a\u4eba\u80fd\u540c\u65f6\u843d\u5728\u51e0\u5757\u91cc/how_many_blocs_per_person.py",
+    "E03_what_an_instrument_would_have_to_be/A96_\u4e0d\u5728\u4efb\u4f55\u4e00\u5757\u91cc\u7684\u53cd\u5bf9\u8005\u662f\u8c01/R305_\u540c\u4e00\u6761\u5c3a\u4e0a\u7684\u4e24\u4e2a\u4f4d\u7f6e\u8fd8\u662f\u4e24\u79cd\u53cd\u5bf9/two_kinds_of_refusal.py"
    ]
   },
   {
@@ -130,12 +130,12 @@
    "token": "PURITY",
    "n_rounds": 6,
    "files": [
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/is_decency_an_omnibus.py",
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/ratio_and_the_ceiling.py",
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/summary_or_extra.py",
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/upstream_or_passenger.py",
-    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_参照那个_0_093_是一堆符号随机的零取了绝对值/which_item_carries_it.py",
-    "E03_what_an_instrument_would_have_to_be/A18_distance_to_the_ceiling/R093_我下注纯洁的领先是天花板造的_而它比生的数还要更领先/purity_against_its_ceiling.py"
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_\u53c2\u7167\u90a3\u4e2a_0_093_\u662f\u4e00\u5806\u7b26\u53f7\u968f\u673a\u7684\u96f6\u53d6\u4e86\u7edd\u5bf9\u503c/is_decency_an_omnibus.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_\u53c2\u7167\u90a3\u4e2a_0_093_\u662f\u4e00\u5806\u7b26\u53f7\u968f\u673a\u7684\u96f6\u53d6\u4e86\u7edd\u5bf9\u503c/ratio_and_the_ceiling.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_\u53c2\u7167\u90a3\u4e2a_0_093_\u662f\u4e00\u5806\u7b26\u53f7\u968f\u673a\u7684\u96f6\u53d6\u4e86\u7edd\u5bf9\u503c/summary_or_extra.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_\u53c2\u7167\u90a3\u4e2a_0_093_\u662f\u4e00\u5806\u7b26\u53f7\u968f\u673a\u7684\u96f6\u53d6\u4e86\u7edd\u5bf9\u503c/upstream_or_passenger.py",
+    "E02_condemnation_is_not_rarity/A13_one_ruler_at_the_person_level/R080_\u53c2\u7167\u90a3\u4e2a_0_093_\u662f\u4e00\u5806\u7b26\u53f7\u968f\u673a\u7684\u96f6\u53d6\u4e86\u7edd\u5bf9\u503c/which_item_carries_it.py",
+    "E03_what_an_instrument_would_have_to_be/A18_distance_to_the_ceiling/R093_\u6211\u4e0b\u6ce8\u7eaf\u6d01\u7684\u9886\u5148\u662f\u5929\u82b1\u677f\u9020\u7684_\u800c\u5b83\u6bd4\u751f\u7684\u6570\u8fd8\u8981\u66f4\u9886\u5148/purity_against_its_ceiling.py"
    ]
   },
   {
@@ -153,9 +153,9 @@
    "token": "1,2",
    "n_rounds": 3,
    "files": [
-    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R101_稀有度驱动谴责吗/condemnation_vs_prevalence.py",
-    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R102_是不是2021年那次换问法/mode_or_structure.py",
-    "E03_what_an_instrument_would_have_to_be/A32_性克制是不是唯一按对象分档的/R171_七个面里有几个撑得过多重性/bh_over_facets.py"
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R101_\u7a00\u6709\u5ea6\u9a71\u52a8\u8c34\u8d23\u5417/condemnation_vs_prevalence.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R102_\u662f\u4e0d\u662f2021\u5e74\u90a3\u6b21\u6362\u95ee\u6cd5/mode_or_structure.py",
+    "E03_what_an_instrument_would_have_to_be/A32_\u6027\u514b\u5236\u662f\u4e0d\u662f\u552f\u4e00\u6309\u5bf9\u8c61\u5206\u6863\u7684/R171_\u4e03\u4e2a\u9762\u91cc\u6709\u51e0\u4e2a\u6491\u5f97\u8fc7\u591a\u91cd\u6027/bh_over_facets.py"
    ]
   },
   {
@@ -163,9 +163,9 @@
    "token": "2022,2024",
    "n_rounds": 3,
    "files": [
-    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R103_是性题特有还是所有道德题/sexual_or_all_moral.py",
-    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R104_方向一致性是不是性题特有/direction_consistency.py",
-    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R105_说不出口的是谁/who_cannot_say_it.py"
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R103_\u662f\u6027\u9898\u7279\u6709\u8fd8\u662f\u6240\u6709\u9053\u5fb7\u9898/sexual_or_all_moral.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R104_\u65b9\u5411\u4e00\u81f4\u6027\u662f\u4e0d\u662f\u6027\u9898\u7279\u6709/direction_consistency.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R105_\u8bf4\u4e0d\u51fa\u53e3\u7684\u662f\u8c01/who_cannot_say_it.py"
    ]
   },
   {
@@ -173,9 +173,9 @@
    "token": "homosex",
    "n_rounds": 3,
    "files": [
-    "E03_what_an_instrument_would_have_to_be/A23_in_what_way_does_it_hold/R121_为什么是同性恋这一题/why_this_item.py",
-    "E03_what_an_instrument_would_have_to_be/A35_年代这个单位/R184_是搬进性道德还是搬进政治/into_what.py",
-    "E03_what_an_instrument_would_have_to_be/A69_那个2点5倍是原始量表分/R263_换五种归一化再看谁是例外/is_the_exception_a_scale_artifact.py"
+    "E03_what_an_instrument_would_have_to_be/A23_in_what_way_does_it_hold/R121_\u4e3a\u4ec0\u4e48\u662f\u540c\u6027\u604b\u8fd9\u4e00\u9898/why_this_item.py",
+    "E03_what_an_instrument_would_have_to_be/A35_\u5e74\u4ee3\u8fd9\u4e2a\u5355\u4f4d/R184_\u662f\u642c\u8fdb\u6027\u9053\u5fb7\u8fd8\u662f\u642c\u8fdb\u653f\u6cbb/into_what.py",
+    "E03_what_an_instrument_would_have_to_be/A69_\u90a3\u4e2a2\u70b95\u500d\u662f\u539f\u59cb\u91cf\u8868\u5206/R263_\u6362\u4e94\u79cd\u5f52\u4e00\u5316\u518d\u770b\u8c01\u662f\u4f8b\u5916/is_the_exception_a_scale_artifact.py"
    ]
   },
   {
@@ -183,8 +183,8 @@
    "token": "1, 2, 3",
    "n_rounds": 2,
    "files": [
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_谴责压得住的地方它跟着稀有度_压不住的地方它脱钩/gss_gap_over_51_years.py",
-    "E03_what_an_instrument_would_have_to_be/A93_宗教是不是这个对象的那根轴/R302_同一把尺架到道德题上/which_cleavage_carries_the_moral_side.py"
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R045_\u8c34\u8d23\u538b\u5f97\u4f4f\u7684\u5730\u65b9\u5b83\u8ddf\u7740\u7a00\u6709\u5ea6_\u538b\u4e0d\u4f4f\u7684\u5730\u65b9\u5b83\u8131\u94a9/gss_gap_over_51_years.py",
+    "E03_what_an_instrument_would_have_to_be/A93_\u5b97\u6559\u662f\u4e0d\u662f\u8fd9\u4e2a\u5bf9\u8c61\u7684\u90a3\u6839\u8f74/R302_\u540c\u4e00\u628a\u5c3a\u67b6\u5230\u9053\u5fb7\u9898\u4e0a/which_cleavage_carries_the_moral_side.py"
    ]
   },
   {
@@ -192,8 +192,8 @@
    "token": "2022, 2024",
    "n_rounds": 2,
    "files": [
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_十分之一的人算不算_看过_取决于他被递到哪一道题/randomised_wording_arms.py",
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_十分之一的人算不算_看过_取决于他被递到哪一道题/who_does_the_format_select.py"
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_\u5341\u5206\u4e4b\u4e00\u7684\u4eba\u7b97\u4e0d\u7b97_\u770b\u8fc7_\u53d6\u51b3\u4e8e\u4ed6\u88ab\u9012\u5230\u54ea\u4e00\u9053\u9898/randomised_wording_arms.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R047_\u5341\u5206\u4e4b\u4e00\u7684\u4eba\u7b97\u4e0d\u7b97_\u770b\u8fc7_\u53d6\u51b3\u4e8e\u4ed6\u88ab\u9012\u5230\u54ea\u4e00\u9053\u9898/who_does_the_format_select.py"
    ]
   },
   {
@@ -201,8 +201,8 @@
    "token": "3, 4",
    "n_rounds": 2,
    "files": [
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_换机构_换话题_换施测模式_那道差距的大小几乎一样/nsfg_acasi_replication.py",
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_同一份问卷里只换话题_差距就动_0_90_而跨仪器只差_0_20/within_instrument_topic_spread.py"
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R048_\u6362\u673a\u6784_\u6362\u8bdd\u9898_\u6362\u65bd\u6d4b\u6a21\u5f0f_\u90a3\u9053\u5dee\u8ddd\u7684\u5927\u5c0f\u51e0\u4e4e\u4e00\u6837/nsfg_acasi_replication.py",
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R049_\u540c\u4e00\u4efd\u95ee\u5377\u91cc\u53ea\u6362\u8bdd\u9898_\u5dee\u8ddd\u5c31\u52a8_0_90_\u800c\u8de8\u4eea\u5668\u53ea\u5dee_0_20/within_instrument_topic_spread.py"
    ]
   },
   {
@@ -210,8 +210,8 @@
    "token": "2, 3",
    "n_rounds": 2,
    "files": [
-    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_三个话题往下_三个往上_而我把它们平均成了一个零/out_of_sample_point_with_sex.py",
-    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R060_严厉的社会_这种东西_在这份数据里没有证据/is_strictness_a_society_trait.py"
+    "E02_condemnation_is_not_rarity/A11_is_condemnation_coupled_to_rarity/R052_\u4e09\u4e2a\u8bdd\u9898\u5f80\u4e0b_\u4e09\u4e2a\u5f80\u4e0a_\u800c\u6211\u628a\u5b83\u4eec\u5e73\u5747\u6210\u4e86\u4e00\u4e2a\u96f6/out_of_sample_point_with_sex.py",
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R060_\u4e25\u5389\u7684\u793e\u4f1a_\u8fd9\u79cd\u4e1c\u897f_\u5728\u8fd9\u4efd\u6570\u636e\u91cc\u6ca1\u6709\u8bc1\u636e/is_strictness_a_society_trait.py"
    ]
   },
   {
@@ -219,8 +219,8 @@
    "token": "1, 2, 3, 4, 5",
    "n_rounds": 2,
    "files": [
-    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R065_面内高于面间_而那是设计_prior_art_这一行第一次自己举了手/facets_inside_sex.py",
-    "E03_what_an_instrument_would_have_to_be/A87_那条缝换一份问卷还在不在/R292_第一次跨仪器复现/two_questionnaires_one_divide.py"
+    "E02_condemnation_is_not_rarity/A12_what_the_society_does_with_it/R065_\u9762\u5185\u9ad8\u4e8e\u9762\u95f4_\u800c\u90a3\u662f\u8bbe\u8ba1_prior_art_\u8fd9\u4e00\u884c\u7b2c\u4e00\u6b21\u81ea\u5df1\u4e3e\u4e86\u624b/facets_inside_sex.py",
+    "E03_what_an_instrument_would_have_to_be/A87_\u90a3\u6761\u7f1d\u6362\u4e00\u4efd\u95ee\u5377\u8fd8\u5728\u4e0d\u5728/R292_\u7b2c\u4e00\u6b21\u8de8\u4eea\u5668\u590d\u73b0/two_questionnaires_one_divide.py"
    ]
   },
   {
@@ -228,8 +228,8 @@
    "token": "1,2,3,4",
    "n_rounds": 2,
    "files": [
-    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R101_稀有度驱动谴责吗/condemnation_vs_prevalence.py",
-    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R102_是不是2021年那次换问法/mode_or_structure.py"
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R101_\u7a00\u6709\u5ea6\u9a71\u52a8\u8c34\u8d23\u5417/condemnation_vs_prevalence.py",
+    "E03_what_an_instrument_would_have_to_be/A19_is_condemnation_upstream/R102_\u662f\u4e0d\u662f2021\u5e74\u90a3\u6b21\u6362\u95ee\u6cd5/mode_or_structure.py"
    ]
   },
   {
@@ -237,8 +237,8 @@
    "token": "y0, y1",
    "n_rounds": 2,
    "files": [
-    "E03_what_an_instrument_would_have_to_be/A62_是人改了主意还是人换了/R256_两千年代那个十年也没检验过走这个前提/both_decades.py",
-    "E03_what_an_instrument_would_have_to_be/A63_虔诚者自己做了什么/R257_停住了还是往回走了/did_the_devout_turn_back.py"
+    "E03_what_an_instrument_would_have_to_be/A62_\u662f\u4eba\u6539\u4e86\u4e3b\u610f\u8fd8\u662f\u4eba\u6362\u4e86/R256_\u4e24\u5343\u5e74\u4ee3\u90a3\u4e2a\u5341\u5e74\u4e5f\u6ca1\u68c0\u9a8c\u8fc7\u8d70\u8fd9\u4e2a\u524d\u63d0/both_decades.py",
+    "E03_what_an_instrument_would_have_to_be/A63_\u8654\u8bda\u8005\u81ea\u5df1\u505a\u4e86\u4ec0\u4e48/R257_\u505c\u4f4f\u4e86\u8fd8\u662f\u5f80\u56de\u8d70\u4e86/did_the_devout_turn_back.py"
    ]
   },
   {
@@ -246,8 +246,8 @@
    "token": "NOT_ASKED",
    "n_rounds": 2,
    "files": [
-    "E03_what_an_instrument_would_have_to_be/A64_裂开的时点是不是同一个/R258_八题的十年网格/same_decade_or_not.py",
-    "E03_what_an_instrument_would_have_to_be/A65_宗教这个轴是不是可替换的/R259_换成政治立场分层再跑同一张网格/is_the_religion_axis_substitutable.py"
+    "E03_what_an_instrument_would_have_to_be/A64_\u88c2\u5f00\u7684\u65f6\u70b9\u662f\u4e0d\u662f\u540c\u4e00\u4e2a/R258_\u516b\u9898\u7684\u5341\u5e74\u7f51\u683c/same_decade_or_not.py",
+    "E03_what_an_instrument_would_have_to_be/A65_\u5b97\u6559\u8fd9\u4e2a\u8f74\u662f\u4e0d\u662f\u53ef\u66ff\u6362\u7684/R259_\u6362\u6210\u653f\u6cbb\u7acb\u573a\u5206\u5c42\u518d\u8dd1\u540c\u4e00\u5f20\u7f51\u683c/is_the_religion_axis_substitutable.py"
    ]
   }
  ],
@@ -264,5 +264,7 @@
   "strings_stripped_one_rule": 20,
   "two_sided_rule": "19 at round start, 18 after rescuing biomale"
  },
- "note": "PRODUCTION round; no worlds, no kill."
+ "note": "PRODUCTION round; no worlds, no kill.",
+ "entry_backfilled": 869,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

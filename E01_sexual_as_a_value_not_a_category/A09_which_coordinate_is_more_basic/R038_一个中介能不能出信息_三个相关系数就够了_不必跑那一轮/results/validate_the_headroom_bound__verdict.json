@@ -33,5 +33,7 @@
  "observed": [
   0.007,
   0.005
- ]
+ ],
+ "entry_backfilled": 457,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

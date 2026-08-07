@@ -54,6 +54,8 @@
  ],
  "level_floor": 0.035182420019631996,
  "n_sig": 7,
- "verdict": "**W3:ρ_sex 中位 +0.952 低于同性别劈半天花板的最小值 +0.965 ⇒ 结构不同,页上那一行要加范围**",
- "unchallenged": true
+ "verdict": "**W3:\u03c1_sex \u4e2d\u4f4d +0.952 \u4f4e\u4e8e\u540c\u6027\u522b\u5288\u534a\u5929\u82b1\u677f\u7684\u6700\u5c0f\u503c +0.965 \u21d2 \u7ed3\u6784\u4e0d\u540c,\u9875\u4e0a\u90a3\u4e00\u884c\u8981\u52a0\u8303\u56f4**",
+ "unchallenged": true,
+ "entry_backfilled": 727,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -8,7 +8,7 @@
    "bytes": 3109,
    "why": "3 commit(s) hold it; read 3109 bytes"
   },
-  "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/computed_vs_single.py": {
+  "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_\u90a3\u4efd\u7f9e\u803b\u4e0d\u662f\u72ec\u6709\u7684_\u800c\u54ac\u6389\u5b83\u7684\u4e94\u4e2a\u91cf\u8bf4\u7684\u662f\u540c\u4e00\u79cd\u4eba/computed_vs_single.py": {
    "target": "E01_sexual_as_a_value_not_a_category/A155_does_S_point_one_way/R450_sign_across_outcomes/results/S_signs.csv",
    "commit": "6c333a24504777b814cc30d788117ea406bcd7ba",
    "bytes": 1453,
@@ -17,7 +17,7 @@
  },
  "present_today": {
   "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/is_the_loo_shape_a_sampling_fact.py": [],
-  "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_那份羞耻不是独有的_而咬掉它的五个量说的是同一种人/computed_vs_single.py": []
+  "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_\u90a3\u4efd\u7f9e\u803b\u4e0d\u662f\u72ec\u6709\u7684_\u800c\u54ac\u6389\u5b83\u7684\u4e94\u4e2a\u91cf\u8bf4\u7684\u662f\u540c\u4e00\u79cd\u4eba/computed_vs_single.py": []
  },
  "controls": {
   "positive": true,
@@ -25,5 +25,7 @@
   "negative": true,
   "negative_detail": "no commit in any ref holds this path"
  },
- "verdict": "**2 of 2 files the sweep called PERMANENT are byte-retrievable from git.**\n  ⇒ **`PERMANENT` did not mean *gone*; it meant *not in the working tree*.** The test had two halves — produced-by-a-script, present-on-disk — and **both interrogate the working tree**, while this corpus's persistence layer is the version history: 4,368 rename edges, and a `results/*.csv` that has left the tree has usually left it by being RENAMED AWAY.\n  ⇒ **The corpus has zero measured cases of unrecoverable evidence.** What it has is references pointing at where a file used to live.\n  ⚠ **and the word changes, not just the number**: these conclusions are not *lost*, they are *stale* — the blob comes back, but the script that made it may still not run. Recovering a file is not re-deriving a conclusion."
+ "verdict": "**2 of 2 files the sweep called PERMANENT are byte-retrievable from git.**\n  \u21d2 **`PERMANENT` did not mean *gone*; it meant *not in the working tree*.** The test had two halves \u2014 produced-by-a-script, present-on-disk \u2014 and **both interrogate the working tree**, while this corpus's persistence layer is the version history: 4,368 rename edges, and a `results/*.csv` that has left the tree has usually left it by being RENAMED AWAY.\n  \u21d2 **The corpus has zero measured cases of unrecoverable evidence.** What it has is references pointing at where a file used to live.\n  \u26a0 **and the word changes, not just the number**: these conclusions are not *lost*, they are *stale* \u2014 the blob comes back, but the script that made it may still not run. Recovering a file is not re-deriving a conclusion.",
+ "entry_backfilled": 875,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

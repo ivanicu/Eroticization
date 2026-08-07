@@ -1,19 +1,21 @@
 {
  "raw": {
-  "premarsx×homosex": 0.006716511024671557,
-  "xmarsex×homosex": 0.0007528802681787745,
-  "teensex×homosex": 0.003811806081248604
+  "premarsx\u00d7homosex": 0.006716511024671557,
+  "xmarsex\u00d7homosex": 0.0007528802681787745,
+  "teensex\u00d7homosex": 0.003811806081248604
  },
  "norm": {
-  "premarsx×homosex": 0.005814856650469296,
-  "xmarsex×homosex": 0.0057371656708315785,
-  "teensex×homosex": 0.006879768196621569
+  "premarsx\u00d7homosex": 0.005814856650469296,
+  "xmarsex\u00d7homosex": 0.0057371656708315785,
+  "teensex\u00d7homosex": 0.006879768196621569
  },
  "share": 0.9866392270166373,
  "null_ci": [
   -0.0015326882568838397,
   0.0015653437497261152
  ],
- "verdict": "**W_b:归一后 `xmarsex×homosex` 占 99% ⇒ 「出轨没加入」撤回 —— 那是天花板说的**",
- "unchallenged": true
+ "verdict": "**W_b:\u5f52\u4e00\u540e `xmarsex\u00d7homosex` \u5360 99% \u21d2 \u300c\u51fa\u8f68\u6ca1\u52a0\u5165\u300d\u64a4\u56de \u2014\u2014 \u90a3\u662f\u5929\u82b1\u677f\u8bf4\u7684**",
+ "unchallenged": true,
+ "entry_backfilled": 742,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

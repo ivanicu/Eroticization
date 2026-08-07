@@ -33,5 +33,7 @@
  "pos_control": 0.4860726832587842,
  "gss_conv": 0.1317,
  "gss_retention": 0.972,
- "verdict": "**W2 / 两具仪器不同意:MFQ 上 ρ(性, 一般道德) = +0.3161(GSS 是 +0.1317),偏掉后只保留 59.5%(GSS 是 97.2%)⇒ 框架就是发现,不许平均**"
+ "verdict": "**W2 / \u4e24\u5177\u4eea\u5668\u4e0d\u540c\u610f:MFQ \u4e0a \u03c1(\u6027, \u4e00\u822c\u9053\u5fb7) = +0.3161(GSS \u662f +0.1317),\u504f\u6389\u540e\u53ea\u4fdd\u7559 59.5%(GSS \u662f 97.2%)\u21d2 \u6846\u67b6\u5c31\u662f\u53d1\u73b0,\u4e0d\u8bb8\u5e73\u5747**",
+ "entry_backfilled": 751,
+ "entry_source": "script_header (`#910`; three routes compared, agreeing)"
 }

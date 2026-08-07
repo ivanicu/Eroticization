@@ -2,8 +2,8 @@
  "grid": [
   {
    "dec": "1990s",
-   "item": "发言 `spkhomo`",
-   "scale": "均值尺",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dobj": -0.3190155683561422,
    "lo": -0.3692118167738219,
    "hi": -0.2685618051882809,
@@ -12,8 +12,8 @@
   },
   {
    "dec": "1990s",
-   "item": "发言 `spkhomo`",
-   "scale": "潜在尺",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dobj": -0.413244128242625,
    "lo": -0.49862507598192213,
    "hi": -0.33272669650277625,
@@ -22,8 +22,8 @@
   },
   {
    "dec": "1990s",
-   "item": "教书 `colhomo`",
-   "scale": "均值尺",
+   "item": "\u6559\u4e66 `colhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dobj": -0.3493959857162056,
    "lo": -0.40365745687665255,
    "hi": -0.3022062543540418,
@@ -32,8 +32,8 @@
   },
   {
    "dec": "1990s",
-   "item": "教书 `colhomo`",
-   "scale": "潜在尺",
+   "item": "\u6559\u4e66 `colhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dobj": -0.504416346468526,
    "lo": -0.5891684393076032,
    "hi": -0.42948546879819166,
@@ -42,8 +42,8 @@
   },
   {
    "dec": "1990s",
-   "item": "图书馆 `libhomo`",
-   "scale": "均值尺",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dobj": -0.25821206653057516,
    "lo": -0.3116472733928141,
    "hi": -0.2069676098871906,
@@ -52,8 +52,8 @@
   },
   {
    "dec": "1990s",
-   "item": "图书馆 `libhomo`",
-   "scale": "潜在尺",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dobj": -0.3796251780023405,
    "lo": -0.4651584533156014,
    "hi": -0.29835549277525897,
@@ -62,8 +62,8 @@
   },
   {
    "dec": "2010s",
-   "item": "发言 `spkhomo`",
-   "scale": "均值尺",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dobj": -0.6828294670597679,
    "lo": -0.7299355767830044,
    "hi": -0.6321863437147224,
@@ -72,8 +72,8 @@
   },
   {
    "dec": "2010s",
-   "item": "发言 `spkhomo`",
-   "scale": "潜在尺",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dobj": -0.808089407147075,
    "lo": -0.8837685993959233,
    "hi": -0.7187920664409653,
@@ -82,8 +82,8 @@
   },
   {
    "dec": "2010s",
-   "item": "教书 `colhomo`",
-   "scale": "均值尺",
+   "item": "\u6559\u4e66 `colhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dobj": -0.7150544709745558,
    "lo": -0.7618934057546066,
    "hi": -0.6616405893305011,
@@ -92,8 +92,8 @@
   },
   {
    "dec": "2010s",
-   "item": "教书 `colhomo`",
-   "scale": "潜在尺",
+   "item": "\u6559\u4e66 `colhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dobj": -0.8831064743769391,
    "lo": -0.9592825995551826,
    "hi": -0.7925314771406266,
@@ -102,8 +102,8 @@
   },
   {
    "dec": "2010s",
-   "item": "图书馆 `libhomo`",
-   "scale": "均值尺",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dobj": -0.5361827961361463,
    "lo": -0.5785780883233708,
    "hi": -0.4861239415329491,
@@ -112,8 +112,8 @@
   },
   {
    "dec": "2010s",
-   "item": "图书馆 `libhomo`",
-   "scale": "潜在尺",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dobj": -0.6576596627606128,
    "lo": -0.7284187019268237,
    "hi": -0.5782509690806377,
@@ -126,13 +126,13 @@
  "neg": 12,
  "pos": 0,
  "by_item": {
-  "发言 `spkhomo`": [
+  "\u53d1\u8a00 `spkhomo`": [
    -1
   ],
-  "教书 `colhomo`": [
+  "\u6559\u4e66 `colhomo`": [
    -1
   ],
-  "图书馆 `libhomo`": [
+  "\u56fe\u4e66\u9986 `libhomo`": [
    -1
   ]
  },
@@ -143,8 +143,10 @@
   "neg": -0.06005119563046711,
   "floor": 0.07129781690399674
  },
- "codes": "spkhomo 1=allowed(low=permissive) · colhomo 4=allowed(codes 4/5!) · libhomo 1=remove 2=not remove(HIGH=permissive) — opposite to the other two",
+ "codes": "spkhomo 1=allowed(low=permissive) \u00b7 colhomo 4=allowed(codes 4/5!) \u00b7 libhomo 1=remove 2=not remove(HIGH=permissive) \u2014 opposite to the other two",
  "admissible": true,
- "verdict": "**B 判断 ≠ 制裁 —— 而这是我不欢迎的那个,它要改写整条弧的作用域。**\n  **12/12 格的 Δobject 显著为负**(超地板 0.071)⇒ **虔诚/世俗那条缝,在「这样对不对」上比在「让不让他教书」上宽。**\n  ⚠⚠ **而跑前写下的那条混淆被反向证伪了,这一点比结果本身更强:**\n  我担心「制裁那条缝更窄」是二值天花板压出来的 —— **而换到不受边界压缩的潜在尺上,|Δobject| 平均还大了 +0.131。**\n  **压缩确实存在,但它把效应压小了,不是造出来的。**\n  ⇒ **一句关于人的话:虔诚与世俗之间的距离,在「这样对不对」这个问题上,\n  比在「要不要拦着他去教书、要不要把他的书撤下来」这些问题上更远。\n  信仰把人们在道德评价上分开的程度,大于它把人们在公共待遇上分开的程度。\n  而从 `#832` 到 `#857`,我量的一直是前者 —— 而 E02 说的对象是后者。**\n  ⚠ **登记一条未测的机制读法**:上面这句**不蕴含**「同一个人一边说错、一边让他教书」——\n  **那是个体层面的断言,而本轮量的是两层之间的差距**(生态学推断)。\n  **它是可测的**(同一个人 `homosex==1` 且 `colhomo` 允许的比例),**本轮没跑。**",
- "gate_ok": false
+ "verdict": "**B \u5224\u65ad \u2260 \u5236\u88c1 \u2014\u2014 \u800c\u8fd9\u662f\u6211\u4e0d\u6b22\u8fce\u7684\u90a3\u4e2a,\u5b83\u8981\u6539\u5199\u6574\u6761\u5f27\u7684\u4f5c\u7528\u57df\u3002**\n  **12/12 \u683c\u7684 \u0394object \u663e\u8457\u4e3a\u8d1f**(\u8d85\u5730\u677f 0.071)\u21d2 **\u8654\u8bda/\u4e16\u4fd7\u90a3\u6761\u7f1d,\u5728\u300c\u8fd9\u6837\u5bf9\u4e0d\u5bf9\u300d\u4e0a\u6bd4\u5728\u300c\u8ba9\u4e0d\u8ba9\u4ed6\u6559\u4e66\u300d\u4e0a\u5bbd\u3002**\n  \u26a0\u26a0 **\u800c\u8dd1\u524d\u5199\u4e0b\u7684\u90a3\u6761\u6df7\u6dc6\u88ab\u53cd\u5411\u8bc1\u4f2a\u4e86,\u8fd9\u4e00\u70b9\u6bd4\u7ed3\u679c\u672c\u8eab\u66f4\u5f3a:**\n  \u6211\u62c5\u5fc3\u300c\u5236\u88c1\u90a3\u6761\u7f1d\u66f4\u7a84\u300d\u662f\u4e8c\u503c\u5929\u82b1\u677f\u538b\u51fa\u6765\u7684 \u2014\u2014 **\u800c\u6362\u5230\u4e0d\u53d7\u8fb9\u754c\u538b\u7f29\u7684\u6f5c\u5728\u5c3a\u4e0a,|\u0394object| \u5e73\u5747\u8fd8\u5927\u4e86 +0.131\u3002**\n  **\u538b\u7f29\u786e\u5b9e\u5b58\u5728,\u4f46\u5b83\u628a\u6548\u5e94\u538b\u5c0f\u4e86,\u4e0d\u662f\u9020\u51fa\u6765\u7684\u3002**\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd:\u8654\u8bda\u4e0e\u4e16\u4fd7\u4e4b\u95f4\u7684\u8ddd\u79bb,\u5728\u300c\u8fd9\u6837\u5bf9\u4e0d\u5bf9\u300d\u8fd9\u4e2a\u95ee\u9898\u4e0a,\n  \u6bd4\u5728\u300c\u8981\u4e0d\u8981\u62e6\u7740\u4ed6\u53bb\u6559\u4e66\u3001\u8981\u4e0d\u8981\u628a\u4ed6\u7684\u4e66\u64a4\u4e0b\u6765\u300d\u8fd9\u4e9b\u95ee\u9898\u4e0a\u66f4\u8fdc\u3002\n  \u4fe1\u4ef0\u628a\u4eba\u4eec\u5728\u9053\u5fb7\u8bc4\u4ef7\u4e0a\u5206\u5f00\u7684\u7a0b\u5ea6,\u5927\u4e8e\u5b83\u628a\u4eba\u4eec\u5728\u516c\u5171\u5f85\u9047\u4e0a\u5206\u5f00\u7684\u7a0b\u5ea6\u3002\n  \u800c\u4ece `#832` \u5230 `#857`,\u6211\u91cf\u7684\u4e00\u76f4\u662f\u524d\u8005 \u2014\u2014 \u800c E02 \u8bf4\u7684\u5bf9\u8c61\u662f\u540e\u8005\u3002**\n  \u26a0 **\u767b\u8bb0\u4e00\u6761\u672a\u6d4b\u7684\u673a\u5236\u8bfb\u6cd5**:\u4e0a\u9762\u8fd9\u53e5**\u4e0d\u8574\u542b**\u300c\u540c\u4e00\u4e2a\u4eba\u4e00\u8fb9\u8bf4\u9519\u3001\u4e00\u8fb9\u8ba9\u4ed6\u6559\u4e66\u300d\u2014\u2014\n  **\u90a3\u662f\u4e2a\u4f53\u5c42\u9762\u7684\u65ad\u8a00,\u800c\u672c\u8f6e\u91cf\u7684\u662f\u4e24\u5c42\u4e4b\u95f4\u7684\u5dee\u8ddd**(\u751f\u6001\u5b66\u63a8\u65ad)\u3002\n  **\u5b83\u662f\u53ef\u6d4b\u7684**(\u540c\u4e00\u4e2a\u4eba `homosex==1` \u4e14 `colhomo` \u5141\u8bb8\u7684\u6bd4\u4f8b),**\u672c\u8f6e\u6ca1\u8dd1\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 858,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

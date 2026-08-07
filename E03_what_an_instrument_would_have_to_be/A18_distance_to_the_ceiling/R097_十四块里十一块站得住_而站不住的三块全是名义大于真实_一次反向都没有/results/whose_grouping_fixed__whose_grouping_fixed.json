@@ -1,7 +1,7 @@
 {
  "blocks": {
-  "MFQ·AUTHORITY": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7AUTHORITY": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -21,8 +21,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "MFQ·FAIRNESS": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7FAIRNESS": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -42,8 +42,8 @@
    "ratio_norm": 0.8333333333333334,
    "undecidable": false
   },
-  "MFQ·HARM": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7HARM": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -63,8 +63,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "MFQ·INGROUP": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7INGROUP": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -84,8 +84,8 @@
    "ratio_norm": 0.8333333333333334,
    "undecidable": false
   },
-  "MFQ·PURITY": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7PURITY": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -105,8 +105,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "GSS·警察四题": {
-   "who": "问卷作者 NORC",
+  "GSS\u00b7\u8b66\u5bdf\u56db\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NORC",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -126,8 +126,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "GSS·性道德四题": {
-   "who": "问卷作者 NORC",
+  "GSS\u00b7\u6027\u9053\u5fb7\u56db\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NORC",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -147,8 +147,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "NSFG·性三题": {
-   "who": "问卷作者 NCHS",
+  "NSFG\u00b7\u6027\u4e09\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NCHS",
    "nominal": 3,
    "npairs": 3,
    "flipped": [],
@@ -168,8 +168,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "NSFG·家庭七题": {
-   "who": "问卷作者 NCHS",
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NCHS",
    "nominal": 7,
    "npairs": 21,
    "flipped": [
@@ -191,8 +191,8 @@
    "ratio_norm": 0.5714285714285714,
    "undecidable": false
   },
-  "SCCS·体罚四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u4f53\u7f5a\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -212,8 +212,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "SCCS·以身作则四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u4ee5\u8eab\u4f5c\u5219\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -233,8 +233,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "SCCS·讲课四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u8bb2\u8bfe\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -254,8 +254,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "SCCS·放任四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u653e\u4efb\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -275,8 +275,8 @@
    "ratio_norm": 1.0,
    "undecidable": false
   },
-  "SCCS·疼爱四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u75bc\u7231\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -302,26 +302,28 @@
  "armB": 0.5714285714285714,
  "placebo": 1.0,
  "partial": [
-  "MFQ·FAIRNESS",
-  "MFQ·INGROUP",
-  "NSFG·家庭七题"
+  "MFQ\u00b7FAIRNESS",
+  "MFQ\u00b7INGROUP",
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898"
  ],
  "undecidable": [],
  "disagree": [
   [
-   "GSS·警察四题",
+   "GSS\u00b7\u8b66\u5bdf\u56db\u9898",
    2,
    4
   ]
  ],
- "verdict": "**W2 —— 系统性:除臂 B' 外还有 2 块名义大于真实** -> ['MFQ·FAIRNESS', 'MFQ·INGROUP']",
+ "verdict": "**W2 \u2014\u2014 \u7cfb\u7edf\u6027:\u9664\u81c2 B' \u5916\u8fd8\u6709 2 \u5757\u540d\u4e49\u5927\u4e8e\u771f\u5b9e** -> ['MFQ\u00b7FAIRNESS', 'MFQ\u00b7INGROUP']",
  "unchallenged": true,
  "dropped_items": {
-  "MFQ·FAIRNESS": {
+  "MFQ\u00b7FAIRNESS": {
    "rich": "None"
   },
-  "MFQ·INGROUP": {
+  "MFQ\u00b7INGROUP": {
    "family": "None"
   }
- }
+ },
+ "entry_backfilled": 652,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

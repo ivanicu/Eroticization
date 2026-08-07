@@ -1,6 +1,6 @@
 {
  "cells": {
-  "警察四": {
+  "\u8b66\u5bdf\u56db": {
    "obs": 0.4153600418140757,
    "greedy": 0.4153600418140757,
    "null": 0.09107160205965219,
@@ -10,7 +10,7 @@
    "blocks": 68,
    "undecidable": false
   },
-  "堕胎四": {
+  "\u5815\u80ce\u56db": {
    "obs": 0.4153600418140757,
    "greedy": 0.4153600418140757,
    "null": 0.4459381480393058,
@@ -20,7 +20,7 @@
    "blocks": 68,
    "undecidable": false
   },
-  "自杀四": {
+  "\u81ea\u6740\u56db": {
    "obs": 0.4153600418140757,
    "greedy": 0.4153600418140757,
    "null": 0.4179516605110576,
@@ -30,7 +30,7 @@
    "blocks": 68,
    "undecidable": false
   },
-  "性别角色三": {
+  "\u6027\u522b\u89d2\u8272\u4e09": {
    "obs": 0.4153600418140757,
    "greedy": 0.4153600418140757,
    "null": 0.275909058225407,
@@ -40,7 +40,7 @@
    "blocks": 34,
    "undecidable": false
   },
-  "支出四": {
+  "\u652f\u51fa\u56db": {
    "obs": 0.4153600418140757,
    "greedy": 0.4153600418140757,
    "null": 0.16555373758932748,
@@ -66,6 +66,8 @@
   0.4153600418140757
  ],
  "spread": 4.896566415370787,
- "verdict": "**W2:同一批人、同一组性题,只换陪衬域,比值从 0.93× 走到 4.56×(max/min = 4.90)—— 而实测的最弱一环几乎不动 ⇒ 比值是「相对哪个池」的,页上每一行都要带这个限定**",
- "unchallenged": true
+ "verdict": "**W2:\u540c\u4e00\u6279\u4eba\u3001\u540c\u4e00\u7ec4\u6027\u9898,\u53ea\u6362\u966a\u886c\u57df,\u6bd4\u503c\u4ece 0.93\u00d7 \u8d70\u5230 4.56\u00d7(max/min = 4.90)\u2014\u2014 \u800c\u5b9e\u6d4b\u7684\u6700\u5f31\u4e00\u73af\u51e0\u4e4e\u4e0d\u52a8 \u21d2 \u6bd4\u503c\u662f\u300c\u76f8\u5bf9\u54ea\u4e2a\u6c60\u300d\u7684,\u9875\u4e0a\u6bcf\u4e00\u884c\u90fd\u8981\u5e26\u8fd9\u4e2a\u9650\u5b9a**",
+ "unchallenged": true,
+ "entry_backfilled": 731,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

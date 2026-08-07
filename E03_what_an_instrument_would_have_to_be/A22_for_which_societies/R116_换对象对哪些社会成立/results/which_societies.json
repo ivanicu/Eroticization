@@ -92,6 +92,8 @@
  "null_q95": 1.0,
  "obs": 0.5,
  "p": 1.0,
- "verdict": "**W3 —— 民族志详略:安慰剂(疼爱) ρ = +0.5000,不小于主效应的一半**",
- "unchallenged": true
+ "verdict": "**W3 \u2014\u2014 \u6c11\u65cf\u5fd7\u8be6\u7565:\u5b89\u6170\u5242(\u75bc\u7231) \u03c1 = +0.5000,\u4e0d\u5c0f\u4e8e\u4e3b\u6548\u5e94\u7684\u4e00\u534a**",
+ "unchallenged": true,
+ "entry_backfilled": 674,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -1,18 +1,18 @@
 {
  "strata": {
-  "几乎不去": {
+  "\u51e0\u4e4e\u4e0d\u53bb": {
    "early_rho": 0.3715307942191969,
    "obs": -0.0004358365303777294,
    "sim": -0.002836392531927745,
    "share": 6.507927477922765
   },
-  "偶尔": {
+  "\u5076\u5c14": {
    "early_rho": 0.2931058090754522,
    "obs": 0.0017772087237584405,
    "sim": -0.002254276403390377,
    "share": -1.2684364944051332
   },
-  "常去": {
+  "\u5e38\u53bb": {
    "early_rho": 0.37614928534485903,
    "obs": 0.0028717413710952037,
    "sim": -0.0015113588003996248,
@@ -22,6 +22,8 @@
  "fixed_cut_control": -0.000756976520949817,
  "seed_spread": 0.00011347374518330157,
  "reproduces_order": true,
- "verdict": "**W2:常去的伪影份额 -0.53,且模拟复现了梯度的次序 ⇒ `#745` 从降级推到撤回**",
- "unchallenged": true
+ "verdict": "**W2:\u5e38\u53bb\u7684\u4f2a\u5f71\u4efd\u989d -0.53,\u4e14\u6a21\u62df\u590d\u73b0\u4e86\u68af\u5ea6\u7684\u6b21\u5e8f \u21d2 `#745` \u4ece\u964d\u7ea7\u63a8\u5230\u64a4\u56de**",
+ "unchallenged": true,
+ "entry_backfilled": 748,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -166,6 +166,8 @@
   }
  },
  "maxtop": 0.8775086505190312,
- "verdict": "**世界 C:端点占比最高 87.8% > 60% ⇒ 量表到顶,①② 都不可读 —— 记为能力边界**",
- "gate_ok": true
+ "verdict": "**\u4e16\u754c C:\u7aef\u70b9\u5360\u6bd4\u6700\u9ad8 87.8% > 60% \u21d2 \u91cf\u8868\u5230\u9876,\u2460\u2461 \u90fd\u4e0d\u53ef\u8bfb \u2014\u2014 \u8bb0\u4e3a\u80fd\u529b\u8fb9\u754c**",
+ "gate_ok": true,
+ "entry_backfilled": 772,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -52,5 +52,7 @@
   "\u6a2a\u65ad\u9762",
   "\u683c n<400 \u5254\u9664"
  ],
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 594,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -1,6 +1,6 @@
 {
  "grid": {
-  "不过滤假词": {
+  "\u4e0d\u8fc7\u6ee4\u5047\u8bcd": {
    "n": 9582,
    "r_tot": -0.10687443156540594,
    "r_ext": 0.08857056809753569,
@@ -9,7 +9,7 @@
    "q_ext": 0.020971086440332458,
    "q_disp": 0.02009209464257734
   },
-  "过滤假词(主)": {
+  "\u8fc7\u6ee4\u5047\u8bcd(\u4e3b)": {
    "n": 7258,
    "r_tot": -0.12423521361960503,
    "r_ext": 0.0979601408077757,
@@ -18,7 +18,7 @@
    "q_ext": 0.02291253461577088,
    "q_disp": 0.022640072601772754
   },
-  "假词+surveyaccurate": {
+  "\u5047\u8bcd+surveyaccurate": {
    "n": 7258,
    "r_tot": -0.12423521361960503,
    "r_ext": 0.0979601408077757,
@@ -42,6 +42,8 @@
   "Q20",
   "Q21"
  ],
- "verdict": "**两者都动但反号,照登:+0.0980 / -0.0970**",
- "unchallenged": true
+ "verdict": "**\u4e24\u8005\u90fd\u52a8\u4f46\u53cd\u53f7,\u7167\u767b:+0.0980 / -0.0970**",
+ "unchallenged": true,
+ "entry_backfilled": 690,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

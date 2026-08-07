@@ -1,5 +1,5 @@
 {
- "性四题": {
+ "\u6027\u56db\u9898": {
   "greedy_delta": 0.18365163436162235,
   "optimal_delta": 0.18365163436162235,
   "neg_pairs": [
@@ -7,12 +7,14 @@
    0
   ]
  },
- "性别角色三题": {
+ "\u6027\u522b\u89d2\u8272\u4e09\u9898": {
   "greedy_delta": 0.02206739024035337,
   "optimal_delta": 0.02206739024035337,
   "neg_pairs": [
    0,
    0
   ]
- }
+ },
+ "entry_backfilled": 723,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

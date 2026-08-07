@@ -4,7 +4,7 @@
  "total_vars": 1780,
  "rounds": [
   {
-   "round": "R045_谴责压得住的地方它跟着稀有度_压不住的地方它脱钩",
+   "round": "R045_\u8c34\u8d23\u538b\u5f97\u4f4f\u7684\u5730\u65b9\u5b83\u8ddf\u7740\u7a00\u6709\u5ea6_\u538b\u4e0d\u4f4f\u7684\u5730\u65b9\u5b83\u8131\u94a9",
    "nvars": 23,
    "min_n": 31,
    "worst": "SCCS174",
@@ -12,7 +12,7 @@
    "flag60": true
   },
   {
-   "round": "R048_换机构_换话题_换施测模式_那道差距的大小几乎一样",
+   "round": "R048_\u6362\u673a\u6784_\u6362\u8bdd\u9898_\u6362\u65bd\u6d4b\u6a21\u5f0f_\u90a3\u9053\u5dee\u8ddd\u7684\u5927\u5c0f\u51e0\u4e4e\u4e00\u6837",
    "nvars": 2,
    "min_n": 40,
    "worst": "SCCS176",
@@ -20,7 +20,7 @@
    "flag60": true
   },
   {
-   "round": "R059_五格里只有一格_越稀有越被谴责_不是关于做法的定律",
+   "round": "R059_\u4e94\u683c\u91cc\u53ea\u6709\u4e00\u683c_\u8d8a\u7a00\u6709\u8d8a\u88ab\u8c34\u8d23_\u4e0d\u662f\u5173\u4e8e\u505a\u6cd5\u7684\u5b9a\u5f8b",
    "nvars": 19,
    "min_n": 29,
    "worst": "SCCS960",
@@ -28,7 +28,7 @@
    "flag60": true
   },
   {
-   "round": "R060_严厉的社会_这种东西_在这份数据里没有证据",
+   "round": "R060_\u4e25\u5389\u7684\u793e\u4f1a_\u8fd9\u79cd\u4e1c\u897f_\u5728\u8fd9\u4efd\u6570\u636e\u91cc\u6ca1\u6709\u8bc1\u636e",
    "nvars": 18,
    "min_n": 31,
    "worst": "SCCS174",
@@ -36,7 +36,7 @@
    "flag60": true
   },
   {
-   "round": "R070_我手读判了零_机器扫描找回了五个_而其中一个是问卷给不了的设计",
+   "round": "R070_\u6211\u624b\u8bfb\u5224\u4e86\u96f6_\u673a\u5668\u626b\u63cf\u627e\u56de\u4e86\u4e94\u4e2a_\u800c\u5176\u4e2d\u4e00\u4e2a\u662f\u95ee\u5377\u7ed9\u4e0d\u4e86\u7684\u8bbe\u8ba1",
    "nvars": 19,
    "min_n": 29,
    "worst": "SCCS960",
@@ -44,7 +44,7 @@
    "flag60": true
   },
   {
-   "round": "R071_换个团队隔二十年还是同一个答案_而我的地板又一次写错了格",
+   "round": "R071_\u6362\u4e2a\u56e2\u961f\u9694\u4e8c\u5341\u5e74\u8fd8\u662f\u540c\u4e00\u4e2a\u7b54\u6848_\u800c\u6211\u7684\u5730\u677f\u53c8\u4e00\u6b21\u5199\u9519\u4e86\u683c",
    "nvars": 4,
    "min_n": 79,
    "worst": "SCCS1766",
@@ -52,7 +52,7 @@
    "flag60": false
   },
   {
-   "round": "R072_把做法固定住只换承受的人_一个社会只有一个数_换做法就没有了",
+   "round": "R072_\u628a\u505a\u6cd5\u56fa\u5b9a\u4f4f\u53ea\u6362\u627f\u53d7\u7684\u4eba_\u4e00\u4e2a\u793e\u4f1a\u53ea\u6709\u4e00\u4e2a\u6570_\u6362\u505a\u6cd5\u5c31\u6ca1\u6709\u4e86",
    "nvars": 5,
    "min_n": 79,
    "worst": "SCCS1766",
@@ -60,7 +60,7 @@
    "flag60": false
   },
   {
-   "round": "R073_能分辨的那一刀是_0_60_而我把阶梯切在了_0_210",
+   "round": "R073_\u80fd\u5206\u8fa8\u7684\u90a3\u4e00\u5200\u662f_0_60_\u800c\u6211\u628a\u9636\u68af\u5207\u5728\u4e86_0_210",
    "nvars": 9,
    "min_n": 63,
    "worst": "SCCS620",
@@ -68,7 +68,7 @@
    "flag60": false
   },
   {
-   "round": "R074_换谁挨打几乎不改变那个数_换用哪一种手段就把它压掉四分之三",
+   "round": "R074_\u6362\u8c01\u6328\u6253\u51e0\u4e4e\u4e0d\u6539\u53d8\u90a3\u4e2a\u6570_\u6362\u7528\u54ea\u4e00\u79cd\u624b\u6bb5\u5c31\u628a\u5b83\u538b\u6389\u56db\u5206\u4e4b\u4e09",
    "nvars": 2,
    "min_n": 145,
    "worst": "SCCS453",
@@ -76,7 +76,7 @@
    "flag60": false
   },
   {
-   "round": "R075_一个测得极稳_却与周围一切都正交的量",
+   "round": "R075_\u4e00\u4e2a\u6d4b\u5f97\u6781\u7a33_\u5374\u4e0e\u5468\u56f4\u4e00\u5207\u90fd\u6b63\u4ea4\u7684\u91cf",
    "nvars": 6,
    "min_n": 145,
    "worst": "SCCS453",
@@ -84,7 +84,7 @@
    "flag60": false
   },
   {
-   "round": "R077_余量不存在_我量出的_74_对_能用的只有_18",
+   "round": "R077_\u4f59\u91cf\u4e0d\u5b58\u5728_\u6211\u91cf\u51fa\u7684_74_\u5bf9_\u80fd\u7528\u7684\u53ea\u6709_18",
    "nvars": 20,
    "min_n": 30,
    "worst": "SCCS168",
@@ -92,7 +92,7 @@
    "flag60": true
   },
   {
-   "round": "R098_五个道德域里只有纯洁是团_而性在两具仪器上都是",
+   "round": "R098_\u4e94\u4e2a\u9053\u5fb7\u57df\u91cc\u53ea\u6709\u7eaf\u6d01\u662f\u56e2_\u800c\u6027\u5728\u4e24\u5177\u4eea\u5668\u4e0a\u90fd\u662f",
    "nvars": 5,
    "min_n": 134,
    "worst": "SCCS438",
@@ -100,7 +100,7 @@
    "flag60": false
   },
   {
-   "round": "R106_每条声明各靠几具仪器",
+   "round": "R106_\u6bcf\u6761\u58f0\u660e\u5404\u9760\u51e0\u5177\u4eea\u5668",
    "nvars": 1,
    "min_n": 103,
    "worst": "SCCS172",
@@ -108,7 +108,7 @@
    "flag60": false
   },
   {
-   "round": "R107_换掉谴责那一侧的编码项目",
+   "round": "R107_\u6362\u6389\u8c34\u8d23\u90a3\u4e00\u4fa7\u7684\u7f16\u7801\u9879\u76ee",
    "nvars": 10,
    "min_n": 61,
    "worst": "SCCS961",
@@ -116,7 +116,7 @@
    "flag60": false
   },
   {
-   "round": "R108_频率是不是规范换了个说法",
+   "round": "R108_\u9891\u7387\u662f\u4e0d\u662f\u89c4\u8303\u6362\u4e86\u4e2a\u8bf4\u6cd5",
    "nvars": 14,
    "min_n": 31,
    "worst": "SCCS174",
@@ -124,7 +124,7 @@
    "flag60": true
   },
   {
-   "round": "R109_换对象是不是单项目伪影",
+   "round": "R109_\u6362\u5bf9\u8c61\u662f\u4e0d\u662f\u5355\u9879\u76ee\u4f2a\u5f71",
    "nvars": 10,
    "min_n": 63,
    "worst": "SCCS620",
@@ -132,7 +132,7 @@
    "flag60": false
   },
   {
-   "round": "R110_假覆盖审计",
+   "round": "R110_\u5047\u8986\u76d6\u5ba1\u8ba1",
    "nvars": 6,
    "min_n": 5,
    "worst": "SCCS490",
@@ -142,6 +142,8 @@
  ],
  "flag30": 3,
  "flag60": 8,
- "verdict": "**⛔ 3 个轮次的最小真实 n < 30,逐条改判「判不了」**",
- "unchallenged": true
+ "verdict": "**\u26d4 3 \u4e2a\u8f6e\u6b21\u7684\u6700\u5c0f\u771f\u5b9e n < 30,\u9010\u6761\u6539\u5224\u300c\u5224\u4e0d\u4e86\u300d**",
+ "unchallenged": true,
+ "entry_backfilled": 668,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

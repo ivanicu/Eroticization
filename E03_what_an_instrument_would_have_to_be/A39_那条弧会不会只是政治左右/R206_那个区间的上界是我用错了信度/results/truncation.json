@@ -47,5 +47,7 @@
   }
  },
  "n_down": 6,
- "verdict": "**规律重现:MFQ 上 6/6 格截断后 α 都下降(幅度 -0.0507 … -0.0146) ⇒ 「截断压低表观信度」不是 GSS 那一次的特殊性**"
+ "verdict": "**\u89c4\u5f8b\u91cd\u73b0:MFQ \u4e0a 6/6 \u683c\u622a\u65ad\u540e \u03b1 \u90fd\u4e0b\u964d(\u5e45\u5ea6 -0.0507 \u2026 -0.0146) \u21d2 \u300c\u622a\u65ad\u538b\u4f4e\u8868\u89c2\u4fe1\u5ea6\u300d\u4e0d\u662f GSS \u90a3\u4e00\u6b21\u7684\u7279\u6b8a\u6027**",
+ "entry_backfilled": 767,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

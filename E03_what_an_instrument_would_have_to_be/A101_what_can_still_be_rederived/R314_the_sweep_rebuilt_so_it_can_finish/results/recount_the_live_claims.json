@@ -47,5 +47,7 @@
   "positive": true,
   "negative": true
  },
- "verdict": "**The sweep undercounted by 1 scripts** (5 -> 6), across 5 distinct rounds. **PERMANENT & cited: 0 -> 0.**\n  Both numbers are reported because a corrected instrument that quietly replaces its predecessor stops being auditable — and because the correction moved the figure in the **unflattering** direction, which is the direction a tight regex never moves it by accident."
+ "verdict": "**The sweep undercounted by 1 scripts** (5 -> 6), across 5 distinct rounds. **PERMANENT & cited: 0 -> 0.**\n  Both numbers are reported because a corrected instrument that quietly replaces its predecessor stops being auditable \u2014 and because the correction moved the figure in the **unflattering** direction, which is the direction a tight regex never moves it by accident.",
+ "entry_backfilled": 875,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

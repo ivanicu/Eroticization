@@ -1,6 +1,6 @@
 {
  "res": {
-  "性四题": {
+  "\u6027\u56db\u9898": {
    "n": 15000,
    "overall": 0.47321548560152266,
    "specs": {
@@ -63,7 +63,7 @@
     }
    }
   },
-  "性别角色三题": {
+  "\u6027\u522b\u89d2\u8272\u4e09\u9898": {
    "n": 29591,
    "overall": 0.32520028372024784,
    "specs": {
@@ -127,6 +127,8 @@
    }
   }
  },
- "verdict": "**是关于性的:主 Δ +0.1219 显著大于安慰剂 Δ -0.0359**",
- "unchallenged": true
+ "verdict": "**\u662f\u5173\u4e8e\u6027\u7684:\u4e3b \u0394 +0.1219 \u663e\u8457\u5927\u4e8e\u5b89\u6170\u5242 \u0394 -0.0359**",
+ "unchallenged": true,
+ "entry_backfilled": 675,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

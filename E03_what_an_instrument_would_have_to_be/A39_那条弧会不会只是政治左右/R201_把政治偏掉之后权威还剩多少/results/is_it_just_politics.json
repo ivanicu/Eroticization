@@ -154,9 +154,9 @@
   }
  },
  "gss_specs": {
-  "线性 polviews": 0.2415173240306821,
-  "polviews 7 档哑变量": 0.24015359233723144,
-  "polviews + 年份哑变量": 0.21601949314182395
+  "\u7ebf\u6027 polviews": 0.2415173240306821,
+  "polviews 7 \u6863\u54d1\u53d8\u91cf": 0.24015359233723144,
+  "polviews + \u5e74\u4efd\u54d1\u53d8\u91cf": 0.21601949314182395
  },
  "gss_raw": 0.2747417886571382,
  "obey_keep": 0.8768673636140207,
@@ -194,5 +194,7 @@
  "sd_ratio": 1.1044216373421558,
  "pos_control": 0.2747405605133858,
  "perm_median": 0.27474177555673873,
- "verdict": "**W-A 道德结构:GSS 概率样本上 `obey` 偏掉政治后仍保留 87.7% ⇒ 权威不是政治的影子**"
+ "verdict": "**W-A \u9053\u5fb7\u7ed3\u6784:GSS \u6982\u7387\u6837\u672c\u4e0a `obey` \u504f\u6389\u653f\u6cbb\u540e\u4ecd\u4fdd\u7559 87.7% \u21d2 \u6743\u5a01\u4e0d\u662f\u653f\u6cbb\u7684\u5f71\u5b50**",
+ "entry_backfilled": 760,
+ "entry_source": "script_header (`#910`; three routes compared, agreeing)"
 }

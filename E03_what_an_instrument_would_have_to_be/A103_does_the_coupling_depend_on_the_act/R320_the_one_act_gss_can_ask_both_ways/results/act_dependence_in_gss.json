@@ -1,5 +1,5 @@
 {
- "population": "GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in",
+ "population": "GSS respondents 1973\u20132021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in",
  "person": {
   "rho": 0.4785844257418181,
   "residual": 0.7709569474373742,
@@ -496,6 +496,8 @@
   "style": true
  },
  "admissible": true,
- "verdict": "**B — LOOSE.** residual share person 0.771 · year-differenced 0.685 ⇒ most of what Americans would DO about homosexuality is not carried by how wrong they say it is, the shape SCCS found for adultery (0.972) rather than for premarital sex (0.198).\n  ⇒ **one sentence about people: for the one act on which GSS can ask both questions, knowing how wrong an American thinks it is leaves most of what he would do about it unpredicted — and a society's stated norm about adultery leaves almost all of its punishment unpredicted too. Two instruments, two units, two centuries; the acts that decouple are not the same acts, and that is the next question, not this one's answer.**",
- "gate_ok": false
+ "verdict": "**B \u2014 LOOSE.** residual share person 0.771 \u00b7 year-differenced 0.685 \u21d2 most of what Americans would DO about homosexuality is not carried by how wrong they say it is, the shape SCCS found for adultery (0.972) rather than for premarital sex (0.198).\n  \u21d2 **one sentence about people: for the one act on which GSS can ask both questions, knowing how wrong an American thinks it is leaves most of what he would do about it unpredicted \u2014 and a society's stated norm about adultery leaves almost all of its punishment unpredicted too. Two instruments, two units, two centuries; the acts that decouple are not the same acts, and that is the next question, not this one's answer.**",
+ "gate_ok": false,
+ "entry_backfilled": 881,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

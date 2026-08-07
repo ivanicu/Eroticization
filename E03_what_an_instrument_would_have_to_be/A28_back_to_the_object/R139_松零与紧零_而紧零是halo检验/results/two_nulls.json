@@ -6,6 +6,8 @@
  "tight_q95": 0.8669636927317786,
  "tight_median": 0.8557788969862408,
  "n_societies_all_four": 139,
- "verdict": "**是 halo,不是对象特异的耦合:观测 +0.8679 超过松零 0.0895,但不超过 halo 紧零 0.8670 ⇒ 这一页最老的社会侧声明降级为「一个整体严厉的社会,四个分数本来就都高」**",
- "unchallenged": true
+ "verdict": "**\u662f halo,\u4e0d\u662f\u5bf9\u8c61\u7279\u5f02\u7684\u8026\u5408:\u89c2\u6d4b +0.8679 \u8d85\u8fc7\u677e\u96f6 0.0895,\u4f46\u4e0d\u8d85\u8fc7 halo \u7d27\u96f6 0.8670 \u21d2 \u8fd9\u4e00\u9875\u6700\u8001\u7684\u793e\u4f1a\u4fa7\u58f0\u660e\u964d\u7ea7\u4e3a\u300c\u4e00\u4e2a\u6574\u4f53\u4e25\u5389\u7684\u793e\u4f1a,\u56db\u4e2a\u5206\u6570\u672c\u6765\u5c31\u90fd\u9ad8\u300d**",
+ "unchallenged": true,
+ "entry_backfilled": 697,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

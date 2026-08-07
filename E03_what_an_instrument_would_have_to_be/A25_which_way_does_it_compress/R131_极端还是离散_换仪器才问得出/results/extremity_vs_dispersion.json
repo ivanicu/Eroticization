@@ -10,5 +10,7 @@
  "corr_ext_tot": 0.5255672850281459,
  "forced": 0.3701638741468587,
  "verdict": "UNVERIFIED",
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 689,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

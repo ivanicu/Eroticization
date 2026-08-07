@@ -2,7 +2,7 @@
  "year": 2021,
  "rows": [
   {
-   "face": "重要性 `religimp`",
+   "face": "\u91cd\u8981\u6027 `religimp`",
    "n": 2355,
    "g_pub": -0.9107791143566102,
    "g_priv": -0.8063120950411188,
@@ -14,7 +14,7 @@
    "above": false
   },
   {
-   "face": "重要性2 `relidimp`",
+   "face": "\u91cd\u8981\u60272 `relidimp`",
    "n": 2297,
    "g_pub": -0.9107745898554935,
    "g_priv": -0.8961307560162599,
@@ -26,7 +26,7 @@
    "above": false
   },
   {
-   "face": "身份 `relpersn`",
+   "face": "\u8eab\u4efd `relpersn`",
    "n": 2567,
    "g_pub": -0.9138370244931783,
    "g_priv": -0.7896108016567577,
@@ -38,7 +38,7 @@
    "above": true
   },
   {
-   "face": "实践 `pray`",
+   "face": "\u5b9e\u8df5 `pray`",
    "n": 2570,
    "g_pub": -0.9082286616656177,
    "g_priv": -0.8130660366191402,
@@ -64,6 +64,8 @@
   "cross-sectional -> no causal identification"
  ],
  "admissible": false,
- "verdict": "**UNVERIFIED:控制行没有全过 ⇒ 判据没资格下判。**\n  ⚠ **而没过的是 ⓪ 功效闸** —— 本年 n 太小,**这不是「三张脸一样」,是「这一年分辨不了」。**",
- "gate_ok": false
+ "verdict": "**UNVERIFIED:\u63a7\u5236\u884c\u6ca1\u6709\u5168\u8fc7 \u21d2 \u5224\u636e\u6ca1\u8d44\u683c\u4e0b\u5224\u3002**\n  \u26a0 **\u800c\u6ca1\u8fc7\u7684\u662f \u24ea \u529f\u6548\u95f8** \u2014\u2014 \u672c\u5e74 n \u592a\u5c0f,**\u8fd9\u4e0d\u662f\u300c\u4e09\u5f20\u8138\u4e00\u6837\u300d,\u662f\u300c\u8fd9\u4e00\u5e74\u5206\u8fa8\u4e0d\u4e86\u300d\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 857,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

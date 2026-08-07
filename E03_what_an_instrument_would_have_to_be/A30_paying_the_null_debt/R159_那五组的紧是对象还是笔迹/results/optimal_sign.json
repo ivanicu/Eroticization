@@ -1,10 +1,10 @@
 {
  "true_optimal": {
-  "以身作则": 0.8954967020038297,
-  "讲课": 0.7858187725682991,
-  "体罚": 0.8219055381455562,
-  "放任": 0.6445173412207135,
-  "疼爱": 0.784503273109608
+  "\u4ee5\u8eab\u4f5c\u5219": 0.8954967020038297,
+  "\u8bb2\u8bfe": 0.7858187725682991,
+  "\u4f53\u7f5a": 0.8219055381455562,
+  "\u653e\u4efb": 0.6445173412207135,
+  "\u75bc\u7231": 0.784503273109608
  },
  "same_target_median": -0.013763406376265473,
  "same_target_range": [
@@ -14,6 +14,8 @@
  "null_q95": 0.3048021531064306,
  "n_blocks": 4840,
  "greedy_same_target_median": -0.4164,
- "note": "零的种类 = 同一编码团队 Barry 1977 的 20 变量池、同样 k=4、最优符号,只打散分组",
- "unchallenged": true
+ "note": "\u96f6\u7684\u79cd\u7c7b = \u540c\u4e00\u7f16\u7801\u56e2\u961f Barry 1977 \u7684 20 \u53d8\u91cf\u6c60\u3001\u540c\u6837 k=4\u3001\u6700\u4f18\u7b26\u53f7,\u53ea\u6253\u6563\u5206\u7ec4",
+ "unchallenged": true,
+ "entry_backfilled": 717,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

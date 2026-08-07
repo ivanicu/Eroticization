@@ -1,0 +1,86 @@
+{
+ "entry": 910,
+ "round": "E03\u00b7A110\u00b7R348",
+ "verdict": "OVERTURNED",
+ "world": "PARTIAL \u2014 only 58.5% resolve, so 'back-filling is MECHANICAL' is WRONG for 41.5% of the corpus, and every residue count stays a floor",
+ "n_artifacts": 458,
+ "n_scripts": 869,
+ "n_ledger": 894,
+ "n_headings_with_address": 684,
+ "ambiguous_R": 66,
+ "total_R": 349,
+ "ambiguous_examples": {
+  "6": [
+   226,
+   227,
+   230,
+   231,
+   235,
+   236,
+   237,
+   238,
+   239,
+   241,
+   243,
+   245,
+   247
+  ],
+  "7": [
+   228,
+   252,
+   254,
+   255,
+   257,
+   258,
+   259
+  ],
+  "8": [
+   229,
+   232,
+   234
+  ],
+  "9": [
+   233,
+   240,
+   242,
+   244,
+   246,
+   248,
+   249,
+   250
+  ],
+  "10": [
+   251,
+   253,
+   256,
+   260,
+   261,
+   262,
+   263
+  ],
+  "11": [
+   264,
+   265,
+   266,
+   267,
+   268,
+   269
+  ]
+ },
+ "coverage": {
+  "artifact_key": 16,
+  "script_header": 139,
+  "ledger_address": 260
+ },
+ "union": 268,
+ "union_share": 0.5851528384279476,
+ "agreeing": 267,
+ "conflicts": 1,
+ "unresolved": 190,
+ "unresolved_under_ambiguous_R": 189,
+ "annotated": 251,
+ "positive_ok": true,
+ "negative_ok": true,
+ "corrects": "#909\u2460's 'back-filling entry numbers into old artifacts is MECHANICAL'",
+ "unchallenged": true
+}

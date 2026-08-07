@@ -82,6 +82,8 @@
  "dB_ctl": -0.03302238805970154,
  "reach": 0.11007462686567182,
  "admissible": false,
- "verdict": "**UNVERIFIED:控制行没有全过 ⇒ 仪器没资格下判。**",
- "gate_ok": false
+ "verdict": "**UNVERIFIED:\u63a7\u5236\u884c\u6ca1\u6709\u5168\u8fc7 \u21d2 \u4eea\u5668\u6ca1\u8d44\u683c\u4e0b\u5224\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 801,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

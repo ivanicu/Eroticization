@@ -170,6 +170,8 @@
  ],
  "A_world": true,
  "B_world": false,
- "verdict": "**A 分母驱动 —— 而这意味着 `n=8` 是一个硬天花板。** `log(区间宽度)` 上,**分母信噪比的标准化系数 -0.681 [-0.903, -0.466] 排除 0**,而年份点数 +0.101 [-0.239, +0.410] 含 0。\n  ⇒ **那十二道题不稳,不是因为年份少,是因为社会在它们上面动得不够多。**\n  ⇒ **年份窗口手术救不了它们** —— 这不是功效问题,是**这个估计量在社会没怎么动的题上本来就没定义**。\n  ⇒ **`#789` 那条轴要永远带着它的 scope:只在社会动得多的那些题上成立,而那是 8 道。**",
- "gate_ok": false
+ "verdict": "**A \u5206\u6bcd\u9a71\u52a8 \u2014\u2014 \u800c\u8fd9\u610f\u5473\u7740 `n=8` \u662f\u4e00\u4e2a\u786c\u5929\u82b1\u677f\u3002** `log(\u533a\u95f4\u5bbd\u5ea6)` \u4e0a,**\u5206\u6bcd\u4fe1\u566a\u6bd4\u7684\u6807\u51c6\u5316\u7cfb\u6570 -0.681 [-0.903, -0.466] \u6392\u9664 0**,\u800c\u5e74\u4efd\u70b9\u6570 +0.101 [-0.239, +0.410] \u542b 0\u3002\n  \u21d2 **\u90a3\u5341\u4e8c\u9053\u9898\u4e0d\u7a33,\u4e0d\u662f\u56e0\u4e3a\u5e74\u4efd\u5c11,\u662f\u56e0\u4e3a\u793e\u4f1a\u5728\u5b83\u4eec\u4e0a\u9762\u52a8\u5f97\u4e0d\u591f\u591a\u3002**\n  \u21d2 **\u5e74\u4efd\u7a97\u53e3\u624b\u672f\u6551\u4e0d\u4e86\u5b83\u4eec** \u2014\u2014 \u8fd9\u4e0d\u662f\u529f\u6548\u95ee\u9898,\u662f**\u8fd9\u4e2a\u4f30\u8ba1\u91cf\u5728\u793e\u4f1a\u6ca1\u600e\u4e48\u52a8\u7684\u9898\u4e0a\u672c\u6765\u5c31\u6ca1\u5b9a\u4e49**\u3002\n  \u21d2 **`#789` \u90a3\u6761\u8f74\u8981\u6c38\u8fdc\u5e26\u7740\u5b83\u7684 scope:\u53ea\u5728\u793e\u4f1a\u52a8\u5f97\u591a\u7684\u90a3\u4e9b\u9898\u4e0a\u6210\u7acb,\u800c\u90a3\u662f 8 \u9053\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 790,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

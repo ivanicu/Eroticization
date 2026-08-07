@@ -112,6 +112,8 @@
   "absingle": 0.9663900815390496,
   "abany": 0.9799219176379318
  },
- "verdict": "**一般因子是实的:回归掉熵后残差 Δ 线性 +0.0343 / 秩 +0.0448;只留不塌的 21 题后仍 +0.1601,区间 [+0.0156, +0.2750] 不含零**",
- "unchallenged": true
+ "verdict": "**\u4e00\u822c\u56e0\u5b50\u662f\u5b9e\u7684:\u56de\u5f52\u6389\u71b5\u540e\u6b8b\u5dee \u0394 \u7ebf\u6027 +0.0343 / \u79e9 +0.0448;\u53ea\u7559\u4e0d\u584c\u7684 21 \u9898\u540e\u4ecd +0.1601,\u533a\u95f4 [+0.0156, +0.2750] \u4e0d\u542b\u96f6**",
+ "unchallenged": true,
+ "entry_backfilled": 682,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

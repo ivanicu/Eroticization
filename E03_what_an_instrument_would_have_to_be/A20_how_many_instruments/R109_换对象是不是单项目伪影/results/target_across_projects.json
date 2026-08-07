@@ -1,6 +1,6 @@
 {
  "quads": {
-  "服从 Barry 1976": {
+  "\u670d\u4ece Barry 1976": {
    "pairs": [
     [
      "SCCS322",
@@ -48,7 +48,7 @@
    "med": 0.7905431056946324,
    "med_norm": 0.831928651741151
   },
-  "体罚 Barry 1977": {
+  "\u4f53\u7f5a Barry 1977": {
    "pairs": [
     [
      "SCCS453",
@@ -99,8 +99,10 @@
  },
  "independence": 0.2950626783999888,
  "placebo": 0.28971814528553635,
- "verdict": "**W1 —— 不是单项目伪影:服从四对象中位 +0.7905(跨出版物,同一第一作者)**",
+ "verdict": "**W1 \u2014\u2014 \u4e0d\u662f\u5355\u9879\u76ee\u4f2a\u5f71:\u670d\u4ece\u56db\u5bf9\u8c61\u4e2d\u4f4d +0.7905(\u8de8\u51fa\u7248\u7269,\u540c\u4e00\u7b2c\u4e00\u4f5c\u8005)**",
  "lang_single_target": true,
- "coverage_bug": "穷举第一版用行数(186)而非非缺失值,#617 同型;75 个命中里 21 个假覆盖",
- "unchallenged": true
+ "coverage_bug": "\u7a77\u4e3e\u7b2c\u4e00\u7248\u7528\u884c\u6570(186)\u800c\u975e\u975e\u7f3a\u5931\u503c,#617 \u540c\u578b;75 \u4e2a\u547d\u4e2d\u91cc 21 \u4e2a\u5047\u8986\u76d6",
+ "unchallenged": true,
+ "entry_backfilled": 667,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

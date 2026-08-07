@@ -58,7 +58,9 @@
   "W1"
  ],
  "admissible": true,
- "verdict": "**B 有墙倒了:['W1'] ⇒ 那条路重开,对应那句「结构性」要撤。**\n  W1:{\"kind\": \"DERIVATION\", \"nonlinear_recovered_corr\": 0.9995136648480581, \"raw_corr\": 0.9998062823883994, \"null_corr\": 0.10303693965698622, \"stands\": false}",
+ "verdict": "**B \u6709\u5899\u5012\u4e86:['W1'] \u21d2 \u90a3\u6761\u8def\u91cd\u5f00,\u5bf9\u5e94\u90a3\u53e5\u300c\u7ed3\u6784\u6027\u300d\u8981\u64a4\u3002**\n  W1:{\"kind\": \"DERIVATION\", \"nonlinear_recovered_corr\": 0.9995136648480581, \"raw_corr\": 0.9998062823883994, \"null_corr\": 0.10303693965698622, \"stands\": false}",
  "gate_ok": false,
- "correction_to_837": "variables.csv has 1781 rows, not 1968"
+ "correction_to_837": "variables.csv has 1781 rows, not 1968",
+ "entry_backfilled": 844,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

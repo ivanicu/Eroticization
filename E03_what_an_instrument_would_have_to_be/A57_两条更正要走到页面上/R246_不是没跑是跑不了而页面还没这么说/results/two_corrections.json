@@ -1,14 +1,14 @@
 {
  "per_file": {
   "README_zh.md": {
-   "顶对": {
+   "\u9876\u5bf9": {
     "total": 19,
     "limit": 6,
     "marked": 13,
     "naked": 0,
     "naked_owners": []
    },
-   "`#805` 的一般化": {
+   "`#805` \u7684\u4e00\u822c\u5316": {
     "total": 2,
     "limit": 2,
     "marked": 0,
@@ -17,14 +17,14 @@
    }
   },
   "README.md": {
-   "顶对": {
+   "\u9876\u5bf9": {
     "total": 19,
     "limit": 6,
     "marked": 13,
     "naked": 0,
     "naked_owners": []
    },
-   "`#805` 的一般化": {
+   "`#805` \u7684\u4e00\u822c\u5316": {
     "total": 2,
     "limit": 2,
     "marked": 0,
@@ -34,14 +34,16 @@
   }
  },
  "naked_total": {
-  "顶对": 0,
-  "`#805` 的一般化": 0
+  "\u9876\u5bf9": 0,
+  "`#805` \u7684\u4e00\u822c\u5316": 0
  },
  "action": "Production",
  "pos_control": true,
  "neg_control": true,
  "marked_control": true,
  "admissible": true,
- "verdict": "**两条更正都已落地:两个总体裸着的处所各为 0。**",
- "gate_ok": true
+ "verdict": "**\u4e24\u6761\u66f4\u6b63\u90fd\u5df2\u843d\u5730:\u4e24\u4e2a\u603b\u4f53\u88f8\u7740\u7684\u5904\u6240\u5404\u4e3a 0\u3002**",
+ "gate_ok": true,
+ "entry_backfilled": 807,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

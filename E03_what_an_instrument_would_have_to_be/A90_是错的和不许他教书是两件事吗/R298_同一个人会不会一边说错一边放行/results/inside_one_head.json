@@ -2,8 +2,8 @@
  "rows": [
   {
    "dec": "1990s",
-   "item": "教书 `colhomo`",
-   "stratum": "虔诚",
+   "item": "\u6559\u4e66 `colhomo`",
+   "stratum": "\u8654\u8bda",
    "p_wrong": 0.5687226809130645,
    "marginal": 0.6239350912778905,
    "offset": -0.05521241036482594,
@@ -17,8 +17,8 @@
   },
   {
    "dec": "1990s",
-   "item": "教书 `colhomo`",
-   "stratum": "世俗",
+   "item": "\u6559\u4e66 `colhomo`",
+   "stratum": "\u4e16\u4fd7",
    "p_wrong": 0.6366585563665855,
    "marginal": 0.8006979449398992,
    "offset": -0.16403938857331368,
@@ -32,8 +32,8 @@
   },
   {
    "dec": "1990s",
-   "item": "发言 `spkhomo`",
-   "stratum": "虔诚",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "stratum": "\u8654\u8bda",
    "p_wrong": 0.6710019267822736,
    "marginal": 0.7129071170084439,
    "offset": -0.04190519022617034,
@@ -47,8 +47,8 @@
   },
   {
    "dec": "1990s",
-   "item": "发言 `spkhomo`",
-   "stratum": "世俗",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "stratum": "\u4e16\u4fd7",
    "p_wrong": 0.7700320512820513,
    "marginal": 0.8809980806142035,
    "offset": -0.11096602933215216,
@@ -62,8 +62,8 @@
   },
   {
    "dec": "1990s",
-   "item": "图书馆 `libhomo`",
-   "stratum": "虔诚",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "stratum": "\u8654\u8bda",
    "p_wrong": 0.5247093023255814,
    "marginal": 0.5827250608272506,
    "offset": -0.05801575850166918,
@@ -77,8 +77,8 @@
   },
   {
    "dec": "1990s",
-   "item": "图书馆 `libhomo`",
-   "stratum": "世俗",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "stratum": "\u4e16\u4fd7",
    "p_wrong": 0.6631748589846898,
    "marginal": 0.8045665634674922,
    "offset": -0.14139170448280247,
@@ -92,8 +92,8 @@
   },
   {
    "dec": "2010s",
-   "item": "教书 `colhomo`",
-   "stratum": "虔诚",
+   "item": "\u6559\u4e66 `colhomo`",
+   "stratum": "\u8654\u8bda",
    "p_wrong": 0.7327102803738318,
    "marginal": 0.8004246284501062,
    "offset": -0.06771434807627441,
@@ -107,8 +107,8 @@
   },
   {
    "dec": "2010s",
-   "item": "教书 `colhomo`",
-   "stratum": "世俗",
+   "item": "\u6559\u4e66 `colhomo`",
+   "stratum": "\u4e16\u4fd7",
    "p_wrong": 0.7002398081534772,
    "marginal": 0.91727078891258,
    "offset": -0.21703098075910277,
@@ -122,8 +122,8 @@
   },
   {
    "dec": "2010s",
-   "item": "发言 `spkhomo`",
-   "stratum": "虔诚",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "stratum": "\u8654\u8bda",
    "p_wrong": 0.7534076827757125,
    "marginal": 0.8158449220396123,
    "offset": -0.06243723926389988,
@@ -137,8 +137,8 @@
   },
   {
    "dec": "2010s",
-   "item": "发言 `spkhomo`",
-   "stratum": "世俗",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "stratum": "\u4e16\u4fd7",
    "p_wrong": 0.7251184834123223,
    "marginal": 0.9340144742443593,
    "offset": -0.20889599083203703,
@@ -152,8 +152,8 @@
   },
   {
    "dec": "2010s",
-   "item": "图书馆 `libhomo`",
-   "stratum": "虔诚",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "stratum": "\u8654\u8bda",
    "p_wrong": 0.6009882643607165,
    "marginal": 0.6941870261162595,
    "offset": -0.09319876175554298,
@@ -167,8 +167,8 @@
   },
   {
    "dec": "2010s",
-   "item": "图书馆 `libhomo`",
-   "stratum": "世俗",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "stratum": "\u4e16\u4fd7",
    "p_wrong": 0.6252983293556086,
    "marginal": 0.8988476312419974,
    "offset": -0.2735493018863888,
@@ -182,84 +182,84 @@
   }
  ],
  "base": {
-  "1990s|教书 `colhomo`|虔诚": {
+  "1990s|\u6559\u4e66 `colhomo`|\u8654\u8bda": {
    "n": 2465,
    "n_wrong": 2059,
    "share_wrong": 0.8352941176470589,
    "marginal": 0.6239350912778905,
    "p_allow_given_wrong": 0.5687226809130645
   },
-  "1990s|教书 `colhomo`|世俗": {
+  "1990s|\u6559\u4e66 `colhomo`|\u4e16\u4fd7": {
    "n": 2579,
    "n_wrong": 1233,
    "share_wrong": 0.4780922838309422,
    "marginal": 0.8006979449398992,
    "p_allow_given_wrong": 0.6366585563665855
   },
-  "1990s|发言 `spkhomo`|虔诚": {
+  "1990s|\u53d1\u8a00 `spkhomo`|\u8654\u8bda": {
    "n": 2487,
    "n_wrong": 2076,
    "share_wrong": 0.8347406513872135,
    "marginal": 0.7129071170084439,
    "p_allow_given_wrong": 0.6710019267822736
   },
-  "1990s|发言 `spkhomo`|世俗": {
+  "1990s|\u53d1\u8a00 `spkhomo`|\u4e16\u4fd7": {
    "n": 2605,
    "n_wrong": 1248,
    "share_wrong": 0.47907869481765836,
    "marginal": 0.8809980806142035,
    "p_allow_given_wrong": 0.7700320512820513
   },
-  "1990s|图书馆 `libhomo`|虔诚": {
+  "1990s|\u56fe\u4e66\u9986 `libhomo`|\u8654\u8bda": {
    "n": 2466,
    "n_wrong": 2064,
    "share_wrong": 0.8369829683698297,
    "marginal": 0.5827250608272506,
    "p_allow_given_wrong": 0.5247093023255814
   },
-  "1990s|图书馆 `libhomo`|世俗": {
+  "1990s|\u56fe\u4e66\u9986 `libhomo`|\u4e16\u4fd7": {
    "n": 2584,
    "n_wrong": 1241,
    "share_wrong": 0.48026315789473684,
    "marginal": 0.8045665634674922,
    "p_allow_given_wrong": 0.6631748589846898
   },
-  "2010s|教书 `colhomo`|虔诚": {
+  "2010s|\u6559\u4e66 `colhomo`|\u8654\u8bda": {
    "n": 2355,
    "n_wrong": 1605,
    "share_wrong": 0.6815286624203821,
    "marginal": 0.8004246284501062,
    "p_allow_given_wrong": 0.7327102803738318
   },
-  "2010s|教书 `colhomo`|世俗": {
+  "2010s|\u6559\u4e66 `colhomo`|\u4e16\u4fd7": {
    "n": 2345,
    "n_wrong": 417,
    "share_wrong": 0.17782515991471215,
    "marginal": 0.91727078891258,
    "p_allow_given_wrong": 0.7002398081534772
   },
-  "2010s|发言 `spkhomo`|虔诚": {
+  "2010s|\u53d1\u8a00 `spkhomo`|\u8654\u8bda": {
    "n": 2373,
    "n_wrong": 1614,
    "share_wrong": 0.6801517067003793,
    "marginal": 0.8158449220396123,
    "p_allow_given_wrong": 0.7534076827757125
   },
-  "2010s|发言 `spkhomo`|世俗": {
+  "2010s|\u53d1\u8a00 `spkhomo`|\u4e16\u4fd7": {
    "n": 2349,
    "n_wrong": 422,
    "share_wrong": 0.17965091528309918,
    "marginal": 0.9340144742443593,
    "p_allow_given_wrong": 0.7251184834123223
   },
-  "2010s|图书馆 `libhomo`|虔诚": {
+  "2010s|\u56fe\u4e66\u9986 `libhomo`|\u8654\u8bda": {
    "n": 2374,
    "n_wrong": 1619,
    "share_wrong": 0.6819713563605728,
    "marginal": 0.6941870261162595,
    "p_allow_given_wrong": 0.6009882643607165
   },
-  "2010s|图书馆 `libhomo`|世俗": {
+  "2010s|\u56fe\u4e66\u9986 `libhomo`|\u4e16\u4fd7": {
    "n": 2343,
    "n_wrong": 419,
    "share_wrong": 0.17883055911224927,
@@ -281,6 +281,8 @@
   "floor": 0.010790324820921793
  },
  "admissible": true,
- "verdict": "**A 脑子里真的分开了 —— 而且两层分得一样开。** `p(放行|说错)` 全格平均 **66.4%**,offset 在 12/12 格显著为负。\n  ⚠⚠ **而世界 C 被它自己的算术杀掉了,这是本轮最该带走的一条:**\n  `offset = (1−s)·Δ` 是**恒等式**(核对偏差 8.3e-17);两层的「说错」基率差很多(虔诚 76% vs 世俗 33%)⇒ **offset 的 2.9× 层间差里基率占 2.8×**。\n  换成不被基率压缩的 `Δ`:**虔诚层 -0.274 vs 世俗层 -0.275 —— 三位小数上一样。**\n  ⚠ **而按预注册的字面阈值,C 本来会开火**(6/6 对超地板)——\n  **可 Δ 之差的符号在两个十年之间翻转**(1990s 虔诚更负,2010s 反过来)⇒ **没有稳定的层间效应。**\n  **判据缺的是「方向」:阈值、尺、总体、分支都有了,而「分层」这个世界\n  要求差异有一个一致的方向,只要求量级会让符号翻转也通过。**\n  ⇒ **一句关于人的话:说「永远是错的」的人里,仍有 66% 说可以让他去教书 ——\n  道德上的谴责和公共上的放行,在同一个脑子里是可以并存的。**",
- "gate_ok": true
+ "verdict": "**A \u8111\u5b50\u91cc\u771f\u7684\u5206\u5f00\u4e86 \u2014\u2014 \u800c\u4e14\u4e24\u5c42\u5206\u5f97\u4e00\u6837\u5f00\u3002** `p(\u653e\u884c|\u8bf4\u9519)` \u5168\u683c\u5e73\u5747 **66.4%**,offset \u5728 12/12 \u683c\u663e\u8457\u4e3a\u8d1f\u3002\n  \u26a0\u26a0 **\u800c\u4e16\u754c C \u88ab\u5b83\u81ea\u5df1\u7684\u7b97\u672f\u6740\u6389\u4e86,\u8fd9\u662f\u672c\u8f6e\u6700\u8be5\u5e26\u8d70\u7684\u4e00\u6761:**\n  `offset = (1\u2212s)\u00b7\u0394` \u662f**\u6052\u7b49\u5f0f**(\u6838\u5bf9\u504f\u5dee 8.3e-17);\u4e24\u5c42\u7684\u300c\u8bf4\u9519\u300d\u57fa\u7387\u5dee\u5f88\u591a(\u8654\u8bda 76% vs \u4e16\u4fd7 33%)\u21d2 **offset \u7684 2.9\u00d7 \u5c42\u95f4\u5dee\u91cc\u57fa\u7387\u5360 2.8\u00d7**\u3002\n  \u6362\u6210\u4e0d\u88ab\u57fa\u7387\u538b\u7f29\u7684 `\u0394`:**\u8654\u8bda\u5c42 -0.274 vs \u4e16\u4fd7\u5c42 -0.275 \u2014\u2014 \u4e09\u4f4d\u5c0f\u6570\u4e0a\u4e00\u6837\u3002**\n  \u26a0 **\u800c\u6309\u9884\u6ce8\u518c\u7684\u5b57\u9762\u9608\u503c,C \u672c\u6765\u4f1a\u5f00\u706b**(6/6 \u5bf9\u8d85\u5730\u677f)\u2014\u2014\n  **\u53ef \u0394 \u4e4b\u5dee\u7684\u7b26\u53f7\u5728\u4e24\u4e2a\u5341\u5e74\u4e4b\u95f4\u7ffb\u8f6c**(1990s \u8654\u8bda\u66f4\u8d1f,2010s \u53cd\u8fc7\u6765)\u21d2 **\u6ca1\u6709\u7a33\u5b9a\u7684\u5c42\u95f4\u6548\u5e94\u3002**\n  **\u5224\u636e\u7f3a\u7684\u662f\u300c\u65b9\u5411\u300d:\u9608\u503c\u3001\u5c3a\u3001\u603b\u4f53\u3001\u5206\u652f\u90fd\u6709\u4e86,\u800c\u300c\u5206\u5c42\u300d\u8fd9\u4e2a\u4e16\u754c\n  \u8981\u6c42\u5dee\u5f02\u6709\u4e00\u4e2a\u4e00\u81f4\u7684\u65b9\u5411,\u53ea\u8981\u6c42\u91cf\u7ea7\u4f1a\u8ba9\u7b26\u53f7\u7ffb\u8f6c\u4e5f\u901a\u8fc7\u3002**\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd:\u8bf4\u300c\u6c38\u8fdc\u662f\u9519\u7684\u300d\u7684\u4eba\u91cc,\u4ecd\u6709 66% \u8bf4\u53ef\u4ee5\u8ba9\u4ed6\u53bb\u6559\u4e66 \u2014\u2014\n  \u9053\u5fb7\u4e0a\u7684\u8c34\u8d23\u548c\u516c\u5171\u4e0a\u7684\u653e\u884c,\u5728\u540c\u4e00\u4e2a\u8111\u5b50\u91cc\u662f\u53ef\u4ee5\u5e76\u5b58\u7684\u3002**",
+ "gate_ok": true,
+ "entry_backfilled": 859,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

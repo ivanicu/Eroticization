@@ -1,7 +1,7 @@
 {
  "arms": [
   {
-   "label": "NSFG `SAMESEX`(分层=`ATTNDNOW`)",
+   "label": "NSFG `SAMESEX`(\u5206\u5c42=`ATTNDNOW`)",
    "dgap": 0.0015387454431530223,
    "lo": -0.08867791538313888,
    "hi": 0.09587628696228936,
@@ -13,7 +13,7 @@
    "excl0": false
   },
   {
-   "label": "GSS `homosex`(分层=`attend` 一项,匹配)",
+   "label": "GSS `homosex`(\u5206\u5c42=`attend` \u4e00\u9879,\u5339\u914d)",
    "dgap": 0.22177028147657563,
    "lo": -0.035015639553490616,
    "hi": 0.4719764734737972,
@@ -25,7 +25,7 @@
    "excl0": false
   },
   {
-   "label": "GSS `homosex`(分层=三项合成,原规格)",
+   "label": "GSS `homosex`(\u5206\u5c42=\u4e09\u9879\u5408\u6210,\u539f\u89c4\u683c)",
    "dgap": -0.030569261387446645,
    "lo": -0.3201323303695053,
    "hi": 0.26512124308448476,
@@ -68,10 +68,12 @@
  "polarity_control": true,
  "same_sign": true,
  "admissible": true,
- "verdict": "**C 第二具仪器没有分辨力。** NSFG Δgap = +0.0015 [-0.0887, +0.0959] 含 0 —— **两波、六年,本来就可能没有功效。**\n  ⇒ **这是关于第二具仪器的真收获,不是关于世界的判断。**\n  ⚠ 而 GSS 侧在同一段时间上是 +0.2218 [-0.0350, +0.4720] —— **两者并排报,不合并。**",
+ "verdict": "**C \u7b2c\u4e8c\u5177\u4eea\u5668\u6ca1\u6709\u5206\u8fa8\u529b\u3002** NSFG \u0394gap = +0.0015 [-0.0887, +0.0959] \u542b 0 \u2014\u2014 **\u4e24\u6ce2\u3001\u516d\u5e74,\u672c\u6765\u5c31\u53ef\u80fd\u6ca1\u6709\u529f\u6548\u3002**\n  \u21d2 **\u8fd9\u662f\u5173\u4e8e\u7b2c\u4e8c\u5177\u4eea\u5668\u7684\u771f\u6536\u83b7,\u4e0d\u662f\u5173\u4e8e\u4e16\u754c\u7684\u5224\u65ad\u3002**\n  \u26a0 \u800c GSS \u4fa7\u5728\u540c\u4e00\u6bb5\u65f6\u95f4\u4e0a\u662f +0.2218 [-0.0350, +0.4720] \u2014\u2014 **\u4e24\u8005\u5e76\u6392\u62a5,\u4e0d\u5408\u5e76\u3002**",
  "gate_ok": false,
  "confounds": [
-  "SAMESEX 题号 IH-3 -> IH-1(顺序效应,只影响 NSFG)",
-  "年龄下界 15 vs 18,匹配不上"
- ]
+  "SAMESEX \u9898\u53f7 IH-3 -> IH-1(\u987a\u5e8f\u6548\u5e94,\u53ea\u5f71\u54cd NSFG)",
+  "\u5e74\u9f84\u4e0b\u754c 15 vs 18,\u5339\u914d\u4e0d\u4e0a"
+ ],
+ "entry_backfilled": 810,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

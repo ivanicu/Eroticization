@@ -25,8 +25,8 @@
   "Self-restraint"
  ],
  "specs": {
-  "文献 compliance(责任+服从)": {
-   "name": "文献 compliance(责任+服从)",
+  "\u6587\u732e compliance(\u8d23\u4efb+\u670d\u4ece)": {
+   "name": "\u6587\u732e compliance(\u8d23\u4efb+\u670d\u4ece)",
    "n": 104,
    "partial": 0.5651588883607015,
    "mde": 0.19379885073651318,
@@ -35,8 +35,8 @@
     "Obedience"
    ]
   },
-  "文献 assertion(成就+自立)": {
-   "name": "文献 assertion(成就+自立)",
+  "\u6587\u732e assertion(\u6210\u5c31+\u81ea\u7acb)": {
+   "name": "\u6587\u732e assertion(\u6210\u5c31+\u81ea\u7acb)",
    "n": 107,
    "partial": 0.6298645087535298,
    "mde": 0.19297575172169454,
@@ -45,8 +45,8 @@
     "Self-reliance"
    ]
   },
-  "只服从": {
-   "name": "只服从",
+  "\u53ea\u670d\u4ece": {
+   "name": "\u53ea\u670d\u4ece",
    "n": 112,
    "partial": 0.5617633496689104,
    "mde": 0.18409157612153157,
@@ -54,8 +54,8 @@
     "Obedience"
    ]
   },
-  "只责任": {
-   "name": "只责任",
+  "\u53ea\u8d23\u4efb": {
+   "name": "\u53ea\u8d23\u4efb",
    "n": 110,
    "partial": 0.635495843420513,
    "mde": 0.1835138943503467,
@@ -63,8 +63,8 @@
     "Responsibility"
    ]
   },
-  "盲因子 组A": {
-   "name": "盲因子 组A",
+  "\u76f2\u56e0\u5b50 \u7ec4A": {
+   "name": "\u76f2\u56e0\u5b50 \u7ec4A",
    "n": 105,
    "partial": 0.6808902350924364,
    "mde": 0.19361632937146622,
@@ -72,8 +72,8 @@
     "Aggression"
    ]
   },
-  "盲因子 组B": {
-   "name": "盲因子 组B",
+  "\u76f2\u56e0\u5b50 \u7ec4B": {
+   "name": "\u76f2\u56e0\u5b50 \u7ec4B",
    "n": 63,
    "partial": 0.5211042263041771,
    "mde": 0.26554391541188366,
@@ -88,8 +88,8 @@
     "Self-restraint"
    ]
   },
-  "全部九个": {
-   "name": "全部九个",
+  "\u5168\u90e8\u4e5d\u4e2a": {
+   "name": "\u5168\u90e8\u4e5d\u4e2a",
    "n": 59,
    "partial": 0.5503556453659566,
    "mde": 0.2803840744179752,
@@ -106,5 +106,7 @@
    ]
   }
  },
- "verdict": "**W-B:服从单独的代价 +0.0783 > 整个 compliance 组的 +0.0750 ⇒ **对上的是「服从」本身,不是一个族** —— 跨层的族故事在社会层**不**成立,成立的是「服从」这一个品格**"
+ "verdict": "**W-B:\u670d\u4ece\u5355\u72ec\u7684\u4ee3\u4ef7 +0.0783 > \u6574\u4e2a compliance \u7ec4\u7684 +0.0750 \u21d2 **\u5bf9\u4e0a\u7684\u662f\u300c\u670d\u4ece\u300d\u672c\u8eab,\u4e0d\u662f\u4e00\u4e2a\u65cf** \u2014\u2014 \u8de8\u5c42\u7684\u65cf\u6545\u4e8b\u5728\u793e\u4f1a\u5c42**\u4e0d**\u6210\u7acb,\u6210\u7acb\u7684\u662f\u300c\u670d\u4ece\u300d\u8fd9\u4e00\u4e2a\u54c1\u683c**",
+ "entry_backfilled": 753,
+ "entry_source": "script_header (`#910`; three routes compared, agreeing)"
 }

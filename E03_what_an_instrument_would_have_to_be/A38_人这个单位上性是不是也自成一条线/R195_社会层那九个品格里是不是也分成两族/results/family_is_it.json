@@ -8,5 +8,7 @@
  "null95_auth": 0.022512657925595987,
  "null95_ingroup": 0.022705738022747505,
  "pos_control": 0.4968595181126591,
- "verdict": "**W-3:权威保留 63.6% · 内群体保留 26.5% —— 落在两条预注册之间,判不了**"
+ "verdict": "**W-3:\u6743\u5a01\u4fdd\u7559 63.6% \u00b7 \u5185\u7fa4\u4f53\u4fdd\u7559 26.5% \u2014\u2014 \u843d\u5728\u4e24\u6761\u9884\u6ce8\u518c\u4e4b\u95f4,\u5224\u4e0d\u4e86**",
+ "entry_backfilled": 753,
+ "entry_source": "script_header (`#910`; three routes compared, agreeing)"
 }

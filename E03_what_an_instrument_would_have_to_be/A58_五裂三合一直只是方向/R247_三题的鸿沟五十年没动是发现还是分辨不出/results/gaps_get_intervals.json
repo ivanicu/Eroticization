@@ -25,7 +25,7 @@
    "item": "homosex",
    "K": 4,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1974,
    "y1": 2024,
    "n_years": 28,
@@ -36,13 +36,13 @@
    "per_year_per_span": -0.007352247634954499,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "homosex",
    "K": 4,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1974,
    "y1": 2024,
    "n_years": 28,
@@ -53,13 +53,13 @@
    "per_year_per_span": -0.004816793951702182,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "teensex",
    "K": 4,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1986,
    "y1": 2024,
    "n_years": 21,
@@ -70,13 +70,13 @@
    "per_year_per_span": -0.002502240779235256,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "teensex",
    "K": 4,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1986,
    "y1": 2024,
    "n_years": 21,
@@ -87,13 +87,13 @@
    "per_year_per_span": -0.0011024773927755804,
    "excl0": false,
    "wide": false,
-   "verdict": "**没动**"
+   "verdict": "**\u6ca1\u52a8**"
   },
   {
    "item": "sexeduc",
    "K": 3,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1974,
    "y1": 2024,
    "n_years": 27,
@@ -104,13 +104,13 @@
    "per_year_per_span": -0.0007644561338726774,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "sexeduc",
    "K": 3,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1974,
    "y1": 2024,
    "n_years": 27,
@@ -121,13 +121,13 @@
    "per_year_per_span": -0.0009277232095339261,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "suicide2",
    "K": 2,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1977,
    "y1": 2024,
    "n_years": 26,
@@ -138,13 +138,13 @@
    "per_year_per_span": 0.0013340101547351078,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "suicide2",
    "K": 2,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1977,
    "y1": 2024,
    "n_years": 26,
@@ -155,13 +155,13 @@
    "per_year_per_span": 0.0007630156182780923,
    "excl0": false,
    "wide": false,
-   "verdict": "**没动**"
+   "verdict": "**\u6ca1\u52a8**"
   },
   {
    "item": "spanking",
    "K": 4,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1986,
    "y1": 2024,
    "n_years": 21,
@@ -172,13 +172,13 @@
    "per_year_per_span": -0.0017259338457326098,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "spanking",
    "K": 4,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1986,
    "y1": 2024,
    "n_years": 21,
@@ -189,13 +189,13 @@
    "per_year_per_span": -0.0027674410468316595,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "prayer",
    "K": 2,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1974,
    "y1": 2024,
    "n_years": 27,
@@ -206,13 +206,13 @@
    "per_year_per_span": 0.002898521240979268,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "prayer",
    "K": 2,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1974,
    "y1": 2024,
    "n_years": 27,
@@ -223,13 +223,13 @@
    "per_year_per_span": 0.0014849385512010027,
    "excl0": false,
    "wide": false,
-   "verdict": "**没动**"
+   "verdict": "**\u6ca1\u52a8**"
   },
   {
    "item": "racmar",
    "K": 2,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1974,
    "y1": 2002,
    "n_years": 19,
@@ -240,13 +240,13 @@
    "per_year_per_span": 0.0060475249217418914,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "racmar",
    "K": 2,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1974,
    "y1": 2002,
    "n_years": 19,
@@ -257,13 +257,13 @@
    "per_year_per_span": 0.004528060997886647,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "helpblk",
    "K": 5,
    "spec": "fit",
-   "scheme": "年份聚类重抽",
+   "scheme": "\u5e74\u4efd\u805a\u7c7b\u91cd\u62bd",
    "y0": 1975,
    "y1": 2024,
    "n_years": 25,
@@ -274,13 +274,13 @@
    "per_year_per_span": 0.0032047631940276605,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   },
   {
    "item": "helpblk",
    "K": 5,
    "spec": "raw",
-   "scheme": "格内按人重抽",
+   "scheme": "\u683c\u5185\u6309\u4eba\u91cd\u62bd",
    "y0": 1975,
    "y1": 2024,
    "n_years": 25,
@@ -291,7 +291,7 @@
    "per_year_per_span": 0.003451726362520161,
    "excl0": true,
    "wide": false,
-   "verdict": "动了"
+   "verdict": "\u52a8\u4e86"
   }
  ],
  "wide_threshold": 1.1028371452431749,
@@ -313,6 +313,8 @@
   "planted": 0.5
  },
  "admissible": true,
- "verdict": "**`#802` 那张表缺一档,而缺的那一档正是这几题。**\n  **动了 5**:['homosex', 'sexeduc', 'spanking', 'racmar', 'helpblk']\n  **没动(区间含 0 且窄)0**:[]\n  **分辨不出(区间含 0 且宽)0**:[]\n  ⇒ **「缩 3/8、扩 5/8」的分母里,有 0 题本来就不该被数进任何一边** ——\n  **`#802` 的二分把「没动」与「分辨不出」全压成了一个方向,而它们是三句不同的话。**",
- "gate_ok": false
+ "verdict": "**`#802` \u90a3\u5f20\u8868\u7f3a\u4e00\u6863,\u800c\u7f3a\u7684\u90a3\u4e00\u6863\u6b63\u662f\u8fd9\u51e0\u9898\u3002**\n  **\u52a8\u4e86 5**:['homosex', 'sexeduc', 'spanking', 'racmar', 'helpblk']\n  **\u6ca1\u52a8(\u533a\u95f4\u542b 0 \u4e14\u7a84)0**:[]\n  **\u5206\u8fa8\u4e0d\u51fa(\u533a\u95f4\u542b 0 \u4e14\u5bbd)0**:[]\n  \u21d2 **\u300c\u7f29 3/8\u3001\u6269 5/8\u300d\u7684\u5206\u6bcd\u91cc,\u6709 0 \u9898\u672c\u6765\u5c31\u4e0d\u8be5\u88ab\u6570\u8fdb\u4efb\u4f55\u4e00\u8fb9** \u2014\u2014\n  **`#802` \u7684\u4e8c\u5206\u628a\u300c\u6ca1\u52a8\u300d\u4e0e\u300c\u5206\u8fa8\u4e0d\u51fa\u300d\u5168\u538b\u6210\u4e86\u4e00\u4e2a\u65b9\u5411,\u800c\u5b83\u4eec\u662f\u4e09\u53e5\u4e0d\u540c\u7684\u8bdd\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 808,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

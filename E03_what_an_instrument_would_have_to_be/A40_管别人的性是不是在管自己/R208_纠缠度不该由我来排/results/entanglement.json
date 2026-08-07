@@ -29,5 +29,7 @@
  ],
  "width_old": 0.066,
  "width_new": 0.08392243234797254,
- "verdict": "**测不动:截距区间宽 8.4pp,而 `#768` 的手排区间宽 6.6pp ⇒ 本轮把「我拍的」换成了「测不动的」,**不是收窄** —— `#768` 的区间维持**"
+ "verdict": "**\u6d4b\u4e0d\u52a8:\u622a\u8ddd\u533a\u95f4\u5bbd 8.4pp,\u800c `#768` \u7684\u624b\u6392\u533a\u95f4\u5bbd 6.6pp \u21d2 \u672c\u8f6e\u628a\u300c\u6211\u62cd\u7684\u300d\u6362\u6210\u4e86\u300c\u6d4b\u4e0d\u52a8\u7684\u300d,**\u4e0d\u662f\u6536\u7a84** \u2014\u2014 `#768` \u7684\u533a\u95f4\u7ef4\u6301**",
+ "entry_backfilled": 769,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

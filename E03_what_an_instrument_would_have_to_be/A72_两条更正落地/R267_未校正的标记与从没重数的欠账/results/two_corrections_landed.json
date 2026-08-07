@@ -22,144 +22,146 @@
  "debts_source_entry": 800,
  "debts": [
   {
-   "debt": "#799①",
+   "debt": "#799\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#799②",
+   "debt": "#799\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#798①",
+   "debt": "#798\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#797②",
+   "debt": "#797\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#796①",
+   "debt": "#796\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#795②",
+   "debt": "#795\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#794②",
+   "debt": "#794\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#793②",
+   "debt": "#793\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#792②",
+   "debt": "#792\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#791②",
+   "debt": "#791\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#790②",
+   "debt": "#790\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#789①",
+   "debt": "#789\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#788②",
+   "debt": "#788\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#787③",
+   "debt": "#787\u2462",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#786②",
+   "debt": "#786\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#785②",
+   "debt": "#785\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#784①",
+   "debt": "#784\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#783①",
+   "debt": "#783\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#783②",
+   "debt": "#783\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#778①",
+   "debt": "#778\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#773②",
+   "debt": "#773\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#769①",
+   "debt": "#769\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#768①",
+   "debt": "#768\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#767①",
+   "debt": "#767\u2460",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#760②",
+   "debt": "#760\u2461",
    "claimed_by": null,
    "evidence": null
   },
   {
-   "debt": "#758①",
+   "debt": "#758\u2460",
    "claimed_by": null,
    "evidence": null
   }
  ],
  "n_debts": 26,
  "n_claimed": 0,
- "n_discharged": "UNVERIFIED — instrument unit != claim unit",
+ "n_discharged": "UNVERIFIED \u2014 instrument unit != claim unit",
  "pos_control": true,
  "neg_control": true,
  "pos_control2": true,
  "neg_control2": true,
  "admissible": true,
- "verdict": "**两条更正都已落地。** 总体① 裸着 0 处;总体② 产出 26 行可 grep 的清单,其中 **0 笔被声称执行过、26 笔未见声称**。\n  ⚠⚠ **而「已了结」的真实笔数仍是 UNVERIFIED —— 仪器只能看见「声称」。**",
- "gate_ok": true
+ "verdict": "**\u4e24\u6761\u66f4\u6b63\u90fd\u5df2\u843d\u5730\u3002** \u603b\u4f53\u2460 \u88f8\u7740 0 \u5904;\u603b\u4f53\u2461 \u4ea7\u51fa 26 \u884c\u53ef grep \u7684\u6e05\u5355,\u5176\u4e2d **0 \u7b14\u88ab\u58f0\u79f0\u6267\u884c\u8fc7\u300126 \u7b14\u672a\u89c1\u58f0\u79f0**\u3002\n  \u26a0\u26a0 **\u800c\u300c\u5df2\u4e86\u7ed3\u300d\u7684\u771f\u5b9e\u7b14\u6570\u4ecd\u662f UNVERIFIED \u2014\u2014 \u4eea\u5668\u53ea\u80fd\u770b\u89c1\u300c\u58f0\u79f0\u300d\u3002**",
+ "gate_ok": true,
+ "entry_backfilled": 828,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

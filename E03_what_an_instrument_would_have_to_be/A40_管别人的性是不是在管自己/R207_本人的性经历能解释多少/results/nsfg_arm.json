@@ -30,6 +30,8 @@
   }
  },
  "n_up": 3,
- "verdict": "**符号不一:3/4 题「一生」更强 ⇒ 不是普遍规律,整张网格已全列**",
- "gate_ok": true
+ "verdict": "**\u7b26\u53f7\u4e0d\u4e00:3/4 \u9898\u300c\u4e00\u751f\u300d\u66f4\u5f3a \u21d2 \u4e0d\u662f\u666e\u904d\u89c4\u5f8b,\u6574\u5f20\u7f51\u683c\u5df2\u5168\u5217**",
+ "gate_ok": true,
+ "entry_backfilled": 768,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

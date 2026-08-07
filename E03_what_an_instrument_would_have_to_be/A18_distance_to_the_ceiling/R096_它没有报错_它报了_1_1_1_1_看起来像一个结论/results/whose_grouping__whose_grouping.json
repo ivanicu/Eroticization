@@ -1,7 +1,7 @@
 {
  "blocks": {
-  "MFQ·AUTHORITY": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7AUTHORITY": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -20,8 +20,8 @@
    "ratio_raw": 1.0,
    "ratio_norm": 1.0
   },
-  "MFQ·FAIRNESS": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7FAIRNESS": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -40,8 +40,8 @@
    "ratio_raw": 0.8333333333333334,
    "ratio_norm": 0.8333333333333334
   },
-  "MFQ·HARM": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7HARM": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -60,8 +60,8 @@
    "ratio_raw": 1.0,
    "ratio_norm": 1.0
   },
-  "MFQ·INGROUP": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7INGROUP": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -80,8 +80,8 @@
    "ratio_raw": 0.8333333333333334,
    "ratio_norm": 0.8333333333333334
   },
-  "MFQ·PURITY": {
-   "who": "问卷作者 GHN 2009",
+  "MFQ\u00b7PURITY": {
+   "who": "\u95ee\u5377\u4f5c\u8005 GHN 2009",
    "nominal": 6,
    "npairs": 15,
    "flipped": [],
@@ -100,8 +100,8 @@
    "ratio_raw": 1.0,
    "ratio_norm": 1.0
   },
-  "GSS·警察四题": {
-   "who": "问卷作者 NORC",
+  "GSS\u00b7\u8b66\u5bdf\u56db\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NORC",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -120,8 +120,8 @@
    "ratio_raw": 0.5,
    "ratio_norm": 1.0
   },
-  "GSS·性道德四题": {
-   "who": "问卷作者 NORC",
+  "GSS\u00b7\u6027\u9053\u5fb7\u56db\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NORC",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -140,8 +140,8 @@
    "ratio_raw": 1.0,
    "ratio_norm": 1.0
   },
-  "NSFG·性三题": {
-   "who": "问卷作者 NCHS",
+  "NSFG\u00b7\u6027\u4e09\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NCHS",
    "nominal": 3,
    "npairs": 3,
    "flipped": [],
@@ -160,8 +160,8 @@
    "ratio_raw": 1.0,
    "ratio_norm": 1.0
   },
-  "NSFG·家庭七题": {
-   "who": "问卷作者 NCHS",
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898": {
+   "who": "\u95ee\u5377\u4f5c\u8005 NCHS",
    "nominal": 7,
    "npairs": 21,
    "flipped": [
@@ -182,8 +182,8 @@
    "ratio_raw": 0.5714285714285714,
    "ratio_norm": 0.5714285714285714
   },
-  "SCCS·体罚四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u4f53\u7f5a\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 0,
    "flipped": [],
@@ -202,8 +202,8 @@
    "ratio_raw": 0.25,
    "ratio_norm": 0.25
   },
-  "SCCS·以身作则四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u4ee5\u8eab\u4f5c\u5219\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -222,8 +222,8 @@
    "ratio_raw": 1.0,
    "ratio_norm": 1.0
   },
-  "SCCS·讲课四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u8bb2\u8bfe\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 0,
    "flipped": [],
@@ -242,8 +242,8 @@
    "ratio_raw": 0.25,
    "ratio_norm": 0.25
   },
-  "SCCS·放任四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u653e\u4efb\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -262,8 +262,8 @@
    "ratio_raw": 1.0,
    "ratio_norm": 1.0
   },
-  "SCCS·疼爱四对象": {
-   "who": "编码团队 Barry 1977",
+  "SCCS\u00b7\u75bc\u7231\u56db\u5bf9\u8c61": {
+   "who": "\u7f16\u7801\u56e2\u961f Barry 1977",
    "nominal": 4,
    "npairs": 6,
    "flipped": [],
@@ -287,12 +287,14 @@
  "armB": 0.5714285714285714,
  "placebo": 1.0,
  "broken": [
-  "MFQ·FAIRNESS",
-  "MFQ·INGROUP",
-  "NSFG·家庭七题",
-  "SCCS·体罚四对象",
-  "SCCS·讲课四对象"
+  "MFQ\u00b7FAIRNESS",
+  "MFQ\u00b7INGROUP",
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898",
+  "SCCS\u00b7\u4f53\u7f5a\u56db\u5bf9\u8c61",
+  "SCCS\u00b7\u8bb2\u8bfe\u56db\u5bf9\u8c61"
  ],
- "verdict": "UNVERIFIED —— 控制未齐(臂A False · 安慰剂 True · 臂B True)",
- "unchallenged": true
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u9f50(\u81c2A False \u00b7 \u5b89\u6170\u5242 True \u00b7 \u81c2B True)",
+ "unchallenged": true,
+ "entry_backfilled": 651,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

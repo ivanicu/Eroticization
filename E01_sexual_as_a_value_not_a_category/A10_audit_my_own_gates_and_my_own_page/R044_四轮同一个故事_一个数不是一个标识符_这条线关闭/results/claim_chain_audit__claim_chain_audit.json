@@ -21111,5 +21111,7 @@
  "rate": 1.0,
  "base": 0.95,
  "pc": true,
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 516,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

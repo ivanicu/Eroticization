@@ -56,5 +56,7 @@
   "SCCS1766": "lang1998conan"
  },
  "verdict": "UNVERIFIED",
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 696,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

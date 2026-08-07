@@ -3,7 +3,7 @@
   {
    "k": 2,
    "std": true,
-   "how": "成对完整",
+   "how": "\u6210\u5bf9\u5b8c\u6574",
    "biomale": 10.456142476432065,
    "rank": 1,
    "n": 20,
@@ -15,7 +15,7 @@
   {
    "k": 2,
    "std": true,
-   "how": "整行完整",
+   "how": "\u6574\u884c\u5b8c\u6574",
    "biomale": 16.1853042193405,
    "rank": 1,
    "n": 20,
@@ -27,7 +27,7 @@
   {
    "k": 2,
    "std": false,
-   "how": "成对完整",
+   "how": "\u6210\u5bf9\u5b8c\u6574",
    "biomale": 10.456142476432065,
    "rank": 1,
    "n": 20,
@@ -39,7 +39,7 @@
   {
    "k": 2,
    "std": false,
-   "how": "整行完整",
+   "how": "\u6574\u884c\u5b8c\u6574",
    "biomale": 16.1853042193405,
    "rank": 1,
    "n": 20,
@@ -51,7 +51,7 @@
   {
    "k": 3,
    "std": true,
-   "how": "成对完整",
+   "how": "\u6210\u5bf9\u5b8c\u6574",
    "biomale": 6.90074768415023,
    "rank": 8,
    "n": 20,
@@ -63,7 +63,7 @@
   {
    "k": 3,
    "std": true,
-   "how": "整行完整",
+   "how": "\u6574\u884c\u5b8c\u6574",
    "biomale": 8.76062132713184,
    "rank": 8,
    "n": 20,
@@ -75,7 +75,7 @@
   {
    "k": 3,
    "std": false,
-   "how": "成对完整",
+   "how": "\u6210\u5bf9\u5b8c\u6574",
    "biomale": 6.90074768415023,
    "rank": 8,
    "n": 20,
@@ -87,7 +87,7 @@
   {
    "k": 3,
    "std": false,
-   "how": "整行完整",
+   "how": "\u6574\u884c\u5b8c\u6574",
    "biomale": 8.76062132713184,
    "rank": 8,
    "n": 20,
@@ -99,7 +99,7 @@
   {
    "k": 4,
    "std": true,
-   "how": "成对完整",
+   "how": "\u6210\u5bf9\u5b8c\u6574",
    "biomale": 4.599857106242043,
    "rank": 18,
    "n": 20,
@@ -111,7 +111,7 @@
   {
    "k": 4,
    "std": true,
-   "how": "整行完整",
+   "how": "\u6574\u884c\u5b8c\u6574",
    "biomale": 5.418394360516382,
    "rank": 17,
    "n": 20,
@@ -123,7 +123,7 @@
   {
    "k": 4,
    "std": false,
-   "how": "成对完整",
+   "how": "\u6210\u5bf9\u5b8c\u6574",
    "biomale": 4.599857106242043,
    "rank": 18,
    "n": 20,
@@ -135,7 +135,7 @@
   {
    "k": 4,
    "std": false,
-   "how": "整行完整",
+   "how": "\u6574\u884c\u5b8c\u6574",
    "biomale": 5.418394360516382,
    "rank": 17,
    "n": 20,
@@ -235,8 +235,10 @@
  "derivation": "adding any column rotates the subspace; the finding must be 'rotates more than a real item', so rot_drop is computed for all 20 columns identically",
  "scope_limit": "this round measures the SHARED structural object, not the 8 rounds' own verdicts; re-running them is a separate round",
  "admissible": true,
- "verdict": "**C 性别沾在**领先的那一小片子空间**上,而且沾得比任何一道真题都紧。**\n  ⚠ **只说旋转不变的两件事**(本轮第 ④ 号边界:特征值分离度 0.100 / 0.092 几乎等大 ⇒ **「第几根成分」不可读,不说**):\n  ① **前两根成分的人层得分与「是不是男的」相关 0.5606 与 0.4682**,而安慰剂(独立 Bernoulli(0.5))的 95 分位是 **0.0158** ⇒ **35 倍**。\n  ② 去掉它,**k=2 的子空间转 10.46°,在 20 列里排 1/20** —— **比去掉任何一道真题都多**(真题中位 3.75°);\n     而 **k=4 时排 18/20,低于平均** ⇒ **影响集中在领先成分上,而领先成分正是被拿去起名字的那几根。**\n  ⚠⚠ **而多重性校正下旋转那一半一格都不剩(BH 0/12 · BY 0/12)** ——\n  **所以本轮的结论靠的是相关那一条(0.5606 vs 0.0158),不是转角那一条。如实写。**\n  ⇒ **一句关于人的话:那 8 轮在算「一个人的性癖有多宽」的时候,\n  把「这个人是不是男的」当成了他的第 20 个性癖 ——\n  而它不是安静地待在角落:它和领先那两根轴的相关是 0.56 与 0.47,\n  是一个纯随机二值列的三十多倍。于是那几根轴量到的,有一大块是性别。**\n  ⚠ **而本轮不能说某一轮的结论翻了** —— 量的是它们共用的结构对象,不是各自的判词;\n  逐轮重跑是另一整轮,**在那之前「翻没翻」仍是 `UNASSESSED`**。",
+ "verdict": "**C \u6027\u522b\u6cbe\u5728**\u9886\u5148\u7684\u90a3\u4e00\u5c0f\u7247\u5b50\u7a7a\u95f4**\u4e0a,\u800c\u4e14\u6cbe\u5f97\u6bd4\u4efb\u4f55\u4e00\u9053\u771f\u9898\u90fd\u7d27\u3002**\n  \u26a0 **\u53ea\u8bf4\u65cb\u8f6c\u4e0d\u53d8\u7684\u4e24\u4ef6\u4e8b**(\u672c\u8f6e\u7b2c \u2463 \u53f7\u8fb9\u754c:\u7279\u5f81\u503c\u5206\u79bb\u5ea6 0.100 / 0.092 \u51e0\u4e4e\u7b49\u5927 \u21d2 **\u300c\u7b2c\u51e0\u6839\u6210\u5206\u300d\u4e0d\u53ef\u8bfb,\u4e0d\u8bf4**):\n  \u2460 **\u524d\u4e24\u6839\u6210\u5206\u7684\u4eba\u5c42\u5f97\u5206\u4e0e\u300c\u662f\u4e0d\u662f\u7537\u7684\u300d\u76f8\u5173 0.5606 \u4e0e 0.4682**,\u800c\u5b89\u6170\u5242(\u72ec\u7acb Bernoulli(0.5))\u7684 95 \u5206\u4f4d\u662f **0.0158** \u21d2 **35 \u500d**\u3002\n  \u2461 \u53bb\u6389\u5b83,**k=2 \u7684\u5b50\u7a7a\u95f4\u8f6c 10.46\u00b0,\u5728 20 \u5217\u91cc\u6392 1/20** \u2014\u2014 **\u6bd4\u53bb\u6389\u4efb\u4f55\u4e00\u9053\u771f\u9898\u90fd\u591a**(\u771f\u9898\u4e2d\u4f4d 3.75\u00b0);\n     \u800c **k=4 \u65f6\u6392 18/20,\u4f4e\u4e8e\u5e73\u5747** \u21d2 **\u5f71\u54cd\u96c6\u4e2d\u5728\u9886\u5148\u6210\u5206\u4e0a,\u800c\u9886\u5148\u6210\u5206\u6b63\u662f\u88ab\u62ff\u53bb\u8d77\u540d\u5b57\u7684\u90a3\u51e0\u6839\u3002**\n  \u26a0\u26a0 **\u800c\u591a\u91cd\u6027\u6821\u6b63\u4e0b\u65cb\u8f6c\u90a3\u4e00\u534a\u4e00\u683c\u90fd\u4e0d\u5269(BH 0/12 \u00b7 BY 0/12)** \u2014\u2014\n  **\u6240\u4ee5\u672c\u8f6e\u7684\u7ed3\u8bba\u9760\u7684\u662f\u76f8\u5173\u90a3\u4e00\u6761(0.5606 vs 0.0158),\u4e0d\u662f\u8f6c\u89d2\u90a3\u4e00\u6761\u3002\u5982\u5b9e\u5199\u3002**\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd:\u90a3 8 \u8f6e\u5728\u7b97\u300c\u4e00\u4e2a\u4eba\u7684\u6027\u7656\u6709\u591a\u5bbd\u300d\u7684\u65f6\u5019,\n  \u628a\u300c\u8fd9\u4e2a\u4eba\u662f\u4e0d\u662f\u7537\u7684\u300d\u5f53\u6210\u4e86\u4ed6\u7684\u7b2c 20 \u4e2a\u6027\u7656 \u2014\u2014\n  \u800c\u5b83\u4e0d\u662f\u5b89\u9759\u5730\u5f85\u5728\u89d2\u843d:\u5b83\u548c\u9886\u5148\u90a3\u4e24\u6839\u8f74\u7684\u76f8\u5173\u662f 0.56 \u4e0e 0.47,\n  \u662f\u4e00\u4e2a\u7eaf\u968f\u673a\u4e8c\u503c\u5217\u7684\u4e09\u5341\u591a\u500d\u3002\u4e8e\u662f\u90a3\u51e0\u6839\u8f74\u91cf\u5230\u7684,\u6709\u4e00\u5927\u5757\u662f\u6027\u522b\u3002**\n  \u26a0 **\u800c\u672c\u8f6e\u4e0d\u80fd\u8bf4\u67d0\u4e00\u8f6e\u7684\u7ed3\u8bba\u7ffb\u4e86** \u2014\u2014 \u91cf\u7684\u662f\u5b83\u4eec\u5171\u7528\u7684\u7ed3\u6784\u5bf9\u8c61,\u4e0d\u662f\u5404\u81ea\u7684\u5224\u8bcd;\n  \u9010\u8f6e\u91cd\u8dd1\u662f\u53e6\u4e00\u6574\u8f6e,**\u5728\u90a3\u4e4b\u524d\u300c\u7ffb\u6ca1\u7ffb\u300d\u4ecd\u662f `UNASSESSED`**\u3002",
  "gate_ok": false,
  "seed": 309,
- "population": "BKS 那 8 轮实际使用的 20 列题集(19 道真题 + `biomale`),在 k∈{2,3,4} × 标准化两版 × 相关矩阵两版上"
+ "population": "BKS \u90a3 8 \u8f6e\u5b9e\u9645\u4f7f\u7528\u7684 20 \u5217\u9898\u96c6(19 \u9053\u771f\u9898 + `biomale`),\u5728 k\u2208{2,3,4} \u00d7 \u6807\u51c6\u5316\u4e24\u7248 \u00d7 \u76f8\u5173\u77e9\u9635\u4e24\u7248\u4e0a",
+ "entry_backfilled": 870,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

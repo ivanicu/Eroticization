@@ -22,6 +22,8 @@
  ],
  "gss_median": 0.7334780240919002,
  "in_synth_regime": false,
- "note": "码本档数≠分析样本档数;真数据天花板由边际偏斜决定,不由档数",
- "unchallenged": true
+ "note": "\u7801\u672c\u6863\u6570\u2260\u5206\u6790\u6837\u672c\u6863\u6570;\u771f\u6570\u636e\u5929\u82b1\u677f\u7531\u8fb9\u9645\u504f\u659c\u51b3\u5b9a,\u4e0d\u7531\u6863\u6570",
+ "unchallenged": true,
+ "entry_backfilled": 737,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

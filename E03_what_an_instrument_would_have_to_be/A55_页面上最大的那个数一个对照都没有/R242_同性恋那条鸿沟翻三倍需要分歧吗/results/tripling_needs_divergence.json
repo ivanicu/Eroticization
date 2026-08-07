@@ -32,7 +32,7 @@
  "cells": [
   {
    "link": "probit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "spec": "fit",
    "delta": 2.0183359976642716,
    "pred_gap0": -0.6512721325210462,
@@ -43,7 +43,7 @@
   },
   {
    "link": "probit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "spec": "raw",
    "delta": 1.1932289300109393,
    "pred_gap0": -0.6512721325210462,
@@ -54,7 +54,7 @@
   },
   {
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "spec": "fit",
    "delta": 0.9579884086171699,
    "pred_gap0": -0.6512721325210462,
@@ -65,7 +65,7 @@
   },
   {
    "link": "probit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "spec": "raw",
    "delta": 0.7978703269068792,
    "pred_gap0": -0.6512721325210462,
@@ -76,7 +76,7 @@
   },
   {
    "link": "logit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "spec": "fit",
    "delta": 3.476409450362679,
    "pred_gap0": -0.6512721325210464,
@@ -87,7 +87,7 @@
   },
   {
    "link": "logit",
-   "cal": "非虔诚",
+   "cal": "\u975e\u8654\u8bda",
    "spec": "raw",
    "delta": 1.9537482787257443,
    "pred_gap0": -0.6512721325210464,
@@ -98,7 +98,7 @@
   },
   {
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "spec": "fit",
    "delta": 1.6977532287548418,
    "pred_gap0": -0.6512721325210464,
@@ -109,7 +109,7 @@
   },
   {
    "link": "logit",
-   "cal": "虔诚",
+   "cal": "\u8654\u8bda",
    "spec": "raw",
    "delta": 1.4325289678047688,
    "pred_gap0": -0.6512721325210464,
@@ -145,6 +145,8 @@
   "gap1": -1.5617630421378645
  },
  "admissible": true,
- "verdict": "**A 真分歧 —— 头条站住了,而现在它有对照了。** 八格中位 explained = **+0.385**,\n  ⇒ **一个共同的潜在位移造不出观测到的这条差距** ⇒ 两层确实走得不一样。\n  ⇒ **`#802` 的那句话保留,并且从此带着这个对照:三倍不是刻度造的。**\n  ⚠ 而 explained 仍然不是 0 ⇒ **刻度贡献了其中一部分,报这个数,不报「全是分歧」。**",
- "gate_ok": false
+ "verdict": "**A \u771f\u5206\u6b67 \u2014\u2014 \u5934\u6761\u7ad9\u4f4f\u4e86,\u800c\u73b0\u5728\u5b83\u6709\u5bf9\u7167\u4e86\u3002** \u516b\u683c\u4e2d\u4f4d explained = **+0.385**,\n  \u21d2 **\u4e00\u4e2a\u5171\u540c\u7684\u6f5c\u5728\u4f4d\u79fb\u9020\u4e0d\u51fa\u89c2\u6d4b\u5230\u7684\u8fd9\u6761\u5dee\u8ddd** \u21d2 \u4e24\u5c42\u786e\u5b9e\u8d70\u5f97\u4e0d\u4e00\u6837\u3002\n  \u21d2 **`#802` \u7684\u90a3\u53e5\u8bdd\u4fdd\u7559,\u5e76\u4e14\u4ece\u6b64\u5e26\u7740\u8fd9\u4e2a\u5bf9\u7167:\u4e09\u500d\u4e0d\u662f\u523b\u5ea6\u9020\u7684\u3002**\n  \u26a0 \u800c explained \u4ecd\u7136\u4e0d\u662f 0 \u21d2 **\u523b\u5ea6\u8d21\u732e\u4e86\u5176\u4e2d\u4e00\u90e8\u5206,\u62a5\u8fd9\u4e2a\u6570,\u4e0d\u62a5\u300c\u5168\u662f\u5206\u6b67\u300d\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 803,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

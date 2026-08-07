@@ -1,9 +1,35 @@
-{"action":"PRODUCTION — 清点年份维,不做研究",
- "question":"「年代 × 态度」这一格能否跨仪器复制?",
- "checked":15,"with_year_dimension":0,
- "sources":["ECR","EQSQ","HEXACO","MIES","MSSCQ","RWAS","SCS","SD3",
-            "DVN_C56WMI","DVN_LQOADH","DVN_PY1O34","DVN_SJTRBI(MFQ)","DVN_YMCHMU","MSSCQ(orig)","mfq"],
- "conclusion":"本地非政府来源全部无年份维 -> 该格结构上单来源(仅 GSS)",
- "inclusion":["openpsych 与 dataverse 下全部已解压目录","列名匹配 ^(year|yr|survey_?year|wave|date)$"],
- "impossible":["未联网,不能排除外部存在第二份","列名匹配可能漏掉非英文/非常规命名的年份列"],
- "unchallenged": true}
+{
+ "action": "PRODUCTION \u2014 \u6e05\u70b9\u5e74\u4efd\u7ef4,\u4e0d\u505a\u7814\u7a76",
+ "question": "\u300c\u5e74\u4ee3 \u00d7 \u6001\u5ea6\u300d\u8fd9\u4e00\u683c\u80fd\u5426\u8de8\u4eea\u5668\u590d\u5236?",
+ "checked": 15,
+ "with_year_dimension": 0,
+ "sources": [
+  "ECR",
+  "EQSQ",
+  "HEXACO",
+  "MIES",
+  "MSSCQ",
+  "RWAS",
+  "SCS",
+  "SD3",
+  "DVN_C56WMI",
+  "DVN_LQOADH",
+  "DVN_PY1O34",
+  "DVN_SJTRBI(MFQ)",
+  "DVN_YMCHMU",
+  "MSSCQ(orig)",
+  "mfq"
+ ],
+ "conclusion": "\u672c\u5730\u975e\u653f\u5e9c\u6765\u6e90\u5168\u90e8\u65e0\u5e74\u4efd\u7ef4 -> \u8be5\u683c\u7ed3\u6784\u4e0a\u5355\u6765\u6e90(\u4ec5 GSS)",
+ "inclusion": [
+  "openpsych \u4e0e dataverse \u4e0b\u5168\u90e8\u5df2\u89e3\u538b\u76ee\u5f55",
+  "\u5217\u540d\u5339\u914d ^(year|yr|survey_?year|wave|date)$"
+ ],
+ "impossible": [
+  "\u672a\u8054\u7f51,\u4e0d\u80fd\u6392\u9664\u5916\u90e8\u5b58\u5728\u7b2c\u4e8c\u4efd",
+  "\u5217\u540d\u5339\u914d\u53ef\u80fd\u6f0f\u6389\u975e\u82f1\u6587/\u975e\u5e38\u89c4\u547d\u540d\u7684\u5e74\u4efd\u5217"
+ ],
+ "unchallenged": true,
+ "entry_backfilled": 558,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
+}

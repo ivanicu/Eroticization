@@ -57,6 +57,8 @@
   }
  },
  "exact": 0.029872529763707183,
- "verdict": "**判不了(3.9% 落在 3–10%)—— 报区间**",
- "unchallenged": true
+ "verdict": "**\u5224\u4e0d\u4e86(3.9% \u843d\u5728 3\u201310%)\u2014\u2014 \u62a5\u533a\u95f4**",
+ "unchallenged": true,
+ "entry_backfilled": 719,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

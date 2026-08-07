@@ -1,8 +1,8 @@
 {
  "grid": [
   {
-   "relig": "出席",
-   "neither": "剔除",
+   "relig": "\u51fa\u5e2d",
+   "neither": "\u5254\u9664",
    "restrict": false,
    "g_gss": -0.8505099653002011,
    "g_nsfg": -0.8023674560730967,
@@ -15,8 +15,8 @@
    "n_nsfg": 14706
   },
   {
-   "relig": "出席",
-   "neither": "剔除",
+   "relig": "\u51fa\u5e2d",
+   "neither": "\u5254\u9664",
    "restrict": true,
    "g_gss": -0.906574395919663,
    "g_nsfg": -0.8680636610839219,
@@ -29,8 +29,8 @@
    "n_nsfg": 10238
   },
   {
-   "relig": "出席",
-   "neither": "中点",
+   "relig": "\u51fa\u5e2d",
+   "neither": "\u4e2d\u70b9",
    "restrict": false,
    "g_gss": -0.8505099653002011,
    "g_nsfg": -0.7939761686964721,
@@ -43,8 +43,8 @@
    "n_nsfg": 15119
   },
   {
-   "relig": "出席",
-   "neither": "中点",
+   "relig": "\u51fa\u5e2d",
+   "neither": "\u4e2d\u70b9",
    "restrict": true,
    "g_gss": -0.906574395919663,
    "g_nsfg": -0.8587310383993417,
@@ -57,8 +57,8 @@
    "n_nsfg": 10523
   },
   {
-   "relig": "重要性",
-   "neither": "剔除",
+   "relig": "\u91cd\u8981\u6027",
+   "neither": "\u5254\u9664",
    "restrict": false,
    "g_gss": -0.72208614191642,
    "g_nsfg": -0.7242428128468095,
@@ -71,8 +71,8 @@
    "n_nsfg": 10847
   },
   {
-   "relig": "重要性",
-   "neither": "剔除",
+   "relig": "\u91cd\u8981\u6027",
+   "neither": "\u5254\u9664",
    "restrict": true,
    "g_gss": -0.45287020838943964,
    "g_nsfg": -0.7535262419491028,
@@ -85,8 +85,8 @@
    "n_nsfg": 7877
   },
   {
-   "relig": "重要性",
-   "neither": "中点",
+   "relig": "\u91cd\u8981\u6027",
+   "neither": "\u4e2d\u70b9",
    "restrict": false,
    "g_gss": -0.72208614191642,
    "g_nsfg": -0.714537139029464,
@@ -99,8 +99,8 @@
    "n_nsfg": 11192
   },
   {
-   "relig": "重要性",
-   "neither": "中点",
+   "relig": "\u91cd\u8981\u6027",
+   "neither": "\u4e2d\u70b9",
    "restrict": true,
    "g_gss": -0.45287020838943964,
    "g_nsfg": -0.7445448715832461,
@@ -113,8 +113,8 @@
    "n_nsfg": 8122
   },
   {
-   "relig": "合成",
-   "neither": "剔除",
+   "relig": "\u5408\u6210",
+   "neither": "\u5254\u9664",
    "restrict": false,
    "g_gss": -0.9439402109735638,
    "g_nsfg": -0.8715053384062781,
@@ -127,8 +127,8 @@
    "n_nsfg": 10838
   },
   {
-   "relig": "合成",
-   "neither": "剔除",
+   "relig": "\u5408\u6210",
+   "neither": "\u5254\u9664",
    "restrict": true,
    "g_gss": -0.9549017731242037,
    "g_nsfg": -0.9066330144262258,
@@ -141,8 +141,8 @@
    "n_nsfg": 7871
   },
   {
-   "relig": "合成",
-   "neither": "中点",
+   "relig": "\u5408\u6210",
+   "neither": "\u4e2d\u70b9",
    "restrict": false,
    "g_gss": -0.9439402109735638,
    "g_nsfg": -0.8606278615097153,
@@ -155,8 +155,8 @@
    "n_nsfg": 11180
   },
   {
-   "relig": "合成",
-   "neither": "中点",
+   "relig": "\u5408\u6210",
+   "neither": "\u4e2d\u70b9",
    "restrict": true,
    "g_gss": -0.9549017731242037,
    "g_nsfg": -0.8953784500763082,
@@ -193,6 +193,8 @@
   "cross-sectional only: no causal identification"
  ],
  "admissible": true,
- "verdict": "**A 仪器无关 —— 那条缝换一份问卷还在,而且大小对得上。** 11/12 格的 `g_GSS − g_NSFG` 区间含 0;GSS 平均 **-0.805**、NSFG 平均 **-0.816**(单位都是该题当年自身的 SD)。\n  ⇒ **一句关于人的话:信教与不信教的美国人在同性关系上的距离,\n  不是 GSS 那道题问出来的 —— 换一份完全不同的问卷、不同的机构、不同的问法,\n  那条缝还在原处,宽度也差不多。**",
- "gate_ok": true
+ "verdict": "**A \u4eea\u5668\u65e0\u5173 \u2014\u2014 \u90a3\u6761\u7f1d\u6362\u4e00\u4efd\u95ee\u5377\u8fd8\u5728,\u800c\u4e14\u5927\u5c0f\u5bf9\u5f97\u4e0a\u3002** 11/12 \u683c\u7684 `g_GSS \u2212 g_NSFG` \u533a\u95f4\u542b 0;GSS \u5e73\u5747 **-0.805**\u3001NSFG \u5e73\u5747 **-0.816**(\u5355\u4f4d\u90fd\u662f\u8be5\u9898\u5f53\u5e74\u81ea\u8eab\u7684 SD)\u3002\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd:\u4fe1\u6559\u4e0e\u4e0d\u4fe1\u6559\u7684\u7f8e\u56fd\u4eba\u5728\u540c\u6027\u5173\u7cfb\u4e0a\u7684\u8ddd\u79bb,\n  \u4e0d\u662f GSS \u90a3\u9053\u9898\u95ee\u51fa\u6765\u7684 \u2014\u2014 \u6362\u4e00\u4efd\u5b8c\u5168\u4e0d\u540c\u7684\u95ee\u5377\u3001\u4e0d\u540c\u7684\u673a\u6784\u3001\u4e0d\u540c\u7684\u95ee\u6cd5,\n  \u90a3\u6761\u7f1d\u8fd8\u5728\u539f\u5904,\u5bbd\u5ea6\u4e5f\u5dee\u4e0d\u591a\u3002**",
+ "gate_ok": true,
+ "entry_backfilled": 853,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

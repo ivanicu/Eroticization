@@ -1,138 +1,140 @@
 {
  "claims": [
   {
-   "id": "换对象 +0.845",
+   "id": "\u6362\u5bf9\u8c61 +0.845",
    "inst": [
-    "SCCS·barry1977"
+    "SCCS\u00b7barry1977"
    ],
    "round": "#640",
-   "second": "EA / WNAI 的体罚变量",
-   "checked": "EA 无 punish/disciplin/corporal 变量;WNAI 429 变量里只有 WNAI343「政治组织与罪的惩罚」(不是育儿)",
-   "verdict": "做不到",
-   "falsifier": "若任一跨文化库出现「按对象分列的儿童体罚」且 n≥60,此条即被推翻"
+   "second": "EA / WNAI \u7684\u4f53\u7f5a\u53d8\u91cf",
+   "checked": "EA \u65e0 punish/disciplin/corporal \u53d8\u91cf;WNAI 429 \u53d8\u91cf\u91cc\u53ea\u6709 WNAI343\u300c\u653f\u6cbb\u7ec4\u7ec7\u4e0e\u7f6a\u7684\u60e9\u7f5a\u300d(\u4e0d\u662f\u80b2\u513f)",
+   "verdict": "\u505a\u4e0d\u5230",
+   "falsifier": "\u82e5\u4efb\u4e00\u8de8\u6587\u5316\u5e93\u51fa\u73b0\u300c\u6309\u5bf9\u8c61\u5206\u5217\u7684\u513f\u7ae5\u4f53\u7f5a\u300d\u4e14 n\u226560,\u6b64\u6761\u5373\u88ab\u63a8\u7ffb"
   },
   {
-   "id": "换手段 +0.229",
+   "id": "\u6362\u624b\u6bb5 +0.229",
    "inst": [
-    "SCCS·barry1977"
+    "SCCS\u00b7barry1977"
    ],
    "round": "#642",
-   "second": "同上",
-   "checked": "同上",
-   "verdict": "做不到",
-   "falsifier": "若任一跨文化库出现「≥3 种管教手段各自编码」且 n≥60,此条即被推翻"
+   "second": "\u540c\u4e0a",
+   "checked": "\u540c\u4e0a",
+   "verdict": "\u505a\u4e0d\u5230",
+   "falsifier": "\u82e5\u4efb\u4e00\u8de8\u6587\u5316\u5e93\u51fa\u73b0\u300c\u22653 \u79cd\u7ba1\u6559\u624b\u6bb5\u5404\u81ea\u7f16\u7801\u300d\u4e14 n\u226560,\u6b64\u6761\u5373\u88ab\u63a8\u7ffb"
   },
   {
-   "id": "打孩子≠打妻子 ≤+0.44",
+   "id": "\u6253\u5b69\u5b50\u2260\u6253\u59bb\u5b50 \u2264+0.44",
    "inst": [
-    "SCCS·barry1977",
-    "SCCS·broude1983"
+    "SCCS\u00b7barry1977",
+    "SCCS\u00b7broude1983"
    ],
    "round": "#641",
-   "second": "—",
-   "checked": "已跨编码团队(Barry 1977 × Broude 1983),同一库内",
-   "verdict": "**单库跨团队**",
-   "falsifier": "若另一库同时有两侧,可升为跨库"
+   "second": "\u2014",
+   "checked": "\u5df2\u8de8\u7f16\u7801\u56e2\u961f(Barry 1977 \u00d7 Broude 1983),\u540c\u4e00\u5e93\u5185",
+   "verdict": "**\u5355\u5e93\u8de8\u56e2\u961f**",
+   "falsifier": "\u82e5\u53e6\u4e00\u5e93\u540c\u65f6\u6709\u4e24\u4fa7,\u53ef\u5347\u4e3a\u8de8\u5e93"
   },
   {
-   "id": "打得多也讲得多 +0.344",
+   "id": "\u6253\u5f97\u591a\u4e5f\u8bb2\u5f97\u591a +0.344",
    "inst": [
-    "SCCS·barry1977"
+    "SCCS\u00b7barry1977"
    ],
    "round": "#642",
-   "second": "同上",
-   "checked": "同上",
-   "verdict": "做不到",
-   "falsifier": "同「换手段」"
+   "second": "\u540c\u4e0a",
+   "checked": "\u540c\u4e0a",
+   "verdict": "\u505a\u4e0d\u5230",
+   "falsifier": "\u540c\u300c\u6362\u624b\u6bb5\u300d"
   },
   {
-   "id": "以身作则不站队",
+   "id": "\u4ee5\u8eab\u4f5c\u5219\u4e0d\u7ad9\u961f",
    "inst": [
-    "SCCS·barry1977"
+    "SCCS\u00b7barry1977"
    ],
    "round": "#643",
    "second": "GSS/NSFG/YRBS/BRFSS/OpenPsych",
-   "checked": "`#645` 实测:五个仪器变量标签里 0 命中(正对照 6/6 通过)",
-   "verdict": "做不到",
-   "falsifier": "若任一调查出现「榜样/模仿学习」题且 n≥300,此条即被推翻"
+   "checked": "`#645` \u5b9e\u6d4b:\u4e94\u4e2a\u4eea\u5668\u53d8\u91cf\u6807\u7b7e\u91cc 0 \u547d\u4e2d(\u6b63\u5bf9\u7167 6/6 \u901a\u8fc7)",
+   "verdict": "\u505a\u4e0d\u5230",
+   "falsifier": "\u82e5\u4efb\u4e00\u8c03\u67e5\u51fa\u73b0\u300c\u699c\u6837/\u6a21\u4eff\u5b66\u4e60\u300d\u9898\u4e14 n\u2265300,\u6b64\u6761\u5373\u88ab\u63a8\u7ffb"
   },
   {
-   "id": "跨团队复现 +0.630",
+   "id": "\u8de8\u56e2\u961f\u590d\u73b0 +0.630",
    "inst": [
-    "SCCS·barry1977",
-    "SCCS·lang1998"
+    "SCCS\u00b7barry1977",
+    "SCCS\u00b7lang1998"
    ],
    "round": "#639",
-   "second": "—",
-   "checked": "已跨编码团队",
-   "verdict": "**单库跨团队**",
-   "falsifier": "同上"
+   "second": "\u2014",
+   "checked": "\u5df2\u8de8\u7f16\u7801\u56e2\u961f",
+   "verdict": "**\u5355\u5e93\u8de8\u56e2\u961f**",
+   "falsifier": "\u540c\u4e0a"
   },
   {
-   "id": "越稀有越被谴责(婚前性)",
+   "id": "\u8d8a\u7a00\u6709\u8d8a\u88ab\u8c34\u8d23(\u5a5a\u524d\u6027)",
    "inst": [
-    "SCCS·broude1976"
+    "SCCS\u00b7broude1976"
    ],
    "round": "#528",
    "second": "**EA078**",
-   "checked": "**EA078「女孩婚前性行为的规范」n = 1291(有值 598),码按谴责强度有序,Murdock 另一编码项目;EA∩SCCS = 186**",
-   "verdict": "**⛔ 待做,不是做不到**",
-   "falsifier": "—(候选已找到,故此条必须改判)"
+   "checked": "**EA078\u300c\u5973\u5b69\u5a5a\u524d\u6027\u884c\u4e3a\u7684\u89c4\u8303\u300dn = 1291(\u6709\u503c 598),\u7801\u6309\u8c34\u8d23\u5f3a\u5ea6\u6709\u5e8f,Murdock \u53e6\u4e00\u7f16\u7801\u9879\u76ee;EA\u2229SCCS = 186**",
+   "verdict": "**\u26d4 \u5f85\u505a,\u4e0d\u662f\u505a\u4e0d\u5230**",
+   "falsifier": "\u2014(\u5019\u9009\u5df2\u627e\u5230,\u6545\u6b64\u6761\u5fc5\u987b\u6539\u5224)"
   },
   {
-   "id": "没有「严厉的社会」+0.125",
+   "id": "\u6ca1\u6709\u300c\u4e25\u5389\u7684\u793e\u4f1a\u300d+0.125",
    "inst": [
-    "SCCS·broude1976"
+    "SCCS\u00b7broude1976"
    ],
    "round": "#529 #530",
    "second": "EA",
-   "checked": "EA 只有 EA078 一道性道德题,**跨做法耦合需要 ≥2 道** -> EA 不合用",
-   "verdict": "做不到",
-   "falsifier": "若任一跨文化库出现 ≥2 道不同性实践的道德判断且共同 n≥60,此条即被推翻"
+   "checked": "EA \u53ea\u6709 EA078 \u4e00\u9053\u6027\u9053\u5fb7\u9898,**\u8de8\u505a\u6cd5\u8026\u5408\u9700\u8981 \u22652 \u9053** -> EA \u4e0d\u5408\u7528",
+   "verdict": "\u505a\u4e0d\u5230",
+   "falsifier": "\u82e5\u4efb\u4e00\u8de8\u6587\u5316\u5e93\u51fa\u73b0 \u22652 \u9053\u4e0d\u540c\u6027\u5b9e\u8df5\u7684\u9053\u5fb7\u5224\u65ad\u4e14\u5171\u540c n\u226560,\u6b64\u6761\u5373\u88ab\u63a8\u7ffb"
   },
   {
-   "id": "只有纯洁是团 0.335",
+   "id": "\u53ea\u6709\u7eaf\u6d01\u662f\u56e2 0.335",
    "inst": [
     "MFQ"
    ],
    "round": "#653",
-   "second": "无",
-   "checked": "本地无第二份带五基础结构的量表(GSS/NSFG/YRBS/BRFSS 均无道德基础问卷)",
-   "verdict": "做不到",
-   "falsifier": "若出现第二份含 MFQ 五域或等价结构的数据且 n≥1000,此条即被推翻"
+   "second": "\u65e0",
+   "checked": "\u672c\u5730\u65e0\u7b2c\u4e8c\u4efd\u5e26\u4e94\u57fa\u7840\u7ed3\u6784\u7684\u91cf\u8868(GSS/NSFG/YRBS/BRFSS \u5747\u65e0\u9053\u5fb7\u57fa\u7840\u95ee\u5377)",
+   "verdict": "\u505a\u4e0d\u5230",
+   "falsifier": "\u82e5\u51fa\u73b0\u7b2c\u4e8c\u4efd\u542b MFQ \u4e94\u57df\u6216\u7b49\u4ef7\u7ed3\u6784\u7684\u6570\u636e\u4e14 n\u22651000,\u6b64\u6761\u5373\u88ab\u63a8\u7ffb"
   },
   {
-   "id": "「性是一块」",
+   "id": "\u300c\u6027\u662f\u4e00\u5757\u300d",
    "inst": [
     "GSS",
     "NSFG"
    ],
    "round": "#653",
-   "second": "—",
-   "checked": "已跨仪器",
-   "verdict": "**已跨仪器 ✅**",
-   "falsifier": "—"
+   "second": "\u2014",
+   "checked": "\u5df2\u8de8\u4eea\u5668",
+   "verdict": "**\u5df2\u8de8\u4eea\u5668 \u2705**",
+   "falsifier": "\u2014"
   },
   {
-   "id": "性与「没结婚算不算一个家」一样紧 1.10×",
+   "id": "\u6027\u4e0e\u300c\u6ca1\u7ed3\u5a5a\u7b97\u4e0d\u7b97\u4e00\u4e2a\u5bb6\u300d\u4e00\u6837\u7d27 1.10\u00d7",
    "inst": [
     "NSFG"
    ],
    "round": "#650",
    "second": "GSS",
-   "checked": "GSS 无匹配的同居态度题组(需 ≥3 道同格式)",
-   "verdict": "做不到",
-   "falsifier": "若 GSS 或他处出现 ≥3 道同格式同居态度题且 n≥1000,此条即被推翻"
+   "checked": "GSS \u65e0\u5339\u914d\u7684\u540c\u5c45\u6001\u5ea6\u9898\u7ec4(\u9700 \u22653 \u9053\u540c\u683c\u5f0f)",
+   "verdict": "\u505a\u4e0d\u5230",
+   "falsifier": "\u82e5 GSS \u6216\u4ed6\u5904\u51fa\u73b0 \u22653 \u9053\u540c\u683c\u5f0f\u540c\u5c45\u6001\u5ea6\u9898\u4e14 n\u22651000,\u6b64\u6761\u5373\u88ab\u63a8\u7ffb"
   }
  ],
  "single": 8,
  "total": 11,
  "reclassified": [
-  "越稀有越被谴责(婚前性)"
+  "\u8d8a\u7a00\u6709\u8d8a\u88ab\u8c34\u8d23(\u5a5a\u524d\u6027)"
  ],
  "ea078": {
   "title": "Norms of premarital sexual behavior of girls",
   "n": 1291
  },
- "ea_has_punish": []
+ "ea_has_punish": [],
+ "entry_backfilled": 664,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

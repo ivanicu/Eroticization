@@ -39,13 +39,15 @@
   }
  ],
  "page_effects": {
-  "#699 轴统计量(n=97)": 0.3243,
-  "#700 轴×谴责(n=75)": 0.3631,
-  "#701 轴×谴责(n=61)": 0.2549,
-  "#701 轴×罕见(n=61)": 0.2769,
-  "#698 跨手段|ρ|中位(n=97)": 0.3241
+  "#699 \u8f74\u7edf\u8ba1\u91cf(n=97)": 0.3243,
+  "#700 \u8f74\u00d7\u8c34\u8d23(n=75)": 0.3631,
+  "#701 \u8f74\u00d7\u8c34\u8d23(n=61)": 0.2549,
+  "#701 \u8f74\u00d7\u7f55\u89c1(n=61)": 0.2769,
+  "#698 \u8de8\u624b\u6bb5|\u03c1|\u4e2d\u4f4d(n=97)": 0.3241
  },
  "below_mde": [],
- "verdict": "**还有余量:n=61 的 MDE 是 0.1620,页面上社会侧效应全部高于它**",
- "unchallenged": true
+ "verdict": "**\u8fd8\u6709\u4f59\u91cf:n=61 \u7684 MDE \u662f 0.1620,\u9875\u9762\u4e0a\u793e\u4f1a\u4fa7\u6548\u5e94\u5168\u90e8\u9ad8\u4e8e\u5b83**",
+ "unchallenged": true,
+ "entry_backfilled": 702,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

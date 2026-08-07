@@ -872,6 +872,8 @@
   }
  },
  "admissible": true,
- "verdict": "**两张网格既不同步也不完全一致 —— 报双网格,不选边。**\n  `REL` 众数 1990s 2/8 · `polviews` 众数 2010s 1/7 · 逐格一致 76.9%\n  ⚠ 不一致的格已全列(`G3`),而它们是下一轮该看的地方。",
- "gate_ok": false
+ "verdict": "**\u4e24\u5f20\u7f51\u683c\u65e2\u4e0d\u540c\u6b65\u4e5f\u4e0d\u5b8c\u5168\u4e00\u81f4 \u2014\u2014 \u62a5\u53cc\u7f51\u683c,\u4e0d\u9009\u8fb9\u3002**\n  `REL` \u4f17\u6570 1990s 2/8 \u00b7 `polviews` \u4f17\u6570 2010s 1/7 \u00b7 \u9010\u683c\u4e00\u81f4 76.9%\n  \u26a0 \u4e0d\u4e00\u81f4\u7684\u683c\u5df2\u5168\u5217(`G3`),\u800c\u5b83\u4eec\u662f\u4e0b\u4e00\u8f6e\u8be5\u770b\u7684\u5730\u65b9\u3002",
+ "gate_ok": false,
+ "entry_backfilled": 820,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

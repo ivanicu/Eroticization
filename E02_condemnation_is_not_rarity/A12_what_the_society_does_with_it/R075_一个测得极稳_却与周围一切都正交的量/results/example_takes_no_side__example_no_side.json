@@ -19,6 +19,8 @@
  },
  "positive": 0.9214973566605101,
  "placebo": 0.05170430459737659,
- "verdict": "① **以身作则确实是异类** · ② **W1 与 W2 判不了**",
- "unchallenged": true
+ "verdict": "\u2460 **\u4ee5\u8eab\u4f5c\u5219\u786e\u5b9e\u662f\u5f02\u7c7b** \u00b7 \u2461 **W1 \u4e0e W2 \u5224\u4e0d\u4e86**",
+ "unchallenged": true,
+ "entry_backfilled": 643,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

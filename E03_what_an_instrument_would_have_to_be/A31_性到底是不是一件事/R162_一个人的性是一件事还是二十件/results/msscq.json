@@ -53,6 +53,8 @@
  "n_blocks": 200000,
  "median_within": 0.41319926312509847,
  "n_above": 17,
- "verdict": "**W2:面内中位 +0.4132 是零的 5.58 倍,而任取五题的中位只有 -0.2802 ⇒ 一个人的性是若干互不蕴含的侧面,不是一件事**(17/20 个面高于零)",
- "unchallenged": true
+ "verdict": "**W2:\u9762\u5185\u4e2d\u4f4d +0.4132 \u662f\u96f6\u7684 5.58 \u500d,\u800c\u4efb\u53d6\u4e94\u9898\u7684\u4e2d\u4f4d\u53ea\u6709 -0.2802 \u21d2 \u4e00\u4e2a\u4eba\u7684\u6027\u662f\u82e5\u5e72\u4e92\u4e0d\u8574\u542b\u7684\u4fa7\u9762,\u4e0d\u662f\u4e00\u4ef6\u4e8b**(17/20 \u4e2a\u9762\u9ad8\u4e8e\u96f6)",
+ "unchallenged": true,
+ "entry_backfilled": 720,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

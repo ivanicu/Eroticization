@@ -9,24 +9,26 @@
  },
  "null_q95": 0.07165325032469448,
  "raw": {
-  "premarsx×xmarsex": 0.30214890590293025,
-  "premarsx×homosex": 0.447576765405206,
-  "premarsx×teensex": 0.43340588171940475,
-  "xmarsex×homosex": 0.26299208912657773,
-  "xmarsex×teensex": 0.32657133235305075,
-  "homosex×teensex": 0.3474943904424708
+  "premarsx\u00d7xmarsex": 0.30214890590293025,
+  "premarsx\u00d7homosex": 0.447576765405206,
+  "premarsx\u00d7teensex": 0.43340588171940475,
+  "xmarsex\u00d7homosex": 0.26299208912657773,
+  "xmarsex\u00d7teensex": 0.32657133235305075,
+  "homosex\u00d7teensex": 0.3474943904424708
  },
  "corrected": {
-  "premarsx×xmarsex": 0.3597054282301529,
-  "premarsx×homosex": 0.5126198716095669,
-  "premarsx×teensex": 0.5528527978458893,
-  "xmarsex×homosex": 0.30019270919246555,
-  "xmarsex×teensex": 0.4151665166349082,
-  "homosex×teensex": 0.4250049602836761
+  "premarsx\u00d7xmarsex": 0.3597054282301529,
+  "premarsx\u00d7homosex": 0.5126198716095669,
+  "premarsx\u00d7teensex": 0.5528527978458893,
+  "xmarsex\u00d7homosex": 0.30019270919246555,
+  "xmarsex\u00d7teensex": 0.4151665166349082,
+  "homosex\u00d7teensex": 0.4250049602836761
  },
  "weakest_raw": 0.26299208912657773,
  "weakest_corrected": 0.30019270919246555,
- "verdict": "**W3:校正后最弱一环 0.3002 < 0.50 —— 即使测量完美,四题也只是松散相关,页上人层那一行要加限定**",
- "upper_bound_note": "重测跨问法 ⇒ 低估信度 ⇒ 校正值是上界",
- "unchallenged": true
+ "verdict": "**W3:\u6821\u6b63\u540e\u6700\u5f31\u4e00\u73af 0.3002 < 0.50 \u2014\u2014 \u5373\u4f7f\u6d4b\u91cf\u5b8c\u7f8e,\u56db\u9898\u4e5f\u53ea\u662f\u677e\u6563\u76f8\u5173,\u9875\u4e0a\u4eba\u5c42\u90a3\u4e00\u884c\u8981\u52a0\u9650\u5b9a**",
+ "upper_bound_note": "\u91cd\u6d4b\u8de8\u95ee\u6cd5 \u21d2 \u4f4e\u4f30\u4fe1\u5ea6 \u21d2 \u6821\u6b63\u503c\u662f\u4e0a\u754c",
+ "unchallenged": true,
+ "entry_backfilled": 735,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

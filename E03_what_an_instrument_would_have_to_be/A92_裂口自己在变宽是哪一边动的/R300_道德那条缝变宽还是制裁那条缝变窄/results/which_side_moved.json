@@ -1,8 +1,8 @@
 {
  "grid": [
   {
-   "item": "发言 `spkhomo`",
-   "scale": "均值尺",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dg_moral": -0.3167423888490799,
    "dg_sanct": 0.04707150985454572,
    "moral_lo": -0.39360761979021797,
@@ -17,8 +17,8 @@
    "g_sanct_10": -0.3765771764924724
   },
   {
-   "item": "发言 `spkhomo`",
-   "scale": "潜在尺",
+   "item": "\u53d1\u8a00 `spkhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dg_moral": -0.3910005901773652,
    "dg_sanct": 0.0038446887270847663,
    "moral_lo": -0.51278963939882,
@@ -33,8 +33,8 @@
    "g_sanct_10": -0.6158227869064388
   },
   {
-   "item": "教书 `colhomo`",
-   "scale": "均值尺",
+   "item": "\u6559\u4e66 `colhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dg_moral": -0.31785695373050915,
    "dg_sanct": 0.047801531527841,
    "moral_lo": -0.3947678431362896,
@@ -49,8 +49,8 @@
    "g_sanct_10": -0.3481504863373889
   },
   {
-   "item": "教书 `colhomo`",
-   "scale": "潜在尺",
+   "item": "\u6559\u4e66 `colhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dg_moral": -0.390515920414215,
    "dg_sanct": -0.011825792505801846,
    "moral_lo": -0.5142182821599116,
@@ -65,8 +65,8 @@
    "g_sanct_10": -0.5439643735807872
   },
   {
-   "item": "图书馆 `libhomo`",
-   "scale": "均值尺",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "scale": "\u5747\u503c\u5c3a",
    "dg_moral": -0.31498639992107225,
    "dg_sanct": -0.037015670315501126,
    "moral_lo": -0.39226698423170564,
@@ -81,8 +81,8 @@
    "g_sanct_10": -0.5242620065915613
   },
   {
-   "item": "图书馆 `libhomo`",
-   "scale": "潜在尺",
+   "item": "\u56fe\u4e66\u9986 `libhomo`",
+   "scale": "\u6f5c\u5728\u5c3a",
    "dg_moral": -0.38563516994745584,
    "dg_sanct": -0.10760068518918353,
    "moral_lo": -0.514053530667264,
@@ -106,15 +106,15 @@
  "moral_dir_consistent": true,
  "sanct_dir_consistent": false,
  "allow_rates": {
-  "发言 `spkhomo`": {
+  "\u53d1\u8a00 `spkhomo`": {
    "1990s": 0.810858348968105,
    "2010s": 0.8860246008898194
   },
-  "教书 `colhomo`": {
+  "\u6559\u4e66 `colhomo`": {
    "1990s": 0.730728241563055,
    "2010s": 0.8702219887035334
   },
-  "图书馆 `libhomo`": {
+  "\u56fe\u4e66\u9986 `libhomo`": {
    "1990s": 0.7074122236671001,
    "2010s": 0.8134259866264586
   }
@@ -132,6 +132,8 @@
   "floor": 0.08239718116180539
  },
  "admissible": true,
- "verdict": "**A 道德那条缝变宽。** `Δg_道德` 6/6 格超地板(方向一致),而制裁分量在潜在尺上只有 0 格。\n  ⇒ **一句关于人的话:宗教在「对不对」上把人分得比从前更开。**",
- "gate_ok": false
+ "verdict": "**A \u9053\u5fb7\u90a3\u6761\u7f1d\u53d8\u5bbd\u3002** `\u0394g_\u9053\u5fb7` 6/6 \u683c\u8d85\u5730\u677f(\u65b9\u5411\u4e00\u81f4),\u800c\u5236\u88c1\u5206\u91cf\u5728\u6f5c\u5728\u5c3a\u4e0a\u53ea\u6709 0 \u683c\u3002\n  \u21d2 **\u4e00\u53e5\u5173\u4e8e\u4eba\u7684\u8bdd:\u5b97\u6559\u5728\u300c\u5bf9\u4e0d\u5bf9\u300d\u4e0a\u628a\u4eba\u5206\u5f97\u6bd4\u4ece\u524d\u66f4\u5f00\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 861,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

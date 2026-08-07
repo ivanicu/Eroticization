@@ -11,81 +11,81 @@
  "A_range": 0.5280607887027877,
  "placebo": 0.15008513026277226,
  "floor_n": 200,
- "verdict": "UNVERIFIED —— 控制未齐(正 False · 负 False)",
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u9f50(\u6b63 False \u00b7 \u8d1f False)",
  "society_side": {
   "within_act": 0.8451,
   "across_act_upper": 0.4401
  },
  "cells": {
-  "polabuse×polmurdr": {
+  "polabuse\u00d7polmurdr": {
    "rho": 0.29677817313215404,
    "years": 30
   },
-  "polabuse×polescap": {
+  "polabuse\u00d7polescap": {
    "rho": 0.1261346148541031,
    "years": 30
   },
-  "polabuse×polattak": {
+  "polabuse\u00d7polattak": {
    "rho": 0.03323882135667848,
    "years": 30
   },
-  "polmurdr×polescap": {
+  "polmurdr\u00d7polescap": {
    "rho": 0.023635031181437505,
    "years": 30
   },
-  "polmurdr×polattak": {
+  "polmurdr\u00d7polattak": {
    "rho": -0.11888473726319987,
    "years": 30
   },
-  "polescap×polattak": {
+  "polescap\u00d7polattak": {
    "rho": 0.4091760514395879,
    "years": 30
   },
-  "spanking×cappun": {
+  "spanking\u00d7cappun": {
    "rho": 0.16895840738425005,
    "years": 22
   },
-  "spanking×hitok": {
+  "spanking\u00d7hitok": {
    "rho": 0.029475811192047105,
    "years": 7
   },
-  "cappun×hitok": {
+  "cappun\u00d7hitok": {
    "rho": 0.07620798029446794,
    "years": 14
   },
-  "spanking×_pol": {
+  "spanking\u00d7_pol": {
    "rho": 0.09597977883798438,
    "years": 22
   },
-  "cappun×_pol": {
+  "cappun\u00d7_pol": {
    "rho": 0.1819064144023173,
    "years": 29
   },
-  "hitok×_pol": {
+  "hitok\u00d7_pol": {
    "rho": 0.1145193460024641,
    "years": 15
   },
-  "premarsx×xmarsex": {
+  "premarsx\u00d7xmarsex": {
    "rho": 0.298684056541013,
    "years": 25
   },
-  "premarsx×homosex": {
+  "premarsx\u00d7homosex": {
    "rho": 0.5020746886277483,
    "years": 25
   },
-  "premarsx×teensex": {
+  "premarsx\u00d7teensex": {
    "rho": 0.4427504238065028,
    "years": 22
   },
-  "xmarsex×homosex": {
+  "xmarsex\u00d7homosex": {
    "rho": 0.3139250133675593,
    "years": 30
   },
-  "xmarsex×teensex": {
+  "xmarsex\u00d7teensex": {
    "rho": 0.36521860216176766,
    "years": 21
   },
-  "homosex×teensex": {
+  "homosex\u00d7teensex": {
    "rho": 0.3505871494270981,
    "years": 21
   }
@@ -93,42 +93,44 @@
  "unchallenged": true,
  "diagnosis_ceiling": [
   {
-   "pair": "polabuse×polmurdr",
+   "pair": "polabuse\u00d7polmurdr",
    "phi": 0.29677817313215404,
    "ceiling": 0.7688590681642979,
    "frac": 0.374851497033322
   },
   {
-   "pair": "polabuse×polescap",
+   "pair": "polabuse\u00d7polescap",
    "phi": 0.1261346148541031,
    "ceiling": 0.1975639715185896,
    "frac": 0.6093536458550461
   },
   {
-   "pair": "polabuse×polattak",
+   "pair": "polabuse\u00d7polattak",
    "phi": 0.03323882135667848,
    "ceiling": 0.09748982418889238,
    "frac": 0.33575965146454145
   },
   {
-   "pair": "polmurdr×polescap",
+   "pair": "polmurdr\u00d7polescap",
    "phi": 0.023635031181437505,
    "ceiling": 0.179865902627063,
    "frac": 0.13059401100982737
   },
   {
-   "pair": "polmurdr×polattak",
+   "pair": "polmurdr\u00d7polattak",
    "phi": -0.11888473726319987,
    "ceiling": 0.08634901823009333,
    "frac": -1.2407224341739793
   },
   {
-   "pair": "polescap×polattak",
+   "pair": "polescap\u00d7polattak",
    "phi": 0.4091760514395879,
    "ceiling": 0.5128554991251607,
    "frac": 0.7624816179982756
   }
  ],
  "A_normalised": 0.3553055742489317,
- "diagnosis_note": "事后诊断,不是结果:归一化是看到失败之后做的,且天花板公式只对正方向成立(polmurdr×polattak 为负,占比 −124% 是公式伪影)。要当结果用必须预注册重跑。"
+ "diagnosis_note": "\u4e8b\u540e\u8bca\u65ad,\u4e0d\u662f\u7ed3\u679c:\u5f52\u4e00\u5316\u662f\u770b\u5230\u5931\u8d25\u4e4b\u540e\u505a\u7684,\u4e14\u5929\u82b1\u677f\u516c\u5f0f\u53ea\u5bf9\u6b63\u65b9\u5411\u6210\u7acb(polmurdr\u00d7polattak \u4e3a\u8d1f,\u5360\u6bd4 \u2212124% \u662f\u516c\u5f0f\u4f2a\u5f71)\u3002\u8981\u5f53\u7ed3\u679c\u7528\u5fc5\u987b\u9884\u6ce8\u518c\u91cd\u8dd1\u3002",
+ "entry_backfilled": 646,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

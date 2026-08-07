@@ -22,7 +22,7 @@
    "null_q95": 0.1058,
    "ratio": 1.32,
    "verdict": "no_resolution",
-   "caveat": "0.14 是我自己填的,行内无粗体数值 ⇒ 裁决较弱"
+   "caveat": "0.14 \u662f\u6211\u81ea\u5df1\u586b\u7684,\u884c\u5185\u65e0\u7c97\u4f53\u6570\u503c \u21d2 \u88c1\u51b3\u8f83\u5f31"
   },
   "#641": {
    "n": 63,
@@ -30,7 +30,7 @@
    "null_q95": 0.3446,
    "ratio": 1.28,
    "verdict": "no_resolution",
-   "caveat": "账本声明本是上界,拿上界除零是错配 ⇒ 更应读作『框架不适用』"
+   "caveat": "\u8d26\u672c\u58f0\u660e\u672c\u662f\u4e0a\u754c,\u62ff\u4e0a\u754c\u9664\u96f6\u662f\u9519\u914d \u21d2 \u66f4\u5e94\u8bfb\u4f5c\u300e\u6846\u67b6\u4e0d\u9002\u7528\u300f"
   }
  },
  "null_in_prose_only": [
@@ -53,6 +53,8 @@
   "#648",
   "#650"
  ],
- "threshold_1_5": "凭直觉选的,非从零量出;越过零的门槛是 1.0(#691 同族缺陷)",
- "unchallenged": true
+ "threshold_1_5": "\u51ed\u76f4\u89c9\u9009\u7684,\u975e\u4ece\u96f6\u91cf\u51fa;\u8d8a\u8fc7\u96f6\u7684\u95e8\u69db\u662f 1.0(#691 \u540c\u65cf\u7f3a\u9677)",
+ "unchallenged": true,
+ "entry_backfilled": 710,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

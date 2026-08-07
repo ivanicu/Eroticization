@@ -2,79 +2,79 @@
  "orient": {
   "premarsx": [
    true,
-   "Sex before marriage — 1 = always wrong(严厉)"
+   "Sex before marriage \u2014 1 = always wrong(\u4e25\u5389)"
   ],
   "xmarsex": [
    true,
-   "Sex with person other than spouse — 1 = always wrong(严厉)"
+   "Sex with person other than spouse \u2014 1 = always wrong(\u4e25\u5389)"
   ],
   "homosex": [
    true,
-   "Homosexual sex relations — 1 = always wrong(严厉)"
+   "Homosexual sex relations \u2014 1 = always wrong(\u4e25\u5389)"
   ],
   "teensex": [
    true,
-   "Sex before marriage: teens 14-16 — 1 = always wrong(严厉)"
+   "Sex before marriage: teens 14-16 \u2014 1 = always wrong(\u4e25\u5389)"
   ],
   "pornlaw": [
    true,
-   "Feelings about pornography laws — 1 = illegal to all(严厉)"
+   "Feelings about pornography laws \u2014 1 = illegal to all(\u4e25\u5389)"
   ],
   "sexeduc": [
    false,
-   "Sex education in public schools — 1 = favour(宽容)"
+   "Sex education in public schools \u2014 1 = favour(\u5bbd\u5bb9)"
   ],
   "cappun": [
    true,
-   "Death penalty for murder — 1 = favour(严厉)"
+   "Death penalty for murder \u2014 1 = favour(\u4e25\u5389)"
   ],
   "gunlaw": [
    true,
-   "Gun permits — 1 = favour permits(限制,保守侧)"
+   "Gun permits \u2014 1 = favour permits(\u9650\u5236,\u4fdd\u5b88\u4fa7)"
   ],
   "letdie1": [
    false,
-   "Allow incurable patients to die — 1 = yes(宽容)"
+   "Allow incurable patients to die \u2014 1 = yes(\u5bbd\u5bb9)"
   ],
   "suicide1": [
    false,
-   "Suicide if incurable disease — 1 = yes(宽容)"
+   "Suicide if incurable disease \u2014 1 = yes(\u5bbd\u5bb9)"
   ],
   "suicide4": [
    false,
-   "Suicide if tired of living — 1 = yes(宽容)"
+   "Suicide if tired of living \u2014 1 = yes(\u5bbd\u5bb9)"
   ],
   "spanking": [
    true,
-   "Favor spanking to discipline child — 1 = strongly agree(严厉)"
+   "Favor spanking to discipline child \u2014 1 = strongly agree(\u4e25\u5389)"
   ],
   "polhitok": [
    true,
-   "Ever approve of police striking citizen — 1 = yes(许可暴力,严厉侧)"
+   "Ever approve of police striking citizen \u2014 1 = yes(\u8bb8\u53ef\u66b4\u529b,\u4e25\u5389\u4fa7)"
   ],
   "obey": [
    true,
-   "To obey — 1 = most important(服从,保守侧)"
+   "To obey \u2014 1 = most important(\u670d\u4ece,\u4fdd\u5b88\u4fa7)"
   ],
   "fefam": [
    true,
-   "Better for man to work, woman tend home — 1 = strongly agree(保守)"
+   "Better for man to work, woman tend home \u2014 1 = strongly agree(\u4fdd\u5b88)"
   ],
   "natcrime": [
    true,
-   "Halting rising crime rate — 1 = too little spending(强硬,保守侧)"
+   "Halting rising crime rate \u2014 1 = too little spending(\u5f3a\u786c,\u4fdd\u5b88\u4fa7)"
   ],
   "helppoor": [
    false,
-   "Govt improve standard of living — 1 = govt should(宽容侧)"
+   "Govt improve standard of living \u2014 1 = govt should(\u5bbd\u5bb9\u4fa7)"
   ],
   "abany": [
    false,
-   "Abortion if woman wants for any reason — 1 = yes(宽容)"
+   "Abortion if woman wants for any reason \u2014 1 = yes(\u5bbd\u5bb9)"
   ],
   "abnomore": [
    false,
-   "Married, wants no more children — 1 = yes(宽容)"
+   "Married, wants no more children \u2014 1 = yes(\u5bbd\u5bb9)"
   ]
  },
  "cells": [
@@ -83,266 +83,266 @@
    "year": 2022,
    "raw": 0.003751483016712298,
    "oriented": 0.003751483016712298,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "premarsx",
    "year": 2024,
    "raw": 0.06329763738166017,
    "oriented": 0.06329763738166017,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "xmarsex",
    "year": 2022,
    "raw": 0.10993802520128548,
    "oriented": 0.10993802520128548,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "xmarsex",
    "year": 2024,
    "raw": 0.18602600493131538,
    "oriented": 0.18602600493131538,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "homosex",
    "year": 2022,
    "raw": 0.08372362289055493,
    "oriented": 0.08372362289055493,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "homosex",
    "year": 2024,
    "raw": 0.14983765146950528,
    "oriented": 0.14983765146950528,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "teensex",
    "year": 2022,
    "raw": 0.11871341175436861,
    "oriented": 0.11871341175436861,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "teensex",
    "year": 2024,
    "raw": 0.1778925876608966,
    "oriented": 0.1778925876608966,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "pornlaw",
    "year": 2022,
    "raw": 0.0353903883539039,
    "oriented": 0.0353903883539039,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "pornlaw",
    "year": 2024,
    "raw": 0.04328666844227208,
    "oriented": 0.04328666844227208,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "sexeduc",
    "year": 2022,
    "raw": 0.020679607770475172,
    "oriented": -0.020679607770475172,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "sexeduc",
    "year": 2024,
    "raw": 0.00811893271982489,
    "oriented": -0.00811893271982489,
-   "grp": "性"
+   "grp": "\u6027"
   },
   {
    "item": "cappun",
    "year": 2022,
    "raw": 0.018385696906177862,
    "oriented": 0.018385696906177862,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "cappun",
    "year": 2024,
    "raw": -0.011512729061616045,
    "oriented": -0.011512729061616045,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "gunlaw",
    "year": 2022,
    "raw": -0.001162642041506734,
    "oriented": -0.001162642041506734,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "gunlaw",
    "year": 2024,
    "raw": -0.03869149718206333,
    "oriented": -0.03869149718206333,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "letdie1",
    "year": 2022,
    "raw": -0.03690909090909089,
    "oriented": 0.03690909090909089,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "letdie1",
    "year": 2024,
    "raw": -0.07035301911792546,
    "oriented": 0.07035301911792546,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "suicide1",
    "year": 2022,
    "raw": -0.0828534424940448,
    "oriented": 0.0828534424940448,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "suicide1",
    "year": 2024,
    "raw": -0.1353190840470685,
    "oriented": 0.1353190840470685,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "suicide4",
    "year": 2022,
    "raw": -0.036280176810608605,
    "oriented": 0.036280176810608605,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "suicide4",
    "year": 2024,
    "raw": -0.08129629923383194,
    "oriented": 0.08129629923383194,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "spanking",
    "year": 2022,
    "raw": 0.03867660764212488,
    "oriented": 0.03867660764212488,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "spanking",
    "year": 2024,
    "raw": 0.08177716971451823,
    "oriented": 0.08177716971451823,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "polhitok",
    "year": 2022,
    "raw": -0.025753897610184984,
    "oriented": -0.025753897610184984,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "polhitok",
    "year": 2024,
    "raw": -0.13647342995169076,
    "oriented": -0.13647342995169076,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "obey",
    "year": 2022,
    "raw": 0.06146366807689453,
    "oriented": 0.06146366807689453,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "obey",
    "year": 2024,
    "raw": 0.10005124445741373,
    "oriented": 0.10005124445741373,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "fefam",
    "year": 2022,
    "raw": -0.003210380048363229,
    "oriented": -0.003210380048363229,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "fefam",
    "year": 2024,
    "raw": 0.0038090148193775097,
    "oriented": 0.0038090148193775097,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "natcrime",
    "year": 2022,
    "raw": 0.010045217368568116,
    "oriented": 0.010045217368568116,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "natcrime",
    "year": 2024,
    "raw": 0.01273205818532508,
    "oriented": 0.01273205818532508,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "helppoor",
    "year": 2022,
    "raw": -0.05523348208042511,
    "oriented": 0.05523348208042511,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "helppoor",
    "year": 2024,
    "raw": -0.0009358105421592988,
    "oriented": 0.0009358105421592988,
-   "grp": "非性"
+   "grp": "\u975e\u6027"
   },
   {
    "item": "abany",
    "year": 2022,
    "raw": -0.060317205411151154,
    "oriented": 0.060317205411151154,
-   "grp": "堕胎"
+   "grp": "\u5815\u80ce"
   },
   {
    "item": "abany",
    "year": 2024,
    "raw": -0.09937225537006789,
    "oriented": 0.09937225537006789,
-   "grp": "堕胎"
+   "grp": "\u5815\u80ce"
   },
   {
    "item": "abnomore",
    "year": 2022,
    "raw": -0.06291829801256954,
    "oriented": 0.06291829801256954,
-   "grp": "堕胎"
+   "grp": "\u5815\u80ce"
   },
   {
    "item": "abnomore",
    "year": 2024,
    "raw": -0.0717981856343517,
    "oriented": 0.0717981856343517,
-   "grp": "堕胎"
+   "grp": "\u5815\u80ce"
   }
  ],
  "agree_sex": 0.8333333333333334,
@@ -361,6 +361,8 @@
   0.18602600493131538
  ],
  "flip_main": 0.08333333333333337,
- "verdict": "UNVERIFIED —— 控制未齐(正 True · 负 False)",
- "unchallenged": true
+ "verdict": "UNVERIFIED \u2014\u2014 \u63a7\u5236\u672a\u9f50(\u6b63 True \u00b7 \u8d1f False)",
+ "unchallenged": true,
+ "entry_backfilled": 662,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

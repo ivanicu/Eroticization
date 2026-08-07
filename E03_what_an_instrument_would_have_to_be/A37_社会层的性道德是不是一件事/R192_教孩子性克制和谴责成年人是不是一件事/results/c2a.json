@@ -74,6 +74,8 @@
  "rank": 1,
  "MDE": 0.19,
  "weakest_link_sr": 0.6838166593997205,
- "verdict": "**W1:性克制排第 1/10,ρ=+0.6558 > MDE ⇒ 是性这件事,不是一般的严**",
- "unchallenged": true
+ "verdict": "**W1:\u6027\u514b\u5236\u6392\u7b2c 1/10,\u03c1=+0.6558 > MDE \u21d2 \u662f\u6027\u8fd9\u4ef6\u4e8b,\u4e0d\u662f\u4e00\u822c\u7684\u4e25**",
+ "unchallenged": true,
+ "entry_backfilled": 749,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

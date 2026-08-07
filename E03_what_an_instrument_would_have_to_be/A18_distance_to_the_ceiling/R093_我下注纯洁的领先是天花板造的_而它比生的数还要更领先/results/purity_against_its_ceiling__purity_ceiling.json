@@ -75,6 +75,8 @@
   "HARM",
   "INGROUP"
  ],
- "verdict": "**W3 —— 领先被放大,声明成立且被低估**",
- "unchallenged": true
+ "verdict": "**W3 \u2014\u2014 \u9886\u5148\u88ab\u653e\u5927,\u58f0\u660e\u6210\u7acb\u4e14\u88ab\u4f4e\u4f30**",
+ "unchallenged": true,
+ "entry_backfilled": 648,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

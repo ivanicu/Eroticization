@@ -1,5 +1,5 @@
 {
- "population": "the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973–2021",
+ "population": "the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973\u20132021",
  "waves": [
   1973,
   1974,
@@ -427,6 +427,8 @@
   "blindness": true
  },
  "admissible": true,
- "verdict": "**B — IT IS NOT FLAT, and four waves could not have seen that.**\n  spread **0.134** vs null **0.162** (inside) · trend **+0.340** vs **±0.249** (**outside**) ⇒ **`#885`② is RETRACTED.**\n  ⚠ **And note WHICH statistic caught it**: the SPREAD is inside its null and the TREND is not. **Four waves can only compute a spread** — so `#885`② was not merely under-powered, it was measured with the only statistic four points admit.\n  ⚠⚠ **BUT NO DIRECTION MAY BE STATED, and that is computed rather than conceded.** Across the 24-cell grid the trend's sign **flips with the window**: over all 28 waves it is positive in 9/12 cells (median +0.239), and from 1990 onward positive in only 5/12 (median -0.293). The same pre-registered cell reads +0.340 on all waves and -0.373 from 1990.\n  ⇒ **what is retracted is 'it did not move'. What replaces it is NOT 'it loosened' — it is 'it is not flat, and its direction is not established at this resolution'.**\n  ⇒ **one sentence about people: over half a century Americans reversed their verdict on whether homosexuality is wrong — the share calling it *always wrong* fell 0.714 → 0.255 — and the joint between that verdict and what they wanted done did NOT hold still. It is the one thing I claimed a country could change its mind without disturbing, and it moved. Which way it moved, this data cannot yet say.**",
- "gate_ok": false
+ "verdict": "**B \u2014 IT IS NOT FLAT, and four waves could not have seen that.**\n  spread **0.134** vs null **0.162** (inside) \u00b7 trend **+0.340** vs **\u00b10.249** (**outside**) \u21d2 **`#885`\u2461 is RETRACTED.**\n  \u26a0 **And note WHICH statistic caught it**: the SPREAD is inside its null and the TREND is not. **Four waves can only compute a spread** \u2014 so `#885`\u2461 was not merely under-powered, it was measured with the only statistic four points admit.\n  \u26a0\u26a0 **BUT NO DIRECTION MAY BE STATED, and that is computed rather than conceded.** Across the 24-cell grid the trend's sign **flips with the window**: over all 28 waves it is positive in 9/12 cells (median +0.239), and from 1990 onward positive in only 5/12 (median -0.293). The same pre-registered cell reads +0.340 on all waves and -0.373 from 1990.\n  \u21d2 **what is retracted is 'it did not move'. What replaces it is NOT 'it loosened' \u2014 it is 'it is not flat, and its direction is not established at this resolution'.**\n  \u21d2 **one sentence about people: over half a century Americans reversed their verdict on whether homosexuality is wrong \u2014 the share calling it *always wrong* fell 0.714 \u2192 0.255 \u2014 and the joint between that verdict and what they wanted done did NOT hold still. It is the one thing I claimed a country could change its mind without disturbing, and it moved. Which way it moved, this data cannot yet say.**",
+ "gate_ok": false,
+ "entry_backfilled": 886,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

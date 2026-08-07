@@ -5,7 +5,7 @@
  "claims": [
   {
    "line": 127,
-   "claim": "管孩子的轴够得到性,而够到它的是强制那一端 —— ⚠ 仅在它自己那 75 个社会上",
+   "claim": "\u7ba1\u5b69\u5b50\u7684\u8f74\u591f\u5f97\u5230\u6027,\u800c\u591f\u5230\u5b83\u7684\u662f\u5f3a\u5236\u90a3\u4e00\u7aef \u2014\u2014 \u26a0 \u4ec5\u5728\u5b83\u81ea\u5df1\u90a3 75 \u4e2a\u793e\u4f1a\u4e0a",
    "entries": [
     700,
     701
@@ -13,14 +13,14 @@
   },
   {
    "line": 128,
-   "claim": "怎么管孩子是一条「施加↔温暖」的轴,而这形状不是 halo",
+   "claim": "\u600e\u4e48\u7ba1\u5b69\u5b50\u662f\u4e00\u6761\u300c\u65bd\u52a0\u2194\u6e29\u6696\u300d\u7684\u8f74,\u800c\u8fd9\u5f62\u72b6\u4e0d\u662f halo",
    "entries": [
     699
    ]
   },
   {
    "line": 129,
-   "claim": "halo 解释得了「谁挨打」,解释不了「用哪一种手段」",
+   "claim": "halo \u89e3\u91ca\u5f97\u4e86\u300c\u8c01\u6328\u6253\u300d,\u89e3\u91ca\u4e0d\u4e86\u300c\u7528\u54ea\u4e00\u79cd\u624b\u6bb5\u300d",
    "entries": [
     697,
     698
@@ -28,7 +28,7 @@
   },
   {
    "line": 130,
-   "claim": "⛔ 换谁挨打,几乎不改变一个社会下手的力度 已降级为 halo",
+   "claim": "\u26d4 \u6362\u8c01\u6328\u6253,\u51e0\u4e4e\u4e0d\u6539\u53d8\u4e00\u4e2a\u793e\u4f1a\u4e0b\u624b\u7684\u529b\u5ea6 \u5df2\u964d\u7ea7\u4e3a halo",
    "entries": [
     640,
     696,
@@ -37,7 +37,7 @@
   },
   {
    "line": 131,
-   "claim": "换用哪一种手段,压掉四分之三",
+   "claim": "\u6362\u7528\u54ea\u4e00\u79cd\u624b\u6bb5,\u538b\u6389\u56db\u5206\u4e4b\u4e09",
    "entries": [
     642,
     711
@@ -45,28 +45,28 @@
   },
   {
    "line": 132,
-   "claim": "打孩子与打妻子不是同一件事",
+   "claim": "\u6253\u5b69\u5b50\u4e0e\u6253\u59bb\u5b50\u4e0d\u662f\u540c\u4e00\u4ef6\u4e8b",
    "entries": [
     641
    ]
   },
   {
    "line": 133,
-   "claim": "打得多的社会也讲得多;放任与疼爱同行",
+   "claim": "\u6253\u5f97\u591a\u7684\u793e\u4f1a\u4e5f\u8bb2\u5f97\u591a;\u653e\u4efb\u4e0e\u75bc\u7231\u540c\u884c",
    "entries": [
     642
    ]
   },
   {
    "line": 134,
-   "claim": "以身作则不站队",
+   "claim": "\u4ee5\u8eab\u4f5c\u5219\u4e0d\u7ad9\u961f",
    "entries": [
     643
    ]
   },
   {
    "line": 135,
-   "claim": "换一批人来读,还是同一个数",
+   "claim": "\u6362\u4e00\u6279\u4eba\u6765\u8bfb,\u8fd8\u662f\u540c\u4e00\u4e2a\u6570",
    "entries": [
     639,
     528,
@@ -75,14 +75,14 @@
   },
   {
    "line": 141,
-   "claim": "教育不是让人变温和,是让人更笃定地站在一处",
+   "claim": "\u6559\u80b2\u4e0d\u662f\u8ba9\u4eba\u53d8\u6e29\u548c,\u662f\u8ba9\u4eba\u66f4\u7b03\u5b9a\u5730\u7ad9\u5728\u4e00\u5904",
    "entries": [
     690
    ]
   },
   {
    "line": 142,
-   "claim": "人内压缩:三具仪器同向",
+   "claim": "\u4eba\u5185\u538b\u7f29:\u4e09\u5177\u4eea\u5668\u540c\u5411",
    "entries": [
     686,
     689,
@@ -91,14 +91,14 @@
   },
   {
    "line": 143,
-   "claim": "人内压缩在第二具仪器上复制",
+   "claim": "\u4eba\u5185\u538b\u7f29\u5728\u7b2c\u4e8c\u5177\u4eea\u5668\u4e0a\u590d\u5236",
    "entries": [
     689
    ]
   },
   {
    "line": 144,
-   "claim": "读书越多,整份问卷答下来的起伏越小 —— 而主要是收进「宽容」这一个立场",
+   "claim": "\u8bfb\u4e66\u8d8a\u591a,\u6574\u4efd\u95ee\u5377\u7b54\u4e0b\u6765\u7684\u8d77\u4f0f\u8d8a\u5c0f \u2014\u2014 \u800c\u4e3b\u8981\u662f\u6536\u8fdb\u300c\u5bbd\u5bb9\u300d\u8fd9\u4e00\u4e2a\u7acb\u573a",
    "entries": [
     686,
     687
@@ -106,7 +106,7 @@
   },
   {
    "line": 145,
-   "claim": "是教育,不是世代",
+   "claim": "\u662f\u6559\u80b2,\u4e0d\u662f\u4e16\u4ee3",
    "entries": [
     683,
     709
@@ -114,35 +114,35 @@
   },
   {
    "line": 146,
-   "claim": "教育让人对公民自由几乎一致,对性和安乐死更分裂",
+   "claim": "\u6559\u80b2\u8ba9\u4eba\u5bf9\u516c\u6c11\u81ea\u7531\u51e0\u4e4e\u4e00\u81f4,\u5bf9\u6027\u548c\u5b89\u4e50\u6b7b\u66f4\u5206\u88c2",
    "entries": [
     682
    ]
   },
   {
    "line": 148,
-   "claim": "⛔ 教育让所有道德判断彼此绑紧,性不例外 已降级",
+   "claim": "\u26d4 \u6559\u80b2\u8ba9\u6240\u6709\u9053\u5fb7\u5224\u65ad\u5f7c\u6b64\u7ed1\u7d27,\u6027\u4e0d\u4f8b\u5916 \u5df2\u964d\u7ea7",
    "entries": [
     688
    ]
   },
   {
    "line": 149,
-   "claim": "⛔ 而例外是性别角色 一并降级",
+   "claim": "\u26d4 \u800c\u4f8b\u5916\u662f\u6027\u522b\u89d2\u8272 \u4e00\u5e76\u964d\u7ea7",
    "entries": [
     688
    ]
   },
   {
    "line": 150,
-   "claim": "水平移了一整格,结构三十六年没动",
+   "claim": "\u6c34\u5e73\u79fb\u4e86\u4e00\u6574\u683c,\u7ed3\u6784\u4e09\u5341\u516d\u5e74\u6ca1\u52a8",
    "entries": [
     678
    ]
   },
   {
    "line": 151,
-   "claim": "而收紧不均匀:含同性恋的三对动得多,不含的三对也在动",
+   "claim": "\u800c\u6536\u7d27\u4e0d\u5747\u5300:\u542b\u540c\u6027\u604b\u7684\u4e09\u5bf9\u52a8\u5f97\u591a,\u4e0d\u542b\u7684\u4e09\u5bf9\u4e5f\u5728\u52a8",
    "entries": [
     677,
     692
@@ -150,7 +150,7 @@
   },
   {
    "line": 152,
-   "claim": "变宽容和变成一个立场是两件事",
+   "claim": "\u53d8\u5bbd\u5bb9\u548c\u53d8\u6210\u4e00\u4e2a\u7acb\u573a\u662f\u4e24\u4ef6\u4e8b",
    "entries": [
     676,
     723
@@ -158,14 +158,14 @@
   },
   {
    "line": 153,
-   "claim": "教育让性道德变成一个立场,年龄让性别角色变成一个立场",
+   "claim": "\u6559\u80b2\u8ba9\u6027\u9053\u5fb7\u53d8\u6210\u4e00\u4e2a\u7acb\u573a,\u5e74\u9f84\u8ba9\u6027\u522b\u89d2\u8272\u53d8\u6210\u4e00\u4e2a\u7acb\u573a",
    "entries": [
     675
    ]
   },
   {
    "line": 154,
-   "claim": "男人和女人的性自我概念是同一套结构,只有强度不同",
+   "claim": "\u7537\u4eba\u548c\u5973\u4eba\u7684\u6027\u81ea\u6211\u6982\u5ff5\u662f\u540c\u4e00\u5957\u7ed3\u6784,\u53ea\u6709\u5f3a\u5ea6\u4e0d\u540c",
    "entries": [
     720,
     727,
@@ -174,7 +174,7 @@
   },
   {
    "line": 155,
-   "claim": "把一般的严整个扣掉,性还剩 +0.55",
+   "claim": "\u628a\u4e00\u822c\u7684\u4e25\u6574\u4e2a\u6263\u6389,\u6027\u8fd8\u5269 +0.55",
    "entries": [
     749,
     750
@@ -182,252 +182,252 @@
   },
   {
    "line": 156,
-   "claim": "连唯一没饱和的那一题也判不了,而这是第二次 ⇒ 换方向",
+   "claim": "\u8fde\u552f\u4e00\u6ca1\u9971\u548c\u7684\u90a3\u4e00\u9898\u4e5f\u5224\u4e0d\u4e86,\u800c\u8fd9\u662f\u7b2c\u4e8c\u6b21 \u21d2 \u6362\u65b9\u5411",
    "entries": [
     773
    ]
   },
   {
    "line": 157,
-   "claim": "正对照过了,而筛子对我要主张的那个东西是瞎的",
+   "claim": "\u6b63\u5bf9\u7167\u8fc7\u4e86,\u800c\u7b5b\u5b50\u5bf9\u6211\u8981\u4e3b\u5f20\u7684\u90a3\u4e2a\u4e1c\u897f\u662f\u778e\u7684",
    "entries": [
     792
    ]
   },
   {
    "line": 158,
-   "claim": "不是一条轴,是三堆;而解释它这条路在算术上就是关着的",
+   "claim": "\u4e0d\u662f\u4e00\u6761\u8f74,\u662f\u4e09\u5806;\u800c\u89e3\u91ca\u5b83\u8fd9\u6761\u8def\u5728\u7b97\u672f\u4e0a\u5c31\u662f\u5173\u7740\u7684",
    "entries": [
     791
    ]
   },
   {
    "line": 159,
-   "claim": "不稳来自分母,所以 n=8 是硬天花板:抗拒只能在真的发生过的变化上被测量",
+   "claim": "\u4e0d\u7a33\u6765\u81ea\u5206\u6bcd,\u6240\u4ee5 n=8 \u662f\u786c\u5929\u82b1\u677f:\u6297\u62d2\u53ea\u80fd\u5728\u771f\u7684\u53d1\u751f\u8fc7\u7684\u53d8\u5316\u4e0a\u88ab\u6d4b\u91cf",
    "entries": [
     790
    ]
   },
   {
    "line": 160,
-   "claim": "变异在组内,不在组间:「性 / 非性」这个切法解释不了任何东西",
+   "claim": "\u53d8\u5f02\u5728\u7ec4\u5185,\u4e0d\u5728\u7ec4\u95f4:\u300c\u6027 / \u975e\u6027\u300d\u8fd9\u4e2a\u5207\u6cd5\u89e3\u91ca\u4e0d\u4e86\u4efb\u4f55\u4e1c\u897f",
    "entries": [
     789
    ]
   },
   {
    "line": 161,
-   "claim": "挡住这个问题的不是数据,是我那具自动定向仪器的边界",
+   "claim": "\u6321\u4f4f\u8fd9\u4e2a\u95ee\u9898\u7684\u4e0d\u662f\u6570\u636e,\u662f\u6211\u90a3\u5177\u81ea\u52a8\u5b9a\u5411\u4eea\u5668\u7684\u8fb9\u754c",
    "entries": [
     788
    ]
   },
   {
    "line": 162,
-   "claim": "同一道题只动年份集合,而同性恋那条在三个窗口下纹丝不动",
+   "claim": "\u540c\u4e00\u9053\u9898\u53ea\u52a8\u5e74\u4efd\u96c6\u5408,\u800c\u540c\u6027\u604b\u90a3\u6761\u5728\u4e09\u4e2a\u7a97\u53e3\u4e0b\u7eb9\u4e1d\u4e0d\u52a8",
    "entries": [
     786
    ]
   },
   {
    "line": 163,
-   "claim": "不是一条关于性道德的规律,是一条关于「其余人真的动了的那些题」的规律",
+   "claim": "\u4e0d\u662f\u4e00\u6761\u5173\u4e8e\u6027\u9053\u5fb7\u7684\u89c4\u5f8b,\u662f\u4e00\u6761\u5173\u4e8e\u300c\u5176\u4f59\u4eba\u771f\u7684\u52a8\u4e86\u7684\u90a3\u4e9b\u9898\u300d\u7684\u89c4\u5f8b",
    "entries": [
     785
    ]
   },
   {
    "line": 164,
-   "claim": "天花板解释了三分之一,剩下的三分之二是他们自己",
+   "claim": "\u5929\u82b1\u677f\u89e3\u91ca\u4e86\u4e09\u5206\u4e4b\u4e00,\u5269\u4e0b\u7684\u4e09\u5206\u4e4b\u4e8c\u662f\u4ed6\u4eec\u81ea\u5df1",
    "entries": [
     784
    ]
   },
   {
    "line": 165,
-   "claim": "页面公布的是小的那种不确定性,大的那种一直在幕后",
+   "claim": "\u9875\u9762\u516c\u5e03\u7684\u662f\u5c0f\u7684\u90a3\u79cd\u4e0d\u786e\u5b9a\u6027,\u5927\u7684\u90a3\u79cd\u4e00\u76f4\u5728\u5e55\u540e",
    "entries": [
     783
    ]
   },
   {
    "line": 166,
-   "claim": "撤回维持,但理由换了人:不是世界有反号,是我的判据没检验比值",
+   "claim": "\u64a4\u56de\u7ef4\u6301,\u4f46\u7406\u7531\u6362\u4e86\u4eba:\u4e0d\u662f\u4e16\u754c\u6709\u53cd\u53f7,\u662f\u6211\u7684\u5224\u636e\u6ca1\u68c0\u9a8c\u6bd4\u503c",
    "entries": [
     782
    ]
   },
   {
    "line": 167,
-   "claim": "三十七个规格里有一个反号,而预注册说那就撤回",
+   "claim": "\u4e09\u5341\u4e03\u4e2a\u89c4\u683c\u91cc\u6709\u4e00\u4e2a\u53cd\u53f7,\u800c\u9884\u6ce8\u518c\u8bf4\u90a3\u5c31\u64a4\u56de",
    "entries": [
     781
    ]
   },
   {
    "line": 168,
-   "claim": "切法在决定答案,而护栏是对着我开的火",
+   "claim": "\u5207\u6cd5\u5728\u51b3\u5b9a\u7b54\u6848,\u800c\u62a4\u680f\u662f\u5bf9\u7740\u6211\u5f00\u7684\u706b",
    "entries": [
     780
    ]
   },
   {
    "line": 169,
-   "claim": "钉住出生世代之后,那个比不但还在,而且更极端",
+   "claim": "\u9489\u4f4f\u51fa\u751f\u4e16\u4ee3\u4e4b\u540e,\u90a3\u4e2a\u6bd4\u4e0d\u4f46\u8fd8\u5728,\u800c\u4e14\u66f4\u6781\u7aef",
    "entries": [
     779
    ]
   },
   {
    "line": 170,
-   "claim": "他们确实改了主意,但只有别人的三分之一到五分之二",
+   "claim": "\u4ed6\u4eec\u786e\u5b9e\u6539\u4e86\u4e3b\u610f,\u4f46\u53ea\u6709\u522b\u4eba\u7684\u4e09\u5206\u4e4b\u4e00\u5230\u4e94\u5206\u4e4b\u4e8c",
    "entries": [
     778
    ]
   },
   {
    "line": 171,
-   "claim": "虔诚的人在同性恋上真的改了主意,在婚外性上从我们看得见的第一年起就没动过",
+   "claim": "\u8654\u8bda\u7684\u4eba\u5728\u540c\u6027\u604b\u4e0a\u771f\u7684\u6539\u4e86\u4e3b\u610f,\u5728\u5a5a\u5916\u6027\u4e0a\u4ece\u6211\u4eec\u770b\u5f97\u89c1\u7684\u7b2c\u4e00\u5e74\u8d77\u5c31\u6ca1\u52a8\u8fc7",
    "entries": [
     777
    ]
   },
   {
    "line": 172,
-   "claim": "虔诚者不是越来越一致,是越来越分散;只有婚外性纹丝不动",
+   "claim": "\u8654\u8bda\u8005\u4e0d\u662f\u8d8a\u6765\u8d8a\u4e00\u81f4,\u662f\u8d8a\u6765\u8d8a\u5206\u6563;\u53ea\u6709\u5a5a\u5916\u6027\u7eb9\u4e1d\u4e0d\u52a8",
    "entries": [
     776
    ]
   },
   {
    "line": 173,
-   "claim": "那道题在最虔诚的人身上已经到顶了,所以那个方向是撞墙不是关系",
+   "claim": "\u90a3\u9053\u9898\u5728\u6700\u8654\u8bda\u7684\u4eba\u8eab\u4e0a\u5df2\u7ecf\u5230\u9876\u4e86,\u6240\u4ee5\u90a3\u4e2a\u65b9\u5411\u662f\u649e\u5899\u4e0d\u662f\u5173\u7cfb",
    "entries": [
     772
    ]
   },
   {
    "line": 174,
-   "claim": "第一个不是推导的量:交互;而它的方向被第二具仪器推翻了",
+   "claim": "\u7b2c\u4e00\u4e2a\u4e0d\u662f\u63a8\u5bfc\u7684\u91cf:\u4ea4\u4e92;\u800c\u5b83\u7684\u65b9\u5411\u88ab\u7b2c\u4e8c\u5177\u4eea\u5668\u63a8\u7ffb\u4e86",
    "entries": [
     771
    ]
   },
   {
    "line": 175,
-   "claim": "解释份额是推导不是测量,而我用它写了五轮",
+   "claim": "\u89e3\u91ca\u4efd\u989d\u662f\u63a8\u5bfc\u4e0d\u662f\u6d4b\u91cf,\u800c\u6211\u7528\u5b83\u5199\u4e86\u4e94\u8f6e",
    "entries": [
     770
    ]
   },
   {
    "line": 176,
-   "claim": "纠缠度不该由我来排,而测出来之后是测不动的",
+   "claim": "\u7ea0\u7f20\u5ea6\u4e0d\u8be5\u7531\u6211\u6765\u6392,\u800c\u6d4b\u51fa\u6765\u4e4b\u540e\u662f\u6d4b\u4e0d\u52a8\u7684",
    "entries": [
     769
    ]
   },
   {
    "line": 177,
-   "claim": "管别人的性,一点点是在管自己一生做过的事,几乎不是在管去年",
+   "claim": "\u7ba1\u522b\u4eba\u7684\u6027,\u4e00\u70b9\u70b9\u662f\u5728\u7ba1\u81ea\u5df1\u4e00\u751f\u505a\u8fc7\u7684\u4e8b,\u51e0\u4e4e\u4e0d\u662f\u5728\u7ba1\u53bb\u5e74",
    "entries": [
     768
    ]
   },
   {
    "line": 178,
-   "claim": "区间只动了一点,而我发现自己把另一次运行的数抄进了账本",
+   "claim": "\u533a\u95f4\u53ea\u52a8\u4e86\u4e00\u70b9,\u800c\u6211\u53d1\u73b0\u81ea\u5df1\u628a\u53e6\u4e00\u6b21\u8fd0\u884c\u7684\u6570\u6284\u8fdb\u4e86\u8d26\u672c",
    "entries": [
     767
    ]
   },
   {
    "line": 179,
-   "claim": "我的过滤器删掉了参照组,而真正咬人的是控制量的信度",
+   "claim": "\u6211\u7684\u8fc7\u6ee4\u5668\u5220\u6389\u4e86\u53c2\u7167\u7ec4,\u800c\u771f\u6b63\u54ac\u4eba\u7684\u662f\u63a7\u5236\u91cf\u7684\u4fe1\u5ea6",
    "entries": [
     765
    ]
   },
   {
    "line": 180,
-   "claim": "两次落进自己拍的中间带,而问题不在阈值高低,在问法(⚠ 其中「残余是宗教的 1.89 倍」已被下一行撤回 —— 把控制量的信度校正之后是 1.04 倍,两者一样大;「残余是政治的 6.6 倍」校正后 4.24 倍,那一半仍成立)",
+   "claim": "\u4e24\u6b21\u843d\u8fdb\u81ea\u5df1\u62cd\u7684\u4e2d\u95f4\u5e26,\u800c\u95ee\u9898\u4e0d\u5728\u9608\u503c\u9ad8\u4f4e,\u5728\u95ee\u6cd5(\u26a0 \u5176\u4e2d\u300c\u6b8b\u4f59\u662f\u5b97\u6559\u7684 1.89 \u500d\u300d\u5df2\u88ab\u4e0b\u4e00\u884c\u64a4\u56de \u2014\u2014 \u628a\u63a7\u5236\u91cf\u7684\u4fe1\u5ea6\u6821\u6b63\u4e4b\u540e\u662f 1.04 \u500d,\u4e24\u8005\u4e00\u6837\u5927;\u300c\u6b8b\u4f59\u662f\u653f\u6cbb\u7684 6.6 \u500d\u300d\u6821\u6b63\u540e 4.24 \u500d,\u90a3\u4e00\u534a\u4ecd\u6210\u7acb)",
    "entries": [
     764
    ]
   },
   {
    "line": 181,
-   "claim": "两具仪器在宗教还是政治上完全相反,却在剩多少上差 0.2 个百分点",
+   "claim": "\u4e24\u5177\u4eea\u5668\u5728\u5b97\u6559\u8fd8\u662f\u653f\u6cbb\u4e0a\u5b8c\u5168\u76f8\u53cd,\u5374\u5728\u5269\u591a\u5c11\u4e0a\u5dee 0.2 \u4e2a\u767e\u5206\u70b9",
    "entries": [
     763
    ]
   },
   {
    "line": 182,
-   "claim": "宗教解释三分之一,政治解释一成,而还剩六成二(⚠ 推导 —— 本行等价于:虔诚度与看重服从相关 +0.27、与性态度相关 +0.25…+0.47〔#774 持久化〕)(⚠ 前两个份额是 GSS 上的,同一轮的第二具仪器把它们反了过来 —— 而残余没反:MFQ 上宗教 16.0% · 政治 28.7% · 残余 62.6%,与 GSS 的 62.4% 差 0.2 个百分点)",
+   "claim": "\u5b97\u6559\u89e3\u91ca\u4e09\u5206\u4e4b\u4e00,\u653f\u6cbb\u89e3\u91ca\u4e00\u6210,\u800c\u8fd8\u5269\u516d\u6210\u4e8c(\u26a0 \u63a8\u5bfc \u2014\u2014 \u672c\u884c\u7b49\u4ef7\u4e8e:\u8654\u8bda\u5ea6\u4e0e\u770b\u91cd\u670d\u4ece\u76f8\u5173 +0.27\u3001\u4e0e\u6027\u6001\u5ea6\u76f8\u5173 +0.25\u2026+0.47\u3014#774 \u6301\u4e45\u5316\u3015)(\u26a0 \u524d\u4e24\u4e2a\u4efd\u989d\u662f GSS \u4e0a\u7684,\u540c\u4e00\u8f6e\u7684\u7b2c\u4e8c\u5177\u4eea\u5668\u628a\u5b83\u4eec\u53cd\u4e86\u8fc7\u6765 \u2014\u2014 \u800c\u6b8b\u4f59\u6ca1\u53cd:MFQ \u4e0a\u5b97\u6559 16.0% \u00b7 \u653f\u6cbb 28.7% \u00b7 \u6b8b\u4f59 62.6%,\u4e0e GSS \u7684 62.4% \u5dee 0.2 \u4e2a\u767e\u5206\u70b9)",
    "entries": [
     762
    ]
   },
   {
    "line": 183,
-   "claim": "把政治左右整个偏掉,服从与管性还剩八成八(⚠ 推导,不是独立测量 —— 按 #770,份额是 (r_XY, r_XZ, r_YZ) 的确定函数;本行等价于:政治与看重服从相关 +0.17、与性态度相关 +0.22…+0.32〔#774 持久化〕。⚠ 而同一句「政治解释多少」在三个样本上是 12.3% / 11.5% / 9.4%,各自都对 —— 一个随样本走的数,不该被读成一次对世界的测量)",
+   "claim": "\u628a\u653f\u6cbb\u5de6\u53f3\u6574\u4e2a\u504f\u6389,\u670d\u4ece\u4e0e\u7ba1\u6027\u8fd8\u5269\u516b\u6210\u516b(\u26a0 \u63a8\u5bfc,\u4e0d\u662f\u72ec\u7acb\u6d4b\u91cf \u2014\u2014 \u6309 #770,\u4efd\u989d\u662f (r_XY, r_XZ, r_YZ) \u7684\u786e\u5b9a\u51fd\u6570;\u672c\u884c\u7b49\u4ef7\u4e8e:\u653f\u6cbb\u4e0e\u770b\u91cd\u670d\u4ece\u76f8\u5173 +0.17\u3001\u4e0e\u6027\u6001\u5ea6\u76f8\u5173 +0.22\u2026+0.32\u3014#774 \u6301\u4e45\u5316\u3015\u3002\u26a0 \u800c\u540c\u4e00\u53e5\u300c\u653f\u6cbb\u89e3\u91ca\u591a\u5c11\u300d\u5728\u4e09\u4e2a\u6837\u672c\u4e0a\u662f 12.3% / 11.5% / 9.4%,\u5404\u81ea\u90fd\u5bf9 \u2014\u2014 \u4e00\u4e2a\u968f\u6837\u672c\u8d70\u7684\u6570,\u4e0d\u8be5\u88ab\u8bfb\u6210\u4e00\u6b21\u5bf9\u4e16\u754c\u7684\u6d4b\u91cf)",
    "entries": [
     760
    ]
   },
   {
    "line": 184,
-   "claim": "方向这个问题这套数据撑不起,而这是先算 MDE 才知道的",
+   "claim": "\u65b9\u5411\u8fd9\u4e2a\u95ee\u9898\u8fd9\u5957\u6570\u636e\u6491\u4e0d\u8d77,\u800c\u8fd9\u662f\u5148\u7b97 MDE \u624d\u77e5\u9053\u7684",
    "entries": [
     757
    ]
   },
   {
    "line": 185,
-   "claim": "一万六千人的概率样本上,管性最强的预测项是要不要孩子服从",
+   "claim": "\u4e00\u4e07\u516d\u5343\u4eba\u7684\u6982\u7387\u6837\u672c\u4e0a,\u7ba1\u6027\u6700\u5f3a\u7684\u9884\u6d4b\u9879\u662f\u8981\u4e0d\u8981\u5b69\u5b50\u670d\u4ece",
    "entries": [
     756
    ]
   },
   {
    "line": 186,
-   "claim": "人层那个族大半是一件事,而判不了的是我的阈值不是世界",
+   "claim": "\u4eba\u5c42\u90a3\u4e2a\u65cf\u5927\u534a\u662f\u4e00\u4ef6\u4e8b,\u800c\u5224\u4e0d\u4e86\u7684\u662f\u6211\u7684\u9608\u503c\u4e0d\u662f\u4e16\u754c",
    "entries": [
     754
    ]
   },
   {
    "line": 187,
-   "claim": "社会层没有服从那一族,只有服从这一个",
+   "claim": "\u793e\u4f1a\u5c42\u6ca1\u6709\u670d\u4ece\u90a3\u4e00\u65cf,\u53ea\u6709\u670d\u4ece\u8fd9\u4e00\u4e2a",
    "entries": [
     753
    ]
   },
   {
    "line": 188,
-   "claim": "性独立于伤害与公平,却就是权威那一族的一部分",
+   "claim": "\u6027\u72ec\u7acb\u4e8e\u4f24\u5bb3\u4e0e\u516c\u5e73,\u5374\u5c31\u662f\u6743\u5a01\u90a3\u4e00\u65cf\u7684\u4e00\u90e8\u5206",
    "entries": [
     752
    ]
   },
   {
    "line": 189,
-   "claim": "一个人对性的严,和他觉得逃税骗福利有多错,只共享 +0.13(⚠ 同一轮的第二具仪器把这句话收窄了,见下一行 —— GSS 那两条题恰好只覆盖了伤害-公平那一半)",
+   "claim": "\u4e00\u4e2a\u4eba\u5bf9\u6027\u7684\u4e25,\u548c\u4ed6\u89c9\u5f97\u9003\u7a0e\u9a97\u798f\u5229\u6709\u591a\u9519,\u53ea\u5171\u4eab +0.13(\u26a0 \u540c\u4e00\u8f6e\u7684\u7b2c\u4e8c\u5177\u4eea\u5668\u628a\u8fd9\u53e5\u8bdd\u6536\u7a84\u4e86,\u89c1\u4e0b\u4e00\u884c \u2014\u2014 GSS \u90a3\u4e24\u6761\u9898\u6070\u597d\u53ea\u8986\u76d6\u4e86\u4f24\u5bb3-\u516c\u5e73\u90a3\u4e00\u534a)",
    "entries": [
     751
    ]
   },
   {
    "line": 190,
-   "claim": "一个社会对性的严厉,不是它一般有多严的一个侧面",
+   "claim": "\u4e00\u4e2a\u793e\u4f1a\u5bf9\u6027\u7684\u4e25\u5389,\u4e0d\u662f\u5b83\u4e00\u822c\u6709\u591a\u4e25\u7684\u4e00\u4e2a\u4fa7\u9762",
    "entries": [
     749
    ]
   },
   {
    "line": 191,
-   "claim": "双重标准是一个偏移量,不是一条接缝",
+   "claim": "\u53cc\u91cd\u6807\u51c6\u662f\u4e00\u4e2a\u504f\u79fb\u91cf,\u4e0d\u662f\u4e00\u6761\u63a5\u7f1d",
    "entries": [
     617,
     618,
@@ -436,7 +436,7 @@
   },
   {
    "line": 192,
-   "claim": "一个人的性不是一件事,是二十件互不蕴含的事(面内那一半是验证,面间那一半才是发现)",
+   "claim": "\u4e00\u4e2a\u4eba\u7684\u6027\u4e0d\u662f\u4e00\u4ef6\u4e8b,\u662f\u4e8c\u5341\u4ef6\u4e92\u4e0d\u8574\u542b\u7684\u4e8b(\u9762\u5185\u90a3\u4e00\u534a\u662f\u9a8c\u8bc1,\u9762\u95f4\u90a3\u4e00\u534a\u624d\u662f\u53d1\u73b0)",
    "entries": [
     720,
     721
@@ -444,7 +444,7 @@
   },
   {
    "line": 193,
-   "claim": "一个社会「用不用这一招」对四种孩子一视同仁,而「对这个孩子用哪几招」不是一件事",
+   "claim": "\u4e00\u4e2a\u793e\u4f1a\u300c\u7528\u4e0d\u7528\u8fd9\u4e00\u62db\u300d\u5bf9\u56db\u79cd\u5b69\u5b50\u4e00\u89c6\u540c\u4ec1,\u800c\u300c\u5bf9\u8fd9\u4e2a\u5b69\u5b50\u7528\u54ea\u51e0\u62db\u300d\u4e0d\u662f\u4e00\u4ef6\u4e8b",
    "entries": [
     653,
     717
@@ -452,7 +452,7 @@
   },
   {
    "line": 194,
-   "claim": "五个道德域都比随机凑的六题更连成一片,纯洁最紧(而公平在严的那种约定下贴着零)",
+   "claim": "\u4e94\u4e2a\u9053\u5fb7\u57df\u90fd\u6bd4\u968f\u673a\u51d1\u7684\u516d\u9898\u66f4\u8fde\u6210\u4e00\u7247,\u7eaf\u6d01\u6700\u7d27(\u800c\u516c\u5e73\u5728\u4e25\u7684\u90a3\u79cd\u7ea6\u5b9a\u4e0b\u8d34\u7740\u96f6)",
    "entries": [
     653,
     715,
@@ -462,7 +462,7 @@
   },
   {
    "line": 195,
-   "claim": "而纯洁的领先比生的数还大",
+   "claim": "\u800c\u7eaf\u6d01\u7684\u9886\u5148\u6bd4\u751f\u7684\u6570\u8fd8\u5927",
    "entries": [
     648,
     729
@@ -470,7 +470,7 @@
   },
   {
    "line": 196,
-   "claim": "⚠ 而上一行现在带着一个活的替代解释",
+   "claim": "\u26a0 \u800c\u4e0a\u4e00\u884c\u73b0\u5728\u5e26\u7740\u4e00\u4e2a\u6d3b\u7684\u66ff\u4ee3\u89e3\u91ca",
    "entries": [
     745,
     747
@@ -478,7 +478,7 @@
   },
   {
    "line": 197,
-   "claim": "并进去的是常去教堂的人",
+   "claim": "\u5e76\u8fdb\u53bb\u7684\u662f\u5e38\u53bb\u6559\u5802\u7684\u4eba",
    "entries": [
     740,
     745
@@ -486,7 +486,7 @@
   },
   {
    "line": 198,
-   "claim": "也不是年龄,也不是教育",
+   "claim": "\u4e5f\u4e0d\u662f\u5e74\u9f84,\u4e5f\u4e0d\u662f\u6559\u80b2",
    "entries": [
     740,
     743
@@ -494,7 +494,7 @@
   },
   {
    "line": 199,
-   "claim": "搬进的是「性道德」,不是「政治」",
+   "claim": "\u642c\u8fdb\u7684\u662f\u300c\u6027\u9053\u5fb7\u300d,\u4e0d\u662f\u300c\u653f\u6cbb\u300d",
    "entries": [
     740,
     741,
@@ -503,7 +503,7 @@
   },
   {
    "line": 200,
-   "claim": "也不是老一代退出:同一批出生世代自己连的",
+   "claim": "\u4e5f\u4e0d\u662f\u8001\u4e00\u4ee3\u9000\u51fa:\u540c\u4e00\u6279\u51fa\u751f\u4e16\u4ee3\u81ea\u5df1\u8fde\u7684",
    "entries": [
     739,
     740
@@ -511,7 +511,7 @@
   },
   {
    "line": 201,
-   "claim": "而那一对的融合不是「挪离地板」的机械后果",
+   "claim": "\u800c\u90a3\u4e00\u5bf9\u7684\u878d\u5408\u4e0d\u662f\u300c\u632a\u79bb\u5730\u677f\u300d\u7684\u673a\u68b0\u540e\u679c",
    "entries": [
     738,
     739
@@ -519,14 +519,14 @@
   },
   {
    "line": 202,
-   "claim": "1988–2024:整体松了一整格,而变紧的只有一对",
+   "claim": "1988\u20132024:\u6574\u4f53\u677e\u4e86\u4e00\u6574\u683c,\u800c\u53d8\u7d27\u7684\u53ea\u6709\u4e00\u5bf9",
    "entries": [
     738
    ]
   },
   {
    "line": 203,
-   "claim": "⚠ 把测量误差校正掉之后,四道题仍只是松散相关",
+   "claim": "\u26a0 \u628a\u6d4b\u91cf\u8bef\u5dee\u6821\u6b63\u6389\u4e4b\u540e,\u56db\u9053\u9898\u4ecd\u53ea\u662f\u677e\u6563\u76f8\u5173",
    "entries": [
     732,
     735
@@ -534,21 +534,21 @@
   },
   {
    "line": 204,
-   "claim": "换一套问法再问一遍,同一批人给出的还是同一块",
+   "claim": "\u6362\u4e00\u5957\u95ee\u6cd5\u518d\u95ee\u4e00\u904d,\u540c\u4e00\u6279\u4eba\u7ed9\u51fa\u7684\u8fd8\u662f\u540c\u4e00\u5757",
    "entries": [
     732
    ]
   },
   {
    "line": 205,
-   "claim": "⚠ 「性道德比别的道德态度更是一块」站不住 —— 那是我选的背景造的",
+   "claim": "\u26a0 \u300c\u6027\u9053\u5fb7\u6bd4\u522b\u7684\u9053\u5fb7\u6001\u5ea6\u66f4\u662f\u4e00\u5757\u300d\u7ad9\u4e0d\u4f4f \u2014\u2014 \u90a3\u662f\u6211\u9009\u7684\u80cc\u666f\u9020\u7684",
    "entries": [
     731
    ]
   },
   {
    "line": 206,
-   "claim": "两具仪器的「分歧」不是关于人的:实测几乎一样,差的 84% 在分母",
+   "claim": "\u4e24\u5177\u4eea\u5668\u7684\u300c\u5206\u6b67\u300d\u4e0d\u662f\u5173\u4e8e\u4eba\u7684:\u5b9e\u6d4b\u51e0\u4e4e\u4e00\u6837,\u5dee\u7684 84% \u5728\u5206\u6bcd",
    "entries": [
     718,
     730
@@ -556,7 +556,7 @@
   },
   {
    "line": 207,
-   "claim": "⛔ 「性是一块」在两具仪器上都成立 只剩 GSS 一条腿",
+   "claim": "\u26d4 \u300c\u6027\u662f\u4e00\u5757\u300d\u5728\u4e24\u5177\u4eea\u5668\u4e0a\u90fd\u6210\u7acb \u53ea\u5269 GSS \u4e00\u6761\u817f",
    "entries": [
     653,
     715,
@@ -566,7 +566,7 @@
   },
   {
    "line": 208,
-   "claim": "⛔ 她对性与对「没结婚算不算一个家」的判断一样紧 两块都贴着自己的零",
+   "claim": "\u26d4 \u5979\u5bf9\u6027\u4e0e\u5bf9\u300c\u6ca1\u7ed3\u5a5a\u7b97\u4e0d\u7b97\u4e00\u4e2a\u5bb6\u300d\u7684\u5224\u65ad\u4e00\u6837\u7d27 \u4e24\u5757\u90fd\u8d34\u7740\u81ea\u5df1\u7684\u96f6",
    "entries": [
     650,
     734
@@ -574,7 +574,7 @@
   },
   {
    "line": 209,
-   "claim": "而家庭七题不是一个领域",
+   "claim": "\u800c\u5bb6\u5ead\u4e03\u9898\u4e0d\u662f\u4e00\u4e2a\u9886\u57df",
    "entries": [
     650,
     734
@@ -582,14 +582,14 @@
   },
   {
    "line": 219,
-   "claim": "把「教育让性道德成一个立场」升格成关于「性」或「纯洁」的话",
+   "claim": "\u628a\u300c\u6559\u80b2\u8ba9\u6027\u9053\u5fb7\u6210\u4e00\u4e2a\u7acb\u573a\u300d\u5347\u683c\u6210\u5173\u4e8e\u300c\u6027\u300d\u6216\u300c\u7eaf\u6d01\u300d\u7684\u8bdd",
    "entries": [
     675
    ]
   },
   {
    "line": 220,
-   "claim": "「稀有度是否驱动谴责」在年代这个单位上",
+   "claim": "\u300c\u7a00\u6709\u5ea6\u662f\u5426\u9a71\u52a8\u8c34\u8d23\u300d\u5728\u5e74\u4ee3\u8fd9\u4e2a\u5355\u4f4d\u4e0a",
    "entries": [
     659,
     660
@@ -597,70 +597,70 @@
   },
   {
    "line": 221,
-   "claim": "「让孩子看着大人做事来学」的跨仪器复制",
+   "claim": "\u300c\u8ba9\u5b69\u5b50\u770b\u7740\u5927\u4eba\u505a\u4e8b\u6765\u5b66\u300d\u7684\u8de8\u4eea\u5668\u590d\u5236",
    "entries": [
     645
    ]
   },
   {
    "line": 222,
-   "claim": "把社会侧的对比搬到人侧",
+   "claim": "\u628a\u793e\u4f1a\u4fa7\u7684\u5bf9\u6bd4\u642c\u5230\u4eba\u4fa7",
    "entries": [
     646
    ]
   },
   {
    "line": 223,
-   "claim": "说「换对象 +0.845 对哪些社会成立」",
+   "claim": "\u8bf4\u300c\u6362\u5bf9\u8c61 +0.845 \u5bf9\u54ea\u4e9b\u793e\u4f1a\u6210\u7acb\u300d",
    "entries": [
     674
    ]
   },
   {
    "line": 224,
-   "claim": "在 GSS 上把「压缩」分成「更少极端」与「更一致」",
+   "claim": "\u5728 GSS \u4e0a\u628a\u300c\u538b\u7f29\u300d\u5206\u6210\u300c\u66f4\u5c11\u6781\u7aef\u300d\u4e0e\u300c\u66f4\u4e00\u81f4\u300d",
    "entries": [
     689
    ]
   },
   {
    "line": 225,
-   "claim": "在社会层看清「这条轴与轴以外任何东西」的关系",
+   "claim": "\u5728\u793e\u4f1a\u5c42\u770b\u6e05\u300c\u8fd9\u6761\u8f74\u4e0e\u8f74\u4ee5\u5916\u4efb\u4f55\u4e1c\u897f\u300d\u7684\u5173\u7cfb",
    "entries": [
     702
    ]
   },
   {
    "line": 226,
-   "claim": "在别的仪器上重问 E01 的「罕见↔谴责」",
+   "claim": "\u5728\u522b\u7684\u4eea\u5668\u4e0a\u91cd\u95ee E01 \u7684\u300c\u7f55\u89c1\u2194\u8c34\u8d23\u300d",
    "entries": [
     703
    ]
   },
   {
    "line": 233,
-   "claim": "闸现在拦得住「没报零」,拦不住「报了个不配套的零」",
+   "claim": "\u95f8\u73b0\u5728\u62e6\u5f97\u4f4f\u300c\u6ca1\u62a5\u96f6\u300d,\u62e6\u4e0d\u4f4f\u300c\u62a5\u4e86\u4e2a\u4e0d\u914d\u5957\u7684\u96f6\u300d",
    "entries": [
     694
    ]
   },
   {
    "line": 234,
-   "claim": "这一页上大多数数字后面没有零",
+   "claim": "\u8fd9\u4e00\u9875\u4e0a\u5927\u591a\u6570\u6570\u5b57\u540e\u9762\u6ca1\u6709\u96f6",
    "entries": [
     693
    ]
   },
   {
    "line": 235,
-   "claim": "比值的阈值必须从它自己的零里量",
+   "claim": "\u6bd4\u503c\u7684\u9608\u503c\u5fc5\u987b\u4ece\u5b83\u81ea\u5df1\u7684\u96f6\u91cc\u91cf",
    "entries": [
     691
    ]
   },
   {
    "line": 236,
-   "claim": "一条 UNVERIFIED 不进「站得住的」,而它下一轮就死了",
+   "claim": "\u4e00\u6761 UNVERIFIED \u4e0d\u8fdb\u300c\u7ad9\u5f97\u4f4f\u7684\u300d,\u800c\u5b83\u4e0b\u4e00\u8f6e\u5c31\u6b7b\u4e86",
    "entries": [
     684,
     685
@@ -668,7 +668,7 @@
   },
   {
    "line": 238,
-   "claim": "相关有天花板",
+   "claim": "\u76f8\u5173\u6709\u5929\u82b1\u677f",
    "entries": [
     647,
     649,
@@ -677,7 +677,7 @@
   },
   {
    "line": 240,
-   "claim": "四层上的梯度,是量不出来的",
+   "claim": "\u56db\u5c42\u4e0a\u7684\u68af\u5ea6,\u662f\u91cf\u4e0d\u51fa\u6765\u7684",
    "entries": [
     674
    ]
@@ -731,9 +731,11 @@
   751,
   752
  ],
- "decide_strict": "逐处加限定",
- "decide_lenient": "整页重组",
- "decide_scoped": "只挂前向指针",
- "verdict": "**只挂前向指针 —— 而这一轮真正的产出是判据又错了一次,同一族第三次。**\n  替换测试判的是「**用没用**这个切法」,而决定问的是「**前提有没有被 `#789` 推翻**」。\n  `#789` 推翻的是一个**特定估计量**(虔诚/非虔诚的年代变化比在性/非性题上是否不同),\n  它没有推翻教育效应、领域内聚、面结构 —— **那些是别的估计量,多数在别的仪器上。**\n  ⇒ 严格 9 / 宽松 12 这个跨阈值的分歧,**根源不是我的判断余地,\n  是我在量一个错的东西** —— 而「决定取决于我」这句话本来会让我停在那里。\n  ⇒ **受影响的只有 `#785` 一条**,而这与 `#792` 的猜测一致 —— \n  **但那一轮是靠一具召回为零的筛子猜中的,本轮是靠 91 条主张的完整枚举定下来的。**\n  **猜中和定下来不是一回事,而这就是为什么那一轮判 UNVERIFIED 是对的。**",
- "criterion_was_wrong_again": true
+ "decide_strict": "\u9010\u5904\u52a0\u9650\u5b9a",
+ "decide_lenient": "\u6574\u9875\u91cd\u7ec4",
+ "decide_scoped": "\u53ea\u6302\u524d\u5411\u6307\u9488",
+ "verdict": "**\u53ea\u6302\u524d\u5411\u6307\u9488 \u2014\u2014 \u800c\u8fd9\u4e00\u8f6e\u771f\u6b63\u7684\u4ea7\u51fa\u662f\u5224\u636e\u53c8\u9519\u4e86\u4e00\u6b21,\u540c\u4e00\u65cf\u7b2c\u4e09\u6b21\u3002**\n  \u66ff\u6362\u6d4b\u8bd5\u5224\u7684\u662f\u300c**\u7528\u6ca1\u7528**\u8fd9\u4e2a\u5207\u6cd5\u300d,\u800c\u51b3\u5b9a\u95ee\u7684\u662f\u300c**\u524d\u63d0\u6709\u6ca1\u6709\u88ab `#789` \u63a8\u7ffb**\u300d\u3002\n  `#789` \u63a8\u7ffb\u7684\u662f\u4e00\u4e2a**\u7279\u5b9a\u4f30\u8ba1\u91cf**(\u8654\u8bda/\u975e\u8654\u8bda\u7684\u5e74\u4ee3\u53d8\u5316\u6bd4\u5728\u6027/\u975e\u6027\u9898\u4e0a\u662f\u5426\u4e0d\u540c),\n  \u5b83\u6ca1\u6709\u63a8\u7ffb\u6559\u80b2\u6548\u5e94\u3001\u9886\u57df\u5185\u805a\u3001\u9762\u7ed3\u6784 \u2014\u2014 **\u90a3\u4e9b\u662f\u522b\u7684\u4f30\u8ba1\u91cf,\u591a\u6570\u5728\u522b\u7684\u4eea\u5668\u4e0a\u3002**\n  \u21d2 \u4e25\u683c 9 / \u5bbd\u677e 12 \u8fd9\u4e2a\u8de8\u9608\u503c\u7684\u5206\u6b67,**\u6839\u6e90\u4e0d\u662f\u6211\u7684\u5224\u65ad\u4f59\u5730,\n  \u662f\u6211\u5728\u91cf\u4e00\u4e2a\u9519\u7684\u4e1c\u897f** \u2014\u2014 \u800c\u300c\u51b3\u5b9a\u53d6\u51b3\u4e8e\u6211\u300d\u8fd9\u53e5\u8bdd\u672c\u6765\u4f1a\u8ba9\u6211\u505c\u5728\u90a3\u91cc\u3002\n  \u21d2 **\u53d7\u5f71\u54cd\u7684\u53ea\u6709 `#785` \u4e00\u6761**,\u800c\u8fd9\u4e0e `#792` \u7684\u731c\u6d4b\u4e00\u81f4 \u2014\u2014 \n  **\u4f46\u90a3\u4e00\u8f6e\u662f\u9760\u4e00\u5177\u53ec\u56de\u4e3a\u96f6\u7684\u7b5b\u5b50\u731c\u4e2d\u7684,\u672c\u8f6e\u662f\u9760 91 \u6761\u4e3b\u5f20\u7684\u5b8c\u6574\u679a\u4e3e\u5b9a\u4e0b\u6765\u7684\u3002**\n  **\u731c\u4e2d\u548c\u5b9a\u4e0b\u6765\u4e0d\u662f\u4e00\u56de\u4e8b,\u800c\u8fd9\u5c31\u662f\u4e3a\u4ec0\u4e48\u90a3\u4e00\u8f6e\u5224 UNVERIFIED \u662f\u5bf9\u7684\u3002**",
+ "criterion_was_wrong_again": true,
+ "entry_backfilled": 793,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

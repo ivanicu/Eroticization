@@ -11,6 +11,8 @@
  "corr_stance_totvar": -0.21889679044550117,
  "d_tol": -0.3637049925807131,
  "d_sex": 0.14666913533815656,
- "verdict": "**W2 压缩是有方向的:两侧 -0.1333 / -0.0547,量级比 2.436(超出 sham 制造的 1.164) ⇒ 这是完全不同的一句话**",
- "unchallenged": true
+ "verdict": "**W2 \u538b\u7f29\u662f\u6709\u65b9\u5411\u7684:\u4e24\u4fa7 -0.1333 / -0.0547,\u91cf\u7ea7\u6bd4 2.436(\u8d85\u51fa sham \u5236\u9020\u7684 1.164) \u21d2 \u8fd9\u662f\u5b8c\u5168\u4e0d\u540c\u7684\u4e00\u53e5\u8bdd**",
+ "unchallenged": true,
+ "entry_backfilled": 687,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -4,32 +4,32 @@
  ],
  "flip_sex": [],
  "pairs_family": {
-  "staytog×chunless": 0.11998793411996446,
-  "staytog×chsuppor": 0.08595924694503954,
-  "staytog×okcohab": 0.09350431104565467,
-  "staytog×marrfail": 0.16033025372749649,
-  "staytog×chcohab": 0.1720287181496421,
-  "staytog×prvntdiv": 0.13967636667536829,
-  "chunless×chsuppor": -0.1637843321682336,
-  "chunless×okcohab": -0.1514514626029673,
-  "chunless×marrfail": 0.06993676400513472,
-  "chunless×chcohab": -0.09359280662648313,
-  "chunless×prvntdiv": -0.02278726764525454,
-  "chsuppor×okcohab": 0.32154405053553553,
-  "chsuppor×marrfail": 0.04885822297433621,
-  "chsuppor×chcohab": 0.370760466906748,
-  "chsuppor×prvntdiv": 0.23300672714694476,
-  "okcohab×marrfail": 0.028681845592139984,
-  "okcohab×chcohab": 0.4037480259328491,
-  "okcohab×prvntdiv": 0.4037264635071414,
-  "marrfail×chcohab": 0.11196022919338072,
-  "marrfail×prvntdiv": 0.08828524495842563,
-  "chcohab×prvntdiv": 0.37547235190648753
+  "staytog\u00d7chunless": 0.11998793411996446,
+  "staytog\u00d7chsuppor": 0.08595924694503954,
+  "staytog\u00d7okcohab": 0.09350431104565467,
+  "staytog\u00d7marrfail": 0.16033025372749649,
+  "staytog\u00d7chcohab": 0.1720287181496421,
+  "staytog\u00d7prvntdiv": 0.13967636667536829,
+  "chunless\u00d7chsuppor": -0.1637843321682336,
+  "chunless\u00d7okcohab": -0.1514514626029673,
+  "chunless\u00d7marrfail": 0.06993676400513472,
+  "chunless\u00d7chcohab": -0.09359280662648313,
+  "chunless\u00d7prvntdiv": -0.02278726764525454,
+  "chsuppor\u00d7okcohab": 0.32154405053553553,
+  "chsuppor\u00d7marrfail": 0.04885822297433621,
+  "chsuppor\u00d7chcohab": 0.370760466906748,
+  "chsuppor\u00d7prvntdiv": 0.23300672714694476,
+  "okcohab\u00d7marrfail": 0.028681845592139984,
+  "okcohab\u00d7chcohab": 0.4037480259328491,
+  "okcohab\u00d7prvntdiv": 0.4037264635071414,
+  "marrfail\u00d7chcohab": 0.11196022919338072,
+  "marrfail\u00d7prvntdiv": 0.08828524495842563,
+  "chcohab\u00d7prvntdiv": 0.37547235190648753
  },
  "pairs_sex": {
-  "samesex×sxok18": 0.42457412618091395,
-  "samesex×sxok16": 0.3117466651601618,
-  "sxok18×sxok16": 0.5892398602741551
+  "samesex\u00d7sxok18": 0.42457412618091395,
+  "samesex\u00d7sxok16": 0.3117466651601618,
+  "sxok18\u00d7sxok16": 0.5892398602741551
  },
  "biggest_family": 4,
  "component": [
@@ -58,7 +58,7 @@
    3
   ]
  },
- "verdict": "**W2 —— 有一小块(4 题:chcohab、chsuppor、okcohab、prvntdiv)+ 若干散题;「不是一块」这句话是错的**",
+ "verdict": "**W2 \u2014\u2014 \u6709\u4e00\u5c0f\u5757(4 \u9898:chcohab\u3001chsuppor\u3001okcohab\u3001prvntdiv)+ \u82e5\u5e72\u6563\u9898;\u300c\u4e0d\u662f\u4e00\u5757\u300d\u8fd9\u53e5\u8bdd\u662f\u9519\u7684**",
  "unchallenged": true,
  "ninth_fair": {
   "sex": {
@@ -107,6 +107,8 @@
   "bias": -0.0018848556292420104,
   "held_norm": 0.4256576591105227,
   "ratio_honest": 1.0992543744105001,
-  "note": "七题 4.7 倍 = 块选错;全样本四题 1.10 倍 = 在结果上选择;留出版才是可报的"
- }
+  "note": "\u4e03\u9898 4.7 \u500d = \u5757\u9009\u9519;\u5168\u6837\u672c\u56db\u9898 1.10 \u500d = \u5728\u7ed3\u679c\u4e0a\u9009\u62e9;\u7559\u51fa\u7248\u624d\u662f\u53ef\u62a5\u7684"
+ },
+ "entry_backfilled": 650,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

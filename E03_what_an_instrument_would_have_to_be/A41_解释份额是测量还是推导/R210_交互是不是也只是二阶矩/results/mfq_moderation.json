@@ -48,6 +48,8 @@
    "ryz": -0.09067264698313597
   }
  },
- "verdict": "**方向相反:MFQ 上高虔诚层反而更高(+0.3865 → +0.5211),spread 1.93× ⇒ 两具仪器不同号,框架就是发现**",
- "gate_ok": true
+ "verdict": "**\u65b9\u5411\u76f8\u53cd:MFQ \u4e0a\u9ad8\u8654\u8bda\u5c42\u53cd\u800c\u66f4\u9ad8(+0.3865 \u2192 +0.5211),spread 1.93\u00d7 \u21d2 \u4e24\u5177\u4eea\u5668\u4e0d\u540c\u53f7,\u6846\u67b6\u5c31\u662f\u53d1\u73b0**",
+ "gate_ok": true,
+ "entry_backfilled": 771,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

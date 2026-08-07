@@ -1,5 +1,5 @@
 {
- "政治 polviews": {
+ "\u653f\u6cbb polviews": {
   "premarsx": {
    "n": 15571,
    "rxy": 0.2747417886571382,
@@ -34,7 +34,7 @@
   },
   "_median_share": 0.12313263638597921
  },
- "宗教 attend+reliten+fund": {
+ "\u5b97\u6559 attend+reliten+fund": {
   "premarsx": {
    "n": 12592,
    "rxy": 0.25148546990199727,
@@ -68,5 +68,7 @@
    "share_numeric": 0.35959937693080857
   },
   "_median_share": 0.3352710909180084
- }
+ },
+ "entry_backfilled": 774,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

@@ -1,181 +1,183 @@
 {
  "rows": {
-  "MFQ·AUTHORITY": {
+  "MFQ\u00b7AUTHORITY": {
    "obs": 0.16963258316486485,
    "null_q95": 0.03129378827162264,
    "ratio": 5.420647116689561,
-   "old": "链",
-   "new": "高于零",
+   "old": "\u94fe",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "MFQ",
    "k": 6
   },
-  "MFQ·FAIRNESS": {
+  "MFQ\u00b7FAIRNESS": {
    "obs": 0.06208612825565875,
    "null_q95": 0.03129378827162264,
    "ratio": 1.9839761078705438,
-   "old": "链",
-   "new": "高于零",
+   "old": "\u94fe",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "MFQ",
    "k": 6
   },
-  "MFQ·HARM": {
+  "MFQ\u00b7HARM": {
    "obs": 0.13903301240068994,
    "null_q95": 0.03129378827162264,
    "ratio": 4.442830992333573,
-   "old": "链",
-   "new": "高于零",
+   "old": "\u94fe",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "MFQ",
    "k": 6
   },
-  "MFQ·INGROUP": {
+  "MFQ\u00b7INGROUP": {
    "obs": 0.14918488849531183,
    "null_q95": 0.03129378827162264,
    "ratio": 4.767236462406612,
-   "old": "链",
-   "new": "高于零",
+   "old": "\u94fe",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "MFQ",
    "k": 6
   },
-  "MFQ·PURITY": {
+  "MFQ\u00b7PURITY": {
    "obs": 0.3354208226109513,
    "null_q95": 0.03129378827162264,
    "ratio": 10.718447370435895,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "MFQ",
    "k": 6
   },
-  "GSS·性道德四题": {
+  "GSS\u00b7\u6027\u9053\u5fb7\u56db\u9898": {
    "obs": 0.4160447907052501,
    "null_q95": 0.057350787695768846,
    "ratio": 7.254386686234556,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "GSS",
    "k": 4
   },
-  "GSS·警察四题": {
+  "GSS\u00b7\u8b66\u5bdf\u56db\u9898": {
    "obs": -0.1492955490800398,
    "null_q95": 0.057350787695768846,
    "ratio": -2.6031996259931813,
-   "old": "链",
-   "new": "落在零里",
+   "old": "\u94fe",
+   "new": "\u843d\u5728\u96f6\u91cc",
    "pool": "GSS",
    "k": 4
   },
-  "NSFG·性三题": {
+  "NSFG\u00b7\u6027\u4e09\u9898": {
    "obs": 0.34556198556957446,
    "null_q95": 0.3123667363737985,
    "ratio": 1.1062701156375765,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "NSFG",
    "k": 3
   },
-  "NSFG·家庭七题": {
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898": {
    "obs": -0.22024523102617333,
    "null_q95": 0.0965108567401323,
    "ratio": -2.2820772549891615,
-   "old": "链",
-   "new": "落在零里",
+   "old": "\u94fe",
+   "new": "\u843d\u5728\u96f6\u91cc",
    "pool": "NSFG",
    "k": 7
   },
-  "SCCS·体罚四对象": {
+  "SCCS\u00b7\u4f53\u7f5a\u56db\u5bf9\u8c61": {
    "obs": 0.8219055381455562,
    "null_q95": 0.256029514542457,
    "ratio": 3.2101984008146878,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "SCCS",
    "k": 4
   },
-  "SCCS·以身作则四对象": {
+  "SCCS\u00b7\u4ee5\u8eab\u4f5c\u5219\u56db\u5bf9\u8c61": {
    "obs": 0.8954967020038297,
    "null_q95": 0.256029514542457,
    "ratio": 3.497630746221373,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "SCCS",
    "k": 4
   },
-  "SCCS·讲课四对象": {
+  "SCCS\u00b7\u8bb2\u8bfe\u56db\u5bf9\u8c61": {
    "obs": 0.7858187725682991,
    "null_q95": 0.256029514542457,
    "ratio": 3.069250722802851,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "SCCS",
    "k": 4
   },
-  "SCCS·放任四对象": {
+  "SCCS\u00b7\u653e\u4efb\u56db\u5bf9\u8c61": {
    "obs": 0.6509453790711728,
    "null_q95": 0.256029514542457,
    "ratio": 2.542462263518558,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "SCCS",
    "k": 4
   },
-  "SCCS·疼爱四对象": {
+  "SCCS\u00b7\u75bc\u7231\u56db\u5bf9\u8c61": {
    "obs": 0.784503273109608,
    "null_q95": 0.256029514542457,
    "ratio": 3.064112645417351,
-   "old": "团",
-   "new": "高于零",
+   "old": "\u56e2",
+   "new": "\u9ad8\u4e8e\u96f6",
    "pool": "SCCS",
    "k": 4
   }
  },
  "null": {
-  "MFQ·k6": {
+  "MFQ\u00b7k6": {
    "q95": 0.03129378827162264,
    "median": -0.12867180732002323,
    "n": 3000,
-   "how": "随机 3,000/593,770"
+   "how": "\u968f\u673a 3,000/593,770"
   },
-  "GSS·k4": {
+  "GSS\u00b7k4": {
    "q95": 0.057350787695768846,
    "median": -0.057194631639033884,
    "n": 28,
-   "how": "**全枚举 68**"
+   "how": "**\u5168\u679a\u4e3e 68**"
   },
-  "NSFG·k3": {
+  "NSFG\u00b7k3": {
    "q95": 0.3123667363737985,
    "median": -0.021955693515034774,
    "n": 119,
-   "how": "**全枚举 119**"
+   "how": "**\u5168\u679a\u4e3e 119**"
   },
-  "NSFG·k7": {
+  "NSFG\u00b7k7": {
    "q95": 0.0965108567401323,
    "median": -0.20090974757468122,
    "n": 119,
-   "how": "**全枚举 119**"
+   "how": "**\u5168\u679a\u4e3e 119**"
   },
-  "SCCS·k4": {
+  "SCCS\u00b7k4": {
    "q95": 0.256029514542457,
    "median": -0.3171801934984887,
    "n": 2500,
-   "how": "随机 2,500/4,840"
+   "how": "\u968f\u673a 2,500/4,840"
   }
  },
  "ledger": {
-  "MFQ·PURITY": 0.335,
-  "MFQ·AUTHORITY": 0.17,
-  "MFQ·INGROUP": 0.149,
-  "MFQ·HARM": 0.139,
-  "MFQ·FAIRNESS": 0.062,
-  "GSS·性道德四题": 0.416,
-  "GSS·警察四题": -0.149,
-  "NSFG·性三题": 0.346,
-  "NSFG·家庭七题": -0.22,
-  "SCCS·以身作则四对象": 0.895,
-  "SCCS·体罚四对象": 0.822,
-  "SCCS·讲课四对象": 0.786,
-  "SCCS·疼爱四对象": 0.785,
-  "SCCS·放任四对象": 0.651
+  "MFQ\u00b7PURITY": 0.335,
+  "MFQ\u00b7AUTHORITY": 0.17,
+  "MFQ\u00b7INGROUP": 0.149,
+  "MFQ\u00b7HARM": 0.139,
+  "MFQ\u00b7FAIRNESS": 0.062,
+  "GSS\u00b7\u6027\u9053\u5fb7\u56db\u9898": 0.416,
+  "GSS\u00b7\u8b66\u5bdf\u56db\u9898": -0.149,
+  "NSFG\u00b7\u6027\u4e09\u9898": 0.346,
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898": -0.22,
+  "SCCS\u00b7\u4ee5\u8eab\u4f5c\u5219\u56db\u5bf9\u8c61": 0.895,
+  "SCCS\u00b7\u4f53\u7f5a\u56db\u5bf9\u8c61": 0.822,
+  "SCCS\u00b7\u8bb2\u8bfe\u56db\u5bf9\u8c61": 0.786,
+  "SCCS\u00b7\u75bc\u7231\u56db\u5bf9\u8c61": 0.785,
+  "SCCS\u00b7\u653e\u4efb\u56db\u5bf9\u8c61": 0.651
  },
  "max_diff": 0.0004967268903920408,
- "verdict": "**撤回「只有纯洁是团」:五域全部高于自己的零,差的是程度不是种类 —— PURITY 10.7× > AUTHORITY 5.4× > INGROUP 4.8× > HARM 4.4× > FAIRNESS 2.0×**",
- "unchallenged": true
+ "verdict": "**\u64a4\u56de\u300c\u53ea\u6709\u7eaf\u6d01\u662f\u56e2\u300d:\u4e94\u57df\u5168\u90e8\u9ad8\u4e8e\u81ea\u5df1\u7684\u96f6,\u5dee\u7684\u662f\u7a0b\u5ea6\u4e0d\u662f\u79cd\u7c7b \u2014\u2014 PURITY 10.7\u00d7 > AUTHORITY 5.4\u00d7 > INGROUP 4.8\u00d7 > HARM 4.4\u00d7 > FAIRNESS 2.0\u00d7**",
+ "unchallenged": true,
+ "entry_backfilled": 716,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

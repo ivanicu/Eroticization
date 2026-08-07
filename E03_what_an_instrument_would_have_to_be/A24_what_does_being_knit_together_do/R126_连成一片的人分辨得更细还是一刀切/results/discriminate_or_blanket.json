@@ -2,7 +2,7 @@
  "n": 8229,
  "rows": [
   {
-   "batt": "堕胎",
+   "batt": "\u5815\u80ce",
    "rho_discrim": 0.10425698036182042,
    "rho_guttman": -0.06588034636139331,
    "part_discrim": 0.13953952862217886,
@@ -19,7 +19,7 @@
    ]
   },
   {
-   "batt": "自杀",
+   "batt": "\u81ea\u6740",
    "rho_discrim": 0.2763295301142519,
    "rho_guttman": 0.02037960793170816,
    "part_discrim": 0.32021276417738387,
@@ -33,7 +33,7 @@
    ]
   },
   {
-   "batt": "容忍·藏书",
+   "batt": "\u5bb9\u5fcd\u00b7\u85cf\u4e66",
    "rho_discrim": 0.09114982799588547,
    "rho_guttman": -0.06039895573847053,
    "part_discrim": 0.11075563178480685,
@@ -49,5 +49,7 @@
   }
  ],
  "verdict": "UNVERIFIED",
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 684,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

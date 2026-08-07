@@ -37,5 +37,7 @@
   "obey": 3.106144477324352,
   "premarsx": 2.5325983376462866
  },
- "verdict": "**结构上撑不起:23 个时点、去趋势后残差 sd/抽样 se = 2.53×,要 80% 功效需要领先强度 >0.8 —— **「方向」写进「这套数据做不到什么」,不跑那个弱检验**"
+ "verdict": "**\u7ed3\u6784\u4e0a\u6491\u4e0d\u8d77:23 \u4e2a\u65f6\u70b9\u3001\u53bb\u8d8b\u52bf\u540e\u6b8b\u5dee sd/\u62bd\u6837 se = 2.53\u00d7,\u8981 80% \u529f\u6548\u9700\u8981\u9886\u5148\u5f3a\u5ea6 >0.8 \u2014\u2014 **\u300c\u65b9\u5411\u300d\u5199\u8fdb\u300c\u8fd9\u5957\u6570\u636e\u505a\u4e0d\u5230\u4ec0\u4e48\u300d,\u4e0d\u8dd1\u90a3\u4e2a\u5f31\u68c0\u9a8c**",
+ "entry_backfilled": 757,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

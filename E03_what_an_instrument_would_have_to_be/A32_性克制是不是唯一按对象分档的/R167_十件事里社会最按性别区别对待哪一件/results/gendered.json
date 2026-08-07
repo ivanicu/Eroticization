@@ -250,6 +250,8 @@
   0.3221223776904486
  ],
  "agg_positive_control": false,
- "verdict": "**UNVERIFIED:正对照没过 —— 这具仪器测不出已知的性别差,任何名次都不可采信**",
- "unchallenged": true
+ "verdict": "**UNVERIFIED:\u6b63\u5bf9\u7167\u6ca1\u8fc7 \u2014\u2014 \u8fd9\u5177\u4eea\u5668\u6d4b\u4e0d\u51fa\u5df2\u77e5\u7684\u6027\u522b\u5dee,\u4efb\u4f55\u540d\u6b21\u90fd\u4e0d\u53ef\u91c7\u4fe1**",
+ "unchallenged": true,
+ "entry_backfilled": 725,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

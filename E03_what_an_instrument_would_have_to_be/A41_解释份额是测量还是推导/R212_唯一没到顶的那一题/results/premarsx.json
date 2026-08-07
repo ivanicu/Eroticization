@@ -1,7 +1,7 @@
 {
  "n": 12592,
  "grid": {
-  "三分位": {
+  "\u4e09\u5206\u4f4d": {
    "n": [
     4259,
     4182,
@@ -37,7 +37,7 @@
    "spread_mm": 0.11272974748322784,
    "spread_sl": 0.05758485440063171
   },
-  "五分位": {
+  "\u4e94\u5206\u4f4d": {
    "n": [
     2537,
     2545,
@@ -87,17 +87,19 @@
   }
  },
  "dirs": {
-  "三分位": [
+  "\u4e09\u5206\u4f4d": [
    true,
    true,
    false
   ],
-  "五分位": [
+  "\u4e94\u5206\u4f4d": [
    false,
    true,
    false
   ]
  },
- "verdict": "**删失守门未过(最高 60.9%)⇒ 整轮不可读**",
- "gate_ok": false
+ "verdict": "**\u5220\u5931\u5b88\u95e8\u672a\u8fc7(\u6700\u9ad8 60.9%)\u21d2 \u6574\u8f6e\u4e0d\u53ef\u8bfb**",
+ "gate_ok": false,
+ "entry_backfilled": 773,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

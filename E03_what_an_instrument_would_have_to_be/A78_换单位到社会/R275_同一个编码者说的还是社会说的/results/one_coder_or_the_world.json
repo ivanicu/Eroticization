@@ -2,7 +2,7 @@
  "unit": "society (SCCS 186)",
  "instrument": "D-PLACE/SCCS ethnographic codes",
  "arms": {
-  "A 同编码者 `SCCS176` 谴责 (Broude&Greene)": {
+  "A \u540c\u7f16\u7801\u8005 `SCCS176` \u8c34\u8d23 (Broude&Greene)": {
    "var": "SCCS176",
    "same_coder": true,
    "n": 34,
@@ -22,7 +22,7 @@
     "InsularPacific": 3
    }
   },
-  "B 独立 `SCCS602` 性危险/污染 (Whyte)": {
+  "B \u72ec\u7acb `SCCS602` \u6027\u5371\u9669/\u6c61\u67d3 (Whyte)": {
    "var": "SCCS602",
    "same_coder": false,
    "n": 33,
@@ -41,7 +41,7 @@
     "InsularPacific": 4
    }
   },
-  "C 独立 `SCCS961` 婚前限制 (Frayser)": {
+  "C \u72ec\u7acb `SCCS961` \u5a5a\u524d\u9650\u5236 (Frayser)": {
    "var": "SCCS961",
    "same_coder": false,
    "n": 21,
@@ -86,6 +86,8 @@
  ],
  "boundary": "outcome SCCS177 is single-instrument in every arm; condemnation may CREATE apparent absence",
  "admissible": true,
- "verdict": "**C 三条臂都看不见。** A ρ=-0.371 · B -0.005 · C +0.185,皆未超各自 MDE。\n  ⇒ **E01 那条人层面的相关,在社会这个单位上没有对应物 —— 至少这份编码看不到。**",
- "gate_ok": false
+ "verdict": "**C \u4e09\u6761\u81c2\u90fd\u770b\u4e0d\u89c1\u3002** A \u03c1=-0.371 \u00b7 B -0.005 \u00b7 C +0.185,\u7686\u672a\u8d85\u5404\u81ea MDE\u3002\n  \u21d2 **E01 \u90a3\u6761\u4eba\u5c42\u9762\u7684\u76f8\u5173,\u5728\u793e\u4f1a\u8fd9\u4e2a\u5355\u4f4d\u4e0a\u6ca1\u6709\u5bf9\u5e94\u7269 \u2014\u2014 \u81f3\u5c11\u8fd9\u4efd\u7f16\u7801\u770b\u4e0d\u5230\u3002**",
+ "gate_ok": false,
+ "entry_backfilled": 836,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

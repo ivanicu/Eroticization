@@ -17,7 +17,7 @@
  },
  "unsearchable": {
   "openpsych:ECR-data-1March2018": "codebook did not parse",
-  "MFQ": "only 5 of 234 columns carry a label — the item text lives in the paper, not the file"
+  "MFQ": "only 5 of 234 columns carry a label \u2014 the item text lives in the paper, not the file"
  },
  "grid": {
   "GSS|premarital": {
@@ -81,15 +81,15 @@
   }
  },
  "matched": [
-  "GSS×homosexual",
-  "SCCS×extramarital",
-  "SCCS×premarital"
+  "GSS\u00d7homosexual",
+  "SCCS\u00d7extramarital",
+  "SCCS\u00d7premarital"
  ],
  "union_over_widths": [
-  "GSS×abortion"
+  "GSS\u00d7abortion"
  ],
  "usable": {
-  "abdefctw×abdefect": {
+  "abdefctw\u00d7abdefect": {
    "n": 2216,
    "years": [
     1991,
@@ -97,7 +97,7 @@
     2008
    ]
   },
-  "abpoorw×abpoor": {
+  "abpoorw\u00d7abpoor": {
    "n": 2942,
    "years": [
     1991,
@@ -106,13 +106,13 @@
     2018
    ]
   },
-  "abdefctw×abdefct1": {
+  "abdefctw\u00d7abdefct1": {
    "n": 1207,
    "years": [
     1991
    ]
   },
-  "abpoorw×abpoor1": {
+  "abpoorw\u00d7abpoor1": {
    "n": 1166,
    "years": [
     1991
@@ -120,7 +120,7 @@
   }
  },
  "adjudicated_real": [
-  "GSS×abortion"
+  "GSS\u00d7abortion"
  ],
  "adjudicated_junk": [],
  "junk_rate": 0.0,
@@ -139,7 +139,7 @@
    "matched": 2,
    "new": 1,
    "new_cells": [
-    "GSS×abortion"
+    "GSS\u00d7abortion"
    ]
   },
   "norm=medium,sanction=narrow": {
@@ -156,7 +156,7 @@
    "matched": 4,
    "new": 1,
    "new_cells": [
-    "GSS×abortion"
+    "GSS\u00d7abortion"
    ]
   },
   "norm=wide,sanction=narrow": {
@@ -173,7 +173,7 @@
    "matched": 4,
    "new": 1,
    "new_cells": [
-    "GSS×abortion"
+    "GSS\u00d7abortion"
    ]
   }
  },
@@ -182,6 +182,8 @@
   "negative": true
  },
  "admissible": true,
- "verdict": "**A — A MATCHED PAIR EXISTS, and the specification curve found what the pre-registered cell missed.** 1 cell(s) outside the two already known: ['GSS×abortion'].\n  The pair is **`abpoorw` (\"Wrong for woman to get abortion if low income?\") × `abpoor` (\"Law should allow abortion if family low income\")** — the same act, the same qualifier, the same respondents, differing ONLY in *is it wrong* versus *should the law allow it*. **Paired n = 2942 over waves [1991, 1998, 2008, 2018].**\n  ⇒ **GSS now has TWO act-like objects with a matched norm–sanction pair**, not one, so act-dependence becomes testable WITHIN one instrument instead of analogised across two.\n  ⚠ **And the scope is not the same as SCCS's**: abortion is a reproductive decision, not a sexual act. It extends the STRUCTURE (norm vs sanction) to a second object; it does not make abortion a member of the family SCCS coded.\n  ⚠ **The pre-registered width missed it** because `law` sits only in the WIDE sanction list — and `\"Law should allow\"` is the most natural way English asks for a sanction. **The word list was the instrument, and it was too narrow at the cell I pre-registered.**",
- "gate_ok": true
+ "verdict": "**A \u2014 A MATCHED PAIR EXISTS, and the specification curve found what the pre-registered cell missed.** 1 cell(s) outside the two already known: ['GSS\u00d7abortion'].\n  The pair is **`abpoorw` (\"Wrong for woman to get abortion if low income?\") \u00d7 `abpoor` (\"Law should allow abortion if family low income\")** \u2014 the same act, the same qualifier, the same respondents, differing ONLY in *is it wrong* versus *should the law allow it*. **Paired n = 2942 over waves [1991, 1998, 2008, 2018].**\n  \u21d2 **GSS now has TWO act-like objects with a matched norm\u2013sanction pair**, not one, so act-dependence becomes testable WITHIN one instrument instead of analogised across two.\n  \u26a0 **And the scope is not the same as SCCS's**: abortion is a reproductive decision, not a sexual act. It extends the STRUCTURE (norm vs sanction) to a second object; it does not make abortion a member of the family SCCS coded.\n  \u26a0 **The pre-registered width missed it** because `law` sits only in the WIDE sanction list \u2014 and `\"Law should allow\"` is the most natural way English asks for a sanction. **The word list was the instrument, and it was too narrow at the cell I pre-registered.**",
+ "gate_ok": true,
+ "entry_backfilled": 882,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }

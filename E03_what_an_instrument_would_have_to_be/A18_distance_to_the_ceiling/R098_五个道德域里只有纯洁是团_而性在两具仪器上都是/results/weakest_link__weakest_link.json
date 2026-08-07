@@ -1,6 +1,6 @@
 {
  "links": {
-  "MFQ·AUTHORITY": {
+  "MFQ\u00b7AUTHORITY": {
    "min_raw": 0.16041506328448574,
    "min_norm": 0.16963258316486485,
    "max_norm": 0.6045357807590139,
@@ -16,7 +16,7 @@
     "sexroles"
    ]
   },
-  "MFQ·FAIRNESS": {
+  "MFQ\u00b7FAIRNESS": {
    "min_raw": 0.05322727858487805,
    "min_norm": 0.06208612825565875,
    "max_norm": 0.5301662501347609,
@@ -32,7 +32,7 @@
     "rich"
    ]
   },
-  "MFQ·HARM": {
+  "MFQ\u00b7HARM": {
    "min_raw": 0.12343572885580632,
    "min_norm": 0.13903301240068994,
    "max_norm": 0.5629145569656879,
@@ -48,7 +48,7 @@
     "kill"
    ]
   },
-  "MFQ·INGROUP": {
+  "MFQ\u00b7INGROUP": {
    "min_raw": 0.14702548412535552,
    "min_norm": 0.14918488849531183,
    "max_norm": 0.5875936383055028,
@@ -64,7 +64,7 @@
     "history"
    ]
   },
-  "MFQ·PURITY": {
+  "MFQ\u00b7PURITY": {
    "min_raw": 0.3144688161353689,
    "min_norm": 0.3354208226109513,
    "max_norm": 0.6139936650789832,
@@ -80,7 +80,7 @@
     "chastity"
    ]
   },
-  "GSS·警察四题": {
+  "GSS\u00b7\u8b66\u5bdf\u56db\u9898": {
    "min_raw": -0.12306093439611722,
    "min_norm": -0.1492955490800398,
    "max_norm": 0.7631251421761351,
@@ -96,7 +96,7 @@
     "polattak"
    ]
   },
-  "GSS·性道德四题": {
+  "GSS\u00b7\u6027\u9053\u5fb7\u56db\u9898": {
    "min_raw": 0.2945818112611207,
    "min_norm": 0.4160447907052501,
    "max_norm": 0.6955668615093232,
@@ -112,7 +112,7 @@
     "teensex"
    ]
   },
-  "NSFG·性三题": {
+  "NSFG\u00b7\u6027\u4e09\u9898": {
    "min_raw": 0.3117466651601618,
    "min_norm": 0.34556198556957446,
    "max_norm": 0.6322702755905772,
@@ -128,7 +128,7 @@
     "sxok16"
    ]
   },
-  "NSFG·家庭七题": {
+  "NSFG\u00b7\u5bb6\u5ead\u4e03\u9898": {
    "min_raw": -0.1637843321682336,
    "min_norm": -0.22024523102617333,
    "max_norm": 0.4633027744207524,
@@ -144,7 +144,7 @@
     "chsuppor"
    ]
   },
-  "SCCS·体罚四对象": {
+  "SCCS\u00b7\u4f53\u7f5a\u56db\u5bf9\u8c61": {
    "min_raw": 0.7924035307290446,
    "min_norm": 0.8219055381455562,
    "max_norm": 0.9500990873655409,
@@ -160,7 +160,7 @@
     "SCCS455"
    ]
   },
-  "SCCS·以身作则四对象": {
+  "SCCS\u00b7\u4ee5\u8eab\u4f5c\u5219\u56db\u5bf9\u8c61": {
    "min_raw": 0.8716144854891169,
    "min_norm": 0.8954967020038297,
    "max_norm": 0.9584773410971426,
@@ -176,7 +176,7 @@
     "SCCS431"
    ]
   },
-  "SCCS·讲课四对象": {
+  "SCCS\u00b7\u8bb2\u8bfe\u56db\u5bf9\u8c61": {
    "min_raw": 0.7429829669871246,
    "min_norm": 0.7858187725682991,
    "max_norm": 0.9878514928630577,
@@ -192,7 +192,7 @@
     "SCCS439"
    ]
   },
-  "SCCS·放任四对象": {
+  "SCCS\u00b7\u653e\u4efb\u56db\u5bf9\u8c61": {
    "min_raw": 0.6192111598294768,
    "min_norm": 0.6509453790711728,
    "max_norm": 0.8908547790805775,
@@ -208,7 +208,7 @@
     "SCCS467"
    ]
   },
-  "SCCS·疼爱四对象": {
+  "SCCS\u00b7\u75bc\u7231\u56db\u5bf9\u8c61": {
    "min_raw": 0.752264908161812,
    "min_norm": 0.784503273109608,
    "max_norm": 0.9322213906604769,
@@ -227,11 +227,13 @@
  },
  "positive": 0.8716144854891169,
  "placebo": 0.0,
- "verdict": "**8/14 块是团(最弱一环 >= 0.30)· 6 块只是连通** -> 链:['MFQ·AUTHORITY', 'MFQ·FAIRNESS', 'MFQ·HARM', 'MFQ·INGROUP', 'GSS·警察四题', 'NSFG·家庭七题']",
+ "verdict": "**8/14 \u5757\u662f\u56e2(\u6700\u5f31\u4e00\u73af >= 0.30)\u00b7 6 \u5757\u53ea\u662f\u8fde\u901a** -> \u94fe:['MFQ\u00b7AUTHORITY', 'MFQ\u00b7FAIRNESS', 'MFQ\u00b7HARM', 'MFQ\u00b7INGROUP', 'GSS\u00b7\u8b66\u5bdf\u56db\u9898', 'NSFG\u00b7\u5bb6\u5ead\u4e03\u9898']",
  "purity_weakest": [
   "disgusting",
   "chastity",
   0.3354208226109513
  ],
- "unchallenged": true
+ "unchallenged": true,
+ "entry_backfilled": 653,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

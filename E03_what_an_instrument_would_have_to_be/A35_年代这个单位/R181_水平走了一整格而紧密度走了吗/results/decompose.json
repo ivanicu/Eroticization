@@ -3,14 +3,16 @@
  "ceiling_slope36": -0.0858170868286661,
  "normalised_slope36": 0.1128,
  "pairs": {
-  "premarsx×xmarsex": -0.03882017663688178,
-  "premarsx×homosex": 0.2703255167904933,
-  "premarsx×teensex": -0.01767632246329656,
-  "xmarsex×homosex": 0.01365108377375912,
-  "xmarsex×teensex": 0.051426819634665936,
-  "homosex×teensex": 0.04658774310501817
+  "premarsx\u00d7xmarsex": -0.03882017663688178,
+  "premarsx\u00d7homosex": 0.2703255167904933,
+  "premarsx\u00d7teensex": -0.01767632246329656,
+  "xmarsex\u00d7homosex": 0.01365108377375912,
+  "xmarsex\u00d7teensex": 0.051426819634665936,
+  "homosex\u00d7teensex": 0.04658774310501817
  },
  "placebo_police_raw36": -0.07646172632409719,
- "note": "事后对照,未预注册;生相关自己上涨 ⇒ 天花板不是主因;而趋势由 premarsx×homosex 一对带动",
- "unchallenged": true
+ "note": "\u4e8b\u540e\u5bf9\u7167,\u672a\u9884\u6ce8\u518c;\u751f\u76f8\u5173\u81ea\u5df1\u4e0a\u6da8 \u21d2 \u5929\u82b1\u677f\u4e0d\u662f\u4e3b\u56e0;\u800c\u8d8b\u52bf\u7531 premarsx\u00d7homosex \u4e00\u5bf9\u5e26\u52a8",
+ "unchallenged": true,
+ "entry_backfilled": 738,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

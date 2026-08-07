@@ -1,7 +1,7 @@
 {
  "rows": [
   {
-   "name": "Broude 1976(同项目)",
+   "name": "Broude 1976(\u540c\u9879\u76ee)",
    "var": "SCCS165",
    "n": 97,
    "rho": 0.7966029644391075,
@@ -9,7 +9,7 @@
    "hi": 0.8717170514584017
   },
   {
-   "name": "Murdock/Gray(跨项目,=EA078)",
+   "name": "Murdock/Gray(\u8de8\u9879\u76ee,=EA078)",
    "var": "SCCS282",
    "n": 86,
    "rho": 0.6725232900368572,
@@ -17,7 +17,7 @@
    "hi": 0.8009373493494206
   },
   {
-   "name": "⚠Frayser 1985(码 7 含 rare,定义污染)",
+   "name": "\u26a0Frayser 1985(\u7801 7 \u542b rare,\u5b9a\u4e49\u6c61\u67d3)",
    "var": "SCCS961",
    "n": 35,
    "rho": 0.7215333984296709,
@@ -27,7 +27,9 @@
  ],
  "w3": 0.7063983013064996,
  "placebo": 0.0777874263600977,
- "verdict": "**W1 —— 构念稳健:跨项目仍 +0.6725**",
- "note": "SCCS282 = EA078;SCCS961 码7 含 rare,定义污染,单列不入主检验",
- "unchallenged": true
+ "verdict": "**W1 \u2014\u2014 \u6784\u5ff5\u7a33\u5065:\u8de8\u9879\u76ee\u4ecd +0.6725**",
+ "note": "SCCS282 = EA078;SCCS961 \u78017 \u542b rare,\u5b9a\u4e49\u6c61\u67d3,\u5355\u5217\u4e0d\u5165\u4e3b\u68c0\u9a8c",
+ "unchallenged": true,
+ "entry_backfilled": 665,
+ "entry_source": "ledger_address (`#910`; three routes compared, agreeing)"
 }

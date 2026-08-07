@@ -20,14 +20,14 @@
   "helpblk": 0.1045649755012837
  },
  "clumps": {
-  "sexeduc": "顶",
-  "racmar": "顶",
-  "homosex": "中",
-  "teensex": "中",
-  "suicide2": "中",
-  "spanking": "中",
-  "prayer": "底",
-  "helpblk": "底"
+  "sexeduc": "\u9876",
+  "racmar": "\u9876",
+  "homosex": "\u4e2d",
+  "teensex": "\u4e2d",
+  "suicide2": "\u4e2d",
+  "spanking": "\u4e2d",
+  "prayer": "\u5e95",
+  "helpblk": "\u5e95"
  },
  "within_sig": 0,
  "within_n": 8,
@@ -363,7 +363,9 @@
  "corr_sig_width": 0.32373338519311384,
  "pos_control": 21,
  "neg_control": 0,
- "verdict": "**预注册判 A(主格 16/28 ≥ 14),而我照它执行 —— 但把可分辨的对列出来之后,图样不是梯度,是三堆。**\n  **组内 0/8 可分辨 · 组间 16/20 可分辨** ——\n  顶 `sexeduc`+`racmar`(~1.8–2.2,虔诚者改得**更多**)· 中 `homosex`+`teensex`+`suicide2`+`spanking`(~0.36–0.46)· 底 `prayer`+`helpblk`(~0.11–0.13)。\n  ⚠ **分组读自同一批数据 ⇒ 这是描述,不是检验**;要检验它需要一批**留出的题**,而 `#790` 已经证明这具仪器上没有更多题。\n  ⚠ **预注册的判据数了一个计数,而问题问的是一个结构** —— 「判词测错问题」那一族的又一次。\n  ⇒ **而无论三堆还是梯度,MDE 都把解释这条路关上了:需要 |ρ| ≥ 0.90,8 个点给不了。**",
+ "verdict": "**\u9884\u6ce8\u518c\u5224 A(\u4e3b\u683c 16/28 \u2265 14),\u800c\u6211\u7167\u5b83\u6267\u884c \u2014\u2014 \u4f46\u628a\u53ef\u5206\u8fa8\u7684\u5bf9\u5217\u51fa\u6765\u4e4b\u540e,\u56fe\u6837\u4e0d\u662f\u68af\u5ea6,\u662f\u4e09\u5806\u3002**\n  **\u7ec4\u5185 0/8 \u53ef\u5206\u8fa8 \u00b7 \u7ec4\u95f4 16/20 \u53ef\u5206\u8fa8** \u2014\u2014\n  \u9876 `sexeduc`+`racmar`(~1.8\u20132.2,\u8654\u8bda\u8005\u6539\u5f97**\u66f4\u591a**)\u00b7 \u4e2d `homosex`+`teensex`+`suicide2`+`spanking`(~0.36\u20130.46)\u00b7 \u5e95 `prayer`+`helpblk`(~0.11\u20130.13)\u3002\n  \u26a0 **\u5206\u7ec4\u8bfb\u81ea\u540c\u4e00\u6279\u6570\u636e \u21d2 \u8fd9\u662f\u63cf\u8ff0,\u4e0d\u662f\u68c0\u9a8c**;\u8981\u68c0\u9a8c\u5b83\u9700\u8981\u4e00\u6279**\u7559\u51fa\u7684\u9898**,\u800c `#790` \u5df2\u7ecf\u8bc1\u660e\u8fd9\u5177\u4eea\u5668\u4e0a\u6ca1\u6709\u66f4\u591a\u9898\u3002\n  \u26a0 **\u9884\u6ce8\u518c\u7684\u5224\u636e\u6570\u4e86\u4e00\u4e2a\u8ba1\u6570,\u800c\u95ee\u9898\u95ee\u7684\u662f\u4e00\u4e2a\u7ed3\u6784** \u2014\u2014 \u300c\u5224\u8bcd\u6d4b\u9519\u95ee\u9898\u300d\u90a3\u4e00\u65cf\u7684\u53c8\u4e00\u6b21\u3002\n  \u21d2 **\u800c\u65e0\u8bba\u4e09\u5806\u8fd8\u662f\u68af\u5ea6,MDE \u90fd\u628a\u89e3\u91ca\u8fd9\u6761\u8def\u5173\u4e0a\u4e86:\u9700\u8981 |\u03c1| \u2265 0.90,8 \u4e2a\u70b9\u7ed9\u4e0d\u4e86\u3002**",
  "contaminated_reader": true,
- "gate_ok": true
+ "gate_ok": true,
+ "entry_backfilled": 791,
+ "entry_source": "script_header+ledger_address (`#910`; three routes compared, agreeing)"
 }
