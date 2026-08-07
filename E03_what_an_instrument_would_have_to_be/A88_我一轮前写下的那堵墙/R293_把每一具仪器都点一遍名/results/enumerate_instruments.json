@@ -1,0 +1,112 @@
+{
+ "instruments": {
+  "GSS": {
+   "n_files": 0,
+   "chars": 324152,
+   "attitude": 2,
+   "identity_behaviour": 5,
+   "religion": 272,
+   "fake": 0,
+   "readable_spans": [
+    [
+     1972,
+     2024
+    ]
+   ],
+   "has_nineties": true
+  },
+  "NSFG": {
+   "n_files": 4,
+   "chars": 1594091,
+   "attitude": 5,
+   "identity_behaviour": 13,
+   "religion": 61,
+   "fake": 0,
+   "readable_spans": [
+    [
+     2011,
+     2013
+    ],
+    [
+     2017,
+     2019
+    ]
+   ],
+   "has_nineties": false
+  },
+  "YRBS": {
+   "n_files": 2,
+   "chars": 40453,
+   "attitude": 0,
+   "identity_behaviour": 15,
+   "religion": 0,
+   "fake": 0,
+   "readable_spans": [
+    [
+     1991,
+     2023
+    ]
+   ],
+   "has_nineties": true
+  },
+  "BRFSS": {
+   "n_files": 3,
+   "chars": 0,
+   "attitude": 0,
+   "identity_behaviour": 0,
+   "religion": 0,
+   "fake": 0,
+   "readable_spans": [
+    [
+     2023,
+     2023
+    ]
+   ],
+   "has_nineties": false
+  },
+  "SCCS": {
+   "n_files": 1,
+   "chars": 14248,
+   "attitude": 0,
+   "identity_behaviour": 0,
+   "religion": 0,
+   "fake": 0,
+   "readable_spans": [],
+   "has_nineties": false
+  },
+  "OpenPsych": {
+   "n_files": 10,
+   "chars": 4046344,
+   "attitude": 0,
+   "identity_behaviour": 2,
+   "religion": 3,
+   "fake": 0,
+   "readable_spans": [],
+   "has_nineties": false
+  },
+  "Dataverse": {
+   "n_files": 7,
+   "chars": 87849,
+   "attitude": 0,
+   "identity_behaviour": 0,
+   "religion": 0,
+   "fake": 0,
+   "readable_spans": [],
+   "has_nineties": false
+  }
+ },
+ "three_axis_pass_excluding_incumbent": [],
+ "three_axis_pass_all": [
+  "GSS"
+ ],
+ "incumbent": "GSS",
+ "pos_control": {
+  "gss": true,
+  "nsfg": true
+ },
+ "neg_control": true,
+ "scope": "dictionaries/codebooks only; construct validity needs an external gold standard",
+ "admissible": true,
+ "verdict": "**B 墙立着,而理由比 `#853` 写的宽,也更精确。**\n  `#853` 说的是「NSFG 的字典只到 2011」——**那只是一具仪器的一个理由**;\n  点完名之后,真正的理由是:**盘上没有任何一具仪器同时具备这三轴。**\n  · **NSFG** 缺:九十年代\n  · **YRBS** 缺:态度·宗教\n  · **BRFSS** 缺:态度·宗教·九十年代\n  · **SCCS** 缺:态度·宗教·九十年代\n  · **OpenPsych** 缺:态度·九十年代\n  · **Dataverse** 缺:态度·宗教·九十年代\n  ⇒ **一句关于人的话,而这一轮它是关于「我们目前只能从一个地方知道这件事」的:\n  九十年代那条缝到底是不是真的张开了,现在只有一份问卷说过。\n  不是因为没人去查别的问卷 —— 是因为要查它,一份问卷得同时问「你怎么看同性关系」、\n  「你信不信教」,而且得在九十年代就开始问。盘上这几份,没有一份三样都占。**",
+ "gate_ok": false
+}
