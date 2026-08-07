@@ -1,0 +1,370 @@
+{
+ "targets": [
+  "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/rho_panel_controlling_age.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/is_the_advantage_only_in_large_samples.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/the_als_loading_as_a_person_variable.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+  "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py"
+ ],
+ "runnable": [
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+  "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py"
+ ],
+ "unreadable": [
+  "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/rho_panel_controlling_age.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/is_the_advantage_only_in_large_samples.py",
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/the_als_loading_as_a_person_variable.py"
+ ],
+ "determinism": {
+  "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/rho_panel_controlling_age.py": {
+   "runs": false,
+   "rc": 1,
+   "stderr_tail": "FileNotFoundError: [Errno 2] No such file or directory: '/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_"
+  },
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py": {
+   "runs": true,
+   "rc": 0,
+   "stderr_tail": "",
+   "deterministic": true
+  },
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py": {
+   "runs": true,
+   "rc": 0,
+   "stderr_tail": "",
+   "deterministic": true
+  },
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/is_the_advantage_only_in_large_samples.py": {
+   "runs": false,
+   "rc": 1,
+   "stderr_tail": "FileNotFoundError: [Errno 2] No such file or directory: '/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_"
+  },
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/the_als_loading_as_a_person_variable.py": {
+   "runs": false,
+   "rc": 1,
+   "stderr_tail": "FileNotFoundError: [Errno 2] No such file or directory: '/home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E01_sexual_"
+  },
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py": {
+   "runs": true,
+   "rc": 0,
+   "stderr_tail": "",
+   "deterministic": true
+  },
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py": {
+   "runs": true,
+   "rc": 0,
+   "stderr_tail": "",
+   "deterministic": true
+  },
+  "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py": {
+   "runs": true,
+   "rc": 0,
+   "stderr_tail": "",
+   "deterministic": true
+  }
+ },
+ "noop_identical": 5,
+ "rows": [
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+   "token": "biomale",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 9,
+   "verdict_before": [
+    "UNVERIFIED"
+   ],
+   "verdict_after": [
+    "UNVERIFIED"
+   ]
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+   "token": "biomale",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 9,
+   "verdict_before": [],
+   "verdict_after": []
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+   "token": "biomale",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 13,
+   "verdict_before": [
+    "OVERTURNED"
+   ],
+   "verdict_after": [
+    "OVERTURNED"
+   ]
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+   "token": "biomale",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 16,
+   "verdict_before": [
+    "UNVERIFIED"
+   ],
+   "verdict_after": [
+    "UNVERIFIED"
+   ]
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py",
+   "token": "biomale",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 0,
+   "verdict_before": [
+    "OVERTURNED"
+   ],
+   "verdict_after": [
+    "OVERTURNED"
+   ]
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+   "token": "animated",
+   "patchable": true,
+   "rc": 0,
+   "flip": true,
+   "n_lines_diff": 9
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+   "token": "written",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 9
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+   "token": "\"I am ashamed or embarrassed about at least some of what arouses me\" (7cw1ziu)",
+   "patchable": true,
+   "rc": 0,
+   "flip": true,
+   "n_lines_diff": 6
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+   "token": "\"Engaging with or fantasizing about what arouses me feels therapeutic or healing to me\" (vmq8jqw)",
+   "patchable": true,
+   "rc": 0,
+   "flip": true,
+   "n_lines_diff": 6
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py",
+   "token": "\"I can get aroused by a partner doing what I like, even if I know they aren't aroused by it themselves\" (aw1a1ss)",
+   "patchable": true,
+   "rc": 0,
+   "flip": true,
+   "n_lines_diff": 6
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+   "token": "animated",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 9
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+   "token": "written",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 9
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+   "token": "\"I am ashamed or embarrassed about at least some of what arouses me\" (7cw1ziu)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 14
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+   "token": "\"Engaging with or fantasizing about what arouses me feels therapeutic or healing to me\" (vmq8jqw)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 9
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/do_the_breadth_types_predict_different_things.py",
+   "token": "\"I can get aroused by a partner doing what I like, even if I know they aren't aroused by it themselves\" (aw1a1ss)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 9
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+   "token": "animated",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 8
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+   "token": "written",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 8
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+   "token": "\"I am ashamed or embarrassed about at least some of what arouses me\" (7cw1ziu)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 14
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+   "token": "\"Engaging with or fantasizing about what arouses me feels therapeutic or healing to me\" (vmq8jqw)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 8
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_宽度有形状_而它的第一个名字是_体液/two_levels_one_mechanism_or_two.py",
+   "token": "\"I can get aroused by a partner doing what I like, even if I know they aren't aroused by it themselves\" (aw1a1ss)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 8
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+   "token": "animated",
+   "patchable": true,
+   "rc": 0,
+   "flip": true,
+   "n_lines_diff": 16
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+   "token": "written",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 16
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+   "token": "\"I am ashamed or embarrassed about at least some of what arouses me\" (7cw1ziu)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 16
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+   "token": "\"Engaging with or fantasizing about what arouses me feels therapeutic or healing to me\" (vmq8jqw)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 16
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R009_一个计数的宽度_不来自分数有多强/how_wide_is_n_over_31.py",
+   "token": "\"I can get aroused by a partner doing what I like, even if I know they aren't aroused by it themselves\" (aw1a1ss)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 16
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py",
+   "token": "animated",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 0
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py",
+   "token": "written",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 0
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py",
+   "token": "\"I am ashamed or embarrassed about at least some of what arouses me\" (7cw1ziu)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 13
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py",
+   "token": "\"Engaging with or fantasizing about what arouses me feels therapeutic or healing to me\" (vmq8jqw)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 12
+  },
+  {
+   "script": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R013_那个东西现在可以拿在手里了_即使仍然叫不出名字/what_does_form_point_at.py",
+   "token": "\"I can get aroused by a partner doing what I like, even if I know they aren't aroused by it themselves\" (aw1a1ss)",
+   "patchable": true,
+   "rc": 0,
+   "flip": false,
+   "n_lines_diff": 14
+  }
+ ],
+ "n_errors": 0,
+ "biomale_flips": 0,
+ "biomale_n": 5,
+ "biomale_rate": 0.0,
+ "yardstick_items": [
+  "animated",
+  "written",
+  "\"I am ashamed or embarrassed about at least some of what arouses me\" (7cw1ziu)",
+  "\"Engaging with or fantasizing about what arouses me feels therapeutic or healing to me\" (vmq8jqw)",
+  "\"I can get aroused by a partner doing what I like, even if I know they aren't aroused by it themselves\" (aw1a1ss)"
+ ],
+ "yardstick_rate": 0.2,
+ "fragile_scripts": {
+  "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/align_the_block_signs_and_see_who_it_hurts.py": [
+   4,
+   5
+  ]
+ },
+ "multiplicity": {
+  "cells": 30,
+  "bh": 5,
+  "by": 5,
+  "q": 0.05
+ },
+ "stamp_note": "these scripts print a sha1 of their own source, so ANY edit changes the output by construction; the stamp is stripped before comparison",
+ "why_not_grep": "the instrument's unit (a line containing a token) is not the claim's unit (this round's verdict depends on the leading components); it errs in both directions, so the only same-unit object is the script's output",
+ "admissible": true,
+ "verdict": "**A — not one runnable script flipped its verdict when the missing line was restored: `biomale` flips 0/5.**\n  Across those 5 scripts the gate PASS/FAIL sequence and the three-valued verdict are unchanged, one for one.\n  Numbers did drift (per-script line diffs [9, 9, 13, 16, 0]), **but the drift crossed no criterion.**\n  **And the instrument is not blind**: the same operation with a real item dropped flips **5/25** cells (rate 0.20), so **these gates CAN be moved by one column entering or leaving — `biomale` simply did not move them.**\n  **And the yardstick incidentally measured something worth more than the answer it was built to calibrate**: **`align_the_block_signs_and_see_who_it_hurts.py` (4/5)** — that script's verdict flips when *any* single real item is dropped. **That is its own fragility, nothing to do with `biomale`, and nobody had measured it before this round.**\n  **And 3 of the 8 scripts do not run at all** (`FileNotFoundError`), so **their 'did it flip' is structurally unanswerable and is registered `UNREADABLE` — which is not the same as 'did not flip'.**\n  => **One sentence about people: those rounds counted \"is this person male\" as a twentieth sexual interest, and doing so changed the numbers they computed without changing a single conclusion they drew — the questions they asked were coarse enough that a sex column entering or leaving does not move the answer.\n  That is not an acquittal but a statement of scale: the same error under a finer question flips outright, and one script in this very set already flips when any single item is dropped.**\n  **`#870`'s contamination still stands** — the leading two components really do correlate 0.56 / 0.47 with sex. **This round says only that these particular verdicts did not rest on that detail.**",
+ "gate_ok": true,
+ "population": "the 5 of `#869`'s 8 scripts that still run, each executed as-committed / with the missing line restored / with one real item dropped"
+}

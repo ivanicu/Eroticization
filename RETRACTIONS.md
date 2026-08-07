@@ -41747,3 +41747,96 @@ lik=[c for c in lik if c!='biomale']              # ⚠ 剔除:它是协变量
    已经有家(`lib/gss_polarity.py` 的 `VALID_CODES`)⇒ 接上去,不要再造一个。
 ③ ⚠ `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
    `#857`① · `#861`① 仍 `OPEN`。
+
+## Entry 871 · `E03·A99·R310` — the missing line changed every number and not one conclusion
+
+**⚠ LANGUAGE SWITCH.** Ivan, this session: **everything in English from here on.**
+This entry is the first written that way. The back-catalogue (entries `#1`–`#870`, `README_zh.md`,
+~860 round scripts) is **still Chinese** — converting it is a separate, mechanical job,
+**registered as `#871`②, not silently claimed as done.**
+
+**Pays `#870`① (the previous entry's NEXT).** `#869` found 8 scripts missing `if c!='biomale'`;
+`#870` measured that column's correlation with the two leading components at **0.5606 / 0.4682**
+(placebo 95th pct 0.0158 — **35x**) and honestly left **"did any verdict actually flip"** at
+`UNASSESSED`. This round answers it.
+
+**⚠⚠ And `#870`'s own NEXT prescribed the wrong method — that is the first thing to record.**
+It said *"grep those 8 files for `PC1`/`PC2`/`comp`/`loading`"*. **That is the failure `realstat`
+names: the instrument's unit is not the claim's unit.** A file can write `loading` in a docstring
+and never use it (**false positive**); a file can take a *count* or *mean* over the 20 columns —
+which eats `biomale` too — with no such token anywhere (**false negative**).
+⇒ **The only object whose unit equals the claim's is the script's own output.**
+**So this round did not grep. It put the line back, ran each script twice, and diffed.**
+
+| script | lines differing | verdict |
+|---|---|---|
+| `align_the_block_signs_and_see_who_it_hurts.py` | 9 | **unchanged** |
+| `do_the_breadth_types_predict_different_things.py` | 9 | **unchanged** |
+| `two_levels_one_mechanism_or_two.py` | 13 | **unchanged** |
+| `how_wide_is_n_over_31.py` | 16 | **unchanged** |
+| `what_does_form_point_at.py` | 0 | **unchanged** |
+
+⇒ **`biomale` flips 0/5. All five controls pass, the kill fires, verdict A.**
+
+**⚠ The kind of null**: not zero. **Restoring one column moves numbers whenever the output depends
+on the item set**, so the null is **the same operation with a real item dropped instead**:
+**5/25 cells flip, rate 0.20.** ⇒ **the instrument is not blind — these gates CAN be moved by a
+single column, `biomale` simply did not move them.**
+
+**Controls**: (2) negative — an unmodified script run twice is **byte-identical, 5/5**
+(⚠ **"should this zero be zero?" YES** — these scripts print a `sha1` of their own source, so
+determinism is a property *they* assert); (3) positive — a real-item injection changes the output in
+**23/25** cells while a **no-op injection dropping a non-existent column is byte-identical 5/5**
+(`G2`: a control that can fail); (4) numeric drift is explicitly **not** a criterion.
+Multiplicity over **30** cells: BH **5**, BY **5** — exactly the five real-item flips.
+
+**⚠⚠ FOUR INSTRUMENT DEFECTS OF MINE, every one caught by a control, every one fixed:**
+① **These scripts print a `sha1` of their own source** ⇒ **any edit changes the output by
+   construction.** The first version compared raw bytes and the no-op control died **0/5** —
+   **and what died was the control, not the scripts.** Stamp now stripped before comparison.
+② **stderr was discarded** ⇒ a crash read as *"the verdict changed"*
+   (`['UNVERIFIED'] → []` was really *"the second run never reached a verdict"*).
+③ **the patched copy was written to `/tmp`** ⇒ `__file__`'s parent changed, so the diff also
+   contained "it moved". The patched copy now sits beside the original.
+④ **the negative control's population was all 8 while the kill's was the runnable 5.**
+   A script raising `FileNotFoundError` has **no output to be deterministic about**, so demanding
+   determinism of it is a control failing for its own reasons — **`#867`'s defect class, which is
+   exactly what the gate's own control-population check exists to catch.** Not-running is now a
+   **scope fact**, registered separately.
+
+**⚠⚠ TWO THINGS THE ROUND FOUND THAT IT WAS NOT LOOKING FOR:**
+① **3 of the 8 scripts do not run at all** (`FileNotFoundError`) ⇒ **their "did it flip" is
+   structurally unanswerable**, registered `UNREADABLE` — **which is not the same as "did not flip".**
+② **`align_the_block_signs_and_see_who_it_hurts.py` flips on 4 of 5 real items.**
+   **That script's verdict changes when *any* single item is dropped.** That is its own fragility,
+   nothing to do with `biomale`, and **nobody had measured it before this round.** ⇒ `#871`①
+
+**⇒ One sentence about people:**
+**those rounds counted "is this person male" as a twentieth sexual interest, and doing so changed
+every number they computed without changing a single conclusion they drew — the questions they were
+asking were coarse enough that a sex column entering or leaving does not move the answer.**
+**That is not an acquittal, it is a statement of scale: the same error under a finer question flips
+outright, and one script in this very set already flips when any single item is dropped.**
+
+⚠ **`#870`'s contamination still stands** — the leading two components really do correlate
+0.56 / 0.47 with sex. **This round says only that these particular verdicts did not rest on it.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① it judges **whether a verdict flipped**, never **whether a verdict was right** — an unflipped
+   verdict can still be wrong, and that is untouched here;
+② **the instrument cannot be changed** — these scripts exist only in this repository ⇒
+   **only this one instrument**; structural, not an omission;
+③ the injection is **textual**; a differently-written script is recorded `NOT-PATCHABLE`;
+④ **this round did not edit the 8 scripts** — patches touched a temporary copy beside each original.
+
+**NEXT**
+① ⚠ **The fragile script is now the live question, and it is bigger than `biomale` was**:
+   `align_the_block_signs_and_see_who_it_hurts.py` flips on 4/5 items. **Its conclusion is
+   knife-edge with respect to which items exist at all.** ⇒ measure how many OTHER committed rounds
+   have that property — **and the yardstick already exists**, this round built it. ⇒ `#871`①
+② ⚠ **The back-catalogue is still Chinese.** ~860 scripts, 871 ledger entries, `README_zh.md`.
+   **Converting it is mechanical but not free, and it must not be claimed as done until it is.**
+   ⇒ `#871`②
+③ ⚠ Still `OPEN`: `#869`② (18 copy-only tokens; the `value_whitelist` family already has a home in
+   `lib/gss_polarity.py`'s `VALID_CODES`) · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
+   `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

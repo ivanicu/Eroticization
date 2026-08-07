@@ -148,8 +148,12 @@ import re as _re_en
 _EFFECT_EN = _re_en.compile(r'\*\*[-+]\d*\.\d{3,4}\*\*')
 _NULLS_EN  = _re_en.compile(r'零\s*(?:的)?\s*95%|打乱[^。\n]{0,20}零|置换零|'
                             r'自助[^。\n]{0,10}区间|95%\s*(?:自助)?区间|零的种类|null_kind|'
-                            r'经验\s*p|p\s*=\s*\*{0,2}\d')
-_OPTOUT_EN = _re_en.compile(r'本轮不报效应|没有效应|不检验任何声明|无零可报|结构性拿不到零')
+                            r'经验\s*p|p\s*=\s*\*{0,2}\d|'
+                            # `#871`: English equivalents — see the note above CROSS_OPTOUT
+                            r'kind of null|permutation null|95th\s*(?:pct|percentile)|'
+                            r'bootstrap[^.\n]{0,12}interval|empirical\s*p')
+_OPTOUT_EN = _re_en.compile(r'本轮不报效应|没有效应|不检验任何声明|无零可报|结构性拿不到零|'
+                            r'reports no effect|no effect is claimed|no null to report')
 
 def effect_without_null(cutoff=693):
     """#693/#136:一条带了效应的结论,却没报它自己的零。
@@ -192,8 +196,18 @@ INSTRUMENTS = {
     "MFQ": r'\bMFQ\b|GrahamHaidtNosek|decency|chastity|harmlessdg',
     "MSSCQ": r'\bMSSCQ\b|Open ?Psychometrics|openpsych',
 }
+# ⚠⚠ `#871`: Ivan switched this project to ENGLISH mid-session, and the FIRST thing that happened
+# is that these gates stopped recognising their own opt-out language — every vocabulary here was
+# Chinese-only, so an honestly-registered English opt-out read as "no opt-out at all".
+# A gate whose vocabulary is one language silently becomes stricter the moment the project changes
+# language, and it becomes stricter **in the direction of flagging honest work**.
+# => every opt-out vocabulary now accepts BOTH. Chinese alternatives are kept verbatim so that
+# every earlier round still passes byte-for-byte (`L81`: annotate, never rewrite).
 CROSS_OPTOUT = _re_ci.compile(r'换不了仪器|没有第二具仪器|结构性(地)?拿不到|唯一(一)?具仪器|'
-                          r'第二具仪器.{0,8}(不存在|没有)|只此一具')
+                          r'第二具仪器.{0,8}(不存在|没有)|只此一具|'
+                          r'only this one instrument|no second instrument|'
+                          r'cannot be changed[^.\n]{0,40}instrument|'
+                          r'instrument cannot be changed|structurally unavailable')
 
 def cross_instrument(cutoff=101):
     """#658 —— Ivan 定的闭合条件:**一个 R 不闭合,直到同一个问题在 >=2 具仪器上被问过**,
