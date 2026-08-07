@@ -1,0 +1,424 @@
+{
+ "items": [
+  "homosex",
+  "teensex",
+  "sexeduc",
+  "suicide2",
+  "spanking",
+  "prayer",
+  "racmar",
+  "helpblk"
+ ],
+ "B": 1200,
+ "thr": 0.85,
+ "rows": [
+  {
+   "item": "homosex",
+   "decade": 1970,
+   "n_years": 3,
+   "h_end_within": 0.1801508130726446,
+   "h_fit_within": 0.19362710936629318,
+   "ratio_within": 1.0748056368095011,
+   "h_end_cluster": 0.08616516669858298,
+   "h_fit_cluster": 0.0,
+   "ratio_cluster": 0.0
+  },
+  {
+   "item": "homosex",
+   "decade": 1980,
+   "n_years": 7,
+   "h_end_within": 0.21964179425738517,
+   "h_fit_within": 0.17050972687455668,
+   "ratio_within": 0.7763082042334186,
+   "h_end_cluster": 0.10027526607205772,
+   "h_fit_cluster": 0.13391190466435393,
+   "ratio_cluster": 1.3354430250838223
+  },
+  {
+   "item": "homosex",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.22729354302767235,
+   "h_fit_within": 0.18429656440901734,
+   "ratio_within": 0.8108306199731321,
+   "h_end_cluster": 0.17995841736448437,
+   "h_fit_cluster": 0.21220380483691315,
+   "ratio_cluster": 1.1791824352795879
+  },
+  {
+   "item": "homosex",
+   "decade": 2000,
+   "n_years": 5,
+   "h_end_within": 0.23402329657959425,
+   "h_fit_within": 0.21078727962362404,
+   "ratio_within": 0.9007106672900518,
+   "h_end_cluster": 0.25051474718901623,
+   "h_fit_cluster": 0.25051474718901623,
+   "ratio_cluster": 1.0
+  },
+  {
+   "item": "homosex",
+   "decade": 2010,
+   "n_years": 5,
+   "h_end_within": 0.22106041519390973,
+   "h_fit_within": 0.19910566082263803,
+   "ratio_within": 0.90068437014373,
+   "h_end_cluster": 0.16050816235728627,
+   "h_fit_cluster": 0.1579863718416235,
+   "ratio_cluster": 0.984288708570164
+  },
+  {
+   "item": "teensex",
+   "decade": 1980,
+   "n_years": 3,
+   "h_end_within": 0.16626485554701514,
+   "h_fit_within": 0.16140426544447944,
+   "ratio_within": 0.9707659800590795,
+   "h_end_cluster": 0.02118412153849414,
+   "h_fit_cluster": 0.0,
+   "ratio_cluster": 0.0
+  },
+  {
+   "item": "teensex",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.1563388710018334,
+   "h_fit_within": 0.13292304733499333,
+   "ratio_within": 0.8502239173355327,
+   "h_end_cluster": 0.0851469242356031,
+   "h_fit_cluster": 0.09116515470491637,
+   "ratio_cluster": 1.070680538649414
+  },
+  {
+   "item": "teensex",
+   "decade": 2000,
+   "n_years": 5,
+   "h_end_within": 0.13860085798686195,
+   "h_fit_within": 0.12733791753580503,
+   "ratio_within": 0.9187383064243041,
+   "h_end_cluster": 0.09453625654750031,
+   "h_fit_cluster": 0.09453625654750031,
+   "ratio_cluster": 1.0
+  },
+  {
+   "item": "teensex",
+   "decade": 2010,
+   "n_years": 5,
+   "h_end_within": 0.160685073316654,
+   "h_fit_within": 0.14872134214369392,
+   "ratio_within": 0.9255454727310997,
+   "h_end_cluster": 0.110205134634906,
+   "h_fit_cluster": 0.11923881836753147,
+   "ratio_cluster": 1.0819715321119365
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1970,
+   "n_years": 3,
+   "h_end_within": 0.07719533469520906,
+   "h_fit_within": 0.07315856522025214,
+   "ratio_within": 0.9477070798268402,
+   "h_end_cluster": 0.010916754198527223,
+   "h_fit_cluster": 0.0,
+   "ratio_cluster": 0.0
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1980,
+   "n_years": 6,
+   "h_end_within": 0.06917295802541959,
+   "h_fit_within": 0.0567768256552258,
+   "ratio_within": 0.8207951094756064,
+   "h_end_cluster": 0.041506226602128986,
+   "h_fit_cluster": 0.050401819262755165,
+   "ratio_cluster": 1.2143194741814929
+  },
+  {
+   "item": "sexeduc",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.06494958162261077,
+   "h_fit_within": 0.056231364180814154,
+   "ratio_within": 0.8657694595716755,
+   "h_end_cluster": 0.02552109049739837,
+   "h_fit_cluster": 0.02846583024981775,
+   "ratio_cluster": 1.1153845582233084
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2000,
+   "n_years": 5,
+   "h_end_within": 0.05741491811397471,
+   "h_fit_within": 0.05178679161380716,
+   "ratio_within": 0.9019744922566096,
+   "h_end_cluster": 0.03816460915184117,
+   "h_fit_cluster": 0.03816460915184117,
+   "ratio_cluster": 1.0
+  },
+  {
+   "item": "sexeduc",
+   "decade": 2010,
+   "n_years": 5,
+   "h_end_within": 0.05817979107408788,
+   "h_fit_within": 0.048344220226909054,
+   "ratio_within": 0.8309452360416022,
+   "h_end_cluster": 0.05072747705025915,
+   "h_fit_cluster": 0.04547710166825632,
+   "ratio_cluster": 0.8964983932317208
+  },
+  {
+   "item": "suicide2",
+   "decade": 1980,
+   "n_years": 6,
+   "h_end_within": 0.05065566144047272,
+   "h_fit_within": 0.03936142054077814,
+   "ratio_within": 0.7770389216422167,
+   "h_end_cluster": 0.015990203876055098,
+   "h_fit_cluster": 0.015349299037738599,
+   "ratio_cluster": 0.9599189076459346
+  },
+  {
+   "item": "suicide2",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.05542567631227289,
+   "h_fit_within": 0.046481582852840694,
+   "ratio_within": 0.8386290604910182,
+   "h_end_cluster": 0.04135599652329647,
+   "h_fit_cluster": 0.037995302686723985,
+   "ratio_cluster": 0.9187374475505783
+  },
+  {
+   "item": "suicide2",
+   "decade": 2000,
+   "n_years": 5,
+   "h_end_within": 0.04606638114852532,
+   "h_fit_within": 0.046931462353021154,
+   "ratio_within": 1.0187790137390362,
+   "h_end_cluster": 0.023155751195221286,
+   "h_fit_cluster": 0.023155751195221286,
+   "ratio_cluster": 1.0
+  },
+  {
+   "item": "suicide2",
+   "decade": 2010,
+   "n_years": 5,
+   "h_end_within": 0.057667815701967565,
+   "h_fit_within": 0.05200062481662491,
+   "ratio_within": 0.9017269716850174,
+   "h_end_cluster": 0.026420387028750714,
+   "h_fit_cluster": 0.026842022059827962,
+   "ratio_cluster": 1.0159587000227674
+  },
+  {
+   "item": "spanking",
+   "decade": 1980,
+   "n_years": 3,
+   "h_end_within": 0.16578739789237595,
+   "h_fit_within": 0.15585806057011428,
+   "ratio_within": 0.940108009121975,
+   "h_end_cluster": 0.055290385587889124,
+   "h_fit_cluster": 0.0,
+   "ratio_cluster": 0.0
+  },
+  {
+   "item": "spanking",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.1558328114619421,
+   "h_fit_within": 0.13212997069599947,
+   "ratio_within": 0.8478956996053978,
+   "h_end_cluster": 0.06254352824846776,
+   "h_fit_cluster": 0.05714681422136822,
+   "ratio_cluster": 0.9137126705474639
+  },
+  {
+   "item": "spanking",
+   "decade": 2000,
+   "n_years": 5,
+   "h_end_within": 0.15044380454788275,
+   "h_fit_within": 0.14644004477045058,
+   "ratio_within": 0.9733870079298754,
+   "h_end_cluster": 0.09062672110201409,
+   "h_fit_cluster": 0.09442256225169773,
+   "ratio_cluster": 1.0418843482752824
+  },
+  {
+   "item": "spanking",
+   "decade": 2010,
+   "n_years": 5,
+   "h_end_within": 0.15547121892027763,
+   "h_fit_within": 0.14079439283133915,
+   "ratio_within": 0.9055977936568154,
+   "h_end_cluster": 0.08094119527507082,
+   "h_fit_cluster": 0.08596969982337037,
+   "ratio_cluster": 1.0621254051315978
+  },
+  {
+   "item": "prayer",
+   "decade": 1970,
+   "n_years": 3,
+   "h_end_within": 0.09841716904979751,
+   "h_fit_within": 0.0921188861415903,
+   "ratio_within": 0.936004226000238,
+   "h_end_cluster": 0.04686482188072516,
+   "h_fit_cluster": 0.0,
+   "ratio_cluster": 0.0
+  },
+  {
+   "item": "prayer",
+   "decade": 1980,
+   "n_years": 6,
+   "h_end_within": 0.09212199974632938,
+   "h_fit_within": 0.0783722643449313,
+   "ratio_within": 0.850744279984587,
+   "h_end_cluster": 0.0591297180929915,
+   "h_fit_cluster": 0.05112197109919376,
+   "ratio_cluster": 0.864573225578309
+  },
+  {
+   "item": "prayer",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.09566840511239855,
+   "h_fit_within": 0.08033332955682557,
+   "ratio_within": 0.8397059558215049,
+   "h_end_cluster": 0.02593415863676929,
+   "h_fit_cluster": 0.025997539429565245,
+   "ratio_cluster": 1.0024439116642903
+  },
+  {
+   "item": "prayer",
+   "decade": 2000,
+   "n_years": 5,
+   "h_end_within": 0.08557442193348862,
+   "h_fit_within": 0.0759966343942089,
+   "ratio_within": 0.8880765148875454,
+   "h_end_cluster": 0.040416437166905794,
+   "h_fit_cluster": 0.040416437166905794,
+   "ratio_cluster": 1.0
+  },
+  {
+   "item": "prayer",
+   "decade": 2010,
+   "n_years": 5,
+   "h_end_within": 0.08782867039162562,
+   "h_fit_within": 0.07570689689616453,
+   "ratio_within": 0.8619838665277473,
+   "h_end_cluster": 0.030624060874828496,
+   "h_fit_cluster": 0.02984406993329159,
+   "ratio_cluster": 0.9745301269898526
+  },
+  {
+   "item": "racmar",
+   "decade": 1970,
+   "n_years": 4,
+   "h_end_within": 0.0896149817819387,
+   "h_fit_within": 0.08238179924744482,
+   "ratio_within": 0.9192860123311247,
+   "h_end_cluster": 0.04105348544691534,
+   "h_fit_cluster": 0.023237308454476024,
+   "ratio_cluster": 0.5660252278585038
+  },
+  {
+   "item": "racmar",
+   "decade": 1980,
+   "n_years": 7,
+   "h_end_within": 0.08594806492086314,
+   "h_fit_within": 0.06778663060352132,
+   "ratio_within": 0.7886929236386648,
+   "h_end_cluster": 0.047268798752097684,
+   "h_fit_cluster": 0.045507511536653514,
+   "ratio_cluster": 0.9627389046909933
+  },
+  {
+   "item": "racmar",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.07599546689442321,
+   "h_fit_within": 0.06360208025827217,
+   "ratio_within": 0.8369193960822878,
+   "h_end_cluster": 0.03570231943094171,
+   "h_fit_cluster": 0.03367163861469845,
+   "ratio_cluster": 0.9431218797935197
+  },
+  {
+   "item": "helpblk",
+   "decade": 1980,
+   "n_years": 6,
+   "h_end_within": 0.25362294938162055,
+   "h_fit_within": 0.2048625552683852,
+   "ratio_within": 0.8077445505932245,
+   "h_end_cluster": 0.1383127981339234,
+   "h_fit_cluster": 0.18362737068572021,
+   "ratio_cluster": 1.327623858118468
+  },
+  {
+   "item": "helpblk",
+   "decade": 1990,
+   "n_years": 6,
+   "h_end_within": 0.22633121700495729,
+   "h_fit_within": 0.19623844669776594,
+   "ratio_within": 0.8670410087242528,
+   "h_end_cluster": 0.18484589250723338,
+   "h_fit_cluster": 0.142470761045915,
+   "ratio_cluster": 0.7707542705626518
+  },
+  {
+   "item": "helpblk",
+   "decade": 2000,
+   "n_years": 5,
+   "h_end_within": 0.22547405363855832,
+   "h_fit_within": 0.2121190071072489,
+   "ratio_within": 0.9407690316655327,
+   "h_end_cluster": 0.11366079135985774,
+   "h_fit_cluster": 0.11366079135985774,
+   "ratio_cluster": 1.0
+  },
+  {
+   "item": "helpblk",
+   "decade": 2010,
+   "n_years": 5,
+   "h_end_within": 0.24131240717572763,
+   "h_fit_within": 0.21610274955094444,
+   "ratio_within": 0.8955310341485048,
+   "h_end_cluster": 0.1611666361411055,
+   "h_fit_cluster": 0.1761189378382941,
+   "ratio_cluster": 1.09277541589996
+  }
+ ],
+ "main_n": 29,
+ "thin": [
+  "homosex/1970",
+  "teensex/1980",
+  "sexeduc/1970",
+  "spanking/1980",
+  "prayer/1970"
+ ],
+ "median_within": 0.8657694595716755,
+ "median_cluster": 1.0,
+ "homosex_within": 0.855757495058431,
+ "homosex_cluster": 1.089591217639794,
+ "pos_control": {
+  "endpoint": [
+   0.22032446592475768,
+   0.11104688411940054,
+   0.5040152197955348
+  ],
+  "fitted": [
+   0.1779665001375292,
+   0.08193676569608412,
+   0.4604055574097648
+  ]
+ },
+ "neg_control": {
+  "median": 1.0091217784690572,
+  "lo": 0.997011664088649,
+  "hi": 1.0388116038203803,
+  "half_width": 0.02089996986586562,
+  "reference": 1.0
+ },
+ "admissible": true,
+ "verdict": "**C 改动没用。** `homosex` `within` 0.856 · `cluster` 1.090,都不低于 0.85。\n  ⇒ **两条线索另找出路 —— 而我省下了在一个没用的改动上重跑两轮的代价。**",
+ "gate_ok": false
+}
