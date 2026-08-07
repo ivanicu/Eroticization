@@ -1,0 +1,88 @@
+=== (0) HARD RULE 1 — every source's label count, printed before anything is cited ===
+  SEARCHABLE   GSS                          labels: 6941
+  SEARCHABLE   SCCS                         labels: 1781
+  SEARCHABLE   NSFG:2011_2013_FemRespSetup  labels: 3094
+  SEARCHABLE   NSFG:2017_2019_FemRespSetup  labels: 2609
+  SEARCHABLE   NSFG:2017_2019_MaleSetup     labels: 3009
+  SEARCHABLE   YRBS                         labels: 269
+  SEARCHABLE   openpsych:EQSQ               labels: 122
+  SEARCHABLE   openpsych:HEXACO             labels: 4
+  SEARCHABLE   openpsych:MIES_Dev_Data      labels: 9
+  SEARCHABLE   openpsych:MSSCQ              labels: 103
+  SEARCHABLE   openpsych:RWAS               labels: 42
+  SEARCHABLE   openpsych:SCS                labels: 13
+  SEARCHABLE   openpsych:SD3                labels: 29
+  UNSEARCHABLE openpsych:ECR-data-1March2018 codebook did not parse
+  UNSEARCHABLE MFQ                          only 5 of 234 columns carry a label — the item text lives in the paper, not the file
+  ⇒ **13 sources searched · 2 registered UNSEARCHABLE** (never 'contains nothing')
+
+=== (1) POSITIVE CONTROL — the two pairs whose answer is already known ===
+  GSS × homosexual recovered : **True**
+  SCCS × premarital/extramarital recovered : **True**
+  => positive control **PASS**
+
+=== (2) NEGATIVE CONTROL — an act nobody surveys ===
+  kite-flying matched pairs: 0 -> **PASS**
+
+=== (3) THE WHOLE GRID — every source × act, including the empties ===
+  source                         act             norm  sanc  matched
+  GSS                            premarital         1     0  
+  GSS                            extramarital       1     0  
+  GSS                            homosexual         1     2  **YES**
+  GSS                            abortion           2     0  
+  SCCS                           premarital         4     1  **YES**
+  SCCS                           extramarital       3     4  **YES**
+  SCCS                           homosexual         2     0  
+  matched (source, act) cells: **3** -> [('GSS', 'homosexual'), ('SCCS', 'extramarital'), ('SCCS', 'premarital')]
+
+=== (4) MATCHED PAIRS BEYOND THE TWO ALREADY KNOWN: **0** ===
+
+=== (5) SPECIFICATION CURVE FIRST — because the pre-registered cell is one cell ===
+  norm=narrow sanction=narrow  matched   1  **new   0**  []
+  norm=narrow sanction=medium  matched   1  **new   0**  []
+  norm=narrow sanction=wide    matched   2  **new   1**  ['GSS×abortion']
+  norm=medium sanction=narrow  matched   2  **new   0**  []
+  norm=medium sanction=medium  matched   3  **new   0**  []
+  norm=medium sanction=wide    matched   4  **new   1**  ['GSS×abortion']
+  norm=wide   sanction=narrow  matched   2  **new   0**  []
+  norm=wide   sanction=medium  matched   3  **new   0**  []
+  norm=wide   sanction=wide    matched   4  **new   1**  ['GSS×abortion']
+  ⚠ an availability count MOVES with the width of the word list. **Union over all nine widths: 1 new cell(s)** ['GSS×abortion']
+  ⚠⚠ **The pre-registered cell (medium/medium) returns 0 and the curve does not.** The first version of this round adjudicated only the pre-registered cell and then wrote a verdict saying `at every one of the nine widths` — a sentence its own curve on the same page contradicted. **The union is adjudicated, not the cell.**
+
+=== (6) THE ADJUDICATION — every candidate at ANY width, READ in full ===
+  --- GSS × abortion ---
+      norm     abfirm         How firm is R's opinion on abortion
+      norm     abdefctw       Wrong for woman to get abortion for birth defects
+      norm     abpoorw        Wrong for woman to get abortion if low income?
+      sanction abdefct1       Law should allow abortion for birth defects
+      sanction abpoor1        Law should allow abortion if family low income
+      => norm-item True · sanction-item True ⇒ **REAL PAIR**
+  junk rate: **0%** (0/1)
+
+=== (7) HARD RULE 1 ON THE SURVIVORS — a codebook entry is not an estimable pair ===
+  abdefctw  × abdefect   **paired n= 2216**  years [1991, 1998, 2008]
+  abpoorw   × abpoor     **paired n= 2942**  years [1991, 1998, 2008, 2018]
+  abdefctw  × abdefct1   **paired n= 1207**  years [1991]
+  abpoorw   × abpoor1    **paired n= 1166**  years [1991]
+  ⇒ the long-running legality items pair with the scarce wrongness items on **4 waves**; the 1991-only ballot variants (`abdefct1`/`abpoor1`) pair on **one**.
+
+  CONDITIONAL KILL -- #882 · is there ANY instrument here that asks both questions about the SAME act
+   PASS  (1) HARD RULE 1: every source's label count printed before anything is cited, and a source whose labels are absent is registered UNSEARCHABLE, never 'contains nothing'                                                                                                                            GSS:6941 · SCCS:1781 · NSFG:2011_2013_FemRespSetup:3094 · NSFG:2017_2019_FemRespSetup:2609 · NSFG:2017_2019_MaleSetup:3009 · YRBS:269 · openpsych:EQSQ:122 · openpsych:HEXACO:4 · openpsych:MIES_Dev_Data:9 · openpsych:MSSCQ:103 · openpsych:RWAS:42 · openpsych:SCS:13 · openpsych:SD3:29 || unsearchable: openpsych:ECR-data-1March2018 · MFQ · 总体:every variable label available on this machine: 13 searchable sources (18025 labels), 2 registered unsearchable   (asserted in code, not in prose)
+   PASS  (2) POSITIVE CONTROL: the lexicon must recover the two matched pairs whose answer is already known (GSS homosex↔spk/col/lib; SCCS 961↔962 / 963↔964). Without this, every zero it returns is silence rather than an acquittal                                                                      GSS×homosexual True · SCCS×premarital-or-extramarital True · 总体:every variable label available on this machine: 13 searchable sources (18025 labels), 2 registered unsearchable   (asserted in code, not in prose)
+   PASS  (3) NEGATIVE CONTROL: an act nobody surveys (kite-flying) must return no matched pair anywhere — and here the zero SHOULD be zero, so this is a negative control and not an offset control                                                                                                         kite-flying matched cells 0 · 总体:every variable label available on this machine: 13 searchable sources (18025 labels), 2 registered unsearchable   (asserted in code, not in prose)
+   PASS  (4) UNIT MISMATCH, registered rather than hidden: the instrument's unit is A VARIABLE LABEL and the claim's unit is A SURVEY ITEM. They are not equal, so a null is a BOUND — the search can miss a real pair and cannot invent one                                                                labels can be truncated, generic or absent; the miss direction is one-way · 总体:every variable label available on this machine: 13 searchable sources (18025 labels), 2 registered unsearchable   (asserted in code, not in prose)
+   PASS  (5) SPECIFICATION FIRST, ADJUDICATION OVER THE UNION: the count is reported at all nine widths and every candidate appearing at ANY width is read — the first version adjudicated only the pre-registered cell and then wrote `at every one of the nine widths`, which its own curve contradicted  norm=narrow,sanction=narrow:0 · norm=narrow,sanction=medium:0 · norm=narrow,sanction=wide:1 · norm=medium,sanction=narrow:0 · norm=medium,sanction=medium:0 · norm=medium,sanction=wide:1 · norm=wide,sanction=narrow:0 · norm=wide,sanction=medium:0 · norm=wide,sanction=wide:1 || union ['GSS×abortion'] · 总体:every variable label available on this machine: 13 searchable sources (18025 labels), 2 registered unsearchable   (asserted in code, not in prose)
+   PASS  (6) KILL (pre-registered): for the cross-instrument comparison to be a REPLICATION rather than an analogy, **at least one matched norm–sanction pair on the same act must exist outside GSS-homosexuality and SCCS**                                                                               union over widths 1 · adjudicated real 1 · junk 0 (rate 0%) · widths [0, 0, 1, 0, 0, 1, 0, 0, 1] · usable {'abdefctw×abdefect': {'n': 2216, 'years': [1991, 1998, 2008]}, 'abpoorw×abpoor': {'n': 2942, 'years': [1991, 1998, 2008, 2018]}, 'abdefctw×abdefct1': {'n': 1207, 'years': [1991]}, 'abpoorw×abpoor1': {'n': 1166, 'years': [1991]}}   尺:the count of (instrument, act) cells carrying both a norm and a sanction label; the floor is the negative control's zero on an act nobody surveys,其自身噪声 1 · 总体:every variable label available on this machine: 13 searchable sources (18025 labels), 2 registered unsearchable  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填) · 控制总体:5/5 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => ALL GATES PASS
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**A — A MATCHED PAIR EXISTS, and the specification curve found what the pre-registered cell missed.** 1 cell(s) outside the two already known: ['GSS×abortion'].
+  The pair is **`abpoorw` ("Wrong for woman to get abortion if low income?") × `abpoor` ("Law should allow abortion if family low income")** — the same act, the same qualifier, the same respondents, differing ONLY in *is it wrong* versus *should the law allow it*. **Paired n = 2942 over waves [1991, 1998, 2008, 2018].**
+  ⇒ **GSS now has TWO act-like objects with a matched norm–sanction pair**, not one, so act-dependence becomes testable WITHIN one instrument instead of analogised across two.
+  ⚠ **And the scope is not the same as SCCS's**: abortion is a reproductive decision, not a sexual act. It extends the STRUCTURE (norm vs sanction) to a second object; it does not make abortion a member of the family SCCS coded.
+  ⚠ **The pre-registered width missed it** because `law` sits only in the WIDE sanction list — and `"Law should allow"` is the most natural way English asks for a sanction. **The word list was the instrument, and it was too narrow at the cell I pre-registered.**
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R321_is_there_a_matched_pair_anywhere/results/matched_pair_availability.json

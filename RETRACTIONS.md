@@ -42673,3 +42673,100 @@ alone.**
    individual psychology is cohort replacement. ⇒ `#881`②
 ③ ⚠ Still `OPEN`: `#880`①② · `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 882 · `E03·A103·R321` — the specification curve found what the pre-registered cell missed, and my first verdict said the opposite of my own table
+
+**Pays `#881`①, and OVERTURNS its premise.** `#881` closed with *"three acts, two instruments, one
+overlap of zero — the comparison rests on an analogy between different acts."* That sentence blocked
+everything downstream, so this round asked the only question that can unblock it: **is there ANY
+instrument on this machine that asks, about the SAME act, both "is it wrong" and "should something be
+done"?**
+
+**HARD RULE 1 IS THE WHOLE DESIGN.** Nothing was cited by name; every source's label count was
+printed first, and a source whose labels are absent is registered **UNSEARCHABLE**, never as
+"contains nothing":
+
+| | |
+|---|---|
+| **searchable** | **13 sources · 18,025 labels** — GSS 6,941 · SCCS 1,781 · NSFG 3,094 + 2,609 + 3,009 · YRBS 269 · Open Psychometrics ×7 (4–122 each) |
+| **UNSEARCHABLE, named** | `openpsych:ECR` (codebook did not parse) · **MFQ** (*only 5 of 234 columns carry a label — the item text lives in the paper, not the file*) |
+
+**HARD RULE 2 — the instrument of this round is a lexicon over labels**, the thing this project has
+retracted for most. So the instrument's unit (**a variable label**) and the claim's unit (**a survey
+item**) were written down as two strings and declared **not equal** before the run: a label can be
+truncated, generic or absent ⇒ **the search can miss a real pair and cannot invent one**, so a null
+here is a **bound**. Positive control (known answer): it must recover **GSS `homosex` ↔
+`spk/col/lib homo`** and **SCCS `961↔962` / `963↔964`** — **both recovered**. Negative control: an
+act nobody surveys (**kite-flying**) must return nothing — **0**. *"Should this zero be zero?"* —
+**YES**, so it is a `negative_control` and not an `offset_control`.
+
+**⚠⚠ AND THEN THE ROUND CAUGHT ITSELF, WHICH IS THE FINDING.** The pre-registered cell
+(norm=medium, sanction=medium) returned **0 new pairs**, and I wrote a verdict saying *"at every one
+of the nine vocabulary widths, the only instruments that ask both questions about the same act are
+the two already in hand"* — **while the specification curve printed on the same page showed
+`GSS×abortion` at three of the nine widths.** The fifth verdict-string overreach in this project's
+history, and the mechanism is always the same: **the verdict is written after the controls have
+fired and the attention they were holding has been released.** The fix is structural, not
+attentional — **the curve is now computed BEFORE the adjudication and the UNION over all nine widths
+is what gets read**, never the pre-registered cell alone.
+
+**WHAT THE UNION CONTAINS, read in full rather than matched:**
+```
+GSS × abortion
+  norm      abdefctw   Wrong for woman to get abortion for birth defects
+  norm      abpoorw    Wrong for woman to get abortion if low income?
+  sanction  abdefct1   Law should allow abortion for birth defects
+  sanction  abpoor1    Law should allow abortion if family low income
+```
+**The same act, the same qualifier, the same respondents, differing ONLY in *is it wrong* versus
+*should the law allow it*.** That is a cleaner matched pair than the homosexuality one, whose two
+sides ask about *an act* and *a person*.
+
+**⚠ HARD RULE 1 AGAIN, ON THE SURVIVOR — a codebook entry is not an estimable pair:**
+| pair | paired n | waves |
+|---|---|---|
+| `abpoorw × abpoor` | **2,942** | 1991 · 1998 · 2008 · 2018 |
+| `abdefctw × abdefect` | **2,216** | 1991 · 1998 · 2008 |
+| `abpoorw × abpoor1` | 1,166 | 1991 only |
+| `abdefctw × abdefct1` | 1,207 | 1991 only |
+The wrongness items are the scarce side (**3–4 waves**) against legality items that run 1972–2024
+(n ≈ 48,000). The usable pair is **n = 2,942 on four waves**.
+
+**⚠ WHY THE PRE-REGISTERED WIDTH MISSED IT, and it is not bad luck:** `law` sits only in the **wide**
+sanction vocabulary — and ***"Law should allow"* is the most natural way English asks for a
+sanction.** The word list *was* the instrument, and at the cell I pre-registered it was too narrow to
+see the most ordinary phrasing of the thing it was looking for.
+
+**⇒ One sentence, and it is about the work rather than about people: I pre-registered a word list,
+it returned zero, and I nearly wrote that the comparison does not exist on this machine — while the
+specification curve four lines above was pointing at a pair of GSS items that ask *is it wrong* and
+*should the law allow it* about the same act, of the same 2,942 people. The curve is not a
+robustness appendix; on an availability question it is the measurement, and the single cell is the
+anecdote.**
+
+**⇒ And the psychological consequence: GSS now has TWO act-like objects with a matched
+norm–sanction pair, so act-dependence becomes testable WITHIN one instrument** instead of analogised
+across two. ⚠ **The scope is not SCCS's**: abortion is a reproductive decision, not a sexual act —
+this extends the *structure* to a second object; it does not make abortion a member of the family
+SCCS coded.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **it searches LABELS, not items** — a survey whose labels are generic or absent is invisible to it;
+   closing that would require parsing the codebook PDFs or the questionnaires;
+② **`.sav` files without column labels are unsearchable** — measured and printed, **MFQ 5 of 234**;
+③ it cannot judge whether a found pair is *usable*, only that it exists — which is why §7 measures
+   n and waves separately, because conflating "in a codebook" with "estimable" is `#874`'s error one
+   level up;
+④ **a null would have been a bound, never a proof** — and this round is the demonstration of why
+   that clause matters, because the null was wrong.
+
+**NEXT**
+① ⚠ **Run the act-dependence test inside GSS**: the same estimand (`1 − ρ²`) on `abpoorw × abpoor`
+   (n=2,942, four waves) beside `homosex × refusal` (0.771). **Two acts, one instrument, one set of
+   respondents** — the first version of this question that is not an analogy. ⇒ `#882`①
+② ⚠ **`#881`①'s premise is OVERTURNED and its conclusion is not.** *Zero overlap* was false; but the
+   acts SCCS decouples (adultery) and the acts GSS can pair (homosexuality, abortion) still do not
+   intersect, so **the word *replication* stays withdrawn** until an instrument pairs the same act
+   twice. ⇒ `#882`②
+③ ⚠ Still `OPEN`: `#881`② · `#880`①② · `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
+   `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
