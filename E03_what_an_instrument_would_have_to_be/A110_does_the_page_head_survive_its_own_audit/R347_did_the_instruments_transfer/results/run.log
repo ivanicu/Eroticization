@@ -1,0 +1,50 @@
+=== (0) POPULATION — parsed, not globbed, and counted before anything is claimed ===
+  round scripts: 868 · persisted artifacts: 457
+  artifacts carrying an entry number: 15  (the rest predate the convention and are UNSEEN, not absent)
+  scripts declaring an entry number: 126
+
+=== (1) POSITIVE CONTROL — `#906` must come back as a transfer of the case-indexing tool ===
+  case-indexing transfers found: [897, 906]
+  `#906` present: True · its artifact records positive_ok=True ⇒ control fires: **True**
+  negative control — invented signature `flurbish_null` returns 0 rounds ⇒ **True**
+
+=== (2) EVERY INSTRUMENT, ITS BUILDER, AND EVERY LATER ROUND THAT USES IT ===
+
+  link-free comonotonicity test
+     built in `#902` for the four GSS sexual-norm series
+     later rounds using it : [905]
+     ...with a control recorded in their artifact: **[905]**
+
+  one-factor-proof case-indexing interaction
+     built in `#892` for GSS abortion norm×legality
+     later rounds using it : [897, 906]
+     ...with a control recorded in their artifact: **[897, 906]**
+
+  rank-1 binomial resampling null
+     built in `#900` for the four sexual series' probit matrix
+     later rounds using it : [901, 902]
+     ...with a control recorded in their artifact: **[901, 902]**
+
+  comonotone binomial resampling null
+     built in `#902` for the four sexual series
+     later rounds using it : [903, 904, 905]
+     ...with a control recorded in their artifact: **[903, 904, 905]**
+
+=== (3) THE TWO GATES — a different kind of evidence, reported and not averaged in ===
+  tools/supersede_gate.py            built in `#894` · wired into the pre-commit hook: **True** ⇒ it runs over the WHOLE repository on every commit, which is transfer by construction
+  tools/registry_keys_gate.py        built in `#877` · wired into the pre-commit hook: **True** ⇒ it runs over the WHOLE repository on every commit, which is transfer by construction
+
+=== (4) THE COUNT, AND THE PARTITION WRITTEN BEFORE THE RUN ===
+  statistical instruments with >=1 CONTROLLED off-domain application: **4/4**
+  gates running repository-wide on every commit:                      **2/2**
+  ⇒ **6/6 instruments have a demonstrated application beyond the round that built them**, against `#908`②'s asserted **2**
+  transfers whose round has no artifact entry (UNSEEN, not absent): 0
+
+  positive control True · negative control True
+  **VERDICT OVERTURNED · UNDERSTATED — 6 of 6, not 2. The page understates its own residue, which is the error `#899` pre-registered as 'possibly over-modest'**
+
+  ⚠ AN ARTIFACT RECORDING `positive_ok` DOES NOT PROVE THE CONTROL WAS WELL-SPECIFIED —
+     this session alone rebuilt five that were not. The count is of controls that FIRED,
+     not of controls that were RIGHT. `[unchallenged]` — `door ③`.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A110_does_the_page_head_survive_its_own_audit/R347_did_the_instruments_transfer/results/did_the_instruments_transfer.json

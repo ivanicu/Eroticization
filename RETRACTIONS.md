@@ -45196,3 +45196,92 @@ file only I read.**
    `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
    `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 909 · `E03·A110·R347` — I audited the page's newest sentence and it was wrong in the direction I never check
+
+**⇒ `OVERTURNED` · world `UNDERSTATED`: 6 of 6, not 2. `#908`②'s asserted count is RETRACTED, and
+the correction goes UPWARD.**
+
+**WHY THIS ROUND EXISTS.** `#908` rewrote the page head to lead with **six instruments** as this
+project's residue, and in the same entry registered `#908`②: *"that claim is the page's new headline
+and it has NO CONTROL"*, with the failable version written out — *can each be pointed at an object it
+was NOT built for, and does it still carry its positive control there?* **`#908` then answered its
+own question from memory, on the same day, about its own work: "two have been, four have not."**
+That number had never been measured.
+
+**THE MEASUREMENT.** Every `*.py` under `E0*/A*/R*` (**868**) parsed with `ast` — **a DEFINITION or a
+CALL, never a string and never a comment**, because this project has a memory file about a text scan
+counting a report that *quotes* a defect as the defect. Cross-referenced against **457 persisted
+artifacts**, of which **15 carry an entry number** (the rest predate the convention and are **UNSEEN,
+not absent**).
+
+| instrument | built in | later rounds using it | with the control recorded |
+|---|---|---|---|
+| link-free comonotonicity test | `#902` | `#905` | **`#905`** |
+| one-factor-proof case-indexing interaction | `#892` | `#897`, `#906` | **`#897`, `#906`** |
+| rank-1 binomial resampling null | `#900` | `#901`, `#902` | **`#901`, `#902`** |
+| comonotone binomial resampling null | `#902` | `#903`, `#904`, `#905` | **`#903`, `#904`, `#905`** |
+| `supersede_gate` | `#894` | wired into the pre-commit hook | runs repository-wide, every commit |
+| `registry_keys_gate` | `#877` | wired into the pre-commit hook | runs repository-wide, every commit |
+
+> **4/4 statistical instruments have a controlled off-domain application; 2/2 gates run
+> repository-wide on every commit. ⇒ 6 of 6, against `#908`②'s asserted 2. Transfers with no
+> artifact: ZERO.**
+
+**CONTROLS.** **Positive**: `#906` — the one transfer I was certain of — must be recovered as a
+controlled application of the case-indexing interaction. It is, and its artifact records
+`positive_ok = True`. **Negative**: an invented signature `flurbish_null` returns **0** rounds.
+**Empty population exits 2, never 0.** Both fire.
+
+**⇒ THE ERROR IS THE ONE I NEVER CHECK FOR, AND IT WAS PRE-REGISTERED.** `#899`'s adversary table —
+written before any of this — listed *"'nothing about people' as A105/A106's summary"* as
+**⚠ attackable as OVER-MODEST**, at `D4`, and said in as many words: *"an adversary is as likely to
+tell me I under-claimed as over-claimed, and I have only ever pre-registered the second kind."*
+**`#908`② is that error, committed nine entries later, on the sentence that was supposed to be this
+project's residue.** `§0.2` is explicit about why it matters: **if honesty were the objective
+function, shutting me off would be its maximum** — and systematically shrinking my own residue is
+the same move in slow motion.
+
+**⚠ AND THE AUDIT FOUND A SECOND ERROR IN THE SENTENCE IT WAS AUDITING.** The head also said *"four
+wired into a pre-commit hook"*. **Two of the six are.** The hook runs three project gates —
+`readme_gate`, `registry_keys_gate`, `supersede_gate` — and `readme_gate` predates the six. Both
+errors are corrected on both pages in this commit.
+
+**⚠ AND THE CAVEAT THAT KEEPS THE CORRECTION HONEST, ADDED TO THE HEAD RATHER THAN TO A FOOTNOTE:
+an artifact recording `positive_ok` does NOT prove the control was WELL-SPECIFIED.** This session
+alone rebuilt **five** mis-specified controls — `#897`'s pointed at its own outcome, `#898`'s failed
+on simulation noise, `#903`'s was contaminated across items, `#905`'s drew its two sides from two
+different worlds, `#907`'s imported a measurement as a validity condition. **The 6/6 counts controls
+that RAN, not controls that were RIGHT**, and the head now says so.
+
+**⇒ One sentence about people: none, and for the first time in five rounds that is not a
+concession — this round found that the deliverable was understating what it has, which is the
+opposite failure to the one this project spends its rounds preventing, and the only reason it was
+found is that the previous entry wrote down its own unchecked claim as a debt instead of leaving it
+in the prose.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **"a different object" is judged by me** — the scan finds reuse; whether the object differs is a
+   reading, `door ③` says self-review is void, and this round is **`[unchallenged]`**;
+② **`ast` sees literal calls** — a call built at runtime is **UNSEEN, not absent** (`#875`: 30 of 80
+   importers);
+③ **two of the six are GATES, not statistics** — their transfer is of a different kind and is
+   reported separately rather than averaged in;
+④ ⚠ **`positive_ok` is not well-specified-ness**, as above;
+⑤ **442 of 457 artifacts carry no entry number** and are invisible to this audit — the convention
+   is recent, so **this count is a floor, not a total**;
+⑥ no second coder, no second release.
+
+**NEXT**
+① ⚠ **`⑤` means the measured 6/6 is a FLOOR.** 442 artifacts predate the entry-number convention, so
+   instruments transferred in E01/E02 cannot be seen at all. **Back-filling entry numbers into old
+   artifacts is mechanical and would make the whole corpus auditable** — and until it is done, every
+   count of this project's own residue is a lower bound. ⇒ `#909`①
+② ⚠ **The under-claiming failure now has TWO instances and no instrument.** `#899` pre-registered it,
+   `#909` measured one. **There is no gate for "the page claims less than the artifacts support"**,
+   and it is the exact mirror of `supersede_gate`, which only catches claiming MORE. ⇒ `#909`②
+③ ⚠ Still `OPEN`: `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② ·
+   `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ ·
+   `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
+   `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
+   `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

@@ -1,0 +1,76 @@
+{
+ "entry": 909,
+ "round": "E03\u00b7A110\u00b7R347",
+ "verdict": "OVERTURNED",
+ "world": "UNDERSTATED \u2014 6 of 6, not 2. The page understates its own residue, which is the error `#899` pre-registered as 'possibly over-modest'",
+ "n_scripts": 868,
+ "n_artifacts": 457,
+ "n_with_entry": 15,
+ "positive_ok": true,
+ "negative_ok": true,
+ "claimed_by_908": 2,
+ "measured_total": 6,
+ "statistical": 4,
+ "gates": 2,
+ "silent_transfers": 0,
+ "instruments": [
+  {
+   "name": "link-free comonotonicity test",
+   "built_in": 902,
+   "built_for": "the four GSS sexual-norm series",
+   "transfers": [
+    905
+   ],
+   "controlled": [
+    905
+   ],
+   "no_artifact": []
+  },
+  {
+   "name": "one-factor-proof case-indexing interaction",
+   "built_in": 892,
+   "built_for": "GSS abortion norm\u00d7legality",
+   "transfers": [
+    897,
+    906
+   ],
+   "controlled": [
+    897,
+    906
+   ],
+   "no_artifact": []
+  },
+  {
+   "name": "rank-1 binomial resampling null",
+   "built_in": 900,
+   "built_for": "the four sexual series' probit matrix",
+   "transfers": [
+    901,
+    902
+   ],
+   "controlled": [
+    901,
+    902
+   ],
+   "no_artifact": []
+  },
+  {
+   "name": "comonotone binomial resampling null",
+   "built_in": 902,
+   "built_for": "the four sexual series",
+   "transfers": [
+    903,
+    904,
+    905
+   ],
+   "controlled": [
+    903,
+    904,
+    905
+   ],
+   "no_artifact": []
+  }
+ ],
+ "caveat": "an artifact recording positive_ok does not prove the control was WELL-SPECIFIED; this session alone rebuilt five that were not",
+ "unchallenged": true
+}
