@@ -1,0 +1,86 @@
+=== (0) THE TWO SOURCES FOR THE SAME INSTRUMENT — labels vs question text ===
+  GSS Stata labels     :   6941 variables
+  GSS codebook text    :   1250 variables (preamble-propagated)
+    abpoor    label=Low income--cant afford more children          text=[Please tell me whether or not you think it should be possible for a pregnant woman to o
+    abdefect  label=Strong chance of serious defect                text=(Please tell me whether or not you think it should be possible for a pregnant woman to o
+    abpoorw   label=Wrong for woman to get abortion if low incom   text=None
+    grass     label=Should marijuana be made legal                 text=Do you think the use of marijuana should be made legal or not? Do you think the use of m
+    pornlaw   label=Feelings about pornography laws                text=Which of these statements comes closest to your feelings about pornography laws? Which o
+    homosex   label=Homosexual sex relations                       text=What about sexual relations between two adults of the same sex--do you think it is alway
+    spkhomo   label=Allow homosexual to speak                      text=None
+
+=== (1) POSITIVE CONTROL — and it MUST be able to fail, so both sources are run ===
+  from LABELS       : 0/7  []   <- v1's floor; the control CAN fail
+  from QUESTION TEXT: 7/7  ['abdefect', 'abnomore', 'abhlth', 'abpoor', 'abrape', 'absingle', 'abany']
+  GSS acts with BOTH sides (question text): ['abortion']
+  ⇒ positive control fires: True  (floor 0/7 · observed 7/7)
+
+=== (2) NEGATIVE CONTROLS — two, because the first one I wrote was MIS-SPECIFIED ===
+  (2a) delete the 7 only            -> acts with both sides: ['abortion']
+       ⚠ **this control was WRONG and its failure is informative, not a defect**: GSS carries
+       **14** items the detector
+       marks LEGAL for abortion, not 7 — the split-ballot `*g` twins, `ablegal`, and others.
+       Deleting a SUBSET of the signal and demanding the verdict flip is not a control.
+  (2b) delete EVERY named abortion-legal item (14) -> []  ⇒ abortion's legal side gone: True
+
+=== (2c) THE LEAK CONTROL — the one that earned itself, and it is QUANTITATIVE ===
+  v1 (no STOP condition):   84 inheritances, **  41 across a name-prefix boundary**
+  v2 (clears on any non-continuation):   28 inheritances, **   3 across a boundary**
+  ⇒ leak control passes: True   (floor = v1's 41; a smear is measurable, not felt)
+
+=== (2d) COVERAGE — the scope every number in this round is bounded by ===
+  the codebook documents **1250 of 6941 = 18.0%** of the release's variables
+  ⚠ **the two moral items this whole project rests on are NOT in ANY shipped PDF**: `abpoorw` False · `abdefctw` False
+     (checked in all four: Codebook, Release Variables, What's New, Release Notes ⇒ 0 hits)
+  ⚠ the homosexuality battery is absent too: spkhomo False · colhomo False · libhomo False
+  ⇒ **`R328`'s matched-proposition argument rests on a LABEL for its moral side and on the
+     CODEBOOK for its legal side. Those are two evidence grades and they must be said as two:**
+     legal side D8 (question text, verbatim) · moral side D6 (46-char Stata label, no question
+     text exists in this release). The label is unambiguous about act and qualifier, so
+     `R328` STANDS — but its moral side is not, and was never, read from the instrument.
+
+=== (3) DOES GSS ITSELF CARRY A SECOND ACT WITH BOTH SIDES?  (world B lives here) ===
+
+  [abortion]  moral  1 · legal 14
+     MORAL abmoral    Leaving aside whether or not you think abortion should be legal, are you morally opposed to abortion or not, or 
+     LEGAL abdefect   (Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion i
+     LEGAL abnomore   [Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] 
+     LEGAL abhlth     [Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] 
+
+=== (4) EVERY OTHER RELEASE — does it ship question text at all? ===
+    touched-not-paired yrbs                                     ['homosexuality', 'marijuana', 'suicide']
+    touched-not-paired nsfg                                     ['abortion', 'divorce', 'homosexuality', 'marijuana', 'premarital']
+    touched-not-paired dataverse:10.7910_DVN_C56WMI_x/Replication Data Set Sam ['abortion', 'homosexuality']
+    touched-not-paired dplace:WNAI                              ['divorce']
+    touched-not-paired dplace:SCCS                              ['abortion', 'divorce', 'extramarital', 'homosexuality', 'premarital', 'suicide']
+    touched-not-paired dplace:EA                                ['premarital']
+
+  non-GSS sources screened 18 · with both sides on some act: 0
+  ⚠ UNSEEN, named rather than counted as zero: 6
+     yrbs                 SAS label block only — NO questionnaire text in the release. The GSS control just measured that labels miss 7/7 of a known battery ⇒ UNSEEN
+     nsfg                 SAS label block only — NO questionnaire text in the release. The GSS control just measured that labels miss 7/7 of a known battery ⇒ UNSEEN
+     dataverse            8 .dta, Stata labels only — replication packages ship code and data, not questionnaires ⇒ UNSEEN
+     dplace/SCCS          ethnographic CODES, not questions asked of a person — `#880`/`#882` already measured one observation per society ⇒ cannot carry a moral/legal pair about one proposition at all
+     brfss                1.2 GB .XPT and NO codebook in the directory ⇒ UNSEEN, not cleared
+     openpsych            psychometric scale item banks; 0 parseable codebooks found by this round's reader ⇒ UNSEEN, not cleared
+
+=== (5) READING THE SHORTLIST — the screen's unit is not the claim's unit ===
+  GSS, read by hand from the text printed in (3):
+    abortion        MATCHED PROPOSITION — `abpoorw`/`abdefctw` (is it WRONG if poor / defect)
+                    against `abpoor`/`abdefect` (should the LAW allow it if poor / defect).
+                    Same clause, two modalities. This is the pair the project already uses.
+
+=== (6) THE CONDITIONAL KILL ===
+  positive 7/7 (floor 0/7) ⇒ True · negative(complete) ⇒ True · leak 3 vs floor 41 ⇒ True
+  GSS acts with both sides: ['abortion'] · non-GSS with >=2 acts: 0
+  **VERDICT CONFIRMED-AS-D · A holds narrowly and D is the sentence that matters: nothing reaches the claim's unit, AND the question is UNASKABLE of 7 of 8 releases and of 82% of GSS's own variables**
+
+  ⚠ THE PART THAT CHANGES `#890`①. Of the **8** releases in `data/external/`, **exactly one**
+     ships question text, and that one documents **18.0%** of its own variables and **omits**
+     the two items this project's last four rounds are built on. For everything else the
+     question 'does it carry a matched proposition?' is **not answered NO — it cannot be**
+     **ASKED.** `#890`① said *it is not there*. The supported sentence is:
+     ***nothing I hold can be asked this question, and that includes most of GSS.***
+     ⇒ `#890`① is **DOWNGRADED and RESTATED**, not confirmed and not retracted.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A105_is_it_the_act_or_what_the_two_questions_ask/R329_does_any_instrument_i_hold_ask_the_same_proposition_twice/results/instrument_search.json

@@ -43520,3 +43520,111 @@ still there and no bigger than the wording.**
 ④ ⚠ Still `OPEN`: `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
    `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 891 · `E03·A105·R329` — a LABEL is not a QUESTION, and the positive control is the only reason I know
+
+**TYPE: CLOSURE, labelled before the run** (it would have become Frontier only in world B, which did
+not fire). **What it protects:** `#890`①, published one round ago — *"the instrument that would close
+object-distance is not in `data/external/`"*. **I had established that by listing directory names.**
+`P4`'s closing question is exactly this: *did I establish the non-existence by asking the system, or
+did I read it somewhere?* **I had done neither. I read an `ls`** — an absence claim about CONTENT
+from FILENAMES, which is `P5`★ in its purest form.
+
+**⚠ THE FIRST DETECTOR FAILED ITS OWN POSITIVE CONTROL, AND THAT FAILURE IS THIS ROUND'S RESULT.**
+v1 screened **Stata variable labels** for a moral word and a legal word near an act word. Pointed at
+GSS, where the answer is known, it recovered **0 of the 7** abortion legality items. The codebook
+shows why, in plain sight:
+
+```
+ABDEFECT  (Please tell me whether or not you think it should be possible for a pregnant woman
+           to obtain a legal abortion if. . .) If there is a strong chance of serious defect...
+ABNOMORE   If she is married and does not want any more children?
+ABPOOR     If the family has a very low income and cannot afford any more children?
+```
+Stata labels, same three items: `'Strong chance of serious defect'` · `'Married--wants no more
+children'` · `'Low income--cant afford more children'`.
+
+> **The word "legal" occurs ONCE, in a preamble attached to the FIRST item of the battery. Every
+> other member is a bare stem, and its label is barer still — no act, no modality, nothing.**
+>
+> ⇒ **A LABEL IS NOT A QUESTION.** The sibling of this project's HARD RULE 1 (*a variable name is not
+> a measurement*), one level up. **And the blindness is adversarial, not random**: a matched
+> moral/legal pair is exactly the kind of thing that lives in a BATTERY, and a battery is exactly the
+> structure that strips its members' labels. **The screen was blind precisely where the target
+> lives.** ⇒ the repair is not a bigger lexicon, it is **a different source** — questionnaire text
+> with **preamble propagation**.
+
+**AND THE REPAIRED DETECTOR BROKE TOO, IN THE OPPOSITE DIRECTION, AND THE NEGATIVE CONTROL CAUGHT
+IT.** v2 propagated the preamble and **never cleared it**, so the abortion preamble smeared onto
+`pillok`, `premarsx`, `homosex`, `grassv`… and manufactured **three extra "acts with both sides"**.
+Deleting the seven legality items then failed to remove abortion's legal side — *because the legal
+words were no longer only on the seven.* **A propagation rule with no STOP condition is not a rule,
+it is a smear.** v3 clears the preamble on any non-continuation body, and the fix is **measured, not
+felt**: inheritances crossing a variable-name-prefix boundary fall **41 → 3** (total inheritances
+84 → 28). **That count is now a standing control, because "I fixed the leak" is a feeling.**
+
+**AND MY FIRST NEGATIVE CONTROL WAS MIS-SPECIFIED, WHICH IS A THIRD DEFECT AND IS RECORDED AS ONE.**
+It deleted **7** items and demanded the verdict flip — but the detector marks **14** items LEGAL for
+abortion (the split-ballot `*g` twins, `ablegal`, and others). **Deleting a SUBSET of the signal and
+demanding the verdict flip is not a control.** Deleting all 14 removes abortion's legal side. ⇒ three
+instrument defects in one round, each caught by a different control, **none by inspection.**
+
+**CONTROLS, all three passing at the end.** **Positive** — the detector on GSS's codebook recovers
+**7/7**, against a **measured floor of 0/7** from the label source, so the control demonstrably CAN
+fail and its threshold (≥4) sits strictly between. **Negative** — deleting all 14 named abortion-legal
+items removes abortion's legal side. **Leak** — 3 boundary-crossing inheritances against a floor of
+41.
+
+**⚠ AND THE COVERAGE NUMBER IS THE ONE THAT CHANGES WHAT I MAY SAY.** The GSS codebook documents
+**1,250 of 6,941 variables = 18.0%** of its own release — and **`abpoorw` and `abdefctw` appear in
+NONE of the four shipped PDFs** (Codebook · Release Variables · What's New · Release Notes; 0 hits
+each), nor do **`spkhomo` · `colhomo` · `libhomo`**.
+
+> **⇒ `R328`'s matched-proposition argument rests on QUESTION TEXT for its legal side and on a
+> 46-character STATA LABEL for its moral side, and those are two evidence grades that must be said
+> as two: legal `D8` (verbatim), moral `D6` (label only — no question text for it exists in this
+> release).** The labels are unambiguous about the act and the qualifier (*"Wrong for woman to get
+> abortion if low income?"*), so **`R328` STANDS** — but **its moral side was never read from the
+> instrument, and I did not know that until this round.** The same applies to the homosexuality
+> *sanction* side: `homosex` has question text, its three civil-liberties items do not.
+
+**THE ANSWER TO THE ESTIMAND.** Of the **8** releases in `data/external/`, **exactly one ships
+question text.** Non-GSS sources screened: **18**, with both sides on some act: **0** — but that zero
+is **UNSEEN, not cleared**, and each source is named with why: `yrbs` · `nsfg` (SAS label block only,
+and the GSS control just measured that labels miss 7/7 of a known battery) · `dataverse` (8 `.dta`,
+replication packages ship code and data, not questionnaires) · `dplace/SCCS` (ethnographic CODES, not
+questions asked of a person — `#880`/`#882` already established one observation per society) ·
+`brfss` (1.2 GB `.XPT`, no codebook in the directory) · `openpsych` (0 parseable codebooks). Inside
+GSS, **`abortion` is the only act with both sides**, which is world **A** — and world **D** is the
+sentence that matters.
+
+**⇒ `#890`① IS DOWNGRADED AND RESTATED, NOT CONFIRMED AND NOT RETRACTED.** It said *"it is not
+there."* **The supported sentence is: *nothing I hold can be ASKED this question, and that includes
+82% of GSS.*** Those differ in what they license: the first invites *"so go and get the Gallup item"*;
+the second says **any future instrument must be judged on whether it ships its questionnaire, before
+anything else about it matters.**
+
+**⇒ One sentence about people: none — this round asks nothing about anyone, and says so.** Its whole
+content is that for four rounds I have been arguing about *what a question asks* while holding, for
+half of the items, only a 46-character abbreviation of it.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO:** ① it reads the text a release SHIPS — a release with no
+questionnaire is **UNSEEN**, and all six are named rather than counted; ② **a lexicon calibrated on
+GSS is not evidence that the lexicon generalises**, so GSS is not counted as an independent hit;
+③ no second coder read the shortlist; ④ the codebook's 82% gap **cannot be closed from this release**
+— the missing question text exists only in GSS's per-year questionnaires, which are not here.
+
+**NEXT**
+① ⚠ **A NEW ACCEPTANCE TEST FOR ANY FUTURE INSTRUMENT, and it comes before subject matter: does the
+   release ship its QUESTIONNAIRE?** Seven of the eight here do not, and no amount of analysis
+   recovers it. Applies to the Gallup legality item `#890`① wants. ⇒ `#891`①
+② ⚠ **Half of this project's own items have no question text in the release they came from** —
+   `abpoorw` · `abdefctw` · `spkhomo` · `colhomo` · `libhomo`. Every claim about *what those
+   questions ask* is `D6` (label) and has been silently written as though it were `D8`. **The
+   READMEs do not distinguish them.** ⇒ `#891`②
+③ ⚠ **The leak count (41 → 3) is a reusable control and lives in this round only.** Any future
+   preamble/section propagation in this project needs it, and a rule with no STOP condition is the
+   general defect. ⇒ `#891`③
+④ ⚠ Still `OPEN`: `#890`①②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② ·
+   `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① ·
+   `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

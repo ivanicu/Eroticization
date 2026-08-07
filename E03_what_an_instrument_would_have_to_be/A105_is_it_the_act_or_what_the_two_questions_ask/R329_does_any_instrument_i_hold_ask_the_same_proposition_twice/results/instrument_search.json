@@ -1,0 +1,328 @@
+{
+ "entry": 891,
+ "round": "E03\u00b7A105\u00b7R329",
+ "type": "CLOSURE\u2192FRONTIER if B",
+ "verdict": "CONFIRMED-AS-D",
+ "world": "A holds narrowly and D is the sentence that matters: nothing reaches the claim's unit, AND the question is UNASKABLE of 7 of 8 releases and of 82% of GSS's own variables",
+ "protects": "#890\u2460 \u2014 'the instrument that would close object-distance is not in data/external'",
+ "label_hits": [],
+ "text_hits": [
+  "abdefect",
+  "abnomore",
+  "abhlth",
+  "abpoor",
+  "abrape",
+  "absingle",
+  "abany"
+ ],
+ "positive_ok": true,
+ "negative_ok": true,
+ "negative_subset_misspecified": [
+  "abortion"
+ ],
+ "ab_legal_all": [
+  "abdefect",
+  "abnomore",
+  "abhlth",
+  "abpoor",
+  "abrape",
+  "absingle",
+  "abany",
+  "abdefectg",
+  "abmoral",
+  "abhelp1",
+  "abhelp2",
+  "abhelp3",
+  "abhelp4",
+  "gestate"
+ ],
+ "leak_v1": [
+  84,
+  41
+ ],
+ "leak_v2": [
+  28,
+  3
+ ],
+ "leak_ok": true,
+ "coverage": 0.18008932430485522,
+ "n_codebook": 1250,
+ "n_release": 6941,
+ "in_codebook": {
+  "abpoor": true,
+  "abdefect": true,
+  "abpoorw": false,
+  "abdefctw": false,
+  "homosex": true,
+  "spkhomo": false,
+  "colhomo": false,
+  "libhomo": false
+ },
+ "gss_acts_both": [
+  "abortion"
+ ],
+ "gss_touched": [
+  "abortion",
+  "divorce",
+  "extramarital",
+  "homosexuality",
+  "marijuana",
+  "pornography",
+  "premarital",
+  "suicide",
+  "teensex"
+ ],
+ "gss_matched": {
+  "abortion": {
+   "moral": [
+    "abmoral"
+   ],
+   "legal": [
+    "abdefect",
+    "abnomore",
+    "abhlth",
+    "abpoor",
+    "abrape",
+    "absingle",
+    "abany",
+    "abdefectg",
+    "abmoral",
+    "abhelp1",
+    "abhelp2",
+    "abhelp3",
+    "abhelp4",
+    "gestate"
+   ]
+  }
+ },
+ "gss_detail": {
+  "abortion": {
+   "moral": [
+    [
+     "abmoral",
+     "Leaving aside whether or not you think abortion should be legal, are you morally opposed to abortion or not, or would you say it depends? Leaving aside whether "
+    ]
+   ],
+   "legal": [
+    [
+     "abdefect",
+     "(Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .) If there is a strong chance of serious d"
+    ],
+    [
+     "abnomore",
+     "[Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] If she is married and does not want any more chi"
+    ],
+    [
+     "abhlth",
+     "[Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] If the woman's own health is seriously endangere"
+    ],
+    [
+     "abpoor",
+     "[Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] If the family has a very low income and cannot a"
+    ],
+    [
+     "abrape",
+     "[Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] If she becomes pregnant as a result of rape? If "
+    ],
+    [
+     "absingle",
+     "[Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] If she is not married and does not want to marry"
+    ],
+    [
+     "abany",
+     "[Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion] If the woman wants it for any reason? If the wom"
+    ],
+    [
+     "abdefectg",
+     "(Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .) If there is a strong chance of serious d"
+    ],
+    [
+     "abmoral",
+     "Leaving aside whether or not you think abortion should be legal, are you morally opposed to abortion or not, or would you say it depends? Leaving aside whether "
+    ],
+    [
+     "abhelp1",
+     "If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were ableHelp with arrangeme"
+    ],
+    [
+     "abhelp2",
+     "If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were ableHelp paying for the"
+    ],
+    [
+     "abhelp3",
+     "If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were ableHelp paying for cos"
+    ],
+    [
+     "abhelp4",
+     "If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were ableHelp by providing e"
+    ],
+    [
+     "gestate",
+     "Please tell us whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if... ...she is beyond 4.5 months, that is, about "
+    ]
+   ]
+  }
+ },
+ "others": {
+  "yrbs": {
+   "source": "yrbs",
+   "n": 269,
+   "touched": [
+    "homosexuality",
+    "marijuana",
+    "suicide"
+   ],
+   "both": []
+  },
+  "nsfg": {
+   "source": "nsfg",
+   "n": 2609,
+   "touched": [
+    "abortion",
+    "divorce",
+    "homosexuality",
+    "marijuana",
+    "premarital"
+   ],
+   "both": []
+  },
+  "dataverse:10.7910_DVN_C56WMI_x/Replication Data Meta-An": {
+   "source": "dataverse:10.7910_DVN_C56WMI_x/Replication Data Meta-An",
+   "n": 18,
+   "touched": [],
+   "both": []
+  },
+  "dataverse:10.7910_DVN_C56WMI_x/Replication Data Set Sam": {
+   "source": "dataverse:10.7910_DVN_C56WMI_x/Replication Data Set Sam",
+   "n": 43,
+   "touched": [
+    "abortion",
+    "homosexuality"
+   ],
+   "both": []
+  },
+  "dataverse:10.7910_DVN_C56WMI_x/Replication Data Set You": {
+   "source": "dataverse:10.7910_DVN_C56WMI_x/Replication Data Set You",
+   "n": 29,
+   "touched": [],
+   "both": []
+  },
+  "dataverse:10.7910_DVN_YMCHMU_x/study-2-data.dta": {
+   "source": "dataverse:10.7910_DVN_YMCHMU_x/study-2-data.dta",
+   "n": 1,
+   "touched": [],
+   "both": []
+  },
+  "dplace:GMTED2010": {
+   "source": "dplace:GMTED2010",
+   "n": 2,
+   "touched": [],
+   "both": []
+  },
+  "dplace:WNAI": {
+   "source": "dplace:WNAI",
+   "n": 429,
+   "touched": [
+    "divorce"
+   ],
+   "both": []
+  },
+  "dplace:Binford": {
+   "source": "dplace:Binford",
+   "n": 40,
+   "touched": [],
+   "both": []
+  },
+  "dplace:TEOW": {
+   "source": "dplace:TEOW",
+   "n": 2,
+   "touched": [],
+   "both": []
+  },
+  "dplace:Jenkins": {
+   "source": "dplace:Jenkins",
+   "n": 3,
+   "touched": [],
+   "both": []
+  },
+  "dplace:SCCS": {
+   "source": "dplace:SCCS",
+   "n": 1781,
+   "touched": [
+    "abortion",
+    "divorce",
+    "extramarital",
+    "homosexuality",
+    "premarital",
+    "suicide"
+   ],
+   "both": []
+  },
+  "dplace:Kreft": {
+   "source": "dplace:Kreft",
+   "n": 1,
+   "touched": [],
+   "both": []
+  },
+  "dplace:ecoClimate": {
+   "source": "dplace:ecoClimate",
+   "n": 10,
+   "touched": [],
+   "both": []
+  },
+  "dplace:EA": {
+   "source": "dplace:EA",
+   "n": 94,
+   "touched": [
+    "premarital"
+   ],
+   "both": []
+  },
+  "dplace:GSHHS": {
+   "source": "dplace:GSHHS",
+   "n": 1,
+   "touched": [],
+   "both": []
+  },
+  "dplace:_template": {
+   "source": "dplace:_template",
+   "n": 0,
+   "touched": [],
+   "both": []
+  },
+  "dplace:MODIS": {
+   "source": "dplace:MODIS",
+   "n": 5,
+   "touched": [],
+   "both": []
+  }
+ },
+ "unseen": [
+  [
+   "yrbs",
+   "SAS label block only \u2014 NO questionnaire text in the release. The GSS control just measured that labels miss 7/7 of a known battery \u21d2 UNSEEN"
+  ],
+  [
+   "nsfg",
+   "SAS label block only \u2014 NO questionnaire text in the release. The GSS control just measured that labels miss 7/7 of a known battery \u21d2 UNSEEN"
+  ],
+  [
+   "dataverse",
+   "8 .dta, Stata labels only \u2014 replication packages ship code and data, not questionnaires \u21d2 UNSEEN"
+  ],
+  [
+   "dplace/SCCS",
+   "ethnographic CODES, not questions asked of a person \u2014 `#880`/`#882` already measured one observation per society \u21d2 cannot carry a moral/legal pair about one proposition at all"
+  ],
+  [
+   "brfss",
+   "1.2 GB .XPT and NO codebook in the directory \u21d2 UNSEEN, not cleared"
+  ],
+  [
+   "openpsych",
+   "psychometric scale item banks; 0 parseable codebooks found by this round's reader \u21d2 UNSEEN, not cleared"
+  ]
+ ],
+ "n_sources_with_question_text": 1,
+ "n_sources_total": 8
+}
