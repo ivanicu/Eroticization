@@ -1,0 +1,154 @@
+{
+ "entry": 907,
+ "round": "E03\u00b7A109\u00b7R345",
+ "verdict": "OVERTURNED",
+ "world": "EMPTY \u2014 GSS carries NO non-sexual topic with moral items about two cases and legal items about the same cases; `#906`'s semantic mismatch is IRREPARABLE on this release and `SPECIFIC` is UNDECIDABLE here, not refuted",
+ "n_labels": 6941,
+ "n_text": 1250,
+ "n_union": 7203,
+ "blindspots": {
+  "legality_by_label": 0,
+  "legality_by_text": 7,
+  "moral_by_label": 2,
+  "moral_by_text": 0
+ },
+ "union_recovers": true,
+ "labels_alone": true,
+ "text_alone": false,
+ "removal_clean": true,
+ "controls_ok": true,
+ "prefix_K": 2,
+ "control_respecified": "both halves of the pre-registered control were mis-specified: (a) neither-source-alone imported #891 ITEM-level complementarity as a validity condition, which it is not; (b) the removal deleted 9 of ~28 ab* variables. Corrected; the ESTIMAND threshold untouched",
+ "prefix_sweep": {
+  "2": {
+   "control_fires": true,
+   "topics": 7
+  },
+  "3": {
+   "control_fires": false,
+   "topics": 6
+  },
+  "4": {
+   "control_fires": false,
+   "topics": 3
+  }
+ },
+ "topics": [
+  {
+   "prefix": "ab",
+   "n_moral": 3,
+   "n_legal": 25,
+   "sexual": true,
+   "moral": [
+    "abpoorw",
+    "abmoral",
+    "abdefctw"
+   ],
+   "legal": [
+    "abfelegl",
+    "abnomoreg",
+    "abpoor1",
+    "abpoorg"
+   ]
+  },
+  {
+   "prefix": "co",
+   "n_moral": 2,
+   "n_legal": 12,
+   "sexual": false,
+   "moral": [
+    "cope4",
+    "cohabok"
+   ],
+   "legal": [
+    "colath",
+    "comsteal",
+    "cope4",
+    "colmslm"
+   ]
+  },
+  {
+   "prefix": "ta",
+   "n_moral": 2,
+   "n_legal": 2,
+   "sexual": false,
+   "moral": [
+    "tablprce",
+    "taxcheat"
+   ],
+   "legal": [
+    "taketrck",
+    "takearms"
+   ]
+  },
+  {
+   "prefix": "si",
+   "n_moral": 1,
+   "n_legal": 2,
+   "sexual": false,
+   "moral": [
+    "sinsacri"
+   ],
+   "legal": [
+    "sibinlaw",
+    "sinsacri"
+   ]
+  },
+  {
+   "prefix": "wo",
+   "n_moral": 1,
+   "n_legal": 2,
+   "sexual": false,
+   "moral": [
+    "world1"
+   ],
+   "legal": [
+    "workundc",
+    "workimm"
+   ]
+  },
+  {
+   "prefix": "se",
+   "n_moral": 1,
+   "n_legal": 2,
+   "sexual": true,
+   "moral": [
+    "sellsex"
+   ],
+   "legal": [
+    "sellorgn",
+    "sellbaby"
+   ]
+  },
+  {
+   "prefix": "an",
+   "n_moral": 1,
+   "n_legal": 2,
+   "sexual": false,
+   "moral": [
+    "anomia3"
+   ],
+   "legal": [
+    "anscitst",
+    "antirel"
+   ]
+  }
+ ],
+ "non_sexual_topics": 5,
+ "survivors_pre_reading": [
+  "co",
+  "ta"
+ ],
+ "survivors": [],
+ "reading": {
+  "co": [
+   "REJECTED",
+   "a PREFIX COLLISION, not a topic: `cohabok` is cohabitation (and is SEXUAL), `cope4` is 'feel god is punishing for sin' (not a judgement of a case), and the legal side mixes draft resisters, tolerance of Muslims and computer crime. Five unrelated subjects sharing two letters."
+  ],
+  "ta": [
+   "REJECTED",
+   "the moral items and the legal items are about DIFFERENT ACTS: `taxcheat` (cheating on taxes) and `tablprce` (a factory not lowering its price) against `takearms`/`taketrck` (punishment for two THEFT cases). No shared case, so it is not the structure."
+  ]
+ },
+ "unchallenged": true
+}

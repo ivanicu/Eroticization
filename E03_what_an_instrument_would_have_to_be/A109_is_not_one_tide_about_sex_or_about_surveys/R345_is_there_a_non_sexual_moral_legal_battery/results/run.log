@@ -1,0 +1,77 @@
+=== (0) HARD RULE 1 — the two sources, their sizes, and their MEASURED blind spots ===
+  Stata labels         6941 variables
+  codebook text        1250 variables  (18.0% of the release)
+  union                7203 variables
+
+  ⚠ `#891`'s two blind spots, re-measured here and COMPLEMENTARY:
+     legality items seen by LABELS 0/7 · by TEXT 7/7
+     moral `ab*w` items seen by LABELS 2/2 · by TEXT 0/2
+  ⇒ **neither source alone can recover the positive control; the UNION is the instrument.**
+
+=== (1) POSITIVE CONTROL — two-sided: the union must recover abortion, neither half may ===
+  prefix length K=2: union recovers abortion (>=2 moral, >=2 legal) True · topics with both sides 7
+  prefix length K=3: union recovers abortion (>=2 moral, >=2 legal) False · topics with both sides 6
+  prefix length K=4: union recovers abortion (>=2 moral, >=2 legal) False · topics with both sides 3
+  ⇒ the sweep selects **K = 2** (the smallest length at which the positive control fires)
+  union recovers abortion (>=1 moral, >=2 legal): **True**  moral=['abpoorw', 'abmoral', 'abdefctw'] legal=['abfelegl', 'abnomoreg', 'abpoor1', 'abpoorg']
+  labels alone recover it: True   ·   text alone recovers it: False
+  ⚠ **BOTH HALVES OF MY PRE-REGISTERED CONTROL WERE MIS-SPECIFIED, AND THE DISCLOSURE IS
+     THE POINT.** (a) I required *neither source alone* to recover abortion, importing
+     `#891`'s ITEM-level complementarity as a VALIDITY condition. It is not one: the
+     instrument only has to SEE the structure, and at TOPIC level labels alone do, because
+     `ablegal` and `abmoral` carry informative labels even though the seven stems do not.
+     Whether one source suffices is a MEASUREMENT, reported above, not a gate.
+     (b) the removal control deleted 9 of ~28 `ab*` variables, so of course `ab` survived.
+     ⇒ the corrected controls are: the union RECOVERS the structure, and deleting EVERY
+     `ab*` variable removes it. **The threshold on the estimand is untouched.**
+
+=== (2) REMOVAL CONTROL — delete the abortion items; nothing abortion-shaped may survive ===
+  deleting ALL 52 `ab*` variables ⇒ is `ab` still a topic with both sides: False
+  ⇒ controls license a reading: **True**
+
+=== (3) THE SCREEN — every topic with a moral item and >=2 legal items, sexual or not ===
+  topics with both sides: **7** · of which NON-SEXUAL: **5**
+  [SEX] ab         moral  3 ['abpoorw', 'abmoral', 'abdefctw']  legal 25 ['abfelegl', 'abnomoreg', 'abpoor1', 'abpoorg']
+        co         moral  2 ['cope4', 'cohabok']  legal 12 ['colath', 'comsteal', 'cope4', 'colmslm']
+        ta         moral  2 ['tablprce', 'taxcheat']  legal  2 ['taketrck', 'takearms']
+        si         moral  1 ['sinsacri']  legal  2 ['sibinlaw', 'sinsacri']
+        wo         moral  1 ['world1']  legal  2 ['workundc', 'workimm']
+  [SEX] se         moral  1 ['sellsex']  legal  2 ['sellorgn', 'sellbaby']
+        an         moral  1 ['anomia3']  legal  2 ['anscitst', 'antirel']
+
+=== (4) READING THE SHORTLIST — the screen's unit is not the claim's unit ===
+  ⚠ the claim needs, for ONE topic, moral items about >=2 DISTINCT CASES and legal items
+     about the SAME cases. A topic with one moral item and many legal items is NOT that.
+     co         moral 2 legal 12 ⇒ **candidate — needs reading**
+        MORAL cope4      Feel god is punishing for sin
+        MORAL cohabok    Living together as an acceptable option
+        LEGAL colath     (For instance, somebody who is against all churches and religion…) Should such a person be allowed to teach in
+        LEGAL comsteal   Punishment stealing national security computer
+        LEGAL cope4      Feel god is punishing for sin
+        LEGAL colmslm    Should such a person be allowed to teach in a college or university, or not? Should such a person be allowed t
+     ta         moral 2 legal 2 ⇒ **candidate — needs reading**
+        MORAL tablprce   The factory not lowering price acceptable?
+        MORAL taxcheat   Wrong to cheat on taxes?
+        LEGAL taketrck   Punishment for stealing and selling truck parts
+        LEGAL takearms   Punishment for stealing and selling weapons
+     si         moral 1 legal 2 ⇒ rejected: fewer than 2 moral CASES
+     wo         moral 1 legal 2 ⇒ rejected: fewer than 2 moral CASES
+     an         moral 1 legal 2 ⇒ rejected: fewer than 2 moral CASES
+
+  non-sexual topics reaching the claim's unit BEFORE reading: **2** ['co', 'ta']
+
+  READING, applying the pre-registered criterion (moral items about >=2 distinct CASES and
+  legal items about the SAME cases):
+     co     REJECTED a PREFIX COLLISION, not a topic: `cohabok` is cohabitation (and is SEXUAL), `cope4` is 'feel god is punishing for sin' (not a judgement of a case), and the legal side mixes draft resisters, tolerance of Muslims and computer crime. Five unrelated subjects sharing two letters.
+     ta     REJECTED the moral items and the legal items are about DIFFERENT ACTS: `taxcheat` (cheating on taxes) and `tablprce` (a factory not lowering its price) against `takearms`/`taketrck` (punishment for two THEFT cases). No shared case, so it is not the structure.
+  ⇒ **non-sexual topics surviving READING: 0** []
+
+=== (5) THE CONDITIONAL KILL — four cells, all assigned before the run ===
+  union recovers abortion True · labels alone True · text alone False · removal clean True
+  **VERDICT OVERTURNED · EMPTY — GSS carries NO non-sexual topic with moral items about two cases and legal items about the same cases; `#906`'s semantic mismatch is IRREPARABLE on this release and `SPECIFIC` is UNDECIDABLE here, not refuted**
+
+  ⚠ A LEXICON IS A CHOICE: an item phrased outside it is UNSEEN, not absent, and the
+     codebook covers 18.0% of the release so the other 82% is screened on a 46-character
+     label. `[unchallenged]` — `door ③`, and the reading above is mine alone.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A109_is_not_one_tide_about_sex_or_about_surveys/R345_is_there_a_non_sexual_moral_legal_battery/results/moral_legal_placebo_search.json

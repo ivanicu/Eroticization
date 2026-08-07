@@ -45028,3 +45028,95 @@ and a communist may speak and teach and it comes out larger in four of the six w
    `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
    `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
    `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 907 · `E03·A109·R345` — the last route to `SPECIFIC` is closed by the data, not by the answer
+
+**⇒ `OVERTURNED` · world `EMPTY`: GSS carries NO non-sexual topic with moral-wrongness items about
+two cases AND legal items about the same cases. `#906`'s semantic mismatch is IRREPARABLE on this
+release, and A105's `SPECIFIC` is therefore UNDECIDABLE here — which is a different and more honest
+statement than "refuted".**
+
+**WHY THIS ROUND EXISTS.** `#906` took A105's subject away with a placebo that is structurally
+identical and semantically not — its "norm" is a tolerance item and its "sanction" another tolerance
+item, while A105's norm was a MORAL judgement and its sanction a LEGAL one. `#906`① named that as
+**the one live route by which `SPECIFIC` could still be true**, and said in as many words: *"I do not
+currently know of such a pair in this release, and saying so is not the same as saying there is
+none — a search has not been run with a positive control."* **This is that search.**
+
+**THE INSTRUMENT IS A UNION, AND `#891` MEASURED WHY IT HAS TO BE.** Re-measured here: **the seven
+abortion legality items are seen by LABELS 0/7 and by CODEBOOK TEXT 7/7**; **the two moral `ab*w`
+items are seen by LABELS 2/2 and by TEXT 0/2.** *The two extraction paths are exactly
+complementary at the item level*, so the union of 6,941 Stata labels and 1,250 codebook question
+texts (**18.0% of the release**) is the instrument — 7,203 entries.
+
+**⚠ THE GROUPING RULE WAS THE FIRST DEFECT, AND THE POSITIVE CONTROL CAUGHT IT.** v1 grouped
+variables by `^([a-z]{2,8}?)(\d|w$|g$)`, which split `abpoorw` into a topic called `abpoor` — **so
+the abortion battery never assembled and the control failed.** The remedy is not to hand-pick a rule
+that works but to **sweep it**: fixed alphabetic prefix of `K` characters, `K ∈ {2,3,4}`, all three
+reported — `K=2` recovers abortion (3 moral, 25 legal), `K=3` and `K=4` do not — and the sweep
+selects the smallest `K` at which the control fires.
+
+**⚠⚠ AND THEN BOTH HALVES OF MY PRE-REGISTERED CONTROL TURNED OUT TO BE MIS-SPECIFIED, WHICH IS
+DISCLOSED HERE RATHER THAN QUIETLY REPAIRED.** (a) I required *"neither source alone recovers
+abortion"*, importing `#891`'s **item-level** complementarity as a **validity condition**. It is not
+one — the instrument only has to SEE the structure, and at TOPIC level labels alone do, because
+`ablegal` and `abmoral` carry informative labels even though the seven stems do not. **Whether one
+source suffices is a measurement, reported, not a gate.** (b) the removal control deleted **9 of the
+52** `ab*` variables, so of course `ab` survived. Corrected: delete **all 52** ⇒ `ab` vanishes.
+**⚠ THE THRESHOLD ON THE ESTIMAND WAS NOT TOUCHED** — how many non-sexual topics reach the claim's
+unit — **only the controls' own construction.** **Controls then pass.**
+
+**THE SCREEN: 7 topics with both sides, 5 of them non-sexual.** Of those, three are rejected
+mechanically for having fewer than two moral cases (`an`, `si`, `wo`), leaving **two candidates**.
+
+**⚠ AND THE VERDICT STRING SKIPPED THE READING MY OWN KILL REQUIRED — the project's "verdict string
+is not a computation" failure, caught before it was published.** v1 assigned `FOUND` off the
+**pre-reading** count while the pre-registered kill says *">=1 non-sexual topic survives READING"*.
+The fix is to make the reading an **object in the script** rather than a sentence in the report, and
+the criterion was pre-registered, so applying it is reading rather than choosing:
+
+| candidate | verdict | why |
+|---|---|---|
+| `co` | **REJECTED** | a **prefix collision, not a topic**: `cohabok` is cohabitation (and is *sexual*), `cope4` is *"feel god is punishing for sin"* (not a judgement of a case), and the legal side mixes draft resisters, tolerance of Muslims, and computer crime. Five unrelated subjects sharing two letters. |
+| `ta` | **REJECTED** | the moral and legal items are about **different acts**: `taxcheat` (*"Wrong to cheat on taxes?"*) and `tablprce` (*"The factory not lowering price acceptable?"*) against `takearms`/`taketrck` (punishment for two **theft** cases). **No shared case**, so it is not the structure. |
+
+**⇒ non-sexual topics surviving reading: 0.**
+
+**⇒ WHAT THIS DOES TO `#906`.** It does **not** rescue A105. It changes what `#906`'s verdict means:
+`GENERIC` was reached on the best placebo this release admits, and **no better one exists here.** So
+the honest state of A105's case-indexing claim is **UNDECIDABLE on GSS** — its number stands
+(`D = +0.6688`), the non-sexual comparison that would settle whether it is about sex cannot be
+built, and `#906`'s Stouffer placebo remains the closest available and is semantically mismatched by
+construction.
+
+**⇒ One sentence about people: none — and the reason is worth more than a hedge would be. To find
+out whether Americans judge sexual cases differently from other cases, you would need a survey that
+asks, about two non-sexual situations, both "is this wrong" and "should the law allow it". The
+largest social survey in the world has asked that about exactly one topic in fifty-two years, and
+it is abortion.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **a lexicon is a CHOICE** — an item phrased outside it is **UNSEEN, not absent**, and the
+   vocabulary is the whole instrument (`#894`③, now three times observed);
+② **the codebook covers 18.0% of the release**, so the other 82% is screened on a 46-character
+   label — the screen is systematically weaker there and that is not fixable here;
+③ **prefix grouping is a proxy for "topic"** and it collides (`co`, `ta` are the proof); a real
+   topic map would need the questionnaire's own section structure, which the release does not ship;
+④ **the reading is mine alone** — `door ③`, self-review is void, and this round is `[unchallenged]`;
+⑤ **cross-instrument N/A — `no second instrument`, `only this one instrument`** (`#897`, `#891`);
+⑥ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **`#906`① IS SETTLED AS AN IMPOSSIBILITY, NOT AS A FINDING**: the route to `SPECIFIC` exists in
+   principle and does not exist in this release. **Marking it "planned" would be forbidden; marking
+   it "closed" would be false.** It is closed *here* and open *anywhere with the right instrument*,
+   and `#897`③ already specifies what that instrument would have to be. ⇒ `#907`①
+② ⚠ **THREE CONTROL DEFECTS IN ONE ROUND, ALL MINE, ALL CAUGHT BY RUNNING**: a grouping rule that
+   dissolved the positive control, a validity condition imported from a measurement, and a verdict
+   string that skipped its own kill's reading step. **That is the same rate as the last four rounds
+   and it is no longer news — what is news is that the ledger has never counted it.** ⇒ `#907`②
+③ ⚠ Still `OPEN`: `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② ·
+   `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ ·
+   `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
+   `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
