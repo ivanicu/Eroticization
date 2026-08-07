@@ -45366,3 +45366,76 @@ did not find out until it tried to audit itself, three hundred rounds later.**
    `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② ·
    `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① ·
    `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 911 · `E03·A110·R349` — three things `#910` got wrong, and the basin rule stops the chain here
+
+**⇒ `OVERTURNED` · world `WRONG`: all THREE of `#910`'s published quantities fail. `#910`'s
+POPULATION is RETRACTED, its MECHANISM is RETRACTED, and its SHARE is RETRACTED.**
+
+**AND THE SHAPE IS THE SAME ONE, ONE LEVEL DEEPER.** `#909` found that I assert counts about my own
+work without measuring them. `#910` corrected `#909` — **and published three quantities of its own,
+of which none survives.** `#910`② named a check it had skipped; running that check found the other
+two.
+
+| `#910` published | measured here |
+|---|---|
+| **population 458** artifacts | **1,105 files** under `results/` — 533 `.csv`, 459 `.json`, 68 `.txt`, 34 `.log`, 6 `.npy`, 3 `.md`. **`#910` measured the JSON subset and called it "this project's artifacts": 41.4% of the real population.** |
+| **mechanism**: *"`P16`'s ORIGINAL scheme had a big `R` theme containing `rNN` sub-rounds"* | **0** `rNN` directories on disk · **0** ledger addresses containing one · address forms uniformly `EN·AN·RN` (683 of 685). **The sub-round scheme does not exist. `#910` INVENTED a mechanism for its own observation.** |
+| **addressable 58.5%** | **330 / 1,105 = 29.9%** over the full population (327 agreeing, 3 conflicting) |
+
+**WHAT IS ACTUALLY TRUE ABOUT THE AMBIGUITY, MEASURED RATHER THAN EXPLAINED.** **66 R-numbers carry
+several ledger entries** — `R006` carries **13**, and its directory holds **16 scripts**. ⇒ **early
+rounds simply produced many belief-updates each.** No sub-rounds were involved, and none were ever
+created. *`#910` saw a real pattern, could not see its cause, and supplied one — which is `L80`'s
+prohibition pointed at myself rather than at a machine.*
+
+**AND A ROUTE `#910` NEVER LOOKED FOR, MEASURED AND FOUND INSUFFICIENT.** **798 of 1,105 artifacts
+(72.2%) carry their producing script's stem as a filename prefix** (`<stem>__<output>`), so
+artifact → script is recoverable for nearly three quarters of the corpus. ⚠ **But script → entry is
+not: only 23 script filenames appear in any ledger entry, and only 14 of those name exactly one.**
+**The route exists, is large, and does not complete** — which is worth more than either the old
+number or a guess about it.
+
+**CONTROLS.** **Positive**: an `R347` artifact must resolve to `#909` — it does (n=2). **Negative**:
+an invented `R99999` resolves to nothing. **Empty population exits 2, never 0.** Both fire.
+
+**⇒ WHAT THE ADDRESSABILITY NUMBER NOW IS: 29.9%, not 58.5%.** `#909`'s 6/6 instrument count and
+every "what stands" figure remain **floors**, and the floor is lower than `#910` said.
+
+**⚠⚠ BASIN CALL, MADE IN THIS ENTRY RATHER THAN LEFT FOR A LATER ONE TO NOTICE.** This is the
+**third consecutive round whose object is my own bookkeeping** — `#909`→`#908`, `#910`→`#909`,
+`#911`→`#910` — and **each confirms the same story: I assert without measuring.** `frontier` §3 calls
+that a basin and prescribes a step whose positive outcome I would find unwelcome. **`§0.2` is
+sharper: a fourth would be the activity metric whose optimum is doing nothing, and Ivan's complaint
+is quoted there in his own words.** The chain has produced three real corrections and one general
+lesson, and a fourth would produce only the lesson again.
+
+> **The chain stops here. The next round changes object, and this sentence is the commitment.**
+
+**⇒ One sentence about people: none, and this is the third round in a row for which that is true —
+which is exactly why the next one will not be about me. What these three rounds bought is a
+corrected floor (29.9%, not 58.5%) and one transferable lesson: when I see a pattern in my own
+records I supply a mechanism for it, and the supplying feels identical to the seeing.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **the `<stem>__` prefix reaches a SCRIPT, not an ENTRY**, and only 14 script names are uniquely
+   cited by a ledger entry — the route is measured, large, and **incomplete**;
+② **an artifact's directory is evidence of WHERE it was written, not WHICH entry claimed it**
+   (`#910`'s own limit, and it is the one thing of `#910`'s that stands);
+③ **3 artifacts conflict across routes** and are reported rather than resolved;
+④ ⚠ **`[unchallenged]`** — `door ③`; ⑤ no second coder, no second release.
+
+**NEXT**
+① ⚠ **THE NEXT ROUND MUST NOT BE ABOUT THIS PROJECT'S OWN RECORDS.** Named here so a later round
+   cannot claim it did not know: `#909`②'s under-claiming gate, `#910`①'s coverage-printing
+   requirement and `#910`②'s disambiguation are all **suspended by the basin rule**, not forgotten.
+   **They may be picked up after at least one round whose object is people or data.** ⇒ `#911`①
+② ⚠ **The one lesson that is worth carrying out of the chain, and it is not "count more":** *when a
+   pattern appears in my own records, I supply a mechanism for it in the same breath as I report it,
+   and from the inside the supplying is indistinguishable from the seeing.* `#910`'s sub-round
+   scheme was fluent, plausible, consistent with `P16`, and **entirely absent from disk.** ⇒ `#911`②
+③ ⚠ Still `OPEN`: `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② ·
+   `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ ·
+   `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
+   `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
+   `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

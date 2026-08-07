@@ -1,0 +1,38 @@
+=== (0) `#910`'s OWN NUMBERS, read from its artifact and not retyped (`#840`'s RULE) ===
+  `#910` published: population **458** · addressable **58.5%** · ambiguous R-numbers **66**
+  and its stated MECHANISM: "`P16`'s ORIGINAL scheme had a big `R` theme containing `rNN` sub-rounds"
+
+=== (1) QUANTITY ONE — the POPULATION ===
+  every file under results/: **1105**  {'.csv': 533, '.json': 459, '.txt': 68, '.log': 34, '.npy': 6, '.md': 3}
+  of which `.json`: **459** ⇒ `#910` measured the JSON SUBSET and called it 'this project's artifacts'
+  ⇒ quantity ONE FAILS: the denominator was **41.4% of the real population**
+
+=== (2) QUANTITY TWO — the MECHANISM it gave for R-ambiguity ===
+  `rNN` sub-round DIRECTORIES on disk: **0**
+  ledger addresses containing an `rNN`: **0**
+  address FORMS: {'EN·AN·RN': 683, 'EN·AN·RNb': 1, 'EN·AN·RN+RN': 1}
+  ⇒ quantity TWO FAILS: **the sub-round scheme does not exist, on disk or in any address.** `#910` INVENTED a mechanism for its own observation.
+  what IS true, measured: **66 R-numbers carry several entries** — e.g. `R006` -> 13 entries, and its directory holds 16 scripts
+  ⇒ **early rounds simply produced many belief-updates each. No sub-rounds were involved.**
+
+=== (3) QUANTITY THREE — the ADDRESSABLE SHARE, with the route `#910` never looked for ===
+  ledger entries citing >=1 script filename: 23 distinct names, of which **14** name exactly one entry
+  artifacts whose `<stem>__` prefix matches a script in the same round: **798/1105 = 72.2%** — ⚠ a route to a SCRIPT, which reaches an ENTRY only for the 14 uniquely-cited names
+
+  over the FULL population of 1105: union **330 = 29.9%** · agreeing 327 · conflicting 3
+  ⇒ quantity THREE FAILS: `#910` said **58.5%**, the full-population figure is **29.9%**
+
+=== (4) CONTROLS ===
+  positive: an `R347` artifact resolves to `#909` -> **True**  (n=2)
+  negative: invented `R99999` resolves to nothing -> **True**
+
+=== (5) THE CONDITIONAL KILL ===
+  **VERDICT OVERTURNED · WRONG — 3 of `#910`'s three quantities fail: population, mechanism, share**
+
+  ⚠⚠ BASIN CALL, MADE HERE AND NOT LEFT FOR A LATER ROUND: this is the THIRD consecutive
+     round whose object is my own bookkeeping (`#909`→`#908`, `#910`→`#909`, `#911`→`#910`),
+     and the story each confirms is the same — *I assert without measuring*. `frontier` §3
+     calls that a basin; `§0.2` calls a fourth one an activity metric whose optimum is doing
+     nothing. **The chain stops here. The next round changes object.**
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A110_does_the_page_head_survive_its_own_audit/R349_auditing_the_audit_and_then_stopping/results/three_things_910_got_wrong.json

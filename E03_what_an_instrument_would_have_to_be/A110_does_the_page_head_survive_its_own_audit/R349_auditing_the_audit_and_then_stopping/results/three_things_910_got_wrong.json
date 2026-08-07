@@ -1,0 +1,42 @@
+{
+ "entry": 911,
+ "round": "E03\u00b7A110\u00b7R349",
+ "verdict": "OVERTURNED",
+ "world": "WRONG \u2014 3 of `#910`'s three quantities fail: population, mechanism, share",
+ "prior_population": 458,
+ "true_population": 1105,
+ "by_extension": {
+  ".json": 459,
+  ".md": 3,
+  ".csv": 533,
+  ".txt": 68,
+  ".npy": 6,
+  ".log": 34,
+  ".py": 1,
+  "": 1
+ },
+ "prior_share": 0.5851528384279476,
+ "full_population_share": 0.2986425339366516,
+ "rnn_dirs": 0,
+ "rnn_addresses": 0,
+ "address_forms": {
+  "EN\u00b7AN\u00b7RN": 683,
+  "EN\u00b7AN\u00b7RNb": 1,
+  "EN\u00b7AN\u00b7RN+RN": 1
+ },
+ "ambiguous_R": 66,
+ "stem_attributable": 798,
+ "uniquely_cited_scripts": 14,
+ "union": 330,
+ "agreeing": 327,
+ "conflicting": 3,
+ "failing_quantities": [
+  "population",
+  "mechanism",
+  "share"
+ ],
+ "positive_ok": true,
+ "negative_ok": true,
+ "basin": "third consecutive round on my own bookkeeping; the chain stops here",
+ "unchallenged": true
+}
