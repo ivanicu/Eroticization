@@ -43114,3 +43114,96 @@ this data cannot yet say.**
 ③ ⚠ Still `OPEN`: `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
    `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
    `#857`① · `#861`①.
+
+## Entry 887 · `E03·A103·R325` — a series with no break at all hands you an R² gain of 0.230 for free
+
+**`#886`①'s two-eras sentence is WITHDRAWN.** It was the closing line of the previous entry and it was
+written as a *design brief for this round* — which makes it exactly the shape `realstat` names: **the
+`next gradient` line is the highest-risk sentence in a report, written last, acted on by a later
+round, and the only one with no control attached.** This round is its control, and it was built so
+the outcome that would embarrass me is the one it could deliver.
+
+**WHAT `#886`① CLAIMED:** *the marginal collapse is concentrated after 1990, so the two windows are
+not two robustness checks, they are two different eras.*
+
+**ARITHMETIC FIRST, AND IT IS THE WHOLE ROUND.** `Δmax = 1 − SSE₂/SSE₁` maximised over ~20 candidate
+breakpoints is **positive by construction** — a maximum over correlated splits, so a series with no
+break whatsoever still returns a comfortable-looking gain. ⇒ *"Should this zero be zero?"* — **NO**
+⇒ **`offset_control`**, **kind of null named: an IPF-reconstructed constant-coupling null** (each
+wave rebuilt from the pooled table onto its own margins, so the marginal collapse is reproduced and
+the association is fixed), **with the SAME max statistic computed on every draw.**
+
+| | |
+|---|---|
+| observed `Δmax` (two-mean, index — the pre-registered cell) | **0.359**, best break after **1985** |
+| **the null's MEDIAN** — what a series with **no break at all** returns | **0.230** |
+| the null's 95th percentile | **0.386** |
+| ⇒ | **INSIDE. There is no break.** |
+
+**⇒ `OVERTURNED`. The `+0.340` / `−0.373` flip between all-waves and 1990+ is what cutting 28 noisy
+points in two produces for free, and I wrote a design brief on it.**
+
+**⚠⚠ ONE NULL CANNOT SERVE TWO STATISTICS, and this is the round's second finding.** The
+piecewise-**linear** cell reads `Δmax` **0.552** — which clears the *two-mean* model's null of 0.386
+and would have been reported as a finding. Judged against **its own** null it is **inside**: a
+piecewise line fits **four** parameters where two means fit **two**, so its free gain is larger by
+construction — **linear null median 0.533, 95th 0.690.** Across the 48-cell grid the correction is
+not cosmetic: **26 of 48 cells "clear the null" when all are measured against the mean model's, and
+only 8 of 48 clear their own.** **Eighteen detections were an apples-to-oranges null.**
+
+**⚠⚠ AND THE TRAP THIS ROUND EXISTS TO NAME: A CONFIDENT DATE FOR A BREAK THAT IS NOT THERE.**
+The location bootstrap (1,200 resamples over respondents) puts **93.8% of breakpoints inside
+1977–1985**, with a middle-90% span of only **1977–1987 — ten years of a forty-eight-year series.**
+That reads as a firm date. **It is not evidence of anything**, because a location estimate is
+**conditional on the feature existing**, and this one does not. **The tightness of a location
+estimate is never evidence that the thing being located is real.**
+Across the grid the 8 surviving cells place the break at **9 different years spanning 1977–2012** —
+pick a specification and you can date a regime change almost anywhere.
+
+**CONTROLS, all five pass.**
+- **positive**, with `floor` and `ceiling` **measured**, not chosen: plant a pure level shift at a
+  known year (1994). `Δmax` runs **0.359 → 0.525 → 0.632 → 0.731 → 0.911**, monotone; the null's 95th
+  (0.386) lies strictly between the measured floor (0.359) and ceiling (0.911); **at shift = 0 it does
+  not fire**; and at the largest plant **the location is recovered exactly — 1994 for 1994.**
+  ⇒ the instrument can both see a break and date one. It saw none here.
+- **negative**: the null's own draws sit inside their own tail (median 0.230 vs 95th 0.386).
+- **the band and the share were pre-registered before the run** — an 8-year band (≈2 wave-gaps in
+  the sparse era) and a 2/3 concentration share, the same share this project uses elsewhere.
+- **both split spaces reported** (wave index and calendar year), because GSS's grid is irregular —
+  gaps of 1, 2 and 3 years — and neither space is privileged.
+
+**⇒ One sentence, and it is about the work rather than about people: I ended the last round by
+declaring two eras and telling my next self to go measure the boundary between them. The boundary
+does not exist — a series with no break at all yields a bigger R² gain than the one I was pointing
+at, four times in five — and the bootstrap would still have handed me a confident date for it,
+93.8% inside a single eight-year band. **Two thirds of the way to a finding, everything looked
+right: a plausible mechanism, a clean split, a tight date. The only thing that stopped it was
+building the null out of the same maximisation.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **28 irregular points is low power against anything but a large regime change** ⇒ this is a
+   **bound**: *no break large enough for this design to see*, never *the coupling was continuous*.
+   More power needs more waves, which do not exist;
+② **causally identified: N/A** — repeated cross-sections; even a real break would name a date and
+   not a cause;
+③ **the wave grid is not of my choosing** — annual then biennial, so index-space and year-space are
+   genuinely different questions and **both are reported with neither called the answer**;
+④ ⚠ **the instrument cannot be changed** — a break in a coupling needs a time axis, and `#882`
+   measured that the only other matched norm–sanction instrument here (SCCS) codes each society at
+   one focal year and has **no time axis at all**. **Only this one instrument**, structurally;
+⑤ **no second coder, no second release.**
+
+**NEXT**
+① ⚠ **Three rounds in a row have now been spent on the TIME axis of one coupling, and two of them
+   ended in retraction of my own previous sentence.** `#885`② (retracted by `#886`), `#886`①
+   (withdrawn here). **That is a basin**: the loss is no longer decreasing along this direction, and
+   §4 says go batch or change direction. **The next step must not be a fourth time-series round on
+   the same series.** ⇒ `#887`①
+② ⚠ **What still stands, untouched by any of this, is the `#883` LEVEL difference** — residual
+   **0.446** (abortion) vs **0.780** (homosexuality) on the **same 2,694 people**, all six controls
+   passing. Every retraction since has been about *motion*; **not one has touched the level.** That
+   is the claim to attack next, and attacking it means a different instrument or a different unit,
+   not another wave. ⇒ `#887`②
+③ ⚠ Still `OPEN`: `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
+   `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
+   `#852`① · `#857`① · `#861`①.

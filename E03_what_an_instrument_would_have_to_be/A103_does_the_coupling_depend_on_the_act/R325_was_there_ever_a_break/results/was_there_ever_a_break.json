@@ -1,0 +1,653 @@
+{
+ "population": "the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021",
+ "waves": [
+  1973,
+  1974,
+  1976,
+  1977,
+  1980,
+  1982,
+  1984,
+  1985,
+  1987,
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021
+ ],
+ "series": [
+  0.7534832797469906,
+  0.7752198383727626,
+  0.7666483497051907,
+  0.7570707010405232,
+  0.7888022178219238,
+  0.7896357366074285,
+  0.8034893411873131,
+  0.7909146831081753,
+  0.8172102184711885,
+  0.8301903800972564,
+  0.8871472534990663,
+  0.8679005979312941,
+  0.8446899812984183,
+  0.772456827176467,
+  0.842061037059252,
+  0.8358691914872733,
+  0.7794853382434925,
+  0.8329104059661626,
+  0.8460247319682831,
+  0.8250952523801975,
+  0.7993185805608346,
+  0.8072792874017783,
+  0.8172057669682192,
+  0.789735961051419,
+  0.7992104527996335,
+  0.8014673406625913,
+  0.7885043975649128,
+  0.8409637103814734
+ ],
+ "observed": {
+  "mean|index": {
+   "gain": 0.35858088689034884,
+   "k": 7,
+   "year": 1985
+  },
+  "mean|year": {
+   "gain": 0.35858088689034884,
+   "k": 7,
+   "year": 1985
+  },
+  "linear|index": {
+   "gain": 0.5521112256260179,
+   "k": 12,
+   "year": 1991
+  },
+  "linear|year": {
+   "gain": 0.5398017064471552,
+   "k": 12,
+   "year": 1991
+  }
+ },
+ "primary": {
+  "gain": 0.35858088689034884,
+  "k": 7,
+  "year": 1985
+ },
+ "above_null": false,
+ "null": {
+  "kind": "IPF-reconstructed constant-coupling null, same max statistic",
+  "median": 0.23004197367357698,
+  "p95": 0.3855923593047031,
+  "max": 0.597542708324363
+ },
+ "bootstrap": {
+  "top": [
+   [
+    1985,
+    371
+   ],
+   [
+    1977,
+    261
+   ],
+   [
+    1982,
+    251
+   ],
+   [
+    1980,
+    168
+   ],
+   [
+    1984,
+    74
+   ],
+   [
+    1987,
+    65
+   ]
+  ],
+  "densest_band": [
+   1977,
+   1985
+  ],
+  "densest_share": 0.9375,
+  "concentrated": true,
+  "q05": 1977,
+  "q95": 1987,
+  "band_years": 8,
+  "conc_share": 0.6666666666666666
+ },
+ "positive": {
+  "dose": {
+   "0.0": 0.35858088689034884,
+   "0.02": 0.5248503544578049,
+   "0.05": 0.6324845863211623,
+   "0.1": 0.7306522401174967,
+   "0.2": 0.9105185603523617
+  },
+  "recovered": {
+   "0.0": 1985,
+   "0.02": 1985,
+   "0.05": 1987,
+   "0.1": 1994,
+   "0.2": 1994
+  },
+  "planted": 1994,
+  "floor": 0.35858088689034884,
+  "ceiling": 0.9105185603523617,
+  "ok": true
+ },
+ "linear_null": {
+  "median": 0.5330066584449932,
+  "p95": 0.6904716438874533,
+  "observed": 0.5521112256260179,
+  "above": false
+ },
+ "grid": [
+  {
+   "est": "spearman",
+   "sanction": "index",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.35858088689034884,
+   "year": 1985,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "index",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.35858088689034884,
+   "year": 1985,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "index",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.5521112256260179,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "index",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.5398017064471552,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "spk",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.5282105790791827,
+   "year": 1977,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "spearman",
+   "sanction": "spk",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.5282105790791827,
+   "year": 1977,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "spearman",
+   "sanction": "spk",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.6200232537636382,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "spk",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.6341931973491974,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "col",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.7224974844858422,
+   "year": 1987,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "spearman",
+   "sanction": "col",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.7224974844858422,
+   "year": 1987,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "spearman",
+   "sanction": "col",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.4724047814234943,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "col",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.5203040740007754,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "lib",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.1616846053006039,
+   "year": 2010,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "lib",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.1616846053006039,
+   "year": 2010,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "lib",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.52079143202603,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "spearman",
+   "sanction": "lib",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.4985087141586366,
+   "year": 1985,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "index",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.23159220700605287,
+   "year": 1982,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "index",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.23159220700605287,
+   "year": 1982,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "index",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.5362934490024008,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "index",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.5184230327833987,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "spk",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.5131728494498655,
+   "year": 1977,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "kendall",
+   "sanction": "spk",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.5131728494498655,
+   "year": 1977,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "kendall",
+   "sanction": "spk",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.5978551163577974,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "spk",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.6097422287025759,
+   "year": 1991,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "col",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.7302901375256148,
+   "year": 1987,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "kendall",
+   "sanction": "col",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.7302901375256148,
+   "year": 1987,
+   "own_null": 0.3855923593047031,
+   "above": true
+  },
+  {
+   "est": "kendall",
+   "sanction": "col",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.45700971469373164,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "col",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.5076463719222934,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "lib",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.17417081737352536,
+   "year": 2010,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "lib",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.17417081737352536,
+   "year": 2010,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "lib",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.5118662982580555,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "kendall",
+   "sanction": "lib",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.48728302623539865,
+   "year": 1985,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "index",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.12481020943196197,
+   "year": 1988,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "index",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.12481020943196197,
+   "year": 1988,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "index",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.1872149461812228,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "index",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.19098738892835898,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "spk",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.13039165841195377,
+   "year": 2012,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "spk",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.13039165841195377,
+   "year": 2012,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "spk",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.48686140390847055,
+   "year": 2012,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "spk",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.49974228457462355,
+   "year": 2010,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "col",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.18326451347591022,
+   "year": 1993,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "col",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.18326451347591022,
+   "year": 1993,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "col",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.312190103466072,
+   "year": 1987,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "col",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.3229928218747614,
+   "year": 1987,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "lib",
+   "model": "mean",
+   "space": "index",
+   "gain": 0.08782760622650676,
+   "year": 2010,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "lib",
+   "model": "mean",
+   "space": "year",
+   "gain": 0.08782760622650676,
+   "year": 2010,
+   "own_null": 0.3855923593047031,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "lib",
+   "model": "linear",
+   "space": "index",
+   "gain": 0.20584710353145075,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  },
+  {
+   "est": "gamma",
+   "sanction": "lib",
+   "model": "linear",
+   "space": "year",
+   "gain": 0.19324662157745498,
+   "year": 1988,
+   "own_null": 0.6904716438874533,
+   "above": false
+  }
+ ],
+ "grid_above_own_null": 8,
+ "grid_above_mean_null_naive": 26,
+ "distinct_years": 9,
+ "controls": {
+  "positive": true,
+  "negative": true
+ },
+ "admissible": true,
+ "verdict": "**B — THERE IS NO BREAK, and this is the outcome I would least like.**\n  Observed Δmax **0.359**; a series with **no break at all**, carrying the real marginal collapse, returns a median of **0.230** and a 95th percentile of **0.386**.\n  ⇒ **`#886`①'s two-eras sentence is WITHDRAWN.** The `+0.340` / `−0.373` flip between all-waves and 1990+ is what cutting 28 noisy points in two produces for free, and I wrote a design brief on it. **The closing sentence of a round is a claim, and that one had no control until now.**\n  ⚠⚠ **And the specification curve is where the honesty is.** The piecewise-LINEAR cell reads Δmax 0.552 — which clears the MEAN model's null and would have been a finding — but judged against **its own** null (0.690, larger because it fits 4 parameters to 2) it is INSIDE. Across the 48-cell grid, **8 cells clear their own model's null and they place the break at 9 DIFFERENT YEARS** — pick a specification and you can date a regime change anywhere from 1977 to 2012.\n  ⚠⚠ **And the location bootstrap is the trap this round exists to name**: **93.8% of bootstrap breakpoints fall in 1977–1985**, which reads as a confident date — **for a break that is not there**. A location estimate is CONDITIONAL on the feature existing; its tightness is never evidence that it does.\n  ⚠ And a null here is a **bound**: 28 irregular points have low power against anything but a large regime change, so this says *no break large enough for this design to see*, never *the coupling was continuous*.",
+ "gate_ok": false
+}

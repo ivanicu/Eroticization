@@ -1,0 +1,80 @@
+=== (0) HARD RULE 1 — n and the years actually asked, before any column is cited ===
+  homosex   n= 44726  1973–2024  (30 waves)
+  spkhomo   n= 39927  1973–2021  (28 waves)
+  colhomo   n= 41024  1973–2021  (28 waves)
+  libhomo   n= 39886  1973–2021  (28 waves)
+
+  **28 waves**, n=37030 · irregular spacing: gaps [np.int64(1), np.int64(2), np.int64(3)]
+
+=== (1) THE SERIES AND ITS BEST SPLIT — measured, and positive by construction ===
+  1973:0.753 1974:0.775 1976:0.767 1977:0.757 1980:0.789 1982:0.790 1984:0.803 1985:0.791 1987:0.817 1988:0.830 1989:0.887 1990:0.868 1991:0.845 1993:0.772 1994:0.842 1996:0.836 1998:0.779 2000:0.833 2002:0.846 2004:0.825 2006:0.799 2008:0.807 2010:0.817 2012:0.790 2014:0.799 2016:0.801 2018:0.789 2021:0.841
+  mean  /index  Δmax **0.359**  best break after **1985**
+  mean  /year   Δmax **0.359**  best break after **1985**
+  linear/index  Δmax **0.552**  best break after **1991**
+  linear/year   Δmax **0.540**  best break after **1991**
+  ⚠ every one of these is a MAXIMUM over ~20 correlated splits ⇒ **positive by construction**. Nothing here is evidence until it meets a null built the same way.
+
+=== (2) THE NULL — same statistic, series with NO break, real marginal collapse ===
+  null Δmax: median **0.230** · 95th **0.386** · max 0.598
+  observed Δmax **0.359** ⇒ above its null: **False**
+  ⚠ **the null's MEDIAN is 0.230** — that is how much R² gain a series with no break whatsoever hands you for free. Any Δmax read without this number is a narrative.
+
+=== (2b) THE LINEAR MODEL'S OWN NULL — one null cannot serve two statistics ===
+  linear null Δmax: median **0.533** · 95th **0.690**  (the mean model's was 0.386)
+  observed linear/index Δmax 0.552 ⇒ above ITS null: **False**
+  ⚠ a piecewise line fits 4 parameters to the mean model's 2, so its free gain is larger by construction. Judging it against the mean model's null would manufacture detections.
+
+=== (3) WHERE — bootstrap over respondents, breakpoint as a SET not a range ===
+  bootstrap breakpoint (top 6 years):
+     after 1985:  30.9%
+     after 1977:  21.8%
+     after 1982:  20.9%
+     after 1980:  14.0%
+     after 1984:   6.2%
+     after 1987:   5.4%
+  densest pre-registered 8-year band: **1977–1985** holding **93.8%** of draws (pre-registered threshold 67%) ⇒ concentrated: **True**
+  span of the middle 90% of bootstrap breakpoints: **1977–1987** (10 years of a 48-year series)
+
+=== (4) POSITIVE CONTROL — plant a break of KNOWN size at a KNOWN year, recover both ===
+  shift=+0.00  Δmax 0.359  recovered break after 1985
+  shift=+0.02  Δmax 0.525  recovered break after 1985
+  shift=+0.05  Δmax 0.632  recovered break after 1987
+  shift=+0.10  Δmax 0.731  recovered break after 1994
+  shift=+0.20  Δmax 0.911  recovered break after 1994
+  measured FLOOR (no plant, real series) 0.359 · CEILING (largest plant) 0.911 ⇒ the null's 95th (0.386) must lie strictly between them: True
+  => positive control **PASS** — monotone True; **at shift=0 it does not fire**; at the largest plant the LOCATION is recovered exactly (1994 vs planted 1994)
+
+=== (5) NEGATIVE CONTROL — does the machinery manufacture a break? ===
+  the null's own draws: median 0.230 vs its 95th 0.386 -> **PASS** (the null does not sit on its own tail)
+
+=== (6) SPECIFICATION CURVE + MULTIPLICITY — the whole grid, disagreement included ===
+  cells: **48** (3 estimators × 4 sanction measures × 2 models × 2 split spaces)
+  Δmax median 0.480  range [0.088,0.730]
+  **cells above THEIR OWN model's null: 8/48** (mean cells vs 0.386 · linear cells vs 0.690)
+  ⚠ against the MEAN model's null alone it would read 26/48 — **18 of those are the linear cells judged by the wrong null**, which is why each model gets its own.
+  best-break year across the grid (top 6): 1988:12 · 1991:8 · 2010:7 · 1987:6 · 1985:4 · 1977:4
+  distinct best-break years across 48 cells: **9**
+
+  CONDITIONAL KILL -- #887 · was there ever a break, and can it be dated
+   PASS  (1) HARD RULE 1: n and the years actually asked printed before any column was cited; the wave grid is irregular and both split spaces are swept because index and year are different questions on it                                                         n=37030 · 28 waves · gaps [np.int64(1), np.int64(2), np.int64(3)] · 总体:the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021   (asserted in code, not in prose)
+   PASS  (2) OFFSET CONTROL — 'should this zero be zero?' NO: a max over ~20 correlated splits is positive by construction. **Kind of null: an IPF-reconstructed constant-coupling null**, one association with each wave's own margins, then the SAME max statistic  null median 0.230 · 95th percentile 0.386 · max 0.598 · 总体:the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021   (asserted in code, not in prose)
+   PASS  (3) POSITIVE CONTROL: a planted level shift at a known year must be detected AND its location recovered, with floor and ceiling MEASURED and the threshold strictly between them, and it must NOT fire at shift=0                                            +0.00:0.359@1985 +0.02:0.525@1985 +0.05:0.632@1987 +0.10:0.731@1994 +0.20:0.911@1994 · floor 0.359 · ceiling 0.911 · planted 1994 · 总体:the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021   (asserted in code, not in prose)
+   PASS  (3b) ONE NULL CANNOT SERVE TWO STATISTICS: the piecewise-linear Δmax fits 4 parameters to the two-mean's 2, so it carries its own larger null and the grid is judged model by model rather than against a single number                                      mean null 95th 0.386 · linear null 95th 0.690 · linear/index observed 0.552 (above its own: False) · 总体:the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021   (asserted in code, not in prose)
+   PASS  (4) NEGATIVE CONTROL: the null's own draws must sit inside its own tail — the machinery must not manufacture a break                                                                                                                                         median 0.230 vs 95th 0.386 · 总体:the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021   (asserted in code, not in prose)
+   PASS  (5) THE BAND AND THE SHARE WERE PRE-REGISTERED BEFORE THE RUN, not tuned to the bootstrap: an 8-year band (~2 wave-gaps in the sparse era) and a 2/3 concentration share, the same share this project uses for 'concentrated' elsewhere                      band 8y · share 0.67 · densest (1977, 1985) at 93.8% · 总体:the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021   (asserted in code, not in prose)
+   FAIL  (6) KILL (pre-registered): for `#886`①'s two-eras framing to stand, **Δmax must exceed its IPF constant-coupling null AND the bootstrap breakpoint must concentrate in one 8-year band**                                                                     Δmax 0.359 vs null 95th 0.386 (above False) · densest band (1977, 1985) holds 93.8% (concentrated True) · middle-90% span 1977–1987 · grid cells above THEIR OWN null 8/48 · distinct best-years 9 · linear/index 0.552 vs its own null 0.690   尺:max-over-breakpoints R² gain on the 28-wave residual series; the floor is the same max computed on constant-coupling draws with the real marginal collapse,其自身噪声 0.385592 · 总体:the 37030 GSS respondents with both `homosex` and the three-item tolerance battery, as a 28-point per-wave series 1973–2021  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填) · 控制总体:6/6 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation ((6) KILL (pre-registered): for `#886`①'s two-eras framing to stand, **Δmax must exceed its IPF constant-coupling null AND the bootstrap breakpoint must concentrate in one 8-year band**). This is a refutation, NOT an unverified round (#366e).
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**B — THERE IS NO BREAK, and this is the outcome I would least like.**
+  Observed Δmax **0.359**; a series with **no break at all**, carrying the real marginal collapse, returns a median of **0.230** and a 95th percentile of **0.386**.
+  ⇒ **`#886`①'s two-eras sentence is WITHDRAWN.** The `+0.340` / `−0.373` flip between all-waves and 1990+ is what cutting 28 noisy points in two produces for free, and I wrote a design brief on it. **The closing sentence of a round is a claim, and that one had no control until now.**
+  ⚠⚠ **And the specification curve is where the honesty is.** The piecewise-LINEAR cell reads Δmax 0.552 — which clears the MEAN model's null and would have been a finding — but judged against **its own** null (0.690, larger because it fits 4 parameters to 2) it is INSIDE. Across the 48-cell grid, **8 cells clear their own model's null and they place the break at 9 DIFFERENT YEARS** — pick a specification and you can date a regime change anywhere from 1977 to 2012.
+  ⚠⚠ **And the location bootstrap is the trap this round exists to name**: **93.8% of bootstrap breakpoints fall in 1977–1985**, which reads as a confident date — **for a break that is not there**. A location estimate is CONDITIONAL on the feature existing; its tightness is never evidence that it does.
+  ⚠ And a null here is a **bound**: 28 irregular points have low power against anything but a large regime change, so this says *no break large enough for this design to see*, never *the coupling was continuous*.
+
+⚠ **Registered**: 28 irregular points; repeated cross-sections so a date is not a cause; both split spaces reported because neither is privileged on an uneven grid; and **the instrument cannot be changed** — a break in a coupling needs a time axis and SCCS, the only other matched-pair instrument here, has none.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R325_was_there_ever_a_break/results/was_there_ever_a_break.json
