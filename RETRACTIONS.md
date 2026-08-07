@@ -44228,3 +44228,99 @@ number per society and no case structure at all.**
    `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
    `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
    `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 898 · `E03·A106·R336` — `#895`'s null was silence, and four entries in a row have made ONE mistake
+
+**TYPE: CLOSURE, labelled before the run.** It opens no world. **What it protects:** `#895`'s
+verdict — *the person-level gradient is inside its stratum-label permutation null* — which `#895`
+itself registered as structurally incomplete in its own item ⑥: *"the MDE was not computed, so
+'inside the null' is a BOUND, not proof there is none."* **`#897`② registered the gap; this pays it.**
+
+> **⇒ `#895`'s world assignment `POP` — "the tilt is a population constant" — is DOWNGRADED to
+> `UNRESOLVED`. The null was SILENCE.**
+
+**THE MEASUREMENT.** A graded person-level plant on a covariate redrawn each replicate (`#895`'s own
+v3 fix), 200 replicates per level, detection read against **each stratifier's own null 95th
+percentile, READ from `R333`'s artifact and not retyped** (`#840`'s RULE; ⚠ and `#840`'s own scope
+named so nothing is inherited — `#840`/`#838`/`#839`/`#846` were measured on the `homosex` item
+alone, so only the practice transfers, never their findings).
+
+| g | median \|T\| | detection `attend` | `polviews` | `educ` |
+|---|---|---|---|---|
+| 0.00 | 0.0055 | 0.0% | 2.5% | 4.0% |
+| 0.20 | 0.1637 | 7.5% | 29.5% | 33.5% |
+| 0.30 | 0.2335 | 27.0% | 55.5% | 64.5% |
+| 0.40 | 0.2953 | 49.0% | 77.0% | **81.0%** |
+| 0.50 | 0.3550 | 73.5% | **96.0%** | 97.5% |
+| 0.70 | 0.4508 | **94.0%** | 98.5% | 99.0% |
+| 1.00 | 0.5923 | 100% | 100% | 100% |
+
+| stratifier | **MDE at 80% power** | observed \|T\| | reading |
+|---|---|---|---|
+| `attend` | **0.4508** | 0.3121 | **UNRESOLVED, not absent** |
+| `polviews` | **0.3550** | 0.1030 | **UNRESOLVED, not absent** |
+| `educ` | **0.2953** | 0.1274 | **UNRESOLVED, not absent** |
+
+**Every observed contrast is below its own MDE — including `attend`'s +0.3121, which `#895` reported
+as "7/9 cells beyond its null".** A contrast can clear a 95th percentile on the draw you happen to
+have and still be a size the design would miss most of the time; **those are two different
+questions, and `#895` answered the first while writing down the second.**
+
+**⇒ WHAT SURVIVES OF `#895` AND WHAT DOES NOT.** Its **withdrawal of `#893`'s gradient paragraph
+STANDS** — an unevidenced `D5` claim stays unevidenced, and nothing here evidences it. Its
+**positive claim of homogeneity does NOT**: the honest state is that a person-level gradient is
+**neither demonstrated nor excluded**, and that seeing one would need `|T| ≳ 0.30–0.45`.
+
+**CONTROLS.** ⚠ **The first run's positive control FAILED on simulation noise** — 60 replicates gave
+a non-monotone wobble at `g = 0.10 → 0.15` (0.0944 → 0.0813). **A control that fails on simulation
+noise is fixed by measuring better, not by excusing it**: at 200 replicates the curve is monotone
+across all ten levels, `g = 0` lands on **+0.0055** (2% of the reference effect), sensitivity at
+`g = 0.20`. **Negative control** passes. **ALL GATES PASS.**
+
+**⚠⚠ AND NOW THE PART THAT IS ABOUT ME RATHER THAN THE DATA, BECAUSE FOUR ENTRIES IN A ROW HAVE
+CORRECTED THE ONE BEFORE.** `#893` corrected `#892` · `#895` corrected `#893` · `#898` corrects
+`#895`. The constitution's §0.2 requires that a run of retractions state **the one error class**
+rather than be counted. **It is one class, and it is not carelessness:**
+
+> **I keep comparing a number to a reference that answers a DIFFERENT QUESTION than the sentence I
+> then write.**
+> - `#892` compared a **bracket to 0** when its one-factor baseline was **+0.4497** — the reference
+>   answered *"is it non-zero"*, the sentence claimed *"it is flat"*.
+> - `#893` compared **three ordered points to each other** with no reference at all — the comparison
+>   answered *"are they ordered"*, the sentence claimed *"there is a gradient"*.
+> - `#895` compared an **observed contrast to a null's 95th percentile** — the correct reference for
+>   **presence**, and the sentence claimed **absence**, which needs an MDE.
+>
+> **In every case the arithmetic was right and the reference was answering the previous question.**
+> The remedy is mechanical and is adopted here: **before writing a conclusion, name the reference and
+> the question it answers, and require that question to be the one in the sentence.** *A number is
+> not a claim until you say what it was measured against, and "against its null" is not enough —
+> a null answers "could this have been noise", never "could this have been missed".*
+
+**⇒ One sentence about people: still nothing — and now the reason is stated honestly. This project
+cannot say whether the religious, the conservative or the less educated judge cases differently from
+anyone else, because the instrument would need a gap roughly three times the largest one observed
+before it could tell. That is a fact about a survey, not about them.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① an **MDE is a property of the DESIGN**, never of the world;
+② ⚠ **this is a bound for ONE PLANT SHAPE** — a graded case-specific coupling applied to one
+   stratum. A real person-level effect of a different shape would have a different MDE, and **no
+   sweep over plant shapes was run**;
+③ `attend`/`polviews`/`educ` are proxies, mutually correlated, not three independent tests;
+④ **cross-instrument N/A — `no second instrument`, `only this one instrument`**, and `#897`
+   measured why: SCCS's matching design cannot resolve any effect at all;
+⑤ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The error class above is now a claim about my own process and it has no control.** It was
+   read off four consecutive entries by me, about me — **`door ③`: self-review is void, not weak.**
+   The honest next step is a clean-context adversary given the four entries and asked whether the
+   class holds or whether I have found a pattern in three unrelated mistakes. ⇒ `#898`①
+② ⚠ **`#895`'s page row states `POP` and must now carry the downgrade** — `supersede_gate` will
+   catch it on the next commit, which is the first time that instrument has been the thing that
+   notices rather than me. ⇒ handled in this commit.
+③ ⚠ Still `OPEN`: `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ ·
+   `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
+   `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

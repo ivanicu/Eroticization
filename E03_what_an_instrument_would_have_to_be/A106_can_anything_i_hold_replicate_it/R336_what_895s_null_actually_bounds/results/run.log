@@ -1,0 +1,55 @@
+=== (0) HARD RULE 1 — n, years, codes, before any column is cited ===
+  abpoorw   n_in_sample= 1960/1960 codes=[1, 2, 3, 4]
+  abdefctw  n_in_sample= 1960/1960 codes=[1, 2, 3, 4]
+  abdefect  n_in_sample= 1960/1960 codes=[1, 2]
+  abnomore  n_in_sample= 1960/1960 codes=[1, 2]
+  abhlth    n_in_sample= 1960/1960 codes=[1, 2]
+  abpoor    n_in_sample= 1960/1960 codes=[1, 2]
+  abrape    n_in_sample= 1960/1960 codes=[1, 2]
+  absingle  n_in_sample= 1960/1960 codes=[1, 2]
+  abany     n_in_sample= 1960/1960 codes=[1, 2]
+  attend    n_in_sample= 1937/1960 codes=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+  polviews  n_in_sample= 1887/1960 codes=[1, 2, 3, 4, 5, 6, 7]
+  educ      n_in_sample= 1955/1960 codes=[0, 2, 3, 4, 5, 6, 7, 8, 9]
+  ⇒ base sample n=1960, waves [1991, 1998, 2008]
+
+  read from `R333`'s artifact (never retyped — `#840`'s RULE):
+    attend    observed T +0.3121 · its own null 95th pct 0.2973 · strata n=[796, 559, 582]
+    polviews  observed T +0.1030 · its own null 95th pct 0.2218 · strata n=[576, 714, 597]
+    educ      observed T +0.1274 · its own null 95th pct 0.2039 · strata n=[902, 516, 537]
+
+=== (1) THE POWER CURVE — a graded person-level plant, detection MEASURED per stratifier ===
+  ⚠ the plant is applied to a RANDOM third redrawn each replicate (`#895`'s v3 fix: a
+     covariate drawn once gives a control whose spread is exactly zero, and a constant
+     cannot be a null). Its size is then read against EACH stratifier's own null.
+  g=0.00  |T| median 0.0055 ± 0.0994   detection attend=  0.0% polviews=  2.5% educ=  4.0%
+  g=0.05  |T| median 0.0336 ± 0.1160   detection attend=  2.0% polviews=  5.5% educ=  8.5%
+  g=0.10  |T| median 0.0873 ± 0.1024   detection attend=  2.5% polviews=  6.0% educ=  8.5%
+  g=0.15  |T| median 0.1086 ± 0.1036   detection attend=  6.5% polviews= 16.0% educ= 21.0%
+  g=0.20  |T| median 0.1637 ± 0.1040   detection attend=  7.5% polviews= 29.5% educ= 33.5%
+  g=0.30  |T| median 0.2335 ± 0.1044   detection attend= 27.0% polviews= 55.5% educ= 64.5%
+  g=0.40  |T| median 0.2953 ± 0.0907   detection attend= 49.0% polviews= 77.0% educ= 81.0%
+  g=0.50  |T| median 0.3550 ± 0.0891   detection attend= 73.5% polviews= 96.0% educ= 97.5%
+  g=0.70  |T| median 0.4508 ± 0.1014   detection attend= 94.0% polviews= 98.5% educ= 99.0%
+  g=1.00  |T| median 0.5923 ± 0.0982   detection attend=100.0% polviews=100.0% educ=100.0%
+
+=== (2) THE MDE PER STRATIFIER, and what it says about each observed contrast ===
+  attend    MDE 0.4508  ⇒ observed |T| 0.3121 < MDE 0.4508 ⇒ **UNRESOLVED, not absent** — `#895`'s null here is SILENCE, not homogeneity
+  polviews  MDE 0.3550  ⇒ observed |T| 0.1030 < MDE 0.3550 ⇒ **UNRESOLVED, not absent** — `#895`'s null here is SILENCE, not homogeneity
+  educ      MDE 0.2953  ⇒ observed |T| 0.1274 < MDE 0.2953 ⇒ **UNRESOLVED, not absent** — `#895`'s null here is SILENCE, not homogeneity
+
+  median MDE over stratifiers: 0.3550  ·  observed |T| range [0.1030, 0.3121]
+
+=== (3) THE READING — pre-registered, and Closure has no kill ===
+  ⇒ **`#895`'s null is SILENCE for every stratifier — the MDE exceeds every observed contrast, so no gradient of the observed size could have been seen and the page must say so**
+  CONDITIONAL KILL -- What does `#895`'s null actually bound?
+   PASS  positive: the statistic responds to the person-level plant  方向由数据给出:**上升**;灵敏度 g=0.2;g=0 +0.0055 · g=1 +0.5923   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  g=0 lands on zero                                           |+0.0055| < 0.5*|+0.3121| = 0.1561   (null is 2% of the effect [零的方案: `R333`'s STRATUM-LABEL PERMUTATION NULL with sizes preserved, REUSED rather than recomputed so the MDE is on the same scale as the verdict it qualifies])
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+
+  ⚠ AN MDE IS A PROPERTY OF THE DESIGN, NOT OF THE WORLD, and this one is a bound for ONE
+     PLANT SHAPE — a graded case-specific coupling applied to one stratum. A real effect of a
+     different shape would have a different MDE, and no sweep over plant shapes was run.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A106_can_anything_i_hold_replicate_it/R336_what_895s_null_actually_bounds/results/mde_of_the_stratified_design.json
