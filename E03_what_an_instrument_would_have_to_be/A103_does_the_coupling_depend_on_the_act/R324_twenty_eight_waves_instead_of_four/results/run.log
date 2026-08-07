@@ -1,0 +1,75 @@
+=== (0) HARD RULE 1 — n and the years actually asked, before any column is cited ===
+  homosex   n= 44726  1973–2024  (30 waves)
+  spkhomo   n= 39927  1973–2021  (28 waves)
+  colhomo   n= 41024  1973–2021  (28 waves)
+  libhomo   n= 39886  1973–2021  (28 waves)
+
+  **28 waves** (n>=200), total n=37030 — against the FOUR the abortion pair forced in `#885`
+
+=== (1) THE SERIES — 28 waves, with the marginal collapse beside it ===
+  share answering ALWAYS WRONG: 0.714 (1973) -> 0.255 (2021) — a factor of 2.8
+  residual share: min 0.753 · max 0.887 · **spread 0.134** · **trend ρ_S(year, residual) = +0.340** over 28 waves
+  ⚠ ARITHMETIC: a collapsing marginal ATTENUATES ρ and therefore RAISES the residual — a rising residual is the arithmetic default, and the null must absorb exactly that.
+
+=== (2) THE NULL — kind of null NAMED: IPF-reconstructed constant-coupling ===
+  null SPREAD: median 0.128  95th **0.162**   (observed 0.134)
+  null |TREND|: median 0.085  95th **0.249**   (observed |0.340|)
+  => spread above its null: **False** · trend above its null: **True**
+  ⚠ the null already contains the marginal collapse — it is built from it.
+
+=== (3) POSITIVE CONTROL — dose ANCHORED to abortion's measured movement (0.351) ===
+  g=0.00  planted spread = 0.136
+  g=0.25  planted spread = 0.174
+  g=0.50  planted spread = 0.214
+  g=0.75  planted spread = 0.330
+  g=1.00  planted spread = 0.377
+  measured turning point g=1.00 (the statistic is EVEN IN ρ, so past the turn the plant inverts the association — `#885`'s lesson, applied here by construction)
+  => positive control **PASS**: at g=0 the spread is 0.136, INSIDE the null 0.162; at the turn 0.377, outside
+
+=== (4) BLINDNESS CONTROL (world C) — would a movement the SIZE OF ABORTION'S be seen? ===
+  the design's own detection floor for a spread is its null 95th = **0.162**
+  abortion's measured movement (`#885`) = **0.351**
+  => **PASS** — a movement of the size that matters WOULD have been detected here; smallest firing dose g=0.25
+     per-wave bootstrap CI width 1973: 0.072
+     per-wave bootstrap CI width 1994: 0.053
+     per-wave bootstrap CI width 2021: 0.076
+  ⚠ the CI width is the gauge test made numeric: if it grew as the marginal collapsed, 'flat' and 'unmeasurable' would converge and the null would be silence.
+
+=== (5) NEGATIVE CONTROL — does the IPF machinery manufacture motion? ===
+  its own reconstruction: median spread 0.128 vs 95th 0.162 · median trend +0.021 vs 95th 0.249 -> **PASS**
+
+=== (6) SPECIFICATION CURVE + MULTIPLICITY — the whole grid, disagreement included ===
+  cells: **24** (3 estimators × 4 sanction measures × 2 windows)
+  gamma     spread median 0.263 [0.193,0.435] · trend median +0.151 [-0.255,+0.343]
+  kendall   spread median 0.093 [0.061,0.106] · trend median +0.042 [-0.632,+0.731]
+  spearman  spread median 0.105 [0.066,0.134] · trend median +0.066 [-0.632,+0.729]
+  cells whose spread exceeds the index null 95th (0.162): **8/24**
+  ⚠ γ is far less sensitive to marginal compression than ρ; if a movement were compression it should shrink under γ. The whole grid is printed, including cells that disagree.
+
+=== (6b) SIGN STABILITY OF THE TREND — computed, because a kill on one cell is not a direction ===
+  window 1990plus  trend>0 in 5/12 cells · median -0.293 · range [-0.632,+0.343]
+  window all       trend>0 in 9/12 cells · median +0.239 · range [-0.064,+0.731]
+  => the trend's sign is **NOT STABLE** across windows ⇒ **no direction may be stated**
+
+  CONDITIONAL KILL -- #886 · did the homosexuality coupling move, at 28 waves instead of four
+   PASS  (1) HARD RULE 1: n and the years actually asked printed before any column was cited; 28 waves against the four the abortion pair forced                                                                                                         n=37030 · waves 28 (1973–2021) · 总体:the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973–2021   (asserted in code, not in prose)
+   PASS  (2) OFFSET CONTROL — 'should this zero be zero?' NO: a collapsing marginal attenuates ρ and RAISES the residual by arithmetic. **Kind of null: an IPF-reconstructed constant-coupling null**, built from the observed marginal collapse itself  null 95th: spread 0.162 · |trend| 0.249 · 总体:the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973–2021   (asserted in code, not in prose)
+   PASS  (3) POSITIVE CONTROL, dose-response, monotone up to a MEASURED turning point (the statistic is even in ρ), and it must NOT fire at g=0 where the coupling is constant and the real marginal collapse is still applied                           g=0.0:0.136 g=0.25:0.174 g=0.5:0.214 g=0.75:0.330 g=1.0:0.377 · turn g=1.00 · null95 0.162 · 总体:the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973–2021   (asserted in code, not in prose)
+   PASS  (4) BLINDNESS CONTROL (world C): the design's own detection floor must be SMALLER than abortion's measured movement, or 'flat' is silence rather than a finding                                                                                 MDE(spread) 0.162 vs abortion's 0.351 · per-wave CI widths [0.07249720759549017, 0.05326623114782747, 0.07627564692396505] · 总体:the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973–2021   (asserted in code, not in prose)
+   PASS  (5) NEGATIVE CONTROL: the IPF machinery must not manufacture motion — its own reconstruction re-measured sits inside its own null                                                                                                               median spread 0.128 · median trend +0.021 · 总体:the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973–2021   (asserted in code, not in prose)
+   FAIL  (6) KILL (pre-registered): for `#885`② to survive at full power, **neither the spread NOR the trend may exceed its IPF constant-coupling null**                                                                                                 spread 0.134 vs 0.162 (above False) · trend +0.340 vs ±0.249 (above True) · grid cells above 8/24 · marginal 0.714->0.255 · SIGN STABILITY {'1990plus': {'pos': 5, 'n': 12, 'median': -0.29289215686274517, 'lo': -0.6323529411764707, 'hi': 0.34313725490196084}, 'all': {'pos': 9, 'n': 12, 'median': 0.23918992884510126, 'lo': -0.06403940886699507, 'hi': 0.7312534209085934}} (stable False)   尺:the spread and the year-trend of 1−ρ² over 28 waves; the floor is the same pair of statistics simulated under one coupling with each wave's own margins,其自身噪声 0.162235 · 总体:the 37030 GSS respondents with both `homosex` and the three-item homosexual tolerance battery, split into the 28 waves 1973–2021  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填) · 控制总体:5/5 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation ((6) KILL (pre-registered): for `#885`② to survive at full power, **neither the spread NOR the trend may exceed its IPF constant-coupling null**). This is a refutation, NOT an unverified round (#366e).
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**B — IT IS NOT FLAT, and four waves could not have seen that.**
+  spread **0.134** vs null **0.162** (inside) · trend **+0.340** vs **±0.249** (**outside**) ⇒ **`#885`② is RETRACTED.**
+  ⚠ **And note WHICH statistic caught it**: the SPREAD is inside its null and the TREND is not. **Four waves can only compute a spread** — so `#885`② was not merely under-powered, it was measured with the only statistic four points admit.
+  ⚠⚠ **BUT NO DIRECTION MAY BE STATED, and that is computed rather than conceded.** Across the 24-cell grid the trend's sign **flips with the window**: over all 28 waves it is positive in 9/12 cells (median +0.239), and from 1990 onward positive in only 5/12 (median -0.293). The same pre-registered cell reads +0.340 on all waves and -0.373 from 1990.
+  ⇒ **what is retracted is 'it did not move'. What replaces it is NOT 'it loosened' — it is 'it is not flat, and its direction is not established at this resolution'.**
+  ⇒ **one sentence about people: over half a century Americans reversed their verdict on whether homosexuality is wrong — the share calling it *always wrong* fell 0.714 → 0.255 — and the joint between that verdict and what they wanted done did NOT hold still. It is the one thing I claimed a country could change its mind without disturbing, and it moved. Which way it moved, this data cannot yet say.**
+
+⚠ **Registered**: repeated cross-sections, not a panel — every wave difference is a composition difference as well as a change; the battery stops in 2021; the battery asks about a PERSON and the norm about an ACT; and **the instrument cannot be changed** for a motion claim, because the only other matched-pair instrument here (SCCS) has no time axis at all.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R324_twenty_eight_waves_instead_of_four/results/twenty_eight_waves.json

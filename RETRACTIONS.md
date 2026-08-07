@@ -43024,3 +43024,93 @@ country can close, and it closed it for one of these and not the other.**
 ③ ⚠ Still `OPEN`: `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
    `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① ·
    `#861`①.
+
+## Entry 886 · `E03·A103·R324` — I said a country could change its mind without disturbing the joint, and the joint moved
+
+**`#885`② is RETRACTED.** It was published one entry ago, on **four** waves, with the note that it
+*"has not been attacked"*. This round attacked it at **28 waves, 1973–2021, n = 37,030** — 7× the
+time points and 14× the sample — **and was built so that the outcome it could deliver is the one I
+would least like.** It delivered it.
+
+**THE CLAIM UNDER TEST WAS MINE, AND IT WAS THE PRETTIER HALF OF `#885`:** *a society can reverse its
+verdict on whether something is wrong without changing at all how tightly that verdict is tied to
+what it wants done.*
+
+| | |
+|---|---|
+| share of Americans calling homosexuality **always wrong** | **0.714 (1973) → 0.255 (2021)** — a factor of **2.8** |
+| residual share `1 − ρ²`, 28 waves | min 0.753 · max 0.887 |
+| **SPREAD** | **0.134** vs the IPF null's **95th percentile 0.162** — **inside** |
+| **TREND** `ρ_S(year, residual)` | **+0.340** vs the IPF null's **95th percentile ±0.249** — **OUTSIDE** |
+
+**⇒ `OVERTURNED`. The kill was pre-registered as *neither the spread NOR the trend may exceed its
+null*, and the trend did.**
+
+**⚠ AND NOTE WHICH STATISTIC CAUGHT IT — this is the methodological finding.** The **spread** is
+inside its null; the **trend** is not. **Four waves can only compute a spread.** So `#885`② was not
+merely under-powered: **it was measured with the only statistic four points admit, and that statistic
+is blind to exactly the kind of motion that was there.** A monotone drift and a flat line have the
+same max−min when you only have four points spanning the flat part.
+
+**⚠⚠ BUT NO DIRECTION MAY BE STATED, AND THAT IS COMPUTED RATHER THAN CONCEDED.** Across the 24-cell
+grid (3 estimators × 4 sanction measures × 2 windows, published whole) **the trend's sign flips with
+the window**: over all 28 waves positive in **9/12** cells (median **+0.239**), from 1990 onward
+positive in only **5/12** (median **−0.293**). The same pre-registered cell reads **+0.340** on all
+waves and **−0.373** from 1990.
+⇒ **what is retracted is *"it did not move"*. What replaces it is NOT *"it loosened"* — it is
+*"it is not flat, and its direction is not established at this resolution"*.**
+
+**THE NULL IS THE DESIGN, AND IT CONTAINS THE ARTIFACT.** *"Should this zero be zero?"* — **NO**: a
+collapsing marginal **attenuates ρ and therefore RAISES the residual**, so a rising residual is the
+arithmetic default. The null is an **`offset_control`** and its **kind of null is named: an IPF-reconstructed
+constant-coupling null** — every wave rebuilt from the **pooled** table onto **its own margins**,
+preserving all odds ratios while reproducing the collapse exactly.
+
+**CONTROLS, all four pass.**
+- **positive**, and its dose is **anchored to a real measured effect** rather than chosen: a planted
+  movement the size of the one **abortion actually showed** (`#885`, spread 0.351). Doses
+  `0.136 → 0.174 → 0.214 → 0.330 → 0.377`, monotone to a **measured** turning point at g = 1.00
+  (the statistic is even in ρ — `#885`'s lesson applied by construction), **and at g = 0, a constant
+  coupling carrying the real marginal collapse, it does not fire** (0.136 inside 0.162).
+- **blindness (world C)**: the design's detection floor is **0.162** against abortion's **0.351** ⇒
+  **a movement of the size that matters would have been seen**, and the smallest firing dose is
+  g = 0.25. Per-wave bootstrap CI width **0.072 (1973) · 0.053 (1994) · 0.076 (2021)** — the
+  instrument keeps its resolution while the marginal moves by 2.8×, so *flat* here was never
+  going to be silence. **The gauge test was run before the design was fixed, not after the result.**
+- **negative**: the IPF machinery on its own reconstruction, median spread 0.128 vs 95th 0.162,
+  median trend +0.021 vs ±0.249 — it does not manufacture motion.
+- **grid**: **8 of 24** cells exceed the index null's spread, and the γ cells (least sensitive to
+  marginal compression) give the **largest** spreads (median 0.263) — compression would shrink them.
+
+**⇒ One sentence about people: over half a century Americans reversed their verdict on whether
+homosexuality is wrong — the share calling it *always wrong* fell from 71% to 26% — and the joint
+between that verdict and what they wanted done about it did NOT hold still. It is the one thing I
+had claimed a country could change its mind without disturbing, and it moved. Which way it moved,
+this data cannot yet say.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **causally identified: N/A** — repeated cross-sections, not a panel; every wave difference is a
+   composition difference as well as a change, and nothing in these columns separates them;
+② **the battery stops in 2021** while the norm runs to 2024 ⇒ every number is 1973–2021;
+③ **the battery asks about "homosexuals" and the norm about an act between two adults** — a person
+   and an act, a mismatch in the instrument that no analysis removes;
+④ ⚠ **the instrument cannot be changed for a motion claim, and it is structural**: `#882` measured
+   that the only two instruments here with a matched norm–sanction pair are GSS and SCCS, and
+   **SCCS codes each society at one focal year — no time axis at all**. **Only this one instrument.**
+⑤ **no second coder, no second release.**
+
+**NEXT**
+① ⚠ **The direction is now the object and the window is the fork.** All-waves says one thing, 1990+
+   says the other, and the marginal collapse is concentrated **after** 1990 — so the two windows are
+   not two robustness checks, they are **two different eras**. A design that treats the window as a
+   parameter is measuring the wrong thing; a design that treats the break as the object is the next
+   round. ⇒ `#886`①
+② ⚠ **`#885`'s contrast is now half-standing and must be re-read**: abortion's coupling moved
+   (spread, 4 waves) and homosexuality's moved (trend, 28 waves). **They were never "one moved, one
+   did not" — they were measured with different statistics on different numbers of waves**, and the
+   comparison as published in `#885` is **not admissible**. What survives is the `#883` level
+   difference (residual 0.446 vs 0.780 on the same 2,694 people), which this round does not touch.
+   ⇒ `#886`②
+③ ⚠ Still `OPEN`: `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
+   `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
+   `#857`① · `#861`①.
