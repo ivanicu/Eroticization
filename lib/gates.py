@@ -254,13 +254,19 @@ class Gate:
         assert isinstance(what, str) and what, "说明这两个量为什么该相等（#761）"
         assert tol is not None and tol > 0, "容差必须显式且为正（#761）"
         if self._degenerate(name, observed, expected): return False
+        # ⚠ #773:`_degenerate` 只认「全零」,于是 `identity_control(1.0, 1.0)` 这种
+        #   **把常数与自己比**的空洞检查会一路 PASS —— `#772` 就是这么溜过去的。
+        #   ⇒ 在这里补:两侧是**同一个字面常数**且调用者没给出可变来源时,记为空洞。
+        #   只标注不阻断(与本库其余部分同一姿态),但它会出现在行里,让人看见。
+        _vacuous = (observed == expected) and (tol is not None) and (abs(observed) not in (0.0,))
         d = abs(observed - expected)
         # ⚠ #761 的回测当场抓到：0.2797-0.2747 = 0.005000000000000004 > 0.005，
         #   于是「恰在容差上」被判 FAIL。**造来抓等式错误的闸，自己栽在浮点等式上。**
         #   ⇒ 容差比较必须带相对松弛，否则边界上的判定由浮点表示决定，而不是由容差决定。
         ok = d <= tol * (1 + 1e-9) + 1e-15
         self.rows.append((name, f"|{observed:+.5f} - {expected:+.5f}| = {d:.6f} <= {tol:g}",
-                          ok, f"{what}" + ("" if ok else "  ⚠ 超出容差 {:.1f}× ⇒ 这两个量不是同一个".format(d/tol))))
+                          ok, f"{what}" + ("" if ok else "  ⚠ 超出容差 {:.1f}× ⇒ 这两个量不是同一个".format(d/tol))
+                          + ("  ⚠⚠ 两侧完全相等 —— 若它们是同一个字面常数,这条检查是空的 (#773)" if _vacuous else "")))
         return ok
 
     def offset_control(self, name, effect, offset, spread, null_kind):
