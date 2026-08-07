@@ -1,0 +1,91 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET, for EVERY column ===
+  premarsx  [SEX       ] n= 45697  1972–2024 (30 waves)  codes=[1, 2, 3, 4]
+  teensex   [SEX       ] n= 33901  1986–2024 (22 waves)  codes=[1, 2, 3, 4]
+  xmarsex   [SEX       ] n= 46266  1973–2024 (30 waves)  codes=[1, 2, 3, 4]
+  homosex   [SEX       ] n= 44726  1973–2024 (30 waves)  codes=[1, 2, 3, 4, 5]
+  confinan  [confidence] n= 47403  1975–2024 (31 waves)  codes=[1, 2, 3]
+  conbus    [confidence] n= 49397  1973–2024 (33 waves)  codes=[1, 2, 3]
+  conclerg  [confidence] n= 49503  1973–2024 (33 waves)  codes=[1, 2, 3]
+  coneduc   [confidence] n= 50564  1973–2024 (33 waves)  codes=[1, 2, 3]
+  confed    [confidence] n= 49872  1973–2024 (33 waves)  codes=[1, 2, 3]
+  conlabor  [confidence] n= 47463  1973–2024 (33 waves)  codes=[1, 2, 3]
+  conpress  [confidence] n= 50225  1973–2024 (33 waves)  codes=[1, 2, 3]
+  conmedic  [confidence] n= 50660  1973–2024 (33 waves)  codes=[1, 2, 3]
+  contv     [confidence] n= 50446  1973–2024 (33 waves)  codes=[1, 2, 3]
+  conjudge  [confidence] n= 49311  1973–2024 (33 waves)  codes=[1, 2, 3]
+  consci    [confidence] n= 47873  1973–2024 (33 waves)  codes=[1, 2, 3]
+  conlegis  [confidence] n= 49846  1973–2024 (33 waves)  codes=[1, 2, 3]
+  conarmy   [confidence] n= 49957  1973–2024 (33 waves)  codes=[1, 2, 3]
+  natspac   [spending  ] n= 39930  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natenvir  [spending  ] n= 40790  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natheal   [spending  ] n= 41240  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natcity   [spending  ] n= 37836  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natcrime  [spending  ] n= 40880  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natdrug   [spending  ] n= 40517  1973–2024 (34 waves)  codes=[1, 2, 3]
+  nateduc   [spending  ] n= 41497  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natrace   [spending  ] n= 39046  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natarms   [spending  ] n= 40531  1973–2024 (34 waves)  codes=[1, 2, 3]
+  nataid    [spending  ] n= 40437  1973–2024 (34 waves)  codes=[1, 2, 3]
+  natfare   [spending  ] n= 40825  1973–2024 (34 waves)  codes=[1, 2, 3]
+  spkath    [tolerance ] n= 44453  1972–2024 (31 waves)  codes=[1, 2]
+  spkrac    [tolerance ] n= 39554  1976–2024 (28 waves)  codes=[1, 2]
+  spkcom    [tolerance ] n= 43707  1972–2024 (31 waves)  codes=[1, 2]
+  colath    [tolerance ] n= 46980  1972–2024 (31 waves)  codes=[4, 5]
+  colrac    [tolerance ] n= 42556  1976–2024 (28 waves)  codes=[4, 5]
+  colcom    [tolerance ] n= 42340  1972–2024 (31 waves)  codes=[4, 5]
+  libath    [tolerance ] n= 43810  1972–2024 (31 waves)  codes=[1, 2]
+  librac    [tolerance ] n= 39173  1976–2024 (28 waves)  codes=[1, 2]
+  libcom    [tolerance ] n= 43362  1972–2024 (31 waves)  codes=[1, 2]
+
+  the sexual battery's 21 common waves: [1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024]
+  `#902` read from its artifact (`#840`'s RULE; its own scope was the `homosex` item alone, so only the practice transfers): min|ρ| 0.4143 vs null 5th 0.6753
+  columns covering ALL 21 of those waves: **37/37** — dropped: []
+
+=== (1) THE SEXUAL BATTERY, and 40 PLACEBO batteries on the SAME 21 waves ===
+  sexual battery: observed min|ρ| 0.3818 ⇒ **z = 5.88**
+  placebo batteries computed: **40** · z median 9.21 · IQR [7.12, 20.51] · 10th/90th [5.97, 24.81]
+  **the sexual battery sits at the 10.0th percentile of the placebo distribution**
+  the five most-departing placebos:
+     z= 32.00  min|ρ|=0.0584  [spending] natspac+natenvir+natheal+natcrime
+     z= 29.62  min|ρ|=0.0818  [spending] natspac+natenvir+natheal+natarms
+     z= 26.41  min|ρ|=0.0818  [spending] natspac+natenvir+natheal+nataid
+     z= 26.28  min|ρ|=0.0701  [spending] natspac+natenvir+natheal+natcity
+     z= 24.64  min|ρ|=0.1013  [confidence] confinan+conbus+conclerg+confed
+  the five least-departing placebos:
+     z=  0.63  min|ρ|=0.6156  [tolerance] spkath+spkrac+colath+librac
+     z=  1.56  min|ρ|=0.6623  [tolerance] spkath+spkrac+colath+libath
+     z=  1.89  min|ρ|=0.6429  [tolerance] spkath+spkrac+colath+colcom
+     z=  5.45  min|ρ|=0.3065  [confidence] confinan+conbus+conclerg+consci
+     z=  6.03  min|ρ|=0.2156  [cross-domain] coneduc+colath+libcom+conlabor
+
+=== (2) POSITIVE CONTROL — plant a departure into ONE item of a placebo battery ===
+  g=0.00  z(synthetic world with `confinan` planted)    0.13
+  g=0.10  z(synthetic world with `confinan` planted)    0.25
+  g=0.20  z(synthetic world with `confinan` planted)    0.64
+  g=0.40  z(synthetic world with `confinan` planted)    1.58
+  g=0.60  z(synthetic world with `confinan` planted)    3.49
+  g=0.90  z(synthetic world with `confinan` planted)    7.76
+  ⚠ turning point MEASURED at g=0.9 · monotone in [0, 0.9] · g=0 0.13 lands on ZERO (both sides now drawn from the SAME world) ⇒ the control CAN fail ⇒ fires: True
+
+=== (3) G3/G4 — 2 reductions × {all 21 waves · 1988–2018} ===
+  lowest code    all      z(sex)   5.39 · placebo median  16.04 · sex at the   4.2th pct  (n_placebo=24)
+  lowest code    pre-2021 z(sex)   6.15 · placebo median  12.20 · sex at the  29.2th pct  (n_placebo=24)
+  ≤ median code  all      z(sex)   5.69 · placebo median  13.48 · sex at the   0.0th pct  (n_placebo=24)
+  ≤ median code  pre-2021 z(sex)   5.93 · placebo median  11.01 · sex at the  25.0th pct  (n_placebo=24)
+
+  **grid: sex above the 90th percentile in 0/4 cells · placebo median z ≥ 2 in 4/4 cells**
+
+=== (4) THE CONDITIONAL KILL — six cells, all assigned before the run ===
+  CONDITIONAL KILL -- Is 'not one tide' about SEX, or about attitude series in general?
+   PASS  positive: a planted departure raises that battery's z (inside the MEASURED monotone region)  方向由数据给出:**上升**;灵敏度 g=0.6;g=0 +0.1297 · g=0.9 +7.7560   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  comonotone world, per battery                                                                |+0.0000| < 0.5*|+5.8839| = 2.9420   (null is 0% of the effect [零的方案: COMONOTONE BINOMIAL RESAMPLING NULL, PER BATTERY — each item's own observed values reassigned to waves in one common order (link-free, marginals preserved), binomial noise at that wave's actual n; z has expectation 0 there by construction])
+   => ALL GATES PASS
+
+  z(sex) 5.88 · placebo median 9.21 · sex at the 10.0th percentile · placebo median departs (z≥2): True
+  gate three-valued : ALL GATES PASS
+  **VERDICT OVERTURNED · WEAK — sexual norms depart LESS than a typical GSS battery; `#900`/`#902` are a mild instance of a generic pattern**
+
+  ⚠ A placebo domain is a CHOICE: three were used and they do not exhaust GSS, so the
+     percentile is with respect to the batteries actually drawn. `[unchallenged]` — `door ③`.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A109_is_not_one_tide_about_sex_or_about_surveys/R343_the_placebo_domains/results/sex_or_series.json

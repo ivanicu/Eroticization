@@ -44825,3 +44825,105 @@ before looking says I may not turn a stable ranking into the claim I actually te
    `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
    `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 905 · `E03·A109·R343` — "not one tide" is not about sex, and I had never asked
+
+**⇒ `OVERTURNED` · world `WEAK`, which is the outcome I ranked most humiliating when I enumerated the
+six. `#900` and `#902` keep every number they measured and lose their subject.**
+
+**WHAT WAS NEVER ASKED.** `#900` and `#902` established LINK-FREE that four GSS sexual-norm series
+are not one moving factor — min pairwise |Spearman| **0.4143** against a comonotone null of
+**0.7883**, 6.1× its spread, five links, none saving one factor, 8/8 grid cells. **Every word of
+both entries was written as if that were a fact about SEXUAL morality. Neither asked whether ANY
+four GSS attitude series would fail the same test.**
+
+**THE TEST, IDENTICAL, ON CONTENT I HAVE NO STAKE IN.** Forty 4-item placebo batteries drawn from
+three non-sexual GSS domains — **confidence in institutions**, **spending priorities**, **Stouffer
+tolerance toward non-sexual targets** — every one restricted to **the same 21 waves (1988–2024)** so
+`T`, the wave spacing and the sample are held fixed and only the CONTENT varies. **All 37 columns
+covered all 21 waves; none was dropped.**
+
+| | `z` = (comonotone null median − observed min\|ρ\|) / null sd |
+|---|---|
+| **the four sexual norms** | **5.88** |
+| placebo median | **9.21** (IQR 7.12–20.51, 10th–90th 5.97–24.81) |
+| **the sexual battery's percentile** | **10.0th** |
+
+**Most departing:** `natspac+natenvir+natheal+natcrime` **z = 32.00** (min|ρ| 0.0584) ·
+`natspac+natenvir+natheal+natarms` **29.62** · `confinan+conbus+conclerg+confed` **24.64**.
+**Least departing:** `spkath+spkrac+colath+librac` **0.63** · `spkath+spkrac+colath+libath` **1.56**.
+**Grid: sex above the 90th percentile in 0/4 cells; placebo median z ≥ 2 in 4/4** (percentiles 4.2 ·
+25.0 · 0.0 · 29.2 across {2 item reductions} × {all waves · pre-2021}).
+
+⚠ *"Should this zero be zero?"* — **YES**: under comonotonicity `z` has expectation exactly 0 for
+every battery, sexual or placebo. ⇒ **`negative_control`**, and the **kind of null is named: a
+COMONOTONE BINOMIAL RESAMPLING NULL, PER BATTERY** — each item's own observed values reassigned to
+waves in one common order (link-free, marginals preserved), binomial noise at that wave's actual n.
+
+**CONTROLS.** ⚠ **The positive control failed twice, and the first failure was a real defect of the
+same family this session keeps producing.** v1 passed the planted probabilities as the **null**
+generator while computing the **observed** statistic from the **real** data — **the two sides drawn
+from two different worlds** — so `g = 0` returned the real battery's `z` of **12.44** instead of 0.
+v2 generates the observed series from the planted world too and fits that world's own comonotone
+null to it; `g = 0` then lands on **0.13**. v2 was then **non-monotone at `g = 0.10` on simulation
+noise**, and `#898`'s remedy applies — *fix it by measuring better, not by excusing it*: at 70
+replicates the sweep is **0.13 → 0.25 → 0.64 → 1.58 → 3.49 → 7.76**, monotone, turning point beyond
+the grid, sensitivity at `g = 0.60`. **ALL GATES PASS.**
+
+**⚠⚠ AND THE CONFOUND I WROTE DOWN BEFORE THE RUN IS EXACTLY WHAT LIMITS THE READING.** I predicted
+that the placebo items — **3-point or binary against the sexual items' 4-point** — would have
+noisier wave ORDER and therefore **inflated** deficits. **They do**: the spending battery, three
+points and famously volatile, reaches `z = 32`. ⇒ **the pre-registered kill fired `WEAK`, and
+`WEAK`'s own interpretation is confounded.** The safe conclusion is the negative half only:
+
+> **NOT `SPECIFIC`.** Sexual norms are not unusually non-comonotone among GSS attitude series. **That
+> sex sits LOW rather than merely middling is confounded with item coarseness and is NOT
+> established.**
+
+**⇒ `#900`'s SUBJECT is RETRACTED and `#902`'s SUBJECT is RETRACTED.** Their measurements stand
+exactly — the four sexual series are not one moving factor, link-free, mode-controlled, across five
+links — but the implicature carried by every sentence I wrote around them, that this says something
+about how Americans judge SEX, is withdrawn. It does not.
+
+> ⚠ **AND THE SUPERSEDE GATE COULD NOT SEE THAT UNTIL I REWROTE IT — the first OBSERVED instance of
+> `#894`③'s registered blind spot.** `#894` built the gate and registered, as a hypothesis, that *"a
+> retraction phrased without one of the listed verbs near a `#N` is INVISIBLE, and I know the size
+> of neither."* My first phrasing here — *"what is retracted is the implicature carried by every
+> sentence I wrote around them"* — put the verb **beyond the 160-character window** from the
+> reference, and `supersede_apply` marked **0 rows** while `supersede_gate` passed clean. **A gate
+> that passes because the prose drifted out of its window is worse than one that fails**, and the
+> only reason it was caught is that I expected two markers and got none. ⇒ `#905`③ It says GSS attitude series in this era are not one tide, and
+the sexual ones are among the tamest examples.
+
+**⇒ One sentence about people: the finding I have been calling a fact about American sexual morality
+is not one — put any four GSS attitude series through the same test and they fail it too, most of
+them harder. What Americans did to sex between 1988 and 2024 is not, on this measure, distinguishable
+from what they did to the government, the press, or the space programme.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **a placebo domain is a CHOICE** — three were used and they do not exhaust GSS; the percentile is
+   with respect to the batteries actually drawn;
+② ⚠ **item coarseness is priced by each battery's own null but NOT eliminated**, and it is the live
+   explanation for the direction of the `WEAK` result;
+③ **`#902`①'s common-link assumption stands**; `#900`②'s drifting-loading rival is unidentifiable;
+④ **T = 21**, MDE not computed (`#898`'s standing debt);
+⑤ **mode is confounded with period**; **cohort is not separated from period**;
+⑥ **cross-INSTRUMENT N/A — `no second instrument`, `only this one instrument`** (`#897`, `#891`).
+   ⚠ **This round is cross-CONTENT, a different axis, and is not a substitute for it**;
+⑦ ⚠ **`[unchallenged]`** — `door ③`; ⑧ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The coarseness confound is testable and was NOT tested**: collapse the four sexual items to
+   3-point and to binary, re-run, and see whether the sexual `z` climbs into the placebo range.
+   **If it does, `WEAK` becomes `GENERIC` and nothing about the direction survives; if it does not,
+   `WEAK` is real.** It is a different estimand and inventing it inside this round would be the
+   thing `#904` refused. ⇒ `#905`①
+② ⚠ **EVERY EARLIER "IT IS ABOUT SEX" CLAIM IN THIS PROJECT IS NOW SUSPECT BY THE SAME ARGUMENT**,
+   and this round only checked one of them. A105's case-indexing (`#892`, `D = +0.6688`) has never
+   been run against a placebo domain either — **and GSS has non-sexual norm/sanction pairs.**
+   **That is the same attack pointed at the project's other surviving result.** ⇒ `#905`②
+③ ⚠ Still `OPEN`: `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ ·
+   `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② ·
+   `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
+   `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.

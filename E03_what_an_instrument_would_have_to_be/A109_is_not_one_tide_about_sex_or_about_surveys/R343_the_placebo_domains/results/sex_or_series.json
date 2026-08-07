@@ -1,0 +1,599 @@
+{
+ "entry": 905,
+ "round": "E03\u00b7A109\u00b7R343",
+ "verdict": "OVERTURNED",
+ "world": "WEAK \u2014 sexual norms depart LESS than a typical GSS battery; `#900`/`#902` are a mild instance of a generic pattern",
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021,
+  2022,
+  2024
+ ],
+ "z_sex": 5.883928214805075,
+ "obs_sex": 0.3818181818181818,
+ "percentile": 10.0,
+ "placebo": [
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "coneduc"
+   ],
+   "z": 11.31626968368335,
+   "min_rho": 0.3051948051948052
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "confed"
+   ],
+   "z": 24.64433129658139,
+   "min_rho": 0.1012987012987013
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "conlabor"
+   ],
+   "z": 8.471949075932246,
+   "min_rho": 0.09220779220779221
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "conpress"
+   ],
+   "z": 10.89261383839248,
+   "min_rho": 0.26233766233766237
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "conmedic"
+   ],
+   "z": 20.460299780309505,
+   "min_rho": 0.17662337662337665
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "contv"
+   ],
+   "z": 13.119273442845556,
+   "min_rho": 0.07532467532467534
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "conjudge"
+   ],
+   "z": 13.326205001269674,
+   "min_rho": 0.3948051948051948
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "consci"
+   ],
+   "z": 5.449031385385654,
+   "min_rho": 0.3064935064935065
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "conlegis"
+   ],
+   "z": 16.19243706445048,
+   "min_rho": 0.3948051948051948
+  },
+  {
+   "domain": "confidence",
+   "items": [
+    "confinan",
+    "conbus",
+    "conclerg",
+    "conarmy"
+   ],
+   "z": 22.825793530333726,
+   "min_rho": 0.212987012987013
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "natcity"
+   ],
+   "z": 26.27929926783871,
+   "min_rho": 0.07012987012987014
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "natcrime"
+   ],
+   "z": 31.997434435421255,
+   "min_rho": 0.05844155844155843
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "natdrug"
+   ],
+   "z": 24.566434667363808,
+   "min_rho": 0.045454545454545456
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "nateduc"
+   ],
+   "z": 9.962440665355787,
+   "min_rho": 0.062337662337662345
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "natrace"
+   ],
+   "z": 16.11478367635692,
+   "min_rho": 0.10519480519480517
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "natarms"
+   ],
+   "z": 29.624593610452237,
+   "min_rho": 0.08181818181818182
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "nataid"
+   ],
+   "z": 26.413507010407596,
+   "min_rho": 0.08181818181818182
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natheal",
+    "natfare"
+   ],
+   "z": 20.66588285403914,
+   "min_rho": 0.10519480519480517
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natcity",
+    "natcrime"
+   ],
+   "z": 24.492402033895374,
+   "min_rho": 0.10519480519480517
+  },
+  {
+   "domain": "spending",
+   "items": [
+    "natspac",
+    "natenvir",
+    "natcity",
+    "natdrug"
+   ],
+   "z": 21.981752741504508,
+   "min_rho": 0.10519480519480517
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "spkcom",
+    "colath"
+   ],
+   "z": 7.236086659155258,
+   "min_rho": 0.12857142857142856
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "spkcom",
+    "colrac"
+   ],
+   "z": 7.338621820713528,
+   "min_rho": 0.062337662337662345
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "spkcom",
+    "colcom"
+   ],
+   "z": 7.085616460645271,
+   "min_rho": 0.12857142857142856
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "spkcom",
+    "libath"
+   ],
+   "z": 7.318495175241451,
+   "min_rho": 0.12857142857142856
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "spkcom",
+    "librac"
+   ],
+   "z": 6.1160843741128055,
+   "min_rho": 0.06753246753246753
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "spkcom",
+    "libcom"
+   ],
+   "z": 7.138003012335862,
+   "min_rho": 0.12857142857142856
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "colath",
+    "colrac"
+   ],
+   "z": 8.448523679311299,
+   "min_rho": 0.12987012987012986
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "colath",
+    "colcom"
+   ],
+   "z": 1.8884619059726393,
+   "min_rho": 0.6428571428571428
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "colath",
+    "libath"
+   ],
+   "z": 1.556060574313881,
+   "min_rho": 0.6623376623376622
+  },
+  {
+   "domain": "tolerance",
+   "items": [
+    "spkath",
+    "spkrac",
+    "colath",
+    "librac"
+   ],
+   "z": 0.6291962224446399,
+   "min_rho": 0.6155844155844156
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "natfare",
+    "conarmy",
+    "contv",
+    "conlabor"
+   ],
+   "z": 6.691020618827321,
+   "min_rho": 0.1753246753246753
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "conclerg",
+    "conlegis",
+    "consci",
+    "colcom"
+   ],
+   "z": 8.873440361227408,
+   "min_rho": 0.014285714285714285
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "coneduc",
+    "colath",
+    "libcom",
+    "conlabor"
+   ],
+   "z": 6.029413803747223,
+   "min_rho": 0.2155844155844156
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "nataid",
+    "natdrug",
+    "natenvir",
+    "consci"
+   ],
+   "z": 9.101759637970428,
+   "min_rho": 0.016883116883116882
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "natenvir",
+    "confed",
+    "conpress",
+    "conlabor"
+   ],
+   "z": 8.346293599112308,
+   "min_rho": 0.016883116883116882
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "conarmy",
+    "spkcom",
+    "natdrug",
+    "librac"
+   ],
+   "z": 6.482518046574547,
+   "min_rho": 0.02727272727272727
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "natrace",
+    "spkcom",
+    "conlabor",
+    "colath"
+   ],
+   "z": 6.317733879597028,
+   "min_rho": 0.12337662337662336
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "conpress",
+    "confed",
+    "natcity",
+    "contv"
+   ],
+   "z": 14.301545651971074,
+   "min_rho": 0.03506493506493507
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "coneduc",
+    "colcom",
+    "natcity",
+    "consci"
+   ],
+   "z": 8.209281111146584,
+   "min_rho": 0.014285714285714285
+  },
+  {
+   "domain": "cross-domain",
+   "items": [
+    "coneduc",
+    "colrac",
+    "conmedic",
+    "libath"
+   ],
+   "z": 9.31021154522114,
+   "min_rho": 0.13506493506493505
+  }
+ ],
+ "placebo_median": 9.205985591595784,
+ "placebo_iqr": [
+  7.124906374413214,
+  20.511695548741912
+ ],
+ "placebo_departs": true,
+ "positive_sweep": [
+  [
+   0.0,
+   0.12972208897597437
+  ],
+  [
+   0.1,
+   0.25115588532243566
+  ],
+  [
+   0.2,
+   0.6418804915796497
+  ],
+  [
+   0.4,
+   1.578948267525661
+  ],
+  [
+   0.6,
+   3.4852444184700353
+  ],
+  [
+   0.9,
+   7.755971997487402
+  ]
+ ],
+ "positive_ok": true,
+ "turning_point": 0.9,
+ "grid_rows": [
+  [
+   "lowest code",
+   "all",
+   5.3873753328588645,
+   16.044113793707822,
+   4.166666666666666,
+   24
+  ],
+  [
+   "lowest code",
+   "pre-2021",
+   6.152910678576004,
+   12.204548912119316,
+   29.166666666666668,
+   24
+  ],
+  [
+   "\u2264 median code",
+   "all",
+   5.687172166772295,
+   13.480500296941912,
+   0.0,
+   24
+  ],
+  [
+   "\u2264 median code",
+   "pre-2021",
+   5.93447550764305,
+   11.009538015912593,
+   25.0,
+   24
+  ]
+ ],
+ "grid_high": 0,
+ "grid_generic": 4,
+ "usable_columns": [
+  "premarsx",
+  "teensex",
+  "xmarsex",
+  "homosex",
+  "confinan",
+  "conbus",
+  "conclerg",
+  "coneduc",
+  "confed",
+  "conlabor",
+  "conpress",
+  "conmedic",
+  "contv",
+  "conjudge",
+  "consci",
+  "conlegis",
+  "conarmy",
+  "natspac",
+  "natenvir",
+  "natheal",
+  "natcity",
+  "natcrime",
+  "natdrug",
+  "nateduc",
+  "natrace",
+  "natarms",
+  "nataid",
+  "natfare",
+  "spkath",
+  "spkrac",
+  "spkcom",
+  "colath",
+  "colrac",
+  "colcom",
+  "libath",
+  "librac",
+  "libcom"
+ ],
+ "unchallenged": true,
+ "gates": [
+  [
+   "positive: a planted departure raises that battery's z (inside the MEASURED monotone region)",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.6;g=0 +0.1297 \u00b7 g=0.9 +7.7560",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "comonotone world, per battery",
+   "|+0.0000| < 0.5*|+5.8839| = 2.9420",
+   true,
+   "null is 0% of the effect [\u96f6\u7684\u65b9\u6848: COMONOTONE BINOMIAL RESAMPLING NULL, PER BATTERY \u2014 each item's own observed values reassigned to waves in one common order (link-free, marginals preserved), binomial noise at that wave's actual n; z has expectation 0 there by construction]"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}
