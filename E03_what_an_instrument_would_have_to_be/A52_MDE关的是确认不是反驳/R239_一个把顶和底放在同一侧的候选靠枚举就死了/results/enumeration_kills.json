@@ -1,0 +1,168 @@
+{
+ "items": [
+  "homosex",
+  "teensex",
+  "sexeduc",
+  "suicide2",
+  "spanking",
+  "prayer",
+  "racmar",
+  "helpblk"
+ ],
+ "obs": {
+  "homosex": 0.40895859403859375,
+  "teensex": 0.36384764367064376,
+  "sexeduc": 2.1924233417885106,
+  "suicide2": 0.41048651368254796,
+  "spanking": 0.46240311016360164,
+  "prayer": 0.12572198561134204,
+  "racmar": 1.8414562609432323,
+  "helpblk": 0.1045649755012837
+ },
+ "top": [
+  "racmar",
+  "sexeduc"
+ ],
+ "stems": {
+  "homosex": "Homosexual sex relations",
+  "teensex": "Sex before marriage:teens 14-16",
+  "sexeduc": "Sex education in public schools",
+  "suicide2": "Suicide if bankrupt",
+  "spanking": "Favor spanking to discipline child",
+  "prayer": "Bible prayer in public schools",
+  "racmar": "Favor law against racial intermarriage",
+  "helpblk": "Should govt aid Black people?"
+ },
+ "cuts": {
+  "① 国家该不该立法/办学": [
+   "helpblk",
+   "prayer",
+   "racmar",
+   "sexeduc"
+  ],
+  "② 关于未成年人": [
+   "sexeduc",
+   "spanking",
+   "teensex"
+  ],
+  "③ 与种族有关": [
+   "helpblk",
+   "racmar"
+  ],
+  "④ 对象是公共安排而非个人行为": [
+   "helpblk",
+   "prayer",
+   "racmar",
+   "sexeduc"
+  ],
+  "⑤ 与性有关": [
+   "homosex",
+   "sexeduc",
+   "teensex"
+  ],
+  "⑥ 涉及生死": [
+   "suicide2"
+  ]
+ },
+ "rows": [
+  {
+   "cut": "① 国家该不该立法/办学",
+   "positive": [
+    "helpblk",
+    "prayer",
+    "racmar",
+    "sexeduc"
+   ],
+   "survives": false,
+   "extra": [
+    "helpblk",
+    "prayer"
+   ],
+   "missing": []
+  },
+  {
+   "cut": "② 关于未成年人",
+   "positive": [
+    "sexeduc",
+    "spanking",
+    "teensex"
+   ],
+   "survives": false,
+   "extra": [
+    "spanking",
+    "teensex"
+   ],
+   "missing": [
+    "racmar"
+   ]
+  },
+  {
+   "cut": "③ 与种族有关",
+   "positive": [
+    "helpblk",
+    "racmar"
+   ],
+   "survives": false,
+   "extra": [
+    "helpblk"
+   ],
+   "missing": [
+    "sexeduc"
+   ]
+  },
+  {
+   "cut": "④ 对象是公共安排而非个人行为",
+   "positive": [
+    "helpblk",
+    "prayer",
+    "racmar",
+    "sexeduc"
+   ],
+   "survives": false,
+   "extra": [
+    "helpblk",
+    "prayer"
+   ],
+   "missing": []
+  },
+  {
+   "cut": "⑤ 与性有关",
+   "positive": [
+    "homosex",
+    "sexeduc",
+    "teensex"
+   ],
+   "survives": false,
+   "extra": [
+    "homosex",
+    "teensex"
+   ],
+   "missing": [
+    "racmar"
+   ]
+  },
+  {
+   "cut": "⑥ 涉及生死",
+   "positive": [
+    "suicide2"
+   ],
+   "survives": false,
+   "extra": [
+    "suicide2"
+   ],
+   "missing": [
+    "racmar",
+    "sexeduc"
+   ]
+  }
+ ],
+ "n_alive": 0,
+ "n_subsets": 28,
+ "p_one": 0.03571428571428571,
+ "p_any_lucky": 0.19604008259937922,
+ "pos_control": true,
+ "neg_control": true,
+ "admissible": true,
+ "verdict": "**A 这一族候选整体出局,而这是靠枚举做到的,一个统计量都没用。** 六个候选全部被反例杀掉 —— 每一个都把顶对之外的某题放在了同侧。\n  ⇒ **而这正是本轮的方法论收获:MDE 关的是确认,不是反驳。** n=8 上 |ρ|≥0.90 才可检出,\n  **但一个把「顶」与「底」放在同一侧的候选,一个反例就够了 —— 反例不吃功效。**\n  ⇒ **在一个功效枯竭的设计里,能做的不是零,是只能做减法。**",
+ "gate_ok": true
+}
