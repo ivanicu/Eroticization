@@ -1,0 +1,86 @@
+=== (0) HARD RULE 1 — n and the ACTUAL codes, before any column is cited ===
+  SCCS961  n=  61  codes [1, 2, 3, 4, 5, 6, 7]  Restrictions on Premarital Sex
+  SCCS963  n=  58  codes [1, 2, 3, 4, 5, 6]  Restrictions and Extramarital Sex
+  SCCS962  n=  51  codes [1, 2, 3, 4, 5, 6]  Violation of Restrictions on Premarital Sex. Each Category
+  SCCS964  n=  54  codes [1, 2, 3, 4, 5, 6, 7, 8]  Punishment for Extramarital Sex
+  double-standard `drop`: complete-4 n= 26 · pairwise 961×962=39 961×964=42 963×962=33 963×964=37
+  double-standard `mid `: complete-4 n= 40 · pairwise 961×962=46 961×964=53 963×962=44 963×964=52
+  double-standard `high`: complete-4 n= 40 · pairwise 961×962=46 961×964=53 963×962=44 963×964=52
+
+  ⚠ **the complete crossed set is n = 26 societies.** GSS's design had 1,960
+     people. This round asks whether 26 can see what 1,960 saw, BEFORE spending a round.
+  GSS's observed D, READ from `R330`'s artifact and not retyped (`#840`): **+0.6688**
+
+=== (1) THE OBSERVED CROSSED 2×2 — computed here for the first time (`#880` did not) ===
+  [complete-4 set]  n=26
+     norm=premarital   sanction=premarital    |ρ|=0.9092  n=26
+     norm=premarital   sanction=extramarital  |ρ|=0.0389  n=26
+     norm=extramarital sanction=premarital    |ρ|=0.6580  n=26
+     norm=extramarital sanction=extramarital  |ρ|=0.0224  n=26
+     ⇒ interaction = -0.2319
+  [pairwise (each cell its own societies)]  n=62
+     norm=premarital   sanction=premarital    |ρ|=0.8953  n=39
+     norm=premarital   sanction=extramarital  |ρ|=0.0243  n=42
+     norm=extramarital sanction=premarital    |ρ|=0.6183  n=33
+     norm=extramarital sanction=extramarital  |ρ|=0.1667  n=37
+     ⇒ interaction = +2.2953
+
+=== (2) THE ONE-FACTOR NULL at SCCS's own n, and the DEGENERACY rate (world META) ===
+  fitted on the complete-4 set, n=26: 961=+0.854 963=+0.720 962=+0.913 964=+0.406
+  one-factor null: median +0.0285 · sd 1.1117 · **95th pct of |D| 2.2429**
+  ⚠ **degeneracy rate at n=26: 0.0% of draws return NaN** (a cell with zero variance or |ρ|=0) — world META fires above 30%
+
+=== (3) POSITIVE CONTROL + THE POWER CURVE (the MDE is a DERIVATION, not a measurement) ===
+  g=0.0  median D +0.0405  detection   7.5%  NaN  0.0%
+  g=0.1  median D +0.2770  detection   4.0%  NaN  0.0%
+  g=0.2  median D +0.4947  detection   3.8%  NaN  0.0%
+  g=0.3  median D +0.5997  detection   6.2%  NaN  0.0%
+  g=0.4  median D +0.6618  detection   4.0%  NaN  0.0%
+  g=0.5  median D +0.8353  detection   6.0%  NaN  0.0%
+  g=0.7  median D +1.0236  detection   9.5%  NaN  0.0%
+  g=0.9  median D +1.2792  detection  12.8%  NaN  0.0%
+  g=1.0  median D +1.3163  detection  10.8%  NaN  0.0%
+  false-positive rate at g=0 (MEASURED, not assumed): **7.5%** against a nominal 5%
+  ⚠ **80% detection is NOT REACHED anywhere on the curve, up to a MAXIMAL plant.**
+
+=== (4) G3/G4 — 2 society sets × 3 double-standard treatments × 3 estimators ===
+  drop  complete-4 spearman  n_fit= 26  observed -0.2319  null95 2.2058
+  drop  complete-4 kendall   n_fit= 26  observed -1.1112  null95 2.2283
+  drop  complete-4 gamma     n_fit= 26  observed -1.2585  null95 1.8938
+  drop  pairwise   spearman  n_fit= 26  observed +2.2953  null95 2.1105
+  drop  pairwise   kendall   n_fit= 26  observed +2.5549  null95 2.7442
+  drop  pairwise   gamma     n_fit= 26  observed +2.4175  null95 1.8689
+  mid   complete-4 spearman  n_fit= 40  observed +0.6904  null95 2.1218
+  mid   complete-4 kendall   n_fit= 40  observed +0.8243  null95 2.1310
+  mid   complete-4 gamma     n_fit= 40  observed +0.6952  null95 2.3289
+  mid   pairwise   spearman  n_fit= 40  observed -0.0466  null95 2.3957
+  mid   pairwise   kendall   n_fit= 40  observed -0.0529  null95 2.4854
+  mid   pairwise   gamma     n_fit= 40  observed -0.1685  null95 2.1862
+  high  complete-4 spearman  n_fit= 40  observed +0.3410  null95 2.4179
+  high  complete-4 kendall   n_fit= 40  observed +0.4113  null95 2.7097
+  high  complete-4 gamma     n_fit= 40  observed +0.2633  null95 2.0839
+  high  pairwise   spearman  n_fit= 40  observed +3.8861  null95 3.2589
+  high  pairwise   kendall   n_fit= 40  observed +4.2904  null95 2.6464
+  high  pairwise   gamma     n_fit= 40  observed +4.1764  null95 2.5261
+
+  **grid: 18/18 cells computable · 5/18 beyond their own null**
+
+=== (5) THE CONDITIONAL KILL ===
+  CONDITIONAL KILL -- Can any instrument I hold resolve an effect the size of A105's?
+   PASS  positive: the STATISTIC responds to the plant (not its detection rate)  方向由数据给出:**上升**;灵敏度 g=0.2;g=0 +0.0405 · g=1 +1.3163   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  one-factor world at SCCS's own n                                        |+0.0285| < 0.5*|+0.6688| = 0.3344   (null is 4% of the effect [零的方案: SYNTHETIC ONE-FACTOR WORLD fitted to SCCS's own loadings and each code's own marginal, at SCCS's own n — D is 0 there by the same algebra that makes the interaction one-factor-proof])
+   => ALL GATES PASS
+
+  positive control: statistic monotone in the plant = True · g=0 median +0.0405 vs null median +0.0285 · MAXIMAL plant median +1.3163 vs the null's own 95th pct 2.2429
+  ⇒ **the largest effect this design can be given is 1.3163, and its null reaches 2.2429 — the design is not underpowered for GSS's effect, it is underpowered for ANY.**
+
+  MDE |D| = not reached  vs GSS's observed 0.6688 · NaN rate 0.0% · FPR 7.5%
+  gate three-valued : ALL GATES PASS
+  **VERDICT OVERTURNED · BOUND — SCCS's MDE exceeds GSS's observed effect ⇒ NO instrument I hold can replicate A105; concede the cell in writing**
+
+  ⚠ AN MDE IS A PROPERTY OF THE DESIGN, NOT OF THE WORLD. Nothing here says SCCS societies
+     lack case-specificity; only that this design could not see it if they had it. And
+     Galton's problem makes the effective n LOWER than the nominal one, so every number
+     above is OPTIMISTIC — a floor on the floor.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A106_can_anything_i_hold_replicate_it/R335_the_power_to_replicate_measured_before_the_round/results/power_to_replicate.json

@@ -44119,3 +44119,112 @@ lived in the ledger as intervals, and only one of those two documents is the del
 ② ⚠ **`③` is the durable version of the same thing** — `#894` earned its keep by becoming an
    instrument rather than a patch, and this round did **not**. It is a patch, and it is labelled one.
    ⇒ `#896`②
+
+## Entry 897 · `E03·A106·R335` — the other instrument cannot see an effect of ANY size, and that is the answer
+
+**THE UNWELCOME BRANCH FIRED. ⇒ `OVERTURNED` · world `BOUND`: no instrument I hold can replicate
+A105, and the cell is conceded here in writing** (HARD RULE 3's own remedy, applied to itself).
+
+**WHY THIS ROUND EXISTS RATHER THAN THE REPLICATION.** A105 ends with one surviving result — the
+norm↔sanction coupling tracks the **case** a question names, `D = +0.6688` at 5.6× its one-factor
+null — and it is **one instrument, one act, one unit, n = 1,960, three waves.** HARD RULE 4 says
+cross-instrument replication beats another round on the same one, and SCCS carries the *same crossed
+2×2 at the society level*: a premarital norm (`SCCS961`) and sanction (`SCCS962`), an extramarital
+norm (`SCCS963`) and sanction (`SCCS964`), Frayser 1985. **`#880` computed the two WITHIN-pair
+couplings and never the two CROSSED cells.** ⚠ **But the complete crossed set is `n = 26` societies,
+and `realstat` `G1` says identification first, power second — so the power question decides whether
+the replication round exists at all.** *Running the replication first and finding a null would have
+produced an UNINTERPRETABLE null: `P5`★, a zero from an instrument never shown to return non-zero.*
+
+**THE CROSSED 2×2, COMPUTED HERE FOR THE FIRST TIME.**
+
+| | sanction: premarital | sanction: extramarital |
+|---|---|---|
+| **norm: premarital** | `\|ρ\|` **0.9092** | `\|ρ\|` **0.0389** |
+| **norm: extramarital** | `\|ρ\|` **0.6580** | `\|ρ\|` **0.0224** |
+
+*(complete-4 set, n = 26, `#880`'s cleaning: the double-standard code 4 and the undocumented code 6
+dropped)* ⇒ **interaction = −0.2319.**
+
+> **AND THE DESIGN CANNOT READ ITS OWN TABLE.** Its one-factor null — a synthetic world fitted to
+> SCCS's own loadings and each code's own marginal, at SCCS's own n — has a **95th percentile of
+> |D| = 2.2429**, while **a MAXIMAL plant moves the median D only to +1.3163.**
+> **⇒ the largest effect this design can be GIVEN is smaller than the noise it must clear.**
+> **It is not underpowered for GSS's effect. It is underpowered for ANY effect.** 80% detection is
+> not reached anywhere on the curve: `7.5% → 4.0% → 3.8% → 6.2% → 4.0% → 6.0% → 9.5% → 12.8% →
+> 10.8%`.
+
+**CONTROLS.** ⚠ **The positive control was CHANGED after v1 and the change is disclosed, because
+changing a pre-registration after seeing a result is otherwise the worst thing in this file.** v1
+pointed it at the **detection rate** — the very quantity this round exists to measure — so it could
+only pass by making the round unnecessary: `realstat` §4's *control that cannot PASS*, in its
+inverted form. **v2 points it at the STATISTIC's response instead**: `D` must rise monotonically
+with the plant and land on the null at `g = 0`. It does — **+0.0405 → +0.2770 → +0.4947 → +0.5997 →
++0.6618 → +0.8353 → +1.0236 → +1.2792 → +1.3163**, monotone, `g=0` on the null median (+0.0285),
+sensitivity at `g = 0.2`. ⚠ **THE THRESHOLD ON THE ESTIMAND WAS NOT TOUCHED** — `MDE ≤` or `>` GSS's
+D, exactly as pre-registered — **only the control that licenses reading it.** **Negative control**:
+the one-factor world returns **+0.0285**, 4% of the reference effect. **False-positive rate at
+g = 0, MEASURED not assumed: 7.5%** against a nominal 5%. **Degeneracy rate: 0.0%** ⇒ world META
+does **not** fire; the design is genuinely underpowered rather than inadmissible, which is the less
+flattering of the two. **ALL GATES PASS.**
+
+**`G3`/`G4` — 2 society sets × 3 double-standard treatments × 3 estimators = 18 cells, all
+computable, and the grid is INCOHERENT, which is itself the finding.** Observed values run from
+**−1.2585 to +4.2904**; **5/18 sit beyond their own null and they disagree in SIGN**; the
+complete-4 set gives **−0.2319** where the pairwise set gives **+2.2953** — *a 2.5-unit swing from
+nothing but whether the four cells are computed on the same societies*, which is `#889`'s lesson at
+a different scale. **A design whose answer is chosen by its specification has no answer.**
+
+**⚠ AND THE REPLICATION WOULD HAVE BEEN PARTIALLY IDENTIFIED BEFORE IT STARTED.** HARD RULE 2: all
+six SCCS columns are **one instrument** — one coder reading the norm and the sanction out of the
+**same ethnography**. A coder who forms a per-behaviour impression and codes that behaviour's norm
+and sanction consistently produces **exactly** the crossed interaction and is **indistinguishable
+from real case-specificity here.** `#880` refuted a *uniform* halo, and a uniform halo is a
+one-factor effect the log-interaction is already immune to — **a CASE-CONSISTENT halo is not refuted
+and cannot be, on this release.** ⇒ the positive branch would have been unreadable; only the
+negative branch would have been clean. *That asymmetry is why power came first: a null is only worth
+having if the design could have produced a non-null.*
+
+**⇒ WHAT I MAY NOT WRITE, AND WOULD HAVE.** The table above is *interesting*: the premarital norm
+couples to its own sanction 23× better than to the other one, while the extramarital norm couples to
+the **wrong** sanction better than to its own. **Both of those are BRACKETS, and `#893`③ established
+two entries ago that a bracket of a one-factor-proof interaction is NOT itself one-factor-proof.**
+They carry the sanction columns' own loading difference. **So neither is reportable, and their sum —
+the only quantity that is — sits well inside a null it could never have cleared.**
+
+**⇒ One sentence about people: nothing about people. This round is about what 26 societies can and
+cannot be asked, and the answer is that a table which looks like it says something about premarital
+and extramarital sex cannot be distinguished, at this sample size, from a table generated by one
+number per society and no case structure at all.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **an MDE is a property of the DESIGN, never of the world** — nothing here says SCCS societies lack
+   case-specificity, only that this design could not see it if they had it;
+② **a CASE-CONSISTENT coder halo is not separable in SCCS**, and no round on this release can make
+   it so — it needs a second coder or a second ethnographic source per society;
+③ **Galton's problem** — SCCS societies are phylogenetically and areally autocorrelated, so the
+   effective n is **below** the nominal n and **every number above is OPTIMISTIC: a floor on the
+   floor**;
+④ **cross-instrument N/A for the underlying estimand** — `no second instrument`, and `only this one
+   instrument` per unit;
+⑤ **no second coder, no second release, no test–retest.**
+
+**NEXT**
+① ⚠ **THE CELL IS CONCEDED, IN WRITING, ON THE PAGE.** HARD RULE 4 — *cross-instrument replication
+   beats another round on the same one* — **cannot be satisfied for A105's finding with anything in
+   `data/external/`**, and the reason is now measured rather than assumed. `#891` established that
+   only GSS ships question text; this establishes that the one instrument with a matching
+   *structure* cannot resolve any effect at all. **E03's surviving result is permanently
+   single-instrument and the page must say so.** ⇒ `#897`①
+② ⚠ **`#895`②'s sibling is now half paid**: an MDE was computed here for the SCCS design. **The MDE
+   of `R333`'s stratified GSS design is still not computed**, and that one decides whether `#895`'s
+   "inside the null" is a bound or a demonstration. Same machinery, one round. ⇒ `#897`②
+③ ⚠ **The instrument that would settle A105 is now fully specified and does not exist in this
+   repository**: it needs, for **two or more acts**, a moral item and a legal item about the
+   **identical proposition** (`#890`①), **shipped with its questionnaire** (`#891`①), at a sample
+   size that can resolve `D ≈ 0.67` — which GSS reaches at n≈2,000 and SCCS does not reach at all.
+   ⇒ `#897`③
+④ ⚠ Still `OPEN`: `#896`①② · `#895`①② · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ ·
+   `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
+   `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

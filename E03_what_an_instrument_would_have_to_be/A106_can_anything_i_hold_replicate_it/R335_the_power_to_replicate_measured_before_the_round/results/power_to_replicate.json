@@ -1,0 +1,246 @@
+{
+ "entry": 897,
+ "round": "E03\u00b7A106\u00b7R335",
+ "verdict": "OVERTURNED",
+ "world": "BOUND \u2014 SCCS's MDE exceeds GSS's observed effect \u21d2 NO instrument I hold can replicate A105; concede the cell in writing",
+ "n_complete": 26,
+ "n_fit": 26,
+ "loadings": {
+  "SCCS961": 0.8543460642886493,
+  "SCCS963": 0.7195489254119267,
+  "SCCS962": 0.9128228331013349,
+  "SCCS964": 0.40600061341045823
+ },
+ "observed_complete": -0.2319461567992689,
+ "observed_pairwise": 2.2953155976852653,
+ "D_gss_read_from_R330": 0.6687559011982074,
+ "null_median": 0.028516701478097817,
+ "null_sd": 1.111687841197933,
+ "null_p95": 2.2428696830659938,
+ "nan_rate": 0.0,
+ "power_curve": [
+  [
+   0.0,
+   0.04046851070435309,
+   0.075,
+   0.0
+  ],
+  [
+   0.1,
+   0.27696805639300937,
+   0.04,
+   0.0
+  ],
+  [
+   0.2,
+   0.4946797033435898,
+   0.0375,
+   0.0
+  ],
+  [
+   0.3,
+   0.5997400144414888,
+   0.0625,
+   0.0
+  ],
+  [
+   0.4,
+   0.6617900931143241,
+   0.04,
+   0.0
+  ],
+  [
+   0.5,
+   0.8352556479833552,
+   0.06,
+   0.0
+  ],
+  [
+   0.7,
+   1.0235717380972293,
+   0.095,
+   0.0
+  ],
+  [
+   0.9,
+   1.2791889842285142,
+   0.1275,
+   0.0
+  ],
+  [
+   1.0,
+   1.3162799254983437,
+   0.1075,
+   0.0
+  ]
+ ],
+ "fpr_at_g0": 0.075,
+ "mde_g": null,
+ "mde_D": null,
+ "max_plant_median": 1.3162799254983437,
+ "statistic_monotone": true,
+ "grid_rows": [
+  [
+   "drop",
+   "complete-4",
+   "spearman",
+   26,
+   -0.2319461567992689,
+   2.20583523769239
+  ],
+  [
+   "drop",
+   "complete-4",
+   "kendall",
+   26,
+   -1.1112227962600394,
+   2.2282864595834697
+  ],
+  [
+   "drop",
+   "complete-4",
+   "gamma",
+   26,
+   -1.2585026643321822,
+   1.8938480445014247
+  ],
+  [
+   "drop",
+   "pairwise",
+   "spearman",
+   26,
+   2.2953155976852653,
+   2.110480864696673
+  ],
+  [
+   "drop",
+   "pairwise",
+   "kendall",
+   26,
+   2.5549477325240852,
+   2.7442463320906065
+  ],
+  [
+   "drop",
+   "pairwise",
+   "gamma",
+   26,
+   2.417469597021121,
+   1.8689372673175981
+  ],
+  [
+   "mid",
+   "complete-4",
+   "spearman",
+   40,
+   0.6903520220850241,
+   2.1218244272500932
+  ],
+  [
+   "mid",
+   "complete-4",
+   "kendall",
+   40,
+   0.8243083421625048,
+   2.130962307836487
+  ],
+  [
+   "mid",
+   "complete-4",
+   "gamma",
+   40,
+   0.6952341322599616,
+   2.328940417978514
+  ],
+  [
+   "mid",
+   "pairwise",
+   "spearman",
+   40,
+   -0.04660723272604139,
+   2.3957444366880747
+  ],
+  [
+   "mid",
+   "pairwise",
+   "kendall",
+   40,
+   -0.05287783129591128,
+   2.485442795398637
+  ],
+  [
+   "mid",
+   "pairwise",
+   "gamma",
+   40,
+   -0.16851925427049208,
+   2.186189019061428
+  ],
+  [
+   "high",
+   "complete-4",
+   "spearman",
+   40,
+   0.34096508179552876,
+   2.4179039313172668
+  ],
+  [
+   "high",
+   "complete-4",
+   "kendall",
+   40,
+   0.41130051534964984,
+   2.70968708908978
+  ],
+  [
+   "high",
+   "complete-4",
+   "gamma",
+   40,
+   0.2632536041051541,
+   2.08387371220444
+  ],
+  [
+   "high",
+   "pairwise",
+   "spearman",
+   40,
+   3.886087592930055,
+   3.2589167778809727
+  ],
+  [
+   "high",
+   "pairwise",
+   "kendall",
+   40,
+   4.290365479787404,
+   2.646408306762428
+  ],
+  [
+   "high",
+   "pairwise",
+   "gamma",
+   40,
+   4.176396079994369,
+   2.5261391868132437
+  ]
+ ],
+ "grid_computable": 18,
+ "grid_beyond": 5,
+ "mde_is_a_derivation": "an MDE is a property of the DESIGN, not of the world; and Galton's problem makes the effective n lower than nominal, so it is optimistic",
+ "gates": [
+  [
+   "positive: the STATISTIC responds to the plant (not its detection rate)",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.2;g=0 +0.0405 \u00b7 g=1 +1.3163",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "one-factor world at SCCS's own n",
+   "|+0.0285| < 0.5*|+0.6688| = 0.3344",
+   true,
+   "null is 4% of the effect [\u96f6\u7684\u65b9\u6848: SYNTHETIC ONE-FACTOR WORLD fitted to SCCS's own loadings and each code's own marginal, at SCCS's own n \u2014 D is 0 there by the same algebra that makes the interaction one-factor-proof]"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}
