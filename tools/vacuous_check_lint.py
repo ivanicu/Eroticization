@@ -42,6 +42,36 @@ def _is_difference(node):
         return any(_is_difference(a) for a in node.args)
     return False
 
+# ── `#784` 追加的第二条规则:`X / X` 与 `X - X` ──────────────────────────────────
+# ⚠ 为什么现在才加:`#784` 第一版把正控写成 `eq.append(d0/d0)` —— 一个恒等于 1 的量,
+#   而**这具 lint 扫过那个脚本返回 0 命中**。原因是它只看 `identity_control` 的实参,
+#   而这次的退化发生在一个**普通表达式**里,之后才喂给 `G.asserted`。
+# ⚠ 它与既有规则同样机械(`unparse(左) == unparse(右)`),所以属于这具 lint 能造的那一半;
+#   `#755` 证明过语义那一半造不出来。
+# ⚠⚠ **回测把 `X - X` 那一半砍掉了,而这是回测该做的事(`#623`)。**
+#   第一版同时收 Div 与 Sub,在 761 个历史脚本上命中 **2 处,人工逐个看过:两处都是有意的 g=0 臂**
+#   (`R003` 种植阶梯的第 0 级 `-(C.slope.iloc[0]-C.slope.iloc[0])-1e-9`;
+#    `R060` 的「同一分布与自身之差,必为 0」,连 `null_kind` 都写着)。⇒ **Sub 的精度 0/2。**
+#   而**一个 g=0 臂本来就是「差为零」,那是本项目应该写的东西** —— 报它等于罚正确做法。
+#   `X / X` 没有这个歧义:**没有哪种 g=0 臂是「比为一」。** 历史语料上 Div 命中 **0 处**
+#   ⇒ 它对既有代码零误报,而对触发它的那个真缺陷(`d0/d0`)命中。
+#   ⚠ 但 0/0 不是精度:**Div 这条规则在真实代码上从未返回过非零**,按 `P5` 的 ★ 条,
+#   它目前只有合成夹具的正对照,**下一次它真的开火时必须人工复核,不许直接当缺陷。**
+# ⚠ P6 代理账(与文件头同一张表,只补这一行):
+#   PROXY      二元运算两侧的 AST 反解字符串相同,且运算是除或减
+#   IMPLICATION 命中 -> 该表达式恒为 1 或 0(可靠)。**不命中仍不证明任何检查是好的。**
+#   SAFE SIDE  只在两侧都不是字面常数时报(`2-2` 是有意为之的写法,不算缺陷)
+def self_ops(tree):
+    out=[]
+    for n in ast.walk(tree):
+        if not isinstance(n,ast.BinOp) or not isinstance(n.op,ast.Div): continue
+        if isinstance(n.left,ast.Constant) or isinstance(n.right,ast.Constant): continue
+        l,r=_norm(n.left),_norm(n.right)
+        if l is None or l!=r: continue
+        out.append((n.lineno, "`X / X` 恒为 1", f"{l} vs {r}"))
+    return out
+
+
 def audit(path):
     try: tree=ast.parse(path.read_text())
     except SyntaxError: return []
@@ -63,7 +93,8 @@ def audit(path):
         elif isinstance(o,ast.Constant) and isinstance(e,ast.Constant) and o.value==e.value:
             why=f"两侧是同一个字面常数 `{o.value}`"
         if why: out.append((n.lineno,why,f"{so} vs {se}"))
-    return out
+    out.extend(self_ops(tree))
+    return sorted(set(out))
 
 if __name__=="__main__":
     root=pathlib.Path(__file__).resolve().parents[1]
