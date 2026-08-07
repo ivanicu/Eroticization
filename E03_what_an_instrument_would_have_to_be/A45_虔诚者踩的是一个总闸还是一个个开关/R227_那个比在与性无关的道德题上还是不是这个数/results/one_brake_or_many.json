@@ -1,0 +1,103 @@
+{
+ "rows": [
+  {
+   "item": "xmarsex",
+   "grp": "性",
+   "readable": false,
+   "r": 0.28880091321730667,
+   "lo": -1.591994592843629,
+   "hi": 2.4909719568034467,
+   "slopeB": -0.0023481400074994024,
+   "nullB95": 0.0027344905966487122,
+   "moved": false,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "premarsx",
+   "grp": "性",
+   "readable": false,
+   "r": 0.8033745146411994,
+   "lo": 0.5156841745223582,
+   "hi": 1.1125582527917155,
+   "slopeB": 0.012895445402451702,
+   "nullB95": 0.005114586019793926,
+   "moved": true,
+   "nyr": [
+    28,
+    28
+   ],
+   "why": "比值区间含 1.0"
+  },
+  {
+   "item": "teensex",
+   "grp": "性",
+   "readable": true,
+   "r": 0.36384764367064376,
+   "lo": 0.006423748029801204,
+   "hi": 0.8077213665170865,
+   "slopeB": 0.011800195759739129,
+   "nullB95": 0.006310889246431657,
+   "moved": true,
+   "nyr": [
+    21,
+    21
+   ],
+   "why": null
+  },
+  {
+   "item": "spanking",
+   "grp": "非性",
+   "readable": true,
+   "r": 0.46240311016360164,
+   "lo": 0.3003199279159614,
+   "hi": 0.7431817697632659,
+   "slopeB": 0.00963138298432784,
+   "nullB95": 0.00490782164727123,
+   "moved": true,
+   "nyr": [
+    21,
+    21
+   ],
+   "why": null
+  }
+ ],
+ "usable": [
+  "xmarsex",
+  "premarsx",
+  "teensex",
+  "spanking"
+ ],
+ "rejected": [],
+ "unknown_polarity": [
+  "homosex",
+  "pornlaw",
+  "abany",
+  "abdefect",
+  "abnomore",
+  "abpoor",
+  "suicide1",
+  "suicide2",
+  "grass",
+  "cappun",
+  "gunlaw",
+  "letdie1",
+  "prayer",
+  "racmar"
+ ],
+ "n_readable": 2,
+ "n_attempted": 4,
+ "sex_r": [
+  0.36384764367064376
+ ],
+ "nonsex_r": [
+  0.46240311016360164
+ ],
+ "dispersion": NaN,
+ "gap": NaN,
+ "verdict": "**UNVERIFIED:正控没过或可读题不足(可读 2/4,性 1、非性 1)。**",
+ "gate_ok": false
+}
