@@ -41942,3 +41942,75 @@ and an unflipped one is not thereby right. This round ranks margin.
    That is worse than fragility and it has never been registered. ⇒ `#872`②
 ③ ⚠ Still `OPEN`: `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 873 · `E03·A101·R313` — a converter that refuses, because this operation will be repeated 858 times
+
+**Type: PRODUCTION.** Labelled honestly — this round asks nothing about people. Pays `#872`①.
+
+`#872` measured the back-catalogue conversion instead of starting it, and the measurement found a
+constraint: **517 of 519 phrase anchors are Chinese**, an anchor must be a **verbatim substring of
+the entry it names**, and `dangling_anchors` **blocks** ⇒ **a heading cannot be translated unless its
+README rows change in the same commit.** Entry by entry, atomically. This round builds the thing that
+does that, and the design decision worth recording is that **it refuses rather than half-applies**.
+
+**Two more facts, measured here rather than assumed** (`--audit`, against the live files):
+
+| | |
+|---|---|
+| entries | **857** |
+| headings that parse as `## Entry N · \`EAR\` — title` | **641** |
+| **headings that do NOT parse** | **216** — a different shape, e.g. a plural `## Entries 43–47` |
+| entries carrying an anchor | 272 |
+| anchors | 585 |
+| **anchors quoting the BODY, not the heading** | **10** |
+
+⇒ **216 entries cannot be handled by any heading-rewriting rule at all, and the tool REFUSES them
+rather than guessing** — the plural-heading shape is the same one that, in `realstat`'s own case
+file, made a singular pattern report `0` while the entries sat in the file as table rows.
+⇒ **10 anchors quote the body**, so translating headings alone would break them.
+
+**⚠⚠ AND ATTACKING THE TOOL FOUND A DEFECT THAT ITS SAFETY CHECK COULD NOT SEE.**
+An anchor quoting a **fragment** of a heading was silently remapped to the **whole new title**.
+That **never dangles** — so the "every new phrase must resolve" check passed every time — **but it
+changes what the anchor means, from *this phrase* to *this entry*.**
+**A check that cannot fail is not a check.** A fragment now **requires an explicit mapping**.
+
+**Attack (`P7`), four refusal paths, all actually exercised:**
+① a fragment anchor with no mapping ⇒ **REFUSED** (this is the defect above, now caught);
+② a fragment anchor with a correct mapping ⇒ **passes**, and the plan is printed before anything is
+   written; ③ a mapping to a phrase absent from the rewritten entry ⇒ **REFUSED**, so the failure
+   mode is *no change* rather than *a broken page*; ④ an unparseable heading ⇒ **REFUSED, not
+   guessed**. And ⑤ **the default is a dry run** — after all four attacks the tree was still clean.
+
+**⚠ What the tool deliberately does NOT do: it does not translate.** It moves a translation into
+place consistently. **Producing the English text is an act of judgement** — a ledger entry is mostly
+*why*, and a machine may not invent a why. Automating the wording is the one part of this job that
+must not be automated.
+
+**⚠ Numbering, stated rather than hidden**: `R312` (the corpus re-derivability sweep) was launched
+before this round existed and its script called itself `#873`. It has been renumbered to **`#874`**
+on disk; **the artifact it is still writing will carry the stale string `#873` in its gate title**,
+because the process was started before the renumber. That is recorded here rather than repaired by
+a two-hour re-run.
+
+**⇒ One sentence, and it is about the work rather than about people:**
+**the expensive part of translating 858 entries was never the translation — it was that the page and
+the ledger quote each other, so any partial pass is uncommittable. Measuring that before starting
+turned a 1.4-million-character chore into a constraint with a shape, and the tool that respects the
+shape is forty lines.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **216 unparseable headings are out of scope for this tool by design** — handling them needs a
+   decision about what a plural entry's heading even is, and that is a judgement, not a regex;
+② the tool **cannot verify a translation is faithful** — only that it is *consistent* across the
+   ledger and both pages;
+③ **no round of this project can be re-derived from the tool's output** — it edits prose, and prose
+   has no controls.
+
+**NEXT**
+① ⚠ **`#874` (the corpus sweep) is still running** and its result is not in hand. **Nothing here
+   anticipates it**, and the entry for it will be written from its artifact, not from expectation.
+② ⚠ **The conversion itself has not started.** The tool exists and refuses correctly; **that is not
+   the same as one entry being converted**, and it must not be counted as such. ⇒ `#873`①
+③ ⚠ Still `OPEN`: `#872`② (being measured by `#874`) · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
