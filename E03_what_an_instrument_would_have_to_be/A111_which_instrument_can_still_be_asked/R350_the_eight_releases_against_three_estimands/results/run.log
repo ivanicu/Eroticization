@@ -1,0 +1,83 @@
+=== (0) THE EIGHT RELEASES — what each SHIPS, parsed and not assumed (HARD RULE 1) ===
+  brfss            3 files ·   2.50 GB · {'.zip': 1, '.xpt': 1, '.xpt ': 1}
+  dataverse       34 files ·   0.03 GB · {'.do': 8, '.dta': 8, '.sav': 8, '.zip': 5, '.xls': 2}
+  dplace         574 files ·   0.87 GB · {'.csv': 222, '.trees': 208, '': 41, '.gz': 19, '.xlsx': 17}
+  gss              8 files ·   0.65 GB · {'.pdf': 4, '.zip': 1, '.log': 1, '.txt': 1, '.dta': 1}
+  ngram            3 files ·   0.00 GB · {'.json': 1, '.py': 1, '.log': 1}
+  nsfg            19 files ·   0.57 GB · {'.dat': 15, '.dct': 3, '.sas': 1}
+  openpsych       28 files ·   0.05 GB · {'.csv': 10, '.txt': 9, '.zip': 8, '.html': 1}
+  yrbs            11 files ·   1.65 GB · {'.dat': 8, '.sas': 2, '.zip': 1}
+
+=== (1) THE SUPPORT MATRIX — 8 releases × 3 estimands, every cell reported ===
+
+  brfss
+     UNREADABLE     (1) comonotonicity: >=3 series x >=8 waves
+     NOT SUPPORTED  (2) case-indexed norm x sanction, >=2 cases both sides
+     UNREADABLE     (3) person-level norm vs a second measured quantity
+     why: 1 `.XPT` and NO codebook in the directory (`#891`) ⇒ terse names only
+
+  dataverse
+     NOT SUPPORTED  (1) comonotonicity: >=3 series x >=8 waves
+     NOT SUPPORTED  (2) case-indexed norm x sanction, >=2 cases both sides
+     SUPPORTED      (3) person-level norm vs a second measured quantity
+     why: replication packages: single-study `.dta`, no wave structure
+
+  dplace
+     NOT SUPPORTED  (1) comonotonicity: >=3 series x >=8 waves
+     NOT SUPPORTED  (2) case-indexed norm x sanction, >=2 cases both sides
+     SUPPORTED      (3) person-level norm vs a second measured quantity
+     why: one observation per society ⇒ no waves at all (`#897` measured that its crossed design cannot resolve ANY effect); societies are the unit for (3)
+
+  gss
+     SUPPORTED      (1) comonotonicity: >=3 series x >=8 waves
+     SUPPORTED      (2) case-indexed norm x sanction, >=2 cases both sides
+     SUPPORTED      (3) person-level norm vs a second measured quantity
+     why: 6943 labelled variables · 34 waves · the only release shipping question text
+
+  ngram
+     NOT SUPPORTED  (1) comonotonicity: >=3 series x >=8 waves
+     NOT SUPPORTED  (2) case-indexed norm x sanction, >=2 cases both sides
+     NOT SUPPORTED  (3) person-level norm vs a second measured quantity
+     why: a curves JSON of word frequencies; no respondents, no items, no norms
+
+  nsfg
+     NOT SUPPORTED  (1) comonotonicity: >=3 series x >=8 waves
+     NOT SUPPORTED  (2) case-indexed norm x sanction, >=2 cases both sides
+     UNREADABLE     (3) person-level norm vs a second measured quantity
+     why: 15 data files but only 4 shipped layouts ⇒ 2 readable cycles; the IH attitude block is **4 items**, of which 2 are norms — too few for (1) and no sanction side for (2)
+
+  openpsych
+     NOT SUPPORTED  (1) comonotonicity: >=3 series x >=8 waves
+     NOT SUPPORTED  (2) case-indexed norm x sanction, >=2 cases both sides
+     SUPPORTED      (3) person-level norm vs a second measured quantity
+     why: cross-sectional scale releases: no waves ⇒ (1) impossible; no sanction side ⇒ (2) impossible; person-level item data ⇒ (3) available
+
+  yrbs
+     UNREADABLE     (1) comonotonicity: >=3 series x >=8 waves
+     NOT SUPPORTED  (2) case-indexed norm x sanction, >=2 cases both sides
+     UNREADABLE     (3) person-level norm vs a second measured quantity
+     why: the NATIONAL file ships only as an Access `.MDB` inside a zip; the readable `.dat` files are district/state. Behaviour items, no norm×sanction pair
+
+=== (2) CONTROLS ===
+  positive: GSS supports all three -> **True**
+  negative: an invented release scores nothing -> **True**
+  cells: 24 · UNREADABLE **5** (21%) · SUPPORTED 6
+
+=== (3) WHICH SUPPORTED PAIRS ARE UNTRIED? ===
+  dataverse    est(3) -> ALREADY RUN in E01 (MFQ)
+  dplace       est(3) -> ALREADY RUN in #880/#882/#897
+  gss          est(1) -> ALREADY RUN in #900/#902/#905
+  gss          est(2) -> ALREADY RUN in #892/#906
+  gss          est(3) -> ALREADY RUN in E01/E02
+  openpsych    est(3) -> ALREADY RUN in E01 (MFQ/BKS-era rounds)
+
+  **untried supportable pairs: 0** []
+
+=== (4) THE CONDITIONAL KILL — four cells, all assigned before the run ===
+  **VERDICT OVERTURNED · BOUND — every supportable pair has already been run. This project is INSTRUMENT-BOUND, and the page must say so rather than imply more rounds are available**
+
+  ⚠ AN UNREADABLE CELL IS SILENCE, NOT A 'NO'. NSFG ships 15 data files and 2 layouts;
+     BRFSS ships 1.2 GB and no codebook; YRBS's national file is an Access database. Those
+     are facts about the RELEASES, not about what they contain. `[unchallenged]` — `door ③`.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A111_which_instrument_can_still_be_asked/R350_the_eight_releases_against_three_estimands/results/instrument_census.json

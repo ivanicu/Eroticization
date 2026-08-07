@@ -45439,3 +45439,82 @@ records I supply a mechanism for it, and the supplying feels identical to the se
    `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
    `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
    `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 912 · `E03·A111·R350` — eight releases, three estimands, zero untried pairs: the project is instrument-bound
+
+**⇒ `OVERTURNED` · world `BOUND`. Every (release, estimand) pair this data can support has already
+been run. E03 does not stop because its questions ran out; it stops because its instruments did —
+and that is now a measured statement rather than the thing I kept rediscovering one round at a
+time.**
+
+**WHY A CENSUS RATHER THAN A ROUND.** `#911`① put the basin rule in force: the next round had to be
+about **people or data**, not about this project's records. And the data side was unmeasured —
+`#891` asked which releases ship question text (**one**), `#897` measured that SCCS cannot resolve
+any effect, `#907` found GSS has no non-sexual moral×legal battery — **but nobody had asked, of all
+eight releases at once, which of this project's three estimands each can support.** Every one of
+those limits was discovered *after* a round had been designed against it.
+
+**THE MATRIX — 24 cells, all reported.**
+
+| release | (1) comonotonicity ≥3 series × ≥8 waves | (2) case-indexed norm × sanction | (3) person-level norm vs a second quantity |
+|---|---|---|---|
+| **gss** | **SUPPORTED** | **SUPPORTED** | **SUPPORTED** |
+| **dplace/SCCS** | NOT — one observation per society, **no waves at all** | NOT (`#897`: cannot resolve *any* effect) | **SUPPORTED** |
+| **nsfg** | NOT — the `IH` attitude block is **4 items**, two of them norms | NOT — no sanction side | ⚠ **UNREADABLE** — **15 data files, 2 shipped layouts** |
+| **yrbs** | ⚠ **UNREADABLE** — the national file ships only as an Access `.MDB` | NOT — behaviour items | ⚠ **UNREADABLE** |
+| **brfss** | ⚠ **UNREADABLE** — 1.2 GB `.XPT`, **no codebook in the directory** | NOT | ⚠ **UNREADABLE** |
+| **openpsych** | NOT — cross-sectional, no waves | NOT — no sanction side | **SUPPORTED** |
+| **dataverse** | NOT — single-study replication packages | NOT | **SUPPORTED** |
+| **ngram** | NOT — word frequencies; no respondents, no items, no norms | NOT | NOT |
+
+**6 cells SUPPORTED. 5 UNREADABLE (21%). And all six supported pairs have been run** — `gss`×(1) in
+`#900`/`#902`/`#905`, `gss`×(2) in `#892`/`#906`, `gss`×(3) in E01/E02, `dplace`×(3) in
+`#880`/`#882`/`#897`, `openpsych`×(3) and `dataverse`×(3) in the E01 MFQ/BKS rounds. **Untried: 0.**
+
+**CONTROLS.** **Positive**: GSS must score `SUPPORTED` on all three — a census that cannot see the
+instrument this project has spent three hundred rounds on is blind. It does. **Negative**: an
+invented release scores nothing. **Empty population exits 2, never 0.** And the `UNREADABLE` share
+(**21%**) sits below the half that would have made the whole census `BLIND`.
+
+**⚠ AND THE PART THAT MAKES `BOUND` A SPECIFICATION RATHER THAN A DEAD END.** An unreadable cell is
+**silence, not a "no"**, and each of the five names exactly what would unlock it:
+
+- **NSFG** — ships **15 `.dat` files and 2 layouts**. What is missing is a *document*: the record
+  layouts for the 1973–2015 cycles. With them, (3) becomes available on a national probability
+  sample across five decades.
+- **BRFSS** — 1.2 GB of `.XPT` and **no codebook**. What is missing is a *document*.
+- **YRBS** — the national file is an **Access database**; the readable `.dat` files are district and
+  state. What is missing is a *reader*, not a document.
+
+⇒ **The honest page sentence is not "no more rounds". It is: no more rounds without one of three
+named acquisitions — two documents and one reader — and none of them is analysis.**
+
+**⇒ One sentence about people: this project cannot say one more thing about people until it obtains
+a document. Not a better method, not more compute, not another round — a record layout for NSFG, a
+codebook for BRFSS, or a way to open one Access file. Three hundred and fifty rounds end at a
+missing PDF.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **a release whose layout is not shipped is UNREADABLE, not empty** — a fact about the release, not
+   about its contents;
+② **item counts come from LABELS, and `#891` measured that labels miss 7/7 of a known battery** — so
+   a `NOT SUPPORTED` resting on an item count is weaker than one resting on a wave count, and the
+   table says which is which;
+③ **the three estimands are the ones THIS PROJECT owns** — a release scoring nothing here may be
+   excellent for a question I am not asking, and `ngram`'s row is a statement about my questions;
+④ ⚠ **`[unchallenged]`** — `door ③`; ⑤ no second coder, no second release.
+
+**NEXT**
+① ⚠ **THE THREE UNLOCKS ARE ACQUISITIONS, NOT ANALYSES**, and two of the three are documents that
+   exist publicly. **Naming them is as far as this round goes** — obtaining them is outside what a
+   round does, and pretending otherwise would be marking an impossible criterion "planned". ⇒ `#912`①
+② ⚠ **`#911`①'S SUSPENSION IS NOW DISCHARGED**: this round's object was data, so `#909`②,
+   `#910`① and `#910`② may be picked up again. **But `BOUND` changes their value** — a gate for
+   under-claiming is worth building only if more claims are coming, and this round says none are
+   without an acquisition. ⇒ `#912`②
+③ ⚠ Still `OPEN`: `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ ·
+   `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① ·
+   `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② ·
+   `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
+   `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
+   `#857`① · `#861`①.

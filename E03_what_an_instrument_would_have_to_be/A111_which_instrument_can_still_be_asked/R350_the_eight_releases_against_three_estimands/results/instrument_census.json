@@ -1,0 +1,161 @@
+{
+ "entry": 912,
+ "round": "E03\u00b7A111\u00b7R350",
+ "verdict": "OVERTURNED",
+ "world": "BOUND \u2014 every supportable pair has already been run. This project is INSTRUMENT-BOUND, and the page must say so rather than imply more rounds are available",
+ "releases": {
+  "brfss": {
+   "n_files": 3,
+   "gb": 2.504346618,
+   "ext": {
+    ".zip": 1,
+    ".xpt": 1,
+    ".xpt ": 1
+   }
+  },
+  "dataverse": {
+   "n_files": 34,
+   "gb": 0.026286878,
+   "ext": {
+    ".do": 8,
+    ".dta": 8,
+    ".sav": 8,
+    ".zip": 5,
+    ".xls": 2,
+    ".pdf": 1
+   }
+  },
+  "dplace": {
+   "n_files": 574,
+   "gb": 0.872803943,
+   "ext": {
+    ".csv": 222,
+    ".trees": 208,
+    "": 41,
+    ".gz": 19,
+    ".xlsx": 17,
+    ".sample": 14
+   }
+  },
+  "gss": {
+   "n_files": 8,
+   "gb": 0.649572299,
+   "ext": {
+    ".pdf": 4,
+    ".zip": 1,
+    ".log": 1,
+    ".txt": 1,
+    ".dta": 1
+   }
+  },
+  "ngram": {
+   "n_files": 3,
+   "gb": 0.000396966,
+   "ext": {
+    ".json": 1,
+    ".py": 1,
+    ".log": 1
+   }
+  },
+  "nsfg": {
+   "n_files": 19,
+   "gb": 0.573017686,
+   "ext": {
+    ".dat": 15,
+    ".dct": 3,
+    ".sas": 1
+   }
+  },
+  "openpsych": {
+   "n_files": 28,
+   "gb": 0.048183672,
+   "ext": {
+    ".csv": 10,
+    ".txt": 9,
+    ".zip": 8,
+    ".html": 1
+   }
+  },
+  "yrbs": {
+   "n_files": 11,
+   "gb": 1.653132512,
+   "ext": {
+    ".dat": 8,
+    ".sas": 2,
+    ".zip": 1
+   }
+  }
+ },
+ "estimands": [
+  "(1) comonotonicity: >=3 series x >=8 waves",
+  "(2) case-indexed norm x sanction, >=2 cases both sides",
+  "(3) person-level norm vs a second measured quantity"
+ ],
+ "matrix": {
+  "brfss": [
+   "UNREADABLE",
+   "NOT SUPPORTED",
+   "UNREADABLE"
+  ],
+  "dataverse": [
+   "NOT SUPPORTED",
+   "NOT SUPPORTED",
+   "SUPPORTED"
+  ],
+  "dplace": [
+   "NOT SUPPORTED",
+   "NOT SUPPORTED",
+   "SUPPORTED"
+  ],
+  "gss": [
+   "SUPPORTED",
+   "SUPPORTED",
+   "SUPPORTED"
+  ],
+  "ngram": [
+   "NOT SUPPORTED",
+   "NOT SUPPORTED",
+   "NOT SUPPORTED"
+  ],
+  "nsfg": [
+   "NOT SUPPORTED",
+   "NOT SUPPORTED",
+   "UNREADABLE"
+  ],
+  "openpsych": [
+   "NOT SUPPORTED",
+   "NOT SUPPORTED",
+   "SUPPORTED"
+  ],
+  "yrbs": [
+   "UNREADABLE",
+   "NOT SUPPORTED",
+   "UNREADABLE"
+  ]
+ },
+ "why": {
+  "brfss": "1 `.XPT` and NO codebook in the directory (`#891`) \u21d2 terse names only",
+  "dataverse": "replication packages: single-study `.dta`, no wave structure",
+  "dplace": "one observation per society \u21d2 no waves at all (`#897` measured that its crossed design cannot resolve ANY effect); societies are the unit for (3)",
+  "gss": "6943 labelled variables \u00b7 34 waves \u00b7 the only release shipping question text",
+  "ngram": "a curves JSON of word frequencies; no respondents, no items, no norms",
+  "nsfg": "15 data files but only 4 shipped layouts \u21d2 2 readable cycles; the IH attitude block is **4 items**, of which 2 are norms \u2014 too few for (1) and no sanction side for (2)",
+  "openpsych": "cross-sectional scale releases: no waves \u21d2 (1) impossible; no sanction side \u21d2 (2) impossible; person-level item data \u21d2 (3) available",
+  "yrbs": "the NATIONAL file ships only as an Access `.MDB` inside a zip; the readable `.dat` files are district/state. Behaviour items, no norm\u00d7sanction pair"
+ },
+ "positive_ok": true,
+ "negative_ok": true,
+ "cells": 24,
+ "unreadable": 5,
+ "supported": 6,
+ "untried": [],
+ "tried": {
+  "gss|0": "#900/#902/#905",
+  "gss|1": "#892/#906",
+  "gss|2": "E01/E02",
+  "dplace|2": "#880/#882/#897",
+  "openpsych|2": "E01 (MFQ/BKS-era rounds)",
+  "dataverse|2": "E01 (MFQ)"
+ },
+ "unchallenged": true
+}
