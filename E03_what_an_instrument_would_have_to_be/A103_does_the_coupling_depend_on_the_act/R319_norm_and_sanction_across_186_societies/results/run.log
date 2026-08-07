@@ -1,0 +1,82 @@
+=== (0) HARD RULE 1 — n and the actual codes, printed before any column is cited ===
+  SCCS961  n=  61  codes [np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0), np.float64(6.0), np.float64(7.0)]  Restrictions on Premarital Sex
+  SCCS963  n=  58  codes [np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0), np.float64(6.0)]  Restrictions and Extramarital Sex
+  SCCS962  n=  51  codes [np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0), np.float64(6.0)]  Violation of Restrictions on Premarital Sex. Each Category Spe
+  SCCS964  n=  54  codes [np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0), np.float64(6.0), np.float64(7.0), np.float64(8.0)]  Punishment for Extramarital Sex
+  SCCS238  n= 168  codes [np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0)]  Religion: high gods [Note, identical to EA034]
+  SCCS237  n= 184  codes [np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0)]  Jurisdictional hierarchy beyond local community [Note, identic
+
+=== (1) PRIMARY ESTIMAND — is the second axis geometrically available at all? ===
+  premarital   n= 39  rho=+0.895 [+0.769,+0.974]  **residual share 0.198**  perm p=0.0000 (|null| 95th 0.317)
+  extramarital n= 37  rho=+0.167 [-0.188,+0.491]  **residual share 0.972**  perm p=0.3217 (|null| 95th 0.328)
+
+=== (2) THE SHAM — cross-behaviour, same coder, same source (world D) ===
+  premarital   norm × extramarital sanction: rho=+0.024 n=42
+  extramarital norm × premarital   sanction: rho=+0.618 n=33
+  premarital  : within 0.895 vs strongest cross 0.618 -> **PASS**
+  extramarital: within 0.167 vs strongest cross 0.618 -> **FAIL — world D for THIS behaviour**
+  (means, reported but NOT used as the criterion: within 0.531 vs cross 0.321)
+  => sham **FAIL — world D fires for at least one behaviour**
+  ⚠ this is the ONLY handle this site offers on the shared-source threat: one coder read both the norm and the sanction out of the same ethnography.
+
+=== (3) SECONDARY — the differential loading, and its ONE-AXIS null (offset, not zero) ===
+  (the null below is what Delta looks like when there is only ONE axis)
+  premarital   × high_gods                n= 38  rho_norm=+0.364 rho_sanc=+0.249  Delta=+0.115  one-axis null [-0.094,+0.162]  **UNRESOLVED**
+  premarital   × jurisdictional_hierarchy n= 46  rho_norm=+0.124 rho_sanc=+0.244  Delta=-0.120  one-axis null [-0.115,+0.147]  **RESOLVED**
+  extramarital × high_gods                n= 36  rho_norm=+0.394 rho_sanc=+0.230  Delta=+0.164  one-axis null [+0.016,+0.445]  **UNRESOLVED**
+  extramarital × jurisdictional_hierarchy n= 43  rho_norm=+0.201 rho_sanc=+0.171  Delta=+0.029  one-axis null [-0.156,+0.225]  **UNRESOLVED**
+
+=== (4) POSITIVE CONTROL — planted, dose-response, and it must FAIL at g=0 ===
+  g=0.00  Delta_hier(planted) = +0.105
+  g=0.25  Delta_hier(planted) = +0.158
+  g=0.50  Delta_hier(planted) = +0.397
+  g=0.75  Delta_hier(planted) = +0.644
+  g=1.00  Delta_hier(planted) = +0.756
+  => positive control **PASS** (monotone +0.105 -> +0.756, and **at g=0 it does not fire**)
+
+=== (5) PLACEBO — a contrast with no theory behind it, must land on the floor ===
+  hierarchy × premarital NORM (+0.124) vs hierarchy × extramarital NORM (+0.201) -> -0.076, inside [-0.112,+0.146] **PASS**
+  ⚠ no theory says enforcement capacity prefers one NORM over the other, so this must be null; it is a real contrast built from the same variables at the same n, not an invented one.
+
+=== (6) SPECIFICATION CURVE + MULTIPLICITY over the WHOLE grid ===
+  cells: **48**  (3 code-treatments x 2 estimators x 2 completeness x 2 behaviours x 2 structurals)
+  high_gods                Delta median +0.085  range [-0.082,+0.195]  share positive **92%**
+  jurisdictional_hierarchy Delta median +0.022  range [-0.120,+0.124]  share positive **58%**
+
+  Galton (regional stratification) — the whole table, including the cells that disagree:
+     Africa_Europe_WAsia  premarital   n= 11 rho=+0.819
+     Africa_Europe_WAsia  extramarital n= 12 rho=+0.328
+     EAsia_Pacific        premarital   n= 12 rho=+0.930
+     EAsia_Pacific        extramarital n= 12 rho=-0.252
+     Americas             premarital   n= 16 rho=+0.841
+     Americas             extramarital n= 13 rho=+0.202
+
+=== (8) THE CODEBOOK-OVERLAP RIVAL — NOT pre-registered, found by reading the codes after the run, and tested rather than argued ===
+  `SCCS961`/`SCCS963` code 3 reads 'permitted and NOT PUNISHED unless pregnancy results' — **the NORM codebook mentions PUNISHMENT**, so part of rho(norm, sanction) could be forced by the two coding schemes sharing content rather than by anything a society does.
+  premarital   code-3 share 18.4%  as run rho=+0.895 (n=39)  code 3 DROPPED rho=+0.924 (n=31)
+  extramarital code-3 share  2.3%  as run rho=+0.167 (n=37)  code 3 DROPPED rho=+0.196 (n=36)
+  => the rival is **REFUTED**: removing the punishment-mentioning code does not weaken the coupling (it strengthens it).
+  ⚠ This attack was NOT pre-registered. It removes a rival; it does not upgrade the claim.
+
+  CONDITIONAL KILL -- #880 · is the second rift a fact about condemnation or about GSS's two question types
+   PASS  (1) HARD RULE 1: n and codes printed before any column was cited — the frame is 186 and the Frayser block codes 29-61; `SCCS959` was DROPPED after reading its codes (kinship types, not degrees of restriction)                       961 n=61 · 962 n=51 · 963 n=58 · 964 n=54 · pairs 39/37 · 总体:the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61)   (asserted in code, not in prose)
+   PASS  (2) NEGATIVE CONTROL: permuting societies must destroy the pairing, i.e. the permutation null must be CENTRED ON ZERO. It must NOT require the observed rho to be significant — that would presuppose the non-null it is here to test  premarital: null mean -0.0022, |null| 95th 0.317, observed p=0.0000 · extramarital: null mean +0.0034, |null| 95th 0.328, observed p=0.3217 · 总体:the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61)   (asserted in code, not in prose)
+   PASS  (4) POSITIVE CONTROL with a dose-response, and it must FAIL at g=0: a sanction planted to be driven by enforcement capacity must raise Delta_hier monotonically                                                                        g=0.0:+0.105 g=0.25:+0.158 g=0.5:+0.397 g=0.75:+0.644 g=1.0:+0.756 · 总体:the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61)   (asserted in code, not in prose)
+   PASS  (5) PLACEBO: enforcement capacity has no theory preferring one NORM over the other, so that differential must land inside the one-axis null                                                                                            -0.076 in [-0.112,+0.146] · 总体:the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61)   (asserted in code, not in prose)
+   PASS  (5b) CODEBOOK-OVERLAP RIVAL (found AFTER the run by reading the codes, tested not argued): the NORM codebook's code 3 mentions punishment, so the coupling could be forced by shared content. Dropping that code must not weaken it    premarital: +0.895 -> +0.924 (code-3 share 18.4%) · extramarital: +0.167 -> +0.196 (code-3 share 2.3%) · 总体:the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61)   (asserted in code, not in prose)
+   PASS  (6) POWER, stated before the result: at n=43-52 the MDE for one Spearman rho is about |rho|=0.38 and for a DIFFERENCE of two dependent correlations 0.35-0.45 ⇒ an unresolved Delta is UNRESOLVED, never 'no difference'               n range 31-54 · 总体:the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61)   (asserted in code, not in prose)
+   FAIL  (7) KILL (pre-registered): for "the second rift is the questionnaire" to hold, the sanction must be a monotone function of the norm — **residual share < 0.20 in both behaviours**                                                     residual shares ['0.198', '0.972'] · Delta resolved-positive False · SHAM (world-D selector, per behaviour): premarital: within 0.895 vs strongest cross 0.618 [ok] · extramarital: within 0.167 vs strongest cross 0.618 [**world D**]   尺:the share of sanction rank-variance not carried by the norm, per behaviour; the floor is the permutation null of rho and the one-axis null of Delta,其自身噪声 0.322346 · 总体:the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61) · 方向:**不一致** [-1, 1]  ⚠ **符号翻转 —— 只要求量级的阈值会让它通过**(`#859`①) · 控制总体:6/6 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation ((7) KILL (pre-registered): for "the second rift is the questionnaire" to hold, the sanction must be a monotone function of the norm — **residual share < 0.20 in both behaviours**). This is a refutation, NOT an unverified round (#366e).
+
+  `Gate.admissible()` = **True**
+
+=== (7) IS THE SHAM FAILURE A HALO? — a source-severity artifact predicts the four norm x sanction correlations to be ALIKE ===
+  the four: ['+0.895', '+0.167', '+0.024', '+0.618'] · spread **0.871** ⇒ **NOT uniform: a halo cannot produce this**
+
+====================================================================================================
+**D is REFUTED by its own test, and the sham failure is behaviour-specific.**
+  A source-severity halo predicts the four norm x sanction correlations to be ALIKE. Measured, they span **0.871**: ['+0.895', '+0.167', '+0.024', '+0.618']. `premarital norm x premarital sanction` **+0.895** against `premarital norm x extramarital sanction` **+0.024** — the same two columns, one coder, one ethnography, and a gap of 0.871. **A halo cannot do that.**
+  What the sham DOES establish is narrower and it is the finding: `extramarital norm x PREMARITAL sanction` is **+0.618** while `extramarital norm x its OWN sanction` is **+0.167** ⇒ **premarital sanction sits on a general restrictiveness dimension; the punishment for adultery does not sit on it at all.**
+  ⇒ **One sentence about people: how much a society says a sexual act is wrong tells you almost exactly what it will do to an unmarried woman who does it (rho +0.895, residual 0.20) and tells you essentially nothing about what it will do to a married one (rho +0.167, residual 0.97). Condemnation and punishment are the same axis for one act and two axes for the other — so 'how many rifts' is not a property of a society, it is a property of the act.**
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R319_norm_and_sanction_across_186_societies/results/second_rift_cross_instrument.json

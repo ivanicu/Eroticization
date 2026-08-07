@@ -1,0 +1,61 @@
+=== (0) HARD RULE 1 — n and the years actually asked, printed before any column is cited ===
+  homosex   n= 44726  1973–2024  (30 waves)
+  spkhomo   n= 39927  1973–2021  (28 waves)
+  colhomo   n= 41024  1973–2021  (28 waves)
+  libhomo   n= 39886  1973–2021  (28 waves)
+  spkath    n= 44453  1972–2024  (31 waves)
+  colath    n= 46980  1972–2024  (31 waves)
+  libath    n= 43810  1972–2024  (31 waves)
+  spkrac    n= 39554  1976–2024  (28 waves)
+  colrac    n= 42556  1976–2024  (28 waves)
+  librac    n= 39173  1976–2024  (28 waves)
+  ⇒ **the sanction battery exists for ONE act.** One act cannot exhibit act-dependence; this round adds a third point, it does not replicate `#880`.
+
+=== (1) THE SAME ESTIMAND AS `#880`, AT TWO UNITS — two rows, never averaged ===
+  U1 person  n= 37030  rho=+0.479  **residual share 0.771**
+  U2 year    n=    28  rho=+0.846  **residual share 0.284**  (levels — trended)
+  U2' year, FIRST-DIFFERENCED  n=27  rho=+0.562  **residual share 0.685**
+  ⚠ the level correlation between two strongly trended series is nearly forced; the first-differenced row is the one that is not carried by the shared trend.
+
+=== (2) RESPONSE-STYLE CONTROL — same format, same acquiescence, non-sexual target ===
+  homosex × refusal(ath): rho=+0.394 (n=39178)
+  homosex × refusal(rac): rho=+0.186 (n=36362)
+  homosex × refusal(homo) = +0.479 -> **PASS**
+
+=== (3) POSITIVE CONTROL — planted, dose-response, must NOT be small at g=0 ===
+  g=0.00  planted residual share = 1.000
+  g=0.25  planted residual share = 0.935
+  g=0.50  planted residual share = 0.751
+  g=0.75  planted residual share = 0.431
+  g=1.00  planted residual share = 0.237
+  measured FLOOR (no plant) 1.000 · measured CEILING (noiseless plant) 0.000 ⇒ admissible thresholds live strictly between them
+  => positive control **PASS** (monotone True; at g=0 the residual is 1.000 so it does NOT look coupled; at g=1 it is 0.237, below the midpoint 0.500)
+
+=== (4) NEGATIVE CONTROL — permute respondents WITHIN year (destroys the pairing only) ===
+  GLOBAL permutation (this zero SHOULD be zero): mean -0.0001 · |null| 95th 0.0101 -> **PASS**
+  WITHIN-YEAR permutation (kind of null: a within-cluster permutation; its centre is NOT zero): mean +0.0857 ⇒ **17.9% of the person-level rho is between-year composition**, not within-year association — that is a RESULT, not a failure
+
+=== (5) SPECIFICATION CURVE + MULTIPLICITY over the whole grid ===
+  cells: **48** (3 units × 4 measures × 2 codings × 2 windows)
+  person     residual median 0.851  range [0.771,0.898]  share below 0.40 **0%**  cells 16
+  year       residual median 0.161  range [0.010,0.296]  share below 0.40 **100%**  cells 16
+  year_diff  residual median 0.731  range [0.669,0.985]  share below 0.40 **0%**  cells 16
+
+  CONDITIONAL KILL -- #881 · how much of 'he should be stopped' is not 'it is wrong', for the one act GSS can do
+   PASS  (1) HARD RULE 1: n and the years actually asked, printed before any column was cited — and the registered impossibility: the sanction battery exists for ONE act, so this round CANNOT test act-dependence and does not claim to                                                          wrongness 4 acts · sanction battery 1 act (1973–2021) · person n=37030 · years 28 · 总体:GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in   (asserted in code, not in prose)
+   PASS  (2) NEGATIVE CONTROL: a GLOBAL permutation destroys the pairing entirely and its zero SHOULD be zero. ⚠ The WITHIN-YEAR permutation is an OFFSET control, not a negative one — its centre is the between-year composition effect, and asserting zero there was the first version's error  global null mean -0.0001 · within-year null mean +0.0857 (17.9% of the person-level rho is between-year composition) · 总体:GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in   (asserted in code, not in prose)
+   PASS  (3) POSITIVE CONTROL, dose-response, and it must NOT look coupled at g=0                                                                                                                                                                                                                  g=0.0:1.000 g=0.25:0.935 g=0.5:0.751 g=0.75:0.431 g=1.0:0.237 · 总体:GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in   (asserted in code, not in prose)
+   PASS  (4) RESPONSE-STYLE CONTROL: the same three-item format aimed at a NON-sexual target shares the acquiescence but not the content; the sexual coupling must exceed it                                                                                                                       ath rho=+0.394 · rac rho=+0.186 vs homo +0.479 · 总体:GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in   (asserted in code, not in prose)
+   PASS  (5) TREND CONTROL: at the year unit both series are strongly trended, so the level coupling is nearly forced; the first-differenced coupling is reported beside it and the level one is never quoted alone                                                                                year levels rho=+0.846 (residual 0.284) vs first-differenced rho=+0.562 (residual 0.685) · 总体:GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in   (asserted in code, not in prose)
+   FAIL  (6) KILL (pre-registered): for "the sanction is the norm restated for this act" to hold, **the residual share must be < 0.40 at BOTH units**                                                                                                                                              person 0.771 · year-levels 0.284 · year-differenced 0.685 · units straddle 0.40: False · SCCS reference: premarital 0.198, extramarital 0.972   尺:the share of refusal rank-variance not carried by wrongness, the SAME quantity `#880` computed on societies; the floor is the within-year permutation null,其自身噪声 0.0101379 · 总体:GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填) · 控制总体:5/5 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation ((6) KILL (pre-registered): for "the sanction is the norm restated for this act" to hold, **the residual share must be < 0.40 at BOTH units**). This is a refutation, NOT an unverified round (#366e).
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**B — LOOSE.** residual share person 0.771 · year-differenced 0.685 ⇒ most of what Americans would DO about homosexuality is not carried by how wrong they say it is, the shape SCCS found for adultery (0.972) rather than for premarital sex (0.198).
+  ⇒ **one sentence about people: for the one act on which GSS can ask both questions, knowing how wrong an American thinks it is leaves most of what he would do about it unpredicted — and a society's stated norm about adultery leaves almost all of its punishment unpredicted too. Two instruments, two units, two centuries; the acts that decouple are not the same acts, and that is the next question, not this one's answer.**
+
+⚠ **This round cannot test act-dependence** — GSS has a sanction battery for ONE act. It is a third point on a curve of two, and the cell is conceded in writing rather than filled with a fourth candidate from inside the same matrix.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A103_does_the_coupling_depend_on_the_act/R320_the_one_act_gss_can_ask_both_ways/results/act_dependence_in_gss.json

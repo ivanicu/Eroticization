@@ -1,0 +1,715 @@
+{
+ "population": "the SCCS societies with both a Frayser norm and sanction code for the behaviour (premarital n=39, extramarital n=37; frame 186, coded 29-61)",
+ "primary": {
+  "premarital": {
+   "rho": 0.8953036337618981,
+   "n": 39,
+   "ci": [
+    0.7692573001387789,
+    0.9741686884814151
+   ],
+   "residual_share": 0.198431403372741,
+   "perm_p": 0.0,
+   "perm_mean": -0.002200375105038553,
+   "perm_95": 0.317018198198495,
+   "clears_its_null": true
+  },
+  "extramarital": {
+   "rho": 0.16672946478095454,
+   "n": 37,
+   "ci": [
+    -0.18779876845052937,
+    0.4906460305218706
+   ],
+   "residual_share": 0.9722012855738564,
+   "perm_p": 0.32175,
+   "perm_mean": 0.003418377119696513,
+   "perm_95": 0.32767354249450953,
+   "clears_its_null": false
+  }
+ },
+ "sham": {
+  "premarital_norm×extramarital_sanction": {
+   "rho": 0.024320508237567116,
+   "n": 42
+  },
+  "extramarital_norm×premarital_sanction": {
+   "rho": 0.618254318442288,
+   "n": 33
+  }
+ },
+ "secondary": {
+  "premarital|high_gods": {
+   "rho_norm": 0.3638116587992018,
+   "rho_sanc": 0.24888956298646944,
+   "delta": 0.11492209581273236,
+   "n": 38,
+   "null_ci": [
+    -0.0938310648009247,
+    0.16210964742196993
+   ],
+   "resolved": false
+  },
+  "premarital|jurisdictional_hierarchy": {
+   "rho_norm": 0.12438437012480608,
+   "rho_sanc": 0.2441380991064442,
+   "delta": -0.11975372898163814,
+   "n": 46,
+   "null_ci": [
+    -0.11520702113443979,
+    0.14669026895611625
+   ],
+   "resolved": true
+  },
+  "extramarital|high_gods": {
+   "rho_norm": 0.3943060025723876,
+   "rho_sanc": 0.23048951435196466,
+   "delta": 0.16381648822042297,
+   "n": 36,
+   "null_ci": [
+    0.01619560283193193,
+    0.4453210480900786
+   ],
+   "resolved": false
+  },
+  "extramarital|jurisdictional_hierarchy": {
+   "rho_norm": 0.2008243584561434,
+   "rho_sanc": 0.1714591987158796,
+   "delta": 0.029365159740263796,
+   "n": 43,
+   "null_ci": [
+    -0.15588396013639208,
+    0.2245110099558026
+   ],
+   "resolved": false
+  }
+ },
+ "dose": {
+  "0.0": 0.10450776167616144,
+  "0.25": 0.15843959013633502,
+  "0.5": 0.3970618730953206,
+  "0.75": 0.6435811910372473,
+  "1.0": 0.7563313498049984
+ },
+ "placebo": {
+  "value": -0.07643998833133733,
+  "null": [
+   -0.11216688233880168,
+   0.14636492076921465
+  ],
+  "ok": true
+ },
+ "grid": [
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.3638116587992018,
+   "rho_sanc": 0.24888956298646944,
+   "delta": 0.11492209581273236,
+   "n": 38
+  },
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.12438437012480608,
+   "rho_sanc": 0.2441380991064442,
+   "delta": -0.11975372898163814,
+   "n": 46
+  },
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.3943060025723876,
+   "rho_sanc": 0.23048951435196466,
+   "delta": 0.16381648822042297,
+   "n": 36
+  },
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.2008243584561434,
+   "rho_sanc": 0.1714591987158796,
+   "delta": 0.029365159740263796,
+   "n": 43
+  },
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.36610813096862993,
+   "rho_sanc": 0.3034971563699224,
+   "delta": 0.06261097459870751,
+   "n": 31
+  },
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.15809878980501094,
+   "rho_sanc": 0.07937228125991157,
+   "delta": 0.07872650854509937,
+   "n": 39
+  },
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.45085211173112155,
+   "rho_sanc": 0.34545909222156285,
+   "delta": 0.1053930195095587,
+   "n": 31
+  },
+  {
+   "treat": "drop",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.22854479061241745,
+   "rho_sanc": 0.1662878428791634,
+   "delta": 0.06225694773325405,
+   "n": 37
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.31185970741650054,
+   "rho_sanc": 0.2212449542821916,
+   "delta": 0.09061475313430895,
+   "n": 38
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.09762722582769995,
+   "rho_sanc": 0.20616482277151013,
+   "delta": -0.10853759694381018,
+   "n": 46
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.3619006755789789,
+   "rho_sanc": 0.18144870867011476,
+   "delta": 0.18045196690886417,
+   "n": 36
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.17030940281708798,
+   "rho_sanc": 0.1323585933006572,
+   "delta": 0.03795080951643079,
+   "n": 43
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.3210534092989536,
+   "rho_sanc": 0.2703007417302797,
+   "delta": 0.050752667568673915,
+   "n": 31
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.13198905636109626,
+   "rho_sanc": 0.06691414523630915,
+   "delta": 0.06507491112478711,
+   "n": 39
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.40961098009599006,
+   "rho_sanc": 0.2633192451908883,
+   "delta": 0.14629173490510178,
+   "n": 31
+  },
+  {
+   "treat": "drop",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.19552333941896874,
+   "rho_sanc": 0.13336357793695094,
+   "delta": 0.062159761482017795,
+   "n": 37
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.32778015857879994,
+   "rho_sanc": 0.24888956298646944,
+   "delta": 0.0788905955923305,
+   "n": 38
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.13027594127414804,
+   "rho_sanc": 0.2441380991064442,
+   "delta": -0.11386215783229617,
+   "n": 46
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.36959594166916043,
+   "rho_sanc": 0.23048951435196466,
+   "delta": 0.13910642731719577,
+   "n": 47
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.09715809847202335,
+   "rho_sanc": 0.1714591987158796,
+   "delta": -0.07430110024385626,
+   "n": 54
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.36404780971375683,
+   "rho_sanc": 0.24888956298646944,
+   "delta": 0.11515824672728739,
+   "n": 38
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.2205695378204736,
+   "rho_sanc": 0.2441380991064442,
+   "delta": -0.023568561285970624,
+   "n": 46
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.4315972064024244,
+   "rho_sanc": 0.24055165523839317,
+   "delta": 0.1910455511640312,
+   "n": 45
+  },
+  {
+   "treat": "mid",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.0966671600651006,
+   "rho_sanc": 0.2110722213398299,
+   "delta": -0.1144050612747293,
+   "n": 52
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.2738421367864168,
+   "rho_sanc": 0.2212449542821916,
+   "delta": 0.05259718250422518,
+   "n": 38
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.10233082353624796,
+   "rho_sanc": 0.20616482277151013,
+   "delta": -0.10383399923526217,
+   "n": 46
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.3292444249926267,
+   "rho_sanc": 0.18144870867011476,
+   "delta": 0.14779571632251193,
+   "n": 47
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.07609523645010527,
+   "rho_sanc": 0.1323585933006572,
+   "delta": -0.05626335685055192,
+   "n": 54
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.31608794541890933,
+   "rho_sanc": 0.2212449542821916,
+   "delta": 0.09484299113671774,
+   "n": 38
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.17631278386113816,
+   "rho_sanc": 0.20616482277151013,
+   "delta": -0.02985203891037197,
+   "n": 46
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.3826836471298767,
+   "rho_sanc": 0.18726661883060877,
+   "delta": 0.1954170282992679,
+   "n": 45
+  },
+  {
+   "treat": "mid",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.07391331682826288,
+   "rho_sanc": 0.16313692594808432,
+   "delta": -0.08922360911982144,
+   "n": 52
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.1670433152536366,
+   "rho_sanc": 0.24888956298646944,
+   "delta": -0.08184624773283283,
+   "n": 38
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.25962825011314716,
+   "rho_sanc": 0.2441380991064442,
+   "delta": 0.015490151006702951,
+   "n": 46
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.2661105311986258,
+   "rho_sanc": 0.23048951435196466,
+   "delta": 0.03562101684666116,
+   "n": 47
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.28095800877118476,
+   "rho_sanc": 0.1714591987158796,
+   "delta": 0.10949881005530515,
+   "n": 54
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.31189387681941394,
+   "rho_sanc": 0.24888956298646944,
+   "delta": 0.0630043138329445,
+   "n": 38
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.3183558741832725,
+   "rho_sanc": 0.2441380991064442,
+   "delta": 0.07421777507682828,
+   "n": 46
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.27405813336818396,
+   "rho_sanc": 0.24055165523839317,
+   "delta": 0.033506478129790795,
+   "n": 45
+  },
+  {
+   "treat": "high",
+   "est": "spearman",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.3352789849983688,
+   "rho_sanc": 0.2110722213398299,
+   "delta": 0.12420676365853889,
+   "n": 52
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.14524833446358332,
+   "rho_sanc": 0.2212449542821916,
+   "delta": -0.07599661981860828,
+   "n": 38
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.21165426881162358,
+   "rho_sanc": 0.20616482277151013,
+   "delta": 0.005489446040113449,
+   "n": 46
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.23925074615591294,
+   "rho_sanc": 0.18144870867011476,
+   "delta": 0.05780203748579818,
+   "n": 47
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "pairwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.23907553448749258,
+   "rho_sanc": 0.1323585933006572,
+   "delta": 0.10671694118683539,
+   "n": 54
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "high_gods",
+   "rho_norm": 0.2703201122466652,
+   "rho_sanc": 0.2212449542821916,
+   "delta": 0.04907515796447359,
+   "n": 38
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "premarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.2663516439144416,
+   "rho_sanc": 0.20616482277151013,
+   "delta": 0.060186821142931474,
+   "n": 46
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "high_gods",
+   "rho_norm": 0.24370548228005087,
+   "rho_sanc": 0.18726661883060877,
+   "delta": 0.0564388634494421,
+   "n": 45
+  },
+  {
+   "treat": "high",
+   "est": "kendall",
+   "complete": "listwise",
+   "behaviour": "extramarital",
+   "structural": "jurisdictional_hierarchy",
+   "rho_norm": 0.2870281224128733,
+   "rho_sanc": 0.16313692594808432,
+   "delta": 0.12389119646478897,
+   "n": 52
+  }
+ ],
+ "galton": [
+  {
+   "region": "Africa_Europe_WAsia",
+   "behaviour": "premarital",
+   "rho": 0.8186745359165744,
+   "n": 11
+  },
+  {
+   "region": "Africa_Europe_WAsia",
+   "behaviour": "extramarital",
+   "rho": 0.3281024924495415,
+   "n": 12
+  },
+  {
+   "region": "EAsia_Pacific",
+   "behaviour": "premarital",
+   "rho": 0.9298541933877045,
+   "n": 12
+  },
+  {
+   "region": "EAsia_Pacific",
+   "behaviour": "extramarital",
+   "rho": -0.2520288712178742,
+   "n": 12
+  },
+  {
+   "region": "Americas",
+   "behaviour": "premarital",
+   "rho": 0.8408425459391439,
+   "n": 16
+  },
+  {
+   "region": "Americas",
+   "behaviour": "extramarital",
+   "rho": 0.20175438596491227,
+   "n": 13
+  }
+ ],
+ "codebook_overlap": {
+  "premarital": {
+   "code3_share": 0.1836734693877551,
+   "rho_as_run": 0.8953036337618981,
+   "n_as_run": 39,
+   "rho_code3_dropped": 0.9237470214001663,
+   "n_code3_dropped": 31
+  },
+  "extramarital": {
+   "code3_share": 0.023255813953488372,
+   "rho_as_run": 0.16672946478095454,
+   "n_as_run": 37,
+   "rho_code3_dropped": 0.1956784946116775,
+   "n_code3_dropped": 36
+  }
+ },
+ "overlap_refuted": true,
+ "four_correlations": [
+  0.8953036337618981,
+  0.16672946478095454,
+  0.024320508237567116,
+  0.618254318442288
+ ],
+ "spread": 0.870983125524331,
+ "halo": false,
+ "sham_cells": {
+  "premarital": {
+   "within": 0.8953036337618981,
+   "cross_max": 0.618254318442288,
+   "ok": true
+  },
+  "extramarital": {
+   "within": 0.16672946478095454,
+   "cross_max": 0.618254318442288,
+   "ok": false
+  }
+ },
+ "controls": {
+  "sham": false,
+  "positive": true,
+  "placebo": true
+ },
+ "admissible": true,
+ "verdict": "**D is REFUTED by its own test, and the sham failure is behaviour-specific.**\n  A source-severity halo predicts the four norm x sanction correlations to be ALIKE. Measured, they span **0.871**: ['+0.895', '+0.167', '+0.024', '+0.618']. `premarital norm x premarital sanction` **+0.895** against `premarital norm x extramarital sanction` **+0.024** — the same two columns, one coder, one ethnography, and a gap of 0.871. **A halo cannot do that.**\n  What the sham DOES establish is narrower and it is the finding: `extramarital norm x PREMARITAL sanction` is **+0.618** while `extramarital norm x its OWN sanction` is **+0.167** ⇒ **premarital sanction sits on a general restrictiveness dimension; the punishment for adultery does not sit on it at all.**\n  ⇒ **One sentence about people: how much a society says a sexual act is wrong tells you almost exactly what it will do to an unmarried woman who does it (rho +0.895, residual 0.20) and tells you essentially nothing about what it will do to a married one (rho +0.167, residual 0.97). Condemnation and punishment are the same axis for one act and two axes for the other — so 'how many rifts' is not a property of a society, it is a property of the act.**",
+ "gate_ok": false
+}

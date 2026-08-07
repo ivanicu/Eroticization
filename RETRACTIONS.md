@@ -42445,3 +42445,231 @@ exists; ③ the gate's own scope limit stands unchanged: **runtime-built keys ar
 ① ⚠ Still `OPEN`: `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
    `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
 ② ✅ **`#877`① is CLOSED.**
+
+## Entry 880 · `E03·A103·R319` — how many rifts there are is a property of the ACT, not of the society
+
+**BASIN RULE FIRED FIRST, and it is why this round exists.** `R314`–`R318` are five consecutive
+rounds about the corpus and the instrument; **not one of them touched a person.** This one leaves the
+basin, and it is built so that **the outcome I would least like is the one it can deliver.**
+
+**THE CLAIM UNDER TEST WAS THIS PROJECT'S OWN HEADLINE.** GSS says Americans split twice on different
+seams — *is it wrong* → religion (12/12 cells), *should he be stopped* → education (28/30).
+**But GSS asks those two things with two different QUESTION TYPES**, and a difference between two
+question types is the cheapest thing in survey research to manufacture. The untested rival:
+**the second rift is a property of the questionnaire.** Hard rule 4 says test it on another
+instrument, so it moved to **SCCS** — 186 societies coded from ethnography, where the same pair
+exists with no questionnaire at all: `SCCS961/962` (premarital norm / what happens to her) and
+`SCCS963/964` (extramarital norm / punishment).
+
+**HARD RULE 1 CHANGED THE DESIGN TWICE BEFORE ANY NUMBER WAS COMPUTED.**
+| | |
+|---|---|
+| frame | 186 societies — **a sampling frame, not an n** |
+| Frayser (1985) block, measured | `961` **61** · `962` **51** · `963` **58** · `964` **54** |
+| analysable pairs, raw | premarital **51** · extramarital **52** |
+| **after dropping the double-standard code 4 and the undocumented `962` code 6** | **premarital 39 · extramarital 37** |
+⚠ **`SCCS959` "Extensions of the Incest Taboo" was DROPPED after reading its codes**: its categories
+are *kinship types* (matrilineal / patrilineal / non-kinship), **not degrees of restriction.** A
+third behaviour-pair existed by name and not by measurement.
+
+**HARD RULE 2 — the instrument is ONE instrument**: all six columns are Frayser (1985), coded from
+HRAF ethnographies, **one coder reading the norm and the sanction out of the same ethnography.**
+
+**THE RESULT, and the two behaviours give OPPOSITE answers:**
+
+| behaviour | ρ(norm, sanction) | residual share | permutation |
+|---|---|---|---|
+| **premarital** | **+0.895** [+0.769, +0.974] | **0.198** | p = 0.0000 (\|null\| 95th 0.317) |
+| **extramarital** | **+0.167** [−0.188, +0.491] | **0.972** | **p = 0.3217 — inside its own null** |
+
+**⇒ the pre-registered kill fired AGAINST expectation: `OVERTURNED`.** *"The second rift is the
+questionnaire"* required the sanction to be a monotone function of the norm **in both** behaviours.
+It is one in premarital sex and is not one in adultery.
+
+**⚠⚠ WORLD D — "the SOURCE is the axis" — WAS REFUTED BY ITS OWN TEST, and it had to be, because the
+sham fired.** Per behaviour, never averaged: `premarital norm × extramarital sanction` = **+0.024**;
+`extramarital norm × premarital sanction` = **+0.618**, which is **four times** extramarital's own
+within-behaviour link. So the sham FAILS for extramarital. But a single ethnographer's severity
+impression is a **halo**, and a halo predicts the four correlations to be ALIKE. Measured, they span
+**0.871** — `+0.895 · +0.167 · +0.024 · +0.618`. **The same two columns, one coder, one ethnography,
+and a gap of 0.871: a halo cannot do that.**
+⚠ **The halo threshold (spread < 0.30) was NOT pre-registered** — it was written after the sham
+fired. It is stated rather than hidden, and the conclusion is insensitive to it: **any threshold
+below 0.87 gives the same answer.**
+What the sham *does* establish is narrower and is itself the finding: **premarital sanction sits on a
+general restrictiveness dimension** (predicted by the extramarital norm at +0.618) **and the
+punishment for adultery sits on nothing** (+0.167 from its own norm, +0.024 from the other).
+
+**⚠ A RIVAL FOUND AFTER THE RUN BY READING THE CODEBOOK, AND TESTED RATHER THAN ARGUED.**
+`SCCS961`/`SCCS963` code 3 reads *"permitted and **not punished** unless pregnancy results"* — **the
+NORM codebook mentions PUNISHMENT**, so the coupling could be forced by two coding schemes sharing
+content. Dropping that code (18.4% of the premarital column): **+0.895 → +0.924**; extramarital
+**+0.167 → +0.196**. The coupling **strengthens**. ⇒ rival **REFUTED**. It was not pre-registered,
+so it removes a rival and does **not** upgrade the claim.
+
+**Controls, all six PASS.** Positive control with a dose-response and **it does not fire at g=0**:
+`+0.105 → +0.158 → +0.397 → +0.644 → +0.756`. Placebo (enforcement capacity preferring one NORM over
+the other — no theory says it should): `−0.076` inside `[−0.112, +0.146]`. Permutation nulls centred
+on zero (`−0.0022`, `+0.0034`).
+**Galton, as a specification axis, and the whole table published**: premarital is stable across all
+three regions (**+0.819 · +0.930 · +0.841**); extramarital is weak and unstable everywhere
+(**+0.328 · −0.252 · +0.202**).
+**Specification curve, 48 cells** (3 code-treatments × 2 estimators × 2 completeness × 2 behaviours ×
+2 structurals): `high gods` Δ median **+0.085**, **92% positive**; `jurisdictional hierarchy` Δ
+median **+0.022**, **58% positive** — and **the gate flagged the direction as inconsistent**, which
+it is.
+**The secondary estimand is UNRESOLVED, and that is reported as UNRESOLVED, never as "no
+difference"**: at n = 36–46 the MDE for a difference of two dependent correlations is ≈ 0.35–0.45,
+and three of the four Δ sit inside their one-axis nulls. **Power was stated before the result.**
+
+**⚠⚠ THREE DESIGN DEFECTS OF MINE, ALL SELF-CAUGHT, ALL DOCUMENTED MODES:**
+① **A world you can only reach by failing a control is a world your design cannot select.** I made
+   the sham *both* an admissibility control *and* world D's selector. World D was **unreachable by
+   construction** — the mirror of `#795`, where the library read a control's failure as the kill
+   firing. A quantity that chooses a world is a RESULT row, never a control row.
+② **A permutation control must not require the observed effect to be significant.** My first negative
+   control asserted `p < 0.05` for both behaviours — `realstat`'s *"it presupposes a non-null effect,
+   which is a coin flip exactly when the effect is null"* — and it condemned the round on the very
+   cell that is the finding. A permutation control's job is to show the null is **centred on zero**.
+③ **Averaging two divergent sham cells hid the one carrying the information** (`+0.024` and `+0.618`
+   → `0.321`, which passed). Per cell, never averaged.
+
+**⇒ One sentence about people: how much a society says a sexual act is wrong tells you almost exactly
+what it will do to an unmarried woman who does it — and essentially nothing about what it will do to
+a married one. Condemnation and punishment are one axis for the first act and two axes for the
+second. So "how many rifts are there" was the wrong question: the number of axes is not a property of
+a society, it is a property of the act.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **Galton's problem is mitigated, never solved.** SCCS is designed as a dispersed sample and this
+   round adds a regional stratification, but **at n ≈ 37–39 a phylogenetic mixed model is not
+   identified.** D-PLACE ships the trees; it does not ship the power;
+② **causally identified / interventionally validated: N/A** — nothing here intervenes on a society;
+③ **the instrument cannot be changed WITHIN this test.** All six codes are Frayser (1985); a second
+   independent coding of the same societies does not exist in D-PLACE. **That is why the
+   cross-behaviour sham is load-bearing rather than decorative** — it is the only handle this site
+   offers on the shared-source threat, and it is the control that fired;
+④ **temporally resolved: N/A.** Each society is coded at one focal year; the GSS side is a 52-year
+   panel, so "the same rift" is a claim about structure and never about a trend;
+⑤ **the two instruments do not share a unit** — GSS gaps are between groups of people, SCCS
+   correlations are between societies. This is an analogy that survived a test, not one quantity
+   measured twice;
+⑥ ⚠ **AND GSS CANNOT ANSWER THE NEW QUESTION AT ALL — measured, not assumed.** Act-specific
+   wrongness exists for four acts (`premarsx` n=45,697 · `xmarsex` n=46,266 · `homosex` n=44,726 ·
+   `teensex` n=33,901), but the *sanction* battery exists for **exactly one act**
+   (`spkhomo`/`colhomo`/`libhomo`, homosexuality, 1973–2021). **One act cannot exhibit
+   act-dependence.** SCCS was not a preference; it was the only instrument on this machine with two
+   matched norm–sanction pairs.
+
+**NEXT**
+① ⚠ **Test the act-dependence at the PERSON level on the one act GSS can do.** Compute the same
+   estimand — the share of "should he be stopped" not carried by "is it wrong" — for homosexuality
+   in GSS, and place it beside SCCS's 0.198 and 0.972. **One act is not a test of act-dependence, so
+   this is a third point on the curve, not a replication.** ⇒ `#880`①
+② ⚠ **The premarital coupling is ρ = +0.895 at n = 39 with a codebook whose two variables were coded
+   together.** The `#880` halo test rules out a uniform severity artifact; it does **not** rule out
+   that this particular pair was coded as one judgement. What would: a society coded independently
+   by two ethnographers. **Register whether any such pair exists in D-PLACE before assuming it does
+   not.** ⇒ `#880`②
+③ ⚠ Still `OPEN`: `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 881 · `E03·A103·R320` — the only specification that says the sanction is the norm restated is the one that compares two fifty-year trends
+
+**Pays `#880`①.** `#880` measured, on societies, that the coupling between *how wrong the act is* and
+*what is done to the person* is **act-dependent** — premarital `ρ=+0.895` (residual **0.198**),
+extramarital `ρ=+0.167` (residual **0.972**). This asks GSS the same question, and **the first thing
+it has to report is what GSS cannot answer.**
+
+**⚠ HARD RULE 3, CONCEDED IN WRITING RATHER THAN FILLED WITH A FOURTH CANDIDATE.** Measured, not
+assumed: GSS carries act-specific **wrongness** for four acts — `premarsx` n=45,697 (1972–2024) ·
+`xmarsex` n=46,266 (1973–2024) · `homosex` n=44,726 (1973–2024) · `teensex` n=33,901 (1986–2024) —
+and a **sanction** battery for **exactly one act**: `spkhomo` n=39,927 · `colhomo` n=41,024 ·
+`libhomo` n=39,886, all 1973–2021. **One act cannot exhibit act-dependence.** ⇒ this round is a
+**third point on a curve of two**, and it is labelled as one throughout.
+⚠ It uses `lib/gss_polarity.py` — `#868`'s home for the battery's polarity, **imported rather than
+copied**, which is the second script in the corpus to do so.
+
+**THE ESTIMAND IS DELIBERATELY `#880`'S** — the residual share `1 − ρ²` of refusal not carried by
+wrongness — **computed at two units, reported as two rows, never averaged:**
+
+| specification | n | ρ | **residual share** |
+|---|---|---|---|
+| **person** | 37,030 | +0.479 | **0.771** |
+| year, **levels** | 28 | +0.846 | **0.284** |
+| year, **first-differenced** | 27 | +0.562 | **0.685** |
+
+**⇒ the pre-registered kill fired AGAINST expectation: `OVERTURNED`, world B — LOOSE.** For the one
+act GSS can ask both ways, **most of what an American would DO about it is not carried by how wrong
+he says it is** — the shape SCCS found for *adultery* (0.972), not the one it found for premarital
+sex (0.198).
+
+**⚠⚠ AND THE SPECIFICATION CURVE IS THE FINDING, not an appendix.** 48 cells, 3 units × 4 refusal
+measures × 2 wrongness codings × 2 period windows, **published whole**:
+| unit | residual median | range | **share below 0.40** |
+|---|---|---|---|
+| person | 0.851 | [0.771, 0.898] | **0%** (0/16) |
+| year, **levels** | 0.161 | [0.010, 0.296] | **100%** (16/16) |
+| year, first-differenced | 0.731 | [0.669, 0.985] | **0%** (0/16) |
+**Every specification that removes the shared 1973–2021 trend says LOOSE; the only ones that say
+TIGHT are the sixteen that correlate two fifty-year trends with each other.** A correlation between
+two trends is nearly forced, and that was written into the design before the run — which is the only
+reason the level row is here to be compared rather than quoted alone.
+
+**⚠ THREE CONTROL DEFECTS, ALL SELF-CAUGHT WHEN THE CONTROLS FIRED, ALL DOCUMENTED MODES:**
+① **A control that PASSED on a `NaN`.** `resid_share` hard-coded `min_n = 30`, written for the person
+   unit (n=37,030) and silently applied to the **year** unit (n=28) ⇒ every year-level cell returned
+   `NaN` **while the trend control still printed `PASS`.** A control that passes while its own
+   quantity is undefined is a control that cannot fail. `min_n` is now a parameter.
+② **A control that could not PASS.** The positive control demanded `residual < 0.10` under a maximal
+   plant, but `homosex` is a 4-point item and discreteness attenuates `ρ` — the design cannot return
+   0.10. `realstat`'s remedy is exactly this: **measure the floor and the ceiling and require
+   `floor < t < ceiling`.** Measured floor **1.000**, ceiling **0.000**; the criterion is now the
+   midpoint and the dose runs `1.000 → 0.935 → 0.751 → 0.431 → 0.237`, monotone, **and it does not
+   look coupled at g = 0**.
+③ **The wrong zero.** The negative control permuted respondents **within year** and asserted the null
+   was zero. It is not: a within-cluster permutation destroys the within-year pairing and **leaves
+   the between-year pairing intact**. **Kind of null, now named: a within-cluster permutation null,
+   centred on the between-year composition effect rather than on zero — centre +0.0857.** The
+   global **permutation null** (the one whose zero should be zero) is centred at **−0.0001** with
+   its **|null| 95th percentile at 0.0101**, and the observed person-level ρ=+0.479 is far outside
+   it (empirical p < 0.005 at 200 draws, floored by the draw count). Its centre is **+0.0857**, and that is a *result* —
+   **17.9% of the person-level `ρ` is between-year composition, not within-year association.** A
+   **global** permutation is the one whose zero should be zero, and it returns **−0.0001**. "Should
+   this zero be zero?" was asked, answered NO, and the row is now an `offset_control` with its kind
+   of null named.
+
+**Response-style control (the confound written before the run) PASSES**: the same three-item format
+aimed at non-sexual targets gives `ρ=+0.394` (atheists) and `ρ=+0.186` (racists) against **+0.479**
+for the matched target — so the coupling is not pure acquiescence, though the atheist figure says
+most of it is not act-specific either.
+
+**⇒ One sentence about people: for the one act on which Americans are asked both questions, knowing
+how wrong a man thinks it is leaves roughly three-quarters of what he would do about it unpredicted
+— and it looks tight only if you stop asking people and start correlating two fifty-year curves.
+Societies show the same split: adultery decouples, premarital sex does not. Whether the acts that
+decouple are the same acts in both worlds is the next question, and neither instrument can answer it
+alone.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **it cannot test act-dependence** — one act, and saying so is the round;
+② **causally identified: N/A** — cross-sectional attitudes, no intervention;
+③ **the sanction battery stops in 2021** while wrongness runs to 2024 ⇒ every year-level number is
+   1973–2021 and the two series do not share their last three waves;
+④ **`#880`'s unit does not exist here** — a GSS year is not a society; the year row is the nearest
+   available analogue and is labelled as an analogue;
+⑤ **the battery asks about "homosexuals", the wrongness item about an act between two adults** — a
+   person and an act. That mismatch is in the instrument and no analysis removes it.
+
+**NEXT**
+① ⚠ **The acts that decouple must be matched across the two instruments before anything is called a
+   replication.** SCCS decouples *adultery* and couples *premarital*; GSS can only speak about
+   *homosexuality*, which decouples. **Three acts, two instruments, one overlap of zero** — the
+   comparison currently rests on an analogy between different acts. NSFG/BRFSS/YRBS must be searched
+   for a matched norm–sanction pair on premarital or extramarital sex **before** any cross-instrument
+   claim is made. ⇒ `#881`①
+② ⚠ **17.9% of the person-level coupling is between-year composition.** That number is a by-product
+   of a control and has never been the object of a round; it says a share of what looks like
+   individual psychology is cohort replacement. ⇒ `#881`②
+③ ⚠ Still `OPEN`: `#880`①② · `#876`①② · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

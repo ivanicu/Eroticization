@@ -1,0 +1,501 @@
+{
+ "population": "GSS respondents 1973–2021 with both `homosex` and the three-item homosexual-tolerance battery (person n=37030), and the 28 survey years those respondents fall in",
+ "person": {
+  "rho": 0.4785844257418181,
+  "residual": 0.7709569474373742,
+  "n": 37030
+ },
+ "year_levels": {
+  "rho": 0.8461959496442255,
+  "residual": 0.2839524148057073,
+  "n": 28
+ },
+ "year_differenced": {
+  "rho": 0.5616605616605617,
+  "residual": 0.6845374134751424,
+  "n": 27
+ },
+ "response_style": {
+  "ath": {
+   "rho": 0.3936612429425937,
+   "residual": 0.8450308258048922,
+   "n": 39178
+  },
+  "rac": {
+   "rho": 0.1864448597649838,
+   "residual": 0.9652383142672155,
+   "n": 36362
+  }
+ },
+ "dose": {
+  "0.0": 0.9999817471190023,
+  "0.25": 0.9352026584021056,
+  "0.5": 0.7513844877588657,
+  "0.75": 0.4312853365109153,
+  "1.0": 0.23665280836423352
+ },
+ "perm": {
+  "within_year_mean": 0.08569817978366726,
+  "global_mean": -8.055532044193819e-05,
+  "ecological_share": 0.17906596030748992,
+  "p95": 0.0101378742407503
+ },
+ "positive_control": {
+  "floor": 0.9999817471190023,
+  "ceiling": 0.0,
+  "dose": {
+   "0.0": 0.9999817471190023,
+   "0.25": 0.9352026584021056,
+   "0.5": 0.7513844877588657,
+   "0.75": 0.4312853365109153,
+   "1.0": 0.23665280836423352
+  }
+ },
+ "grid": [
+  {
+   "unit": "person",
+   "measure": "index",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.4785844257418181,
+   "residual": 0.7709569474373742,
+   "n": 37030
+  },
+  {
+   "unit": "person",
+   "measure": "index",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.45120537941455324,
+   "residual": 0.796413705587369,
+   "n": 22565
+  },
+  {
+   "unit": "person",
+   "measure": "index",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.4592047714765522,
+   "residual": 0.7891309778531674,
+   "n": 37030
+  },
+  {
+   "unit": "person",
+   "measure": "index",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.4374906939689227,
+   "residual": 0.8086018926905905,
+   "n": 22565
+  },
+  {
+   "unit": "person",
+   "measure": "spkhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.35945878750916915,
+   "residual": 0.870789380082438,
+   "n": 38069
+  },
+  {
+   "unit": "person",
+   "measure": "spkhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.3315209805042492,
+   "residual": 0.8900938394855012,
+   "n": 23111
+  },
+  {
+   "unit": "person",
+   "measure": "spkhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.34129544544612067,
+   "residual": 0.883517418917734,
+   "n": 38069
+  },
+  {
+   "unit": "person",
+   "measure": "spkhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.31991868688336256,
+   "residual": 0.897652033782825,
+   "n": 23111
+  },
+  {
+   "unit": "person",
+   "measure": "colhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.41725551504106195,
+   "residual": 0.8258978351678181,
+   "n": 39176
+  },
+  {
+   "unit": "person",
+   "measure": "colhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.3715951562286306,
+   "residual": 0.8619170398674196,
+   "n": 24301
+  },
+  {
+   "unit": "person",
+   "measure": "colhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.4000931987295463,
+   "residual": 0.8399254323303598,
+   "n": 39176
+  },
+  {
+   "unit": "person",
+   "measure": "colhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.3592978474942466,
+   "residual": 0.870905056786001,
+   "n": 24301
+  },
+  {
+   "unit": "person",
+   "measure": "libhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.4017168974571835,
+   "residual": 0.8386235342973747,
+   "n": 38072
+  },
+  {
+   "unit": "person",
+   "measure": "libhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.3863488675842923,
+   "residual": 0.850734552516335,
+   "n": 23055
+  },
+  {
+   "unit": "person",
+   "measure": "libhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.3845951579092725,
+   "residual": 0.8520865645127418,
+   "n": 38072
+  },
+  {
+   "unit": "person",
+   "measure": "libhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.3749529295273217,
+   "residual": 0.8594103006388794,
+   "n": 23055
+  },
+  {
+   "unit": "year",
+   "measure": "index",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.8461959496442255,
+   "residual": 0.2839524148057073,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "index",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.982843137254902,
+   "residual": 0.034019367550941815,
+   "n": 17
+  },
+  {
+   "unit": "year",
+   "measure": "index",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.8555008210180624,
+   "residual": 0.2681183452374213,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "index",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.9877450980392157,
+   "residual": 0.02435962129950009,
+   "n": 17
+  },
+  {
+   "unit": "year",
+   "measure": "spkhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.8390804597701149,
+   "residual": 0.2959439820319726,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "spkhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.9681372549019608,
+   "residual": 0.06271025567089583,
+   "n": 17
+  },
+  {
+   "unit": "year",
+   "measure": "spkhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.8467432950191571,
+   "residual": 0.2830257923401006,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "spkhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.9632352941176472,
+   "residual": 0.07217776816608967,
+   "n": 17
+  },
+  {
+   "unit": "year",
+   "measure": "colhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.8423645320197045,
+   "residual": 0.29042199519522416,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "colhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.9705882352941178,
+   "residual": 0.05795847750865035,
+   "n": 17
+  },
+  {
+   "unit": "year",
+   "measure": "colhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.8538587848932675,
+   "residual": 0.2709251754605927,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "colhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.9754901960784315,
+   "residual": 0.04841887735486339,
+   "n": 17
+  },
+  {
+   "unit": "year",
+   "measure": "libhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.8587848932676518,
+   "residual": 0.26248850709526783,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "libhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.9926470588235295,
+   "residual": 0.014651816608996282,
+   "n": 17
+  },
+  {
+   "unit": "year",
+   "measure": "libhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.8659003831417624,
+   "residual": 0.2502165264749491,
+   "n": 28
+  },
+  {
+   "unit": "year",
+   "measure": "libhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.9950980392156863,
+   "residual": 0.009779892349096486,
+   "n": 17
+  },
+  {
+   "unit": "year_diff",
+   "measure": "index",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.5616605616605617,
+   "residual": 0.6845374134751424,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "index",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.5647058823529412,
+   "residual": 0.6811072664359862,
+   "n": 16
+  },
+  {
+   "unit": "year_diff",
+   "measure": "index",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.5415140415140415,
+   "residual": 0.706762542843129,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "index",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.4647058823529412,
+   "residual": 0.7840484429065744,
+   "n": 16
+  },
+  {
+   "unit": "year_diff",
+   "measure": "spkhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.4945054945054945,
+   "residual": 0.7554643159038763,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "spkhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.5588235294117647,
+   "residual": 0.6877162629757785,
+   "n": 16
+  },
+  {
+   "unit": "year_diff",
+   "measure": "spkhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.4627594627594628,
+   "residual": 0.7858536796265734,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "spkhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.4647058823529412,
+   "residual": 0.7840484429065744,
+   "n": 16
+  },
+  {
+   "unit": "year_diff",
+   "measure": "colhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.5677655677655677,
+   "residual": 0.6776422600598425,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "colhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.5558823529411765,
+   "residual": 0.6909948096885813,
+   "n": 16
+  },
+  {
+   "unit": "year_diff",
+   "measure": "colhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.575091575091575,
+   "residual": 0.6692696802586913,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "colhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.5411764705882353,
+   "residual": 0.7071280276816609,
+   "n": 16
+  },
+  {
+   "unit": "year_diff",
+   "measure": "libhomo",
+   "coding": "4pt",
+   "window": "all",
+   "rho": 0.37301587301587297,
+   "residual": 0.8608591584782062,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "libhomo",
+   "coding": "4pt",
+   "window": "1990plus",
+   "rho": 0.1411764705882353,
+   "residual": 0.9800692041522492,
+   "n": 16
+  },
+  {
+   "unit": "year_diff",
+   "measure": "libhomo",
+   "coding": "binary_wrong",
+   "window": "all",
+   "rho": 0.37362637362637363,
+   "residual": 0.8604033329308054,
+   "n": 27
+  },
+  {
+   "unit": "year_diff",
+   "measure": "libhomo",
+   "coding": "binary_wrong",
+   "window": "1990plus",
+   "rho": 0.12058823529411765,
+   "residual": 0.9854584775086506,
+   "n": 16
+  }
+ ],
+ "straddle": false,
+ "sccs_reference": {
+  "premarital": 0.198,
+  "extramarital": 0.972
+ },
+ "controls": {
+  "negative": true,
+  "positive": true,
+  "style": true
+ },
+ "admissible": true,
+ "verdict": "**B — LOOSE.** residual share person 0.771 · year-differenced 0.685 ⇒ most of what Americans would DO about homosexuality is not carried by how wrong they say it is, the shape SCCS found for adultery (0.972) rather than for premarital sex (0.198).\n  ⇒ **one sentence about people: for the one act on which GSS can ask both questions, knowing how wrong an American thinks it is leaves most of what he would do about it unpredicted — and a society's stated norm about adultery leaves almost all of its punishment unpredicted too. Two instruments, two units, two centuries; the acts that decouple are not the same acts, and that is the next question, not this one's answer.**",
+ "gate_ok": false
+}
