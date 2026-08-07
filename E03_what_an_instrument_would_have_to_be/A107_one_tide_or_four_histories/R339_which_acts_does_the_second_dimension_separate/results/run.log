@@ -1,0 +1,55 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET ===
+  premarsx  n= 45697  1972–2024 (30 waves)  codes=[1, 2, 3, 4]
+  teensex   n= 33901  1986–2024 (22 waves)  codes=[1, 2, 3, 4]
+  xmarsex   n= 46266  1973–2024 (30 waves)  codes=[1, 2, 3, 4]
+  homosex   n= 44726  1973–2024 (30 waves)  codes=[1, 2, 3, 4, 5]
+  common waves 21 · `#900` read from its artifact (never retyped, `#840`'s RULE, whose own scope was the `homosex` item alone so only the practice transfers): PC1 share 0.90014, rank-1 null median 0.98307
+
+=== (1) THE OBSERVED PC2 PATTERN, and how often resampling returns it ===
+  observed PC2 sign pattern (anchored on `teensex`): **{pre+teen+extra} vs {same}**  (1, 1, 1, -1)
+  bootstrap over 3000 draws: modal pattern **{pre+teen+extra} vs {same}** at **99.8%**
+     {pre+teen+extra} vs {same}          99.8%
+     {teen+extra} vs {pre+same}           0.2%
+
+=== (2) OFFSET CONTROL — a RANK-1 world's PC2 is pure noise; its modal frequency MEASURED ===
+  rank-1 null: modal pattern {teen+extra} vs {pre+same} at **24.1%** (7 distinct patterns seen)
+  ⚠ **the floor is NOT 1/8 = 12.5%** — the four items differ in n and variance, so some patterns are commoner for free. Measured floor: **24.1%**
+  rank-1 modal-frequency 95th percentile over 200 replications of 60 draws: **35.0%**
+
+=== (3) POSITIVE CONTROL — plant a KNOWN pattern; at g=0 it must sit on the rank-1 floor ===
+  the PLANTED pattern {teen+same} vs {pre+extra} occurs in a rank-1 world at 18.3% (95th over 200 replications of 60 draws: 26.7%) — that is ITS floor, not the modal one
+  g=0.00  planted-pattern rate  20.2%   (modal was {teen+extra} vs {pre+same})
+  g=0.05  planted-pattern rate  28.0%   (modal was {teen+same} vs {pre+extra})
+  g=0.10  planted-pattern rate  54.8%   (modal was {teen+same} vs {pre+extra})
+  g=0.20  planted-pattern rate  97.8%   (modal was {teen+same} vs {pre+extra})
+  g=0.35  planted-pattern rate 100.0%   (modal was {teen+same} vs {pre+extra})
+  g=0.50  planted-pattern rate 100.0%   (modal was {teen+same} vs {pre+extra})
+  planted pattern {teen+same} vs {pre+extra} modal at g=0.5: True · g=0 sits on ITS OWN floor (20.2% vs 95th 26.7%) ⇒ fires: True
+
+=== (4) G3/G4 — 4 thresholds × {all 21 waves · 1988–2018 only} ===
+  ≤1 always wrong    all waves      modal {pre+teen+extra} vs {same}         100.0%  rank-1 floor  22.8%
+  ≤1 always wrong    pre-2021 only  modal {pre+teen+extra} vs {same}         100.0%  rank-1 floor  23.8%
+  ≤2 always/almost   all waves      modal {pre+teen+extra} vs {same}          99.9%  rank-1 floor  24.9%
+  ≤2 always/almost   pre-2021 only  modal {pre+teen+extra} vs {same}          99.1%  rank-1 floor  24.2%
+  ≤3 any wrongness   all waves      modal {pre+teen+extra} vs {same}          80.2%  rank-1 floor  32.4%
+  ≤3 any wrongness   pre-2021 only  modal {pre+teen+extra} vs {same}          43.8%  rank-1 floor  23.8%
+  mean 1–4           all waves      modal {pre+teen+extra} vs {same}         100.0%  rank-1 floor  23.5%
+  mean 1–4           pre-2021 only  modal {pre+teen+extra} vs {same}          99.1%  rank-1 floor  23.6%
+
+  **grid: 8/8 cells share the modal pattern `{pre+teen+extra} vs {same}`** · 8/8 cells exceed their own rank-1 floor
+
+=== (5) THE CONDITIONAL KILL ===
+  CONDITIONAL KILL -- Does `#900`'s second dimension have a readable shape, or only a magnitude?
+   PASS  positive: the PLANTED pattern's own recovery rate rises with g                                                                                                                   方向由数据给出:**上升**;灵敏度 g=0.1;g=0 +0.2025 · g=0.5 +1.0000   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  modal frequency vs the rank-1 floor [null: RANK-1 BINOMIAL RESAMPLING NULL at the observed per-wave n, with the modal frequency MEASURED from it rather than assumed to be 1/8]  (+0.9983) - (+0.2413) = +0.7570 vs 2*0.1087   (7.0x its own spread)
+   => ALL GATES PASS
+
+  observed modal 99.8% vs rank-1 floor 24.1% (95th 35.0%) · grid agreement 8/8
+  gate three-valued : ALL GATES PASS
+  **VERDICT CONFIRMED · the second dimension has a SHAPE: {pre+teen+extra} vs {same} (modal in 8/8 cells)**
+
+  ⚠ CONDITIONAL ON THE TWO-FACTOR READING. `#900`②'s drifting-loading rival has more
+     parameters than this matrix has cells and is UNIDENTIFIABLE here — registered as
+     impossible, not deferred, because marking an impossible criterion 'planned' is forbidden.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A107_one_tide_or_four_histories/R339_which_acts_does_the_second_dimension_separate/results/shape_of_the_second_dimension.json

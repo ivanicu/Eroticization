@@ -1,0 +1,161 @@
+{
+ "entry": 901,
+ "round": "E03\u00b7A107\u00b7R339",
+ "verdict": "CONFIRMED",
+ "world": "the second dimension has a SHAPE: {pre+teen+extra} vs {same} (modal in 8/8 cells)",
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021,
+  2022,
+  2024
+ ],
+ "anchor": "teensex",
+ "observed_pattern": [
+  1,
+  1,
+  1,
+  -1
+ ],
+ "observed_pretty": "{pre+teen+extra} vs {same}",
+ "modal_pattern": "{pre+teen+extra} vs {same}",
+ "modal_freq": 0.9983333333333333,
+ "null_modal": "{teen+extra} vs {pre+same}",
+ "null_freq": 0.24133333333333334,
+ "null_p95": 0.35,
+ "top_patterns": {
+  "{pre+teen+extra} vs {same}": 0.9983333333333333,
+  "{teen+extra} vs {pre+same}": 0.0016666666666666668
+ },
+ "positive_sweep": [
+  [
+   0.0,
+   0.2025
+  ],
+  [
+   0.05,
+   0.28
+  ],
+  [
+   0.1,
+   0.5475
+  ],
+  [
+   0.2,
+   0.9775
+  ],
+  [
+   0.35,
+   1.0
+  ],
+  [
+   0.5,
+   1.0
+  ]
+ ],
+ "positive_patterns": [
+  "{teen+extra} vs {pre+same}",
+  "{teen+same} vs {pre+extra}",
+  "{teen+same} vs {pre+extra}",
+  "{teen+same} vs {pre+extra}",
+  "{teen+same} vs {pre+extra}",
+  "{teen+same} vs {pre+extra}"
+ ],
+ "positive_ok": true,
+ "planted_pattern_floor": 0.183,
+ "planted_pattern_floor_p95": 0.26666666666666666,
+ "planted": "{teen+same} vs {pre+extra}",
+ "grid_rows": [
+  [
+   "\u22641 always wrong",
+   "all waves",
+   "{pre+teen+extra} vs {same}",
+   1.0,
+   0.2275
+  ],
+  [
+   "\u22641 always wrong",
+   "pre-2021 only",
+   "{pre+teen+extra} vs {same}",
+   1.0,
+   0.2375
+  ],
+  [
+   "\u22642 always/almost",
+   "all waves",
+   "{pre+teen+extra} vs {same}",
+   0.99875,
+   0.24875
+  ],
+  [
+   "\u22642 always/almost",
+   "pre-2021 only",
+   "{pre+teen+extra} vs {same}",
+   0.99125,
+   0.2425
+  ],
+  [
+   "\u22643 any wrongness",
+   "all waves",
+   "{pre+teen+extra} vs {same}",
+   0.8025,
+   0.32375
+  ],
+  [
+   "\u22643 any wrongness",
+   "pre-2021 only",
+   "{pre+teen+extra} vs {same}",
+   0.4375,
+   0.2375
+  ],
+  [
+   "mean 1\u20134",
+   "all waves",
+   "{pre+teen+extra} vs {same}",
+   1.0,
+   0.235
+  ],
+  [
+   "mean 1\u20134",
+   "pre-2021 only",
+   "{pre+teen+extra} vs {same}",
+   0.99125,
+   0.23625
+  ]
+ ],
+ "grid_top": "{pre+teen+extra} vs {same}",
+ "grid_top_n": 8,
+ "grid_above_floor": 8,
+ "unidentifiable": "#900\u2461's drifting-loading rival has more parameters than cells and cannot be excluded on this release; every shape here is conditional on the two-factor reading",
+ "gates": [
+  [
+   "positive: the PLANTED pattern's own recovery rate rises with g",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.1;g=0 +0.2025 \u00b7 g=0.5 +1.0000",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "modal frequency vs the rank-1 floor [null: RANK-1 BINOMIAL RESAMPLING NULL at the observed per-wave n, with the modal frequency MEASURED from it rather than assumed to be 1/8]",
+   "(+0.9983) - (+0.2413) = +0.7570 vs 2*0.1087",
+   true,
+   "7.0x its own spread"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

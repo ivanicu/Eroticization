@@ -44468,3 +44468,89 @@ each act rides the tide can produce. There is a second thing moving, it is small
    `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
    `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
    `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 901 · `E03·A107·R339` — the second dimension is one act, and it is not one of the four I predicted
+
+**⇒ `CONFIRMED`: the second dimension has a readable SHAPE — `{premarital + teen + extramarital}`
+versus `{same-sex}` — modal in **8/8** specification cells at **99.8%** against a **measured** rank-1
+floor of **24.1%** (95th percentile 35.0%), **7.0× its own spread.**
+
+**⚠⚠ AND NONE OF MY FOUR PRE-REGISTERED WORLDS WAS RIGHT. THAT IS THE FINDING ABOUT MY OWN
+DECOMPOSITION AND IT IS REPORTED FIRST.** I listed **MINOR** (`teensex` alone — a consent axis),
+**BETRAYAL** (`xmarsex` alone — breach of a promise), **SPLIT** (`{premarsx, homosex}` vs the two
+that barely moved — a rate axis), and **NOISE**. **Reality returned a fifth: `homosex` alone.** The
+`frontier` meta-separator asks *is there an outcome that would show my world-DECOMPOSITION is
+wrong* — **there was, and it fired.** My closest guess (`SPLIT`) put `premarsx` with `homosex`
+because both liberalised fast; **the data puts `premarsx` with `teensex` and `xmarsex`, and leaves
+`homosex` on its own.** *Enumerating four worlds and having reality pick a fifth is worth more than
+any of the four being right, and it is the only reason this round was not a confirmation.*
+
+**THE ESTIMAND** was **the modal sign pattern of PC2's loadings and the share of bootstrap draws
+returning it** — because `#900`① registered that *a component of a rejected model is not itself a
+measured object until it has a null* (`#893`③ one level up). **Population** GSS respondents on the
+21 waves where all four items were asked, 1988–2024, per-wave n 868–2,680.
+
+⚠ **THE CONFOUND WRITTEN BEFORE THE RUN WAS NOT THE DATA, IT WAS THE ALGEBRA: a PCA component's
+SIGN IS ARBITRARY**, and the constitution's own guard records a label written off an unanchored
+eigenvector being exactly backwards. **Anchored to a fixed reference item (`teensex`, chosen before
+the run), so the pattern states which acts sit on OPPOSITE sides — a sign-invariant claim.**
+
+⚠ *"Should this zero be zero?"* — **NO.** Under a rank-1 world PC2 is pure sampling noise, but its
+modal-pattern frequency is **not** 1/8: the four items differ in n and variance, so some patterns
+are commoner for free. ⇒ **`offset_control`**, **kind of null named: a RANK-1 BINOMIAL RESAMPLING
+NULL at the observed per-wave n, with the modal frequency MEASURED rather than assumed.** **It
+returns 24.1%, not 12.5% — the assumption would have been wrong by a factor of two in the flattering
+direction.**
+
+**CONTROLS.** ⚠ **The positive control failed on its first run and for its own reasons, third time
+in this session's chain.** v1 tracked **whichever pattern was modal**, so at low `g` it followed the
+noise pattern and at high `g` the planted one — **comparing two different objects across the
+crossover**, which read as non-monotone (26.5% → 25.8% → 52.0% → …). v2 tracks **the planted
+pattern's own recovery rate**, whose floor is *that pattern's* rank-1 rate (**18.3%**, 95th 26.7%)
+and not the modal one: **20.2% → 28.0% → 54.8% → 97.8% → 100% → 100%**, monotone, **`g = 0` on its
+own floor so the control CAN fail**, sensitivity at `g = 0.10`, planted pattern recovered. **ALL
+GATES PASS.**
+
+**`G3`/`G4` — 4 condemnation thresholds × {all 21 waves · 1988–2018 only}: 8/8 cells return the same
+modal pattern and 8/8 exceed their own rank-1 floor.** Frequencies 38.0%–100% against floors
+22.2%–33.0%; ⚠ **the weakest cell is `≤3 any wrongness` on pre-2021 only (38.0% vs a 25.8% floor)**
+— published because reporting only the strong cells is the multiplicity failure with manners, and
+because that cell is the one an adversary should attack first.
+
+**⇒ One sentence about people: after you take out the single tide that carried all four judgements,
+what is left is one act with a history of its own — same-sex relations. Americans did not simply
+become more permissive at four different speeds; they did something to homosexuality between 1988
+and 2024 that they did not do to premarital sex, to sex at fourteen, or to adultery, and it is
+visible as a separate dimension rather than as a faster ride on the same one.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **`#900`②'s drifting-loading rival is UNIDENTIFIABLE here** — `T × 4` free loadings exceed the
+   matrix's cells — so **everything above is conditional on the two-factor reading** and is never a
+   refutation of that rival;
+② **a sign pattern is a DIRECTION, not a magnitude** — it says `homosex` sits opposite the other
+   three, never how far, and **the loading sizes are not reported because they were not tested**;
+③ **21 rows** — the MDE of this stability test against a weak-but-real shape is **not computed**
+   (`#898`'s debt, named rather than marked planned);
+④ **mode is confounded with period** (2021 web/mail push, 2022/2024 mixed-mode) and **cohort is not
+   separated from period**;
+⑤ **cross-instrument N/A — `no second instrument`, `only this one instrument`** (`#897`: SCCS's
+   matching design resolves no effect at all; `#891`: only GSS ships question text);
+⑥ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The world list being incomplete is the durable lesson and it has no control.** I enumerated
+   four and reality returned a fifth. **A prediction matrix over an ENUMERATED set silently assumes
+   the set is complete**, and nothing in `frontier`'s card checks that — the meta-separator asks
+   whether the decomposition could be wrong but does not make you look for the missing member.
+   **The cheap remedy, adopted: when the outcome space is a finite set (here 8 sign patterns),
+   ENUMERATE IT and assign every member to a world or to "unlisted", before the run.** ⇒ `#901`①
+② ⚠ **The obvious reading — "same-sex relations changed differently" — is close to a fact everyone
+   knows, and the round must be clear about what is NEW**: not that attitudes to homosexuality moved
+   fast (textbook, `#900` declared it), but that **the movement is not expressible as a faster ride
+   on the common tide**, which is a rank statement and needs the null above. **If an adversary can
+   show a fixed-loading one-factor model reproducing these series, `#900` and `#901` both fall.**
+   ⇒ `#901`②
+③ ⚠ Still `OPEN`: `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ ·
+   `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
+   `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
+   `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
