@@ -1045,6 +1045,23 @@ class Gate:
                           + (f" [{what}]" if what else "")))
         return ok
 
+    def admissible(self):
+        """`#796` —— **所有控制行都通过时才为真。** 判词只有在这之后才允许被求值。
+
+        由来(`#795`):库此前把一条**控制**的失败读成 kill 开火,打印 `OVERTURNED`;
+        而**零次假撤回到过账本**,靠的是每一轮都自己写一个 `ctrl` 变量算总判 ——
+        **一条从没被写下来的惯例,而它离消失只有一次重构。** 这个方法把它变成库的行为。
+
+        ⚠ 与 `verdict()` 的分工要说死,否则它就是第二个会被读错的量:
+          · `admissible()` —— **只看控制行**。假 ⇒ 仪器没资格下判 ⇒ `UNVERIFIED`。
+          · `verdict()`    —— 看**所有**行。它回答「这一轮全过了吗」,**不回答「能不能下判」**。
+        **两者不可互换,而把它们混起来正是 `#791`–`#793` 那一族(拿相邻的量当要判的那个量)。**
+        """
+        ctl = getattr(self, "_control_rows", set())
+        if not ctl:
+            return None      # ⚠ 一条控制都没有 ⇒ 不是「可采」,是「没问过」。None 不是 True。
+        return all(self.rows[i][2] for i in ctl if i < len(self.rows))
+
     def verdict(self):
         if getattr(self, "_moot", False) or getattr(self, "_moot_fams", set()):
             return False
