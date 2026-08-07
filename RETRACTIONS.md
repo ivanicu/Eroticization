@@ -43872,3 +43872,89 @@ zero when its own baseline was 0.45.**
    `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
    `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
    `#857`① · `#861`①.
+
+## Entry 894 · `E03·A105·R332` — the ledger retracts, the page keeps stating it: 11 rows, both pages
+
+**TYPE: PRODUCTION, labelled before the work** — this round asks nothing about people and says so.
+It exists because `#893` retracted `#892`'s headline as **backwards** and **both pages went on
+stating it, with no marker of any kind.** A reader landing on that row had no way to learn it was
+dead; they would have had to read forward to a row they have no reason to open.
+
+**AND IT WAS NEVER ONE ROW.** Measured, not assumed: **23 retraction pairs are declared in the
+ledger; 11 of their targets have a page row; ALL 11 were unmarked, in BOTH pages — 22 hits.**
+`#885`←`#886` · `#886`←`#887` · `#888`←`#889` · `#890`←`#891` · `#892`←`#893` · `#876`←`#884` ·
+`#881`←`#882` · `#773`/`#781`/`#790`←`#795` · `#782`←`#794`. **The ledger has been honest and the
+deliverable has not, which is the worse of the two orders to get right: the ledger is read by me,
+the page is read by everyone else.**
+
+**⇒ THE PRODUCT IS AN INSTRUMENT, NOT A PATCH** (`P7`: the same defect three times means build
+infrastructure). **`tools/supersede_gate.py`** parses the ledger for retraction sentences, binds each
+to the entry it retracts, and reports any page row that carries no marker. **`tools/supersede_apply.py`**
+applies the marker by **lifting the ledger's own sentence** — ⚠ **L80: a machine may not invent a
+WHY**, so it quotes rather than paraphrases, and degrades to a bare pointer when the sentence cannot
+be extracted rather than to a guess. Idempotent.
+
+**⚠ THE GATE'S OWN P6 LEDGER, because a search IS an instrument.**
+`PROPERTY` the page states a claim the ledger has retracted · `PROXY` a retraction verb bound to a
+`#N` reference inside entry M>N, and no marker on N's row · `IMPLICATION` **one direction only** —
+verb present and marker absent ⇒ that row is unmarked; the converse fails, because **a marker does
+not prove the row now reads correctly** and a retraction phrased without the listed verbs is
+**invisible** · `SAFE SIDE` report absence only, never certify a row as correctly superseded.
+**Positive control**: `#893`→`#892` is a known true pair and must be recovered — **PASS**.
+**Negative control**: an invented entry 9999 must not be found — **PASS**. **Empty population exits
+2, never 0.**
+
+**⚠⚠ AND THE GATE WAS WRONG TWICE BEFORE IT WAS RIGHT — both caught by running it, neither by
+reading it.**
+① **`(Entry 68` matched inside `(Entry 686 · 689 · 690)`.** The gate reported a page row for entry
+   68 that does not exist, and the applier then crashed trying to edit it. **A substring match on a
+   NUMBER is a measuring instrument with no boundary** — `realstat` §4 records this exact family
+   three times in one hour. Fixed with a terminating anchor `\(Entry N(?![0-9])`, and the population
+   moved **28 → 22 unmarked** and **18 → 24 no-row**: *six of the "defects" were the instrument.*
+② **the sentence extractor split on every `.`**, so the marker for `#888` read
+   *“`#888`'s `+0”* — **a decimal cut mid-number, published as the ledger's own words.**
+   `realstat` §4, *truncated string read as data*. Fixed with a boundary that is not flanked by
+   digits; the marker now reads *“`#888`'s `+0.051` is a pooled average over heterogeneous cells”*.
+③ ⚠ **AND A THIRD, FOUND BY RUNNING IT ONE MORE TIME — USE vs MENTION.** This entry's own page row
+   *describes* defect ① and therefore writes the anchor `` `(Entry 68` `` inside a code span. **The
+   gate matched its own description of the bug and reported a row for entry 68 again.** That is the
+   defect `feedback_a_text_scan_counts_mentions_as_uses` records — *the better the ledger, the
+   noisier the grep* — and it is now fixed in the instrument, not worked around in the prose: code
+   spans are stripped before the anchor is matched, because **an anchor inside backticks is a
+   MENTION.** ⇒ **three instrument defects, all three found by RUNNING it, none by reading it.**
+
+**RESULT: 22 markers applied, `rows unmarked 0`, and the gate re-run clean.** Every marker is the
+ledger's own sentence, quoted, with the entry number to read next. **24 further retraction targets
+have no page row at all** — governance and production entries that never had one — and are reported
+as *"cannot be marked, not a hit"* rather than counted as successes.
+
+**⇒ One sentence about people: none. This round moved no number and asks nothing about anyone; its
+whole content is that a project which retracts honestly in its private ledger and never propagates
+the retraction to its public page has built a very careful record of being wrong in a place only its
+author reads.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **a retraction phrased without `RETRACTED`/`OVERTURNED`/`WITHDRAWN`/`DOWNGRADED`/`backwards` near
+   a `#N` is INVISIBLE to this gate** — UNSEEN, not cleared, and the vocabulary is the whole
+   instrument;
+② **a marker does not certify the row** — it says "part of this is dead, go read `#M`", never "what
+   remains is right". **Rewriting the surviving text is a different job and is NOT done here**;
+③ **`#893`②'s five converging debts are only PARTLY paid**: the *retraction* now reaches both pages,
+   but the **ranges** (`#888`②/`#889`②) and the **D6/D8 evidence grades** (`#891`②) are still not on
+   the rows they belong to;
+④ no second reader checked the 22 markers.
+
+**NEXT**
+① ⚠ **Wire `supersede_gate.py` into the pre-commit hook** beside `readme_gate.py` and
+   `registry_keys_gate.py`, or it is a script that ran once. **A gate not wired is a gate that
+   measured one day.** ⇒ `#894`①
+② ⚠ **The remaining half of `#893`②**: the rows for `#883` and `#888` still carry POINT estimates
+   where three nested ranges belong, and no row distinguishes a `D6` label-only claim from a `D8`
+   question-text one. **The marker pass did not touch either.** ⇒ `#894`②
+③ ⚠ **The gate's vocabulary is its blind spot and I know the size of neither.** Of 23 pairs found,
+   how many retractions exist in the ledger phrased some other way? **Not measured.** A positive
+   control proves the instrument can see; it says nothing about what it cannot. ⇒ `#894`③
+④ ⚠ Still `OPEN`: `#893`①②③ · `#892`①③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① ·
+   `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
+   `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
+   `#852`① · `#857`① · `#861`①.
