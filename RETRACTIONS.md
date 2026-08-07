@@ -44063,3 +44063,59 @@ conservative and the less educated look, on this measure, like everybody else.**
    `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
    `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 896 · `E03·A105·R334` — the two rows that carried a point where three ranges belong
+
+**TYPE: PRODUCTION, labelled before the work.** It moves no number and asks nothing about people. It
+pays **`#894`②**, which was the largest unpaid debt on the deliverable itself and had been carried
+forward under five different numbers (`#888`② · `#889`② · `#890`② · `#891`② · `#894`②) without once
+reaching the page.
+
+**WHAT WAS WRONG.** `#894` made every *retraction* reach both pages, by marker, quoting the ledger.
+**It did not touch the rows that are not retracted and are merely too confident.** Two of those carry
+this project's most-quoted numbers:
+- **`#883`'s Δ = +0.334** and **`#888`'s Δ_matched = +0.051** were each stated as a **point**, and
+  each is **one cell of a curve**. The honest statements are the intervals, and there are three,
+  nested: **trio sweep `[+0.051, +0.374]`, median +0.320** (`#888`, 210 specifications — and the
+  difficulty-matched cell sits at the BOTTOM of that range, which is the cell `#888` led with) ·
+  **sample-completeness rule `[+0.023, +0.051]`** (`#889`) · **leave-one-wave-out
+  `[+0.022, +0.079]`, wave 2008 alone +0.156** (`#889`).
+- **the evidence grades on those rows are not uniform** (`#891`): the seven abortion LEGALITY items
+  are **`D8`** — question text verbatim in the shipped codebook — while **`abpoorw`, `abdefctw`,
+  `spkhomo`, `colhomo`, `libhomo` are `D6`**, their question text appearing in **none of the four
+  shipped GSS PDFs**, so every claim about *what those questions ask* rests on a 46-character label.
+- **the ACT reading is an upper bound** (`#890`/`#892`): a same-sized effect is reproducible **inside
+  one act** by changing only which reason is asked, and object-distance — an act versus a person —
+  **cannot be equalised in GSS at all**.
+
+**All three now sit on both rows, in both pages, as a `SCOPE CORRECTION` annotation** — appended,
+never rewriting the original text (`L81`), so the row still shows what was claimed and what it is
+now bounded by.
+
+**⚠ AND THE GATE CAUGHT ME PUTTING A BARE NUMBER BACK ON THE PAGE.** Writing `+0.023` into the
+annotation collided with entries `154`/`564`/`565`, which have named that token as a defect — a
+`named_defects` block, `0 → 6`. **The fix is the project's own convention and it is not cosmetic**:
+the line now carries the literal marker `scope stated`, which is what makes the difference between
+*restating a number the ledger killed* and *stating the scope over which it holds*. The gate cannot
+tell those apart from the digits alone, and neither could a reader.
+
+**⇒ One sentence about people: none — but this is the round that makes the earlier ones readable,
+because until now the two most-quoted numbers in this project appeared on the page as facts and
+lived in the ledger as intervals, and only one of those two documents is the deliverable.**
+
+**WHAT THIS ROUND DOES NOT DO** (registered):
+① **it annotates, it does not rewrite** — the original sentence remains and is now bounded, which is
+   `L81` and is deliberate; a reader who reads only the first clause still reads the old claim;
+② **it covers the two rows named in `#894`②, not every over-confident row on the page** — no sweep
+   was run to find others, so **the count of remaining point-where-a-range-belongs rows is UNKNOWN,
+   not zero**;
+③ **there is no gate for this class.** `supersede_gate` catches retractions; nothing catches a row
+   that is merely too confident, and I do not currently know how to specify that mechanically.
+
+**NEXT**
+① ⚠ **`②` is the honest gap: I fixed the two rows a debt happened to name.** A sweep for *"a row
+   stating a point that the ledger elsewhere gives an interval for"* has never been run, and its
+   result could be two rows or twenty. ⇒ `#896`①
+② ⚠ **`③` is the durable version of the same thing** — `#894` earned its keep by becoming an
+   instrument rather than a patch, and this round did **not**. It is a patch, and it is labelled one.
+   ⇒ `#896`②
