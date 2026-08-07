@@ -1,0 +1,68 @@
+=== (0) HARD RULE 1 — n, the years actually asked, and the VALUE SET ===
+  premarsx  n= 45697  1972–2024 (30 waves)  codes=[1, 2, 3, 4]
+  teensex   n= 33901  1986–2024 (22 waves)  codes=[1, 2, 3, 4]
+  xmarsex   n= 46266  1973–2024 (30 waves)  codes=[1, 2, 3, 4]
+  homosex   n= 44726  1973–2024 (30 waves)  codes=[1, 2, 3, 4, 5]
+  common waves 21 · `#900` (read from its artifact, `#840`'s RULE, whose own scope was `homosex` alone so only the practice transfers): PC1 0.90014
+
+=== (1) THE LINK-FREE STATISTIC — six pairwise Spearmans across 21 waves ===
+  |ρ| 0.4143   pre×extra
+  |ρ| 0.4519   extra×same
+  |ρ| 0.5195   teen×extra
+  |ρ| 0.6675   teen×same
+  |ρ| 0.7039   pre×teen
+  |ρ| 0.9455   pre×same
+
+  **min |pairwise Spearman| = 0.4143**  — under ANY one-factor model with a common monotone link this is 1 up to sampling noise
+
+=== (2) OFFSET CONTROL — the COMONOTONE BINOMIAL RESAMPLING NULL (no link anywhere) ===
+  comonotone null: median 0.7883 · sd 0.0609 · **5th percentile 0.6753**
+  ⚠ **the null is NOT 1.0** — `xmarsex` moved only ~7 points in 36 years, so its wave order is mostly noise even in a perfectly comonotone world. Written before the run.
+  observed 0.4143 vs 5th percentile 0.6753 ⇒ BELOW — the one-factor family is refuted LINK-FREE
+
+=== (3) POSITIVE CONTROL — plant a second factor; at g=0 it must NOT fire ===
+  g=0.00  min|ρ| 0.7883 ± 0.0647
+  g=0.05  min|ρ| 0.7831 ± 0.0614
+  g=0.10  min|ρ| 0.6351 ± 0.0709
+  g=0.20  min|ρ| 0.3455 ± 0.0711
+  g=0.35  min|ρ| 0.0286 ± 0.0285
+  g=0.50  min|ρ| 0.2078 ± 0.0404
+  ⚠ **turning point MEASURED at g=0.35** (min|ρ| bottoms at 0.0286 and rises to 0.2078 at g=1 — the statistic SATURATES at its 0 bound)
+  monotone region g ∈ [0, 0.35] · floor(g=0) 0.7883 lands on the null median 0.7883 ⇒ the control CAN fail · bottom 0.0286 · threshold 0.6753 strictly between: True
+
+=== (4) THE LINK SWEEP — `#901`②'s attack, run directly: does ANY link save one factor? ===
+  probit    PC1 0.90014  its own rank-1 null 5th pct 0.97666  ⇒ BELOW
+  logit     PC1 0.88660  its own rank-1 null 5th pct 0.96943  ⇒ BELOW
+  cloglog   PC1 0.93346  its own rank-1 null 5th pct 0.98206  ⇒ BELOW
+  identity  PC1 0.93752  its own rank-1 null 5th pct 0.98753  ⇒ BELOW
+  arcsine   PC1 0.91720  its own rank-1 null 5th pct 0.98297  ⇒ BELOW
+
+  **any link puts PC1 inside its own null: False**
+
+=== (5) G3/G4 — 4 thresholds × {all 21 waves · 1988–2018} on the LINK-FREE statistic ===
+  ≤1 always wrong    all waves      T=21  min|ρ| 0.3818  null5th 0.6325  ⇒ BELOW
+  ≤1 always wrong    pre-2021 only  T=18  min|ρ| 0.0217  null5th 0.4241  ⇒ BELOW
+  ≤2 always/almost   all waves      T=21  min|ρ| 0.4143  null5th 0.6830  ⇒ BELOW
+  ≤2 always/almost   pre-2021 only  T=18  min|ρ| 0.0712  null5th 0.4879  ⇒ BELOW
+  ≤3 any wrongness   all waves      T=21  min|ρ| 0.2792  null5th 0.6350  ⇒ BELOW
+  ≤3 any wrongness   pre-2021 only  T=18  min|ρ| 0.0877  null5th 0.4384  ⇒ BELOW
+  mean 1–4           all waves      T=21  min|ρ| 0.3468  null5th 0.5605  ⇒ BELOW
+  mean 1–4           pre-2021 only  T=18  min|ρ| 0.0031  null5th 0.3208  ⇒ BELOW
+
+  **grid: 8/8 cells refute the one-factor family LINK-FREE** · pre-2021 cells: 4/4
+
+=== (6) THE CONDITIONAL KILL — all four cells of the outcome space were assigned ===
+  CONDITIONAL KILL -- Was `#900`/`#901`'s second dimension just the wrong link?
+   PASS  positive: a planted second factor drives min|ρ| down (inside the MEASURED monotone region)                                                                                                                                                                                       方向由数据给出:**下降**;灵敏度 g=0.1;g=0 +0.7883 · g=0.35 +0.0286   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  min|ρ| vs the comonotone null [null: COMONOTONE BINOMIAL RESAMPLING NULL — each item's OWN observed values reassigned to waves in one common order (perfectly comonotone and LINK-FREE by construction, every marginal preserved), then binomial noise at that wave's actual n]  (+0.4143) - (+0.7883) = -0.3740 vs 2*0.0609   (6.1x its own spread)
+   => ALL GATES PASS
+
+  min|ρ| 0.4143 vs null 5th 0.6753 ⇒ below: True · any link saves one factor: False · grid 8/8
+  gate three-valued : ALL GATES PASS
+  **VERDICT CONFIRMED · TWO — the second dimension survives a LINK-FREE test and no link saves one factor; `#900`/`#901` stand and no longer depend on probit**
+
+  ⚠ `[unchallenged]` — I am not an adversary. `door ③`: a reviewer sampled from the weights
+     that wrote `#900` can only attack what those weights already anticipated. `#899`'s
+     pre-registration table remains the thing a real adversary should be scored against.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A107_one_tide_or_four_histories/R340_was_the_second_dimension_just_the_wrong_link/results/link_free_attack.json

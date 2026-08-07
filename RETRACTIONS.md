@@ -44554,3 +44554,104 @@ visible as a separate dimension rather than as a faster ride on the same one.**
    `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
    `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
    `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 902 · `E03·A107·R340` — I attacked my own two newest entries at the hole I built, and they held
+
+**⇒ `CONFIRMED` · world `TWO`: the second dimension survives a LINK-FREE test, and none of five links
+saves a one-factor model. `#900` and `#901` stand and no longer depend on the probit link I chose
+for convenience.**
+
+**THE ATTACK, AND IT IS ONE I BUILT MYSELF ONE ROUND AGO.** `#901`② invited an adversary: *"if an
+adversary can show a fixed-loading one-factor model reproducing these series, `#900` and `#901` both
+fall."* `#899` records that I cannot dispatch one, so I looked for the hole and **found it in my own
+algebra: `#900`'s rank test PRESUPPOSES THE PROBIT LINK.** `z_i(t) = b_i − λ_i·F(t)` is rank-1 *on
+the probit scale*; a one-factor world with a **logit** link is not rank-1 after a probit transform.
+**So "PC1 share 0.90 below its null" could have been detecting LINK MISSPECIFICATION and nothing
+else.**
+
+**THE LINK-FREE INVARIANT.** Under one factor with **any** common monotone link and fixed loadings,
+`p_i(t) = g(b_i − λ_i·F(t))` is a monotone function of `F(t)` for every item ⇒ **all four series are
+comonotone in `t`, so every pairwise Spearman across waves is ±1 up to sampling noise.** *No link
+appears anywhere in that statement.*
+
+| pair | \|Spearman\| across 21 waves |
+|---|---|
+| premarital × same-sex | 0.9455 |
+| premarital × teen | 0.7039 |
+| teen × same-sex | 0.6675 |
+| teen × extramarital | 0.5195 |
+| extramarital × same-sex | 0.4519 |
+| **premarital × extramarital** | **0.4143** |
+
+⚠ *"Should this zero be zero?"* — **NO**: under a true one-factor world these are **1**, not 0, and
+they fall below 1 purely from sampling, by an amount that depends on how far each item actually
+moved. ⇒ **`offset_control`**, **kind of null named: a COMONOTONE BINOMIAL RESAMPLING NULL — each
+item's OWN observed values reassigned to waves in one common order (perfectly comonotone and
+link-free by construction, every marginal preserved), then binomial noise at that wave's actual n.**
+**It returns median 0.7883 ± 0.0609, 5th percentile 0.6753** — *the confound written before the run
+was exactly this: `xmarsex` moved only 7 points in 36 years, so its wave order is mostly noise even
+in a perfect one-factor world, and the null had to price that in.* **Observed 0.4143 is 6.1× its own
+spread below.**
+
+**AND THE LINK SWEEP, `#901`②'s attack run directly — five links, none of them saves one factor:**
+probit **0.90014** (null 5th 0.97666) · logit **0.88660** (0.96943) · cloglog **0.93346** (0.98206) ·
+identity **0.93752** (0.98753) · arcsine **0.91720** (0.98297). **All five BELOW.**
+
+**CONTROLS.** ⚠ **The positive control failed on its first run, and the mechanism is one this project
+has already recorded twice.** `min|ρ|` is **bounded below by 0**, so past a turning point a larger
+plant makes the pairs comonotone again with respect to the *new* dominant structure and the statistic
+**rises** — `0.7883 → 0.7831 → 0.6351 → 0.3455 → 0.0286 → 0.2078`. That is the `#885`/`#887` family
+verbatim (*a control that cannot PASS because the statistic is even in the thing being planted*), and
+**this project's recorded remedy is to MEASURE the turning point rather than excuse the
+non-monotonicity**: **measured at `g = 0.35`**, the monotone region is `[0, 0.35]`, `g = 0` lands
+exactly on the null median, and the threshold **0.6753 lies strictly inside**. **ALL GATES PASS.**
+
+**`G3`/`G4` — 4 condemnation thresholds × {all 21 waves · 1988–2018 only}: 8/8 cells refute the
+one-factor family LINK-FREE, and 4/4 of the pre-2021 cells refute** (min|ρ| 0.0031–0.4143 against
+nulls 0.3208–0.6830). **The mode change is not the explanation.**
+
+⚠ **`#901`①'s REMEDY WAS APPLIED, ITS FIRST USE, AND IT MATTERED.** The outcome space here is finite
+— `(min|ρ| below/inside) × (some link saves one factor: yes/no)` — **four cells, all four assigned to
+a world before the run, none unlisted**, including the one that would have been a **contradiction
+between two statistics** and is `UNVERIFIED` rather than a choice between them. *Last round reality
+returned a fifth world because I had enumerated four out of a space I never wrote down; this round
+the space was written down first.*
+
+⚠ **AND AN HONEST TENSION I DID NOT RECONCILE.** The raw pairwise ranks make **extramarital** the odd
+one out (its two lowest pairs), while `#901`'s residual dimension isolated **same-sex**. Both can
+hold — extramarital barely moves at all, so it correlates weakly with everything, whereas same-sex's
+*departure from the common tide* is the systematic part — **but that reconciliation is an argument,
+not a measurement, and no round has tested it.** ⇒ `#902`①
+
+**⇒ One sentence about people: take away the link, take away the scale, take away every assumption
+about how a percentage maps onto a feeling — and it is still not true that Americans' judgements of
+four sexual acts moved as one. The order in which the country softened on sex before marriage and
+the order in which it softened on adultery agree only 0.41 across 21 surveys, where a single tide
+would have forced them to agree completely.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **comonotonicity assumes a COMMON link across items** — four items each with its own monotone link
+   is a weaker family and **is not tested**, because it has more freedom than the data has structure;
+② **`#900`②'s drifting-loading rival remains UNIDENTIFIABLE** — more parameters than cells;
+③ **T = 21** — the MDE of the link-free statistic is not computed (`#898`'s standing debt);
+④ **mode is confounded with period**; **cohort is not separated from period**;
+⑤ **cross-instrument N/A — `no second instrument`, `only this one instrument`** (`#897`, `#891`);
+⑥ ⚠ **I AM NOT AN ADVERSARY.** `door ③`: a reviewer sampled from the weights that wrote `#900` can
+   only attack what those weights already anticipated. **This round is `[unchallenged]`**, and
+   `#899`'s pre-registration table remains the thing a real adversary should be scored against;
+⑦ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **The tension above is a measurable question and was not measured**: is `xmarsex`'s low pairwise
+   agreement its NOISE (it barely moved) or its CONTENT (it moved differently)? The comonotone null
+   prices the noise, so the answer is computable — **but it is a different estimand from either
+   `#901`'s or this round's, and inventing it after seeing the tension would be a threshold chosen
+   after the result.** ⇒ `#902`①
+② ⚠ **A107 can close.** Its decision — *is an era one number or more* — is made safe: **more**, and
+   it survives the link, the mode change, four thresholds and a link-free invariant. A fourth round
+   on the same four series would be Closure wearing a Frontier label. ⇒ `#902`②
+③ ⚠ Still `OPEN`: `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① ·
+   `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② ·
+   `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
+   `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
+   `#857`① · `#861`①.
