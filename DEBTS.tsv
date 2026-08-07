@@ -76,5 +76,7 @@ debt	raised_in	status	settled_in	note
 #869①	869	SETTLED	870	8 轮把 biomale(性别协变量)当成 likert 题,占题集 5%(1/20);影响 UNASSESSED —— 要评估必须逐轮重跑并对照各自结论,在此之前不许说「影响很小」也不许说「影响很大」
 #869②	869	OPEN		剩下 18 个靠拷贝活着的 token 未搬;其中 value_whitelist 一族(1,2 / 1,2,3,4 / 4,5)是 GSS 有效码守则,而它已经有家了(lib/gss_polarity.py 的 VALID_CODES)⇒ 接上去,不要再造一个
 #870①	870	SETTLED	871	那 8 个脚本里哪几个的判词依赖前两根成分?依赖的必须重跑,不依赖的只登记;⚠ 而「只有几个依赖」不许我数,要 grep(#868② 刚教过)——「翻没翻」在那之前仍是 UNASSESSED
-#871①	871	OPEN		align_the_block_signs_and_see_who_it_hurts.py flips its verdict when ANY of 4/5 single real items is dropped — knife-edge w.r.t. which items exist; measure how many other committed rounds have that property (the yardstick was built this round)
+#871①	871	SETTLED	872	align_the_block_signs_and_see_who_it_hurts.py flips its verdict when ANY of 4/5 single real items is dropped — knife-edge w.r.t. which items exist; measure how many other committed rounds have that property (the yardstick was built this round)
 #871②	871	OPEN		back-catalogue still Chinese: ~860 round scripts, ledger entries #1-#870, README_zh.md; Ivan asked for everything in English this session; mechanical but not free, must not be claimed done until it is
+#872①	872	OPEN		back-catalogue conversion measured: ~1,410,942 CJK chars over 719 files; and 517 of 519 phrase anchors are Chinese and must be verbatim substrings of ledger headings with dangling_anchors BLOCKING => the conversion must go entry-by-entry atomically, never file-by-file
+#872②	872	OPEN		3 of the 38 item-set scripts do not run at all (FileNotFoundError on a dependency that no longer exists) => their conclusions cannot be re-derived. Worse than fragility, never registered before

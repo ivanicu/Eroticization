@@ -41840,3 +41840,105 @@ outright, and one script in this very set already flips when any single item is 
 ③ ⚠ Still `OPEN`: `#869`② (18 copy-only tokens; the `value_whitelist` family already has a home in
    `lib/gss_polarity.py`'s `VALID_CODES`) · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
    `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 872 · `E03·A100·R311` — this project has always checked whether a finding survives dropping a PERSON; it had never checked whether it survives dropping a QUESTION
+
+Pays `#871`①. `#871` re-ran five scripts and found, without looking for it, that
+`align_the_block_signs_and_see_who_it_hurts.py` **flips its verdict when any of 4 out of 5 single
+items is dropped**. Its NEXT: measure how many other committed rounds have that property.
+
+**⚠⚠ THE PRIOR-ART GATE FIRED FIRST, AND IT CHANGED THE DESIGN RATHER THAN KILLING IT.**
+`grep`ping the ledger for leave-one-out returns a practice this project already runs constantly:
+one entry has LOO **killing a headline** — *"worst leave-one-out = −0.294, and the point whose
+removal does it is `pornhabit` at 6 of 8 specifications"*; another carries a claim with
+*"leave-one-out range +0.672 … +0.830 — never near collapse"*; another, *"survives leave-one-out,
+its null, and a sham"*; another, *"leave-one-out 20 times, all the same sign"*.
+⇒ **Leave-one-out is not new here. But every one of those drops a UNIT — a person, a split, a
+point. `#871` stumbled onto a different perturbation: dropping an ITEM, one of the questions that
+DEFINES the variables. That has never been run in this project — and it is UPSTREAM of the other:
+change the items and every derived quantity changes, including the units the unit-level
+leave-one-out is computed over.**
+
+**Population**: **38** scripts derive the BKS item set; **35 run and are deterministic**;
+**3 do not run at all** (`FileNotFoundError` — `UNREADABLE`, which is **not** "did not flip"). All 35 carry a decision.
+
+**⚠⚠ AND THE POPULATION ITSELF MOVED BETWEEN TWO SWEEPS OF THIS SAME ROUND — recorded, not smoothed.**
+The first sweep classified **34 deterministic / 1 non-deterministic**; the second, run alone,
+classified **35 / 0**. **One script changed class.** The first sweep was running **concurrently with
+another job of mine** (the confound check), and **this instrument cannot distinguish a timeout from
+non-determinism** — both surface as "the two runs differed". ⇒ **the reported numbers are the
+SECOND sweep's**, taken alone; **the mechanism is `UNVERIFIED`, the fact is not.**
+**A determinism check run under load measures the load.**
+
+| the round's OWN verdict | scripts | how many flip | mean item-flip rate | median gate rows |
+|---|---|---|---|---|
+| **`ALL GATES PASS`** | **12** | **0** | **0.000** | 4 |
+| `UNVERIFIED` | 12 | 3 | 0.109 | 5 |
+| `OVERTURNED` | 11 | 3 | 0.073 | 4 |
+
+⇒ **6/35 scripts flip; overall cell rate 0.058 over 171 cells. Kill `OVERTURNED`, verdict B.**
+⇒ **Not one round that reported all gates green depends on which questions were asked** —
+bounded by the rule of three on 0/60 cells at **< 0.050**. **That is a bound, not a proof.**
+
+**⚠ The strongest confound was checked, not assumed.** More gate rows means more surfaces to flip:
+flippers carry a median of **6** gate rows against **4** for non-flippers, and
+Spearman(gate rows, flip rate) = **+0.254**. **But `OVERTURNED` rounds carry the same median gate
+count as clean ones (4) and still flip at 0.073** ⇒ **gate count does not explain the separation.**
+
+**⚠ The kind of null**: not a permutation and not zero — **the no-op injection**, an inserted line
+that drops a column which does not exist. It must leave the output byte-identical and must flip
+nothing; it flipped **0 of 35**, and that is what licenses reading any other flip as a decision
+rather than as formatting.
+
+**Controls (all four pass)**: negative — an unmodified script run twice is byte-identical, stamp
+stripped (**these scripts print a `sha1` of their own source, so any edit changes the output by
+construction; `#871` lost a whole control to exactly this**); positive — **a no-op injection
+dropping a non-existent column is byte-identical 35/35 and flips 0 decisions**, which is what kills
+world D and proves the fingerprint is a stable object; arithmetic-first — a script with no decision
+**cannot** flip, so such scripts are counted separately and never as "robust" (here: 0 of 35).
+Multiplicity over **171** cells: BH **10**, BY **10**.
+
+**⚠⚠ AND THE VERDICT STRING WAS WRONG ON FIRST WRITE — the third round running.**
+Branch B's text said flips were *"concentrated on already-`UNVERIFIED` rounds (3 of 6)"*.
+**3 of 6 is half, not concentrated.** The real separation is not `UNVERIFIED` vs the rest, it is
+**clean vs not-clean, and it is total: 0 of 12 against 6 of 23.** Rewritten to the measured split.
+**A branch that reads plausibly is not a computation, and I keep discovering that at the same point
+— after the controls have fired and the attention they were holding has been released.**
+
+**⇒ One sentence about people:**
+**the worry was that a share of what this project says about people is really a statement about
+which twenty questions the questionnaire happened to contain. Measured across the corpus, that is
+true of one round in six — and every single one of them had already printed a verdict saying it was
+not sure. The rounds that claimed to have settled something had settled it independently of which
+questions were on the form.**
+**The ledger was already carrying the warning. Nobody had ever checked that it was carrying it
+correctly.**
+
+⚠ **A flip is a statement about MARGIN, never about truth** — a flipped round is not thereby wrong,
+and an unflipped one is not thereby right. This round ranks margin.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① it ranks **margin**, never **truth**;
+② **the instrument cannot be changed** — these scripts and this item set exist only in this
+   repository ⇒ **only this one instrument**; structural, not an omission;
+③ scripts that do not run are `UNREADABLE`, **not** "did not flip";
+④ **K = 5 items of 19** — the flip rate is a lower bound on what all 19 would give, and
+   **enlarging K is a real cost (each item is a full corpus sweep), not a thing to promise**;
+⑤ **this round edits nothing** — patches touched a temporary copy beside each original.
+
+**NEXT**
+① ⚠ **`#871`② is now MEASURED rather than estimated, and the number changes what should be done.**
+   The back-catalogue is **~1,410,942 CJK characters across 719 files** — the ledger 617,858 ·
+   round scripts 540,546 · the Chinese page 201,120 · the two shared-module directories 45,585 ·
+   **and the ENGLISH page still holds 5,833**, because of the coupling below.
+   ⚠⚠ **And there is a structural coupling nobody had noticed**: **517 of 519 phrase anchors are
+   Chinese**, and an anchor must be a **verbatim substring of a ledger heading**, with
+   `dangling_anchors` **blocking**. ⇒ **translating a heading without its README row in the SAME
+   commit cannot even be committed** ⇒ the conversion must go **entry by entry, atomically**, never
+   file by file. **That is the real constraint, and it was found by measuring rather than starting.**
+   ⇒ `#872`①
+② ⚠ **The 3 scripts that do not run are a separate, older problem** — they were committed with a
+   dependency that no longer exists, so **their conclusions cannot be re-derived at all.**
+   That is worse than fragility and it has never been registered. ⇒ `#872`②
+③ ⚠ Still `OPEN`: `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.
