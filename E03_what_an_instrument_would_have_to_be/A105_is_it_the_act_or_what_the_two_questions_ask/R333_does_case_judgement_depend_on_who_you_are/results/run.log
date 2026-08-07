@@ -1,0 +1,94 @@
+=== (0) HARD RULE 1 — n, years, codes, before any column is cited ===
+  abpoorw   n_in_sample= 1960/1960 codes=[1, 2, 3, 4]
+  abdefctw  n_in_sample= 1960/1960 codes=[1, 2, 3, 4]
+  abdefect  n_in_sample= 1960/1960 codes=[1, 2]
+  abnomore  n_in_sample= 1960/1960 codes=[1, 2]
+  abhlth    n_in_sample= 1960/1960 codes=[1, 2]
+  abpoor    n_in_sample= 1960/1960 codes=[1, 2]
+  abrape    n_in_sample= 1960/1960 codes=[1, 2]
+  absingle  n_in_sample= 1960/1960 codes=[1, 2]
+  abany     n_in_sample= 1960/1960 codes=[1, 2]
+  attend    n_in_sample= 1937/1960 codes=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+  polviews  n_in_sample= 1887/1960 codes=[1, 2, 3, 4, 5, 6, 7]
+  educ      n_in_sample= 1955/1960 codes=[0, 2, 3, 4, 5, 6, 7, 8, 9]
+  ⇒ base sample n=1960, waves [1991, 1998, 2008]
+
+=== (1) BASELINES, computed once per (stratum x partition) — they do not cancel ===
+  attend    low 0–2=+0.6981 · mid 3–5=+0.5369 · high 6–8=+0.2101
+  polviews  liberal 1–3=+0.6830 · moderate 4=+0.4629 · conservative 5–7=+0.3301
+  educ      ≤12=+0.3625 · 13–15=+0.6238 · ≥16=+0.4724
+
+=== (2) THE OBSERVED CONTRAST T = B*(last) - B*(first), per stratifier ===
+  attend    n=[796, 559, 582]  B* -0.6352 -> -0.5837 -> -0.3231   **T = +0.3121**
+  polviews  n=[576, 714, 597]  B* -0.4852 -> -0.6110 -> -0.3822   **T = +0.1030**
+  educ      n=[902, 516, 537]  B* -0.5692 -> -0.4662 -> -0.4417   **T = +0.1274**
+
+=== (3) NEGATIVE CONTROL — stratum-label permutation, SIZES PRESERVED ===
+  baselines for a RANDOM subsample of each size (the null's own baseline, cached): n~500:+0.4604 · n~600:+0.5720 · n~700:+0.4378 · n~800:+0.4339 · n~900:+0.4667
+  attend    null median -0.1483 · sd 0.1022 · **95th pct of |T| 0.2973**  (300 draws)
+  polviews  null median +0.0040 · sd 0.1137 · **95th pct of |T| 0.2218**  (300 draws)
+  educ      null median +0.0144 · sd 0.1010 · **95th pct of |T| 0.2039**  (300 draws)
+
+=== (4) THE SIZE NULL — same permutation, EQUAL stratum sizes (separates world SIZE) ===
+  attend    equal-size null 95th pct of |T| 0.2063 (n_eq=645) vs unequal 0.2973
+  polviews  equal-size null 95th pct of |T| 0.2097 (n_eq=629) vs unequal 0.2218
+  educ      equal-size null 95th pct of |T| 0.1963 (n_eq=651) vs unequal 0.2039
+
+=== (5) POSITIVE CONTROL — a graded PERSON-LEVEL plant on a synthetic covariate ===
+  g=0.00  T -0.0055 +/- 0.1006   (covariate REDRAWN each replicate; g=0 -> 0)
+  g=0.10  T +0.0573 +/- 0.1191   (covariate REDRAWN each replicate; g=0 -> 0)
+  g=0.25  T +0.1972 +/- 0.0731   (covariate REDRAWN each replicate; g=0 -> 0)
+  g=0.50  T +0.3586 +/- 0.1078   (covariate REDRAWN each replicate; g=0 -> 0)
+  g=0.75  T +0.4714 +/- 0.0857   (covariate REDRAWN each replicate; g=0 -> 0)
+  g=1.00  T +0.6180 +/- 0.0834   (covariate REDRAWN each replicate; g=0 -> 0)
+  floor(g=0) -0.0055 · ceiling(g=1) +0.6180 · mean threshold 0.2410 strictly between: True
+
+=== (6) G3/G4 — 3 stratifiers x 3 estimators x 3 partitions = 27 trend cells ===
+  attend    textbook (Ebaugh & Haney 1980) spearman  T = +0.3121
+  attend    textbook (Ebaugh & Haney 1980) kendall   T = +0.3121
+  attend    textbook (Ebaugh & Haney 1980) gamma     T = +0.6023
+  attend    drop `abany`                   spearman  T = +0.3536
+  attend    drop `abany`                   kendall   T = +0.3536
+  attend    drop `abany`                   gamma     T = +0.6494
+  attend    `abnomore` as hardship         spearman  T = +0.2302
+  attend    `abnomore` as hardship         kendall   T = +0.2302
+  attend    `abnomore` as hardship         gamma     T = +0.4123
+  polviews  textbook (Ebaugh & Haney 1980) spearman  T = +0.1030
+  polviews  textbook (Ebaugh & Haney 1980) kendall   T = +0.1030
+  polviews  textbook (Ebaugh & Haney 1980) gamma     T = +0.4087
+  polviews  drop `abany`                   spearman  T = +0.1412
+  polviews  drop `abany`                   kendall   T = +0.1412
+  polviews  drop `abany`                   gamma     T = +0.4459
+  polviews  `abnomore` as hardship         spearman  T = +0.1197
+  polviews  `abnomore` as hardship         kendall   T = +0.1197
+  polviews  `abnomore` as hardship         gamma     T = +0.3228
+  educ      textbook (Ebaugh & Haney 1980) spearman  T = +0.1274
+  educ      textbook (Ebaugh & Haney 1980) kendall   T = +0.1274
+  educ      textbook (Ebaugh & Haney 1980) gamma     T = -0.0125
+  educ      drop `abany`                   spearman  T = +0.0928
+  educ      drop `abany`                   kendall   T = +0.0928
+  educ      drop `abany`                   gamma     T = -0.0489
+  educ      `abnomore` as hardship         spearman  T = +0.0900
+  educ      `abnomore` as hardship         kendall   T = +0.0900
+  educ      `abnomore` as hardship         gamma     T = -0.0117
+
+  **grid: 24/27 trend cells positive**
+  attend    median T +0.3536 vs its own null 95th 0.2973 => 7/9 cells beyond
+  polviews  median T +0.1412 vs its own null 95th 0.2218 => 3/9 cells beyond
+  educ      median T +0.0900 vs its own null 95th 0.2039 => 0/9 cells beyond
+
+=== (7) THE CONDITIONAL KILL ===
+  CONDITIONAL KILL -- Does whether a moral verdict is a CASE-JUDGEMENT depend on who holds it?
+   PASS  positive: graded person-level plant on a synthetic covariate  方向由数据给出:**上升**;灵敏度 g=0.5;g=0 -0.0055 · g=1 +0.6180   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  stratum-label permutation, sizes preserved                    |-0.0355| < 0.5*|+0.1274| = 0.0637   (null is 28% of the effect [零的方案: STRATUM-LABEL PERMUTATION NULL with stratum sizes preserved - destroys the person-coupling association and keeps marginals, items, n and estimator identical]  ⚠ 零与效应**反号** —— 反号的零是支持效应的证据,而上面这条比较对符号是瞎的,请自行判读 (#758))
+   FAIL  T (median over stratifiers)                                   |+0.1274| > 2*0.1205 = 0.2410   (1.1x its own spread)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (T (median over stratifiers)). This is a refutation, NOT an unverified round (#366e).
+
+  stratifiers with a majority of cells beyond their own null and T>0: 1/3 · inside: 2/3 · size-only: 0/3
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (T (median over stratifiers)). This is a refutation, NOT an unverified round (#366e).
+  **VERDICT OVERTURNED · POP - the tilt is a population constant; `#893`'s gradient paragraph is WITHDRAWN from both pages**
+
+  ⚠ `attend`, `polviews` and `educ` are MUTUALLY CORRELATED - three stratifiers are not
+     three independent tests, and the agreement count above is NOT a p-value. Registered.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A105_is_it_the_act_or_what_the_two_questions_ask/R333_does_case_judgement_depend_on_who_you_are/results/person_or_population.json

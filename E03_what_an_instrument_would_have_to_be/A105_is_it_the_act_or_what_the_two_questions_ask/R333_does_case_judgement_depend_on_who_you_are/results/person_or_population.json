@@ -1,0 +1,320 @@
+{
+ "entry": 895,
+ "round": "E03\u00b7A105\u00b7R333",
+ "verdict": "OVERTURNED",
+ "world": "POP - the tilt is a population constant; `#893`'s gradient paragraph is WITHDRAWN from both pages",
+ "n": 1960,
+ "waves": [
+  1991,
+  1998,
+  2008
+ ],
+ "observed": {
+  "attend": {
+   "bstar": [
+    -0.6351728225284424,
+    -0.5837179572243504,
+    -0.3230575892392705
+   ],
+   "sizes": [
+    796,
+    559,
+    582
+   ],
+   "T": 0.3121152332891719
+  },
+  "polviews": {
+   "bstar": [
+    -0.48524366632555627,
+    -0.6109902407243656,
+    -0.3822358999566945
+   ],
+   "sizes": [
+    576,
+    714,
+    597
+   ],
+   "T": 0.10300776636886178
+  },
+  "educ": {
+   "bstar": [
+    -0.5691701460800599,
+    -0.4662281411831607,
+    -0.4417268524735669
+   ],
+   "sizes": [
+    902,
+    516,
+    537
+   ],
+   "T": 0.12744329360649298
+  }
+ },
+ "null": {
+  "attend": {
+   "median": -0.14829698084110693,
+   "sd": 0.10222038300681122,
+   "p95": 0.2972569543115481,
+   "draws": 300
+  },
+  "polviews": {
+   "median": 0.00403207122869087,
+   "sd": 0.11372556498138392,
+   "p95": 0.22184408163869884,
+   "draws": 300
+  },
+  "educ": {
+   "median": 0.014398046103220125,
+   "sd": 0.10095351218252906,
+   "p95": 0.2039045884911653,
+   "draws": 300
+  }
+ },
+ "equal_size_null": {
+  "attend": 0.20633282937068798,
+  "polviews": 0.20966759291688458,
+  "educ": 0.1962985815986168
+ },
+ "positive_sweep": [
+  [
+   0.0,
+   -0.005477587724100258
+  ],
+  [
+   0.1,
+   0.05725148775636253
+  ],
+  [
+   0.25,
+   0.19717698174921142
+  ],
+  [
+   0.5,
+   0.35856425236136535
+  ],
+  [
+   0.75,
+   0.47142621872051504
+  ],
+  [
+   1.0,
+   0.6180496475314382
+  ]
+ ],
+ "positive_sd": [
+  0.10059688714403212,
+  0.1191407629690393,
+  0.0731116271271051,
+  0.1078416612525728,
+  0.08566817010105626,
+  0.08338808407111574
+ ],
+ "positive_ok": true,
+ "grid_rows": [
+  [
+   "attend",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   0.3121152332891719
+  ],
+  [
+   "attend",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   0.3121152332891718
+  ],
+  [
+   "attend",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   0.6023296388310198
+  ],
+  [
+   "attend",
+   "drop `abany`",
+   "spearman",
+   0.3536252790175577
+  ],
+  [
+   "attend",
+   "drop `abany`",
+   "kendall",
+   0.35362527901755747
+  ],
+  [
+   "attend",
+   "drop `abany`",
+   "gamma",
+   0.6494471250064477
+  ],
+  [
+   "attend",
+   "`abnomore` as hardship",
+   "spearman",
+   0.23018795044744944
+  ],
+  [
+   "attend",
+   "`abnomore` as hardship",
+   "kendall",
+   0.23018795044744955
+  ],
+  [
+   "attend",
+   "`abnomore` as hardship",
+   "gamma",
+   0.41229093642053616
+  ],
+  [
+   "polviews",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   0.10300776636886178
+  ],
+  [
+   "polviews",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   0.10300776636886133
+  ],
+  [
+   "polviews",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   0.4086841634432931
+  ],
+  [
+   "polviews",
+   "drop `abany`",
+   "spearman",
+   0.14117055852451754
+  ],
+  [
+   "polviews",
+   "drop `abany`",
+   "kendall",
+   0.1411705585245172
+  ],
+  [
+   "polviews",
+   "drop `abany`",
+   "gamma",
+   0.44593666002607285
+  ],
+  [
+   "polviews",
+   "`abnomore` as hardship",
+   "spearman",
+   0.1196978089256302
+  ],
+  [
+   "polviews",
+   "`abnomore` as hardship",
+   "kendall",
+   0.11969780892562987
+  ],
+  [
+   "polviews",
+   "`abnomore` as hardship",
+   "gamma",
+   0.3227820934615817
+  ],
+  [
+   "educ",
+   "textbook (Ebaugh & Haney 1980)",
+   "spearman",
+   0.12744329360649298
+  ],
+  [
+   "educ",
+   "textbook (Ebaugh & Haney 1980)",
+   "kendall",
+   0.12744329360649365
+  ],
+  [
+   "educ",
+   "textbook (Ebaugh & Haney 1980)",
+   "gamma",
+   -0.012537341159511328
+  ],
+  [
+   "educ",
+   "drop `abany`",
+   "spearman",
+   0.09284281030993663
+  ],
+  [
+   "educ",
+   "drop `abany`",
+   "kendall",
+   0.09284281030993696
+  ],
+  [
+   "educ",
+   "drop `abany`",
+   "gamma",
+   -0.04894589702223051
+  ],
+  [
+   "educ",
+   "`abnomore` as hardship",
+   "spearman",
+   0.0900031244594739
+  ],
+  [
+   "educ",
+   "`abnomore` as hardship",
+   "kendall",
+   0.0900031244594739
+  ],
+  [
+   "educ",
+   "`abnomore` as hardship",
+   "gamma",
+   -0.011748081240600339
+  ]
+ ],
+ "grid_positive": 24,
+ "grid_total": 27,
+ "fired": {
+  "attend": {
+   "median": 0.35362527901755747,
+   "null95": 0.2972569543115481,
+   "beyond": 7,
+   "cells": 9
+  },
+  "polviews": {
+   "median": 0.1411705585245172,
+   "null95": 0.22184408163869884,
+   "beyond": 3,
+   "cells": 9
+  },
+  "educ": {
+   "median": 0.0900031244594739,
+   "null95": 0.2039045884911653,
+   "beyond": 0,
+   "cells": 9
+  }
+ },
+ "gates": [
+  [
+   "positive: graded person-level plant on a synthetic covariate",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.5;g=0 -0.0055 \u00b7 g=1 +0.6180",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "stratum-label permutation, sizes preserved",
+   "|-0.0355| < 0.5*|+0.1274| = 0.0637",
+   true,
+   "null is 28% of the effect [\u96f6\u7684\u65b9\u6848: STRATUM-LABEL PERMUTATION NULL with stratum sizes preserved - destroys the person-coupling association and keeps marginals, items, n and estimator identical]  \u26a0 \u96f6\u4e0e\u6548\u5e94**\u53cd\u53f7** \u2014\u2014 \u53cd\u53f7\u7684\u96f6\u662f\u652f\u6301\u6548\u5e94\u7684\u8bc1\u636e,\u800c\u4e0a\u9762\u8fd9\u6761\u6bd4\u8f83\u5bf9\u7b26\u53f7\u662f\u778e\u7684,\u8bf7\u81ea\u884c\u5224\u8bfb (#758)"
+  ],
+  [
+   "T (median over stratifiers)",
+   "|+0.1274| > 2*0.1205 = 0.2410",
+   false,
+   "1.1x its own spread"
+  ]
+ ],
+ "gate_verdict": "OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (T (median over stratifiers)). This is a refutation, NOT an unverified round (#366e)."
+}

@@ -43958,3 +43958,108 @@ author reads.**
    `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
    `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
    `#852`① · `#857`① · `#861`①.
+
+## Entry 895 · `E03·A105·R333` — the gradient was noise: this arc found something about items and nothing about people
+
+**THE UNWELCOME BRANCH FIRED, WHICH IS WHAT IT WAS DESIGNED FOR.** `frontier` §3 prescribes, inside a
+run of confirming steps, *a step whose POSITIVE outcome you would find unwelcome*. This round's
+world **POP** was that outcome, and it is the one that came back. **⇒ `OVERTURNED`: `#893`'s
+gradient paragraph is WITHDRAWN.**
+
+**WHAT WAS UNDER TEST.** `#893` corrected `#892` and left `B* = −0.4736` — the medical verdict
+couples preferentially to medical legality items — then noticed, **without testing it**, that `|B*|`
+ordered monotonically on all three external stratifiers. `#893` labelled that `D5`, *"three ordered
+points, eyeballed, no trend test, no null, must not be quoted as one"*, and registered it as
+`#893`①. **This round gave it the null it lacked.**
+
+**THE ESTIMAND**: `T = B*(stratum 3) − B*(stratum 1)`, with the one-factor baseline **re-derived
+inside every stratum** (`#893`③ — a bracket is not the interaction, so the baseline is never
+inherited from the whole). ⚠ *"Should this zero be zero?"* — **YES**: under POP the tilt is identical
+in every stratum, so a between-stratum contrast is exactly 0 ⇒ **`negative_control`**, **kind of null
+named: a STRATUM-LABEL PERMUTATION NULL with stratum sizes preserved.**
+
+| stratifier | n | `B*` low → mid → high | **T** | its own null 95th pct | cells beyond |
+|---|---|---|---|---|---|
+| `attend` | 796 · 559 · 582 | −0.6352 → −0.5837 → −0.3231 | **+0.3121** | 0.2973 | **7/9** |
+| `polviews` | 576 · 714 · 597 | −0.4852 → −0.6110 → −0.3822 | **+0.1030** | 0.2218 | 3/9 |
+| `educ` | 902 · 516 · 537 | −0.5692 → −0.4662 → −0.4417 | **+0.1274** | 0.2039 | **0/9** |
+
+> **Two of three stratifiers sit INSIDE their own null, and the median contrast over stratifiers is
+> `+0.1274` against `2×0.1205 = 0.2410` — 1.1× its own spread, i.e. UNRESOLVED.** ⇒ **POP.**
+> **`polviews` is not even monotone** (−0.4852 → −0.6110 → −0.3822), which the eyeballed reading in
+> `#893` had smoothed into a trend. **Only `attend` clears its null, and `attend`, `polviews` and
+> `educ` are mutually correlated, so one of three is not one of three independent tests** — a point
+> registered BEFORE the run, not offered after it.
+
+**CONTROLS — and the positive control took THREE versions, with my own diagnosis wrong at v2.**
+- **v1** estimated a separate one-factor baseline for each synthetic third; `g = 0` returned
+  `−0.1027`. I blamed simulation noise.
+- **v2** pooled the two baselines. `g = 0` returned `−0.1031` with **sd exactly 0.0000**. ⚠ **That
+  zero variance is the tell, and it refuted my diagnosis**: at `g = 0` no plant is applied, so the
+  baselines cancel and `T` is simply the raw bracket difference between two random thirds — **a
+  single frozen draw of the covariate, because `cov` was drawn ONCE outside the loop.** *A control
+  whose spread is exactly zero is not precise, it is constant, and a constant cannot be a null.*
+- **v3** redraws the covariate inside every replicate: **`−0.0055 ± 0.1006 → +0.0573 → +0.1972 →
+  +0.3586 → +0.4714 → +0.6180`** — monotone, direction read off the sweep, **floor lands on 0 so it
+  CAN fail**, ceiling measured, threshold `0.2410` strictly between, sensitivity at `g = 0.50`.
+**Negative control** passes. **ALL CONTROLS PASS, and the pre-registered threshold then fired against
+my expectation.**
+
+**⚠ AND A SPEED FAILURE THAT IS ALSO A DESIGN FAILURE, RECORDED BECAUSE IT KILLED A RUN.** v0 let
+`bstar()` re-simulate its own baseline **inside every null draw** — 300 draws × 3 strata × 150 sims
+per stratifier — and the round was killed at ten minutes having produced nothing. Every baseline is
+now computed **once** and passed in. ⚠ **They could not simply be dropped**: the baselines differ
+enormously between real strata (`attend` low `+0.7359` vs high `+0.2171`, measured in `#893`), so
+**the baseline difference is a large part of `T` and cancelling it would have been the finding.**
+
+**`G3`/`G4` — the whole grid.** 3 stratifiers × 3 partitions × 3 estimators = **27 trend cells,
+24/27 positive**, and **the three negatives are all `educ` × gamma**. Reported whole: a 24/27
+positive count with **2 of 3 stratifiers inside their nulls** is exactly the shape that looks like a
+finding and is not one, because sign agreement is not resolution.
+
+**⇒ WHAT THIS ARC ACTUALLY FOUND, STATED WITHOUT INFLATION.** `A105` set out to ask whether the
+coupling between what an American thinks is wrong and what he wants the law to do is about the ACT.
+It ends with: **a real, controlled, one-factor-proof result about ITEMS** — the coupling tracks the
+*case* the question asks about, on both sides, `D = +0.6688` at 5.6× its null with 36/36 grid cells
+positive (`#892`, decomposition corrected in `#893`) — **and NO surviving result about people.** The
+absolutism mechanism (`#892`), the flat-row reading (`#892`, retracted by `#893`) and now the
+person-level gradient (`#893`, retracted here) have all failed. **Three attempts to say something
+about who these Americans are; three withdrawals.**
+
+**⇒ One sentence about people: the case a question names changes how tightly moral judgement binds
+to what the law should do — that holds, and it holds for everyone. What does NOT hold, after three
+tries, is any claim that it holds MORE for some kinds of person than others; the religious, the
+conservative and the less educated look, on this measure, like everybody else.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **three ordered strata give a contrast, not a dose–response** — the shape between endpoints is not
+   identifiable;
+② **`attend`, `polviews`, `educ` are mutually correlated** — three stratifiers are **not** three
+   independent tests and the agreement count is not a p-value;
+③ **causally identified N/A** — nobody is randomised into being religious;
+④ **cross-instrument N/A — `no second instrument` exists for this estimand and `only this one
+   instrument` can be asked it** (`#891`: 1 of 8 releases ships question text);
+⑤ **wave 2018 is out** (`abdefctw` ends 2008);
+⑥ ⚠ **POWER IS NOT MEASURED HERE AND THE NULL IS NOT A DEMONSTRATION OF HOMOGENEITY.** The design's
+   MDE at these stratum sizes was not computed, so **"inside the null" is a BOUND on the gradient,
+   not proof there is none**. A real person-level effect smaller than ~0.24 in `T` would be
+   invisible to this round;
+⑦ **the undifferentiated 47.1% contribute nothing by construction** (zero sanction variance);
+⑧ no second coder, no second release, no test–retest.
+
+**NEXT**
+① ⚠ **`A105` SHOULD CLOSE.** Its decision — *is the coupling about the act, the questionnaire, or the
+   case* — is made safe: **the case**, with the act claim an upper bound (`#890`①/`#891`) and the
+   person-level claim withdrawn three times. **`#111c` and the basin rule both point the same way: a
+   fifth round on this coupling would be Closure wearing a Frontier label.** ⇒ `#895`①
+② ⚠ **`⑥` is the honest gap and it is cheap to close**: compute the MDE of this design at these
+   stratum sizes, so that "inside the null" becomes a stated bound rather than a shrug. **Not doing
+   it here, and not calling it planned — naming it as the one thing that would upgrade this null.**
+   ⇒ `#895`②
+③ ⚠ **`#894`②'s half of the page pass is still open** — the rows for `#883` and `#888` carry POINT
+   estimates where three nested ranges belong, and no row distinguishes a `D6` label-only claim from
+   a `D8` question-text one. **That is now the largest unpaid debt on the deliverable itself.**
+④ ⚠ Still `OPEN`: `#894`②③ · `#893`③ · `#892`①③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② ·
+   `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
+   `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.
