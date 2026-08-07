@@ -1,0 +1,2296 @@
+{
+ "population": "the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018",
+ "n_883": 2694,
+ "n_matched": 2480,
+ "reliability": {
+  "homo": 0.8018418839493354,
+  "trios": {
+   "abdefect+abnomore+abhlth": {
+    "kr20": 0.677794471614231,
+    "diff": 0.26814516129032256
+   },
+   "abdefect+abnomore+abpoor": {
+    "kr20": 0.8046013623842976,
+    "diff": 0.4018817204301075
+   },
+   "abdefect+abnomore+abrape": {
+    "kr20": 0.7331014840731278,
+    "diff": 0.2971774193548387
+   },
+   "abdefect+abnomore+absingle": {
+    "kr20": 0.8075309034122302,
+    "diff": 0.4094086021505376
+   },
+   "abdefect+abnomore+abany": {
+    "kr20": 0.7979261714223923,
+    "diff": 0.4080645161290322
+   },
+   "abdefect+abhlth+abpoor": {
+    "kr20": 0.6786606692474714,
+    "diff": 0.26760752688172046
+   },
+   "abdefect+abhlth+abrape": {
+    "kr20": 0.7885800445271309,
+    "diff": 0.16290322580645158
+   },
+   "abdefect+abhlth+absingle": {
+    "kr20": 0.6726451676813949,
+    "diff": 0.2751344086021505
+   },
+   "abdefect+abhlth+abany": {
+    "kr20": 0.6650876017504737,
+    "diff": 0.2737903225806451
+   },
+   "abdefect+abpoor+abrape": {
+    "kr20": 0.7317162688097316,
+    "diff": 0.2966397849462366
+   },
+   "abdefect+abpoor+absingle": {
+    "kr20": 0.8098251613489764,
+    "diff": 0.4088709677419355
+   },
+   "abdefect+abpoor+abany": {
+    "kr20": 0.7860187478746139,
+    "diff": 0.4075268817204301
+   },
+   "abdefect+abrape+absingle": {
+    "kr20": 0.7288736474760817,
+    "diff": 0.30416666666666664
+   },
+   "abdefect+abrape+abany": {
+    "kr20": 0.7194675937470673,
+    "diff": 0.30282258064516127
+   },
+   "abdefect+absingle+abany": {
+    "kr20": 0.7988759765506368,
+    "diff": 0.4150537634408602
+   },
+   "abnomore+abhlth+abpoor": {
+    "kr20": 0.7498890171999143,
+    "diff": 0.3688172043010753
+   },
+   "abnomore+abhlth+abrape": {
+    "kr20": 0.6716263321894078,
+    "diff": 0.26411290322580644
+   },
+   "abnomore+abhlth+absingle": {
+    "kr20": 0.7523918255891489,
+    "diff": 0.3763440860215053
+   },
+   "abnomore+abhlth+abany": {
+    "kr20": 0.744057490549138,
+    "diff": 0.375
+   },
+   "abnomore+abpoor+abrape": {
+    "kr20": 0.7976715781655266,
+    "diff": 0.3978494623655915
+   },
+   "abnomore+abpoor+absingle": {
+    "kr20": 0.9273089231497812,
+    "diff": 0.5100806451612904
+   },
+   "abnomore+abpoor+abany": {
+    "kr20": 0.9115152128361503,
+    "diff": 0.508736559139785
+   },
+   "abnomore+abrape+absingle": {
+    "kr20": 0.8009602526453115,
+    "diff": 0.40537634408602147
+   },
+   "abnomore+abrape+abany": {
+    "kr20": 0.7918382905252315,
+    "diff": 0.4040322580645161
+   },
+   "abnomore+absingle+abany": {
+    "kr20": 0.9224495810338266,
+    "diff": 0.516263440860215
+   },
+   "abhlth+abpoor+abrape": {
+    "kr20": 0.6739734992587638,
+    "diff": 0.26357526881720433
+   },
+   "abhlth+abpoor+absingle": {
+    "kr20": 0.7582004666624368,
+    "diff": 0.3758064516129032
+   },
+   "abhlth+abpoor+abany": {
+    "kr20": 0.7316047596457045,
+    "diff": 0.3744623655913979
+   },
+   "abhlth+abrape+absingle": {
+    "kr20": 0.6683028246666989,
+    "diff": 0.27110215053763437
+   },
+   "abhlth+abrape+abany": {
+    "kr20": 0.6619937966943179,
+    "diff": 0.269758064516129
+   },
+   "abhlth+absingle+abany": {
+    "kr20": 0.7468673627168758,
+    "diff": 0.381989247311828
+   },
+   "abpoor+abrape+absingle": {
+    "kr20": 0.8041052690086864,
+    "diff": 0.4048387096774193
+   },
+   "abpoor+abrape+abany": {
+    "kr20": 0.7804162027159293,
+    "diff": 0.403494623655914
+   },
+   "abpoor+absingle+abany": {
+    "kr20": 0.9179017373199274,
+    "diff": 0.5157258064516129
+   },
+   "abrape+absingle+abany": {
+    "kr20": 0.793893720906943,
+    "diff": 0.411021505376344
+   }
+  },
+  "primary_trio": "abdefect+abhlth+abrape",
+  "primary_rel": 0.7885800445271309,
+  "abortion_norm_2item_SB": 0.760810418774239
+ },
+ "residuals": {
+  "homo": 0.7890367212569861,
+  "abortion_single": 0.4475113542037634,
+  "abortion_index": 0.7381261787661944,
+  "rho_homo": 0.4593073902551688,
+  "rho_ab_single": -0.7432957996627161,
+  "rho_ab_index": -0.5117360855302326
+ },
+ "delta_883": 0.3415253670532227,
+ "delta_matched": 0.050910542490791744,
+ "bootstrap": [
+  0.013410688551403068,
+  0.08840968927762373
+ ],
+ "attenuation_null": {
+  "kind": "attenuation-only null: one shared true coupling, each side's measured reliability",
+  "median": -0.003479705953352785,
+  "p95": 0.02955325573078643,
+  "shared_rho": 0.4855217378927007
+ },
+ "above_null": true,
+ "disattenuation_bound": 0.7899999999999998,
+ "bound_ok": false,
+ "dose": {
+  "0.0": 0.7381261787661944,
+  "0.1": 0.801013847662713,
+  "0.25": 0.9093803503141299,
+  "0.5": 0.9560436709399474,
+  "0.8": 0.9889963566845329
+ },
+ "floor": 0.7381261787661944,
+ "ceiling": 0.9889963566845329,
+ "grid": [
+  {
+   "trio": "abdefect+abnomore+abhlth",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.509793861244541,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.27924286001244514,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abhlth",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4609207961651087,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.32811592509187737,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abhlth",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6027742564162558,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22013843873756,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abhlth",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5553004735942594,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.26761222155955644,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abhlth",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2759792556321413,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13485516746659532,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abhlth",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3268905162599687,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.08394390683876796,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abpoor",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4331222749152194,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3559144463417667,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abpoor",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4242941654421726,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3647425558148135,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abpoor",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5377335643058512,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.28517913084796465,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abpoor",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5266812563070227,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.29623143884679315,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abpoor",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.2537452074481382,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.1570892156505984,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abpoor",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.33242619712936583,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.0784082259693708,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abrape",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5028284873413571,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.286208233915629,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abrape",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.46225828668686186,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.32677843457012423,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abrape",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5997413593115348,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.223171335842281,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abrape",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5624248092807025,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.26048788587311333,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abrape",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2841849224326509,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.1266495006660857,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abrape",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3501491232284887,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.060685299870247955,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4579705368917869,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3310661843651992,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.43687683843902425,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.35215988281796184,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5594174122356913,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2634952829181245,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5381853583073717,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.28472733684644413,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2764676040675318,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13436681903120484,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.33947904899100545,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.07135537410773118,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4758103726176256,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3132263486393605,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4499325514100584,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3391041698469277,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5749295755621153,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2479831195917005,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5518041041663693,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.27110859098744655,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abnomore+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2950371773258261,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.1157972457729105,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abnomore+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3572984372647017,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.05353598583403496,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abpoor",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4607187468360272,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3283179744209589,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abpoor",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.43954777093313546,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.34948895032385063,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abpoor",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.562468811486767,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.26044388366704885,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abpoor",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5376830311473249,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.28522966400649097,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abpoor",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.2324152474200436,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.17841917567869303,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abpoor",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.30747510784519305,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.10335931525354358,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abrape",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.7381261787661944,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.050910542490791744,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abrape",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6191624912815696,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.16987422997541646,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abrape",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.7841252217072999,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.0387874734465159,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abrape",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.7023547590659521,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.12055793608786369,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abrape",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3064254564836111,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.10440896661512555,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abrape",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.29861091423675257,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.11222350886198407,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.49638827216889947,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2926484490880866,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.45586938437606395,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.33316733688092215,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5915043253916675,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2314083697621483,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.551642540610122,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.27127015454369385,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.272246184590062,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13858823850867463,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.32297013923923845,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.08786428385949818,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.530494742570262,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2585419786867241,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.48139689925962925,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.30763982199735684,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6170905473405328,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.205822147813283,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5734168869056985,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24949580824811735,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abhlth+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.30017968311450205,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.11065473998423458,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abhlth+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.34690880720590656,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.06392561589283008,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+abrape",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4551554168823666,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3338813043746195,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+abrape",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4409952674700457,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3480414537869404,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+abrape",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5601947962406111,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.26271789891320474,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+abrape",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.543080998471319,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.27983169668249686,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+abrape",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.24286442905948047,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.16796999403925617,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+abrape",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3307838518708658,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.08005057122787085,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4322916681701575,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3567450530868286,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4232202088476428,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3658165124093433,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5357189623799781,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.28719373277383775,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5245907996293278,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.29832189552448807,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.24898636031928834,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.1618480627794483,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3289497565254583,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.08188466657327831,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.435070477491154,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3539662437658321,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.42677778379209086,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.36225893746489524,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5397765840112698,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.283136111142546,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5312693923190938,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.29164330283472206,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abpoor+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.2615732842837847,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.14926113881495195,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abpoor+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3440787236562006,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.06675569944253601,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abrape+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4893594094650421,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.299677311791944,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abrape+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4570275848305617,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3320091364264244,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abrape+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5872598754722462,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2356528196815696,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abrape+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.55787137371169,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2650413214421258,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abrape+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.27777787303725665,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13305655006147998,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abrape+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.34616372731448797,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.06467069578424867,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abrape+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5164678336549043,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.27256888760208176,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abrape+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4760534615551095,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.31298325970187657,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abrape+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6072656424681242,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.21564705268569162,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abrape+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5730409999600229,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24987169519379293,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+abrape+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3003368065409805,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.11049761655775614,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+abrape+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3622177745380275,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.04861664856070913,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+absingle+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4685356366987773,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3205010845582088,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+absingle+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4437546344948644,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3452820867621217,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+absingle+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5684653155941523,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.25444737955966357,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+absingle+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5488878587587638,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.27402483639505204,
+   "n": 1813
+  },
+  {
+   "trio": "abdefect+absingle+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.29193900295995956,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.11889542013877707,
+   "n": 2480
+  },
+  {
+   "trio": "abdefect+absingle+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3568348915664262,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.05399953153231041,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abpoor",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.43634255549595646,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.35269416576102963,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abpoor",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.46768001395448233,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.32135670730250376,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abpoor",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5355682333078082,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2873444618460076,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abpoor",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5740819717911632,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24883072336265266,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abpoor",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.24574373155662754,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.1650906915421091,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abpoor",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.35577468275074886,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.05505974034798777,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abrape",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5080620303808492,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2809746908761369,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abrape",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.498895103183148,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2901416180738381,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abrape",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6006772095726955,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22223548558112027,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abrape",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5999459314972805,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22296676365653534,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abrape",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2747101763186214,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13612424678011525,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abrape",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3797048961479139,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.031129526950822717,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.46397392990627084,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.32506279135071525,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4844522706788804,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3045844505781057,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5594024058829361,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2635102892708797,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5888942740637624,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.23401842109005344,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.26923518000125546,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.14159924309748118,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3653658054135889,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.04546861768514776,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4848775845542964,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3041591367026897,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5002681987979445,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2887685224590416,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5791339856304303,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24377870952338554,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6050200209399047,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.21789267421391112,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abhlth+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2935963761104856,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.11723804698825102,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abhlth+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3897935116802177,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.021040911418518937,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+abrape",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.43552519561506053,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.35351152564192556,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+abrape",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.46575769524236355,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.32327902601462255,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+abrape",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5374529398398142,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2854597553140016,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+abrape",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5766669013957153,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24624579375810052,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+abrape",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.25315469982684424,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.1576797232718924,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+abrape",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3831127614158377,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.027721661682898913,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4150763375433222,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3739603837136639,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4866571965076326,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3023795247493535,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5045308102460577,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.3183818849077581,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5999924210814969,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22292027407231896,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.24149759407459992,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.16933682902413671,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3658744823279255,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.04495994077081111,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.421147544237635,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3678891770193511,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.490709698566271,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2983270226907151,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5141016913424068,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.308811003811409,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.6066408757374782,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.21627181941633766,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abpoor+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.2574492789659355,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.15338514413280113,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abpoor+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.38298108896332517,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.027853334135411467,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abrape+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.46068953321220685,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.32834718804477925,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abrape+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.48099205249823485,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.30804466875875125,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abrape+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5600972449559491,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2628154501978667,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abrape+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5912706952839042,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.23164199986991163,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abrape+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2767243676946498,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13411005540408683,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abrape+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.39486900608719433,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.015965417011542304,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abrape+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.47931039674961906,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.30972632450736703,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abrape+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4933414560291911,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.295695265227795,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abrape+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5763594141557216,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24655328099809426,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abrape+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.601806579516682,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22110611563713378,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+abrape+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2965059465173704,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.11432847658136625,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+abrape+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.40752658192457214,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.003307841174164494,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+absingle+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.45091713163683766,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.33811958962014843,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+absingle+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5108116207003022,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2782251005566839,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+absingle+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5403947939157951,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2825179012380207,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+absingle+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6234970370915665,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.19941565806224937,
+   "n": 1813
+  },
+  {
+   "trio": "abnomore+absingle+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.276548827378835,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13428559571990162,
+   "n": 2480
+  },
+  {
+   "trio": "abnomore+absingle+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.392117527742487,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.018716895356249652,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+abrape",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4598491041475081,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.32918761710947797,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+abrape",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.478071016523291,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3109657047336951,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+abrape",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5598883046655021,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2630243904883137,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+abrape",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5802625412634148,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.242650153890401,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+abrape",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.2296858407477993,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.18114858235093734,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+abrape",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.35852926831047216,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.052305154788264474,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4370061769363214,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3520305443206647,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4690300074976054,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3200067137593807,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5340317490051174,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2888809461486984,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.572787664116893,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.25012503103692285,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.24232497495829985,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.16850944814043678,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.350855525062868,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.059978898035868644,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4418726949790508,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3471640262779353,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4740758630752254,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3149608581817607,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5415442579560041,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2813684371978117,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5809429721067763,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24196972304703956,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abpoor+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.2595549199280822,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.15127950317065442,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abpoor+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3721882359844414,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.03864618711429524,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abrape+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.49834661326018437,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2906901079968017,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abrape+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.49726027360599523,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.29177644765099087,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abrape+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.591815760150709,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2310969350031068,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abrape+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5974594671940169,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22545322795979894,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abrape+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.2718108537368046,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.13902356936193205,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abrape+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.37780518679841624,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.0330292363003204,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abrape+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5326139433063335,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.2564227779506526,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abrape+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5219871413091894,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.26704957994779666,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abrape+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6182380880292149,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.20467460712460095,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abrape+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6167033674716454,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.20620932768217037,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+abrape+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.30285559329797607,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.10797882980076057,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+abrape+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.40021697897874153,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.0106174441199951,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+absingle+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4795327590923669,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3095039621646192,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+absingle+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4970492381925621,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.291987483064424,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+absingle+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5741415460278274,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2487711491259884,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+absingle+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.6013866748619034,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22152602029191237,
+   "n": 1813
+  },
+  {
+   "trio": "abhlth+absingle+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.28852246202602194,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.12231196107271469,
+   "n": 2480
+  },
+  {
+   "trio": "abhlth+absingle+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.3865187111554218,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.024315711943314833,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+abrape+absingle",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4356103329109341,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.353426388346052,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+abrape+absingle",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4661481143898284,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3228886068671577,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+abrape+absingle",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5359470021948132,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.28696569295900265,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+abrape+absingle",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5750355822191234,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.2478771129346924,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+abrape+absingle",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.25000888062333504,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.1608255424754016,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+abrape+absingle",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3811299563304209,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.02970446676831573,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+abrape+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4393361883068809,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.34970053295010517,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+abrape+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.468855144725403,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3201815765315831,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+abrape+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5406751799841272,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.28223751516968865,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+abrape+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5789986022850155,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.24391409286880028,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+abrape+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.26275324014809587,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.14808118295064077,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+abrape+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.39110688751153255,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.01972753558720408,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+absingle+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.4209787825984911,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.368057938658495,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+absingle+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.49220343519844345,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.29683328605854264,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+absingle+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.5122371533609251,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.3106755417928907,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+absingle+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.6055914985544051,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.21732119659941074,
+   "n": 1813
+  },
+  {
+   "trio": "abpoor+absingle+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": true,
+   "res_abort": 0.25219539121254575,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.15863903188619088,
+   "n": 2480
+  },
+  {
+   "trio": "abpoor+absingle+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": true,
+   "res_abort": 0.3796628425826145,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.03117158051612212,
+   "n": 1813
+  },
+  {
+   "trio": "abrape+absingle+abany",
+   "est": "spearman",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.47273865703215134,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.31629806422483475,
+   "n": 2480
+  },
+  {
+   "trio": "abrape+absingle+abany",
+   "est": "spearman",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.4887428985841975,
+   "res_homo": 0.7890367212569861,
+   "delta": 0.3002938226727886,
+   "n": 1813
+  },
+  {
+   "trio": "abrape+absingle+abany",
+   "est": "kendall",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5707190297193108,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.25219366543450505,
+   "n": 2480
+  },
+  {
+   "trio": "abrape+absingle+abany",
+   "est": "kendall",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.5979718453591221,
+   "res_homo": 0.8229126951538158,
+   "delta": 0.22494084979469375,
+   "n": 1813
+  },
+  {
+   "trio": "abrape+absingle+abany",
+   "est": "gamma",
+   "norm": "single_reason",
+   "has_abpoor": false,
+   "res_abort": 0.293307167109332,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.11752725598940461,
+   "n": 2480
+  },
+  {
+   "trio": "abrape+absingle+abany",
+   "est": "gamma",
+   "norm": "pooled_reason",
+   "has_abpoor": false,
+   "res_abort": 0.40559620287486764,
+   "res_homo": 0.41083442309873663,
+   "delta": 0.0052382202238689946,
+   "n": 1813
+  }
+ ],
+ "pos_share": 1.0,
+ "sign_agree": true,
+ "controls": {
+  "positive": true,
+  "negative": true
+ },
+ "admissible": true,
+ "verdict": "**C — DOWNGRADE, and the size is now specification-dependent by a factor of 7.**\n  On the **pre-registered difficulty-matched** cell Δ falls from `#883`'s **+0.334** to **+0.051** — **85% smaller** — while still clearing the attenuation-only null (95th **+0.030**), with a paired bootstrap 95% of **[+0.013,+0.088]**.\n  ⚠ **But that cell is the SMALLEST in the grid.** Across the 35 trios the Spearman Δ runs **[+0.051, +0.374]** with a median of **+0.320** — close to `#883`'s original. **The shrinkage is driven by matching DIFFICULTY, not by matching item count**: `abpoor` refuses at 0.502 against the battery's 0.202, and the difficulty-matched trio sits at 0.163. The rule was fixed before the run and it happened to select the most unflattering cell; that is a fact about the rule, not a virtue.\n  ⇒ **THE SIGN IS SETTLED AND THE SIZE IS NOT**: Δ > 0 in **210/210 cells (100%)**, and its magnitude moves by 7× with a defensible choice of which three abortion items to use.\n  ⚠⚠ **AND THE REMAINING GAP IS NOT PROTECTED AGAINST UNEQUAL NORM RELIABILITY.** The attenuation-only null had to set both NORM reliabilities to 1.0, because a single item has no internal estimate. Solving instead for the value that would close the gap: the homosexuality norm would need reliability **≤ 0.79**, and the abortion norm's own two-item Spearman–Brown estimate is **0.761**. **That is not an implausible value for a single 4-point item** ⇒ **attenuation on the NORM side remains a live rival, and this round does not close it.**\n  ⇒ **one sentence about people: measured with rulers of the same length, an American's view of whether abortion is wrong still predicts what he wants the law to do better than his view of homosexuality predicts what he wants done to homosexuals — in every one of 210 specifications. But most of the size I reported was the ruler, and what is left could still be one question being answered more carefully than the other.**",
+ "gate_ok": true
+}

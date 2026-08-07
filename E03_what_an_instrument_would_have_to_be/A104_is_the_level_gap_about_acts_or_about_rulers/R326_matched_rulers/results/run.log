@@ -1,0 +1,87 @@
+=== (0) HARD RULE 1 — n and the years actually asked, before any column is cited ===
+  homosex   n= 44726  1973–2024  (30 waves)
+  spkhomo   n= 39927  1973–2021  (28 waves)
+  colhomo   n= 41024  1973–2021  (28 waves)
+  libhomo   n= 39886  1973–2021  (28 waves)
+  abpoorw   n=  4823  1991–2018  (4 waves)
+  abdefctw  n=  3715  1991–2008  (3 waves)
+  abdefect  n= 48234  1972–2024  (34 waves)
+  abnomore  n= 48140  1972–2024  (34 waves)
+  abhlth    n= 48488  1972–2024  (34 waves)
+  abpoor    n= 48105  1972–2024  (34 waves)
+  abrape    n= 48020  1972–2024  (34 waves)
+  absingle  n= 48103  1972–2024  (34 waves)
+  abany     n= 41398  1977–2024  (29 waves)
+
+  `#883`'s paired sample n=2694 · **with all seven abortion items: n=2480** — the matched-format sample
+
+=== (1) RELIABILITY — the number `#883` never estimated, same estimator both sides ===
+  homosexuality 3-item refusal index: **KR-20 = 0.802**  mean refusal 0.202
+  35 abortion trios: KR-20 median **0.758** [0.662,0.927] · difficulty median 0.376
+  **difficulty-matched primary trio (rule: closest mean refusal to 0.202)**: ('abdefect', 'abhlth', 'abrape') · its refusal 0.163 · KR-20 0.789
+  ⚠ the trio was chosen by a RULE fixed before the run, not by which one gave the answer; and all 35 are swept below.
+
+=== (2) THE GAP, AS `#883` MEASURED IT AND WITH THE FORMATS MATCHED ===
+  homosexuality  3-item index   residual **0.789** (|rho| 0.459)
+  abortion       SINGLE binary  residual **0.448** (|rho| 0.743)  ⇒ Δ as `#883` measured it = **+0.342**
+  abortion       3-item index   residual **0.738** (|rho| 0.512)  ⇒ **Δ_matched = +0.051**
+
+=== (3) THE ATTENUATION-ONLY NULL — kind of null NAMED, and it is the whole rival ===
+  two item-pairs simulated with ONE shared true coupling and EACH SIDE'S MEASURED reliability; whatever Δ it produces is what measurement error explains for free.
+  shared true |rho| 0.486 · rel(homo sanction) 0.802 · rel(abortion trio) 0.789
+  attenuation-only Δ: median **-0.003** · 95th **+0.030**
+  observed Δ_matched **+0.051** ⇒ above what attenuation alone explains: **True**
+
+=== (4) PAIRED BOOTSTRAP ON Δ_matched — same people, so resample PEOPLE ===
+  Δ_matched +0.051  95% [+0.013,+0.088]  excludes 0: **True**
+
+=== (5) THE DISATTENUATION BOUND — the norm reliabilities are NOT identified, so solve ===
+  at what homosexuality-NORM reliability would the gap vanish, holding everything else?
+  abortion NORM 2-item Spearman-Brown reliability (`abpoorw`+`abdefctw`, n=1813): **0.761**
+  the homosexuality norm would need reliability **<= 0.79**
+  ⇒ attenuation-explains-it requires the homosexuality norm to be far less reliable than the abortion norm: **False**
+
+=== (6) POSITIVE CONTROL — add noise to the abortion sanction, floor and ceiling MEASURED ===
+  g=0.00  abortion residual = 0.738
+  g=0.10  abortion residual = 0.801
+  g=0.25  abortion residual = 0.909
+  g=0.50  abortion residual = 0.956
+  g=0.80  abortion residual = 0.989
+  measured FLOOR 0.738 · CEILING 0.989 ⇒ the homosexuality residual (0.789) lies strictly between them: True
+  => positive control **PASS** — noise raises the residual monotonically, and **at g=0 the abortion residual is 0.738, nowhere near homosexuality's 0.789**
+
+=== (7) NEGATIVE CONTROL — a global permutation. This zero SHOULD be zero ===
+  null mean -0.0008 · |null| 95th 0.0425 -> **PASS**
+
+=== (8) SPECIFICATION CURVE + MULTIPLICITY — all 35 trios, whole grid ===
+  cells: **210** (35 trios × 3 estimators × 2 norm definitions)
+  gamma     Δ median +0.106 [+0.003,+0.181] · Δ>0 in 70/70
+  kendall   Δ median +0.250 [+0.039,+0.318] · Δ>0 in 70/70
+  spearman  Δ median +0.320 [+0.051,+0.374] · Δ>0 in 70/70
+  norm=pooled_reason  Δ median +0.244 · Δ>0 in 105/105
+  norm=single_reason  Δ median +0.256 · Δ>0 in 105/105
+  **Δ>0 in 210/210 cells (100%)** · single-reason and pooled-reason medians agree in sign: **True**
+
+  CONDITIONAL KILL -- #888 · is the level gap a fact about acts or about rulers
+   PASS  (1) HARD RULE 1: every column's n and years printed before use; the matched-format sample is stated separately from `#883`'s                                                                                                                        `#883` n=2694 · matched-format n=2480 · 总体:the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (2) RELIABILITY REPORTED FOR BOTH SIDES with the same estimator on the same sample — the number `#883` never computed                                                                                                                               KR-20 homo 0.802 · abortion trios median 0.758 [0.662,0.927] · primary trio 0.789 · 总体:the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (3) OFFSET CONTROL — 'should this zero be zero?' NO: under equal true couplings with UNEQUAL measured reliabilities the gap is not zero. **Kind of null: an attenuation-only null**, one shared true coupling and each side's measured reliability  attenuation-only Δ median -0.003 · 95th +0.030 · 总体:the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (4) POSITIVE CONTROL: noise added to the abortion sanction must raise its residual monotonically with floor and ceiling MEASURED, and at g=0 it must not reach the homosexuality residual                                                           g=0.0:0.738 g=0.1:0.801 g=0.25:0.909 g=0.5:0.956 g=0.8:0.989 · floor 0.738 ceiling 0.989 · homo 0.789 · 总体:the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (5) NEGATIVE CONTROL: a global permutation destroys the pairing and its zero SHOULD be zero                                                                                                                                                         null mean -0.0008 · 总体:the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (6) IDENTIFICATION: the single-item NORM reliabilities are NOT identified here, so estimand (2) is reported as a BOUND — the norm reliability at which the gap would vanish — and never as a corrected point                                        gap closes only at homo-norm reliability <= 0.79 · 总体:the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018   (asserted in code, not in prose)
+   PASS  (7) KILL (pre-registered): for `#883`'s level gap to be a fact about ACTS rather than about RULERS, **Δ with the sanction formats matched by construction must exceed the attenuation-only null AND stay positive across the trio sweep**           Δ_matched +0.051 vs attenuation null 95th +0.030 (above True) · bootstrap 95% [+0.013,+0.088] · Δ>0 in 210/210 cells · `#883` reported +0.334 · reliabilities 0.802 vs 0.789   尺:the difference of two residual shares with the sanction instruments matched by construction; the floor is an attenuation-only null with one shared true coupling and each side's measured reliability,其自身噪声 0.0295533 · 总体:the 2480 GSS respondents carrying the homosexuality norm+battery, the abortion wrongness items and ALL SEVEN abortion legality items, waves 1991/1998/2008/2018 · 方向:一致 [1] · 控制总体:6/6 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => ALL GATES PASS
+
+  `Gate.admissible()` = **True**
+
+====================================================================================================
+**C — DOWNGRADE, and the size is now specification-dependent by a factor of 7.**
+  On the **pre-registered difficulty-matched** cell Δ falls from `#883`'s **+0.334** to **+0.051** — **85% smaller** — while still clearing the attenuation-only null (95th **+0.030**), with a paired bootstrap 95% of **[+0.013,+0.088]**.
+  ⚠ **But that cell is the SMALLEST in the grid.** Across the 35 trios the Spearman Δ runs **[+0.051, +0.374]** with a median of **+0.320** — close to `#883`'s original. **The shrinkage is driven by matching DIFFICULTY, not by matching item count**: `abpoor` refuses at 0.502 against the battery's 0.202, and the difficulty-matched trio sits at 0.163. The rule was fixed before the run and it happened to select the most unflattering cell; that is a fact about the rule, not a virtue.
+  ⇒ **THE SIGN IS SETTLED AND THE SIZE IS NOT**: Δ > 0 in **210/210 cells (100%)**, and its magnitude moves by 7× with a defensible choice of which three abortion items to use.
+  ⚠⚠ **AND THE REMAINING GAP IS NOT PROTECTED AGAINST UNEQUAL NORM RELIABILITY.** The attenuation-only null had to set both NORM reliabilities to 1.0, because a single item has no internal estimate. Solving instead for the value that would close the gap: the homosexuality norm would need reliability **≤ 0.79**, and the abortion norm's own two-item Spearman–Brown estimate is **0.761**. **That is not an implausible value for a single 4-point item** ⇒ **attenuation on the NORM side remains a live rival, and this round does not close it.**
+  ⇒ **one sentence about people: measured with rulers of the same length, an American's view of whether abortion is wrong still predicts what he wants the law to do better than his view of homosexuality predicts what he wants done to homosexuals — in every one of 210 specifications. But most of the size I reported was the ruler, and what is left could still be one question being answered more carefully than the other.**
+
+⚠ **Registered**: the single-item NORM reliabilities are not identified — one item, no parallel form, no retest — so the disattenuation result is a BOUND and not a correction; and **the instrument cannot be changed**, because SCCS, the only other matched-pair instrument here, carries no item-level reliability information at all.
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A104_is_the_level_gap_about_acts_or_about_rulers/R326_matched_rulers/results/level_gap_vs_attenuation.json

@@ -43207,3 +43207,91 @@ building the null out of the same maximisation.**
 ③ ⚠ Still `OPEN`: `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
    `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
    `#852`① · `#857`① · `#861`①.
+
+## Entry 888 · `E03·A104·R326` — most of it was the ruler; the sign is settled and the size is not
+
+**BASIN OBEYED.** `#887`① forbade a fourth time-series round. **This one does not touch the time
+axis.** It attacks the only claim every recent retraction has left alone — the `#883` **LEVEL**
+difference — at a different unit of comparison: *the same people measured with two rulers of
+different quality.*
+
+**THE RIVAL IS ARITHMETIC AND IT WAS NEVER TESTED.** `ρ_obs = ρ_true · √(rel_norm · rel_sanction)` —
+**a noisier ruler attenuates ρ and therefore INFLATES `1 − ρ²`, with no psychology in it at all.**
+`#883` compared a **three-item 0–3 index** (homosexuality) against a **single binary** (abortion) and
+**never estimated either reliability.**
+
+**RELIABILITY, THE NUMBER `#883` NEVER COMPUTED** (KR-20, same estimator, same n = **2,480**):
+homosexuality battery **0.802** · the 35 abortion trios median **0.758** [0.662, 0.927] ·
+the difficulty-matched trio **0.789**. **Comparable — so the sanction sides are not the story.**
+
+**MATCHED BY CONSTRUCTION, NOT BY ADJUSTMENT.** GSS carries **seven** abortion legality items, all
+binary; a three-item 0–3 abortion index is exactly the battery's format. The primary trio was chosen
+by a **rule fixed before the run** — closest mean refusal rate to the battery's **0.202** — giving
+`abdefect + abhlth + abrape` at **0.163**.
+
+| | residual share | |
+|---|---|---|
+| homosexuality, 3-item index | **0.789** | |
+| abortion, **single binary** (as `#883` measured it) | 0.448 | **Δ = +0.342** |
+| abortion, **3-item index** | 0.738 | **Δ_matched = +0.051** |
+
+**⇒ `ALL GATES PASS`, verdict C — DOWNGRADE, not retraction.** Δ falls **85%**, still clears the
+attenuation-only null (95th **+0.030**), paired bootstrap 95% **[+0.013, +0.088]**.
+
+**⚠ "Should this zero be zero?" — NO**, and naming why is the design: under equal true couplings with
+**unequal measured reliabilities** the gap is not zero. ⇒ **`offset_control`**, **kind of null named:
+an ATTENUATION-ONLY null** — two item-pairs simulated with **one shared true coupling** and **each
+side's measured reliability**, run through the same estimator. Its median is **−0.003**.
+
+**⚠⚠ AND THE PRE-REGISTERED CELL IS THE SMALLEST IN THE GRID.** Across the 35 trios the Spearman Δ
+runs **[+0.051, +0.374]**, median **+0.320** — close to `#883`'s original. **The shrinkage is driven
+by matching DIFFICULTY, not item count**: `abpoor` refuses at **0.502** against the battery's
+**0.202**. The rule was fixed before the run and it happened to select the most unflattering cell;
+**that is a fact about the rule, not a virtue.**
+⇒ **THE SIGN IS SETTLED AND THE SIZE IS NOT.** Δ > 0 in **210 of 210** cells (35 trios × 3
+estimators × 2 norm definitions), and its magnitude moves by **7×** with a defensible choice of which
+three abortion items to use.
+
+**⚠⚠ AND THE REMAINING GAP IS NOT PROTECTED AGAINST UNEQUAL NORM RELIABILITY — this round does not
+close it.** The attenuation-only null had to set **both norm reliabilities to 1.0**, because a single
+item has no internal estimate. Solving instead for the value that would close the gap: the
+homosexuality norm would need reliability **≤ 0.79**, and the abortion norm's own two-item
+Spearman–Brown estimate is **0.761** (n = 1,813). **That is not an implausible value for a single
+4-point item.** ⇒ **attenuation on the NORM side remains a live rival.**
+
+**CONTROLS.** **Positive**: noise injected into the abortion sanction raises its residual
+monotonically `0.738 → 0.801 → 0.909 → 0.956 → 0.989`, with **floor and ceiling measured** and the
+homosexuality residual (0.789) lying strictly between them — **and at g = 0 the abortion residual is
+0.738, nowhere near 0.789.** **Negative**: a global permutation, mean **−0.0008**, and that zero
+should be zero.
+
+**⇒ One sentence about people: measured with rulers of the same length, an American's view of
+whether abortion is wrong still predicts what he wants the law to do better than his view of
+homosexuality predicts what he wants done to homosexuals — in every one of 210 specifications. But
+most of the size I reported was the ruler, and what is left could still be one question being
+answered more carefully than the other.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① **the single-item NORM reliabilities are not identified** — one item, no parallel form, no retest.
+   It would need a second wording of the same norm in the same wave, which GSS has for abortion
+   (`abdefctw`, a different reason) and **not at all for homosexuality**. That asymmetry is why the
+   disattenuation result is a **bound** and not a correction;
+② **causally identified: N/A** — cross-sectional attitudes;
+③ **abortion is not a member of the family SCCS coded** — a reproductive decision, not a sexual act;
+④ ⚠ **the instrument cannot be changed** — `#882` measured that the only two matched-pair instruments
+   here are GSS and SCCS, and **SCCS carries no item-level reliability information at all** (one
+   coder, one code, no items). **Only this one instrument** for anything about measurement error;
+⑤ **no second coder, no second release.**
+
+**NEXT**
+① ⚠ **The norm-side attenuation rival is now the single largest open threat to the last standing
+   claim, and GSS cannot close it** — one wording, one item, no retest. What would close it: an
+   instrument carrying **two wordings of the same norm about the same act in the same wave**. That
+   is a different search from `#882`'s (matched *pairs*) and from `#883`①'s (matched *ladders*) —
+   it is a search for **matched norm PARAPHRASES**. ⇒ `#888`①
+② ⚠ **`#883`'s Δ = +0.334 must be re-stated everywhere it appears as a range, not a point** —
+   `[+0.051, +0.374]` across 210 specifications, with the difficulty-matched cell at the bottom.
+   The page currently carries the single number. ⇒ `#888`②
+③ ⚠ Still `OPEN`: `#887`①② · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
+   `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.
