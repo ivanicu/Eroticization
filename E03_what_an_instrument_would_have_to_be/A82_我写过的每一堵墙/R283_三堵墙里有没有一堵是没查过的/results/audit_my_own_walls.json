@@ -1,0 +1,64 @@
+{
+ "walls": {
+  "W2": {
+   "kind": "BELIEF",
+   "total_vars": 1781,
+   "wide_hits": 2,
+   "sources": {
+    "broude1976cross": 2
+   },
+   "narrow_title_hits": 2,
+   "stands": true
+  },
+  "W1": {
+   "kind": "DERIVATION",
+   "nonlinear_recovered_corr": 0.9995136648480581,
+   "raw_corr": 0.9998062823883994,
+   "null_corr": 0.10303693965698622,
+   "stands": false
+  },
+  "W3": {
+   "kind": "MEASUREMENT",
+   "bins": {
+    "5": {
+     "bin": 5,
+     "years": [
+      2010,
+      2012,
+      2014
+     ],
+     "obs": 0.1850502259273534,
+     "lo": -0.05159741216162533,
+     "hi": 0.42087693136815085,
+     "half": 0.2362371717648881,
+     "excl": false
+    },
+    "10": {
+     "bin": 10,
+     "years": [
+      2010,
+      2012,
+      2014,
+      2016,
+      2018
+     ],
+     "obs": 0.13838107708778352,
+     "lo": -0.09427631481497524,
+     "hi": 0.36627809417280005,
+     "half": 0.23027720449388764,
+     "excl": false
+    }
+   },
+   "best_half": 0.23027720449388764,
+   "any_excl": false,
+   "stands": true
+  }
+ },
+ "fell": [
+  "W1"
+ ],
+ "admissible": true,
+ "verdict": "**B 有墙倒了:['W1'] ⇒ 那条路重开,对应那句「结构性」要撤。**\n  W1:{\"kind\": \"DERIVATION\", \"nonlinear_recovered_corr\": 0.9995136648480581, \"raw_corr\": 0.9998062823883994, \"null_corr\": 0.10303693965698622, \"stands\": false}",
+ "gate_ok": false,
+ "correction_to_837": "variables.csv has 1781 rows, not 1968"
+}
