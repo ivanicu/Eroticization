@@ -73,10 +73,15 @@ refuted:
 - **BRFSS opens** — **433,323 records × 350 columns** via `pandas.read_sas` — and ships **0** codebook files.
   ⇒ the document is still needed, **for MEANING, not for OPENING**.
 
-⚠ **What `#913` may NOT say**: the byte-anchoring of a fixed-width parse **cannot be validated from inside
-these files** — four controls failed to separate, the last a two-sided sweep returning **1.0000 at every
-offset**, because the item block is a dense run of 1-digit Likert codes. **The cell is readable and holds a
-norm item; no attitude has been measured.**
+⚠ **What `#913` could not say, and `#914` then could.** `#913` tried four times to rule out a one-byte
+misalignment and all four failed to separate — the last a two-sided sweep returning **1.0000 at every
+offset** — because the item block is a dense run of 1-digit Likert codes, so every neighbouring byte is a
+documented code *by construction*. ⚠ **Those were not four failures but one: every version asked whether the
+VALUES looked right.** `#914` anchored it without reading a single response — the layout's declared record
+width equals the file's actual width (**4957 · 3839 · 4088**) with **3,094 · 2,609 · 3,009** fields tiling
+each record at **zero overlaps and zero gaps**, and a 3×3 layout × file cross-pairing matched the diagonal
+**3/3** with **0/6** off-diagonal false matches. **The parse is anchored; the value LABELS are still absent,
+so no attitude has been measured yet.**
 
 > **So the bound was a fact about what had been tried, not about the data — and the highest-leverage round
 > available is about people again.**

@@ -1,0 +1,95 @@
+{
+ "entry": 914,
+ "round": "E03\u00b7A111\u00b7R352",
+ "verdict": "CONFIRMED",
+ "world": "ANCHORED-BY-SHAPE",
+ "kind": "CLOSURE",
+ "estimand": "whether the shipped layout and the data file agree on record SHAPE, using no respondent value",
+ "declared": {
+  "2011_2013_FemRespSetup.dct": 4957,
+  "2017_2019_FemRespSetup.dct": 3839,
+  "2017_2019_MaleSetup.dct": 4088
+ },
+ "actual": {
+  "2011_2013_FemRespData.dat": 4957,
+  "2017_2019_FemRespData.dat": 3839,
+  "2017_2019_MaleData.dat": 4088
+ },
+ "tiling": {
+  "2011_2013_FemRespSetup.dct": {
+   "n_vars": 3094,
+   "overlaps": 0,
+   "gaps": 0
+  },
+  "2017_2019_FemRespSetup.dct": {
+   "n_vars": 2609,
+   "overlaps": 0,
+   "gaps": 0
+  },
+  "2017_2019_MaleSetup.dct": {
+   "n_vars": 3009,
+   "overlaps": 0,
+   "gaps": 0
+  }
+ },
+ "cross_pairing": [
+  [
+   true,
+   false,
+   false
+  ],
+  [
+   false,
+   true,
+   false
+  ],
+  [
+   false,
+   false,
+   true
+  ]
+ ],
+ "diagonal_matched": 3,
+ "off_diagonal_false_matches": 0,
+ "unanchored_files": {
+  "1973NSFGData.dat": 2023,
+  "1976NSFGData.dat": 1000,
+  "1982NSFGData.dat": 1500,
+  "1988FemRespData.dat": 30022850,
+  "1995FemRespData.dat": 13064,
+  "2002FemResp.dat": 4927,
+  "2002Male.dat": 2986,
+  "2006_2010_FemResp.dat": 6251,
+  "2006_2010_Male.dat": 4543,
+  "2011_2013_MaleData.dat": 4636,
+  "2015_2017_FemRespData.dat": 4522,
+  "2015_2017_MaleData.dat": 4170
+ },
+ "gates": [
+  [
+   "the declared width matches the file for every shipped layout",
+   "+3.0000 > floor +0.0000 + 2*0.5000 = +1.0000",
+   true,
+   "headroom +2.0000"
+  ],
+  [
+   "g=0 arm: a MISMATCHED layout x file pairing must NOT match",
+   "0 of 6 off-diagonal pairings matched",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "the declared fields tile the record with no gap and no overlap",
+   "2011_2013_FemRespSetup.dct: 3094 vars, 0 overlaps, 0 gaps; 2017_2019_FemRespSetup.dct: 2609 vars, 0 overlaps, 0 gaps; 2017_2019_MaleSetup.dct: 3009 vars, 0 overlaps, 0 gaps",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: `#913`(2) is discharged only if the anchor uses NO respondent value",
+   "record width and field tiling are properties of (layout, file); no response was read   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

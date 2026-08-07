@@ -45610,3 +45610,61 @@ two same-sex adults are all right — and nobody had opened the file.**
    `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
    `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 914 · `E03·A111·R352` — the anchor was never going to be a value, and that is why four tries failed
+
+**⇒ `CONFIRMED` · world `ANCHORED-BY-SHAPE`. `CLOSURE`, labelled: it protects `#913`'s readable
+cells and opens no world. `#913`② is DISCHARGED — the NSFG parse is anchored without reading a
+single respondent's answer to anything.**
+
+**WHY THE FOUR FAILURES IN `#913` WERE ONE FAILURE.** All four asked *"do the VALUES at this
+position look right?"* — blank-as-valid, `caseid` uniqueness, `caseid` monotonicity, and a
+two-sided sweep of the item's own byte window. The `IH`/`JG` block is a dense run of 1-digit Likert
+items, so **every neighbouring byte is a documented code by construction** and no value-based check
+can separate. ⚠ **The question was wrong, not the effort** — and four increasingly careful versions
+of a wrong question look exactly like diligence from the inside.
+
+**THE ANCHOR, and it touches no value.** A Stata dictionary declares `(start, width)` for every
+variable, which makes two things checkable against the file without reading a response:
+① `max(start + width − 1)` must equal the file's **actual record width**; ② the declared fields must
+**tile** the record. Measured: **4957/4957 · 3839/3839 · 4088/4088**, with **3,094 · 2,609 · 3,009**
+variables and **zero overlaps, zero gaps** in all three. A one-byte shift would surface as a width
+mismatch or a gap. Pinning the record start pins every variable, because every position is declared
+relative to that same start.
+
+**THE CONTROL IS THE ROUND: the 3×3 cross-pairing.** If width-matching were a coincidence of "NSFG
+files are all about this long", off-diagonal pairs would match too. Pre-registered: **diagonal
+matches, all six off-diagonal pairings fail.** Measured **3/3 and 0/6.** That is the `g=0` arm, and
+it is what makes a MATCH a measurement rather than an observation about file sizes.
+
+**⚠ AND IT IS NOT CIRCULAR, WHICH WAS `#913`②'s ACTUAL REQUIREMENT.** `#913`② named the cross-cycle
+marginal shift as the cheap candidate and rejected it: it is the very quantity a study would want to
+report. **This anchor reads no respondent's answer to anything, so it cannot launder a finding.**
+
+**⇒ One sentence about people: nothing yet — this round measured a file, not a person, and says so.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① this anchors the **record**, not the **meaning of a code** — the value labels are still absent, so
+   *what `1` means* is untouched and remains the BRFSS-shaped problem one release over;
+② ⚠ **12 of 15 NSFG files ship no layout and are anchored by this or by nothing else** — and one of
+   them, `1988FemRespData.dat`, has **no newline at all**: its "record width" is the whole 30 MB
+   file, which is a format fact `#912`'s directory listing could never have shown;
+③ ⚠ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **`#913`① IS NOW UNBLOCKED and it is the round about people**: `samesex` against person-level
+   quantities, 16,948 records, three cycles, parse anchored. ⇒ `#914`①
+② ⚠ **AND NSFG SHIPS THE PLACEBO `#907` MEASURED GSS TO LACK.** `#907` found GSS has **zero**
+   non-sexual moral×legal batteries, which left `SPECIFIC` **UNDECIDABLE**. NSFG carries `samesex`
+   (a sexual norm) **beside** `chsuppor`, *"Okay for unmarried woman to have and raise a child"* — a
+   non-sexual family norm, same battery, same respondents. **That is a different instrument
+   answering the question GSS structurally could not** (HARD RULE 4). ⚠ And its unwelcome positive
+   is the one worth designing for: if the same covariates predict both norms equally, then at the
+   person level *"sexual morality"* is not a distinct object — the person-level analogue of `#905`.
+   ⇒ `#914`②
+③ ⚠ Still `OPEN`: `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② ·
+   `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② ·
+   `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② ·
+   `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
+   `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
+   `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

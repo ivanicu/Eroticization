@@ -1,0 +1,35 @@
+2011_2013_FemRespData.dat      declared= 4957 actual= 4957 vars=3094 overlaps=0 gaps=0
+2017_2019_FemRespData.dat      declared= 3839 actual= 3839 vars=2609 overlaps=0 gaps=0
+2017_2019_MaleData.dat         declared= 4088 actual= 4088 vars=3009 overlaps=0 gaps=0
+
+=== the 3x3 cross-pairing control (the whole round) ===
+  2011_2013_FemRespSetup.dct     MATCH    -      -  
+  2017_2019_FemRespSetup.dct       -    MATCH    -  
+  2017_2019_MaleSetup.dct          -      -    MATCH
+
+  diagonal matched 3/3 · off-diagonal false matches 0/6
+
+  12 files ship NO layout and are anchored by nothing:
+    1973NSFGData.dat               record width 2023
+    1976NSFGData.dat               record width 1000
+    1982NSFGData.dat               record width 1500
+    1988FemRespData.dat            record width 30022850  ⚠ ONE LINE — the whole file has no newline at all
+    1995FemRespData.dat            record width 13064
+    2002FemResp.dat                record width 4927
+    2002Male.dat                   record width 2986
+    2006_2010_FemResp.dat          record width 6251
+    2006_2010_Male.dat             record width 4543
+    2011_2013_MaleData.dat         record width 4636
+    2015_2017_FemRespData.dat      record width 4522
+    2015_2017_MaleData.dat         record width 4170
+
+  CONDITIONAL KILL -- Can the NSFG parse be anchored without reading a value?
+   PASS  the declared width matches the file for every shipped layout               +3.0000 > floor +0.0000 + 2*0.5000 = +1.0000   (headroom +2.0000)
+   PASS  g=0 arm: a MISMATCHED layout x file pairing must NOT match                 0 of 6 off-diagonal pairings matched   (asserted in code, not in prose)
+   PASS  the declared fields tile the record with no gap and no overlap             2011_2013_FemRespSetup.dct: 3094 vars, 0 overlaps, 0 gaps; 2017_2019_FemRespSetup.dct: 2609 vars, 0 overlaps, 0 gaps; 2017_2019_MaleSetup.dct: 3009 vars, 0 overlaps, 0 gaps   (asserted in code, not in prose)
+   PASS  KILL: `#913`(2) is discharged only if the anchor uses NO respondent value  record width and field tiling are properties of (layout, file); no response was read   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : CONFIRMED · world ANCHORED-BY-SHAPE
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A111_which_instrument_can_still_be_asked/R352_the_anchor_that_is_not_the_marginal/results/anchor_by_record_shape.json
