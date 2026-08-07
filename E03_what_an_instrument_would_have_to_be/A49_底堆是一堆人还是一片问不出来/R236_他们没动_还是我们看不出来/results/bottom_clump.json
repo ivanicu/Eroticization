@@ -1,0 +1,193 @@
+{
+ "mid_median": 0.4097225538605709,
+ "bottom": [
+  "prayer",
+  "helpblk"
+ ],
+ "boundary": {
+  "中/顶": [
+   8,
+   8
+  ],
+  "底/顶": [
+   4,
+   4
+  ],
+  "中/底": [
+   4,
+   8
+  ],
+  "组内/中": [
+   0,
+   6
+  ],
+  "组内/顶": [
+   0,
+   1
+  ],
+  "组内/底": [
+   0,
+   1
+  ]
+ },
+ "denom": {
+  "homosex": {
+   "item": "homosex",
+   "n_year": 28,
+   "slope": 0.03731843942301329,
+   "null95": 0.014909357637961002,
+   "moved": true,
+   "ratio_to_null": 2.5030212789313
+  },
+  "teensex": {
+   "item": "teensex",
+   "n_year": 21,
+   "slope": 0.011800195759739129,
+   "null95": 0.0064731274278027415,
+   "moved": true,
+   "ratio_to_null": 1.82295125367934
+  },
+  "sexeduc": {
+   "item": "sexeduc",
+   "n_year": 27,
+   "slope": -0.001282189147230321,
+   "null95": 0.0007011657357213287,
+   "moved": true,
+   "ratio_to_null": 1.8286534579606357
+  },
+  "suicide2": {
+   "item": "suicide2",
+   "n_year": 26,
+   "slope": -0.0022629001468115013,
+   "null95": 0.0010381350471433495,
+   "moved": true,
+   "ratio_to_null": 2.1797743492413195
+  },
+  "spanking": {
+   "item": "spanking",
+   "n_year": 21,
+   "slope": 0.00963138298432784,
+   "null95": 0.004980716356675871,
+   "moved": true,
+   "ratio_to_null": 1.9337344860882268
+  },
+  "prayer": {
+   "item": "prayer",
+   "n_year": 27,
+   "slope": -0.003315331271376047,
+   "null95": 0.001505933005044155,
+   "moved": true,
+   "ratio_to_null": 2.2015131219458457
+  },
+  "racmar": {
+   "item": "racmar",
+   "n_year": 19,
+   "slope": 0.007186974775091599,
+   "null95": 0.0034126147239870916,
+   "moved": true,
+   "ratio_to_null": 2.1060023929964102
+  },
+  "helpblk": {
+   "item": "helpblk",
+   "n_year": 25,
+   "slope": -0.014316005545223129,
+   "null95": 0.007805228372827068,
+   "moved": true,
+   "ratio_to_null": 1.834155883902452
+  }
+ },
+ "table": [
+  {
+   "item": "homosex",
+   "clump": "中",
+   "r": 0.40895859403859375,
+   "lo": 0.3030003590515699,
+   "hi": 0.5260640421374377,
+   "excludes_mid": false,
+   "excludes_zero": true,
+   "moved": true
+  },
+  {
+   "item": "teensex",
+   "clump": "中",
+   "r": 0.36384764367064376,
+   "lo": -0.0007687616934237212,
+   "hi": 0.8023878963769028,
+   "excludes_mid": false,
+   "excludes_zero": false,
+   "moved": true
+  },
+  {
+   "item": "sexeduc",
+   "clump": "顶",
+   "r": 2.1924233417885106,
+   "lo": 1.2057973192867228,
+   "hi": 4.862262754513891,
+   "excludes_mid": true,
+   "excludes_zero": true,
+   "moved": true
+  },
+  {
+   "item": "suicide2",
+   "clump": "中",
+   "r": 0.41048651368254796,
+   "lo": 0.2569270700388358,
+   "hi": 0.6568148752121665,
+   "excludes_mid": false,
+   "excludes_zero": true,
+   "moved": true
+  },
+  {
+   "item": "spanking",
+   "clump": "中",
+   "r": 0.46240311016360164,
+   "lo": 0.30067459508357247,
+   "hi": 0.7337605369860801,
+   "excludes_mid": false,
+   "excludes_zero": true,
+   "moved": true
+  },
+  {
+   "item": "prayer",
+   "clump": "底",
+   "r": 0.12572198561134204,
+   "lo": -0.23211630617144338,
+   "hi": 0.43559475199193265,
+   "excludes_mid": false,
+   "excludes_zero": false,
+   "moved": true
+  },
+  {
+   "item": "racmar",
+   "clump": "顶",
+   "r": 1.8414562609432323,
+   "lo": 1.537859358194508,
+   "hi": 2.2625947436819853,
+   "excludes_mid": true,
+   "excludes_zero": true,
+   "moved": true
+  },
+  {
+   "item": "helpblk",
+   "clump": "底",
+   "r": 0.1045649755012837,
+   "lo": -0.4271975951075023,
+   "hi": 0.62831255723547,
+   "excludes_mid": false,
+   "excludes_zero": false,
+   "moved": true
+  }
+ ],
+ "all_moved": true,
+ "all_exclude_mid": false,
+ "any_exclude_zero": false,
+ "pos_control": [
+  true,
+  2.6300313010782257
+ ],
+ "neg_control_false_positive_rate": 0.02,
+ "neg_control_draws": 300,
+ "admissible": true,
+ "verdict": "**C 无法归堆。** 分母过了零,但区间同时含 0 与中堆中位 0.410 ⇒ **底题既不能说「像中堆」也不能说「是 0」**,三堆要改写成「顶 + 一团」。",
+ "gate_ok": false
+}
