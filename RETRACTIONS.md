@@ -48873,3 +48873,97 @@ nothing in E03 has yet asked *what predicts a person's position on it* rather th
 `#959`③ **"an asserted baseline is not a baseline" belongs in `lib/gates.py` beside `#958`③**: both
 this round's PLANT-C and `#956`'s spec rows were a derivation I wrote in prose and never executed.
 A plant's baseline must be **computed in the round**, never stated in the docstring.
+
+## Entry 960 · `E03·A132·R393` — in two-thirds of societies the rule is different for husbands and wives, and the GSS item cannot say so
+
+**FRONTIER, and it left the instrument.** `#959`② said the four item rates *are* the structure. But
+four items give four numbers and at least three readings fit them exactly — harm to a wronged party
+(`#949`'s, still on the page as untested) · how far US liberalisation got (`#941`) · consent and
+capacity. **HARD RULE 4**: a fifth GSS round cannot separate curves that all pass through the same
+four points. So: the same three acts, rated by ethnographers in 186 societies.
+
+**⚠ HARD RULE 1 FIRED FIRST AND REWROTE THE DESIGN.**
+
+| variable | n / 186 | code distribution |
+|---|---|---|
+| `SCCS165` Premarital Sex Attitudes — **Female** | 130 | 1:30 2:28 3:22 4:11 5:4 6:35 |
+| `SCCS169` Extramarital Sex | 109 | 1:13 2:48 3:24 4:24 |
+| `SCCS176` Homosexuality | **40** | 1:9 2:4 3:6 4:4 5:17 |
+| **complete on all three** | **27** | six world regions, 7/5/4/4/4/3 |
+
+**⚠ HARD RULE 2 — the instrument.** All three are **Broude & Greene 1976, *Ethnology* 15(4):409–429**,
+one team coding from HRAF. Every number here is a claim about what that team read and wrote down.
+There is no second ethnographic coding of these acts in the release.
+
+**① THE FINDING, and it needs no null: of 109 societies with a coded extramarital norm, 72 —
+66.1% [0.564, 0.749] — apply the rule ASYMMETRICALLY BY SEX.** 48 are "double standard, husband
+only"; 24 are "both forbidden, women punished". Only 37 (34%) have a symmetric rule at all — 13 where
+both may, 24 where both may not. **And the premarital variable is titled "Premarital Sex Attitudes —
+*Female*"**, because a single figure for "the society" was not available.
+
+**⇒ THE ONTOLOGY SHIFT, and it is the meta-separator firing on my own decomposition.** I asked
+whether the ordering is a property of the ACTS or of the SOCIETY. Both worlds presuppose that the
+unit is the act. **Cross-culturally it is not: the operative unit is act × sex-of-actor.** GSS's
+`xmarsex` asks whether it is wrong for *"a married person"* and has no degree of freedom in which two
+thirds of the human record could be expressed. The two instruments are not measuring the same object,
+and that is a stronger result than either world I set up.
+
+**② THE CUT GRID'S SIGN IS DECIDED BY EXACTLY ONE CHOICE — and it is that same choice.** 9 of 18
+cells put homosexuality above extramarital, 9 below, and the split aligns *perfectly* with the
+extramarital cut and with nothing else:
+
+| extramarital counted as permitted when… | Δ(homosexuality − extramarital) across the three homosexuality cuts |
+|---|---|
+| code 1 only — "single standard, both allowed" | **+0.1111 · +0.2222 · +0.3704** |
+| codes 1–2 — also "husband only" | **−0.3333 · −0.2222 · −0.0741** |
+
+**Whether same-sex relations outrank extramarital sex in the human record depends entirely on whether
+a society that permits adultery to husbands and punishes it in wives counts as permitting adultery.**
+That is not a statistical choice. It is a question about what the act is, and it has no answer inside
+this instrument.
+
+**③ THE DECISIVE COMPARISON IS `UNVERIFIED`, AND THE REASON IS POWER, NOT THE CONTROLS.** Paired
+n=27, each variable at its most permissive code: premarital **4/27 = 0.1481**, homosexuality
+**5/27 = 0.1852**, extramarital **2/27 = 0.0741**. Δ = **+0.1111** — the **same sign as GSS**
+(+0.3638), the same sign in the marginal specification (+0.1057 at n=130/109/40), and the same sign
+in **all six** region leave-one-outs (+0.087 to +0.136). But the permutation p is **0.2102** and the
+design's power **at the observed gap is 0.099**. **A non-significant result from a design with 10%
+power is silence, not evidence.** Registered: on this release, `homosexuality vs extramarital`
+**cannot be resolved** — 40 coded societies is the ceiling, and no arrangement of them raises it.
+
+**VERDICT: `UNVERIFIED` · `W_UNDERPOWERED`.** Controls that held: the plant fires with `g=0` sitting
+*exactly* on the observed value **because it is computed in the round, not asserted** (paying
+`#959`③), first detectable shift 2 scale levels; N1 — permuting the three permitted-indicators within
+each society, expected value zero in closed form — returns **−0.00036 ± 0.0860**; the placebo lands at
++0.0617, inside one null spread; 3 of 18 cells survive BH and all three are the most lenient
+homosexuality cut. The coverage arm found **no** difference between societies with and without a
+homosexuality code (p = 0.15, 0.55), so `W_RECORD` is not supported — though that test is itself
+underpowered and is **UNVERIFIED, not cleared**.
+
+**⚠⚠ TWO OF MY OWN CONTROLS WERE DEFECTIVE, BOTH CAUGHT IN-ROUND, AND THEY ARE THE SAME FAMILY AS
+`#958`'s AND `#959`'s.**
+**(a) A CHECK THAT CANNOT FAIL — fifth instance.** My power control asked *"can this design detect
+any gap?"* and passed at 0.88 for a gap of 0.40. The question that decides whether a null is evidence
+is *"can it detect THIS gap?"* — **0.099**. A power check evaluated at an effect size you did not
+observe is satisfied without reference to the thing being measured.
+**(b) THE VERDICT STRING WAS NOT A COMPUTATION.** The first version printed `OVERTURNED` while the
+gate printed `UNVERIFIED`, because the string's condition omitted `powered` while the gate's did not.
+**A false refutation is as permanent as a false acquittal**, because nobody re-examines a claim its
+own author withdrew. `#916`③(c), and the third round running in which the same family of defect —
+*a criterion that does not reference the quantity it licenses* — appeared and had to be repaired.
+
+**ONE SENTENCE ABOUT PEOPLE.** In two-thirds of the societies where anthropologists recorded a rule
+about extramarital sex, the rule is **different for husbands and wives** — so the question the GSS has
+put to Americans for thirty-six years, *"is it wrong for a married person?"*, has no answer in most of
+the human record, because most societies never asked it about **a person**.
+
+**NEXT** — `#960`① **the unit is act × sex-of-actor, and SCCS has dedicated variables for exactly
+that which this project has never opened**: `SCCS596` *(No) Double Standard in Regard to Premarital
+Sex* and `SCCS597` *(No) Double Standard in Regard to Extramarital Sex*. That is the next round, and
+it is a different question from anything in A126–A132. `#960`② **write the unresolvable cell into the
+page's own "what this data cannot do"** rather than trying a fourth arrangement of 40 societies —
+HARD RULE 3's discipline, applied to a cell I would otherwise keep poking. `#960`③ **`lib/gates.py`
+now owes three debts of ONE family** (`#958`③ dose-moves-the-selection · `#959`③ an asserted baseline
+· this round's power-at-an-effect-you-did-not-observe): in every case a control's criterion **does not
+reference the quantity it licenses**. One gate, one rule — *a control must name the measured quantity
+it is evaluated against, and refuse when that quantity is absent.*

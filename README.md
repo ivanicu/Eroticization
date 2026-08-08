@@ -528,6 +528,80 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#960` · in two-thirds of societies the rule is different for husbands and wives, and the GSS item cannot say so
+
+`#959`② said the four item rates *are* the structure — but four items give four numbers, and three
+readings fit them exactly (harm to a wronged party · how far US liberalisation got · consent and
+capacity). **HARD RULE 4**: a fifth GSS round cannot separate curves that all pass through the same
+four points. So the same three acts, rated by ethnographers in 186 societies.
+
+⚠ **HARD RULE 1 fired first and rewrote the design** (`#960`):
+
+| `#960` variable | n / 186 | codes |
+|---|---|---|
+| `SCCS165` Premarital Sex Attitudes — **Female** | 130 | 1:30 2:28 3:22 4:11 5:4 6:35 |
+| `SCCS169` Extramarital Sex | 109 | 1:13 2:48 3:24 4:24 |
+| `SCCS176` Homosexuality | **40** | 1:9 2:4 3:6 4:4 5:17 |
+| **complete on all three** | **27** | six world regions, 7/5/4/4/4/3 |
+
+⚠ **HARD RULE 2 — the instrument** (`#960`): all three are **Broude & Greene 1976, *Ethnology*
+15(4):409–429**, one team coding from HRAF. Every number here is a claim about what that team read
+and wrote down, and **only this one instrument** carries these acts cross-culturally.
+
+**① The finding, and it needs no null** (`#960`): of 109 societies with a coded extramarital norm,
+**72 — 66.1% [0.564, 0.749] — apply the rule ASYMMETRICALLY BY SEX.** 48 are *"double standard,
+husband only"*; 24 are *"both forbidden, women punished"*. Only 37 (34%) have a symmetric rule at
+all. And the premarital variable is titled *"Premarital Sex Attitudes — **Female**"*, because a single
+figure for "the society" was not available.
+
+⇒ **The ontology shift, and it is the meta-separator firing on my own decomposition** (`#960`). I
+asked whether the ordering is a property of the ACTS or of the SOCIETY; both worlds presuppose the
+unit is the act. **Cross-culturally it is not — the operative unit is act × sex-of-actor.** GSS's
+`xmarsex` asks whether it is wrong for *"a married person"* and has no degree of freedom in which two
+thirds of the human record could be expressed.
+
+**② The cut grid's sign is decided by exactly one choice — the same one** (`#960`). 9 of 18 cells put
+homosexuality above extramarital, 9 below, aligned perfectly with the extramarital cut and nothing
+else:
+
+| `#960` extramarital counted as permitted when… | Δ(homosexuality − extramarital), three homosexuality cuts |
+|---|---|
+| code 1 only — "single standard, both allowed" | **+0.1111 · +0.2222 · +0.3704** |
+| codes 1–2 — also "husband only" | **−0.3333 · −0.2222 · −0.0741** |
+
+**Whether same-sex relations outrank extramarital sex in the human record depends entirely on whether
+a society that permits adultery to husbands and punishes it in wives counts as permitting adultery.**
+That is not a statistical choice; it is a question about what the act is, and this instrument has no
+answer to it.
+
+**③ The decisive comparison is `UNVERIFIED`, and the reason is power** (`#960`). Paired n=27, each
+variable at its most permissive code: premarital **0.1481**, homosexuality **0.1852**, extramarital
+**0.0741**; Δ = **+0.1111** — the same sign as GSS's **+0.3638**, the same sign in the marginal
+specification (**+0.1057**, n=130/109/40), and the same sign in **all six** region leave-one-outs
+(+0.087 to +0.136). But the permutation p is **0.2102** and the design's power **at the observed gap
+is 0.099**. A non-significant result from a design with 10% power is silence, not evidence.
+
+**Verdict `UNVERIFIED` · `W_UNDERPOWERED`** (`#960`). Controls that held: the plant fires with `g=0`
+sitting exactly on the observed value **because it is computed in the round, not asserted** (paying
+`#959`③), first detectable shift 2 scale levels; N1 — permuting the three permitted-indicators within
+each society, expected value zero in closed form — returns **−0.00036 ± 0.0860**; the placebo lands at
++0.0617, inside one null spread; 3 of 18 cells survive BH, all at the most lenient homosexuality cut.
+The coverage arm found no difference between societies with and without a homosexuality code
+(p = 0.15, 0.55), so `W_RECORD` is **not supported — and that test is itself underpowered, so it is
+UNVERIFIED, not cleared**.
+
+⚠⚠ **Two of my own controls were defective, both caught in-round** (`#960`). **(a) A check that
+cannot fail — fifth instance**: my power control asked *"can this design detect any gap?"* and passed
+at 0.88 for a gap of 0.40, when the question that decides whether a null is evidence is *"can it
+detect THIS gap?"* — **0.099**. **(b) The verdict string was not a computation**: the first version
+printed `OVERTURNED` while the gate printed `UNVERIFIED`, because the string's condition omitted
+`powered`. **A false refutation is as permanent as a false acquittal.**
+
+> **One sentence about people (`#960`): in two-thirds of the societies where anthropologists recorded
+> a rule about extramarital sex, the rule is different for husbands and wives — so the question the
+> GSS has put to Americans for thirty-six years, "is it wrong for a married person?", has no answer in
+> most of the human record, because most societies never asked it about *a person*.**
+
 ### `#959` · nine in ten sort them the same way, and every bit of it is the item ordering
 
 `#958`① found that the sharpest cell of the whole arc is not a correlation problem at all: `sd > p75`
