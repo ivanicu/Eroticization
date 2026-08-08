@@ -1,0 +1,107 @@
+
+=== 2011-2013 female  (2011_2013_FemRespData.dat)  n=5601  columns present 12/12
+   samesex      non-missing   5601/  5601  top {2: 2076, 1: 1200, 3: 1169, 4: 1016, 5: 125, 9: 8}
+   chsuppor     non-missing   5601/  5601  top {2: 2886, 1: 1422, 3: 964, 4: 284, 5: 42, 9: 3}
+   reactslf     non-missing   4221/  5601  top {1.0: 1345, 2.0: 1156, 4.0: 852, 3.0: 820, 5.0: 21, 9.0: 20}
+   chbother     non-missing   2446/  5601  top {1.0: 933, 2.0: 667, 4.0: 479, 3.0: 362, 9.0: 5}
+   samesexany   non-missing   5575/  5601  top {5.0: 4549, 1.0: 1012, 7.0: 14}
+   cebow        non-missing   3141/  5601  top {0.0: 1166, 1.0: 988, 2.0: 556, 3.0: 288, 4.0: 89, 5.0: 35}
+   age_r        non-missing   5601/  5601  top {29: 230, 18: 224, 19: 222, 27: 222, 26: 220, 31: 217}
+   educat       non-missing   5601/  5601  top {12: 1294, 13: 720, 9: 689, 14: 618, 16: 607, 11: 390}
+   hisprace2    non-missing   5601/  5601  top {2: 2493, 1: 1458, 3: 1171, 4: 479}
+   reldlife     non-missing   4492/  5601  top {1.0: 2711, 2.0: 1508, 3.0: 270, 8.0: 2, 7.0: 1}
+   attndnow     non-missing   5601/  5601  top {7: 1378, 2: 1107, 6: 819, 3: 691, 1: 600, 5: 553}
+
+=== 2017-2019 female  (2017_2019_FemRespData.dat)  n=6141  columns present 12/12
+   samesex      non-missing   6141/  6141  top {1: 2366, 2: 1981, 3: 893, 4: 714, 5: 172, 8: 13}
+   chsuppor     non-missing   6141/  6141  top {2: 2602, 1: 2520, 3: 722, 4: 213, 5: 69, 8: 11}
+   reactslf     non-missing   4542/  6141  top {1.0: 1459, 2.0: 1286, 3.0: 881, 4.0: 853, 5.0: 35, 9.0: 22}
+   chbother     non-missing   6141/  6141  top {4: 3139, 1: 1145, 2: 1024, 3: 819, 9: 10, 8: 4}
+   samesexany   non-missing   6082/  6141  top {5.0: 4822, 1.0: 1247, 7.0: 13}
+   cebow        non-missing   3315/  6141  top {0.0: 1297, 1.0: 945, 2.0: 586, 3.0: 293, 4.0: 127, 5.0: 39}
+   age_r        non-missing   6141/  6141  top {33: 226, 27: 221, 17: 219, 30: 212, 29: 210, 31: 204}
+   educat       non-missing   6141/  6141  top {12: 1385, 16: 848, 14: 696, 13: 638, 9: 621, 11: 402}
+   hisprace2    non-missing   6141/  6141  top {2: 2704, 1: 1711, 3: 1191, 4: 535}
+   reldlife     non-missing   4577/  6141  top {1.0: 2480, 2.0: 1755, 3.0: 335, 8.0: 5, 9.0: 2}
+   attndnow     non-missing   6141/  6141  top {7: 1876, 2: 1071, 6: 939, 3: 658, 5: 636, 1: 507}
+
+=== 2017-2019 male  (2017_2019_MaleData.dat)  n=5206  columns present 12/12
+   samesex      non-missing   5206/  5206  top {2: 1856, 1: 1496, 3: 880, 4: 816, 5: 145, 9: 8}
+   chsuppor     non-missing   5206/  5206  top {2: 2573, 1: 1373, 3: 911, 4: 268, 5: 64, 9: 13}
+   reactslf     non-missing   4309/  5206  top {2.0: 1153, 4.0: 1093, 3.0: 1014, 1.0: 944, 5.0: 54, 9.0: 42}
+   chbother     non-missing   5206/  5206  top {4: 2648, 2: 914, 3: 820, 1: 805, 9: 18, 8: 1}
+   samesexany   non-missing   5163/  5206  top {5.0: 4760, 1.0: 390, 7.0: 13}
+   cebow        non-missing   2029/  5206  top {0.0: 912, 1.0: 599, 2.0: 315, 3.0: 131, 4.0: 42, 5.0: 13}
+   age_r        non-missing   5206/  5206  top {18: 230, 17: 223, 19: 207, 32: 199, 28: 193, 33: 190}
+   educat       non-missing   5206/  5206  top {12: 1426, 16: 672, 9: 545, 14: 531, 13: 494, 11: 426}
+   hisprace2    non-missing   5206/  5206  top {2: 2427, 1: 1368, 3: 899, 4: 512}
+   reldlife     non-missing   3505/  5206  top {1.0: 1527, 2.0: 1490, 3.0: 485, 8.0: 2, 9.0: 1}
+   attndnow     non-missing   5206/  5206  top {7: 1961, 6: 927, 2: 678, 5: 481, 3: 456, 1: 351}
+
+=== SPECIFICATION CURVE (all cells, disagreeing ones included) ===
+  2011-2013 female   raw|all      norms    logD=+3.6997  det=+0.02643  n=  3130  {'samesexany->samesex': -0.2205, 'samesexany->chsuppor': -0.1116, 'cebow->samesex': 0.0057, 'cebow->chsuppor': -0.1169}
+  2011-2013 female   raw|all      placebo  logD=  nan   det=  nan    n=     0  {'samesexany->reactslf': 0.0026, 'samesexany->chbother': 0.0395, 'cebow->reactslf': -0.1459, 'cebow->chbother': None}
+  2011-2013 female   demog|all    norms    logD=+3.3244  det=+0.02435  n=  3130  {'samesexany->samesex': -0.2171, 'samesexany->chsuppor': -0.1109, 'cebow->samesex': -0.0082, 'cebow->chsuppor': -0.1164}
+  2011-2013 female   demog|all    placebo  logD=  nan   det=  nan    n=     0  {'samesexany->reactslf': 0.0037, 'samesexany->chbother': 0.0157, 'cebow->reactslf': -0.1383, 'cebow->chbother': None}
+  2011-2013 female   demog+relig|all norms    logD=+5.3705  det=+0.01560  n=  2582  {'samesexany->samesex': -0.1369, 'samesexany->chsuppor': -0.0818, 'cebow->samesex': 0.0009, 'cebow->chsuppor': -0.1134}
+  2011-2013 female   demog+relig|all placebo  logD=  nan   det=  nan    n=     0  {'samesexany->reactslf': 0.0143, 'samesexany->chbother': -0.0189, 'cebow->reactslf': -0.1308, 'cebow->chbother': None}
+  2011-2013 female   raw|common   norms    logD=+3.3904  det=+0.02579  n=  3104  {'samesexany->samesex': -0.2176, 'samesexany->chsuppor': -0.1224, 'cebow->samesex': 0.0069, 'cebow->chsuppor': -0.1146}
+  2011-2013 female   raw|common   placebo  logD=  nan   det=  nan    n=     0  {'samesexany->reactslf': -0.0691, 'samesexany->chbother': None, 'cebow->reactslf': -0.148, 'cebow->chbother': None}
+  2011-2013 female   demog|common norms    logD=+3.3794  det=+0.02319  n=  3104  {'samesexany->samesex': -0.2109, 'samesexany->chsuppor': -0.1088, 'cebow->samesex': -0.0075, 'cebow->chsuppor': -0.1138}
+  2011-2013 female   demog|common placebo  logD=  nan   det=  nan    n=     0  {'samesexany->reactslf': -0.0682, 'samesexany->chbother': None, 'cebow->reactslf': -0.1389, 'cebow->chbother': None}
+  2011-2013 female   demog+relig|common norms    logD=+5.2682  det=+0.01502  n=  2563  {'samesexany->samesex': -0.1348, 'samesexany->chsuppor': -0.0764, 'cebow->samesex': 0.001, 'cebow->chsuppor': -0.1108}
+  2011-2013 female   demog+relig|common placebo  logD=  nan   det=  nan    n=     0  {'samesexany->reactslf': -0.0642, 'samesexany->chbother': None, 'cebow->reactslf': -0.1296, 'cebow->chbother': None}
+  2017-2019 female   raw|all      norms    logD=+0.5586  det=+0.01692  n=  3304  {'samesexany->samesex': -0.2147, 'samesexany->chsuppor': -0.1278, 'cebow->samesex': 0.0482, 'cebow->chsuppor': -0.0501}
+  2017-2019 female   raw|all      placebo  logD=-1.5070  det=-0.00085  n=  1958  {'samesexany->reactslf': 0.0052, 'samesexany->chbother': -0.0054, 'cebow->reactslf': -0.1273, 'cebow->chbother': -0.0295}
+  2017-2019 female   demog|all    norms    logD=+2.8090  det=+0.01988  n=  3304  {'samesexany->samesex': -0.2111, 'samesexany->chsuppor': -0.1266, 'cebow->samesex': -0.0101, 'cebow->chsuppor': -0.1002}
+  2017-2019 female   demog|all    placebo  logD=-3.0606  det=+0.00034  n=  1958  {'samesexany->reactslf': 0.0006, 'samesexany->chbother': 0.002, 'cebow->reactslf': -0.1635, 'cebow->chbother': 0.0256}
+  2017-2019 female   demog+relig|all norms    logD=+2.1869  det=+0.01375  n=  2598  {'samesexany->samesex': -0.1484, 'samesexany->chsuppor': -0.0766, 'cebow->samesex': 0.0181, 'cebow->chsuppor': -0.0833}
+  2017-2019 female   demog+relig|all placebo  logD=+0.1392  det=+0.00014  n=  1523  {'samesexany->reactslf': 0.0242, 'samesexany->chbother': -0.0054, 'cebow->reactslf': -0.1757, 'cebow->chbother': 0.0451}
+  2017-2019 female   raw|common   norms    logD=+0.8329  det=+0.01557  n=  3254  {'samesexany->samesex': -0.2129, 'samesexany->chsuppor': -0.0983, 'cebow->samesex': 0.048, 'cebow->chsuppor': -0.051}
+  2017-2019 female   raw|common   placebo  logD=-0.6422  det=-0.00259  n=  1930  {'samesexany->reactslf': -0.0881, 'samesexany->chbother': -0.0432, 'cebow->reactslf': -0.1266, 'cebow->chbother': -0.0326}
+  2017-2019 female   demog|common norms    logD=+3.1879  det=+0.02056  n=  3254  {'samesexany->samesex': -0.2161, 'samesexany->chsuppor': -0.0997, 'cebow->samesex': -0.0089, 'cebow->chsuppor': -0.0992}
+  2017-2019 female   demog|common placebo  logD=-0.4506  det=-0.00528  n=  1930  {'samesexany->reactslf': -0.0883, 'samesexany->chbother': -0.0197, 'cebow->reactslf': -0.1641, 'cebow->chbother': 0.0233}
+  2017-2019 female   demog+relig|common norms    logD=+2.5002  det=+0.01354  n=  2556  {'samesexany->samesex': -0.1553, 'samesexany->chsuppor': -0.0526, 'cebow->samesex': 0.0195, 'cebow->chsuppor': -0.0806}
+  2017-2019 female   demog+relig|common placebo  logD=-0.4586  det=-0.00693  n=  1503  {'samesexany->reactslf': -0.0627, 'samesexany->chbother': -0.024, 'cebow->reactslf': -0.1769, 'cebow->chbother': 0.0428}
+  2017-2019 male     raw|all      norms    logD=-0.6539  det=+0.00870  n=  2022  {'samesexany->samesex': -0.1874, 'samesexany->chsuppor': -0.1396, 'cebow->samesex': 0.1298, 'cebow->chsuppor': 0.0503}
+  2017-2019 male     raw|all      placebo  logD=-0.6961  det=+0.00462  n=  1375  {'samesexany->reactslf': -0.0435, 'samesexany->chbother': 0.0318, 'cebow->reactslf': -0.0969, 'cebow->chbother': -0.0353}
+  2017-2019 male     demog|all    norms    logD=-0.0420  det=+0.01159  n=  2022  {'samesexany->samesex': -0.1778, 'samesexany->chsuppor': -0.1266, 'cebow->samesex': 0.0467, 'cebow->chsuppor': -0.0319}
+  2017-2019 male     demog|all    placebo  logD=-0.5373  det=+0.00265  n=  1375  {'samesexany->reactslf': -0.0671, 'samesexany->chbother': 0.0191, 'cebow->reactslf': -0.0874, 'cebow->chbother': -0.0146}
+  2017-2019 male     demog+relig|all norms    logD=-0.0165  det=+0.01063  n=  1466  {'samesexany->samesex': -0.1394, 'samesexany->chsuppor': -0.1007, 'cebow->samesex': 0.0532, 'cebow->chsuppor': -0.0378}
+  2017-2019 male     demog+relig|all placebo  logD=-0.3326  det=+0.00014  n=   991  {'samesexany->reactslf': -0.0192, 'samesexany->chbother': 0.0072, 'cebow->reactslf': -0.0678, 'cebow->chbother': 0.0182}
+  2017-2019 male     raw|common   norms    logD=-0.7422  det=+0.00710  n=  1994  {'samesexany->samesex': -0.1302, 'samesexany->chsuppor': -0.1068, 'cebow->samesex': 0.1269, 'cebow->chsuppor': 0.0496}
+  2017-2019 male     raw|common   placebo  logD=-0.6107  det=-0.00134  n=  1361  {'samesexany->reactslf': -0.0473, 'samesexany->chbother': -0.0294, 'cebow->reactslf': -0.0999, 'cebow->chbother': -0.0337}
+  2017-2019 male     demog|common norms    logD=-0.1535  det=+0.00833  n=  1994  {'samesexany->samesex': -0.1232, 'samesexany->chsuppor': -0.1009, 'cebow->samesex': 0.0445, 'cebow->chsuppor': -0.0312}
+  2017-2019 male     demog|common placebo  logD=-1.9181  det=-0.00261  n=  1361  {'samesexany->reactslf': -0.0425, 'samesexany->chbother': -0.0336, 'cebow->reactslf': -0.0911, 'cebow->chbother': -0.0106}
+  2017-2019 male     demog+relig|common norms    logD=-0.0255  det=+0.00696  n=  1443  {'samesexany->samesex': -0.0938, 'samesexany->chsuppor': -0.0689, 'cebow->samesex': 0.0511, 'cebow->chsuppor': -0.0366}
+  2017-2019 male     demog+relig|common placebo  logD=-2.1854  det=-0.00479  n=   979  {'samesexany->reactslf': -0.0215, 'samesexany->chbother': -0.0597, 'cebow->reactslf': -0.0722, 'cebow->chbother': 0.0225}
+
+  median det over 18 norm cells   : +0.01529   (defective logD was +2.3435)
+  median det over 12 placebo cells: -0.00109
+  per-site sign of det (1=all+, -1=all-, 0=SPLIT): {'2011-2013 female': 1, '2017-2019 female': 1, '2017-2019 male': 1}
+  det on ALL respondents  : +0.01560  (9 cells)
+  det on COMMON SUPPORT   : +0.01502  (9 cells)  <- both exposures observed on the same people
+
+  one-factor null (det): median -0.00090  sd 0.00400  (n=5601, 60 reps)
+  one-factor null (logD, DEFECTIVE): median -0.0160  sd 0.0757
+  ⚠ the observed logD cells reach |5.37| while its null sd is 0.0757 — the null never visits the near-zero-coefficient regime the DATA is in, so that ratio is not a z
+  positive sweep det  (g, median): [(0.0, 0.00017), (0.25, 0.01832), (0.5, 0.06312), (0.75, 0.12856), (1.0, 0.19438)]
+  positive sweep logD (g, median): [(0.0, 0.0032), (0.25, 0.3274), (0.5, 1.0192), (0.75, 1.8703), (1.0, 2.721)]
+  multiplicity: 18 norm cells in the family
+
+  CONDITIONAL KILL -- Is a person's sexual norm tied to their own sexual experience SPECIFICALLY?
+   PASS  positive: planted domain-specific coupling raises det, g=0 is null                        方向由数据给出:**上升**;灵敏度 g=0.25;g=0 +0.0002 · g=1 +0.1944   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  synthetic ONE-FACTOR world at the observed n and marginals                                |+0.0009| < 0.5*|+0.0153| = 0.0076   (null is 6% of the effect [零的方案: one-factor latent with matched loadings])
+   PASS  the whole norm grid                                                                       method=bh q=0.05 · **cells tested 18 · cells surviving 18** · 存活 ['2011-2013 female|raw|all', '2011-2013 female|demog|all', '2011-2013 female|demog+relig|all', '2011-2013 female|raw|common', '2011-2013 female|demog|common', '2011-2013 female|demog+relig|common', '2017-2019 female|raw|all', '2017-2019 female|demog|all', '2017-2019 female|demog+relig|all', '2017-2019 female|raw|common', '2017-2019 female|demog|common', '2017-2019 female|demog+relig|common', '2017-2019 male|raw|all', '2017-2019 male|demog|all', '2017-2019 male|demog+relig|all', '2017-2019 male|raw|common', '2017-2019 male|demog|common', '2017-2019 male|demog+relig|common'] · 未存活 []   (control)
+   PASS  placebo: the battery's NON-norm items must not reproduce the statistic                    placebo median det=-0.00109 vs norms +0.01529   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                         36/36 格带 n   (每一格都声明了自己的人群规模)
+   PASS  det is above its own null spread                                                          |+0.0162| > 2*0.0040 = 0.0080   (4.0x its own spread)
+   PASS  the log|b| statistic is retired, not reported as a result                                 logD median +2.3435 is driven by cebow->samesex measured at +0.0009 against an se of ~0.018; a log of a zero is not a quantity ⇒ superseded by det, which is the same one-factor proof (rank-1) without division; scope stated   (asserted in code, not in prose)
+   PASS  every site agrees on the SIGN, or the split is the finding                                per-site signs {'2011-2013 female': 1, '2017-2019 female': 1, '2017-2019 male': 1}   (asserted in code, not in prose)
+   PASS  common-support control: det survives when both exposures are observed on the SAME people  det on common support +0.01502 vs all-respondents +0.01560, null -0.00090 +/- 0.00400   (asserted in code, not in prose)
+   PASS  KILL: world B (one moral dial) requires det inside its one-factor null                    det=+0.01529 vs null -0.00090 +/- 0.00400   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : OVERTURNED · world A · DOMAIN-SPECIFIC
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R353_two_norms_two_exposures_same_respondents/results/two_norms_two_exposures.json

@@ -45668,3 +45668,93 @@ report. **This anchor reads no respondent's answer to anything, so it cannot lau
    `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
    `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
    `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 915 · `E03·A112·R353` — sexual experience travels to the family norm; family experience does not travel back
+
+**⇒ `OVERTURNED` · world `A · DOMAIN-SPECIFIC`. One moral dial is refuted at the person level, on
+an instrument GSS could never have supplied — and the departure is not symmetric. `det = +0.01529`
+against a one-factor null of `-0.00090 ± 0.00400`, **4.0× its own spread**, **18 of 18 cells
+surviving BH at q=0.05**, all three sites agreeing on sign.**
+
+**WHY THIS ROUND EXISTED.** The project's central question — *is there anything distinctive about
+SEXUAL morality?* — is **undecidable on GSS**: `#905` put the sexual battery at the 10th percentile
+of forty non-sexual GSS batteries, `#906` put abortion at the 33rd percentile of six crossed
+designs, and `#907` measured that GSS ships **zero** non-sexual moral×legal batteries, so the
+deciding comparison cannot be built there. `#914`② found the instrument that can: NSFG asks a
+**sexual** norm and a **non-sexual** norm in the same battery, of the same respondents, with a
+domain-matched behavioural exposure for each.
+
+**THE DESIGN, and its estimand is one-factor-proof by DERIVATION.** Under one moral dimension each
+item responds to covariates only through the latent, `b(c → i) = λ_i·β_c`, so the 2×2 coefficient
+matrix `B[exposure, norm]` has **rank 1** and `det(B) ≡ 0` exactly, for any loadings. Items:
+`samesex` *"Sexual relations between two same-sex adults is all right"* × `chsuppor` *"Okay for
+unmarried woman to have and raise a child"*. Exposures: `samesexany` (own same-sex contact) ×
+`cebow` (own child born out of wedlock).
+
+**⚠ THE FIRST STATISTIC WAS DEFECTIVE AND ITS OWN OUTPUT SAID SO.** I began with the `log|b|`
+interaction that `#892` validated at the decade unit. It is one-factor-proof by the same
+derivation — and its **estimator divides by a coefficient the data measured as ZERO**:
+`cebow → samesex` came back **+0.0057, −0.0082, +0.0009** against an se of ≈0.018. `log|0.0009|` is
+not a quantity, it is noise amplified without bound, and it produced a headline `D = +5.37`. ⚠ **The
+synthetic null never visited that regime**, because its coefficients are all comfortably non-zero —
+so the ratio that looked like a 29σ result **was not a z at all**. Retired in-round and replaced by
+`det`, which carries the identical rank-1 proof and never divides. **Both are reported; the log
+version is labelled defective rather than deleted.**
+
+**⚠ AND THE CONFOUND THE FIRST GRID DID NOT CONTROL.** The two exposures are observed on
+**different subpopulations** — `samesexany` is asked of everyone, `cebow` is defined only for
+respondents with a birth (**2,029 of 5,206** in the male file). Two subpopulations with different
+loadings break rank-1 **with no domain-specificity whatever**. Control, same iteration: the whole
+grid rerun on the intersection where both exposures are observed. **`det` on common support
+`+0.01502` vs `+0.01560` on all respondents — unchanged.** The population explanation is dead.
+
+**CONTROLS.** **Positive**, failing at `g=0`: planted domain-specific coupling swept
+`0 → 0.00017 · 0.25 → 0.01832 · 0.5 → 0.06312 · 0.75 → 0.12856 · 1.0 → 0.19438`, monotone with the
+null at zero plant. **Negative**: a synthetic one-factor world at the observed n and marginals,
+`−0.00090 ± 0.00400`. **Placebo**: the same battery's two NON-norm items (`reactslf`, `chbother` —
+how R would *feel*, not whether an act is all right) give `−0.00109`, **7% of the norm value and on
+the null**, so this is about norms and not about the battery. **Multiplicity**: BH over all 18 norm
+cells, **18 surviving**.
+
+**THE SHAPE, and it is the part worth keeping.** Read off the coefficients (direction assumption
+registered below): own same-sex experience moves **both** norms — `samesexany → samesex` **−0.21**,
+`samesexany → chsuppor` **−0.13**. Own non-marital birth moves **only its own** —
+`cebow → chsuppor` **−0.10**, `cebow → samesex` **+0.005 to +0.05**, i.e. nothing. **The asymmetry
+is one-way: sexual experience generalises, family experience does not travel back.**
+
+**⇒ One sentence about people: a person who has had a same-sex relationship becomes more permissive
+about unmarried motherhood too, while a woman who has raised a child outside marriage does not
+become one bit more permissive about same-sex relationships — so having crossed a sexual line
+loosens the whole moral frame, and having crossed a family line loosens only that one.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **Value LABELS do not ship** — the direction *low = agrees* is read from the item text's own
+   wording and is an **assumption**, not a measurement. It is consistent across both matched pairs
+   (each exposure moves its own norm negatively), which is evidence for it and not proof of it;
+② the male file's sexual exposure is a **different question** (*"Ever had oral or anal sex with a
+   male"*) from the female one (*"Ever Had Sexual Contact with a Female"*) — the sexes are two
+   sites, not a replication of each other;
+③ ⚠ **cross-sectional: the arrow is not identified.** Exposure and norm are simultaneous, so this is
+   the **specificity of an association**, never causation — a permissive person may simply do more;
+④ weights and `secu`/`sest` ship but no design-based SE is claimed;
+⑤ ⚠ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE ASYMMETRY IS NOW THE OBJECT, and it is a sharper question than the one this round asked.**
+   *Why does sexual experience generalise while family experience does not?* Two live readings:
+   **stigma load** (the sexual line is the more condemned one, so crossing it forces a wider
+   revision) versus **item breadth** (`chsuppor` may simply be the narrower item). ⚠ **The second is
+   testable and must be tested first** — 2011-2013 female ships `sxok18`/`sxok16` (*"All right for
+   unmarried 18/16 year olds have sex"*), giving a THIRD and FOURTH item to break the tie. ⇒ `#915`①
+② ⚠ **AND THE DIRECTION ASSUMPTION IS THE ONE THING THAT COULD INVERT THE SENTENCE.** If `1` means
+   *strongly disagree* rather than *strongly agree*, every sign flips and the psychology reads
+   backwards. `det` is **invariant** to that flip (it is bilinear, and flipping both norms leaves it
+   unchanged), so the STATISTIC stands either way — but the one-sentence claim does not. **The
+   labels are the BRFSS-shaped problem one release over, and this is now the highest-value
+   acquisition the project has.** ⇒ `#915`②
+③ ⚠ Still `OPEN`: `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① ·
+   `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② ·
+   `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ ·
+   `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
+   `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

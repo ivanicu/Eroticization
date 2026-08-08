@@ -86,6 +86,40 @@ so no attitude has been measured yet.**
 > **So the bound was a fact about what had been tried, not about the data — and the highest-leverage round
 > available is about people again.**
 
+## ⚠ AND THE PROJECT HAS A CLAIM ABOUT PEOPLE AGAIN (`#915`)
+
+**On the instrument GSS could never have supplied, one moral dial is refuted at the person level — and the
+departure is not symmetric.** `#905`/`#906`/`#907` had left *"is sexual morality distinctive?"* **undecidable
+on GSS**, which ships zero non-sexual moral×legal batteries. NSFG asks a **sexual** norm (`samesex`, *"Sexual
+relations between two same-sex adults is all right"*) and a **non-sexual** norm (`chsuppor`, *"Okay for
+unmarried woman to have and raise a child"*) in the **same battery, of the same respondents**, with a
+domain-matched behavioural exposure for each.
+
+| `#915` — coefficients | moves `samesex` | moves `chsuppor` |
+|---|---|---|
+| **own same-sex contact** (`samesexany`) | **−0.21** | **−0.13** |
+| **own child born outside marriage** (`cebow`) | **+0.005 … +0.05** (nothing) | **−0.10** |
+
+Under one moral dial that matrix is **rank 1** and its determinant is **identically zero for any loadings** (`#915`).
+Measured **`det = +0.01529`** against a one-factor null of **−0.00090 ± 0.00400** — **4.0× its own spread**,
+**18 of 18 cells surviving BH at q=0.05**, all three sites agreeing on sign, the battery's non-norm items
+(`reactslf`/`chbother`) at **−0.00109**, and **`+0.01502` on common support** where both exposures are
+observed on the same people.
+
+> **One sentence about people: a person who has had a same-sex relationship becomes more permissive about
+> unmarried motherhood too, while a woman who has raised a child outside marriage does not become one bit
+> more permissive about same-sex relationships — crossing a sexual line loosens the whole moral frame;
+> crossing a family line loosens only that one.**
+
+⚠ **What it may NOT say.** ① The arrow is **not identified** — cross-sectional, so this is the *specificity
+of an association*, never causation; a permissive person may simply do more. ② **Value labels do not ship**,
+so *low = agrees* is read from the items' own wording. `det` is invariant to that flip, so **the statistic
+stands either way and the sentence above does not** — NSFG's value labels are now the project's
+highest-value acquisition. ③ ⚠ **The round's first statistic was defective and its own output said so**: the
+`log|b|` interaction `#892` validated at the decade unit divides by `cebow → samesex`, which the data
+measured as **zero** (+0.0009 against an se of ≈0.018), and its null never visited that regime — the
+headline it produced (`D = +5.37`, "29σ") **was not a z at all.** Retired in-round, labelled, not deleted.
+
 ⚠ **Everything below this line is the E01/E02 narrative as it was written, with each superseded row carrying a
 marker naming the entry that retracted it.** It is kept rather than rewritten (`L81`), and the marker is applied
 by `supersede_apply.py` quoting the ledger's own sentence — **a machine may not invent a WHY.**
