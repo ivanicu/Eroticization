@@ -271,6 +271,31 @@ age effect is claimed anywhere.
 ⚠ **So `#923`'s sentence is half-supported and half-unmeasured**: people *did* change their minds, now
 measured; **"almost entirely" was never established** and cannot be by this design, because the replacement
 share is exactly what the ill-posed estimator was supposed to give.
+
+⚠⚠ **`#925` then measured it — as a BOUND, which is the only shape this data supports.** The estimator that
+works needs no common group set: `predicted(t) = Σ_k share_k(t) · m_k(frozen)`, each cohort contributing
+**the view it brought** at its first adequately-sized wave. ⚠ **And the obvious candidate was rejected at
+its precondition, before running: age-standardisation removes ageing, not turnover** — holding age fixed
+does not hold cohort fixed, since at a given age the cohort changes with the period.
+
+| `#925` | observed | predicted if nobody changed | replacement bound |
+|---|---|---|---|
+| 1974→2022 | +1.365 | +0.762 | **55.8%** |
+| 1990→2022 | +1.452 | +0.634 | **43.7%** |
+| 1998→2022 | +0.932 | +0.506 | 54.3% |
+
+**Median 55.0% (range 43.7–65.0%)** (`#925`) against a cohort-label permutation null of **−0.0242 ± 0.2469**;
+**4 of 6 cells survive BH**. ⚠ It is an **upper** bound because a cohort entering in 2014 brings a view
+already formed under four decades of period change, and the synthetic credits all of that to turnover.
+⚠ And a control **could not run**: the frozen-age-restricted specification fell below the 90% coverage floor,
+so it is **UNAVAILABLE, not satisfied**.
+
+> **One sentence about people (`#925`): at most a little over half of the half-century change in American
+> opinion on homosexuality can be the old holders dying off — so at least four in nine of it happened in
+> people who had already made up their minds and then, over their own lifetimes, unmade them.**
+
+⚠ `#924`'s within-cohort figure implies **44.6%** and `#925`'s conversion floor is **45.0%** — striking, but
+the two share data and cohort construction, so this is **consistency, not a second instrument**.
 ⚠ **Prior art**: the cohort/period structure of this trend is established (Treas 2002 · Andersen & Fetner
 2008 · Baunach 2012). `#924` is a **verification on this release**, not a discovery.
 

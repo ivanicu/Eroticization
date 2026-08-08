@@ -1,0 +1,43 @@
+PRECONDITION CHECK (this is the step `#924`(2) says I skip):
+  every cohort observed once with n>=100? cohorts missing: NONE -> HOLDS
+    1900s frozen at 1973 (age ~68, n=156) mean 1.250
+    1910s frozen at 1973 (age ~58, n=223) mean 1.341
+    1920s frozen at 1973 (age ~48, n=234) mean 1.547
+    1930s frozen at 1973 (age ~38, n=276) mean 1.514
+    1940s frozen at 1973 (age ~28, n=297) mean 1.825
+    1950s frozen at 1973 (age ~18, n=161) mean 1.963
+    1960s frozen at 1982 (age ~17, n=135) mean 1.756
+    1970s frozen at 1994 (age ~19, n=152) mean 2.375
+    1980s frozen at 2006 (age ~21, n=230) mean 2.443
+    1990s frozen at 2014 (age ~19, n=117) mean 3.154
+    2000s frozen at 2022 (age ~17, n=134) mean 3.537
+  ⚠ REJECTED CANDIDATE: age-standardisation. Holding the AGE distribution fixed does not hold COHORT fixed — at a given age the cohort changes with the period. It removes ageing, not turnover.
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  width=10 frozen_age<=none 1974->2022 k=11  observed +1.365 · predicted-if-nobody-changed +0.762  => replacement bound  55.8%  coverage 1.000  n=3423
+  width=10 frozen_age<=none 1974->2024 k=11  observed +1.170 · predicted-if-nobody-changed +0.761  => replacement bound  65.0%  coverage 1.000  n=3340
+  width=10 frozen_age<=none 1990->2022 k=11  observed +1.452 · predicted-if-nobody-changed +0.634  => replacement bound  43.7%  coverage 1.000  n=3006
+  width=10 frozen_age<=none 1998->2022 k=11  observed +0.932 · predicted-if-nobody-changed +0.506  => replacement bound  54.3%  coverage 1.000  n=3885
+  width= 5 frozen_age<=none 1990->2022 k=19  observed +1.452 · predicted-if-nobody-changed +0.680  => replacement bound  46.8%  coverage 0.954  n=3006
+  width= 5 frozen_age<=none 1998->2022 k=19  observed +0.932 · predicted-if-nobody-changed +0.566  => replacement bound  60.8%  coverage 0.994  n=3885
+
+  median replacement UPPER BOUND: 55.0%  over 6 cells [43.7%, 65.0%]
+  => conversion LOWER bound: 45.0%
+
+  null (frozen means PERMUTED across cohorts; kind of null: cohort-label permutation of the frozen means): -0.0242 +/- 0.2469 over 300 draws
+  positive sweep (permuted -> true frozen means): [(0.0, 0.0764), (0.25, 0.1228), (0.5, 0.2753), (0.75, 0.428), (1.0, 0.5578)]
+
+  CONDITIONAL KILL -- How much of the half-century COULD be turnover, at most?
+   PASS  positive: interpolating from permuted toward true frozen means raises the bound, and g=0 IS the null world    方向由数据给出:**上升**;灵敏度 g=0.25;g=0 +0.0764 · g=1 +0.5578   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  frozen means permuted across cohorts                                                                          |+0.0242| < 0.5*|+0.5503| = 0.2751   (null is 4% of the effect [零的方案: cohort-label permutation of the frozen means])
+   PASS  the whole width x frozen-age-cap x window grid                                                                method=bh q=0.05 · **cells tested 6 · cells surviving 4** · 存活 ['w10|capnone|1974-2022', 'w10|capnone|1974-2024', 'w10|capnone|1998-2022', 'w5|capnone|1998-2022'] · 未存活 ['w10|capnone|1990-2022', 'w5|capnone|1990-2022']   (control)
+   PASS  PRECONDITIONS were checked and printed BEFORE the estimator ran (`#924`(2))                                   all 11 birth decades have a wave with n>=100; age-standardisation was REJECTED on its precondition (fixing age does not fix cohort); scope stated   (asserted in code, not in prose)
+   PASS  coverage: the synthetic accounts for >=90% of each wave's respondents                                         minimum coverage across cells 0.954   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                                             6/6 格带 n   (每一格都声明了自己的人群规模)
+   PASS  the answer is reported as a BOUND, not a point                                                                cohorts entering mid-series bring a view already formed under prior period change, so the synthetic credits that to turnover: `replacement_bound` is an UPPER bound and `1-bound` a LOWER bound on conversion; scope stated   (asserted in code, not in prose)
+   PASS  KILL: W_LOOSE — if the bound reaches 1, this design cannot distinguish and the question CLOSES under `#111c`  median bound 55.0% over 6 cells, range [43.7%, 65.0%]   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : CONFIRMED · world W_TIGHT · turnover is bounded well below the whole trend
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A114_does_the_person_level_finding_explain_the_century/R363_an_upper_bound_on_replacement/results/an_upper_bound_on_replacement.json

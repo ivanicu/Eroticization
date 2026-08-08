@@ -46479,3 +46479,83 @@ estimator was supposed to give.
    `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
    `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 925 · `E03·A114·R363` — at most half of it was turnover, so at least half happened in people who had already decided
+
+**⇒ `CONFIRMED` · world `W_TIGHT`. The replacement share of the half-century change is bounded at
+**55.0% (median over 6 cells, range 43.7%–65.0%)**. ⇒ **at least ~45% of the shift happened inside
+people who had already formed a view.** The question `#924` could not estimate is now answered as a
+BOUND — which is the honest shape for it, and the only shape this data can support.**
+
+**⚠ THE PRECONDITION CHECK CAME FIRST, WHICH IS THE WHOLE POINT.** `#924`② named the family: *I reach
+for a standard estimator without checking its precondition holds here.* So this round checked and
+**printed** the preconditions before the estimator ran — and **rejected the obvious candidate on
+one**: ⚠ **age-standardisation does not work.** Holding the age distribution fixed does **not** hold
+COHORT fixed, because in a repeated cross-section the cohort at a given age changes with the period.
+**It removes ageing, not turnover.** That rejection is the first time in this project a design was
+killed at the precondition rather than by its own output.
+
+**THE ESTIMATOR.** A **frozen-mean synthetic**, which needs no common group set —
+`predicted(t) = Σ_k share_k(t) · m_k(frozen)`, where `m_k(frozen)` is cohort *k*'s mean at its first
+adequately-sized wave. Each cohort contributes **the view it brought**, whenever it is present; no
+cohort has to appear in two particular waves, which is precisely what defeated `#924`'s Kitagawa.
+Precondition — every cohort observed once with n ≥ 100 — **holds for all 11 birth decades.**
+
+| | observed | predicted if nobody changed | replacement bound |
+|---|---|---|---|
+| 1974→2022 | +1.365 | +0.762 | **55.8%** |
+| 1974→2024 | +1.170 | +0.761 | 65.0% |
+| 1990→2022 | +1.452 | +0.634 | **43.7%** |
+| 1998→2022 | +0.932 | +0.506 | 54.3% |
+
+**Median 55.0%**, against a permutation null of **−0.0242 ± 0.2469** (kind of null: cohort-label
+permutation of the frozen means). BH: **4 of 6 cells survive**. Positive control built so `g=0` **is**
+the null world — interpolating permuted → true frozen means gives
+`0 → +0.0764 · 0.25 → +0.1228 · 0.50 → +0.2753 · 0.75 → +0.4280 · 1.0 → +0.5578`, monotone.
+
+**⚠ WHY A BOUND AND NOT A POINT.** Measured: every cohort is frozen at roughly **age 17–28** (the
+three oldest at ~38/48/58, because the series starts in 1973). **A cohort entering in 2014 brings a
+view already formed under four decades of period change**, and the synthetic credits all of that to
+turnover. ⇒ `replacement_bound` is an **upper** bound; `1 − bound` is a **lower** bound on conversion.
+
+**⚠⚠ AND A CONTROL I DESIGNED COULD NOT RUN — SAID PLAINLY RATHER THAN PASSED SILENTLY.** The
+frozen-age-restricted specification (cohorts frozen under 30, the control for the three oldest being
+a different construct) **dropped below the 90% coverage floor and returned nothing**: excluding
+late-frozen cohorts removes more than a tenth of the 1974 sample. So the grid is **6 cells, not 12**,
+and that control is **UNAVAILABLE, not satisfied** (`#916`③'s lesson: absence is not a pass).
+
+**⚠ CONSISTENCY WITH `#924`, AND IT IS NOT INDEPENDENT REPLICATION.** `#924` measured within-cohort
+movement at **+0.609** against an observed **+1.365** — **44.6%** — and this round's conversion lower
+bound is **45.0%**. Striking, but the two share data and cohort construction, so this is
+**consistency, not a second instrument** (HARD RULE 4 is *not* satisfied by it).
+
+**⇒ One sentence about people: at most a little over half of the half-century change in American
+opinion on homosexuality can be the old holders dying off — so at least four in nine of it happened
+in people who had already made up their minds and then, over their own lifetimes, unmade them.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠⚠ **replacement and period cannot be separated for cohorts entering mid-series** — their brought
+   view already contains the period change that preceded them. **This is why the answer is a bound
+   and can never be a point on this data**, at any sample size;
+② ⚠ age/period/cohort remain exactly collinear; **no age effect is claimed anywhere**;
+③ ⚠ the frozen-age-restricted control **cannot be run** (coverage floor), above;
+④ ⚠ repeated cross-section, not a panel — a cohort is not the same people twice;
+⑤ ⚠ **only this one instrument**; ⑥ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **A114'S QUESTION IS NOW CLOSED AS FAR AS THIS DATA GOES.** `#923` (composition ≈4%), `#924`
+   (cohorts moved +0.609), `#925` (turnover ≤55%) together say: **the change was mostly people
+   changing, not people being replaced, and the person-level mechanism this project spent six rounds
+   on is a small part of it.** What remains is the ~45–55% band's *content* — and that is not a
+   measurement problem, it is that nothing in `data/external/` records why anyone changed. ⇒ `#925`①
+② ⚠ **THE PRECONDITION CHECK SHOULD BE MECHANICAL, NOT A HABIT I REMEMBERED THIS ONCE.** It worked
+   here because `#924`② was fresh. `#922` built a gate for the plant/null family; the estimator-
+   precondition family has none, and its two instances (`#923`, `#924`) were both caught by running.
+   ⇒ `#925`②
+③ ⚠ Still `OPEN`: `#924`①② · `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) ·
+   `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② ·
+   `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② ·
+   `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ ·
+   `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
+   `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
+   `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

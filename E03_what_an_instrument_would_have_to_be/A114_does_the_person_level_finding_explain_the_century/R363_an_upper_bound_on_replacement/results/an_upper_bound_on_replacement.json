@@ -1,0 +1,238 @@
+{
+ "entry": 925,
+ "round": "E03\u00b7A114\u00b7R363",
+ "verdict": "CONFIRMED",
+ "world": "W_TIGHT \u00b7 turnover is bounded well below the whole trend",
+ "estimand": "upper bound on the share of the aggregate change attributable to cohort turnover, via a frozen-mean synthetic that needs no common group set",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta",
+ "preconditions": {
+  "all_cohorts_covered": true,
+  "missing": [],
+  "rejected_candidate": "age-standardisation: fixing age does not fix cohort"
+ },
+ "frozen": {
+  "1900": {
+   "frozen_year": 1973,
+   "frozen_mean": 1.25,
+   "frozen_age": 68,
+   "n": 156
+  },
+  "1910": {
+   "frozen_year": 1973,
+   "frozen_mean": 1.3408071748878925,
+   "frozen_age": 58,
+   "n": 223
+  },
+  "1920": {
+   "frozen_year": 1973,
+   "frozen_mean": 1.547008547008547,
+   "frozen_age": 48,
+   "n": 234
+  },
+  "1930": {
+   "frozen_year": 1973,
+   "frozen_mean": 1.5144927536231885,
+   "frozen_age": 38,
+   "n": 276
+  },
+  "1940": {
+   "frozen_year": 1973,
+   "frozen_mean": 1.8249158249158248,
+   "frozen_age": 28,
+   "n": 297
+  },
+  "1950": {
+   "frozen_year": 1973,
+   "frozen_mean": 1.9627329192546583,
+   "frozen_age": 18,
+   "n": 161
+  },
+  "1960": {
+   "frozen_year": 1982,
+   "frozen_mean": 1.7555555555555555,
+   "frozen_age": 17,
+   "n": 135
+  },
+  "1970": {
+   "frozen_year": 1994,
+   "frozen_mean": 2.375,
+   "frozen_age": 19,
+   "n": 152
+  },
+  "1980": {
+   "frozen_year": 2006,
+   "frozen_mean": 2.4434782608695653,
+   "frozen_age": 21,
+   "n": 230
+  },
+  "1990": {
+   "frozen_year": 2014,
+   "frozen_mean": 3.1538461538461537,
+   "frozen_age": 19,
+   "n": 117
+  },
+  "2000": {
+   "frozen_year": 2022,
+   "frozen_mean": 3.537313432835821,
+   "frozen_age": 17,
+   "n": 134
+  }
+ },
+ "grid": [
+  {
+   "y0": 1974,
+   "y1": 2022,
+   "observed_change": 1.3651392396043807,
+   "predicted_change": 0.7615278443611464,
+   "replacement_bound": 0.5578389531765553,
+   "coverage": 1.0,
+   "n": 3423,
+   "cohort_width": 10,
+   "frozen_age_cap": "none",
+   "cohorts": 11
+  },
+  {
+   "y0": 1974,
+   "y1": 2024,
+   "observed_change": 1.170415839082451,
+   "predicted_change": 0.7611314873759252,
+   "replacement_bound": 0.6503086014049632,
+   "coverage": 1.0,
+   "n": 3340,
+   "cohort_width": 10,
+   "frozen_age_cap": "none",
+   "cohorts": 11
+  },
+  {
+   "y0": 1990,
+   "y1": 2022,
+   "observed_change": 1.45245178542256,
+   "predicted_change": 0.6343636208177412,
+   "replacement_bound": 0.43675365143579387,
+   "coverage": 1.0,
+   "n": 3006,
+   "cohort_width": 10,
+   "frozen_age_cap": "none",
+   "cohorts": 11
+  },
+  {
+   "y0": 1998,
+   "y1": 2022,
+   "observed_change": 0.9315410607514676,
+   "predicted_change": 0.5055303347311491,
+   "replacement_bound": 0.5426817518095673,
+   "coverage": 1.0,
+   "n": 3885,
+   "cohort_width": 10,
+   "frozen_age_cap": "none",
+   "cohorts": 11
+  },
+  {
+   "y0": 1990,
+   "y1": 2022,
+   "observed_change": 1.45245178542256,
+   "predicted_change": 0.6796697950327146,
+   "replacement_bound": 0.46794654518255085,
+   "coverage": 0.9541284403669725,
+   "n": 3006,
+   "cohort_width": 5,
+   "frozen_age_cap": "none",
+   "cohorts": 19
+  },
+  {
+   "y0": 1998,
+   "y1": 2022,
+   "observed_change": 0.9315410607514676,
+   "predicted_change": 0.5659430909568428,
+   "replacement_bound": 0.6075342406273542,
+   "coverage": 0.9942889777270131,
+   "n": 3885,
+   "cohort_width": 5,
+   "frozen_age_cap": "none",
+   "cohorts": 19
+  }
+ ],
+ "median_replacement_bound": 0.5502603524930614,
+ "conversion_lower_bound": 0.4497396475069386,
+ "bound_range": [
+  0.43675365143579387,
+  0.6503086014049632
+ ],
+ "null_median": -0.024206745435577257,
+ "null_sd": 0.24687220407793609,
+ "null_draws": 300,
+ "positive_sweep": [
+  [
+   0.0,
+   0.07637955851631681
+  ],
+  [
+   0.25,
+   0.12280859691930926
+  ],
+  [
+   0.5,
+   0.27525160642959545
+  ],
+  [
+   0.75,
+   0.4280349469858862
+  ],
+  [
+   1.0,
+   0.5578389531765553
+  ]
+ ],
+ "family_size": 6,
+ "gates": [
+  [
+   "positive: interpolating from permuted toward true frozen means raises the bound, and g=0 IS the null world",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.25;g=0 +0.0764 \u00b7 g=1 +0.5578",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "frozen means permuted across cohorts",
+   "|+0.0242| < 0.5*|+0.5503| = 0.2751",
+   true,
+   "null is 4% of the effect [\u96f6\u7684\u65b9\u6848: cohort-label permutation of the frozen means]"
+  ],
+  [
+   "the whole width x frozen-age-cap x window grid",
+   "method=bh q=0.05 \u00b7 **cells tested 6 \u00b7 cells surviving 4** \u00b7 \u5b58\u6d3b ['w10|capnone|1974-2022', 'w10|capnone|1974-2024', 'w10|capnone|1998-2022', 'w5|capnone|1998-2022'] \u00b7 \u672a\u5b58\u6d3b ['w10|capnone|1990-2022', 'w5|capnone|1990-2022']",
+   true,
+   "control"
+  ],
+  [
+   "PRECONDITIONS were checked and printed BEFORE the estimator ran (`#924`(2))",
+   "all 11 birth decades have a wave with n>=100; age-standardisation was REJECTED on its precondition (fixing age does not fix cohort); scope stated",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "coverage: the synthetic accounts for >=90% of each wave's respondents",
+   "minimum coverage across cells 0.954",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "6/6 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "the answer is reported as a BOUND, not a point",
+   "cohorts entering mid-series bring a view already formed under prior period change, so the synthetic credits that to turnover: `replacement_bound` is an UPPER bound and `1-bound` a LOWER bound on conversion; scope stated",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: W_LOOSE \u2014 if the bound reaches 1, this design cannot distinguish and the question CLOSES under `#111c`",
+   "median bound 55.0% over 6 cells, range [43.7%, 65.0%]   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}
