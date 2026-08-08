@@ -1,0 +1,508 @@
+{
+ "entry": 959,
+ "round": "E03\u00b7A131\u00b7R392",
+ "gate_verdict": "   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the label-permutation null returns 1/6, the placebo excess vanishes, the plant fires and g=0 sits on the fitted null. STAKED: W_PAIRING, i.e. the `",
+ "gates": [
+  [
+   "positive PLANT-D, exact by construction: moving mass d/2 out of each of {premarital,teenage} and {extramarital,same-sex} into each of {premarital,same-sex} and {teenage,extramarital} leaves EVERY item's top rate unchanged, so the fitted null does not move and the excess must equal exactly d/2, with 0 at d=0 by derivation (`#922`)",
+   true,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.02;g=0 -0.0016 \u00b7 g=0.1 +0.0482"
+  ],
+  [
+   "\u26a0 N1, A NULL WITH A KNOWN VALUE, checked against that value rather than against an effect: within-person item-label permutation preserves each person's answer multiset exactly, so each of the six splits must arrive at 1/6. Priced against ITS OWN sampling spread, because pricing a known-value instrument check against an effect makes it unpassable when the effect is zero",
+   true,
+   "extreme 1/4 two- max |dev from 1/6| 0.0094 (own spread 0.0142) \u00b7 any middle gap max |dev from 1/6| 0.0028 (own spread 0.0055) \u00b7 middle gap >= 2 max |dev from 1/6| 0.0035 (own spread 0.0107) \u00b7 any middle gap,  max |dev from 1/6| 0.0033 (own spread 0.0057) \u00b7 \u603b\u4f53:GSS ballot 1, n=15056"
+  ],
+  [
+   "\u26a0 PLANT-C KEPT AS A DIAGNOSTIC AND REFUSED AS A CONTROL: I asserted its baseline instead of deriving it. Putting mass only on two complementary cells moves all four item rates, so the fitted null is nowhere near h and the sweep starts at +0.16 and is non-monotone",
+   true,
+   "PLANT-C [(0.16666666666666666, 0.1615), (0.3, 0.2559), (0.5, 0.3327), (0.7, 0.2548)] \u2014 an asserted baseline is not a baseline \u00b7 \u603b\u4f53:synthetic tables at n=1757"
+  ],
+  [
+   "\u26a0\u26a0 PLANT-A IS THE CONTROL THAT MADE THE ZERO READABLE: shifting mass toward the target FROM ALL CELLS also moves the item margins, and the refitted independence null absorbs it exactly, so the statistic does not move at any dose. A zero from THAT plant would have been silence. Reported as a property of the estimator, not of people",
+   true,
+   "PLANT-A [(0.0, -0.0), (0.1, -0.0), (0.25, -0.0), (0.5, -0.0)] vs PLANT-C [(0.16666666666666666, 0.1615), (0.3, 0.2559), (0.5, 0.3327), (0.7, 0.2548)] \u2014 only PLANT-C moves the table OFF the independence surface \u00b7 \u603b\u4f53:synthetic tables at n=1757, matched to the extreme population"
+  ],
+  [
+   "\u26a0 SATURATION measured rather than argued: the fitted independence null reproduces the observed six-cell table almost exactly in every population. 2 residual df exist but are nearly unidentifiable once one item appears in nearly every top pair",
+   true,
+   "extreme 1/4 two- max |obs \u2212 fitted| 0.0004 (L1 0.0017) \u00b7 any middle gap max |obs \u2212 fitted| 0.0018 (L1 0.0073) \u00b7 middle gap >= 2 max |obs \u2212 fitted| 0.0009 (L1 0.0035) \u00b7 any middle gap,  max |obs \u2212 fitted| 0.0016 (L1 0.0065) \u00b7 \u603b\u4f53:GSS ballot 1, n=15056"
+  ],
+  [
+   "the placebo: the whole pipeline re-run on label-permuted data, where the excess over refitted independence must vanish \u2014 priced against the target's own sampling spread",
+   true,
+   "|+0.0015| < 0.5*|+0.0071| = 0.0036"
+  ],
+  [
+   "6 splits x 2 nulls x populations (`#936`\u2461)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 48 \u00b7 cells surviving 20** \u00b7 \u5b58\u6d3b ['extreme 1//prem+teen/ext', 'extreme 1//prem+extr/ext', 'extreme 1//prem+same/ext', 'extreme 1//teen+extr/fit', 'extreme 1//teen+extr/ext', 'extreme 1//teen+same/ext', 'extreme 1//extr+same/ext', 'any middle/prem+teen/ext', 'any middle/prem+extr/ext', 'any middle/teen+extr/fit', 'any middle/teen+same/ext', 'any middle/extr+same/ext', 'middle gap/prem+same/ext', 'middle gap/teen+same/ext', 'middle gap/extr+same/ext', 'any middle/prem+teen/ext', 'any middle/prem+extr/ext', 'any middle/teen+extr/fit', 'any middle/teen+same/ext', 'any middle/extr+same/ext'] \u00b7 \u672a\u5b58\u6d3b ['extreme 1//prem+teen/fit', 'extreme 1//prem+extr/fit', 'extreme 1//prem+same/fit', 'extreme 1//teen+same/fit', 'extreme 1//extr+same/fit', 'any middle/prem+teen/fit', 'any middle/prem+extr/fit', 'any middle/prem+same/fit']\u2026"
+  ],
+  [
+   "\u26a0 POLARITY DERIVED FROM THE DATA, never assumed (`#927`\u2462/`#942`\u2461): 4 is the permissive pole iff P(answer = 4) orders identically to the item mean",
+   true,
+   "item means [2.984, 1.608, 1.341, 2.342] \u00b7 P(=4) [0.5305, 0.0748, 0.0221, 0.3859] \u00b7 same order True \u00b7 \u603b\u4f53:GSS ballot 1, n=15056"
+  ],
+  [
+   "\u26a0 THE STRONGEST CONFOUND, controlled in the same iteration: the independence null is FITTED on the same table and can absorb the effect it prices. An EXTERNAL null built from the whole sample's per-item P(answer=4) is reported beside it, and both must clear for a cell to count",
+   true,
+   "extreme 1/4  fitted -0.0000 (z -0.00) / external +0.1060 (z +14.83) \u00b7 any middle g fitted +0.0016 (z +0.33) / external -0.0100 (z -2.02) \u00b7 middle gap > fitted +0.0009 (z +0.16) / external +0.0621 (z +11.11) \u00b7 any middle g fitted +0.0014 (z +0.28) / external -0.0107 (z -2.16) \u00b7 \u603b\u4f53:GSS ballot 1, n=15056"
+  ],
+  [
+   "\u26a0 PLACEBO: the whole pipeline re-run on label-permuted data, where the excess must vanish",
+   true,
+   "extreme 1/4  placebo excess +0.0015 against a spread of 0.0071 \u00b7 any middle g placebo excess +0.0004 against a spread of 0.0049 \u00b7 middle gap > placebo excess -0.0005 against a spread of 0.0056 \u00b7 any middle g placebo excess +0.0006 against a spread of 0.0050 \u00b7 \u603b\u4f53:GSS ballot 1, n=15056"
+  ],
+  [
+   "\u26a0 SHAM: the statistic aimed at the other five splits rather than the target \u2014 all six cells are published, so the sham is built in",
+   true,
+   "extreme 1/4 : prem+teen 8.6% vs fitted 8.6%, prem+extr 1.3% vs fitted 1.3%, prem+same 90.0% vs fitted 90.0%, teen+extr 0.0% vs fitted 0.0%, teen+same 0.1% vs fitted 0.1%, extr+same 0.1% vs fitted 0.0% \u00b7 \u603b\u4f53:GSS ballot 1, n=1757"
+  ],
+  [
+   "\u26a0 RESIDUAL DEGREES OF FREEDOM stated: six cells, one normalisation, three free permit rates after conditioning on exactly-two \u21d2 2 df. The fit converges on the observed per-item top rates",
+   true,
+   "extreme 1/4  max |implied \u2212 observed| item rate 2.22e-16 \u00b7 any middle g max |implied \u2212 observed| item rate 2.22e-16 \u00b7 middle gap > max |implied \u2212 observed| item rate 2.22e-16 \u00b7 any middle g max |implied \u2212 observed| item rate 2.22e-16 \u00b7 \u603b\u4f53:GSS ballot 1, n=15056"
+  ],
+  [
+   "the whole population x null grid is published, disagreeing cells included",
+   true,
+   "extreme 1/4  n=1757 target 90.0% zfit -0.00 zext +14.83 \u00b7 any middle g n=6964 target 78.4% zfit +0.33 zext -2.02 \u00b7 middle gap > n=3937 target 85.6% zfit +0.16 zext +11.11 \u00b7 any middle g n=6851 target 78.4% zfit +0.28 zext -2.16 \u00b7 \u603b\u4f53:GSS ballot 1, n=15056"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the label-permutation null returns 1/6, the placebo excess vanishes, the plant fires and g=0 sits on the fitted null. STAKED: W_PAIRING, i.e. the `{premarital, same-sex}` share exceeds BOTH the fitted and the external independence null by more than 2 sampling spreads in a majority of populations. \u26a0 W_MARGINALS means people simply permit the two most-permitted acts and `#951`'s verdict holds even where the structure is sharpest",
+   false,
+   "N1 at 1/6 True \u00b7 placebo True \u00b7 PLANT-D fires and is exact True (PLANT-A absorbed True) \u00b7 g=0 on null True \u00b7 fit converged True \u00b7 populations clearing BOTH nulls 0/4 \u21d2 W_MARGINALS   \u5c3a:share choosing {premarital, same-sex} minus its independence null,\u5176\u81ea\u8eab\u566a\u58f0 0.00714438 \u00b7 \u603b\u4f53:GSS ballot 1 respondents splitting the four acts two-and-two, n=1757 of 15056, 21 waves 1988-2024 \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:10/10 \u6761\u5df2\u547d\u540d,**10 \u6761\u4e0e\u5224\u636e\u4e0d\u540c** ['\u26a0 N1, A NULL WITH A KNOWN VA', '\u26a0 PLANT-C KEPT AS A DIAGNOST', '\u26a0\u26a0 PLANT-A IS THE CONTROL TH', '\u26a0 SATURATION measured rather', '\u26a0 POLARITY DERIVED FROM THE ', '\u26a0 THE STRONGEST CONFOUND, co', '\u26a0 PLACEBO: the whole pipelin', '\u26a0 SHAM: the statistic aimed ', '\u26a0 RESIDUAL DEGREES OF FREEDO', 'the whole population x null ']  \u26a0 **\u63a7\u5236\u7684\u603b\u4f53 \u2260 \u4e3b\u5f20\u7684\u603b\u4f53** \u2014\u2014 **\u5b83\u8bc1\u660e\u7684\u662f\u53e6\u4e00\u7fa4\u4eba\u8eab\u4e0a\u7684\u4eea\u5668**(`#866`\u2460)(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": true,
+ "n_answered": 15056,
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021,
+  2022,
+  2024
+ ],
+ "polarity_derived": true,
+ "p_top_full": [
+  0.5304861849096706,
+  0.07478746014877789,
+  0.022117428267800214,
+  0.38589266737513284
+ ],
+ "item_means": [
+  2.9837274176408077,
+  1.607664718384697,
+  1.341126461211477,
+  2.3416578108395325
+ ],
+ "splits": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   3
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   2,
+   3
+  ]
+ ],
+ "target": [
+  0,
+  3
+ ],
+ "grid": [
+  {
+   "pop": "extreme 1/4 two-and-two",
+   "n": 1757,
+   "share_of_sample": 0.11669766206163655,
+   "counts": [
+    151.0,
+    22.0,
+    1582.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "shares": [
+    0.08594194649971543,
+    0.012521343198634035,
+    0.900398406374502,
+    0.0,
+    0.0005691519635742744,
+    0.0005691519635742744
+   ],
+   "fitted_null": [
+    0.08552044041822926,
+    0.012928825994294367,
+    0.9004124296603276,
+    1.4023285825684431e-05,
+    0.0009766347592347572,
+    0.00014764588208825778
+   ],
+   "fitted_rates": [
+    0.9634961833668448,
+    0.027831958005981736,
+    0.00430939191300493,
+    0.23160933223762245
+   ],
+   "fit_err": 2.220446049250313e-16,
+   "external_null": [
+    0.10219276971128298,
+    0.028594388749061037,
+    0.7944290910182061,
+    0.002045702088574916,
+    0.056835110726889806,
+    0.015902937705985123
+   ],
+   "target_share": 0.900398406374502,
+   "target_se": 0.007144381244394682,
+   "excess_fitted": -1.4023285825670584e-05,
+   "z_fitted": -0.001962841195894037,
+   "excess_external": 0.10596931535629583,
+   "z_external": 14.832539268454765,
+   "n1_mean": [
+    0.16941756782394232,
+    0.15727565926769116,
+    0.17188389299943085,
+    0.16429520015177387,
+    0.17416050085372795,
+    0.1629671789034339
+   ],
+   "n1_sd": [
+    0.014232592930002695,
+    0.014129801693314688,
+    0.0034620162380752497,
+    0.004907045022340199,
+    0.009159634000814506,
+    0.007116296465001353
+   ],
+   "n1_max_dev_from_sixth": 0.009391007398975498,
+   "placebo_excess": 0.0015228648418581698
+  },
+  {
+   "pop": "any middle gap",
+   "n": 6964,
+   "share_of_sample": 0.46253985122210417,
+   "counts": [
+    1016.0,
+    412.0,
+    5463.0,
+    15.0,
+    36.0,
+    22.0
+   ],
+   "shares": [
+    0.14589316484778864,
+    0.0591614014933946,
+    0.7844629523262493,
+    0.00215393452039058,
+    0.005169442848937392,
+    0.0031591039632395176
+   ],
+   "fitted_null": [
+    0.14566686944794416,
+    0.06099591964108912,
+    0.782854729578399,
+    0.0005457117725404344,
+    0.0070039609966320426,
+    0.0029328085633951264
+   ],
+   "fitted_rates": [
+    0.8591967751504936,
+    0.051767524876656715,
+    0.022349418886590144,
+    0.2268451317943935
+   ],
+   "fit_err": 2.220446049250313e-16,
+   "external_null": [
+    0.10219276971128298,
+    0.028594388749061037,
+    0.7944290910182061,
+    0.002045702088574916,
+    0.056835110726889806,
+    0.015902937705985123
+   ],
+   "target_share": 0.7844629523262493,
+   "target_se": 0.004927399813215426,
+   "excess_fitted": 0.0016082227478503297,
+   "z_fitted": 0.3263836523955354,
+   "excess_external": -0.009966138691956838,
+   "z_external": -2.022595906511863,
+   "n1_mean": [
+    0.16666666666666666,
+    0.16389048439594103,
+    0.1670974535707448,
+    0.16700172314761633,
+    0.16633161018571704,
+    0.1690120620333142
+   ],
+   "n1_sd": [
+    0.005509907523103932,
+    0.0041278021562991376,
+    0.0030268833531997656,
+    0.0029983648790667763,
+    0.005268870649295183,
+    0.0027955086636892307
+   ],
+   "n1_max_dev_from_sixth": 0.0027761822707256245,
+   "placebo_excess": 0.0003988393869789608
+  },
+  {
+   "pop": "middle gap >= 2",
+   "n": 3937,
+   "share_of_sample": 0.261490435706695,
+   "counts": [
+    429.0,
+    116.0,
+    3372.0,
+    4.0,
+    12.0,
+    4.0
+   ],
+   "shares": [
+    0.10896621793243587,
+    0.029464058928117855,
+    0.856489712979426,
+    0.001016002032004064,
+    0.003048006096012192,
+    0.001016002032004064
+   ],
+   "fitted_null": [
+    0.10902479622773531,
+    0.03028455601142885,
+    0.8556106376008153,
+    0.0001369266533935554,
+    0.003868503179323257,
+    0.0010745803273035784
+   ],
+   "fitted_rates": [
+    0.8972455350392566,
+    0.037980549111669815,
+    0.01084767067017686,
+    0.23654414725309245
+   ],
+   "fit_err": 2.220446049250313e-16,
+   "external_null": [
+    0.10219276971128298,
+    0.028594388749061037,
+    0.7944290910182061,
+    0.002045702088574916,
+    0.056835110726889806,
+    0.015902937705985123
+   ],
+   "target_share": 0.856489712979426,
+   "target_se": 0.005587530215945936,
+   "excess_fitted": 0.0008790753786106498,
+   "z_fitted": 0.15732807602577367,
+   "excess_external": 0.062060621961219864,
+   "z_external": 11.106986371923067,
+   "n1_mean": [
+    0.16459232918465838,
+    0.16662433324866652,
+    0.16907967149267633,
+    0.1631529929726526,
+    0.16933367200067737,
+    0.16721700110066887
+   ],
+   "n1_sd": [
+    0.010677088929125573,
+    0.010273684742777085,
+    0.0038128288033858937,
+    0.003674969844079368,
+    0.007493373735221571,
+    0.0074024190989397595
+   ],
+   "n1_max_dev_from_sixth": 0.0035136736940140634,
+   "placebo_excess": -0.0005011848912118144
+  },
+  {
+   "pop": "any middle gap, cohort present",
+   "n": 6851,
+   "share_of_sample": 0.4550345377258236,
+   "counts": [
+    1004.0,
+    409.0,
+    5369.0,
+    13.0,
+    35.0,
+    21.0
+   ],
+   "shares": [
+    0.14654794920449568,
+    0.059699313968763684,
+    0.7836812144212524,
+    0.0018975332068311196,
+    0.005108743249160707,
+    0.003065245949496424
+   ],
+   "fitted_null": [
+    0.1463014664239401,
+    0.06131618758168329,
+    0.7823108235888881,
+    0.0005271423744669691,
+    0.006725616862080445,
+    0.002818763168940973
+   ],
+   "fitted_rates": [
+    0.8636150850839495,
+    0.05162801001244624,
+    0.022306722315049116,
+    0.2254646945643478
+   ],
+   "fit_err": 2.220446049250313e-16,
+   "external_null": [
+    0.10219276971128298,
+    0.028594388749061037,
+    0.7944290910182061,
+    0.002045702088574916,
+    0.056835110726889806,
+    0.015902937705985123
+   ],
+   "target_share": 0.7836812144212524,
+   "target_se": 0.004974390239215716,
+   "excess_fitted": 0.0013703908323642322,
+   "z_fitted": 0.27548920902118323,
+   "excess_external": -0.010747876596953754,
+   "z_external": -2.1606420244681708,
+   "n1_mean": [
+    0.16635041113219481,
+    0.16338247457792052,
+    0.16751812387486012,
+    0.16698292220113853,
+    0.16630175643458375,
+    0.1694643117793023
+   ],
+   "n1_sd": [
+    0.0056083905035395395,
+    0.003950030359518283,
+    0.003335952847063093,
+    0.0029519410912504217,
+    0.005732382412432796,
+    0.0027848174030563368
+   ],
+   "n1_max_dev_from_sixth": 0.0032841920887461407,
+   "placebo_excess": 0.0006024055991649216
+  }
+ ],
+ "positive_sweep": [
+  [
+   0.16666666666666666,
+   0.16153654112981142
+  ],
+  [
+   0.3,
+   0.25590630782566925
+  ],
+  [
+   0.5,
+   0.33273119805548257
+  ],
+  [
+   0.7,
+   0.2547554568183511
+  ]
+ ],
+ "plant_a_sweep": [
+  [
+   0.0,
+   -1.168062689582694e-05
+  ],
+  [
+   0.1,
+   -7.365514632762249e-06
+  ],
+  [
+   0.25,
+   -4.835484966214665e-06
+  ],
+  [
+   0.5,
+   -2.66333807319441e-06
+  ]
+ ],
+ "plant_a_absorbed": true,
+ "saturation": [
+  [
+   "extreme 1/4 two-and-two",
+   0.0004215060814861671,
+   0.0016860243259443533
+  ],
+  [
+   "any middle gap",
+   0.0018345181476946502,
+   0.007338072590778519
+  ],
+  [
+   "middle gap >= 2",
+   0.0008790753786106498,
+   0.003516301514442176
+  ],
+  [
+   "any middle gap, cohort present",
+   0.001616873612919738,
+   0.006467494451678765
+  ]
+ ],
+ "plant_c_diagnostic": [
+  [
+   0.16666666666666666,
+   0.16153654112981142
+  ],
+  [
+   0.3,
+   0.25590630782566925
+  ],
+  [
+   0.5,
+   0.33273119805548257
+  ],
+  [
+   0.7,
+   0.2547554568183511
+  ]
+ ],
+ "plant_d_exact": true,
+ "null_median": 0.0,
+ "null_sd": 0.007144381244394682,
+ "null_draws": 3,
+ "family_size": 48,
+ "seeds": [
+  392,
+  1392,
+  2392
+ ],
+ "world": "W_MARGINALS",
+ "verdict": "OVERTURNED \u00b7 world W_MARGINALS \u00b7 target share 0.9004 on n=1757 \u00b7 excess over fitted -0.0000 (z -0.00) / external +0.1060 (z +14.83)"
+}

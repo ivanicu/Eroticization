@@ -48787,3 +48787,89 @@ is what the ordering discipline asks for, and it still propagated a defect to fo
 a correction promptly is not the same as landing a correct one.** `#958`③ **the dose-must-not-move-the
 -selection rule belongs in `lib/gates.py`**: any positive control on a filtered population must report
 how many planted units the filter then removes, and refuse the arm when that share is material.
+
+## Entry 959 · `E03·A131·R392` — nine in ten sort them the same way, and every bit of it is the item ordering
+
+**FRONTIER, and the ontology shifted.** `#958`① found that the sharpest cell of A126–A131 is not a
+correlation problem: `sd > p75` selects, on this data, **exactly** the respondents who used only the
+two extreme codes and split the four acts two-and-two. For them "which camp" is **one of six
+countable choices**. Six rounds of ipsative residuals, z-scoring, checkerboard swaps and column
+permutations were pointed at a question that, where it is sharpest, is a **contingency table**.
+
+**⚠ THE META-SEPARATOR, SAID OUT LOUD.** `#949`–`#958` all separated worlds *inside* one ontology —
+content vs marginals, measured as a contrast of person-centred correlations. This round asked whether
+that decomposition was itself wrong. It was: `#951`'s "86% is the marginals" and `#954`'s bracket are
+statements about **that apparatus**, not about people.
+
+**THE TABLE. n = 1,757 who used only 1 and 4 and split two-and-two** (GSS ballot 1, 21 waves
+1988–2024, of 15,056 who answered all four; polarity **derived**, not assumed — `P(answer=4)` orders
+identically to the item mean):
+
+| permitted | condemned | n | share | **fitted-independence null** | label-perm null |
+|---|---|---|---|---|---|
+| **premarital + same-sex** | teenage + extramarital | **1,582** | **90.04%** | **90.04%** | 17.19% |
+| premarital + teenage | extramarital + same-sex | 151 | 8.59% | 8.55% | 16.94% |
+| premarital + extramarital | teenage + same-sex | 22 | 1.25% | 1.29% | 15.73% |
+| teenage + same-sex | premarital + extramarital | 1 | 0.06% | 0.10% | 17.42% |
+| extramarital + same-sex | premarital + teenage | 1 | 0.06% | 0.01% | 16.30% |
+| **teenage + extramarital** | **premarital + same-sex** | **0** | **0.00%** | 0.00% | 16.43% |
+
+**① The partition is overwhelming as a description.** 90.0% against a uniform 16.7%, and **not one of
+the 1,757 chose the reverse camp**. In the wider population (any gap in the middle of the four
+answers, n = 6,964) it is 78.5%, and the reverse camp is 15 people.
+
+**② And every bit of it is the four item permission rates.** The conditional-independence null —
+each act permitted independently at its own rate, conditioned on permitting exactly two — reproduces
+the **whole six-cell table** to within **0.0004**. Excess on the target cell: **−0.0000, z = −0.00**.
+Across four populations: **+0.0016 (z +0.33) · +0.0009 (z +0.16) · +0.0014 (z +0.28)**. **0 of 4
+populations clear both nulls.**
+
+**③ And the null has power, which is the part that makes ② a measurement rather than silence.**
+`PLANT-D` moves mass d/2 out of each of `{premarital,teenage}` and `{extramarital,same-sex}` into
+each of `{premarital,same-sex}` and `{teenage,extramarital}` — which leaves **every item's rate
+unchanged**, so the fitted null cannot move and the excess must equal exactly d/2. Measured
+**−0.0016 · +0.0081 · +0.0232 · +0.0482** against d/2 = 0 · 0.010 · 0.025 · 0.050, with a sampling
+spread of 0.0071. **The design detects a pairing preference of one person in a hundred. The observed
+is four in a hundred thousand.**
+
+**VERDICT: `OVERTURNED` · `W_MARGINALS`, controls sound.** I staked `W_PAIRING` and lost it: N1
+returns 1/6 (max deviation 0.0094 · 0.0028 · 0.0035 · 0.0033); the placebo excess on label-permuted
+data vanishes (+0.0015 · +0.0004 · −0.0005 · +0.0006 against spreads of ~0.006); the fit converges on
+the observed item rates to 2.2e-16; 20 of 48 cells survive BH, non-survivors published.
+
+**⚠ TWO CONTROLS FAILED FIRST, AND BOTH FAILURES ARE THE RESULT'S FOUNDATION.**
+**`PLANT-A`** — shift mass toward the target *from all cells* — does not move the statistic at any
+dose, because it moves the item margins too and the refitted null absorbs it exactly. **A zero from
+that plant would have been silence.** It is a property of the estimator and is reported as one.
+**`PLANT-C`** — mass on the two complementary splits only — I wrote that it "must sit on zero at
+h = 1/6" and **never derived it**. It does not: that configuration moves all four item rates, so the
+sweep starts at **+0.16** and is non-monotone. **An asserted baseline is not a baseline**, and it is
+the same error class as the `#956` defects `#958` found — a step of reasoning that reads like algebra
+and was never run. `PLANT-C` is kept as a diagnostic and refused as a control.
+
+**⚠ SATURATION, measured rather than argued.** Six cells, one normalisation, three free rates after
+conditioning ⇒ **2 residual df**, and the fitted null reproduces the observed table to 0.0004–0.0018.
+The null is *nearly* saturated — and `PLANT-D` establishes that the surviving 2 df are **exactly
+where a pairing preference lives**, which is why "excess ≈ 0" is admissible here.
+
+**⚠ AGREEMENT IS NOT REPLICATION.** This converges with `#951`'s 86.1%-is-marginal from a different
+population, statistic and null — but both price against *the item marginals*, so they share the
+**concept** even though they share no machinery. Convergent, not independent.
+
+**ONE SENTENCE ABOUT PEOPLE.** Nine in ten Americans who sort these four acts into a permitted pair
+and a condemned pair put premarital sex and same-sex relations on one side and teenage and
+extramarital sex on the other — **and not one of the 1,757 did the reverse** — yet that near-unanimity
+is exactly what you get if every person judges each act entirely on its own, because the two acts most
+people permit simply *are* those two. **The camps are real as a description and empty as a mechanism.**
+
+**NEXT** — `#959`① **A131 closes and the decision it makes safe is: stop asking whether the 2+2
+partition is content.** Three instruments sharing no machinery — a swap null on ipsative residuals
+(`#951`), a full-marginal null (`#952`'s binary analogue) and now a six-cell contingency table with a
+powered margin-preserving plant — all say the pairing carries nothing beyond how often each act is
+permitted. Further rounds on that question are Closure. `#959`② **the live object is what the item
+rates themselves are made of**, which is a different and un-asked question: `premarsx` 0.5305 ·
+`homosex` 0.3859 · `teensex` 0.0748 · `xmarsex` 0.0221 — that ordering is the whole structure, and
+nothing in E03 has yet asked *what predicts a person's position on it* rather than the pairing.
+`#959`③ **"an asserted baseline is not a baseline" belongs in `lib/gates.py` beside `#958`③**: both
+this round's PLANT-C and `#956`'s spec rows were a derivation I wrote in prose and never executed.
+A plant's baseline must be **computed in the round**, never stated in the docstring.

@@ -528,6 +528,71 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#959` · nine in ten sort them the same way, and every bit of it is the item ordering
+
+`#958`① found that the sharpest cell of the whole arc is not a correlation problem at all: `sd > p75`
+selects, on this data, **exactly** the respondents who used only the two extreme codes and split the
+four acts two-and-two. For them "which camp" is **one of six countable choices**. ⚠ **The
+meta-separator, said out loud**: `#949`–`#958` separated worlds *inside* one ontology — content vs
+marginals, as a contrast of person-centred correlations. `#951`'s "86% is the marginals" and `#954`'s
+bracket are statements about **that apparatus**, not about people.
+
+**n = 1,757 who used only 1 and 4 and split two-and-two** (`#959`; GSS ballot 1, 21 waves 1988–2024,
+of 15,056 answering all four; polarity **derived** — `P(answer=4)` orders identically to the item
+mean):
+
+| `#959` permitted | condemned | n | share | **fitted-independence null** | label-perm null |
+|---|---|---|---|---|---|
+| **premarital + same-sex** | teenage + extramarital | **1,582** | **90.04%** | **90.04%** | 17.19% |
+| premarital + teenage | extramarital + same-sex | 151 | 8.59% | 8.55% | 16.94% |
+| premarital + extramarital | teenage + same-sex | 22 | 1.25% | 1.29% | 15.73% |
+| teenage + same-sex | premarital + extramarital | 1 | 0.06% | 0.10% | 17.42% |
+| extramarital + same-sex | premarital + teenage | 1 | 0.06% | 0.01% | 16.30% |
+| **teenage + extramarital** | **premarital + same-sex** | **0** | **0.00%** | 0.00% | 16.43% |
+
+**① The partition is overwhelming as a description** (`#959`): 90.0% against a uniform 16.7%, and
+**not one of the 1,757 chose the reverse camp**. In the wider population — any gap in the middle of a
+person's four answers, n = 6,964 — it is 78.5%, and the reverse camp is 15 people.
+
+**② And every bit of it is the four item permission rates** (`#959`). Each act permitted
+independently at its own rate, conditioned on permitting exactly two, reproduces the **whole six-cell
+table** to within **0.0004**. Excess on the target cell **−0.0000, z = −0.00**; across four
+populations **+0.0016 (z +0.33) · +0.0009 (z +0.16) · +0.0014 (z +0.28)**. **0 of 4 populations clear
+both nulls.**
+
+**③ And the null has power, which is what makes ② a measurement rather than silence** (`#959`).
+`PLANT-D` moves mass d/2 out of each of `{premarital,teenage}` and `{extramarital,same-sex}` into each
+of `{premarital,same-sex}` and `{teenage,extramarital}`, which leaves **every item's rate unchanged**,
+so the fitted null cannot move and the excess must equal exactly d/2. Measured **−0.0016 · +0.0081 ·
++0.0232 · +0.0482** against 0 · 0.010 · 0.025 · 0.050, sampling spread 0.0071. **The design detects a
+pairing preference of one person in a hundred; the observed is four in a hundred thousand.**
+
+**Verdict `OVERTURNED` · `W_MARGINALS`, controls sound** (`#959`). I staked `W_PAIRING` and lost it.
+N1 returns 1/6 (max deviation 0.0094 · 0.0028 · 0.0035 · 0.0033); the placebo excess on label-permuted
+data vanishes (+0.0015 · +0.0004 · −0.0005 · +0.0006); the fit converges on the observed item rates to
+2.2e-16; 20 of 48 cells survive BH, non-survivors published. ⚠ **Only this one instrument** carries
+these four items.
+
+⚠⚠ **Two controls failed first, and both failures are the result's foundation** (`#959`). `PLANT-A` —
+shift mass toward the target *from all cells* — does not move the statistic at any dose, because it
+moves the item margins too and the refitted null absorbs it exactly; **a zero from that plant would
+have been silence**. `PLANT-C` — mass on the two complementary splits only — I wrote that it "must sit
+on zero at h = 1/6" and **never derived it**: it starts at **+0.16** and is non-monotone. **An
+asserted baseline is not a baseline**, the same error class as the `#956` defects `#958` found.
+
+⚠ **Saturation, measured rather than argued** (`#959`): six cells, one normalisation, three free rates
+after conditioning ⇒ **2 residual df**, and the fitted null reproduces the table to 0.0004–0.0018.
+`PLANT-D` establishes that the surviving 2 df are exactly where a pairing preference lives. ⚠ **And
+agreement is not replication**: this converges with `#951` from a different population, statistic and
+null, but both price against *the item marginals* — they share the concept, not the machinery.
+
+> **One sentence about people (`#959`): nine in ten Americans who sort these four acts into a
+> permitted pair and a condemned pair put premarital sex and same-sex relations on one side and
+> teenage and extramarital sex on the other — and not one of the 1,757 did the reverse — yet that
+> near-unanimity is exactly what you get if every person judges each act entirely on its own, because
+> the two acts most people permit simply *are* those two. The camps are real as a description and
+> empty as a mechanism.**
+
 ### `#958` · the reversal was two of my own coding defects, and the sharpest cell goes the other way
 
 `#956`② asked whether the sign reversal is real. **The gradient check answered it in my own source
