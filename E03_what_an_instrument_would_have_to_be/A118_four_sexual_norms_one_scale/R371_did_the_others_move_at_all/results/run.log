@@ -1,0 +1,46 @@
+PRECONDITION / COVERAGE (non-null, not rows — the error that killed `#932`):
+  premarsx  non-null  45697  waves 30 1972-2024
+  teensex   non-null  33901  waves 22 1986-2024
+  xmarsex   non-null  46266  waves 30 1973-2024
+  homosex   non-null  44644  waves 30 1973-2024
+  all four answered together: n=14842 · waves 21 1988-2024
+  split 1988-1998 vs 2014-2024: cohorts n>=60 in BOTH eras: 5 of 7  (absence reported, not passed)
+  split 1988-2000 vs 2012-2024: cohorts n>=60 in BOTH eras: 5 of 7  (absence reported, not passed)
+  split 1988-2002 vs 2010-2024: cohorts n>=60 in BOTH eras: 6 of 7  (absence reported, not passed)
+
+=== THE GRID — within-cohort movement in RAW SCALE POINTS (identical 1-4 frame) ===
+  1988-1998 vs 2014-2024   cohorts=5  premarsx +0.1453 · teensex +0.1652 · xmarsex +0.0906 · homosex +0.6400  |  gap +0.5063  n=7581
+  1988-2000 vs 2012-2024   cohorts=5  premarsx +0.1535 · teensex +0.1471 · xmarsex +0.0730 · homosex +0.5896  |  gap +0.4651  n=8680
+  1988-2002 vs 2010-2024   cohorts=6  premarsx +0.1201 · teensex +0.1313 · xmarsex +0.0563 · homosex +0.5018  |  gap +0.3992  n=10154
+
+  the CEILING control — every change divided by the room the item had (4 - early mean):
+  1988-1998 vs 2014-2024   premarsx +0.1425 · teensex +0.0655 · xmarsex +0.0332 · homosex +0.3144  |  gap_head +0.2340
+  1988-2000 vs 2012-2024   premarsx +0.1464 · teensex +0.0580 · xmarsex +0.0269 · homosex +0.2927  |  gap_head +0.2156
+  1988-2002 vs 2010-2024   premarsx +0.1133 · teensex +0.0507 · xmarsex +0.0207 · homosex +0.2461  |  gap_head +0.1845
+
+  starting levels (early-era mean), which is what the ceiling argument rests on:
+    premarsx  2.916   room to 4.0 = 1.084
+    teensex   1.485   room to 4.0 = 2.515
+    xmarsex   1.286   room to 4.0 = 2.714
+    homosex   1.928   room to 4.0 = 2.072
+
+  median gap (raw)      +0.4651   · positive in 16/16 cohort-cells
+  median gap (headroom) +0.2156   <- the confound control
+
+  null (era permuted within cohort; kind of null: within-cohort era-label permutation): -0.0030 +/- 0.0299 over 300 draws
+  positive sweep (planted into the permuted null world): [(0.0, -0.0005), (0.15, 0.1056), (0.3, 0.1995), (0.45, 0.2895), (0.6, 0.3878)]
+
+  CONDITIONAL KILL -- Four sexual norms on one scale: did the others move at all?
+   PASS  positive: a planted movement in the target raises the gap, g=0 is null                 方向由数据给出:**上升**;灵敏度 g=0.15;g=0 -0.0005 · g=0.6 +0.3878   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  era permuted within cohort                                                             |+0.0030| < 0.5*|+0.4651| = 0.2326   (null is 1% of the effect [零的方案: within-cohort era-label permutation])
+   PASS  all era splits                                                                         method=bh q=0.05 · **cells tested 3 · cells surviving 3** · 存活 ['1988-1998 vs 2014-2024', '1988-2000 vs 2012-2024', '1988-2002 vs 2010-2024'] · 未存活 []   (control)
+   PASS  PRECONDITION on NON-NULL coverage, not a row count (`#932`(1))                         all four items' non-null n and wave spans printed above; cohorts require n>=60 in both eras and shortfalls are reported   (asserted in code, not in prose)
+   PASS  CEILING control ran and its premise was MEASURED, not asserted (`#929`(3))             starting levels: premarsx 2.92 · teensex 1.49 · xmarsex 1.29 · homosex 1.93 ; gap raw +0.4651 vs headroom +0.2156   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                      3/3 格带 n   (每一格都声明了自己的人群规模)
+   PASS  prior art declared                                                                     Twenge, Sherman & Wells 2015 documented the divergent trends in exactly these four GSS items; the divergence is not this round's discovery. The within-cohort version with a ceiling control and a permutation null is   (asserted in code, not in prose)
+   FAIL  KILL: W_ALL requires the gap between `homosex` and the other three to sit on its null  gap +0.4651 (headroom +0.2156) vs null -0.0030 +/- 0.0299; positive in 16/16 cohort-cells   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_ALL requires the gap between `homosex` and the other three to sit on its null). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_ALL requires the gap between `homosex` and the other three to sit on its null). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : OVERTURNED · world W_ONE_ACT · one act moved, not sexual morality
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R371_did_the_others_move_at_all/results/did_the_others_move_at_all.json

@@ -1,0 +1,235 @@
+{
+ "entry": 933,
+ "round": "E03\u00b7A118\u00b7R371",
+ "verdict": "OVERTURNED",
+ "world": "W_ONE_ACT \u00b7 one act moved, not sexual morality",
+ "estimand": "within-cohort change of each of the four GSS sexual norms in RAW scale points (identical 1-4 frame), and `homosex` minus the mean of the other three",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta",
+ "prior_art": "Twenge, Sherman & Wells 2015 \u2014 the divergence is not this round's discovery",
+ "items": [
+  "premarsx",
+  "teensex",
+  "xmarsex",
+  "homosex"
+ ],
+ "grid": [
+  {
+   "split": "1988-1998 vs 2014-2024",
+   "cohorts": 5,
+   "n": 7581,
+   "premarsx_move": 0.1452848168227953,
+   "teensex_move": 0.1651593363465297,
+   "xmarsex_move": 0.09057861950406076,
+   "homosex_move": 0.6399697813092218,
+   "premarsx_head": 0.14248110018286883,
+   "teensex_head": 0.06546030178497722,
+   "xmarsex_head": 0.03322826376458846,
+   "homosex_head": 0.31441933017543794,
+   "gap": 0.5062955237514265,
+   "gap_head": 0.23402944159795974
+  },
+  {
+   "split": "1988-2000 vs 2012-2024",
+   "cohorts": 5,
+   "n": 8680,
+   "premarsx_move": 0.15352559540779193,
+   "teensex_move": 0.14707962869611432,
+   "xmarsex_move": 0.07300370495589634,
+   "homosex_move": 0.589647975899479,
+   "premarsx_head": 0.14643525172282745,
+   "teensex_head": 0.057950641450584595,
+   "xmarsex_head": 0.02685255705618226,
+   "homosex_head": 0.2927007054201306,
+   "gap": 0.4651116662128782,
+   "gap_head": 0.2156212220102658
+  },
+  {
+   "split": "1988-2002 vs 2010-2024",
+   "cohorts": 6,
+   "n": 10154,
+   "premarsx_move": 0.12008097012075118,
+   "teensex_move": 0.13132107134485013,
+   "xmarsex_move": 0.05628980058310425,
+   "homosex_move": 0.5018098510168738,
+   "premarsx_head": 0.11330143295518225,
+   "teensex_head": 0.05072936596617709,
+   "xmarsex_head": 0.020675406587824918,
+   "homosex_head": 0.2461121289432535,
+   "gap": 0.3992459036673053,
+   "gap_head": 0.18454339377352538
+  }
+ ],
+ "cohort_cells": [
+  {
+   "cohort": 1930,
+   "n": 742,
+   "premarsx_early": 2.5319148936170213,
+   "premarsx_move": 0.06808510638297882,
+   "premarsx_head": 0.04637681159420297,
+   "teensex_early": 1.2495164410058026,
+   "teensex_move": 0.20826133677197523,
+   "teensex_head": 0.07571808095014851,
+   "xmarsex_early": 1.2611218568665377,
+   "xmarsex_move": 0.005544809800128947,
+   "xmarsex_head": 0.0020244821092278713,
+   "homosex_early": 1.586073500967118,
+   "homosex_move": 0.46725983236621516,
+   "homosex_head": 0.193568376068376,
+   "gap": 0.3732960813811875,
+   "gap_head": 0.15219525118384958
+  },
+  {
+   "cohort": 1940,
+   "n": 1419,
+   "premarsx_early": 2.832547169811321,
+   "premarsx_move": 0.1832146515547035,
+   "premarsx_head": 0.15693537830140264,
+   "teensex_early": 1.383254716981132,
+   "teensex_move": 0.18417085219575058,
+   "teensex_head": 0.07038165059125574,
+   "xmarsex_early": 1.3443396226415094,
+   "xmarsex_move": 0.06897035984535571,
+   "xmarsex_head": 0.02597107688670588,
+   "homosex_early": 1.9044811320754718,
+   "homosex_move": 0.5893892707266299,
+   "homosex_head": 0.2812617341452911,
+   "gap": 0.44393731619469334,
+   "gap_head": 0.1968323655521697
+  },
+  {
+   "cohort": 1950,
+   "n": 2068,
+   "premarsx_early": 2.9871794871794872,
+   "premarsx_move": 0.18392707019756216,
+   "premarsx_head": 0.1815988794355677,
+   "teensex_early": 1.4725274725274726,
+   "teensex_move": 0.15964465862006838,
+   "teensex_head": 0.06316375623663575,
+   "xmarsex_early": 1.3305860805860805,
+   "xmarsex_move": 0.054659821053263835,
+   "xmarsex_head": 0.020476337766780137,
+   "homosex_early": 1.924908424908425,
+   "homosex_move": 0.7472227226325587,
+   "homosex_head": 0.3600914444460522,
+   "gap": 0.614478872675594,
+   "gap_head": 0.2716784532997243
+  },
+  {
+   "cohort": 1960,
+   "n": 2032,
+   "premarsx_early": 3.043720930232558,
+   "premarsx_move": 0.16213068941216502,
+   "premarsx_head": 0.16954327929774066,
+   "teensex_early": 1.5674418604651164,
+   "teensex_move": 0.11280892323394331,
+   "teensex_head": 0.04637460515353311,
+   "xmarsex_early": 1.24,
+   "xmarsex_move": 0.12677115987460819,
+   "xmarsex_head": 0.04593157966471311,
+   "homosex_early": 1.9534883720930232,
+   "homosex_move": 0.7873684722120968,
+   "homosex_head": 0.3847368671036382,
+   "gap": 0.653464881371858,
+   "gap_head": 0.29745371239830926
+  },
+  {
+   "cohort": 1970,
+   "n": 1320,
+   "premarsx_early": 3.1828703703703702,
+   "premarsx_move": 0.1290665665665669,
+   "premarsx_head": 0.15795115228543027,
+   "teensex_early": 1.7546296296296295,
+   "teensex_move": 0.16091091091091103,
+   "teensex_head": 0.07166341599331295,
+   "xmarsex_early": 1.2546296296296295,
+   "xmarsex_move": 0.19694694694694714,
+   "xmarsex_head": 0.07173784239551532,
+   "homosex_early": 2.2731481481481484,
+   "homosex_move": 0.6086086086086082,
+   "homosex_head": 0.35243822911383216,
+   "gap": 0.4463004671337999,
+   "gap_head": 0.251987425555746
+  }
+ ],
+ "median_gap": 0.4651116662128782,
+ "median_gap_headroom": 0.2156212220102658,
+ "cohort_cells_positive": 16,
+ "cohort_cells_total": 16,
+ "null_median": -0.0029781655911004954,
+ "null_sd": 0.029884382422801843,
+ "null_draws": 300,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.00046174089741272614
+  ],
+  [
+   0.15,
+   0.1055846154785762
+  ],
+  [
+   0.3,
+   0.19951059364441126
+  ],
+  [
+   0.45,
+   0.28952566925688783
+  ],
+  [
+   0.6,
+   0.3878260709530138
+  ]
+ ],
+ "family_size": 3,
+ "gates": [
+  [
+   "positive: a planted movement in the target raises the gap, g=0 is null",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.15;g=0 -0.0005 \u00b7 g=0.6 +0.3878",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "era permuted within cohort",
+   "|+0.0030| < 0.5*|+0.4651| = 0.2326",
+   true,
+   "null is 1% of the effect [\u96f6\u7684\u65b9\u6848: within-cohort era-label permutation]"
+  ],
+  [
+   "all era splits",
+   "method=bh q=0.05 \u00b7 **cells tested 3 \u00b7 cells surviving 3** \u00b7 \u5b58\u6d3b ['1988-1998 vs 2014-2024', '1988-2000 vs 2012-2024', '1988-2002 vs 2010-2024'] \u00b7 \u672a\u5b58\u6d3b []",
+   true,
+   "control"
+  ],
+  [
+   "PRECONDITION on NON-NULL coverage, not a row count (`#932`(1))",
+   "all four items' non-null n and wave spans printed above; cohorts require n>=60 in both eras and shortfalls are reported",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "CEILING control ran and its premise was MEASURED, not asserted (`#929`(3))",
+   "starting levels: premarsx 2.92 \u00b7 teensex 1.49 \u00b7 xmarsex 1.29 \u00b7 homosex 1.93 ; gap raw +0.4651 vs headroom +0.2156",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "3/3 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "prior art declared",
+   "Twenge, Sherman & Wells 2015 documented the divergent trends in exactly these four GSS items; the divergence is not this round's discovery. The within-cohort version with a ceiling control and a permutation null is",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: W_ALL requires the gap between `homosex` and the other three to sit on its null",
+   "gap +0.4651 (headroom +0.2156) vs null -0.0030 +/- 0.0299; positive in 16/16 cohort-cells   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   false,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_ALL requires the gap between `homosex` and the other three to sit on its null). This is a refutation, NOT an unverified round (#366e)."
+}

@@ -430,6 +430,42 @@ boundary from different individuals inside one cell moving oppositely.
 > not the ones who turned against racists — if anything they turned against racists least — so the two
 > movements are not one boundary being re-drawn by the same people, whatever else they are.**
 
+## ⚠⚠ `#933` — FOUR SEXUAL NORMS ON ONE SCALE, AND ONLY ONE OF THEM MOVED
+
+This is the **strongest form of a claim the project has made four times**, and it needs the least
+machinery. `#926` needed 22 items standardised to be comparable; `#927` needed a tolerance battery.
+**These four GSS items share the same four words** — *always wrong · almost always wrong · wrong only
+sometimes · not wrong at all* — asked of the same respondents in the same interview. **No
+standardisation, no polarity assumption, no cross-scale translation.** And they had never been
+compared to each other.
+
+| `#933` item | early mean | **room to 4.0** | move (raw points) | headroom-scaled |
+|---|---|---|---|---|
+| `premarsx` — sex before marriage | 2.916 | 1.084 | +0.1453 | +0.1425 |
+| `teensex` — teenagers having sex | 1.485 | 2.515 | +0.1652 | +0.0655 |
+| ⚠ `xmarsex` — adultery | **1.286** | ⚠ **2.714** | ⚠ **+0.0906** | +0.0332 |
+| **`homosex`** | 1.928 | 2.072 | **+0.6400** | **+0.3144** |
+
+Gap **+0.4651** (`#933`), positive in **16 of 16 cohort-cells**, against a within-cohort era-permutation
+null of **−0.0030 ± 0.0299** (~15 spreads, kind of null: within-cohort era-label permutation); **3 of 3 era
+splits survive BH**.
+
+⚠⚠ **The ceiling objection points the wrong way, and was measured rather than assumed.** The obvious
+reply is that `homosex` started lowest and had the most room. **It did not** (`#933`) — `xmarsex` started at
+**1.286** against `homosex`'s **1.928**, so it had *more* room (2.714 vs 2.072), **and it moved
+least.** The headroom-scaled gap is still **+0.2156**.
+
+> **One sentence about people (`#933`): over roughly thirty years the same Americans barely changed
+> their minds about sex before marriage, about teenagers having sex, or about adultery — a tenth of a
+> point or less on a four-point scale — while moving more than half a point on homosexuality; and the
+> thing they moved least on, adultery, is the thing they had the most room to move on.**
+
+⚠ **Prior art**: Twenge, Sherman & Wells (2015) documented the divergent trends in exactly these four
+items. **The divergence is not new here**; the *within-cohort* version — same birth years, not a
+changing population — with a measured ceiling control and a permutation null, is. ⚠ **What still
+stands as an alternative**: all four are asked **in one interview, in a row**, so respondents may
+anchor them against each other, and no design here removes that.
+
 ## ⚠ THE THIRD UNIT — THE SOCIETY — AND WHY IT IS CLOSED (`#932`)
 
 This project's object names three units: **person · decade · society**. The person and the decade carry the

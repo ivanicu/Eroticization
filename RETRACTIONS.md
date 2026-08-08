@@ -47075,3 +47075,74 @@ carries `OVERTURNED (DOWNGRADED by its own entry #930: SIGN only)` and the reaso
    `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
    `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
    `#852`① · `#857`① · `#861`①.
+
+## Entry 933 · `E03·A118·R371` — four sexual norms on one scale, and only one of them moved
+
+**⇒ `OVERTURNED` · world `W_ONE_ACT`. On the **identical 1–4 frame**, asked of the same respondents
+in the same interview, within the same birth cohorts: **`homosex` moved +0.6400 while `premarsx`
+moved +0.1453, `teensex` +0.1652 and `xmarsex` +0.0906.** The gap is **+0.4651**, positive in
+**16 of 16 cohort-cells**, against a within-cohort era-permutation null of **−0.0030 ± 0.0299** —
+about **15 null-spreads** — with **3 of 3 era splits surviving BH.**
+
+**WHY THIS IS THE CLEANEST COMPARISON THE PROJECT HAS.** `#926` put `homosex` at the 100th percentile
+of 22 items and `#927`–`#929` did the same for the tolerance battery — but **those comparison sets
+were other topics on other scales, standardised to be made comparable.** The four GSS sexual norms
+share the **same four words** — *always wrong · almost always wrong · wrong only sometimes · not
+wrong at all* — so **no standardisation, no polarity assumption, no cross-scale translation**.
+Everything `#926` had to assume away is simply absent. ⚠ And they had **never been compared to each
+other**, which is odd for a project whose subject they are.
+
+| item | early mean | **room to 4.0** | move (raw points) | headroom-scaled |
+|---|---|---|---|---|
+| `premarsx` | 2.916 | 1.084 | +0.1453 | +0.1425 |
+| `teensex` | 1.485 | 2.515 | +0.1652 | +0.0655 |
+| ⚠ **`xmarsex`** | **1.286** | ⚠ **2.714** | ⚠ **+0.0906** | +0.0332 |
+| **`homosex`** | 1.928 | 2.072 | **+0.6400** | **+0.3144** |
+
+**⚠⚠ THE CEILING CONFOUND POINTS THE WRONG WAY, AND IT WAS MEASURED RATHER THAN ASSUMED (`#929`③).**
+The obvious objection is that `homosex` started lowest and simply had the most room. **It did not.**
+**`xmarsex` started at 1.286 against `homosex`'s 1.928 — more room (2.714 vs 2.072) — and moved the
+LEAST of all four.** The headroom-scaled gap is still **+0.2156**, same sign, resolved.
+
+**⚠ PRIOR ART, DECLARED BEFORE THE NUMBER.** Twenge, Sherman & Wells (2015) documented the divergent
+trends in exactly these four GSS items. **The divergence is not this round's discovery.** What is:
+the **within-cohort** version — the same birth years, not a changing population — with a ceiling
+control whose premise was measured and a permutation null.
+
+**CONTROLS.** Negative: era permuted within cohort, **−0.0030 ± 0.0299**. Positive, planted **into
+that permuted world** so `g=0` lands on the null: `0 → −0.0005 · 0.15 → +0.1056 · 0.30 → +0.1995 ·
+0.45 → +0.2895 · 0.60 → +0.3878`, monotone. Precondition checked on **non-null coverage**, not a row
+count — `#932`①'s lesson, one round old.
+
+**⇒ One sentence about people: over roughly thirty years the same Americans barely changed their
+minds about sex before marriage, about teenagers having sex, or about adultery — a tenth of a point
+or less on a four-point scale — while moving more than half a point on homosexuality; and the thing
+they moved least on, adultery, is the thing they had the most room to move on.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ repeated cross-section — a cohort is the same **birth years**, never the same people;
+② ⚠ **all four items are asked in one interview, in a row** (HARD RULE 2), so a respondent may anchor
+   them against each other; **no design here removes that**, and it is the live alternative to the
+   psychological reading;
+③ ⚠ APC collinear; no age effect claimed;
+④ ⚠ **only this one instrument** — no other release here asks four sexual norms on one frame;
+⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THIS IS THE STRONGEST FORM OF A CLAIM THE PROJECT HAS MADE FOUR TIMES**, and it should replace
+   the weaker ones on the page rather than sit beside them: `#926` needed 22 standardised items,
+   `#927` needed a tolerance battery, and this needs **four words that are literally identical**.
+   ⇒ `#933`①
+② ⚠ **THE ANCHORING ALTERNATIVE IS NOW THE ONLY ONE LEFT STANDING**, and it is testable in principle:
+   if respondents anchor the four against each other, the gap should shrink where the items are
+   **separated in the questionnaire**. GSS ballot/form assignment may separate them — **that is a
+   coverage question, not a design question**, and `#932`① says to check non-null coverage before
+   believing it is available. ⇒ `#933`②
+③ ⚠ Still `OPEN`: `#932`①② · `#931`② · `#930`①② · `#929`②③ · `#928`①③ · `#927`③ · `#926`① · `#925`② ·
+   `#924`② · `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② ·
+   `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① ·
+   `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② ·
+   `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② ·
+   `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
+   `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.
