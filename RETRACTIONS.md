@@ -48351,3 +48351,77 @@ re-referred to a marginal-preserving null. `#951`③ **`#916`③'s class needs r
 this round's instance was not a control testing the wrong property — it was a **null that removed the
 variable the rival runs on**, which is a distinct failure and the more dangerous one, because the
 control looked perfectly well-formed.
+
+## Entry 952 · `E03·A128·R388` — the exchange rate was the tolerance levels, and it does not survive
+
+**`#951`② paid.** `#951` showed the within-person **item-label permutation** null equalises the
+marginals, and that 86.1% of the sexual-norm partition was marginal. **`#945` used that same null**
+and produced *"the exchange rate is between homosexuals and racists"* — 12 of 30 pairs below their
+null, `homosexuals × racists` most negative in all three stems, a sentence now on both pages.
+
+**⚠ GRADIENT CHECK BEFORE COMMITTING TO THE ROUND.** Across `#945`'s 30 cells,
+`corr(|marginal gap|, z) = −0.5316`, p = 0.0025. Below-null cells have mean |gap| **0.1391**;
+above-null cells **0.0671**. `col/homo×rac` has the **largest marginal gap in the grid (0.320)** and
+was the most negative cell. But `lib/homo×rac` has a gap of only 0.099 and still sat at z = −18.5 —
+**that residual is what the round measured.**
+
+**⚠ HARD RULE 1, AND IT CAUGHT MY OWN LEDGER.** `#951`② wrote the Stouffer marginals as "0.247 to
+0.840". **0.247 is `libhomo` BEFORE the polarity flip `#942` established**; post-flip it is **0.767**
+and the true range is **0.480–0.849**. My own NEXT line quoted a pre-correction number.
+
+**⚠⚠ AND THIS TEST IS STRICTLY STRONGER THAN `#951`'s.** `#951` swapped 4-point values, so it held
+column *sums* and had to register **0.0888** of uncontrolled shape drift (**read from `#951`'s
+artifact, not typed** — `no_transcribed_numbers` blocked v1 for typing it, and rightly: the whole
+claim of this round is that `#951`'s null was the weaker one, so the number quantifying that weakness
+must come from `#951` rather than from my memory of it). **These items are binary,
+and a binary column is fully determined by its sum** — measured: **column drift 0.00e+00, row drift
+0**. Both margins exactly held. The caveat `#951` had to carry does not exist here.
+
+| | below their null at p<0.05 |
+|---|---|
+| NULL-A — `#945`'s label permutation (equalises marginals to 0.615–0.731) | **12 / 30** |
+| **NULL-B — curveball swap, both margins EXACT** | **1 / 30** |
+| of `#945`'s 12 below-null cells, surviving NULL-B | **1 / 12** |
+
+**`homosexuals × racists` survives in 0 of 3 stems.** Its most negative cell — `col`, zA = **−19.68**
+— sits at **zB = −0.21**, exactly on the margin-preserving null; `spk` goes −16.11 → **+0.53**; `lib`
+→ **+14.1**. **And the direction reverses: 28 of 30 cells now sit ABOVE their null**, i.e. co-held
+rather than traded.
+
+**VERDICT: `OVERTURNED` · `W_MOSTLY_MARGINAL`.** Controls sound: the mixing curve rises
+`0 → 0.0357 → 0.1039 → 0.1410` in mean |departure| with **39.7% of cells changed** at 5M swaps;
+NULL-B **reproduces itself to 0.00341** across two independent 8-draw sets against a departure of
+0.1408 — a factor of 41; the positive sweep runs `−0.0957 → −0.2927` with `g=0` 1.43 spreads from
+NULL-B; the specification curve gives 2–3 of 30 below null in all four cells.
+
+**⚠⚠ TWO DEFECTS IN MY OWN REPORTING, BOTH CAUGHT BEFORE THE VERDICT.** ① v1 computed
+`share_marginal = 1 − dep_B/dep_A` and got **−90.9%**, which is not a share of anything: the
+departures did not shrink, they **grew and flipped sign**. A "share explained" needs nested
+quantities and these are not. ② v1's `negative_control` compared `mean|dep under B|` against
+`mean|dep under A|` — **two departures, under two different nulls, so the ratio has no
+interpretation.** That is `#916`③'s **sixth** instance, which `#951`③ predicted one entry earlier.
+⚠⚠⚠ **And repairing it is NOT the move `#943` refused, for a reason worth stating**: at `#951` the
+control was correctly framed — a null *level* against an observed *level* on one scale — and its
+failure was the finding. Here the call is malformed and the round's conclusion never depended on it.
+That is exactly `#951`③'s distinction between *a control testing the wrong property* and *a null that
+removed the variable the rival runs on*.
+③ And v1's verdict string mapped the result to UNVERIFIED while the gate read OVERTURNED. **The gate
+was right**: every control passes and the pre-registered stake lost, which is a refutation. `#951`'s
+UNVERIFIED was correct for the opposite reason — there a control contract genuinely failed. **A lost
+stake with sound controls is OVERTURNED; only a failed control makes it UNVERIFIED.**
+
+**ONE SENTENCE ABOUT PEOPLE.** Once you hold fixed how tolerated each group actually is, **the
+exchange rate between homosexuals and racists disappears completely** — what looked like people
+trading one out-group off against another was people simply being more willing to tolerate some
+groups than others, and net of that they hold their tolerances together rather than in tension.
+
+**NEXT** — `#952`① **the correction must reach `#945`'s own block on both pages**, and this time it
+also touches `#947`, which *dated* an exchange rate that this round says was never there — `#946`'s
+lesson, fourth application. `#952`② ⚠ **`#951`'s own 13.9% content residual is now suspect for the
+same reason `#945`'s was**: it was measured against a swap null that held column SUMS on 4-point
+items with 0.0888 of shape drift, and this round shows shape is exactly what carries the effect —
+the sexual-norm result needs a null that holds the **full** 4-point distribution, which a
+Patefield/rc-sample on the contingency table would give. `#952`③ **`#916`③ has now fired six
+consecutive rounds and the taxonomy has three branches**, not one: control tests the wrong property ·
+null removes the rival's variable · verdict string disagrees with the gate. `#948`①'s gate must
+address all three or it will keep catching one.

@@ -1,0 +1,56 @@
+⚠ `#945` read from its ARTIFACT: 30 cells, 12 below their null at p<0.05, 14 above; its floor -0.0714
+HARD RULE 1 — all 15 items jointly, 1988+: n=22420 · levels 0.480-0.849
+  ⚠ `#951`② quoted '0.247 to 0.840'. **0.247 is `libhomo` BEFORE the polarity flip**; post-flip it is 0.767 and the true range is 0.480-0.849
+⚠ HARD RULE 2 — instrument: GSS Stouffer battery, one questionnaire, five targets per stem asked in a block. Identical to `#945`; ONLY THE NULL CHANGES.
+
+  NULL-A (within-person item-label permutation — `#945`'s; kind of null: within-person item-label permutation): it EQUALISES the marginals to 0.615-0.731 vs observed 0.480-0.849
+
+  ⚠ MIXING CURVE — an unmixed chain looks exactly like the unwelcome verdict:
+    swaps          0  accepted         0  cells changed 0.000  mean |obs − null| 0.0000
+    swaps    200,000  accepted     2,802  cells changed 0.032  mean |obs − null| 0.0357
+    swaps  1,000,000  accepted    13,317  cells changed 0.134  mean |obs − null| 0.1039
+    swaps  5,000,000  accepted    64,932  cells changed 0.397  mean |obs − null| 0.1410
+
+  EXACT-MARGINAL CHECK: max |column mean drift| 0.00e+00 · max |row total drift| 0 — for BINARY items column sum determines the whole distribution, so both margins are held EXACTLY (`#951` could only hold column SUMS on its 4-point items)
+
+  cell                    r_obs    nullA    nullB       zA       zB    gap
+  col/rac-com           -0.0766  +0.0102  -0.0422   -12.26    -2.91  0.154
+  col/homo-rac          -0.1434  +0.0100  -0.1419   -19.68    -0.21  0.320
+  spk/homo-rac          -0.1033  +0.0297  -0.1078   -16.11    +0.53  0.222
+  spk/homo-mil          -0.0574  +0.0297  -0.0737   -10.74    +2.12  0.165
+  spk/homo-com          -0.0163  +0.0276  -0.0545    -5.97    +4.80  0.147
+  col/homo-com          -0.0540  +0.0115  -0.0956    -8.64    +7.09  0.166
+  col/homo-mil          -0.0819  +0.0100  -0.1268   -12.36   +10.78  0.253
+  lib/homo-mil          +0.1057  +0.1361  -0.0653    -4.05   +13.63  0.063
+  …
+  lib/rac-com           +0.1366  +0.1342  -0.0813    +0.28   +45.95  0.047
+  lib/homo-com          +0.1175  +0.1359  -0.0590    -2.58   +46.00  0.052
+  lib/rac-mil           +0.1136  +0.1353  -0.0711    -2.52   +54.60  0.036
+
+  below their null at p<0.05 — NULL-A 12/30 · NULL-B 1/30 · of A's below-null cells, 1/12 survive B
+  homosexuals x racists: survives NULL-B in 0/3 stems (zB [-0.2, 0.5, 14.1])
+  mean |departure|: NULL-A 0.0737 → NULL-B 0.1408 ⇒ nan% of the departure was the marginals
+  positive sweep (a trade-off planted between `spkhomo` and `spkrac` in the SWAPPED world, g=0 IS NULL-B): [(0.0, -0.0957), (0.25, -0.1775), (0.5, -0.2453), (0.75, -0.2927)]
+  ⚠ plant-baseline check: g=0 at -0.0957 vs NULL-B -0.1078 +/- 0.0084 = 1.43 spreads
+
+  specification curve — every cell, none dropped
+    all respondents        swaps 1,000,000  n= 22420  cells below null 3/30  mean |dep| 0.1058
+    all respondents        swaps 5,000,000  n= 22420  cells below null 2/30  mean |dep| 0.1408
+    cohorts in >=3 waves   swaps 1,000,000  n= 22350  cells below null 3/30  mean |dep| 0.1028
+    cohorts in >=3 waves   swaps 5,000,000  n= 22350  cells below null 3/30  mean |dep| 0.1411
+  ⚠ NULL-B reproducibility across two independent 8-draw sets: 0.00341 vs mean |observed − NULL-B| 0.1408
+  CONDITIONAL KILL -- Does `#945`'s exchange rate survive a null that keeps each target's tolerance level?
+   PASS  positive: a planted trade-off drives `spkhomo`x`spkrac` below NULL-B, and g=0 sits ON NULL-B (`#922`)                                                                                                                                                                                                                                          方向由数据给出:**上升**;灵敏度 g=0.25;g=0 +0.0957 · g=0.75 +0.2927   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  curveball swap (both margins EXACT) reproduces itself across two independent draw sets — the property this design needs, replacing a v1 call that compared two DEPARTURES as though one were a null                                                                                                                                            |+0.0034| < 0.5*|+0.1408| = 0.0704   (null is 2% of the effect [零的方案: binary curveball swap randomisation, both margins exact])
+   PASS  30 cells x 2 nulls = 60 (`#936`②/`#940`②)                                                                                                                                                                                                                                                                                                      method=bh q=0.05 · **cells tested 60 · cells surviving 55** · 存活 ['A/col/rac-com', 'A/col/homo-rac', 'A/spk/homo-rac', 'A/spk/homo-mil', 'A/spk/homo-com', 'A/col/homo-com', 'A/col/homo-mil', 'A/lib/homo-mil', 'A/spk/rac-com', 'A/lib/homo-rac', 'A/col/com-mil', 'A/spk/homo-ath', 'A/col/com-ath', 'A/col/rac-mil', 'A/spk/rac-mil', 'A/spk/com-mil', 'A/lib/mil-ath', 'A/spk/mil-ath', 'A/col/mil-ath', 'A/spk/com-ath', 'A/spk/rac-ath', 'A/lib/rac-ath', 'A/col/rac-ath', 'A/lib/com-ath', 'A/lib/com-mil', 'A/lib/homo-com', 'A/lib/rac-mil', 'B/col/rac-com', 'B/spk/homo-mil', 'B/spk/homo-com', 'B/col/homo-com', 'B/col/homo-mil', 'B/lib/homo-mil', 'B/spk/rac-com', 'B/lib/homo-rac', 'B/col/homo-ath', 'B/col/com-mil', 'B/spk/homo-ath', 'B/col/com-ath', 'B/col/rac-mil', 'B/spk/rac-mil', 'B/spk/com-mil', 'B/lib/mil-ath', 'B/lib/homo-ath', 'B/spk/mil-ath', 'B/col/mil-ath', 'B/spk/com-ath', 'B/spk/rac-ath', 'B/lib/rac-ath', 'B/col/rac-ath', 'B/lib/com-ath', 'B/lib/com-mil', 'B/lib/rac-com', 'B/lib/homo-com', 'B/lib/rac-mil'] · 未存活 ['A/col/homo-ath', 'A/lib/homo-ath', 'A/lib/rac-com', 'B/col/homo-rac', 'B/spk/homo-rac']   (control)
+   PASS  ⚠⚠ EXACT-MARGINAL CHECK — stronger than `#951` could claim: for BINARY items the column sum determines the entire distribution, so the swap holds BOTH margins exactly and `#951`'s registered shape-drift caveat does not exist here                                                                                                          max |column mean drift| 0.00e+00 · max |row total drift| 0 · (`#951` had to register 0.0888 of uncontrolled shape drift on its 4-point items — READ from its artifact, not typed) · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   PASS  ⚠ NULL-A EQUALISES THE MARGINALS AND SO COULD NOT TEST THE MARGINAL RIVAL — the reason this round exists                                                                                                                                                                                                                                       item levels observed 0.480-0.849 · under NULL-A 0.615-0.731 · NULL-B holds them to 0.00e+00 · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   PASS  ⚠ HARD RULE 1 caught my own ledger: `#951`② quoted '0.247' for the marginal floor, which is `libhomo` BEFORE the polarity flip `#942` established                                                                                                                                                                                              post-flip `libhomo` is 0.767; the true range is 0.480-0.849 · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   PASS  ⚠ MIXING CURVE: an unmixed chain looks exactly like the unwelcome verdict                                                                                                                                                                                                                                                                      0→chg0.00/dep0.0000 · 200,000→chg0.03/dep0.0357 · 1,000,000→chg0.13/dep0.1039 · 5,000,000→chg0.40/dep0.1410 · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   PASS  the whole 30-cell grid and specification curve are published, disagreeing cells included                                                                                                                                                                                                                                                       all/1000k below3/30 · all/5000k below2/30 · coh/1000k below3/30 · coh/5000k below3/30 · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   FAIL  KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires AND the chain mixed. STAKED: W_CONTENT, i.e. >=6 of `#945`'s below-null cells survive NULL-B, homosexuals x racists survives in >=2 of 3 stems, AND the marginal share is under 50%. ⚠ W_MOSTLY_MARGINAL downgrades `#945` exactly as `#951` downgraded `#949`/`#950`  positive fires True · chain mixed True (changed 0.397) · `#945`'s below-null cells surviving NULL-B: 1/12 · homo x rac survives 0/3 stems · mean |departure| 0.0737 → 0.1408; ⚠ NOT a 'share explained' — the departures grew and FLIPPED SIGN, with 28/30 cells now ABOVE their null ⇒ W_MOSTLY_MARGINAL   尺:per-cell residual departure from a margin-exact swap null,其自身噪声 0.00714974 · 总体:GSS Stouffer battery, all 15 items jointly, n=22420, 1988-2021 · 方向:一致 · 控制总体:5/5 条已命名,**5 条与判据不同** ['⚠⚠ EXACT-MARGINAL CHECK — st', '⚠ NULL-A EQUALISES THE MARGI', '⚠ HARD RULE 1 caught my own ', '⚠ MIXING CURVE: an unmixed c', 'the whole 30-cell grid and s']  ⚠ **控制的总体 ≠ 主张的总体** —— **它证明的是另一群人身上的仪器**(`#866`①)(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires AND the chain mixed. STAKED: W_CONTENT, i.e. >=6 of `#945`'s below-null cells survive NULL-B, homosexuals x racists survives in >=2 of 3 stems, AND the marginal share is under 50%. ⚠ W_MOSTLY_MARGINAL downgrades `#945` exactly as `#951` downgraded `#949`/`#950`). This is a refutation, NOT an unverified round (#366e).
+
+VERDICT           : OVERTURNED · world W_MOSTLY_MARGINAL · ⚠ only 1/12 of `#945`'s below-null cells survive a margin-exact null, homosexuals x racists in 0/3 stems, and 28/30 cells now sit ABOVE their null — the direction REVERSES
+
+wrote /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A128_does_945_survive_a_marginal_null/R388_the_same_repair_on_the_tolerance_battery/results/the_same_repair_on_the_tolerance_battery.json

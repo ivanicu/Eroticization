@@ -528,6 +528,47 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#952` · the exchange rate was the tolerance levels, and it does not survive
+
+`#951` showed the within-person item-label permutation null equalises the marginals, and that 86.1%
+of the sexual-norm partition was marginal. **`#945` used that same null** — and produced *"the
+exchange rate is between homosexuals and racists"*, a sentence now on this page.
+
+⚠ **Gradient check before committing to the round**: across `#945`'s 30 cells,
+`corr(|marginal gap|, z) = −0.5316` (p = 0.0025); below-null cells have mean |gap| **0.1391** against
+**0.0671** for above-null ones; `col/homo×rac` has the largest marginal gap in the grid (0.320) and
+was the most negative cell.
+
+⚠⚠ **And this test is stronger than `#951`'s.** `#951` swapped 4-point values, holding column *sums*
+and registering 0.0888 of uncontrolled shape drift. **These items are binary, so column sum determines
+the whole distribution** — measured column drift **0.00e+00**, row drift **0**. Both margins exactly
+held.
+
+| `#952` | below their null at p<0.05 |
+|---|---|
+| NULL-A — `#945`'s label permutation (equalises marginals to 0.615–0.731) | **12 / 30** |
+| **NULL-B — curveball swap, both margins EXACT** | **1 / 30** |
+| of `#945`'s 12 below-null cells, surviving NULL-B | **1 / 12** |
+
+**`homosexuals × racists` survives in 0 of 3 stems** (`#952`)**.** Its most negative cell (`col`, zA = −19.68)
+sits at **zB = −0.21** — exactly on the margin-preserving null; `spk` goes −16.11 → **+0.53**, `lib`
+→ **+14.1**. **And the direction reverses: 28 of 30 cells now sit above their null**, co-held rather
+than traded.
+
+**Verdict `OVERTURNED` · `W_MOSTLY_MARGINAL`** (`#952`)**.** Controls sound: mixing curve rising to 39.7% of cells
+changed at 5M swaps; NULL-B reproduces itself to **0.00341** across two independent draw sets against
+a departure of 0.1408 (41×); positive sweep −0.0957 → −0.2927 with `g=0` 1.43 spreads from NULL-B;
+2–3 of 30 below null across the whole specification curve.
+
+⚠ **HARD RULE 1 caught my own ledger**: `#951`② quoted the Stouffer floor as 0.247, which is
+`libhomo` *before* the polarity flip `#942` established. Post-flip it is 0.767 and the range is
+0.480–0.849.
+
+> **One sentence about people (`#952`): once you hold fixed how tolerated each group actually is, the
+> exchange rate between homosexuals and racists disappears completely — what looked like people
+> trading one out-group off against another was people simply being more willing to tolerate some
+> groups than others, and net of that they hold their tolerances together rather than in tension.**
+
 ### `#951` · the null I used in two confirmed rounds erased the rival it had to test
 
 `#949` and `#950` both confirmed the same 2+2 partition — two confirmations on one structure is a
