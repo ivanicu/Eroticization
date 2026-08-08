@@ -1,0 +1,1138 @@
+{
+ "entry": 938,
+ "round": "E03\u00b7A120\u00b7R376",
+ "gate_verdict": "   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered \u2014 W_ENDEMIC requires the candidate share to reach 10% of locatable kills; W_RARE requires it to fall to 2%; between them, neither world is claimed). This is a refutation, NOT an u",
+ "gates": [
+  [
+   "positive: `#937` v1's shape, transcribed from the source, is caught \u2014 and so is a version laundered through an intermediate name",
+   true,
+   "one-hop True \u00b7 laundered True; and the FIRST detector, 'one operand inside the other's closure', failed this same control \u2014 the dependency runs through the DATA \u00b7 \u603b\u4f53:the 6 fixtures, which are transcribed shapes and not invented cases"
+  ],
+  [
+   "negative 1/3: `#937` v2's repaired kill is NOT caught",
+   true,
+   "`lo <= 0.0 <= hi` \u2014 bounds from the statistic, comparison against a CONSTANT \u00b7 \u603b\u4f53:the 6 fixtures, which are transcribed shapes and not invented cases"
+  ],
+  [
+   "negative 2/3: `effect > 2*se` \u2014 the ordinary signal-to-noise test, same bootstrap \u2014 is NOT caught",
+   true,
+   "a bootstrap SD does not scale with the effect, so this criterion CAN fail; the detector keys on a QUANTILE functional, not on any use of the bootstrap \u00b7 \u603b\u4f53:the 6 fixtures, which are transcribed shapes and not invented cases"
+  ],
+  [
+   "negative 3/3: `effect > pct(PERMUTATION null, 95)` is NOT caught \u2014 the line between a null and a bootstrap, which is the whole instrument",
+   true,
+   "a permutation destroys the structure, so its quantile is a yardstick rather than a restatement; without this row the detector would flag every honest permutation kill in the corpus \u00b7 \u603b\u4f53:the 6 fixtures, which are transcribed shapes and not invented cases"
+  ],
+  [
+   "blind: a script with no locatable kill yields NO row \u2014 UNREADABLE, never clean",
+   true,
+   "544 of 895 scripts are in that state \u00b7 \u603b\u4f53:all 895 round scripts on disk"
+  ],
+  [
+   "coverage is measured, not asserted (`#932`: a row count is not coverage)",
+   true,
+   "scripts 895 \u00b7 with a locatable kill 351 (39.2%) \u00b7 parse failures 0 \u00b7 kill conditions 420 \u00b7 \u603b\u4f53:all 895 round scripts on disk"
+  ],
+  [
+   "\u26a0 precision measured ON THE CORPUS, not on fixtures (`#866`\u2460): 9 flagged kills hand-read, 0 vacuous",
+   true,
+   "3 laundered + all 6 strict candidates printed and read; 0/9 confirmed vacuous. Classes: binning quantiles, and null quantiles whose construction never calls `permutation` (`nul_off`, `NUL0`, `fl`, `maxt`). The candidate share is therefore an UPPER BOUND with measured precision 0/9, not a count of defects \u00b7 \u603b\u4f53:351 scripts carrying a locatable kill, of 895 \u2014 the SAME population as the kill"
+  ],
+  [
+   "KILL: pre-registered \u2014 W_ENDEMIC requires the candidate share to reach 10% of locatable kills; W_RARE requires it to fall to 2%; between them, neither world is claimed",
+   false,
+   "candidate share STRICT 3.33% (laundered 7.38%) of 420 locatable kills across 351 scripts -> NEITHER \u2014 the number is reported and no world is claimed   \u5c3a:share of locatable kill conditions,\u5176\u81ea\u8eab\u566a\u58f0 0 \u00b7 \u603b\u4f53:351 scripts carrying a locatable kill, of 895 \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:7/7 \u6761\u5df2\u547d\u540d,**7 \u6761\u4e0e\u5224\u636e\u4e0d\u540c** [\"positive: `#937` v1's shape,\", \"negative 1/3: `#937` v2's re\", 'negative 2/3: `effect > 2*se', 'negative 3/3: `effect > pct', 'blind: a script with no loca', 'coverage is measured, not as', '\u26a0 precision measured ON THE ']  \u26a0 **\u63a7\u5236\u7684\u603b\u4f53 \u2260 \u4e3b\u5f20\u7684\u603b\u4f53** \u2014\u2014 **\u5b83\u8bc1\u660e\u7684\u662f\u53e6\u4e00\u7fa4\u4eba\u8eab\u4e0a\u7684\u4eea\u5668**(`#866`\u2460)(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "scripts": 895,
+ "scripts_with_kill": 351,
+ "kill_total": 420,
+ "candidate_kills": 31,
+ "candidate_share": 0.07380952380952381,
+ "strict_candidates": 14,
+ "strict_share": 0.03333333333333333,
+ "hand_read": {
+  "n": 9,
+  "confirmed_vacuous": 0,
+  "classes": [
+   "binning quantiles",
+   "null quantiles the PERMUTE marker misses: offset, sign-flip, rotation, max-statistic"
+  ],
+  "note": "0/9 vacuous -> the static route cannot be the guard"
+ },
+ "locatable_share": 0.39217877094972065,
+ "parse_failures": 0,
+ "controls": {
+  "positive": true,
+  "positive_two_hop": true,
+  "negative": true,
+  "negative_se": true,
+  "negative_permutation_null": true,
+  "blind": true
+ },
+ "candidates": [
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/bootstrap_the_whole_curve.py",
+   "line": 104,
+   "kill": "\u6ce8\u518c\u7684 kill:c=18 \u7684\u91cd\u62bd\u533a\u95f4\u8986\u76d6 c=16 \u7684\u70b9\u503c -> \u9661\u5ced\u90e8\u5206\u4e0d\u53ef\u5206\u8fa8",
+   "suspects": [
+    {
+     "line": 93,
+     "lhs": [
+      "base",
+      "i16"
+     ],
+     "threshold": [
+      "hi"
+     ],
+     "shared_ancestors": [
+      "N",
+      "V",
+      "V0",
+      "curve"
+     ]
+    },
+    {
+     "line": 93,
+     "lhs": [
+      "base",
+      "i16"
+     ],
+     "threshold": [
+      "lo"
+     ],
+     "shared_ancestors": [
+      "N",
+      "V",
+      "V0",
+      "curve"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/breadth_as_a_subject.py",
+   "line": 94,
+   "kill": "\u6ce8\u518c\u7684 kill:K \u81ea\u5df1\u8d8a\u9608\u503c\u4e14\u8fbe\u5230 S \u7684\u4e00\u534a\u4ee5\u4e0a",
+   "suspects": [
+    {
+     "line": 95,
+     "lhs": [
+      "abs",
+      "sh_K"
+     ],
+     "threshold": [
+      "thr"
+     ],
+     "shared_ancestors": [
+      "K",
+      "M",
+      "NN",
+      "S"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_\u5c3a\u5b50\u88c5\u5bf9\u4e4b\u540e_\u7b2c\u4e09\u4e2a\u7ef4\u5ea6\u7684\u6b63\u540d\u662f_breadth_\u800c_189_\u7684\u4e09\u4e2a/delta_as_a_function_of_when_you_got_your_eighth.py",
+   "line": 118,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u0394 \u968f A8 \u5355\u8c03 \u4e14 \u65e9\u671f\u7ec4\u6307\u793a\u63a7\u5236\u540e\u584c\u6389 -> \u4e16\u754c\u2460(\u8fde\u7eed\u5242\u91cf-\u53cd\u5e94)",
+   "suspects": [
+    {
+     "line": 119,
+     "lhs": [
+      "abs",
+      "bB"
+     ],
+     "threshold": [
+      "qs"
+     ],
+     "shared_ancestors": [
+      "A8",
+      "V",
+      "V0",
+      "Vs"
+     ]
+    },
+    {
+     "line": 119,
+     "lhs": [
+      "sB"
+     ],
+     "threshold": [
+      "qs"
+     ],
+     "shared_ancestors": [
+      "A8",
+      "V",
+      "V0",
+      "Vs"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_\u5c3a\u5b50\u88c5\u5bf9\u4e4b\u540e_\u7b2c\u4e09\u4e2a\u7ef4\u5ea6\u7684\u6b63\u540d\u662f_breadth_\u800c_189_\u7684\u4e09\u4e2a/the_rate_curve_and_whether_it_is_a_surface.py",
+   "line": 119,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u66f2\u7ebf\u5355\u8c03\u4e14\u4ea4\u4e92\u9879 < 2\u00d7\u5c55\u5e03 -> \u53ef\u52a0;\u5426\u5219\u5b58\u5728\u4ea4\u4e92",
+   "suspects": [
+    {
+     "line": 120,
+     "lhs": [
+      "abs",
+      "b"
+     ],
+     "threshold": [
+      "q",
+      "qa",
+      "qr"
+     ],
+     "shared_ancestors": [
+      "A1",
+      "ACL",
+      "NCAT",
+      "RATE"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R008_\u5bbd\u5ea6\u6709\u5f62\u72b6_\u800c\u5b83\u7684\u7b2c\u4e00\u4e2a\u540d\u5b57\u662f_\u4f53\u6db2/is_the_breadth_profile_one_dimension_or_several.py",
+   "line": 176,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u22652 \u7ef4\u590d\u73b0\u4e14\u660e\u663e\u9ad8\u4e8e\u5076\u7136 -> \u5b58\u5728\u771f\u6b63\u7684\u3010\u5bbd\u5ea6\u7c7b\u578b\u3011",
+   "suspects": [
+    {
+     "line": 177,
+     "lhs": [
+      "r2"
+     ],
+     "threshold": [
+      "thr"
+     ],
+     "shared_ancestors": [
+      "keep",
+      "lg",
+      "np",
+      "pd"
+     ]
+    },
+    {
+     "line": 177,
+     "lhs": [
+      "NB"
+     ],
+     "threshold": [
+      "thr"
+     ],
+     "shared_ancestors": [
+      "keep",
+      "lg",
+      "np",
+      "pd"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_\u8fd9\u516d\u4e2a\u5750\u6807\u5728\u7537\u6027\u548c\u5973\u6027\u8eab\u4e0a_\u4e0d\u662f\u5b8c\u5168\u540c\u4e00\u5957/all_three_stripped.py",
+   "line": 94,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u7f9e\u803b\u7684\u533a\u95f4\u4e0e**\u540c\u4e00\u6b21\u8fd0\u884c\u91cc\u7684\u53c2\u7167\u81c2**\u91cd\u53e0\u5417",
+   "suspects": [
+    {
+     "line": 95,
+     "lhs": [
+      "q3"
+     ],
+     "threshold": [
+      "qR"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BS",
+      "idx",
+      "len"
+     ]
+    },
+    {
+     "line": 95,
+     "lhs": [
+      "qR"
+     ],
+     "threshold": [
+      "q3"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BS",
+      "idx",
+      "len"
+     ]
+    },
+    {
+     "line": 95,
+     "lhs": [
+      "qR"
+     ],
+     "threshold": [
+      "q3"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BS",
+      "idx",
+      "len"
+     ]
+    },
+    {
+     "line": 95,
+     "lhs": [
+      "q3"
+     ],
+     "threshold": [
+      "qR"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BS",
+      "idx",
+      "len"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A07_does_the_form_and_route_structure_hold/R014_\u8fd9\u516d\u4e2a\u5750\u6807\u5728\u7537\u6027\u548c\u5973\u6027\u8eab\u4e0a_\u4e0d\u662f\u5b8c\u5168\u540c\u4e00\u5957/quadrants.py",
+   "line": 125,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u52a0\u6027 \u8fd8\u662f \u76f8\u4e58",
+   "suspects": [
+    {
+     "line": 126,
+     "lhs": [
+      "abs",
+      "ci",
+      "np",
+      "nul"
+     ],
+     "threshold": [
+      "qa",
+      "qb"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "C3",
+      "CV",
+      "M"
+     ]
+    },
+    {
+     "line": 126,
+     "lhs": [
+      "np",
+      "nul"
+     ],
+     "threshold": [
+      "qa",
+      "qb"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "C3",
+      "CV",
+      "M"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_\u6b21\u53ef\u52a0\u8fc7\u4e86\u5168\u65cf\u9608_PLAUSIBLE_\u5347\u5230_CONFIRMED/is_it_just_earlier.py",
+   "line": 123,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u6389\u5e45\u8d8a\u8fc7 offset \u5730\u677f\u7684 95 \u5206\u4f4d(= `EARLY` \u662f\u771f\u901a\u8def)",
+   "suspects": [
+    {
+     "line": 124,
+     "lhs": [
+      "dObs"
+     ],
+     "threshold": [
+      "THR"
+     ],
+     "shared_ancestors": [
+      "drop",
+      "np",
+      "sh"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R019_\u6b21\u53ef\u52a0\u8fc7\u4e86\u5168\u65cf\u9608_PLAUSIBLE_\u5347\u5230_CONFIRMED/which_subadditivity.py",
+   "line": 100,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u4ea4\u4e92\u5728**\u79e9**\u4e0e**\u672a\u9876\u683c\u5b50\u6837\u672c**\u4e0a\u6d3b\u4e0d\u6d3b\u7740(\u5404\u4fdd\u7559 > 60%)",
+   "suspects": [
+    {
+     "line": 101,
+     "lhs": [
+      "abs",
+      "b_rk"
+     ],
+     "threshold": [
+      "CUTS"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BIN",
+      "C3",
+      "CUTS"
+     ]
+    },
+    {
+     "line": 101,
+     "lhs": [
+      "abs",
+      "b_raw"
+     ],
+     "threshold": [
+      "CUTS"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BIN",
+      "C3",
+      "CUTS"
+     ]
+    },
+    {
+     "line": 101,
+     "lhs": [
+      "abs",
+      "b_nt"
+     ],
+     "threshold": [
+      "CUTS"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BIN",
+      "C3",
+      "CUTS"
+     ]
+    },
+    {
+     "line": 101,
+     "lhs": [
+      "abs",
+      "b_raw"
+     ],
+     "threshold": [
+      "CUTS"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "BIN",
+      "C3",
+      "CUTS"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R020_\u7a00\u6709\u5ea6\u89e3\u91ca\u7c7b\u522b\u5c42\u7f9e\u803b\u7684_58_\u6b8b\u5dee\u662f\u566a\u58f0\u5e95\u7684_5_\u500d/wide_caliber_rerun.py",
+   "line": 87,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u5bbd\u53e3\u5f84\u4e0b\u5dee\u662f\u5426\u8d8a\u8fc7\u5b83\u81ea\u5df1\u7684 2\u00d7se",
+   "suspects": [
+    {
+     "line": 87,
+     "lhs": [
+      "abs",
+      "r4"
+     ],
+     "threshold": [
+      "kn"
+     ],
+     "shared_ancestors": [
+      "NN",
+      "R_",
+      "TH",
+      "abs"
+     ]
+    },
+    {
+     "line": 87,
+     "lhs": [
+      "r4"
+     ],
+     "threshold": [
+      "kn"
+     ],
+     "shared_ancestors": [
+      "NN",
+      "R_",
+      "TH",
+      "abs"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_\u90a3\u4efd\u7f9e\u803b\u4e0d\u662f\u72ec\u6709\u7684_\u800c\u54ac\u6389\u5b83\u7684\u4e94\u4e2a\u91cf\u8bf4\u7684\u662f\u540c\u4e00\u79cd\u4eba/interaction_not_quintiles.py",
+   "line": 113,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u4ea4\u4e92\u8d8a\u8fc7 offset \u96f6\u7684 95 \u5206\u4f4d(= \u7531\u67d0\u4e00\u7aef\u6491\u8d77)",
+   "suspects": [
+    {
+     "line": 114,
+     "lhs": [
+      "abs",
+      "b_obs"
+     ],
+     "threshold": [
+      "THR"
+     ],
+     "shared_ancestors": [
+      "inter",
+      "sh"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_\u90a3\u4efd\u7f9e\u803b\u4e0d\u662f\u72ec\u6709\u7684_\u800c\u54ac\u6389\u5b83\u7684\u4e94\u4e2a\u91cf\u8bf4\u7684\u662f\u540c\u4e00\u79cd\u4eba/is_it_one_kind_of_person.py",
+   "line": 151,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:PC1 \u4efd\u989d\u8d8a\u8fc7 offset \u96f6\u7684 95 \u5206\u4f4d",
+   "suspects": [
+    {
+     "line": 151,
+     "lhs": [
+      "pc1"
+     ],
+     "threshold": [
+      "thr"
+     ],
+     "shared_ancestors": [
+      "np",
+      "range"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_\u90a3\u4efd\u7f9e\u803b\u4e0d\u662f\u72ec\u6709\u7684_\u800c\u54ac\u6389\u5b83\u7684\u4e94\u4e2a\u91cf\u8bf4\u7684\u662f\u540c\u4e00\u79cd\u4eba/routes_by_sex.py",
+   "line": 115,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u67d0\u6761\u8def\u7684\u4e24\u6027\u7cfb\u6570\u5dee\u8d8a\u8fc7\u65cf\u5185\u9608",
+   "suspects": [
+    {
+     "line": 115,
+     "lhs": [
+      "TT",
+      "float",
+      "np"
+     ],
+     "threshold": [
+      "THR"
+     ],
+     "shared_ancestors": [
+      "ALLR",
+      "C3",
+      "EARLY",
+      "MINCOV"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A08_the_schedule_and_what_moves_it/R024_c3_\u90a3\u4efd\u7f9e\u803b\u4e0d\u662f\u72ec\u6709\u7684_\u800c\u54ac\u6389\u5b83\u7684\u4e94\u4e2a\u91cf\u8bf4\u7684\u662f\u540c\u4e00\u79cd\u4eba/where_along_the_line.py",
+   "line": 156,
+   "kill": "\u2605 \u6ce8\u518c\u7684 kill:\u4e94\u6bb5\u7684\u5168\u8ddd\u8d8a\u8fc7 offset \u5730\u677f\u7684 95 \u5206\u4f4d(= \u7531\u67d0\u4e00\u7aef\u6491\u8d77)",
+   "suspects": [
+    {
+     "line": 157,
+     "lhs": [
+      "RNG"
+     ],
+     "threshold": [
+      "thr"
+     ],
+     "shared_ancestors": [
+      "NP_",
+      "floor_draw",
+      "np",
+      "range"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R026_\u65b9\u5411\u662f\u5bf9\u7684_\u800c\u987a\u624b\u786e\u8ba4\u7684\u662f\u6574\u9875\u7684\u7f9e\u803b\u65b9\u5411/can_recall_bias_produce_it.py",
+   "line": 98,
+   "kill": "KILL the effect survives the stand-in control",
+   "suspects": [
+    {
+     "line": 98,
+     "lhs": [
+      "abs",
+      "b1"
+     ],
+     "threshold": [
+      "t1"
+     ],
+     "shared_ancestors": [
+      "AGE",
+      "AGEmap",
+      "BEL",
+      "EARLY"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R032_\u626b\u63cf\u770b\u4e0d\u89c1\u8fd9\u4e2a\u6027\u8d28_\u56e0\u4e3a\u9875\u9762\u5199\u7684\u662f\u6bd4\u503c_\u5206\u6bcd\u7684\u533a\u95f4\u4ece\u6765\u4e0d\u5728\u53e5\u5b50\u91cc/is_the_threshold_itself_stable.py",
+   "line": 76,
+   "kill": "KILL-i the threshold's own interval excludes the observed |z|",
+   "suspects": [
+    {
+     "line": 75,
+     "lhs": [
+      "abs",
+      "zi"
+     ],
+     "threshold": [
+      "bs",
+      "thi"
+     ],
+     "shared_ancestors": [
+      "AGE",
+      "AGEmap",
+      "C3",
+      "M"
+     ]
+    },
+    {
+     "line": 75,
+     "lhs": [
+      "abs",
+      "zi"
+     ],
+     "threshold": [
+      "bs",
+      "tlo"
+     ],
+     "shared_ancestors": [
+      "AGE",
+      "AGEmap",
+      "C3",
+      "M"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R033_\u4ed6\u4eec\u89c9\u5f97\u6539\u4e0d\u4e86_\u5c3d\u7ba1\u552f\u4e00\u672c\u8be5\u8ba9\u5b83\u663e\u5f97\u53ef\u6539\u7684\u90a3\u4e00\u70b9\u4e5f\u4e3a\u771f/through_experience_or_not.py",
+   "line": 113,
+   "kill": "KILL as pre-registered: the indirect effect differs from zero",
+   "suspects": [
+    {
+     "line": 105,
+     "lhs": [
+      "abs",
+      "ind"
+     ],
+     "threshold": [
+      "thr4000"
+     ],
+     "shared_ancestors": [
+      "ACT",
+      "AGE",
+      "AGEmap",
+      "BEL"
+     ]
+    },
+    {
+     "line": 105,
+     "lhs": [
+      "ilo"
+     ],
+     "threshold": [
+      "ihi"
+     ],
+     "shared_ancestors": [
+      "ACT",
+      "AGE",
+      "AGEmap",
+      "BEL"
+     ]
+    },
+    {
+     "line": 105,
+     "lhs": [
+      "ihi"
+     ],
+     "threshold": [
+      "ilo"
+     ],
+     "shared_ancestors": [
+      "ACT",
+      "AGE",
+      "AGEmap",
+      "BEL"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R034_\u4e0d\u662f_\u4f60\u559c\u6b22\u4ec0\u4e48_\u662f_\u4f60\u7684\u559c\u6b22\u600e\u4e48\u5206\u5e03/is_it_a_few_blocks.py",
+   "line": 114,
+   "kill": "KILL corrected: the largest single-block shift beats the null OF THE M",
+   "suspects": [
+    {
+     "line": 115,
+     "lhs": [
+      "worst"
+     ],
+     "threshold": [
+      "mthr"
+     ],
+     "shared_ancestors": [
+      "ACT",
+      "AGE",
+      "AGEmap",
+      "BEL"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_\u6211\u7684\u5224\u636e\u4e0d\u53ef\u80fd\u5931\u8d25_\u800c\u6362\u6389\u5b83\u4e4b\u540e\u7ed3\u8bba\u53ea\u5269\u4e00\u534a/the_null_must_match_the_world.py",
+   "line": 98,
+   "kill": "KILL the fluid split beats arbitrary six-block splits",
+   "suspects": [
+    {
+     "line": 97,
+     "lhs": [
+      "obs"
+     ],
+     "threshold": [
+      "barS"
+     ],
+     "shared_ancestors": [
+      "NB",
+      "_NB",
+      "bool",
+      "content"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A09_which_coordinate_is_more_basic/R037_\u6211\u7684\u5224\u636e\u4e0d\u53ef\u80fd\u5931\u8d25_\u800c\u6362\u6389\u5b83\u4e4b\u540e\u7ed3\u8bba\u53ea\u5269\u4e00\u534a/what_are_the_two_halves_made_of.py",
+   "line": 150,
+   "kill": "KILL(\u91cd\u505a,\u53ef\u5931\u8d25):\u9ad8\u8f7d\u8377\u5757\u96c6\u5408\u7684\u91cd\u53e0\u8d8a\u51fa\u968f\u673a\u6b63\u4ea4\u96f6",
+   "suspects": [
+    {
+     "line": 151,
+     "lhs": [
+      "OV"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "A",
+      "ALLR",
+      "B",
+      "BS"
+     ]
+    },
+    {
+     "line": 151,
+     "lhs": [
+      "OV"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "A",
+      "ALLR",
+      "B",
+      "BS"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E01_sexual_as_a_value_not_a_category/A10_audit_my_own_gates_and_my_own_page/R041_\u88ab\u7f55\u89c1\u7684\u4e1c\u897f\u5438\u5f15_\u5728\u51e0\u4e4e\u6ca1\u4eba\u53bb\u7684\u5730\u65b9\u66f4\u8d35/what_happens_at_k12.py",
+   "line": 112,
+   "kill": "KILL one specific block explains the dip",
+   "suspects": [
+    {
+     "line": 111,
+     "lhs": [
+      "L"
+     ],
+     "threshold": [
+      "thr"
+     ],
+     "shared_ancestors": [
+      "AGE",
+      "AGEmap",
+      "H",
+      "HH"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A43_is_the_partition_content_or_marginals/R353_two_norms_two_exposures_same_respondents/two_norms_two_exposures.py",
+   "line": 394,
+   "kill": "KILL: world B (one moral dial) requires det inside its one-factor null",
+   "suspects": [
+    {
+     "line": 395,
+     "lhs": [
+      "D_obs",
+      "abs",
+      "null_med"
+     ],
+     "threshold": [
+      "cols",
+      "e",
+      "it"
+     ],
+     "shared_ancestors": [
+      "ADJ",
+      "ADJ_SETS",
+      "D_",
+      "Dv"
+     ]
+    },
+    {
+     "line": 395,
+     "lhs": [
+      "null_sd"
+     ],
+     "threshold": [
+      "cols",
+      "e",
+      "it"
+     ],
+     "shared_ancestors": [
+      "ADJ",
+      "ADJ_SETS",
+      "D_",
+      "Dv"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A43_is_the_partition_content_or_marginals/R354_is_the_asymmetry_domain_or_item_breadth/domain_or_breadth.py",
+   "line": 315,
+   "kill": "KILL: world B (breadth) requires the breadth-MATCHED cross-domain pair",
+   "suspects": [
+    {
+     "line": 316,
+     "lhs": [
+      "abs",
+      "med_matched",
+      "null_med"
+     ],
+     "threshold": [
+      "e",
+      "it"
+     ],
+     "shared_ancestors": [
+      "ADJ",
+      "ADJ_SETS",
+      "B",
+      "DAT"
+     ]
+    },
+    {
+     "line": 316,
+     "lhs": [
+      "null_sd"
+     ],
+     "threshold": [
+      "e",
+      "it"
+     ],
+     "shared_ancestors": [
+      "ADJ",
+      "ADJ_SETS",
+      "B",
+      "DAT"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A51_\u5269\u4e0b\u90a3\u4e00\u5bf9\u4f1a\u4e0d\u4f1a\u4e5f\u662f\u5c0f\u5206\u6bcd/R238_\u9020\u4e00\u4e2a\u516b\u9898\u771f\u503c\u76f8\u540c\u7684\u4e16\u754c\u770b\u8c01\u81ea\u5df1\u5192\u51fa\u6765/is_the_top_pair_an_artifact.py",
+   "line": 169,
+   "kill": "\u2463 kill(\u9884\u6ce8\u518c):\u9876\u5bf9\u8981\u7ad9\u4f4f,\u9700**\u4e24\u81c2**\u7684 P(r>1.5) \u90fd < 0.10",
+   "suspects": [
+    {
+     "line": 170,
+     "lhs": [
+      "RATE"
+     ],
+     "threshold": [
+      "an",
+      "c",
+      "res"
+     ],
+     "shared_ancestors": [
+      "RATE"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A55_\u9875\u9762\u4e0a\u6700\u5927\u7684\u90a3\u4e2a\u6570\u4e00\u4e2a\u5bf9\u7167\u90fd\u6ca1\u6709/R244_\u90a3\u4e2a\u91cf\u9a91\u5728\u9608\u503c\u4e0a\u4e24\u6b21\u6240\u4ee5\u8be5\u62a5\u533a\u95f4/interval_not_a_threshold.py",
+   "line": 200,
+   "kill": "\u2465 kill(\u9884\u6ce8\u518c):\u300c\u4e24\u8005\u90fd\u5728\u300d\u8981\u6210\u7acb,\u9700**\u6240\u6709\u53ef\u7528\u683c**\u7684\u533a\u95f4\u540c\u65f6\u6392\u9664 0 \u4e0e 1",
+   "suspects": [
+    {
+     "line": 201,
+     "lhs": [
+      "n_e0"
+     ],
+     "threshold": [
+      "hi95",
+      "lo95"
+     ],
+     "shared_ancestors": [
+      "B",
+      "CELL",
+      "CELLS",
+      "DROPPED"
+     ]
+    },
+    {
+     "line": 201,
+     "lhs": [
+      "CELLS",
+      "len"
+     ],
+     "threshold": [
+      "hi95",
+      "lo95"
+     ],
+     "shared_ancestors": [
+      "B",
+      "CELL",
+      "CELLS",
+      "DROPPED"
+     ]
+    },
+    {
+     "line": 201,
+     "lhs": [
+      "n_e1"
+     ],
+     "threshold": [
+      "hi95",
+      "lo95"
+     ],
+     "shared_ancestors": [
+      "B",
+      "CELL",
+      "CELLS",
+      "DROPPED"
+     ]
+    },
+    {
+     "line": 201,
+     "lhs": [
+      "CELLS",
+      "len"
+     ],
+     "threshold": [
+      "hi95",
+      "lo95"
+     ],
+     "shared_ancestors": [
+      "B",
+      "CELL",
+      "CELLS",
+      "DROPPED"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A58_\u4e94\u88c2\u4e09\u5408\u4e00\u76f4\u53ea\u662f\u65b9\u5411/R247_\u4e09\u9898\u7684\u9e3f\u6c9f\u4e94\u5341\u5e74\u6ca1\u52a8\u662f\u53d1\u73b0\u8fd8\u662f\u5206\u8fa8\u4e0d\u51fa/gaps_get_their_intervals.py",
+   "line": 186,
+   "kill": "\u2465 kill(\u9884\u6ce8\u518c):\u300c\u516b\u9898\u90fd\u52a8\u4e86\u300d\u8981\u6210\u7acb,\u9700**\u6bcf\u4e00\u9898\u7684\u4e24\u4e2a\u89c4\u683c\u90fd\u6392\u9664 0**",
+   "suspects": [
+    {
+     "line": 187,
+     "lhs": [
+      "by",
+      "len"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "by",
+      "len"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A59_\u516b\u8f6e\u4e00\u5177\u4eea\u5668/R249_\u540c\u4e00\u4e2a\u95ee\u9898\u6362\u4e00\u4efd\u8c03\u67e5\u8fd8\u5728\u4e0d\u5728/second_instrument_nsfg.py",
+   "line": 211,
+   "kill": "\u2464 kill(\u9884\u6ce8\u518c):\u300c\u6362\u4e00\u4efd\u8c03\u67e5\u8fd8\u5728\u300d\u8981\u6210\u7acb,\u9700\u4e24\u5177\u4eea\u5668\u7684 `\u0394gap` **\u540c\u53f7\u4e14\u90fd\u6392\u9664 0**",
+   "suspects": [
+    {
+     "line": 212,
+     "lhs": [
+      "A_NSFG",
+      "np"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "NS",
+      "dat",
+      "dct",
+      "df"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A70_\u90a3\u6761\u5e78\u5b58\u7684\u4e8b\u5b9e\u81ea\u5df1\u7a33\u4e0d\u7a33/R264_\u591a\u79cd\u5b50\u7f51\u683c\u4e0e\u8fb9\u754c\u8ddd\u79bb/is_the_count_stable.py",
+   "line": 204,
+   "kill": "\u2464 kill(\u9884\u6ce8\u518c):\u300c`homosex` \u662f\u552f\u4e00\u6709 \u22652 \u4e2a\u5341\u5e74\u7684\u9898\u300d(`#824`\u2461)\u8981\u6210\u7acb,\u9700\u5728 **\u22654/5 \u79cd\u5b50**\u4e0b\u6210\u7acb(\u4e24\u4e2a",
+   "suspects": [
+    {
+     "line": 206,
+     "lhs": [
+      "BS",
+      "len"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "BS",
+      "len"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A84_\u662f\u4e16\u4fd7\u90a3\u8fb9\u8d70\u4e86\u8fd8\u662f\u53ea\u5728\u8fd9\u4e00\u9898\u4e0a\u8d70\u4e86/R285_\u516b\u9898\u4e0a\u5404\u81ea\u662f\u8c01\u5728\u52a8/whose_move_on_every_item.py",
+   "line": 158,
+   "kill": "\u2464 kill(\u9884\u6ce8\u518c):\u300c\u8fd9\u662f\u5173\u4e8e\u4eba\u7684\u3001\u4e0d\u662f\u5173\u4e8e\u9898\u7684\u300d\u8981\u6210\u7acb,\u9700**\u4e16\u4fd7\u5c42\u5728 \u22655/8 \u9898\u4e0a\u6392\u96f6\u4e14\u591a\u4e8e\u8654\u8bda\u5c42**",
+   "suspects": [
+    {
+     "line": 160,
+     "lhs": [
+      "len",
+      "sec"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "Bv",
+      "C",
+      "CELLS",
+      "DEC"
+     ]
+    },
+    {
+     "line": 160,
+     "lhs": [
+      "dev",
+      "len"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "Bv",
+      "C",
+      "CELLS",
+      "DEC"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A90_\u662f\u9519\u7684\u548c\u4e0d\u8bb8\u4ed6\u6559\u4e66\u662f\u4e24\u4ef6\u4e8b\u5417/R298_\u540c\u4e00\u4e2a\u4eba\u4f1a\u4e0d\u4f1a\u4e00\u8fb9\u8bf4\u9519\u4e00\u8fb9\u653e\u884c/inside_one_head.py",
+   "line": 235,
+   "kill": "\u2464 kill(\u9884\u6ce8\u518c):\u300c\u8131\u94a9\u7a0b\u5ea6\u672c\u8eab\u5206\u5c42\u300d\u8981\u6210\u7acb,\u9700**\u4e24\u5c42 offset \u4e4b\u5dee\u8d85\u81ea\u52a9\u5730\u677f\u7684\u914d\u5bf9 \u2265 \u534a\u6570**",
+   "suspects": [
+    {
+     "line": 237,
+     "lhs": [
+      "big_diff"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "BASE",
+      "D",
+      "DECS",
+      "ITEMS"
+     ]
+    },
+    {
+     "line": 237,
+     "lhs": [
+      "len",
+      "paired"
+     ],
+     "threshold": [
+      "hi",
+      "lo"
+     ],
+     "shared_ancestors": [
+      "BASE",
+      "D",
+      "DECS",
+      "ITEMS"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "E03_what_an_instrument_would_have_to_be/A99_\u90a3\u516b\u8f6e\u7684\u5f71\u54cd\u5230\u5e95\u6709\u591a\u5927/R309_\u628a\u6027\u522b\u5f53\u6210\u4e00\u9053\u6027\u7656\u9898\u4f1a\u628a\u7ed3\u6784\u8f6c\u591a\u5c11/how_far_does_it_rotate.py",
+   "line": 290,
+   "kill": "\u2465 kill(\u9884\u6ce8\u518c):\u300c\u90a3 8 \u8f6e\u7684\u7ed3\u6784\u4e0d\u53d7 `biomale` \u5f71\u54cd\u300d\u8981\u6210\u7acb,\u9700 **\u5b83\u7684 `rot_drop` \u6392\u540d \u2265 6/20(\u4e0d",
+   "suspects": [
+    {
+     "line": 292,
+     "lhs": [
+      "c"
+     ],
+     "threshold": [
+      "PL95"
+     ],
+     "shared_ancestors": [
+      "CORRS",
+      "Cf",
+      "DOSE",
+      "FULL"
+     ]
+    }
+   ]
+  }
+ ],
+ "verdict": "UNVERIFIED \u00b7 neither threshold reached \u00b7 strict 3.33% / laundered 7.38%, reported as numbers and not as a world",
+ "world": "NEITHER"
+}
