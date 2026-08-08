@@ -47501,3 +47501,69 @@ invisible to all three**, and the reason is that a kill only becomes machine-rea
 written as `G.asserted(..., kind="kill")`. `#938`③ **`#937`③'s premise was wrong and should be
 retracted as stated**: it said the missing check was "threshold independent of the quantity", which
 this round shows is neither necessary (`effect > 2*se` shares everything and is fine) nor sufficient.
+
+## Entry 939 · `E03·A121·R377` — the impressionable years did not survive the simplest control
+
+**A114 said at least 45% of the half-century change is conversion — living people changed their minds.
+A118 said what about. Nothing said WHEN IN A LIFE**, which is the question a reader asks immediately.
+`#111c` also applied: `#937` and `#938` were both about instruments, so this one goes back to people.
+
+**⚠⚠ THE IDENTIFICATION WALL, WRITTEN BEFORE THE ESTIMAND** (`#924` cost a whole column by reaching
+for a standard estimator without checking its precondition): **age = year − cohort, exactly**, so age,
+period and cohort main effects are collinear and no data separates them. This round therefore never
+estimates an age effect. It estimates the **period slope within each age band**, and treats *which
+cohorts occupy that band* as the confound — controlled in the same iteration.
+
+| band | raw, per decade | cohort-demeaned |
+|---|---|---|
+| 18–29 | **+0.4748** ← steepest | **+0.1526** ← **flattest** |
+| 30–44 | +0.4302 | +0.1852 |
+| 45–59 | +0.3628 ← flattest | **+0.2151** ← **steepest** |
+| 60+ | +0.4262 | +0.1635 |
+| spread | **0.1120** | **0.0625** |
+
+**THE ORDERING REVERSES.** Raw, the young move fastest and it looks exactly like the impressionable-
+years account. Demean within birth year — so that only movement among people born in the *same* year
+survives — and the young become the **slowest** and the middle-aged the fastest. Both cells of the
+ballot-1 restriction agree with their own specification (raw spread 0.1493; demeaned 0.0584), so this
+is not a subsample artefact: **it is the confound, and it was the pre-registered confound.**
+
+**⚠⚠⚠ TWO DEFECTS IN MY OWN KILL, AND THE SECOND IS THE MORE INSTRUCTIVE.**
+**①** `neg_null` demanded `|null_median| < 2·null_sd`. But `max−min` of four noisy slopes is
+**positive-definite** — its permutation null centres at **+0.0275**, never at 0 — so the conditional
+gated on it **could never be evaluated and the kill could never fire.** That is `realstat`'s *control
+that cannot PASS*, the exact mirror of `#938`'s *kill that cannot fail*, **written one round after
+spending a whole round measuring the corpus for that family.** For a positive-definite statistic the
+null is a distribution, not a zero; the precondition is that the observed value clears its upper tail,
+which 0.1120 does.
+**②** I staked a **ratio of spreads** (`demeaned/raw < 0.50 ⇒ unidentified`). The observed ratio is
+**0.558** — it sails past the threshold — **while the entire psychological claim has already reversed.**
+`#936`② one level up: *the pre-registered quantity was not the quantity the claim lives in.* The claim
+lives in the **ordering**, and nothing in the kill looked at it until I added it. It was found by
+reading the specification curve, which is the third time this project's decisive fact came from the
+grid rather than from the threshold.
+
+**VERDICT: `OVERTURNED` · `W_UNIDENT` · the staked W_PLASTIC FAILED.** Controls sound: positive sweep
+`0→0.0272 · 0.15→0.0915 · 0.3→0.1794 · 0.45→0.2575 · 0.6→0.3441` with `g=0` **0.02 spreads** from the
+null (built from the null by default now, per `#937`⑤); negative null +0.0275±0.0118; 4/4 band slopes
+survive BH.
+
+**What is now dead:** the sentence *"the change is carried by the young"* cannot be written from this
+data. **What survives:** the four bands genuinely differ (0.1120 vs 2×bootstrap 0.0396 and vs the
+null's upper tail), so **it is not W_ERA either** — the age bands are not interchangeable. What cannot
+be said is *which way*.
+
+**ONE SENTENCE ABOUT PEOPLE.** The comfortable story — that minds change while they are still young —
+does not survive comparing people born in the same year: do that and the youngest Americans become the
+**slowest** to move on this question and the middle-aged the fastest, and because the two answers point
+opposite ways, **the honest report is that this data cannot say when in a life a mind changes, only
+that the age you are is not irrelevant.**
+
+**NEXT** — `#939`① **the ordering must be given an interval**: 18–29 at +0.1526 and 45–59 at +0.2151
+are 0.06 apart against a spread bootstrap of 0.0198, so the reversal is ~3 spreads, but *the ordering
+itself* was never resampled — bootstrap the rank, not the gap. `#939`② ⚠ **a positive-definite
+statistic needs a different control contract**, and `lib/gates.py`'s `negative_control` takes
+`|null| < ratio·|effect|`, which silently encodes the assumption that the null is centred at zero;
+every round in this project using a max, a range, an absolute value or a variance share has been
+judged by it. `#939`③ **the confound control is stronger than the design that needed it** —
+cohort-demeaning is available to every trend claim in A114–A118 and none of them ran it.

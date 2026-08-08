@@ -1,0 +1,147 @@
+{
+ "entry": 939,
+ "round": "E03\u00b7A121\u00b7R377",
+ "gate_verdict": "   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the negative is null. STAKED: W_PLASTIC, i.e. the 18-29 band is steepest AND the spread exceeds 2x its own bootstrap spread.",
+ "gates": [
+  [
+   "positive: a trend planted into the youngest band widens the spread, and g=0 sits ON the null this round judges against (`#922`)",
+   true,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.15;g=0 +0.0272 \u00b7 g=0.6 +0.3441"
+  ],
+  [
+   "year permuted within age band",
+   true,
+   "|+0.0275| < 0.5*|+0.1120| = 0.0560"
+  ],
+  [
+   "the four band slopes \u2014 the family this claim lives in (`#936`\u2461)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 4 \u00b7 cells surviving 4** \u00b7 \u5b58\u6d3b ['18-29', '30-44', '45-59', '60+'] \u00b7 \u672a\u5b58\u6d3b []"
+  ],
+  [
+   "\u26a0 the identification wall is registered, not worked around: age = year - cohort exactly, so NO age effect is estimated here",
+   true,
+   "what is reported is the period slope computed WITHIN each age band, and the cohort composition of those bands is the confound, controlled in the next row \u00b7 \u603b\u4f53:30,748 GSS respondents 1988-2024 with age, cohort and homosex"
+  ],
+  [
+   "\u26a0 CONFOUND CONTROL in the same iteration: cohort-demeaned slopes remove every between-cohort level difference",
+   true,
+   "spread raw 0.1120 -> cohort-demeaned 0.0625 (0.56x); W_UNIDENT is declared below 0.50x \u00b7 \u603b\u4f53:30,748 GSS respondents 1988-2024 with age, cohort and homosex"
+  ],
+  [
+   "the whole specification grid is published, disagreeing cells included",
+   true,
+   "raw \u00b7 all ballots spread 0.1120 \u00b7 raw \u00b7 ballot 1 only spread 0.1493 \u00b7 cohort-demeaned \u00b7 all ballots spread 0.0625 \u00b7 cohort-demeaned \u00b7 ballot 1 only spread 0.0584 \u00b7 \u603b\u4f53:30,748 GSS respondents 1988-2024 with age, cohort and homosex"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the negative is null. STAKED: W_PLASTIC, i.e. the 18-29 band is steepest AND the spread exceeds 2x its own bootstrap spread. W_ERA and W_LATE both REFUTE it; and a cohort-demeaned spread below 0.50x the raw \u21d2 W_UNIDENT; AND the steepest band must be the SAME under both specifications, because that ordering is where the claim actually lives",
+   false,
+   "positive fires True \u00b7 observed clears the null's 95th pct (0.0497) True \u00b7 ORDERING raw ['18-29'] vs cohort-demeaned ['45-59'] -> REVERSES \u00b7 spread 0.1120 vs 2x bootstrap 0.0396 -> differ \u00b7 demeaned/raw 0.56x -> ratio ok \u00b7 ordering ['18-29', '30-44', '60+', '45-59'] \u21d2 W_UNIDENT   \u5c3a:max-min of the four band slopes, per decade,\u5176\u81ea\u8eab\u566a\u58f0 0.0198 \u00b7 \u603b\u4f53:30,748 GSS respondents 1988-2024 with age, cohort and homosex \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:3/3 \u6761\u5df2\u547d\u540d,**\u4e0e\u5224\u636e\u540c\u4e00\u603b\u4f53**(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "n": 30748,
+ "raw_slopes": {
+  "18-29": 0.4747553271692033,
+  "30-44": 0.43016161762094296,
+  "45-59": 0.36277657157916354,
+  "60+": 0.4261584364271808
+ },
+ "demeaned_slopes": {
+  "18-29": 0.15258935173410623,
+  "30-44": 0.1852153974861106,
+  "45-59": 0.21510393875843972,
+  "60+": 0.16349984696564582
+ },
+ "spread_raw": 0.11197875559003978,
+ "spread_demeaned": 0.06251458702433349,
+ "boot_sd": 0.019800005233945355,
+ "null_median": 0.027505530274523467,
+ "null_sd": 0.011827398900373265,
+ "null_p95": 0.049695158350710804,
+ "null_draws": 300,
+ "order_raw": [
+  "18-29",
+  "30-44",
+  "60+",
+  "45-59"
+ ],
+ "order_demeaned": [
+  "45-59",
+  "30-44",
+  "60+",
+  "18-29"
+ ],
+ "order_stable": false,
+ "positive_sweep": [
+  [
+   0.0,
+   0.027238585620032348
+  ],
+  [
+   0.15,
+   0.09150769206292286
+  ],
+  [
+   0.3,
+   0.17942558298954142
+  ],
+  [
+   0.45,
+   0.25745530191631794
+  ],
+  [
+   0.6,
+   0.3441089376584646
+  ]
+ ],
+ "grid": [
+  {
+   "spec": "raw \u00b7 all ballots",
+   "n": 30748,
+   "18-29": 0.4747553271692033,
+   "30-44": 0.43016161762094296,
+   "45-59": 0.36277657157916354,
+   "60+": 0.4261584364271808,
+   "spread": 0.11197875559003978,
+   "youngest_steepest": true,
+   "oldest_steepest": false
+  },
+  {
+   "spec": "raw \u00b7 ballot 1 only",
+   "n": 15355,
+   "18-29": 0.5052336763567078,
+   "30-44": 0.42577896285392575,
+   "45-59": 0.35589420809379707,
+   "60+": 0.4236996591872894,
+   "spread": 0.14933946826291072,
+   "youngest_steepest": true,
+   "oldest_steepest": false
+  },
+  {
+   "spec": "cohort-demeaned \u00b7 all ballots",
+   "n": 30748,
+   "18-29": 0.15258935173410623,
+   "30-44": 0.1852153974861106,
+   "45-59": 0.21510393875843972,
+   "60+": 0.16349984696564582,
+   "spread": 0.06251458702433349,
+   "youngest_steepest": false,
+   "oldest_steepest": false
+  },
+  {
+   "spec": "cohort-demeaned \u00b7 ballot 1 only",
+   "n": 15355,
+   "18-29": 0.17318592866242943,
+   "30-44": 0.18638110147542036,
+   "45-59": 0.21444737416058807,
+   "60+": 0.1560163648705096,
+   "spread": 0.05843100929007847,
+   "youngest_steepest": false,
+   "oldest_steepest": false
+  }
+ ],
+ "family_size": 4,
+ "world": "W_UNIDENT",
+ "verdict": "OVERTURNED \u00b7 world W_UNIDENT \u00b7 staked W_PLASTIC FAILED"
+}

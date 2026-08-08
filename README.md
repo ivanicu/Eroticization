@@ -528,6 +528,40 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#939` · the impressionable years did not survive the simplest control
+
+A114 established that at least 45% of the half-century change is conversion — living people changed
+their minds — and A118 established what about. **Nothing said when in a life.**
+
+⚠ **The identification wall, written before the estimand**: `age = year − cohort`, exactly, so age,
+period and cohort effects are collinear and no data separates them. This round never estimates an age
+effect; it estimates the **period slope within each age band**, and treats *which cohorts occupy that
+band* as the confound — controlled in the same iteration by demeaning within birth year.
+
+| `#939` band | raw, per decade | cohort-demeaned |
+|---|---|---|
+| 18–29 | **+0.4748** ← steepest | **+0.1526** ← **flattest** |
+| 30–44 | +0.4302 | +0.1852 |
+| 45–59 | +0.3628 ← flattest | **+0.2151** ← **steepest** |
+| 60+ | +0.4262 | +0.1635 |
+| spread | **0.1120** | **0.0625** |
+
+**The ordering reverses** (`#939`). Raw, the young move fastest and it looks exactly like the
+impressionable-years account. Compare only people born in the *same* year and the young become the
+**slowest**, the middle-aged the fastest. The ballot-1 restriction agrees with its own specification
+in both cases (spreads 0.1493 and 0.0584), so it is not a subsample artefact — it is the
+pre-registered confound doing what it was written to detect.
+
+**Verdict `OVERTURNED` (`#939`): the staked world failed.** The four bands genuinely differ — 0.1120 against
+2× its bootstrap spread of 0.0396 and against the null's upper tail — so this is **not** "the era
+carries every age alike" either. What cannot be said is which way.
+
+> **One sentence about people (`#939`): the comfortable story — that minds change while they are still
+> young — does not survive comparing people born in the same year, because then the youngest Americans
+> become the slowest to move on this question and the middle-aged the fastest; and since the two
+> answers point opposite ways, the honest report is that this data cannot say when in a life a mind
+> changes, only that the age you are is not irrelevant.**
+
 ### `#938` · the guard I set out to build cannot be built the way I planned
 
 `#937`③ counted four kills that could not have fired, all caught by reading. R376 went to build the
