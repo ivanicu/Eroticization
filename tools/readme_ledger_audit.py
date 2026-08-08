@@ -144,7 +144,9 @@ _NAMES = _re.compile(r'README[^\n]{0,400}')
 def named_defects(readmes=('README.md','README_zh.md'), ledger='RETRACTIONS.md'):
     import pathlib
     L=pathlib.Path(ledger).read_text()
-    cur={f:pathlib.Path(f).read_text() for f in readmes}
+    # `#963`: the Chinese mirror was archived (its English twin carries every anchor),
+    #   so every page-reading site filters to the pages that actually exist.
+    cur={f:pathlib.Path(f).read_text() for f in readmes if pathlib.Path(f).exists()}
     out=[]
     for e in _re.split(r'\n## Entry ',L)[1:]:
         m=_re.match(r'(\d+)',e)

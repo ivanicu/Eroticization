@@ -293,7 +293,9 @@ def rule_coverage():
         except Exception: pass
         finally: _pl.Path.read_text = _rt
         out[name] = sorted(seen)
-    P = ('README.md', 'README_zh.md')
+    P = tuple(f for f in ('README.md', 'README_zh.md') if (ROOT / f).exists()) \
+        if 'ROOT' in dir() else tuple(f for f in ('README.md', 'README_zh.md')
+                                      if pathlib.Path(f).exists())
     run('named_defects',        lambda: A.named_defects())
     run('numbers_that_left',    lambda: A.numbers_that_left(rev='HEAD~1'))
     run('uncited_numbers',      lambda: [A.uncited_numbers(x) for x in P])
@@ -316,7 +318,11 @@ def run_gate(rev=None, quiet=False):
     # `#602`:这两条原本写死 `readme='README.md'`,于是**中文那一版页面从没被扫过**
     #   —— 而交付物是两版。`named_defects` / `numbers_that_left` 本来就读两版,只有这两条没有。
     #   ⚠ 逐版分开记数,再求和:一个只报总和的闸,说不出是哪一版变差了。
-    PAGES = ('README.md', 'README_zh.md')
+    # `#963`: the Chinese mirror was archived after measuring that ZERO of its 673 anchors were
+    #   absent from the English page -- it carried no unique claim. Every page-reading site now
+    #   filters to the pages that exist, so a one-page repo is scanned rather than UNVERIFIED.
+    _root = pathlib.Path(__file__).resolve().parents[1]
+    PAGES = tuple(f for f in ('README.md', 'README_zh.md') if (_root / f).exists())
     for fn in ('uncited_numbers','internal_consistency'):
         tot, per = 0, {}
         for pg in PAGES:
@@ -337,7 +343,8 @@ def run_gate(rev=None, quiet=False):
         #   ⚠ **计数照印、分版照印,只是不再阻断** —— 与 `#572` 对 `anchor_collide` 的处理同型。
         key = f'{fn}(warn)' if fn == 'internal_consistency' else fn
         hits[key] = tot
-        hits[f'{fn}:zh(warn)'] = per['README_zh.md']   # 分版可见
+        if 'README_zh.md' in per:
+            hits[f'{fn}:zh(warn)'] = per['README_zh.md']   # per-version, visible
     # `#603`:上面这个总数**数的是段落实例,不是主张**。同一条主张在两版上各缺一次出处,
     #   就被数两次 —— 于是 `#602c` 把「同一批债被数了两遍」写成了「中文页上另有八笔债」。
     #   ⚠ 它**只进 warn 位**:棘轮仍用实例数(两版各要修一次,修一版不算修完)。

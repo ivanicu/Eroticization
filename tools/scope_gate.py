@@ -49,7 +49,10 @@ SCOPE_WORDS = ("homosex", "这一道题", "这道题", "one item", "single item"
 def scan(pages=("README_zh.md", "README.md")):
     hits = []
     for f in pages:
-        t = (ROOT/f).read_text(encoding="utf-8")
+        p = ROOT/f
+        if not p.exists():
+            continue  # Skip missing pages (e.g., archived README_zh.md)
+        t = p.read_text(encoding="utf-8")
         for kind, owner, body in units(t):
             if owner in SCOPED: continue            # 它自己那一条不必自证
             m = REFS.findall(body) if hasattr(REFS, "findall") else []
