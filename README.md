@@ -111,6 +111,30 @@ observed on the same people.
 > more permissive about same-sex relationships — crossing a sexual line loosens the whole moral frame;
 > crossing a family line loosens only that one.**
 
+⚠⚠ **DOWNGRADED ONE ROUND LATER BY `#916`, and the statistic and the sentence came apart.** The rival was
+that generalisation tracks **item breadth** — `samesex` is a broad item, `chsuppor` a narrow one — with sex
+incidental. 2011-2013 female is the only file shipping **narrow sexual** items (`sxok18`/`sxok16`, matched to
+`chsuppor`'s breadth), which makes two cells carry opposite signatures:
+
+| pair | breadth | domain | DOMAIN predicts | BREADTH predicts | measured |
+|---|---|---|---|---|---|
+| `sxok18`/`sxok16` vs `chsuppor` | **MATCHED** | differs | **≠0** | **≈0** | resolved in **33%** of 12 cells |
+| `samesex` vs `sxok18` | differs | **SAME** | **≈0** | **≠0** | resolved in **83%** of 6 cells |
+
+**The same-domain pair departs more than the breadth-matched cross-domain pair — that is breadth's signature,
+not domain's.** ⇒ **The statistic stands** (one moral dial refuted; `det` survives BH in **6 of 6** cells,
+prevalence-matched *and* unmatched). **The interpretation above does not.** Verdict is `UNVERIFIED` rather
+than overturned, because ⚠ **the one file carrying the discriminating items is the one file that cannot carry
+the placebo** — `chbother` × `cebow` are near-disjoint by questionnaire design, so every placebo cell returns
+`n = 0`, and **`UNVERIFIED` is not an acquittal**.
+
+⚠ **And the control that nearly retracted this claim was mine, three times over.** Matching `cebow` to
+`samesexany`'s base rate of **0.1820**: v1 thresholded a quantile — `cebow` is a discrete count, so it landed
+on *"more than two births"* and achieved **0.0770**, a rarer and more extreme construct, which reported
+`#915`'s `det` collapsing 6× **and was one write-up away from being published as a retraction**; v2 had the
+subsampling arithmetic backwards and achieved **0.3291**, worse than the 0.2501 it started from; v3 solves
+`(M−k)/(N−k) = r` and achieves **0.1818**. **With the control correct, `#915`'s statistic survives.**
+
 ⚠ **What it may NOT say.** ① The arrow is **not identified** — cross-sectional, so this is the *specificity
 of an association*, never causation; a permissive person may simply do more. ② **Value labels do not ship**,
 so *low = agrees* is read from the items' own wording. `det` is invariant to that flip, so **the statistic

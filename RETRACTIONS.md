@@ -45758,3 +45758,84 @@ loosens the whole moral frame, and having crossed a family line loosens only tha
    `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
    `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
    `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 916 · `E03·A112·R354` — the file that carries the discriminating items is the file that cannot carry the placebo
+
+**⇒ `UNVERIFIED` · world `controls unfit`, and **UNVERIFIED IS NOT AN ACQUITTAL FOR `#915`'s
+SENTENCE**. Two results, pointing opposite ways: `#915`'s STATISTIC survived a control that nearly
+killed it, and `#915`'s PSYCHOLOGY is now leaning the wrong way.**
+
+**WHY THIS ROUND EXISTED.** `#915` went on the front page as the project's only live claim about
+people, and it had a deflationary rival predicting the identical numbers: `samesex` is a **broad**
+item, `chsuppor` a **narrow** one, so generalisation may track **item breadth** with sex incidental.
+**The rival goes first.** 2011-2013 female is the only file shipping four items in one battery —
+`samesex` (sexual, broad) · `sxok18`/`sxok16` (sexual, NARROW, matching `chsuppor`'s breadth) ·
+`chsuppor` (family, narrow) — so two cells carry OPPOSITE signatures and no outcome satisfies both
+worlds.
+
+| pair | breadth | domain | DOMAIN predicts | BREADTH predicts | measured (median det · BH survivors) |
+|---|---|---|---|---|---|
+| `samesex` vs `chsuppor` | differs | differs | ≠0 | ≠0 | **+0.0126 · 6/6** |
+| `sxok18`/`sxok16` vs `chsuppor` | **MATCHED** | differs | **≠0** | **≈0** | **+0.00472 · 4/12, resolved in 33%** |
+| `samesex` vs `sxok18` | differs | **SAME** | **≈0** | **≠0** | **+0.01157 · 5/6, resolved in 83%** |
+
+**⚠ THE SIGNATURE THAT CAME OUT IS BREADTH'S, NOT DOMAIN'S.** The **same-domain** pair departs
+*more* (83% of cells) than the **breadth-matched cross-domain** pairs (33%). Under domain-specificity
+the same-domain pair should have been the null one. **It is the largest.**
+
+**⚠⚠ AND THE ROUND CANNOT CONVICT ON THAT, BECAUSE ITS PLACEBO STRUCTURALLY CANNOT RUN HERE.**
+`chbother` (2,446 non-missing) and `cebow` (defined only for respondents with a birth) are
+**near-disjoint by questionnaire design**, so every placebo cell returned `n = 0`. ⇒ **The one file
+that carries the discriminating items is the one file that cannot carry the control.** Verdict
+`UNVERIFIED`, and it stays `UNVERIFIED`: no amount of care fixes a control the release does not
+support.
+
+**⚠⚠⚠ THREE VERSIONS OF ONE CONTROL, AND THE FIRST TWO BOTH PRINTED A NUMBER.** The exposure-
+prevalence rival needed `cebow` matched to `samesexany`'s base rate of **0.1820**.
+**v1 thresholded a quantile.** `cebow` is a DISCRETE COUNT with atoms at 0 (1,166) and 1 (988), so
+`quantile(0.818) = 2.0` and `cebow > 2` marks **0.0770** — less than half the target, and *"more
+than two non-marital births"* is a **rarer, more extreme construct**, not a rescaling. It reported
+`#915`'s `det` collapsing from `+0.0264` to `+0.0034`, **and I nearly wrote that up as a
+retraction.**
+**v2 subsampled, with the arithmetic backwards**: dropping a marked case removes it from the
+numerator *and the denominator*, so `n_keep = r·N` overshot — target 0.1820, **achieved 0.3291,
+worse than the 0.2501 it started from.**
+**v3 solves `(M−k)/(N−k) = r`** ⇒ `k = (M − r·N)/(1 − r)`; **achieved 0.1818.**
+
+**⇒ AND WITH THE CONTROL CORRECT, `#915`'s STATISTIC STANDS**: `samesex` vs `chsuppor` survives BH
+in **6 of 6** cells, prevalence-**matched** as well as unmatched. **A false retraction is as
+permanent as a false acquittal (`#782`), and this round came within one write-up of one.**
+
+**⇒ One sentence about people: I still cannot tell you whether having crossed a sexual line loosens
+the whole moral frame, or whether the broad question simply moves more than the narrow one — and the
+honest report is that the evidence now leans toward the boring answer.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **the placebo, at all** — `chbother` × `cebow` are near-disjoint by design;
+② ⚠ **SINGLE SITE** — `sxok18`/`sxok16` ship in 2011-2013 female and nowhere else, so this
+   comparison **cannot be replicated across cycles or sexes**; `only this one instrument` is a fact
+   about the release;
+③ ⚠ **"BROAD" and "NARROW" are MY reading of the item text**, published so they can be disputed,
+   derived from nothing;
+④ the arrow is not identified, and value labels do not ship (both inherited from `#915`);
+⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **`#915`'s PAGE SENTENCE MUST BE DOWNGRADED NOW, not after a better round.** The statistic
+   (one moral dial refuted) survives; the interpretation (*"crossing a sexual line loosens the whole
+   moral frame"*) does not, because the same-domain pair departs more than the breadth-matched one.
+   **A correction must reach the artifact.** ⇒ `#916`①
+② ⚠ **`#111c` IS ARMED**: this is one `UNVERIFIED` on domain-vs-breadth. A second attempt at the
+   same question on the same file is forbidden — and the file is the only one that has the items, so
+   **the next move must be a different instrument or a different question, never a third control on
+   this one.** ⇒ `#916`②
+③ ⚠ **THE ERROR CLASS, and it is `#913`③'s twin at one level up**: `#913`③ was *scoring a thing by
+   its description*; this is **naming a control after what I intended rather than measuring what it
+   did**. `prev-matched` was a variable name for two of three versions. **HARD RULE 1 applies to
+   controls, not only to columns: print the achieved rate, not the requested one.** ⇒ `#916`③
+④ ⚠ Still `OPEN`: `#915`①② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② ·
+   `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② ·
+   `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ ·
+   `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
+   `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

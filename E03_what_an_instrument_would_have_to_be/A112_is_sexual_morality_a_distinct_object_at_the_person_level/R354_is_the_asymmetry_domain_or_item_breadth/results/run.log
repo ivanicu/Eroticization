@@ -1,0 +1,69 @@
+2011_2013_FemRespData.dat  n=5601  columns present 13/13
+  samesex      non-miss  5601/5601  top {2: 2076, 1: 1200, 3: 1169, 4: 1016, 5: 125}  IH-3 Sexual relations between two same-sex adults is
+  sxok18       non-miss  5601/5601  top {2: 2595, 3: 1652, 4: 844, 1: 456, 5: 48}  IH-5 All right for unmarried 18 year olds have sex i
+  sxok16       non-miss  5601/5601  top {4: 2483, 3: 2248, 2: 744, 1: 86, 5: 37}  IH-6 All right for unmarried 16 year olds have sex i
+  chsuppor     non-miss  5601/5601  top {2: 2886, 1: 1422, 3: 964, 4: 284, 5: 42}  IH-8 Okay for unmarried woman to have and raise a ch
+  reactslf     non-miss  4221/5601  top {1.0: 1345, 2.0: 1156, 4.0: 852, 3.0: 820, 5.0: 21}  IH-14 How R would feel if she got pregnant now
+  chbother     non-miss  2446/5601  top {1.0: 933, 2.0: 667, 4.0: 479, 3.0: 362, 9.0: 5}  IH-15 How bothered would R be if she did not have ch
+  samesexany   non-miss  5575/5601  top {5.0: 4549, 1.0: 1012, 7.0: 14}  Ever Had Sexual Contact with a Female (computed in F
+  cebow        non-miss  3141/5601  top {0.0: 1166, 1.0: 988, 2.0: 556, 3.0: 288, 4.0: 89}  Number of children born out of wedlock (RECODE)
+  age_r        non-miss  5601/5601  top {29: 230, 18: 224, 19: 222, 27: 222, 26: 220}  R's age at interview
+  educat       non-miss  5601/5601  top {12: 1294, 13: 720, 9: 689, 14: 618, 16: 607}  Education (number of years of schooling) (RECODE)
+  hisprace2    non-miss  5601/5601  top {2: 2493, 1: 1458, 3: 1171, 4: 479}  Race & Hispanic origin of respondent - 1997 OMB stan
+  reldlife     non-miss  4492/5601  top {1.0: 2711, 2.0: 1508, 3.0: 270, 8.0: 2, 7.0: 1}  IC-9 How important is religion in R's daily life
+  attndnow     non-miss  5601/5601  top {7: 1378, 2: 1107, 6: 819, 3: 691, 1: 600}  IC-10 How often R currently attends religious servic
+
+  `samesexany` base rate = 0.1820  <- the prevalence control matches `cebow` to this
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  samesex vs chsuppor    breadth=differs  domain=differs  raw          unmatched    det=+0.02643  n= 3130
+  samesex vs chsuppor    breadth=differs  domain=differs  raw          prev-matched det=+0.02831  n= 1419
+  samesex vs chsuppor    breadth=differs  domain=differs  demog        unmatched    det=+0.02435  n= 3130
+  samesex vs chsuppor    breadth=differs  domain=differs  demog        prev-matched det=+0.01349  n= 1418
+  samesex vs chsuppor    breadth=differs  domain=differs  demog+relig  unmatched    det=+0.01560  n= 2582
+  samesex vs chsuppor    breadth=differs  domain=differs  demog+relig  prev-matched det=+0.01191  n= 1193
+  sxok18 vs chsuppor     breadth=MATCHED  domain=differs  raw          unmatched    det=+0.00942  n= 3139
+  sxok18 vs chsuppor     breadth=MATCHED  domain=differs  raw          prev-matched det=+0.00940  n= 1424
+  sxok18 vs chsuppor     breadth=MATCHED  domain=differs  demog        unmatched    det=+0.01057  n= 3139
+  sxok18 vs chsuppor     breadth=MATCHED  domain=differs  demog        prev-matched det=+0.00140  n= 1425
+  sxok18 vs chsuppor     breadth=MATCHED  domain=differs  demog+relig  unmatched    det=+0.00266  n= 2590
+  sxok18 vs chsuppor     breadth=MATCHED  domain=differs  demog+relig  prev-matched det=-0.00040  n= 1199
+  sxok16 vs chsuppor     breadth=MATCHED  domain=differs  raw          unmatched    det=+0.00561  n= 3139
+  sxok16 vs chsuppor     breadth=MATCHED  domain=differs  raw          prev-matched det=+0.00517  n= 1424
+  sxok16 vs chsuppor     breadth=MATCHED  domain=differs  demog        unmatched    det=+0.00966  n= 3139
+  sxok16 vs chsuppor     breadth=MATCHED  domain=differs  demog        prev-matched det=+0.00428  n= 1425
+  sxok16 vs chsuppor     breadth=MATCHED  domain=differs  demog+relig  unmatched    det=+0.00147  n= 2589
+  sxok16 vs chsuppor     breadth=MATCHED  domain=differs  demog+relig  prev-matched det=+0.00015  n= 1189
+  samesex vs sxok18      breadth=differs  domain=SAME     raw          unmatched    det=+0.01572  n= 3130
+  samesex vs sxok18      breadth=differs  domain=SAME     raw          prev-matched det=+0.01168  n= 1418
+  samesex vs sxok18      breadth=differs  domain=SAME     demog        unmatched    det=+0.01055  n= 3130
+  samesex vs sxok18      breadth=differs  domain=SAME     demog        prev-matched det=+0.01868  n= 1416
+  samesex vs sxok18      breadth=differs  domain=SAME     demog+relig  unmatched    det=+0.00783  n= 2582
+  samesex vs sxok18      breadth=differs  domain=SAME     demog+relig  prev-matched det=+0.01146  n= 1193
+  reactslf vs chbother   breadth=n/a      domain=n/a      raw          unmatched    det=   nan    n=    0
+  reactslf vs chbother   breadth=n/a      domain=n/a      raw          prev-matched det=   nan    n=    0
+  reactslf vs chbother   breadth=n/a      domain=n/a      demog        unmatched    det=   nan    n=    0
+  reactslf vs chbother   breadth=n/a      domain=n/a      demog        prev-matched det=   nan    n=    0
+  reactslf vs chbother   breadth=n/a      domain=n/a      demog+relig  unmatched    det=   nan    n=    0
+  reactslf vs chbother   breadth=n/a      domain=n/a      demog+relig  prev-matched det=   nan    n=    0
+
+  one-factor null: median -0.00031  sd 0.00421  (n=5586, 80 reps)
+  positive sweep (g, median det): [(0.0, -0.00156), (0.25, 0.0196), (0.5, 0.07225), (0.75, 0.13993), (1.0, 0.20778)]
+
+  breadth-MATCHED cross-domain (sxok18/sxok16 vs chsuppor): median det +0.00472  resolved in 33% of 12 cells
+  SAME-domain breadth-differing (samesex vs sxok18)       : median det +0.01157  resolved in 83% of 6 cells
+  placebo (reactslf vs chbother)                          : median det +nan
+
+  CONDITIONAL KILL -- Is `#915`'s asymmetry about the DOMAIN, or about how broad the item is?
+   PASS  positive: planted domain coupling raises det, and g=0 is null                       方向由数据给出:**上升**;灵敏度 g=0.25;g=0 -0.0016 · g=1 +0.2078   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  synthetic ONE-FACTOR world at the observed n and marginals                          |+0.0003| < 0.5*|+0.0047| = 0.0024   (null is 7% of the effect [零的方案: one-factor latent, matched loadings])
+   PASS  the whole four-pair grid                                                            method=bh q=0.05 · **cells tested 24 · cells surviving 15** · 存活 ['samesex vs chsuppor|raw|unmatched', 'samesex vs chsuppor|raw|prev-matched', 'samesex vs chsuppor|demog|unmatched', 'samesex vs chsuppor|demog|prev-matched', 'samesex vs chsuppor|demog+relig|unmatched', 'samesex vs chsuppor|demog+relig|prev-matched', 'sxok18 vs chsuppor|raw|unmatched', 'sxok18 vs chsuppor|raw|prev-matched', 'sxok18 vs chsuppor|demog|unmatched', 'sxok16 vs chsuppor|demog|unmatched', 'samesex vs sxok18|raw|unmatched', 'samesex vs sxok18|raw|prev-matched', 'samesex vs sxok18|demog|unmatched', 'samesex vs sxok18|demog|prev-matched', 'samesex vs sxok18|demog+relig|prev-matched'] · 未存活 ['sxok18 vs chsuppor|demog|prev-matched', 'sxok18 vs chsuppor|demog+relig|unmatched', 'sxok18 vs chsuppor|demog+relig|prev-matched', 'sxok16 vs chsuppor|raw|unmatched', 'sxok16 vs chsuppor|raw|prev-matched', 'sxok16 vs chsuppor|demog|prev-matched', 'sxok16 vs chsuppor|demog+relig|unmatched', 'sxok16 vs chsuppor|demog+relig|prev-matched']…   (control)
+   FAIL  placebo actually RAN at this site (absence is not a pass)                           placebo det nan over 0 cells; `chbother` x `cebow` are near-disjoint by design, so this site STRUCTURALLY cannot supply the placebo `#915` had at its two 2017-2019 sites (-0.0010943688599418014); scope stated   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                   30/30 格带 n   (每一格都声明了自己的人群规模)
+   PASS  prevalence control ACHIEVED the target rate, not merely attempted it                target 0.1820 · achieved 0.1818 · unmatched 0.2501; v1 thresholded a discrete count and achieved 0.0770 while claiming to match 0.1820; scope stated   (asserted in code, not in prose)
+   FAIL  KILL: world B (breadth) requires the breadth-MATCHED cross-domain pairs to be null  breadth-matched median det +0.00472 vs null -0.00031 +/- 0.00421; resolved in 33% of cells   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (placebo actually RAN at this site (absence is not a pass))
+  gate three-valued : UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (placebo actually RAN at this site (absence is not a pass))
+  VERDICT           : UNVERIFIED · world controls unfit
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R354_is_the_asymmetry_domain_or_item_breadth/results/domain_or_breadth.json
