@@ -528,6 +528,42 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#947` · the exchange rate did not move, and the story I told twice was co-occurrence
+
+`#942` found tolerance of homosexuals rising within cohorts while tolerance of racists fell. `#945`
+found `homosexuals × racists` the most negative pair in the battery, in all three stems. **I wrote
+that as "two designs sharing no machinery, one pair" — twice in the ledger and once on this page.**
+But `#945` is pooled over 19 waves, so it is equally compatible with a trade-off constant since 1988.
+**Co-occurrence is not mechanism**, and the flat outcome was registered before the run as the
+unwelcome one, precisely because I had already told the story.
+
+| `#947` stem | raw observed trend | **the null's own trend** | **departure trend** | its bootstrap |
+|---|---|---|---|---|
+| speak | −0.0393 | **−0.0317** | **−0.0076** | ± 0.0064 (1.2σ) |
+| teach | −0.0183 | **−0.0284** | **+0.0101** | ± 0.0074 (1.4σ) |
+| library | −0.0572 | **−0.0397** | **−0.0176** | ± 0.0075 (2.3σ) |
+
+**Four-fifths of what looks like a sharpening trade-off is the marginals drifting** (`#947`). For `speak` the
+raw residual correlation trends −0.0393 per decade — read alone, a textbook "the trade-off is
+intensifying" — and its **within-person target-label permutation null trends −0.0317 all by itself**,
+because as tolerance rises the item marginals move and the expected permutation correlation moves with
+them. What survives subtraction is −0.0076, **1.2σ, not resolved**.
+
+**Verdict `OVERTURNED`.** The staked mechanism needed ≥2 of 3 stems sharpening past twice their own
+bootstrap spread; **1 of 3 does**, one points the other way, and **`homosexuals × racists` survives BH
+in no stem** — 9 of 30 cells survive over the whole grid and none is the head pair. **The exchange
+rate is a stable feature of American attitudes since at least 1988, not the mechanism behind `#942`'s
+opposing trends.**
+
+⚠ **What must be unsaid**: `#945`'s finding stands and `#942`'s stands. What does not stand is the
+implication that the first explains the second — the reading my own phrasing invited. **The trade-off
+was already there in 1988, at roughly the size it has now.**
+
+> **One sentence about people (`#947`): the trade a person makes between tolerating homosexuals and
+> tolerating racists is not new and is not tightening — it was already there in 1988 at about today's
+> size, so the two groups' opposite journeys since were not one group's gain taken from the other;
+> they moved apart for reasons this exchange rate does not explain.**
+
 ### `#945` · the exchange rate is between homosexuals and racists
 
 `#929` says *total tolerance rose +2.131 of 15 — growth, **not zero-sum***. But zero-sum is a claim

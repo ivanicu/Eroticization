@@ -1,0 +1,523 @@
+{
+ "entry": 947,
+ "round": "E03\u00b7A125\u00b7R384",
+ "gate_verdict": "   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the null's own trend is flat. STAKED: W_MECHANISM, i.e. the `homo x rac` departure grows MORE negative past twice its own bo",
+ "gates": [
+  [
+   "positive: a GROWING planted trade-off drives the departure trend down, and g=0 sits ON the null (`#922`)",
+   true,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.3;g=0 +0.0049 \u00b7 g=0.9 +0.1482"
+  ],
+  [
+   "association destroyed, marginals left drifting: the DEPARTURE trend must vanish even though the NULL's own trend does not (and it does not \u2014 that drift is what the departure subtracts)",
+   true,
+   "|+0.0040| < 0.5*|+0.0118| = 0.0059"
+  ],
+  [
+   "all 30 pair x stem departure trends \u2014 NOT the one pair I care about (`#936`\u2461/`#940`\u2461: picking the headline as its own family is how this recurs)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 30 \u00b7 cells surviving 9** \u00b7 \u5b58\u6d3b ['spk/homo-com', 'spk/homo-ath', 'spk/rac-com', 'spk/rac-ath', 'col/rac-ath', 'col/com-mil', 'col/com-ath', 'lib/homo-ath', 'lib/rac-com'] \u00b7 \u672a\u5b58\u6d3b ['spk/homo-rac', 'spk/homo-mil', 'spk/rac-mil', 'spk/com-mil', 'spk/com-ath', 'spk/mil-ath', 'col/homo-rac', 'col/homo-com']\u2026"
+  ],
+  [
+   "\u26a0 the trend is of a DEPARTURE, never of a raw correlation, because the marginals move over time and the per-wave null absorbs exactly that (registered before the run)",
+   true,
+   "spk: dep trend -0.0076 vs raw-obs trend -0.0393 \u00b7 col: dep trend +0.0101 vs raw-obs trend -0.0183 \u00b7 lib: dep trend -0.0176 vs raw-obs trend -0.0572 \u00b7 \u603b\u4f53:GSS all 15 items jointly, n=22420, 19 waves 1988-2021"
+  ],
+  [
+   "\u26a0 HARD RULE 1: per-wave n printed, and the resolution it implies stated",
+   true,
+   "per-wave n 736-1767 (median 1143) \u21d2 a per-wave r carries sampling sd ~0.0296; the trend's own bootstrap spread is 0.0071 \u00b7 \u603b\u4f53:GSS all 15 items jointly, n=22420, 19 waves 1988-2021"
+  ],
+  [
+   "the whole 30-cell grid is the multiplicity family and is published",
+   true,
+   "spk/homo-rac -0.008 \u00b7 spk/homo-com -0.019 \u00b7 spk/homo-mil +0.006 \u00b7 spk/homo-ath +0.033 \u00b7 spk/rac-com +0.039 \u00b7 spk/rac-mil +0.015 \u00b7 spk/rac-ath -0.019 \u00b7 spk/com-mil +0.008 \u00b7 spk/com-ath -0.006 \u00b7 spk/mil-ath +0.003 \u00b7 col/homo-rac +0.010 \u00b7 col/homo-com +0.007 \u00b7 \u202618 more in the artifact \u00b7 \u603b\u4f53:GSS all 15 items jointly, n=22420, 19 waves 1988-2021"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the null's own trend is flat. STAKED: W_MECHANISM, i.e. the `homo x rac` departure grows MORE negative past twice its own bootstrap spread in >=2 of 3 stems. \u26a0 W_CONSTANT is the UNWELCOME branch \u2014 it would make the `#945`/`#942` pairing a narrative I have written twice \u2014 and W_WEAKENS would force a retraction",
+   false,
+   "positive fires True \u00b7 departure vanishes in the synthetic null world True (0.00399 vs half the observed 0.00589; \u26a0 the NULL's OWN trend is 0.03230 and is SUPPOSED to be non-flat) \u00b7 stems sharpening: 1/3 \u00b7 weakening: 0/3 \u00b7 resolved at all: 1/3 \u21d2 W_MIXED   \u5c3a:trend per decade of the departure from the per-wave null,\u5176\u81ea\u8eab\u566a\u58f0 0.00713791 \u00b7 \u603b\u4f53:GSS all 15 items jointly, n=22420, 19 waves 1988-2021 \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:3/3 \u6761\u5df2\u547d\u540d,**\u4e0e\u5224\u636e\u540c\u4e00\u603b\u4f53**(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "n": 22420,
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021
+ ],
+ "per_wave_n": {
+  "1988": 774,
+  "1989": 808,
+  "1990": 736,
+  "1991": 816,
+  "1993": 846,
+  "1994": 1624,
+  "1996": 1534,
+  "1998": 1497,
+  "2000": 1491,
+  "2002": 812,
+  "2004": 789,
+  "2006": 1767,
+  "2008": 1143,
+  "2010": 1090,
+  "2012": 1102,
+  "2014": 1494,
+  "2016": 1630,
+  "2018": 1323,
+  "2021": 1144
+ },
+ "head_pair": [
+  "homo",
+  "rac"
+ ],
+ "rows": [
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "rac",
+   "trend_departure": -0.00763475758967219,
+   "trend_observed": -0.03928559807562111,
+   "trend_null": -0.031650840485948906,
+   "mean_departure": -0.12547215645560494,
+   "first_dep": -0.19524713580196168,
+   "last_dep": -0.14072193414068082
+  },
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "com",
+   "trend_departure": -0.019483516332792335,
+   "trend_observed": -0.048591385835135434,
+   "trend_null": -0.029107869502343117,
+   "mean_departure": -0.039428738729594924,
+   "first_dep": 0.05396283000158694,
+   "last_dep": 0.03361568605497091
+  },
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "mil",
+   "trend_departure": 0.006334731569458131,
+   "trend_observed": -0.022732829929796736,
+   "trend_null": -0.029067561499254872,
+   "mean_departure": -0.08583246391821946,
+   "first_dep": -0.027160651599740765,
+   "last_dep": -0.12484718805087064
+  },
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "ath",
+   "trend_departure": 0.03281493218767519,
+   "trend_observed": 0.0018817971844659412,
+   "trend_null": -0.030933135003209246,
+   "mean_departure": 0.08373562892252681,
+   "first_dep": 0.06274106218593656,
+   "last_dep": 0.12913476896513607
+  },
+  {
+   "stem": "spk",
+   "a": "rac",
+   "b": "com",
+   "trend_departure": 0.03885262533827919,
+   "trend_observed": 0.007402526881726882,
+   "trend_null": -0.031450098456552306,
+   "mean_departure": 0.00921140071998774,
+   "first_dep": -0.10284436304272723,
+   "last_dep": 0.009650457804994426
+  },
+  {
+   "stem": "spk",
+   "a": "rac",
+   "b": "mil",
+   "trend_departure": 0.014778096108815192,
+   "trend_observed": -0.017061398318494594,
+   "trend_null": -0.031839494427309795,
+   "mean_departure": 0.02760686234951181,
+   "first_dep": 0.014602622180510998,
+   "last_dep": 0.14670949450593618
+  },
+  {
+   "stem": "spk",
+   "a": "rac",
+   "b": "ath",
+   "trend_departure": -0.019116787339360453,
+   "trend_observed": -0.04945800485566204,
+   "trend_null": -0.0303412175163016,
+   "mean_departure": 0.0948715332717899,
+   "first_dep": 0.12654608433199538,
+   "last_dep": 0.032285287681764266
+  },
+  {
+   "stem": "spk",
+   "a": "com",
+   "b": "mil",
+   "trend_departure": 0.007684780009526288,
+   "trend_observed": -0.02291486068376297,
+   "trend_null": -0.03059964069328925,
+   "mean_departure": 0.06578779762880152,
+   "first_dep": 0.10683687125831995,
+   "last_dep": 0.12430726087218963
+  },
+  {
+   "stem": "spk",
+   "a": "com",
+   "b": "ath",
+   "trend_departure": -0.006052769488672747,
+   "trend_observed": -0.03567711049148509,
+   "trend_null": -0.029624341002812343,
+   "mean_departure": 0.11540705088754648,
+   "first_dep": 0.04960230407287533,
+   "last_dep": 0.1640893796303346
+  },
+  {
+   "stem": "spk",
+   "a": "mil",
+   "b": "ath",
+   "trend_departure": 0.00266002890078745,
+   "trend_observed": -0.03008035533180519,
+   "trend_null": -0.03274038423259264,
+   "mean_departure": 0.014407732405980037,
+   "first_dep": 0.008200004780778584,
+   "last_dep": 0.04854957102430409
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "rac",
+   "trend_departure": 0.010113430443912691,
+   "trend_observed": -0.018327067038903164,
+   "trend_null": -0.028440497482815855,
+   "mean_departure": -0.14498360987567258,
+   "first_dep": -0.18976421409758076,
+   "last_dep": -0.08541136469713485
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "com",
+   "trend_departure": 0.006946732569237134,
+   "trend_observed": -0.018844922004843074,
+   "trend_null": -0.025791654574080204,
+   "mean_departure": -0.07554811794865349,
+   "first_dep": -0.13223942316247134,
+   "last_dep": 6.200843546688706e-07
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "mil",
+   "trend_departure": -0.015045079747556832,
+   "trend_observed": -0.04180017101659883,
+   "trend_null": -0.02675509126904199,
+   "mean_departure": -0.09969522819403158,
+   "first_dep": -0.08608564595294475,
+   "last_dep": -0.14727349975925647
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "ath",
+   "trend_departure": 0.001650019478594441,
+   "trend_observed": -0.021906405566867106,
+   "trend_null": -0.023556425045461543,
+   "mean_departure": -0.021366340170351522,
+   "first_dep": 0.03836632296734323,
+   "last_dep": 0.03977665921198618
+  },
+  {
+   "stem": "col",
+   "a": "rac",
+   "b": "com",
+   "trend_departure": 0.017033314410930495,
+   "trend_observed": -0.010859245978881521,
+   "trend_null": -0.02789256038981202,
+   "mean_departure": -0.0855599730197819,
+   "first_dep": -0.12208258131600046,
+   "last_dep": -0.08418047275224594
+  },
+  {
+   "stem": "col",
+   "a": "rac",
+   "b": "mil",
+   "trend_departure": 0.007176574097749628,
+   "trend_observed": -0.02034973569425143,
+   "trend_null": -0.027526309792001057,
+   "mean_departure": 0.1800792734935146,
+   "first_dep": 0.11870951192881662,
+   "last_dep": 0.24197659877085131
+  },
+  {
+   "stem": "col",
+   "a": "rac",
+   "b": "ath",
+   "trend_departure": -0.028800169600751907,
+   "trend_observed": -0.054307291433606894,
+   "trend_null": -0.025507121832854966,
+   "mean_departure": 0.2187788245707442,
+   "first_dep": 0.23606031212426903,
+   "last_dep": 0.11092624962647929
+  },
+  {
+   "stem": "col",
+   "a": "com",
+   "b": "mil",
+   "trend_departure": 0.020842918681507186,
+   "trend_observed": -0.00588117018672185,
+   "trend_null": -0.026724088868229027,
+   "mean_departure": 0.030807185145065464,
+   "first_dep": 0.06777088878306153,
+   "last_dep": 0.07769786659676123
+  },
+  {
+   "stem": "col",
+   "a": "com",
+   "b": "ath",
+   "trend_departure": 0.043090875832631936,
+   "trend_observed": 0.01811617826069007,
+   "trend_null": -0.024974697571941862,
+   "mean_departure": 0.01465877454066008,
+   "first_dep": -0.0016356339104674975,
+   "last_dep": 0.19333026036814355
+  },
+  {
+   "stem": "col",
+   "a": "mil",
+   "b": "ath",
+   "trend_departure": -0.003803824919482202,
+   "trend_observed": -0.029073011948849793,
+   "trend_null": -0.025269187029367587,
+   "mean_departure": 0.1707161461022154,
+   "first_dep": 0.18138718958382194,
+   "last_dep": 0.16564866208802528
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "rac",
+   "trend_departure": -0.017595121011171607,
+   "trend_observed": -0.0572465257163693,
+   "trend_null": -0.03965140470519769,
+   "mean_departure": -0.11625112365673221,
+   "first_dep": -0.14208971785600735,
+   "last_dep": -0.14723224732199314
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "com",
+   "trend_departure": -0.0056187469610368326,
+   "trend_observed": -0.044756517083455405,
+   "trend_null": -0.03913777012241858,
+   "mean_departure": -0.018710387160646793,
+   "first_dep": 0.022251240192639785,
+   "last_dep": -0.0025186847276110515
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "mil",
+   "trend_departure": 0.00186345951453537,
+   "trend_observed": -0.0372168329453201,
+   "trend_null": -0.039080292459855476,
+   "mean_departure": -0.034731993485325,
+   "first_dep": -0.0871964829048219,
+   "last_dep": -0.06841566812913227
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "ath",
+   "trend_departure": 0.02630768930682846,
+   "trend_observed": -0.01595341387976279,
+   "trend_null": -0.04226110318659125,
+   "mean_departure": 0.010408205866403654,
+   "first_dep": -0.028727850368629432,
+   "last_dep": 0.10716639643576298
+  },
+  {
+   "stem": "lib",
+   "a": "rac",
+   "b": "com",
+   "trend_departure": 0.028296834718392786,
+   "trend_observed": -0.012996393310777244,
+   "trend_null": -0.04129322802917003,
+   "mean_departure": -0.0014270907196091815,
+   "first_dep": -0.09369710332031071,
+   "last_dep": -0.004872732757615877
+  },
+  {
+   "stem": "lib",
+   "a": "rac",
+   "b": "mil",
+   "trend_departure": 0.017944252021368075,
+   "trend_observed": -0.022848683141405177,
+   "trend_null": -0.04079293516277325,
+   "mean_departure": -0.012899046349757845,
+   "first_dep": -0.01678566970258917,
+   "last_dep": 0.15129376623983382
+  },
+  {
+   "stem": "lib",
+   "a": "rac",
+   "b": "ath",
+   "trend_departure": -0.013724988964298336,
+   "trend_observed": -0.054824243490885036,
+   "trend_null": -0.04109925452658669,
+   "mean_departure": 0.08872146551398204,
+   "first_dep": 0.07824844716950136,
+   "last_dep": -0.04327479655822671
+  },
+  {
+   "stem": "lib",
+   "a": "com",
+   "b": "mil",
+   "trend_departure": -0.004692748928296732,
+   "trend_observed": -0.04526311638060502,
+   "trend_null": -0.040570367452308284,
+   "mean_departure": 0.12142273888719565,
+   "first_dep": 0.18404649546605797,
+   "last_dep": 0.17726996039987514
+  },
+  {
+   "stem": "lib",
+   "a": "com",
+   "b": "ath",
+   "trend_departure": 0.010795252069298517,
+   "trend_observed": -0.02768571685026021,
+   "trend_null": -0.038480968919558725,
+   "mean_departure": 0.06285440086871319,
+   "first_dep": 0.07870118385537139,
+   "last_dep": 0.1377616605982661
+  },
+  {
+   "stem": "lib",
+   "a": "mil",
+   "b": "ath",
+   "trend_departure": 0.0076731755170758205,
+   "trend_observed": -0.02903690789373374,
+   "trend_null": -0.03671008341080956,
+   "mean_departure": -0.028230268012967102,
+   "first_dep": 0.040804569166739676,
+   "last_dep": -0.028178054570938547
+  }
+ ],
+ "head_rows": [
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "rac",
+   "trend_departure": -0.00763475758967219,
+   "trend_observed": -0.03928559807562111,
+   "trend_null": -0.031650840485948906,
+   "mean_departure": -0.12547215645560494,
+   "first_dep": -0.19524713580196168,
+   "last_dep": -0.14072193414068082
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "rac",
+   "trend_departure": 0.010113430443912691,
+   "trend_observed": -0.018327067038903164,
+   "trend_null": -0.028440497482815855,
+   "mean_departure": -0.14498360987567258,
+   "first_dep": -0.18976421409758076,
+   "last_dep": -0.08541136469713485
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "rac",
+   "trend_departure": -0.017595121011171607,
+   "trend_observed": -0.0572465257163693,
+   "trend_null": -0.03965140470519769,
+   "mean_departure": -0.11625112365673221,
+   "first_dep": -0.14208971785600735,
+   "last_dep": -0.14723224732199314
+  }
+ ],
+ "head_bootstrap": {
+  "spk": {
+   "mean": -0.009176391453048292,
+   "sd": 0.006447611446850379
+  },
+  "col": {
+   "mean": 0.008031772239741925,
+   "sd": 0.007419748373486989
+  },
+  "lib": {
+   "mean": -0.018488648518077487,
+   "sd": 0.007546375913744449
+  }
+ },
+ "null_own_trend": 0.032295654155016326,
+ "synthetic_departure_trend": 0.00399106251534259,
+ "null_median": 0.00399106251534259,
+ "null_sd": 0.007137911911360606,
+ "null_draws": 25,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.0048813322002688045
+  ],
+  [
+   0.3,
+   -0.05164338728629112
+  ],
+  [
+   0.6,
+   -0.10177053767696105
+  ],
+  [
+   0.9,
+   -0.14818278887455905
+  ]
+ ],
+ "grid": [
+  {
+   "stem": "spk",
+   "spec": "all respondents",
+   "trend_departure": -0.00763475758967219,
+   "trend_observed": -0.03928559807562111,
+   "n": 22420
+  },
+  {
+   "stem": "col",
+   "spec": "all respondents",
+   "trend_departure": 0.010113430443912691,
+   "trend_observed": -0.018327067038903164,
+   "n": 22420
+  },
+  {
+   "stem": "lib",
+   "spec": "all respondents",
+   "trend_departure": -0.017595121011171607,
+   "trend_observed": -0.0572465257163693,
+   "n": 22420
+  }
+ ],
+ "family_size": 30,
+ "sharpen": 1,
+ "weaken": 0,
+ "resolved": 1,
+ "world": "W_MIXED",
+ "verdict": "OVERTURNED \u00b7 world W_MIXED"
+}

@@ -48028,3 +48028,65 @@ behind `#942`'s opposing trends; **if it is constant, then pairing `#945` with `
 have been telling across two rounds** and the two facts are unrelated. `#946`② ⚠ **check the other
 standing claims for the same disease** — this one was caught because two rounds happened to point at
 it; nothing systematically asks which page sentences a later entry has already qualified.
+
+## Entry 947 · `E03·A125·R384` — the exchange rate did not move, and the story I told twice was co-occurrence
+
+**`#946`①, and it is the round I set up to lose.** `#942` found tolerance of homosexuals rising
+within cohorts while tolerance of racists fell. `#945` found `homosexuals × racists` the most
+negative pair in the whole battery, in all three stems. **I wrote that as "two designs sharing no
+machinery, one pair" — twice in the ledger and once on the page.** But `#945` is pooled over 19 waves,
+so it is equally compatible with a trade-off that has been constant since 1988 and has nothing to do
+with the trends. **Co-occurrence is not mechanism**, and W_CONSTANT was registered before the run as
+the unwelcome branch precisely because I had already told the story.
+
+| stem | raw observed trend | **the null's own trend** | **departure trend** | its bootstrap |
+|---|---|---|---|---|
+| speak | −0.0393 | **−0.0317** | **−0.0076** | ± 0.0064 (1.2σ) |
+| teach | −0.0183 | **−0.0284** | **+0.0101** | ± 0.0074 (1.4σ) |
+| library | −0.0572 | **−0.0397** | **−0.0176** | ± 0.0075 (2.3σ) |
+
+**⚠⚠⚠ FOUR-FIFTHS OF WHAT LOOKS LIKE A SHARPENING TRADE-OFF IS THE MARGINALS DRIFTING.** For `speak`
+the raw residual correlation trends **−0.0393** per decade — which read alone is a textbook
+"the trade-off is intensifying" — and its **within-person target-label permutation null trends
+−0.0317 all by itself**, because as tolerance rises the item marginals move and the expected
+permutation correlation moves with them. What is left after subtracting it is **−0.0076, 1.2 spreads,
+not resolved.**
+
+**VERDICT: `OVERTURNED` · `W_MIXED`, and the honest reading is W_CONSTANT.** The staked W_MECHANISM
+needed ≥2 of 3 stems sharpening past twice their own bootstrap spread; **1 of 3 does** (`library`,
+2.3σ), one points the other way, and **`homosexuals × racists` survives BH in NO stem** — only 9 of 30
+cells survive over the whole grid, and none of them is the head pair. **The exchange rate `#945`
+measured is a stable structural feature of American attitudes since at least 1988, not the mechanism
+behind `#942`'s opposing trends.**
+
+**⚠ What I must now unsay.** `#945`'s closing line — *"two designs sharing no machinery, pointing at
+one pair"* — is **still true and no longer load-bearing**. Both facts stand: the pair does trade off,
+and its two components did move in opposite directions. **What does not stand is the implication that
+the first explains the second**, which is the reading my phrasing invited and which I repeated at
+`#946`. The trade-off was already there in 1988, at roughly the size it has now.
+
+**⚠⚠ AND MY NEGATIVE CONTROL WAS MIS-SPECIFIED — THE THIRD ROUND RUNNING.** v1 asserted *"the null's
+own trend must be flat, or the null is drifting and nothing is admissible"*, and it failed at
+**274% of the effect**. The control was wrong, not the design: **the null's trend is SUPPOSED to be
+non-flat**, because the marginals drift and that drift is exactly what the departure subtracts. I
+wrote a control demanding a property my own estimand exists to remove. That is `#916`③'s family for
+the third consecutive round (`#945` twice, now here) — **a control named after what I meant rather
+than what the design needs** — and each time the gate refused the round and I had to find it by
+reading. Repaired to the control the design actually requires: a synthetic world with the association
+destroyed but the marginals drifting as observed, where the **departure** trend must vanish. It does:
+**0.00399 against an observed 0.01178.**
+
+**ONE SENTENCE ABOUT PEOPLE.** The trade a person makes between tolerating homosexuals and tolerating
+racists is **not new and is not tightening**: it was already there in 1988 at about the size it has
+today, so the two groups' opposite journeys over the last three decades were **not** one group's gain
+being taken from the other — they moved apart for reasons this exchange rate does not explain.
+
+**NEXT** — `#947`① **`#945`'s page block needs one sentence added, not removed**: its finding stands,
+its adjacency to `#942` must stop reading as mechanism. This is `#946`'s lesson recurring within one
+round of being written, which is itself worth noticing. `#947`② ⚠ **the mis-specified negative control
+is now three consecutive rounds and is this project's live defect**, ahead of the wrong-quantity class
+`#940`② named: `lib/gates.py`'s `negative_control` takes a null and an effect and never asks *what
+world does destroying this structure produce, and is that the world my estimand assumes*. `#947`③
+**the drift decomposition is a reusable instrument nobody asked for**: `raw trend = null's trend +
+departure trend` cleanly separated 4/5 from 1/5 here, and every trend claim in A114–A118 was computed
+without it.
