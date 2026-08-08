@@ -48090,3 +48090,34 @@ world does destroying this structure produce, and is that the world my estimand 
 **the drift decomposition is a reusable instrument nobody asked for**: `raw trend = null's trend +
 departure trend` cleanly separated 4/5 from 1/5 here, and every trend claim in A114–A118 was computed
 without it.
+
+## Entry 948 · `E03·A125` — PRODUCTION: the same correction, discharged the same day it was owed
+
+**Not a Frontier action, no card, no experiment.** `#947`① said `#945`'s page block needed one
+sentence **added** — its adjacency to `#942` had to stop reading as mechanism. **`#946` was written
+one round earlier and its whole content was that this exact class of debt gets deferred because the
+next frontier question is more interesting.** Discharging it immediately is the only way that entry
+means anything.
+
+**What landed**, on `#945`'s own block in both languages, as an annotation and not a rewrite (`L81`):
+the trade-off **does not sharpen** across the 19 waves — `homosexuals × racists` survives BH in no
+stem, and **four-fifths of the apparent intensification is the item marginals drifting** (speak: raw
+−0.0393/decade, of which the permutation null alone contributes −0.0317, leaving −0.0076 at 1.2σ).
+**Both `#945` and `#942` stand; the implication that the first explains the second does not.**
+
+**⚠ The one general thing.** `#946` named the disease and `#947` reproduced it **within a single
+round** — I wrote "two designs, one pair" at `#945`, repeated it at `#946`, and only `#947` tested
+it. The lag is not laziness; it is that **a sentence which merely juxtaposes two true findings never
+looks like a claim**, so nothing flags it and no gate can see it. That is why `#947`① had to be paid
+the same day, and why `#946`② — *nothing systematically asks which page sentences a later entry has
+qualified* — is the real open item, not this one.
+
+**ONE SENTENCE ABOUT PEOPLE.** Unchanged, now stated where a reader of `#945` will meet it: **the
+trade between tolerating homosexuals and tolerating racists is real, and it is old — it did not
+tighten while the two groups' fortunes diverged.**
+
+**NEXT** — `#948`① `#947`② stands as this project's live defect: **three consecutive mis-specified
+negative controls**, and `lib/gates.py` still never asks what world destroying a structure produces.
+`#948`② `#947`③ the drift decomposition `raw = null's own trend + departure` should be run over
+A114–A118's trend claims, where `#940` already showed cohort-demeaning moves the numbers — **two
+independent inflations, neither yet applied to the arc's headlines.**

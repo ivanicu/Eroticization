@@ -596,6 +596,14 @@ against a mean departure of **0.07395**.
 different route, found tolerance of homosexuals rising within cohorts and tolerance of racists
 falling. Two designs sharing no machinery, one pair.
 
+> ⚠⚠ **AND THAT IS ADJACENCY, NOT MECHANISM — corrected at `#947`, which tested it and lost; this
+> sentence landed at `#948`.** Dated
+> across the 19 waves, the trade-off **does not sharpen**: `homosexuals × racists` survives BH in no
+> stem, and four-fifths of what looked like an intensifying trade was the item marginals drifting
+> (speak: raw −0.0393/decade, of which the permutation null alone contributes −0.0317, leaving
+> −0.0076 at 1.2σ). **It was already there in 1988 at roughly today's size.** Both facts stand; the
+> implication that the first explains the second does not, and it was my phrasing that invited it.
+
 ⚠ **Scope, and the confound is not small** (`#945`): at the **raw** level that pair is **positive in every
 stem** (+0.2430, +0.3076, +0.4171) — tolerant people are tolerant of both. The trade-off appears only
 net of a person's general level, and removing the person mean removes exactly the general factor that
