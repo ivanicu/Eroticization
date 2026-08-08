@@ -1,0 +1,14 @@
+=== verdict-contradiction gate (`#931`, pays `#930`(3)) ===
+  control positive (`#930`'s shape: OVERTURNED beside 'surviving 0' and 'DOES NOT survive') must be CAUGHT: PASS
+  control negative (same verdict, survivors present) must NOT be caught:            PASS
+  control blind    (no gate rows -> UNREADABLE, never PASS):                        PASS
+
+  artifacts 479 · with a verdict AND gate rows 30 · ⚠ UNREADABLE 449 · CONTRADICTED 2
+    ⚠ named, pre-cutoff #930  verdict says `OVERTURNED -- controls sound, and …` but:
+        · `all era splits` — the multiplicity correction left NOTHING standing
+        · `CEILING control ran: every change is also expressed against ` — a robustness rescale was reported as not survived
+    ⚠ named, pre-cutoff #919  verdict says `OVERTURNED -- controls sound, and …` but:
+        · `the whole family x wave x adjustment x item grid` — the multiplicity correction left NOTHING standing
+    ⚠ 449 artifact(s) carry no `gate_verdict`/`gates` and are UNREADABLE, NOT cleared
+
+  ⚠ Scope: a match proves a contradiction is present; NO match is not proof of consistency — a round can contradict itself in words this pattern does not know (P6 safe side). From #931 on, a contradiction BLOCKS. Required: gates=[(name, ok, ...)] rows AND a `gate_verdict` string

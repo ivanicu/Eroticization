@@ -1,0 +1,58 @@
+{
+ "entry": 931,
+ "round": "E03\u00b7A113\u00b7R369",
+ "verdict": "CONFIRMED",
+ "world": "VERDICT-BLIND",
+ "kind": "PRODUCTION (labelled): an instrument, plus the measurement of what it found",
+ "estimand": "how many rounds print a positive verdict while one of their own control rows reports evidence against it",
+ "artifacts": 479,
+ "readable": 30,
+ "unreadable": 449,
+ "contradicted": 2,
+ "hits": [
+  {
+   "entry": 919,
+   "verdict": "OVERTURNED -- controls sound, and the pre-registered thresho",
+   "found": [
+    [
+     "the whole family x wave x adjustment x item grid",
+     "the multiplicity correction left NOTHING standing"
+    ]
+   ]
+  },
+  {
+   "entry": 930,
+   "verdict": "OVERTURNED -- controls sound, and the pre-registered thresho",
+   "found": [
+    [
+     "all era splits",
+     "the multiplicity correction left NOTHING standing"
+    ],
+    [
+     "CEILING control ran: every change is also expressed against ",
+     "a robustness rescale was reported as not survived"
+    ]
+   ]
+  }
+ ],
+ "controls": {
+  "positive": true,
+  "negative": true,
+  "blind": true
+ },
+ "cutoff": 931,
+ "library_defect": "three_valued() reads pass/fail booleans only; multiplicity_control PASSES when BH leaves nothing standing",
+ "my_defect": "#930's ceiling row asserted `A or not-A` for the magnitude condition it claimed to test",
+ "null_median": 0.0,
+ "null_sd": 1.0,
+ "positive_sweep": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   1.0,
+   1.0
+  ]
+ ]
+}

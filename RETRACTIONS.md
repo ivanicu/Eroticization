@@ -46939,3 +46939,69 @@ movements are not one boundary being re-drawn by the same people, whatever else 
    `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
    `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① ·
    `#861`①.
+
+## Entry 931 · `E03·A113·R369` — a verdict that argues with its own controls, and only a human noticed
+
+**⇒ `CONFIRMED` · world `VERDICT-BLIND`. `PRODUCTION`, labelled. **`three_valued()` produced a
+contradicted verdict twice in the readable corpus; a round-level override caught one and missed the
+other.** Fifty per cent on a known defect — and the one it missed is on the front page.**
+
+**THE DEFECT, read from the source rather than guessed.** `three_valued()` consults **only each
+row's pass/fail boolean**. A control can PASS in the sense that *the correction ran* while its
+**detail text** reports evidence against the verdict being printed. `multiplicity_control` passes
+whenever BH was applied — **including when BH leaves nothing standing.**
+
+| | round verdict | gate string | what its own rows said |
+|---|---|---|---|
+| **`#919`** | `UNVERIFIED` | `OVERTURNED — controls sound…` | ⚠ `cells surviving 0` |
+| **`#930`** | ⚠ `OVERTURNED` | `OVERTURNED — controls sound…` | ⚠ `cells surviving 0` **and** `DOES NOT survive the ceiling rescale` |
+
+**In `#919` a separate check (the placebo/composition arm) overrode the library and the round shipped
+`UNVERIFIED`. In `#930` nothing did.** The machinery was wrong both times.
+
+**⚠⚠ AND HALF THE DEFECT WAS MINE, WHICH IS WHY THE FIX READS TEXT AND NOT BOOLEANS.** `#930`'s
+ceiling row asserted
+`ceiling_survives or abs(med_head) <= 0.5 * abs(med_raw)` —
+**the two branches cover the magnitude condition completely**, so for the thing it claimed to test it
+**could not fail**; it can only fail on a sign mismatch. That is `#916`③'s family — naming a control
+after what I meant rather than what it does — and **no change to `three_valued()` would ever see
+it.** A detail-text gate catches both halves.
+
+**THE INSTRUMENT — `tools/verdict_contradiction_gate.py`.** Positive control: `#930`'s exact shape
+must be caught. Negative: the same verdict with survivors present must not be. Blind: an artifact
+with no gate rows scores **UNREADABLE, never PASS**. All three pass; any failure exits 2 and makes
+the corpus verdict inadmissible. Wired fail-loud-if-missing into the pre-commit hook beside the other
+four, blocking **from entry 931 on** — earlier rounds are named, never retro-blocked.
+
+**⚠ THE COVERAGE IS THE SECOND FINDING, AND IT IS THE SAME ONE `#922` FOUND.** Of **479** artifacts,
+only **30** persist both a `gate_verdict` and `gates` rows. **449 are UNREADABLE and are NOT
+cleared.** A post-hoc gate can only see what a round wrote down, and most rounds wrote down less than
+this needs.
+
+**⇒ One sentence about people: none — this round built a tool and measured what it found, and the
+finding is about my own machinery rather than about anybody. This entry is ledger only: the page
+already carries `#930`'s downgrade, and nothing here changes what the project claims about people.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **a match proves a contradiction is present; no match is NOT proof of consistency** — a round can
+   contradict itself in words this pattern does not know (P6 safe side);
+② ⚠ **449 of 479 artifacts are invisible to it** and cannot be made visible without re-running them;
+③ ⚠ it reads TEXT, so a round that reports its multiplicity result in different words escapes;
+④ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **`#930`'s ARTIFACT STILL SAYS `OVERTURNED` WHILE ITS LEDGER ENTRY SAYS THE VERDICT IS
+   DOWNGRADED.** I corrected the prose and left the JSON. **A correction that reaches the ledger and
+   not the artifact is half a correction** — and this is the exact shape of
+   `feedback_correction_must_reach_the_description`. ⇒ `#931`①
+② ⚠ **THREE GATES NOW EXIST AND ALL THREE ARE BLIND ON MOST OF THE CORPUS** (`supersede_gate` over
+   page rows, `plant_baseline_gate` 9 of 19 unreadable, this one 449 of 479). **The binding
+   constraint on auditing this project is no longer the checks — it is the artifact schema.** ⇒ `#931`②
+③ ⚠ Still `OPEN`: `#930`①② · `#929`②③ · `#928`①③ · `#927`③ · `#926`① · `#925`② · `#924`② · `#923`①② ·
+   `#922`① · `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ · `#915`② ·
+   `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ ·
+   `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② ·
+   `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① ·
+   `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
+   `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
+   `#857`① · `#861`①.
