@@ -381,6 +381,38 @@ target). **Measured here, not discovered.**
 > to let a homosexual speak really do travel together — but less than for any other pair of groups on the
 > list, so the two attitudes `#927` set against each other happen to be the two that Americans keep furthest
 > apart in their own heads.**
+
+## ⚠⚠ `#929` — THE BUDGET IS NOT FIXED. THEY ACQUIRED TOLERANCE, THEY DID NOT TRADE IT.
+
+`#927`'s reading came with a clause: *one moved in, another moved out, and **the total quantity of tolerance
+barely moved***. ⚠ **That clause was never measured.** It was **inferred** from two standardised movements
+(+0.4302, −0.2602) appearing to cancel — and **standardised movements across items with different SDs do not
+sum to the change in the total.** With `#928`'s commensurability precondition established, the sum was
+finally meaningful to take.
+
+| `#929` window | total tolerance (Stouffer 15-item count) | change | targets rising |
+|---|---|---|---|
+| **1976 → 2021** | 8.459 → 10.590 | **+2.131** [95% +1.750, +2.491] | **4 / 5** |
+| **1990 → 2021** (`#927`'s own window) | 9.630 → 10.590 | **+0.959** | **4 / 5** |
+
+Per target 1976→2021 (`#929`, of 3): homosexuals **+0.904** · anti-religionists **+0.629** · communists **+0.611** ·
+militarists **+0.231** · ⚠ racists **−0.244**. **Both windows are shown deliberately** — `#927` measured
+within-cohort over 1990→2021, so contradicting it with a different quantity would be its own error. **The
+retraction holds in `#927`'s own window too.**
+
+⚠ **Allocation is real but is not the main term** (`#929`). The target-specific component is **0.3462**
+against a permutation null of **+0.0237 ± 0.0101** (~32 spreads) — but **|specific| / |common| = 0.81**, so growth is larger. The null
+is unusually clean here: **permuting which target block a person's answers belong to, within that person**,
+preserves the total exactly and destroys only the allocation.
+
+> **One sentence about people (`#929`): over forty-five years Americans became willing to grant about two
+> more of these fifteen freedoms than they used to — so they did not trade their tolerance of one group for
+> another, they acquired more of it, and racists are the only group on the list they granted less.**
+
+⚠ **Scope**: this is a budget over the **five targets Stouffer chose in 1955**, not over everything a person
+might tolerate — zero-sum is refuted **for this list**, not in general. ⚠ **Prior art**: the count *is*
+Stouffer's scale and its long rise is among the most-replicated findings in American opinion (Davis 1975;
+Bobo & Licari 1989). **Measuring it here is a verification**; the decomposition against `#927` is not.
 ⚠ **Prior art**: the cohort/period structure of this trend is established (Treas 2002 · Andersen & Fetner
 2008 · Baunach 2012). `#924` is a **verification on this release**, not a discovery.
 

@@ -46790,3 +46790,76 @@ furthest apart in their own heads.**
    `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② ·
    `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① ·
    `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 929 · `E03·A115·R367` — the budget is not fixed: they acquired tolerance, they did not trade it
+
+**⇒ `OVERTURNED` · world `W_GROWTH`. Total tolerance rose **8.459 → 10.590 of 15 = +2.131**
+[95% bootstrap **+1.750, +2.491**] over 1976→2021, with **4 of 5 targets rising**. ⚠ **`#927`①'s
+clause — *"the total quantity of tolerance barely moved"* — is RETRACTED.** It was never measured;
+it was **inferred** from two standardised per-target movements appearing to cancel.
+
+**THE ARITHMETIC STEP I TOOK WITHOUT DOING THE ARITHMETIC.** `#927` reported `+0.4302` for
+homosexuals and `−0.2602` for racists **in item-SD units**, and I wrote that the total barely moved.
+⚠ **Standardised movements across items with different SDs do not sum to the change in the total.**
+`#928`② named it as the untested question and established the precondition (the arms are
+commensurable), so the sum was finally meaningful to take.
+
+| window | total tolerance | change | targets rising |
+|---|---|---|---|
+| **1976 → 2021** (all available waves) | 8.459 → 10.590 of 15 | **+2.131** | **4 / 5** |
+| **1990 → 2021** (`#927`'s own window) | 9.630 → 10.590 of 15 | **+0.959** | **4 / 5** |
+
+**⚠ BOTH WINDOWS ARE REPORTED SIDE BY SIDE ON PURPOSE.** `#927` measured **within-cohort** movement
+over **1990→2021**; a raw wave-mean over **1976→2021** is a **different quantity**, and contradicting
+`#927` with it would be `#898`'s error — comparing a number to a reference that answers a different
+question. **The retraction does not depend on the window: the budget grew in `#927`'s own window
+too.**
+
+**PER TARGET, 1976→2021 (of 3):** homosexuals **+0.904** · anti-religionists **+0.629** · communists
+**+0.611** · militarists **+0.231** · ⚠ racists **−0.244**. **Racists are the single exception among
+five.**
+
+**⚠ AND ALLOCATION IS REAL, IT IS JUST NOT THE MAIN STORY.** The target-specific component is
+**0.3462** against a permutation null of **+0.0237 ± 0.0101** (kind of null: within-person target-block permutation) — resolved at ~32 null-spreads — but
+**|specific| / |common| = 0.81**, so growth is the larger term. **Both are true: tolerance grew, and
+within that growth it was distributed unevenly.**
+
+**THE NULL IS UNUSUALLY CLEAN FOR THIS QUESTION**, which is why the round is worth its cost:
+**permuting which TARGET BLOCK a person's answers belong to, within that person** preserves the
+person's total **exactly** and destroys only the allocation. Positive control planted into that
+permuted world: `0 → 0.0259 · 0.15 → 0.0936 · 0.30 → 0.1670 · 0.45 → 0.2440 · 0.60 → 0.3166`,
+monotone, `g=0` on the null. **26 waves, 31,648 complete cases; both windows survive BH.**
+
+**⚠ PRIOR ART.** The 15-item count **is** Stouffer's (1955) political-tolerance scale, and its long
+rise is among the most-replicated findings in American public opinion (Davis 1975; Bobo & Licari
+1989). **Measuring it here is a VERIFICATION.** The decomposition against `#927` is this round's own.
+
+**⇒ One sentence about people: over forty-five years Americans became willing to grant about two
+more of these fifteen freedoms than they used to — so they did not trade their tolerance of one
+group for another, they acquired more of it, and racists are the only group on the list they granted
+less.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **"total tolerance" is a budget over FIVE targets Stouffer chose in 1955** — not over everything
+   a person might tolerate. A fixed budget over a wider list is untestable here, so
+   **`W_ZEROSUM` is refuted for THIS list and not in general**;
+② ⚠ the count weights all 15 items equally; nothing but convention justifies that;
+③ ⚠ repeated cross-section; APC collinear; no age effect claimed;
+④ ⚠ **only this one instrument**; ⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE PAGE CARRIES A RETRACTED CLAUSE RIGHT NOW** and must carry its replacement: *growth with
+   one exception*, not *re-sorting*. ⇒ `#929`①
+② ⚠ **THE EXCEPTION IS NOW THE OBJECT.** Four groups gained and one lost. **`racists` is the only
+   target in this battery whose tolerance FELL, across both windows** — and that, not the
+   homosexuality rise, is the thing general growth cannot explain. ⇒ `#929`②
+③ ⚠ **THE ERROR CLASS IS THE ONE `#911`② NAMED, IN ITS ARITHMETIC FORM**: I did not supply a
+   mechanism this time, I supplied a **SUM** — asserting how two standardised numbers add without
+   adding them. Same family: a step taken in prose that was owed to the data. ⇒ `#929`③
+④ ⚠ Still `OPEN`: `#928`①③ · `#927`③ · `#926`① · `#925`② · `#924`② · `#923`①② · `#922`① · `#921`① ·
+   `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ ·
+   `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② ·
+   `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ ·
+   `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
+   `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
+   `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

@@ -1,0 +1,41 @@
+PRECONDITION CHECK — waves with >=300 complete cases: 26 usable · DROPPED 0  (absence reported, not passed)
+  complete cases 31648 · waves 1976-2021
+
+=== THE GRID — both windows, reported side by side ===
+  1976->2021 (this round's own)
+    total tolerance 8.459 -> 10.590 of 15  = +2.131   n=2456   targets rising: 4/5
+      homosexuals        +0.904 of 3   (specific +0.478)
+      racists            -0.244 of 3   (specific -0.670)
+      communists         +0.611 of 3   (specific +0.185)
+      militarists        +0.231 of 3   (specific -0.196)
+      anti-religionists  +0.629 of 3   (specific +0.203)
+    common per target +0.426 · mean |specific| 0.346
+  1990->2021 (`#927`'s window)
+    total tolerance 9.630 -> 10.590 of 15  = +0.959   n=1974   targets rising: 4/5
+      homosexuals        +0.576 of 3   (specific +0.384)
+      racists            -0.378 of 3   (specific -0.570)
+      communists         +0.312 of 3   (specific +0.120)
+      militarists        +0.080 of 3   (specific -0.112)
+      anti-religionists  +0.370 of 3   (specific +0.178)
+    common per target +0.192 · mean |specific| 0.273
+
+  |specific| / |common| = 0.81   (>1 means allocation dominates growth)
+
+  null for the SPECIFIC component (target blocks permuted within person — the person's TOTAL is preserved exactly; kind of null: within-person target-block permutation): +0.0237 +/- 0.0101 over 200 draws
+  positive sweep (allocation shift planted into the permuted world): [(0.0, 0.0259), (0.15, 0.0936), (0.3, 0.167), (0.45, 0.244), (0.6, 0.3166)]
+  total change +2.131 of 15  [95% bootstrap +1.750, +2.491]
+
+  CONDITIONAL KILL -- Is the budget fixed?
+   PASS  positive: a planted allocation shift raises the specific component, and g=0 is null   方向由数据给出:**上升**;灵敏度 g=0.15;g=0 +0.0259 · g=0.6 +0.3166   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  target blocks permuted within person (total preserved exactly)                        |+0.0237| < 0.5*|+0.3462| = 0.1731   (null is 7% of the effect [零的方案: within-person target-block permutation])
+   PASS  both windows                                                                          method=bh q=0.05 · **cells tested 2 · cells surviving 2** · 存活 ["1976->2021 (this round's own)", "1990->2021 (`#927`'s window)"] · 未存活 []   (control)
+   PASS  the total change carries an interval                                                  +2.1307 ± 0.1853   (来源 bootstrap_人层)
+   PASS  BOTH windows are reported side by side, so a disagreement is a fact about the window  1976->2021 (this round's own): total +2.131, risers 4/5; 1990->2021 (`#927`'s window): total +0.959, risers 4/5   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                     2/2 格带 n   (每一格都声明了自己的人群规模)
+   PASS  prior art declared                                                                    the 15-item count IS Stouffer's 1955 political-tolerance scale and its long rise is one of the most-replicated findings in American opinion (Davis 1975; Bobo & Licari 1989) — measuring it here is a VERIFICATION; the decomposition against `#927` is this round's own   (asserted in code, not in prose)
+   FAIL  KILL: `#927`(1)'s clause requires the total to have barely moved                      total change +2.131 of 15 [95% +1.750, +2.491]; 4/5 targets rose   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: `#927`(1)'s clause requires the total to have barely moved). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: `#927`(1)'s clause requires the total to have barely moved). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : OVERTURNED · world W_GROWTH · the budget is not fixed; tolerance grew
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R367_is_the_budget_fixed/results/is_the_budget_fixed.json
