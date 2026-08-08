@@ -48703,3 +48703,87 @@ subsample**, which `#956` did only for the loosest cell. `#957`② **`#946`②'s
 hand-payments old** — six entries, six manual sweeps, and nothing yet asks which page sentences a
 later entry has qualified; this is the longest-running unpaid debt in the project and the cost is now
 measurable rather than hypothetical.
+
+## Entry 958 · `E03·A131·R391` — the reversal was two of my own coding defects, and the sharpest cell goes the other way
+
+**FRONTIER.** `#956`② asked whether the sign reversal is real. **The gradient check found the answer
+in my own source before the run**, and the round then measured how much of it was mine.
+
+**⚠⚠ THE TWO DEFECTS, both in `#956`'s spec-curve rows, both mine, opposite in sign.**
+① Every **null** draw was filtered with `nonflat(...)` — the *loosest* rule — while the **observed**
+arm was filtered with the row's own tighter rule. Δ falls as selection tightens, so the null sat on a
+less-selected population, too high, and the residual was pushed **negative** — the exact direction of
+the reversal I reported. That is `#954`'s error one level down, and `#956`'s own headline row was
+built to avoid it. ② Those rows used a fixed 1,000,000 swaps where the headline used 3,200,000 — an
+under-mixed chain. Two defects, neither controlled, and **the sentence they produced is on four page
+blocks because I put it there at `#957`.**
+
+**With each threshold's rule re-applied to every null draw and the chain scaled per person:**
+
+| discrimination rule | n | Δ obs [boot 95%] | residual vs **NULL-S** | vs **NULL-C** |
+|---|---|---|---|---|
+| all respondents | 14,847 | +0.2620 [+0.242,+0.286] | **+0.0313** z +3.54 | +0.2515 z +124 |
+| not all equal | 11,509 | +0.1086 [+0.085,+0.134] | **+0.0191** z +1.72 | +0.1062 z +14.6 |
+| range ≥ 2 | 9,870 | −0.0630 [−0.088,−0.037] | **+0.0507** z +4.34 | −0.0105 z −3.79 |
+| range ≥ 3 ≡ sd > median | 6,963 | −0.2086 [−0.233,−0.179] | **+0.0945** z +20.3 | −0.0760 z −12.1 |
+| sd > p75 | 1,733 | **+0.7138** [+0.588,+0.923] | +0.4135 z +0.79 ⚠ | +0.4100 z +0.78 ⚠ |
+
+**① THE OBSERVED Δ IS NOT MONOTONE, AND THAT NEEDS NO NULL.** +0.2620 → +0.1086 → −0.0630 → −0.2086
+→ **+0.7138**. The tightest cell swings hard *positive*, with a bootstrap interval nowhere near zero.
+**So `#956`'s sentence — "the harder you require someone to actually distinguish, the more the
+partition reverses" — is false**, and it is false against a *tighter* threshold of exactly the kind it
+generalised over. Corrected on its own block below and on the four blocks `#957` wrote it onto.
+
+**② TWO OF `#956`'s THREE SPEC CELLS WERE THE SAME POPULATION.** On four items scored 1–4, population
+`sd > 1` **⟺** `range ≥ 3` — checked over all 256 possible answer patterns, **0 counterexamples** —
+and the observed median within-person sd is exactly 1.0000. So the published curve had **two**
+distinct populations, not three, and reporting them as separate specifications inflated the grid.
+
+**③ THE RESIDUAL DOES NOT REVERSE UNDER NULL-S; IT GROWS.** +0.0313 → +0.0191 → +0.0507 → +0.0945.
+The observed Δ goes negative and its own null goes *more* negative. **NULL-C reverses; NULL-S does
+not.** `#954`'s `W_NULLS_DISAGREE`, one level down and now on the sign rather than the size. ⚠ This
+is *not* asserted as a finding: the round's positive and reproducibility controls were bound to the
+staked cell, so these cells have no positive control of their own. It is the reason for the next
+round, not its result.
+
+**④ A DERIVATION, exact to machine precision at all six thresholds.** Under the ipsative constraint,
+Δ = **(3/4)·W − Σr₆/4** where W is the sum of the two within-cluster correlations and Σr₆ the sum of
+all six — measured |err| **0.0e+00** everywhere. **Given Σr₆, the "partition contrast" carries one
+degree of freedom**: it is an affine rescaling of how strongly premarital–same-sex and
+teenage–extramarital are co-held. No null to report; this is algebra, not evidence.
+
+**VERDICT: `UNVERIFIED` · `W_UNREADABLE` — and that is not an acquittal.** I staked
+`W_REAL_INVERSION` precisely because the reversal was already on the page. The staked cell cannot be
+read: null spread **0.5202** against a residual of 0.4135, reproducibility **0.115**, and the
+two-sided control invalid.
+
+**⚠ AND THE INVERTED CONTROL FAILED FOR ITS OWN REASONS — a new instance of a known mode.** The
+inverted plant sets each planted person's cluster means equal, which **collapses that person's
+within-person spread, so they fall below the very threshold that defines the population and are
+filtered out.** The plant and the filter interact; the arm measures the unplanted remainder and is
+flat by construction. **A dose-response control is invalid whenever the dose moves the selection
+variable** — and here the selection variable *is* a function of the planted quantity. The repair is a
+plant that preserves each person's multiset: exchange the answers *between* one A-item and one
+B-item, which inverts the partition and leaves range and sd exactly fixed.
+
+Controls that did hold: placebo-A — item-label permutation preserves every person's multiset, so **the
+identical individuals are selected under all six rules** (max |Δsd| 0.00e+00) — trajectory range
+**9.3%** of observed; placebo-B random size-matched removal **1.3%**; swap margin drift col 0 row 0 at
+all six populations; 9 of 12 cells survive BH, non-survivors published.
+
+**ONE SENTENCE ABOUT PEOPLE.** Nothing here is yet a fact about Americans — but the cell I had been
+treating as the end of a slide turns out to be the opposite: **the people who distinguish these four
+acts most sharply of all show the strongest two-camp structure in the whole dataset**, and it was
+hidden by a filter I applied to the observed arm and forgot to apply to its null.
+
+**NEXT** — `#958`① **the tightest cell is not a correlation problem at all, and this is the ontology
+shift**: `sd > p75` selects, on this data, exactly the respondents who used **only the two extreme
+answers and split the four acts two-and-two** — so "which camp" is one of **six countable choices**,
+and the honest instrument is a tabulation against a **conditional-independence null carrying the item
+marginals**, not a swap randomisation of z-scored residuals. The whole ipsative apparatus was the
+wrong object for this population. `#958`② **`#956`'s monotone sentence and `#957`'s four blocks are
+corrected in this commit**, and the cost is now legible: `#957` was written *before* this round, which
+is what the ordering discipline asks for, and it still propagated a defect to four places — **landing
+a correction promptly is not the same as landing a correct one.** `#958`③ **the dose-must-not-move-the
+-selection rule belongs in `lib/gates.py`**: any positive control on a filtered population must report
+how many planted units the filter then removes, and refuse the arm when that share is material.

@@ -528,6 +528,65 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#958` · the reversal was two of my own coding defects, and the sharpest cell goes the other way
+
+`#956`② asked whether the sign reversal is real. **The gradient check answered it in my own source
+before the run.** `#956`'s spec-curve rows filtered every **null** draw with the loosest rule while
+filtering the **observed** arm with the row's own tighter rule — so the null sat on a less-selected
+population, too high, and the residual was pushed negative, *the exact direction of the reversal I
+reported*. Second defect, same rows: 1,000,000 swaps where the headline used 3,200,000. Two defects,
+opposite in sign, neither controlled — and `#957` had already propagated the sentence to four blocks.
+
+| `#958` discrimination rule | n | Δ obs [bootstrap 95%] | residual vs **NULL-S** | vs **NULL-C** |
+|---|---|---|---|---|
+| all respondents | 14,847 | +0.2620 [+0.2424, +0.2857] | **+0.0313** z +3.54 | +0.2515 z +124 |
+| not all equal | 11,509 | +0.1086 [+0.0852, +0.1342] | **+0.0191** z +1.72 | +0.1062 z +14.6 |
+| range ≥ 2 | 9,870 | −0.0630 [−0.0884, −0.0374] | **+0.0507** z +4.34 | −0.0105 z −3.79 |
+| range ≥ 3 ≡ sd > median | 6,963 | −0.2086 [−0.2328, −0.1790] | **+0.0945** z +20.3 | −0.0760 z −12.1 |
+| **sd > p75** | 1,733 | **+0.7138** [+0.5881, +0.9229] | +0.4135 z +0.79 ⚠ | +0.4100 z +0.78 ⚠ |
+
+**① The observed Δ is not monotone, and that needs no null** (`#958`): +0.2620 → +0.1086 → −0.0630 →
+−0.2086 → **+0.7138**, the tightest cell swinging hard positive with a bootstrap interval nowhere near
+zero. **`#956`'s sentence — "the harder you require someone to actually distinguish, the more the
+partition reverses" — is false**, against a *tighter* threshold of exactly the kind it generalised
+over.
+
+**② Two of `#956`'s three spec cells were the same population** (`#958`). On four items scored 1–4,
+population `sd > 1` **⟺** `range ≥ 3` — verified over all 256 possible answer patterns, **0
+counterexamples** — and the observed median within-person sd is exactly 1.0000. The published curve
+had **two** distinct populations, not three.
+
+**③ Under NULL-S the residual does not reverse; it grows** (`#958`) — +0.0313 → +0.0191 → +0.0507 →
++0.0945. The observed Δ goes negative and its own null goes *more* negative. **NULL-C reverses;
+NULL-S does not** — `#954`'s `W_NULLS_DISAGREE` one level down, now on the sign rather than the size.
+⚠ Not asserted as a finding: the positive and reproducibility controls were bound to the staked cell,
+so these cells have no positive control of their own. It is the reason for the next round.
+
+⚠⚠ **A DERIVATION, exact to machine precision at all six thresholds, and no null to report** (`#958`):
+under the ipsative constraint **Δ = (3/4)·W − Σr₆/4**, where W is the sum of the two within-cluster
+correlations — measured |err| **0.0e+00** everywhere. Given Σr₆ the contrast carries **one degree of
+freedom**; "the partition contrast" is an affine rescaling of how strongly premarital–same-sex and
+teenage–extramarital are co-held. Algebra, not evidence.
+
+**Verdict `UNVERIFIED` · `W_UNREADABLE`** (`#958`)**, and that is not an acquittal.** I staked
+`W_REAL_INVERSION` because the reversal was already on the page; the staked cell cannot be read — null
+spread **0.5202** against a residual of 0.4135, reproducibility 0.115. ⚠ **And the two-sided control
+failed for its own reasons**: the inverted plant sets each planted person's cluster means equal, which
+collapses their within-person spread, so they fall below the very threshold defining the population
+and are filtered out — the arm measures the unplanted remainder and is flat by construction. **A
+dose-response control is invalid whenever the dose moves the selection variable.** Controls that did
+hold: placebo-A (item-label permutation preserves every person's multiset, so the identical
+individuals are selected under all six rules, max |Δsd| 0.00e+00) trajectory range **9.3%** of
+observed; placebo-B random size-matched removal **1.3%**; swap margin drift col 0 row 0 at all six
+populations; 9 of 12 cells survive BH, non-survivors published. ⚠ **Only this one instrument** carries
+these four items.
+
+> **One sentence about people (`#958`): nothing here is yet a fact about Americans — but the cell I
+> had been treating as the bottom of a slide turns out to be the opposite, because the people who
+> distinguish these four acts most sharply of all show the strongest two-camp structure anywhere in
+> the data, and it was hidden by a filter I applied to the observed arm and forgot to apply to its
+> null.**
+
 ### `#956` · among the people who actually distinguish these acts, the two camps are not there
 
 `#955` showed **59%** of the +0.2620 partition contrast came from **3,338 respondents who gave the
@@ -555,7 +614,14 @@ discriminate.**
 | range ≥ 2 | 9,870 (66.5%) | **−0.0630** | −0.0132 |
 | within-person sd above median | 6,963 (46.9%) | **−0.2086** | **−0.0974** |
 
-**The harder you require someone to actually distinguish, the more the partition reverses.**
+⛔ **THAT SENTENCE IS FALSE, AND `#958` MEASURED IT AGAINST A TIGHTER THRESHOLD OF THE SAME KIND.**
+At `sd > p75` (n = 1,733) the contrast is **+0.7138 [+0.5881, +0.9229]** — the trajectory is **not
+monotone**; it swings hard positive at the sharpest cell. And the residual column above is my own
+defect: every null draw in these rows was filtered with the LOOSEST rule while the observed arm used
+the row's own, so the null sat on a less-selected population and the residual was pushed negative.
+Repaired, the NULL-S residual does not reverse at all — **+0.0313 → +0.0191 → +0.0507 → +0.0945**.
+⚠ And two of these three rows are the SAME population: on four items scored 1–4, `sd > 1` ⟺
+`range ≥ 3`, checked over all 256 possible patterns with 0 counterexamples.
 
 **Verdict `OVERTURNED` · `W_STILL_MARGINAL`** (`#956`)**.** ⚠ The placebo filter is what makes this readable:
 dropping a **random** 22.5% gives Δ = **+0.2623** against the unrestricted **+0.2620** — a difference
@@ -781,7 +847,11 @@ differential drift separates homosex from the other *three* — a 1-vs-3 structu
 > remove *who is in the cell*. `#956` finds **22.5% of respondents gave all four answers the same
 > value**, and they are present in every one of these 80 cells. On the **11,509 who actually
 > distinguish**, Δ drops from +0.2620 to **+0.1086** with **z = +1.65** against the swap null, and at
-> stricter definitions of "distinguishes" the sign **reverses** (−0.0630, −0.2086). **Δ(L2)/Δ(L0) =
+> stricter definitions of "distinguishes" the sign **reverses** (−0.0630, −0.2086) ⛔ **— and that
+> clause is withdrawn at `#958`: the trajectory is not monotone (`sd > p75`, n=1,733, gives
+> **+0.7138**), and once each threshold's null is computed on that threshold's own population the
+> NULL-S residual does not reverse at all. The population retraction above stands; only the
+> trajectory clause falls.** **Δ(L2)/Δ(L0) =
 > 0.991 is still exactly right and now says something narrower than it did**: the drift rival is dead,
 > and its death is not evidence that anything is there — a contrast made of flat responders is equally
 > invariant to wave and cohort.
@@ -844,8 +914,10 @@ together* rather than *who is harmed*. Open, not resolved.
 > anything constant *within* — and `#955` shows per-item z-scoring hands each of them a fixed,
 > item-marginal-determined profile anyway, which is a partition they never expressed. On the **11,509
 > who do distinguish**, Δ = **+0.1086** at **z = +1.65** against the swap null; at range ≥ 2 it is
-> **−0.0630** and among the sharpest 6,963 discriminators **−0.2086** — *the crossing pairs are held
-> together and the within-cluster pairs are traded*, the exact inverse of the table above. The
+> **−0.0630** and among the sharpest 6,963 discriminators **−0.2086** ⛔ **— withdrawn at `#958`:
+> tighter still (`sd > p75`, n=1,733) the contrast is **+0.7138 [+0.5881, +0.9229]**, so the trajectory
+> is not monotone and "the sharpest discriminators invert it" is not what the data says. The
+> population retraction above stands unchanged; this clause does not.** The
 > **6 of 6 exact partition** is therefore a property of a sample five-and-a-half thousand of whom are
 > the same synthetic profile repeated, not a fact about how Americans sort sexual norms. **The 2+2
 > structure on this page does not stand.**

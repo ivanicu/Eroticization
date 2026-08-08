@@ -1,0 +1,417 @@
+{
+ "entry": 958,
+ "round": "E03\u00b7A131\u00b7R391",
+ "gate_verdict": "   => UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (both nulls reproduce across independent draw sets at every threshold; the binding cell is the tightest population's NULL-S, \u26a0 TWO-SIDED DOSE-RESPONSE, because the claim is a NEGATIVE residual and a one-sided vis",
+ "gates": [
+  [
+   "positive: a planted partition raises \u0394 on the TIGHTEST population, and g=0 sits ON that population's own NULL-S (`#922`)",
+   false,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u5e73/\u975e\u5355\u8c03**;\u7075\u654f\u5ea6 g=0.25;g=0 -0.0000 \u00b7 g=0.75 +1.6781"
+  ],
+  [
+   "both nulls reproduce across independent draw sets at every threshold; the binding cell is the tightest population's NULL-S",
+   false,
+   "|+0.5923| < 0.5*|+0.4135| = 0.2067"
+  ],
+  [
+   "\u26a0 TWO-SIDED DOSE-RESPONSE, because the claim is a NEGATIVE residual and a one-sided visibility check would say nothing about the direction actually being claimed (`#950`'s error): the same plant applied with the partition INVERTED must drive \u0394 down",
+   false,
+   "inverted sweep [(0.0, -0.0), (0.25, -0.0), (0.5, 0.0), (0.75, -0.0)] \u00b7 g=0 -0.0000 \u2192 g=0.75 -0.0000 against a null spread of 0.5202 \u00b7 \u603b\u4f53:GSS ballot 1, tightest population n=1733"
+  ],
+  [
+   "\u26a0 SEED AGREEMENT on the sign of the staked residual",
+   false,
+   "per-seed residuals on the tightest population vs NULL-S: [0.7138, 0.7138, -0.1872] \u00b7 signs agree False \u00b7 \u603b\u4f53:GSS ballot 1, tightest population n=1733"
+  ],
+  [
+   "6 thresholds x 2 nulls = 12 (`#936`\u2461)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 12 \u00b7 cells surviving 9** \u00b7 \u5b58\u6d3b ['all respondents/S', 'all respondents/C', 'not all equal/C', 'range >= 2/S', 'range >= 2/C', 'range >= 3/S', 'range >= 3/C', 'sd > median/S', 'sd > median/C'] \u00b7 \u672a\u5b58\u6d3b ['not all equal/S', 'sd > p75/S', 'sd > p75/C']"
+  ],
+  [
+   "\u26a0\u26a0 THE REPAIR, and it is what this round is for: `#956` filtered every spec-curve NULL draw with the LOOSEST rule while filtering the observed arm with the row's own rule, so the null sat on a less-selected population and the residual was pushed negative \u2014 the direction of the reported reversal. Here each row's own rule is re-applied to every null draw",
+   true,
+   "all respondents: S n=14847 (+0) C n=14847 (+0) vs observed 14847 \u00b7 not all equal: S n=11502 (+7) C n=11452 (+58) vs observed 11509 \u00b7 range >= 2: S n=9426 (+445) C n=9628 (+242) vs observed 9870 \u00b7 range >= 3: S n=5807 (+1156) C n=6431 (+532) vs observed 6963 \u00b7 sd > median: S n=5807 (+1156) C n=6431 (+532) vs observed 6963 \u00b7 sd > p75: S n=1329 (+405) C n=1419 (+315) vs observed 1733 \u00b7 \u603b\u4f53:GSS ballot 1, n=14847"
+  ],
+  [
+   "\u26a0 PLACEBO-A, the control for the strongest confound: permuting each person's four answers among the items leaves the multiset \u2014 hence all-equal status, range and within-person sd \u2014 EXACTLY unchanged, so the identical individuals are selected at every threshold while the item->answer assignment is destroyed. If the trajectory survives that, it is the SELECTION",
+   true,
+   "selection identical under all rules: True \u00b7 placebo-A trajectory range 0.0853 vs observed range 0.9224 (9.3%); flat iff < 25% \u00b7 \u603b\u4f53:GSS ballot 1, n=14847"
+  ],
+  [
+   "\u26a0 PLACEBO-B: a RANDOM size-matched removal at EVERY threshold (`#956` ran this only for the loosest row) must not reproduce the trajectory",
+   true,
+   "placebo-B range 0.0116 vs observed 0.9224 (1.3%) \u00b7 per row all responde +0.2620 \u00b7 not all equa +0.2605 \u00b7 range >= 2 +0.2622 \u00b7 range >= 3 +0.2617 \u00b7 sd > median +0.2617 \u00b7 sd > p75 +0.2722 \u00b7 \u603b\u4f53:GSS ballot 1, n=14847"
+  ],
+  [
+   "\u26a0\u26a0 ARITHMETIC TRAP LABELLED: under the ipsative constraint \u0394 = (3/4)W \u2212 \u03a3r\u2086/4, so given the sum of the six pairwise correlations the contrast carries ONE degree of freedom and is an affine rescaling of the two within-cluster correlations. This is a DERIVATION, verified numerically at every threshold, and it is not offered as evidence",
+   true,
+   "all responde \u03a3-1.9899 W-0.3140 pred+0.26196 obs+0.26196 err0.0e+00 \u00b7 not all equa \u03a3-1.9737 W-0.5131 pred+0.10860 obs+0.10860 err0.0e+00 \u00b7 range >= 2 \u03a3-1.9579 W-0.7367 pred-0.06304 obs-0.06304 err0.0e+00 \u00b7 range >= 3 \u03a3-1.9323 W-0.9222 pred-0.20855 obs-0.20855 err0.0e+00 \u00b7 sd > median \u03a3-1.9323 W-0.9222 pred-0.20855 obs-0.20855 err0.0e+00 \u00b7 sd > p75 \u03a3-1.6366 W+0.4062 pred+0.71380 obs+0.71380 err0.0e+00 \u00b7 \u603b\u4f53:GSS ballot 1, n=14847"
+  ],
+  [
+   "\u26a0 MIXING: swaps scale per person (300/person; `#951` converged at 215/person), with a convergence curve on the tightest population \u2014 `#956`'s spec rows used a FIXED 1M swaps, which is under-mixed for the loose rows and over-mixed for the tight ones",
+   true,
+   "curve [(50, 0.0), (150, -0.0), (300, -0.0), (600, 0.0)] \u00b7 last two differ by 0.0000 against a null spread of 0.5202 \u00b7 \u603b\u4f53:GSS ballot 1, tightest population n=1733"
+  ],
+  [
+   "\u26a0 MARGIN DRIFT measured, not assumed: the swap must hold person totals and item column sums exactly",
+   true,
+   "max column drift 0 \u00b7 max row drift 0 across all 6 populations \u00b7 \u603b\u4f53:GSS ballot 1, n=14847"
+  ],
+  [
+   "the whole specification grid is published, disagreeing cells included; the bootstrap interval on each observed \u0394 is reported beside it",
+   true,
+   "all responde \u0394+0.262 CI[+0.242,+0.286] zS+3.54 zC+124.40 \u00b7 not all equa \u0394+0.109 CI[+0.085,+0.134] zS+1.72 zC+14.63 \u00b7 range >= 2 \u0394-0.063 CI[-0.088,-0.037] zS+4.34 zC-3.79 \u00b7 range >= 3 \u0394-0.209 CI[-0.233,-0.179] zS+20.32 zC-12.14 \u00b7 sd > median \u0394-0.209 CI[-0.233,-0.179] zS+20.32 zC-12.14 \u00b7 sd > p75 \u0394+0.714 CI[+0.588,+0.923] zS+0.79 zC+0.78 \u00b7 \u603b\u4f53:GSS ballot 1, n=14847"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires with g=0 on its null, both nulls reproduce, and the chain is mixed. STAKED: W_REAL_INVERSION, i.e. on the tightest population the residual against NULL-S is more than 2 spreads BELOW zero, with the placebo-A trajectory flat. \u26a0 I stake this because the reversal is already written onto four page blocks; W_NULL_MISMATCH means `#956`'s spec curve was my own two coding defects and every one of those blocks needs correcting again",
+   false,
+   "positive fires True \u00b7 inverted fires False \u00b7 g=0 on null True \u00b7 nulls reproduce False \u00b7 mixed True \u00b7 placebo-A flat True \u00b7 tightest residual vs NULL-S +0.4135 (z +0.79), vs NULL-C +0.4100 (z +0.78) \u21d2 W_UNREADABLE   \u5c3a:partition contrast residual on the tightest discriminating population, NULL-S,\u5176\u81ea\u8eab\u566a\u58f0 0.520199 \u00b7 \u603b\u4f53:GSS ballot 1, within-person sd > p75, n=1733 of 14847, 21 waves 1988-2024 \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:9/9 \u6761\u5df2\u547d\u540d,**9 \u6761\u4e0e\u5224\u636e\u4e0d\u540c** ['\u26a0 TWO-SIDED DOSE-RESPONSE, b', '\u26a0 SEED AGREEMENT on the sign', '\u26a0\u26a0 THE REPAIR, and it is wha', '\u26a0 PLACEBO-A, the control for', '\u26a0 PLACEBO-B: a RANDOM size-m', '\u26a0\u26a0 ARITHMETIC TRAP LABELLED:', '\u26a0 MIXING: swaps scale per pe', '\u26a0 MARGIN DRIFT measured, not', 'the whole specification grid']  \u26a0 **\u63a7\u5236\u7684\u603b\u4f53 \u2260 \u4e3b\u5f20\u7684\u603b\u4f53** \u2014\u2014 **\u5b83\u8bc1\u660e\u7684\u662f\u53e6\u4e00\u7fa4\u4eba\u8eab\u4e0a\u7684\u4eea\u5668**(`#866`\u2460)(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "n_all": 14847,
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021,
+  2022,
+  2024
+ ],
+ "sd_median": 1.0,
+ "sd_p75": 1.299038105676658,
+ "grid": [
+  {
+   "spec": "all respondents",
+   "n": 14847,
+   "share": 1.0,
+   "d_obs": 0.26196045044048644,
+   "d_obs_raw": 0.40182679102974894,
+   "S6": -1.989937628834611,
+   "W2": -0.31403194235755505,
+   "d_pred": 0.26196045044048644,
+   "ident_err": 0.0,
+   "placebo_A": 0.09351910864406617,
+   "placebo_B": 0.26196045044048644,
+   "resS_per_seed": [
+    0.03616032507691752,
+    0.03668965136112093,
+    0.02110324554633733
+   ],
+   "NULL-S_null": 0.23064270977902782,
+   "NULL-S_null_sd": 0.008849970588731595,
+   "NULL-S_residual": 0.03131774066145862,
+   "NULL-S_z": 3.5387395186753015,
+   "NULL-S_repro": 0.014018998903914004,
+   "NULL-S_post_n": 14847.0,
+   "NULL-S_removed": 0,
+   "NULL-S_col_drift": 0.0,
+   "NULL-S_row_drift": 0.0,
+   "NULL-C_null": 0.010498206501064958,
+   "NULL-C_null_sd": 0.0020213301638994704,
+   "NULL-C_residual": 0.25146224393942146,
+   "NULL-C_z": 124.40433949410344,
+   "NULL-C_repro": 0.01050612661482179,
+   "NULL-C_post_n": 14847.0,
+   "NULL-C_removed": 0,
+   "NULL-C_col_drift": 0.0,
+   "NULL-C_row_drift": 12.0
+  },
+  {
+   "spec": "not all equal",
+   "n": 11509,
+   "share": 0.775173435710918,
+   "d_obs": 0.1085970169810207,
+   "d_obs_raw": 0.05185631089482012,
+   "S6": -1.9737217033861418,
+   "W2": -0.5131112118206863,
+   "d_pred": 0.1085970169810207,
+   "ident_err": 0.0,
+   "placebo_A": 0.06461127258421513,
+   "placebo_B": 0.26053294454749437,
+   "resS_per_seed": [
+    0.024708573479046203,
+    0.006288317258717369,
+    0.026350542167325186
+   ],
+   "NULL-S_null": 0.08948120601265779,
+   "NULL-S_null_sd": 0.011139230738546056,
+   "NULL-S_residual": 0.019115810968362915,
+   "NULL-S_z": 1.7160799894569738,
+   "NULL-S_repro": 0.005644867891183694,
+   "NULL-S_post_n": 11502.0,
+   "NULL-S_removed": 7,
+   "NULL-S_col_drift": 0.0,
+   "NULL-S_row_drift": 0.0,
+   "NULL-C_null": 0.0024438329193736674,
+   "NULL-C_null_sd": 0.007254358394599858,
+   "NULL-C_residual": 0.10615318406164703,
+   "NULL-C_z": 14.633021734998291,
+   "NULL-C_repro": 0.014753981026653623,
+   "NULL-C_post_n": 11451.666666666666,
+   "NULL-C_removed": 58,
+   "NULL-C_col_drift": 0.0,
+   "NULL-C_row_drift": 11.0
+  },
+  {
+   "spec": "range >= 2",
+   "n": 9870,
+   "share": 0.6647807637906648,
+   "d_obs": -0.06304442803883181,
+   "d_obs_raw": -0.1316759557227356,
+   "S6": -1.9578667248009598,
+   "W2": -0.736681478985429,
+   "d_pred": -0.06304442803883181,
+   "ident_err": 0.0,
+   "placebo_A": 0.05363448352976394,
+   "placebo_B": 0.2621757611320668,
+   "resS_per_seed": [
+    0.03956383216802295,
+    0.049554741206163155,
+    0.06283653969950792
+   ],
+   "NULL-S_null": -0.11369613239672982,
+   "NULL-S_null_sd": 0.0116750685256536,
+   "NULL-S_residual": 0.05065170435789801,
+   "NULL-S_z": 4.338450283747897,
+   "NULL-S_repro": 0.00033537482176118627,
+   "NULL-S_post_n": 9425.666666666666,
+   "NULL-S_removed": 445,
+   "NULL-S_col_drift": 0.0,
+   "NULL-S_row_drift": 0.0,
+   "NULL-C_null": -0.052527414190816024,
+   "NULL-C_null_sd": 0.0027784575373911214,
+   "NULL-C_residual": -0.010517013848015788,
+   "NULL-C_z": -3.7851986962129036,
+   "NULL-C_repro": 0.0028910729951237557,
+   "NULL-C_post_n": 9628.333333333334,
+   "NULL-C_removed": 242,
+   "NULL-C_col_drift": 0.0,
+   "NULL-C_row_drift": 10.0
+  },
+  {
+   "spec": "range >= 3",
+   "n": 6963,
+   "share": 0.46898363305718327,
+   "d_obs": -0.20855131323350812,
+   "d_obs_raw": -0.27338498404994305,
+   "S6": -1.9323060226424131,
+   "W2": -0.9221704251921485,
+   "d_pred": -0.20855131323350812,
+   "ident_err": 0.0,
+   "placebo_A": 0.044997523530369614,
+   "placebo_B": 0.2617248302691271,
+   "resS_per_seed": [
+    0.09383354958610263,
+    0.09017763377095517,
+    0.09940985217935483
+   ],
+   "NULL-S_null": -0.3030249917456456,
+   "NULL-S_null_sd": 0.004649278219956121,
+   "NULL-S_residual": 0.0944736785121375,
+   "NULL-S_z": 20.320074222839075,
+   "NULL-S_repro": 0.011075412609168334,
+   "NULL-S_post_n": 5807.333333333333,
+   "NULL-S_removed": 1156,
+   "NULL-S_col_drift": 0.0,
+   "NULL-S_row_drift": 0.0,
+   "NULL-C_null": -0.13250527939351794,
+   "NULL-C_null_sd": 0.006265982608221878,
+   "NULL-C_residual": -0.07604603383999017,
+   "NULL-C_z": -12.136330180713676,
+   "NULL-C_repro": 0.009000375212668527,
+   "NULL-C_post_n": 6431.333333333333,
+   "NULL-C_removed": 532,
+   "NULL-C_col_drift": 0.0,
+   "NULL-C_row_drift": 9.0
+  },
+  {
+   "spec": "sd > median",
+   "n": 6963,
+   "share": 0.46898363305718327,
+   "d_obs": -0.20855131323350812,
+   "d_obs_raw": -0.27338498404994305,
+   "S6": -1.9323060226424131,
+   "W2": -0.9221704251921485,
+   "d_pred": -0.20855131323350812,
+   "ident_err": 0.0,
+   "placebo_A": 0.044997523530369614,
+   "placebo_B": 0.2617248302691271,
+   "resS_per_seed": [
+    0.09383354958610263,
+    0.09017763377095517,
+    0.09940985217935483
+   ],
+   "NULL-S_null": -0.3030249917456456,
+   "NULL-S_null_sd": 0.004649278219956121,
+   "NULL-S_residual": 0.0944736785121375,
+   "NULL-S_z": 20.320074222839075,
+   "NULL-S_repro": 0.011075412609168334,
+   "NULL-S_post_n": 5807.333333333333,
+   "NULL-S_removed": 1156,
+   "NULL-S_col_drift": 0.0,
+   "NULL-S_row_drift": 0.0,
+   "NULL-C_null": -0.13250527939351794,
+   "NULL-C_null_sd": 0.006265982608221878,
+   "NULL-C_residual": -0.07604603383999017,
+   "NULL-C_z": -12.136330180713676,
+   "NULL-C_repro": 0.009000375212668527,
+   "NULL-C_post_n": 6431.333333333333,
+   "NULL-C_removed": 532,
+   "NULL-C_col_drift": 0.0,
+   "NULL-C_row_drift": 9.0
+  },
+  {
+   "spec": "sd > p75",
+   "n": 1733,
+   "share": 0.11672391728968816,
+   "d_obs": 0.7138015210872906,
+   "d_obs_raw": 0.3390639231240796,
+   "S6": -1.6365712479794927,
+   "W2": 0.4062116121232231,
+   "d_pred": 0.7138015210872906,
+   "ident_err": 0.0,
+   "placebo_A": 0.008169116257018327,
+   "placebo_B": 0.27216922776449615,
+   "resS_per_seed": [
+    0.7138015210872896,
+    0.7138015210872902,
+    -0.18720889289286813
+   ],
+   "NULL-S_null": 0.30033680466005336,
+   "NULL-S_null_sd": 0.5201986050541003,
+   "NULL-S_residual": 0.4134647164272372,
+   "NULL-S_z": 0.7948208865039865,
+   "NULL-S_repro": 0.11516367701410873,
+   "NULL-S_post_n": 1328.6666666666667,
+   "NULL-S_removed": 405,
+   "NULL-S_col_drift": 0.0,
+   "NULL-S_row_drift": 0.0,
+   "NULL-C_null": 0.3037596791645674,
+   "NULL-C_null_sd": 0.5261271976038511,
+   "NULL-C_residual": 0.41004184192272314,
+   "NULL-C_z": 0.7793587630333174,
+   "NULL-C_repro": 0.5922522818683258,
+   "NULL-C_post_n": 1418.6666666666667,
+   "NULL-C_removed": 315,
+   "NULL-C_col_drift": 0.0,
+   "NULL-C_row_drift": 6.0
+  }
+ ],
+ "bootstrap": {
+  "all respondents": [
+   0.24242676780081224,
+   0.2856727532914655
+  ],
+  "not all equal": [
+   0.08522085088020673,
+   0.13415068594250248
+  ],
+  "range >= 2": [
+   -0.08837436861448121,
+   -0.03744003568369516
+  ],
+  "range >= 3": [
+   -0.23278485089942522,
+   -0.17904575845759974
+  ],
+  "sd > median": [
+   -0.23278485089942522,
+   -0.17904575845759974
+  ],
+  "sd > p75": [
+   0.5881331782465913,
+   0.9228770713429167
+  ]
+ },
+ "mixing": [
+  [
+   50,
+   1.2212453270876722e-15
+  ],
+  [
+   150,
+   -9.43689570931383e-16
+  ],
+  [
+   300,
+   -2.7200464103316335e-15
+  ],
+  [
+   600,
+   4.163336342344337e-16
+  ]
+ ],
+ "placebo_A_range": 0.08534999238704784,
+ "placebo_B_range": 0.011636283217001775,
+ "observed_range": 0.9223528343207987,
+ "selection_identical_under_placebo_A": true,
+ "null_median": 0.30033680466005336,
+ "null_sd": 0.5201986050541003,
+ "null_draws": 3,
+ "positive_sweep": [
+  [
+   0.0,
+   -9.71445146547012e-16
+  ],
+  [
+   0.25,
+   1.7354326242038582
+  ],
+  [
+   0.5,
+   1.7188855056403143
+  ],
+  [
+   0.75,
+   1.678050063157368
+  ]
+ ],
+ "inverted_sweep": [
+  [
+   0.0,
+   -9.71445146547012e-16
+  ],
+  [
+   0.25,
+   -1.3877787807814457e-17
+  ],
+  [
+   0.5,
+   1.8041124150158794e-16
+  ],
+  [
+   0.75,
+   -1.2351231148954867e-15
+  ]
+ ],
+ "family_size": 12,
+ "seed_signs": [
+  1.0,
+  1.0,
+  -1.0
+ ],
+ "seeds": [
+  391,
+  1391,
+  2391
+ ],
+ "world": "W_UNREADABLE",
+ "verdict": "UNVERIFIED \u00b7 world W_UNREADABLE \u00b7 tightest population n=1733 \u0394 +0.7138 residual vs NULL-S +0.4135 (z +0.79)"
+}
