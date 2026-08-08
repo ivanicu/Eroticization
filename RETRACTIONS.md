@@ -46863,3 +46863,79 @@ less.**
    `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
    `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
    `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 930 · `E03·A116·R368` — not one boundary re-drawn by the same people, and the round is weaker than its own verdict string
+
+**⇒ `OVERTURNED` on the pre-registered kill · world `W_ALIGNED` — ⚠ **and I am downgrading it here,
+because two of this round's own controls argue for less than the verdict says.** What IS established:
+**the across-cell correlation is POSITIVE (+0.460 raw, +0.226 headroom-scaled), in all three era
+splits** — so `W_SAME`, *"one boundary re-drawn by the same people"*, is **refuted**. What is NOT
+established is `W_ALIGNED` over `W_DIFFERENT`.**
+
+**WHY THIS QUESTION.** `#929` measured growth with **racists the single faller** and named the
+exception as the object. "Why" is not measurable here; **"who" is.** Did the homosexual rise and the
+racist fall happen in the SAME subgroups?
+
+**⚠ THE PRECONDITION CHECK KILLED THE FIRST DESIGN BEFORE IT RAN.** Politics × education × cohort
+with **single endpoint waves** gives **4 usable cells of 59** — a correlation over four points is not
+a measurement. Pooled eras give **25–27 of 33–39**, and the three era splits are the specification
+curve. `#924`②/`#925`②'s discipline, paying for itself: **the four-cell round was stopped, not
+published.**
+
+| era split | cells | mean Δ homosexuals | mean Δ racists | `r` raw | `r` headroom | n |
+|---|---|---|---|---|---|---|
+| 1976-1990 vs 2008-2021 | 25/33 | +0.259 | −0.168 | **+0.413** | +0.166 | 16,012 |
+| 1976-1994 vs 2004-2021 | 27/36 | +0.199 | −0.127 | **+0.462** | +0.243 | 22,215 |
+| 1976-1998 vs 2000-2021 | 27/39 | +0.159 | −0.094 | **+0.460** | +0.226 | 27,530 |
+
+**The sign is the finding.** A *negative* correlation would have meant the cells rising most on
+homosexuals fell most on racists — one movement, two signs. **It is positive**: the subgroups that
+rose most on homosexuals are the ones that turned against racists **least**.
+
+**⚠⚠ AND HERE IS WHY THE VERDICT IS DOWNGRADED, FROM THIS ROUND'S OWN CONTROLS.**
+① **BH over the three splits: 0 of 3 survive.** The cell-label permutation null is wide
+   (**+0.0064 ± 0.2131**, from only 25 cells), and `r = 0.46` is ~2.1 spreads — marginal, not solid.
+② **The ceiling control halves it**: `+0.460` raw → `+0.226` headroom-scaled, which is **below the
+   0.5× threshold I pre-registered as "survives"**. Cells already high on homosexual tolerance had
+   less room to rise, and that is doing part of the work.
+⇒ **The direction is informative; the magnitude is not resolved.** `W_SAME` is dead either way,
+because it requires the opposite sign — but choosing between `W_ALIGNED` and `W_DIFFERENT` needs
+more cells than this battery can give.
+
+**CONTROLS.** Positive, built so `g=0` **is** the null world (interpolating from permuted toward a
+shared *opposite* driver): `0 → +0.011 · 0.25 → −0.285 · 0.50 → −0.703 · 0.75 → −0.949 · 1.0 →
+−1.000`, monotone. Negative: cell labels permuted, `+0.0064 ± 0.2131`.
+
+**⇒ One sentence about people: the Americans who became most willing to let a homosexual speak were
+not the ones who turned against racists — if anything they turned against racists least — so the two
+movements are not one boundary being re-drawn by the same people, whatever else they are.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠⚠ **ECOLOGICAL.** This is a correlation across subgroups on a repeated cross-section with **no
+   panel**, so it **cannot distinguish** *the same individuals re-drawing a boundary* from
+   *different individuals inside one cell moving oppositely*. No wording here may pretend otherwise;
+② ⚠ **the resolution is the binding limit**, not the design: 25 cells against a ±0.213 permutation
+   null cannot separate a moderate positive from zero;
+③ ⚠ cells are defined by variables measured at interview — `polviews` is itself an outcome that may
+   have moved, so the cells are **not fixed traits**;
+④ ⚠ **only this one instrument**; ⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE PAGE MUST CARRY THE DOWNGRADE, NOT THE VERDICT STRING.** A round whose kill fires while
+   0 of 3 cells survive BH and whose effect halves under its own ceiling control has established a
+   **sign**, not a magnitude. ⇒ `#930`①
+② ⚠ **A116'S QUESTION NEEDS MORE CELLS THAN THIS BATTERY HAS**, and that is a resolution limit, not
+   a design flaw — so the honest next move is a **different question**, not a fourth era split
+   (`#111c` is not yet armed, but the reason to stop is arithmetic rather than procedural). ⇒ `#930`②
+③ ⚠ **THE VERDICT STRING AND THE CONTROLS DISAGREED, AND ONLY I NOTICED.** `lib/gates.py` computed
+   `OVERTURNED` from the kill while its own multiplicity row read 0/3 and its ceiling row read
+   "DOES NOT survive". **A gate that reports a verdict beside the evidence against it is doing half
+   its job** — the three-valued verdict should be able to see its own siblings. ⇒ `#930`③
+④ ⚠ Still `OPEN`: `#929`②③ · `#928`①③ · `#927`③ · `#926`① · `#925`② · `#924`② · `#923`①② · `#922`① ·
+   `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② ·
+   `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ ·
+   `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① ·
+   `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② ·
+   `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
+   `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① ·
+   `#861`①.

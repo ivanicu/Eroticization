@@ -409,6 +409,27 @@ preserves the total exactly and destroys only the allocation.
 > more of these fifteen freedoms than they used to — so they did not trade their tolerance of one group for
 > another, they acquired more of it, and racists are the only group on the list they granted less.**
 
+⚠ **`#930` asked who the exception belongs to — and killed the attractive story.** If the homosexual rise and
+the racist fall were **one boundary re-drawn by the same people**, the subgroups rising most on one would fall
+most on the other: a **negative** across-cell correlation. Measured across politics × education × cohort
+cells, it is **positive in all three era splits** (`#930`) — **+0.413 / +0.462 / +0.460** raw, **+0.226** median once
+each change is scaled by the room that cell had. **The subgroups that rose most on homosexuals turned against
+racists least.**
+
+⚠ **The precondition check killed the first design before it ran**: single endpoint waves gave **4 usable
+cells of 59**, and a correlation over four points is not a measurement. Pooled eras give 25–27.
+
+⚠⚠ **And this round is weaker than its own verdict string, which is said here rather than buried.**
+**0 of 3 era splits survive BH** — the cell-label permutation null is **+0.0064 ± 0.2131** (`#930`, kind of null: cell-label permutation) from only 25
+cells, so `r = 0.46` is ~2.1 spreads. **The ceiling control halves the effect** (+0.460 → +0.226), below the
+0.5× threshold pre-registered as "survives". ⇒ **the SIGN is established; the magnitude is not.** And it is
+**ecological** — a repeated cross-section with no panel cannot tell the same individuals re-drawing a
+boundary from different individuals inside one cell moving oppositely.
+
+> **One sentence about people (`#930`): the Americans who became most willing to let a homosexual speak were
+> not the ones who turned against racists — if anything they turned against racists least — so the two
+> movements are not one boundary being re-drawn by the same people, whatever else they are.**
+
 ⚠ **Scope**: this is a budget over the **five targets Stouffer chose in 1955**, not over everything a person
 might tolerate — zero-sum is refuted **for this list**, not in general. ⚠ **Prior art**: the count *is*
 Stouffer's scale and its long rise is among the most-replicated findings in American opinion (Davis 1975;

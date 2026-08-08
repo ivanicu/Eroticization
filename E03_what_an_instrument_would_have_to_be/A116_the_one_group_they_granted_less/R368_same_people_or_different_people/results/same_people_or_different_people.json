@@ -1,0 +1,324 @@
+{
+ "entry": 930,
+ "round": "E03\u00b7A116\u00b7R368",
+ "verdict": "OVERTURNED",
+ "world": "W_ALIGNED \u00b7 the same cells rose on both; the fall is composition",
+ "estimand": "across-subgroup correlation between the change in homosexual-tolerance and the change in racist-tolerance, early era -> late era",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta",
+ "precondition_rejected_design": "politics x education x cohort on single endpoint waves: 4 usable cells of 59",
+ "grid": [
+  {
+   "split": "1976-1990 vs 2008-2021",
+   "cells": 25,
+   "of": 33,
+   "r_raw": 0.41288943435545816,
+   "r_head": 0.16593625130009693,
+   "mean_d_homo": 0.25882761934985266,
+   "mean_d_rac": -0.16780524057030188,
+   "n": 16012
+  },
+  {
+   "split": "1976-1994 vs 2004-2021",
+   "cells": 27,
+   "of": 36,
+   "r_raw": 0.46237046074261257,
+   "r_head": 0.24317740634854745,
+   "mean_d_homo": 0.19907376080778433,
+   "mean_d_rac": -0.12672298005367508,
+   "n": 22215
+  },
+  {
+   "split": "1976-1998 vs 2000-2021",
+   "cells": 27,
+   "of": 39,
+   "r_raw": 0.4597689283033519,
+   "r_head": 0.22576519773288106,
+   "mean_d_homo": 0.1590934677287356,
+   "mean_d_rac": -0.0938691466191566,
+   "n": 27530
+  }
+ ],
+ "cells_detail": [
+  {
+   "cell": "lib|<HS|1940",
+   "d_homo": 0.13070357807199917,
+   "d_rac": -0.16145092460881938,
+   "head_homo": 0.10216387273349302,
+   "head_rac": -0.10577819198508856,
+   "n": 321
+  },
+  {
+   "cell": "lib|<HS|1960",
+   "d_homo": 0.44871794871794846,
+   "d_rac": -0.08424908424908417,
+   "head_homo": 0.39325842696629193,
+   "head_rac": -0.05569007263922513,
+   "n": 169
+  },
+  {
+   "cell": "lib|HS/JC|1920",
+   "d_homo": 0.33974358974358987,
+   "d_rac": -0.13076923076923075,
+   "head_homo": 0.3521594684385383,
+   "head_rac": -0.07555555555555554,
+   "n": 392
+  },
+  {
+   "cell": "lib|HS/JC|1940",
+   "d_homo": 0.26160974751793686,
+   "d_rac": -0.2806262622586926,
+   "head_homo": 0.43061794948587384,
+   "head_rac": -0.13598571680479635,
+   "n": 1355
+  },
+  {
+   "cell": "lib|HS/JC|1960",
+   "d_homo": 0.2609229258713799,
+   "d_rac": -0.14744722631320561,
+   "head_homo": 0.4574010327022381,
+   "head_rac": -0.0782977059436913,
+   "n": 711
+  },
+  {
+   "cell": "lib|BA+|1920",
+   "d_homo": 0.0360655737704918,
+   "d_rac": -0.730601092896175,
+   "head_homo": 0.18032786885245883,
+   "head_rac": -0.28464977645305517,
+   "n": 211
+  },
+  {
+   "cell": "lib|BA+|1940",
+   "d_homo": 0.07582303930097245,
+   "d_rac": -0.48775831738483255,
+   "head_homo": 0.6413883324475691,
+   "head_rac": -0.19052482344479454,
+   "n": 917
+  },
+  {
+   "cell": "lib|BA+|1960",
+   "d_homo": 0.14006193693693714,
+   "d_rac": -0.28575450450450446,
+   "head_homo": 0.6895356895356906,
+   "head_rac": -0.12526224854991977,
+   "n": 508
+  },
+  {
+   "cell": "mod|<HS|1920",
+   "d_homo": -0.15970588235294114,
+   "d_rac": -0.07431372549019621,
+   "head_homo": -0.11448450347881085,
+   "head_rac": -0.057607539139686983,
+   "n": 451
+  },
+  {
+   "cell": "mod|<HS|1940",
+   "d_homo": 0.362179487179487,
+   "d_rac": -0.248130341880342,
+   "head_homo": 0.24835164835164825,
+   "head_rac": -0.1635275479669073,
+   "n": 392
+  },
+  {
+   "cell": "mod|<HS|1960",
+   "d_homo": 0.6643483709273181,
+   "d_rac": 0.015664160401002603,
+   "head_homo": 0.5205714846818538,
+   "head_rac": 0.010611205432937247,
+   "n": 257
+  },
+  {
+   "cell": "mod|HS/JC|1920",
+   "d_homo": 0.32609506057781923,
+   "d_rac": -0.14203168685927325,
+   "head_homo": 0.2950004215496164,
+   "head_rac": -0.09252064108790686,
+   "n": 885
+  },
+  {
+   "cell": "mod|HS/JC|1940",
+   "d_homo": 0.2978577439428953,
+   "d_rac": -0.16243948236427963,
+   "head_homo": 0.37295264081655094,
+   "head_rac": -0.089973762391534,
+   "n": 1964
+  },
+  {
+   "cell": "mod|HS/JC|1960",
+   "d_homo": 0.5351686254471129,
+   "d_rac": 0.1032958610117527,
+   "head_homo": 0.5682718393922951,
+   "head_rac": 0.07225449021535164,
+   "n": 1172
+  },
+  {
+   "cell": "mod|BA+|1920",
+   "d_homo": 0.1930069930069931,
+   "d_rac": -0.13776223776223784,
+   "head_homo": 0.35844155844155867,
+   "head_rac": -0.06914706914706918,
+   "n": 185
+  },
+  {
+   "cell": "mod|BA+|1940",
+   "d_homo": 0.1295938104448746,
+   "d_rac": -0.27757774140752867,
+   "head_homo": 0.3563829787234051,
+   "head_rac": -0.1244314013206163,
+   "n": 521
+  },
+  {
+   "cell": "con|<HS|1920",
+   "d_homo": -0.12308894096640999,
+   "d_rac": -0.14261801138265828,
+   "head_homo": -0.10035483577472477,
+   "head_rac": -0.10568097246340866,
+   "n": 367
+  },
+  {
+   "cell": "con|<HS|1940",
+   "d_homo": 0.0031139835487661305,
+   "d_rac": -0.06263219741480608,
+   "head_homo": 0.0021821475625823264,
+   "head_rac": -0.042443064182194595,
+   "n": 277
+  },
+  {
+   "cell": "con|<HS|1960",
+   "d_homo": 0.6635698198198199,
+   "d_rac": -0.1711711711711712,
+   "head_homo": 0.4464015151515152,
+   "head_rac": -0.12794612794612795,
+   "n": 170
+  },
+  {
+   "cell": "con|HS/JC|1920",
+   "d_homo": 0.2105238601795345,
+   "d_rac": -0.18466677864248005,
+   "head_homo": 0.16290824542021384,
+   "head_rac": -0.11588957989295302,
+   "n": 833
+  },
+  {
+   "cell": "con|HS/JC|1940",
+   "d_homo": 0.36482817869415785,
+   "d_rac": -0.13201030927835045,
+   "head_homo": 0.3589080459770113,
+   "head_rac": -0.07470828471411899,
+   "n": 1570
+  },
+  {
+   "cell": "con|HS/JC|1960",
+   "d_homo": 0.5413211719181867,
+   "d_rac": 0.2116186743052415,
+   "head_homo": 0.501986415481225,
+   "head_rac": 0.14321667857021395,
+   "n": 862
+  },
+  {
+   "cell": "con|BA+|1920",
+   "d_homo": 0.31829741667782097,
+   "d_rac": -0.2258733770579573,
+   "head_homo": 0.4512333965844402,
+   "head_rac": -0.10529107131715225,
+   "n": 303
+  },
+  {
+   "cell": "con|BA+|1940",
+   "d_homo": 0.2877638276213097,
+   "d_rac": -0.25835765184933823,
+   "head_homo": 0.5336941472624293,
+   "head_rac": -0.11283046828689978,
+   "n": 771
+  },
+  {
+   "cell": "con|BA+|1960",
+   "d_homo": 0.16216861714831632,
+   "d_rac": 0.0025316455696202667,
+   "head_homo": 0.4297468354430383,
+   "head_rac": 0.0025316455696202667,
+   "n": 448
+  }
+ ],
+ "median_r_raw": 0.4597689283033519,
+ "median_r_headroom": 0.22576519773288106,
+ "ceiling_survives": false,
+ "null_median": 0.006378913876654832,
+ "null_sd": 0.2130680855027908,
+ "null_draws": 400,
+ "positive_sweep": [
+  [
+   0.0,
+   0.010802893722361921
+  ],
+  [
+   0.25,
+   -0.28535164138956004
+  ],
+  [
+   0.5,
+   -0.703021945523681
+  ],
+  [
+   0.75,
+   -0.9487206146986253
+  ],
+  [
+   1.0,
+   -0.9999999999999997
+  ]
+ ],
+ "family_size": 3,
+ "ecological": true,
+ "gates": [
+  [
+   "positive: interpolating toward a shared opposite driver drives the correlation negative, and g=0 IS the null world",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.25;g=0 -0.0108 \u00b7 g=1 +1.0000",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "racist changes permuted across cells",
+   "|+0.0064| < 0.5*|+0.4598| = 0.2299",
+   true,
+   "null is 1% of the effect [\u96f6\u7684\u65b9\u6848: cell-label permutation]"
+  ],
+  [
+   "all era splits",
+   "method=bh q=0.05 \u00b7 **cells tested 3 \u00b7 cells surviving 0** \u00b7 \u5b58\u6d3b \u65e0 \u00b7 \u672a\u5b58\u6d3b ['1976-1990 vs 2008-2021', '1976-1994 vs 2004-2021', '1976-1998 vs 2000-2021']",
+   true,
+   "control"
+  ],
+  [
+   "PRECONDITION checked FIRST and it REJECTED design #1",
+   "politics x education x cohort on single endpoint waves gave 4 usable cells of 59; pooled eras give 25-27 of 33-39. The 4-cell round was stopped before it ran",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "CEILING control ran: every change is also expressed against the room the cell had",
+   "r raw +0.460 vs headroom-scaled +0.226 \u2014 DOES NOT survive the ceiling rescale",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "3/3 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "ECOLOGICAL scope stated: this cannot distinguish the same individuals re-drawing a boundary from different individuals inside a cell moving oppositely",
+   "repeated cross-section, no panel; the individual-level version is structurally unavailable on this release; scope stated",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: W_DIFFERENT requires the across-cell correlation to sit on its null",
+   "median r_raw +0.460 (headroom +0.226) vs null +0.0064 +/- 0.2131   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   false,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_DIFFERENT requires the across-cell correlation to sit on its null). This is a refutation, NOT an unverified round (#366e)."
+}

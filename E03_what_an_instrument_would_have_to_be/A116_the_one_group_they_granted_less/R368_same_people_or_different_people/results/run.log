@@ -1,0 +1,32 @@
+PRECONDITION CHECK (`#924`(2)/`#925`(2)) — cells need n>=40 in BOTH eras:
+  ⚠ FIRST DESIGN REJECTED: politics x education x cohort with SINGLE endpoint waves gives
+    only 4 usable cells of 59. A correlation over 4 points is not a measurement.
+  usable 25 of 33 cells · 1976-1990 vs 2008-2021
+  usable 27 of 36 cells · 1976-1994 vs 2004-2021
+  usable 27 of 39 cells · 1976-1998 vs 2000-2021
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  1976-1990 vs 2008-2021   cells 25/33  mean d_homo +0.259 · mean d_rac -0.168  |  r_raw +0.413 · r_headroom +0.166  n=16012
+  1976-1994 vs 2004-2021   cells 27/36  mean d_homo +0.199 · mean d_rac -0.127  |  r_raw +0.462 · r_headroom +0.243  n=22215
+  1976-1998 vs 2000-2021   cells 27/39  mean d_homo +0.159 · mean d_rac -0.094  |  r_raw +0.460 · r_headroom +0.226  n=27530
+
+  median across-cell r, raw      +0.460
+  median across-cell r, headroom +0.226   <- the ceiling control
+
+  null (racist changes permuted across cells; kind of null: cell-label permutation): +0.0064 +/- 0.2131 over 400 draws
+  positive sweep (permuted -> shared opposite driver): [(0.0, 0.0108), (0.25, -0.2854), (0.5, -0.703), (0.75, -0.9487), (1.0, -1.0)]
+
+  CONDITIONAL KILL -- The rise and the one fall: same people, or different people?
+   PASS  positive: interpolating toward a shared opposite driver drives the correlation negative, and g=0 IS the null world                                      方向由数据给出:**上升**;灵敏度 g=0.25;g=0 -0.0108 · g=1 +1.0000   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  racist changes permuted across cells                                                                                                                    |+0.0064| < 0.5*|+0.4598| = 0.2299   (null is 1% of the effect [零的方案: cell-label permutation])
+   PASS  all era splits                                                                                                                                          method=bh q=0.05 · **cells tested 3 · cells surviving 0** · 存活 无 · 未存活 ['1976-1990 vs 2008-2021', '1976-1994 vs 2004-2021', '1976-1998 vs 2000-2021']   (control)
+   PASS  PRECONDITION checked FIRST and it REJECTED design #1                                                                                                    politics x education x cohort on single endpoint waves gave 4 usable cells of 59; pooled eras give 25-27 of 33-39. The 4-cell round was stopped before it ran   (asserted in code, not in prose)
+   PASS  CEILING control ran: every change is also expressed against the room the cell had                                                                       r raw +0.460 vs headroom-scaled +0.226 — DOES NOT survive the ceiling rescale   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                                                                                       3/3 格带 n   (每一格都声明了自己的人群规模)
+   PASS  ECOLOGICAL scope stated: this cannot distinguish the same individuals re-drawing a boundary from different individuals inside a cell moving oppositely  repeated cross-section, no panel; the individual-level version is structurally unavailable on this release; scope stated   (asserted in code, not in prose)
+   FAIL  KILL: W_DIFFERENT requires the across-cell correlation to sit on its null                                                                               median r_raw +0.460 (headroom +0.226) vs null +0.0064 +/- 0.2131   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_DIFFERENT requires the across-cell correlation to sit on its null). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_DIFFERENT requires the across-cell correlation to sit on its null). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : OVERTURNED · world W_ALIGNED · the same cells rose on both; the fall is composition
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A116_the_one_group_they_granted_less/R368_same_people_or_different_people/results/same_people_or_different_people.json
