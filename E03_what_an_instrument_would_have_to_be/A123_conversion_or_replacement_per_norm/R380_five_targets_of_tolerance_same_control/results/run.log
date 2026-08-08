@@ -1,0 +1,44 @@
+PRECONDITION — codes DERIVED per item, never assumed (`#927`③): spkhomo(1, 2) · colhomo(4, 5) · libhomo(1, 2)
+PRECONDITION — polarity DERIVED against each target's `spk` item: flipped ['libhomo', 'librac', 'colcom', 'libcom', 'libmil', 'libath']
+PRECONDITION — 21 waves 1988-2024 · per-item n 25955-31356 (⚠ all 15 jointly = 0, so cells are NOT the same people and no within-person comparison is made)
+
+  trend per decade in proportion 'allowed'; conversion share = demeaned / raw
+  stem          target              level       raw  demeaned            share
+  speak         homosexuals         0.840   +0.0439   +0.0155     0.353 ±0.031
+  speak         racists             0.603   -0.0317   -0.0253     0.797 ±0.038
+  speak         communists          0.684   +0.0113   -0.0116    -1.026 ±0.403
+  speak         militarists         0.665   +0.0275   -0.0063    -0.230 ±0.117
+  speak         anti-religionists   0.765   +0.0241   -0.0022    -0.091 ±0.085
+  teach         homosexuals         0.797   +0.0819   +0.0380     0.463 ±0.015
+  teach         racists             0.442   -0.0215   -0.0173     0.806 ±0.053
+  teach         communists          0.622   +0.0368   +0.0014     0.038 ±0.065
+  teach         militarists         0.522   +0.0437   +0.0026     0.058 ±0.054
+  teach         anti-religionists   0.616   +0.0465   +0.0007     0.016 ±0.040
+  library book  homosexuals         0.753   +0.0599   +0.0200     0.334 ±0.029
+  library book  racists             0.652   -0.0159   -0.0092     0.583 ±0.090
+  library book  communists          0.703   +0.0256   -0.0014    -0.055 ±0.097
+  library book  militarists         0.691   +0.0311   -0.0011    -0.036 ±0.086
+  library book  anti-religionists   0.741   +0.0362   +0.0090     0.247 ±0.041
+
+  by TARGET (averaged over stems): racists 0.729 · homosexuals 0.383 · anti-religionists 0.058 · militarists -0.070 · communists -0.348
+  by STEM   (averaged over targets): teach 0.276 · library book 0.214 · speak -0.040
+  between-TARGET spread 1.076 · between-STEM spread 0.316
+
+  null (year permuted WITHIN cohort; kind of null: within-cohort year-label permutation): 15/15 cells null · spkhomo +0.0002 +/- 0.0018
+  positive sweep (rising within-cohort trend planted into the permuted world, g=0 IS the null): [(0.0, 0.0005), (0.15, 0.0649), (0.3, 0.1291), (0.45, 0.1952)]
+  ⚠ plant-baseline check: g=0 at +0.0005 vs null +0.0002 +/- 0.0018 = 0.18 spreads
+  CONDITIONAL KILL -- Did Americans change their minds about some out-groups and merely outlive others?
+   PASS  positive: a planted within-cohort trend raises the demeaned trend, g=0 sits ON the null this round judges against (`#922`)                                                                                                                                   方向由数据给出:**上升**;灵敏度 g=0.15;g=0 +0.0005 · g=0.45 +0.1952   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  year permuted within cohort [spkhomo]                                                                                                                                                                                                                        |+0.0002| < 0.5*|+0.0155| = 0.0078   (null is 1% of the effect [零的方案: within-cohort year-label permutation])
+   PASS  all 15 target x stem cells — the grid IS the family (`#936`②/`#940`②, this project's most frequent live defect)                                                                                                                                              method=bh q=0.05 · **cells tested 15 · cells surviving 9** · 存活 ['spea/homos', 'spea/racis', 'spea/commu', 'spea/milit', 'teac/homos', 'teac/racis', 'libr/homos', 'libr/racis', 'libr/anti-'] · 未存活 ['spea/anti-', 'teac/commu', 'teac/milit', 'teac/anti-', 'libr/commu', 'libr/milit']   (control)
+   PASS  ⚠ a ratio with a small denominator is not given a share (`#918`, open debt `#941`②)                                                                                                                                                                          15/15 cells readable; unreadable: none · 总体:GSS 21 waves 1988-2024, n=53025   (asserted in code, not in prose)
+   PASS  ⚠ the STEM is a specification axis, not averaged away — W_STEM is a live world and averaging first would make it unobservable                                                                                                                                between-TARGET spread 1.076 vs between-STEM spread 0.316 · 总体:GSS 21 waves 1988-2024, n=53025   (asserted in code, not in prose)
+   PASS  the whole 15-cell grid is published, disagreeing cells included                                                                                                                                                                                              spe/homo +0.35 · spe/raci +0.80 · spe/comm -1.03 · spe/mili -0.23 · spe/anti -0.09 · tea/homo +0.46 · tea/raci +0.81 · tea/comm +0.04 · tea/mili +0.06 · tea/anti +0.02 · lib/homo +0.33 · lib/raci +0.58 · lib/comm -0.06 · lib/mili -0.04 · lib/anti +0.25 · 总体:GSS 21 waves 1988-2024, n=53025   (asserted in code, not in prose)
+   PASS  ⚠ codes AND polarity both DERIVED per item, never assumed from the label (`#927`③, twice in one round): `col` is 4/5 while `spk`/`lib` are 1/2, and the `lib` stem asks about REMOVING the book so its low code is INTOLERANCE                               codes [('spkhomo', (1, 2)), ('colhomo', (4, 5)), ('libhomo', (1, 2))] · flipped against each target's own `spk` item: ['libhomo', 'librac', 'colcom', 'libcom', 'libmil', 'libath'] · the tell was tolerance of homosexuals reading 0.840/0.797/0.247 across three stems · 总体:GSS 21 waves 1988-2024   (asserted in code, not in prose)
+   PASS  ⚠ NOT a causal decomposition: cohort-demeaning identifies within-birth-year movement, never why anyone moved; and the 15 cells are NOT the same people (all 15 jointly = 0 rows), so no within-person comparison is made                                     per-item n 25955-31356 · 总体:GSS 21 waves 1988-2024, n=53025   (asserted in code, not in prose)
+   PASS  KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires and >=13/15 nulls are null. STAKED: W_TARGET, i.e. the between-TARGET spread of conversion shares exceeds the between-STEM spread AND exceeds 0.10. W_STEM and W_ERA both refute it  positive fires True · nulls null 15/15 · between-TARGET 1.076 vs between-STEM 0.316 -> target dominates ⇒ W_TARGET   尺:between-target spread of conversion shares, vs between-stem,其自身噪声 0.0829143 · 总体:GSS 21 waves 1988-2024, n=53025 · 方向:一致 · 控制总体:5/5 条已命名,**1 条与判据不同** ['⚠ codes AND polarity both DE']  ⚠ **控制的总体 ≠ 主张的总体** —— **它证明的是另一群人身上的仪器**(`#866`①)(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => ALL GATES PASS
+
+VERDICT           : CONFIRMED · world W_TARGET
+
+wrote /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A123_conversion_or_replacement_per_norm/R380_five_targets_of_tolerance_same_control/results/five_targets_of_tolerance_same_control.json

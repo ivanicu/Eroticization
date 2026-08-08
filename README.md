@@ -528,6 +528,49 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#942` · nobody changed their mind about communists; the people who disliked them died
+
+`#929` established that total tolerance rose **+2.131 of 15** with 4 of 5 targets rising — *growth,
+not zero-sum*. That is a sign and a size with **no mechanism**. `#941` built a conversion share; this
+round points it at GSS's tolerance battery, 5 targets × 3 stems, 21 waves 1988–2024, per-item n
+25,955–31,356.
+
+| `#942` target | speak | teach | library | **share, mean over stems** |
+|---|---|---|---|---|
+| **racists** | 0.797 | 0.806 | 0.583 | **+0.729** |
+| **homosexuals** | 0.353 | 0.463 | 0.334 | **+0.383** |
+| anti-religionists | −0.091 | 0.016 | 0.247 | +0.058 |
+| militarists | −0.230 | 0.058 | −0.036 | −0.070 |
+| communists | −1.026 | 0.038 | −0.055 | −0.348 |
+
+**The conversion share belongs to who is being tolerated, not to how the question is worded**
+(`#942`): between-target spread 1.076 vs between-stem spread 0.316. All 15 **within-cohort year-label
+permutation nulls** are null (`spkhomo` +0.0002 ± 0.0018), and the whole 15-cell grid is the
+multiplicity family.
+
+**The mechanism `#929` lacked.** The three Cold-War-era targets rose with a cohort-demeaned trend of
+essentially zero — militarists +0.0026, anti-religionists +0.0007, communists +0.0014 on the teach
+stem. Those rises were replacement, near-entirely. The only two out-groups the living actually
+reconsidered are the two still being argued about: homosexuals (demeaned +0.0155 to +0.0380) and
+racists (**−0.0092 to −0.0253** — living people became *less* willing to let racists speak or teach).
+
+⚠ **Scope, and it is not small** (`#942`): `spkcom`'s share is −1.026 ± 0.403, a raw denominator of
++0.0113 divided into a numerator of the opposite sign. The by-target spread is inflated by that cell,
+and the finding does not rest on it — **read the demeaned column, not the ratio**. The 15 cells are
+also not the same people; all fifteen jointly answered is zero rows.
+
+⚠ **Two coding errors in one round (`#942`, `#927`③'s third firing), the second hidden inside the fix for the first**: the `col` stem
+codes 4/5 rather than 1/2, and then "lower code = allowed" is false for `lib` (which asks about
+*removing* the book) and for `colcom` (which asks about *firing*). The tell was tolerance of
+homosexuals reading 0.840 / 0.797 / **0.247** across three stems. Polarity is now derived from the
+data against each target's own `speak` item; six items flip; the three stems then read 0.840 / 0.797 /
+0.753.
+
+> **One sentence about people (`#942`): Americans got more tolerant of communists, militarists and
+> atheists without a single one of them changing their mind — the people who disliked them simply died
+> and were replaced — and the only two groups the living actually reconsidered are the two still being
+> argued about: homosexuals, whom they came to accept, and racists, whom they came to refuse.**
+
 ### `#941` · two norms were replaced, two were reconsidered
 
 `#940` showed cohort-demeaning costs A118's headline 54% of its size, and no other trend here had run

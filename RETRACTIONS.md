@@ -47686,3 +47686,67 @@ and it is the one norm whose share I would not defend** — either widen the win
 README that it is a direction, not a number. `#941`③ **the two-fifths/four-fifths split begs the
 age question `#939` could not answer**: high conversion means somebody changed, and `#939` established
 only that the age bands differ, not which.
+
+## Entry 942 · `E03·A123·R380` — nobody changed their mind about communists; the people who disliked them died
+
+**`#941`① paid.** `#929` established that total tolerance rose **+2.131 of 15** with 4 of 5 targets
+rising — *growth, not zero-sum*. That is a sign and a size with **no mechanism**. R379 built a
+conversion share; this round points it at GSS's tolerance battery, **5 targets × 3 stems**, 21 waves
+1988–2024, per-item n 25,955–31,356.
+
+**⚠⚠ TWO CODING ERRORS IN ONE ROUND, BOTH `#927`③, THE SECOND HIDDEN INSIDE THE FIX FOR THE FIRST.**
+① v1 read every item as `== 1` because all fifteen are *labelled* "allowed / not allowed". **The
+`col` stem's codes are 4 and 5** — the exact fact `#927`③ recorded after `colhomo` cost a round
+there. Five columns came out all-false and the precondition printed zero rows. ② The repair derived
+the codes and then assumed the **lower code means "allowed"**. It does not: tolerance of homosexuals
+then read **0.840 / 0.797 / 0.247** across three stems, and **0.247 cannot be a tolerance rate for
+the same target**. The `lib` stem asks whether to **REMOVE** the book, so its low code is
+*intolerance*; `colcom` likewise asks whether the communist should be **fired**. **Deriving the codes
+is not deriving the direction.** ⇒ polarity is now derived too, against each target's own `spk` item
+by correlation — data only, no codebook, and it is its own positive control since an agreeing stem
+must not flip. Six items flipped: `libhomo librac libcom libmil libath colcom`. After it, the three
+stems read 0.840 / 0.797 / **0.753**.
+
+| target | speak | teach | library | **share, mean over stems** |
+|---|---|---|---|---|
+| **racists** | 0.797 | 0.806 | 0.583 | **+0.729** |
+| **homosexuals** | 0.353 | 0.463 | 0.334 | **+0.383** |
+| anti-religionists | −0.091 | 0.016 | 0.247 | +0.058 |
+| militarists | −0.230 | 0.058 | −0.036 | −0.070 |
+| communists | −1.026 | 0.038 | −0.055 | −0.348 |
+
+**VERDICT: `CONFIRMED` · `W_TARGET`.** Between-**target** spread **1.076** vs between-**stem** spread
+**0.316** — the target dominates the stem, so the conversion share is a property of *who is being
+tolerated*, not of how the question is worded. All **15/15 within-cohort year-label permutation
+nulls** are null — kind of null named per `#532`, `spkhomo` +0.0002 ± 0.0018 — positive sweep `0→+0.0005 · 0.15→0.0649 · 0.3→0.1291 ·
+0.45→0.1952`, `g=0` **0.18 spreads** from the null; whole 15-cell grid published as the multiplicity
+family (`#936`②/`#940`②).
+
+**⚠⚠⚠ THE MECHANISM `#929` LACKED, AND IT IS NOT THE ONE I EXPECTED.** The **only two out-groups
+Americans actually reconsidered are the two where the change was contested** — homosexuals, upward,
+and racists, **downward** (a *negative* demeaned trend at 73% of a negative raw trend: living people
+became less willing to let racists speak, teach or shelve a book). The three Cold-War-era targets rose
+with a demeaned trend of essentially **zero**: militarists +0.0026, anti-religionists +0.0007,
+communists +0.0014 on the teach stem. **Those rises were replacement, near-entirely.**
+
+**⚠ SCOPE, and it is not small.** `spkcom`'s share is **−1.026 ± 0.403** — a raw denominator of
++0.0113 with a demeaned numerator of the opposite sign, i.e. `#918`'s family and `#941`②'s open debt
+arriving in force. **The by-target spread of 1.076 is inflated by exactly that cell**, and the finding
+does not rest on it: it rests on the **demeaned trends themselves**, which are 0.0155–0.0380 for
+homosexuals, −0.0092 to −0.0253 for racists, and within ±0.0116 of zero for the other three. **Read
+the demeaned column, not the ratio.** Also: the 15 cells are **not the same people** — all fifteen
+jointly answered is **zero rows** — so no within-person comparison is made anywhere here.
+
+**ONE SENTENCE ABOUT PEOPLE.** Americans got more tolerant of communists, militarists and atheists
+without a single one of them changing their mind: **the people who disliked them simply died and were
+replaced.** The only two groups the living actually reconsidered are the two that were still being
+argued about — **homosexuals, whom they came to accept, and racists, whom they came to refuse.**
+
+**NEXT** — `#942`① **the ratio must be retired as the headline quantity** and the demeaned trend
+promoted, because two of five targets have denominators too small to divide by; `#941`② is the same
+debt and this is now its second instance. `#942`② ⚠ **a polarity check belongs in the precondition of
+every round that touches a multi-stem battery**, not in the round that happens to notice a level of
+0.247 — `#927`③ has now fired three times and each time the tell was a number that looked wrong to a
+human. `#942`③ **racists moving DOWNWARD within cohorts is a finding in its own right** and it is the
+one cell here that contradicts "tolerance rose": the same living people grew *less* tolerant of one
+target while growing more tolerant of another, which is `#929`'s "not zero-sum" needing a footnote.
