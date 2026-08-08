@@ -1,0 +1,62 @@
+⚠ DERIVATION FIRST, before any data is read: residuals from a person's own mean over k=15 items are IPSATIVE (they sum to zero), so their mean pairwise correlation is FORCED to -1/(k-1) = -0.0714. Every comparison below is against THAT, never against zero.
+HARD RULE 1 — all 15 items JOINTLY answered: n=22420 · 19 waves · years 1988-2021 · mean level 0.689
+  ipsative check: max |row sum| of residuals = 1.55e-15 (must be ~0) · empirical mean pairwise r among all 15 residual columns = -0.0703 vs derived -0.0714
+
+  null (within-person TARGET-LABEL permutation — each person's total preserved EXACTLY, so the ipsative constraint is held fixed; kind of null: within-person target-label permutation): grand mean +0.0584 vs derived floor -0.0714
+  positive sweep (a trade-off planted between `spkhomo` and `spkrac` inside the permuted world, so g=0 IS the null): [(0.0, 0.0318), (0.25, -0.2013), (0.5, -0.3435), (0.75, -0.4582)]
+  ⚠ plant-baseline check: g=0 at +0.0318 vs that cell's null +0.0286 +/- 0.0081 = 0.39 spreads
+
+  all 30 cells, sorted by departure from the null (which IS the ipsative floor):
+  stem pair          r_resid   r_raw     null       z
+  col  homo/rac      -0.1434 +0.2430  +0.0131  -23.82
+  lib  homo/rac      +0.0073 +0.4171  +0.1361  -18.45
+  spk  homo/rac      -0.1033 +0.3076  +0.0286  -16.36
+  col  rac/com       -0.0766 +0.3154  +0.0109  -13.26
+  col  homo/mil      -0.0819 +0.3609  +0.0101  -12.57
+  spk  homo/mil      -0.0574 +0.3995  +0.0307  -10.73
+  col  homo/com      -0.0540 +0.3299  +0.0115   -9.19
+  spk  homo/com      -0.0163 +0.4433  +0.0297   -6.04
+  lib  homo/mil      +0.1057 +0.5172  +0.1320   -3.79
+  lib  mil/ath       +0.1075 +0.5378  +0.1345   -3.46
+  lib  rac/mil       +0.1136 +0.5110  +0.1359   -2.82
+  lib  homo/com      +0.1175 +0.5371  +0.1348   -2.03
+  col  homo/ath      +0.0001 +0.4077  +0.0106   -1.43
+  lib  rac/com       +0.1366 +0.5355  +0.1370   -0.05
+  lib  homo/ath      +0.1507 +0.5265  +0.1352   +1.80
+  col  com/ath       +0.0240 +0.4371  +0.0104   +1.89
+  spk  mil/ath       +0.0444 +0.4943  +0.0287   +2.01
+  spk  rac/com       +0.0465 +0.4729  +0.0285   +2.71
+  spk  rac/mil       +0.0590 +0.4649  +0.0289   +4.04
+  col  com/mil       +0.0414 +0.4476  +0.0098   +4.87
+  lib  com/ath       +0.2048 +0.6005  +0.1337   +9.05
+  lib  rac/ath       +0.2179 +0.5578  +0.1353   +9.16
+  spk  com/mil       +0.0960 +0.5478  +0.0286  +10.00
+  spk  rac/ath       +0.1215 +0.4870  +0.0304  +11.57
+  spk  homo/ath      +0.1179 +0.4678  +0.0291  +12.28
+  lib  com/mil       +0.2559 +0.6348  +0.1353  +16.10
+  spk  com/ath       +0.1454 +0.5636  +0.0294  +16.42
+  col  mil/ath       +0.1783 +0.5542  +0.0104  +25.43
+  col  rac/mil       +0.1905 +0.5125  +0.0118  +26.51
+  col  rac/ath       +0.2199 +0.5293  +0.0104  +26.76
+
+  specification curve — every cell, none dropped
+    all respondents        residual  n= 22420  pair r: min -0.1434 mean +0.0723 max +0.2559
+    all respondents        raw       n= 22420  pair r: min +0.2430 mean +0.4720 max +0.6348
+    cohorts in >=3 waves   residual  n= 22350  pair r: min -0.1430 mean +0.0725 max +0.2561
+    cohorts in >=3 waves   raw       n= 22350  pair r: min +0.2434 mean +0.4724 max +0.6350
+  null REPRODUCIBILITY (two independent permutation sets, 60 draws each): mean |A - B| = 0.00116 vs mean |observed - null| = 0.07395
+  CONDITIONAL KILL -- Is 'zero-sum' a within-person fact, once the floor arithmetic forces is subtracted?
+   PASS  positive: a planted trade-off drives `spkhomo`x`spkrac` below the null, and g=0 sits ON that null (`#922`)                                                                                                                                                                                                                     方向由数据给出:**上升**;灵敏度 g=0.25;g=0 -0.0318 · g=0.75 +0.4582   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  within-person target-label permutation reproduces itself across two independent draws [30 cells]                                                                                                                                                                                                                               |+0.0012| < 0.5*|+0.0740| = 0.0370   (null is 2% of the effect [零的方案: within-person target-label permutation (each person's total preserved EXACTLY, so the ipsative constraint is held fixed)])
+   PASS  all 30 cells = 10 target pairs x 3 stems — the family this claim lives in (`#936`②/`#940`②)                                                                                                                                                                                                                                    method=bh q=0.05 · **cells tested 30 · cells surviving 24** · 存活 ['col/homo-rac', 'lib/homo-rac', 'spk/homo-rac', 'col/rac-com', 'col/homo-mil', 'spk/homo-mil', 'col/homo-com', 'spk/homo-com', 'lib/homo-mil', 'lib/mil-ath', 'lib/rac-mil', 'spk/rac-com', 'spk/rac-mil', 'col/com-mil', 'lib/com-ath', 'lib/rac-ath', 'spk/com-mil', 'spk/rac-ath', 'spk/homo-ath', 'lib/com-mil', 'spk/com-ath', 'col/mil-ath', 'col/rac-mil', 'col/rac-ath'] · 未存活 ['lib/homo-com', 'col/homo-ath', 'lib/rac-com', 'lib/homo-ath', 'col/com-ath', 'spk/mil-ath']   (control)
+   PASS  ⚠ DERIVATION CHECK (a): over ALL 105 pairs the observed residuals must sit on the algebraically forced floor -1/(k-1), or the ipsative arithmetic is not what I derived                                                                                                                                                        derived -0.0714 · observed over all 105 pairs -0.0703 · |diff| 0.0011. ⚠ v1 checked this against the NULL's mean over the 30 WITHIN-STEM pairs (+0.0584) and failed — a subset's mean is not the whole set's forced value, and the complement (same target across stems) carries the positive mass · 总体:all 105 pairs of 15 residual columns, n=22420   (asserted in code, not in prose)
+   PASS  ⚠ DERIVATION CHECK (b): NO closed form forces the WITHIN-STEM pair baseline, which is precisely why the permutation null exists and is measured rather than assumed                                                                                                                                                            null within-stem grand mean +0.0584 +/- 0.0075 over 60 permutations, each preserving every person's total EXACTLY; every cell below is judged against ITS OWN null cell, never against -0.0714 and never against zero · 总体:30 within-stem target pairs, n=22420   (asserted in code, not in prose)
+   PASS  ⚠ CONFOUND CONTROL in the same iteration: removing the person mean removes exactly the general factor that would make correlations POSITIVE, so raw is reported beside residual                                                                                                                                                raw pair r: mean +0.4720 [+0.2430, +0.6348] · residual: mean +0.0723 [-0.1434, +0.2559] · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   PASS  ⚠ HARD RULE 1: n and years printed before any column was cited; and `#942`'s withdrawn limit is what makes this design exist at all                                                                                                                                                                                            n=22420 answering all 15 items · 19 waves 1988-2021 — `#942` recorded this as 0 rows and `#944` withdrew it · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   PASS  the whole 30-cell grid and the specification curve are published, disagreeing cells included                                                                                                                                                                                                                                   all/res mean +0.072 · all/raw mean +0.472 · coh/res mean +0.072 · coh/raw mean +0.472 · 总体:GSS Stouffer battery, all 15 items, n=22420   (asserted in code, not in prose)
+   FAIL  KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires and the null lands on the derived floor. STAKED: W_GENERAL, i.e. NO target pair sits significantly below the ipsative floor. W_TRADE_OFF refutes it. ⚠ W_GENERAL is staked precisely because it is the outcome that would make this round add nothing  positive fires True · ipsative algebra holds over all 105 pairs AND the null reproduces itself (0.00116 vs half the mean departure 0.03698): True (|-0.0703 - -0.0714| = 0.0011) · cells BELOW their own null cell at p<0.05: 12 · cells ABOVE: 14 ⇒ W_TRADE_OFF   尺:residual pair correlation minus the ipsative floor -1/(k-1),其自身噪声 0.00745428 · 总体:GSS Stouffer battery, all 15 items jointly, n=22420, 19 waves 1988-2021 · 方向:一致 · 控制总体:5/5 条已命名,**5 条与判据不同** ['⚠ DERIVATION CHECK', '⚠ DERIVATION CHECK', '⚠ CONFOUND CONTROL in the sa', '⚠ HARD RULE 1: n and years p', 'the whole 30-cell grid and t']  ⚠ **控制的总体 ≠ 主张的总体** —— **它证明的是另一群人身上的仪器**(`#866`①)(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires and the null lands on the derived floor. STAKED: W_GENERAL, i.e. NO target pair sits significantly below the ipsative floor. W_TRADE_OFF refutes it. ⚠ W_GENERAL is staked precisely because it is the outcome that would make this round add nothing). This is a refutation, NOT an unverified round (#366e).
+
+VERDICT           : OVERTURNED · world W_TRADE_OFF
+
+wrote /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A125_is_zero_sum_a_within_person_fact/R383_the_trade_off_against_its_ipsative_floor/results/the_trade_off_against_its_ipsative_floor.json

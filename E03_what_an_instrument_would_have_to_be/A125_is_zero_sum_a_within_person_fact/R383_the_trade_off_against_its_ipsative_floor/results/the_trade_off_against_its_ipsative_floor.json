@@ -1,0 +1,452 @@
+{
+ "entry": 945,
+ "round": "E03\u00b7A125\u00b7R383",
+ "gate_verdict": "   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the null lands on the derived floor. STAKED: W_GENERAL, i.e. NO target pair sits significantly below the ipsative floor. W_T",
+ "gates": [
+  [
+   "positive: a planted trade-off drives `spkhomo`x`spkrac` below the null, and g=0 sits ON that null (`#922`)",
+   true,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.25;g=0 -0.0318 \u00b7 g=0.75 +0.4582"
+  ],
+  [
+   "within-person target-label permutation reproduces itself across two independent draws [30 cells]",
+   true,
+   "|+0.0012| < 0.5*|+0.0740| = 0.0370"
+  ],
+  [
+   "all 30 cells = 10 target pairs x 3 stems \u2014 the family this claim lives in (`#936`\u2461/`#940`\u2461)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 30 \u00b7 cells surviving 24** \u00b7 \u5b58\u6d3b ['col/homo-rac', 'lib/homo-rac', 'spk/homo-rac', 'col/rac-com', 'col/homo-mil', 'spk/homo-mil', 'col/homo-com', 'spk/homo-com', 'lib/homo-mil', 'lib/mil-ath', 'lib/rac-mil', 'spk/rac-com', 'spk/rac-mil', 'col/com-mil', 'lib/com-ath', 'lib/rac-ath', 'spk/com-mil', 'spk/rac-ath', 'spk/homo-ath', 'lib/com-mil', 'spk/com-ath', 'col/mil-ath', 'col/rac-mil', 'col/rac-ath'] \u00b7 \u672a\u5b58\u6d3b ['lib/homo-com', 'col/homo-ath', 'lib/rac-com', 'lib/homo-ath', 'col/com-ath', 'spk/mil-ath']"
+  ],
+  [
+   "\u26a0 DERIVATION CHECK (a): over ALL 105 pairs the observed residuals must sit on the algebraically forced floor -1/(k-1), or the ipsative arithmetic is not what I derived",
+   true,
+   "derived -0.0714 \u00b7 observed over all 105 pairs -0.0703 \u00b7 |diff| 0.0011. \u26a0 v1 checked this against the NULL's mean over the 30 WITHIN-STEM pairs (+0.0584) and failed \u2014 a subset's mean is not the whole set's forced value, and the complement (same target across stems) carries the positive mass \u00b7 \u603b\u4f53:all 105 pairs of 15 residual columns, n=22420"
+  ],
+  [
+   "\u26a0 DERIVATION CHECK (b): NO closed form forces the WITHIN-STEM pair baseline, which is precisely why the permutation null exists and is measured rather than assumed",
+   true,
+   "null within-stem grand mean +0.0584 +/- 0.0075 over 60 permutations, each preserving every person's total EXACTLY; every cell below is judged against ITS OWN null cell, never against -0.0714 and never against zero \u00b7 \u603b\u4f53:30 within-stem target pairs, n=22420"
+  ],
+  [
+   "\u26a0 CONFOUND CONTROL in the same iteration: removing the person mean removes exactly the general factor that would make correlations POSITIVE, so raw is reported beside residual",
+   true,
+   "raw pair r: mean +0.4720 [+0.2430, +0.6348] \u00b7 residual: mean +0.0723 [-0.1434, +0.2559] \u00b7 \u603b\u4f53:GSS Stouffer battery, all 15 items, n=22420"
+  ],
+  [
+   "\u26a0 HARD RULE 1: n and years printed before any column was cited; and `#942`'s withdrawn limit is what makes this design exist at all",
+   true,
+   "n=22420 answering all 15 items \u00b7 19 waves 1988-2021 \u2014 `#942` recorded this as 0 rows and `#944` withdrew it \u00b7 \u603b\u4f53:GSS Stouffer battery, all 15 items, n=22420"
+  ],
+  [
+   "the whole 30-cell grid and the specification curve are published, disagreeing cells included",
+   true,
+   "all/res mean +0.072 \u00b7 all/raw mean +0.472 \u00b7 coh/res mean +0.072 \u00b7 coh/raw mean +0.472 \u00b7 \u603b\u4f53:GSS Stouffer battery, all 15 items, n=22420"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the null lands on the derived floor. STAKED: W_GENERAL, i.e. NO target pair sits significantly below the ipsative floor. W_TRADE_OFF refutes it. \u26a0 W_GENERAL is staked precisely because it is the outcome that would make this round add nothing",
+   false,
+   "positive fires True \u00b7 ipsative algebra holds over all 105 pairs AND the null reproduces itself (0.00116 vs half the mean departure 0.03698): True (|-0.0703 - -0.0714| = 0.0011) \u00b7 cells BELOW their own null cell at p<0.05: 12 \u00b7 cells ABOVE: 14 \u21d2 W_TRADE_OFF   \u5c3a:residual pair correlation minus the ipsative floor -1/(k-1),\u5176\u81ea\u8eab\u566a\u58f0 0.00745428 \u00b7 \u603b\u4f53:GSS Stouffer battery, all 15 items jointly, n=22420, 19 waves 1988-2021 \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:5/5 \u6761\u5df2\u547d\u540d,**5 \u6761\u4e0e\u5224\u636e\u4e0d\u540c** ['\u26a0 DERIVATION CHECK', '\u26a0 DERIVATION CHECK', '\u26a0 CONFOUND CONTROL in the sa', '\u26a0 HARD RULE 1: n and years p', 'the whole 30-cell grid and t']  \u26a0 **\u63a7\u5236\u7684\u603b\u4f53 \u2260 \u4e3b\u5f20\u7684\u603b\u4f53** \u2014\u2014 **\u5b83\u8bc1\u660e\u7684\u662f\u53e6\u4e00\u7fa4\u4eba\u8eab\u4e0a\u7684\u4eea\u5668**(`#866`\u2460)(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "n": 22420,
+ "k": 15,
+ "derived_floor": -0.07142857142857142,
+ "null_grand_mean": 0.058370845988342274,
+ "all_pairs_residual_mean": -0.07029025879869114,
+ "cells": [
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "rac",
+   "r_residual": -0.14340591408048173,
+   "r_raw": 0.24295565699394744,
+   "null": 0.013078151023160194,
+   "null_sd": 0.006570464133367276,
+   "z": -23.81628784927952,
+   "p": 0.0
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "rac",
+   "r_residual": 0.007304500578099009,
+   "r_raw": 0.4170716346629834,
+   "null": 0.1361341169835688,
+   "null_sd": 0.006982475522680207,
+   "z": -18.45042148547609,
+   "p": 0.0
+  },
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "rac",
+   "r_residual": -0.10334296433459762,
+   "r_raw": 0.30761336694989133,
+   "null": 0.02863527745531541,
+   "null_sd": 0.008065693978919512,
+   "z": -16.362912123228476,
+   "p": 0.0
+  },
+  {
+   "stem": "col",
+   "a": "rac",
+   "b": "com",
+   "r_residual": -0.07661253396074107,
+   "r_raw": 0.31538959387656823,
+   "null": 0.01085236917348764,
+   "null_sd": 0.006597309678730539,
+   "z": -13.25766219770038,
+   "p": 0.0
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "mil",
+   "r_residual": -0.08193213511856093,
+   "r_raw": 0.3608941259912921,
+   "null": 0.010109484690970226,
+   "null_sd": 0.007322734215750858,
+   "z": -12.569296808773142,
+   "p": 0.0
+  },
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "mil",
+   "r_residual": -0.0573523732479437,
+   "r_raw": 0.3995112729150567,
+   "null": 0.030651445208956983,
+   "null_sd": 0.00819932497078231,
+   "z": -10.733056534592276,
+   "p": 0.0
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "com",
+   "r_residual": -0.05399480512328622,
+   "r_raw": 0.3298508636850297,
+   "null": 0.011535697367321936,
+   "null_sd": 0.007130964656409143,
+   "z": -9.189570506665024,
+   "p": 0.0
+  },
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "com",
+   "r_residual": -0.016287634647701464,
+   "r_raw": 0.44328840570789846,
+   "null": 0.029715722933765447,
+   "null_sd": 0.007612819179177162,
+   "z": -6.042880633142691,
+   "p": 1.5138665876435198e-09
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "mil",
+   "r_residual": 0.10566480947681345,
+   "r_raw": 0.5171640927589164,
+   "null": 0.1319506744323825,
+   "null_sd": 0.006932104194973664,
+   "z": -3.791902749330923,
+   "p": 0.00014949745989478735
+  },
+  {
+   "stem": "lib",
+   "a": "mil",
+   "b": "ath",
+   "r_residual": 0.10746096211872441,
+   "r_raw": 0.5377836741193617,
+   "null": 0.13445348122151737,
+   "null_sd": 0.007811487593536633,
+   "z": -3.455490235320487,
+   "p": 0.0005492930875312663
+  },
+  {
+   "stem": "lib",
+   "a": "rac",
+   "b": "mil",
+   "r_residual": 0.11357487329041582,
+   "r_raw": 0.5109567393306996,
+   "null": 0.13589648623236714,
+   "null_sd": 0.007912515547791097,
+   "z": -2.8210513846235337,
+   "p": 0.004786653500030935
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "com",
+   "r_residual": 0.11752751725425344,
+   "r_raw": 0.5370555003463113,
+   "null": 0.13480593336529798,
+   "null_sd": 0.008500635463315254,
+   "z": -2.0326028784095094,
+   "p": 0.04209266047299609
+  },
+  {
+   "stem": "col",
+   "a": "homo",
+   "b": "ath",
+   "r_residual": 0.00011493143754114099,
+   "r_raw": 0.40767803735095337,
+   "null": 0.010563975280593801,
+   "null_sd": 0.007305169242653805,
+   "z": -1.4303630067928113,
+   "p": 0.15261285985932327
+  },
+  {
+   "stem": "lib",
+   "a": "rac",
+   "b": "com",
+   "r_residual": 0.13659381404294094,
+   "r_raw": 0.5355029823220653,
+   "null": 0.13696774721285954,
+   "null_sd": 0.007945039843457374,
+   "z": -0.047064983598103474,
+   "p": 0.9624614354357117
+  },
+  {
+   "stem": "lib",
+   "a": "homo",
+   "b": "ath",
+   "r_residual": 0.15073195705362627,
+   "r_raw": 0.5264606446401792,
+   "null": 0.13516812483078314,
+   "null_sd": 0.008659079551002506,
+   "z": 1.797400304636447,
+   "p": 0.07227209242310617
+  },
+  {
+   "stem": "col",
+   "a": "com",
+   "b": "ath",
+   "r_residual": 0.023963322683228337,
+   "r_raw": 0.4371439700104041,
+   "null": 0.010422483973949915,
+   "null_sd": 0.007164696354026265,
+   "z": 1.8899389506812843,
+   "p": 0.05876612542092685
+  },
+  {
+   "stem": "spk",
+   "a": "mil",
+   "b": "ath",
+   "r_residual": 0.044439966545606994,
+   "r_raw": 0.49432016900195447,
+   "null": 0.028694905878830144,
+   "null_sd": 0.007850407714114601,
+   "z": 2.0056360433953127,
+   "p": 0.04489509342357678
+  },
+  {
+   "stem": "spk",
+   "a": "rac",
+   "b": "com",
+   "r_residual": 0.046526250887887026,
+   "r_raw": 0.47289359828311767,
+   "null": 0.028462603079476186,
+   "null_sd": 0.006663346927201959,
+   "z": 2.710897092070822,
+   "p": 0.0067101448195705515
+  },
+  {
+   "stem": "spk",
+   "a": "rac",
+   "b": "mil",
+   "r_residual": 0.05903102378918572,
+   "r_raw": 0.4649362285883267,
+   "null": 0.02885833964442042,
+   "null_sd": 0.007468273380939413,
+   "z": 4.040115111716754,
+   "p": 5.3424973256221975e-05
+  },
+  {
+   "stem": "col",
+   "a": "com",
+   "b": "mil",
+   "r_residual": 0.04135849679819285,
+   "r_raw": 0.4475870814067358,
+   "null": 0.009831939377833155,
+   "null_sd": 0.0064696379193686345,
+   "z": 4.873001829975105,
+   "p": 1.0991520447145575e-06
+  },
+  {
+   "stem": "lib",
+   "a": "com",
+   "b": "ath",
+   "r_residual": 0.2047876642888521,
+   "r_raw": 0.6004770159454714,
+   "null": 0.1336615466475237,
+   "null_sd": 0.007862608351761204,
+   "z": 9.046122413740262,
+   "p": 0.0
+  },
+  {
+   "stem": "lib",
+   "a": "rac",
+   "b": "ath",
+   "r_residual": 0.2179428361613601,
+   "r_raw": 0.5577727250984237,
+   "null": 0.1353099580805268,
+   "null_sd": 0.009024047693079025,
+   "z": 9.156963802862924,
+   "p": 0.0
+  },
+  {
+   "stem": "spk",
+   "a": "com",
+   "b": "mil",
+   "r_residual": 0.09602831861233534,
+   "r_raw": 0.5477641429544967,
+   "null": 0.028586874944496042,
+   "null_sd": 0.006740832884310224,
+   "z": 10.00491257168148,
+   "p": 0.0
+  },
+  {
+   "stem": "spk",
+   "a": "rac",
+   "b": "ath",
+   "r_residual": 0.12146594783790696,
+   "r_raw": 0.48695403081836175,
+   "null": 0.030383734948330847,
+   "null_sd": 0.007873992961009043,
+   "z": 11.567474512690449,
+   "p": 0.0
+  },
+  {
+   "stem": "spk",
+   "a": "homo",
+   "b": "ath",
+   "r_residual": 0.11791468225938329,
+   "r_raw": 0.46782238957135086,
+   "null": 0.029074564824137658,
+   "null_sd": 0.007236540050878084,
+   "z": 12.276601360682822,
+   "p": 0.0
+  },
+  {
+   "stem": "lib",
+   "a": "com",
+   "b": "mil",
+   "r_residual": 0.25594637375128043,
+   "r_raw": 0.6348096176785321,
+   "null": 0.13530035515295818,
+   "null_sd": 0.007491855594683486,
+   "z": 16.103623070890126,
+   "p": 0.0
+  },
+  {
+   "stem": "spk",
+   "a": "com",
+   "b": "ath",
+   "r_residual": 0.1454348723624082,
+   "r_raw": 0.5635725270592977,
+   "null": 0.029371927227408168,
+   "null_sd": 0.007066355130288776,
+   "z": 16.424725759609107,
+   "p": 0.0
+  },
+  {
+   "stem": "col",
+   "a": "mil",
+   "b": "ath",
+   "r_residual": 0.17831646620084765,
+   "r_raw": 0.554190704098736,
+   "null": 0.0104039219995695,
+   "null_sd": 0.006601829471142365,
+   "z": 25.43424439168723,
+   "p": 0.0
+  },
+  {
+   "stem": "col",
+   "a": "rac",
+   "b": "mil",
+   "r_residual": 0.1904737151954825,
+   "r_raw": 0.512531934996183,
+   "null": 0.011844017672676047,
+   "null_sd": 0.006737263050251304,
+   "z": 26.51368904412059,
+   "p": 0.0
+  },
+  {
+   "stem": "col",
+   "a": "rac",
+   "b": "ath",
+   "r_residual": 0.2199183182221805,
+   "r_raw": 0.5293111235065396,
+   "null": 0.010399518785783188,
+   "null_sd": 0.007828849409272776,
+   "z": 26.762400000724956,
+   "p": 0.0
+  }
+ ],
+ "grid": [
+  {
+   "spec": "all respondents",
+   "arm": "residual",
+   "n": 22420,
+   "min_pair": -0.14340591408048173,
+   "max_pair": 0.25594637375128043,
+   "mean_pair": 0.07231977534450798
+  },
+  {
+   "spec": "all respondents",
+   "arm": "raw",
+   "n": 22420,
+   "min_pair": 0.24295565699394744,
+   "max_pair": 0.6348096176785321,
+   "mean_pair": 0.4720421283556363
+  },
+  {
+   "spec": "cohorts in >=3 waves",
+   "arm": "residual",
+   "n": 22350,
+   "min_pair": -0.1430396890636023,
+   "max_pair": 0.2561174675505221,
+   "mean_pair": 0.07249932018740533
+  },
+  {
+   "spec": "cohorts in >=3 waves",
+   "arm": "raw",
+   "n": 22350,
+   "min_pair": 0.2433984150059602,
+   "max_pair": 0.6350369074963401,
+   "mean_pair": 0.47236160484562384
+  }
+ ],
+ "below_floor": 12,
+ "above_floor": 14,
+ "null_median": 0.02863527745531541,
+ "null_sd": 0.008065693978919512,
+ "null_draws": 60,
+ "positive_sweep": [
+  [
+   0.0,
+   0.03177341169113248
+  ],
+  [
+   0.25,
+   -0.2012662499018343
+  ],
+  [
+   0.5,
+   -0.34345833352518684
+  ],
+  [
+   0.75,
+   -0.458178400021483
+  ]
+ ],
+ "family_size": 30,
+ "world": "W_TRADE_OFF",
+ "verdict": "OVERTURNED \u00b7 world W_TRADE_OFF",
+ "null_reproducibility": 0.0011628502480599803,
+ "mean_abs_departure": 0.07395143034923836
+}

@@ -528,6 +528,50 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#945` · the exchange rate is between homosexuals and racists
+
+`#929` says *total tolerance rose +2.131 of 15 — growth, **not zero-sum***. But zero-sum is a claim
+about a trade-off **inside a person**, and `#929` tested it with a **sum across people** — and a sum
+is blind to trade-offs by construction. `#944` withdrew the limit that made the within-person design
+look impossible: **22,420 respondents answered all fifteen items**, 19 waves, 1988–2021.
+
+⚠⚠ **Derived before the data was read**: residuals from a person's own mean over k items are
+*ipsative*, so their mean pairwise correlation is **forced to −1/(k−1) = −0.0714**. Measured over all
+105 pairs: **−0.0703**. Comparing to *zero* would have been reporting the algebra as a finding
+(`#945`). Every cell is judged against its own **within-person target-label permutation** null —
+which preserves each person's total *exactly*, holding the constraint fixed and destroying only which
+target got which answer.
+
+| `#945` stem | pair | r residual | **r RAW** | its null | z |
+|---|---|---|---|---|---|
+| teach | **homosexuals / racists** | **−0.1434** | **+0.2430** | +0.0131 | **−23.8** |
+| library | homosexuals / racists | +0.0073 | +0.4171 | +0.1361 | **−18.5** |
+| speak | homosexuals / racists | **−0.1033** | **+0.3076** | +0.0286 | **−16.4** |
+| teach | racists / communists | −0.0766 | +0.3154 | +0.0109 | −13.3 |
+| teach | communists / militarists | +0.0414 | +0.4476 | +0.0098 | **+4.9** |
+
+**Verdict `OVERTURNED`.** I staked "no pair sits below its null" precisely because it was the outcome
+that would make this round add nothing. **12 of 30 cells sit below their own null and 14 above, 24 of
+30 surviving BH.** The null reproduces itself across two independent permutation sets to **0.00116**
+against a mean departure of **0.07395**.
+
+**And the pair that trades hardest is the same pair `#942` found moving in opposite directions** —
+`homosexuals × racists` is the most negative cell in all three stems, while `#942`, by a completely
+different route, found tolerance of homosexuals rising within cohorts and tolerance of racists
+falling. Two designs sharing no machinery, one pair.
+
+⚠ **Scope, and the confound is not small** (`#945`): at the **raw** level that pair is **positive in every
+stem** (+0.2430, +0.3076, +0.4171) — tolerant people are tolerant of both. The trade-off appears only
+net of a person's general level, and removing the person mean removes exactly the general factor that
+produces the positive raw correlation. **There is a general disposition AND, on top of it, a specific
+exchange rate**; neither arm alone is the picture. This design cannot distinguish "I spend my
+tolerance" from "one thing pushes these two apart", and never observes a person trading over time.
+
+> **One sentence about people (`#945`): Americans are not spending a fixed budget of tolerance —
+> tolerant people really are tolerant of nearly everyone — but once you hold constant how tolerant a
+> person is in general, the sharpest trade in the whole battery is homosexuals against racists: the
+> room a person makes for one is, more than for any other pair, room taken from the other.**
+
 ### `#944` · they grew more willing to let them teach and less willing to let them speak
 
 `#929` stands on this page as *total tolerance rose +2.131 of 15 — growth, not zero-sum*, measured on

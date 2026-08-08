@@ -47907,3 +47907,80 @@ exists across all 19 waves) would settle it, and until then `col/T` is a directi
 `#944`③ **`#942`'s withdrawn limit means a within-person all-15 analysis IS available** on n=22,420,
 which is the design `#942` said was impossible — and it is the only route here to "did the same
 person trade one target off against another", the question `#929`'s "zero-sum" was really about.
+
+## Entry 945 · `E03·A125·R383` — the exchange rate is between homosexuals and racists
+
+**`#944`③.** `#929` says *total tolerance rose +2.131 of 15 — growth, **not zero-sum***. But zero-sum
+is a claim about a trade-off **inside a person**, and `#929` tested it with a **sum across people**.
+**A sum is blind to trade-offs by construction**: every zero-sum world and every growth world with
+the same total produce the same number. `#944`③ withdrew the limit that made the within-person design
+look impossible — **22,420 respondents answered all fifteen items**, 19 waves, 1988–2021.
+
+**⚠⚠ THE ARITHMETIC TRAP, DERIVED BEFORE THE DATA WAS READ.** Residuals from a person's own mean over
+k items are **ipsative** — they sum to zero — so their **mean pairwise correlation is FORCED to
+−1/(k−1) = −0.0714**, whatever anyone believes about tolerance. Measured over all 105 pairs:
+**−0.0703**. Comparing residual correlations to *zero* would have been reporting the algebra as a
+finding. **Every cell below is judged against its own permutation null, never against zero.**
+
+**The null is the design.** Within-person **target-label permutation**: shuffle which of the five
+targets got which answer, inside each person and each stem. This **preserves every person's total
+exactly**, so it holds the ipsative constraint fixed and destroys only *which target* got which
+answer.
+
+| stem | pair | r residual | **r RAW** | its null | z |
+|---|---|---|---|---|---|
+| teach | **homosexuals / racists** | **−0.1434** | **+0.2430** | +0.0131 | **−23.8** |
+| library | homosexuals / racists | +0.0073 | +0.4171 | +0.1361 | **−18.5** |
+| speak | homosexuals / racists | **−0.1033** | **+0.3076** | +0.0286 | **−16.4** |
+| teach | racists / communists | −0.0766 | +0.3154 | +0.0109 | −13.3 |
+| teach | homosexuals / militarists | −0.0819 | +0.3609 | +0.0101 | −12.6 |
+| … | teach | communists / militarists | +0.0414 | +0.4476 | +0.0098 | **+4.9** |
+
+**VERDICT: `OVERTURNED` · `W_TRADE_OFF`.** I staked **W_GENERAL** — no pair below its null — precisely
+because it was the outcome that would make this round add nothing. It failed: **12 of 30 cells sit
+below their own null and 14 above, 24 of 30 surviving BH over the whole grid.** Controls sound:
+positive sweep `0→+0.0318 · 0.25→−0.2013 · 0.5→−0.3435 · 0.75→−0.4582` with `g=0` **0.39 spreads**
+from that cell's null; the null **reproduces itself** across two independent permutation sets to
+**0.00116** against a mean observed departure of **0.07395**, a factor of 64.
+
+**⚠⚠⚠ AND THE PAIR THAT TRADES HARDEST IS THE SAME PAIR `#942` FOUND MOVING IN OPPOSITE DIRECTIONS.**
+`homosexuals × racists` is the most negative cell **in all three stems**, by a margin — and `#942`,
+by a completely different route (cohort-demeaned *trends*, not cross-sectional residuals), found that
+tolerance of homosexuals rose within cohorts while tolerance of racists **fell**. Two designs sharing
+no machinery, pointing at one pair.
+
+**⚠ Scope, and the confound is not small.** At the **raw** level `homosexuals × racists` is
+**positive in every stem** (+0.2430, +0.3076, +0.4171) — tolerant people are tolerant of both. The
+trade-off appears only **net of a person's general level**, and *removing the person mean removes
+exactly the general factor that produces the positive raw correlation*. Both arms are therefore
+reported side by side and neither is the whole picture: **there is a general tolerance disposition
+AND, on top of it, a specific exchange rate.** Registered as structurally impossible: this design
+**cannot distinguish "I spend my tolerance" from "one thing pushes these two apart"**, and it observes
+structure among people at a moment, never a person trading over time.
+
+**⚠ TWO CONTROLS OF MINE FAILED FIRST, AND BOTH FAILED FOR THE SAME REASON.** ① The derivation check
+compared the algebraic floor over **all 105 pairs** against the null's mean over the **30 within-stem
+pairs** — different populations, so the two sides were never the same object. ② After that repair the
+negative control became **degenerate**: once the estimand is "departure from its own null", that
+quantity is zero under the null *by construction*, so the control could only ever fail — `realstat`'s
+*control that cannot PASS*, and the mirror of the kill-that-cannot-fail I have now built four times.
+Replaced by a control that can go either way: two independent permutation sets, and the null must
+reproduce itself to a tolerance small against the effect. **Both defects are the same error at
+different depths — the two sides of a comparison were not the same object** — and neither was caught
+by me; the gate refused the round twice.
+
+**ONE SENTENCE ABOUT PEOPLE.** Americans are not spending a fixed budget of tolerance — tolerant
+people really are tolerant of nearly everyone — but **once you hold constant how tolerant a person is
+in general, the sharpest trade in the whole battery is homosexuals against racists**: the room a
+person makes for one is, more than for any other pair, room taken from the other, and those are
+exactly the two groups whose trends moved in opposite directions inside the same cohorts.
+
+**NEXT** — `#945`① **the trade-off structure should be dated**: it is measured pooled over 19 waves,
+and if `homosexuals × racists` grew *more* negative over time it is the mechanism behind `#942`'s
+opposing trends rather than a coincidence beside them. That is one interaction and the null already
+exists. `#945`② ⚠ **`#929` now needs a two-clause correction, not one** — its total is right, its
+"not zero-sum" is right about the population and wrong about the person, and `#944` already owes the
+first clause. `#945`③ **the positive departures are a finding nobody asked for**: `communists ×
+militarists` and `racists × militarists` sit ABOVE their nulls, i.e. co-tolerated beyond the general
+factor — which looks like an old left/right axis surviving inside a battery designed in 1954, and it
+has no home on the page yet.
