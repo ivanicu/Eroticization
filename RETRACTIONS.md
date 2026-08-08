@@ -47829,3 +47829,81 @@ null that mutates one variable of an algebraic identity must assert the identity
 "growth, not zero-sum" has not yet been qualified on the page. `#943`③ **the A121 arc closes with a
 decision, not a finding**: "when in a life" is unanswerable on GSS alone and needs panel data (the
 same wall `#937` hit from the other side), so it should stop consuming rounds until such data exists.
+
+## Entry 944 · `E03·A124·R382` — they grew more willing to let them teach and less willing to let them speak
+
+**`#943`②/`#942`③, the owed footnote.** `#929` stands on the page as *total tolerance rose +2.131 of
+15, 4 of 5 targets rising — growth, not zero-sum*, measured on **raw totals over a changing
+population**. `#942` then found that within cohorts racists moved **down** while homosexuals moved
+**up**. Nobody had computed the within-cohort **total**. If the living redirected rather than grew,
+`#929`'s growth belongs to replacement and not to anybody changing their mind.
+
+**⚠⚠ FIRST, A RETRACTION OF MY OWN TWO ROUNDS OLD, AND IT WAS CAUSED BY THE BUG `#942` DOCUMENTS.**
+`#942` registered as a structural limit: *"the 15 cells are NOT the same people — all fifteen jointly
+answered is **zero rows** — so no within-person comparison is made."* **That is false. All fifteen are
+jointly answered by 22,420 respondents.** The zero was an artifact of v1's wrong code assumption
+(`col` items read as `== 1` when they are coded 4/5), which `#942` then *fixed for its numbers and
+left standing in its scope statement*. **The correction reached the analysis and not the sentence** —
+which is precisely the failure mode of *a correction must reach the artifact*. `#942`'s findings are
+unaffected; its registered limit is withdrawn here.
+
+**⚠ HARD RULE 1, printed before any column was cited:** `spk` n=**24,906** · `col` n=**23,620** ·
+`lib` n=**24,629**, five items **jointly** answered, **19 waves, 1988–2021**. ⚠ **Not 2024** — the
+Stouffer battery stops in 2021, so this window is four years shorter than `#941`'s and the two are
+not directly comparable. **HARD RULE 2, the instrument:** GSS's Stouffer battery, one questionnaire,
+five targets asked in one block in sequence — which is why the *spread* is measured beside the total.
+
+**Per person: TOTAL = how many of the five targets are allowed (0–5); SPREAD = the within-person sd
+across those five, i.e. how selective. Trend per decade, raw vs cohort-demeaned.**
+
+| stem | raw T | **demeaned T** | its null | **demeaned S** | its null |
+|---|---|---|---|---|---|
+| **speak** | +0.0810 | **−0.0268** ← **DOWN** | +0.0017 ± 0.0096 | **+0.0047** | −0.0002 ± 0.0010 |
+| **teach** | +0.2059 | **+0.0323** ← **UP** | +0.0003 ± 0.0101 | +0.0022 | +0.0014 ± 0.0009 |
+| **library book** | +0.1432 | +0.0172 (1.7σ, unresolved) | −0.0004 ± 0.0102 | **+0.0080** | +0.0038 ± 0.0011 |
+
+**VERDICT: `OVERTURNED` · `W_MIXED`.** The staked W_GROWTH_HOLDS needed the demeaned total to rise
+past twice its null in ≥2 of 3 stems; it does so in **1 of 3**. But W_REDISTRIBUTION is refuted too —
+it needed the total flat everywhere, and `teach` moves **+3.2 spreads up** while `speak` moves **−3.0
+spreads down**. Controls sound: positive sweep `0→−0.0035 · 0.2→+0.4306 · 0.4→+0.8573 · 0.6→+1.2916`
+with `g=0` **0.53 spreads** from the null; all three within-cohort year-label permutation nulls null;
+**4 of 6 cells survive BH** (`spk/T`, `spk/S`, `col/T`, `lib/S`; the non-survivors are `col/S` and
+`lib/T`, published here rather than dropped).
+
+**⚠⚠⚠ THE THREE STEMS DISAGREE IN SIGN, AND `realstat` SAYS THAT MAKES THE FRAMING THE FINDING.** I
+designed this round around one dial called tolerance and asked whether it rose or was redistributed.
+**Within the same living people it did both, depending on the act**: `speak` lost total and gained
+spread (redistribution *and* net loss), `teach` gained total with flat spread (genuine growth), `lib`
+gained spread with an unresolved total. The raw arm hides this completely — all three raw trends are
+positive, which is how `#929` was written. **"Tolerance" is not one quantity that went up; it is three
+permissions that moved differently in the same heads.**
+
+**⚠ Scope.** The gauge test was registered before the run and binds: **T and S are symmetric in the
+five targets**, so this round says *how much* and *how selective* and structurally **cannot** say
+*toward whom* — `#942` owns that, and the two must be read together. And the acquiescence control
+does real work here: a pure yes-saying drift would move T while leaving the target rank order alone,
+so a T-only movement is uninterpretable. `speak` and `lib` move T **and** S, `teach` moves T alone —
+**so `teach`'s +0.0323, the one cell that supports growth, is the one cell that acquiescence could
+also explain**, and it is not claimed as growth without that caveat.
+
+**⚠ `#943`① PAID IN PASSING, AS A CONTROL RATHER THAN AN EXCUSE.** Permuting `year` within cohort
+breaks `age = year − cohort` for **89.7%** of respondents here — the same failure that killed `#943`.
+But this statistic's inputs are the five indicators, `cohort` (for demeaning) and `year` (for the
+trend); **`age` is not among them, so 0 inputs are invalidated** and the null is admissible. The
+check is *run*, and its output is what licenses the null — which is the difference between a
+demonstration and a story about why the last round's problem does not apply.
+
+**ONE SENTENCE ABOUT PEOPLE.** Across their own lifetimes Americans did not turn a single tolerance
+dial: **the same living people became more willing to let these five kinds of person teach in a
+college, and less willing to let them give a speech** — so what changed was not how much they would
+put up with, but which permissions they were prepared to grant.
+
+**NEXT** — `#944`① **`#929` must now be qualified on the page in the direction this round found, not
+the one I expected**: its raw growth is real and its within-cohort version is **act-specific and sign-
+reversing**, so "growth, not zero-sum" is true of the population and false of the person. `#944`②
+⚠ **`teach` is the one growth cell and it is the one acquiescence can explain** — a response-style
+control that is not the spread (e.g. a non-tolerance yes/no block from the same interview, if one
+exists across all 19 waves) would settle it, and until then `col/T` is a direction with a rival.
+`#944`③ **`#942`'s withdrawn limit means a within-person all-15 analysis IS available** on n=22,420,
+which is the design `#942` said was impossible — and it is the only route here to "did the same
+person trade one target off against another", the question `#929`'s "zero-sum" was really about.

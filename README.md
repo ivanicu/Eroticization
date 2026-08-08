@@ -528,6 +528,55 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#944` · they grew more willing to let them teach and less willing to let them speak
+
+`#929` stands on this page as *total tolerance rose +2.131 of 15 — growth, not zero-sum*, measured on
+**raw totals over a changing population**. `#942` then found that within cohorts racists moved down
+while homosexuals moved up. **Nobody had computed the within-cohort total.**
+
+⚠⚠ **First, a retraction of `#942`'s own registered limit.** It recorded *"all fifteen items jointly
+answered is zero rows, so no within-person comparison is made"*. **False — all fifteen are jointly
+answered by 22,420 respondents** (`#944`). The zero was an artifact of the wrong-code bug that `#942`
+itself documents, fixed for its numbers and left standing in its scope statement. `#942`'s findings
+are unaffected; the limit is withdrawn.
+
+⚠ **HARD RULE 1**, printed before any column was cited: `spk` n=24,906 · `col` n=23,620 · `lib`
+n=24,629, five items **jointly** answered, **19 waves, 1988–2021** — **not 2024**, the battery stops
+in 2021, so this window is four years shorter than `#941`'s.
+
+Per person: **TOTAL** = how many of the five targets are allowed (0–5); **SPREAD** = the within-person
+sd across those five, i.e. how selective. Trend per decade.
+
+| `#944` stem | raw T | **cohort-demeaned T** | its null | **demeaned S** | its null |
+|---|---|---|---|---|---|
+| **speak** | +0.0810 | **−0.0268** ← **down** | +0.0017 ± 0.0096 | **+0.0047** | −0.0002 ± 0.0010 |
+| **teach** | +0.2059 | **+0.0323** ← **up** | +0.0003 ± 0.0101 | +0.0022 | +0.0014 ± 0.0009 |
+| **library book** | +0.1432 | +0.0172 (1.7σ) | −0.0004 ± 0.0102 | **+0.0080** | +0.0038 ± 0.0011 |
+
+**Verdict `OVERTURNED` · `W_MIXED`** (`#944`). Growth needed the demeaned total to clear twice its
+null in ≥2 of 3 stems; it does so in **1 of 3**. Pure redistribution is refuted too — it needed the
+total flat everywhere, and `teach` rises **+3.2σ** while `speak` falls **−3.0σ**. Controls sound:
+positive sweep `−0.0035 → +0.4306 → +0.8573 → +1.2916` with `g=0` 0.53 spreads from the null; all
+three **within-cohort year-label permutation nulls** null; **4 of 6 cells survive BH**, the
+non-survivors `col/S` and `lib/T` published rather than dropped.
+
+**The three stems disagree in sign, and that makes the framing the finding.** The round was designed
+around one dial called tolerance. Within the same living people it did both things at once, depending
+on the act: `speak` lost total and gained spread, `teach` gained total with flat spread, `lib` gained
+spread with an unresolved total. **The raw arm hides this entirely — all three raw trends are
+positive, which is how `#929` was written.**
+
+⚠ **Scope, registered before the run**: T and S are symmetric in the five targets, so this round says
+*how much* and *how selective* and **cannot** say *toward whom* — `#942` owns that. And the
+acquiescence control bites: a yes-saying drift moves T while leaving the target rank order alone, so
+**`teach`'s +0.0323 — the one cell supporting growth — is the one cell acquiescence could also
+explain**, and it is not claimed as growth without that caveat.
+
+> **One sentence about people (`#944`): across their own lifetimes Americans did not turn a single
+> tolerance dial — the same living people became more willing to let these five kinds of person teach
+> in a college and less willing to let them give a speech, so what changed was not how much they would
+> put up with, but which permissions they were prepared to grant.**
+
 ### `#943` · the null was not a world, and that is why `#939` could not answer
 
 `#939` refused to say when in a life a mind changes because two specifications disagreed, but it read
