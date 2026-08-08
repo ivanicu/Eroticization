@@ -528,6 +528,51 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#949` · the line is not how much sex, it is whether anyone is wronged
+
+`#945` found tolerance has two layers — every raw pair positive, and net of a person's own level, 12
+of 30 pairs below their ipsative null. **Nothing in it distinguished "a fact about out-groups" from
+"a fact about how moral attitudes are held".** So this round runs the same design on **the four
+sexual norms** — same respondents, different battery, GSS ballot 1, **n=14,847, 21 waves 1988–2024**.
+
+⚠⚠ **Derived before the data**: person-centred residuals over k items are ipsative, so their mean
+pairwise correlation is **forced to −1/(k−1) = −0.3333** at k=4 — **4.7× harsher** than `#945`'s
+k=15 floor, so most pairs here *must* be strongly negative and comparing them to zero, or to `#945`'s
+numbers, would report the algebra. Measured: **−0.3317**. ⚠ And each item is **z-scored before
+person-centring**, because their means span 1.339–2.982 and raw centring would make the structure
+*item difficulty* rather than anybody's trade-off.
+
+| `#949` pair | r residual | **r raw** | its null | z |
+|---|---|---|---|---|
+| premarital / **same-sex** | **−0.0832** | +0.5449 | −0.3337 | **+32.96** ← held together |
+| teenage / **extramarital** | −0.2308 | +0.3851 | −0.3343 | **+13.57** ← held together |
+| premarital / teenage | −0.3554 | +0.4155 | −0.3332 | −3.12 |
+| teenage / same-sex | −0.4138 | +0.3809 | −0.3330 | −9.87 |
+| extramarital / same-sex | −0.4344 | +0.3005 | −0.3332 | −12.73 |
+| premarital / extramarital | **−0.4723** | +0.2923 | −0.3326 | **−18.01** ← traded hardest |
+
+**The two-layer structure is not about out-groups — it is how these attitudes are held** (`#949`).
+4 of 6 pairs below their own null, 2 above, **all 12 of 12 cells surviving BH**. The null lands on the
+derived floor and **reproduces itself to 0.00039** across two independent permutation sets against a
+mean departure of 0.1163; the positive sweep runs −0.3355 → −0.6921 with `g=0` 0.23 spreads from its
+null.
+
+**And the partition is exact.** The four pairs below their null are *exactly* the four crossing
+between `{premarital, same-sex}` and `{teenage, extramarital}`; the two above are *exactly* the two
+within. For a 2+2 split of four items that is 4 crossing and 2 within — **6 of 6 cells on the side the
+partition predicts.**
+
+⚠ **The interpretation is mine and the design does not test it.** The measurement says which items
+cluster. Reading that as *consenting adults versus a wronged party* is a reading; **a rival is equally
+available** — `{premarital, same-sex}` are also the two items that moved most historically (`#941`)
+and `{teenage, extramarital}` the two that moved least, so the clusters could be *what changed
+together* rather than *who is harmed*. Open, not resolved.
+
+> **One sentence about people (`#949`): once you hold constant how permissive someone is overall,
+> Americans do not rank sex on a single scale of how much is allowed — they sort it into two camps,
+> premarital and same-sex on one side, teenage and extramarital on the other, and every judgement that
+> crosses that line is traded against the others while the ones inside it move together.**
+
 ### `#947` · the exchange rate did not move, and the story I told twice was co-occurrence
 
 `#942` found tolerance of homosexuals rising within cohorts while tolerance of racists fell. `#945`

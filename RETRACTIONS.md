@@ -48121,3 +48121,78 @@ negative controls**, and `lib/gates.py` still never asks what world destroying a
 `#948`② `#947`③ the drift decomposition `raw = null's own trend + departure` should be run over
 A114–A118's trend claims, where `#940` already showed cohort-demeaning moves the numbers — **two
 independent inflations, neither yet applied to the arc's headlines.**
+
+## Entry 949 · `E03·A126·R385` — the line is not how much sex, it is whether anyone is wronged
+
+**`#945` found tolerance has two layers** — every raw pair positive (a general disposition), and net
+of a person's own level, 12 of 30 pairs below their ipsative null (a specific exchange rate).
+**Nothing in it distinguished "a fact about out-groups" from "a fact about how moral attitudes are
+held".** A123–A125 were also three consecutive arcs on the *same* Stouffer battery, which is a basin
+of object even with three self-refutations in a row, so `#111c` and HARD RULE 4 both say: different
+battery. This round runs `#945`'s exact design on **the four sexual norms** — the project's actual
+subject, same respondents, GSS ballot 1, **n=14,847, 21 waves 1988–2024**.
+
+**⚠⚠ THE ARITHMETIC, DERIVED BEFORE THE DATA.** Person-centred residuals over k items are ipsative,
+so their mean pairwise correlation is **forced to −1/(k−1)**. Here **k=4 ⇒ −0.3333**, which is
+**4.7× harsher** than `#945`'s k=15 floor of −0.0714 — so **most pairs here MUST be strongly
+negative**, and comparing any of them to zero, or to `#945`'s numbers, would report the algebra.
+Measured: **−0.3317.** Every cell is judged against its own null.
+
+**⚠ AND A SCALE PROBLEM `#945` DID NOT HAVE.** Its items were binary with similar marginals; these
+four are 4-point with means spanning **1.339 to 2.982**. Raw person-centring would make the pair
+structure *item difficulty*, not anybody's trade-off. Each item is z-scored across people first; the
+raw-centred arm is published beside it.
+
+| pair | r residual | **r raw** | its null | z |
+|---|---|---|---|---|
+| premarital / **same-sex** | **−0.0832** | +0.5449 | −0.3337 | **+32.96** ← held together |
+| teenage / **extramarital** | −0.2308 | +0.3851 | −0.3343 | **+13.57** ← held together |
+| premarital / teenage | −0.3554 | +0.4155 | −0.3332 | −3.12 |
+| teenage / same-sex | −0.4138 | +0.3809 | −0.3330 | −9.87 |
+| extramarital / same-sex | −0.4344 | +0.3005 | −0.3332 | −12.73 |
+| premarital / extramarital | **−0.4723** | +0.2923 | −0.3326 | **−18.01** ← traded hardest |
+
+**VERDICT: `CONFIRMED` · `W_GENERAL_LAW`.** **4 of 6 pairs sit below their own null and 2 above, and
+all 12 of 12 cells survive BH** over the whole grid. Controls: the null lands on the derived floor
+(−0.3333 exactly), **reproduces itself across two independent permutation sets to 0.00039** against a
+mean departure of 0.1163 — the `#948`① check, run because three consecutive rounds had a
+mis-specified negative control — and the positive sweep runs `−0.3355 → −0.5086 → −0.6211 → −0.6921`
+with `g=0` **0.23 spreads** from that cell's null. **The two-layer structure is not about out-groups.
+It is how these attitudes are held.**
+
+**⚠⚠⚠ AND THE PARTITION IS EXACT, WHICH IS THE PART I DID NOT EXPECT.** The four pairs below their
+null are **exactly** the four that cross between `{premarital, same-sex}` and `{teenage,
+extramarital}`; the two above are **exactly** the two within those groups. For a 2+2 partition of
+four items there are 4 crossing pairs and 2 within — **6 of 6 cells fall on the side the partition
+predicts.** Net of how permissive a person is in general, making room for premarital and same-sex
+relations goes with making *less* room for teenage and extramarital sex.
+
+**⚠ THE INTERPRETATION IS MINE AND THE DESIGN DOES NOT TEST IT.** The measurement says *which items
+cluster*. Reading that cluster as **"consenting adults versus a wronged party"** — a minor, a spouse
+— is an interpretation. **A rival is equally available and is not excluded here**: `{premarital,
+same-sex}` are also the two items that MOVED most historically (`#941`: +0.1827 and +0.4056 per
+decade) and `{teenage, extramarital}` the two that moved least (+0.1566, +0.0567), so the clustering
+could be *what changed together* rather than *who is harmed*. Registered as the open rival, not
+resolved.
+
+**⚠ Side-check discharged in passing, from the object rather than from memory.** `#948`② asked
+whether `#947`'s drift decomposition bites A118's headline. Read from `#936`'s own artifact, its
+null is a **within-wave person-label permutation whose TREND is −0.0023 ± 0.0038** — already flat,
+already reported, **4% of the +0.0595 headline.** `#947`'s inflation was specific to a null on
+ipsative residuals whose expected value tracks the marginals; it does **not** apply here. The wall is
+checked. `#948`② stays open for the A114–A116 headlines, which have not been read.
+
+**ONE SENTENCE ABOUT PEOPLE.** Once you hold constant how permissive someone is overall, Americans do
+not rank sex on a single scale of how much of it is allowed — **they sort it into two camps, with
+premarital and same-sex relations on one side and teenage and extramarital sex on the other, and
+every judgement that crosses that line is traded against the others while the ones inside it move
+together.**
+
+**NEXT** — `#949`① **the two readings of the partition are separable and the data is on disk**: if
+the clusters are *what changed together*, then within a single wave (no change to share) the
+partition should weaken; if they are *who is wronged*, it should hold at every wave. That is one
+interaction on the design already built. `#949`② ⚠ **`#945` should now be re-read for the same
+partition structure** — I reported its 12 below-null cells as a list and never asked whether they
+form a block, which is exactly the question that turned out to carry this round. `#949`③ **`#948`②
+remains open for A114–A116**, whose nulls have not been read from their artifacts; `#936`'s is flat
+and that is one headline of several.
