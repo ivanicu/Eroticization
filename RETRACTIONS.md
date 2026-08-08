@@ -45839,3 +45839,85 @@ honest report is that the evidence now leans toward the boring answer.**
    `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
    `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 917 · `E03·A112·R355` — one item carries all of it, and it is not the one that makes a story
+
+**⇒ `OVERTURNED` · world `W1 · ONE ITEM`. On a second instrument, the entire rank-1 departure lives
+in **`homosex`**. The other tautological pair — own extramarital sex against the extramarital norm —
+carries **none** of it. ⇒ **BOTH earlier readings die: `#915`'s DOMAIN and `#916`'s BREADTH.** The
+{domain, breadth} decomposition was the wrong carve.**
+
+**WHY THIS QUESTION AND THIS INSTRUMENT.** `#916`② armed `#111c` and forbade a third control on
+2011-2013 female. This round changed **both** axes: instrument NSFG → **GSS 1972-2024** (HARD RULE
+4), and question *"what explains the departure"* → *"where does it live"*. ⚠ **`#915` and `#916` both
+asked what explained a departure neither had localised.** And GSS supplies what NSFG structurally
+could not: two norm items tied to **neither** exposure, i.e. a real placebo.
+
+**THE DESIGN.** Norms `homosex` · `premarsx` · `teensex` · `xmarsex` (1 *always wrong* … 4 *not wrong
+at all*). Exposures: `ss` = own same-sex partner since 18, built from `nummen`/`numwomen` **crossed
+with `sex`** — ⚠ `sexsex` alone cannot say "same-sex" without knowing the respondent's sex, so a
+variable name is not a measurement here; and `xm` = `evstray == 1`, restricted to ever-married
+(**code 3 is "never married" — not at risk, so excluded rather than coded 0**). Matched pairs:
+`ss → homosex`, `xm → xmarsex`. Placebo: `premarsx` + `teensex`.
+**Estimand**: `σ₂/σ₁` of the 2×K coefficient matrix — **exactly zero under any one-factor model, for
+any loadings** — with **leave-one-item-out** to find the carrier. ⚠ `#903`: a per-item mean over
+pairs is not per-item, which is why the statistic is a singular value and not an average of
+determinants.
+
+| | σ₂/σ₁ | vs the full 2×4 | |
+|---|---|---|---|
+| **full 2×4** | **0.1899** | — | |
+| drop **`homosex`** | **0.0967** | **0.51×** | ⚠ **collapses toward the null** · matched pair |
+| drop `premarsx` | 0.2027 | 1.07× | |
+| drop `teensex` | 0.1927 | 1.01× | |
+| drop **`xmarsex`** | **0.2192** | **1.15×** | ⚠ the OTHER matched pair — removing it **raises** the departure |
+| **placebo** (`premarsx`+`teensex`) | **0.0390** | — | on the one-factor null of **0.0326** |
+
+**CONTROLS.** **Positive**, failing at `g=0`: planted domain coupling swept
+`0 → 0.0192 · 0.15 → 0.0410 · 0.30 → 0.0943 · 0.45 → 0.1818 · 0.60 → 0.2830`, monotone.
+**Negative**: one-factor synthetic at the observed n and marginals, **0.0326 ± 0.0154**.
+**Placebo**: **ran**, and sits on the null. **Multiplicity**: BH over all **72** cells, **58**
+surviving. **Prevalence**: `xm` subsampled to `ss`'s rate, |achieved − target| = **0.0057** and
+**0.0019**.
+
+**⚠⚠ AND `#916`③ WAS COMMITTED AGAIN, ONE ROUND AFTER BEING REGISTERED.** v1 of this round recorded
+the achieved rate **inside** the matching function — i.e. **before** the `dropna` on the next line —
+so the number written to the artifact was **not the rate the analysis saw**. The error class is
+unchanged; the instance is new: **I measured the right quantity at the wrong POINT.** And the
+assertion guarding it read `bool(ACHIEVED)` — a non-empty dict — **a check that cannot fail.** Both
+repaired in-round: the rate is now measured on the analysed frame and compared to its target.
+⇒ **A named error class recurring within one round means the missing thing is a MECHANISM, not a
+sentence.**
+
+**⇒ One sentence about people: a person who has had a same-sex partner rates homosexuality far less
+wrong, but a person who has cheated on their spouse does not rate adultery any less wrong at all —
+so what looked like "sexual morality is its own thing" is really one act where doing it and
+approving of it travel together, and the plainest case of a sexual transgression is exactly where
+they come apart.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **SHARED INSTRUMENT** (HARD RULE 2) — norms and behaviours are the **same questionnaire, same
+   respondent, same interview**, so a person who under-reports a behaviour may also report a
+   stricter norm. **Not removable here**, and it is the live alternative to the psychological
+   reading above: `homosex`/`ss` may simply be the pair where disclosure and attitude are most
+   coupled;
+② the arrow is not identified — cross-sectional per respondent;
+③ ⚠ the 2×4 lives on the **intersection of waves**: **n = 5,034 over 13 waves, 1991–2014** — not the
+   full 1972–2024 series, because `teensex` starts 1986 and `evstray` 1991;
+④ "tautological" is a claim about item wording, not a measured property;
+⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE PAGE NOW CARRIES A CLAIM THAT TWO ROUNDS HAVE EACH RE-READ.** `#915` said domain, `#916`
+   said breadth, `#917` says neither — one item. **Write the measured thing and stop supplying the
+   mechanism in the same breath** (`#911`②). ⇒ `#917`①
+② ⚠ **THE ONE ALTERNATIVE THAT SURVIVES IS DISCLOSURE COUPLING**, and it is testable rather than
+   merely nameable: if `homosex`/`ss` is the pair where *reporting* and *approving* are coupled,
+   then the departure should **shrink across decades as disclosure stigma falls**. The 13 waves
+   1991–2014 can carry that test, and it is a **different question** again. ⇒ `#917`②
+③ ⚠ Still `OPEN`: `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② ·
+   `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② ·
+   `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ ·
+   `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
+   `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

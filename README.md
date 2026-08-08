@@ -128,6 +128,38 @@ than overturned, because ⚠ **the one file carrying the discriminating items is
 the placebo** — `chbother` × `cebow` are near-disjoint by questionnaire design, so every placebo cell returns
 `n = 0`, and **`UNVERIFIED` is not an acquittal**.
 
+⚠⚠⚠ **AND `#917` KILLED BOTH READINGS ON A SECOND INSTRUMENT.** `#916`② forbade another round on
+that file, so `#917` changed instrument (NSFG → **GSS 1972–2024**) *and* question (*what explains the
+departure* → ***where does it live***) — because `#915` and `#916` had both argued about a departure
+neither had localised. GSS carries four norms and two domain-matched exposures, plus two norms tied
+to **neither** exposure, which is the placebo NSFG structurally could not run. Statistic: `σ₂/σ₁` of
+the 2×K coefficient matrix, **exactly zero under any one-factor model**, with leave-one-item-out.
+
+| `#917` — leave-one-out | `σ₂/σ₁` | vs full | |
+|---|---|---|---|
+| **full 2×4** | **0.1899** | — | |
+| drop **`homosex`** | **0.0967** | **0.51×** | ⚠ **the only collapse** · matched pair |
+| drop `premarsx` · `teensex` | 0.2027 · 0.1927 | 1.07× · 1.01× | |
+| drop **`xmarsex`** | **0.2192** | **1.15×** | ⚠ the other matched pair — removing it **raises** it |
+| **placebo** (`premarsx`+`teensex`) | **0.0390** | — | on the one-factor null of **0.0326 ± 0.0154** |
+
+**One item carries all of it, and the structurally identical extramarital pair carries none.** BH over
+**72** cells, **58** surviving; positive control null at `g=0`; prevalence-matched to |achieved−target|
+**≤ 0.0057**. ⇒ **`#915`'s DOMAIN reading and `#916`'s BREADTH reading are both dead** — the
+{domain, breadth} decomposition was the wrong carve.
+
+> **One sentence about people (`#917`): a person who has had a same-sex partner rates homosexuality far
+> less wrong, but a person who has cheated on their spouse does not rate adultery any less wrong at all
+> — so what looked like "sexual morality is its own thing" is really one act where doing it and
+> approving of it travel together, and the plainest case of a sexual transgression is exactly where they
+> come apart.**
+
+⚠ **The one alternative that survives** is that norms and behaviours come from the **same questionnaire,
+same respondent, same interview** (HARD RULE 2), so `homosex`/`ss` may simply be the pair where
+*disclosure* and *approval* are most coupled. Not removable here — and testable next, since that account
+predicts the departure **shrinks across decades as disclosure stigma falls**. ⚠ Scope: the 2×4 lives on
+**n = 5,034 over 13 waves, 1991–2014**, not the full series.
+
 ⚠ **And the control that nearly retracted this claim was mine, three times over.** Matching `cebow` to
 `samesexany`'s base rate of **0.1820**: v1 thresholded a quantile — `cebow` is a discrete count, so it landed
 on *"more than two births"* and achieved **0.0770**, a rarer and more extreme construct, which reported
