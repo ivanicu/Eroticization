@@ -1,0 +1,44 @@
+{
+ "entry": 922,
+ "round": "E03\u00b7A113\u00b7R360",
+ "verdict": "CONFIRMED",
+ "world": "SCHEMA-BLIND",
+ "kind": "PRODUCTION (labelled): an instrument, plus the measurement of what it can see",
+ "estimand": "of the rounds that ran a plant sweep, how many persist a null the gate can locate, and of those how many have their g=0 arm off that null",
+ "artifacts_on_disk": 470,
+ "with_sweep": 19,
+ "readable": 10,
+ "unreadable": 9,
+ "failures": 0,
+ "unreadable_rounds": [
+  "R328_the_same_act_asked_at_two_distances",
+  "R331_is_a_flat_row_the_item_or_the_person",
+  "R333_does_case_judgement_depend_on_who_you_are",
+  "R341_noise_or_content",
+  "R342_leave_one_out_the_one_attempt",
+  "R343_the_placebo_domains",
+  "R344_is_case_indexing_about_sex_either",
+  "R351_the_five_unreadable_cells_actually_opened",
+  "R356_did_xmarsex_have_room_to_move"
+ ],
+ "controls": {
+  "positive": true,
+  "negative": true,
+  "blind": true
+ },
+ "cutoff": 922,
+ "required": "a `[[g, value], ...]` sweep AND a scalar `null_median` + `null_sd` (or `null_p95`)",
+ "null_median": 0.0,
+ "null_sd": 1.0,
+ "positive_sweep": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   1.0,
+   1.0
+  ]
+ ],
+ "corrects": "`#920`(2): a POST-HOC gate cannot pay it \u2014 the in-round `lib/gates.py` caught the five instances because it sees live variables; artifacts carry no provenance"
+}

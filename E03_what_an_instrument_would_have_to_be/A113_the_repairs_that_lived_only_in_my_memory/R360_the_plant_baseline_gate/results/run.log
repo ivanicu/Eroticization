@@ -1,0 +1,18 @@
+=== plant-baseline gate (`#922`, pays `#920`(2)) ===
+  control positive (`#920` pre-repair, gap ~12.6 spreads, must be CAUGHT): PASS
+  control negative (`#920` post-repair, must NOT be caught):               PASS
+  control blind    (a sweep with no locatable null -> UNREADABLE, not PASS): PASS
+
+  artifacts on disk 470 · carrying a plant sweep 19
+  checked 10 · ⚠ UNREADABLE 9 · FAIL 0
+    ⚠ UNREADABLE R328_the_same_act_asked_at_two_distances: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R331_is_a_flat_row_the_item_or_the_person: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R333_does_case_judgement_depend_on_who_you_are: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R341_noise_or_content: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R342_leave_one_out_the_one_attempt: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R343_the_placebo_domains: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R344_is_case_indexing_about_sex_either: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R351_the_five_unreadable_cells_actually_opened: sweep `positive_sweep` present but NO LOCATABLE NULL
+    ⚠ UNREADABLE R356_did_xmarsex_have_room_to_move: sweep `positive_sweep` present but NO LOCATABLE NULL
+
+  ⚠ Scope: only rounds that PERSIST a sweep and a locatable null are visible. 9 are UNREADABLE and are NOT cleared. And a small gap is not proof the plant and the null share a world — this gate reports difference only (P6 safe side).

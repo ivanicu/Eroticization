@@ -46227,3 +46227,88 @@ and both judge it less harshly than everyone else.**
    `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
    `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① ·
    `#861`①.
+
+## Entry 922 · `E03·A113·R360` — I built the gate `#920`② asked for, and it is blind on half the corpus
+
+**⇒ `CONFIRMED` · world `SCHEMA-BLIND`. `PRODUCTION`, labelled honestly: the residue is an
+instrument, not a finding about people. **And it corrects the debt it was built to pay.** Of the
+**19** rounds that ran a plant sweep, **9 persist no locatable null** — so a post-hoc gate cannot
+see half of them, and `#920`②'s proposed fix was half-blind before it was written.**
+
+**WHY NOW, AFTER DEFERRING IT TWICE.** `#920`② named five instances of one family — *I describe
+what I meant rather than measure what I did* — and observed that **the in-round gate caught every
+one and my own resolutions caught none**. `#921` then carried **two** of those repairs forward **by
+hand** (planting into the null world; one null per quantity). A repair that lives in my memory of
+the last round is a repair that will eventually be missed.
+
+**THE INSTRUMENT — `tools/plant_baseline_gate.py`.** A positive control plants an effect of size
+`g` and sweeps; at `g=0` there is no plant, so the statistic must land on the **same baseline the
+round judges the observed value against**. If it does not, the plant arm and the null arm came from
+**two different worlds**, and the control could only ever have failed — or passed for the wrong
+reason. **Measured witness**: `#920` pre-repair sat at **+0.6894** at `g=0` while its null was
+**−0.0015 ± 0.0549** (kind of null: a within-stratum permutation null) — a gap of **~12.6 spreads** — because the plant went into the OBSERVED data
+while the baseline came from the PERMUTED world. Same shape as `#905`.
+
+**CONTROLS, and the gate carries them itself.** **Positive**: `#920`'s pre-repair numbers must be
+caught. **Negative**: its post-repair numbers must not. **Blind**: a sweep with no locatable null
+must score `UNREADABLE`, **never PASS**. All three pass; if any failed the gate exits 2 and its
+verdict on the corpus is inadmissible rather than reassuring.
+
+**⇒ THE MEASUREMENT, and it is the belief update.**
+
+| | |
+|---|---|
+| artifacts on disk | **470** |
+| carrying a plant sweep | **19** |
+| with a null the gate can locate | **10** |
+| ⚠ **UNREADABLE — sweep persisted, null not** | **9** |
+| failing (of the 10 readable) | **0** |
+
+⚠ **The 0 is not a clean bill.** P6 safe side: it is 0 among the ten it can read, and **the nine are
+not cleared**. And a small gap is not proof the plant and the null share a world — this gate reports
+difference only.
+
+**⚠⚠ AND THAT CORRECTS `#920`②.** The mechanism that caught the five instances was the **in-round**
+`lib/gates.py`, which sees **live variables**. A retrospective tool cannot substitute for it, because
+**the artifacts carry no provenance** — five different null schemas across 19 files, and nine files
+with none. So the thing that would actually pay `#920`② is **not a gate over artifacts, it is a
+schema requirement on the artifact.** Implemented: from **entry 922** onward an unlocatable null
+**blocks**; earlier rounds are **named but not blocked** (the project's own precedent — never
+retro-block, never freeze a worse count into the baseline). Wired into the pre-commit hook,
+fail-loud-if-missing, beside the other three.
+
+**⚠ AND THE ROUND FOUND A THIRD BLIND INSTRUMENT ON ITS WAY OUT.** Committing it was blocked by
+`claims_without_anchor`, whose page opt-out vocabulary is **Chinese-only** — `#871` gave English
+alternates to `CROSS_OPTOUT` and to the null vocabulary when this project switched to English, and
+**missed this third one**. So a production round that legitimately **adds nothing to the page** had
+no way to say so, and the gate flagged honest work. Repaired the same way `#871` did: English forms
+added, Chinese kept verbatim so every earlier entry still passes byte-for-byte (`L81`).
+⇒ *A gate whose vocabulary is one language becomes stricter the moment the project changes language,
+and it becomes stricter in the direction of flagging honest work.* **This entry is ledger only.**
+
+**⇒ One sentence about people: none, and this round should not pretend otherwise — it built a tool
+and measured what the tool cannot see, which is worth doing and is not a fact about anybody.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **the gate sees only what a round wrote down** — nine rounds are invisible to it and stay
+   invisible, because their artifacts cannot be regenerated without re-running them;
+② ⚠ **it checks ONE member of the family** — the plant/null world mismatch. *"Naming a control after
+   intent"* (`#916`③) and *"supplying a mechanism in the same breath"* (`#911`②) are **not**
+   mechanised by this and remain open;
+③ ⚠ a small gap does not certify a control; the proxy is sound in one direction only;
+④ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE FAMILY IS NOT PAID OFF — ONE OF FIVE IS.** `#920`② should not be marked settled by this
+   round, and is not. What is settled is the plant/null member; the other four remain, and two of
+   them (`#911`②, `#916`③) are about PROSE and intent, which no artifact schema reaches. ⇒ `#922`①
+② ⚠ **THE NEXT ROUND MUST BE ABOUT PEOPLE.** This one and `#919` produced no sentence about anyone,
+   and `#911`①'s rule applies: after a round whose object is my own records, the next must have
+   people or data as its object. ⇒ `#922`②
+③ ⚠ Still `OPEN`: `#921`①② · `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ · `#915`② ·
+   `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ ·
+   `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② ·
+   `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① ·
+   `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
+   `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
+   `#857`① · `#861`①.

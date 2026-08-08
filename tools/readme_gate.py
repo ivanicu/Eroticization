@@ -96,8 +96,16 @@ def claims_page_edit_without_anchor(cutoff=600):
     pages = "\n".join((root / f).read_text() for f in ("README.md", "README_zh.md")
                        if (root / f).exists())
     marks = [(int(m.group(1)), m.start()) for m in re.finditer(r'^## Entry (\d+)', led, re.M)]
+    # ⚠⚠ `#922`: `#871` gave CROSS_OPTOUT and _NULLS_EN English alternates when Ivan switched this
+    #   project to English, and MISSED THIS THIRD VOCABULARY. Measured at `#922`, when a production
+    #   round that legitimately adds nothing to the page was blocked for having no English way to
+    #   say so. A gate whose vocabulary is one language becomes stricter the moment the project
+    #   changes language — **and stricter in the direction of flagging honest work.** Chinese kept
+    #   verbatim so every earlier entry still passes byte-for-byte (`L81`).
     OPTOUT = re.compile(r'页面一个字也没加|页面不加|只进账本|页面一个字没加|不上页面|'
-                        r'页面无需改动|页面维持现状')
+                        r'页面无需改动|页面维持现状|'
+                        r'ledger only|not a page claim|adds nothing to the page|'
+                        r'the page is unchanged|no page change')
     blocking, old = [], []
     for i, (n, s0) in enumerate(marks):
         body = led[s0:(marks[i + 1][1] if i + 1 < len(marks) else len(led))]
