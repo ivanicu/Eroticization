@@ -1,9 +1,0 @@
-v_col,v_kind,v_card,v_file
-"renamed, or dropped.",卡片提到但文件无此列,,
-politics,符合,"3 档 ['Liberal', 'Moderate', 'Conservative']","3 档 ['Conservative', 'Liberal', 'Moderate']"
-bmi,符合,"2 档 ['Not overweight', 'Overweight+']","2 档 ['Not overweight', 'Overweight+']"
-straightness,不符,"5 档 ['Gay', 'Leaning gay', 'Bi', 'Leaning straight', 'Straight']","2 档 ['Not straight', 'Straight']"
-childhood_adversity,不符,"2 档 ['None', 'Any']",1 档 ['Any']
-TotalMentalIllness,不符,"2 档 ['None', 'Any']",1 档 ['Any']
-Demographics removed:,卡片提到但文件无此列,,
-Content removed:,卡片提到但文件无此列,,

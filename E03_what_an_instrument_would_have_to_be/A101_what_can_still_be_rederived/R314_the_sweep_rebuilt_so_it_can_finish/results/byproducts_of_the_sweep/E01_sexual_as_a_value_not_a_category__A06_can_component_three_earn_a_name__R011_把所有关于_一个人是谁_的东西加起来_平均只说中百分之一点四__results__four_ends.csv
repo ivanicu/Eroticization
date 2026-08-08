@@ -1,5 +1,0 @@
-v_case,expected,v_got
-①真会变,True,True
-②恒等式,False,False
-③恒为常数,False,False
-④极端才变,True,True

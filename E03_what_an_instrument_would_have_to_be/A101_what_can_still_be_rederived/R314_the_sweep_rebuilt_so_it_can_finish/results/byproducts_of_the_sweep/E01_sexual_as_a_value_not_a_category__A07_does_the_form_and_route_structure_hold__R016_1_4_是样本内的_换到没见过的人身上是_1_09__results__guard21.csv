@@ -1,8 +1,0 @@
-v_case,want,got,ok
-★ 正对照:`#311` 的零(合格),True,True,True
-"★ 负对照:`#310a` 的零(MDE 55%,30% 缓冲有意义)",False,False,True
-★ 第三类:`#308a` 的加性(有效应),True,True,True
-负对照:缺置换分位数,False,False,True
-负对照:缺 MDE,False,False,True
-负对照:缺正对照灵敏度,False,False,True
-负对照:没声明 claim_kind,False,False,True
