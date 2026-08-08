@@ -528,6 +528,37 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#943` · the null was not a world, and that is why `#939` could not answer
+
+`#939` refused to say when in a life a mind changes because two specifications disagreed, but it read
+both orderings off point estimates and resampled only the gap. `#940`–`#942` had since shown the
+cohort-demeaned arm is the one that removes the confound, so its ordering might have been the answer.
+
+The ranks are stable (`#943`). Over 400 bootstraps, with the demeaned ordering `18-29 +0.1526 → 60+ +0.1635 →
+30-44 +0.1852 → 45-59 +0.2151`: 18–29 is flattest in **0.752** of resamples (chance 0.25), 45–59 is
+steepest in **0.970**, and the full ordering repeats in **0.708** (chance 0.042).
+
+⛔ **And then the null returned 0.000 for all three, which is the result** (`#943`). `age = year −
+cohort` is an identity, so permuting `year` within cohort hands **88.4% of respondents a year
+inconsistent with the age their band was cut from** — measured, not argued. Every one sits in a band
+they could not be in, and the arm produces a systematically *reversed* ordering rather than a uniform
+one. **The null does not fail to be exchangeable; it fails to exist.** Permuting any one of
+year/age/cohort breaks the identity, and re-cutting bands from the permuted year makes the statistic
+mean something different between arms.
+
+**Verdict `UNVERIFIED` · `W_NO_NULL`** (`#943`) — a refusal, not a claim. A measurement whose instrument has no
+admissible null is inadmissible however clean the point estimate looks, and 0.970 is very clean. The
+shares are recorded and are not offered as support for anything.
+
+⚠ **The order of events is the lesson** (`#943`). The impossibility check is one line, and it was written only
+after the null returned an implausible 0.000. Had the null returned a plausible 0.26, this page would
+now carry a finding resting on a control that measured an impossible world — and no gate here would
+have objected. **A null that cannot exist is not a weak control, it is a fabricated one.**
+
+> **One sentence about people (`#943`): still nothing — we cannot say when in a life a mind changes,
+> and this round replaces a soft reason with a hard one, because the only world in which the answer
+> could have been "no" is a world where people are a different age than they are.**
+
 ### `#942` · nobody changed their mind about communists; the people who disliked them died
 
 `#929` established that total tolerance rose **+2.131 of 15** with 4 of 5 targets rising — *growth,

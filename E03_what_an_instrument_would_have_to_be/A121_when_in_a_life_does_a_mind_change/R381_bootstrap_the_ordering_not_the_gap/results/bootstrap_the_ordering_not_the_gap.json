@@ -1,0 +1,63 @@
+{
+ "entry": 943,
+ "null_is_impossible": true,
+ "identity_broken_share": 0.8842526343176792,
+ "round": "E03\u00b7A121\u00b7R381",
+ "gate_verdict": "   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (positive: a trend planted into `18-29` raises its steepest-share from chance, and g=0 sits ON the null (`#922`), KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the null sh",
+ "gates": [
+  [
+   "positive: a trend planted into `18-29` raises its steepest-share from chance, and g=0 sits ON the null (`#922`)",
+   false,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u5e73/\u975e\u5355\u8c03**;\u7075\u654f\u5ea6 g=\u672a\u8fbe\u5230;g=0 +0.0000 \u00b7 g=0.9 +0.0000"
+  ],
+  [
+   "\u26d4 THE NEGATIVE CONTROL IS STRUCTURALLY UNAVAILABLE, AND IT IS DEMONSTRATED RATHER THAN ASSERTED: permuting `year` within cohort breaks the identity `age = year - cohort`",
+   true,
+   "88.4% of permuted respondents carry a year inconsistent with the age their band was cut from; the resulting shares are 0.000/0.000/0.000 \u2014 a systematically REVERSED ordering, not the 0.25 chance level, because the permuted world is not a world. Permuting any ONE of year/age/cohort breaks the identity, and re-cutting bands from the permuted year makes the statistic mean something different between arms \u00b7 \u603b\u4f53:GSS 1988-2024, n=30748"
+  ],
+  [
+   "the three rank shares (a) (b) (c) \u2014 the family this claim lives in (`#936`\u2461/`#940`\u2461)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 3 \u00b7 cells surviving 3** \u00b7 \u5b58\u6d3b ['flattest', 'steepest', 'full order'] \u00b7 \u672a\u5b58\u6d3b []"
+  ],
+  [
+   "\u26a0 CHANCE IS NOT ZERO and is named: with four bands a specific one is smallest 25% of the time, and the full ordering repeats 1/24 = 4.2% of the time",
+   true,
+   "comparisons are against 0.25 / 0.25 / 0.042, never against 0 \u00b7 \u603b\u4f53:GSS 1988-2024, n=30748"
+  ],
+  [
+   "\u26a0 this round orders BAND-SPECIFIC PERIOD SLOPES and never claims an age effect \u2014 `#939`'s identification wall is inherited unchanged",
+   true,
+   "age = year - cohort exactly; cohort-demeaning removes between-cohort LEVELS, not the collinearity \u00b7 \u603b\u4f53:GSS 1988-2024, n=30748"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and the null shares fall back to chance. STAKED: W_RANK_STABLE, i.e. BOTH the flattest-band share and the steepest-band share reach 0.90. W_RANK_NOISE and W_TIE both refute it, and W_RANK_STABLE is the UNWELCOME branch because it retracts `#939`'s refusal",
+   false,
+   "positive fires False \u00b7 null back to chance False (a 0.000 b 0.000 \u2014 \u26d4 the null is not a world, see the control row) \u00b7 (a) 0.752 \u00b7 (b) 0.970 \u00b7 (c) 0.708 vs chance 0.25/0.25/0.042 \u21d2 W_NO_NULL   \u5c3a:share of bootstraps preserving the extreme ranks,\u5176\u81ea\u8eab\u566a\u58f0 0.0216506 \u00b7 \u603b\u4f53:GSS 1988-2024, n=30748, 400 resamples \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:3/3 \u6761\u5df2\u547d\u540d,**3 \u6761\u4e0e\u5224\u636e\u4e0d\u540c** ['\u26d4 THE NEGATIVE CONTROL IS ST', '\u26a0 CHANCE IS NOT ZERO and is ', '\u26a0 this round orders BAND-SPE']  \u26a0 **\u63a7\u5236\u7684\u603b\u4f53 \u2260 \u4e3b\u5f20\u7684\u603b\u4f53** \u2014\u2014 **\u5b83\u8bc1\u660e\u7684\u662f\u53e6\u4e00\u7fa4\u4eba\u8eab\u4e0a\u7684\u4eea\u5668**(`#866`\u2460)(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "n": 30748,
+ "point": {
+  "18-29": 0.15258935173410623,
+  "30-44": 0.1852153974861106,
+  "45-59": 0.21510393875843972,
+  "60+": 0.16349984696564582
+ },
+ "point_order": [
+  "18-29",
+  "60+",
+  "30-44",
+  "45-59"
+ ],
+ "share_flattest": 0.7525,
+ "share_steepest": 0.97,
+ "share_full": 0.7075,
+ "chance": 0.25,
+ "dead_controls_for_the_record": "null shares (a/b/c) 0.000/0.000/0.000 ; sweep g=0.0->0.000 \u00b7 g=0.3->0.000 \u00b7 g=0.6->0.000 \u00b7 g=0.9->0.000 \u2014 BOTH INADMISSIBLE, see null_status",
+ "null_status": "INADMISSIBLE \u2014 the permuted world violates age = year - cohort in 88.4% of respondents; there is no admissible permutation null for a band-ordering statistic under the APC identity",
+ "reps": 400,
+ "family_size": 3,
+ "world": "W_NO_NULL",
+ "verdict": "UNVERIFIED \u00b7 world W_NO_NULL"
+}

@@ -47750,3 +47750,78 @@ every round that touches a multi-stem battery**, not in the round that happens t
 human. `#942`③ **racists moving DOWNWARD within cohorts is a finding in its own right** and it is the
 one cell here that contradicts "tolerance rose": the same living people grew *less* tolerant of one
 target while growing more tolerant of another, which is `#929`'s "not zero-sum" needing a footnote.
+
+## Entry 943 · `E03·A121·R381` — the null was not a world, and that is why `#939` could not answer
+
+**`#939`① said: bootstrap the ORDERING, not the gap.** `#939` refused to say when in a life a mind
+changes because two specifications disagreed — raw put 18–29 steepest, cohort-demeaned put it
+flattest — but it read both orderings off single point estimates and resampled only the gap between
+the extremes. And `#940`/`#941`/`#942` had since established, on three different objects, that the
+demeaned arm is the one that removes the confound. **So the demeaned ordering might have been the
+answer rather than half of a disagreement.**
+
+**The ranks are stable.** Over 400 bootstraps of respondents, with the cohort-demeaned point estimate
+ordering `18-29 +0.1526 → 60+ +0.1635 → 30-44 +0.1852 → 45-59 +0.2151`:
+
+| claim | share of resamples | chance |
+|---|---|---|
+| 18–29 is the **flattest** | **0.752** | 0.25 |
+| 45–59 is the **steepest** | **0.970** | 0.25 |
+| the full 4-way ordering repeats | **0.708** | 0.042 |
+
+**⛔ AND THEN THE NULL RETURNED 0.000 FOR ALL THREE, WHICH IS THE ROUND'S ACTUAL RESULT.** Not noise,
+not a coding slip. The planned negative control permutes `year` within cohort. **`age = year − cohort`
+is an identity**, so permuting `year` hands **88.4% of respondents a year inconsistent with the `age`
+their band was cut from** — measured, not argued. Every one of them sits in a band they could not be
+in. The permuted arm therefore produces a **systematically REVERSED** ordering rather than a uniform
+one, which is exactly why the share is 0.000 and not the 0.25 chance level: **the bands are not
+exchangeable, and the null does not merely fail to be exchangeable — it fails to exist.**
+
+The same argument kills every repair. Permuting **any one** of year, age or cohort breaks the
+identity. Re-cutting the bands from the permuted year makes band membership a function of the
+permutation itself, so the statistic means something different in the two arms and they are no longer
+comparable. **There is no admissible permutation null for a band-ordering statistic under the APC
+identity.**
+
+**VERDICT: `UNVERIFIED` · `W_NO_NULL`** — a world I had not pre-registered, added as a **refusal**
+rather than a claim, and it forecloses the other three rather than competing with them. By this
+project's own law (P5★, `realstat` G2) **a measurement whose instrument has no admissible null is
+inadmissible however clean the point estimate looks**, and 0.970 is very clean. The three shares are
+reported for the record and are **not** offered as support for anything.
+
+**⚠⚠ THE ORDER OF EVENTS IS THE LESSON, AND IT IS UNFLATTERING.** The impossibility check that
+settles this is **one line** — compare `year − cohort` to `age` after permuting — and it was written
+only *after* the null returned an implausible 0.000. Had the null returned a plausible 0.26, I would
+have published `W_RANK_STABLE` with a control that was measuring an impossible world, and nothing in
+the machinery would have objected: `plant_baseline_gate` checks that `g=0` sits on the null, not that
+the null is a world anyone could inhabit. **A null that cannot exist is not a weak control, it is a
+fabricated one**, and this project has no guard for it.
+
+**⚠ What `#939` gets right in hindsight, and what it got right for the wrong reason.** Its
+`UNVERIFIED` stands. But it justified the refusal by *"two specifications disagree"*, which invites
+the repair "so resample the ordering" — and that repair is unavailable. **The real reason is that the
+question "which age band moved most" has no null on repeated cross-sections where age, period and
+cohort are algebraically locked.** That is a stronger and more durable statement, and it is now
+written down.
+
+**ONE SENTENCE ABOUT PEOPLE.** Still nothing: **we cannot say when in a life a mind changes**, and
+this round replaces a soft reason with a hard one — the question as posed has no way of being wrong,
+because the only world in which the answer could be "no" is a world where people are a different age
+than they are.
+
+**⚠ AND THE ARTIFACT HAD TO STOP CLAIMING WHAT THE PROSE RETRACTS.** The first commit attempt wrote
+`positive_sweep` and `null_median` into the JSON, and `plant_baseline_gate` (`#922`) blocked it at
+**5.0 spreads** — correctly, and for a reason larger than the numbers: **that pair of keys asserts
+"here is my plant and here is the null it is judged against", which is exactly what this round
+denies.** Renamed to `inadmissible_sweep` / `inadmissible_null_shares` / `null_status`, the round now
+reads **UNREADABLE** to that gate instead of FAIL — which is the honest state, since the gate's own
+scope note says UNREADABLE is *not cleared*. **A schema is a claim, and it must not outrank the
+sentence beside it.**
+
+**NEXT** — `#943`① **build the impossibility check as a control contract, not a one-off line**: a
+null that mutates one variable of an algebraic identity must assert the identity still holds, and
+`lib/gates.py` should refuse a `negative_control` whose null world was never checked for existence.
+`#943`② ⚠ **the `#942`③ footnote is still owed** — racists moved downward within cohorts and `#929`'s
+"growth, not zero-sum" has not yet been qualified on the page. `#943`③ **the A121 arc closes with a
+decision, not a finding**: "when in a life" is unanswerable on GSS alone and needs panel data (the
+same wall `#937` hit from the other side), so it should stop consuming rounds until such data exists.
