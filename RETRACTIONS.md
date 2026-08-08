@@ -47433,3 +47433,71 @@ memory is `#913`③'s family**, scoring an object by its description when the ob
 Both NSFG items were already loaded. `#937`③ ⚠ **four vacuous kills now** (`#916`③,
 `#930`, `#935`, `#937`) — `lib/gates.py` compares a quantity to a threshold **it never checks is
 independent of that quantity**; the check exists nowhere and every instance so far was caught by reading.
+
+## Entry 938 · `E03·A120·R376` — the guard I set out to build cannot be built the way I planned
+
+**`#937`③ said: four vacuous kills, all caught by reading, and reading is not a mechanism.** So R376
+went to build the mechanism — a static pass over all **896** round scripts, finding kills that compare
+a statistic to a threshold derived from that same statistic.
+
+**⚠⚠ THE FIRST TWO DETECTORS FAILED THEIR OWN POSITIVE CONTROL, AND EACH FAILURE WAS THE FINDING.**
+v1 looked for *one operand inside the other's dependency closure*. It did not catch `#937` v1 — because
+there **`hi` never mentions `diff`; the dependency runs through the DATA, not through the variable** —
+and widening it to "shares a data ancestor" flags every criterion ever written, since in one script
+everything descends from the same frame. v2 keyed on the right thing and still missed it, because
+`boot = []` followed by `boot.append(...)` leaves an assignment-only tracer believing `boot` depends on
+nothing — **mutation is an assignment, and that is exactly how the real bootstrap was built.** Both
+times the round refused to report a corpus number, which is what a failed positive control is for.
+
+**The semantic line the working detector rests on**, and it is the only defensible one: a statistic
+against a **quantile of its own bootstrap** is vacuous *by definition* — q% of that distribution lies
+below its q-th percentile whatever the data say. Against a **multiple of its own SE** it is the
+ordinary signal-to-noise test and is sound, because a bootstrap sd does not scale with the effect.
+Against a **quantile of a permutation null** it is also sound, because that distribution was built with
+the structure destroyed. Six controls, all passing: `#937` v1 verbatim caught, the same laundered
+through `hi = q*1.0` caught, `#937` v2's repair clean, `effect > 2*se` clean, `effect >
+pct(permutation_null, 95)` clean, and a script with no kill UNREADABLE rather than clean.
+
+| | |
+|---|---|
+| round scripts on disk | **896**, 0 parse failures |
+| carrying a **locatable** kill | **351 = 39.2%** — ⚠ the other 545 are UNREADABLE, not clean |
+| locatable kill conditions | **420** |
+| candidates, STRICT (the quantile IS an operand) | **14 = 3.33%** |
+| candidates, LAUNDERED (one dependency hop) | **31 = 7.38%** |
+
+**Pre-registered kill: ≥10% ⇒ W_ENDEMIC, ≤2% ⇒ W_RARE. 3.33% is neither, so neither world is claimed**
+and the number is reported as a number. Both specifications are published rather than the flattering
+one (G4).
+
+**⚠⚠⚠ AND THEN THE CONTROL THAT ACTUALLY DECIDED IT.** `lib/gates.py` warned that six controls on six
+fixtures do not evaluate on the claim's population (`#866`①). So **9 flagged kills were hand-read in
+the corpus itself — 3 laundered, then all 6 strict ones printed. `0 of 9` are vacuous.** Two
+false-positive classes, both idiomatic here: **(a) binning quantiles** — `qs = nanpercentile(A8,
+[20,40,60,80])` cuts a covariate into quintiles and is not a threshold at all; **(b) null quantiles the
+detector's `permutation`/`shuffle` marker misses** — this corpus builds its nulls by **offset**, by
+sign-flip, by label rotation and by max-statistic, and names them `nul_off`, `NUL0`, `fl`, `maxt`.
+Comparing an effect to the 95th percentile of an offset null is exactly right, and the detector flags
+it every time.
+
+**VERDICT: `UNVERIFIED`, and the round's product is a closed decision rather than a number.** The
+candidate share is an **upper bound with measured precision 0/9**, not a count of defects. **The guard
+`#937`③ asked for cannot be static** — the property is *scale covariance*, which is a runtime fact, and
+the corpus's legitimate thresholds are too idiomatically diverse for any pattern to separate them from
+the vacuous ones. **This was measured rather than assumed, which is the whole point: I set out to build
+a static guard and now know not to.**
+
+**ONE SENTENCE ABOUT PEOPLE.** Nothing in this round is about people — **it is about whether the 900
+sentences that are can be trusted**, and the answer so far is that the one failure mode I know how to
+name is rare enough that 9 out of 9 suspects were innocent, while the instrument that would have
+convicted them is too crude to use.
+
+**NEXT** — `#938`① **build the runtime probe instead**: `G.kill(..., probe=fn, worlds=(favourable,
+unfavourable))`, asserting the kill returns DIFFERENT verdicts at the two ends, so a kill that cannot
+fail cannot be registered. That is the mechanism, and it is per-round rather than corpus-wide.
+`#938`② ⚠ **39.2% locatable is the binding constraint on every static audit this project runs** — the
+same number bounds `verdict_contradiction_gate` (`#931`②) and `plant_baseline_gate`; **545 scripts are
+invisible to all three**, and the reason is that a kill only becomes machine-readable when it is
+written as `G.asserted(..., kind="kill")`. `#938`③ **`#937`③'s premise was wrong and should be
+retracted as stated**: it said the missing check was "threshold independent of the quantity", which
+this round shows is neither necessary (`effect > 2*se` shares everything and is fine) nor sufficient.

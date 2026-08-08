@@ -1,0 +1,51 @@
+<unknown>:33: SyntaxWarning: "\|" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\|"? A raw string is also an option.
+<unknown>:12: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+<unknown>:10: SyntaxWarning: "\|" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\|"? A raw string is also an option.
+<unknown>:25: SyntaxWarning: "\|" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\|"? A raw string is also an option.
+<unknown>:33: SyntaxWarning: "\|" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\|"? A raw string is also an option.
+<unknown>:12: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+<unknown>:10: SyntaxWarning: "\|" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\|"? A raw string is also an option.
+<unknown>:25: SyntaxWarning: "\|" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\|"? A raw string is also an option.
+=== controls ===
+  positive  `#937` v1 `diff <= percentile(own bootstrap)` CAUGHT : PASS   [{'line': 12, 'lhs': ['diff'], 'threshold': ['hi'], 'shared_ancestors': ['abs', 'coupling', 'g', 'n']}]
+  positive2 the same laundered through a second name, CAUGHT     : PASS
+  negative1 `#937` v2 `lo <= 0.0 <= hi` must NOT be caught       : PASS
+  negative2 `effect > 2*se` (own bootstrap SD) must NOT be caught: PASS
+  negative3 `effect > pct(PERMUTATION null, 95)` must NOT be caught: PASS  <- separates a null from a bootstrap
+  blind     a script with no kill -> UNREADABLE, not clean       : PASS
+
+=== corpus ===
+  round scripts on disk        : 895   (parse failures 0)
+  scripts with a LOCATABLE kill: 351  = 39.2% — the rest are ⚠ UNREADABLE, not clean
+  locatable kill conditions    : 420
+  ⚠ CANDIDATES (statistic vs a quantile of its own bootstrap):
+      LAUNDERED (one dependency hop) :  31 = 7.38% of locatable kills
+      STRICT    (quantile IS operand):  14 = 3.33%
+      ⚠ the specification matters more than the number: 3 laundered candidates were hand-read and 3 were false positives, all binning quantiles
+    · bootstrap_the_whole_curve.py               L104  ['base', 'i16'] vs quantile ['hi'] sharing ['N', 'V', 'V0']
+    · breadth_as_a_subject.py                    L94   ['abs', 'sh_K'] vs quantile ['thr'] sharing ['K', 'M', 'NN']
+    · delta_as_a_function_of_when_you_got_your_e L118  ['abs', 'bB'] vs quantile ['qs'] sharing ['A8', 'V', 'V0']
+    · the_rate_curve_and_whether_it_is_a_surface L119  ['abs', 'b'] vs quantile ['q', 'qa', 'qr'] sharing ['A1', 'ACL', 'NCAT']
+    · is_the_breadth_profile_one_dimension_or_se L176  ['r2'] vs quantile ['thr'] sharing ['keep', 'lg', 'np']
+    · all_three_stripped.py                      L94   ['q3'] vs quantile ['qR'] sharing ['ALLR', 'BS', 'idx']
+    · quadrants.py                               L125  ['abs', 'ci', 'np', 'nul'] vs quantile ['qa', 'qb'] sharing ['ALLR', 'C3', 'CV']
+    · is_it_just_earlier.py                      L123  ['dObs'] vs quantile ['THR'] sharing ['drop', 'np', 'sh']
+    · which_subadditivity.py                     L100  ['abs', 'b_rk'] vs quantile ['CUTS'] sharing ['ALLR', 'BIN', 'C3']
+    · wide_caliber_rerun.py                      L87   ['abs', 'r4'] vs quantile ['kn'] sharing ['NN', 'R_', 'TH']
+    · interaction_not_quintiles.py               L113  ['abs', 'b_obs'] vs quantile ['THR'] sharing ['inter', 'sh']
+    · is_it_one_kind_of_person.py                L151  ['pc1'] vs quantile ['thr'] sharing ['np', 'range']
+    … and 19 more
+  CONDITIONAL KILL -- Can this project's pre-registered kills fail — and how many of them could not?
+   PASS  positive: `#937` v1's shape, transcribed from the source, is caught — and so is a version laundered through an intermediate name                                         one-hop True · laundered True; and the FIRST detector, 'one operand inside the other's closure', failed this same control — the dependency runs through the DATA · 总体:the 6 fixtures, which are transcribed shapes and not invented cases   (asserted in code, not in prose)
+   PASS  negative 1/3: `#937` v2's repaired kill is NOT caught                                                                                                                    `lo <= 0.0 <= hi` — bounds from the statistic, comparison against a CONSTANT · 总体:the 6 fixtures, which are transcribed shapes and not invented cases   (asserted in code, not in prose)
+   PASS  negative 2/3: `effect > 2*se` — the ordinary signal-to-noise test, same bootstrap — is NOT caught                                                                        a bootstrap SD does not scale with the effect, so this criterion CAN fail; the detector keys on a QUANTILE functional, not on any use of the bootstrap · 总体:the 6 fixtures, which are transcribed shapes and not invented cases   (asserted in code, not in prose)
+   PASS  negative 3/3: `effect > pct(PERMUTATION null, 95)` is NOT caught — the line between a null and a bootstrap, which is the whole instrument                                a permutation destroys the structure, so its quantile is a yardstick rather than a restatement; without this row the detector would flag every honest permutation kill in the corpus · 总体:the 6 fixtures, which are transcribed shapes and not invented cases   (asserted in code, not in prose)
+   PASS  blind: a script with no locatable kill yields NO row — UNREADABLE, never clean                                                                                           544 of 895 scripts are in that state · 总体:all 895 round scripts on disk   (asserted in code, not in prose)
+   PASS  coverage is measured, not asserted (`#932`: a row count is not coverage)                                                                                                 scripts 895 · with a locatable kill 351 (39.2%) · parse failures 0 · kill conditions 420 · 总体:all 895 round scripts on disk   (asserted in code, not in prose)
+   PASS  ⚠ precision measured ON THE CORPUS, not on fixtures (`#866`①): 9 flagged kills hand-read, 0 vacuous                                                                      3 laundered + all 6 strict candidates printed and read; 0/9 confirmed vacuous. Classes: binning quantiles, and null quantiles whose construction never calls `permutation` (`nul_off`, `NUL0`, `fl`, `maxt`). The candidate share is therefore an UPPER BOUND with measured precision 0/9, not a count of defects · 总体:351 scripts carrying a locatable kill, of 895 — the SAME population as the kill   (asserted in code, not in prose)
+   FAIL  KILL: pre-registered — W_ENDEMIC requires the candidate share to reach 10% of locatable kills; W_RARE requires it to fall to 2%; between them, neither world is claimed  candidate share STRICT 3.33% (laundered 7.38%) of 420 locatable kills across 351 scripts -> NEITHER — the number is reported and no world is claimed   尺:share of locatable kill conditions,其自身噪声 0 · 总体:351 scripts carrying a locatable kill, of 895 · 方向:一致 · 控制总体:7/7 条已命名,**7 条与判据不同** ["positive: `#937` v1's shape,", "negative 1/3: `#937` v2's re", 'negative 2/3: `effect > 2*se', 'negative 3/3: `effect > pct', 'blind: a script with no loca', 'coverage is measured, not as', '⚠ precision measured ON THE ']  ⚠ **控制的总体 ≠ 主张的总体** —— **它证明的是另一群人身上的仪器**(`#866`①)(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered — W_ENDEMIC requires the candidate share to reach 10% of locatable kills; W_RARE requires it to fall to 2%; between them, neither world is claimed). This is a refutation, NOT an unverified round (#366e).
+
+VERDICT           : UNVERIFIED · neither threshold reached · strict 3.33% / laundered 7.38%, reported as numbers and not as a world
+
+wrote /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A120_can_a_kill_be_made_to_fail/R376_the_kill_that_cannot_fail/results/the_kill_that_cannot_fail.json

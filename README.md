@@ -528,6 +528,51 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#938` · the guard I set out to build cannot be built the way I planned
+
+`#937`③ counted four kills that could not have fired, all caught by reading. R376 went to build the
+mechanism: a static pass over all **896** round scripts for kills that judge a statistic against a
+threshold derived from that same statistic.
+
+**Two detectors failed their own positive control before one worked, and each failure was the finding.**
+The first looked for one operand inside the other's dependency closure — but in `#937` v1 the threshold
+never mentions the statistic; the dependency runs through the **data**. The second keyed correctly and
+still missed it, because `boot = []` then `boot.append(...)` leaves an assignment-only tracer believing
+the bootstrap depends on nothing. **Mutation is an assignment.** Both times the round refused to report
+a corpus number, which is what a failed positive control is for.
+
+The line the working detector rests on: a statistic against a **quantile of its own bootstrap** is
+vacuous *by definition*; against a **multiple of its own SE**, or against a **quantile of a permutation
+null**, it is sound. Six controls pass, including `#937` v2's repair and `effect > 2*se` both coming
+back clean.
+
+| `#938` | |
+|---|---|
+| round scripts, 0 parse failures | **896** |
+| carrying a **locatable** kill | **351 = 39.2%** ⚠ the other 545 are UNREADABLE, not clean |
+| locatable kill conditions | **420** |
+| candidates, strict | **14 = 3.33%** |
+| candidates, laundered one hop | **31 = 7.38%** |
+
+Pre-registered: ≥10% ⇒ endemic, ≤2% ⇒ rare. **3.33% is neither, so neither is claimed** (`#938`), and
+both specifications are published rather than the flattering one.
+
+**Then the control that decided it.** Six controls on six fixtures do not evaluate on the claim's own
+population, so **9 flagged kills were hand-read in the corpus — 3 laundered, then all 6 strict.
+`0 of 9` are vacuous.** Two false-positive classes: **binning quantiles** (`nanpercentile(A8,
+[20,40,60,80])` cuts a covariate into quintiles — not a threshold at all), and **null quantiles the
+detector cannot recognise**, because this corpus builds nulls by offset, sign-flip, rotation and
+max-statistic, naming them `nul_off`, `NUL0`, `fl`, `maxt`, none of which calls `permutation`.
+
+**So the candidate share is an upper bound with measured precision 0/9, and the guard `#937`③ asked for
+cannot be static** — the property is scale covariance, which is a runtime fact. The round's product is
+a closed decision, not a number: build the runtime probe instead.
+
+> **One sentence about people (`#938`): nothing in this round is about people — it is about whether the
+> 900 sentences that are can be trusted, and so far the one failure mode I know how to name is rare
+> enough that 9 of 9 suspects were innocent, while the instrument that would have convicted them is too
+> crude to use.**
+
 ### `#937` · the two surveys agree on the raw number and disagree on the corrected one
 
 **A118 is four rounds on one instrument.** So R375 took its *state* claim to a second survey, **NSFG
