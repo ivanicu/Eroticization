@@ -528,6 +528,45 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#937` · the two surveys agree on the raw number and disagree on the corrected one
+
+**A118 is four rounds on one instrument.** So R375 took its *state* claim to a second survey, **NSFG
+2011-2013**, at a time GSS also covers. ⚠ **The trend could not travel** — NSFG asks these items at one
+time point — and ⚠ **the sham could not travel** either: NSFG's only within-others pair is
+`sxok18`–`sxok16`, *"all right for unmarried 18 year olds"* vs *"…16 year olds"*, near-duplicate wording
+at |ρ| = 0.5892 (`#937`, measured in-round), which is a fact about the questionnaire. Both were
+registered before the run rather than discovered after it. NSFG's block is female-only, so a **sex-matched GSS arm** was run beside the full one.
+
+| instrument (`#937`, all three cells, none dropped) | n | raw \|ρ\| | ceiling | normalised |
+|---|---|---|---|---|
+| GSS 2010-2014 (both sexes) | 1,997 | 0.3674 | 0.6919 | 0.5309 |
+| GSS 2010-2014 (**female only**) | 1,082 | **0.3866** | 0.6567 | **0.5887** |
+| NSFG 2011-2013 (female) | 5,579 | **0.3682** | **0.9048** | **0.4069** |
+
+**`#937`: the two arms agree on the raw coupling to within 0.0184 and disagree on the normalised one by
+0.1818, 95% [0.1240, 0.2376] — ten times larger.** The whole gap is manufactured by the ceilings, 0.6567 vs
+0.9048, which differ because GSS's items are 4-point and NSFG's are 5-point.
+
+**Verdict `UNVERIFIED`, not a replication and not a refutation.** `#936` validated the ceiling
+normalisation *within* one instrument, where every item shares a scale; **using it across instruments with
+different scales is an untested extension, and this is the first round to ask it to.** The controls were
+sound — null +0.0238 ± 0.0164, 3/3 surviving BH over the three instrument estimates, and a positive
+sweep rising `0.0208 → 0.1216 → 0.2322 → 0.3491 → 0.4484` from a `g=0` that sits **on that null**
+(`#937`) — so **the instrument for comparing the two failed here, not the data**. ⓘ The sweep crosses
+the observed 0.1818 between `g=0.2` and `g=0.4`, so the design **could** have seen a gap this size:
+the verdict is not a power failure.
+
+⚠ **This is a defect in the project's own rule**, which is why it is on the page. *"Cross-instrument
+replication beats another round on the same instrument"* carries an unstated precondition: the quantity
+must be comparable across them, **and whatever correction makes it comparable must itself have been
+validated across them**. A cross-instrument round that skips that check does not replicate a finding — it
+reports a property of the two questionnaires' response scales.
+
+> **One sentence about people (`#937`): we still cannot say whether the same-sex norm sits among the other
+> sexual norms the same way for the women NSFG asked as for the people GSS asked — the two surveys agree
+> almost exactly on the plain number and disagree only after the correction meant to make them comparable,
+> and nothing here tells us which one is the truth about people.**
+
 ⚠ **Prior art**: Twenge, Sherman & Wells (2015) documented the divergent trends in exactly these four
 items. **The divergence is not new here**; the *within-cohort* version — same birth years, not a
 changing population — with a measured ceiling control and a permutation null, is. ⚠ **What still

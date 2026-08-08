@@ -1,0 +1,31 @@
+GSS 2010-2014 ballot 1 · n=1997  obs 0.3674 / ceil 0.6919 = 0.5309
+  ⚠ female-only arm (NSFG's block is female-only) · n=1082  obs 0.3866 / ceil 0.6567 = 0.5887
+NSFG 2011-2013 female · n=5579  obs 0.3682 / ceil 0.9048 = 0.4069
+  ⚠ scales differ (GSS 4-point, NSFG 5-point) — which is why the ceiling is required, not optional. Raw 0.3866 vs 0.3682; normalised 0.5887 vs 0.4069
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  GSS 2010-2014 (both sexes)     obs 0.3674 · ceil 0.6919 · normalised 0.5309   n=1997
+  GSS 2010-2014 (female only)    obs 0.3866 · ceil 0.6567 · normalised 0.5887   n=1082
+  NSFG 2011-2013 (female)        obs 0.3682 · ceil 0.9048 · normalised 0.4069   n=5579
+
+  |GSS(female) - NSFG| normalised = 0.1818
+  bootstrap spread of that difference: sd 0.0289 · 95% [0.1240, 0.2376]
+  null (target permuted within each instrument — marginals and ceilings untouched; kind of null: within-instrument person-label permutation): +0.0238 +/- 0.0164
+  positive sweep (both arms permuted = the null, then a fraction g of GSS's true pairing restored; g=0 IS the null): [(0.0, 0.0208), (0.2, 0.1216), (0.4, 0.2322), (0.6, 0.3491), (0.8, 0.4484)]
+  ⚠ plant-baseline check, run here rather than left to the hook: g=0 at +0.0208 vs null +0.0238 +/- 0.0164 = 0.18 spreads
+
+  CONDITIONAL KILL -- Does the same-sex norm's coupling look the same in a second survey?
+   PASS  positive: a restored divergence widens the instrument gap, and g=0 sits ON the null this round judges against (`#922`)  方向由数据给出:**上升**;灵敏度 g=0.2;g=0 +0.0208 · g=0.8 +0.4484   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  target permuted within each instrument                                                                                  |+0.0238| < 0.5*|+0.5887| = 0.2943   (null is 4% of the effect [零的方案: within-instrument person-label permutation])
+   PASS  the instrument estimates — the family this claim lives in (`#936`(2))                                                   method=bh q=0.05 · **cells tested 3 · cells surviving 3** · 存活 ['GSS 2010-2014 (both sexes)', 'GSS 2010-2014 (female only)', 'NSFG 2011-2013 (female)'] · 未存活 []   (control)
+   PASS  the SHAM does not transfer, and that is registered rather than quietly dropped                                          NSFG's only within-others pair is `sxok18`-`sxok16` (|rho| 0.5892, MEASURED here, not quoted), near-duplicate wording — a fact about the questionnaire, not about people; `chsuppor` is a FAMILY norm. This round replicates the TARGET level only; scope stated   (asserted in code, not in prose)
+   PASS  a SEX-MATCHED GSS arm is run, because NSFG's block is female-only                                                       GSS both sexes 0.5309 · GSS female-only 0.5887 · NSFG female 0.4069   (asserted in code, not in prose)
+   PASS  the ceiling contains no association — it is the comonotone pairing of the marginals                                     ceilings GSS 0.6567 vs NSFG 0.9048; scales differ (4-point vs 5-point), which is why normalising is required rather than optional   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                                                       3/3 格带 n   (每一格都声明了自己的人群规模)
+   PASS  the instrument gap carries an interval                                                                                  +0.1818 ± 0.0284   (来源 bootstrap_人层)
+   FAIL  KILL: W_TRAVELS requires the instrument gap's interval to INCLUDE ZERO                                                  |GSS(female) - NSFG| normalised 0.1818, bootstrap 95% [0.1240, 0.2376] -> EXCLUDES zero; raw gap 0.0184 vs normalised gap 0.1818; ceilings 0.6567 vs 0.9048   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_TRAVELS requires the instrument gap's interval to INCLUDE ZERO). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_TRAVELS requires the instrument gap's interval to INCLUDE ZERO). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : UNVERIFIED · world W_INCOMP · the ceilings are too far apart to compare
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A119_does_the_structure_exist_elsewhere/R375_the_same_norm_in_a_second_survey/results/the_same_norm_in_a_second_survey.json

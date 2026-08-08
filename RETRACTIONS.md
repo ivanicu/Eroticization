@@ -47356,3 +47356,80 @@ they folded it further in.**
    `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
    `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
    `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 937 · `E03·A119·R375` — the two surveys agree on the raw number and disagree on the corrected one
+
+**A118 is four rounds on ONE instrument.** HARD RULE 4 says a claim holding in two instruments beats a
+fifth round on one, so R375 took A118's *state* claim — the same-sex norm's coupling to the other sexual
+norms, as a share of what the marginals permit (`#936`) — to **NSFG 2011-2013**, at a time GSS also
+covers (2010-2014).
+
+**What can and cannot cross, registered before the run.** ⚠ **The TREND cannot** — NSFG asks these items
+at one time point, so A118's `+0.0595/decade` is *not* replicated here and saying otherwise would be the
+round's own undoing. ⚠ **The SHAM does not transfer** — GSS's reference is three pairs among
+`premarsx`/`teensex`/`xmarsex`; NSFG's would be the single pair `sxok18`–`sxok16` (*"all right for
+unmarried 18 year olds"* vs *"…16 year olds"*), **near-duplicate wording**, |ρ| = 0.5892, which is a fact
+about the questionnaire and not about people. ⚠ NSFG's block is **female-only**, so a **sex-matched GSS
+arm** was run beside the full one rather than comparing across a sex composition difference.
+
+| instrument | n | raw \|ρ\| | ceiling | normalised |
+|---|---|---|---|---|
+| GSS 2010-2014 (both sexes) | 1,997 | 0.3674 | 0.6919 | 0.5309 |
+| GSS 2010-2014 (**female only**) | 1,082 | **0.3866** | 0.6567 | **0.5887** |
+| NSFG 2011-2013 (female) | 5,579 | **0.3682** | **0.9048** | **0.4069** |
+
+**⚠⚠ THE KILL WAS VACUOUS ON FIRST WRITING, AND IT WOULD HAVE PRINTED THE OPPOSITE OF THE TRUTH.** v1 read
+`travels = diff <= hi` — the observed gap compared against **the upper end of its own bootstrap interval**,
+which is **true by construction**. It printed `CONFIRMED · W_TRAVELS` over numbers that say the reverse.
+That is `#916`③'s family — a control named after what I meant — and it is the **fourth** time in this
+project that a criterion has been written so that it cannot fail. The correct test is whether the gap's
+interval **includes zero**: **0.1818, 95% [0.1240, 0.2376] — it EXCLUDES zero.**
+
+**⚠⚠⚠ BUT THE VERDICT IS NOT W_GSS_ONLY EITHER, AND THIS IS THE ROUND'S ACTUAL CONTENT.** The two arms
+agree on the **raw** coupling to within **0.0184** and disagree on the **normalised** one by **0.1818** —
+**ten times larger.** The entire disagreement is manufactured by the ceilings, 0.6567 vs 0.9048, which
+differ because **GSS's items are 4-point and NSFG's are 5-point**. So the correction that makes the two
+instruments comparable is precisely the thing that drives them apart, and this round cannot say which
+number is the honest one.
+
+**VERDICT: `UNVERIFIED` · world `W_INCOMP`** — not a replication, not a refutation. `#936` validated the
+ceiling normalisation **within one instrument**, where every item shares a scale. **Using it ACROSS
+instruments with different response scales is an untested extension, and R375 is the first round to ask
+it to do that.** Controls are sound (null +0.0238±0.0164; 3/3 BH over the three instrument
+estimates, the family the claim lives in per `#936`②) — **the instrument for COMPARING them failed,
+not the data.**
+
+**⚠⚠ AND THE POSITIVE CONTROL WAS BUILT BACKWARDS, WHICH `#922`'s GATE CAUGHT ON THE COMMIT.** v1 swept
+a *degradation* of the NSFG arm starting from the **observed** pair, so `g=0` was +0.1818 while the
+round judges against a permuted null of +0.0238 — **9.6 spreads apart, the plant and the null from two
+different worlds.** That is `#905`/`#920` for the third time, and it is exactly what `#922` was built
+for; **it blocked the commit and I did not find it myself.** Rebuilt so the plant lives INSIDE the null
+— permute both arms, then restore a fraction `g` of GSS's true pairing: `0→0.0208 · 0.2→0.1216 ·
+0.4→0.2322 · 0.6→0.3491 · 0.8→0.4484`, **`g=0` now 0.18 spreads from the null**. ⓘ **And the repair
+strengthens the round rather than weakening it**: the sweep crosses the observed 0.1818 between
+`g=0.2` and `g=0.4`, so this design demonstrably **can** see a divergence of the size it reports — the
+`UNVERIFIED` above is not a power failure.
+
+**⚠ AND THIS IS A DEFECT IN HARD RULE 4 ITSELF, WHICH IS WHY IT IS WRITTEN HERE AND NOT ONLY IN THE ROUND.**
+*"Cross-instrument replication beats another round on the same one"* carries an unstated precondition:
+**the quantity must be comparable across the instruments, and whatever correction makes it comparable must
+itself have been validated across them.** Neither GSS→NSFG nor the ceiling meets that here. A cross-
+instrument round that skips this check does not replicate a finding — it silently reports a property of
+the two questionnaires' response scales.
+
+**ONE SENTENCE ABOUT PEOPLE.** We still cannot say whether the same-sex norm sits among the other sexual
+norms the same way for the women NSFG asked as for the people GSS asked: **the two surveys agree almost
+exactly on the plain number and disagree only after the correction meant to make them comparable, and
+nothing in this round tells us which of the two is the truth about people.**
+
+**NEXT** — `#937`① **the ceiling normalisation has never been validated across response scales**; the
+available test is *within* GSS, which fields some items on both a 4-point and a different-length scale
+across waves — if the normalised value is stable there while the raw one moves, the correction is
+carrying its weight. `#937`② **the raw agreement (0.0184) has no interval** and may be coincidence;
+it needs the same bootstrap the normalised gap got. ⚠ **and the number I typed for that pair was 0.5895 while the
+data says 0.5892** — caught by `no_transcribed_numbers` (`#840`) on the commit that would have
+shipped it, and wrong for a second reason the gate does not know: **a registered limit asserted from
+memory is `#913`③'s family**, scoring an object by its description when the object is one line away.
+Both NSFG items were already loaded. `#937`③ ⚠ **four vacuous kills now** (`#916`③,
+`#930`, `#935`, `#937`) — `lib/gates.py` compares a quantity to a threshold **it never checks is
+independent of that quantity**; the check exists nowhere and every instance so far was caught by reading.
