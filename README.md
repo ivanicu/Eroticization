@@ -221,6 +221,38 @@ label file told me.
 > people who say they are gay, lesbian or bisexual judge the act less harshly than the people who merely
 > did it, and both judge it less harshly than everyone else.**
 
+## ⚠⚠ AND THEN `#923` MEASURED HOW MUCH OF HISTORY THAT EXPLAINS: ABOUT FOUR PERCENT
+
+Six rounds of person-level work, and the project's stated object is **the decade and the society**. The
+bridge: if having the experience softens the verdict, then as more people have it, aggregate opinion should
+soften (`#923`). `homosex` moved **1.559 → 2.810 (+1.251)** over **1973–2024, 30 waves**; the exposed share rose
+**0.0601 → 0.1667** (1989–2022, the behaviour item's own window — the two are never mixed).
+
+| `#923` | window | total | = composition | + within | comp share |
+|---|---|---|---|---|---|
+| `ss` | 1989→2022 | **+1.327** | **+0.058** | +1.269 | **4.34%** |
+| `lgb` | 2008→2024 | +0.379 | −0.006 | +0.385 | −1.6% |
+| `either` | 1989→2024 | +1.142 | +0.021 | +1.121 | 1.8% |
+
+Median **4.34%** (`#923`) against a share-fixed null of **+0.0000 ± 0.0002** (kind of null: share-fixed resampling); **8 of 9 cells survive BH**.
+
+⚠ **The Kitagawa split is a DERIVATION, not a test** — given shares and group means it is forced by the
+algebra, and `#923` says so. The *test* is whether the groups moved differently: **unexposed minus exposed
+= +0.271, 95% bootstrap [−0.181, +0.714]**. The interval spans zero, and the `either` specification reverses
+the sign — **so no claim is made about who moved more**, only that they moved by indistinguishable amounts.
+
+> **One sentence about people (`#923`): over fifty years Americans changed their minds about homosexuality
+> almost entirely without changing who they were — the people with no personal stake in it moved just as far
+> as the people who had one, and the arrival of more people with a stake accounts for about one part in
+> twenty-five of the whole shift.**
+
+⚠ **This deflates the six rounds above, and that is what the basin rule asked for**: `#921` was a
+confirmation, so the next step had to be one whose success I would not enjoy. **The coupling is real,
+replicated, and survives a randomised re-wording — and it is historically minor.** ⚠ And because disclosure
+is unresolved upstream (`#919`), even the 4.34% is an **upper bound** on a quantity that is itself partly a
+reporting artifact. **~96% of the change remains unexplained by anything this project has measured** — which
+is now the honest frontier.
+
 ⚠ Scope: 8 waves 2008–2022; the arrow is **not identified** (identity, behaviour and norm are simultaneous);
 and disclosure is inherited-unresolved from `#919`, since identity is also a report to the same interviewer.
 

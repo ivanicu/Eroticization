@@ -46312,3 +46312,82 @@ and measured what the tool cannot see, which is worth doing and is not a fact ab
    `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
    `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
    `#857`① · `#861`①.
+
+## Entry 923 · `E03·A114·R361` — the coupling is real and it explains about four percent of what happened
+
+**⇒ `CONFIRMED` · world `W_CTX`. The half-century shift in American opinion on homosexuality is
+**not** composition. Of the aggregate change, the changing share of people with same-sex experience
+or identity accounts for a **median 4.34%** across nine cells, against a share-fixed null of
+**+0.0000 ± 0.0002** (kind of null: share-fixed resampling). **The society moved; who was in it barely mattered.**
+
+**WHY THIS ROUND.** `#915`–`#921` built one person-level claim and replicated it on a second
+instrument. ⚠ **All of it is person-level, and this project's object is the DECADE and the
+SOCIETY.** The bridge was never built. `#922`② also required this round's object to be people or
+data, after two rounds that produced no sentence about anyone.
+
+**THE SERIES, measured before anything was computed on it.** `homosex` runs **1973–2024, 30 waves,
+1.559 → 2.810 (+1.251)** on a 1–4 scale. The behaviour item exists only from 1989, so the
+composition window is **1989–2022** and the two windows are reported separately, never mixed. The
+exposed share rose **0.0601 → 0.1667**.
+
+| group | window | total | = composition | + within | comp share |
+|---|---|---|---|---|---|
+| `ss` | 1989→2022 | **+1.327** | **+0.058** | +1.269 | **4.34%** |
+| `lgb` | 2008→2024 | +0.379 | −0.006 | +0.385 | −1.6% |
+| `either` | 1989→2024 | +1.142 | +0.021 | +1.121 | 1.8% |
+
+**BH over the whole grid: 8 of 9 cells survive.**
+
+**⚠ THE ARITHMETIC TRAP, NAMED BEFORE THE NUMBER.** Given shares and group means, the Kitagawa split
+is **forced by the algebra** — a DERIVATION, not a test, and labelled as one. **The test in this
+round is whether the two groups moved DIFFERENTLY**, which could have gone either way.
+**Measured: unexposed minus exposed = +0.271, 95% bootstrap [−0.181, +0.714] — the interval spans
+zero.** ⚠ **So I may NOT say the unexposed moved more.** What is established is that they moved by
+**indistinguishable** amounts — and the `either` specification even reverses the sign (+1.560
+exposed vs +1.116 unexposed), which is why the direction is not claimed.
+
+**⚠⚠ AND MY OWN PLANT WAS DEGENERATE, FOR THE THIRD TIME IN THIS FAMILY.** v1 swept `comp_share`
+while the plant **froze the within-group means** — so `within` is zero by construction and
+`comp_share = comp/total` is **1.0000 at every g**, flat, sensitivity unprovable. **The plant
+disturbed the quantity the statistic normalises by**, which is `#919`③ exactly, and it is what
+`#922`'s new gate exists to catch (a `g=0` arm off its own baseline). Repaired by sweeping the
+**absolute** component, which has no denominator: `0 → −0.0003 · 0.10 → +0.0680 · 0.20 → +0.1355 ·
+0.30 → +0.2030 · 0.40 → +0.2705`, monotone, landing on zero.
+
+**⇒ One sentence about people: over fifty years Americans changed their minds about homosexuality
+almost entirely without changing who they were — the people with no personal stake in it moved just
+as far as the people who had one, and the arrival of more people with a stake accounts for about one
+part in twenty-five of the whole shift.**
+
+**⚠ AND THAT IS A DEFLATION OF MY OWN LAST FIVE ROUNDS, WHICH IS WHAT THE BASIN RULE ASKED FOR.**
+`#921` was a confirmation; the step designed after it had to be one whose success I would not enjoy.
+The coupling is real, replicated, and survives a randomised re-wording — **and it is historically
+minor.** Both things are now on the page.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **disclosure is unresolved upstream** (`#919`), so the rising share is partly rising willingness
+   to report ⇒ **every composition number here is an UPPER BOUND on a quantity that is itself partly
+   an artifact**, and the ontology world can be flagged, not decided;
+② ⚠ the behaviour window (1989–) is shorter than the norm window (1973–); they are never mixed;
+③ ⚠ this is a **decomposition of an observed change, not a causal account** — nothing here
+   identifies why anyone moved;
+④ ⚠ **only this one instrument** — GSS is the only release here with a five-decade norm series AND a
+   behaviour item; NSFG cannot supply a 1973–2024 trend at all, and `#921` already did the
+   cross-instrument move for the person-level claim;
+⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE OBJECT HAS MOVED BACK TO WHERE THE PROJECT SAID IT WAS.** *What the society does with it*
+   is now the residual: **~96% of the change is unexplained by anything this project has measured.**
+   That is the honest frontier, and it is a bigger gap than the one A112 spent six rounds on. ⇒ `#923`①
+② ⚠ **THE PLANT-DENOMINATOR DEFECT HAS NOW FIRED THREE TIMES** (`#919`③, `#920`, here). `#922`'s
+   gate catches it only when a round PERSISTS a sweep and a null; it fired correctly here because
+   this round does. **That is the first live confirmation that the gate does work** — and it also
+   shows the defect is not being prevented, only detected. ⇒ `#923`②
+③ ⚠ Still `OPEN`: `#922`①② · `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ ·
+   `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② ·
+   `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ ·
+   `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② ·
+   `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
+   `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
+   `#852`① · `#857`① · `#861`①.

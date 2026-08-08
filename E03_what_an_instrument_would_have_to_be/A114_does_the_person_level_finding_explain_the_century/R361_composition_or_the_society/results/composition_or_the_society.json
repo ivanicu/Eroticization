@@ -1,0 +1,307 @@
+{
+ "entry": 923,
+ "round": "E03\u00b7A114\u00b7R361",
+ "verdict": "CONFIRMED",
+ "world": "W_CTX \u00b7 the society moved; composition is a rounding error",
+ "estimand": "share of the aggregate change in `homosex` attributable to the changing share of people with same-sex experience/identity (DERIVATION), plus the group-difference in movement (TEST)",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta",
+ "norm_series": {
+  "first_year": 1973,
+  "last_year": 2024,
+  "waves": 30,
+  "first": 1.5589273112208892,
+  "last": 2.8103529411764705,
+  "total_move": 1.2514256299555813
+ },
+ "groups": {
+  "ss": {
+   "waves": 19,
+   "first_year": 1989,
+   "last_year": 2022,
+   "first_share": 0.06005221932114883,
+   "last_share": 0.16666666666666666,
+   "n": 19062
+  },
+  "lgb": {
+   "waves": 9,
+   "first_year": 2008,
+   "last_year": 2024,
+   "first_share": 0.03504043126684636,
+   "last_share": 0.05975143403441682,
+   "n": 10497
+  },
+  "either": {
+   "waves": 20,
+   "first_year": 1989,
+   "last_year": 2024,
+   "first_share": 0.06005221932114883,
+   "last_share": 0.05975143403441682,
+   "n": 21799
+  }
+ },
+ "grid": [
+  {
+   "y0": 1989,
+   "y1": 2022,
+   "total": 1.3274774629575907,
+   "comp": 0.05765220591361153,
+   "within": 1.269825257043979,
+   "comp_share": 0.043429894308837216,
+   "share0": 0.06005221932114883,
+   "share1": 0.16666666666666666,
+   "move_unexposed": 1.3006172839506172,
+   "move_exposed": 1.028985507246377,
+   "gap0": 0.6765700483091788,
+   "gap1": 0.40493827160493856,
+   "head_unexposed": 0.5482695810564663,
+   "head_exposed": 0.6068376068376069,
+   "n0": 766,
+   "n1": 972,
+   "n": 1738,
+   "group": "ss"
+  },
+  {
+   "y0": 1989,
+   "y1": 2004,
+   "total": 0.5545029060133053,
+   "comp": -0.01763062152285625,
+   "within": 0.5721335275361615,
+   "comp_share": -0.03179536361606228,
+   "share0": 0.06005221932114883,
+   "share1": 0.03869969040247678,
+   "move_unexposed": 0.5574074074074074,
+   "move_exposed": 0.8556521739130436,
+   "gap0": 0.6765700483091788,
+   "gap1": 0.974814814814815,
+   "head_unexposed": 0.2349726775956284,
+   "head_exposed": 0.5046153846153847,
+   "n0": 766,
+   "n1": 646,
+   "n": 1412,
+   "group": "ss"
+  },
+  {
+   "y0": 2004,
+   "y1": 2022,
+   "total": 0.7729745569442854,
+   "comp": 0.08828141523015975,
+   "within": 0.6846931417141255,
+   "comp_share": 0.11420998846217252,
+   "share0": 0.03869969040247678,
+   "share1": 0.16666666666666666,
+   "move_unexposed": 0.7432098765432098,
+   "move_exposed": 0.17333333333333334,
+   "gap0": 0.974814814814815,
+   "gap1": 0.40493827160493856,
+   "head_unexposed": 0.40952380952380946,
+   "head_exposed": 0.2063492063492064,
+   "n0": 646,
+   "n1": 972,
+   "n": 1618,
+   "group": "ss"
+  },
+  {
+   "y0": 2008,
+   "y1": 2024,
+   "total": 0.4225672952538999,
+   "comp": 0.0321813112522968,
+   "within": 0.39038598400160285,
+   "comp_share": 0.0761566538957082,
+   "share0": 0.03504043126684636,
+   "share1": 0.05975143403441682,
+   "move_unexposed": 0.4076456125701635,
+   "move_exposed": 0.04348717948717917,
+   "gap0": 1.4843861910901017,
+   "gap1": 1.1202277580071174,
+   "head_unexposed": 0.2449979786795499,
+   "head_exposed": 0.2422857142857128,
+   "n0": 1113,
+   "n1": 2092,
+   "n": 3205,
+   "group": "lgb"
+  },
+  {
+   "y0": 2008,
+   "y1": 2016,
+   "total": 0.42019317160826564,
+   "comp": 0.031079403214423235,
+   "within": 0.38911376839384226,
+   "comp_share": 0.07396456038414088,
+   "share0": 0.03504043126684636,
+   "share1": 0.05952380952380952,
+   "move_unexposed": 0.40944299083044555,
+   "move_exposed": -0.020512820512820884,
+   "gap0": 1.4843861910901017,
+   "gap1": 1.0544303797468353,
+   "head_unexposed": 0.24607821608947877,
+   "head_exposed": -0.11428571428571647,
+   "n0": 1113,
+   "n1": 840,
+   "n": 1953,
+   "group": "lgb"
+  },
+  {
+   "y0": 2016,
+   "y1": 2024,
+   "total": 0.002374123645634274,
+   "comp": 0.00024750274717217713,
+   "within": 0.0021266208984619126,
+   "comp_share": 0.10425015041963157,
+   "share0": 0.05952380952380952,
+   "share1": 0.05975143403441682,
+   "move_unexposed": -0.0017973782602820343,
+   "move_exposed": 0.06400000000000006,
+   "gap0": 1.0544303797468353,
+   "gap1": 1.1202277580071174,
+   "head_unexposed": -0.0014328242438171614,
+   "head_exposed": 0.32,
+   "n0": 840,
+   "n1": 2092,
+   "n": 2932,
+   "group": "lgb"
+  },
+  {
+   "y0": 1989,
+   "y1": 2024,
+   "total": 1.1423001462740066,
+   "comp": -0.00027022517168627796,
+   "within": 1.1425703714456927,
+   "comp_share": -0.00023656231907849055,
+   "share0": 0.06005221932114883,
+   "share1": 0.05975143403441682,
+   "move_unexposed": 1.1159944642151047,
+   "move_exposed": 1.5596521739130433,
+   "gap0": 0.6765700483091788,
+   "gap1": 1.1202277580071174,
+   "head_unexposed": 0.47044263128505587,
+   "head_exposed": 0.9197948717948717,
+   "n0": 766,
+   "n1": 2092,
+   "n": 2858,
+   "group": "either"
+  },
+  {
+   "y0": 1989,
+   "y1": 2006,
+   "total": 0.6361785893634855,
+   "comp": 0.011329952351486174,
+   "within": 0.6248486370119992,
+   "comp_share": 0.017809389597380366,
+   "share0": 0.06005221932114883,
+   "share1": 0.07460643394934977,
+   "move_unexposed": 0.6111275476660092,
+   "move_exposed": 0.814918228958915,
+   "gap0": 0.6765700483091788,
+   "gap1": 0.8803607296020846,
+   "head_unexposed": 0.25761816997630366,
+   "head_exposed": 0.4805928016937191,
+   "n0": 766,
+   "n1": 1461,
+   "n": 2227,
+   "group": "either"
+  },
+  {
+   "y0": 2006,
+   "y1": 2024,
+   "total": 0.5061215569105211,
+   "comp": -0.014859370906625403,
+   "within": 0.5209809278171464,
+   "comp_share": -0.029359292651611836,
+   "share0": 0.07460643394934977,
+   "share1": 0.05975143403441682,
+   "move_unexposed": 0.5048669165490955,
+   "move_exposed": 0.7447339449541284,
+   "gap0": 0.8803607296020846,
+   "gap1": 1.1202277580071174,
+   "head_unexposed": 0.2866778963353117,
+   "head_exposed": 0.8455833333333332,
+   "n0": 1461,
+   "n1": 2092,
+   "n": 3553,
+   "group": "either"
+  }
+ ],
+ "median_comp_share": 0.043429894308837216,
+ "null_median": 2.148454550427718e-05,
+ "null_sd": 0.0001540077186889647,
+ "null_draws": 240,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.0002580691391868649
+  ],
+  [
+   0.1,
+   0.06795578346811706
+  ],
+  [
+   0.2,
+   0.13547357635493845
+  ],
+  [
+   0.3,
+   0.20299136924175992
+  ],
+  [
+   0.4,
+   0.2705091621285809
+  ]
+ ],
+ "group_move_difference": {
+  "median": 0.2712662866980471,
+  "lo": -0.18095665728297872,
+  "hi": 0.7139564386252415,
+  "draws": 400
+ },
+ "gates": [
+  [
+   "positive: a planted share rise raises the ABSOLUTE composition component, and g=0 is null",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.1;g=0 -0.0003 \u00b7 g=0.4 +0.2705",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "group share held at its first-wave value",
+   "|+0.0000| < 0.5*|+0.0434| = 0.0217",
+   true,
+   "null is 0% of the effect [\u96f6\u7684\u65b9\u6848: share-fixed resampling]"
+  ],
+  [
+   "the whole group x window grid",
+   "method=bh q=0.05 \u00b7 **cells tested 9 \u00b7 cells surviving 8** \u00b7 \u5b58\u6d3b ['ss|1989-2022', 'ss|1989-2004', 'ss|2004-2022', 'lgb|2008-2024', 'lgb|2008-2016', 'lgb|2016-2024', 'either|1989-2006', 'either|2006-2024'] \u00b7 \u672a\u5b58\u6d3b ['either|1989-2024']",
+   true,
+   "control"
+  ],
+  [
+   "the CEILING control ran: each group's movement is also expressed against its own room",
+   "headroom-scaled movements published for all 9 cells",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "9/9 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "the group-difference in movement carries an interval",
+   "+0.2713 \u00b1 0.2237",
+   true,
+   "\u6765\u6e90 bootstrap_\u4eba\u5c42"
+  ],
+  [
+   "the Kitagawa split is labelled a DERIVATION, not a test",
+   "given shares and group means the split is forced by the algebra; the TEST in this round is the group-difference in movement, which could have gone either way; scope stated",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: W_COMP requires composition to carry a large share of the aggregate change",
+   "median comp_share 4.34% vs null +0.0000 +/- 0.0002   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

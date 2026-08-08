@@ -1,0 +1,47 @@
+norm series `homosex`: 1973-2024, 30 waves, 1.559 -> 2.810 (+1.251)
+  group `ss    ` 1989-2022 · 19 waves · share 0.0601 -> 0.1667 · n=19062
+  group `lgb   ` 2008-2024 ·  9 waves · share 0.0350 -> 0.0598 · n=10497
+  group `either` 1989-2024 · 20 waves · share 0.0601 -> 0.0598 · n=21799
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  ss     1989->2022  total +1.327 = comp +0.0577 + within +1.270  | comp_share  4.34%  share 0.060->0.167  n=766/972
+  ss     1989->2004  total +0.555 = comp -0.0176 + within +0.572  | comp_share -3.18%  share 0.060->0.039  n=766/646
+  ss     2004->2022  total +0.773 = comp +0.0883 + within +0.685  | comp_share 11.42%  share 0.039->0.167  n=646/972
+  lgb    2008->2024  total +0.423 = comp +0.0322 + within +0.390  | comp_share  7.62%  share 0.035->0.060  n=1113/2092
+  lgb    2008->2016  total +0.420 = comp +0.0311 + within +0.389  | comp_share  7.40%  share 0.035->0.060  n=1113/840
+  lgb    2016->2024  total +0.002 = comp +0.0002 + within +0.002  | comp_share 10.43%  share 0.060->0.060  n=840/2092
+  either 1989->2024  total +1.142 = comp -0.0003 + within +1.143  | comp_share -0.02%  share 0.060->0.060  n=766/2092
+  either 1989->2006  total +0.636 = comp +0.0113 + within +0.625  | comp_share  1.78%  share 0.060->0.075  n=766/1461
+  either 2006->2024  total +0.506 = comp -0.0149 + within +0.521  | comp_share -2.94%  share 0.075->0.060  n=1461/2092
+
+  movements and the CEILING control (movement / room the group had):
+  ss     1989->2022  unexposed +1.301 (head 0.548) · exposed +1.029 (head 0.607) · gap +0.677 -> +0.405
+  ss     1989->2004  unexposed +0.557 (head 0.235) · exposed +0.856 (head 0.505) · gap +0.677 -> +0.975
+  ss     2004->2022  unexposed +0.743 (head 0.410) · exposed +0.173 (head 0.206) · gap +0.975 -> +0.405
+  lgb    2008->2024  unexposed +0.408 (head 0.245) · exposed +0.043 (head 0.242) · gap +1.484 -> +1.120
+  lgb    2008->2016  unexposed +0.409 (head 0.246) · exposed -0.021 (head -0.114) · gap +1.484 -> +1.054
+  lgb    2016->2024  unexposed -0.002 (head -0.001) · exposed +0.064 (head 0.320) · gap +1.054 -> +1.120
+  either 1989->2024  unexposed +1.116 (head 0.470) · exposed +1.560 (head 0.920) · gap +0.677 -> +1.120
+  either 1989->2006  unexposed +0.611 (head 0.258) · exposed +0.815 (head 0.481) · gap +0.677 -> +0.880
+  either 2006->2024  unexposed +0.505 (head 0.287) · exposed +0.745 (head 0.846) · gap +0.880 -> +1.120
+
+  median comp_share over 9 cells: 4.34%
+  null (group share held at its first-wave value; kind of null: share-fixed resampling): +0.0000 +/- 0.0002 over 240 draws
+  positive sweep (planted share rise, median ABSOLUTE comp): [(0.0, -0.0003), (0.1, 0.068), (0.2, 0.1355), (0.3, 0.203), (0.4, 0.2705)]
+
+  unexposed-minus-exposed MOVEMENT, 1989->2022: +0.271 [95% bootstrap -0.181, +0.714]  <- NOT a derivation; it could have gone either way
+
+  CONDITIONAL KILL -- Does the person-level coupling explain the half-century, or almost none of it?
+   PASS  positive: a planted share rise raises the ABSOLUTE composition component, and g=0 is null  方向由数据给出:**上升**;灵敏度 g=0.1;g=0 -0.0003 · g=0.4 +0.2705   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  group share held at its first-wave value                                                   |+0.0000| < 0.5*|+0.0434| = 0.0217   (null is 0% of the effect [零的方案: share-fixed resampling])
+   PASS  the whole group x window grid                                                              method=bh q=0.05 · **cells tested 9 · cells surviving 8** · 存活 ['ss|1989-2022', 'ss|1989-2004', 'ss|2004-2022', 'lgb|2008-2024', 'lgb|2008-2016', 'lgb|2016-2024', 'either|1989-2006', 'either|2006-2024'] · 未存活 ['either|1989-2024']   (control)
+   PASS  the CEILING control ran: each group's movement is also expressed against its own room      headroom-scaled movements published for all 9 cells   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                          9/9 格带 n   (每一格都声明了自己的人群规模)
+   PASS  the group-difference in movement carries an interval                                       +0.2713 ± 0.2237   (来源 bootstrap_人层)
+   PASS  the Kitagawa split is labelled a DERIVATION, not a test                                    given shares and group means the split is forced by the algebra; the TEST in this round is the group-difference in movement, which could have gone either way; scope stated   (asserted in code, not in prose)
+   PASS  KILL: W_COMP requires composition to carry a large share of the aggregate change           median comp_share 4.34% vs null +0.0000 +/- 0.0002   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : CONFIRMED · world W_CTX · the society moved; composition is a rounding error
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A114_does_the_person_level_finding_explain_the_century/R361_composition_or_the_society/results/composition_or_the_society.json
