@@ -199,6 +199,28 @@ having the behaviour raises the norm (LGB 3.887 vs 3.000
 > independently, with identity worth about three times the behaviour — so the tidy line that people defend
 > who they are rather than what they did is a sentence I wrote, not a thing the data says.**
 
+⚠ **`#921` replicated this on a SECOND instrument and scoped the number.** NSFG — different survey, different
+decades, different wording — gives `id_net` **−0.2371** and `act_net` **−0.1568**, both resolved against
+their own permutation nulls, **30 of 30 cells surviving BH**. ⚠ **But the ratio is 1.51× on NSFG against
+2.9× on GSS: the ORDERING travels, the MAGNITUDE does not.** "About three times" is a GSS number.
+
+⚠⚠ **And NSFG randomises the identity question, which is the control `#919` could not build.** `orient_a`
+and `orient_b` are disjoint half-samples (**13–14 of ~6,000 answer both**) with different option sets, so
+**random assignment balances composition by design**. The wording genuinely moved who counts as LGB
+(**13.41% vs 12.38%** female · **4.93% vs 5.91%** male) — yet the coupling did not move with it:
+`max |id_net(A) − id_net(B)| = 0.0669` against its own **randomised-arm permutation null** of
+**−0.0082 ± 0.0447**. ⚠ **Stated as a bound, not a zero** (`#919`'s lesson): the design resolves contrasts
+above ≈**0.09**, so any wording effect is smaller than that.
+
+⚠ The identity **coding** was anchored on behaviour, never on labels (which do not ship) and never on the
+norm — and it recovered *different code numbering in the two randomised arms* (`[2,3]` vs `[1,3]`), which no
+label file told me.
+
+> **One sentence about people (`#921`): on a second national survey, in different decades, with a
+> differently worded question — and even when the survey randomly changes how it asks who you are — the
+> people who say they are gay, lesbian or bisexual judge the act less harshly than the people who merely
+> did it, and both judge it less harshly than everyone else.**
+
 ⚠ Scope: 8 waves 2008–2022; the arrow is **not identified** (identity, behaviour and norm are simultaneous);
 and disclosure is inherited-unresolved from `#919`, since identity is also a report to the same interviewer.
 

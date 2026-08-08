@@ -46149,3 +46149,81 @@ defend who they are rather than what they did is a sentence I wrote, not a thing
    `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
    `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
    `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 921 · `E03·A112·R359` — it replicates on a second survey, and randomly re-wording the identity question does not move it
+
+**⇒ `CONFIRMED` · world `W_STABLE`. `#920`'s decomposition holds on **NSFG** — a different
+instrument, different decades, different wording — and it **survives a RANDOMISED re-wording of the
+identity question itself**. ⚠ **But its magnitude does not travel**: identity is **2.9×** behaviour
+on GSS and **1.51×** on NSFG, so the ordering replicates and the ratio is a GSS number.**
+
+**WHY THIS AND NOT `#920`②.** `#920`② points at a mechanism (five instances of one error family),
+and it stays open — but **two of the last four rounds produced no sentence about people**, and
+HARD RULE 4 outranks a gate: `#920` had never been tried on a second instrument, and its identity
+measure carried the shared-instrument threat that `#919` failed to remove **because mode was not
+randomised and composition swamped it**.
+
+**⚠ NSFG RANDOMISES THE ORIENTATION QUESTION.** `orient_a` and `orient_b` are **disjoint
+half-samples** — only **13–14 respondents of ~6,000 answer both** — with **different option sets**
+(three substantive codes vs four). **Random assignment balances composition by design**, which is
+exactly the control `#919` could not build. So instrument-dependence of IDENTITY is measurable here.
+
+**⚠ THE CODING WAS ANCHORED, NOT GUESSED.** Value labels do not ship (`#915`②), so each identity
+code was scored by the share of its members reporting same-sex contact, and the LGB codes are the
+ones far above the file's base rate. **The anchor uses the BEHAVIOUR variable and never the NORM**,
+so it cannot launder the finding it tests — the same logic as `#914`. It recovered
+`orient`/`orient_a` → codes **[2, 3]** and `orient_b` → codes **[1, 3]**: **the numbering genuinely
+differs between the randomised arms**, which no label file told me.
+
+| | `id_net` | `act_net` | |
+|---|---|---|---|
+| **NSFG, all cells** | **−0.2371** | **−0.1568** | both resolved; nulls −0.0013 ± 0.0239 and +0.0001 ± 0.0241 (kind of null: within-stratum label permutation, one per quantity) |
+| GSS (`#920`) | +0.4475 | +0.1539 | ratio **2.9×** |
+| **NSFG** | | | ratio **1.51×** ⚠ **the ordering replicates, the ratio does not** |
+
+**THE RANDOMISED GAUGE TEST.** `max |id_net(A) − id_net(B)| = +0.0669` against its **own**
+permutation null of **−0.0082 ± 0.0447** — where the null is built by permuting the **randomised
+arm label**, which is the *exact* null because the assignment really is random. **Inside.**
+⚠ **And the test is not vacuous**: the wording genuinely moved who counts as LGB — **13.41% vs
+12.38%** (female) and **4.93% vs 5.91%** (male).
+⚠ **This is a NULL and it is stated as a bound, not a zero** (`#919`'s lesson): the design resolves
+contrasts above ≈**0.09**, so what is established is *any wording effect is smaller than that*, not
+that there is none.
+
+**CONTROLS.** Positive, planted **into the null world** (`#920`'s repair, carried): `0 → −0.0119 ·
+0.15 → +0.0387 · 0.30 → +0.0672 · 0.45 → +0.1077 · 0.60 → +0.1336`, monotone, with `act_net` flat
+(−0.0239) under an identity-only plant. Negative: one permutation per quantity, each destroying
+**itself** (`#920`'s repair, carried). **BH over the whole grid: 30 of 30 cells survive.**
+
+**⇒ One sentence about people: on a second national survey, in different decades, with a differently
+worded question — and even when the survey randomly changes how it asks who you are — the people who
+say they are gay, lesbian or bisexual judge the act less harshly than the people who merely did it,
+and both judge it less harshly than everyone else.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **value labels do not ship** — the coding is anchored on behaviour, which is evidence and not
+   proof;
+② ⚠ **the arrow is not identified** (inherited from `#920`) — identity, behaviour and norm are
+   simultaneous, and a person who accepts the norm may be likelier to adopt the label;
+③ ⚠ **randomisation balances WHO answers each wording; it does not make identity a non-self-report.**
+   Disclosure remains unresolved (inherited from `#919`);
+④ the A/B split exists only in 2017–2019; 2011–2013 has a single `orient` and contributes to the
+   replication but not to the wording contrast;
+⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE MAGNITUDE MUST BE SCOPED ON THE PAGE, NOT THE ORDERING.** `#920` put "about three times"
+   on the front page; NSFG says **1.51×**. The claim that travels is *identity > behaviour > neither*,
+   and the ratio is instrument-specific. **A correction must reach the artifact.** ⇒ `#921`①
+② ⚠ **`#920`② IS STILL OPEN AND IS NOW THE LARGEST UNPAID ITEM**: five instances of *"I describe
+   what I meant rather than measure what I did"*, all caught by the gate and none by me. **This round
+   carried two of `#920`'s repairs forward by hand** — planting into the null world, and one null per
+   quantity — which is precisely the evidence that they should be in `lib/gates.py` rather than in my
+   memory of the last round. ⇒ `#921`②
+③ ⚠ Still `OPEN`: `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② ·
+   `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ ·
+   `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① ·
+   `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② ·
+   `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① ·
+   `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① ·
+   `#861`①.
