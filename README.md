@@ -528,6 +528,54 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#956` · among the people who actually distinguish these acts, the two camps are not there
+
+`#955` showed **59%** of the +0.2620 partition contrast came from **3,338 respondents who gave the
+same answer to all four questions**, carrying a residual vector that *is* the partition. Among the
+**11,509 who do distinguish**, Δ = **+0.1086** — and nobody had asked whether that is content.
+
+⚠⚠ **Arithmetic trap, labelled before the run** (`#956`): the *drop* +0.2620 → +0.1086 is partly **forced**,
+since removing a mass pointing along the partition must reduce it. That is a derivation. The
+measurement is the residual against a null on the **same** population.
+
+| `#956` null (computed on the non-flat population, same filter per draw) | null | residual | z |
+|---|---|---|---|
+| **NULL-S** swap — totals + column sums exact | +0.0887 ± 0.0120 | **+0.0199** | **+1.65** ⚠ |
+| **NULL-C** column-perm — full marginal exact | +0.0031 ± 0.0104 | +0.1055 | +10.14 |
+
+**The weakest null gives z = 1.65 — it does not clear 2σ.** By `#954`'s own principle (a residual is
+only as real as the strictest null it beats), **the partition does not survive among the people who
+discriminate.**
+
+**And the specification curve reverses the sign** (`#956`):
+
+| `#956` who counts as discriminating | n | Δ | residual vs NULL-S |
+|---|---|---|---|
+| not all four equal | 11,509 (77.5%) | **+0.1086** | +0.0239 |
+| range ≥ 2 | 9,870 (66.5%) | **−0.0630** | −0.0132 |
+| within-person sd above median | 6,963 (46.9%) | **−0.2086** | **−0.0974** |
+
+**The harder you require someone to actually distinguish, the more the partition reverses.**
+
+**Verdict `OVERTURNED` · `W_STILL_MARGINAL`** (`#956`)**.** ⚠ The placebo filter is what makes this readable:
+dropping a **random** 22.5% gives Δ = **+0.2623** against the unrestricted **+0.2620** — a difference
+of **0.0004**. Removing people per se does nothing; removing the flat responders does all of it.
+10 of 14 cells survive BH and `S/Δ` is among the four that do not.
+
+**What this closes.** `#949`'s partition, `#950`'s survival of wave-and-cohort controls, `#951`'s
+13.9% residual and `#954`'s bracket were all computed where **more than a fifth of respondents
+expressed no partition and were recorded as expressing one**. On the population the claim was about,
+the claim is not supported, and at stricter definitions it inverts.
+
+⚠ **What does stand**: `#955`'s mechanism — z-scoring per item before person-centring converts
+"answered everything the same" into a fixed, marginal-determined preference profile. That is portable
+to any ipsative analysis on non-binary items, and it cost this arc to find.
+
+> **One sentence about people (`#956`): among Americans who actually draw distinctions between
+> premarital, teenage, extramarital and same-sex relations, the two moral camps are not there — and
+> among those who draw the sharpest distinctions the pattern runs the other way, so what this page has
+> been calling a partition was mostly an artefact of counting people who declined to distinguish.**
+
 ### `#954` · the residual survives, and its size is unresolved between an eighth and all of it
 
 `#951` reported that **13.9%** of the sexual-norm partition contrast survived its swap null — the

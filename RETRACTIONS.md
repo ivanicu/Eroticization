@@ -48592,3 +48592,72 @@ residuals — so it is exempt — but that exemption was luck, not design, and n
 `#955`③ **`#954`③ is still open** and now has a second reason: `lib/gates.py` ranks no nulls, and it
 also has no concept of *which respondents a null preserves*, which is what actually decided the
 bracket.
+
+## Entry 956 · `E03·A130·R390` — among the people who actually distinguish these acts, the two camps are not there
+
+**`#955`①, and it is the round that closes the arc.** `#955` showed **59%** of the +0.2620 partition
+contrast came from **3,338 respondents who gave the same answer to all four questions**, carrying a
+residual vector that *is* the partition. Among the **11,509 who do distinguish**, Δ = **+0.1086** —
+and nobody had asked whether that is content or still marginals.
+
+**⚠⚠ THE ARITHMETIC TRAP, LABELLED BEFORE THE RUN.** The **drop** +0.2620 → +0.1086 is partly
+**forced**: removing a mass whose residual points along the partition must reduce the contrast. That
+is a **derivation** and is not offered as evidence. **The measurement is the residual against a null
+on the same population**, which is not forced.
+
+| null (computed ON the non-flat population, same filter re-applied per draw) | null | residual | z |
+|---|---|---|---|
+| **NULL-S** swap — totals + column sums exact (kind of null: checkerboard swap randomisation) | +0.0887 ± 0.0120 | **+0.0199** | **+1.65** ⚠ |
+| **NULL-C** column-perm — full marginal exact | +0.0031 ± 0.0104 | +0.1055 | +10.14 |
+
+**The weakest null gives z = 1.65 — it does not clear 2σ.** By `#954`'s own principle (*a residual is
+only as real as the strictest null it beats*), **the partition does not survive among the people who
+discriminate.**
+
+**⚠⚠⚠ AND THE SPECIFICATION CURVE REVERSES THE SIGN, WHICH IS THE ACTUAL FINDING.**
+
+| who counts as discriminating | n | Δ | residual vs NULL-S |
+|---|---|---|---|
+| not all four equal | 11,509 (77.5%) | **+0.1086** | +0.0239 |
+| range ≥ 2 | 9,870 (66.5%) | **−0.0630** | −0.0132 |
+| within-person sd above median | 6,963 (46.9%) | **−0.2086** | **−0.0974** |
+
+**The harder you require someone to actually distinguish between the four acts, the more the
+partition reverses.** Among the 6,963 who discriminate most sharply, the crossing pairs are held
+*together* relative to the within-cluster pairs — the opposite of `#949`'s claim.
+
+**VERDICT: `OVERTURNED` · `W_STILL_MARGINAL`.** Controls sound: positive sweeps fire under both nulls
+(`+0.0872 → +1.0405`, `−0.0097 → +0.9915`) with `g=0` at **0.13** and **1.23** spreads; both nulls
+reproduce (0.0037 against a residual of 0.0199); **10 of 14 cells survive BH and `S/Δ` is among the
+four that do not**, which is exactly the z = 1.65.
+**⚠ And the placebo filter is the control that makes this readable**: dropping a **random** 22.5% of
+respondents gives Δ = **+0.2623** against the unrestricted **+0.2620** — a difference of **0.0004**.
+**Removing people per se does nothing. Removing the flat responders does all of it.**
+
+**What this closes, stated plainly rather than buried.** `#949`'s 2+2 partition, `#950`'s survival of
+wave-and-cohort controls, `#951`'s 13.9% residual and `#954`'s bracket were all computed on a sample
+where **more than a fifth of respondents expressed no partition at all** and were nonetheless recorded
+as expressing one. **On the population the claim was about — people who distinguish these acts — the
+claim is not supported, and at stricter definitions of "distinguish" it inverts.** A126–A129 produced
+a measurement artefact and the diagnosis of it; they did not produce a fact about how Americans sort
+sexual norms.
+
+**⚠ What DOES stand, because a round that leaves nothing standing is not the point.** `#955`'s
+mechanism is a real and general finding about instruments: **z-scoring per item before person-centring
+converts "answered everything the same" into a fixed, item-marginal-determined preference profile**,
+and any ipsative analysis on non-binary items inherits it. That is portable, it is now measured, and
+it cost this arc to find.
+
+**ONE SENTENCE ABOUT PEOPLE.** Among Americans who actually draw distinctions between premarital,
+teenage, extramarital and same-sex relations, **the two moral camps are not there** — and among those
+who draw the sharpest distinctions the pattern runs the other way, so what the page has been calling a
+partition was mostly an artefact of counting people who declined to distinguish at all.
+
+**NEXT** — `#956`① **`#949`, `#950`, `#951` and `#954` all need this on their own blocks**, and it is
+a bigger correction than `#953`'s or `#955`'s: not a scope caveat but *the claim does not hold on its
+own population*. `#946`'s rule, sixth application, and it must land before anything else. `#956`②
+**the sign reversal at stricter thresholds is unexplained and is now the only live object here** — if
+sharp discriminators genuinely hold `premarital`+`same-sex` apart, that is a different and more
+interesting structure than the one I have been chasing. `#956`③ **`#955`②'s audit is now urgent**:
+every ipsative round in A125–A130 used per-item z-scoring, and this round shows the artefact can
+dominate. `#945`'s binary exemption should be verified rather than assumed.
