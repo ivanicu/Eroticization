@@ -48471,3 +48471,63 @@ where shape is exactly held — that the effect vanishes and reverses. If the 4-
 vanishes, **A126–A127 produce nothing but "it was the marginals"**. `#953`② `#946`② remains the real
 open item: this is the fourth hand-paid instance of a debt whose mechanism was specified two entries
 after it was named and has never been built.
+
+## Entry 954 · `E03·A129·R389` — the residual survives, and its size is unresolved between an eighth and all of it
+
+**`#953`①/`#952`②, the arc's hinge.** `#951` reported that **13.9%** of the sexual-norm partition
+contrast survived its swap null — the residual A126–A127 now rests on. But that swap held each item's
+column **sum** on 4-point data and let **shape** drift (`#951` registered **0.0888**), and `#952`
+showed that on binary items, where shape is held exactly, the same kind of effect vanishes **and
+reverses**. So the 13.9% was measured against a null that did not control the variable `#952` proved
+was carrying the effect.
+
+**⚠⚠ AND NO SINGLE NULL HOLDS BOTH CONSTRAINTS ON ORDINAL DATA — which turned out to be the round.**
+
+| null | column mean | column **shape** | person totals | flat profiles | residual |
+|---|---|---|---|---|---|
+| observed | — | — | sd **3.2404** | **0.2248** | — |
+| **NULL-S** swap | 0.00e+00 | ⚠ drift **0.0874** | sd 3.2404, drift 0 | 0.2224 | **+0.0331 = 12.7%** (z +4.43) |
+| **NULL-C** column-perm | 0.00e+00 | **0.0000 exact** | ⚠ sd **2.2441** | ⚠ **0.0604** | **+0.2593 = 99.0%** (z +28.15) |
+
+**Each controls exactly what the other leaks.** NULL-C holds every item's full marginal exactly — and
+**destroys 73% of the flat profiles** (0.2248 → 0.0604), the people who answer all four alike and
+whose residuals are identically zero. NULL-S keeps that population intact and leaks shape instead.
+
+**⇒ CONTENT RESIDUAL BRACKET: [+0.0331, +0.2593] = [12.7%, 99.0%] of Δ.**
+
+**VERDICT: `OVERTURNED` · `W_NULLS_DISAGREE`** — and the two halves of that must be read separately,
+because they say opposite-sounding things and both are true.
+**① The stake lost.** I staked W_RESIDUAL_REAL as *"clears 2× its spread under BOTH nulls, same sign,
+and the two agree"*. They clear (z = +4.43 and +28.15), they agree in sign — **and they disagree in
+size by 0.226, roughly 30× either's spread.** So the pre-registered claim is refuted, and per `#952`'s
+rule a lost stake with sound controls is OVERTURNED, not UNVERIFIED.
+**② The thing the stake was protecting SURVIVED.** A residual is only as real as the **strictest**
+null it beats, and NULL-S is strictly stricter — it preserves person totals *and* column sums where
+NULL-C preserves only marginals. **Against the stricter null the residual is +0.0331 = 12.7%, z =
++4.43**, which is `#951`'s 13.9% essentially intact. **The unwelcome branch — W_ALL_MARGINAL, which
+would have collapsed `#949`/`#950`/`#951` together — did not happen.**
+
+Controls: positive sweeps fire under both nulls (`+0.2217 → +1.1802` and `+0.0048 → +0.9704`) with
+`g=0` at **0.95** and **0.23** spreads from their own nulls; both nulls reproduce across independent
+draw sets (worst 0.0044 against a residual of 0.0331); **13 of 14 cells survive BH**, the
+non-survivor `S/premarsx–xmarsex` published rather than dropped.
+
+**⚠ G1, answered before the run and load-bearing.** Person-centring subtracts each person's own mean,
+so a general permissiveness factor — a person-level *constant* — contributes **identically zero** to
+the residuals. That is what makes NULL-C admissible despite destroying the general factor. What it
+does change is the person-total spread, which is why it cannot carry the verdict alone, and why the
+output is a bracket rather than the 99%.
+
+**ONE SENTENCE ABOUT PEOPLE.** The two camps are not merely an artefact of what Americans condemn:
+**at least an eighth of the split is something about the acts themselves**, surviving the strictest
+null available — but how much more than an eighth, this data cannot say, because holding a person's
+total fixed and holding each question's answer-shape fixed cannot be done at the same time.
+
+**NEXT** — `#954`① **the bracket is wide because of one measurable thing — flat profiles** — and it
+is attackable: restrict to respondents who are NOT flat (0.2248 of the sample) and both nulls become
+comparable on that subpopulation, at the cost of a scope caveat. That is the one design that could
+narrow [12.7%, 99.0%]. `#954`② ⚠ **`#951`'s page block now needs its residual restated as a LOWER
+BOUND, not a point** — `#946`'s rule, fifth application, and it must land before the next frontier
+step. `#954`③ **the strictest-null principle should be written into `lib/gates.py`'s vocabulary**: a
+residual is only as real as the strictest null it beats, and nothing in the library ranks nulls by
+what they preserve.

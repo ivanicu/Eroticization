@@ -528,6 +528,41 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#954` · the residual survives, and its size is unresolved between an eighth and all of it
+
+`#951` reported that **13.9%** of the sexual-norm partition contrast survived its swap null — the
+residual A126–A127 rests on. But that swap held each item's column **sum** on 4-point data and let
+**shape** drift (0.0888), and `#952` showed that on binary items, where shape is held exactly, the
+same kind of effect vanishes and reverses.
+
+⚠⚠ **And no single null holds both constraints on ordinal data — which turned out to be the round.**
+
+| `#954` null | column mean | column **shape** | person totals | flat profiles | residual |
+|---|---|---|---|---|---|
+| observed | — | — | sd **3.2404** | **0.2248** | — |
+| **NULL-S** swap | 0.00e+00 | ⚠ drift **0.0874** | sd 3.2404, drift 0 | 0.2224 | **+0.0331 = 12.7%** (z +4.43) |
+| **NULL-C** column-perm | 0.00e+00 | **0.0000 exact** | ⚠ sd **2.2441** | ⚠ **0.0604** | **+0.2593 = 99.0%** (z +28.15) |
+
+**Each controls exactly what the other leaks.** NULL-C holds every item's full marginal exactly — and
+**destroys 73% of the flat profiles**, the people who answer all four alike and whose residuals are
+identically zero. NULL-S keeps that population intact and leaks shape instead.
+
+**Content residual bracket: [12.7%, 99.0%] of Δ.**
+
+**Verdict `OVERTURNED` · `W_NULLS_DISAGREE`** (`#954`), and the two halves say opposite-sounding
+things, both true. **① The stake lost**: I required the two nulls to clear their spread, agree in
+sign, *and agree in size*. They clear and agree in sign; they differ by 0.226, ~30× either spread.
+**② The thing the stake protected survived**: a residual is only as real as the **strictest** null it
+beats, and NULL-S is strictly stricter — person totals *and* column sums, where NULL-C keeps only
+marginals. Against it the residual is **+0.0331 = 12.7%, z = +4.43**, which is `#951`'s 13.9%
+essentially intact. **The branch that would have collapsed `#949`/`#950`/`#951` together did not
+happen.**
+
+> **One sentence about people (`#954`): the two camps are not merely an artefact of what Americans
+> condemn — at least an eighth of the split is something about the acts themselves, surviving the
+> strictest null available — but how much more than an eighth, this data cannot say, because holding
+> a person's total fixed and holding each question's answer-shape fixed cannot be done at once.**
+
 ### `#952` · the exchange rate was the tolerance levels, and it does not survive
 
 `#951` showed the within-person item-label permutation null equalises the marginals, and that 86.1%

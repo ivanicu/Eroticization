@@ -1,0 +1,35 @@
+⚠ `#951` from its ARTIFACT: Δ_obs +0.2620 · swap null +0.2256 · residual +0.0364 = 13.9% · its registered shape drift 0.0888
+HARD RULE 1 — ballot 1, all four jointly: n=14847 · 21 waves 1988-2024
+⚠ HARD RULE 2 — instrument: GSS ballot 1, four sexual-norm items, one block. Identical to `#951`; ONLY THE NULL CHANGES, and that is the round.
+
+  observed partition contrast Δ = +0.2620  (`#951` had +0.2620)
+  NULL-S swap          null +0.2288 +/- 0.0075 · residual +0.0331 (12.7% of Δ) · z +4.43 · repro 0.00158
+  NULL-C column-perm   null +0.0026 +/- 0.0092 · residual +0.2593 (99.0% of Δ) · z +28.15 · repro 0.00441
+
+  ⚠ WHAT EACH NULL ACTUALLY HOLDS — measured, not asserted (observed: person-total sd 3.2404, flat profiles 0.2248)
+    NULL-S: col-mean drift 0.00e+00 · SHAPE drift 0.0874 · row-total drift 0.00e+00 · person-total sd 3.2404 · flat profiles 0.2224
+    NULL-C: col-mean drift 0.00e+00 · SHAPE drift 0.0000 · row-total drift 1.20e+01 · person-total sd 2.2441 · flat profiles 0.0604
+    ⇒ NULL-S holds totals and sums, leaks SHAPE · NULL-C holds shape exactly, leaks the PERSON-TOTAL distribution. Neither is complete, which is why the output is a bracket.
+  positive sweep [NULL-S swap] (g=0 IS that null): [(0.0, 0.2217), (0.25, 0.814), (0.5, 1.0571), (0.75, 1.1802)] · g=0 at +0.2217 vs null +0.2288 +/- 0.0075 = 0.95 spreads
+  positive sweep [NULL-C column-perm] (g=0 IS that null): [(0.0, 0.0048), (0.25, 0.5451), (0.5, 0.8127), (0.75, 0.9704)] · g=0 at +0.0048 vs null +0.0026 +/- 0.0092 = 0.23 spreads
+
+  ⇒ CONTENT RESIDUAL BRACKET: [+0.0331, +0.2593] = [12.7%, 99.0%] of Δ · the WEAKEST null is NULL-S swap at z +4.43
+
+  specification curve — every cell, none dropped
+    NULL-S   z-scored     Δ_obs +0.2620  Δ_null +0.2217  residual +0.0402
+    NULL-S   raw-centred  Δ_obs +0.4018  Δ_null +0.3712  residual +0.0306
+    NULL-C   z-scored     Δ_obs +0.2620  Δ_null +0.0048  residual +0.2572
+    NULL-C   raw-centred  Δ_obs +0.4018  Δ_null +0.0738  residual +0.3280
+  CONDITIONAL KILL -- Does `#951`'s content residual survive a null that holds each item's FULL marginal?
+   PASS  positive [NULL-S swap]: a planted partition raises Δ, and g=0 sits ON that null (`#922`)                                                                                                                                                                                                            方向由数据给出:**上升**;灵敏度 g=0.25;g=0 +0.2217 · g=0.75 +1.1802   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  both nulls reproduce themselves across two independent draw sets (NULL-S swap is the binding one)                                                                                                                                                                                                   |+0.0044| < 0.5*|+0.0331| = 0.0166   (null is 13% of the effect [零的方案: two marginal-preserving randomisations: checkerboard swap (totals + column sums exact) and per-column permutation (full marginal exact)])
+   PASS  6 pairs x 2 nulls + 2 contrasts = 14 (`#936`②/`#940`②)                                                                                                                                                                                                                                              method=bh q=0.05 · **cells tested 14 · cells surviving 13** · 存活 ['S/prema-teens', 'S/prema-homos', 'S/teens-xmars', 'S/teens-homos', 'S/xmars-homos', 'C/prema-teens', 'C/prema-xmars', 'C/prema-homos', 'C/teens-xmars', 'C/teens-homos', 'C/xmars-homos', 'S/Δ', 'C/Δ'] · 未存活 ['S/prema-xmars']   (control)
+   PASS  ⚠⚠ NEITHER NULL HOLDS BOTH CONSTRAINTS, AND BOTH LEAKS ARE MEASURED — which is why the output is a BRACKET and not a point                                                                                                                                                                          NULL-S: shape drift 0.0874, person-total sd 3.2404 (observed 3.2404), flat profiles 0.2224 (observed 0.2248) · NULL-C: shape drift 0.0000, person-total sd 2.2441 (observed 3.2404), flat profiles 0.0604 (observed 0.2248) · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024   (asserted in code, not in prose)
+   PASS  ⚠ G1: person-centring removes any person-level CONSTANT exactly, so a general permissiveness factor contributes identically zero to the residuals — which is what makes NULL-C admissible despite destroying it                                                                                     residual structure is specific by construction; what NULL-C does change is the person-total spread, measured in the row above and the reason it cannot carry the verdict alone · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024   (asserted in code, not in prose)
+   PASS  the whole specification grid is published, disagreeing cells included                                                                                                                                                                                                                               NULL-S/z-s resid +0.0402 · NULL-S/raw resid +0.0306 · NULL-C/z-s resid +0.2572 · NULL-C/raw resid +0.3280 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024   (asserted in code, not in prose)
+   FAIL  KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires and both nulls reproduce. STAKED: W_RESIDUAL_REAL, i.e. the residual clears 2x its own spread under BOTH nulls with the same sign. ⚠ W_ALL_MARGINAL is the unwelcome branch and it collapses `#949`/`#950`/`#951` together  positive fires True · nulls reproduce True · NULL-S swap: residual +0.0331 z +4.43 · NULL-C column-perm: residual +0.2593 z +28.15 · bracket [+0.0331, +0.2593] = [12.7%, 99.0%] of Δ · nulls disagree True ⇒ W_NULLS_DISAGREE   尺:partition-contrast residual under the WEAKEST marginal-preserving null,其自身噪声 0.00748813 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024 · 方向:一致 · 控制总体:3/3 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires and both nulls reproduce. STAKED: W_RESIDUAL_REAL, i.e. the residual clears 2x its own spread under BOTH nulls with the same sign. ⚠ W_ALL_MARGINAL is the unwelcome branch and it collapses `#949`/`#950`/`#951` together). This is a refutation, NOT an unverified round (#366e).
+
+VERDICT           : OVERTURNED · world W_NULLS_DISAGREE · content residual bracket [12.7%, 99.0%] of Δ (`#951` reported 13.9%)
+
+wrote /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A129_does_the_residual_survive_a_full_marginal_null/R389_bracket_the_content_residual/results/bracket_the_content_residual.json
