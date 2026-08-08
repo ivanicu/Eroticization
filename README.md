@@ -328,6 +328,35 @@ magnitudes are the finding; the directions are not claimed.**
 > communists, on racists, on abortion and on assisted suicide moved further on homosexuality than on any
 > other question the survey asked them for thirty years — so whatever happened, it happened to this subject
 > and not to their permissiveness in general.**
+
+⚠ **`#927` resolved the polarity and found a far better design inside it.** From the shipped labels, **all
+four homosexuality items moved toward acceptance** — `#926`'s apparent sign disagreement was coding and
+nothing else. And `spk*`/`col*`/`lib*` turn out to be **three question stems — allowed to speak, allowed to
+teach, book kept on the shelf — asked about five different target groups**, in the same waves, of the same
+cohorts, on the same scale. A difference between targets **cannot** be the question form, the era, the
+scale, or the respondents.
+
+| `#927` target | mean | speak | teach | library | stems agree |
+|---|---|---|---|---|---|
+| **homosexuals** | **+0.4302** | +0.3352 | +0.6044 | +0.3511 | **YES** |
+| anti-religionists | +0.1302 | +0.0527 | +0.0965 | +0.2413 | YES |
+| communists | +0.0644 | +0.0230 | +0.0421 | +0.1281 | YES |
+| militarists | −0.1571 | −0.1659 | −0.2425 | −0.0630 | YES |
+| **racists** | **−0.2602** | −0.3356 | −0.3302 | −0.1146 | **YES** |
+
+Difference **+0.6904** (`#927`) against a within-cohort permutation null of **−0.0058 ± 0.0611**; **9 of 15 cells
+survive BH**. ⚠ **The sham is the strongest control and it passes cleanly: all five targets have all three
+stems agreeing in sign** — had `speak`, `teach` and `library` disagreed within a target, "target" would have
+been the wrong read.
+
+> **One sentence about people (`#927`): the same Americans, asked the same three questions in the same
+> years, became markedly more willing to let a homosexual speak, teach and keep a book on the shelf — and
+> markedly LESS willing to let a racist do any of the three — so what moved was not their tolerance but its
+> object.**
+
+⚠ **What this may not assume:** that "toward permissive" means the same psychological thing across targets.
+That is an assumption, and **`W_TARGET` is precisely what puts it in doubt** — if allowing a racist to teach
+and allowing a homosexual to teach are not the same act to a respondent, the two arms are not one scale.
 ⚠ **Prior art**: the cohort/period structure of this trend is established (Treas 2002 · Andersen & Fetner
 2008 · Baunach 2012). `#924` is a **verification on this release**, not a discovery.
 

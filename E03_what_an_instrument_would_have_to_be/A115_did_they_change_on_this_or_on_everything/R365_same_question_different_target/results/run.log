@@ -1,0 +1,33 @@
+window 1990 -> 2021
+PRECONDITION CHECK — each (target, stem) needs >=3 cohorts with n>=40 in both endpoints:
+  usable 15 of 15 · DROPPED 0: none  (absence reported, not passed)
+
+=== the moral item, for reference ===
+  homosex  oriented +0.8464  cohorts=4 n=3300
+
+=== THE GRID — same three stems, five targets, all oriented TOWARD PERMISSIVE ===
+  homosexuals        mean +0.4302  speak=+0.3352 · teach=+0.6044 · library=+0.3511   stems agree: YES  n=2082
+  racists            mean -0.2602  speak=-0.3356 · teach=-0.3302 · library=-0.1146   stems agree: YES  n=2074
+  communists         mean +0.0644  speak=+0.0230 · teach=+0.0421 · library=+0.1281   stems agree: YES  n=2049
+  militarists        mean -0.1571  speak=-0.1659 · teach=-0.2425 · library=-0.0630   stems agree: YES  n=2079
+  anti-religionists  mean +0.1302  speak=+0.0527 · teach=+0.0965 · library=+0.2413   stems agree: YES  n=2086
+
+  homosexuals +0.4302   racists -0.2602   difference +0.6904
+
+  null (year permuted within cohort; kind of null: within-cohort year-label permutation): -0.0058 +/- 0.0611 over 200 draws
+  positive sweep (planted into the permuted null world): [(0.0, -0.0093), (0.1, 0.0501), (0.2, 0.0862), (0.3, 0.1372), (0.4, 0.1885)]
+
+  CONDITIONAL KILL -- Same three questions, five targets: did tolerance rise, or did the target change?
+   PASS  positive: a planted within-cohort trend raises the oriented movement, and g=0 is null    方向由数据给出:**上升**;灵敏度 g=0.1;g=0 -0.0093 · g=0.4 +0.1885   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  year permuted within cohort                                                              |-0.0058| < 0.5*|+0.4302| = 0.2151   (null is 1% of the effect [零的方案: within-cohort year-label permutation]  ⚠ 零与效应**反号** —— 反号的零是支持效应的证据,而上面这条比较对符号是瞎的,请自行判读 (#758))
+   PASS  all (target, stem) cells                                                                 method=bh q=0.05 · **cells tested 15 · cells surviving 9** · 存活 ['homosexuals/speak', 'homosexuals/teach', 'homosexuals/library', 'racists/speak', 'racists/teach', 'communists/library', 'militarists/speak', 'militarists/teach', 'anti-religionists/library'] · 未存活 ['racists/library', 'communists/speak', 'communists/teach', 'militarists/library', 'anti-religionists/speak', 'anti-religionists/teach']   (control)
+   PASS  PRECONDITIONS checked and printed BEFORE the estimator; failures dropped with a count    15 usable · 0 dropped: none   (asserted in code, not in prose)
+   PASS  every polarity was READ FROM THE SHIPPED LABELS, not inferred from the variable name     `colcom` is 'should the communist teacher be FIRED' (1 fired, 2 not), so HIGH is permissive — the OPPOSITE of every other `col*`. The name would have got it backwards; the label did not. scope stated   (asserted in code, not in prose)
+   PASS  SHAM: the three stems within a target must agree in sign, or 'target' is the wrong read  homosexuals: agree (speak=+0.335, teach=+0.604, library=+0.351); racists: agree (speak=-0.336, teach=-0.330, library=-0.115); communists: agree (speak=+0.023, teach=+0.042, library=+0.128); militarists: agree (speak=-0.166, teach=-0.242, library=-0.063); anti-religionists: agree (speak=+0.053, teach=+0.096, library=+0.241)   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                        15/15 格带 n   (每一格都声明了自己的人群规模)
+   FAIL  KILL: W_TOLERANCE requires homosexual- and racist-tolerance to move the SAME way         homosexuals +0.4302 (resolved=True) · racists -0.2602 (resolved=True) · difference +0.6904, null -0.0058 +/- 0.0611   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_TOLERANCE requires homosexual- and racist-tolerance to move the SAME way). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_TOLERANCE requires homosexual- and racist-tolerance to move the SAME way). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : OVERTURNED · world W_TARGET · who is tolerated changed, not how tolerant people are
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R365_same_question_different_target/results/same_question_different_target.json

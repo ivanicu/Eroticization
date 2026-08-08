@@ -46636,3 +46636,80 @@ this subject and not to their permissiveness in general.**
    `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
    `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
    `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 927 · `E03·A115·R365` — the same three questions, five targets: tolerance did not rise, its object changed
+
+**⇒ `OVERTURNED` · world `W_TARGET`. Asked of the **same cohorts, in the same waves, on the same
+scale, in the same three question forms**, tolerance moved **+0.4302 toward homosexuals** and
+**−0.2602 toward racists** — a difference of **+0.6904** against a within-cohort permutation null of
+**−0.0058 ± 0.0611**. ⇒ **What changed is not how tolerant people are. It is whom they tolerate.**
+
+**⚠ `#926`② IS SETTLED FIRST, AND IT WAS A RE-EXPRESSION, NOT A TEST.** Reading the shipped value
+labels: `homosex` 1 *always wrong* → 4 *not wrong at all* (HIGH permissive) · `spkhomo` 1 *allowed*
+(LOW permissive) · `colhomo` 4 *allowed to teach* (LOW permissive) · `libhomo` 1 *remove* (HIGH
+permissive). ⇒ **All four homosexuality items moved toward acceptance**; `#926`'s apparent sign
+disagreement was coding polarity and nothing else, exactly as it flagged.
+
+**AND READING THE LABELS EXPOSED A BETTER DESIGN THAN `#926` HAD.** `spk*`/`col*`/`lib*` are **three
+question stems — allowed to speak · allowed to teach · book kept in the library — asked about five
+different target groups.** Same waves, same cohorts, same 2-point scale. **A difference between
+targets cannot be the question form, the era, the scale, or the respondents. It can only be the
+target.**
+
+| target | mean | speak | teach | library | stems agree |
+|---|---|---|---|---|---|
+| **homosexuals** | **+0.4302** | +0.3352 | +0.6044 | +0.3511 | **YES** |
+| anti-religionists | +0.1302 | +0.0527 | +0.0965 | +0.2413 | YES |
+| communists | +0.0644 | +0.0230 | +0.0421 | +0.1281 | YES |
+| militarists | −0.1571 | −0.1659 | −0.2425 | −0.0630 | YES |
+| **racists** | **−0.2602** | −0.3356 | −0.3302 | −0.1146 | **YES** |
+
+**THE SHAM IS THE STRONGEST CONTROL HERE, AND IT PASSES CLEANLY: all five targets have all three
+stems agreeing in sign.** Had `speak`, `teach` and `library` disagreed within a target, "target"
+would have been the wrong read and the stems would be measuring different things. They do not.
+**BH: 9 of 15 cells survive.** Positive control: `0 → −0.0093 · 0.10 → +0.0501 · 0.20 → +0.0862 ·
+0.30 → +0.1372 · 0.40 → +0.1885`, monotone, `g=0` on the baseline.
+
+**⚠⚠ THREE BROKEN PLANTS IN ONE ROUND, EACH CAUGHT BY THE SAME CONTROL — WHICH IS THE ARGUMENT FOR
+THE CONTROL, NOT AGAINST IT.**
+① a continuous offset clipped onto a **2-point** item collapsed the pooled SD and pinned the sweep
+   flat at **+2.1368** — the plant disturbing its own denominator, the third instance of that family
+   (`#919`③, `#923`, here);
+② ⚠⚠ the repair flipped responses `== 2` — **and `colhomo`'s numeric codes are 4 and 5, not 1 and
+   2.** I had read the value LABELS and assumed the CODES. **A label list is not a code list**, and
+   that is HARD RULE 1 failing *at the exact place I believed I was obeying it*. The plant flipped
+   nothing and the sweep sat flat at zero. ⇒ codes are now DERIVED from the data. **The polarity
+   SIGNS were all correct, so the grid above is unaffected** — only the plant's literals were wrong;
+③ the derived code list was named `vals` and **shadowed the sweep's own accumulator**, so `np.median`
+   ran over `[4.0, 5.0, …]` and returned a flat **4.0**. Renamed.
+
+**⇒ One sentence about people: the same Americans, asked the same three questions in the same years,
+became markedly more willing to let a homosexual speak, teach and keep a book on the shelf — and
+markedly LESS willing to let a racist do any of the three — so what moved was not their tolerance
+but its object.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **"toward permissive" is assumed to mean the same psychological thing across targets** — that is
+   an assumption, not a measurement, **and W_TARGET is precisely what puts it in doubt**: if allowing
+   a racist to teach and allowing a homosexual to teach are not the same act to a respondent, the
+   two arms are not one scale;
+② ⚠ the polarity re-expression is a RE-EXPRESSION — `#926` already measured the magnitudes;
+③ ⚠ the tolerance battery ends in 2021; repeated cross-section; APC collinear; no age effect claimed;
+④ ⚠ **only this one instrument**; ⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE OBJECT HAS A SHAPE NOW, AND IT IS NOT THE ONE THIS PROJECT STARTED WITH.** E01 asked
+   "rarity → shame"; E02 asked "what the society does with it". **What the society did was
+   re-sort its out-groups** — one moved in, another moved out, and the total quantity of tolerance
+   barely moved. That is a statement about condemnation as a *zero-ish-sum allocation*, which
+   nothing in this project has yet tested. ⇒ `#927`①
+② ⚠ **THE ASSUMPTION IN ①(above) IS THE NEXT REAL ATTACK ON THIS ROUND**: whether the five arms are
+   one scale is testable — if they are, a person's tolerance of one target should predict tolerance
+   of the others within a wave. That is a person-level check on a decade-level claim. ⇒ `#927`②
+③ ⚠ Still `OPEN`: `#926`① · `#925`② · `#924`② · `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ ·
+   `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② ·
+   `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② ·
+   `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ ·
+   `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
+   `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
+   `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
