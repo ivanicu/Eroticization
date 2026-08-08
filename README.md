@@ -460,6 +460,31 @@ least.** The headroom-scaled gap is still **+0.2156**.
 > point or less on a four-point scale — while moving more than half a point on homosexuality; and the
 > thing they moved least on, adultery, is the thing they had the most room to move on.**
 
+⚠⚠ **`#934` then killed the one alternative `#933` left standing — with a randomised experiment GSS has
+been running since 1988.** GSS randomly assigns respondents to **ballots**, and the ballots split this block:
+**ballot 1** (n=17,355, `#934`) gets all four; **ballot 3** (n=17,407) gets `xmarsex`+`homosex` **only, with no
+`premarsx`/`teensex` to anchor against**. ⚠ And `#933` had unknowingly used **ballot 1 alone** — ballot 3 is
+an independent, randomised, never-touched arm.
+
+| `#934` era split | `homosex` with the full block | without it | difference |
+|---|---|---|---|
+| 1988-1998 vs 2014-2024 | +0.6380 | +0.6347 | **+0.0033** |
+| 1988-2000 vs 2012-2024 | +0.5876 | +0.5807 | **+0.0070** |
+| 1988-2002 vs 2010-2024 | +0.5064 | +0.4914 | **+0.0149** |
+
+Against a randomised-ballot permutation null of **+0.0023 ± 0.0482** (`#934`, kind of null: randomised-arm
+label permutation), with randomisation balanced to
+standardised differences **≤ 0.0105** on age, education, sex and cohort, a **placebo** (`xmarsex`, also on
+both ballots) at **+0.0345** — also inside the null — and a positive control that **detects a ballot effect
+of 0.15**, roughly twenty times the observed one.
+
+> **One sentence about people (`#934`): whether the survey asked them about homosexuality right after asking
+> about premarital sex and teenagers, or asked about it with none of that around, Americans changed their
+> minds by the same amount — so what moved was their view of the act, not the company the question kept.**
+
+⚠ **What is still not ruled out**, narrowly: `xmarsex` and `homosex` are *still asked as a pair* on ballot 3,
+so a **two-item** anchor survives untested — and no ballot ever separates that pair.
+
 ⚠ **Prior art**: Twenge, Sherman & Wells (2015) documented the divergent trends in exactly these four
 items. **The divergence is not new here**; the *within-cohort* version — same birth years, not a
 changing population — with a measured ceiling control and a permutation null, is. ⚠ **What still

@@ -42,6 +42,18 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 CUTOFF = 931          # blocks from this entry on; earlier rounds are named, never retro-blocked
 
 POSITIVE_VERDICT = re.compile(r"OVERTURNED|CONFIRMED|ALL GATES PASS")
+
+# ⚠⚠ FALSE-POSITIVE MODE, found at `#934` — the gate's FIRST application to a round whose FINDING IS
+#   A NULL. `#934` established that a randomised ballot split does NOT change the movement; "0 cells
+#   surviving BH" is then the EXPECTED result, not evidence against the verdict. Blocking it would
+#   have forced me to weaken a true claim, and `#782` says a false retraction is as permanent as a
+#   false acquittal.
+#   ⇒ a round may declare `claims_null`, BUT the declaration alone is not enough — that would be
+#   `#916`(3)'s family, a control named after intent. **The KILL ROW'S OWN TEXT must corroborate it**,
+#   so two independent things have to agree before the multiplicity contradiction is waived.
+NULL_KILL = re.compile(r"sit on its null|inside its null|indistinguishable from zero|"
+                       r"to be null|requires .{0,60}to move LESS|requires .{0,60}to (?:be|stay) "
+                       r"(?:null|zero)|must NOT|requires the .{0,40}to sit", re.I)
 CONTRADICTION = [
     (re.compile(r"cells?\s+surviving\s+0\b|存活\s*0\b|存活\s*无"), "the multiplicity correction left NOTHING standing"),
     (re.compile(r"DOES NOT survive|does not survive"), "a robustness rescale was reported as not survived"),
@@ -69,11 +81,17 @@ def audit(paths):
         if not POSITIVE_VERDICT.search(str(verdict)):
             ok.append(dict(path=str(p), entry=a.get("entry"), verdict=str(verdict)[:40]))
             continue
+        claims_null = bool(a.get("claims_null"))
+        kill_text = " ".join(" ".join(str(x) for x in r) if isinstance(r, (list, tuple)) else str(r)
+                             for r in rows if "KILL" in str(r))
+        null_ok = claims_null and bool(NULL_KILL.search(kill_text))
         found = []
         for r in rows:
             detail = " ".join(str(x) for x in r) if isinstance(r, (list, tuple)) else str(r)
             for pat, why in CONTRADICTION:
                 if why and pat.search(detail):
+                    if null_ok and why.startswith("the multiplicity"):
+                        continue        # the round declares a null AND its kill text corroborates
                     name = r[0] if isinstance(r, (list, tuple)) and r else "?"
                     found.append((str(name)[:60], why))
         if found:
@@ -93,15 +111,26 @@ def _unit_tests():
     good = dict(entry=9102, gate_verdict="OVERTURNED -- controls sound",
                 gates=[["the whole grid", True, True, "method=bh q=0.05 · cells tested 3 · cells surviving 3"]])
     blind = dict(entry=9103, gate_verdict="ALL GATES PASS")
+    # a round whose FINDING is a null: declared AND corroborated by its kill text -> not a contradiction
+    nullr = dict(entry=9104, gate_verdict="ALL GATES PASS", claims_null=True,
+                 gates=[["the whole grid", True, True, "method=bh · cells tested 3 · cells surviving 0"],
+                        ["KILL: W_X requires the effect to sit on its null", True, True, "d +0.007"]])
+    # a round that DECLARES a null while its kill asserts an effect -> must STILL be caught
+    liar = dict(entry=9105, gate_verdict="ALL GATES PASS", claims_null=True,
+                gates=[["the whole grid", True, True, "method=bh · cells tested 3 · cells surviving 0"],
+                       ["KILL: the effect must exceed twice its spread", True, True, "d +0.9"]])
     out = []
     with tempfile.TemporaryDirectory() as td:
-        for nm, obj in (("bad", bad), ("good", good), ("blind", blind)):
+        for nm, obj in (("bad", bad), ("good", good), ("blind", blind),
+                        ("nullr", nullr), ("liar", liar)):
             q = pathlib.Path(td) / f"{nm}.json"
             q.write_text(json.dumps(obj))
             out.append(q)
         h, u, o = audit(out)
-    return (len(h) == 1 and h[0]["entry"] == 9101 and len(h[0]["found"]) == 2,
-            any(x["entry"] == 9102 for x in o),
+    ent = {x["entry"] for x in h}
+    return (9101 in ent and len(next(x for x in h if x["entry"] == 9101)["found"]) == 2
+            and 9104 not in ent,                       # a corroborated null is NOT a contradiction
+            any(x["entry"] == 9102 for x in o) and 9105 in ent,   # a DECLARED-but-uncorroborated null still blocks
             len(u) == 1 and u[0][1].startswith("no `gate_verdict`"))
 
 

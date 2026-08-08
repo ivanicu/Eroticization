@@ -47146,3 +47146,80 @@ they moved least on, adultery, is the thing they had the most room to move on.**
    `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
    `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
    `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 934 · `E03·A118·R372` — GSS randomised `#933`'s last alternative in 1988, and it dies
+
+**⇒ `CONFIRMED` · world `W_ROBUST`. `homosex` moved **+0.5876** within cohorts when asked as part of
+the full four-item block, and **+0.5807** when asked with `premarsx`/`teensex` **absent** —
+a difference of **+0.0070** against a randomised-ballot permutation null of **+0.0023 ± 0.0482**.
+**The last alternative to `#933` is dead, and it died to a randomised test.**
+
+**`#932`① SAID CHECK COVERAGE BEFORE BELIEVING A TEST IS AVAILABLE. IT FOUND SOMETHING BETTER.**
+GSS randomly assigns respondents to **ballots**, and the ballots split this exact block:
+
+| ballot | n | items asked |
+|---|---|---|
+| **1** | 17,355 | **all four** — maximum anchoring opportunity |
+| 2 | 17,544 | `premarsx` + `teensex` only |
+| **3** | 17,407 | **`xmarsex` + `homosex` only — no block to anchor against** |
+
+⇒ **the confound `#933`② named as the only one left standing has been manipulated, at random, in
+every wave since 1988.**
+
+**⚠ AND A SCOPE FACT ABOUT `#933` THAT IT DID NOT KNOW IT WAS ASSERTING.** `#933` used respondents
+who answered **all four** — **that is ballot 1 and only ballot 1** (n = 15,056). **Ballot 3 is an
+independent, randomised, never-touched replication arm** of n = 15,393 for `homosex`.
+
+| era split | `homosex` b1 (full block) | b3 (no block) | difference |
+|---|---|---|---|
+| 1988-1998 vs 2014-2024 | +0.6380 | +0.6347 | **+0.0033** |
+| 1988-2000 vs 2012-2024 | +0.5876 | +0.5807 | **+0.0070** |
+| 1988-2002 vs 2010-2024 | +0.5064 | +0.4914 | **+0.0149** |
+
+**RANDOMISATION CHECKED AND PRINTED FIRST** — a randomised arm that is not balanced is just another
+observational contrast: standardised differences **age 0.0105 · educ 0.0104 · sex 0.0077 · cohort
+0.0087**. **Placebo**: `xmarsex` is on both ballots too, and its ballot difference is **+0.0345**,
+also inside the null — so this is not a ballot artifact. **Positive control** planted into the
+permuted world: `0 → −0.0022 · 0.15 → +0.0976 · 0.30 → +0.1648 · 0.45 → +0.2474 · 0.60 → +0.3229`
+⇒ **the design detects a ballot effect of 0.15, and the observed one is ~20× smaller than that.**
+
+**⚠⚠ AND THE ROUND EXPOSED A FALSE-POSITIVE MODE IN THE GATE I BUILT THREE ROUNDS AGO.**
+`verdict_contradiction_gate` (`#931`) **blocked this commit**, because BH left **0 of 3 cells
+standing** beside a positive verdict. ⚠ **It was wrong to.** This round's finding **IS a null** — a
+randomised split does *not* change the movement — so 0 survivors is the **expected** result, not
+evidence against. **Blocking it would have forced me to weaken a true claim, and `#782` says a false
+retraction is as permanent as a false acquittal.**
+⇒ Repaired **without a rubber stamp**: a round may declare `claims_null`, **but the declaration alone
+is not enough** — that would be `#916`③'s family, a control named after intent. **The kill row's own
+text must corroborate it**, so two independent things must agree before the waiver applies. Two new
+unit tests: a corroborated null is waived; **a round that DECLARES a null while its kill asserts an
+effect is still caught.**
+
+**⇒ One sentence about people: whether the survey asked them about homosexuality right after asking
+about premarital sex and teenagers, or asked about it with none of that around, Americans changed
+their minds by the same amount — so what moved was their view of the act, not the company the
+question kept.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ this manipulates **which items accompany** the target, not the order within a pair — `xmarsex`
+   and `homosex` are still asked together on ballot 3, so a **two-item** anchoring effect survives
+   untested and is **NOT** ruled out;
+② ⚠ repeated cross-section: a cohort is the same birth years, never the same people;
+③ ⚠ APC collinear; no age effect claimed;
+④ ⚠ **only this one instrument**; ⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **`#933`+`#934` TOGETHER ARE THE PROJECT'S BEST-SUPPORTED CLAIM**, and the page should say so
+   with its scope: same four words, within cohorts, and now **replicated on a randomised arm that
+   removes the question context**. ⇒ `#934`①
+② ⚠ **THE RESIDUAL ALTERNATIVE IS NARROWER AND NAMEABLE**: `xmarsex` and `homosex` are still asked
+   as a pair. **A two-item anchor is the only version of `#933`② still alive**, and ballot 2 vs 3
+   cannot test it because neither ever separates that pair. ⇒ `#934`②
+③ ⚠ Still `OPEN`: `#933`①② · `#932`① · `#931`② · `#930`①② · `#929`②③ · `#928`①③ · `#927`③ · `#926`① ·
+   `#925`② · `#924`② · `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) ·
+   `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② ·
+   `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② ·
+   `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ ·
+   `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
+   `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
+   `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

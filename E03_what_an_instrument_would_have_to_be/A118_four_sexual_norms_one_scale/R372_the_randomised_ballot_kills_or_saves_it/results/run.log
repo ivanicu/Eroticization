@@ -1,0 +1,39 @@
+COVERAGE (non-null, not rows):
+  ballot 1: n= 17094 · homosex 15350 · xmarsex 15925 · waves 21 1988-2024
+  ballot 3: n= 17166 · homosex 15393 · xmarsex 15941 · waves 21 1988-2024
+  ⚠ `#933` used respondents answering ALL FOUR — that is ballot 1 only. Ballot 3 is an independent randomised arm it never touched.
+
+RANDOMISATION CHECK — a randomised arm that is not balanced is just another observational contrast:
+  age     b1=47.438 b3=47.624  standardised diff 0.0105
+  educ    b1=13.570 b3=13.539  standardised diff 0.0104
+  sex     b1=1.559 b3=1.555  standardised diff 0.0077
+  cohort  b1=1959.096 b3=1958.923  standardised diff 0.0087
+
+=== THE GRID — within-cohort movement, by ballot (all cells, disagreeing ones included) ===
+  1988-1998 vs 2014-2024   homosex: b1 +0.6380 (k=5) · b3 +0.6347 (k=5)  diff +0.0033
+                           xmarsex: b1 +0.0881 · b3 +0.0536  diff +0.0345   <- placebo   n=15656
+  1988-2000 vs 2012-2024   homosex: b1 +0.5876 (k=5) · b3 +0.5807 (k=5)  diff +0.0070
+                           xmarsex: b1 +0.0737 · b3 +0.0347  diff +0.0390   <- placebo   n=17975
+  1988-2002 vs 2010-2024   homosex: b1 +0.5064 (k=6) · b3 +0.4914 (k=6)  diff +0.0149
+                           xmarsex: b1 +0.0530 · b3 +0.0333  diff +0.0197   <- placebo   n=21064
+
+  homosex movement: with the full block (b1) +0.5876 · without it (b3) +0.5807
+  ballot difference  target +0.0070   placebo +0.0345
+
+  null (BALLOT label permuted — the exact null, because assignment really is random; kind of null: randomised-arm label permutation): +0.0023 +/- 0.0482 over 300 draws
+  positive sweep (ballot-dependent movement planted into the permuted world): [(0.0, -0.0022), (0.15, 0.0976), (0.3, 0.1648), (0.45, 0.2474), (0.6, 0.3229)]
+
+  CONDITIONAL KILL -- Does `homosex` move less when the rest of the block is not there?
+   PASS  positive: a planted ballot-dependent movement raises the ballot difference, and g=0 is null  方向由数据给出:**上升**;灵敏度 g=0.15;g=0 -0.0022 · g=0.6 +0.3229   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  ballot label permuted                                                                        |+0.0023| < 0.5*|+0.0070| = 0.0035   (null is 33% of the effect [零的方案: randomised-arm label permutation])
+   PASS  all era splits                                                                               method=bh q=0.05 · **cells tested 3 · cells surviving 0** · 存活 无 · 未存活 ['1988-1998 vs 2014-2024', '1988-2000 vs 2012-2024', '1988-2002 vs 2010-2024']   (control)
+   PASS  RANDOMISATION CHECK ran and the arms are balanced                                            age std-diff 0.0105; educ std-diff 0.0104; sex std-diff 0.0077; cohort std-diff 0.0087   (asserted in code, not in prose)
+   PASS  PLACEBO: `xmarsex` is on both ballots too — a ballot artifact would show up there as well    placebo ballot difference +0.0345 vs null +0.0023 +/- 0.0482   (asserted in code, not in prose)
+   PASS  COVERAGE checked non-null, not rows (`#932`(1))                                              ballot 1 homosex n=15350, ballot 3 n=15393   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                            3/3 格带 n   (每一格都声明了自己的人群规模)
+   PASS  KILL: W_ANCHORING requires `homosex` to move LESS without the rest of the block              homosex movement b1 +0.5876 vs b3 +0.5807, difference +0.0070; null +0.0023 +/- 0.0482   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : CONFIRMED · world W_ROBUST · the movement survives removing the rest of the block
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R372_the_randomised_ballot_kills_or_saves_it/results/the_randomised_ballot.json
