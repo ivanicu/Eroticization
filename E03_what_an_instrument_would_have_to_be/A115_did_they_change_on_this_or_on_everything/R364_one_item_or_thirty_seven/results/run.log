@@ -1,0 +1,58 @@
+PRECONDITION CHECK — window 1990->2021; an item is USABLE only if >=3 cohorts have n>=40 in BOTH endpoint waves:
+  usable 26 · DROPPED 4
+    ⚠ dropped grass      cohorts=0 n(1990)=867 n(2021)=0
+    ⚠ dropped aged       cohorts=0 n(1990)=884 n(2021)=0
+    ⚠ dropped fepol      cohorts=0 n(1990)=869 n(2021)=0
+    ⚠ dropped prayer     cohorts=0 n(1990)=884 n(2021)=0
+
+=== THE GRID — within-cohort movement, 1990->2021, in item-SD units ===
+   1. homosex    [A target    ] move +0.8464 |move| 0.8464  cohorts= 4 n= 3300  <<<
+   2. colhomo    [B same-topic] move -0.6044 |move| 0.6044  cohorts= 4 n= 3330  <<
+   3. cappun     [C other     ] move +0.3926 |move| 0.3926  cohorts= 5 n= 4917
+   4. libhomo    [B same-topic] move +0.3511 |move| 0.3511  cohorts= 3 n= 2093  <<
+   5. polattak   [C other     ] move +0.3438 |move| 0.3438  cohorts= 3 n= 2064
+   6. spkrac     [C other     ] move +0.3356 |move| 0.3356  cohorts= 3 n= 2097
+   7. spkhomo    [B same-topic] move -0.3352 |move| 0.3352  cohorts= 3 n= 2082  <<
+   8. colrac     [C other     ] move +0.3302 |move| 0.3302  cohorts= 4 n= 3297
+   9. letdie1    [C other     ] move +0.2435 |move| 0.2435  cohorts= 4 n= 2081
+  10. colmil     [C other     ] move +0.2425 |move| 0.2425  cohorts= 4 n= 3317
+  11. libath     [C other     ] move +0.2413 |move| 0.2413  cohorts= 3 n= 2086
+  12. gunlaw     [C other     ] move +0.2266 |move| 0.2266  cohorts= 4 n= 4566
+  13. spkmil     [C other     ] move +0.1659 |move| 0.1659  cohorts= 3 n= 2083
+  14. libcom     [C other     ] move +0.1281 |move| 0.1281  cohorts= 3 n= 2082
+  15. abany      [C other     ] move -0.1244 |move| 0.1244  cohorts= 4 n= 2115
+  16. librac     [C other     ] move -0.1146 |move| 0.1146  cohorts= 3 n= 2074
+  17. eqwlth     [C other     ] move +0.0986 |move| 0.0986  cohorts= 4 n= 3305
+  18. colath     [C other     ] move -0.0965 |move| 0.0965  cohorts= 4 n= 3311
+  19. suicide1   [C other     ] move -0.0705 |move| 0.0705  cohorts= 4 n= 1995
+  20. libmil     [C other     ] move -0.0630 |move| 0.0630  cohorts= 3 n= 2079
+  21. spkath     [C other     ] move -0.0527 |move| 0.0527  cohorts= 3 n= 2105
+  22. colcom     [C other     ] move +0.0421 |move| 0.0421  cohorts= 3 n= 2049
+  23. spkcom     [C other     ] move -0.0230 |move| 0.0230  cohorts= 3 n= 2088
+  24. polhitok   [C other     ] move +0.0218 |move| 0.0218  cohorts= 3 n= 2020
+  25. suicide2   [C other     ] move +0.0179 |move| 0.0179  cohorts= 4 n= 2094
+  26. suicide4   [C other     ] move -0.0126 |move| 0.0126  cohorts= 4 n= 2018
+
+  `homosex` |move| 0.8464 -> percentile 100.0% of 22 non-homosexuality items
+  `colhomo` |move| 0.6044 -> percentile 100.0%
+  `libhomo` |move| 0.3511 -> percentile 95.5%
+  `spkhomo` |move| 0.3352 -> percentile 86.4%
+  median |move| among the 22 others: 0.1195
+
+  null (year permuted within cohort; kind of null: within-cohort year-label permutation): +0.0340 +/- 0.0306 over 200 draws
+  positive sweep (planted into the permuted null world): [(0.0, 0.035), (0.15, 0.0804), (0.3, 0.1555), (0.45, 0.2048), (0.6, 0.2771)]
+
+  CONDITIONAL KILL -- Did they change on THIS, or on everything?
+   PASS  positive: a planted within-cohort trend raises |move|, and g=0 is null                                           方向由数据给出:**上升**;灵敏度 g=0.15;g=0 +0.0350 · g=0.6 +0.2771   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  year permuted within cohort                                                                                      |+0.0340| < 0.5*|+0.8464| = 0.4232   (null is 4% of the effect [零的方案: within-cohort year-label permutation])
+   PASS  all items in the comparison family                                                                               method=bh q=0.05 · **cells tested 26 · cells surviving 16** · 存活 ['homosex', 'colhomo', 'cappun', 'libhomo', 'polattak', 'spkrac', 'spkhomo', 'colrac', 'letdie1', 'colmil', 'libath', 'gunlaw', 'spkmil', 'libcom', 'abany', 'librac'] · 未存活 ['eqwlth', 'colath', 'suicide1', 'libmil', 'spkath', 'colcom', 'spkcom', 'polhitok']…   (control)
+   PASS  PRECONDITIONS were checked and printed BEFORE the estimator, and failures were DROPPED WITH A COUNT (`#925`(2))  26 usable · 4 dropped: ['grass', 'aged', 'fepol', 'prayer']; absence reported, not passed   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                                                26/26 格带 n   (每一格都声明了自己的人群规模)
+   PASS  the comparison set is large enough for a percentile to mean anything                                             22 non-homosexuality items in the reference set   (asserted in code, not in prose)
+   PASS  prior art / lineage declared                                                                                     `#905` ran this percentile design at the PERSON level for one-factor structure and put the sexual battery at the 10th percentile of forty; this is its decade/cohort analogue, not an independent idea; scope stated   (asserted in code, not in prose)
+   FAIL  KILL: W_GENERAL requires `homosex` to sit in the body of the other items                                         `homosex` at the 100.0% percentile of 22 others; same-topic tolerance at ['100%', '95%', '86%']   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_GENERAL requires `homosex` to sit in the body of the other items). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_GENERAL requires `homosex` to sit in the body of the other items). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : OVERTURNED · world W_TOPIC · attitudes about homosexuality moved, not sexual morality
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R364_one_item_or_thirty_seven/results/one_item_or_thirty_seven.json

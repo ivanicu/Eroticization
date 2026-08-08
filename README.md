@@ -296,6 +296,38 @@ so it is **UNAVAILABLE, not satisfied**.
 
 ⚠ `#924`'s within-cohort figure implies **44.6%** and `#925`'s conversion floor is **45.0%** — striking, but
 the two share data and cohort construction, so this is **consistency, not a second instrument**.
+
+## ⚠⚠ `#926` — THEY DID NOT GET MORE PERMISSIVE ABOUT EVERYTHING. THEY GOT MORE PERMISSIVE ABOUT THIS.
+
+`#925`① had closed A114 by asserting *nothing in `data/external/` records why anyone changed*. ⚠ **That is an
+impossibility claim, made one round after two others of the same kind were overturned** (`#912`→`#913`;
+`#918`②→`#919`). It was checked. **"Why" has a measurable form**: `#924` showed cohorts moved +0.609 on
+`homosex` — *did they move on this specifically, or on everything?*
+
+| `#926` rank | item | | \|move\| in item-SD units |
+|---|---|---|---|
+| 1 | **`homosex`** | moral wrongness | **0.8464** |
+| 2 | `colhomo` | same-topic tolerance | 0.6044 |
+| 3 | `cappun` | other | 0.3926 |
+| 4 | `libhomo` | same-topic tolerance | 0.3511 |
+| 5–8 | `polattak` · `spkrac` · `spkhomo` · `colrac` | | 0.3438 · 0.3356 · 0.3352 · 0.3302 |
+| — | **median of the 22 other items** | | **0.1195** |
+
+**`homosex` sits at the 100th percentile (`#926`) of 22 non-homosexuality items — ~7× the median and 2.2× the
+next-highest — against a within-cohort year-permutation null of +0.0340 ± 0.0306** (~26 null-spreads), with
+**16 of 26 cells surviving BH**. All four homosexuality items are at the top; the moral one is highest.
+⚠ The precondition check ran first and **dropped four items with a count** (`grass`, `aged`, `fepol`,
+`prayer`) — absence reported, not passed.
+
+⚠⚠ **What may not be read: the signs** (`#926`). `colhomo` (−0.6044) and `spkhomo` (−0.3352) move opposite to
+`homosex` (+0.8464) and `libhomo` (+0.3511). **|move| was used deliberately and per-item coding polarity was
+never checked**, so those directions may be nothing but which end of each scale is numbered 1. **The
+magnitudes are the finding; the directions are not claimed.**
+
+> **One sentence about people (`#926`): the same Americans who barely moved on the death penalty, on
+> communists, on racists, on abortion and on assisted suicide moved further on homosexuality than on any
+> other question the survey asked them for thirty years — so whatever happened, it happened to this subject
+> and not to their permissiveness in general.**
 ⚠ **Prior art**: the cohort/period structure of this trend is established (Treas 2002 · Andersen & Fetner
 2008 · Baunach 2012). `#924` is a **verification on this release**, not a discovery.
 

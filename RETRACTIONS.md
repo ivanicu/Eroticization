@@ -46559,3 +46559,80 @@ in people who had already made up their minds and then, over their own lifetimes
    `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
    `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① ·
    `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 926 · `E03·A115·R364` — they did not get more permissive about everything; they got more permissive about this
+
+**⇒ `OVERTURNED` · world `W_TOPIC`. Within the same cohorts, over the same window, `homosex` moved
+**0.8464 item-SDs — the 100th percentile of 22 non-homosexuality items**, whose median is **0.1195**.
+**About seven times the median item, and 2.2× the next-highest non-homosexuality item.** ⇒ **This was
+not general liberalisation.** And `#925`①'s impossibility claim is **refuted**.**
+
+**WHY THE CLAIM WAS CHECKED RATHER THAN INHERITED.** `#925`① closed A114 by asserting *nothing in
+`data/external/` records why anyone changed*. ⚠ **This project has been burned by exactly that
+twice** — `#912` declared five cells unreadable and `#913` opened four; `#918`② said the disclosure
+test needed an acquisition and `#919` found GSS ships `mode`. `#913`③ named the class. **"Why" has a
+measurable form here**: `#924` measured that cohorts moved **+0.609** on `homosex` — *did they move
+on `homosex` specifically, or on everything at once?*
+
+**THREE-WAY, NOT TWO** — which is what made the worlds separable: **A** `homosex` (moral wrongness) ·
+**B** same-topic **tolerance** (`spkhomo`/`colhomo`/`libhomo`, Stouffer civil-liberties items — same
+topic, different construct) · **C** the other long-running GSS attitudes.
+
+| rank | item | category | \|move\| in item-SD units |
+|---|---|---|---|
+| 1 | **`homosex`** | **A** | **0.8464** |
+| 2 | `colhomo` | **B** | 0.6044 |
+| 3 | `cappun` | C | 0.3926 |
+| 4 | `libhomo` | **B** | 0.3511 |
+| 5–8 | `polattak` · `spkrac` · **`spkhomo` (B)** · `colrac` | | 0.3438 · 0.3356 · 0.3352 · 0.3302 |
+| … | median of the 22 **C** items | | **0.1195** |
+
+**Percentiles among the 22 others: `homosex` 100% · `colhomo` 100% · `libhomo` 95.5% · `spkhomo`
+86.4%.** All four homosexuality items sit at the top; **the moral item sits highest of all.**
+
+**CONTROLS.** Null: year permuted within cohort, **+0.0340 ± 0.0306** (kind of null: within-cohort
+year-label permutation) — `homosex` is ~26 null-spreads above it. Positive control planted **into the
+permuted world** so `g=0` lands on the null (`#922`'s repair, carried): `0 → 0.0350 · 0.15 → 0.0804 ·
+0.30 → 0.1555 · 0.45 → 0.2048 · 0.60 → 0.2771`, monotone. **BH: 16 of 26 survive.**
+
+**⚠ THE PRECONDITION CHECK RAN FIRST AND DROPPED FOUR ITEMS WITH A COUNT** (`#925`②): `grass`,
+`aged`, `fepol`, `prayer` lacked three cohorts with n ≥ 40 in both endpoint waves. **Absence
+reported, not passed.**
+
+**⚠⚠ AND ONE THING I MAY NOT READ: THE SIGNS.** `colhomo` (−0.6044) and `spkhomo` (−0.3352) move
+*opposite* to `homosex` (+0.8464) and `libhomo` (+0.3511). **I used |move| deliberately and did NOT
+check each item's coding polarity**, so those signs are **uninterpretable here** — they may be
+nothing but which end of the scale each question happens to number. **The magnitudes are the
+finding; the directions are not claimed.**
+
+**⇒ One sentence about people: the same Americans who barely moved on the death penalty, on
+communists, on racists, on abortion and on assisted suicide moved further on homosexuality than on
+any other question the survey asked them for thirty years — so whatever happened, it happened to
+this subject and not to their permissiveness in general.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ this measures **whether** the change was specific, never **why** it happened — `#925`①'s claim
+   is tested only in its measurable form, and no mechanism is identified;
+② ⚠ **item polarity was not checked**, so signs are not interpretable, above;
+③ ⚠ items differ in wording, scale and salience — standardising by each item's own SD makes them
+   comparable in **units, not in meaning**;
+④ ⚠ repeated cross-section; age/period/cohort collinear; no age effect claimed;
+⑤ ⚠ **only this one instrument** — no other release here carries 30+ waves of attitude items;
+⑥ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **`#925`① IS RETRACTED AND THE PAGE MUST SAY SO.** "Nothing records why anyone changed" was an
+   impossibility claim made one round after two others of the same kind were overturned. The data
+   records at least this much: **the change was topic-specific, at the 100th percentile of 22
+   comparisons.** ⇒ `#926`①
+② ⚠ **THE SIGNS ARE A ONE-COMMAND FIX AND I DID NOT RUN IT.** Checking each item's coding direction
+   would let the four homosexuality items be read as agreeing or disagreeing — which decides whether
+   `W_TOPIC` means *"the topic moved coherently"* or *"the topic moved incoherently"*, and those are
+   different findings. ⇒ `#926`②
+③ ⚠ Still `OPEN`: `#925`①(retracted)② · `#924`② · `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ ·
+   `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② ·
+   `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② ·
+   `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ ·
+   `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
+   `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
+   `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
