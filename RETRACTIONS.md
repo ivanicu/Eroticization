@@ -48137,6 +48137,11 @@ so their mean pairwise correlation is **forced to −1/(k−1)**. Here **k=4 ⇒
 **4.7× harsher** than `#945`'s k=15 floor of −0.0714 — so **most pairs here MUST be strongly
 negative**, and comparing any of them to zero, or to `#945`'s numbers, would report the algebra.
 Measured: **−0.3317.** Every cell is judged against its own null.
+⚠ **And `#945`'s floor is READ FROM `#945`'s ARTIFACT, not typed** — v1 typed `−0.0714` and
+`no_transcribed_numbers` (`#840`) blocked the commit. It was right for a reason bigger than tidiness:
+**this round's whole argument is that the two floors are not comparable**, so the number being
+contrasted against has to come from the round being contrasted with, or the contrast is against my
+memory of it.
 
 **⚠ AND A SCALE PROBLEM `#945` DID NOT HAVE.** Its items were binary with similar marginals; these
 four are 4-point with means spanning **1.339 to 2.982**. Raw person-centring would make the pair
