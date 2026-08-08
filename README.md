@@ -915,7 +915,22 @@ unvisited room.** Three rounds approached it and each found a different one:
 would have to be treated as independent draws when shared descent and diffusion say they are not.
 
 ⚠ **Scope**: this is a budget over the **five targets Stouffer chose in 1955**, not over everything a person
-might tolerate — zero-sum is refuted **for this list**, not in general. ⚠ **Prior art**: the count *is*
+might tolerate — zero-sum is refuted **for this list**, not in general.
+
+> ⚠⚠ **CORRECTED IN TWO CLAUSES (landed at `#946`), by `#944` and `#945`, and both are needed — this row said one thing and
+> the phrase "not zero-sum" names two.**
+> **① The total is right; "growth" is true of the POPULATION and false of the PERSON** (`#944`). Cohort-
+> demeaned, the three stems move in *different directions*: **speak −0.0268/decade, teach +0.0323,
+> library +0.0172 (unresolved)**, against within-cohort year-label permutation nulls of ±0.010. The raw
+> arm — which is what produced +2.131 — is positive in all three and hides the reversal completely.
+> **② "Not zero-sum" is false at the level the phrase actually names** (`#945`). A sum across people
+> cannot see a trade-off inside a person. Judged against a within-person target-label permutation null
+> that preserves each person's total exactly, **12 of 30 target pairs sit BELOW their own null** (24 of
+> 30 surviving BH), and **homosexuals × racists is the most negative cell in all three stems**
+> (teach −0.1434, z −23.8). ⚠ At the **raw** level that same pair is **positive** (+0.2430 to +0.4171):
+> there is a general tolerance disposition **and**, on top of it, a specific exchange rate.
+> ⇒ **The honest statement is: the total grew, the growth was not uniform across acts within a
+> lifetime, and inside a person tolerance is partly traded rather than only accumulated.** ⚠ **Prior art**: the count *is*
 Stouffer's scale and its long rise is among the most-replicated findings in American opinion (Davis 1975;
 Bobo & Licari 1989). **Measuring it here is a verification**; the decomposition against `#927` is not.
 ⚠ **Prior art**: the cohort/period structure of this trend is established (Treas 2002 · Andersen & Fetner

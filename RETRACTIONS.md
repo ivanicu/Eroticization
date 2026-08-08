@@ -47984,3 +47984,47 @@ first clause. `#945`③ **the positive departures are a finding nobody asked for
 militarists` and `racists × militarists` sit ABOVE their nulls, i.e. co-tolerated beyond the general
 factor — which looks like an old left/right axis surviving inside a battery designed in 1954, and it
 has no home on the page yet.
+
+## Entry 946 · `E03·A125` — PRODUCTION, labelled honestly: the correction reaches the claim, not just a later entry
+
+**This is not a Frontier action and no card was filled.** It runs no experiment, separates no worlds
+and produces no new belief. **It is Production**, and it is recorded because it changes what the
+project asserts: `#944`① and `#945`② were each owed, each about the same standing sentence, and the
+project's own law is that **a correction must reach the artifact** — not sit in a later ledger entry
+where the reader of the original claim will never meet it.
+
+**What was wrong.** `#929`'s block carried the scope line *"zero-sum is refuted for this list, not in
+general"*. That sentence is about **breadth of list** and it was the only qualification on the page.
+Two later rounds established that the problem is not breadth at all:
+
+- **`#944`** — cohort-demeaned, the three stems move in **different directions**: `speak` −0.0268 per
+  decade, `teach` +0.0323, `library` +0.0172 (unresolved), against within-cohort year-label
+  permutation nulls of ±0.010. **The raw arm — which is what produced +2.131 — is positive in all
+  three and hides the reversal completely.** So "growth" is true of the **population** and false of
+  the **person**.
+- **`#945`** — a sum across people cannot see a trade-off inside a person. Against a within-person
+  target-label permutation null that preserves each person's total exactly, **12 of 30 target pairs
+  sit below their own null** (24 of 30 surviving BH), `homosexuals × racists` most negative in all
+  three stems (teach −0.1434, z −23.8). So **"not zero-sum" is false at the level the phrase actually
+  names.**
+
+**Both clauses landed on `#929`'s own block in both languages**, as a marked correction rather than a
+rewrite (`L81`: annotate, never overwrite — the original sentence stays so a reader can see what was
+believed and why it moved).
+
+**⚠ WHY THIS ENTRY EXISTS AT ALL, AND IT IS THE ONLY GENERAL THING IN IT.** `#944`① and `#945`② were
+raised two and one rounds ago and were deferred both times **because the next frontier question was
+more interesting than the correction** — which is exactly how a page keeps asserting something its own
+ledger has already withdrawn. The ledger is not the artifact. **A debt that names a sentence on the
+page is not discharged by another entry; it is discharged by editing the sentence.**
+
+**ONE SENTENCE ABOUT PEOPLE.** Unchanged and now stated where the claim lives: **the total grew, the
+growth was not uniform across acts within a lifetime, and inside a person tolerance is partly traded
+rather than only accumulated.**
+
+**NEXT** — `#946`① **`#945`① is now the frontier step and it has an unwelcome branch**: date the
+`homosexuals × racists` trade-off across the 19 waves. If it grew more negative it is the *mechanism*
+behind `#942`'s opposing trends; **if it is constant, then pairing `#945` with `#942` is a narrative I
+have been telling across two rounds** and the two facts are unrelated. `#946`② ⚠ **check the other
+standing claims for the same disease** — this one was caught because two rounds happened to point at
+it; nothing systematically asks which page sentences a later entry has already qualified.
