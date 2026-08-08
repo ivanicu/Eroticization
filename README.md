@@ -621,6 +621,17 @@ happen.**
 > condemn — at least an eighth of the split is something about the acts themselves, surviving the
 > strictest null available — but how much more than an eighth, this data cannot say, because holding
 > a person's total fixed and holding each question's answer-shape fixed cannot be done at once.**
+>
+> ⛔ **THE POPULATION IS RETRACTED AT `#957`, AND THIS IS NOT A SCOPE CAVEAT.** The bracket brackets
+> **Δ = +0.2620**, and `#956` measured that Δ on a sample where **3,338 of 14,847 (22.5%) gave all four
+> answers the same value** — expressed no partition, and were recorded as expressing one. On the
+> **11,509 who actually distinguish**, Δ = **+0.1086** and the residual against the weaker of these two
+> nulls is **z = +1.65**, below 2σ; a **placebo filter** dropping a *random* 22.5% leaves Δ at +0.2623
+> against +0.2620, so removing people does nothing and removing the flat responders does all of it.
+> **A share of a quantity that does not survive its own population is not a lower bound on anything.**
+> The 12.7% and the 99.0% are correct arithmetic on the wrong sample; what remains true is the
+> *asymmetry between the two nulls* — which respondents a null preserves is what sets the residual —
+> and that is `#955`'s finding, not this one's.
 
 ### `#952` · the exchange rate was the tolerance levels, and it does not survive
 
@@ -714,6 +725,15 @@ rounds quoted was against a null that had erased the marginals.
 > unconstrained**, because no single null on 4-point ipsative data holds both a person's total and each
 > item's answer-shape. The 13.9% here is the value under the *stricter* of the two nulls, which is the
 > right one to quote — but it is a floor, not a measurement of the content share.
+>
+> ⛔ **AND THE POPULATION IS RETRACTED AT `#957`.** 13.9% is a **share of Δ = +0.2620**, and `#956`
+> measured that Δ on a sample where **22.5% of respondents gave all four answers the same value**. On
+> the **11,509 who actually distinguish**, Δ = **+0.1086** and the residual against the swap null is
+> **z = +1.65** — it does not clear 2σ. So the sentence above is doubly wrong: not only was the size
+> withdrawn, **the contrast the share is a share OF does not survive on the population the claim is
+> about.** The one thing here that strengthens rather than falls is the diagnosis — the null used at
+> `#949`/`#950` erased the marginals, and that remains true and remains the reason those rounds read
+> as confirmations.
 
 ### `#950` · I built the confound's world and it pushes the other way
 
@@ -755,6 +775,16 @@ differential drift separates homosex from the other *three* — a 1-vs-3 structu
 > together — they hold inside a single survey wave among people born in the same span, so how a person
 > sorts premarital and same-sex relations away from teenage and extramarital sex really is something
 > about that person, not a shadow of how the country changed around them.**
+>
+> ⛔ **THE POPULATION IS RETRACTED AT `#957`, AND IT IS A DIFFERENT AXIS FROM THE ONE THIS ROUND
+> CONTROLLED.** Centring inside a wave × cohort cell removes *when* a respondent answered; it does not
+> remove *who is in the cell*. `#956` finds **22.5% of respondents gave all four answers the same
+> value**, and they are present in every one of these 80 cells. On the **11,509 who actually
+> distinguish**, Δ drops from +0.2620 to **+0.1086** with **z = +1.65** against the swap null, and at
+> stricter definitions of "distinguishes" the sign **reverses** (−0.0630, −0.2086). **Δ(L2)/Δ(L0) =
+> 0.991 is still exactly right and now says something narrower than it did**: the drift rival is dead,
+> and its death is not evidence that anything is there — a contrast made of flat responders is equally
+> invariant to wave and cohort.
 
 ### `#949` · the line is not how much sex, it is whether anyone is wronged
 
@@ -807,6 +837,18 @@ together* rather than *who is harmed*. Open, not resolved.
 > Americans do not rank sex on a single scale of how much is allowed — they sort it into two camps,
 > premarital and same-sex on one side, teenage and extramarital on the other, and every judgement that
 > crosses that line is traded against the others while the ones inside it move together.**
+>
+> ⛔ **RETRACTED AT `#957` — NOT THE SIZE THIS TIME, THE POPULATION.** *"Once you hold constant how
+> permissive someone is overall"* is exactly what fails here: **3,338 of these 14,847 respondents
+> (22.5%) gave all four items the same answer**, so there is no ordering of the four acts to hold
+> anything constant *within* — and `#955` shows per-item z-scoring hands each of them a fixed,
+> item-marginal-determined profile anyway, which is a partition they never expressed. On the **11,509
+> who do distinguish**, Δ = **+0.1086** at **z = +1.65** against the swap null; at range ≥ 2 it is
+> **−0.0630** and among the sharpest 6,963 discriminators **−0.2086** — *the crossing pairs are held
+> together and the within-cluster pairs are traded*, the exact inverse of the table above. The
+> **6 of 6 exact partition** is therefore a property of a sample five-and-a-half thousand of whom are
+> the same synthetic profile repeated, not a fact about how Americans sort sexual norms. **The 2+2
+> structure on this page does not stand.**
 
 ### `#947` · the exchange rate did not move, and the story I told twice was co-occurrence
 

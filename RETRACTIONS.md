@@ -48661,3 +48661,45 @@ sharp discriminators genuinely hold `premarital`+`same-sex` apart, that is a dif
 interesting structure than the one I have been chasing. `#956`③ **`#955`②'s audit is now urgent**:
 every ipsative round in A125–A130 used per-item z-scoring, and this round shows the artefact can
 dominate. `#945`'s binary exemption should be verified rather than assumed.
+
+## Entry 957 · `E03·A130·R391` — the retraction reaches all four blocks that rested on the flat responders
+
+**PRODUCTION.** No new measurement. `#956`① paid, in both languages, on `#949`, `#950`, `#951` and
+`#954`'s own blocks. `#946`'s rule, **sixth application**, and it lands before the next frontier step,
+as `#953` and `#955` did.
+
+**Why this one is not a scope caveat, and the wording had to change accordingly.** The five previous
+applications all attached a *boundary* to a surviving number — "only under this null", "as a lower
+bound", "the size is withdrawn, the direction is not". This one attaches nothing: **Δ = +0.2620 was
+measured on a sample where 3,338 of 14,847 (22.5%) gave all four items the same answer**, and on the
+11,509 who actually distinguish the same contrast is +0.1086 at z = +1.65 against the weaker of its
+two nulls. So each block gets the same three facts and a *different* consequence:
+
+| block | what it claimed | what `#957` had to write on it |
+|---|---|---|
+| `#949` | the 2+2 partition, **6 of 6 exact** | the premise *"hold constant how permissive someone is overall"* has no referent for a flat responder; the ordering **inverts** among sharp discriminators; the structure does not stand |
+| `#950` | survives wave × cohort centring, Δ(L2)/Δ(L0) = 0.991 | correct, and about a **different axis** — centring removes *when* someone answered, never *who is in the cell*; a contrast made of flat responders is equally wave-invariant |
+| `#951` | 13.9% content residual | a **share of** a Δ that does not survive its own population; what strengthens instead is the diagnosis that the label-permutation null erased the marginals |
+| `#954` | bracket **[12.7%, 99.0%]** | brackets the same Δ; the surviving content is the *asymmetry between the nulls* — which respondents each preserves — which is `#955`'s finding, not this one's |
+
+**⚠ The thing I nearly wrote and did not.** The tempting sentence on `#950` was *"this round is
+unaffected because it controlled for something else"*. It is affected: its **conclusion** ("really is
+something about that person") is exactly the claim `#956` removes. What is unaffected is its
+**refutation** — the differential-drift rival is still dead. **A round can keep its kill and lose its
+claim**, and a correction that does not separate the two either over-retracts or under-retracts.
+Stated once here because it is the general form: *when a later round removes the population, the
+earlier round's negative results survive and its positive results do not.*
+
+**ONE SENTENCE ABOUT PEOPLE.** Four separate places on this page told readers that Americans sort sex
+into two moral camps; all four now say, where the reader will actually meet them, that the camps were
+mostly people who declined to sort anything at all.
+
+**NEXT** — `#957`① **`#956`② is now the only live object and it is next**: the sign reversal
+(+0.1086 → −0.0630 → −0.2086) is either a real structure among sharp discriminators or the same
+z-scoring artefact running the other way as the population narrows, and **the discriminating check is
+cheap** — the flat-respondent residual vector `#955` measured is *fixed*, so as the threshold tightens
+the surviving sample's residuals must be compared against a null recomputed **on that same
+subsample**, which `#956` did only for the loosest cell. `#957`② **`#946`②'s mechanism is now six
+hand-payments old** — six entries, six manual sweeps, and nothing yet asks which page sentences a
+later entry has qualified; this is the longest-running unpaid debt in the project and the cost is now
+measurable rather than hypothetical.
