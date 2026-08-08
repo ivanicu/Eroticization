@@ -48274,3 +48274,80 @@ class is not "I write bad controls" but **"I write controls that test the proper
 rather than the property the design needs"**, and `#948`①'s gate proposal must be worded against that
 sentence, not against the symptom. `#950`③ **`#949`② is still owed** — re-read `#945`'s 12 below-null
 tolerance cells for block structure, which is the same question that carried both these rounds.
+
+## Entry 951 · `E03·A127·R387` — the null I used in two confirmed rounds erased the rival it had to test
+
+**`#949` and `#950` both CONFIRMED the same 2+2 partition, and two confirmations on one structure is
+a basin.** The rule says design the step whose positive outcome is unwelcome. This is it, and the
+rival was sitting in the marginals the whole time.
+
+**⚠⚠ THE RIVAL, MEASURED BEFORE ANYTHING ELSE RAN.**
+
+| item | mean | P("always wrong") | P("not wrong at all") | cluster |
+|---|---|---|---|---|
+| `premarsx` | 2.982 | 0.235 | **0.530** | A |
+| `homosex` | 2.336 | 0.504 | 0.384 | A |
+| `teensex` | 1.605 | **0.655** | 0.074 | B |
+| `xmarsex` | 1.339 | **0.776** | 0.022 | B |
+
+**The two items I called "a wronged party" are exactly the two heavily floored ones.** The partition
+coincides perfectly with response-distribution shape.
+
+**⚠⚠⚠ AND THE NULL `#949`/`#950` USED CANNOT SEE THAT.** Within-person **item-label permutation**
+gives every item the same marginal by construction — measured here: item means under it
+**[2.067, 2.057, 2.070, 2.067]** against observed **[2.982, 1.605, 1.339, 2.336]**. **A null that
+erases the difference cannot test whether the difference produced the result.** Both rounds measured
+departures from a world in which the marginals had already been equalised, so **the marginal rival
+was never in the comparison at all.**
+
+**The repair: a swap-randomised null holding BOTH each person's total AND each item's column sum
+fixed** — `x[p,i]−1 · x[p,j]+1 · x[q,i]+1 · x[q,j]−1`, admissible only when every value stays in
+[1,4]. Row sums and column sums are exactly invariant (**measured: max drift 0.00e+00 on both**), so
+the ipsative constraint is held and only *which person's answer sits where* is destroyed.
+
+| | Δ | its null | z |
+|---|---|---|---|
+| observed | **+0.2620** | — | — |
+| vs the `#949`/`#950` label-permutation null | | +0.0970 ± 0.0100 | **+16.52** |
+| **vs the marginal-preserving swap null** | | **+0.2256 ± 0.0063** | **+5.80** |
+
+**⇒ 86.1% of the partition contrast is the marginals. The content residual is +0.0364 — 13.9% of what
+`#949` and `#950` reported.** In the raw-centred arm it is smaller still: +0.4018 observed against
++0.3770 null, a residual of **6.2%**.
+
+**VERDICT: `UNVERIFIED` · `W_MOSTLY_MARGINAL`** — a world I had not pre-registered, added as a
+**refusal** rather than a claim. The residual clears the null's *sampling spread* (z = +5.80), and
+the null's *level* is 86% of the observed value; **both are true and only the first is flattering.**
+Controls: the mixing curve runs `0 → 50k → 200k → 800k → 3.2M` swaps with Δ_null
+`+0.2620 → +0.2350 → +0.2214 → +0.2243 → +0.2256` and **76.0% of cells changed** — converged, so this
+is not an unmixed chain; the positive sweep runs `+0.2246 → +1.1808` with `g=0` **0.15 spreads** from
+the swap null. ⚠ Registered and not controlled: the swap fixes column *sums*, and the residual
+histogram shape drift is **0.0888**.
+
+**⚠⚠ AND MY VERDICT STRING SAID CONFIRMED WHILE THE GATE SAID UNVERIFIED.** `lib/gates.py`'s
+`negative_control` asks whether the null is small relative to the effect; at 86% it is not, and the
+row failed. **The tempting repair was to reword the control so it compares departures instead of
+levels — which is weakening a guard so my own round can pass**, the move refused at `#943`, and it
+would have been `#916`③'s sixth instance dressed as a fix. **The contract is pre-existing and
+binding, so the verdict changed to honour it**, not the other way round.
+
+**What survives and what does not.** `#949`'s and `#950`'s *findings* are not withdrawn: the residual
+is real, the drift rival is still dead, and the block structure still survives removing wave and
+cohort profile. **What is withdrawn is the SIZE** — every z-score those rounds quoted (`+32.96`,
+`−18.01`) was against a null that had erased the marginals, and the honest comparison leaves about a
+seventh of it.
+
+**ONE SENTENCE ABOUT PEOPLE.** Most of what looked like Americans sorting sex into two moral camps is
+the plainer fact that **two of these acts are condemned by three-quarters of the country and two are
+not** — a small, real remainder survives even that, but the camps are mostly the condemnation, not a
+structure sitting on top of it.
+
+**NEXT** — `#951`① **the correction must reach `#949`'s and `#950`'s own blocks on both pages**, not
+sit here; `#946` established that and `#948` was written because it recurred, so deferring it once
+would be the fourth instance. `#951`② ⚠ **every round in A125–A126 used the label-permutation null**,
+so `#945`'s 12-below-null tolerance cells carry the same defect — **the Stouffer items are binary,
+where the marginal differences are even starker** (0.247 to 0.840), and that result has not been
+re-referred to a marginal-preserving null. `#951`③ **`#916`③'s class needs restating once more**:
+this round's instance was not a control testing the wrong property — it was a **null that removed the
+variable the rival runs on**, which is a distinct failure and the more dangerous one, because the
+control looked perfectly well-formed.

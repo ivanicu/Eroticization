@@ -528,6 +528,53 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#951` · the null I used in two confirmed rounds erased the rival it had to test
+
+`#949` and `#950` both confirmed the same 2+2 partition — two confirmations on one structure is a
+basin, and the rule says design the step whose positive outcome is unwelcome. **The rival was sitting
+in the marginals the whole time.**
+
+| `#951` item | mean | P("always wrong") | P("not wrong at all") | cluster |
+|---|---|---|---|---|
+| `premarsx` | 2.982 | 0.235 | **0.530** | A |
+| `homosex` | 2.336 | 0.504 | 0.384 | A |
+| `teensex` | 1.605 | **0.655** | 0.074 | B |
+| `xmarsex` | 1.339 | **0.776** | 0.022 | B |
+
+**The two items I called "a wronged party" are exactly the two heavily floored ones** (`#951`). And the null
+those rounds used — within-person **item-label permutation** — gives every item the *same* marginal by
+construction: item means under it **[2.067, 2.057, 2.070, 2.067]** against observed
+**[2.982, 1.605, 1.339, 2.336]**. **A null that erases the difference cannot test whether the
+difference produced the result.**
+
+The repair is a **swap-randomised null** holding both each person's total and each item's column sum
+fixed (max drift 0.00e+00 on both, so the ipsative constraint is preserved and only *which person's
+answer sits where* is destroyed):
+
+| | Δ | its null | z |
+|---|---|---|---|
+| observed | **+0.2620** | — | — |
+| vs the label-permutation null used at `#949`/`#950` | | +0.0970 ± 0.0100 | **+16.52** |
+| **vs the marginal-preserving swap null** | | **+0.2256 ± 0.0063** | **+5.80** |
+
+**86.1% of the partition contrast is the marginals. The content residual is +0.0364 — 13.9% of what
+`#949` and `#950` reported**, and 6.2% in the raw-centred arm.
+
+**Verdict `UNVERIFIED` · `W_MOSTLY_MARGINAL`** (`#951`) — a refusal, not a claim. The residual clears
+the null's *sampling spread*; the null's *level* is 86% of the observed value; both are true and only
+the first is flattering. The mixing curve converges (`0 → 3.2M` swaps, Δ_null `+0.2620 → +0.2256`,
+76.0% of cells changed) so this is not an unmixed chain, and the positive sweep runs `+0.2246 →
++1.1808` with `g=0` 0.15 spreads from the swap null.
+
+**What survives**: the residual is real, `#950`'s drift rival is still dead, and the structure still
+survives removing wave and cohort profile. **What is withdrawn is the SIZE** — every z-score those
+rounds quoted was against a null that had erased the marginals.
+
+> **One sentence about people (`#951`): most of what looked like Americans sorting sex into two moral
+> camps is the plainer fact that two of these acts are condemned by three-quarters of the country and
+> two are not — a small real remainder survives even that, but the camps are mostly the condemnation,
+> not a structure sitting on top of it.**
+
 ### `#950` · I built the confound's world and it pushes the other way
 
 `#949` registered its rival reading as *"equally available"* — and understated it. Read from `#941`'s
@@ -548,6 +595,10 @@ crossing pairs, centring done *inside* each grouping:
 **Δ(L2)/Δ(L0) = 0.991** (`#950`) — removing both the wave's and the birth cohort's item profile takes off less
 than one percent. All 21 of 21 cells survive BH; the specification curve gives **signs 6/6** at every
 level under both centrings.
+> ⚠⚠ **AND `#951` REMOVED SOMETHING THIS ROUND DID NOT: the item marginals.** All three levels here
+> share the label-permutation null, which equalises them. Against a marginal-preserving swap null the
+> observed Δ = +0.2620 sits on a null of **+0.2256 ± 0.0063** — so **86.1% of it is the marginals**,
+> and the drift result below (which is about a *different* rival) is unaffected.
 
 ⚠⚠ **And the synthetic world refutes the confound in sign.** Built the rival — structureless data plus
 *only* `#941`'s measured drift, six doses: Δ at L0 runs **+0.1001 (m=0) → +0.0892 (m=1, the real
@@ -589,7 +640,14 @@ person-centring**, because their means span 1.339–2.982 and raw centring would
 | premarital / extramarital | **−0.4723** | +0.2923 | −0.3326 | **−18.01** ← traded hardest |
 
 **The two-layer structure is not about out-groups — it is how these attitudes are held** (`#949`).
-4 of 6 pairs below their own null, 2 above, **all 12 of 12 cells surviving BH**. The null lands on the
+4 of 6 pairs below their own null, 2 above, **all 12 of 12 cells surviving BH**.
+
+> ⚠⚠ **SIZE WITHDRAWN AT `#951`, DIRECTION NOT.** Every z here is against a **within-person
+> item-label permutation** null, which gives all four items the *same* marginal by construction — so
+> it could not test the rival that the two "wronged party" items are simply **the two heavily floored
+> ones** (`teensex` 65.5% and `xmarsex` 77.6% at "always wrong"). Re-referred to a null that
+> preserves each item's marginal, **86.1% of the partition contrast is the marginals** and the content
+> residual is **13.9%**. The structure is real; the magnitudes on this page are not. The null lands on the
 derived floor and **reproduces itself to 0.00039** across two independent permutation sets against a
 mean departure of 0.1163; the positive sweep runs −0.3355 → −0.6921 with `g=0` 0.23 spreads from its
 null.

@@ -1,0 +1,46 @@
+HARD RULE 1 — ballot 1, all four jointly: n=14847 · 21 waves 1988-2024
+⚠ HARD RULE 2 — instrument: GSS ballot 1, four sexual-norm items in one block. Identical to `#949`/`#950`; ONLY THE NULL CHANGES, and that is the round.
+
+⚠⚠ THE RIVAL, measured first — the blocks coincide with response-distribution SHAPE:
+   premarsx   mean 2.982 · P(=1 'always wrong') 0.235 · P(=4 'not wrong at all') 0.530   [cluster A]
+   teensex    mean 1.605 · P(=1 'always wrong') 0.655 · P(=4 'not wrong at all') 0.074   [cluster B]
+   xmarsex    mean 1.339 · P(=1 'always wrong') 0.776 · P(=4 'not wrong at all') 0.022   [cluster B]
+   homosex    mean 2.336 · P(=1 'always wrong') 0.504 · P(=4 'not wrong at all') 0.384   [cluster A]
+   ⇒ cluster B = the two heavily floored items · cluster A = the two unfloored ones
+
+  observed partition contrast Δ = +0.2620
+  NULL 1 (within-person item-label permutation — the `#949`/`#950` null; kind of null: within-person item-label permutation): +0.0970 +/- 0.0100  ⇒ z +16.52
+    ⚠ and it EQUALISES the marginals: item means under it [2.067, 2.057, 2.07, 2.067] vs observed [2.982, 1.605, 1.339, 2.336]
+
+  ⚠ MIXING CURVE — a chain that has NOT mixed looks exactly like a confirmed finding, so the chain length is swept and the changed-cell fraction reported:
+    swaps         0  Δ_null +0.2620 +/- 0.0000  accepted         0  cells changed 0.000
+    swaps    50,000  Δ_null +0.2350 +/- 0.0065  accepted     1,855  cells changed 0.107
+    swaps   200,000  Δ_null +0.2214 +/- 0.0053  accepted     7,611  cells changed 0.306
+    swaps   800,000  Δ_null +0.2243 +/- 0.0071  accepted    31,632  cells changed 0.595
+    swaps 3,200,000  Δ_null +0.2256 +/- 0.0063  accepted   129,034  cells changed 0.760
+  ⇒ against the LONGEST swap chain: Δ_obs +0.2620 vs null +0.2256 +/- 0.0063 ⇒ z +5.80
+
+  MARGINAL CHECK: max |item mean drift| 0.00e+00 (must be ~0 — column sums are invariant by construction) · max |histogram cell drift| 0.0888 (NOT controlled, reported)
+  ROW CHECK: max |person total drift| 0.00e+00 — the ipsative constraint is held
+  positive sweep (a content partition planted into the SWAPPED world, so g=0 IS the swap null): [(0.0, 0.2246), (0.25, 0.8051), (0.5, 1.056), (0.75, 1.1808)]
+  ⚠ plant-baseline check: g=0 at +0.2246 vs swap null +0.2256 +/- 0.0063 = 0.15 spreads
+
+  specification curve — every cell, none dropped
+    swaps   200,000  z-scored     Δ_obs +0.2620  Δ_null +0.2286
+    swaps   200,000  raw-centred  Δ_obs +0.4018  Δ_null +0.3773
+    swaps 3,200,000  z-scored     Δ_obs +0.2620  Δ_null +0.2324
+    swaps 3,200,000  raw-centred  Δ_obs +0.4018  Δ_null +0.3770
+  CONDITIONAL KILL -- Is the 2+2 partition about what the items MEAN, or about their response distributions?
+   PASS  positive: a planted content partition raises Δ, and g=0 sits ON the SWAP null this round judges against (`#922`)                                                                                                                                                                                                                  方向由数据给出:**上升**;灵敏度 g=0.25;g=0 +0.2246 · g=0.75 +1.1808   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   FAIL  swap randomisation holding BOTH each person's total and each item's column sum fixed [longest chain]                                                                                                                                                                                                                              |+0.2256| < 0.5*|+0.2620| = 0.1310   (null is 86% of the effect [零的方案: checkerboard swap randomisation preserving row sums AND column sums (the marginal-preserving null the earlier rounds lacked)])
+   PASS  6 pairs x 2 nulls + 2 contrasts = 14 cells (`#936`②/`#940`②)                                                                                                                                                                                                                                                                      method=bh q=0.05 · **cells tested 14 · cells surviving 13** · 存活 ['lab/prema-teens', 'lab/prema-xmars', 'lab/prema-homos', 'lab/teens-xmars', 'lab/teens-homos', 'lab/xmars-homos', 'swap/prema-teens', 'swap/prema-homos', 'swap/teens-xmars', 'swap/teens-homos', 'swap/xmars-homos', 'lab/Δ', 'swap/Δ'] · 未存活 ['swap/prema-xmars']   (control)
+   PASS  ⚠⚠ THE EARLIER NULL EQUALISES THE MARGINALS AND SO COULD NOT TEST THE MARGINAL RIVAL — stated as the reason this round exists                                                                                                                                                                                                     item means observed [2.982, 1.605, 1.339, 2.336] · under within-person label permutation [2.067, 2.057, 2.07, 2.067] (all four equalised) · the swap null holds them to 0.00e+00 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024   (asserted in code, not in prose)
+   PASS  ⚠ MIXING CURVE: a chain that has not mixed looks exactly like the unwelcome verdict, so chain length is swept and the changed-cell fraction reported                                                                                                                                                                              0→Δ+0.2620/chg0.00 · 50,000→Δ+0.2350/chg0.11 · 200,000→Δ+0.2214/chg0.31 · 800,000→Δ+0.2243/chg0.59 · 3,200,000→Δ+0.2256/chg0.76 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024   (asserted in code, not in prose)
+   PASS  ⚠ MARGINAL AND ROW CHECKS: the swap does what it claims (column sums and person totals invariant); the residual histogram drift is reported, not controlled                                                                                                                                                                       max |item mean drift| 0.00e+00 · max |person total drift| 0.00e+00 · max |histogram cell drift| 0.0888 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024   (asserted in code, not in prose)
+   PASS  the whole specification grid is published, disagreeing cells included                                                                                                                                                                                                                                                             200k/z-s obs+0.262 null+0.229 · 200k/raw obs+0.402 null+0.377 · 3200k/z-s obs+0.262 null+0.232 · 3200k/raw obs+0.402 null+0.377 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024   (asserted in code, not in prose)
+   FAIL  KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires AND the swap chain demonstrably mixed. STAKED: W_CONTENT, i.e. Δ clears the MARGINAL-PRESERVING null by >2 spreads. ⚠ W_MARGINAL is the unwelcome branch and it kills `#949` AND `#950` together, along with a sentence now on the page in two languages  positive fires True · chain mixed True (cells changed 0.760, Δ moved +0.2620→+0.2256) · Δ_obs +0.2620 vs swap null +0.2256 +/- 0.0063 ⇒ z +5.80 (label-permutation null gave z +16.52) · ⚠ the null is 86.1% OF THE OBSERVED VALUE, so the pre-existing negative_control contract (null < 50% of effect) FAILS and the verdict honours it ⇒ W_MOSTLY_MARGINAL   尺:partition contrast Δ against a marginal-preserving swap null,其自身噪声 0.00627169 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024 · 方向:一致 · 控制总体:4/4 条已命名,**与判据同一总体**(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (swap randomisation holding BOTH each person's total and each item's column sum fixed [longest chain])
+
+VERDICT           : UNVERIFIED · world W_MOSTLY_MARGINAL · ⚠ 86.1% of Δ is the MARGINALS; the content residual is +0.0364 = 13.9% of what `#949`/`#950` reported
+
+wrote /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A127_is_the_partition_content_or_marginal/R387_a_null_that_keeps_the_marginals/results/a_null_that_keeps_the_marginals.json
