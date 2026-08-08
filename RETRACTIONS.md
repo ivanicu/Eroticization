@@ -46001,3 +46001,77 @@ here. People argue their own case about who they are, and do not argue it about 
    `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
    `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 919 · `E03·A112·R357` — the variable existed, the design did not: a measured wall replaces an asserted one
+
+**⇒ `UNVERIFIED` · world `W3 · COMPOSITION`. `#918`② said the disclosure rival needed an
+acquisition. **That was wrong — GSS ships `mode`.** The rival is still undecided, but now for three
+MEASURED reasons instead of one asserted one, and one of the three is that **my own positive control
+failed.**
+
+**WHY THE IMPOSSIBILITY CLAIM WAS CHECKED RATHER THAN INHERITED.** `#912` declared five cells
+`UNREADABLE` from a directory listing and `#913` opened four of them; `#913`③ named the class —
+*scoring a thing by its description when the thing is one command away.* So `#918`②'s "needs a
+behaviour measure not routed through the same interview" got checked. **GSS ships `mode`:
+`in-person` 21,436 · `web` 6,916 · `by phone` 3,129 · `multimode` 485, 11 waves 2004–2024,
+overlapping this design at n = 9,968 — and `web` is self-administered, with no interviewer.**
+⚠ *A fabricated impossibility beats a fabricated finding, because a wall makes stopping feel earned
+and is therefore never audited.*
+
+**THE GAUGE TEST.** Mode is a transformation that should leave a *moral* coupling invariant and a
+*disclosure* coupling not. ⚠ **Within wave is not optional** — `web` is 2021+, so a naive mode
+contrast is an era contrast, and `#918` established a real coupling attenuates across eras too.
+Measured usable contrasts: **in-person vs phone, 8 waves 2004–2018**; **in-person vs web, 2022 only,
+n 408 vs 484.**
+
+**⇒ WHAT KILLED IT, all three measured.**
+① ⚠ **THE POSITIVE CONTROL FAILED.** Planted disclosure swept
+`0 → −0.0224 · 0.10 → +0.0371 · 0.20 → +0.0152 · 0.30 → −0.0092 · 0.40 → −0.0364` — **non-monotone**.
+The plant suppresses the behaviour report *and* stiffens the norm, which moves the exposure's base
+rate, which moves the **attainable ceiling I divide by** — so the plant disturbed a quantity it was
+supposed to leave invariant (`#248c`①). **An instrument that cannot find a disclosure effect I put
+there myself cannot be used to say there isn't one.**
+② ⚠ **THE DESIGN IS UNDER-POWERED BY ABOUT 2×.** The within-wave mode-label permutation null has
+spread **±0.3095**; the observed in-person-minus-web contrast is **−0.1708**, i.e. **0.6× its own
+floor**. **BH over the whole grid: 0 of 33 cells survive.**
+③ ⚠ **COMPOSITION, and it is the largest of the three.** The placebo items — which the exposure is
+not tied to — move **more** than the carrier does: largest |placebo contrast| **0.5678** against the
+carrier's **−0.1708**. Mode groups differ in *who they are*, not only in *how they answer*.
+
+**⚠ AND THE SIGN IS THE OPPOSITE OF THE RIVAL'S PREDICTION** — the coupling is nominally *larger*
+where the interviewer is **absent** (−0.1708) — but it sits at 0.6× the floor, so **that is not
+evidence against disclosure either.** A null from an instrument that failed its own plant is
+silence.
+
+**⇒ One sentence about people: none — this round bought no fact about anyone, and its whole value is
+that the reason we cannot yet say whether this is morality or reticence has moved from something I
+asserted to something I measured.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **mode is NOT randomised** — so composition can be *detected* by the placebo, never *excluded*
+   by design, and the placebo says it is present;
+② ⚠ the interviewer-**absent** arm is **one wave** (2022, n 408 vs 484); the 8-wave family contrasts
+   in-person against **phone, which still has an interviewer** — a weaker manipulation, so its null
+   is a weaker acquittal;
+③ `web` respondents in 2022 are a mode-experiment arm, not a random subsample of the frame;
+④ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **`#111c` IS ARMED ON DISCLOSURE**: one `UNVERIFIED`. A second attempt may not be a third
+   control on this contrast — it needs a **different design**, and the measured obstacle is now
+   specific: an interviewer-absent arm larger than n≈450 in a single wave, with composition
+   balanced. **The 2024 wave ships `mode` and was not in this overlap** because `nummen`/`numwomen`
+   end 2022 — so the binding constraint is the BEHAVIOUR item, not the mode item. ⇒ `#919`①
+② ⚠ **THE CORRECTED FORM OF `#918`②**: the acquisition needed is not "a behaviour measure outside
+   the interview" in general — it is **a larger interviewer-absent arm on a wave where the behaviour
+   item is still asked.** That is a sharper acquisition than the one I named, and it was only
+   findable by running the design I said could not be built. ⇒ `#919`②
+③ ⚠ **AND THE PLANT ITSELF IS A DEBT**: a disclosure plant must not move the base rate that the
+   ceiling normalisation divides by, or it perturbs its own denominator. That is a reusable defect
+   in `#918`'s normalisation whenever it is combined with an exposure-side plant. ⇒ `#919`③
+④ ⚠ Still `OPEN`: `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② ·
+   `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② ·
+   `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ ·
+   `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② ·
+   `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① ·
+   `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

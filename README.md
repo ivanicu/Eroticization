@@ -182,8 +182,26 @@ surviving BH.
 where *disclosure* and *approval* are coupled. ⚠ **`#917`'s proposed test of this is withdrawn as a design**:
 it asked whether the departure shrinks across 1991–2014, but a *real* coupling attenuates over those decades
 too as approval nears its ceiling — **both worlds predict shrinkage, so the action separates nothing.**
-Deciding it needs a behaviour measure **not routed through the same interview**, which is an acquisition.
-⚠ Scope throughout: **n = 5,034 over 13 waves, 1991–2014**, not the full series.
+⚠⚠ **`#919` then found that claim was wrong, and replaced it with a measured wall.** GSS **ships
+`mode`** — `in-person` 21,436 · `web` 6,916 · `by phone` 3,129 · `multimode` 485, 11 waves 2004–2024,
+overlapping the design at **n = 9,968** — and **`web` is self-administered, with no interviewer**. The
+disclosure test *was* buildable; it is the within-wave mode contrast, because `web` is 2021+ and a naive
+comparison would be an era comparison. Built, it failed for three reasons, all measured:
+
+- ⚠ **the positive control failed** (`#919`) — planted disclosure swept **non-monotone**
+  (`0 → −0.0224 · 0.10 → +0.0371 · 0.20 → +0.0152 · 0.30 → −0.0092 · 0.40 → −0.0364`), because the
+  plant moves the exposure's base rate and the attainable-ceiling denominator *depends* on that rate,
+  so the plant perturbed its own denominator;
+- ⚠ **under-powered ~2×** (`#919`) — the within-wave permutation floor is **±0.3095** against an observed
+  in-person-minus-web contrast of **−0.1708**, i.e. **0.6× its own floor**, and **0 of 33 cells survive BH**;
+- ⚠ **composition is present** (`#919`) — the placebo items move **more** than the carrier (**0.5678** vs **0.1708**),
+  so mode groups differ in *who they are*, not only in *how they answer*.
+
+**So the disclosure rival is still undecided — and the reason has moved from something asserted to
+something measured.** The corrected acquisition is sharper than the one `#918` named: **an
+interviewer-absent arm larger than n ≈ 450 on a wave where the behaviour item is still asked** — and the
+binding constraint turns out to be the *behaviour* item (`nummen`/`numwomen` end 2022), not the mode
+item. ⚠ Scope throughout: **n = 5,034 over 13 waves, 1991–2014**, not the full series.
 
 ⚠ **And the control that nearly retracted this claim was mine, three times over.** Matching `cebow` to
 `samesexany`'s base rate of **0.1820**: v1 thresholded a quantile — `cebow` is a discrete count, so it landed

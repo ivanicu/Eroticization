@@ -1,0 +1,96 @@
+mode x homosex x ss overlap: n=9968
+  in-person   n= 7557  ss_rate=0.1028  homosex_mean=2.560  waves 2004..2022
+  multimode   n=   64  ss_rate=0.1406  homosex_mean=2.984  waves 2021..2022
+  phone       n=  907  ss_rate=0.0673  homosex_mean=2.688  waves 2004..2022
+  web         n= 1440  ss_rate=0.1174  homosex_mean=3.090  waves 2021..2022
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  in-person vs phone (8 waves, BOTH  2004 raw          homosex   present=+0.5242 absent=+0.5466 contrast=-0.0224  n=  107
+  in-person vs phone (8 waves, BOTH  2004 raw          premarsx  present=+0.3405 absent=+0.1486 contrast=+0.1918  n=   63
+  in-person vs phone (8 waves, BOTH  2004 raw          teensex   present=+0.2965 absent=+0.4615 contrast=-0.1651  n=   63
+  in-person vs phone (8 waves, BOTH  2004 demog        homosex   present=+0.5470 absent=+0.6391 contrast=-0.0921  n=  107
+  in-person vs phone (8 waves, BOTH  2004 demog        premarsx  present=+0.3359 absent=+0.2480 contrast=+0.0880  n=   63
+  in-person vs phone (8 waves, BOTH  2004 demog        teensex   present=+0.2908 absent=+0.4839 contrast=-0.1931  n=   63
+  in-person vs phone (8 waves, BOTH  2004 demog+relig  homosex   present=+0.4672 absent=+0.5047 contrast=-0.0375  n=  107
+  in-person vs phone (8 waves, BOTH  2004 demog+relig  premarsx  present=+0.2342 absent=-0.1965 contrast=+0.4307  n=   63
+  in-person vs phone (8 waves, BOTH  2004 demog+relig  teensex   present=+0.2718 absent=+0.3872 contrast=-0.1155  n=   63
+  in-person vs phone (8 waves, BOTH  2006 raw          homosex   present=+0.4874 absent=+0.3621 contrast=+0.1253  n=   74
+  in-person vs phone (8 waves, BOTH  2006 raw          premarsx  present=+0.2968 absent=+nan contrast=  nan   n=   40
+  in-person vs phone (8 waves, BOTH  2006 raw          teensex   present=+0.1063 absent=+nan contrast=  nan   n=   41
+  in-person vs phone (8 waves, BOTH  2006 demog        homosex   present=+0.4354 absent=+0.2346 contrast=+0.2009  n=   74
+  in-person vs phone (8 waves, BOTH  2006 demog        premarsx  present=+0.2607 absent=+nan contrast=  nan   n=   40
+  in-person vs phone (8 waves, BOTH  2006 demog        teensex   present=+0.1016 absent=+nan contrast=  nan   n=   41
+  in-person vs phone (8 waves, BOTH  2006 demog+relig  homosex   present=+0.3809 absent=+0.3455 contrast=+0.0354  n=   74
+  in-person vs phone (8 waves, BOTH  2006 demog+relig  premarsx  present=+0.2562 absent=+nan contrast=  nan   n=   40
+  in-person vs phone (8 waves, BOTH  2006 demog+relig  teensex   present=+0.0979 absent=+nan contrast=  nan   n=   41
+  in-person vs phone (8 waves, BOTH  2008 raw          homosex   present=+0.3329 absent=+0.5480 contrast=-0.2151  n=  113
+  in-person vs phone (8 waves, BOTH  2008 raw          premarsx  present=+0.2774 absent=+nan contrast=  nan   n=   55
+  in-person vs phone (8 waves, BOTH  2008 raw          teensex   present=+0.0465 absent=+nan contrast=  nan   n=   55
+  in-person vs phone (8 waves, BOTH  2008 demog        homosex   present=+0.3170 absent=+0.7298 contrast=-0.4127  n=  112
+  in-person vs phone (8 waves, BOTH  2008 demog        premarsx  present=+0.2704 absent=+nan contrast=  nan   n=   55
+  in-person vs phone (8 waves, BOTH  2008 demog        teensex   present=+0.0489 absent=+nan contrast=  nan   n=   55
+  in-person vs phone (8 waves, BOTH  2008 demog+relig  homosex   present=+0.2383 absent=+0.4913 contrast=-0.2531  n=  111
+  in-person vs phone (8 waves, BOTH  2008 demog+relig  premarsx  present=+0.1436 absent=+nan contrast=  nan   n=   55
+  in-person vs phone (8 waves, BOTH  2008 demog+relig  teensex   present=+0.0239 absent=+nan contrast=  nan   n=   55
+  in-person vs phone (8 waves, BOTH  2010 raw          homosex   present=+0.2505 absent=+0.0275 contrast=+0.2230  n=   91
+  in-person vs phone (8 waves, BOTH  2010 raw          premarsx  present=+0.2240 absent=+nan contrast=  nan   n=   41
+  in-person vs phone (8 waves, BOTH  2010 raw          teensex   present=+0.1553 absent=+nan contrast=  nan   n=   42
+  in-person vs phone (8 waves, BOTH  2010 demog        homosex   present=+0.2209 absent=+0.1495 contrast=+0.0713  n=   91
+  in-person vs phone (8 waves, BOTH  2010 demog        premarsx  present=+0.1423 absent=+nan contrast=  nan   n=   41
+  in-person vs phone (8 waves, BOTH  2010 demog        teensex   present=+0.1250 absent=+nan contrast=  nan   n=   42
+  in-person vs phone (8 waves, BOTH  2010 demog+relig  homosex   present=+0.1905 absent=-0.1321 contrast=+0.3226  n=   91
+  in-person vs phone (8 waves, BOTH  2010 demog+relig  premarsx  present=+0.1110 absent=+nan contrast=  nan   n=   41
+  in-person vs phone (8 waves, BOTH  2010 demog+relig  teensex   present=+0.1200 absent=+nan contrast=  nan   n=   42
+  in-person vs phone (8 waves, BOTH  2012 raw          homosex   present=+0.3733 absent=+0.6922 contrast=-0.3190  n=  119
+  in-person vs phone (8 waves, BOTH  2012 raw          premarsx  present=+0.0478 absent=+nan contrast=  nan   n=   56
+  in-person vs phone (8 waves, BOTH  2012 raw          teensex   present=-0.0461 absent=+nan contrast=  nan   n=   55
+  in-person vs phone (8 waves, BOTH  2012 demog        homosex   present=+0.3156 absent=+0.6475 contrast=-0.3319  n=  116
+  in-person vs phone (8 waves, BOTH  2012 demog        premarsx  present=-0.0018 absent=+nan contrast=  nan   n=   54
+  in-person vs phone (8 waves, BOTH  2012 demog        teensex   present=-0.0681 absent=+nan contrast=  nan   n=   53
+  in-person vs phone (8 waves, BOTH  2012 demog+relig  homosex   present=+0.2792 absent=+0.3549 contrast=-0.0757  n=  116
+  in-person vs phone (8 waves, BOTH  2012 demog+relig  premarsx  present=-0.0010 absent=+nan contrast=  nan   n=   54
+  in-person vs phone (8 waves, BOTH  2012 demog+relig  teensex   present=-0.0716 absent=+nan contrast=  nan   n=   53
+  in-person vs phone (8 waves, BOTH  2014 raw          homosex   present=+0.3164 absent=+0.3291 contrast=-0.0128  n=  182
+  in-person vs phone (8 waves, BOTH  2014 raw          premarsx  present=+0.3230 absent=-0.5088 contrast=+0.8317  n=   86
+  in-person vs phone (8 waves, BOTH  2014 raw          teensex   present=+0.0475 absent=+0.2456 contrast=-0.1981  n=   86
+  in-person vs phone (8 waves, BOTH  2014 demog        homosex   present=+0.3246 absent=+0.2919 contrast=+0.0327  n=  180
+  in-person vs phone (8 waves, BOTH  2014 demog        premarsx  present=+0.3123 absent=-0.4771 contrast=+0.7895  n=   85
+  in-person vs phone (8 waves, BOTH  2014 demog        teensex   present=+0.0521 absent=+0.2513 contrast=-0.1992  n=   85
+  in-person vs phone (8 waves, BOTH  2014 demog+relig  homosex   present=+0.2723 absent=+0.3338 contrast=-0.0615  n=  180
+  in-person vs phone (8 waves, BOTH  2014 demog+relig  premarsx  present=+0.2413 absent=-0.4635 contrast=+0.7048  n=   85
+  in-person vs phone (8 waves, BOTH  2014 demog+relig  teensex   present=+0.0450 absent=+0.2530 contrast=-0.2080  n=   85
+  in-person vs web (2022, web has NO 2022 raw          homosex   present=+0.2780 absent=+0.4544 contrast=-0.1765  n=  408
+  in-person vs web (2022, web has NO 2022 raw          premarsx  present=+nan absent=+nan contrast=  nan   n=    0
+  in-person vs web (2022, web has NO 2022 raw          teensex   present=+nan absent=+nan contrast=  nan   n=    0
+  in-person vs web (2022, web has NO 2022 demog        homosex   present=+0.2518 absent=+0.3655 contrast=-0.1137  n=  384
+  in-person vs web (2022, web has NO 2022 demog        premarsx  present=+nan absent=+nan contrast=  nan   n=    0
+  in-person vs web (2022, web has NO 2022 demog        teensex   present=+nan absent=+nan contrast=  nan   n=    0
+  in-person vs web (2022, web has NO 2022 demog+relig  homosex   present=+0.1442 absent=+0.3150 contrast=-0.1708  n=  381
+  in-person vs web (2022, web has NO 2022 demog+relig  premarsx  present=+nan absent=+nan contrast=  nan   n=    0
+  in-person vs web (2022, web has NO 2022 demog+relig  teensex   present=+nan absent=+nan contrast=  nan   n=    0
+
+=== the contrast, by family (interviewer-PRESENT minus interviewer-ABSENT) ===
+  in-person vs phone (8 waves, BOTH  homosex   median -0.0299 over 18 cells (sd 0.1961)  <- the carrier
+  in-person vs phone (8 waves, BOTH  premarsx  median +0.5678 over  6 cells (sd 0.2901)  (placebo)
+  in-person vs phone (8 waves, BOTH  teensex   median -0.1956 over  6 cells (sd 0.0317)  (placebo)
+  in-person vs web (2022, web has NO homosex   median -0.1708 over  3 cells (sd 0.0284)  <- the carrier
+  in-person vs web (2022, web has NO premarsx  median +nan over  0 cells (sd nan)  (placebo)
+  in-person vs web (2022, web has NO teensex   median +nan over  0 cells (sd nan)  (placebo)
+
+  label-permutation null (mode labels shuffled WITHIN wave, sizes preserved): +0.0013 +/- 0.3095 over 279 draws
+  positive sweep (planted disclosure g, median contrast): [(0.0, -0.0224), (0.1, 0.0371), (0.2, 0.0152), (0.3, -0.0092), (0.4, -0.0364)]
+
+  CONDITIONAL KILL -- Is the `homosex` coupling invariant to who is in the room?
+   FAIL  positive: planted disclosure raises the contrast, and g=0 is null                           方向由数据给出:**平/非单调**;灵敏度 g=0.1;g=0 -0.0224 · g=0.4 -0.0364   (扫描**非单调** —— 种入很可能干扰了它本该保持不变的变量(#248c①))
+   PASS  mode labels permuted WITHIN wave, arm sizes preserved                                       |+0.0013| < 0.5*|+0.1708| = 0.0854   (null is 1% of the effect [零的方案: within-wave mode-label permutation])
+   PASS  the whole family x wave x adjustment x item grid                                            method=bh q=0.05 · **cells tested 33 · cells surviving 0** · 存活 无 · 未存活 ['in-person vs pho|2004|raw|homosex', 'in-person vs pho|2004|raw|premarsx', 'in-person vs pho|2004|raw|teensex', 'in-person vs pho|2004|demog|homosex', 'in-person vs pho|2004|demog|premarsx', 'in-person vs pho|2004|demog|teensex', 'in-person vs pho|2004|demog+relig|homosex', 'in-person vs pho|2004|demog+relig|premarsx']…   (control)
+   PASS  placebo actually RAN in both families (absence is not a pass)                               2 placebo family-medians computed   (asserted in code, not in prose)
+   PASS  composition detector: the PLACEBO items must not move with mode as much as the carrier      largest |placebo contrast| 0.5678 vs carrier(web family) -0.1708   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                           63/63 格带 n   (每一格都声明了自己的人群规模)
+   FAIL  the interviewer-absent contrast is above the permutation floor                              |+0.1721| > 2*0.3095 = 0.6190   (0.6x its own spread)
+   PASS  KILL: W2 (disclosure) requires the contrast to be POSITIVE where the interviewer is absent  in-person minus web contrast -0.1708 vs null +0.0013 +/- 0.3095; in-person minus phone -0.0299   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (positive: planted disclosure raises the contrast, and g=0 is null, the interviewer-absent contrast is above the permutation floor). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (positive: planted disclosure raises the contrast, and g=0 is null, the interviewer-absent contrast is above the permutation floor). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : UNVERIFIED · world W3 · COMPOSITION — the placebo moves as much as the carrier
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R357_the_disclosure_gauge_test/results/disclosure_gauge_test.json

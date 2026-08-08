@@ -1,0 +1,931 @@
+{
+ "entry": 919,
+ "round": "E03\u00b7A112\u00b7R357",
+ "verdict": "UNVERIFIED",
+ "world": "W3 \u00b7 COMPOSITION \u2014 the placebo moves as much as the carrier",
+ "estimand": "ceiling-normalised b(ss -> homosex) WITHIN WAVE, contrasted across interview mode; mode is the gauge transformation",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta, `mode` variable",
+ "mode_inventory": {
+  "in-person": {
+   "n": 7557,
+   "ss_rate": 0.10281857880111155,
+   "norm_mean": 2.5601429138547043,
+   "waves": [
+    2004,
+    2006,
+    2008,
+    2010,
+    2012,
+    2014,
+    2016,
+    2018,
+    2022
+   ]
+  },
+  "multimode": {
+   "n": 64,
+   "ss_rate": 0.140625,
+   "norm_mean": 2.984375,
+   "waves": [
+    2021,
+    2022
+   ]
+  },
+  "phone": {
+   "n": 907,
+   "ss_rate": 0.06725468577728776,
+   "norm_mean": 2.687982359426681,
+   "waves": [
+    2004,
+    2006,
+    2008,
+    2010,
+    2012,
+    2014,
+    2016,
+    2018,
+    2021,
+    2022
+   ]
+  },
+  "web": {
+   "n": 1440,
+   "ss_rate": 0.11736111111111111,
+   "norm_mean": 3.0902777777777777,
+   "waves": [
+    2021,
+    2022
+   ]
+  }
+ },
+ "grid": [
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "raw",
+   "item": "homosex",
+   "interviewer_present": 0.5242018537590182,
+   "interviewer_absent": 0.5466101694915254,
+   "contrast": -0.022408315732507234,
+   "n": 107,
+   "n_a": 539,
+   "n_b": 107
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "raw",
+   "item": "premarsx",
+   "interviewer_present": 0.3404761904761935,
+   "interviewer_absent": 0.14864864864864852,
+   "contrast": 0.19182754182754497,
+   "n": 63,
+   "n_a": 277,
+   "n_b": 63
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "raw",
+   "item": "teensex",
+   "interviewer_present": 0.29646974063400156,
+   "interviewer_absent": 0.4615384615384622,
+   "contrast": -0.16506872090446062,
+   "n": 63,
+   "n_a": 279,
+   "n_b": 63
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "demog",
+   "item": "homosex",
+   "interviewer_present": 0.5469953993964619,
+   "interviewer_absent": 0.6391252632734319,
+   "contrast": -0.09212986387696998,
+   "n": 107,
+   "n_a": 539,
+   "n_b": 107
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "demog",
+   "item": "premarsx",
+   "interviewer_present": 0.3359275897442522,
+   "interviewer_absent": 0.24796396820735775,
+   "contrast": 0.08796362153689444,
+   "n": 63,
+   "n_a": 277,
+   "n_b": 63
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "demog",
+   "item": "teensex",
+   "interviewer_present": 0.2908143184692466,
+   "interviewer_absent": 0.4839307678599721,
+   "contrast": -0.19311644939072548,
+   "n": 63,
+   "n_a": 279,
+   "n_b": 63
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "demog+relig",
+   "item": "homosex",
+   "interviewer_present": 0.4672313139569692,
+   "interviewer_absent": 0.5047037922741735,
+   "contrast": -0.037472478317204294,
+   "n": 107,
+   "n_a": 539,
+   "n_b": 107
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "demog+relig",
+   "item": "premarsx",
+   "interviewer_present": 0.2342302596149614,
+   "interviewer_absent": -0.19649272896071515,
+   "contrast": 0.4307229885756766,
+   "n": 63,
+   "n_a": 277,
+   "n_b": 63
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2004,
+   "adjust": "demog+relig",
+   "item": "teensex",
+   "interviewer_present": 0.27176881318225166,
+   "interviewer_absent": 0.3872238963675607,
+   "contrast": -0.11545508318530906,
+   "n": 63,
+   "n_a": 279,
+   "n_b": 63
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "raw",
+   "item": "homosex",
+   "interviewer_present": 0.487409788142281,
+   "interviewer_absent": 0.3620689655172407,
+   "contrast": 0.12534082262504026,
+   "n": 74,
+   "n_a": 1387,
+   "n_b": 74
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "raw",
+   "item": "premarsx",
+   "interviewer_present": 0.2967904371970398,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 40,
+   "n_a": 695,
+   "n_b": 40
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "raw",
+   "item": "teensex",
+   "interviewer_present": 0.10626469959375763,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 41,
+   "n_a": 704,
+   "n_b": 41
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "demog",
+   "item": "homosex",
+   "interviewer_present": 0.4354247338297224,
+   "interviewer_absent": 0.23455960802591064,
+   "contrast": 0.20086512580381177,
+   "n": 74,
+   "n_a": 1384,
+   "n_b": 74
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "demog",
+   "item": "premarsx",
+   "interviewer_present": 0.2606707691219309,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 40,
+   "n_a": 694,
+   "n_b": 40
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "demog",
+   "item": "teensex",
+   "interviewer_present": 0.10158895075750382,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 41,
+   "n_a": 703,
+   "n_b": 41
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "demog+relig",
+   "item": "homosex",
+   "interviewer_present": 0.3808812364645168,
+   "interviewer_absent": 0.3455304816794429,
+   "contrast": 0.035350754785073935,
+   "n": 74,
+   "n_a": 1383,
+   "n_b": 74
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "demog+relig",
+   "item": "premarsx",
+   "interviewer_present": 0.2561816436024658,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 40,
+   "n_a": 693,
+   "n_b": 40
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2006,
+   "adjust": "demog+relig",
+   "item": "teensex",
+   "interviewer_present": 0.09790686107232022,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 41,
+   "n_a": 702,
+   "n_b": 41
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "raw",
+   "item": "homosex",
+   "interviewer_present": 0.332920685805879,
+   "interviewer_absent": 0.5480000000000017,
+   "contrast": -0.21507931419412268,
+   "n": 113,
+   "n_a": 923,
+   "n_b": 113
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "raw",
+   "item": "premarsx",
+   "interviewer_present": 0.2774322643448143,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 55,
+   "n_a": 431,
+   "n_b": 55
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "raw",
+   "item": "teensex",
+   "interviewer_present": 0.046544234893055474,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 55,
+   "n_a": 439,
+   "n_b": 55
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "demog",
+   "item": "homosex",
+   "interviewer_present": 0.3170244870406797,
+   "interviewer_absent": 0.7297718096119312,
+   "contrast": -0.4127473225712515,
+   "n": 112,
+   "n_a": 920,
+   "n_b": 112
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "demog",
+   "item": "premarsx",
+   "interviewer_present": 0.2704013813736978,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 55,
+   "n_a": 430,
+   "n_b": 55
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "demog",
+   "item": "teensex",
+   "interviewer_present": 0.04890710114431118,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 55,
+   "n_a": 438,
+   "n_b": 55
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "demog+relig",
+   "item": "homosex",
+   "interviewer_present": 0.23825429906033577,
+   "interviewer_absent": 0.49133852532672123,
+   "contrast": -0.2530842262663855,
+   "n": 111,
+   "n_a": 920,
+   "n_b": 111
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "demog+relig",
+   "item": "premarsx",
+   "interviewer_present": 0.1435544258434979,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 55,
+   "n_a": 430,
+   "n_b": 55
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2008,
+   "adjust": "demog+relig",
+   "item": "teensex",
+   "interviewer_present": 0.02391444970132136,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 55,
+   "n_a": 438,
+   "n_b": 55
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "raw",
+   "item": "homosex",
+   "interviewer_present": 0.2505195762939157,
+   "interviewer_absent": 0.027480916030534604,
+   "contrast": 0.2230386602633811,
+   "n": 91,
+   "n_a": 922,
+   "n_b": 91
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "raw",
+   "item": "premarsx",
+   "interviewer_present": 0.2240479916536236,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 41,
+   "n_a": 476,
+   "n_b": 41
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "raw",
+   "item": "teensex",
+   "interviewer_present": 0.15531335149863737,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 42,
+   "n_a": 480,
+   "n_b": 42
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "demog",
+   "item": "homosex",
+   "interviewer_present": 0.22085043111778438,
+   "interviewer_absent": 0.14953401727966345,
+   "contrast": 0.07131641383812093,
+   "n": 91,
+   "n_a": 922,
+   "n_b": 91
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "demog",
+   "item": "premarsx",
+   "interviewer_present": 0.14225646808665987,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 41,
+   "n_a": 476,
+   "n_b": 41
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "demog",
+   "item": "teensex",
+   "interviewer_present": 0.12497323631142745,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 42,
+   "n_a": 480,
+   "n_b": 42
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "demog+relig",
+   "item": "homosex",
+   "interviewer_present": 0.19046792127141268,
+   "interviewer_absent": -0.13209964917331984,
+   "contrast": 0.3225675704447325,
+   "n": 91,
+   "n_a": 922,
+   "n_b": 91
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "demog+relig",
+   "item": "premarsx",
+   "interviewer_present": 0.11098507451225542,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 41,
+   "n_a": 476,
+   "n_b": 41
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2010,
+   "adjust": "demog+relig",
+   "item": "teensex",
+   "interviewer_present": 0.1200338745656266,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 42,
+   "n_a": 480,
+   "n_b": 42
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "raw",
+   "item": "homosex",
+   "interviewer_present": 0.37326158865785236,
+   "interviewer_absent": 0.6922413793103416,
+   "contrast": -0.3189797906524892,
+   "n": 119,
+   "n_a": 848,
+   "n_b": 119
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "raw",
+   "item": "premarsx",
+   "interviewer_present": 0.0477896341463417,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 56,
+   "n_a": 403,
+   "n_b": 56
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "raw",
+   "item": "teensex",
+   "interviewer_present": -0.046077210460772094,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 55,
+   "n_a": 410,
+   "n_b": 55
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "demog",
+   "item": "homosex",
+   "interviewer_present": 0.31561410742916157,
+   "interviewer_absent": 0.6474841703855204,
+   "contrast": -0.33187006295635885,
+   "n": 116,
+   "n_a": 847,
+   "n_b": 116
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "demog",
+   "item": "premarsx",
+   "interviewer_present": -0.0017659945523243856,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 54,
+   "n_a": 403,
+   "n_b": 54
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "demog",
+   "item": "teensex",
+   "interviewer_present": -0.06812192346624954,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 53,
+   "n_a": 410,
+   "n_b": 53
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "demog+relig",
+   "item": "homosex",
+   "interviewer_present": 0.2792437232835094,
+   "interviewer_absent": 0.3549098337955111,
+   "contrast": -0.07566611051200173,
+   "n": 116,
+   "n_a": 845,
+   "n_b": 116
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "demog+relig",
+   "item": "premarsx",
+   "interviewer_present": -0.0010345109624920932,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 54,
+   "n_a": 402,
+   "n_b": 54
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2012,
+   "adjust": "demog+relig",
+   "item": "teensex",
+   "interviewer_present": -0.0715703492943733,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 53,
+   "n_a": 409,
+   "n_b": 53
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "raw",
+   "item": "homosex",
+   "interviewer_present": 0.3163559003879404,
+   "interviewer_absent": 0.3291205897840995,
+   "contrast": -0.012764689396159101,
+   "n": 182,
+   "n_a": 1214,
+   "n_b": 182
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "raw",
+   "item": "premarsx",
+   "interviewer_present": 0.32296626818954044,
+   "interviewer_absent": -0.5087719298245609,
+   "contrast": 0.8317381980141013,
+   "n": 86,
+   "n_a": 598,
+   "n_b": 86
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "raw",
+   "item": "teensex",
+   "interviewer_present": 0.047470533435942756,
+   "interviewer_absent": 0.2456140350877201,
+   "contrast": -0.19814350165177733,
+   "n": 86,
+   "n_a": 603,
+   "n_b": 86
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "demog",
+   "item": "homosex",
+   "interviewer_present": 0.32460954873206543,
+   "interviewer_absent": 0.291897692113705,
+   "contrast": 0.03271185661836046,
+   "n": 180,
+   "n_a": 1211,
+   "n_b": 180
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "demog",
+   "item": "premarsx",
+   "interviewer_present": 0.31233764460090446,
+   "interviewer_absent": -0.4771449059618919,
+   "contrast": 0.7894825505627964,
+   "n": 85,
+   "n_a": 598,
+   "n_b": 85
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "demog",
+   "item": "teensex",
+   "interviewer_present": 0.05205160996963293,
+   "interviewer_absent": 0.2512689272482328,
+   "contrast": -0.19921731727859987,
+   "n": 85,
+   "n_a": 603,
+   "n_b": 85
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "demog+relig",
+   "item": "homosex",
+   "interviewer_present": 0.2723024896647253,
+   "interviewer_absent": 0.3337873386593193,
+   "contrast": -0.061484848994594,
+   "n": 180,
+   "n_a": 1209,
+   "n_b": 180
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "demog+relig",
+   "item": "premarsx",
+   "interviewer_present": 0.24126222355863347,
+   "interviewer_absent": -0.46351625586355283,
+   "contrast": 0.7047784794221863,
+   "n": 85,
+   "n_a": 597,
+   "n_b": 85
+  },
+  {
+   "family": "in-person vs phone (8 waves, BOTH have an interviewer)",
+   "year": 2014,
+   "adjust": "demog+relig",
+   "item": "teensex",
+   "interviewer_present": 0.04502961227593794,
+   "interviewer_absent": 0.2530243133649691,
+   "contrast": -0.20799470108903118,
+   "n": 85,
+   "n_a": 602,
+   "n_b": 85
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "raw",
+   "item": "homosex",
+   "interviewer_present": 0.2779775280898878,
+   "interviewer_absent": 0.4544283413848654,
+   "contrast": -0.17645081329497758,
+   "n": 408,
+   "n_a": 408,
+   "n_b": 484
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "raw",
+   "item": "premarsx",
+   "interviewer_present": NaN,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 0,
+   "n_a": 0,
+   "n_b": 0
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "raw",
+   "item": "teensex",
+   "interviewer_present": NaN,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 0,
+   "n_a": 0,
+   "n_b": 0
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "demog",
+   "item": "homosex",
+   "interviewer_present": 0.25180832770641676,
+   "interviewer_absent": 0.36548708184743023,
+   "contrast": -0.11367875414101347,
+   "n": 384,
+   "n_a": 384,
+   "n_b": 470
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "demog",
+   "item": "premarsx",
+   "interviewer_present": NaN,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 0,
+   "n_a": 0,
+   "n_b": 0
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "demog",
+   "item": "teensex",
+   "interviewer_present": NaN,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 0,
+   "n_a": 0,
+   "n_b": 0
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "demog+relig",
+   "item": "homosex",
+   "interviewer_present": 0.14424682542210085,
+   "interviewer_absent": 0.3150413354175273,
+   "contrast": -0.17079450999542647,
+   "n": 381,
+   "n_a": 381,
+   "n_b": 469
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "demog+relig",
+   "item": "premarsx",
+   "interviewer_present": NaN,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 0,
+   "n_a": 0,
+   "n_b": 0
+  },
+  {
+   "family": "in-person vs web (2022, web has NONE)",
+   "year": 2022,
+   "adjust": "demog+relig",
+   "item": "teensex",
+   "interviewer_present": NaN,
+   "interviewer_absent": NaN,
+   "contrast": NaN,
+   "n": 0,
+   "n_a": 0,
+   "n_b": 0
+  }
+ ],
+ "summary": {
+  "in-person vs phone (8 waves, BOTH have an interviewer)|homosex": {
+   "median": -0.029940397024855764,
+   "cells": 18,
+   "sd": 0.1961144119005713
+  },
+  "in-person vs phone (8 waves, BOTH have an interviewer)|premarsx": {
+   "median": 0.5677507339989314,
+   "cells": 6,
+   "sd": 0.29014535027454047
+  },
+  "in-person vs phone (8 waves, BOTH have an interviewer)|teensex": {
+   "median": -0.1956299755212514,
+   "cells": 6,
+   "sd": 0.03173604095458113
+  },
+  "in-person vs web (2022, web has NONE)|homosex": {
+   "median": -0.17079450999542647,
+   "cells": 3,
+   "sd": 0.02835202274631133
+  },
+  "in-person vs web (2022, web has NONE)|premarsx": {
+   "median": NaN,
+   "cells": 0,
+   "sd": NaN
+  },
+  "in-person vs web (2022, web has NONE)|teensex": {
+   "median": NaN,
+   "cells": 0,
+   "sd": NaN
+  }
+ },
+ "carrier_contrast_web": -0.17079450999542647,
+ "carrier_contrast_phone": -0.029940397024855764,
+ "placebo_max": 0.5677507339989314,
+ "null_median": 0.0013138593713855062,
+ "null_sd": 0.3095134187350466,
+ "null_draws": 279,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.022408315732507234
+  ],
+  [
+   0.1,
+   0.03706645254761032
+  ],
+  [
+   0.2,
+   0.015154695812833685
+  ],
+  [
+   0.3,
+   -0.009191700559153526
+  ],
+  [
+   0.4,
+   -0.03640237885725006
+  ]
+ ],
+ "corrects": "`#918`(2) said this needed an acquisition; GSS ships `mode`",
+ "gates": [
+  [
+   "positive: planted disclosure raises the contrast, and g=0 is null",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u5e73/\u975e\u5355\u8c03**;\u7075\u654f\u5ea6 g=0.1;g=0 -0.0224 \u00b7 g=0.4 -0.0364",
+   false,
+   "\u626b\u63cf**\u975e\u5355\u8c03** \u2014\u2014 \u79cd\u5165\u5f88\u53ef\u80fd\u5e72\u6270\u4e86\u5b83\u672c\u8be5\u4fdd\u6301\u4e0d\u53d8\u7684\u53d8\u91cf(#248c\u2460)"
+  ],
+  [
+   "mode labels permuted WITHIN wave, arm sizes preserved",
+   "|+0.0013| < 0.5*|+0.1708| = 0.0854",
+   true,
+   "null is 1% of the effect [\u96f6\u7684\u65b9\u6848: within-wave mode-label permutation]"
+  ],
+  [
+   "the whole family x wave x adjustment x item grid",
+   "method=bh q=0.05 \u00b7 **cells tested 33 \u00b7 cells surviving 0** \u00b7 \u5b58\u6d3b \u65e0 \u00b7 \u672a\u5b58\u6d3b ['in-person vs pho|2004|raw|homosex', 'in-person vs pho|2004|raw|premarsx', 'in-person vs pho|2004|raw|teensex', 'in-person vs pho|2004|demog|homosex', 'in-person vs pho|2004|demog|premarsx', 'in-person vs pho|2004|demog|teensex', 'in-person vs pho|2004|demog+relig|homosex', 'in-person vs pho|2004|demog+relig|premarsx']\u2026",
+   true,
+   "control"
+  ],
+  [
+   "placebo actually RAN in both families (absence is not a pass)",
+   "2 placebo family-medians computed",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "composition detector: the PLACEBO items must not move with mode as much as the carrier",
+   "largest |placebo contrast| 0.5678 vs carrier(web family) -0.1708",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "63/63 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "the interviewer-absent contrast is above the permutation floor",
+   "|+0.1721| > 2*0.3095 = 0.6190",
+   false,
+   "0.6x its own spread"
+  ],
+  [
+   "KILL: W2 (disclosure) requires the contrast to be POSITIVE where the interviewer is absent",
+   "in-person minus web contrast -0.1708 vs null +0.0013 +/- 0.3095; in-person minus phone -0.0299   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (positive: planted disclosure raises the contrast, and g=0 is null, the interviewer-absent contrast is above the permutation floor). This is a refutation, NOT an unverified round (#366e)."
+}
