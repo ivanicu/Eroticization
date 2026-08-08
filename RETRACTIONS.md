@@ -47223,3 +47223,73 @@ question kept.**
    `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② ·
    `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① ·
    `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 935 · `E03·A118·R373` — it moved furthest and became MORE tied to the others, not less
+
+**⇒ `CONFIRMED` · world `W_EMBEDDED`. `homosex` did not detach from the other three sexual norms. Its
+mean coupling to them **rose from 0.3311 (1988) to 0.4804 (2024)** — a trend of **+0.0306 per
+decade** against a within-wave permutation null of **−0.0027 ± 0.0030**, about **11 null-spreads** —
+while the three pairs **among the other three stayed flat at −0.0005 per decade**.
+
+**WHY THIS QUESTION.** `#933`/`#934` are the project's best-supported claim, and the page has been
+writing "one act moved alone" as though moving far and **leaving** were the same event. **They are
+not.** An item can travel a long way and stay inside the same dimension, or detach from it — and
+nobody had asked which happened.
+
+**⚠ THE OBVIOUS DESIGN WAS MEASURED AND REJECTED BEFORE THIS ONE WAS BUILT.** Subgroup movement
+correlations give **26–31 usable cells** — the shape `#930` already ran at 25 cells and got **0 of 3
+splits surviving BH** against a **±0.21** null. `#930`② called that a **resolution limit** and said
+the next move must be a different question. **So the statistic changed, not the sample**: individual
+level, ~700 respondents per wave, 21 waves.
+
+| | 1988 | 2024 | trend / decade |
+|---|---|---|---|
+| **`homosex` ↔ the other three** | 0.3311 | **0.4804** | **+0.0306** |
+| among the other three | 0.3814 | 0.4172 | −0.0005 |
+
+**THE SHAM IS WHAT MAKES THIS READABLE**: the three pairs among `premarsx`/`teensex`/`xmarsex` are
+the reference, and **their coherence did not move.** Had it fallen or risen together, nothing here
+would have been about this act.
+
+**⚠⚠ AND THE MAGNITUDE IS PARTLY THE ITEM'S OWN SPREADING, WHICH I PRINTED AND MUST NOT SKIP.**
+`homosex`'s sd rose **1.089 → 1.407** (+29%) against the others' **0.896 → 1.062** (+19%). **In 1988
+the item was pinned near "always wrong", and a near-degenerate marginal caps any rank correlation**
+(`#918`'s attainable-range logic). So part of the +0.0306 is the item becoming less degenerate.
+⇒ **The DIRECTION is what this round establishes — it did not detach — and the size of the rise is
+not cleanly separable from the item's own variance growth.**
+
+**⚠ MY PLANT WAS BUILT BACKWARDS AND THE CONTROL CAUGHT IT.** v1 restored the true coupling **fully
+at `g=0`** (`frac = 1 − g·i`), so the zero arm was the **observed** world (trend +0.0306) while the
+baseline handed to the gate was the **permutation null** (−0.0027) — the `#920`/`#923` two-worlds
+error, printed as *"g=0 未落在基线上"*. Repaired to restore **nothing** at `g=0` and progressively
+more in later waves: `0 → −0.0027 · 0.25 → +0.0217 · 0.50 → +0.0533 · 0.75 → +0.0848 · 1.0 →
++0.1128`, monotone, `g=0` on the null by construction.
+
+**⇒ One sentence about people: the act Americans changed their minds about most is not one they set
+apart — as they came to accept homosexuality, their view of it became MORE tightly bound to their
+views on premarital sex, teenage sex and adultery, not less; it moved furthest without ever leaving
+the company it started in.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **a rising rank correlation is not cleanly separable from a widening marginal** — both are
+   reported side by side, and the size of the rise is therefore bounded, not estimated;
+② ⚠ all four items are asked in one interview (HARD RULE 2), inherited from `#933`; `#934` removed
+   the four-item version of that confound but **not the two-item one**;
+③ ⚠ repeated cross-section — this is a trend in a population statistic, never in any person;
+④ ⚠ **only this one instrument**; ⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE PAGE SAYS "ONE ACT MOVED" AND SHOULD SAY "ONE ACT MOVED, WITHOUT LEAVING".** Those are
+   different psychological claims and the second is the measured one. ⇒ `#935`①
+② ⚠ **THE VARIANCE CONFOUND IS THE NEXT REAL ATTACK**, and it is answerable: recompute the coupling
+   on a **variance-matched** subsample or against each wave's own attainable ceiling, exactly as
+   `#918` did for a different statistic. That would turn a bounded direction into a magnitude.
+   ⇒ `#935`②
+③ ⚠ Still `OPEN`: `#934`①②③ · `#933`① · `#932`① · `#931`② · `#930`①② · `#929`②③ · `#928`①③ · `#927`③ ·
+   `#926`① · `#925`② · `#924`② · `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ ·
+   `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② ·
+   `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② ·
+   `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ ·
+   `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
+   `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
+   `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

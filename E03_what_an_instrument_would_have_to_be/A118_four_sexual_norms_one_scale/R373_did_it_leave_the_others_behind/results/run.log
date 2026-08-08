@@ -1,0 +1,48 @@
+PRECONDITION — ballot 1, all four answered, waves with n>=300: 21 usable · DROPPED 0: none (absence reported, not passed)
+  total n=15056 · per-wave min 428 median 731
+
+=== THE GRID — per wave (all cells, disagreeing ones included) ===
+  1988  n= 452  |rho| homosex-to-others 0.3311 · among the other three 0.3814  |  sd homosex 1.089 others 0.896
+  1989  n= 465  |rho| homosex-to-others 0.3259 · among the other three 0.3624  |  sd homosex 1.094 others 0.890
+  1990  n= 428  |rho| homosex-to-others 0.3203 · among the other three 0.3394  |  sd homosex 1.061 others 0.861
+  1991  n= 445  |rho| homosex-to-others 0.3518 · among the other three 0.4079  |  sd homosex 1.098 others 0.927
+  1993  n= 500  |rho| homosex-to-others 0.3760 · among the other three 0.4009  |  sd homosex 1.214 others 0.899
+  1994  n= 894  |rho| homosex-to-others 0.3527 · among the other three 0.3540  |  sd homosex 1.290 others 0.910
+  1996  n= 877  |rho| homosex-to-others 0.3886 · among the other three 0.3450  |  sd homosex 1.323 others 0.894
+  1998  n= 815  |rho| homosex-to-others 0.3682 · among the other three 0.3523  |  sd homosex 1.360 others 0.888
+  2000  n= 805  |rho| homosex-to-others 0.3121 · among the other three 0.3283  |  sd homosex 1.332 others 0.920
+  2002  n= 428  |rho| homosex-to-others 0.3796 · among the other three 0.3688  |  sd homosex 1.396 others 0.897
+  2004  n= 435  |rho| homosex-to-others 0.4287 · among the other three 0.3779  |  sd homosex 1.359 others 0.947
+  2006  n= 927  |rho| homosex-to-others 0.3722 · among the other three 0.3286  |  sd homosex 1.379 others 0.893
+  2008  n= 595  |rho| homosex-to-others 0.3771 · among the other three 0.3321  |  sd homosex 1.419 others 0.905
+  2010  n= 614  |rho| homosex-to-others 0.3777 · among the other three 0.3305  |  sd homosex 1.415 others 0.921
+  2012  n= 576  |rho| homosex-to-others 0.3964 · among the other three 0.3136  |  sd homosex 1.440 others 0.927
+  2014  n= 807  |rho| homosex-to-others 0.3395 · among the other three 0.2927  |  sd homosex 1.413 others 0.912
+  2016  n= 853  |rho| homosex-to-others 0.4303 · among the other three 0.3687  |  sd homosex 1.428 others 0.992
+  2018  n= 731  |rho| homosex-to-others 0.4260 · among the other three 0.3677  |  sd homosex 1.390 others 0.968
+  2021  n=1302  |rho| homosex-to-others 0.4706 · among the other three 0.3862  |  sd homosex 1.291 others 1.014
+  2022  n=1088  |rho| homosex-to-others 0.4122 · among the other three 0.3754  |  sd homosex 1.317 others 1.011
+  2024  n=1019  |rho| homosex-to-others 0.4804 · among the other three 0.4172  |  sd homosex 1.407 others 1.062
+
+  trend per decade: homosex-to-others +0.0306 · among the other three -0.0005
+  first wave 1988: target 0.3311 others 0.3814
+  last  wave 2024: target 0.4804 others 0.4172
+  ⚠ variance check (a falling rho can be a shrinking sd): homosex sd 1.089 -> 1.407 · others 0.896 -> 1.062
+
+  null for the TREND (target permuted across persons within each wave; kind of null: within-wave person-label permutation): -0.0027 +/- 0.0030 over 300 draws
+  positive sweep (a RISING coupling trend of strength g planted into the permuted world; g=0 IS the null): [(0.0, -0.0027), (0.25, 0.0217), (0.5, 0.0533), (0.75, 0.0848), (1.0, 0.1128)]
+
+  CONDITIONAL KILL -- Did `homosex` leave the other three behind?
+   PASS  positive: a planted RISING coupling trend raises the measured trend, and g=0 IS the null world                                     方向由数据给出:**上升**;灵敏度 g=0.25;g=0 -0.0027 · g=1 +0.1128   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  target permuted across persons within each wave                                                                                    |+0.0027| < 0.5*|+0.0306| = 0.0153   (null is 9% of the effect [零的方案: within-wave person-label permutation])
+   PASS  all waves                                                                                                                          method=bh q=0.05 · **cells tested 21 · cells surviving 0** · 存活 无 · 未存活 ['1988', '1989', '1990', '1991', '1993', '1994', '1996', '1998']…   (control)
+   PASS  SHAM: the three pairs among the OTHER THREE are the reference — if their coherence falls too, nothing here is about homosexuality  target trend +0.0306/decade · other-three trend -0.0005/decade   (asserted in code, not in prose)
+   PASS  VARIANCE printed beside the correlation, because a falling rho can be a shrinking sd                                               homosex sd 1.089 -> 1.407; others 0.896 -> 1.062   (asserted in code, not in prose)
+   PASS  the subgroup design was REJECTED on power before this one was built (`#930`(2))                                                    politics x education x religiosity x cohort gives 26-31 cells; `#930` ran that shape at 25 and got 0/3 surviving BH against a ±0.21 null. The statistic changed, not the sample   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                                                                  21/21 格带 n   (每一格都声明了自己的人群规模)
+   PASS  KILL: W_EMBEDDED requires the `homosex`-to-others coupling trend to sit on its null                                                trend +0.0306 per decade vs null -0.0027 +/- 0.0030; coupling 0.3311 (1988) -> 0.4804 (2024)   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : CONFIRMED · world W_EMBEDDED · it moved far and stayed inside the same structure
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R373_did_it_leave_the_others_behind/results/did_it_leave_the_others_behind.json

@@ -485,6 +485,27 @@ of 0.15**, roughly twenty times the observed one.
 ⚠ **What is still not ruled out**, narrowly: `xmarsex` and `homosex` are *still asked as a pair* on ballot 3,
 so a **two-item** anchor survives untested — and no ballot ever separates that pair.
 
+⚠⚠ **`#935` then asked what that movement did to the STRUCTURE, and the answer is the opposite of "it moved
+alone".** An item can travel far and stay inside the same dimension, or **detach** from it — different
+psychological events, and the page had been writing them as one.
+
+| `#935` | 1988 | 2024 | trend / decade |
+|---|---|---|---|
+| **`homosex` ↔ the other three** | 0.3311 | **0.4804** | **+0.0306** |
+| among the other three (the sham) | 0.3814 | 0.4172 | −0.0005 |
+
+Against a within-wave permutation null of **−0.0027 ± 0.0030** (`#935`, ~11 spreads, kind of null:
+within-wave person-label permutation), with the **sham** — the three
+pairs among the others — **flat**, so this is about this act and not about the battery. ⚠ **And the size is
+bounded, not estimated**: `homosex`'s sd rose **1.089 → 1.407** (+29%) against the others' +19%, and a
+near-degenerate marginal caps any rank correlation, so part of the rise is the item becoming less pinned.
+**The direction is what stands.**
+
+> **One sentence about people (`#935`): the act Americans changed their minds about most is not one they set
+> apart — as they came to accept homosexuality, their view of it became MORE tightly bound to their views on
+> premarital sex, teenage sex and adultery, not less; it moved furthest without ever leaving the company it
+> started in.**
+
 ⚠ **Prior art**: Twenge, Sherman & Wells (2015) documented the divergent trends in exactly these four
 items. **The divergence is not new here**; the *within-cohort* version — same birth years, not a
 changing population — with a measured ceiling control and a permutation null, is. ⚠ **What still
