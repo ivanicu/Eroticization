@@ -48425,3 +48425,49 @@ Patefield/rc-sample on the contingency table would give. `#952`③ **`#916`③ h
 consecutive rounds and the taxonomy has three branches**, not one: control tests the wrong property ·
 null removes the rival's variable · verdict string disagrees with the gate. `#948`①'s gate must
 address all three or it will keep catching one.
+
+## Entry 953 · `E03·A128` — PRODUCTION: the retraction reaches the two blocks that asserted it
+
+**Not a Frontier action, no card, no experiment.** `#952`① said the correction must reach `#945`'s
+own block and also `#947`'s, which **dated** an exchange rate `#952` then showed was never there.
+`#946` established this rule, `#948` exists because it recurred, and `#951`① honoured it in the same
+commit as its own round. **This is the fourth application, and it lands before the next frontier
+step, not after.**
+
+**On `#945`'s block, both languages**: every z there is against a within-person item-label
+permutation, which gives all fifteen items the same marginal by construction. Against a curveball
+swap holding every person's total *and* every item's exact marginal — binary items, so column sum
+determines the whole distribution, measured column drift **0.00e+00** and row drift **0** — **1 of
+those 12 cells survives**, `homosexuals × racists` survives in **0 of 3 stems** (its most negative
+cell goes z = −19.68 → **−0.21**), and **28 of 30 cells now sit ABOVE their null.**
+
+**On `#947`'s block, both languages**: it dated the exchange rate and found it did not sharpen.
+**`#952` makes that trivially true for a reason `#947` did not know** — the exchange rate was never
+there — so *"it did not tighten"* is correct and vacuous. **What survives `#947` is the decomposition
+method** (`raw trend = null's own trend + departure`), not the object it was pointed at.
+
+**⚠⚠ AND THE ANCHOR GATE CAUGHT THIS ENTRY, FOR THE THIRD TIME ON A PRODUCTION CORRECTION** —
+`#946`, `#948`, and now this one. Each time the block cited the round that *found* the defect and not
+the entry that *landed* the fix, so `claims_without_anchor` refused the commit until `#953` itself
+appeared on the page. **That gate is a partial mechanism for `#946`② already in place**: it cannot
+tell me which page sentences a later entry has qualified, but it does force every entry that claims
+to have edited the page to prove it. The missing half is the reverse direction — from an *old* claim
+to the entries that have since undermined it.
+
+**⚠ The one general thing, and it is why this is a separate entry rather than a line in `#952`.**
+Three of the last eight entries have been corrections chasing claims across the page, and the pattern
+in all three is identical: **a round produces a result, a later round undermines it, and the
+undermining lives in the later round's block where nobody reading the earlier claim will meet it.**
+`#946`② named the missing mechanism — *nothing systematically asks which page sentences a later entry
+has already qualified* — and it is still open. Each of these entries is that debt being paid by hand.
+
+**ONE SENTENCE ABOUT PEOPLE.** Unchanged and now stated where each claim lives: **what looked like
+Americans trading one out-group against another was Americans being more willing to tolerate some
+groups than others.**
+
+**NEXT** — `#953`① `#952`② is the frontier step and it is now the whole arc's hinge: **`#951`'s 13.9%
+residual used a swap that held column SUMS on 4-point items**, and `#952` showed on binary items —
+where shape is exactly held — that the effect vanishes and reverses. If the 4-point residual also
+vanishes, **A126–A127 produce nothing but "it was the marginals"**. `#953`② `#946`② remains the real
+open item: this is the fourth hand-paid instance of a debt whose mechanism was specified two entries
+after it was named and has never been built.

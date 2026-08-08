@@ -744,6 +744,11 @@ was already there in 1988, at roughly the size it has now.**
 > tolerating racists is not new and is not tightening — it was already there in 1988 at about today's
 > size, so the two groups' opposite journeys since were not one group's gain taken from the other;
 > they moved apart for reasons this exchange rate does not explain.**
+> ⚠⚠ **AND `#952` MAKES THIS TRIVIALLY TRUE FOR A REASON THIS ROUND DID NOT KNOW** (noted here at `#953`)**.** This block dated an
+> exchange rate and found it did not sharpen. `#952` then showed, against a margin-exact null, that the
+> exchange rate **was never there** — so "it did not tighten" is correct but vacuous. The finding here
+> that survives is the **decomposition method** (raw trend = null's own trend + departure), not the
+> object it was pointed at.
 
 ### `#945` · the exchange rate is between homosexuals and racists
 
@@ -796,6 +801,15 @@ tolerance" from "one thing pushes these two apart", and never observes a person 
 > tolerant people really are tolerant of nearly everyone — but once you hold constant how tolerant a
 > person is in general, the sharpest trade in the whole battery is homosexuals against racists: the
 > room a person makes for one is, more than for any other pair, room taken from the other.**
+> ⚠⚠ **RETRACTED AS A SIZE CLAIM AT `#952`, landed here at `#953` — the exchange rate does not survive a margin-exact
+> null.** Every z on this block is against a **within-person item-label permutation**, which gives all
+> fifteen items the *same* marginal by construction. Re-referred to a **curveball swap holding every
+> person's total AND every item's exact marginal** (binary items ⇒ column sum determines the whole
+> distribution; measured column drift **0.00e+00**, row drift **0**): **1 of these 12 cells survives**,
+> `homosexuals × racists` survives in **0 of 3 stems** — its most negative cell goes from z = −19.68 to
+> **z = −0.21**, exactly on the null — and **28 of 30 cells now sit ABOVE their null**, co-held rather
+> than traded. **What produced the pattern was that some groups are simply more tolerated than
+> others.**
 
 ### `#944` · they grew more willing to let them teach and less willing to let them speak
 
