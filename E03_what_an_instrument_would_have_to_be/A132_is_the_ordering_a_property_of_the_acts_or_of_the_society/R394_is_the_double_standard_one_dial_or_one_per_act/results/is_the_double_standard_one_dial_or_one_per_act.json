@@ -1,0 +1,388 @@
+{
+ "entry": 961,
+ "round": "E03\u00b7A132\u00b7R394",
+ "gate_verdict": "   => UNVERIFIED, and that is not an acquittal -- the instrument failed its own control (\u26a0\u26a0 REPLICATION ARM, AND IT IS THE FINDING: the same fork recomputed with Broude & Greene supplying the extramarital double standard instead of Whyte. Counted PER INSTRUMENT rather than per cell, because the code",
+ "gates": [
+  [
+   "positive: copying a share g of the premarital double-standard indicator into the extramarital one must raise \u03c6, and g=0 is a fresh permutation whose value is COMPUTED in the round rather than asserted (`#959`\u2462)",
+   true,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.15;g=0 -0.0735 \u00b7 g=0.5 +0.5222"
+  ],
+  [
+   "N1: permuting the extramarital indicator across societies destroys the pairing while holding both margins, so the expected \u03c6 is zero in closed form",
+   true,
+   "|+0.0028| < 0.5*|+0.3214| = 0.1607"
+  ],
+  [
+   "3 code-3 treatments x 2 instruments (`#936`\u2461)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 9 \u00b7 cells surviving 0** \u00b7 \u5b58\u6d3b \u65e0 \u00b7 \u672a\u5b58\u6d3b ['Whyte SCCS59/code3=not', 'Broude&Green/code3=not', 'Broude&Green/code3=not', 'Whyte SCCS59/code3=is', 'Broude&Green/code3=is', 'Broude&Green/code3=is', 'Whyte SCCS59/code3=drop', 'Broude&Green/code3=drop']\u2026"
+  ],
+  [
+   "\u26a0\u26a0 `#960`'s IMPOSSIBILITY REGISTER IS RETRACTED BY MEASUREMENT. It recorded 'no second ethnographic coding of these acts' as STRUCTURALLY CANNOT, one round ago, without running the query that dissolves it. Whyte 1978 coded the extramarital double standard independently of Broude & Greene 1976 and 51 societies carry both. An unchecked wall is UNVERIFIED, never SETTLED",
+   true,
+   "SCCS596/597 source=whyte1978cross (n=73/75) \u00b7 SCCS169 source=broude1976cross (n=109) \u00b7 overlap n=51 \u00b7 this is the first claim in the project with two independent instruments pointed at it \u00b7 \u603b\u4f53:SCCS, 186 societies"
+  ],
+  [
+   "\u26a0 E1 GATES E2: two teams reading HRAF and asking different questions \u2014 Whyte 'is there a double standard', Broude & Greene 'what is the extramarital rule'. If they disagree, neither world below is readable and `#960`'s 66.1% is a claim about one team",
+   true,
+   "n=51 \u00b7 raw agreement 0.6667 \u00b7 Cohen's \u03ba +0.3630 \u00b7 permutation null +0.0020 \u00b1 0.1282 \u00b7 one-sided p 0.0049 \u00b7 admissible iff \u03ba>0.20 and p<0.05 \u00b7 \u603b\u4f53:SCCS societies coded by both teams, n=51"
+  ],
+  [
+   "\u26a0 THE STRONGEST CONFOUND, registered rather than removed: both teams read the SAME HRAF ethnographies, so \u03ba bounds coder-independence from ABOVE and never proves it \u2014 agreement can mean the societies are like that, or that both teams inherited one ethnographer's sentence. A second field observation is what removing it would take",
+   true,
+   "shared corpus is structurally unremovable here; the mitigation is that the two teams asked different questions, so their agreement is at least not a restatement \u00b7 \u603b\u4f53:SCCS societies coded by both teams, n=51"
+  ],
+  [
+   "\u26a0\u26a0 POWER AT THE OBSERVED EFFECT \u2014 the control `#960`\u2462 owes, and the third round in a row where this family of defect had to be repaired. Evaluated at the \u03c6 actually seen, not at a larger one",
+   true,
+   "power to detect \u03c6=+0.3186 at n=64 is 0.684 \u00b7 \u603b\u4f53:SCCS fork subset n=64"
+  ],
+  [
+   "\u26a0\u26a0 REPLICATION ARM, AND IT IS THE FINDING: the same fork recomputed with Broude & Greene supplying the extramarital double standard instead of Whyte. Counted PER INSTRUMENT rather than per cell, because the code-3 axis moves 2 societies and three near-copies are not three votes \u2014 that count was my own multiplicity error in the flattering direction",
+   false,
+   "Whyte SCCS59/code3=not: n=64 \u03c6 +0.3186 OR 3.72 p 0.0180 \u00b7 Broude&Green/code3=not: n=49 \u03c6 -0.0244 OR 0.90 p 1.0000 \u00b7 Broude&Green/code3=not: n=49 \u03c6 +0.0887 OR 1.44 p 0.5587 \u00b7 Whyte SCCS59/code3=is: n=64 \u03c6 +0.3241 OR 3.76 p 0.0117 \u00b7 Broude&Green/code3=is: n=49 \u03c6 -0.0244 OR 0.90 p 1.0000 \u00b7 Broude&Green/code3=is: n=49 \u03c6 +0.0887 OR 1.44 p 0.5587 \u00b7 Whyte SCCS59/code3=drop: n=62 \u03c6 +0.3312 OR 3.90 p 0.0166 \u00b7 Broude&Green/code3=drop: n=49 \u03c6 -0.0244 OR 0.90 p 1.0000 \u00b7 Broude&Green/code3=drop: n=49 \u03c6 +0.0887 OR 1.44 p 0.5587 \u00b7 \u603b\u4f53:SCCS, both fork subsets"
+  ],
+  [
+   "\u26a0 GALTON'S PROBLEM bounded, not removed: \u03c6 recomputed leaving out each of Murdock's six world regions",
+   true,
+   "\u2212Africa (n=56) \u03c6 +0.3802 \u00b7 \u2212Circum-Mediterranean (n=54) \u03c6 +0.2987 \u00b7 \u2212East Eurasia (n=51) \u03c6 +0.2296 \u00b7 \u2212Insular Pacific (n=55) \u03c6 +0.2544 \u00b7 \u2212North America (n=47) \u03c6 +0.3697 \u00b7 \u2212South America (n=57) \u03c6 +0.3873 \u00b7 \u603b\u4f53:SCCS fork subset n=64"
+  ],
+  [
+   "the whole code-3 x instrument grid is published, disagreeing cells included",
+   true,
+   "Whyte SC/not \u03c6+0.319 p0.018 \u00b7 Broude&G/not \u03c6-0.024 p1.000 \u00b7 Broude&G/not \u03c6+0.089 p0.559 \u00b7 Whyte SC/is \u03c6+0.324 p0.012 \u00b7 Broude&G/is \u03c6-0.024 p1.000 \u00b7 Broude&G/is \u03c6+0.089 p0.559 \u00b7 Whyte SC/drop \u03c6+0.331 p0.017 \u00b7 Broude&G/drop \u03c6-0.024 p1.000 \u00b7 Broude&G/drop \u03c6+0.089 p0.559 \u00b7 \u603b\u4f53:SCCS, both fork subsets"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the plant fires with g=0 on the permutation null, N1 returns its known zero, the placebo vanishes, AND the two coding teams agree above chance. STAKED: W_ONE_DIAL, i.e. the premarital and extramarital double standards are positively associated, clearing the permutation null, in a majority of the grid. \u26a0 W_ACT_SPECIFIC means 'the double standard' is one phrase over two unrelated arrangements; W_INSTRUMENT means A132 has been measuring coders",
+   false,
+   "plant fires True (first detectable g=0.3) \u00b7 g=0 on null True \u00b7 N1 at zero True (-0.00283) \u00b7 placebo True \u00b7 \u03ba admissible True (\u03ba=+0.3630, p=0.0049) \u00b7 power at observed \u03c6 0.684 \u00b7 \u03c6 +0.3186 OR 3.72, permutation p 0.0180 \u00b7 grid cells positive-and-significant 3/9 \u00b7 PER-INSTRUMENT {'Broude&Greene 2only': 'null', 'Broude&Greene 2or3': 'null', 'Whyte SCCS597': 'positive'}, agree False \u21d2 W_INSTRUMENT_SPLIT   \u5c3a:\u03c6 between the premarital and extramarital sexual double standards across societies,\u5176\u81ea\u8eab\u566a\u58f0 0.12614 \u00b7 \u603b\u4f53:SCCS societies coded by Whyte 1978 on both acts, n=64 of 186, six world regions \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:7/7 \u6761\u5df2\u547d\u540d,**7 \u6761\u4e0e\u5224\u636e\u4e0d\u540c** [\"\u26a0\u26a0 `#960`'s IMPOSSIBILITY RE\", '\u26a0 E1 GATES E2: two teams rea', '\u26a0 THE STRONGEST CONFOUND, re', '\u26a0\u26a0 POWER AT THE OBSERVED EFF', '\u26a0\u26a0 REPLICATION ARM, AND IT I', \"\u26a0 GALTON'S PROBLEM bounded, \", 'the whole code-3 x instrumen']  \u26a0 **\u63a7\u5236\u7684\u603b\u4f53 \u2260 \u4e3b\u5f20\u7684\u603b\u4f53** \u2014\u2014 **\u5b83\u8bc1\u660e\u7684\u662f\u53e6\u4e00\u7fa4\u4eba\u8eab\u4e0a\u7684\u4eea\u5668**(`#866`\u2460)(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "instruments": {
+  "whyte1978": [
+   "SCCS596",
+   "SCCS597"
+  ],
+  "broude1976": [
+   "SCCS169"
+  ]
+ },
+ "coverage": {
+  "SCCS596": 73,
+  "SCCS597": 75,
+  "SCCS169": 109
+ },
+ "n_fork": 64,
+ "n_cross_instrument": 51,
+ "kappa": 0.3629684055841292,
+ "kappa_p": 0.004916666666666666,
+ "raw_agreement": 0.6666666666666666,
+ "chance_agreement": 0.4767397154940408,
+ "kappa_null_mean": 0.0020337986774429393,
+ "kappa_null_sd": 0.1282261061383586,
+ "grid": [
+  {
+   "code3": "not",
+   "instrument": "Whyte SCCS597",
+   "bg_def": "-",
+   "n": 64,
+   "phi": 0.31859300290731674,
+   "odds_ratio": 3.72,
+   "fisher_p": 0.01800018499640377,
+   "table": [
+    [
+     28,
+     9
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "pre_rate": 0.421875,
+   "ext_rate": 0.375
+  },
+  {
+   "code3": "not",
+   "instrument": "Broude&Greene 2or3",
+   "bg_def": "[2, 3]",
+   "n": 49,
+   "phi": -0.024441185836892216,
+   "odds_ratio": 0.9014308426073132,
+   "fisher_p": 1.0,
+   "table": [
+    [
+     13,
+     18
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "pre_rate": 0.3673469387755102,
+   "ext_rate": 0.5714285714285714
+  },
+  {
+   "code3": "not",
+   "instrument": "Broude&Greene 2only",
+   "bg_def": "[2]",
+   "n": 49,
+   "phi": 0.08865749924595245,
+   "odds_ratio": 1.443064182194617,
+   "fisher_p": 0.5586653544709808,
+   "table": [
+    [
+     20,
+     11
+    ],
+    [
+     10,
+     8
+    ]
+   ],
+   "pre_rate": 0.3673469387755102,
+   "ext_rate": 0.3877551020408163
+  },
+  {
+   "code3": "is",
+   "instrument": "Whyte SCCS597",
+   "bg_def": "-",
+   "n": 64,
+   "phi": 0.32411166008994946,
+   "odds_ratio": 3.7577639751552794,
+   "fisher_p": 0.011669647978968873,
+   "table": [
+    [
+     27,
+     10
+    ],
+    [
+     11,
+     16
+    ]
+   ],
+   "pre_rate": 0.421875,
+   "ext_rate": 0.40625
+  },
+  {
+   "code3": "is",
+   "instrument": "Broude&Greene 2or3",
+   "bg_def": "[2, 3]",
+   "n": 49,
+   "phi": -0.024441185836892216,
+   "odds_ratio": 0.9014308426073132,
+   "fisher_p": 1.0,
+   "table": [
+    [
+     13,
+     18
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "pre_rate": 0.3673469387755102,
+   "ext_rate": 0.5714285714285714
+  },
+  {
+   "code3": "is",
+   "instrument": "Broude&Greene 2only",
+   "bg_def": "[2]",
+   "n": 49,
+   "phi": 0.08865749924595245,
+   "odds_ratio": 1.443064182194617,
+   "fisher_p": 0.5586653544709808,
+   "table": [
+    [
+     20,
+     11
+    ],
+    [
+     10,
+     8
+    ]
+   ],
+   "pre_rate": 0.3673469387755102,
+   "ext_rate": 0.3877551020408163
+  },
+  {
+   "code3": "drop",
+   "instrument": "Whyte SCCS597",
+   "bg_def": "-",
+   "n": 62,
+   "phi": 0.3311967625846586,
+   "odds_ratio": 3.9016018306636155,
+   "fisher_p": 0.016581775932948423,
+   "table": [
+    [
+     27,
+     9
+    ],
+    [
+     11,
+     15
+    ]
+   ],
+   "pre_rate": 0.41935483870967744,
+   "ext_rate": 0.3870967741935484
+  },
+  {
+   "code3": "drop",
+   "instrument": "Broude&Greene 2or3",
+   "bg_def": "[2, 3]",
+   "n": 49,
+   "phi": -0.024441185836892216,
+   "odds_ratio": 0.9014308426073132,
+   "fisher_p": 1.0,
+   "table": [
+    [
+     13,
+     18
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "pre_rate": 0.3673469387755102,
+   "ext_rate": 0.5714285714285714
+  },
+  {
+   "code3": "drop",
+   "instrument": "Broude&Greene 2only",
+   "bg_def": "[2]",
+   "n": 49,
+   "phi": 0.08865749924595245,
+   "odds_ratio": 1.443064182194617,
+   "fisher_p": 0.5586653544709808,
+   "table": [
+    [
+     20,
+     11
+    ],
+    [
+     10,
+     8
+    ]
+   ],
+   "pre_rate": 0.3673469387755102,
+   "ext_rate": 0.3877551020408163
+  }
+ ],
+ "head": {
+  "code3": "not",
+  "instrument": "Whyte SCCS597",
+  "bg_def": "-",
+  "n": 64,
+  "phi": 0.31859300290731674,
+  "odds_ratio": 3.72,
+  "fisher_p": 0.01800018499640377,
+  "table": [
+   [
+    28,
+    9
+   ],
+   [
+    12,
+    15
+   ]
+  ],
+  "pre_rate": 0.421875,
+  "ext_rate": 0.375
+ },
+ "kappa_by_bg_def": {
+  "[2, 3]": {
+   "agreement": 0.6666666666666666,
+   "kappa": 0.3629684055841292,
+   "chance": 0.4767397154940408,
+   "bg_rate": 0.6078431372549019
+  },
+  "[2]": {
+   "agreement": 0.6666666666666666,
+   "kappa": 0.30695443645083914,
+   "chance": 0.5190311418685122,
+   "bg_rate": 0.4117647058823529
+  }
+ },
+ "instrument_verdict": {
+  "Broude&Greene 2only": "null",
+  "Broude&Greene 2or3": "null",
+  "Whyte SCCS597": "positive"
+ },
+ "instruments_agree": false,
+ "null_median": -0.0028319378036205903,
+ "null_sd": 0.12613987662181708,
+ "null_draws": 12000,
+ "perm_p": 0.018,
+ "placebo": 0.05718335949618505,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.07352146220938077
+  ],
+  [
+   0.15,
+   0.159079640347213
+  ],
+  [
+   0.3,
+   0.330845379315203
+  ],
+  [
+   0.5,
+   0.5221776468709831
+  ]
+ ],
+ "first_detectable_g": 0.3,
+ "power_at_observed": 0.6845,
+ "region_loo": [
+  {
+   "dropped": "Africa",
+   "n": 56,
+   "phi": 0.38019048234718283,
+   "p": 0.005832484064190322
+  },
+  {
+   "dropped": "Circum-Mediterranean",
+   "n": 54,
+   "phi": 0.2987012987012987,
+   "p": 0.04472126841913049
+  },
+  {
+   "dropped": "East Eurasia",
+   "n": 51,
+   "phi": 0.22960107043010433,
+   "p": 0.1453324889489068
+  },
+  {
+   "dropped": "Insular Pacific",
+   "n": 55,
+   "phi": 0.2544408445379311,
+   "p": 0.0953694878602538
+  },
+  {
+   "dropped": "North America",
+   "n": 47,
+   "phi": 0.36973180076628354,
+   "p": 0.015526179816986218
+  },
+  {
+   "dropped": "South America",
+   "n": 57,
+   "phi": 0.38730705745797706,
+   "p": 0.005146033201103248
+  }
+ ],
+ "family_size": 9,
+ "seeds": [
+  394,
+  1394,
+  2394
+ ],
+ "world": "W_INSTRUMENT_SPLIT",
+ "verdict": "UNVERIFIED \u00b7 world W_INSTRUMENT_SPLIT \u00b7 \u03ba +0.3630 (n=51) \u00b7 \u03c6 +0.3186 OR 3.72 (n=64) \u00b7 permutation p 0.0180"
+}

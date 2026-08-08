@@ -48967,3 +48967,74 @@ now owes three debts of ONE family** (`#958`③ dose-moves-the-selection · `#95
 · this round's power-at-an-effect-you-did-not-observe): in every case a control's criterion **does not
 reference the quantity it licenses**. One gate, one rule — *a control must name the measured quantity
 it is evaluated against, and refuse when that quantity is absent.*
+
+## Entry 961 · `E03·A132·R394` — two teams read the same ethnographies, agree about the societies, and disagree about what they mean
+
+**FRONTIER.** `#960`① asked whether the sexual double standard is **one property of a society** or
+**one rule per act**. It came back `UNVERIFIED · W_INSTRUMENT_SPLIT`, and the split is the finding.
+
+**⚠⚠ FIRST: `#960`'s IMPOSSIBILITY REGISTER IS RETRACTED BY MEASUREMENT, ONE ROUND AFTER I WROTE
+IT.** `#960` registered *"there is no second ethnographic coding of these acts"* as **STRUCTURALLY
+CANNOT**. **False.** `SCCS596`/`SCCS597` are **Whyte 1978** — an independent coder and paper — and
+`SCCS597` codes the same extramarital double standard `SCCS169` (Broude & Greene 1976) codes.
+**51 societies carry both.** I wrote a wall into the register without running the query that
+dissolves it, and the register is the one place where an unchecked claim is *least* likely to be
+re-examined, because its whole function is to say *stop looking*. **An unchecked wall is UNVERIFIED,
+never SETTLED** — and this one was refuted by the very next round.
+
+**E1 — THE CROSS-INSTRUMENT CHECK, the first this project has ever had.** Among the 51 societies
+both teams coded: Whyte finds an extramarital double standard in **20**, Broude & Greene in **31**
+(or **21** if "both forbidden, women punished" is read as enforcement rather than permission).
+**Raw agreement 0.6667 · Cohen's κ = +0.3630** against a permutation null of +0.0020 ± 0.1282,
+one-sided **p = 0.0049**. Under the narrower reading κ = **+0.3070** with the *same* raw agreement.
+**They agree above chance, at about two societies in three.**
+
+**E2 — AND THEY GIVE OPPOSITE ANSWERS TO THE QUESTION BUILT ON THAT AGREEMENT.**
+
+| instrument for the extramarital double standard | n | φ | odds ratio | Fisher p |
+|---|---|---|---|---|
+| **Whyte 1978** `SCCS597` | 64 | **+0.3186** | **3.72** | **0.0180** |
+| Broude & Greene `SCCS169`, permission *or* enforcement | 49 | −0.0244 | 0.90 | 1.0000 |
+| Broude & Greene `SCCS169`, permission only | 49 | +0.0887 | 1.44 | 0.5587 |
+
+The code-3 sweep barely moves Whyte's arm (+0.3186 · +0.3241 · +0.3312), and **all six** region
+leave-one-outs stay positive (+0.2296 to +0.3873). **And the split is not a rate artefact**: Whyte
+puts the extramarital double standard at **0.375** of societies and Broude & Greene's narrow reading
+at **0.388** — the same base rate, the same societies two-thirds of the time, and opposite
+associations.
+
+**VERDICT: `UNVERIFIED` · `W_INSTRUMENT_SPLIT`.** Controls sound and that is what makes the split
+readable: the plant fires (φ −0.0735 → +0.1591 → +0.3308 → +0.5222, first detectable dose g = 0.30)
+with `g = 0` **computed as a fresh permutation, not asserted** (`#959`③); N1 — permuting the
+extramarital indicator with both margins held, expected φ = 0 in closed form — returns
+**−0.00283 ± 0.1261**; the placebo lands at +0.0572, inside one null spread; **power at the observed
+φ is 0.684** (`#960`③, paid immediately). So neither arm is silence: one instrument sees a
+three-and-a-half-fold association at 68% power, the other sees nothing at a matched base rate.
+
+**⚠⚠ AND MY OWN MULTIPLICITY RULE WAS THE FLATTERING KIND, CAUGHT BEFORE IT WAS WRITTEN DOWN.** The
+first version of the kill required *"positive-and-significant in a majority of the grid"* — and the
+grid is `3 code-3 treatments × instruments`, where the code-3 axis **moves two societies**. Three
+near-copies of the Whyte cell counted as three votes, the rule passed at 3/6, and the round printed
+**`CONFIRMED · W_ONE_DIAL`**. **A grid whose cells are near-copies of each other cannot supply a
+majority**; counted per *instrument*, it is one positive and two null. Repaired to a per-instrument
+tally before anything was committed. Fourth round running in which a criterion did not reference the
+quantity it licenses — `#958`③ · `#959`③ · `#960`③ · this.
+
+**ONE SENTENCE ABOUT PEOPLE.** Whether a society that polices women's premarital sexuality also
+polices their marital sexuality is a question two anthropological teams answer **oppositely from the
+same ethnographies** — they agree about two-thirds of the individual societies and about the overall
+rate, and the remaining third is enough to turn a three-and-a-half-fold association into nothing. So
+"the sexual double standard" is **about two parts a fact about the society and one part a fact about
+whoever read it**, and the one part decides.
+
+**NEXT** — `#961`① **the 17 societies the two teams disagree about are the object**, and they are
+nameable: reading what distinguishes them from the 34 they agree on is the cheapest available test of
+whether disagreement tracks the ethnography's thinness or the society's actual ambiguity. That is a
+different question from anything in A132 and it does not need a new instrument. `#961`②
+**`#960`②'s discipline now applies twice**: A132 has produced two quantities this release cannot
+resolve — homosexuality-vs-extramarital (9.9% power) and the double-standard fork (instrument-split)
+— and both belong in the page's *what this data cannot do* rather than in a third arrangement.
+`#961`③ **the impossibility register itself needs a gate.** Four rounds have now written a
+STRUCTURALLY-CANNOT line, and one of them was refuted by the next round's own query. **A register
+line asserting that something does not exist is a search result, and a search is an instrument with
+no positive control** — it must cite the query that returned nothing, or be marked UNVERIFIED.
