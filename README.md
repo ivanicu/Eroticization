@@ -528,6 +528,44 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#941` · two norms were replaced, two were reconsidered
+
+`#940` showed cohort-demeaning costs A118's headline 54% of its size, and no other trend here had run
+it. A114 gave one aggregate number — conversion is ≥45% of the half-century change — for `homosex`
+alone. **Nobody had asked whether the other three norms split the same way.**
+
+21 GSS ballot-1 waves 1988–2024, n=14,847, per decade on the 4-point scale. Conversion share =
+cohort-demeaned trend ÷ raw trend.
+
+| `#941` norm | raw | cohort-demeaned | **conversion share** |
+|---|---|---|---|
+| `premarsx` premarital | +0.1827 ± 0.0091 | +0.0350 ± 0.0075 | **0.192** [0.13, 0.25] |
+| `teensex` teenage | +0.1566 ± 0.0063 | +0.0342 ± 0.0053 | **0.218** [0.16, 0.26] |
+| `xmarsex` extramarital | +0.0567 ± 0.0050 | +0.0241 ± 0.0041 | **0.426** [0.32, 0.51] |
+| `homosex` same-sex | **+0.4056** ± 0.0091 | **+0.1974** ± 0.0079 | **0.487** [0.47, 0.51] |
+
+**The four norms did not merely move at different speeds — they moved by different mechanisms**
+(`#941`). Shares span 0.192 → 0.487; the `premarsx` and `homosex` intervals do not overlap; both
+specifications agree (all cohorts vs cohorts seen in ≥3 waves: 0.192/0.196 · 0.218/0.227 ·
+0.426/0.438 · 0.487/0.493). All four **within-cohort year-label permutation nulls** are null
+(−0.0018 ± 0.0082 · −0.0012 ± 0.0050 · +0.0000 ± 0.0047 · −0.0013 ± 0.0086) against observed demeaned
+trends 5–23× their spreads.
+
+⚠⚠ **And it corroborates A114 by a completely different route.** A114 bounded `homosex` conversion at
+**≥45%** with a frozen-mean synthetic — an upper bound on *replacement*, from cohort shares, with no
+demeaning anywhere. This says **48.7% [47%, 51%]** from within-cohort movement, sharing none of that
+machinery. Two methods with different failure modes agreeing to within 4 points is the strongest
+support this project has produced for any number.
+
+⚠ **Scope** (`#941`, `#918`'s family): a ratio with a small denominator is unstable, and `xmarsex` barely moved (+0.0567/decade).
+It clears twice its own bootstrap spread so it is reported, but its interval is by far the widest and
+its share is a direction, not a point. This is not a causal decomposition.
+
+> **One sentence about people (`#941`): the two changes look identical from a distance and are not the
+> same event at all — America stopped condemning premarital sex mostly by burying the people who
+> condemned it, and stopped condemning homosexuality about half by persuading them, so of the four
+> norms the one that moved furthest is also the one where the most minds were actually changed.**
+
 ### `#940` · the best arc survives, at 46% of its headline
 
 `#933`–`#936` were four consecutive rounds strengthening A118 — a basin. `#939` then showed that

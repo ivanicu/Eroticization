@@ -47627,3 +47627,62 @@ the world's own wording must be checked to name the same object — `lib/gates.p
 `yardstick`, and nothing compares it to the world it decides. `#940`③ **the ceiling normalisation is
 inert on any demeaned or continuous quantity**, which bounds where `#936`'s machinery can be used at
 all, and that boundary has never been drawn.
+
+## Entry 941 · `E03·A123·R379` — two norms were replaced, two were reconsidered
+
+**`#940`① generalised.** Cohort-demeaning cost A118's headline 54% of its size and reversed an
+ordering at `#939`, and **no other trend in this project had run it.** A114 gave one aggregate number
+— conversion is ≥45% of the half-century change — for `homosex` alone. Nobody had asked whether the
+other three norms split the same way, and A118's whole point is that they do not behave alike.
+
+**21 GSS ballot-1 waves 1988–2024, n=14,847, per decade on the 4-point scale (higher = more
+permissive). Conversion share = demeaned trend ÷ raw trend.**
+
+| norm | raw | cohort-demeaned | **conversion share** |
+|---|---|---|---|
+| `premarsx` premarital | +0.1827 ± 0.0091 | +0.0350 ± 0.0075 | **0.192** [0.13, 0.25] |
+| `teensex` teenage | +0.1566 ± 0.0063 | +0.0342 ± 0.0053 | **0.218** [0.16, 0.26] |
+| `xmarsex` extramarital | +0.0567 ± 0.0050 | +0.0241 ± 0.0041 | **0.426** [0.32, 0.51] |
+| `homosex` same-sex | **+0.4056** ± 0.0091 | **+0.1974** ± 0.0079 | **0.487** [0.47, 0.51] |
+
+**VERDICT: `CONFIRMED` · `W_SPLIT`.** The shares span **0.192 → 0.487**, a spread of **0.295**, and
+the intervals for `premarsx` and `homosex` do not overlap. Both specifications agree (all-cohorts vs
+cohorts seen in ≥3 waves: 0.192/0.196 · 0.218/0.227 · 0.426/0.438 · 0.487/0.493). All four
+**within-cohort year-label permutation nulls** are null (−0.0018±0.0082, −0.0012±0.0050,
++0.0000±0.0047, −0.0013±0.0086) against observed demeaned trends 5–23× their spreads; positive sweep
+`0→−0.0055 · 0.2→0.0821 · 0.4→0.1652 · 0.6→0.2426` with `g=0` **0.50 spreads** from the null.
+
+**⚠⚠ THE FOUR NORMS DID NOT MERELY MOVE AT DIFFERENT SPEEDS — THEY MOVED BY DIFFERENT MECHANISMS.**
+That is a stronger claim than A118 made, and it is new. Premarital and teenage sex were normalised
+**about four-fifths by generational replacement**: the people who disapproved largely kept
+disapproving and were replaced. Same-sex relations and extramarital sex are **about half conversion**
+— living people reconsidering.
+
+**⚠⚠⚠ AND IT CORROBORATES A114 BY A COMPLETELY DIFFERENT ROUTE, WHICH IS WORTH MORE THAN A FIFTH
+ROUND OF THE SAME ONE.** A114 bounded `homosex` conversion at **≥45%** using `#925`'s frozen-mean
+synthetic — an upper bound on *replacement*, computed from cohort shares and frozen means, with no
+demeaning anywhere. This round says **48.7% [47%, 51%]** from within-cohort movement, sharing none of
+that machinery. Two methods with different failure modes, agreeing to within 4 points on the same
+quantity. **That is the strongest form of support this project has produced for any number**, and it
+arrived only because `#940`① asked a question about the *other* norms.
+
+**⚠ Scope, and the reason `xmarsex` is in the table with a caveat.** A ratio with a small denominator
+is unstable (`#918`'s family), and `xmarsex` barely moved: +0.0567/decade. It clears twice its own
+bootstrap spread (0.0050), so it is reported — but its interval [0.32, 0.51] is by far the widest and
+its share should not be quoted as a point. **This round does not claim a causal decomposition and does
+not resurrect `#924`'s retracted Kitagawa**: cohort-demeaning identifies movement among people born in
+the same year; it does not identify why they moved.
+
+**ONE SENTENCE ABOUT PEOPLE.** The two changes look identical from a distance and are not the same
+event at all: **America stopped condemning premarital sex mostly by burying the people who condemned
+it, and stopped condemning homosexuality about half by persuading them** — so of the four norms, the
+one that moved furthest is also the one where the most minds were actually changed.
+
+**NEXT** — `#941`① **the conversion share is now a per-norm quantity and A115's tolerance targets
+should get one too** — racists, communists, militarists, anti-religionists, homosexuals: if tolerance
+of homosexuals is high-conversion while tolerance of racists is high-replacement, `#929`'s "+2.131 of
+15, growth not zero-sum" acquires a mechanism. `#941`② ⚠ **`xmarsex`'s interval is 4× the others'
+and it is the one norm whose share I would not defend** — either widen the window or say in the
+README that it is a direction, not a number. `#941`③ **the two-fifths/four-fifths split begs the
+age question `#939` could not answer**: high conversion means somebody changed, and `#939` established
+only that the age bands differ, not which.
