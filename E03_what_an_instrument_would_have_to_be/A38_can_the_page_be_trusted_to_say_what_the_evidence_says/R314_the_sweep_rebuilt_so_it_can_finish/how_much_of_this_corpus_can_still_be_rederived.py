@@ -357,8 +357,8 @@ NEG_OK = (len(no_read) > 0) and (len(nr_missing) == 0)
 # ---------------------------------------------------------------- (5) POSITIVE CONTROL, on the pop
 KNOWN_DEAD = [
     "E01_sexual_as_a_value_not_a_category/A05_what_the_second_dimension_is/R005_shame_and_the_position/rho_panel_controlling_age.py",
-    "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/is_the_advantage_only_in_large_samples.py",
-    "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_尺子装对之后_第三个维度的正名是_breadth_而_189_的三个/the_als_loading_as_a_person_variable.py",
+    "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_with_the_ruler_fixed_the_third_dimension_is_breadth/is_the_advantage_only_in_large_samples.py",
+    "E01_sexual_as_a_value_not_a_category/A06_can_component_three_earn_a_name/R006_with_the_ruler_fixed_the_third_dimension_is_breadth/the_als_loading_as_a_person_variable.py",
 ]
 kd_present = [s for s in KNOWN_DEAD if s in FINAL]
 kd_cls = {s: FINAL[s][0] for s in kd_present}

@@ -91,7 +91,7 @@ if __name__ == "__main__":
     print(f"\n=== 「可量而未量」逐条({len(todo)} 条,它们是下一批该跑的轮次)===")
     for e, t in todo[:25]: print(f"  #{e}  {t[:78]}")
     if len(todo) > 25: print(f"  …还有 {len(todo)-25} 条")
-    out = pathlib.Path("E02_condemnation_is_not_rarity/A243_audit_the_walls/R626_measurability/results")
+    out = pathlib.Path("E02_condemnation_is_not_rarity/A14_sexual_morality_versus_family_morality/R626_measurability/results")
     out.mkdir(parents=True, exist_ok=True)
     json.dump(dict(total=len(rows), counts=dict(cnt), measurable_but_unmeasured=todo,
                    safe_side="只把『可量而未量』当作行动项;从不用『真结构不可量』去关闭一个问题",
