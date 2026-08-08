@@ -357,6 +357,30 @@ been the wrong read.
 ⚠ **What this may not assume:** that "toward permissive" means the same psychological thing across targets.
 That is an assumption, and **`W_TARGET` is precisely what puts it in doubt** — if allowing a racist to teach
 and allowing a homosexual to teach are not the same act to a respondent, the two arms are not one scale.
+
+⚠ **`#928` tested exactly that, because it is the PRECONDITION of the reading above.** Within each wave, at
+the person level: cross-target `r = 0.444` raw and **0.582 disattenuated**, against a **within-target
+cross-stem ceiling of 0.534** (`#928`) — **26 waves, 31,648 complete cases, 26 of 26 surviving BH**, null
+**+0.0011 ± 0.0290**. **So the arms are commensurable and the re-allocation reading is not a category
+error.** ⚠ **But of the ten target pairs it is the weakest:**
+
+| `#928` pair | median disattenuated `r` | | pair | |
+|---|---|---|---|---|
+| communists \| anti-religionists | **+0.880** | | racists \| militarists | +0.758 |
+| racists \| anti-religionists | +0.863 | | homosexuals \| communists | +0.729 |
+| communists \| militarists | +0.838 | | racists \| communists | +0.702 |
+| militarists \| anti-religionists | +0.825 | | homosexuals \| militarists | +0.689 |
+| homosexuals \| anti-religionists | +0.781 | | ⚠ **homosexuals \| racists** | ⚠ **+0.582** |
+
+**`#927` demonstrated its contrast on the battery's weakest-linked pair** — licensed, but a reader deserves
+to know it. ⚠ Prior art: this is the central dispute in the political-tolerance literature (Stouffer 1955;
+Sullivan, Piereson & Marcus 1979/1982, who argued the battery conflates tolerance with agreement with the
+target). **Measured here, not discovered.**
+
+> **One sentence about people (`#928`): a person's willingness to let a racist speak and their willingness
+> to let a homosexual speak really do travel together — but less than for any other pair of groups on the
+> list, so the two attitudes `#927` set against each other happen to be the two that Americans keep furthest
+> apart in their own heads.**
 ⚠ **Prior art**: the cohort/period structure of this trend is established (Treas 2002 · Andersen & Fetner
 2008 · Baunach 2012). `#924` is a **verification on this release**, not a discovery.
 

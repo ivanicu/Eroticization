@@ -1,0 +1,749 @@
+{
+ "entry": 928,
+ "round": "E03\u00b7A115\u00b7R366",
+ "verdict": "CONFIRMED",
+ "world": "W_MIXED \u00b7 a general component plus large target-specific parts",
+ "estimand": "within-wave person-level correlation between tolerance of homosexuals and of racists, judged against the within-target cross-stem ceiling",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta",
+ "prior_art": "Stouffer 1955; Sullivan, Piereson & Marcus 1979/1982 \u2014 measured, not discovered",
+ "preconditions": {
+  "usable_waves": 26,
+  "dropped": [],
+  "min_n": 300
+ },
+ "derived_codes": {
+  "spkhomo": [
+   1.0,
+   2.0
+  ],
+  "colhomo": [
+   4.0,
+   5.0
+  ],
+  "libhomo": [
+   1.0,
+   2.0
+  ],
+  "spkrac": [
+   1.0,
+   2.0
+  ],
+  "colrac": [
+   4.0,
+   5.0
+  ],
+  "librac": [
+   1.0,
+   2.0
+  ],
+  "spkcom": [
+   1.0,
+   2.0
+  ],
+  "colcom": [
+   4.0,
+   5.0
+  ],
+  "libcom": [
+   1.0,
+   2.0
+  ],
+  "spkmil": [
+   1.0,
+   2.0
+  ],
+  "colmil": [
+   4.0,
+   5.0
+  ],
+  "libmil": [
+   1.0,
+   2.0
+  ],
+  "spkath": [
+   1.0,
+   2.0
+  ],
+  "colath": [
+   4.0,
+   5.0
+  ],
+  "libath": [
+   1.0,
+   2.0
+  ]
+ },
+ "rows": [
+  {
+   "year": 1976,
+   "n": 1218,
+   "within_homo": 0.6671996123981311,
+   "within_rac": 0.505716146324761,
+   "rel_homo": 0.857436387029766,
+   "rel_rac": 0.7542627432792417,
+   "cross_raw": 0.5712612866572979,
+   "cross_disatt": 0.7103502059098511,
+   "all_pairs": {
+    "homosexuals|racists": 0.7103502059098511,
+    "homosexuals|communists": 0.8022013083003608,
+    "homosexuals|militarists": 0.6967641338506322,
+    "homosexuals|anti-religionists": 0.8404386690032919,
+    "racists|communists": 0.7707625544780518,
+    "racists|militarists": 0.7593820340063862,
+    "racists|anti-religionists": 0.8875259986664747,
+    "communists|militarists": 0.8474106261754283,
+    "communists|anti-religionists": 0.9483445805551797,
+    "militarists|anti-religionists": 0.817840531007634
+   }
+  },
+  {
+   "year": 1977,
+   "n": 1285,
+   "within_homo": 0.6093486288997205,
+   "within_rac": 0.4594792123543632,
+   "rel_homo": 0.8239275909649173,
+   "rel_rac": 0.718325951888363,
+   "cross_raw": 0.4794816185858054,
+   "cross_disatt": 0.6232562768495957,
+   "all_pairs": {
+    "homosexuals|racists": 0.6232562768495957,
+    "homosexuals|communists": 0.8094489941550798,
+    "homosexuals|militarists": 0.737635142566883,
+    "homosexuals|anti-religionists": 0.7823062648555394,
+    "racists|communists": 0.7074469052329353,
+    "racists|militarists": 0.7330056994242408,
+    "racists|anti-religionists": 0.8616345777384409,
+    "communists|militarists": 0.8269100562540748,
+    "communists|anti-religionists": 0.9079562550680597,
+    "militarists|anti-religionists": 0.822792220616086
+   }
+  },
+  {
+   "year": 1980,
+   "n": 1184,
+   "within_homo": 0.6690183375783958,
+   "within_rac": 0.5238040447343243,
+   "rel_homo": 0.8584360690580664,
+   "rel_rac": 0.767437940045818,
+   "cross_raw": 0.5351699603891437,
+   "cross_disatt": 0.659350161078549,
+   "all_pairs": {
+    "homosexuals|racists": 0.659350161078549,
+    "homosexuals|communists": 0.8120578483498273,
+    "homosexuals|militarists": 0.7262810964636887,
+    "homosexuals|anti-religionists": 0.8306134916904672,
+    "racists|communists": 0.7646050575349045,
+    "racists|militarists": 0.7414111415724315,
+    "racists|anti-religionists": 0.864287241244417,
+    "communists|militarists": 0.8749558281705678,
+    "communists|anti-religionists": 0.8984695626876394,
+    "militarists|anti-religionists": 0.850633384523131
+   }
+  },
+  {
+   "year": 1982,
+   "n": 1434,
+   "within_homo": 0.6256392624232525,
+   "within_rac": 0.5080339088071327,
+   "rel_homo": 0.8337119403729613,
+   "rel_rac": 0.7559774096413876,
+   "cross_raw": 0.5504809359756019,
+   "cross_disatt": 0.6933936554404163,
+   "all_pairs": {
+    "homosexuals|racists": 0.6933936554404163,
+    "homosexuals|communists": 0.7854251093887532,
+    "homosexuals|militarists": 0.7403950264436822,
+    "homosexuals|anti-religionists": 0.8442781664573233,
+    "racists|communists": 0.7834998327803286,
+    "racists|militarists": 0.8148103429465227,
+    "racists|anti-religionists": 0.9435010042676926,
+    "communists|militarists": 0.8460893596465038,
+    "communists|anti-religionists": 0.8730554804292535,
+    "militarists|anti-religionists": 0.877609661772756
+   }
+  },
+  {
+   "year": 1984,
+   "n": 1217,
+   "within_homo": 0.6146445013904259,
+   "within_rac": 0.4732021939665309,
+   "rel_homo": 0.8271397301431644,
+   "rel_rac": 0.729348223165028,
+   "cross_raw": 0.48845601590252663,
+   "cross_disatt": 0.628881120760215,
+   "all_pairs": {
+    "homosexuals|racists": 0.628881120760215,
+    "homosexuals|communists": 0.8142980741543266,
+    "homosexuals|militarists": 0.7271434076096338,
+    "homosexuals|anti-religionists": 0.845772108595234,
+    "racists|communists": 0.7004723889775417,
+    "racists|militarists": 0.7564392157938716,
+    "racists|anti-religionists": 0.8246325082096699,
+    "communists|militarists": 0.82197437244028,
+    "communists|anti-religionists": 0.9255446150216158,
+    "militarists|anti-religionists": 0.8395011100830004
+   }
+  },
+  {
+   "year": 1985,
+   "n": 1270,
+   "within_homo": 0.6380465858035714,
+   "within_rac": 0.5084580953217183,
+   "rel_homo": 0.84097601156597,
+   "rel_rac": 0.756290366967866,
+   "cross_raw": 0.5191904513990666,
+   "cross_disatt": 0.65101441994647,
+   "all_pairs": {
+    "homosexuals|racists": 0.65101441994647,
+    "homosexuals|communists": 0.7835120254198585,
+    "homosexuals|militarists": 0.7117254169611619,
+    "homosexuals|anti-religionists": 0.8063702811398892,
+    "racists|communists": 0.7014019002764922,
+    "racists|militarists": 0.7264084514832109,
+    "racists|anti-religionists": 0.879475180682918,
+    "communists|militarists": 0.8547564489809464,
+    "communists|anti-religionists": 0.8771251385236044,
+    "militarists|anti-religionists": 0.823908308231053
+   }
+  },
+  {
+   "year": 1987,
+   "n": 1479,
+   "within_homo": 0.5988041841679085,
+   "within_rac": 0.4842211387304885,
+   "rel_homo": 0.8174398033731984,
+   "rel_rac": 0.7379761310883873,
+   "cross_raw": 0.48510300679488605,
+   "cross_disatt": 0.6245754627296122,
+   "all_pairs": {
+    "homosexuals|racists": 0.6245754627296122,
+    "homosexuals|communists": 0.7979742305852275,
+    "homosexuals|militarists": 0.7333109570260443,
+    "homosexuals|anti-religionists": 0.8213251079028056,
+    "racists|communists": 0.6739770588230392,
+    "racists|militarists": 0.7433900616375729,
+    "racists|anti-religionists": 0.8996834515745225,
+    "communists|militarists": 0.8618886935596662,
+    "communists|anti-religionists": 0.8778678114261037,
+    "militarists|anti-religionists": 0.810806026915569
+   }
+  },
+  {
+   "year": 1988,
+   "n": 776,
+   "within_homo": 0.636051221180124,
+   "within_rac": 0.47134418041432347,
+   "rel_homo": 0.8398184993622875,
+   "rel_rac": 0.7278740994977804,
+   "cross_raw": 0.4008954621002814,
+   "cross_disatt": 0.5127554545027946,
+   "all_pairs": {
+    "homosexuals|racists": 0.5127554545027946,
+    "homosexuals|communists": 0.7310310462104199,
+    "homosexuals|militarists": 0.6876837357354316,
+    "homosexuals|anti-religionists": 0.7772155600922696,
+    "racists|communists": 0.626698525550998,
+    "racists|militarists": 0.7294042298182092,
+    "racists|anti-religionists": 0.7702438071773837,
+    "communists|militarists": 0.8590903234907461,
+    "communists|anti-religionists": 0.8551598384609146,
+    "militarists|anti-religionists": 0.8408437511324186
+   }
+  },
+  {
+   "year": 1989,
+   "n": 811,
+   "within_homo": 0.5394137103349669,
+   "within_rac": 0.4183556318137686,
+   "rel_homo": 0.7784393812178009,
+   "rel_rac": 0.6833229154170517,
+   "cross_raw": 0.46954267483963175,
+   "cross_disatt": 0.6437980808334993,
+   "all_pairs": {
+    "homosexuals|racists": 0.6437980808334993,
+    "homosexuals|communists": 0.792215034597294,
+    "homosexuals|militarists": 0.7091890424390958,
+    "homosexuals|anti-religionists": 0.8848779111164227,
+    "racists|communists": 0.6773888348261975,
+    "racists|militarists": 0.7916643212661099,
+    "racists|anti-religionists": 0.8872001445370955,
+    "communists|militarists": 0.8344116700584548,
+    "communists|anti-religionists": 0.8813081641032009,
+    "militarists|anti-religionists": 0.8803950069735526
+   }
+  },
+  {
+   "year": 1990,
+   "n": 736,
+   "within_homo": 0.5861409877257938,
+   "within_rac": 0.4968320041288435,
+   "rel_homo": 0.8094819102901358,
+   "rel_rac": 0.747616452026494,
+   "cross_raw": 0.45776599782429556,
+   "cross_disatt": 0.5884377577073925,
+   "all_pairs": {
+    "homosexuals|racists": 0.5884377577073925,
+    "homosexuals|communists": 0.7270635954777813,
+    "homosexuals|militarists": 0.6479040241685385,
+    "homosexuals|anti-religionists": 0.7395563235613887,
+    "racists|communists": 0.6832956046232629,
+    "racists|militarists": 0.8036411613855957,
+    "racists|anti-religionists": 0.7974228938388473,
+    "communists|militarists": 0.8442912101547672,
+    "communists|anti-religionists": 0.9132091875316574,
+    "militarists|anti-religionists": 0.8548804537309149
+   }
+  },
+  {
+   "year": 1991,
+   "n": 817,
+   "within_homo": 0.5936030804980233,
+   "within_rac": 0.4557167849734067,
+   "rel_homo": 0.8141935923786423,
+   "rel_rac": 0.715248688950389,
+   "cross_raw": 0.43874012507174803,
+   "cross_disatt": 0.5749300113414242,
+   "all_pairs": {
+    "homosexuals|racists": 0.5749300113414242,
+    "homosexuals|communists": 0.7487946609827899,
+    "homosexuals|militarists": 0.6913130941762218,
+    "homosexuals|anti-religionists": 0.7380260749050706,
+    "racists|communists": 0.7296301386110755,
+    "racists|militarists": 0.8165387192916913,
+    "racists|anti-religionists": 0.8743150826823602,
+    "communists|militarists": 0.8201002587751007,
+    "communists|anti-religionists": 0.8951289566636378,
+    "militarists|anti-religionists": 0.8403943371263546
+   }
+  },
+  {
+   "year": 1993,
+   "n": 850,
+   "within_homo": 0.564703768512732,
+   "within_rac": 0.43826373891637155,
+   "rel_homo": 0.7955787119569764,
+   "rel_rac": 0.7006511933774644,
+   "cross_raw": 0.48468656904059626,
+   "cross_disatt": 0.6491849983548521,
+   "all_pairs": {
+    "homosexuals|racists": 0.6491849983548521,
+    "homosexuals|communists": 0.7711227244612662,
+    "homosexuals|militarists": 0.7192164413587393,
+    "homosexuals|anti-religionists": 0.8359444343588892,
+    "racists|communists": 0.754015180006668,
+    "racists|militarists": 0.8046220627056164,
+    "racists|anti-religionists": 0.9578590330177864,
+    "communists|militarists": 0.8562648531889065,
+    "communists|anti-religionists": 0.9214550875734003,
+    "militarists|anti-religionists": 0.9205018925820208
+   }
+  },
+  {
+   "year": 1994,
+   "n": 1627,
+   "within_homo": 0.5840612983724577,
+   "within_rac": 0.4823157106795992,
+   "rel_homo": 0.8081572037245465,
+   "rel_rac": 0.7364980099105565,
+   "cross_raw": 0.46039520691910607,
+   "cross_disatt": 0.596756393394764,
+   "all_pairs": {
+    "homosexuals|racists": 0.596756393394764,
+    "homosexuals|communists": 0.741707623761708,
+    "homosexuals|militarists": 0.6521420674955407,
+    "homosexuals|anti-religionists": 0.7933286053409544,
+    "racists|communists": 0.7306880384654185,
+    "racists|militarists": 0.76706589857103,
+    "racists|anti-religionists": 0.9074316278740434,
+    "communists|militarists": 0.8354364894705818,
+    "communists|anti-religionists": 0.911281731726005,
+    "militarists|anti-religionists": 0.8470480553996932
+   }
+  },
+  {
+   "year": 1996,
+   "n": 1535,
+   "within_homo": 0.5266790124706274,
+   "within_rac": 0.4645831796996162,
+   "rel_homo": 0.7694893039693291,
+   "rel_rac": 0.7224620791816421,
+   "cross_raw": 0.4285360943702586,
+   "cross_disatt": 0.5747494775168799,
+   "all_pairs": {
+    "homosexuals|racists": 0.5747494775168799,
+    "homosexuals|communists": 0.6771846192262961,
+    "homosexuals|militarists": 0.6526741930803225,
+    "homosexuals|anti-religionists": 0.7799023333782009,
+    "racists|communists": 0.7125560348046607,
+    "racists|militarists": 0.7800504048269782,
+    "racists|anti-religionists": 0.9012818785974845,
+    "communists|militarists": 0.8524457804888301,
+    "communists|anti-religionists": 0.8844819856165959,
+    "militarists|anti-religionists": 0.855614387949505
+   }
+  },
+  {
+   "year": 1998,
+   "n": 1499,
+   "within_homo": 0.5540994637081131,
+   "within_rac": 0.4777886805092695,
+   "rel_homo": 0.788492190896627,
+   "rel_rac": 0.7329630983155057,
+   "cross_raw": 0.45565165760897947,
+   "cross_disatt": 0.5993675151996456,
+   "all_pairs": {
+    "homosexuals|racists": 0.5993675151996456,
+    "homosexuals|communists": 0.7486342075442259,
+    "homosexuals|militarists": 0.6926439000740844,
+    "homosexuals|anti-religionists": 0.8116079120369135,
+    "racists|communists": 0.7690658707366411,
+    "racists|militarists": 0.7635233655864921,
+    "racists|anti-religionists": 0.8960170676649366,
+    "communists|militarists": 0.8809770185602708,
+    "communists|anti-religionists": 0.9471283163647947,
+    "militarists|anti-religionists": 0.8578446852160347
+   }
+  },
+  {
+   "year": 2000,
+   "n": 1495,
+   "within_homo": 0.5629822431554176,
+   "within_rac": 0.5283160712681257,
+   "rel_homo": 0.7944378847066563,
+   "rel_rac": 0.7706522625139025,
+   "cross_raw": 0.3803607645419679,
+   "cross_disatt": 0.48611218754297114,
+   "all_pairs": {
+    "homosexuals|racists": 0.48611218754297114,
+    "homosexuals|communists": 0.6653617466635402,
+    "homosexuals|militarists": 0.6457893330047901,
+    "homosexuals|anti-religionists": 0.7136914479918592,
+    "racists|communists": 0.6922771863605021,
+    "racists|militarists": 0.7315637277089065,
+    "racists|anti-religionists": 0.8250521568290557,
+    "communists|militarists": 0.8688442225723714,
+    "communists|anti-religionists": 0.8869048466957009,
+    "militarists|anti-religionists": 0.8501324513098794
+   }
+  },
+  {
+   "year": 2002,
+   "n": 814,
+   "within_homo": 0.5943340896578576,
+   "within_rac": 0.5038543990032992,
+   "rel_homo": 0.8146517072912473,
+   "rel_rac": 0.752879699740664,
+   "cross_raw": 0.4243363302557373,
+   "cross_disatt": 0.5418279904073139,
+   "all_pairs": {
+    "homosexuals|racists": 0.5418279904073139,
+    "homosexuals|communists": 0.6275735569229967,
+    "homosexuals|militarists": 0.662922418426803,
+    "homosexuals|anti-religionists": 0.7101695648280498,
+    "racists|communists": 0.7443879070104491,
+    "racists|militarists": 0.7787725104526632,
+    "racists|anti-religionists": 0.8730604110700323,
+    "communists|militarists": 0.7852152775729615,
+    "communists|anti-religionists": 0.8058120956036541,
+    "militarists|anti-religionists": 0.8265140014158997
+   }
+  },
+  {
+   "year": 2004,
+   "n": 789,
+   "within_homo": 0.4940214628360486,
+   "within_rac": 0.41848812286790854,
+   "rel_homo": 0.7454891287154197,
+   "rel_rac": 0.6834407203239792,
+   "cross_raw": 0.39943874320787476,
+   "cross_disatt": 0.5596018012483803,
+   "all_pairs": {
+    "homosexuals|racists": 0.5596018012483803,
+    "homosexuals|communists": 0.7084584730628128,
+    "homosexuals|militarists": 0.7193956269263324,
+    "homosexuals|anti-religionists": 0.7969959152616017,
+    "racists|communists": 0.703375129066726,
+    "racists|militarists": 0.8138451981519593,
+    "racists|anti-religionists": 0.8266419688487394,
+    "communists|militarists": 0.8432419813673386,
+    "communists|anti-religionists": 0.8439451518808359,
+    "militarists|anti-religionists": 0.761861170856038
+   }
+  },
+  {
+   "year": 2006,
+   "n": 1770,
+   "within_homo": 0.5404760437747506,
+   "within_rac": 0.4188909989041716,
+   "rel_homo": 0.7791760997407788,
+   "rel_rac": 0.6837987303233827,
+   "cross_raw": 0.4484161122569987,
+   "cross_disatt": 0.6143265041870021,
+   "all_pairs": {
+    "homosexuals|racists": 0.6143265041870021,
+    "homosexuals|communists": 0.7172981872909792,
+    "homosexuals|militarists": 0.7166926662370596,
+    "homosexuals|anti-religionists": 0.8027650401755505,
+    "racists|communists": 0.7686875424110026,
+    "racists|militarists": 0.7986671674877518,
+    "racists|anti-religionists": 0.8850525557921016,
+    "communists|militarists": 0.83991184382537,
+    "communists|anti-religionists": 0.8667624093022542,
+    "militarists|anti-religionists": 0.8152915530499102
+   }
+  },
+  {
+   "year": 2008,
+   "n": 1146,
+   "within_homo": 0.603818622197476,
+   "within_rac": 0.4695341303991918,
+   "rel_homo": 0.8205405445082053,
+   "rel_rac": 0.7264325963530565,
+   "cross_raw": 0.38227734021417364,
+   "cross_disatt": 0.49514325946534604,
+   "all_pairs": {
+    "homosexuals|racists": 0.49514325946534604,
+    "homosexuals|communists": 0.6328136043195118,
+    "homosexuals|militarists": 0.5534765932595636,
+    "homosexuals|anti-religionists": 0.7045103679130239,
+    "racists|communists": 0.7280350995713608,
+    "racists|militarists": 0.6811137172431042,
+    "racists|anti-religionists": 0.8358265843341867,
+    "communists|militarists": 0.790790563692446,
+    "communists|anti-religionists": 0.8880508108636218,
+    "militarists|anti-religionists": 0.7988808424666747
+   }
+  },
+  {
+   "year": 2010,
+   "n": 1092,
+   "within_homo": 0.5584731571128333,
+   "within_rac": 0.450709270571694,
+   "rel_homo": 0.7914321964991977,
+   "rel_rac": 0.7111152975830358,
+   "cross_raw": 0.34016892424731376,
+   "cross_disatt": 0.4534378495996224,
+   "all_pairs": {
+    "homosexuals|racists": 0.4534378495996224,
+    "homosexuals|communists": 0.6544656585373774,
+    "homosexuals|militarists": 0.5839115524107594,
+    "homosexuals|anti-religionists": 0.7496959821567902,
+    "racists|communists": 0.6978687809264926,
+    "racists|militarists": 0.7668891507533585,
+    "racists|anti-religionists": 0.8062300812489772,
+    "communists|militarists": 0.7629824483930552,
+    "communists|anti-religionists": 0.8295817962037345,
+    "militarists|anti-religionists": 0.8172294592019332
+   }
+  },
+  {
+   "year": 2012,
+   "n": 1105,
+   "within_homo": 0.5557589880518172,
+   "within_rac": 0.48352964363402945,
+   "rel_homo": 0.7896105943800977,
+   "rel_rac": 0.7374403711627482,
+   "cross_raw": 0.289392295761726,
+   "cross_disatt": 0.37924252290255417,
+   "all_pairs": {
+    "homosexuals|racists": 0.37924252290255417,
+    "homosexuals|communists": 0.6340608694539779,
+    "homosexuals|militarists": 0.5800365984433279,
+    "homosexuals|anti-religionists": 0.7399524376509333,
+    "racists|communists": 0.6827492814903215,
+    "racists|militarists": 0.6955947782360253,
+    "racists|anti-religionists": 0.7402004601270058,
+    "communists|militarists": 0.76871701884271,
+    "communists|anti-religionists": 0.8554250522490409,
+    "militarists|anti-religionists": 0.7901090604119971
+   }
+  },
+  {
+   "year": 2014,
+   "n": 1501,
+   "within_homo": 0.5788106963137887,
+   "within_rac": 0.48607962823800666,
+   "rel_homo": 0.8047899853396977,
+   "rel_rac": 0.7394123369730795,
+   "cross_raw": 0.27230575885725145,
+   "cross_disatt": 0.35299796210417095,
+   "all_pairs": {
+    "homosexuals|racists": 0.35299796210417095,
+    "homosexuals|communists": 0.5399039186632227,
+    "homosexuals|militarists": 0.5026467571865038,
+    "homosexuals|anti-religionists": 0.647726377122988,
+    "racists|communists": 0.6562923407025734,
+    "racists|militarists": 0.6657044028055987,
+    "racists|anti-religionists": 0.7947714966291545,
+    "communists|militarists": 0.8022690117559214,
+    "communists|anti-religionists": 0.8441341328336067,
+    "militarists|anti-religionists": 0.7727499638253069
+   }
+  },
+  {
+   "year": 2016,
+   "n": 1635,
+   "within_homo": 0.5894560750641747,
+   "within_rac": 0.4783268395133213,
+   "rel_homo": 0.8115830760264282,
+   "rel_rac": 0.7333850307397318,
+   "cross_raw": 0.3205185453553297,
+   "cross_disatt": 0.4154518061676426,
+   "all_pairs": {
+    "homosexuals|racists": 0.4154518061676426,
+    "homosexuals|communists": 0.6231498618186889,
+    "homosexuals|militarists": 0.5516324521587014,
+    "homosexuals|anti-religionists": 0.6852902452809395,
+    "racists|communists": 0.6279583279494723,
+    "racists|militarists": 0.6953857678411564,
+    "racists|anti-religionists": 0.7408379299066324,
+    "communists|militarists": 0.741619734232714,
+    "communists|anti-religionists": 0.8422510818738094,
+    "militarists|anti-religionists": 0.775231157519157
+   }
+  },
+  {
+   "year": 2018,
+   "n": 1325,
+   "within_homo": 0.574802112520114,
+   "within_rac": 0.4671942946781762,
+   "rel_homo": 0.8021971288822113,
+   "rel_rac": 0.7245611826633503,
+   "cross_raw": 0.2451719359369883,
+   "cross_disatt": 0.3215826968191463,
+   "all_pairs": {
+    "homosexuals|racists": 0.3215826968191463,
+    "homosexuals|communists": 0.5540111469325207,
+    "homosexuals|militarists": 0.4812686862186496,
+    "homosexuals|anti-religionists": 0.6679705185623273,
+    "racists|communists": 0.6118245810098216,
+    "racists|militarists": 0.612998816439293,
+    "racists|anti-religionists": 0.7294473106264792,
+    "communists|militarists": 0.7555849842982785,
+    "communists|anti-religionists": 0.8275710126943221,
+    "militarists|anti-religionists": 0.7670715667987921
+   }
+  },
+  {
+   "year": 2021,
+   "n": 1238,
+   "within_homo": 0.4953697252949362,
+   "within_rac": 0.45824258144601276,
+   "rel_homo": 0.746511139589092,
+   "rel_rac": 0.7173171861469247,
+   "cross_raw": 0.14857482350988152,
+   "cross_disatt": 0.2030352565467519,
+   "all_pairs": {
+    "homosexuals|racists": 0.2030352565467519,
+    "homosexuals|communists": 0.5665705354286092,
+    "homosexuals|militarists": 0.41397182093787555,
+    "homosexuals|anti-religionists": 0.6399903414603311,
+    "racists|communists": 0.48059057135793565,
+    "racists|militarists": 0.6622885497102875,
+    "racists|anti-religionists": 0.5413682069652525,
+    "communists|militarists": 0.7183168633313086,
+    "communists|anti-religionists": 0.8525452662141515,
+    "militarists|anti-religionists": 0.6991313983577484
+   }
+  }
+ ],
+ "median_within": 0.5335399809073882,
+ "median_cross_raw": 0.44357811866437336,
+ "median_cross_disattenuated": 0.5816838845244083,
+ "all_pairs_median": {
+  "homosexuals|racists": 0.5816838845244083,
+  "homosexuals|communists": 0.7290473208441006,
+  "homosexuals|militarists": 0.6894984149558268,
+  "homosexuals|anti-religionists": 0.7811042991168702,
+  "racists|communists": 0.7023885146716091,
+  "racists|militarists": 0.7579106249001288,
+  "racists|anti-religionists": 0.862960909491429,
+  "communists|militarists": 0.8376741666479759,
+  "communists|anti-religionists": 0.8795879877646523,
+  "militarists|anti-religionists": 0.8252111548234764
+ },
+ "null_median": 0.0011181602475774566,
+ "null_sd": 0.02903155089025207,
+ "null_draws": 240,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.0043058768412493915
+  ],
+  [
+   0.15,
+   0.07740701941857714
+  ],
+  [
+   0.3,
+   0.1380316452229381
+  ],
+  [
+   0.45,
+   0.21914079418021487
+  ],
+  [
+   0.6,
+   0.2871514930264423
+  ]
+ ],
+ "family_size": 26,
+ "tests": "`#927`(2): the PRECONDITION of `#927`'s re-allocation reading",
+ "gates": [
+  [
+   "positive: a planted shared factor raises the cross-target correlation, and g=0 is null",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.15;g=0 -0.0043 \u00b7 g=0.6 +0.2872",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "racist items permuted across persons within wave",
+   "|+0.0011| < 0.5*|+0.4436| = 0.2218",
+   true,
+   "null is 0% of the effect [\u96f6\u7684\u65b9\u6848: within-wave person-label permutation]"
+  ],
+  [
+   "all waves",
+   "method=bh q=0.05 \u00b7 **cells tested 26 \u00b7 cells surviving 26** \u00b7 \u5b58\u6d3b ['1976', '1977', '1980', '1982', '1984', '1985', '1987', '1988', '1989', '1990', '1991', '1993', '1994', '1996', '1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014', '2016', '2018', '2021'] \u00b7 \u672a\u5b58\u6d3b []",
+   true,
+   "control"
+  ],
+  [
+   "PRECONDITIONS checked and printed BEFORE the estimator; failures dropped with a count",
+   "26 usable waves \u00b7 0 dropped: none",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "codes were DERIVED from the data, never written as literals (`#927`(3))",
+   "derived code pairs, e.g. colhomo=[4.0, 5.0] vs spkhomo=[1.0, 2.0] \u2014 the literals would have been wrong",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "REFERENCE: the cross-target correlation is judged against the WITHIN-target ceiling, not against zero",
+   "within-target cross-stem r 0.534 \u00b7 cross-target raw 0.444 \u00b7 disattenuated 0.582",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "26/26 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "prior art declared",
+   "Stouffer 1955 built these items; Sullivan, Piereson & Marcus 1979/1982 argued the battery conflates tolerance with agreement with the target and proposed content-controlled measures for exactly this reason. Measured here, not discovered",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: `#927`'s re-allocation reading requires the arms to be commensurable",
+   "disattenuated cross-target r 0.582 (raw 0.444) vs within-target ceiling 0.534; null +0.0011 +/- 0.0290   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

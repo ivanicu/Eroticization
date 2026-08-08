@@ -1,0 +1,68 @@
+⚠ codes derived from the data (no literals): {'spkhomo': [1.0, 2.0], 'colhomo': [4.0, 5.0], 'libhomo': [1.0, 2.0], 'spkrac': [1.0, 2.0]} ...
+
+PRECONDITION CHECK — waves with >=300 respondents answering ALL 15 items:
+  usable 26 · DROPPED 0: none  (absence reported, not passed)
+  complete cases 31648 · per-wave min 736 median 1228
+
+=== THE GRID — per wave (all cells, disagreeing ones included) ===
+  1976  n= 1218  within-stem r: homo 0.667 rac 0.506  |  cross-target r raw 0.571 disattenuated 0.710
+  1977  n= 1285  within-stem r: homo 0.609 rac 0.459  |  cross-target r raw 0.479 disattenuated 0.623
+  1980  n= 1184  within-stem r: homo 0.669 rac 0.524  |  cross-target r raw 0.535 disattenuated 0.659
+  1982  n= 1434  within-stem r: homo 0.626 rac 0.508  |  cross-target r raw 0.550 disattenuated 0.693
+  1984  n= 1217  within-stem r: homo 0.615 rac 0.473  |  cross-target r raw 0.488 disattenuated 0.629
+  1985  n= 1270  within-stem r: homo 0.638 rac 0.508  |  cross-target r raw 0.519 disattenuated 0.651
+  1987  n= 1479  within-stem r: homo 0.599 rac 0.484  |  cross-target r raw 0.485 disattenuated 0.625
+  1988  n=  776  within-stem r: homo 0.636 rac 0.471  |  cross-target r raw 0.401 disattenuated 0.513
+  1989  n=  811  within-stem r: homo 0.539 rac 0.418  |  cross-target r raw 0.470 disattenuated 0.644
+  1990  n=  736  within-stem r: homo 0.586 rac 0.497  |  cross-target r raw 0.458 disattenuated 0.588
+  1991  n=  817  within-stem r: homo 0.594 rac 0.456  |  cross-target r raw 0.439 disattenuated 0.575
+  1993  n=  850  within-stem r: homo 0.565 rac 0.438  |  cross-target r raw 0.485 disattenuated 0.649
+  1994  n= 1627  within-stem r: homo 0.584 rac 0.482  |  cross-target r raw 0.460 disattenuated 0.597
+  1996  n= 1535  within-stem r: homo 0.527 rac 0.465  |  cross-target r raw 0.429 disattenuated 0.575
+  1998  n= 1499  within-stem r: homo 0.554 rac 0.478  |  cross-target r raw 0.456 disattenuated 0.599
+  2000  n= 1495  within-stem r: homo 0.563 rac 0.528  |  cross-target r raw 0.380 disattenuated 0.486
+  2002  n=  814  within-stem r: homo 0.594 rac 0.504  |  cross-target r raw 0.424 disattenuated 0.542
+  2004  n=  789  within-stem r: homo 0.494 rac 0.418  |  cross-target r raw 0.399 disattenuated 0.560
+  2006  n= 1770  within-stem r: homo 0.540 rac 0.419  |  cross-target r raw 0.448 disattenuated 0.614
+  2008  n= 1146  within-stem r: homo 0.604 rac 0.470  |  cross-target r raw 0.382 disattenuated 0.495
+  2010  n= 1092  within-stem r: homo 0.558 rac 0.451  |  cross-target r raw 0.340 disattenuated 0.453
+  2012  n= 1105  within-stem r: homo 0.556 rac 0.484  |  cross-target r raw 0.289 disattenuated 0.379
+  2014  n= 1501  within-stem r: homo 0.579 rac 0.486  |  cross-target r raw 0.272 disattenuated 0.353
+  2016  n= 1635  within-stem r: homo 0.589 rac 0.478  |  cross-target r raw 0.321 disattenuated 0.415
+  2018  n= 1325  within-stem r: homo 0.575 rac 0.467  |  cross-target r raw 0.245 disattenuated 0.322
+  2021  n= 1238  within-stem r: homo 0.495 rac 0.458  |  cross-target r raw 0.149 disattenuated 0.203
+
+  median WITHIN-target cross-stem r (the ceiling): 0.534
+  median CROSS-target r, raw                     : 0.444
+  median CROSS-target r, disattenuated           : 0.582
+
+  all ten target pairs, median disattenuated r:
+    communists|anti-religionists           +0.880
+    racists|anti-religionists              +0.863
+    communists|militarists                 +0.838
+    militarists|anti-religionists          +0.825
+    homosexuals|anti-religionists          +0.781
+    racists|militarists                    +0.758
+    homosexuals|communists                 +0.729
+    racists|communists                     +0.702
+    homosexuals|militarists                +0.689
+    homosexuals|racists                    +0.582
+
+  null (racist items permuted across persons within wave; kind of null: person-label permutation): +0.0011 +/- 0.0290 over 240 draws
+  positive sweep (shared factor planted into the permuted world): [(0.0, -0.0043), (0.15, 0.0774), (0.3, 0.138), (0.45, 0.2191), (0.6, 0.2872)]
+
+  CONDITIONAL KILL -- Is it one scale at all?
+   PASS  positive: a planted shared factor raises the cross-target correlation, and g=0 is null                 方向由数据给出:**上升**;灵敏度 g=0.15;g=0 -0.0043 · g=0.6 +0.2872   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  racist items permuted across persons within wave                                                       |+0.0011| < 0.5*|+0.4436| = 0.2218   (null is 0% of the effect [零的方案: within-wave person-label permutation])
+   PASS  all waves                                                                                              method=bh q=0.05 · **cells tested 26 · cells surviving 26** · 存活 ['1976', '1977', '1980', '1982', '1984', '1985', '1987', '1988', '1989', '1990', '1991', '1993', '1994', '1996', '1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014', '2016', '2018', '2021'] · 未存活 []   (control)
+   PASS  PRECONDITIONS checked and printed BEFORE the estimator; failures dropped with a count                  26 usable waves · 0 dropped: none   (asserted in code, not in prose)
+   PASS  codes were DERIVED from the data, never written as literals (`#927`(3))                                derived code pairs, e.g. colhomo=[4.0, 5.0] vs spkhomo=[1.0, 2.0] — the literals would have been wrong   (asserted in code, not in prose)
+   PASS  REFERENCE: the cross-target correlation is judged against the WITHIN-target ceiling, not against zero  within-target cross-stem r 0.534 · cross-target raw 0.444 · disattenuated 0.582   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                                      26/26 格带 n   (每一格都声明了自己的人群规模)
+   PASS  prior art declared                                                                                     Stouffer 1955 built these items; Sullivan, Piereson & Marcus 1979/1982 argued the battery conflates tolerance with agreement with the target and proposed content-controlled measures for exactly this reason. Measured here, not discovered   (asserted in code, not in prose)
+   PASS  KILL: `#927`'s re-allocation reading requires the arms to be commensurable                             disattenuated cross-target r 0.582 (raw 0.444) vs within-target ceiling 0.534; null +0.0011 +/- 0.0290   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : CONFIRMED · world W_MIXED · a general component plus large target-specific parts
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R366_is_it_one_scale_at_all/results/is_it_one_scale_at_all.json

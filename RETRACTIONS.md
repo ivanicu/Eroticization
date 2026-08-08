@@ -46713,3 +46713,80 @@ but its object.**
    `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
    `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
    `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 928 · `E03·A115·R366` — the arms are commensurable, and `#927` ran on the least commensurable pair in the battery
+
+**⇒ `CONFIRMED` · world `W_MIXED`. The five tolerance arms share a large general component —
+cross-target `r = 0.444` raw, **0.582 disattenuated**, against a within-target cross-stem ceiling of
+**0.534**. So `#927`'s re-allocation reading is **not a category error**. ⚠ **But of the ten target
+pairs, `homosexuals|racists` is the LOWEST at 0.582** — every other pair runs 0.689 to 0.880. **The
+two arms `#927` set against each other are the two the public keeps most separate**, and that
+weakens the reading it was used for.**
+
+**WHY THE PRECONDITION CAME BEFORE THE INTERPRETATION.** `#927`① wants condemnation treated as a
+roughly zero-sum allocation. ⚠ **You cannot call something a re-allocation across scales that are
+not commensurable** — `#927`② named it, and `#924`②/`#925`② exist to enforce checking the
+precondition before reaching for the reading.
+
+**⚠ PRIOR ART, DECLARED BEFORE THE NUMBER.** This is the central dispute in the political-tolerance
+literature, not a new idea: Stouffer (1955) built these items; **Sullivan, Piereson & Marcus
+(1979, 1982) argued the battery conflates tolerance with agreement with the target** and proposed
+content-controlled "least-liked group" measures for exactly this reason. **Measured here, not
+discovered.**
+
+| target pair | median disattenuated `r` |
+|---|---|
+| communists \| anti-religionists | **+0.880** |
+| racists \| anti-religionists | +0.863 |
+| communists \| militarists | +0.838 |
+| militarists \| anti-religionists | +0.825 |
+| homosexuals \| anti-religionists | +0.781 |
+| racists \| militarists | +0.758 |
+| homosexuals \| communists | +0.729 |
+| racists \| communists | +0.702 |
+| homosexuals \| militarists | +0.689 |
+| ⚠ **homosexuals \| racists** | ⚠ **+0.582** — the weakest link in the battery |
+
+**26 waves · 31,648 complete cases · min 736 per wave · 26 of 26 surviving BH**, against a
+within-wave person-label permutation null of **+0.0011 ± 0.0290**.
+
+**⚠⚠ TWO CONTROLS FAILED FIRST, AND BOTH FAILURES WERE INFORMATIVE.**
+① **The plant saturated.** Copying all three homosexual answers onto the three racist items makes the
+   arms nearly identical: the sweep jumped **past 1.0 at g=0.15** and sat flat. **A plant that
+   saturates cannot demonstrate graded sensitivity — it only shows the statistic can reach its
+   ceiling.** Repaired by copying ONE stem: `0 → −0.0043 · 0.15 → +0.0774 · 0.30 → +0.1380 ·
+   0.45 → +0.2191 · 0.60 → +0.2872`, monotone, `g=0` on the null.
+② ⚠ **The null was built on the wrong statistic.** Disattenuation divides by an *estimated*
+   reliability, so it **amplifies permutation noise**: the disattenuated null came out **±0.3062**
+   and **0 of 26 waves resolved**. ⇒ *a statistic can be the right quantity to report and the wrong
+   one to null.* The null and the multiplicity family now use the raw `r` (**±0.0290**, 26/26
+   surviving); the disattenuated value is reported beside it with its instability stated.
+
+**⇒ One sentence about people: a person's willingness to let a racist speak and their willingness to
+let a homosexual speak really do travel together — but less than for any other pair of groups on the
+list, so the two attitudes `#927` set against each other happen to be the two that Americans keep
+furthest apart in their own heads.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **a correlation is not a scale proof** — a high cross-target `r` is equally consistent with one
+   disposition and with two dispositions sharing a cause (education, say). No causal claim is made;
+② ⚠ binary items attenuate by construction; disattenuation corrects for unreliability but **not for
+   the coarseness of a 2-point scale**, and it is the noisier statistic (above);
+③ ⚠ this is a **within-wave, person-level** check on a **between-wave, cohort-level** claim — it tests
+   the precondition of `#927`'s reading, never `#927`'s measurement, which stands either way;
+④ ⚠ **only this one instrument**; ⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE PAGE MUST SAY WHICH PAIR `#927` USED.** "Tolerance was re-allocated" is licensed, but it
+   was demonstrated on the battery's weakest-linked pair, and a reader deserves that. ⇒ `#928`①
+② ⚠ **THE REAL QUESTION `#927`① ASKED IS STILL UNTESTED**: whether condemnation is roughly
+   zero-sum. The commensurability precondition now holds, so the test is available — **does the SUM
+   of tolerance across the five targets stay flat while its distribution changes?** That is one
+   quantity, computable per wave, and nothing here has computed it. ⇒ `#928`②
+③ ⚠ Still `OPEN`: `#927`①③ · `#926`① · `#925`② · `#924`② · `#923`①② · `#922`① · `#921`① · `#920`② ·
+   `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② ·
+   `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② ·
+   `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ ·
+   `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② ·
+   `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① ·
+   `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
