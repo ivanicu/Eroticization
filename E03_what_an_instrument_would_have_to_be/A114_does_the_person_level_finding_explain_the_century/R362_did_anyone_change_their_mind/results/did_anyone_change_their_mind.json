@@ -1,0 +1,321 @@
+{
+ "entry": 924,
+ "round": "E03\u00b7A114\u00b7R362",
+ "verdict": "OVERTURNED",
+ "world": "W_CONVERT-ALIVE \u00b7 people DID change their minds; the SPLIT stays unmeasured",
+ "estimand": "composition share of the aggregate change using BIRTH DECADE as the group (DERIVATION) plus the within-cohort mean movement (identified, testable)",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta",
+ "prior_art": "Treas 2002 \u00b7 Andersen & Fetner 2008 \u00b7 Baunach 2012 \u2014 VERIFICATION, not discovery",
+ "unidentified": "age/period/cohort are exactly collinear; no age effect is claimed",
+ "comp_share_RETRACTED": "ill-posed: birth cohorts do not overlap across the window",
+ "grid": [
+  {
+   "y0": 1974,
+   "y1": 2022,
+   "groups": 3,
+   "total": -0.3269496852830852,
+   "comp": -0.5788399317054039,
+   "within": 0.2518902464223187,
+   "comp_share": 1.770425107472493,
+   "within_mean": 0.6100099037232888,
+   "within_min": 0.4820760149726462,
+   "within_max": 0.6918767507002801,
+   "n": 3423,
+   "n0": 1289,
+   "n1": 2134,
+   "cohort_width": 10,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1974,
+   "y1": 1998,
+   "groups": 5,
+   "total": -0.37147032018498566,
+   "comp": -0.4218086941527684,
+   "within": 0.050338373967782714,
+   "comp_share": 1.1355111599298569,
+   "within_mean": 0.06495698944940202,
+   "within_min": 0.026229877293707293,
+   "within_max": 0.10839353802929952,
+   "n": 3040,
+   "n0": 1289,
+   "n1": 1751,
+   "cohort_width": 10,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1998,
+   "y1": 2022,
+   "groups": 5,
+   "total": -0.26426511132746733,
+   "comp": -0.6446516729309089,
+   "within": 0.38038656160344153,
+   "comp_share": 2.4394127158619923,
+   "within_mean": 0.5176140752905538,
+   "within_min": 0.37368247694334666,
+   "within_max": 0.6298470682032327,
+   "n": 3885,
+   "n0": 1751,
+   "n1": 2134,
+   "cohort_width": 10,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1990,
+   "y1": 2022,
+   "groups": 5,
+   "total": 0.4025648521534268,
+   "comp": -0.27939413648002615,
+   "within": 0.681958988633453,
+   "comp_share": -0.694035097663078,
+   "within_mean": 1.034832459552213,
+   "within_min": 0.8623188405797102,
+   "within_max": 1.276315789473684,
+   "n": 3006,
+   "n0": 872,
+   "n1": 2134,
+   "cohort_width": 10,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1974,
+   "y1": 2022,
+   "groups": 5,
+   "total": -0.20010462692394665,
+   "comp": -0.43660685246381636,
+   "within": 0.23650222553986971,
+   "comp_share": 2.181892838638642,
+   "within_mean": 0.6799460178517956,
+   "within_min": 0.37942477876106206,
+   "within_max": 1.0846560846560847,
+   "n": 3423,
+   "n0": 1289,
+   "n1": 2134,
+   "cohort_width": 5,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1974,
+   "y1": 1998,
+   "groups": 10,
+   "total": -0.3714703201849858,
+   "comp": -0.4280400009629178,
+   "within": 0.05656968077793197,
+   "comp_share": 1.152285869702218,
+   "within_mean": 0.05801476743238447,
+   "within_min": -0.3788505747126436,
+   "within_max": 0.35498652291105115,
+   "n": 3040,
+   "n0": 1289,
+   "n1": 1751,
+   "cohort_width": 5,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1998,
+   "y1": 2022,
+   "groups": 9,
+   "total": -0.20298161393382386,
+   "comp": -0.5739331667716697,
+   "within": 0.37095155283784587,
+   "comp_share": 2.8275130719907646,
+   "within_mean": 0.5349996311271955,
+   "within_min": 0.21669691470054442,
+   "within_max": 0.8425925925925926,
+   "n": 3885,
+   "n0": 1751,
+   "n1": 2134,
+   "cohort_width": 5,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1990,
+   "y1": 2022,
+   "groups": 8,
+   "total": 0.23144716817279004,
+   "comp": -0.37508494658831487,
+   "within": 0.6065321147611049,
+   "comp_share": -1.6206071975280774,
+   "within_mean": 1.0385564991670073,
+   "within_min": 0.7985424258198857,
+   "within_max": 1.187830687830688,
+   "n": 3006,
+   "n0": 872,
+   "n1": 2134,
+   "cohort_width": 5,
+   "age_cap": "none"
+  },
+  {
+   "y0": 1974,
+   "y1": 1998,
+   "groups": 4,
+   "total": 0.044578835202459456,
+   "comp": 0.0031551674808143054,
+   "within": 0.04142366772164515,
+   "comp_share": 0.07077725262413836,
+   "within_mean": 0.08150645946596047,
+   "within_min": -0.029126213592232997,
+   "within_max": 0.15108667190363967,
+   "n": 2413,
+   "n0": 1050,
+   "n1": 1363,
+   "cohort_width": 5,
+   "age_cap": 60
+  },
+  {
+   "y0": 1998,
+   "y1": 2022,
+   "groups": 4,
+   "total": -0.12547146414805777,
+   "comp": -0.3558024833622316,
+   "within": 0.23033101921417382,
+   "comp_share": 2.8357243280622004,
+   "within_mean": 0.533797095386525,
+   "within_min": 0.21669691470054442,
+   "within_max": 0.9178082191780823,
+   "n": 2783,
+   "n0": 1363,
+   "n1": 1420,
+   "cohort_width": 5,
+   "age_cap": 60
+  },
+  {
+   "y0": 1990,
+   "y1": 2022,
+   "groups": 3,
+   "total": 0.20250205816256153,
+   "comp": -0.12878513094555785,
+   "within": 0.3312871891081194,
+   "comp_share": -0.6359694914417792,
+   "within_mean": 1.1619031830238729,
+   "within_min": 1.1410256410256412,
+   "within_max": 1.1839080459770115,
+   "n": 2053,
+   "n0": 633,
+   "n1": 1420,
+   "cohort_width": 5,
+   "age_cap": 60
+  }
+ ],
+ "median_comp_share_ill_posed": 1.152285869702218,
+ "median_within": 0.5349996311271955,
+ "median_within_agecapped": 0.533797095386525,
+ "within_ci": {
+  "median": 0.6088308203175404,
+  "lo": 0.4049203948908413,
+  "hi": 0.7888895103104977,
+  "draws": 400
+ },
+ "null_median": -0.0021562871010971283,
+ "null_sd": 0.0905209212284889,
+ "null_draws": 150,
+ "comp_null_median_ill_posed": 1.0043718704265414,
+ "comp_null_sd_ill_posed": 0.013937381044189925,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.002543853096945751
+  ],
+  [
+   0.15,
+   0.0858692247385124
+  ],
+  [
+   0.3,
+   0.19807583717497068
+  ],
+  [
+   0.45,
+   0.3321698501555199
+  ],
+  [
+   0.6,
+   0.4324959046604402
+  ]
+ ],
+ "positive_sweep_composition_RETRACTED": [
+  [
+   0.0,
+   0.939247693737204
+  ],
+  [
+   0.1,
+   0.9446812276747215
+  ],
+  [
+   0.2,
+   0.9492104498990844
+  ],
+  [
+   0.3,
+   0.9530437760004326
+  ],
+  [
+   0.4,
+   0.9563301462614437
+  ]
+ ],
+ "gates": [
+  [
+   "positive: a planted within-cohort trend raises within_mean, and g=0 is null",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.15;g=0 -0.0025 \u00b7 g=0.6 +0.4325",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "the Kitagawa split is RETRACTED as ill-posed, not reported as a result",
+   "birth cohorts do not overlap across a 48-year window, so the estimator's `total` is not the population change: measured totals -0.200/-0.371/-0.203/+0.231 against a true +1.251, giving comp_share 115%/218%/283%/-162%. Wrong estimator for a group that does not persist; no n fixes it; scope stated",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "within-cohort movement vs year permuted within cohort",
+   "|+0.0022| < 0.5*|+0.6088| = 0.3044",
+   true,
+   "null is 0% of the effect [\u96f6\u7684\u65b9\u6848: within-cohort year-label permutation]"
+  ],
+  [
+   "the whole width x agecap x window grid",
+   "method=bh q=0.05 \u00b7 **cells tested 11 \u00b7 cells surviving 8** \u00b7 \u5b58\u6d3b ['w10|capnone|1974-2022', 'w10|capnone|1998-2022', 'w10|capnone|1990-2022', 'w5|capnone|1974-2022', 'w5|capnone|1998-2022', 'w5|capnone|1990-2022', 'w5|cap60|1998-2022', 'w5|cap60|1990-2022'] \u00b7 \u672a\u5b58\u6d3b ['w10|capnone|1974-1998', 'w5|capnone|1974-1998', 'w5|cap60|1974-1998']",
+   true,
+   "control"
+  ],
+  [
+   "mortality-selection control ran: the analysis is repeated on cohorts under 60 at both ends",
+   "3 age-capped cells \u00b7 within_mean capped +0.534 vs uncapped +0.535",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "11/11 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "within-cohort movement carries an interval",
+   "+0.6088 \u00b1 0.0960",
+   true,
+   "\u6765\u6e90 bootstrap_\u4eba\u5c42"
+  ],
+  [
+   "APC collinearity is registered as unidentified, not estimated",
+   "cohort = period - age exactly; this round estimates only within-cohort change and the composition share, and claims nothing about an age effect; scope stated",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "prior art is declared: the qualitative answer is known from the literature",
+   "Treas 2002 \u00b7 Andersen & Fetner 2008 \u00b7 Baunach 2012 report both cohort succession and intracohort change; this round contributes the measured split on THIS release with controls, and is a VERIFICATION",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "KILL: W_REPLACE requires within-cohort movement to be indistinguishable from zero",
+   "within-cohort +0.609 [+0.405,+0.789] vs null -0.0022 +/- 0.0905; age-capped +0.534   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

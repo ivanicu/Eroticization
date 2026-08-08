@@ -246,6 +246,34 @@ the sign — **so no claim is made about who moved more**, only that they moved 
 > as the people who had one, and the arrival of more people with a stake accounts for about one part in
 > twenty-five of the whole shift.**
 
+⚠ **`#924` attacked that sentence on its weakest word.** *"Who they were"* meant only same-sex experience —
+but a population changes in a more basic way: **the people holding the old view die and are replaced by
+people born later.** If replacement carried the trend, nobody changed their mind.
+
+**It did not** (`#924`). Birth cohorts present at both ends moved **+0.609 [95% bootstrap +0.405, +0.789]** on the
+1–4 scale between 1974 and 2022, against a within-cohort year-permutation null of **−0.0022 ± 0.0905**; the
+**age-capped** version (under 60 at both ends, where mortality selection is small) gives **+0.534** against
+an uncapped **+0.535**, so survivor selection is not driving it. **8 of 11 cells survive BH — and the three
+that fail are exactly the 1974–1998 window**, so the movement happened *after* 1998.
+
+⚠⚠ **And the estimator built to weigh that against replacement is RETRACTED as ILL-POSED.** Kitagawa needs
+the same groups in both waves, and **birth cohorts over 48 years do not overlap** — so its `total` came out (`#924`)
+**−0.200 / −0.371 / −0.203 / +0.231** against a true **+1.251**, giving composition shares of **115% / 218%
+/ 283% / −162%**. A ratio dividing by a wrong denominator. **No sample size fixes it.** ⚠ Also permanent:
+`cohort = period − age` exactly, so a full age/period/cohort split is **unidentified by arithmetic**, and no
+age effect is claimed anywhere.
+
+> **One sentence about people (`#924`): the same birth cohorts — not the same individuals, since this is a
+> repeated cross-section and never a panel — moved about six tenths of a point on a four-point scale between
+> 1974 and 2022, and almost all of it after 1998, so a great deal of this change happened inside people who
+> had already made their minds up once.**
+
+⚠ **So `#923`'s sentence is half-supported and half-unmeasured**: people *did* change their minds, now
+measured; **"almost entirely" was never established** and cannot be by this design, because the replacement
+share is exactly what the ill-posed estimator was supposed to give.
+⚠ **Prior art**: the cohort/period structure of this trend is established (Treas 2002 · Andersen & Fetner
+2008 · Baunach 2012). `#924` is a **verification on this release**, not a discovery.
+
 ⚠ **This deflates the six rounds above, and that is what the basin rule asked for**: `#921` was a
 confirmation, so the next step had to be one whose success I would not enjoy. **The coupling is real,
 replicated, and survives a randomised re-wording — and it is historically minor.** ⚠ And because disclosure

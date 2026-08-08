@@ -46391,3 +46391,91 @@ minor.** Both things are now on the page.
    `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
    `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
    `#852`① · `#857`① · `#861`①.
+
+## Entry 924 · `E03·A114·R362` — the cohorts moved, and my estimator for how much was ill-posed
+
+**⇒ `OVERTURNED` · world `W_CONVERT-ALIVE`. **People did change their minds**: birth cohorts present
+at both ends moved **+0.609 [95% bootstrap +0.405, +0.789]** on a 1–4 scale between 1974 and 2022,
+against a within-cohort year-permutation null of **−0.0022 ± 0.0905**. ⚠ **And the decomposition I
+built to weigh that against cohort replacement is RETRACTED as ILL-POSED, not imprecise.**
+
+**WHY THIS ROUND.** `#923` put a sentence on the page — *"Americans changed their minds about
+homosexuality almost entirely without changing who they were"* — where **"who they were" meant only
+same-sex experience**. There is a more basic sense in which a population changes: **the people
+holding the old view die and are replaced by people born later.** If replacement carried the trend,
+nobody changed their mind and my sentence was false. That is the step whose success I would not
+enjoy, which is what the basin rule asks for after `#923`'s confirmation.
+
+**⚠ PRIOR ART, DECLARED BEFORE THE NUMBER.** This is a **VERIFICATION on this release, not a
+discovery**: the cohort/period structure of this trend is established (Treas 2002; Andersen & Fetner
+2008; Baunach 2012), reporting both cohort succession and substantial intracohort change with period
+effects strengthening after ~1990. A round that "found" this without saying so would be restating
+known work as its own.
+
+**⚠⚠ WHAT THE RUN CAUGHT, AND IT IS STRUCTURAL RATHER THAN NUMERICAL.** Kitagawa needs the **same
+groups in both waves**. **Birth cohorts over a 48-year window do not overlap** — the 1900s cohort is
+absent in 2022, the 2000s cohort absent in 1974 — so the estimator runs on a small intersection and
+its `total` is **not the population change**. Measured: totals of **−0.200 · −0.371 · −0.203 ·
++0.231** against a true 1973→2024 move of **+1.251**, producing `comp_share` values of **115% · 218%
+· 283% · −162%** — a ratio dividing by a wrong, near-zero denominator. ⇒ **No sample size fixes it.
+It is the wrong estimator for a group that does not persist**, and the whole composition column is
+withdrawn.
+
+**WHAT SURVIVES, because it needs no common-group assumption.**
+
+| | within-cohort movement |
+|---|---|
+| **1974→2022, all ages** | **+0.609 [+0.405, +0.789]** |
+| median across 11 cells | **+0.535** |
+| ⚠ **age-capped, under 60 at both ends** | **+0.534** — mortality selection is **not** driving it |
+| 1974→1998 window | +0.058 · +0.082 — **the 3 cells that fail BH** |
+
+**BH over the grid: 8 of 11 survive, and the three that do not are exactly the pre-1998 window** —
+the movement happened **after** 1998, which is what the period-effect literature reports.
+
+**⚠⚠ AND `#922`'s NEW GATE BLOCKED THIS ROUND'S OWN COMMIT — its first real catch.** The first
+version persisted the **retracted composition sweep** beside the **within-cohort null**: `g=0` at
+**+0.9392** against **−0.0022 ± 0.0905**, **10.4 spreads apart**. The gate was right, and for exactly
+the reason it was built: **those are two different quantities.** What it exposed is not bookkeeping —
+**the surviving claim had a negative control and no positive control of its own.** Added: a
+within-cohort trend planted into the year-permuted null world sweeps `0 → −0.0025 · 0.15 → +0.0859 ·
+0.30 → +0.1981 · 0.45 → +0.3322 · 0.60 → +0.4325`, monotone, landing on the baseline.
+⇒ *A gate built one round ago found a hole in the next round that I did not see while writing it.*
+
+**⇒ One sentence about people: the same birth cohorts — not the same individuals, since this is a
+repeated cross-section and never a panel — moved about six tenths of a point on a four-point scale
+between 1974 and 2022, and almost all of it after 1998, so a great deal of this change happened
+inside people who had already made their minds up once.**
+
+**⚠ AND `#923`'s SENTENCE IS NOW HALF-SUPPORTED, HALF-UNMEASURED.** People did change their minds —
+that part stands and is now measured. **"Almost entirely" was never established and cannot be
+established by this design**, because the replacement share is exactly the quantity the ill-posed
+estimator was supposed to give.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠⚠ **AGE, PERIOD AND COHORT ARE EXACTLY COLLINEAR** (`cohort = period − age`) ⇒ a full three-way
+   decomposition is **UNIDENTIFIED PERMANENTLY, BY ARITHMETIC**. No data fixes this; it is not a
+   power problem, and no age effect is claimed anywhere in this round;
+② ⚠ **the replacement share is not estimable here at all** — non-overlapping groups, above;
+③ ⚠ mortality/participation selection is **bounded** by the age cap, never removed;
+④ ⚠ the same cohort is not the same people: **repeated cross-section, not a panel**;
+⑤ ⚠ **only this one instrument** — GSS is the only release here with a five-decade series;
+⑥ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE SPLIT NEEDS A DIFFERENT ESTIMATOR, NOT A BIGGER SAMPLE.** Non-overlapping groups defeat
+   Kitagawa; what would work is a design that never needs a common group set — e.g. contrasting
+   **predicted-if-no-cohort-turnover** against observed by holding the age distribution fixed. That
+   is a different round, and `#111c` permits it because this round's verdict is not `UNVERIFIED`.
+   ⇒ `#924`①
+② ⚠ **THIS IS THE SECOND ILL-POSED ESTIMATOR IN TWO ROUNDS** (`#923`'s degenerate plant, this one's
+   non-overlapping groups). Both were caught by running them, neither by designing them. **The
+   family `#920`② named has a sibling: not "I describe what I meant" but "I reach for a standard
+   estimator without checking its precondition holds here."** ⇒ `#924`②
+③ ⚠ Still `OPEN`: `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② ·
+   `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① ·
+   `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② ·
+   `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② ·
+   `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② ·
+   `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① ·
+   `#850`① · `#852`① · `#857`① · `#861`①.

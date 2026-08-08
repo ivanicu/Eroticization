@@ -1,0 +1,41 @@
+homosex x cohort x age: n=43798 · 30 waves · 1973-2024 · cohorts 1900-2006
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  width=10 agecap=none 1974->2022 grp= 3  total -0.327 = comp -0.579 + within +0.252 | comp_share 177.0% · within_mean +0.610 [+0.48,+0.69]  n=3423
+  width=10 agecap=none 1974->1998 grp= 5  total -0.371 = comp -0.422 + within +0.050 | comp_share 113.6% · within_mean +0.065 [+0.03,+0.11]  n=3040
+  width=10 agecap=none 1998->2022 grp= 5  total -0.264 = comp -0.645 + within +0.380 | comp_share 243.9% · within_mean +0.518 [+0.37,+0.63]  n=3885
+  width=10 agecap=none 1990->2022 grp= 5  total +0.403 = comp -0.279 + within +0.682 | comp_share -69.4% · within_mean +1.035 [+0.86,+1.28]  n=3006
+  width= 5 agecap=none 1974->2022 grp= 5  total -0.200 = comp -0.437 + within +0.237 | comp_share 218.2% · within_mean +0.680 [+0.38,+1.08]  n=3423
+  width= 5 agecap=none 1974->1998 grp=10  total -0.371 = comp -0.428 + within +0.057 | comp_share 115.2% · within_mean +0.058 [-0.38,+0.35]  n=3040
+  width= 5 agecap=none 1998->2022 grp= 9  total -0.203 = comp -0.574 + within +0.371 | comp_share 282.8% · within_mean +0.535 [+0.22,+0.84]  n=3885
+  width= 5 agecap=none 1990->2022 grp= 8  total +0.231 = comp -0.375 + within +0.607 | comp_share -162.1% · within_mean +1.039 [+0.80,+1.19]  n=3006
+  width= 5 agecap=60   1974->1998 grp= 4  total +0.045 = comp +0.003 + within +0.041 | comp_share   7.1% · within_mean +0.082 [-0.03,+0.15]  n=2413
+  width= 5 agecap=60   1998->2022 grp= 4  total -0.125 = comp -0.356 + within +0.230 | comp_share 283.6% · within_mean +0.534 [+0.22,+0.92]  n=2783
+  width= 5 agecap=60   1990->2022 grp= 3  total +0.203 = comp -0.129 + within +0.331 | comp_share -63.6% · within_mean +1.162 [+1.14,+1.18]  n=2053
+
+  median comp_share  115.2%  over 11 cells
+  median within_mean +0.535
+  median within_mean, AGE-CAPPED (<60 at both ends, mortality selection small): +0.534   <- the confound control
+
+  null for the ABSOLUTE composition component (cohort shares held at their first-wave values; kind of null: share-fixed resampling): +1.0044 +/- 0.0139 (120 draws)
+  positive sweep (planted replacement, median ABSOLUTE comp): [(0.0, 0.9392), (0.1, 0.9447), (0.2, 0.9492), (0.3, 0.953), (0.4, 0.9563)]
+  within-cohort mean movement 1974->2022: +0.609 [95% bootstrap +0.405, +0.789]  <- identified without any APC assumption
+  null for WITHIN-cohort movement (year permuted within cohort; kind of null: within-cohort year-label permutation): -0.0022 +/- 0.0905 (150 draws)
+  positive sweep for WITHIN-cohort movement (planted into the year-permuted null world): [(0.0, -0.0025), (0.15, 0.0859), (0.3, 0.1981), (0.45, 0.3322), (0.6, 0.4325)]
+
+  CONDITIONAL KILL -- Did anyone change their mind, or did the people change?
+   PASS  positive: a planted within-cohort trend raises within_mean, and g=0 is null                 方向由数据给出:**上升**;灵敏度 g=0.15;g=0 -0.0025 · g=0.6 +0.4325   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  the Kitagawa split is RETRACTED as ill-posed, not reported as a result                      birth cohorts do not overlap across a 48-year window, so the estimator's `total` is not the population change: measured totals -0.200/-0.371/-0.203/+0.231 against a true +1.251, giving comp_share 115%/218%/283%/-162%. Wrong estimator for a group that does not persist; no n fixes it; scope stated   (asserted in code, not in prose)
+   PASS  within-cohort movement vs year permuted within cohort                                       |+0.0022| < 0.5*|+0.6088| = 0.3044   (null is 0% of the effect [零的方案: within-cohort year-label permutation])
+   PASS  the whole width x agecap x window grid                                                      method=bh q=0.05 · **cells tested 11 · cells surviving 8** · 存活 ['w10|capnone|1974-2022', 'w10|capnone|1998-2022', 'w10|capnone|1990-2022', 'w5|capnone|1974-2022', 'w5|capnone|1998-2022', 'w5|capnone|1990-2022', 'w5|cap60|1998-2022', 'w5|cap60|1990-2022'] · 未存活 ['w10|capnone|1974-1998', 'w5|capnone|1974-1998', 'w5|cap60|1974-1998']   (control)
+   PASS  mortality-selection control ran: the analysis is repeated on cohorts under 60 at both ends  3 age-capped cells · within_mean capped +0.534 vs uncapped +0.535   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                           11/11 格带 n   (每一格都声明了自己的人群规模)
+   PASS  within-cohort movement carries an interval                                                  +0.6088 ± 0.0960   (来源 bootstrap_人层)
+   PASS  APC collinearity is registered as unidentified, not estimated                               cohort = period - age exactly; this round estimates only within-cohort change and the composition share, and claims nothing about an age effect; scope stated   (asserted in code, not in prose)
+   PASS  prior art is declared: the qualitative answer is known from the literature                  Treas 2002 · Andersen & Fetner 2008 · Baunach 2012 report both cohort succession and intracohort change; this round contributes the measured split on THIS release with controls, and is a VERIFICATION   (asserted in code, not in prose)
+   PASS  KILL: W_REPLACE requires within-cohort movement to be indistinguishable from zero           within-cohort +0.609 [+0.405,+0.789] vs null -0.0022 +/- 0.0905; age-capped +0.534   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : OVERTURNED · world W_CONVERT-ALIVE · people DID change their minds; the SPLIT stays unmeasured
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A114_does_the_person_level_finding_explain_the_century/R362_did_anyone_change_their_mind/results/did_anyone_change_their_mind.json
