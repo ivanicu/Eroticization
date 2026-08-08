@@ -506,6 +506,28 @@ near-degenerate marginal caps any rank correlation, so part of the rise is the i
 > premarital sex, teenage sex and adultery, not less; it moved furthest without ever leaving the company it
 > started in.**
 
+⚠⚠ **`#936` then turned that bounded direction into a magnitude, using the project's own machinery.** For two
+ordinal items the maximum attainable |ρ| is fixed by their **marginals**, and is reached by the **comonotone**
+pairing (`#902`). That ceiling **contains no association**, so dividing by it is a units fix. ⚠ The degeneracy
+check ran first — a ceiling of ~1.0 would make the round vacuous — and it is **0.6719–0.8352**, and it **falls**
+(**0.8236 → 0.7684**), so **the confound runs against the finding**.
+
+| `#936` | 1988 | 2024 | trend / decade |
+|---|---|---|---|
+| coupling as a share of what the marginals permit | **0.4020** | **0.6252** | **+0.0595** |
+| raw (`#935`) | 0.3311 | 0.4804 | +0.0306 |
+| sham — the other-three pairs, normalised | — | — | **+0.0095** |
+
+Against a within-wave permutation null of **−0.0023 ± 0.0038** (`#936`, ~16 spreads, kind of null:
+within-wave person-label permutation), **3 of 3 trend estimates surviving BH**. **Normalising nearly doubles the trend** rather than removing it. ⚠ **Scope narrowed by the
+sham**: inter-item coherence rose generally too, so **about one part in six of the finding is general and the
+rest is this act**.
+
+> **One sentence about people (`#936`): measured against the most any two of these questions could possibly
+> agree, Americans' view of homosexuality moved from two-fifths of that ceiling to nearly two-thirds — so as
+> they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
+> further in.**
+
 ⚠ **Prior art**: Twenge, Sherman & Wells (2015) documented the divergent trends in exactly these four
 items. **The divergence is not new here**; the *within-cohort* version — same birth years, not a
 changing population — with a measured ceiling control and a permutation null, is. ⚠ **What still

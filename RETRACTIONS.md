@@ -47293,3 +47293,66 @@ the company it started in.**
    `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
    `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
    `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 936 · `E03·A118·R374` — measured against what the marginals permit, the integration is real and now has a size
+
+**⇒ `OVERTURNED` · world `W_REAL, scope narrowed`. Against the **comonotone ceiling** the two
+marginals permit, the `homosex`-to-others coupling went from **0.4020 of that ceiling (1988) to
+0.6252 (2024)** — a trend of **+0.0595 per decade** against a within-wave permutation null of
+**−0.0023 ± 0.0038**, about **16 null-spreads**, with **3 of 3 trend estimates surviving BH**.
+**`#935`'s bounded direction is now a magnitude.**
+
+**WHY THE CONFOUND COULD NOT MANUFACTURE IT.** `#935` bounded itself because `homosex`'s sd rose
+1.089 → 1.407 and a near-degenerate marginal caps any rank correlation. ⚠ **The degeneracy check ran
+first**, because a ceiling of ~1.0 would have made the whole round vacuous: measured, it is
+**0.6719–0.8352**, and it **FALLS** across the span, **0.8236 → 0.7684**. ⇒ **the confound runs
+AGAINST the finding**, and normalising nearly **doubles** the trend rather than removing it —
+**raw +0.0306 → normalised +0.0595**.
+
+**THE CEILING CONTAINS NO ASSOCIATION.** It is the comonotone pairing — sort both, pair them —
+`#902`'s machinery, built in this project for a different question. It is a property of the two
+**marginals alone**, so dividing by it is a **units fix** and cannot launder the finding it tests.
+
+**⚠ THE SCOPE IS NARROWED BY THE SHAM, AND THE VERDICT SAYS SO.** The three pairs among the other
+three items, normalised identically, also rose: **+0.0095 per decade** — small, but above its null.
+⇒ **there IS a general rise in inter-item coherence**, and the target's is about **six times larger**.
+**Roughly one part in six of the finding is general; the rest is this act.**
+
+**⚠⚠ AND THE GATE CAUGHT A REAL DESIGN FLAW ON THE WAY OUT.** v1 ran the multiplicity correction on
+**each wave's deviation from the mean** — **0 of 21 surviving** — beside a verdict about a **trend**.
+**A wave's deviation from the mean is not a member of the family this claim belongs to**; that is
+`#898`'s error class, comparing a number to a reference that answers a different question.
+`#931`'s `verdict_contradiction_gate` flagged the mismatch, **and it was right to**. Repaired: the
+family is the **three trend estimates this round actually reports** — raw, normalised, sham — **3 of
+3 surviving.**
+
+**⇒ One sentence about people: measured against the most any two of these questions could possibly
+agree, Americans' view of homosexuality moved from two-fifths of that ceiling to nearly two-thirds —
+so as they changed their minds about it, they did not carve the act out of their sexual morality,
+they folded it further in.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **the ceiling bounds what the MARGINALS permit, not what a 4-point scale can express** about a
+   continuous attitude — **coarseness is not corrected, only degeneracy**;
+② ⚠ all four items are asked in one interview (HARD RULE 2), inherited; `#934` removed the four-item
+   version of that confound, **not the two-item one**;
+③ ⚠ repeated cross-section — a trend in a population statistic, never in any person;
+④ ⚠ **only this one instrument**; ⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **A118 IS NOW A COMPLETE ARC AND SHOULD BE STATED AS ONE**: `#933` one act moved · `#934` it
+   survives a randomised removal of the question context · `#935` it did not detach · `#936` it
+   integrated, by a measured amount, with one part in six of that being general. **Four rounds, one
+   claim, each attacking the last.** ⇒ `#936`①
+② ⚠ **THE MULTIPLICITY FAMILY IS A CHOICE AND I HAVE BEEN MAKING IT CARELESSLY.** `#936` used the
+   wrong family and only the gate noticed; `#935` and `#930` used per-wave/per-cell families beside
+   trend and correlation claims. **`multiplicity_control` should be asked "is this the family the
+   claim lives in?" and nothing currently asks it.** ⇒ `#936`②
+③ ⚠ Still `OPEN`: `#935`①② · `#934`①②③ · `#933`① · `#932`① · `#931`② · `#930`①② · `#929`②③ · `#928`①③ ·
+   `#927`③ · `#926`① · `#925`② · `#924`② · `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ ·
+   `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② ·
+   `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② ·
+   `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ ·
+   `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① ·
+   `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① ·
+   `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

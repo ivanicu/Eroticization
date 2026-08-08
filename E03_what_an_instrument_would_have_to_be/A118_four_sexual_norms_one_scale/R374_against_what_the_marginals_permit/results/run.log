@@ -1,0 +1,50 @@
+PRECONDITION — ballot 1, all four answered, waves n>=300: 21 usable · DROPPED 0: none (absence reported, not passed)
+
+DEGENERACY CHECK — if the ceiling were ~1.0 everywhere, normalising would do nothing:
+  target-pair ceiling: min 0.6719 · median 0.7495 · max 0.8352  -> NON-degenerate
+  and it FALLS: 0.8236 (1988) -> 0.7684 (2024) ⇒ the confound runs AGAINST the finding
+
+=== THE GRID — per wave (all cells, disagreeing ones included) ===
+  1988  n= 452  target: obs 0.3311 / ceil 0.8236 = 0.4020   |  others: obs 0.3814 / ceil 0.7005 = 0.5444   sd_t 1.089
+  1989  n= 465  target: obs 0.3259 / ceil 0.8352 = 0.3902   |  others: obs 0.3624 / ceil 0.6797 = 0.5332   sd_t 1.094
+  1990  n= 428  target: obs 0.3203 / ceil 0.8113 = 0.3948   |  others: obs 0.3394 / ceil 0.6402 = 0.5301   sd_t 1.061
+  1991  n= 445  target: obs 0.3518 / ceil 0.7916 = 0.4444   |  others: obs 0.4079 / ceil 0.6544 = 0.6233   sd_t 1.098
+  1993  n= 500  target: obs 0.3760 / ceil 0.8283 = 0.4540   |  others: obs 0.4009 / ceil 0.6652 = 0.6028   sd_t 1.214
+  1994  n= 894  target: obs 0.3527 / ceil 0.8027 = 0.4394   |  others: obs 0.3540 / ceil 0.6584 = 0.5378   sd_t 1.290
+  1996  n= 877  target: obs 0.3886 / ceil 0.8033 = 0.4838   |  others: obs 0.3450 / ceil 0.6660 = 0.5181   sd_t 1.323
+  1998  n= 815  target: obs 0.3682 / ceil 0.7474 = 0.4926   |  others: obs 0.3523 / ceil 0.6280 = 0.5610   sd_t 1.360
+  2000  n= 805  target: obs 0.3121 / ceil 0.8020 = 0.3891   |  others: obs 0.3283 / ceil 0.6860 = 0.4786   sd_t 1.332
+  2002  n= 428  target: obs 0.3796 / ceil 0.7372 = 0.5149   |  others: obs 0.3688 / ceil 0.6162 = 0.5985   sd_t 1.396
+  2004  n= 435  target: obs 0.4287 / ceil 0.7492 = 0.5722   |  others: obs 0.3779 / ceil 0.6136 = 0.6160   sd_t 1.359
+  2006  n= 927  target: obs 0.3722 / ceil 0.7495 = 0.4966   |  others: obs 0.3286 / ceil 0.6348 = 0.5176   sd_t 1.379
+  2008  n= 595  target: obs 0.3771 / ceil 0.7127 = 0.5291   |  others: obs 0.3321 / ceil 0.5834 = 0.5693   sd_t 1.419
+  2010  n= 614  target: obs 0.3777 / ceil 0.7289 = 0.5182   |  others: obs 0.3305 / ceil 0.6164 = 0.5362   sd_t 1.415
+  2012  n= 576  target: obs 0.3964 / ceil 0.6824 = 0.5809   |  others: obs 0.3136 / ceil 0.5753 = 0.5450   sd_t 1.440
+  2014  n= 807  target: obs 0.3395 / ceil 0.6719 = 0.5053   |  others: obs 0.2927 / ceil 0.5659 = 0.5173   sd_t 1.413
+  2016  n= 853  target: obs 0.4303 / ceil 0.7109 = 0.6053   |  others: obs 0.3687 / ceil 0.6179 = 0.5967   sd_t 1.428
+  2018  n= 731  target: obs 0.4260 / ceil 0.6955 = 0.6125   |  others: obs 0.3677 / ceil 0.6109 = 0.6019   sd_t 1.390
+  2021  n=1302  target: obs 0.4706 / ceil 0.7561 = 0.6224   |  others: obs 0.3862 / ceil 0.6906 = 0.5592   sd_t 1.291
+  2022  n=1088  target: obs 0.4122 / ceil 0.7425 = 0.5552   |  others: obs 0.3754 / ceil 0.6479 = 0.5795   sd_t 1.317
+  2024  n=1019  target: obs 0.4804 / ceil 0.7684 = 0.6252   |  others: obs 0.4172 / ceil 0.6608 = 0.6313   sd_t 1.407
+
+  trend per decade — RAW +0.0306 · CEILING-NORMALISED +0.0595 · sham (others, normalised) +0.0095
+  normalised coupling 0.4020 (1988) -> 0.6252 (2024)
+
+  null for the NORMALISED trend (target permuted within wave — BOTH marginals and therefore the ceiling are untouched; kind of null: within-wave person-label permutation): -0.0023 +/- 0.0038 over 250 draws
+  positive sweep (a rising coupling of strength g planted into the permuted world; g=0 IS the null): [(0.0, -0.0014), (0.25, 0.0306), (0.5, 0.0741), (0.75, 0.1133), (1.0, 0.1594)]
+
+  CONDITIONAL KILL -- Against what the marginals permit, did the coupling really rise?
+   PASS  positive: a planted rising coupling raises the normalised trend, and g=0 IS the null world  方向由数据给出:**上升**;灵敏度 g=0.25;g=0 -0.0014 · g=1 +0.1594   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  target permuted within wave (marginals, hence the ceiling, untouched)                       |+0.0023| < 0.5*|+0.0595| = 0.0297   (null is 4% of the effect [零的方案: within-wave person-label permutation])
+   PASS  the three trend estimates this round reports                                                method=bh q=0.05 · **cells tested 3 · cells surviving 3** · 存活 ['raw trend', 'ceiling-normalised trend', 'sham (others) trend'] · 未存活 []   (control)
+   PASS  DEGENERACY CHECK ran FIRST — a ceiling of ~1.0 would make this round vacuous                ceiling min 0.6719 median 0.7495 max 0.8352   (asserted in code, not in prose)
+   PASS  the confound runs AGAINST the finding, so normalising cannot manufacture the rise           ceiling 0.8236 -> 0.7684; raw trend +0.0306 vs normalised +0.0595   (asserted in code, not in prose)
+   PASS  SHAM: the other-three pairs, normalised identically, are the reference                      sham normalised trend +0.0095 per decade vs target +0.0595   (asserted in code, not in prose)
+   PASS  the ceiling contains no association — it is a property of the two MARGINALS alone           computed as the comonotone pairing (`#902`'s machinery), so dividing by it is a units fix and cannot launder the finding it is used to test   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                           21/21 格带 n   (每一格都声明了自己的人群规模)
+   FAIL  KILL: W_MARGINAL requires the normalised trend to sit at or below its null                  normalised trend +0.0595/decade vs null -0.0023 +/- 0.0038; coupling 0.4020 -> 0.6252   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_MARGINAL requires the normalised trend to sit at or below its null). This is a refutation, NOT an unverified round (#366e).
+  gate three-valued : OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_MARGINAL requires the normalised trend to sit at or below its null). This is a refutation, NOT an unverified round (#366e).
+  VERDICT           : OVERTURNED · world W_REAL, but the sham moved too — scope narrowed
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R374_against_what_the_marginals_permit/results/against_what_the_marginals_permit.json
