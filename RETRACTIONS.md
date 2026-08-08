@@ -45921,3 +45921,83 @@ they come apart.**
    `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
    `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
    `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 918 · `E03·A112·R356` — the item with the least room to move carried all of it
+
+**⇒ `CONFIRMED` · world `W1 · REAL`. The ceiling rival is not merely refuted, it is **BACKWARDS**:
+`xmarsex` against its own exposure has the **highest** attainable correlation in the whole matrix
+(**0.8945**) and `homosex` against its own has nearly the **lowest** (**0.3181**). ⇒ **`#917` stands,
+and this is the first round in four that did not deflate its predecessor.**
+
+**WHY THIS RIVAL.** `#917` rests entirely on `xmarsex` carrying none of the departure — and
+`xmarsex` is **77.4% on one endpoint, sd 0.7069 against `homosex`'s 1.4141, exactly half.** An item
+pinned against its floor cannot express a graded association no matter what is true about the people
+answering it. **Measurable, unlike `#916`'s breadth rival, which was a reading of item text.**
+
+**⚠ AND `#917`②'s OWN PROPOSED TEST DIED ON THE GRADIENT CHECK, BEFORE ANY COMPUTE.** It offered to
+test disclosure coupling by asking whether the departure shrinks across 1991–2014 as disclosure
+stigma falls. **A REAL coupling also attenuates over those decades**, as approval approaches its
+ceiling and the item's variance collapses. **Both worlds predict shrinkage ⇒ flat row ⇒ the action
+separates nothing.** `frontier` §1.2: kill the action, not the world. ⇒ **The disclosure world is
+still live and still untested**, registered below rather than quietly dropped.
+
+**THE CORRECTION TO MY OWN FRAMING, and it is the useful part.** `beta()` already standardises the
+outcome, so raw **variance** was never the threat — it is divided out. The real quantity is
+**attainable range**: how large a correlation an item's lumpy marginal permits *against a binary
+predictor of that exposure's base rate*. That ceiling is a property of `(marginal, base rate)` alone
+and **contains no association**, so dividing by it is a units fix, not a control that can launder.
+
+| (exposure, item) | attainable \|r\|max | |
+|---|---|---|
+| **`xm` → `xmarsex`** | **0.8945** | ⚠ the **most** room in the matrix — its own matched pair |
+| `xm` → `teensex` | 0.8501 | |
+| `ss` → `xmarsex` | 0.7484 | |
+| `ss` → `teensex` | 0.6884 | |
+| `xm` → `homosex` | 0.6248 | |
+| **`ss` → `homosex`** | **0.3181** | ⚠ nearly the **least** room — and it carries everything |
+
+| | full | drop `homosex` | drop `premarsx` | drop `teensex` | drop `xmarsex` | placebo | null |
+|---|---|---|---|---|---|---|---|
+| **raw** | 0.1762 | **0.0504 (0.29×)** | 0.1835 | 0.1867 | 0.2347 | 0.0627 | 0.0641 ± 0.0236 |
+| **ceiling-normalised** | **0.4395** | **0.1237 (0.28×)** | 0.4718 | 0.4619 | 0.3802 | 0.0709 | 0.0796 ± 0.0200 |
+
+**Normalisation makes the departure LARGER (0.1762 → 0.4395) and leaves the carrier set identical:
+`['homosex']` both ways.** BH over **72** cells, **51** surviving; positive control null at `g=0`
+(0.0803 → 0.2840); the one-factor synthetic **reproduces the observed lumpy marginals**, so the null
+lives in the same ceiling regime the data does.
+
+**⚠ THE BASIN NOTE I WROTE BEFORE RUNNING, AND IT MATTERED.** `#916` deflated `#915`; `#917`
+deflated `#916`. **Three consecutive deflations is itself a basin**, so the outcome I had to treat as
+unwelcome here was `W1` — the one that ends the chain and forces me to accept a psychological claim.
+The design was two-sided on purpose: normalisation could have raised `xmarsex` or left it flat.
+**It raised the departure and left the carrier alone.**
+
+**⇒ One sentence about people: a person who has had a same-sex partner rates homosexuality much less
+wrong, and a person who has cheated on their spouse rates adultery no less wrong at all — and that is
+not because the adultery question had no room to move, since it had the most room of any question
+here. People argue their own case about who they are, and do not argue it about what they have done.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **THE DISCLOSURE WORLD IS UNTESTED AND HAS NO DESIGN ON THIS RELEASE** — it would need a
+   behaviour measure not self-reported to the same interviewer. `#917`②'s proposal is withdrawn as a
+   design, not as a world;
+② shared instrument (HARD RULE 2), inherited and unchanged;
+③ the arrow is not identified; cross-sectional per respondent;
+④ the ceiling is computed **against a binary predictor**, because both exposures are binary — it does
+   not bound what a continuous predictor could reach;
+⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE PAGE CAN NOW CARRY A CLAIM WITH A SCOPE INSTEAD OF A MECHANISM.** Four rounds argued about
+   why; the measured thing is small and stable: *the coupling between doing and approving is specific
+   to `homosex`, at matched attainable range, on 5,034 respondents over 13 waves.* **Write that, and
+   let the mechanism stay open** (`#911`②). ⇒ `#918`①
+② ⚠ **THE ONE LIVE RIVAL NEEDS AN INSTRUMENT, NOT A ROUND.** Disclosure coupling requires a
+   behaviour measure not routed through the same interview. **That is an acquisition** — like
+   `#912`'s three — and naming it is as far as a round goes. ⇒ `#918`②
+③ ⚠ Still `OPEN`: `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② ·
+   `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② ·
+   `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ ·
+   `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② ·
+   `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① ·
+   `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

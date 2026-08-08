@@ -1,0 +1,1605 @@
+{
+ "entry": 918,
+ "round": "E03\u00b7A112\u00b7R356",
+ "verdict": "CONFIRMED",
+ "world": "W1 \u00b7 REAL \u2014 `homosex` carries it at matched attainable range",
+ "estimand": "sigma2/sigma1 of the 2xK coefficient matrix with each cell divided by the attainable |r| ceiling implied by that item's marginal and the exposure's rate",
+ "instrument": "GSS 1972-2024 gss7224_r3a.dta",
+ "marginals": {
+  "homosex": {
+   "sd": 1.361109763850049,
+   "max_cell": 0.5842272546682559,
+   "shares": {
+    "1": 0.5842272546682559,
+    "2": 0.04251092570520461,
+    "3": 0.0723083035359555,
+    "4": 0.300953516090584
+   }
+  },
+  "premarsx": {
+   "sd": 1.274311881891756,
+   "max_cell": 0.46245530393325385,
+   "shares": {
+    "1": 0.2755264203416766,
+    "2": 0.09137862534763608,
+    "3": 0.17063965037743345,
+    "4": 0.46245530393325385
+   }
+  },
+  "teensex": {
+   "sd": 0.75885920521863,
+   "max_cell": 0.7582439411998411,
+   "shares": {
+    "1": 0.7582439411998411,
+    "2": 0.13825983313468415,
+    "3": 0.07012316249503377,
+    "4": 0.033373063170441
+   }
+  },
+  "xmarsex": {
+   "sd": 0.6243833850532262,
+   "max_cell": 0.823202224870878,
+   "shares": {
+    "1": 0.823202224870878,
+    "2": 0.10945570123162494,
+    "3": 0.05164878823996821,
+    "4": 0.015693285657528804
+   }
+  }
+ },
+ "ceilings": {
+  "ss|homosex": 0.3181094355622647,
+  "ss|premarsx": 0.2099090312385634,
+  "ss|teensex": 0.6883538020433376,
+  "ss|xmarsex": 0.7483841104436866,
+  "xm|homosex": 0.6468322850627038,
+  "xm|premarsx": 0.4268214744757605,
+  "xm|teensex": 0.8519362152494769,
+  "xm|xmarsex": 0.8962893202437058,
+  "ss_alt|homosex": 0.1659871145597767,
+  "ss_alt|premarsx": 0.10683874901422147,
+  "ss_alt|teensex": 0.40894596656839993,
+  "ss_alt|xmarsex": 0.5370551323739039
+ },
+ "raw": {
+  "full": 0.17622422859824455,
+  "drops": {
+   "homosex": 0.05043382867014794,
+   "premarsx": 0.18347084835418898,
+   "teensex": 0.18674234394606676,
+   "xmarsex": 0.2346812319457378
+  },
+  "placebo": 0.06268694697296182,
+  "null_median": 0.06409196741990145,
+  "null_sd": 0.02361973313762172,
+  "carriers": [
+   "homosex"
+  ]
+ },
+ "normalised": {
+  "full": 0.4394669537282211,
+  "drops": {
+   "homosex": 0.12368461380790416,
+   "premarsx": 0.4718102729688829,
+   "teensex": 0.46191091254367966,
+   "xmarsex": 0.38022637850755464
+  },
+  "placebo": 0.07085697307250662,
+  "null_median": 0.07958929672088029,
+  "null_sd": 0.019996328220216537,
+  "carriers": [
+   "homosex"
+  ]
+ },
+ "positive_sweep": [
+  [
+   0.0,
+   0.0803133722074762
+  ],
+  [
+   0.15,
+   0.0864174681676143
+  ],
+  [
+   0.3,
+   0.14513237563157774
+  ],
+  [
+   0.45,
+   0.1941770017439936
+  ],
+  [
+   0.6,
+   0.28401819510290494
+  ]
+ ],
+ "grid": [
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "none",
+   "ratio": 0.19038440618642022,
+   "n": 5034,
+   "coefs": [
+    [
+     0.08859761137481631,
+     0.04358667861433093,
+     0.053258356610446485,
+     0.07686469355315456
+    ],
+    [
+     0.06820317538671858,
+     0.10201130024885492,
+     0.108159249778422,
+     0.24426124640084293
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "homosex",
+   "ratio": 0.05990981781512423,
+   "n": 5034,
+   "coefs": [
+    [
+     0.04358667861433093,
+     0.053258356610446485,
+     0.07686469355315456
+    ],
+    [
+     0.10201130024885492,
+     0.108159249778422,
+     0.24426124640084293
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "premarsx",
+   "ratio": 0.20312458273487627,
+   "n": 5034,
+   "coefs": [
+    [
+     0.08859761137481631,
+     0.053258356610446485,
+     0.07686469355315456
+    ],
+    [
+     0.06820317538671858,
+     0.108159249778422,
+     0.24426124640084293
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "teensex",
+   "ratio": 0.20409026703153063,
+   "n": 5034,
+   "coefs": [
+    [
+     0.08859761137481631,
+     0.04358667861433093,
+     0.07686469355315456
+    ],
+    [
+     0.06820317538671858,
+     0.10201130024885492,
+     0.24426124640084293
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "xmarsex",
+   "ratio": 0.22800542905932128,
+   "n": 5034,
+   "coefs": [
+    [
+     0.08859761137481631,
+     0.04358667861433093,
+     0.053258356610446485
+    ],
+    [
+     0.06820317538671858,
+     0.10201130024885492,
+     0.108159249778422
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.026793644378518784,
+   "n": 5034,
+   "coefs": [
+    [
+     0.04358667861433093,
+     0.053258356610446485
+    ],
+    [
+     0.10201130024885492,
+     0.108159249778422
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "none",
+   "ratio": 0.1893863289017591,
+   "n": 5017,
+   "coefs": [
+    [
+     0.08889946585093297,
+     0.041197128678959076,
+     0.05170989224829682,
+     0.07787305198685868
+    ],
+    [
+     0.06776182595473952,
+     0.1057059627995235,
+     0.10937298646172229,
+     0.24330589824813445
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "homosex",
+   "ratio": 0.049101969387887356,
+   "n": 5017,
+   "coefs": [
+    [
+     0.041197128678959076,
+     0.05170989224829682,
+     0.07787305198685868
+    ],
+    [
+     0.1057059627995235,
+     0.10937298646172229,
+     0.24330589824813445
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "premarsx",
+   "ratio": 0.20236381547055107,
+   "n": 5017,
+   "coefs": [
+    [
+     0.08889946585093297,
+     0.05170989224829682,
+     0.07787305198685868
+    ],
+    [
+     0.06776182595473952,
+     0.10937298646172229,
+     0.24330589824813445
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "teensex",
+   "ratio": 0.20372634611568516,
+   "n": 5017,
+   "coefs": [
+    [
+     0.08889946585093297,
+     0.041197128678959076,
+     0.07787305198685868
+    ],
+    [
+     0.06776182595473952,
+     0.1057059627995235,
+     0.24330589824813445
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "xmarsex",
+   "ratio": 0.24135703483215432,
+   "n": 5017,
+   "coefs": [
+    [
+     0.08889946585093297,
+     0.041197128678959076,
+     0.05170989224829682
+    ],
+    [
+     0.06776182595473952,
+     0.1057059627995235,
+     0.10937298646172229
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.034949383818914014,
+   "n": 5017,
+   "coefs": [
+    [
+     0.041197128678959076,
+     0.05170989224829682
+    ],
+    [
+     0.1057059627995235,
+     0.10937298646172229
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "none",
+   "ratio": 0.2334609052549198,
+   "n": 4972,
+   "coefs": [
+    [
+     0.07623089006936339,
+     0.024038897043929735,
+     0.04239916606827799,
+     0.06967547572212064
+    ],
+    [
+     0.031949470962713424,
+     0.058059465179454504,
+     0.0850856539780146,
+     0.22449958005101245
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "homosex",
+   "ratio": 0.056726677193388066,
+   "n": 4972,
+   "coefs": [
+    [
+     0.024038897043929735,
+     0.04239916606827799,
+     0.06967547572212064
+    ],
+    [
+     0.058059465179454504,
+     0.0850856539780146,
+     0.22449958005101245
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "premarsx",
+   "ratio": 0.24018821343031152,
+   "n": 4972,
+   "coefs": [
+    [
+     0.07623089006936339,
+     0.04239916606827799,
+     0.06967547572212064
+    ],
+    [
+     0.031949470962713424,
+     0.0850856539780146,
+     0.22449958005101245
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "teensex",
+   "ratio": 0.24731010394178005,
+   "n": 4972,
+   "coefs": [
+    [
+     0.07623089006936339,
+     0.024038897043929735,
+     0.06967547572212064
+    ],
+    [
+     0.031949470962713424,
+     0.058059465179454504,
+     0.22449958005101245
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "xmarsex",
+   "ratio": 0.3599720897201083,
+   "n": 4972,
+   "coefs": [
+    [
+     0.07623089006936339,
+     0.024038897043929735,
+     0.04239916606827799
+    ],
+    [
+     0.031949470962713424,
+     0.058059465179454504,
+     0.0850856539780146
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.03209113402980317,
+   "n": 4972,
+   "coefs": [
+    [
+     0.024038897043929735,
+     0.04239916606827799
+    ],
+    [
+     0.058059465179454504,
+     0.0850856539780146
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "none",
+   "ratio": 0.3398215410457176,
+   "n": 5034,
+   "coefs": [
+    [
+     0.27851299417830233,
+     0.20764556130409745,
+     0.07737061443163698,
+     0.10270754346666255
+    ],
+    [
+     0.1054418231151016,
+     0.23900226757369536,
+     0.12695698086593166,
+     0.27252499933216556
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "homosex",
+   "ratio": 0.16859229726589317,
+   "n": 5034,
+   "coefs": [
+    [
+     0.20764556130409745,
+     0.07737061443163698,
+     0.10270754346666255
+    ],
+    [
+     0.23900226757369536,
+     0.12695698086593166,
+     0.27252499933216556
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "premarsx",
+   "ratio": 0.4299911530373498,
+   "n": 5034,
+   "coefs": [
+    [
+     0.27851299417830233,
+     0.07737061443163698,
+     0.10270754346666255
+    ],
+    [
+     0.1054418231151016,
+     0.12695698086593166,
+     0.27252499933216556
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "teensex",
+   "ratio": 0.3491105113812126,
+   "n": 5034,
+   "coefs": [
+    [
+     0.27851299417830233,
+     0.20764556130409745,
+     0.10270754346666255
+    ],
+    [
+     0.1054418231151016,
+     0.23900226757369536,
+     0.27252499933216556
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "xmarsex",
+   "ratio": 0.26872375619981365,
+   "n": 5034,
+   "coefs": [
+    [
+     0.27851299417830233,
+     0.20764556130409745,
+     0.07737061443163698
+    ],
+    [
+     0.1054418231151016,
+     0.23900226757369536,
+     0.12695698086593166
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.0645982217931095,
+   "n": 5034,
+   "coefs": [
+    [
+     0.20764556130409745,
+     0.07737061443163698
+    ],
+    [
+     0.23900226757369536,
+     0.12695698086593166
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "none",
+   "ratio": 0.3428126475354971,
+   "n": 5017,
+   "coefs": [
+    [
+     0.2794618955385626,
+     0.19626182082722343,
+     0.0751210962949562,
+     0.10405492433650264
+    ],
+    [
+     0.10475949874420802,
+     0.24765849218190306,
+     0.12838166109618207,
+     0.2714591067335025
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "homosex",
+   "ratio": 0.14408171016650098,
+   "n": 5017,
+   "coefs": [
+    [
+     0.19626182082722343,
+     0.0751210962949562,
+     0.10405492433650264
+    ],
+    [
+     0.24765849218190306,
+     0.12838166109618207,
+     0.2714591067335025
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "premarsx",
+   "ratio": 0.43058004055534005,
+   "n": 5017,
+   "coefs": [
+    [
+     0.2794618955385626,
+     0.0751210962949562,
+     0.10405492433650264
+    ],
+    [
+     0.10475949874420802,
+     0.12838166109618207,
+     0.2714591067335025
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "teensex",
+   "ratio": 0.3522818616564193,
+   "n": 5017,
+   "coefs": [
+    [
+     0.2794618955385626,
+     0.19626182082722343,
+     0.10405492433650264
+    ],
+    [
+     0.10475949874420802,
+     0.24765849218190306,
+     0.2714591067335025
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "xmarsex",
+   "ratio": 0.2903992481186573,
+   "n": 5017,
+   "coefs": [
+    [
+     0.2794618955385626,
+     0.19626182082722343,
+     0.0751210962949562
+    ],
+    [
+     0.10475949874420802,
+     0.24765849218190306,
+     0.12838166109618207
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.05420143143487716,
+   "n": 5017,
+   "coefs": [
+    [
+     0.19626182082722343,
+     0.0751210962949562
+    ],
+    [
+     0.24765849218190306,
+     0.12838166109618207
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "none",
+   "ratio": 0.46308755040299326,
+   "n": 4972,
+   "coefs": [
+    [
+     0.23963731202950198,
+     0.11452054683921277,
+     0.0615950198029248,
+     0.09310122268738823
+    ],
+    [
+     0.049393748117591646,
+     0.136027516541349,
+     0.0998732680393198,
+     0.2504766875833909
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "homosex",
+   "ratio": 0.15266043051213316,
+   "n": 4972,
+   "coefs": [
+    [
+     0.11452054683921277,
+     0.0615950198029248,
+     0.09310122268738823
+    ],
+    [
+     0.136027516541349,
+     0.0998732680393198,
+     0.2504766875833909
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "premarsx",
+   "ratio": 0.5227511126156731,
+   "n": 4972,
+   "coefs": [
+    [
+     0.23963731202950198,
+     0.0615950198029248,
+     0.09310122268738823
+    ],
+    [
+     0.049393748117591646,
+     0.0998732680393198,
+     0.2504766875833909
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "teensex",
+   "ratio": 0.4815440232988826,
+   "n": 4972,
+   "coefs": [
+    [
+     0.23963731202950198,
+     0.11452054683921277,
+     0.09310122268738823
+    ],
+    [
+     0.049393748117591646,
+     0.136027516541349,
+     0.2504766875833909
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "xmarsex",
+   "ratio": 0.36963475286185754,
+   "n": 4972,
+   "coefs": [
+    [
+     0.23963731202950198,
+     0.11452054683921277,
+     0.0615950198029248
+    ],
+    [
+     0.049393748117591646,
+     0.136027516541349,
+     0.0998732680393198
+    ]
+   ]
+  },
+  {
+   "expo_def": "counts",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.06770533362263345,
+   "n": 4972,
+   "coefs": [
+    [
+     0.11452054683921277,
+     0.0615950198029248
+    ],
+    [
+     0.136027516541349,
+     0.0998732680393198
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "none",
+   "ratio": 0.12335011349361806,
+   "n": 4295,
+   "coefs": [
+    [
+     0.044528490433204435,
+     0.010506365703503821,
+     0.03235865190903119,
+     0.04930400039751108
+    ],
+    [
+     0.05021026405846045,
+     0.08432914982864022,
+     0.09605747495161455,
+     0.2413015101859701
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "homosex",
+   "ratio": 0.04972492995168105,
+   "n": 4295,
+   "coefs": [
+    [
+     0.010506365703503821,
+     0.03235865190903119,
+     0.04930400039751108
+    ],
+    [
+     0.08432914982864022,
+     0.09605747495161455,
+     0.2413015101859701
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "premarsx",
+   "ratio": 0.12399054196428654,
+   "n": 4295,
+   "coefs": [
+    [
+     0.044528490433204435,
+     0.03235865190903119,
+     0.04930400039751108
+    ],
+    [
+     0.05021026405846045,
+     0.09605747495161455,
+     0.2413015101859701
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "teensex",
+   "ratio": 0.12666831930572253,
+   "n": 4295,
+   "coefs": [
+    [
+     0.044528490433204435,
+     0.010506365703503821,
+     0.04930400039751108
+    ],
+    [
+     0.05021026405846045,
+     0.08432914982864022,
+     0.2413015101859701
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "xmarsex",
+   "ratio": 0.2148309525579785,
+   "n": 4295,
+   "coefs": [
+    [
+     0.044528490433204435,
+     0.010506365703503821,
+     0.03235865190903119
+    ],
+    [
+     0.05021026405846045,
+     0.08432914982864022,
+     0.09605747495161455
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "raw",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.09925187872340989,
+   "n": 4295,
+   "coefs": [
+    [
+     0.010506365703503821,
+     0.03235865190903119
+    ],
+    [
+     0.08432914982864022,
+     0.09605747495161455
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "none",
+   "ratio": 0.12301313201019448,
+   "n": 4282,
+   "coefs": [
+    [
+     0.04855619701303395,
+     0.009637280731191432,
+     0.0328476423268462,
+     0.05213586661361644
+    ],
+    [
+     0.0620272735579062,
+     0.0954584310572583,
+     0.10441662799661576,
+     0.24314809450255415
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "homosex",
+   "ratio": 0.05114272738861482,
+   "n": 4282,
+   "coefs": [
+    [
+     0.009637280731191432,
+     0.0328476423268462,
+     0.05213586661361644
+    ],
+    [
+     0.0954584310572583,
+     0.10441662799661576,
+     0.24314809450255415
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "premarsx",
+   "ratio": 0.11967648246542431,
+   "n": 4282,
+   "coefs": [
+    [
+     0.04855619701303395,
+     0.0328476423268462,
+     0.05213586661361644
+    ],
+    [
+     0.0620272735579062,
+     0.10441662799661576,
+     0.24314809450255415
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "teensex",
+   "ratio": 0.12944548060761077,
+   "n": 4282,
+   "coefs": [
+    [
+     0.04855619701303395,
+     0.009637280731191432,
+     0.05213586661361644
+    ],
+    [
+     0.0620272735579062,
+     0.0954584310572583,
+     0.24314809450255415
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "xmarsex",
+   "ratio": 0.2087791053688762,
+   "n": 4282,
+   "coefs": [
+    [
+     0.04855619701303395,
+     0.009637280731191432,
+     0.0328476423268462
+    ],
+    [
+     0.0620272735579062,
+     0.0954584310572583,
+     0.10441662799661576
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.10153609568981671,
+   "n": 4282,
+   "coefs": [
+    [
+     0.009637280731191432,
+     0.0328476423268462
+    ],
+    [
+     0.0954584310572583,
+     0.10441662799661576
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "none",
+   "ratio": 0.16306212829473,
+   "n": 4241,
+   "coefs": [
+    [
+     0.048948092965661466,
+     0.0073937950912650275,
+     0.030213579146185325,
+     0.05201239950831901
+    ],
+    [
+     0.028887857412214713,
+     0.05052751626256024,
+     0.08206692991135259,
+     0.2271503479648279
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "homosex",
+   "ratio": 0.04519256603215119,
+   "n": 4241,
+   "coefs": [
+    [
+     0.0073937950912650275,
+     0.030213579146185325,
+     0.05201239950831901
+    ],
+    [
+     0.05052751626256024,
+     0.08206692991135259,
+     0.2271503479648279
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "premarsx",
+   "ratio": 0.1645778812378269,
+   "n": 4241,
+   "coefs": [
+    [
+     0.048948092965661466,
+     0.030213579146185325,
+     0.05201239950831901
+    ],
+    [
+     0.028887857412214713,
+     0.08206692991135259,
+     0.2271503479648279
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "teensex",
+   "ratio": 0.16975834177644838,
+   "n": 4241,
+   "coefs": [
+    [
+     0.048948092965661466,
+     0.0073937950912650275,
+     0.05201239950831901
+    ],
+    [
+     0.028887857412214713,
+     0.05052751626256024,
+     0.2271503479648279
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "xmarsex",
+   "ratio": 0.3265728355101768,
+   "n": 4241,
+   "coefs": [
+    [
+     0.048948092965661466,
+     0.0073937950912650275,
+     0.030213579146185325
+    ],
+    [
+     0.028887857412214713,
+     0.05052751626256024,
+     0.08206692991135259
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": false,
+   "adjust": "demog+relig",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.09042451012700962,
+   "n": 4241,
+   "coefs": [
+    [
+     0.0073937950912650275,
+     0.030213579146185325
+    ],
+    [
+     0.05052751626256024,
+     0.08206692991135259
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "none",
+   "ratio": 0.44025925293872065,
+   "n": 4295,
+   "coefs": [
+    [
+     0.2682647418222844,
+     0.09833853166986542,
+     0.07912696188340793,
+     0.09180435568984578
+    ],
+    [
+     0.08036547784901064,
+     0.2097009168147986,
+     0.11299208086027604,
+     0.26976579418695396
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "homosex",
+   "ratio": 0.09349439773691634,
+   "n": 4295,
+   "coefs": [
+    [
+     0.09833853166986542,
+     0.07912696188340793,
+     0.09180435568984578
+    ],
+    [
+     0.2097009168147986,
+     0.11299208086027604,
+     0.26976579418695396
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "premarsx",
+   "ratio": 0.48478629331535905,
+   "n": 4295,
+   "coefs": [
+    [
+     0.2682647418222844,
+     0.07912696188340793,
+     0.09180435568984578
+    ],
+    [
+     0.08036547784901064,
+     0.11299208086027604,
+     0.26976579418695396
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "teensex",
+   "ratio": 0.46315272053929113,
+   "n": 4295,
+   "coefs": [
+    [
+     0.2682647418222844,
+     0.09833853166986542,
+     0.09180435568984578
+    ],
+    [
+     0.08036547784901064,
+     0.2097009168147986,
+     0.26976579418695396
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "xmarsex",
+   "ratio": 0.42326641821788735,
+   "n": 4295,
+   "coefs": [
+    [
+     0.2682647418222844,
+     0.09833853166986542,
+     0.07912696188340793
+    ],
+    [
+     0.08036547784901064,
+     0.2097009168147986,
+     0.11299208086027604
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "raw",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.07586104116035432,
+   "n": 4295,
+   "coefs": [
+    [
+     0.09833853166986542,
+     0.07912696188340793
+    ],
+    [
+     0.2097009168147986,
+     0.11299208086027604
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "none",
+   "ratio": 0.43867465451772153,
+   "n": 4282,
+   "coefs": [
+    [
+     0.2925299180108796,
+     0.09020398329363252,
+     0.08032269544673974,
+     0.09707730821445508
+    ],
+    [
+     0.09927953123983789,
+     0.23737605028730896,
+     0.12282492413728249,
+     0.271830204328078
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "homosex",
+   "ratio": 0.0761096446072741,
+   "n": 4282,
+   "coefs": [
+    [
+     0.09020398329363252,
+     0.08032269544673974,
+     0.09707730821445508
+    ],
+    [
+     0.23737605028730896,
+     0.12282492413728249,
+     0.271830204328078
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "premarsx",
+   "ratio": 0.45883425262240674,
+   "n": 4282,
+   "coefs": [
+    [
+     0.2925299180108796,
+     0.08032269544673974,
+     0.09707730821445508
+    ],
+    [
+     0.09927953123983789,
+     0.12282492413728249,
+     0.271830204328078
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "teensex",
+   "ratio": 0.46066910454806814,
+   "n": 4282,
+   "coefs": [
+    [
+     0.2925299180108796,
+     0.09020398329363252,
+     0.09707730821445508
+    ],
+    [
+     0.09927953123983789,
+     0.23737605028730896,
+     0.271830204328078
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "xmarsex",
+   "ratio": 0.4421487469425216,
+   "n": 4282,
+   "coefs": [
+    [
+     0.2925299180108796,
+     0.09020398329363252,
+     0.08032269544673974
+    ],
+    [
+     0.09927953123983789,
+     0.23737605028730896,
+     0.12282492413728249
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.09366766255827168,
+   "n": 4282,
+   "coefs": [
+    [
+     0.09020398329363252,
+     0.08032269544673974
+    ],
+    [
+     0.23737605028730896,
+     0.12282492413728249
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "none",
+   "ratio": 0.5386104568996304,
+   "n": 4241,
+   "coefs": [
+    [
+     0.2948909202710061,
+     0.06920518219733955,
+     0.07388159223018484,
+     0.0968474116957277
+    ],
+    [
+     0.04623728850068717,
+     0.12564654696702496,
+     0.09653505034531722,
+     0.2539453398834864
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "homosex",
+   "ratio": 0.10328751744930735,
+   "n": 4241,
+   "coefs": [
+    [
+     0.06920518219733955,
+     0.07388159223018484,
+     0.0968474116957277
+    ],
+    [
+     0.12564654696702496,
+     0.09653505034531722,
+     0.2539453398834864
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "premarsx",
+   "ratio": 0.5536837414452574,
+   "n": 4241,
+   "coefs": [
+    [
+     0.2948909202710061,
+     0.07388159223018484,
+     0.0968474116957277
+    ],
+    [
+     0.04623728850068717,
+     0.09653505034531722,
+     0.2539453398834864
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "teensex",
+   "ratio": 0.560883311655468,
+   "n": 4241,
+   "coefs": [
+    [
+     0.2948909202710061,
+     0.06920518219733955,
+     0.0968474116957277
+    ],
+    [
+     0.04623728850068717,
+     0.12564654696702496,
+     0.2539453398834864
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "xmarsex",
+   "ratio": 0.39081800415325174,
+   "n": 4241,
+   "coefs": [
+    [
+     0.2948909202710061,
+     0.06920518219733955,
+     0.07388159223018484
+    ],
+    [
+     0.04623728850068717,
+     0.12564654696702496,
+     0.09653505034531722
+    ]
+   ]
+  },
+  {
+   "expo_def": "sexsex",
+   "normalised": true,
+   "adjust": "demog+relig",
+   "dropped": "PLACEBO(premarsx+teensex)",
+   "ratio": 0.07400861252237978,
+   "n": 4241,
+   "coefs": [
+    [
+     0.06920518219733955,
+     0.07388159223018484
+    ],
+    [
+     0.12564654696702496,
+     0.09653505034531722
+    ]
+   ]
+  }
+ ],
+ "family_size": 72,
+ "disclosure_world": "UNTESTED \u2014 `#917`(2)'s design died on the gradient check (both worlds predict attenuation across 1991-2014); no replacement on this release",
+ "gates": [
+  [
+   "positive: planted item coupling raises the normalised departure, g=0 null",
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.3;g=0 +0.0803 \u00b7 g=0.6 +0.2840",
+   true,
+   "\u626b\u63cf\u81ea\u8bc1:\u5355\u8c03 + g=0 \u843d\u57fa\u7ebf + \u7075\u654f\u5ea6\u8fbe\u5230"
+  ],
+  [
+   "one-factor synthetic reproducing the OBSERVED lumpy marginals",
+   "|+0.0796| < 0.5*|+0.4395| = 0.2197",
+   true,
+   "null is 18% of the effect [\u96f6\u7684\u65b9\u6848: one-factor latent at the observed marginals and base rates]"
+  ],
+  [
+   "the whole raw+normalised drop grid",
+   "method=bh q=0.05 \u00b7 **cells tested 72 \u00b7 cells surviving 51** \u00b7 \u5b58\u6d3b ['counts|False|raw|none', 'counts|False|raw|premarsx', 'counts|False|raw|teensex', 'counts|False|raw|xmarsex', 'counts|False|demog|none', 'counts|False|demog|premarsx', 'counts|False|demog|teensex', 'counts|False|demog|xmarsex', 'counts|False|demog+relig|none', 'counts|False|demog+relig|premarsx', 'counts|False|demog+relig|teensex', 'counts|False|demog+relig|xmarsex', 'counts|True|raw|none', 'counts|True|raw|homosex', 'counts|True|raw|premarsx', 'counts|True|raw|teensex', 'counts|True|raw|xmarsex', 'counts|True|demog|none', 'counts|True|demog|homosex', 'counts|True|demog|premarsx', 'counts|True|demog|teensex', 'counts|True|demog|xmarsex', 'counts|True|demog+relig|none', 'counts|True|demog+relig|homosex', 'counts|True|demog+relig|premarsx', 'counts|True|demog+relig|teensex', 'counts|True|demog+relig|xmarsex', 'sexsex|False|raw|none', 'sexsex|False|raw|premarsx', 'sexsex|False|raw|teensex', 'sexsex|False|raw|xmarsex', 'sexsex|False|demog|none', 'sexsex|False|demog|premarsx', 'sexsex|False|demog|teensex', 'sexsex|False|demog|xmarsex', 'sexsex|False|demog+relig|none', 'sexsex|False|demog+relig|premarsx', 'sexsex|False|demog+relig|teensex', 'sexsex|False|demog+relig|xmarsex', 'sexsex|True|raw|none', 'sexsex|True|raw|premarsx', 'sexsex|True|raw|teensex', 'sexsex|True|raw|xmarsex', 'sexsex|True|demog|none', 'sexsex|True|demog|premarsx', 'sexsex|True|demog|teensex', 'sexsex|True|demog|xmarsex', 'sexsex|True|demog+relig|none', 'sexsex|True|demog+relig|premarsx', 'sexsex|True|demog+relig|teensex', 'sexsex|True|demog+relig|xmarsex'] \u00b7 \u672a\u5b58\u6d3b ['counts|False|raw|homosex', 'counts|False|raw|PLACEBO(premarsx+teensex)', 'counts|False|demog|homosex', 'counts|False|demog|PLACEBO(premarsx+teensex)', 'counts|False|demog+relig|homosex', 'counts|False|demog+relig|PLACEBO(premarsx+teensex)', 'counts|True|raw|PLACEBO(premarsx+teensex)', 'counts|True|demog|PLACEBO(premarsx+teensex)']\u2026",
+   true,
+   "control"
+  ],
+  [
+   "placebo actually RAN in both scalings (absence is not a pass)",
+   "placebo raw 0.0627 \u00b7 normalised 0.0709",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "the ceilings were MEASURED and they differ across items (else this round is vacuous)",
+   "attainable |r|max spread 0.1068..0.8963 over 12 (exposure,item) cells",
+   true,
+   "asserted in code, not in prose"
+  ],
+  [
+   "every published cell states its n",
+   "72/72 \u683c\u5e26 n",
+   true,
+   "\u6bcf\u4e00\u683c\u90fd\u58f0\u660e\u4e86\u81ea\u5df1\u7684\u4eba\u7fa4\u89c4\u6a21"
+  ],
+  [
+   "KILL: W2 (ceiling artifact) requires the carrier set to CHANGE under normalisation",
+   "carriers raw ['homosex'] vs ceiling-normalised ['homosex']   \u26a0 \u5224\u636e\u7684\u5c3a\u672a\u547d\u540d(`#836`\u2460)  \u26a0 \u5224\u636e\u7684\u603b\u4f53\u672a\u547d\u540d(`#854`\u2460:\u5c3a\u5bf9\u4e86\u3001\u603b\u4f53\u9519\u4e86\u4e00\u6837\u7ed9\u53cd\u5224\u8bcd)  \u26a0 \u5224\u636e\u7684\u65b9\u5411\u672a\u547d\u540d(`#859`\u2460;\u5355\u4fa7\u5224\u636e\u53ef\u4e0d\u586b)",
+   true,
+   "asserted in code, not in prose"
+  ]
+ ],
+ "gate_verdict": "ALL GATES PASS"
+}

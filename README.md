@@ -154,11 +154,36 @@ the 2×K coefficient matrix, **exactly zero under any one-factor model**, with l
 > approving of it travel together, and the plainest case of a sexual transgression is exactly where they
 > come apart.**
 
-⚠ **The one alternative that survives** is that norms and behaviours come from the **same questionnaire,
-same respondent, same interview** (HARD RULE 2), so `homosex`/`ss` may simply be the pair where
-*disclosure* and *approval* are most coupled. Not removable here — and testable next, since that account
-predicts the departure **shrinks across decades as disclosure stigma falls**. ⚠ Scope: the 2×4 lives on
-**n = 5,034 over 13 waves, 1991–2014**, not the full series.
+⚠ **`#918` then attacked the last measurable rival, and it came out backwards.** `#917` rests entirely on
+`xmarsex` carrying nothing — and `xmarsex` is **77.4% on one endpoint**, sd **0.7069** against `homosex`'s
+**1.4141**, exactly half. An item pinned to its floor cannot express a graded association whatever is true
+of the people. But **the quantity that matters is not variance** (the estimator already standardises the
+outcome) — it is **attainable range**: how large a correlation an item's marginal permits against a binary
+predictor at that exposure's base rate, a property of `(marginal, base rate)` alone that contains no
+association. Measured:
+
+| `#918` — attainable range | `xm`→`xmarsex` | `xm`→`teensex` | `ss`→`xmarsex` | `ss`→`teensex` | `xm`→`homosex` | `ss`→`homosex` |
+|---|---|---|---|---|---|---|
+| attainable \|r\|max (`#918`) | **0.8945** | 0.8501 | 0.7484 | 0.6884 | 0.6248 | **0.3181** |
+
+**`xmarsex` against its own exposure has the MOST room in the matrix; `homosex` against its own has nearly
+the least — and `homosex` carries everything.** Ceiling-normalising (`#918`) makes the departure *larger*
+(**0.1762 → 0.4395**) and leaves the carrier set identical (`['homosex']` both ways, drop → **0.28×**), with
+the one-factor null rebuilt on the observed lumpy marginals (**0.0796 ± 0.0200**) and 51 of 72 cells
+surviving BH.
+
+> **One sentence about people (`#918`): a person who has had a same-sex partner rates homosexuality much
+> less wrong, and a person who has cheated on their spouse rates adultery no less wrong at all — and not
+> because the adultery question had no room to move, since it had the most room of any question here.
+> People argue their own case about who they are, and do not argue it about what they have done.**
+
+⚠ **The one rival still standing needs an instrument, not a round.** Norms and behaviours come from the
+**same questionnaire, same respondent, same interview** (HARD RULE 2), so `homosex`/`ss` may be the pair
+where *disclosure* and *approval* are coupled. ⚠ **`#917`'s proposed test of this is withdrawn as a design**:
+it asked whether the departure shrinks across 1991–2014, but a *real* coupling attenuates over those decades
+too as approval nears its ceiling — **both worlds predict shrinkage, so the action separates nothing.**
+Deciding it needs a behaviour measure **not routed through the same interview**, which is an acquisition.
+⚠ Scope throughout: **n = 5,034 over 13 waves, 1991–2014**, not the full series.
 
 ⚠ **And the control that nearly retracted this claim was mine, three times over.** Matching `cebow` to
 `samesexany`'s base rate of **0.1820**: v1 thresholded a quantile — `cebow` is a discrete count, so it landed

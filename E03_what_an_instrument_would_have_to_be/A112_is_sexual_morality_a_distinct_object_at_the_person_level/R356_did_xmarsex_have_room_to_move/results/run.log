@@ -1,0 +1,122 @@
+the 2x4 intersection n=5034
+  homosex   sd=1.3611  max-cell=0.584  shares {1: 0.584, 2: 0.043, 3: 0.072, 4: 0.301}
+  premarsx  sd=1.2743  max-cell=0.462  shares {1: 0.276, 2: 0.091, 3: 0.171, 4: 0.462}
+  teensex   sd=0.7589  max-cell=0.758  shares {1: 0.758, 2: 0.138, 3: 0.07, 4: 0.033}
+  xmarsex   sd=0.6244  max-cell=0.823  shares {1: 0.823, 2: 0.109, 3: 0.052, 4: 0.016}
+
+=== the attainable ceilings (a property of the MARGINAL, not of any association) ===
+  ss_alt|homosex         ceiling |r|max = 0.1660
+  ss_alt|premarsx        ceiling |r|max = 0.1068
+  ss_alt|teensex         ceiling |r|max = 0.4089
+  ss_alt|xmarsex         ceiling |r|max = 0.5371
+  ss|homosex             ceiling |r|max = 0.3181
+  ss|premarsx            ceiling |r|max = 0.2099
+  ss|teensex             ceiling |r|max = 0.6884
+  ss|xmarsex             ceiling |r|max = 0.7484
+  xm|homosex             ceiling |r|max = 0.6248
+  xm|premarsx            ceiling |r|max = 0.4021
+  xm|teensex             ceiling |r|max = 0.8501
+  xm|xmarsex             ceiling |r|max = 0.8945
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  counts  norm=False raw          drop=none                       sigma2/sigma1=0.1904  n=  5034
+  counts  norm=False raw          drop=homosex                    sigma2/sigma1=0.0599  n=  5034
+  counts  norm=False raw          drop=premarsx                   sigma2/sigma1=0.2031  n=  5034
+  counts  norm=False raw          drop=teensex                    sigma2/sigma1=0.2041  n=  5034
+  counts  norm=False raw          drop=xmarsex                    sigma2/sigma1=0.2280  n=  5034
+  counts  norm=False raw          drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0268  n=  5034
+  counts  norm=False demog        drop=none                       sigma2/sigma1=0.1894  n=  5017
+  counts  norm=False demog        drop=homosex                    sigma2/sigma1=0.0491  n=  5017
+  counts  norm=False demog        drop=premarsx                   sigma2/sigma1=0.2024  n=  5017
+  counts  norm=False demog        drop=teensex                    sigma2/sigma1=0.2037  n=  5017
+  counts  norm=False demog        drop=xmarsex                    sigma2/sigma1=0.2414  n=  5017
+  counts  norm=False demog        drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0349  n=  5017
+  counts  norm=False demog+relig  drop=none                       sigma2/sigma1=0.2335  n=  4972
+  counts  norm=False demog+relig  drop=homosex                    sigma2/sigma1=0.0567  n=  4972
+  counts  norm=False demog+relig  drop=premarsx                   sigma2/sigma1=0.2402  n=  4972
+  counts  norm=False demog+relig  drop=teensex                    sigma2/sigma1=0.2473  n=  4972
+  counts  norm=False demog+relig  drop=xmarsex                    sigma2/sigma1=0.3600  n=  4972
+  counts  norm=False demog+relig  drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0321  n=  4972
+  counts  norm=True  raw          drop=none                       sigma2/sigma1=0.3398  n=  5034
+  counts  norm=True  raw          drop=homosex                    sigma2/sigma1=0.1686  n=  5034
+  counts  norm=True  raw          drop=premarsx                   sigma2/sigma1=0.4300  n=  5034
+  counts  norm=True  raw          drop=teensex                    sigma2/sigma1=0.3491  n=  5034
+  counts  norm=True  raw          drop=xmarsex                    sigma2/sigma1=0.2687  n=  5034
+  counts  norm=True  raw          drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0646  n=  5034
+  counts  norm=True  demog        drop=none                       sigma2/sigma1=0.3428  n=  5017
+  counts  norm=True  demog        drop=homosex                    sigma2/sigma1=0.1441  n=  5017
+  counts  norm=True  demog        drop=premarsx                   sigma2/sigma1=0.4306  n=  5017
+  counts  norm=True  demog        drop=teensex                    sigma2/sigma1=0.3523  n=  5017
+  counts  norm=True  demog        drop=xmarsex                    sigma2/sigma1=0.2904  n=  5017
+  counts  norm=True  demog        drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0542  n=  5017
+  counts  norm=True  demog+relig  drop=none                       sigma2/sigma1=0.4631  n=  4972
+  counts  norm=True  demog+relig  drop=homosex                    sigma2/sigma1=0.1527  n=  4972
+  counts  norm=True  demog+relig  drop=premarsx                   sigma2/sigma1=0.5228  n=  4972
+  counts  norm=True  demog+relig  drop=teensex                    sigma2/sigma1=0.4815  n=  4972
+  counts  norm=True  demog+relig  drop=xmarsex                    sigma2/sigma1=0.3696  n=  4972
+  counts  norm=True  demog+relig  drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0677  n=  4972
+  sexsex  norm=False raw          drop=none                       sigma2/sigma1=0.1234  n=  4295
+  sexsex  norm=False raw          drop=homosex                    sigma2/sigma1=0.0497  n=  4295
+  sexsex  norm=False raw          drop=premarsx                   sigma2/sigma1=0.1240  n=  4295
+  sexsex  norm=False raw          drop=teensex                    sigma2/sigma1=0.1267  n=  4295
+  sexsex  norm=False raw          drop=xmarsex                    sigma2/sigma1=0.2148  n=  4295
+  sexsex  norm=False raw          drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0993  n=  4295
+  sexsex  norm=False demog        drop=none                       sigma2/sigma1=0.1230  n=  4282
+  sexsex  norm=False demog        drop=homosex                    sigma2/sigma1=0.0511  n=  4282
+  sexsex  norm=False demog        drop=premarsx                   sigma2/sigma1=0.1197  n=  4282
+  sexsex  norm=False demog        drop=teensex                    sigma2/sigma1=0.1294  n=  4282
+  sexsex  norm=False demog        drop=xmarsex                    sigma2/sigma1=0.2088  n=  4282
+  sexsex  norm=False demog        drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.1015  n=  4282
+  sexsex  norm=False demog+relig  drop=none                       sigma2/sigma1=0.1631  n=  4241
+  sexsex  norm=False demog+relig  drop=homosex                    sigma2/sigma1=0.0452  n=  4241
+  sexsex  norm=False demog+relig  drop=premarsx                   sigma2/sigma1=0.1646  n=  4241
+  sexsex  norm=False demog+relig  drop=teensex                    sigma2/sigma1=0.1698  n=  4241
+  sexsex  norm=False demog+relig  drop=xmarsex                    sigma2/sigma1=0.3266  n=  4241
+  sexsex  norm=False demog+relig  drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0904  n=  4241
+  sexsex  norm=True  raw          drop=none                       sigma2/sigma1=0.4403  n=  4295
+  sexsex  norm=True  raw          drop=homosex                    sigma2/sigma1=0.0935  n=  4295
+  sexsex  norm=True  raw          drop=premarsx                   sigma2/sigma1=0.4848  n=  4295
+  sexsex  norm=True  raw          drop=teensex                    sigma2/sigma1=0.4632  n=  4295
+  sexsex  norm=True  raw          drop=xmarsex                    sigma2/sigma1=0.4233  n=  4295
+  sexsex  norm=True  raw          drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0759  n=  4295
+  sexsex  norm=True  demog        drop=none                       sigma2/sigma1=0.4387  n=  4282
+  sexsex  norm=True  demog        drop=homosex                    sigma2/sigma1=0.0761  n=  4282
+  sexsex  norm=True  demog        drop=premarsx                   sigma2/sigma1=0.4588  n=  4282
+  sexsex  norm=True  demog        drop=teensex                    sigma2/sigma1=0.4607  n=  4282
+  sexsex  norm=True  demog        drop=xmarsex                    sigma2/sigma1=0.4421  n=  4282
+  sexsex  norm=True  demog        drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0937  n=  4282
+  sexsex  norm=True  demog+relig  drop=none                       sigma2/sigma1=0.5386  n=  4241
+  sexsex  norm=True  demog+relig  drop=homosex                    sigma2/sigma1=0.1033  n=  4241
+  sexsex  norm=True  demog+relig  drop=premarsx                   sigma2/sigma1=0.5537  n=  4241
+  sexsex  norm=True  demog+relig  drop=teensex                    sigma2/sigma1=0.5609  n=  4241
+  sexsex  norm=True  demog+relig  drop=xmarsex                    sigma2/sigma1=0.3908  n=  4241
+  sexsex  norm=True  demog+relig  drop=PLACEBO(premarsx+teensex)  sigma2/sigma1=0.0740  n=  4241
+
+  RAW          full 0.1762 · null 0.0641+/-0.0236 · placebo 0.0627
+     drop homosex    0.0504  (0.29x)
+     drop premarsx   0.1835  (1.04x)
+     drop teensex    0.1867  (1.06x)
+     drop xmarsex    0.2347  (1.33x)
+  CEILING-NORM full 0.4395 · null 0.0796+/-0.0200 · placebo 0.0709
+     drop homosex    0.1237  (0.28x)
+     drop premarsx   0.4718  (1.07x)
+     drop teensex    0.4619  (1.05x)
+     drop xmarsex    0.3802  (0.87x)
+  positive sweep (ceiling-normalised): [(0.0, 0.0803), (0.15, 0.0864), (0.3, 0.1451), (0.45, 0.1942), (0.6, 0.284)]
+
+  carriers RAW              : ['homosex']
+  carriers CEILING-NORMALISED: ['homosex']
+
+  CONDITIONAL KILL -- Did `xmarsex` carry none of the departure, or did it have no room to?
+   PASS  positive: planted item coupling raises the normalised departure, g=0 null             方向由数据给出:**上升**;灵敏度 g=0.3;g=0 +0.0803 · g=0.6 +0.2840   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  one-factor synthetic reproducing the OBSERVED lumpy marginals                         |+0.0796| < 0.5*|+0.4395| = 0.2197   (null is 18% of the effect [零的方案: one-factor latent at the observed marginals and base rates])
+   PASS  the whole raw+normalised drop grid                                                    method=bh q=0.05 · **cells tested 72 · cells surviving 51** · 存活 ['counts|False|raw|none', 'counts|False|raw|premarsx', 'counts|False|raw|teensex', 'counts|False|raw|xmarsex', 'counts|False|demog|none', 'counts|False|demog|premarsx', 'counts|False|demog|teensex', 'counts|False|demog|xmarsex', 'counts|False|demog+relig|none', 'counts|False|demog+relig|premarsx', 'counts|False|demog+relig|teensex', 'counts|False|demog+relig|xmarsex', 'counts|True|raw|none', 'counts|True|raw|homosex', 'counts|True|raw|premarsx', 'counts|True|raw|teensex', 'counts|True|raw|xmarsex', 'counts|True|demog|none', 'counts|True|demog|homosex', 'counts|True|demog|premarsx', 'counts|True|demog|teensex', 'counts|True|demog|xmarsex', 'counts|True|demog+relig|none', 'counts|True|demog+relig|homosex', 'counts|True|demog+relig|premarsx', 'counts|True|demog+relig|teensex', 'counts|True|demog+relig|xmarsex', 'sexsex|False|raw|none', 'sexsex|False|raw|premarsx', 'sexsex|False|raw|teensex', 'sexsex|False|raw|xmarsex', 'sexsex|False|demog|none', 'sexsex|False|demog|premarsx', 'sexsex|False|demog|teensex', 'sexsex|False|demog|xmarsex', 'sexsex|False|demog+relig|none', 'sexsex|False|demog+relig|premarsx', 'sexsex|False|demog+relig|teensex', 'sexsex|False|demog+relig|xmarsex', 'sexsex|True|raw|none', 'sexsex|True|raw|premarsx', 'sexsex|True|raw|teensex', 'sexsex|True|raw|xmarsex', 'sexsex|True|demog|none', 'sexsex|True|demog|premarsx', 'sexsex|True|demog|teensex', 'sexsex|True|demog|xmarsex', 'sexsex|True|demog+relig|none', 'sexsex|True|demog+relig|premarsx', 'sexsex|True|demog+relig|teensex', 'sexsex|True|demog+relig|xmarsex'] · 未存活 ['counts|False|raw|homosex', 'counts|False|raw|PLACEBO(premarsx+teensex)', 'counts|False|demog|homosex', 'counts|False|demog|PLACEBO(premarsx+teensex)', 'counts|False|demog+relig|homosex', 'counts|False|demog+relig|PLACEBO(premarsx+teensex)', 'counts|True|raw|PLACEBO(premarsx+teensex)', 'counts|True|demog|PLACEBO(premarsx+teensex)']…   (control)
+   PASS  placebo actually RAN in both scalings (absence is not a pass)                         placebo raw 0.0627 · normalised 0.0709   (asserted in code, not in prose)
+   PASS  the ceilings were MEASURED and they differ across items (else this round is vacuous)  attainable |r|max spread 0.1068..0.8963 over 12 (exposure,item) cells   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                     72/72 格带 n   (每一格都声明了自己的人群规模)
+   PASS  KILL: W2 (ceiling artifact) requires the carrier set to CHANGE under normalisation    carriers raw ['homosex'] vs ceiling-normalised ['homosex']   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : CONFIRMED · world W1 · REAL — `homosex` carries it at matched attainable range
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R356_did_xmarsex_have_room_to_move/results/did_it_have_room_to_move.json
