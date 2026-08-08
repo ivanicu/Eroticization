@@ -528,6 +528,40 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#940` · the best arc survives, at 46% of its headline
+
+`#933`–`#936` were four consecutive rounds strengthening A118 — a basin. `#939` then showed that
+**cohort-demeaning, a four-line control, can reverse an ordering**. A118 had never run it, so this
+round put the project's strongest claim through the control that had just killed a sibling, with
+"the headline is generational replacement" as a live outcome.
+
+⚠ **Reproduction check first**, because without it any difference is my code rather than the control:
+`#936` published 0.4020 → 0.6252, +0.0595/decade; this re-implementation's raw arm gives 0.4020 →
+0.6280, **+0.0599/decade** over 21 waves, n=14,847. It reproduces.
+
+| `#940` arm | first | last | trend/decade | its null | sham |
+|---|---|---|---|---|---|
+| raw (`#936`) | 0.4020 | 0.6280 | **+0.0599** | −0.0026 ± 0.0037 | +0.0121 |
+| **cohort-demeaned** | 0.3001 | 0.4379 | **+0.0277** | −0.0036 ± 0.0027 | **+0.0021** |
+
+**A118 survives** (`#940`): against a **within-wave person-label permutation null of −0.0036 ± 0.0027**
+(kind of null named, `#532`), the demeaned trend of **+0.0277** sits about ten spreads out, and its sham
+is flat at +0.0021 — so the movement is specific to the pairs under study. 3 of 4 cells survive BH — the non-survivor
+is the demeaned sham, the cell that should fail.
+
+**And it survives at 46% of its headline.** `0.0277 / 0.0599 = 0.46`: roughly half of `#936`'s
+integration was one generation replacing another, and the half that is people changing their own minds
+is the half nothing had separated out until now.
+
+⚠ **Scope (`#940`), registered rather than dropped**: after demeaning, the comonotone ceilings are 0.9929 →
+0.9998, so **the ceiling correction is inert in that arm** — it reports a raw correlation trend where
+the raw arm reports a normalised one. The two arms are not the identical quantity.
+
+> **One sentence about people (`#940`): Americans born in the same year really did fold their view of
+> homosexuality further into the rest of their sexual morality across their own lifetimes — but only
+> about half as fast as the headline said, because the other half was one generation replacing
+> another.**
+
 ### `#939` · the impressionable years did not survive the simplest control
 
 A114 established that at least 45% of the half-century change is conversion — living people changed

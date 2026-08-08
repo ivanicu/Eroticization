@@ -1,0 +1,385 @@
+{
+ "entry": 940,
+ "round": "E03\u00b7A122\u00b7R378",
+ "gate_verdict": "   => ALL GATES PASS",
+ "gates": [
+  [
+   "positive: a rising planted coupling raises the trend, and g=0 sits ON the null this round judges against (`#922`)",
+   true,
+   "\u65b9\u5411\u7531\u6570\u636e\u7ed9\u51fa:**\u4e0a\u5347**;\u7075\u654f\u5ea6 g=0.25;g=0 -0.0022 \u00b7 g=0.75 +0.1193"
+  ],
+  [
+   "target permuted within wave [raw arm]",
+   true,
+   "|+0.0026| < 0.5*|+0.0599| = 0.0299"
+  ],
+  [
+   "target permuted within wave [demeaned arm]",
+   true,
+   "|+0.0036| < 0.5*|+0.0277| = 0.0139"
+  ],
+  [
+   "both arms' trends and both shams \u2014 the family this claim lives in (`#936`\u2461)",
+   true,
+   "method=bh q=0.05 \u00b7 **cells tested 4 \u00b7 cells surviving 3** \u00b7 \u5b58\u6d3b ['raw', 'cohort-demeaned', 'sham raw'] \u00b7 \u672a\u5b58\u6d3b ['sham demeaned']"
+  ],
+  [
+   "\u26a0 REPRODUCTION CHECK against `#936`'s ARTIFACT (values read, never typed \u2014 `#840`): the raw arm must land on it, or a difference in the demeaned arm is my code, not the control",
+   true,
+   "`#936` artifact 0.4020 -> 0.6252, +0.0595/decade; this run's raw arm 0.4020 -> 0.6280, +0.0599/decade (tolerances 0.01 on level, 0.005 on trend; this run additionally requires `cohort` non-null, which is why they are close rather than identical) \u00b7 \u603b\u4f53:GSS ballot 1, 21 waves, n=14847"
+  ],
+  [
+   "\u26a0 demeaning moves the MARGINAL, hence the ceiling \u2014 reported, not assumed (`#918`); and the pre-registered W_DEGEN condition FIRES, which is recorded rather than rewritten",
+   true,
+   "ceilings raw 0.8236->0.7644 \u00b7 demeaned 0.9929->0.9998 \u2014 the correction is INERT after demeaning, so the demeaned trend is a RAW correlation trend. That is a SCOPE CAVEAT on what the two arms compare, not a void; W_DEGEN as I worded it named the wrong thing \u00b7 \u603b\u4f53:GSS ballot 1, 21 waves, n=14847"
+  ],
+  [
+   "the sham is the same operation on the pairs NOT under study, in BOTH arms",
+   true,
+   "sham raw +0.0121 \u00b7 sham demeaned +0.0021 vs target raw +0.0599 \u00b7 target demeaned +0.0277 \u00b7 \u603b\u4f53:GSS ballot 1, 21 waves, n=14847"
+  ],
+  [
+   "KILL: pre-registered CONDITIONAL \u2014 evaluated ONLY if the positive fires and both nulls are null. STAKED: W_SURVIVES, i.e. the cohort-demeaned trend is positive AND exceeds twice its own null spread. W_COMPOSITION refutes it and is the unwelcome branch",
+   true,
+   "positive fires True \u00b7 both nulls null True \u00b7 demeaned trend +0.0277 vs 2x its null spread 0.0054 -> survives \u00b7 raw +0.0599 for comparison \u00b7 sham demeaned +0.0021 \u21d2 W_SURVIVES   \u5c3a:ceiling-normalised coupling trend per decade, demeaned arm,\u5176\u81ea\u8eab\u566a\u58f0 0.00272354 \u00b7 \u603b\u4f53:GSS ballot 1, 21 waves 1988-2024, n=14847 \u00b7 \u65b9\u5411:\u4e00\u81f4 \u00b7 \u63a7\u5236\u603b\u4f53:3/3 \u6761\u5df2\u547d\u540d,**3 \u6761\u4e0e\u5224\u636e\u4e0d\u540c** ['\u26a0 REPRODUCTION CHECK against', '\u26a0 demeaning moves the MARGIN', 'the sham is the same operati']  \u26a0 **\u63a7\u5236\u7684\u603b\u4f53 \u2260 \u4e3b\u5f20\u7684\u603b\u4f53** \u2014\u2014 **\u5b83\u8bc1\u660e\u7684\u662f\u53e6\u4e00\u7fa4\u4eba\u8eab\u4e0a\u7684\u4eea\u5668**(`#866`\u2460)(\u26a0 \u6bd4\u5bf9\u53ea\u53d1\u751f\u5728\u6b64\u523b,\u4e4b\u540e\u58f0\u660e\u7684\u63a7\u5236\u884c\u4e0d\u4f1a\u88ab\u6bd4\u5230)"
+  ]
+ ],
+ "claims_null": false,
+ "waves": [
+  1988,
+  1989,
+  1990,
+  1991,
+  1993,
+  1994,
+  1996,
+  1998,
+  2000,
+  2002,
+  2004,
+  2006,
+  2008,
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2021,
+  2022,
+  2024
+ ],
+ "n": 14847,
+ "raw_series": [
+  [
+   1988,
+   0.3310894776357418,
+   0.823644598279827,
+   0.4019809980265987
+  ],
+  [
+   1989,
+   0.3268469447287558,
+   0.8370554319286594,
+   0.3904722820753552
+  ],
+  [
+   1990,
+   0.32029139366309617,
+   0.8113438447471549,
+   0.39476652930412126
+  ],
+  [
+   1991,
+   0.3513105334324463,
+   0.7915698041332414,
+   0.4438149757583625
+  ],
+  [
+   1993,
+   0.3748014577995784,
+   0.8282857183634893,
+   0.4525026201587826
+  ],
+  [
+   1994,
+   0.3538864646244034,
+   0.8018303591417708,
+   0.441348298414619
+  ],
+  [
+   1996,
+   0.3894546609558313,
+   0.8025786175551302,
+   0.48525421988217765
+  ],
+  [
+   1998,
+   0.36729730120502796,
+   0.7458448394297932,
+   0.49245805801355536
+  ],
+  [
+   2000,
+   0.3117862375173704,
+   0.800669703553861,
+   0.38940681298851787
+  ],
+  [
+   2002,
+   0.3775818412901466,
+   0.7374307340183538,
+   0.5120234672518396
+  ],
+  [
+   2004,
+   0.42797997474160226,
+   0.7491367003508761,
+   0.5712975676417236
+  ],
+  [
+   2006,
+   0.372672030833117,
+   0.7500346027286463,
+   0.4968731168899755
+  ],
+  [
+   2008,
+   0.3779171390448824,
+   0.7138701017216537,
+   0.5293920254307509
+  ],
+  [
+   2010,
+   0.3772339981778474,
+   0.7288563829065283,
+   0.5175697257030478
+  ],
+  [
+   2012,
+   0.3964258136857161,
+   0.6832880001310736,
+   0.5801738265704515
+  ],
+  [
+   2014,
+   0.3383392088924578,
+   0.6717721048808288,
+   0.5036517688576523
+  ],
+  [
+   2016,
+   0.43032600648958735,
+   0.7112742365505277,
+   0.6050071609180487
+  ],
+  [
+   2018,
+   0.4251900234292402,
+   0.695293057981881,
+   0.6115263464061804
+  ],
+  [
+   2021,
+   0.466813818015196,
+   0.7537003161418121,
+   0.6193626405848063
+  ],
+  [
+   2022,
+   0.417814253839853,
+   0.7414507880560753,
+   0.5635090832329847
+  ],
+  [
+   2024,
+   0.48006482691535646,
+   0.7643807402515647,
+   0.6280441168067143
+  ]
+ ],
+ "demeaned_series": [
+  [
+   1988,
+   0.2980092969693408,
+   0.9928874370821953,
+   0.3001440906988436
+  ],
+  [
+   1989,
+   0.2913588962837543,
+   0.9953831126461319,
+   0.2927103067975548
+  ],
+  [
+   1990,
+   0.2814287553511004,
+   0.9939524130588646,
+   0.28314107562253427
+  ],
+  [
+   1991,
+   0.3344374179665745,
+   0.9951884855753149,
+   0.33605434831095077
+  ],
+  [
+   1993,
+   0.3408716941889402,
+   0.9948538607884848,
+   0.3426349412955766
+  ],
+  [
+   1994,
+   0.30614693675070154,
+   0.9993249960775907,
+   0.3063537267178808
+  ],
+  [
+   1996,
+   0.34846809760280356,
+   0.9992913390263182,
+   0.3487152184690615
+  ],
+  [
+   1998,
+   0.33207646543845204,
+   0.9994607755599638,
+   0.33225562579221873
+  ],
+  [
+   2000,
+   0.2650853415349686,
+   0.998959849918564,
+   0.2653613571722413
+  ],
+  [
+   2002,
+   0.34374670550657566,
+   0.9950850444203283,
+   0.34544455012568304
+  ],
+  [
+   2004,
+   0.4143242893955172,
+   0.9967846844893377,
+   0.4156607699162026
+  ],
+  [
+   2006,
+   0.34423502330591066,
+   0.9995604206143605,
+   0.34438640847176927
+  ],
+  [
+   2008,
+   0.32955541203995614,
+   0.9986501718803092,
+   0.3300008564755489
+  ],
+  [
+   2010,
+   0.35325839785064655,
+   0.9991520735913683,
+   0.3535581891762371
+  ],
+  [
+   2012,
+   0.3782312554071387,
+   0.998556241441726,
+   0.37877811955893886
+  ],
+  [
+   2014,
+   0.2979610866108659,
+   0.9995583409931985,
+   0.29809274195521257
+  ],
+  [
+   2016,
+   0.3855307629024563,
+   0.9997164678460404,
+   0.38564010427187373
+  ],
+  [
+   2018,
+   0.3897945353442556,
+   0.9994404956789217,
+   0.3900127491626878
+  ],
+  [
+   2021,
+   0.41410412954868203,
+   0.9998099287776977,
+   0.41418285378995856
+  ],
+  [
+   2022,
+   0.3697629769150271,
+   0.9997412264359381,
+   0.3698586865655489
+  ],
+  [
+   2024,
+   0.4377569343797309,
+   0.9997744766770831,
+   0.43785568104787886
+  ]
+ ],
+ "raw_trend": 0.059859579777938474,
+ "demeaned_trend": 0.027736648637507987,
+ "sham_raw": 0.012082801747432578,
+ "sham_demeaned": 0.0021201738266477432,
+ "null_median": -0.002570281712936072,
+ "null_sd": 0.0037432637916376254,
+ "null_median_demeaned": -0.003615081918446645,
+ "null_sd_demeaned": 0.002723535889220351,
+ "positive_sweep": [
+  [
+   0.0,
+   -0.0022039221363872583
+  ],
+  [
+   0.25,
+   0.029838316309876593
+  ],
+  [
+   0.5,
+   0.07561470136337149
+  ],
+  [
+   0.75,
+   0.1193329518344205
+  ]
+ ],
+ "grid": [
+  {
+   "arm": "raw",
+   "trend": 0.059859579777938474,
+   "null": -0.002570281712936072,
+   "null_sd": 0.0037432637916376254,
+   "sham": 0.012082801747432578,
+   "first": 0.4019809980265987,
+   "last": 0.6280441168067143
+  },
+  {
+   "arm": "cohort-demeaned",
+   "trend": 0.027736648637507987,
+   "null": -0.003615081918446645,
+   "null_sd": 0.002723535889220351,
+   "sham": 0.0021201738266477432,
+   "first": 0.3001440906988436,
+   "last": 0.43785568104787886
+  }
+ ],
+ "family_size": 4,
+ "world": "W_SURVIVES",
+ "verdict": "CONFIRMED \u00b7 world W_SURVIVES \u00b7 \u26a0 SCOPE: the ceiling correction is INERT in the demeaned arm (ceilings ~1.00), so that arm's trend is a RAW correlation trend, not a ceiling-normalised one \u2014 the two arms are not the identical quantity",
+ "ceiling_inert_in_demeaned_arm": true,
+ "reproduces_936": true,
+ "ref_936": {
+  "first": 0.4019809980265987,
+  "last": 0.6251518759071603,
+  "trend": 0.05947165399806871
+ },
+ "preregistered_W_DEGEN_fired": true
+}

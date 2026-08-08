@@ -47567,3 +47567,63 @@ statistic needs a different control contract**, and `lib/gates.py`'s `negative_c
 every round in this project using a max, a range, an absolute value or a variance share has been
 judged by it. `#939`③ **the confound control is stronger than the design that needed it** —
 cohort-demeaning is available to every trend claim in A114–A118 and none of them ran it.
+
+## Entry 940 · `E03·A122·R378` — the best arc survives, at 46% of its headline
+
+**BASIN RULE, stated before the run.** `#933`–`#936` were four consecutive rounds confirming and
+strengthening A118 — the project's best-supported arc. `#939`③ then showed that **cohort-demeaning,
+a four-line control, can reverse an ordering I found obvious.** A118 never ran it. So this round put
+the strongest claim through the control that had just killed a sibling, with the unwelcome outcome —
+*the headline is generational replacement* — as a live world.
+
+**⚠ THE REPRODUCTION CHECK FIRST, because without it a difference is my code and not the control.**
+`#936` published **0.4020 → 0.6252, +0.0595/decade**. This re-implementation's raw arm: **0.4020 →
+0.6280, +0.0599/decade** over 21 waves, n=14,847. It reproduces. ⚠ **And those reference values are
+READ FROM `#936`'s ARTIFACT, not typed** — v1 typed them into this very row and `no_transcribed_numbers`
+(`#840`) blocked the commit, correctly and for a reason larger than tidiness: **a reproduction check
+with transcribed references is checking my memory of `#936`, not `#936`.**
+
+| arm | first wave | last wave | trend/decade | its null | sham |
+|---|---|---|---|---|---|
+| raw (`#936`) | 0.4020 | 0.6280 | **+0.0599** | −0.0026 ± 0.0037 | +0.0121 |
+| **cohort-demeaned** | 0.3001 | 0.4379 | **+0.0277** | −0.0036 ± 0.0027 | **+0.0021** |
+
+**A118 SURVIVES.** Against a **within-wave person-label permutation null** of −0.0036 ± 0.0027 (kind of
+null named, per `#532`), the demeaned trend is **+0.0277/decade, about ten times that null's spread**, and
+its **sham is flat at +0.0021** — so the movement is specific to the pairs under study and is not a
+general drift in how any two of these items relate. 3 of 4 cells survive BH; the fourth non-survivor
+is the demeaned sham, which is exactly the cell that *should* fail.
+
+**⚠⚠ AND IT SURVIVES AT 46% OF ITS HEADLINE.** `0.0277 / 0.0599 = 0.46`. **Roughly half of `#936`'s
+integration was one generation replacing another**, and the half that is people changing their own
+minds is the half that was never separated out until now. A118's sentence needs that number in it.
+
+**⚠⚠⚠ THE PRE-REGISTERED W_DEGEN CONDITION FIRED, AND IT NAMED THE WRONG THING — THE THIRD TIME IN
+FOUR ROUNDS.** I defined W_DEGEN as *"demeaning destroys the usable variance, so the comparison is not
+available"*, and operationalised it as *"demeaned ceilings > 0.98"*. The ceilings are **0.9929 →
+0.9998**, so it fired. But what that means is only that **the ceiling correction is INERT after
+demeaning** — the demeaned arm reports a raw correlation trend where the raw arm reports a
+ceiling-normalised one. The comparison is still available; what changes is what the demeaned number
+*is*. **That is a scope caveat, not a void**, and it is registered on the page rather than quietly
+dropped or rewritten.
+
+**⚠ ONE ERROR CLASS, NOT THREE MISTAKES** — and naming it is the point of writing it here. `#936`②
+staked the wrong multiplicity family; `#939`② staked a ratio of spreads while the claim lived in an
+ordering; `#940` staked the normalisation's inertness while the world was about the comparison's
+availability. **Three consecutive rounds in which a pre-registered threshold named one world and
+tested another.** Pre-registration protects against choosing a threshold after seeing the result. It
+does **nothing** against choosing the wrong quantity before seeing it, and this project has now
+produced that failure three times in a row while its kill-discipline machinery reported PASS.
+
+**ONE SENTENCE ABOUT PEOPLE.** A118 survives the control that killed its sibling: **Americans born in
+the same year really did fold their view of homosexuality further into the rest of their sexual
+morality across their own lifetimes — but only about half as fast as the headline said, because the
+other half was one generation replacing another.**
+
+**NEXT** — `#940`① **every A114–A118 trend now needs its demeaned twin**, because this one lost 54% of
+its size to the control and none of the others has run it. `#940`② ⚠ **the pre-registered-quantity
+error class needs a mechanism, not a fourth instance**: before a round runs, the kill's yardstick and
+the world's own wording must be checked to name the same object — `lib/gates.py` already takes
+`yardstick`, and nothing compares it to the world it decides. `#940`③ **the ceiling normalisation is
+inert on any demeaned or continuous quantity**, which bounds where `#936`'s machinery can be used at
+all, and that boundary has never been drawn.
