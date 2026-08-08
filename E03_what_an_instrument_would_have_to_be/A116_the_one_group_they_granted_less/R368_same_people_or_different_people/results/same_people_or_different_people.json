@@ -1,7 +1,7 @@
 {
  "entry": 930,
  "round": "E03\u00b7A116\u00b7R368",
- "verdict": "OVERTURNED",
+ "verdict": "OVERTURNED (DOWNGRADED by its own entry `#930`: SIGN only)",
  "world": "W_ALIGNED \u00b7 the same cells rose on both; the fall is composition",
  "estimand": "across-subgroup correlation between the change in homosexual-tolerance and the change in racist-tolerance, early era -> late era",
  "instrument": "GSS 1972-2024 gss7224_r3a.dta",
@@ -320,5 +320,6 @@
    "asserted in code, not in prose"
   ]
  ],
- "gate_verdict": "OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_DIFFERENT requires the across-cell correlation to sit on its null). This is a refutation, NOT an unverified round (#366e)."
+ "gate_verdict": "OVERTURNED -- controls sound, and the pre-registered threshold fired AGAINST the expectation (KILL: W_DIFFERENT requires the across-cell correlation to sit on its null). This is a refutation, NOT an unverified round (#366e).",
+ "verdict_downgraded_by_own_entry": "0 of 3 era splits survive BH, and the ceiling control halves the effect (+0.460 -> +0.226, below the 0.5x threshold pre-registered as 'survives'). W_SAME is refuted (it needs the opposite sign); W_ALIGNED vs W_DIFFERENT is NOT settled."
 }

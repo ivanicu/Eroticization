@@ -1,0 +1,9 @@
+SCCS176 (Homosexuality): n=40 societies · codes [np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0)] · source broude1976cross
+  ⚠ code 2 is UNDOCUMENTED in codes.csv and is DROPPED (`#836`'s cleaning, carried)
+  after cleaning: n=36
+
+PRECONDITION CHECK — comparison variables with n>=120 paired against the target:
+  broude1976cross         0 variables  (Broude & Greene 1976 (the SAME paper and coders as the target))
+  frayser1985varieties    0 variables  (Frayser 1985 — topically matched, DIFFERENT team)
+  whyte1978cross          0 variables  (Whyte 1978 — topically matched, DIFFERENT team)
+EMPTY POPULATION

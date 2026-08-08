@@ -47005,3 +47005,73 @@ already carries `#930`'s downgrade, and nothing here changes what the project cl
    `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ ·
    `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① ·
    `#857`① · `#861`①.
+
+## Entry 932 · `E03·A117·R370` — the precondition killed a design I had built on a row count
+
+**⇒ `UNVERIFIED` · world `COVERAGE-BOUND`. The round never reached its estimand, and the reason is
+mine: **I quoted `n = 186` for `SCCS176` from a ROW COUNT.** The release stores one row per society;
+**146 of those 186 rows carry a NULL code.** True coverage is **40 societies, 36 after cleaning** —
+against a design that required pairs of **n ≥ 120**. **`EMPTY POPULATION`, exit 2.**
+
+**WHY THE ROUND WAS ATTEMPTED.** The prompt's object names three units and the **society** unit has
+been dormant since `#897`. ⚠ **`#897`'s impossibility was MEASURED and tightly scoped** — the crossed
+2×2 case-indexing design at **n = 26** cannot resolve an effect of any size — and it says nothing
+about a different question on a different battery. Checking the *scope* of a measured impossibility
+is legitimate; the previous three impossibility claims this project overturned (`#912`, `#918`②,
+`#925`①) were **asserted from descriptions**, and `#897` was not. That distinction was drawn before
+the round, and it held: **`#897` is not contradicted here.**
+
+**⚠⚠ THE RECON ERROR, WHICH IS THE ROUND'S ACTUAL CONTENT.** I inventoried the battery with
+`(data.var_id == id).sum()` and read the answer as coverage. It is not:
+
+| `SCCS176` (Homosexuality) | |
+|---|---|
+| rows in `data.csv` | **186** |
+| distinct societies | 186 |
+| ⚠ **non-null codes** | **40** |
+| after `#836`'s cleaning (undocumented code 2 dropped) | **36** |
+
+⚠ **And the variables that DO have n ≥ 180 are not sexual norms at all** — they are Murdock's
+kinship/marriage **structure** codes (marital residence, transactions at marriage), caught by the
+words *marital*/*marriage*. **A variable name is not a measurement (HARD RULE 1), and neither is a
+row count.** Genuine sexual-norm coverage: **59 variables at n ≥ 100 · 92 at n ≥ 60 · 123 at n ≥ 36,
+of 133 total** — and the ones bearing on condemnation sit at the thin end.
+
+**⇒ THE PRECONDITION CHECK IS WHAT SAVED THIS.** `#924`②/`#925`② put it before the estimator, and
+here it fired on the first pass: **0 of 3 source arms had a single variable meeting the pairing
+threshold.** Without it I would have lowered `MIN_PAIR` until something ran and reported a
+society-level number built on 36 societies as though it rested on 186.
+
+**⇒ One sentence about people: none, and the honest reason is that the ethnographic record holds a
+usable judgement about homosexuality for thirty-six societies, not one hundred and eighty-six — so
+the society unit is bounded by what anthropologists actually coded, not by how cleverly I ask.**
+
+**⚠ AND `#931`① IS PAID IN THIS COMMIT.** `#930`'s artifact said `OVERTURNED` while its ledger entry
+said the verdict was downgraded to a SIGN. **A correction that reaches the ledger and not the
+artifact is half a correction** (`feedback_correction_must_reach_the_description`). The JSON now
+carries `OVERTURNED (DOWNGRADED by its own entry #930: SIGN only)` and the reason.
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **the society unit is COVERAGE-BOUND**, and this extends `#897` rather than contradicting it:
+   not "the design was wrong" but "the ethnographers coded 36 societies on this question";
+② ⚠ **GALTON is unmet regardless** — no language family ships here, so societies would be treated as
+   independent when shared descent and diffusion say they are not;
+③ ⚠ the whole battery routes through **one paper and two coders** (`broude1976cross`) for the target,
+   which `#836` already measured as fatal to cross-team replication;
+④ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **A ROW COUNT IS NOT COVERAGE, AND IT BELONGS IN THE HARD RULES.** HARD RULE 1 says *print its n
+   and the years it was actually asked* — I printed **an** n, and it was the wrong one. The rule
+   needs the word **non-null**. ⇒ `#932`①
+② ⚠ **THE SOCIETY UNIT SHOULD BE CLOSED IN WRITING, NOT LEFT DORMANT.** Three rounds have now
+   approached it (`#880`, `#897`, this) and each found a different wall. **The page says nothing
+   about it**, so a reader would assume it is merely unvisited. ⇒ `#932`②
+③ ⚠ Still `OPEN`: `#931`② · `#930`①② · `#929`②③ · `#928`①③ · `#927`③ · `#926`① · `#925`② · `#924`② ·
+   `#923`①② · `#922`① · `#921`① · `#920`② · `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ ·
+   `#915`② · `#914`①② · `#913`①③ · `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② ·
+   `#906`①③ · `#905`①②③ · `#904`①② · `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ ·
+   `#896`①② · `#895`① · `#894`③ · `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② ·
+   `#887`① · `#886`② · `#885`① · `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① ·
+   `#875`③④ · `#873`① · `#869`② · `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① ·
+   `#852`① · `#857`① · `#861`①.

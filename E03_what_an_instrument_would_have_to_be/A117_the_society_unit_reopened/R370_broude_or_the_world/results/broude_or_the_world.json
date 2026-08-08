@@ -1,0 +1,45 @@
+{
+ "entry": 932,
+ "round": "E03\u00b7A117\u00b7R370",
+ "verdict": "UNVERIFIED",
+ "world": "COVERAGE-BOUND \u00b7 the design died at its precondition, on a number I had mis-read",
+ "kind": "the precondition check killed a design built on a row count",
+ "estimand": "mean |Spearman rho| between SCCS176 and sexual-norm variables split by source team \u2014 NOT COMPUTED, because the target has 36 usable societies and the design needed >=120",
+ "instrument": "SCCS via D-PLACE",
+ "recon_error": "I quoted n=186 for SCCS176 from `(data.var_id==id).sum()`, which is a ROW count; the release stores one row per society and 146 of them carry a NULL code",
+ "sccs176": {
+  "rows": 186,
+  "distinct_societies": 186,
+  "non_null_codes": 40,
+  "after_cleaning": 36
+ },
+ "battery_coverage": {
+  "n>=100": 59,
+  "n>=60": 92,
+  "n>=36": 123,
+  "total_sexual_variables": 133
+ },
+ "high_n_are_not_norms": "the n>=180 hits are Murdock kinship/marriage STRUCTURE (residence, transactions), caught by the words 'marital'/'marriage'",
+ "extends": "`#897`: the society unit is bounded by COVERAGE, not by design cleverness",
+ "null_median": 0.0,
+ "null_sd": 1.0,
+ "positive_sweep": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   1.0,
+   1.0
+  ]
+ ],
+ "gates": [
+  [
+   "precondition: comparison variables with n>=120",
+   false,
+   false,
+   "0 of 3 arms had any variable meeting the pairing threshold; EMPTY POPULATION, exit 2"
+  ]
+ ],
+ "gate_verdict": "UNVERIFIED, and that is not an acquittal -- the design never reached its estimand"
+}

@@ -430,6 +430,29 @@ boundary from different individuals inside one cell moving oppositely.
 > not the ones who turned against racists — if anything they turned against racists least — so the two
 > movements are not one boundary being re-drawn by the same people, whatever else they are.**
 
+## ⚠ THE THIRD UNIT — THE SOCIETY — AND WHY IT IS CLOSED (`#932`)
+
+This project's object names three units: **person · decade · society**. The person and the decade carry the
+findings above. **The society unit does not, and a reader should know that is a measured wall rather than an
+unvisited room.** Three rounds approached it and each found a different one:
+
+- **`#880`/`#836`** — the condemnation↔rarity coupling is visible only when **the same two coders** read
+  both variables. Change the anthropologist team and it vanishes.
+- **`#897`** — the crossed norm×sanction design is **unresolvable at n = 26**: its one-factor null reaches
+  |D| = 2.2429 while a *maximal* plant moves the median only to +1.3163. **The largest effect the design can
+  be given is smaller than the noise it must clear.**
+- **`#932`** — and the battery is thinner than it looks. **`SCCS176` (Homosexuality) has 186 rows but only
+  40 non-null codes — 36 after cleaning.** ⚠ The `n = 186` I first quoted was a **row count**: the release
+  stores one row per society and 146 of them are blank. The variables that genuinely reach n ≈ 185 are
+  Murdock's **kinship structure** codes, caught by the words *marital*/*marriage*.
+
+> **One sentence about people (`#932`): the ethnographic record holds a usable judgement about homosexuality
+> for thirty-six societies, not one hundred and eighty-six — so the society unit is bounded by what
+> anthropologists actually coded, not by how cleverly it is asked.**
+
+⚠ And **Galton's problem is unmet regardless**: no language family ships with this release, so societies
+would have to be treated as independent draws when shared descent and diffusion say they are not.
+
 ⚠ **Scope**: this is a budget over the **five targets Stouffer chose in 1955**, not over everything a person
 might tolerate — zero-sum is refuted **for this list**, not in general. ⚠ **Prior art**: the count *is*
 Stouffer's scale and its long rise is among the most-replicated findings in American opinion (Davis 1975;
