@@ -48531,3 +48531,64 @@ BOUND, not a point** — `#946`'s rule, fifth application, and it must land befo
 step. `#954`③ **the strictest-null principle should be written into `lib/gates.py`'s vocabulary**: a
 residual is only as real as the strictest null it beats, and nothing in the library ranks nulls by
 what they preserve.
+
+## Entry 955 · `E03·A129` — PRODUCTION + a factual retraction: flat respondents' residuals are not zero, and they carry the partition
+
+**Two corrections, one owed and one discovered while paying it.**
+
+**⚠⚠⚠ THE RETRACTION FIRST, because it is load-bearing and it is mine.** `#954` wrote that flat
+respondents — those answering all four items alike — have *"residuals identically zero"*. **That is
+false.** Each item is z-scored **per item** before person-centring, so four equal RAW answers give
+four UNEQUAL z-scores and person-centring cannot zero them. Measured, against the object:
+
+| flat group | n | residual vector `[premarsx, teensex, xmarsex, homosex]` | norm |
+|---|---|---|---|
+| all "always wrong" | **3,173** | **[−0.6805, +0.2785, +0.4330, −0.0310]** | 0.8539 |
+| all "not wrong at all" | 123 | [−1.2536, +0.4420, +1.7065, −0.8949] | 2.3410 |
+
+⚠ **`no null to report` — and that is a statement about the quantity, not an omission.** The residual
+vector above is a **DERIVATION**: given the item means and sds, four equal raw answers force exactly
+that vector by arithmetic. It could not have come out otherwise, so it has no sampling null and none
+is quoted (`realstat`'s arithmetic trap: label a derivation, do not dress it as evidence). The
+*consequences* below — +0.2620 vs +0.1086 — are measurements and carry their scope with them.
+
+**⚠ Cluster A both negative, cluster B both positive. That vector IS the 2+2 partition** — carried
+identically by **3,173 people, 21% of the sample**, who drew no distinction between the four acts at
+all. Their residual pattern is a deterministic function of the item means and sds, i.e. **pure
+marginals pointing exactly along the partition.**
+
+**⇒ AND THAT IS THE MECHANISM BEHIND `#954`'s ENTIRE BRACKET.** NULL-S preserves person totals and so
+preserves the flat respondents → high null → residual 12.7%. NULL-C destroys them → low null →
+residual 99.0%. **The bracket was never "shape versus totals". It was "does the null keep the people
+who answered everything the same way".** `#954` reported the right numbers and named the wrong
+variable.
+
+**⚠ Measured consequence, which is why this is a retraction and not a footnote:** the observed
+partition contrast is **+0.2620** on all respondents and **+0.1086** on the 11,509 who actually
+discriminate. **59% of the headline came from the 3,338 who did not.**
+
+**The owed correction, `#954`②, landed in the same pass**: `#951`'s block now states its residual as
+**≥ 12.7%, upper bound unconstrained**, not as a point.
+
+**⚠ How this was caught, because the order matters.** It was the **gradient check** — three lines,
+run before designing `#954`①'s round, asking whether flat respondents are inert for the observed
+contrast. I predicted they were (that is what "residuals identically zero" implies). **They are not,
+and the prediction failing is what exposed the error.** Had I skipped straight to the round, I would
+have restricted the sample, watched the bracket narrow, and reported it as a repair — with the false
+premise intact underneath.
+
+**ONE SENTENCE ABOUT PEOPLE.** More than a fifth of these respondents gave the same answer to all four
+questions, and **because the four questions are not equally easy to say yes to, that single flat
+answer is silently recorded as a preference for two of the acts over the other two** — so a large part
+of what the page has been calling a moral partition is people who expressed no partition at all.
+
+**NEXT** — `#955`① **the real round is now the restricted one, and its question has changed**: among
+the 11,509 who DO discriminate, is +0.1086 content or still marginal? Both nulls must be re-run on
+that subpopulation, and the scope caveat is no longer a cost — **it is the finding's population.**
+`#955`② ⚠ **every ipsative round in A125–A129 z-scored per item before person-centring**, and this
+entry shows that operation manufactures a fixed partition-shaped residual for anyone who answers
+flat. `#945`'s Stouffer analysis used binary items where flat respondents genuinely DO have zero
+residuals — so it is exempt — but that exemption was luck, not design, and nothing checked it.
+`#955`③ **`#954`③ is still open** and now has a second reason: `lib/gates.py` ranks no nulls, and it
+also has no concept of *which respondents a null preserves*, which is what actually decided the
+bracket.

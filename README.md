@@ -546,6 +546,17 @@ same kind of effect vanishes and reverses.
 **Each controls exactly what the other leaks.** NULL-C holds every item's full marginal exactly — and
 **destroys 73% of the flat profiles**, the people who answer all four alike and whose residuals are
 identically zero. NULL-S keeps that population intact and leaks shape instead.
+> ⚠⚠⚠ **FACTUAL ERROR, RETRACTED AT `#955`, AND IT WAS LOAD-BEARING.** This block said flat
+> respondents' *"residuals are identically zero"*. **They are not.** Each item is z-scored **per item**
+> before person-centring, so four equal RAW answers give four UNEQUAL z-scores and person-centring
+> cannot zero them. Measured: the all-"always wrong" group — **n = 3,173, 21% of the sample** — carries
+> the single residual vector **[premarsx −0.6805, teensex +0.2785, xmarsex +0.4330, homosex −0.0310]**,
+> norm **0.8539**. ⚠ **Cluster A both negative, cluster B both positive — that vector IS the 2+2
+> partition**, held identically by 3,173 people who drew no distinction between the four acts at all.
+> ⇒ **This is the mechanism behind the whole bracket**: NULL-S preserves person totals and therefore
+> preserves the flat respondents (small residual, 12.7%); NULL-C destroys them (large residual, 99.0%).
+> The bracket was never about shape versus totals — **it was about whether the null kept the people who
+> answered everything the same way.**
 
 **Content residual bracket: [12.7%, 99.0%] of Δ.**
 
@@ -650,6 +661,11 @@ rounds quoted was against a null that had erased the marginals.
 > camps is the plainer fact that two of these acts are condemned by three-quarters of the country and
 > two are not — a small real remainder survives even that, but the camps are mostly the condemnation,
 > not a structure sitting on top of it.**
+> ⚠ **RESTATED AS A LOWER BOUND AT `#955`, not a point.** `#954` referred this same contrast to a
+> second marginal-preserving null and got **99.0%**; the honest statement is **≥ 12.7%, upper bound
+> unconstrained**, because no single null on 4-point ipsative data holds both a person's total and each
+> item's answer-shape. The 13.9% here is the value under the *stricter* of the two nulls, which is the
+> right one to quote — but it is a floor, not a measurement of the content share.
 
 ### `#950` · I built the confound's world and it pushes the other way
 
