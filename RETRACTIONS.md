@@ -47813,10 +47813,14 @@ than they are.
 `positive_sweep` and `null_median` into the JSON, and `plant_baseline_gate` (`#922`) blocked it at
 **5.0 spreads** — correctly, and for a reason larger than the numbers: **that pair of keys asserts
 "here is my plant and here is the null it is judged against", which is exactly what this round
-denies.** Renamed to `inadmissible_sweep` / `inadmissible_null_shares` / `null_status`, the round now
-reads **UNREADABLE** to that gate instead of FAIL — which is the honest state, since the gate's own
-scope note says UNREADABLE is *not cleared*. **A schema is a claim, and it must not outrank the
-sentence beside it.**
+denies.** ⚠ **Renaming it to `inadmissible_sweep` was NOT enough, and the gate said so a second
+time**: a `[[g, value], …]` structure on disk **is** a control whatever it is called, and `#922`'s
+rule demands a locatable null for any persisted sweep. **The tempting repair was to teach the gate a
+`null_status: INADMISSIBLE` escape hatch — that is weakening a guard so my own round can pass, which
+is the direction this project's history says never to go.** The dead arms are now recorded as
+**human-readable text** carrying no machine-readable control shape at all, because a sweep that
+judges nothing is not a control. **A schema is a claim, and it must not outrank the sentence beside
+it.**
 
 **NEXT** — `#943`① **build the impossibility check as a control contract, not a one-off line**: a
 null that mutates one variable of an algebraic identity must assert the identity still holds, and
