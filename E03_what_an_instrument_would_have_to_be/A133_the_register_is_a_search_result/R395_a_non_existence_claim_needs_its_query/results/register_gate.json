@@ -1,0 +1,370 @@
+{
+ "corpus": 22846,
+ "ledger_sentences": 16783,
+ "entries": 946,
+ "ledger_tip": 961,
+ "docstring_sentences": 6063,
+ "docstring_files": 414,
+ "loose_matches": 2840,
+ "assertions": 199,
+ "cited": 65,
+ "optout": 0,
+ "uncited": 134,
+ "controls": {
+  "unit": true,
+  "positive": true,
+  "positive2": true,
+  "negative": true,
+  "negative2": true
+ },
+ "baseline": 134,
+ "worse": false,
+ "uncited_by_key": {
+  "#887": [
+   "The boundary does not exist — a series with no break at all yields a bigger R² gain than the one I was pointing at, four times in five — and the bootstrap would still have handed me a confident date for it, 93.8% inside a single eight-year band.",
+   "The only thing that stopped it was building the null out of the same maximisation.**",
+   "More power needs more waves, which do not exist;",
+   "**Only this one instrument**, structurally;",
+   "⑤ **no second coder, no second release.**"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A130_the_partition_among_people_who_discriminate/R390_among_those_who_actually_distinguish/among_those_who_actually_distinguish.py": [
+   "W_STILL_MARGINAL · it does not ⇒ **even among discriminators the partition is the marginals, and A126–A129 produce nothing about people at all.** ⚠ **The unwelcome one.** W_FILTER_ARTIFACT· re-filtering changes the nulls so much that the comparison is not available ⇒ refusal.",
+   "(4) ⚠ **no second instrument** — the four norms are GSS's;",
+   "**only this one instrument** carries them;"
+  ],
+  "#872": [
+   "not a permutation and not zero — **the no-op injection**, an inserted line that drops a column which does not exist.",
+   "② **the instrument cannot be changed** — these scripts and this item set exist only in this repository ⇒ **only this one instrument**;"
+  ],
+  "#885": [
+   "worlds **A (act-dependence)** and **D (sanction-severity dependence)** predict the same observable, and GSS carries no second sanction format for either act.",
+   "⑤ **no second coder, no second release**;"
+  ],
+  "#888": [
+   "**Only this one instrument** for anything about measurement error;",
+   "⑤ **no second coder, no second release.**"
+  ],
+  "#889": [
+   "**Only this one instrument**;",
+   "⑤ **no second coder, no second release.**"
+  ],
+  "#890": [
+   "③ **object-distance CANNOT be equalised in GSS** — there is no item asking whether the homosexual act should be legal.",
+   "⑤ **the crossing is 2×2 and cannot be widened** — GSS asks the wrongness form for exactly two reasons, so **whether distance is GRADED or BINARY is not identifiable here.** ⑥ no second coder, no second release, no test–retest."
+  ],
+  "#892": [
+   "there is no external gold standard in this release and the 3-partition sweep is the substitute;",
+   "⑦ no second coder, no second release, no test–retest."
+  ],
+  "#897": [
+   "**So neither is reportable, and their sum — the only quantity that is — sits well inside a null it could never have cleared.**",
+   "⑤ **no second coder, no second release, no test–retest.**"
+  ],
+  "#911": [
+   "**The sub-round scheme does not exist.",
+   "⑤ no second coder, no second release."
+  ],
+  "#920": [
+   "④ ⚠ **only this one instrument**, forced by the question:",
+   "no other release here carries a self-labelled orientation AND a behaviour count AND the norm;"
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/feasibility_or_role.py": [
+   "Neutral substances (saliva, urine, sweat) have no such gate, which is exactly why they bridge to both sides.",
+   "IMPOSSIBLE a body-neutral gendered substance -- none exists."
+  ],
+  "E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R354_is_the_asymmetry_domain_or_item_breadth/domain_or_breadth.py": [
+   "The instrument 2011-2013 female is the ONLY file that ships four items in one battery:",
+   "no second release asks these four items."
+  ],
+  "E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R358_who_you_are_or_what_you_did/who_you_are_or_what_you_did.py": [
+   "(4) ⚠ **only this one instrument**, forced by the question:",
+   "no other release here carries a self-labelled orientation AND a behaviour count AND the norm."
+  ],
+  "E03_what_an_instrument_would_have_to_be/A119_does_the_structure_exist_elsewhere/R375_the_same_norm_in_a_second_survey/the_same_norm_in_a_second_survey.py": [
+   "What CAN and ⚠ **The TREND cannot cross instruments** — NSFG asks these items in 2011-2013 only, so CANNOT cross there is no second time point and no second trend.",
+   "(2) ⚠ **no second trend exists**, so A118's trend claim is NOT replicated here, only its state;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A124_did_tolerance_grow_or_get_redirected/R382_the_total_and_the_spread_within_a_cohort/the_total_and_the_spread_within_a_cohort.py": [
+   "(5) ⚠ **no second instrument** — the Stouffer battery is GSS's;",
+   "there is **only this one instrument** and the cross-instrument move is structurally unavailable for this construct;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A125_is_zero_sum_a_within_person_fact/R383_the_trade_off_against_its_ipsative_floor/the_trade_off_against_its_ipsative_floor.py": [
+   "(3) ⚠ **no second instrument** — the Stouffer battery is GSS's;",
+   "**only this one instrument** carries these fifteen items, so the cross-instrument move is structurally unavailable;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A126_is_the_two_layer_structure_general/R385_the_same_test_on_the_sexual_norms/the_same_test_on_the_sexual_norms.py": [
+   "(4) ⚠ **no second instrument for THIS construct** — the four norms are GSS's;",
+   "**only this one instrument** carries them, so the cross-instrument move is unavailable *within* the round."
+  ],
+  "E03_what_an_instrument_would_have_to_be/A126_is_the_two_layer_structure_general/R386_is_the_partition_a_pooling_artifact/is_the_partition_a_pooling_artifact.py": [
+   "(3) ⚠ **no second instrument** — the four norms are GSS's;",
+   "**only this one instrument** carries them;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A127_is_the_partition_content_or_marginal/R387_a_null_that_keeps_the_marginals/a_null_that_keeps_the_marginals.py": [
+   "(3) ⚠ **no second instrument** — the four norms are GSS's;",
+   "**only this one instrument** carries them;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A128_does_945_survive_a_marginal_null/R388_the_same_repair_on_the_tolerance_battery/the_same_repair_on_the_tolerance_battery.py": [
+   "(3) ⚠ **no second instrument** — the Stouffer battery is GSS's;",
+   "**only this one instrument** carries these fifteen items;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A129_does_the_residual_survive_a_full_marginal_null/R389_bracket_the_content_residual/bracket_the_content_residual.py": [
+   "(3) ⚠ **no second instrument** — the four norms are GSS's;",
+   "**only this one instrument** carries them;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A131_why_the_contrast_reverses_among_sharp_discriminators/R392_the_six_ways_to_split_four_acts/the_six_ways_to_split_four_acts.py": [
+   "\"planned\" is forbidden) (1) ⚠ **generalise beyond people who split two-and-two** — someone permitting three or one act has no \"camp\" in this sense, and the estimand does not exist for them;",
+   "(3) ⚠ **cross-instrument replication** — **only this one instrument** carries these four items;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A132_is_the_ordering_a_property_of_the_acts_or_of_the_society/R393_the_same_three_acts_in_186_societies/the_same_three_acts_in_186_societies.py": [
+   "There is **no second ethnographic coding of these acts** in this release.",
+   "\"planned\" is forbidden) (1) ⚠ **only this one instrument** — Broude & Greene 1976 coded all three variables from HRAF;"
+  ],
+  "#30": [
+   "Neutral substances have no such gate, which is exactly why they bridge both sides."
+  ],
+  "#31": [
+   "The schedule question needs no such pairing."
+  ],
+  "#34": [
+   "resolving the modality deficit costs roughly an order of magnitude more compute than has been spent on it, and until that is paid the number does not exist."
+  ],
+  "#41": [
+   "If no such quantity exists yet, the round's first job is to measure it, not to guess a bar.*"
+  ],
+  "#44": [
+   "**A predicts** no such ordering."
+  ],
+  "#46": [
+   "the observed value is *one* realisation while the null is an *average of six*, and the participation ratio is nonlinear, so Jensen's inequality manufactures a gap where none exists."
+  ],
+  "#48": [
+   "**Where there is no gap, both changes are noise** — modality's placebo change (0.0047) *exceeds* its real change (0.0028), which is exactly what \"nothing to correct\" looks like."
+  ],
+  "#52": [
+   "**There is no better global ordering to find** — the schedule is not merely generalisable, it is saturated."
+  ],
+  "#68": [
+   "**There is no rank, estimand, or selection rule in this grid under which the interaction is the larger component.**"
+  ],
+  "#70": [
+   "the individualised readout explains far less and is **the only thing that crosses domains**."
+  ],
+  "#78": [
+   "\"Free\" was the right accounting for the only reason that matters:"
+  ],
+  "#83": [
+   "Two levels, two different kinds of object | | 83d | **my cliff-ratio statistic** | **MIS-SPECIFIED — the fifteenth.** It divides consecutive per-dimension gains, and the denominator **changes sign** at the knee, so it returned 1.7 × 10¹⁰ and printed a \"cliff at rank 3\" that does not exist."
+  ],
+  "#105": [
+   "**The sentence I can no longer write:** *\"the interaction magnitude is inferred rather than measured, and a direct measurement would settle it.\"* **There is no direct measurement to run.**"
+  ],
+  "#871": [
+   "② **the instrument cannot be changed** — these scripts exist only in this repository ⇒ **only this one instrument**;"
+  ],
+  "#875": [
+   "it would require a second machine holding a second copy, which does not exist;"
+  ],
+  "#878": [
+   "① the hook is **shared across projects** and dispatches by path, so it protects this repository and no other;"
+  ],
+  "#880": [
+   "a second independent coding of the same societies does not exist in D-PLACE."
+  ],
+  "#881": [
+   "the only ones that say TIGHT are the sixteen that correlate two fifty-year trends with each other.** A correlation between two trends is nearly forced, and that was written into the design before the run — which is the only reason the level row is here to be compared rather than quoted alone."
+  ],
+  "#882": [
+   "I pre-registered a word list, it returned zero, and I nearly wrote that the comparison does not exist on this machine — while the specification curve four lines above was pointing at a pair of GSS items that ask *is it wrong* and *should the law allow it* about the same act, of the same 2,942 people."
+  ],
+  "#883": [
+   "⑤ **no second coder, no second release** — one questionnaire, one field house."
+  ],
+  "#886": [
+   "**Only this one instrument.** ⑤ **no second coder, no second release.**"
+  ],
+  "#891": [
+   "③ no second coder read the shortlist;"
+  ],
+  "#893": [
+   "⑦ no second coder, no second release, no test–retest."
+  ],
+  "#895": [
+   "⑧ no second coder, no second release, no test–retest."
+  ],
+  "#898": [
+   "⑤ no second coder, no second release, no test–retest."
+  ],
+  "#899": [
+   "**⚠ AND I CANNOT DISPATCH ONE IN THIS SESSION** — agent dispatch is not available to me here."
+  ],
+  "#900": [
+   "⑦ no second coder, no second release, no test–retest."
+  ],
+  "#901": [
+   "⑥ no second coder, no second release, no test–retest."
+  ],
+  "#902": [
+   "⑦ no second coder, no second release, no test–retest."
+  ],
+  "#903": [
+   "⑧ no second coder, no second release, no test–retest."
+  ],
+  "#904": [
+   "⑨ no second coder, no second release, no test–retest."
+  ],
+  "#905": [
+   "⑧ no second coder, no second release, no test–retest."
+  ],
+  "#906": [
+   "⑦ no second coder, no second release, no test–retest."
+  ],
+  "#907": [
+   "⑥ no second coder, no second release, no test–retest."
+  ],
+  "#909": [
+   "⑥ no second coder, no second release."
+  ],
+  "#910": [
+   "⑤ no second coder, no second release."
+  ],
+  "#912": [
+   "⑤ no second coder, no second release."
+  ],
+  "#913": [
+   "⑤ no second coder, no second release."
+  ],
+  "#923": [
+   "④ ⚠ **only this one instrument** — GSS is the only release here with a five-decade norm series AND a behaviour item;"
+  ],
+  "#924": [
+   "⑤ ⚠ **only this one instrument** — GSS is the only release here with a five-decade series;"
+  ],
+  "#925": [
+   "⑤ ⚠ **only this one instrument**;"
+  ],
+  "#926": [
+   "⑤ ⚠ **only this one instrument** — no other release here carries 30+ waves of attitude items;"
+  ],
+  "#927": [
+   "④ ⚠ **only this one instrument**;"
+  ],
+  "#928": [
+   "④ ⚠ **only this one instrument**;"
+  ],
+  "#929": [
+   "④ ⚠ **only this one instrument**;"
+  ],
+  "#930": [
+   "④ ⚠ **only this one instrument**;"
+  ],
+  "#933": [
+   "④ ⚠ **only this one instrument** — no other release here asks four sexual norms on one frame;"
+  ],
+  "#934": [
+   "④ ⚠ **only this one instrument**;"
+  ],
+  "#935": [
+   "④ ⚠ **only this one instrument**;"
+  ],
+  "#936": [
+   "④ ⚠ **only this one instrument**;"
+  ],
+  "#940": [
+   "**⚠⚠⚠ THE PRE-REGISTERED W_DEGEN CONDITION FIRED, AND IT NAMED THE WRONG THING — THE THIRD TIME IN FOUR ROUNDS.** I defined W_DEGEN as *\"demeaning destroys the usable variance, so the comparison is not available\"*, and operationalised it as *\"demeaned ceilings > 0.98\"*."
+  ],
+  "#943": [
+   "**There is no admissible permutation null for a band-ordering statistic under the APC identity.**"
+  ],
+  "#950": [
+   "Building the world was the only thing that could show it.**"
+  ],
+  "#960": [
+   "There is no second ethnographic coding of these acts in the release."
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/discriminant_validity.py": [
+   "If they do not, the battery cannot discriminate anything and no verdict is available."
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_matching_correct_or_just_subsample.py": [
+   "IMPOSSIBLE a split with a large coverage gap and no other difference -- coverage gap is not manipulable in an observational release."
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/does_substance_reach_outside.py": [
+   "IMPOSSIBLE rebuilding the self/other contrast outside the fluid family -- no other block instantiates it in its option set."
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/reliability_ceiling.py": [
+   "a gold-standard breadth measure (none exists)."
+  ],
+  "E01_sexual_as_a_value_not_a_category/A01_what_this_release_can_answer_at_all/R001_schema/schedule_or_rarity.py": [
+   "IMPOSSIBLE prospective onset measurement, which is the only thing that fully separates \"acquired later\" from \"noticed later\"."
+  ],
+  "E03_what_an_instrument_would_have_to_be/A111_which_instrument_can_still_be_asked/R351_the_five_unreadable_cells_actually_opened/can_the_unreadable_cells_be_opened.py": [
+   "② No second coder decides what counts as a norm item;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A111_which_instrument_can_still_be_asked/R352_the_anchor_that_is_not_the_marginal/anchor_the_parse_without_using_its_values.py": [
+   "③ ⚠ **only this one instrument**, and here that is a property of the question rather than a shortcut:"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R356_did_xmarsex_have_room_to_move/did_it_have_room_to_move.py": [
+   "(5) ⚠ **only this one instrument**, and here it is forced by the question rather than chosen:"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R357_the_disclosure_gauge_test/disclosure_gauge_test.py": [
+   "(4) ⚠ **only this one instrument**, forced by the question:"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A114_does_the_person_level_finding_explain_the_century/R361_composition_or_the_society/composition_or_the_society.py": [
+   "(4) ⚠ **only this one instrument** — GSS is the only release here with a five-decade norm series AND a behaviour item."
+  ],
+  "E03_what_an_instrument_would_have_to_be/A114_does_the_person_level_finding_explain_the_century/R362_did_anyone_change_their_mind/did_anyone_change_their_mind.py": [
+   "(4) ⚠ **only this one instrument** — GSS is the only release here with a five-decade series;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A114_does_the_person_level_finding_explain_the_century/R363_an_upper_bound_on_replacement/an_upper_bound_on_replacement.py": [
+   "(5) ⚠ **only this one instrument** — GSS is the only release here with a five-decade series;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R364_one_item_or_thirty_seven/one_item_or_thirty_seven.py": [
+   "(5) ⚠ **only this one instrument** — no other release here carries 30+ waves of attitude items;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R365_same_question_different_target/same_question_different_target.py": [
+   "(5) ⚠ **only this one instrument**;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R366_is_it_one_scale_at_all/is_it_one_scale_at_all.py": [
+   "(4) ⚠ **only this one instrument**;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A115_did_they_change_on_this_or_on_everything/R367_is_the_budget_fixed/is_the_budget_fixed.py": [
+   "(4) ⚠ **only this one instrument**;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A116_the_one_group_they_granted_less/R368_same_people_or_different_people/same_people_or_different_people.py": [
+   "(4) ⚠ **only this one instrument**;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R371_did_the_others_move_at_all/did_the_others_move_at_all.py": [
+   "(4) ⚠ **only this one instrument** — no other release here asks four sexual norms on one frame;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R372_the_randomised_ballot_kills_or_saves_it/the_randomised_ballot.py": [
+   "(4) ⚠ **only this one instrument**;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R373_did_it_leave_the_others_behind/did_it_leave_the_others_behind.py": [
+   "(4) ⚠ **only this one instrument**;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A118_four_sexual_norms_one_scale/R374_against_what_the_marginals_permit/against_what_the_marginals_permit.py": [
+   "(4) ⚠ **only this one instrument**;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A120_can_a_kill_be_made_to_fail/R376_the_kill_that_cannot_fail/the_kill_that_cannot_fail.py": [
+   "**The corpus is the population, so there is only this one instrument** and the cross-instrument move is structurally unavailable rather than skipped;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A121_when_in_a_life_does_a_mind_change/R377_the_same_decade_lived_at_different_ages/the_same_decade_lived_at_different_ages.py": [
+   "only this one instrument carries a 36-year series of this item;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A121_when_in_a_life_does_a_mind_change/R381_bootstrap_the_ordering_not_the_gap/bootstrap_the_ordering_not_the_gap.py": [
+   "**only this one instrument** carries a 36-year series, so the cross-instrument move is structurally unavailable;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A122_does_the_best_arc_survive_its_own_control/R378_a118_under_cohort_demeaning/a118_under_cohort_demeaning.py": [
+   "W_DEGEN · demeaning destroys the item's usable variance (a 4-point item minus a cohort mean can go nearly continuous and thin), so the comparison is not available."
+  ],
+  "E03_what_an_instrument_would_have_to_be/A123_conversion_or_replacement_per_norm/R380_five_targets_of_tolerance_same_control/five_targets_of_tolerance_same_control.py": [
+   "(3) ⚠ **no second instrument** — this battery is GSS's;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A125_is_zero_sum_a_within_person_fact/R384_did_the_exchange_rate_move/did_the_exchange_rate_move.py": [
+   "(3) ⚠ **no second instrument** — **only this one instrument** carries these fifteen items;"
+  ],
+  "E03_what_an_instrument_would_have_to_be/A131_why_the_contrast_reverses_among_sharp_discriminators/R391_recompute_the_null_on_the_same_population/recompute_the_null_on_the_same_population.py": [
+   "there is **only this one instrument** carrying them, so no second site can be asked;"
+  ]
+ }
+}

@@ -528,6 +528,54 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#962` · a line saying something does not exist is a search result, and it now has to show the search
+
+**PRODUCTION** (`#962`) — no new claim about people, one new instrument, and the label is honest.
+⚠ **The basin rule chose this**: `#960` and `#961` were both `UNVERIFIED` on the same object, and
+`#961`①'s own proposal would have been the third round on the same instrument. `#111c` says change
+direction, never chase the third.
+
+⚠⚠ **The gradient check killed both halves of the design before a line of the gate was written**
+(`#962`). **①** I planned to scan the `STRUCTURALLY CANNOT` block — and `#960`'s refuted sentence
+*"There is no second ethnographic coding of these acts"* **is not in it**; it lives in its
+`HARD RULE 2` paragraph, so a block-scoped gate would have reported a clean corpus with the
+motivating sentence two paragraphs above. **②** I planned to separate EXISTENCE from CAPABILITY
+claims — and `#960`'s clause (1) is **phrased as capability while asserting existence**. Both halves
+are kept as the gate's two positive controls.
+
+⚠ **Prior art, and its corpse** (`#962`). `tools/wall_audit.py` exists and asks a different question.
+It is not replaced — but **it is dead and still prints a tidy answer**: 83 clauses, 69 entries, tip
+**`#618`** against a ledger tip of **`#961`**, blind to 343 entries and to **all 414 docstring
+files**, because the register moved into round docstrings and it matches only the ledger's Chinese
+heading form.
+
+| `#962` corpus: 22,846 sentences (16,783 ledger / 946 entries · 6,063 docstring / 414 files) | |
+|---|---|
+| loose "contains a negation" pattern | 2,840 (12.4%) |
+| **tight pattern, the one with controls** | **199** |
+| **cite a query** (path · variable id · count · search verb) | 65 |
+| explicit opt-out | 0 |
+| **UNCITED — the reading list** | **134** |
+
+**The largest family is the one with a known counterexample** (`#962`): *"no second coder · no second
+release · no second instrument · only this one instrument"* — **108 sentences across 78 rounds**, and
+`#961` measured one of them **false**.
+
+**P7, six attack vectors, each performed** (`#962`): `V1` empty corpus → exit 2 · `V2` docstrings
+silently gone → exit 2 · `V3` markdown/case/spacing → **found a real hole** (the pattern matched only
+because whitespace is normalised in a *different function*), repaired to `\s+`, re-attacked 5/5 ·
+`V4` **reconstructed the killed first design** (block-scoped, 1,399 sentences) and the unit control
+catches it, so the gradient check's kill is a measurement rather than a story · `V5` unknown
+phrasings are **UNSEEN, and the scope line says so** · `V6` removing the cited-query requirement
+inflates 134 → 199, so it is load-bearing. Wired into pre-commit as a **ratchet at 134, not zero** —
+demanding zero today would block every commit and the gate would be off within the hour.
+
+> **One sentence, and it is about this project rather than about people — which is what PRODUCTION
+> means (`#962`): this project asserts 199 times that something about human sexuality cannot be
+> looked at, 65 of those show the query that came back empty and 134 do not, and "there is no other
+> data" is the sentence that ends inquiry, so it should have been the hardest one to write and was
+> the easiest.**
+
 ### `#961` · two teams read the same ethnographies, agree about the societies, and disagree about what they mean
 
 `#960`① asked whether the sexual double standard is **one property of a society** or **one rule per

@@ -49038,3 +49038,76 @@ resolve — homosexuality-vs-extramarital (9.9% power) and the double-standard f
 STRUCTURALLY-CANNOT line, and one of them was refuted by the next round's own query. **A register
 line asserting that something does not exist is a search result, and a search is an instrument with
 no positive control** — it must cite the query that returned nothing, or be marked UNVERIFIED.
+
+## Entry 962 · `E03·A133·R395` — a line saying something does not exist is a search result, and it now has to show the search
+
+**PRODUCTION**, labelled as such: no new claim about people, one new instrument. `#961`③ paid.
+⚠ **And the basin rule chose this**: `#960` and `#961` were both `UNVERIFIED` on the same object, and
+`#961`①'s own proposal — read the 17 societies the two teams disagree about — would have been the
+third round on the same instrument. `#111c` says change direction, never chase the third. So A132's
+remaining questions are left open on purpose and this turn built the thing that stops the recurrence.
+
+**⚠⚠ THE GRADIENT CHECK KILLED BOTH HALVES OF THE DESIGN BEFORE A LINE OF THE GATE WAS WRITTEN.**
+**①** I planned to scan the `STRUCTURALLY CANNOT` block. **The refuted sentence is not in it.**
+`#960`'s *"There is no second ethnographic coding of these acts in the release"* lives in its
+`HARD RULE 2` paragraph. A block-scoped gate would have reported a **clean corpus** with the
+motivating sentence two paragraphs above — `realstat` §4's row exactly: *the instrument measured
+headings; the sentence asserted entries.*
+**②** I planned to separate EXISTENCE claims from CAPABILITY claims. `#960`'s clause (1) reads
+*"only this one instrument … separating the society from the ethnographer **would require** a second,
+independent coding team"* — **phrased as capability, asserting existence**, and false in the same way.
+The distinction is not a grammar. Both halves are kept as the gate's two positive controls.
+
+**⚠ PRIOR ART, AND ITS CORPSE.** `tools/wall_audit.py` exists (`E02·A243·R626`) and asks a different
+question — *is this wall measurable?* It is not replaced. But **it is dead and still prints a tidy
+answer**: it sees **83 clauses from 69 entries, tip `#618`**, against a ledger tip of **`#961`** — blind
+to 343 entries and to **all 414 docstring files**, because it matches only the ledger's Chinese
+heading form while the register moved into round docstrings. *A tool that always returns a tidy
+answer is the hardest kind of dead instrument to notice*, and this one has been returning three neat
+buckets over a third of its corpus for months.
+
+**THE GATE, AND WHAT IT MEASURED.** Corpus **22,846 sentences** — 16,783 from 946 ledger entries,
+6,063 from 414 round docstrings, per-source counts printed so a dead source is visible.
+
+| | |
+|---|---|
+| loose "contains a negation" pattern | 2,840 sentences (12.4%) |
+| **tight pattern, the one with controls** | **199** |
+| of those, **cite a query** (path · variable id · count · search verb) | 65 |
+| explicit opt-out | 0 |
+| **UNCITED — the reading list** | **134** |
+
+**And the family with a known counterexample is the largest one**: *"no second coder · no second
+release · no second instrument · only this one instrument"* appears in **108 sentences across 78
+rounds**, and `#961` measured one of them **false**.
+
+**P7 — SIX ATTACK VECTORS, EACH PERFORMED.**
+`V1` empty corpus → **exit 2**, never 0. `V2` docstrings silently gone — *wall_audit*'s own failure
+mode — → **exit 2**. `V3` markdown/case/spacing → **found a real hole**: the pattern used literal
+single spaces and matched only because `sentences()` normalises whitespace **in a different
+function**. A lock whose coverage lives elsewhere breaks when someone edits elsewhere. Repaired to
+`\s+`, re-attacked, 5/5. `V4` **reconstructed the killed first design** — block-scoped, 1,399
+sentences — and the unit control **catches it**: the known-bad sentence is not in that corpus. The
+gradient check's kill is therefore a measurement, not a story. `V5` phrasings the pattern does not
+know are **UNSEEN, and the scope line says so** rather than claiming the register is clean.
+`V6` removing the cited-query requirement inflates 134 → 199, so it removes 65 and is load-bearing.
+
+**Wired into the pre-commit hook as a RATCHET at 134, not zero** — demanding zero today would block
+every commit and the gate would be off within the hour. It blocks a **new** uncited non-existence
+claim, and the baseline is written into the file with its reason.
+
+**ONE SENTENCE, AND IT IS ABOUT THIS PROJECT RATHER THAN ABOUT PEOPLE — which is what PRODUCTION
+means and is why it is labelled that way.** This project asserts **199 times** that something about
+human sexuality cannot be looked at; **65 of those show the query that came back empty and 134 do
+not** — and the sentence *"there is no other data"* is the one that ends inquiry, so it is the one
+that should have been hardest to write and was the easiest.
+
+**NEXT** — `#962`① **work the 134 down, starting with the 108-sentence "no second coder / no second
+release" family**, because `#961` already proved one member false and the rest have never been
+queried. `#962`② **the OTHER gate debt is still unbuilt**: `#958`③ · `#959`③ · `#960`③ · `#961`'s
+majority-over-near-copies are one family — *a control's criterion does not reference the quantity it
+licenses* — and this round built the register gate, not that one. `#962`③ **`wall_audit.py` must be
+widened or retired**; a tool printing three tidy buckets over 65% of its corpus is worse than no
+tool, because it answers. `#962`④ **`#961`② is still owed**: A132's two unresolvable quantities
+belong in the page's *what this data cannot do* — and they are now exactly the kind of line this
+gate exists to make honest, so they must be written **with their queries attached**.
