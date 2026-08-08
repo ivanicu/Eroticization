@@ -46075,3 +46075,77 @@ asserted to something I measured.**
    `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① · `#884`①② ·
    `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② · `#868`① ·
    `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.
+
+## Entry 920 · `E03·A112·R358` — both, and my sentence was a dichotomy the data does not have
+
+**⇒ `OVERTURNED` · world `W_BOTH`. `#918`'s page sentence — *"people argue their own case about who
+they are, and do not argue it about what they have done"* — is **half right and wrongly shaped**.
+Identity and behaviour each predict the norm **net of the other**, so the *"and do not"* is false.
+Identity is the larger of the two by about **2.9×**, and it is **not** general liberalism.**
+
+**WHY THIS ROUND.** `#911`② named the failure I keep committing: *supplying a mechanism in the same
+breath as reporting a pattern.* `#918` measured a coupling between a BEHAVIOUR report and a NORM and
+then wrote **"who they are"** — a word no measurement in that round contained. GSS carries both:
+`sexornt` (self-labelled identity, 2008+) and `ss` (own same-sex partner), with discordant cells
+that are not small — **497 report a same-sex partner while identifying heterosexual**, 77 identify
+LGB with no reported same-sex partner. `#111c` closes disclosure after `#919`; this is a different
+question.
+
+| outcome | `id_net` | `act_net` | |
+|---|---|---|---|
+| **`homosex`** | **+0.4475** | **+0.1539** | both **resolved** vs their own permutation null, −0.0015 ± 0.0549 and +0.0036 ± 0.0445 (kind of null: within-stratum label permutation, one per quantity) |
+| `cappun` (death penalty — moral, NON-sexual) | +0.0827 | +0.0632 | ⚠ **5.4× smaller** — this is not general moralism |
+| `polviews` (general ideology) | −0.2379 | — | identity *is* tied to ideology |
+| **`homosex` net of ideology** | **+0.2753** | +0.1298 | ⚠ **~38% of identity's effect runs through ideology; the majority does not** |
+
+Cell means, the thing the whole round rests on: within **every** identity, having the behaviour
+raises the norm (LGB **3.887 vs 3.000**, bisexual **3.843 vs 3.299**, heterosexual **2.831 vs
+2.685**) — and within behaviour, identity raises it too.
+
+**⚠⚠ THREE OF MY OWN CONTROLS WERE BROKEN, AND THE GATE CAUGHT ALL THREE.**
+① **The positive control planted into the OBSERVED world and was judged against the PERMUTED
+baseline** — two different worlds, which is `#905`'s failure committed again. At `g=0` the observed
+data already carries `id_net = +0.6894` against a baseline of `−0.0015`, so the control **could only
+fail**. Repaired by planting **into the null world**: `0 → 0.0200 · 0.15 → 0.0508 · 0.30 → 0.0773 ·
+0.45 → 0.1403 · 0.60 → 0.1728`, monotone, with `act_net` flat (**−0.0053**) under an identity-only
+plant.
+② ⚠ **ONE NULL WAS USED FOR BOTH QUANTITIES, AND IT IS WRONG FOR `act_net` BY CONSTRUCTION.**
+Permuting identity within behaviour destroys identity's contribution and therefore **hands the
+shared variance to behaviour**: that null put `act_net` at **+0.4067** while the observed value is
+**+0.1539**, so "act_net differs from its null" fired because the observation sat *below an inflated
+null*. **A null built by destroying the OTHER predictor is not this predictor's null.** Repaired
+symmetrically — each quantity gets the permutation that destroys **itself**.
+③ The MDE was a `1/sqrt(n)` rule of thumb passed off as a measurement; the gate rejected the spread
+source outright. Replaced with a **400-resample bootstrap: ±0.340** on the standardised
+within-identity behaviour gap, which is why the LGB × no-behaviour cells (n = 10 and 67) support a
+direction and not a magnitude.
+
+**⇒ One sentence about people: both what you are and what you have done move your verdict on it —
+independently, with identity worth about three times the behaviour — so the tidy line that people
+defend who they are rather than what they did is a sentence I wrote, not a thing the data says.**
+
+**WHAT THIS SITE STRUCTURALLY CANNOT DO** (registered; "planned" is forbidden):
+① ⚠ **disclosure, inherited from `#919` and NOT addressed** — identity is also a report to the same
+   interviewer, so this round cannot separate *"identity matters"* from *"identity-reporting and
+   norm-reporting share a reticence component"*;
+② ⚠ **the arrow is not identified** — identity, behaviour and norm are simultaneous, and a person
+   who accepts the norm may be likelier to adopt the label. **This is a decomposition, not a cause**;
+③ `sexornt` starts 2008 ⇒ **8 waves**, not the 1972–2024 series;
+④ ⚠ **only this one instrument**, forced by the question: no other release here carries a
+   self-labelled orientation AND a behaviour count AND the norm;
+⑤ `[unchallenged]` — door ③.
+
+**NEXT**
+① ⚠ **THE PAGE SENTENCE MUST BE REPLACED, NOT SOFTENED.** It asserted an either/or; the measurement
+   is a ratio. **A correction must reach the artifact.** ⇒ `#920`①
+② ⚠ **THE RECURRENCE IS THE FINDING ABOUT ME**: `#911`② named "supplying a mechanism in the same
+   breath", `#916`③ named "naming a control after intent", `#919`③ named a plant that moved its own
+   denominator — and this round committed **two-worlds** and **wrong-null** on top. **Five instances,
+   one family: I describe what I meant rather than measure what I did.** The gate caught every one,
+   which means the mechanism that works is the gate, not the resolution. ⇒ `#920`②
+③ ⚠ Still `OPEN`: `#919`①②③ · `#918`②(corrected) · `#917`② · `#916`③ · `#915`② · `#914`①② · `#913`①③ ·
+   `#912`①② · `#911`①② · `#910`①② · `#909`② · `#908`① · `#907`①② · `#906`①③ · `#905`①②③ · `#904`①② ·
+   `#902`①② · `#901`①② · `#900`①② · `#899`①② · `#898`①② · `#897`①③ · `#896`①② · `#895`① · `#894`③ ·
+   `#893`③ · `#892`③ · `#891`①②③ · `#890`②③ · `#889`①② · `#888`①② · `#887`① · `#886`② · `#885`① ·
+   `#884`①② · `#883`① · `#882`② · `#881`② · `#880`①② · `#876`① · `#875`③④ · `#873`① · `#869`② ·
+   `#868`① · `#865`① · `#835`① · `#837`① · `#848`① · `#849`① · `#850`① · `#852`① · `#857`① · `#861`①.

@@ -1,0 +1,72 @@
+identity x behaviour x norm: n=7760  waves [2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022]
+            n  homosex
+lgb ss                
+0.0 0.0  6833   2.6854
+    1.0   497   2.8310
+1.0 0.0    77   3.2597
+    1.0   353   3.8640
+  outcome homosex   non-missing within frame: 7760
+  outcome cappun    non-missing within frame: 7427
+  outcome polviews  non-missing within frame: 7547
+
+=== THE GRID (all cells, disagreeing ones included) ===
+  homosex   raw                   all 2008-2022 id_net=+0.6894  act_net=+0.1434  n= 7760
+  homosex   raw                   2008-2014     id_net=+0.6452  act_net=+0.1198  n= 4389
+  homosex   raw                   2016-2022     id_net=+0.7072  act_net=+0.1694  n= 3371
+  homosex   demog                 all 2008-2022 id_net=+0.5090  act_net=+0.1856  n= 7660
+  homosex   demog                 2008-2014     id_net=+0.4852  act_net=+0.1536  n= 4376
+  homosex   demog                 2016-2022     id_net=+0.5072  act_net=+0.2115  n= 3284
+  homosex   demog+relig           all 2008-2022 id_net=+0.3799  act_net=+0.1541  n= 7646
+  homosex   demog+relig           2008-2014     id_net=+0.4099  act_net=+0.1190  n= 4371
+  homosex   demog+relig           2016-2022     id_net=+0.3244  act_net=+0.1935  n= 3275
+  homosex   demog+relig+ideology  all 2008-2022 id_net=+0.2753  act_net=+0.1298  n= 7439
+  homosex   demog+relig+ideology  2008-2014     id_net=+0.3375  act_net=+0.0930  n= 4234
+  homosex   demog+relig+ideology  2016-2022     id_net=+0.1787  act_net=+0.1664  n= 3205
+  cappun    raw                   all 2008-2022 id_net=+0.1455  act_net=+0.0531  n= 7427
+  cappun    raw                   2008-2014     id_net=+0.0168  act_net=+0.1285  n= 4185
+  cappun    raw                   2016-2022     id_net=+0.2339  act_net=-0.0377  n= 3242
+  cappun    demog                 all 2008-2022 id_net=+0.1074  act_net=+0.0733  n= 7336
+  cappun    demog                 2008-2014     id_net=-0.0044  act_net=+0.1406  n= 4173
+  cappun    demog                 2016-2022     id_net=+0.1745  act_net=-0.0070  n= 3163
+  cappun    demog+relig           all 2008-2022 id_net=+0.1189  act_net=+0.0756  n= 7322
+  cappun    demog+relig           2008-2014     id_net=+0.0032  act_net=+0.1437  n= 4168
+  cappun    demog+relig           2016-2022     id_net=+0.1906  act_net=-0.0055  n= 3154
+  cappun    demog+relig+ideology  all 2008-2022 id_net=+0.0362  act_net=+0.0510  n= 7146
+  cappun    demog+relig+ideology  2008-2014     id_net=-0.0381  act_net=+0.1067  n= 4054
+  cappun    demog+relig+ideology  2016-2022     id_net=+0.0579  act_net=-0.0152  n= 3092
+  polviews  raw                   all 2008-2022 id_net=-0.2877  act_net=-0.0675  n= 7547
+  polviews  raw                   2008-2014     id_net=-0.1984  act_net=-0.0946  n= 4251
+  polviews  raw                   2016-2022     id_net=-0.3508  act_net=-0.0394  n= 3296
+  polviews  demog                 all 2008-2022 id_net=-0.2379  act_net=-0.0820  n= 7451
+  polviews  demog                 2008-2014     id_net=-0.1609  act_net=-0.1049  n= 4238
+  polviews  demog                 2016-2022     id_net=-0.2924  act_net=-0.0595  n= 3213
+  polviews  demog+relig           all 2008-2022 id_net=-0.1985  act_net=-0.0699  n= 7439
+  polviews  demog+relig           2008-2014     id_net=-0.1347  act_net=-0.0892  n= 4234
+  polviews  demog+relig           2016-2022     id_net=-0.2448  act_net=-0.0537  n= 3205
+
+  null for id_net  (identity permuted within behaviour): -0.0015 +/- 0.0549 (200)
+  null for act_net (behaviour permuted within identity): +0.0036 +/- 0.0445 (200)
+  positive sweep (planted into the NULL world), IDENTITY planted:
+     id_net  [(0.0, 0.02), (0.15, 0.0508), (0.3, 0.0773), (0.45, 0.1403), (0.6, 0.1728)]
+     act_net [(0.0, 0.3985), (0.15, 0.4002), (0.3, 0.4033), (0.45, 0.3921), (0.6, 0.3932)]  (must NOT rise)
+  smallest LGB cell n=77 -> bootstrap MDE on the standardised within-identity behaviour gap ~0.340 (400 resamples)
+
+  homosex : id_net +0.4475  act_net +0.1539
+  cappun  : id_net +0.0827  act_net +0.0632   <- non-sexual moral placebo
+  polviews: id_net -0.2379                            <- general ideology
+  homosex net of IDEOLOGY: id_net +0.2753  act_net +0.1298
+
+  CONDITIONAL KILL -- Who you ARE, or what you DID?
+   PASS  positive: an IDENTITY-only plant raises id_net, and g=0 is null                   方向由数据给出:**上升**;灵敏度 g=0.15;g=0 +0.0200 · g=0.6 +0.1728   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  the identity-only plant does NOT raise act_net (else the two are not separable)   act_net moved -0.0053 vs id_net +0.1528 under an identity-only plant   (asserted in code, not in prose)
+   PASS  identity permuted WITHIN behaviour strata                                         |+0.0015| < 0.5*|+0.4475| = 0.2238   (null is 0% of the effect [零的方案: within-behaviour identity-label permutation])
+   PASS  the whole outcome x adjustment x era grid                                         method=bh q=0.05 · **cells tested 66 · cells surviving 43** · 存活 ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '14', '17', '18', '20', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '44', '46', '49', '52', '55', '58', '61'] · 未存活 ['13', '15', '16', '19', '21', '22', '23', '43']…   (control)
+   PASS  specificity: identity must predict `homosex` more than the NON-SEXUAL moral item  id_net homosex +0.4475 vs cappun +0.0827 (polviews -0.2379)   (asserted in code, not in prose)
+   PASS  every published cell states its n                                                 33/33 格带 n   (每一格都声明了自己的人群规模)
+   PASS  the LGB x no-behaviour cells are small and their MDE is stated                    **77/77 应读作 76–78** (±0.34)   (来源 bootstrap_人层;一个计数不是一个确定值)
+   PASS  KILL: W_ID (my page sentence) requires identity to resolve and behaviour NOT to   id_net resolved=True (+0.4475 vs -0.0015+/-0.0549) · act_net resolved=True (+0.1539 vs +0.0036+/-0.0445)   ⚠ 判据的尺未命名(`#836`①)  ⚠ 判据的总体未命名(`#854`①:尺对了、总体错了一样给反判词)  ⚠ 判据的方向未命名(`#859`①;单侧判据可不填)   (asserted in code, not in prose)
+   => ALL GATES PASS
+  gate three-valued : ALL GATES PASS
+  VERDICT           : OVERTURNED · world W_BOTH · the identity/act split is a FALSE DICHOTOMY
+
+  artifact -> /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A112_is_sexual_morality_a_distinct_object_at_the_person_level/R358_who_you_are_or_what_you_did/results/who_you_are_or_what_you_did.json

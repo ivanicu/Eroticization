@@ -175,7 +175,32 @@ surviving BH.
 > **One sentence about people (`#918`): a person who has had a same-sex partner rates homosexuality much
 > less wrong, and a person who has cheated on their spouse rates adultery no less wrong at all — and not
 > because the adultery question had no room to move, since it had the most room of any question here.
-> People argue their own case about who they are, and do not argue it about what they have done.**
+> ~~People argue their own case about who they are, and do not argue it about what they have done.~~**
+
+⚠⚠ **THE STRUCK CLAUSE WAS RETRACTED ONE ROUND LATER BY `#920`, WHICH TESTED IT.** The clause asserted an
+either/or that no measurement in `#918` contained — `#911`②'s named failure, *supplying a mechanism in the
+same breath as the pattern.* GSS carries **both** `sexornt` (self-labelled identity, 2008+) and `ss`
+(behaviour), with discordant cells that are not small: **497 report a same-sex partner while identifying
+heterosexual**.
+
+| `#920` — each net of the other | `id_net` | `act_net` | |
+|---|---|---|---|
+| **`homosex`** | **+0.4475** | **+0.1539** | both **resolved** (nulls −0.0015 ± 0.0549 · +0.0036 ± 0.0445) |
+| `cappun` — moral, NON-sexual | +0.0827 | +0.0632 | ⚠ **5.4× smaller: not general moralism** |
+| `polviews` — general ideology | −0.2379 | — | identity *is* tied to ideology |
+| **`homosex` net of ideology** | **+0.2753** | +0.1298 | ~38% of identity's effect runs through ideology; the majority does not |
+
+**Both predict, net of each other — so "and do not" is false. Identity is the larger by ~2.9×, which is a
+ratio, not a dichotomy** (`#920`; each against its own permutation null above). Within *every* identity,
+having the behaviour raises the norm (LGB 3.887 vs 3.000
+· bisexual 3.843 vs 3.299 · heterosexual 2.831 vs 2.685).
+
+> **One sentence about people (`#920`): both what you are and what you have done move your verdict on it,
+> independently, with identity worth about three times the behaviour — so the tidy line that people defend
+> who they are rather than what they did is a sentence I wrote, not a thing the data says.**
+
+⚠ Scope: 8 waves 2008–2022; the arrow is **not identified** (identity, behaviour and norm are simultaneous);
+and disclosure is inherited-unresolved from `#919`, since identity is also a report to the same interviewer.
 
 ⚠ **The one rival still standing needs an instrument, not a round.** Norms and behaviours come from the
 **same questionnaire, same respondent, same interview** (HARD RULE 2), so `homosex`/`ss` may be the pair
