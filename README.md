@@ -528,6 +528,43 @@ rest is this act**.
 > they changed their minds about it, they did not carve the act out of their sexual morality, they folded it
 > further in.**
 
+### `#950` · I built the confound's world and it pushes the other way
+
+`#949` registered its rival reading as *"equally available"* — and understated it. Read from `#941`'s
+artifact, the four items' trends per decade are `homosex` +0.4056 · `premarsx` +0.1827 · `teensex`
++0.1566 · `xmarsex` +0.0567: **the two fastest-moving items are exactly `#949`'s cluster A and the two
+slowest exactly cluster B, with no remainder.** Person-centring removes a respondent's level, not
+their profile, so pooling 21 waves looked certain to manufacture the partition.
+
+**It does not move** (`#950`). Δ = mean r over the 2 within-cluster pairs minus mean r over the 4
+crossing pairs, centring done *inside* each grouping:
+
+| `#950` level | Δ | its null | z | groups |
+|---|---|---|---|---|
+| L0 pooled | **+0.2620** | +0.0972 ± 0.0105 | +15.66 | 1 |
+| L1 within wave | +0.2605 | +0.0919 ± 0.0110 | +15.33 | 21 |
+| **L2 within wave × cohort band** | **+0.2596** | +0.0885 ± 0.0110 | **+15.59** | **80 cells** |
+
+**Δ(L2)/Δ(L0) = 0.991** (`#950`) — removing both the wave's and the birth cohort's item profile takes off less
+than one percent. All 21 of 21 cells survive BH; the specification curve gives **signs 6/6** at every
+level under both centrings.
+
+⚠⚠ **And the synthetic world refutes the confound in sign.** Built the rival — structureless data plus
+*only* `#941`'s measured drift, six doses: Δ at L0 runs **+0.1001 (m=0) → +0.0892 (m=1, the real
+world) → −0.0233 (m=10) → −0.2092 (m=100)**. More drift drives the contrast **down**. The instrument
+sees the artifact plainly from m≥3, so this is not blindness — the artifact has the opposite sign.
+
+**Why, and it is the part reasoning could not reach** (`#950`): a person-centred residual carries each item's
+**deviation from the mean trend** (+0.2004), not its rank — `homosex` +0.2052, `premarsx` **−0.0177**,
+`teensex` −0.0438, `xmarsex` −0.1437. **`premarsx` sits at the mean while `homosex` is far above**, so
+differential drift separates homosex from the other *three* — a 1-vs-3 structure orthogonal to the
+2+2. I grouped by rank of trend; the artifact runs on deviation from its mean.
+
+> **One sentence about people (`#950`): the two camps are not an accident of stacking three decades
+> together — they hold inside a single survey wave among people born in the same span, so how a person
+> sorts premarital and same-sex relations away from teenage and extramarital sex really is something
+> about that person, not a shadow of how the country changed around them.**
+
 ### `#949` · the line is not how much sex, it is whether anyone is wronged
 
 `#945` found tolerance has two layers — every raw pair positive, and net of a person's own level, 12

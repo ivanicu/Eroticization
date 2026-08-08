@@ -1,0 +1,51 @@
+⚠ THE CONFOUND, from `#941`'s ARTIFACT rather than memory — raw trend per decade:
+   homosex +0.4056 · premarsx +0.1827 · teensex +0.1566 · xmarsex +0.0567
+   fastest two = {homosex, premarsx} · slowest two = {teensex, xmarsex}
+   ⇒ do the speed groups COINCIDE with `#949`'s clusters? **True** — if True the rival does not merely coexist with the finding, it ENTAILS it
+
+HARD RULE 1 — ballot 1, all four jointly, cohort present: n=14847 · 21 waves 1988-2024 · L2 cells 80 with n 1-594 (median 148)
+⚠ HARD RULE 2 — instrument: GSS ballot 1, four sexual-norm items, one block, one questionnaire. Identical to `#949`'s; only the GROUPING changes.
+
+  PARTITION CONTRAST  Δ = mean r(2 within-cluster pairs) − mean r(4 crossing pairs)
+  level                        Δ   its null  null sd        z    repro
+  L0 pooled              +0.2620    +0.0972   0.0105   +15.66  0.00009
+  L1 wave                +0.2605    +0.0919   0.0110   +15.33  0.00067
+  L2 wave x cohort       +0.2596    +0.0885   0.0110   +15.59  0.00082
+  ⇒ Δ(L2)/Δ(L0) = 0.991 — the share of the pooled partition surviving removal of wave AND cohort profile
+
+  ⚠ SYNTHETIC-ARTIFACT DOSE-RESPONSE — structureless data + m x `#941`'s measured differential drift. m=1 IS the drift actually observed in the world.
+         m    Δ at L0    Δ at L2   (L0 null +0.0972 +/- 0.0105)
+       0.0    +0.1001    +0.0919
+       1.0    +0.0892    +0.0892
+       3.0    +0.0689    +0.0972
+      10.0    -0.0233    +0.0922
+      30.0    -0.1824    +0.0834
+     100.0    -0.2092    +0.0937
+    ⇒ WHY the sign flips: a person-centred residual carries DEVIATION FROM THE MEAN TREND (+0.2004), not rank — premarsx -0.0177 · teensex -0.0438 · xmarsex -0.1437 · homosex +0.2052. `premarsx` sits at the mean while `homosex` is far above, so the artifact separates homosex from the other THREE, not `#949`'s 2+2, and drives the contrast the other way.
+    ⇒ the instrument CAN see a drift artifact (two-sided, at m>=3): True
+    ⇒ at the MEASURED drift (m=1) it is invisible: True
+    ⇒ it would take m>=>100 — i.e. more than 100x the drift the world actually shows — to manufacture the observed Δ(L0) = +0.2620
+  positive sweep (a real partition planted into the permuted world, judged at L2, so g=0 IS the null): [(0.0, 0.0862), (0.25, 0.4439), (0.5, 0.6933), (0.75, 0.8578)]
+  ⚠ plant-baseline check: g=0 at +0.0862 vs L2 null +0.0885 +/- 0.0110 = 0.21 spreads
+
+  specification curve — every cell, none dropped (signs_split = how many of the 6 pairs fall on the side the 2+2 partition predicts, max 6)
+    L0 pooled            group-centred   Δ +0.2620  signs 6/6
+    L0 pooled            pooled-centred  Δ +0.2620  signs 6/6
+    L1 wave              group-centred   Δ +0.2605  signs 6/6
+    L1 wave              pooled-centred  Δ +0.2620  signs 6/6
+    L2 wave x cohort     group-centred   Δ +0.2596  signs 6/6
+    L2 wave x cohort     pooled-centred  Δ +0.2620  signs 6/6
+  CONDITIONAL KILL -- Is the 2+2 partition a fact about people, or an artifact of pooling 21 waves?
+   PASS  positive: a planted partition raises Δ at L2, and g=0 sits ON the L2 null (`#922`)                                                                                                                                                                                                                                                                                                                           方向由数据给出:**上升**;灵敏度 g=0.25;g=0 +0.0862 · g=0.75 +0.8578   (扫描自证:单调 + g=0 落基线 + 灵敏度达到)
+   PASS  within-person item-label permutation, recomputed INSIDE each level's groups, reproduces itself across two independent draws (`#948`①)                                                                                                                                                                                                                                                                        |+0.0005| < 0.5*|+0.1710| = 0.0855   (null is 0% of the effect [零的方案: within-person item-label permutation inside each grouping level (each person's total preserved EXACTLY)])
+   PASS  3 levels x 6 pairs + 3 contrasts = 21 cells (`#936`②/`#940`②)                                                                                                                                                                                                                                                                                                                                                method=bh q=0.05 · **cells tested 21 · cells surviving 21** · 存活 ['L0/prema-teens', 'L0/prema-xmars', 'L0/prema-homos', 'L0/teens-xmars', 'L0/teens-homos', 'L0/xmars-homos', 'L1/prema-teens', 'L1/prema-xmars', 'L1/prema-homos', 'L1/teens-xmars', 'L1/teens-homos', 'L1/xmars-homos', 'L2/prema-teens', 'L2/prema-xmars', 'L2/prema-homos', 'L2/teens-xmars', 'L2/teens-homos', 'L2/xmars-homos', 'L0/Δ', 'L1/Δ', 'L2/Δ'] · 未存活 []   (control)
+   PASS  ⚠⚠ SYNTHETIC-ARTIFACT DOSE-RESPONSE: the rival's world is BUILT at six doses of `#941`'s measured drift. The instrument must SEE a drift-induced partition at SOME dose (sensitivity), and the informative number is how many times the MEASURED drift it would take to manufacture the observed Δ                                                                                                           doses m=[0.0, 1.0, 3.0, 10.0, 30.0, 100.0] give L0 Δ=[0.1001, 0.0892, 0.0689, -0.0233, -0.1824, -0.2092] against a null of +0.0972 +/- 0.0105. Visible (TWO-SIDED) from m>=3; at the MEASURED drift m=1 it is invisible (True); reaching the observed Δ(L0)=+0.2620 needs m>=>100. ⚠ v1 required visibility AT m=1 and refused the round when the measured drift turned out too weak to see — conflating 'the artifact is small' with 'the instrument is blind'. ⚠⚠ AND THE SIGN REFUTES THE CONFOUND OUTRIGHT: more drift drives the contrast DOWN, because a person-centred residual carries deviation from the MEAN trend and `premarsx` sits at that mean while `homosex` is far above — so the artifact makes a 1-vs-3 split, not `#949`'s 2+2. Arguing could not have found that; building the world did · 总体:GSS ballot 1, n=14847, 21 waves, 80 L2 cells   (asserted in code, not in prose)
+   PASS  ⚠ the confound is not 'equally available', it ENTAILS the finding — checked against `#941`'s artifact, not memory                                                                                                                                                                                                                                                                                            trends homosex +0.4056 · premarsx +0.1827 · teensex +0.1566 · xmarsex +0.0567; fastest two {homosex, premarsx} vs `#949`'s cluster A — coincide: True · 总体:GSS ballot 1, n=14847, 21 waves, 80 L2 cells   (asserted in code, not in prose)
+   PASS  ⚠ ESTIMAND CHANGED FROM `#949` AND IT IS SAID SO: `#949` asked which pairs depart from their null; this asks how much BLOCK STRUCTURE survives removing between-group profile variation                                                                                                                                                                                                                      Δ(L0) +0.2620 · Δ(L1) +0.2605 · Δ(L2) +0.2596 · retained 0.991 · 总体:GSS ballot 1, n=14847, 21 waves, 80 L2 cells   (asserted in code, not in prose)
+   PASS  the whole specification grid is published, disagreeing cells included                                                                                                                                                                                                                                                                                                                                        L0/grou Δ+0.262 signs6/6 · L0/pool Δ+0.262 signs6/6 · L1/grou Δ+0.261 signs6/6 · L1/pool Δ+0.262 signs6/6 · L2/grou Δ+0.260 signs6/6 · L2/pool Δ+0.262 signs6/6 · 总体:GSS ballot 1, n=14847, 21 waves, 80 L2 cells   (asserted in code, not in prose)
+   PASS  KILL: pre-registered CONDITIONAL — evaluated ONLY if the positive fires, the null reproduces, AND the synthetic artifact is both visible at L0 and removed at L2. STAKED: W_WRONGED, i.e. Δ(L2) clears 2x its own null spread AND retains >=50% of Δ(L0). ⚠ W_POOLING is the unwelcome branch and the one the arithmetic predicts — it retracts `#949`'s headline from both pages one round after it landed  positive fires True · null reproduces and artifact control passes True · Δ(L0) +0.2620 → Δ(L2) +0.2596 (retained 0.991, z +15.59) ⇒ W_WRONGED   尺:partition contrast Δ at L2, against its own within-group permutation null,其自身噪声 0.0109744 · 总体:GSS ballot 1, n=14847, 21 waves 1988-2024, 80 wave x cohort cells · 方向:一致 · 控制总体:4/4 条已命名,**4 条与判据不同** ['⚠⚠ SYNTHETIC-ARTIFACT DOSE-R', "⚠ the confound is not 'equal", '⚠ ESTIMAND CHANGED FROM `#94', 'the whole specification grid']  ⚠ **控制的总体 ≠ 主张的总体** —— **它证明的是另一群人身上的仪器**(`#866`①)(⚠ 比对只发生在此刻,之后声明的控制行不会被比到)   (asserted in code, not in prose)
+   => ALL GATES PASS
+
+VERDICT           : CONFIRMED · world W_WRONGED
+
+wrote /home/ivan/research.psychology.eroticization-operator.operate.md.private.editable/E03_what_an_instrument_would_have_to_be/A126_is_the_two_layer_structure_general/R386_is_the_partition_a_pooling_artifact/results/is_the_partition_a_pooling_artifact.json

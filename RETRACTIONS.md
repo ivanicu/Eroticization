@@ -48201,3 +48201,76 @@ partition structure** — I reported its 12 below-null cells as a list and never
 form a block, which is exactly the question that turned out to carry this round. `#949`③ **`#948`②
 remains open for A114–A116**, whose nulls have not been read from their artifacts; `#936`'s is flat
 and that is one headline of several.
+
+## Entry 950 · `E03·A126·R386` — I built the confound's world and it pushes the other way
+
+**`#949`① — and this round exists because `#949` understated its own rival.** `#949` registered the
+alternative reading as *"equally available"*. Read from `#941`'s **artifact**, the four items' raw
+trends per decade are `homosex` **+0.4056** · `premarsx` **+0.1827** · `teensex` **+0.1566** ·
+`xmarsex` **+0.0567** — so **the two fastest-moving items are exactly `{premarsx, homosex}` and the
+two slowest exactly `{teensex, xmarsex}`**, `#949`'s clusters with no remainder. Person-centring
+removes a respondent's LEVEL and not their PROFILE, so pooling 21 waves looked certain to manufacture
+the 2+2 partition. **The rival did not merely coexist with the finding; it appeared to entail it.**
+
+**The partition does not move.** Δ = mean r over the 2 within-cluster pairs minus mean r over the 4
+crossing pairs, with centring done **inside** each grouping:
+
+| level | Δ | its null | z | groups |
+|---|---|---|---|---|
+| L0 pooled | **+0.2620** | +0.0972 ± 0.0105 | +15.66 | 1 |
+| L1 within wave | +0.2605 | +0.0919 ± 0.0110 | +15.33 | 21 |
+| **L2 within wave × cohort band** | **+0.2596** | +0.0885 ± 0.0110 | **+15.59** | **80 cells**, n 1–594 |
+
+**Δ(L2)/Δ(L0) = 0.991.** Removing both the wave's and the birth cohort's item profile takes off
+**less than one percent**. All **21 of 21 cells survive BH**; the specification curve gives
+**signs 6/6** at every level under both centrings.
+
+**⚠⚠⚠ AND THE SYNTHETIC WORLD REFUTES MY OWN CONFOUND ARGUMENT — IN SIGN.** I built the rival:
+structureless permuted data plus **only** `#941`'s measured differential drift, at six doses.
+
+| m × the measured drift | Δ at L0 |
+|---|---|
+| 0 | +0.1001 |
+| **1 (the drift the world actually shows)** | **+0.0892** |
+| 3 | +0.0689 |
+| 10 | −0.0233 |
+| 100 | **−0.2092** |
+
+**More drift drives the contrast DOWN.** The instrument sees the artifact plainly (two-sided, from
+m≥3), so this is not blindness — the artifact simply has **the opposite sign** from the finding.
+
+**Why, and it is the part I could not have reasoned to.** A person-centred residual carries each
+item's **deviation from the MEAN trend** (+0.2004), not its rank: `homosex` **+0.2052**, `premarsx`
+**−0.0177**, `teensex` −0.0438, `xmarsex` −0.1437. **`premarsx` sits essentially AT the mean while
+`homosex` is far above it**, so differential drift separates *homosex from the other three* — a
+1-vs-3 structure orthogonal to `#949`'s 2+2, pushing Δ negative. **I grouped the items by rank of
+trend; the artifact is driven by deviation from the mean trend. Arguing produced a confound that
+looked airtight and was wrong in sign. Building the world was the only thing that could show it.**
+
+**VERDICT: `CONFIRMED` · `W_WRONGED`.** Controls: positive sweep `+0.0862 → +0.4439 → +0.6933 →
++0.8578` with `g=0` **0.21 spreads** from the L2 null; the within-group item-label permutation null
+reproduces across two independent draws to **0.0008** against a departure of 0.171; sensitivity
+demonstrated at m≥3 and the measured dose invisible.
+
+**⚠ TWO OF MY OWN CONTROLS FAILED FIRST, BOTH IN THE SAME CONTROL.** ① v1 demanded the artifact be
+visible **at the measured drift**, and refused the round when it was not — conflating *"the artifact
+is small"* with *"the instrument is blind"*, which is `#916`③'s family for the fifth consecutive
+round. ② The repair then tested visibility **one-sided**, and called the instrument blind while it
+was reading the artifact at −0.2092. **Sensitivity asks whether the instrument can see the artifact,
+not whether it can see one in the direction I predicted.** Both were caught by the gate refusing the
+round, neither by me.
+
+**ONE SENTENCE ABOUT PEOPLE.** The two camps are not an accident of stacking three decades together:
+**they hold inside a single survey wave among people born in the same span**, so how a person sorts
+premarital and same-sex relations away from teenage and extramarital sex really is something about
+that person, and not a shadow of how the country changed around them.
+
+**NEXT** — `#950`① **the interpretation is still untested and is now the only thing left**: "consenting
+adults vs a wronged party" versus any other reading of the same two blocks. The drift rival is dead;
+what would separate the remaining readings is a **fifth item** whose harm-structure and trend point
+opposite ways, and GSS's `abany`/`abnomore` or `pornlaw` may do it — HARD RULE 1 first, n and years.
+`#950`② ⚠ **`#916`③ has now fired five rounds running and every instance was inside a control**; the
+class is not "I write bad controls" but **"I write controls that test the property I was expecting
+rather than the property the design needs"**, and `#948`①'s gate proposal must be worded against that
+sentence, not against the symptom. `#950`③ **`#949`② is still owed** — re-read `#945`'s 12 below-null
+tolerance cells for block structure, which is the same question that carried both these rounds.
